@@ -21,13 +21,16 @@ const BELGE = arg("--belge", null);
 const EDGE = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
 
 // Belge → çıktı adları (eski hattın adları; 04_PDF sıralaması korunur)
+// (anahtar = çıktı adı; doc = content/<doc>.json). Aynı belge iki sürüm üretebilir (öğrenci / eğitmen).
 const CIKTI = {
-  "kitapcik":       { html: "kitapcik.html",                         pdf: "01_Kurs_Kitapcigi_Egitmen_Kilavuzu.pdf", egitmen: true },
-  "yapraklar":      { html: "yapraklar.html",                        pdf: "02_Ogrenci_Calisma_Yapraklari.pdf",      egitmen: false },
-  "tamga-albumu":   { html: "03_Tamga_Albumu_Harf_Kartlari.html",    pdf: "03_Tamga_Albumu_Harf_Kartlari.pdf",      egitmen: false },
-  "irkbitig-foyu":  { html: "04_Irk_Bitig_Okuma_Foyu.html",          pdf: "04_Irk_Bitig_Okuma_Foyu.pdf",            egitmen: false },
-  "ek-uniteler":    { html: "05_Ek_Uniteler_Foyu.html",              pdf: "05_Ek_Uniteler_Foyu.pdf",                egitmen: false },
-  "degerlendirme":  { html: "06_Degerlendirme_Seti.html",            pdf: "06_Degerlendirme_Seti.pdf",              egitmen: true },
+  "kitapcik":       { doc: "kitapcik",      html: "kitapcik.html",                         pdf: "01_Kurs_Kitapcigi_Egitmen_Kilavuzu.pdf", egitmen: true },
+  "yapraklar":      { doc: "yapraklar",     html: "yapraklar.html",                        pdf: "02_Ogrenci_Calisma_Yapraklari.pdf",      egitmen: false },
+  "tamga-albumu":   { doc: "tamga-albumu",  html: "03_Tamga_Albumu_Harf_Kartlari.html",    pdf: "03_Tamga_Albumu_Harf_Kartlari.pdf",      egitmen: false },
+  "irkbitig-foyu":  { doc: "irkbitig-foyu", html: "04_Irk_Bitig_Okuma_Foyu.html",          pdf: "04_Irk_Bitig_Okuma_Foyu.pdf",            egitmen: false },
+  "ek-uniteler":    { doc: "ek-uniteler",   html: "05_Ek_Uniteler_Foyu.html",              pdf: "05_Ek_Uniteler_Foyu.pdf",                egitmen: false },
+  "degerlendirme":  { doc: "degerlendirme", html: "06_Degerlendirme_Seti.html",            pdf: "06_Degerlendirme_Seti.pdf",              egitmen: true },
+  "sinav":          { doc: "yedigun-4",     html: "07_Bitirme_Sinavi.html",                pdf: "07_Bitirme_Sinavi.pdf",                  egitmen: false },
+  "sinav-cevap":    { doc: "yedigun-4",     html: "07b_Bitirme_Sinavi_Cevap_Anahtari.html", pdf: "07b_Bitirme_Sinavi_Cevap_Anahtari.pdf", egitmen: true },
 };
 
 const OUT_HTML = P("build/baski/html");
@@ -66,7 +69,7 @@ if (HEDEF === "slayt") {
 const belgeler = Object.keys(CIKTI).filter((id) => !BELGE || id === BELGE);
 
 for (const id of belgeler) {
-  const doc = JSON.parse(fs.readFileSync(P("content", id + ".json"), "utf8"));
+  const doc = JSON.parse(fs.readFileSync(P("content", CIKTI[id].doc + ".json"), "utf8"));
   kapi.belgeDenetle(doc);
   let html = belgeCiz(doc, { kapi, egitmen: CIKTI[id].egitmen });
   const r = kapi.ciktiDenetle(html, id);

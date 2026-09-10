@@ -17,7 +17,7 @@ engine/build.mjs        build → build/baski/html → Edge headless → 04_PDF/
 
 ```bash
 npm run kapi            # yalnız denetim
-npm run build           # baskı: 6 PDF → 04_PDF/
+npm run build           # baskı: 8 PDF → 04_PDF/ (6 belge + 07 sınav kâğıdı + 07b cevap anahtarı; sınav kaynağı content/yedigun-4.json)
 npm run build:slayt     # tur=yedigun belgeler → build/slayt/*.html (+ .pdf, her slayt bir 16:9 sayfa)
 node engine/build.mjs --sadece-html --diff   # HTML üret, eski Python çıktısıyla karşılaştır
 node engine/build.mjs --belge kitapcik       # tek belge
@@ -25,6 +25,12 @@ npm run orhun-db        # 05_Kaynak_DB/ham/turkbitig/*.html → orhun-db-v1.json
 ```
 
 Kapıdan geçmeyen içerik üretilmez. Hata mesajı hangi belge › bölüm › blok olduğunu söyler.
+
+## İçerik envanteri
+
+- `content/yedigun-1..4.json` — 4 Yedigün slayt içeriği (95 slayt); Yedigün 4 = atölye + sayılar + 12 soruluk sertifika sınavı
+- `content/kitapcik|yapraklar|tamga-albumu|irkbitig-foyu|ek-uniteler|degerlendirme.json` — baskı seti (Python hattından göç)
+- `content/gorsel/` — doğrulanmış görseller + `KAYNAK.md` provenance
 
 ## Kurallar
 

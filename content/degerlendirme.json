@@ -9,7 +9,7 @@
    "id": "gokturkce-temel-okuma-yazma-kursu-bilgi-yarismasi",
    "kicker": "BÖLÜM 1 · ÖĞRENCİ VERSİYONU",
    "baslik": "Göktürkçe Temel Okuma-Yazma Kursu Bilgi Yarışması",
-   "ozet": "4 haftalık eğitimde edinilen bilgileri pekiştiren 10 soruluk değerlendirme.",
+   "ozet": "4 haftalık eğitimde edinilen bilgileri pekiştiren 10 soruluk formatif değerlendirme. Sertifika sınavı (12 soru) ayrı belgedir: 07_Bitirme_Sinavi.",
    "bloklar": [
     {
      "type": "prose",
@@ -65,11 +65,5 @@
     }
    ]
   }
- ],
- "sinav": {
-  "soruSayisi": 12,
-  "esik": 60,
-  "puanEsit": true,
-  "devamOrani": 80
- }
+ ]
 }

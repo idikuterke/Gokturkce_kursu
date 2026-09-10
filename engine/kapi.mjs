@@ -87,6 +87,11 @@ export async function kapiHazirla() {
         if (k.type === "tamga-grid" && k.grup !== "*" && !tamgalar.gruplar.some((g) => g.id === k.grup))
           hata(`[${yer}] bilinmeyen tamga grubu '${k.grup}'`);
       }));
+    // Sertifika sınavı: sinav tanımlıysa rol=sertifika quiz sayısı soruSayisi'na eşit olmalı
+    if (doc.sinav) {
+      const n = (doc.bolumler ?? []).flatMap((b) => b.bloklar ?? []).filter((k) => k.type === "quiz" && k.rol === "sertifika").length;
+      if (n !== doc.sinav.soruSayisi) hata(`[${ad}] SINAV: ${n} sertifika sorusu var, ${doc.sinav.soruSayisi} olmalı`);
+    }
     // İçerik metnindeki tamgalar da kaynak kümesinde olmalı (prose/html içine elle yazılanlar dâhil)
     return tamgaDenetle(tumMetin(doc).join(""), ad);
   }
