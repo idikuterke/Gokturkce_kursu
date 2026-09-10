@@ -1,9 +1,9 @@
 # Tekin OTG 2003 dijitalleştirme — ilerleme kütüğü (orkestratör: Claude Code)
-Son güncelleme: 2026-09-11 02:50
+Son güncelleme: 2026-09-11 02:53
 
 ## Durum
-- Transkribe edilen sayfa: 250 / 273 (02:50)
-- Eksik idx: 101 102 103 104 105 106 107 139 140 141 142 143 144 145 146 147 148 149 173 174 175 176 177 178 179 183 184 185 186 187 188 189 190 191 192 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 
+- Transkribe edilen sayfa: 261 / 273 (02:53)
+- Eksik idx: 186 187 188 189 190 191 192 235 236 237 238 239 
 - Çalışan uygulayıcılar (Claude Code, 4 paralel): A 021-029+076-089+096-107 · B 109-119+126-149 · C 153-179+183-192 · D 193-209+213-239
 - İkinci sistem (kullanıcının diğer ajanı) da aynı klasöre yazıyor; kural: var olan dosyayı ATLA, üzerine yazma.
 
@@ -23,3 +23,4 @@ Son güncelleme: 2026-09-11 02:50
 ## Tamamlanan
 - 2026-09-11 gece: pilot s.44/52/108; Ata 2011 + Tanyeri txt (commit c580d6d); ilk tur 122 sayfa (429 limitiyle kesildi); ikinci tur 4 parti başlatıldı.
 - Parti A bitti (34 sf, [?] yok). Kılavuz için notlar: s025 §5 sözbaşı uzun ā yalnız āç/āç-/āt; s026 §8 sözbaşı ı/i daima yazılır; s027 §10 tāmka tek örnek; s028 §11 Yenisey kapalı ē (bēl, bēş, yēti); s077 §141 baŋa/saŋa kaynaşması; s106 §255 +nIŋ dudak uyumu dışı.
+- Parti B bitti (35 sf, [?] yok). Kılavuz notları: §261-262 +(I)n uyumsuz, +nI marjinal (koragıŋnı, kunı) → kitapçıktaki "+nı = n²" iddiası gözden geçirilecek; §269 araç eki +(X)n dudak uyumuna UYAR (okun) — belirtme +(I)n ile karıştırılmamalı; §265 +DA dağılımı (r/l/n sonrası +tA); §280-282 çift biçimler (bıŋ~biŋ~miŋ, beş~biş, yeti~yiti).
