@@ -80,6 +80,8 @@ table.tablo{border-collapse:collapse;width:100%;font-size:2.6vh} .tablo th{color
 .s-etiket{font-size:1.9vh;letter-spacing:.18em;text-transform:uppercase;color:var(--sonuk)} .s-deger{font-family:var(--serif);font-size:6vh;color:#fff;margin-top:1vh}
 .s-karar{font-family:var(--serif);font-size:4.2vh;margin:2vh 0 1vh} .s-karar.gecti{color:var(--yesil)} .s-karar.kaldi{color:var(--kirmizi)} .s-karar.bekliyor{color:var(--metin2)}
 .s-sifirla{align-self:flex-start;margin-top:2vh;background:transparent;color:var(--sonuk);border:1px solid var(--cizgi);border-radius:6px;padding:1vh 2vh;font:inherit;font-size:2vh;cursor:pointer} .s-sifirla:hover{color:var(--kirmizi);border-color:var(--kirmizi)}
+.s-form{display:flex;gap:1.5vw;align-items:center;flex-wrap:wrap;margin-top:2vh} .s-form input{background:var(--panel);color:#fff;border:1px solid var(--cizgi);border-radius:6px;padding:1.2vh 1.6vh;font:inherit;font-size:2.3vh;min-width:22vw} .s-form input:focus{outline:none;border-color:var(--turkuaz)}
+.s-gonder{background:var(--turkuaz);color:#062024;border:0;border-radius:6px;padding:1.3vh 2.4vh;font:inherit;font-size:2.3vh;font-weight:600;cursor:pointer} .s-gonder:disabled{opacity:.4;cursor:default} .s-mail{color:var(--metin2);font-size:2.1vh} .s-iletim.ok{color:var(--yesil)} .s-iletim.no{color:var(--kirmizi)}
 /* gövde dışı */
 .alt-bant{position:absolute;left:0;right:0;bottom:0;height:5vh;display:flex;align-items:center;justify-content:space-between;padding:0 7vw;font-size:1.7vh;color:var(--sonuk);letter-spacing:.1em}
 .ilerleme{position:absolute;left:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--turkuaz),var(--mavi));width:0;transition:width .25s}
@@ -188,15 +190,28 @@ function blokSlayt(k, ctx, idx) {
 // Arayüz: init(kimlik) · cevap(soruId, dogruMu, rol) · slayt(n) · setScore(raw,max) · complete(gecti) · durum() · sifirla()
 const TRACKER_JS = `
 window.GKTracker=(function(){
-  var mode='none',key,st={cevaplar:{},slayt:0};
+  var cfg=document.body.dataset,mode=cfg.sonucUrl?'web':'none',key,st={cevaplar:{},slayt:0},kuyrukKey;
   function kaydet(){try{localStorage.setItem(key,JSON.stringify(st))}catch(e){}}
+  function cihaz(){try{var c=localStorage.getItem('gk:cihaz');if(!c){c=Math.random().toString(36).slice(2,10)+Date.now().toString(36);localStorage.setItem('gk:cihaz',c)}return c}catch(e){return'?'}}
+  function paket(ek){var ids=Object.keys(st.cevaplar).filter(function(k){return st.cevaplar[k].rol==='sertifika'});
+    return Object.assign({kurs:'gokturkce-ogrenegi',modul:cfg.doc,puan:st.puan?st.puan.raw:null,dogru:ids.filter(function(k){return st.cevaplar[k].d}).length,soru:ids.length,gecti:!!(st.tamam&&st.tamam.gecti),
+      cevaplar:Object.fromEntries(ids.map(function(k){return[k,{d:st.cevaplar[k].d,i:st.cevaplar[k].i}]})),cihaz:cihaz(),surum:cfg.surum||'',tarih:new Date().toISOString()},ek||{})}
+  function gonder(veri){return fetch(cfg.sonucUrl,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(veri),keepalive:true}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()})}
+  function kuyrukIsle(){try{var q=JSON.parse(localStorage.getItem(kuyrukKey)||'[]');if(!q.length)return;gonder(q[0]).then(function(){q.shift();localStorage.setItem(kuyrukKey,JSON.stringify(q));if(q.length)kuyrukIsle()}).catch(function(){})}catch(e){}}
   return {
     mode:mode,
-    init:function(kimlik){key='gk:'+kimlik;try{var v=localStorage.getItem(key);if(v)st=JSON.parse(v)}catch(e){}return st},
+    init:function(kimlik){key='gk:'+kimlik;kuyrukKey='gk:kuyruk:'+kimlik;try{var v=localStorage.getItem(key);if(v)st=JSON.parse(v)}catch(e){}if(mode==='web')kuyrukIsle();return st},
     cevap:function(id,dogru,rol,secim){st.cevaplar[id]={d:dogru?1:0,i:secim,rol:rol,t:Date.now()};kaydet()},
     slayt:function(n){st.slayt=n;kaydet()},
     setScore:function(raw,max){st.puan={raw:raw,max:max,t:Date.now()};kaydet()},
     complete:function(gecti){st.tamam={gecti:gecti,t:Date.now()};kaydet()},
+    // Sonucu eğitmene ilet (web modu). ek: {ad, eposta, not}. Ağ yoksa kuyruğa alınır, sonraki açılışta yeniden denenir.
+    ilet:function(ek){var v=paket(ek);st.iletim={durum:'gonderiliyor',t:Date.now()};kaydet();
+      if(mode!=='web')return Promise.reject(new Error('web modu kapalı'));
+      return gonder(v).then(function(){st.iletim={durum:'iletildi',t:Date.now()};kaydet()}).catch(function(e){
+        try{var q=JSON.parse(localStorage.getItem(kuyrukKey)||'[]');q.push(v);localStorage.setItem(kuyrukKey,JSON.stringify(q))}catch(x){}
+        st.iletim={durum:'kuyrukta',t:Date.now(),hata:String(e)};kaydet();throw e})},
+    epostaGovde:function(ek){var v=paket(ek);return 'Göktürkçe Öğreneği sınav sonucu\\n\\nAd: '+(v.ad||'')+'\\nModül: '+v.modul+'\\nPuan: '+v.puan+'/100 ('+v.dogru+'/'+v.soru+' doğru) — '+(v.gecti?'GEÇTİ':'KALDI')+'\\nTarih: '+v.tarih+'\\nCihaz: '+v.cihaz+'\\n\\nCevaplar: '+JSON.stringify(v.cevaplar)},
     durum:function(){return st},
     sifirla:function(){st={cevaplar:{},slayt:0};kaydet()}
   };
@@ -224,6 +239,8 @@ const JS = `
     if(!bitti){k.textContent='Sınav tamamlanmadı — kalan '+(n-c)+' soru';k.className='s-karar bekliyor'}
     else if(gecti){k.textContent='GEÇTİ — eşik '+SINAV.esik+'/100';k.className='s-karar gecti';T.setScore(puan,100);T.complete(true)}
     else{k.textContent='KALDI — eşik '+SINAV.esik+'/100 · bir sonraki kurda ücretsiz tekrar';k.className='s-karar kaldi';T.setScore(puan,100);T.complete(false)}
+    var gb=el.querySelector('.s-gonder');if(gb)gb.disabled=!bitti;
+    var il=el.querySelector('.s-iletim');if(il&&!il.textContent&&st.iletim){il.textContent=st.iletim.durum==='iletildi'?'✓ Daha önce iletildi ('+new Date(st.iletim.t).toLocaleString('tr-TR')+').':st.iletim.durum==='kuyrukta'?'Gönderim kuyrukta — bağlantı olunca denenecek.':'';il.className='s-iletim not '+(st.iletim.durum==='iletildi'?'ok':'')}
     var yanlis=ids.filter(function(id){return st.cevaplar[id]&&!st.cevaplar[id].d});
     el.querySelector('.s-yanlis').textContent=yanlis.length?'Yanlış cevaplanan: '+yanlis.map(function(id){return document.querySelector('[data-qid="'+id+'"] .kicker').textContent.split('·').slice(1).join('·').trim()}).join(' · '):''}
   function go(n){i=Math.max(0,Math.min(s.length-1,n));s.forEach(function(e,j){e.classList.toggle('aktif',j===i)});bar.style.width=((i+1)/s.length*100)+'%';if(say)say.textContent=(i+1)+' / '+s.length;location.hash=i+1;T.slayt(i)}
@@ -238,6 +255,13 @@ const JS = `
   document.addEventListener('click',function(e){
     var b=e.target.closest('.secenek');
     if(b){var q=b.closest('.quiz');if(q.dataset.bitti)return;isaretle(q,+b.dataset.i,true);return}
+    if(e.target.closest('.s-gonder')){var so=document.querySelector('.sonuc'),ad=so.querySelector('.s-ad').value.trim(),ep=so.querySelector('.s-eposta').value.trim(),il=so.querySelector('.s-iletim');
+      if(!ad){il.textContent='Lütfen adınızı yazın.';il.className='s-iletim not no';so.querySelector('.s-ad').focus();return}
+      il.textContent='Gönderiliyor…';il.className='s-iletim not';
+      T.ilet({ad:ad,eposta:ep}).then(function(){il.textContent='✓ Sonuç eğitmene iletildi ('+new Date().toLocaleString('tr-TR')+').';il.className='s-iletim not ok'})
+        .catch(function(){il.textContent='Şu an gönderilemedi; kuyruğa alındı, bağlantı olunca otomatik denenecek. İsterseniz e-posta ile de gönderin.';il.className='s-iletim not no'});return}
+    if(e.target.closest('.s-mail')){e.preventDefault();var so2=document.querySelector('.sonuc'),ad2=so2.querySelector('.s-ad').value.trim();
+      location.href='mailto:'+document.body.dataset.eposta+'?subject='+encodeURIComponent('Göktürkçe Öğreneği sınav sonucu — '+(ad2||'adsız'))+'&body='+encodeURIComponent(T.epostaGovde({ad:ad2}));return}
     if(e.target.closest('.s-sifirla')){if(confirm('Bu modüldeki tüm cevaplar silinsin mi?')){T.sifirla();location.hash='';location.reload()}return}
     if(e.target.closest('.ornek')){adim();return}
     if(e.target.closest('button,a,input'))return;
@@ -247,11 +271,15 @@ const JS = `
   var h=parseInt(location.hash.slice(1),10);go(isNaN(h)?(st.slayt||0):h-1);
 })();`;
 
-function sonucSlayt(doc) {
+function sonucSlayt(doc, ctx) {
+  const web = !!ctx.sonucUrl, ep = ctx.egitmenEposta;
   return `<div class="govde sonuc"><div class="kicker">Sertifika sınavı sonucu</div><h2>${esc(doc.baslik.split("—")[0].trim())} — Değerlendirme</h2>` +
     `<div class="s-kutu"><div><div class="s-etiket">Cevaplanan</div><div class="s-cevap s-deger"></div></div><div><div class="s-etiket">Doğru</div><div class="s-dogru s-deger"></div></div><div><div class="s-etiket">Puan / 100</div><div class="s-puan s-deger"></div></div></div>` +
     `<div class="s-karar"></div><div class="s-yanlis not"></div>` +
-    `<p class="not">Geçme: ${doc.sinav.esik}/100 · %${doc.sinav.devamOrani ?? 80} devam koşuluyla sertifikaya hak kazanılır. Sonuç bu tarayıcıda saklanır; ekran görüntüsünü eğitmene iletin.</p>` +
+    `<div class="s-form"><input class="s-ad" type="text" placeholder="Adınız Soyadınız" maxlength="120"><input class="s-eposta" type="email" placeholder="E-posta (isteğe bağlı)" maxlength="120">` +
+    (web ? `<button class="s-gonder">Sonucu eğitmene gönder</button>` : "") +
+    (ep ? `<a class="s-mail" href="#">E-posta ile gönder</a>` : "") + `</div><div class="s-iletim not"></div>` +
+    `<p class="not">Geçme: ${doc.sinav.esik}/100 · %${doc.sinav.devamOrani ?? 80} devam koşuluyla sertifikaya hak kazanılır.${web ? " Gönderilen sonuç eğitmene ulaşır; ağ yoksa bir sonraki açılışta otomatik yeniden denenir." : " Sonuç bu tarayıcıda saklanır."}</p>` +
     `<button class="s-sifirla">Cevapları sıfırla</button></div>`;
 }
 
@@ -263,11 +291,11 @@ export function slaytCiz(doc, ctx) {
   for (const b of doc.bolumler)
     for (const k of b.bloklar.filter((k) => k.targets.includes("slayt")))
       slaytlar.push({ bolum: b, blok: k });
-  if (doc.sinav) slaytlar.push({ bolum: { kicker: "SONUÇ", baslik: "Sertifika Sınavı" }, html: sonucSlayt(doc) });
+  if (doc.sinav) slaytlar.push({ bolum: { kicker: "SONUÇ", baslik: "Sertifika Sınavı" }, html: sonucSlayt(doc, ctx) });
   const n = slaytlar.length;
   const body = slaytlar.map((s, i) =>
     `<section class="slayt${i === 0 ? " aktif" : ""}" data-n="${i + 1}">${i === 0 ? "" : ust(doc, s.bolum, i + 1, n)}${s.html ?? blokSlayt(s.blok, ctx, i)}` +
     `<div class="alt-bant"><span>Göktürkçe Okuma-Yazma Öğreneği · İbrahim (Bayram) Bilir</span><span>${esc(doc.altbaslik ?? "")}</span></div></section>`).join("\n");
   return `<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(doc.baslik)}</title><style>${CSS}</style></head>` +
-    `<body data-doc="${esc(doc.id)}"${doc.sinav ? ` data-sinav='${JSON.stringify(doc.sinav)}'` : ""}><div class="deck">${body}</div><div class="yardim">← → boşluk · F tam ekran</div><div class="ilerleme"></div><script>${TRACKER_JS}${JS}</script></body></html>`;
+    `<body data-doc="${esc(doc.id)}" data-surum="${esc(doc.surum)}"${ctx.sonucUrl ? ` data-sonuc-url="${esc(ctx.sonucUrl)}"` : ""}${ctx.egitmenEposta ? ` data-eposta="${esc(ctx.egitmenEposta)}"` : ""}${doc.sinav ? ` data-sinav='${JSON.stringify(doc.sinav)}'` : ""}><div class="deck">${body}</div><div class="yardim">← → boşluk · F tam ekran</div><div class="ilerleme"></div><script>${TRACKER_JS}${JS}</script></body></html>`;
 }

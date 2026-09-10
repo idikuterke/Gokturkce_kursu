@@ -40,6 +40,15 @@ Kapıdan geçmeyen içerik üretilmez. Hata mesajı hangi belge › bölüm › 
 - Sertifika sınavı olan belgede (`sinav` alanı) son slayt otomatik **sonuç ekranı**: cevaplanan / doğru / puan, GEÇTİ–KALDI (eşik 60), yanlış konular, sıfırlama.
 - Eğitmen kılavuzu ve cevap anahtarı pakete girmez.
 
+### Sonuçların eğitmene ulaşması (tracker web modu)
+
+1. Sunucu: `SONUC_TOKEN=<gizli-parola> node engine/sonuc-sunucu.mjs` (PORT varsayılan 8787). Sıfır bağımlılık; `data/sonuclar.jsonl`'e yazar.
+   Pano: `http://<host>/sonuclar?token=<parola>` · CSV: `/sonuclar.csv?token=…` · sağlık: `/api/saglik`.
+   Barındırma: Render/Railway'de aynı komut (`PORT` otomatik). **Ücretsiz Render diski kalıcı değildir** — `SONUC_DIR`'i kalıcı diske bağlayın ya da kendi VPS'inizde çalıştırın.
+2. Slaytları web moduyla derleyin: `node engine/build.mjs --hedef slayt --sonuc-url https://<host>/api/sonuc --eposta <eğitmen>` (veya `GK_SONUC_URL`, `GK_EPOSTA` ortam değişkenleri), sonra `node engine/paket.mjs`.
+3. Kursiyer sonuç ekranında adını yazar → **Sonucu eğitmene gönder**. Ağ yoksa kuyruğa alınır, sonraki açılışta otomatik yeniden denenir. `--eposta` verildiyse **E-posta ile gönder** yedeği (mailto, gövde hazır) da görünür.
+   Kayıt: ad, e-posta, puan, doğru/soru, karar, 12 cevap, cihaz kimliği, sürüm. Gelen her alan sunucuda kırpılır/doğrulanır.
+
 ## Kurallar
 
 - Runik metin **yalnız** kaynaklardan gelir. `metin-ref` DB'ye işaret eder; `tamga-grid` / `tamga-pair` kod noktasından (`cp`) çizer. Prose içine elle tamga yazılabilir ama kapı onu da kaynak kümesine karşı denetler.

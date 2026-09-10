@@ -4,6 +4,8 @@
 //   --sadece-html   : PDF üretme
 //   --diff          : üretilen HTML'i 03_Tasarim/html/ içindeki eski Python çıktısıyla karşılaştır (regresyon)
 //   --belge id      : yalnız bir belge
+//   --sonuc-url U   : slaytlarda tracker web modu (sonuçlar U'ya POST) — veya GK_SONUC_URL ortam değişkeni
+//   --eposta E      : sonuç ekranında 'E-posta ile gönder' yedeği — veya GK_EPOSTA
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
@@ -18,6 +20,8 @@ const HEDEF = arg("--hedef", "baski");
 const SADECE_HTML = process.argv.includes("--sadece-html");
 const DIFF = process.argv.includes("--diff");
 const BELGE = arg("--belge", null);
+const SONUC_URL = arg("--sonuc-url", process.env.GK_SONUC_URL ?? null);   // tracker web modu: sonuçların POST edileceği uç
+const EPOSTA = arg("--eposta", process.env.GK_EPOSTA ?? null);          // e-posta yedeği (mailto)
 const EDGE = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
 
 // Belge → çıktı adları (eski hattın adları; 04_PDF sıralaması korunur)
@@ -48,7 +52,7 @@ if (HEDEF === "slayt") {
   for (const id of ids) {
     const doc = JSON.parse(fs.readFileSync(P("content", id + ".json"), "utf8"));
     kapi.belgeDenetle(doc);
-    const html = slaytCiz(doc, { kapi });
+    const html = slaytCiz(doc, { kapi, sonucUrl: SONUC_URL, egitmenEposta: EPOSTA });
     const r = kapi.ciktiDenetle(html, id);
     const h = kapi.sonuc();
     if (h.length) { hata = true; console.error(`✗ ${id}\n  ` + h.join("\n  ")); continue; }
