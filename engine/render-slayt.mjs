@@ -16,6 +16,8 @@ function gorselUri(src) {
   const mime = /\.png$/i.test(p) ? "image/png" : /\.svg$/i.test(p) ? "image/svg+xml" : "image/jpeg";
   return `data:${mime};base64,${fs.readFileSync(p).toString("base64")}`;
 }
+// Düz metin içindeki runik dizileri span.runic ile sarar (font + RTL garantisi)
+const runikSar = (s) => String(s).replace(/([\u{10C00}-\u{10C4F}][\u{10C00}-\u{10C4F}\s:∶]*[\u{10C00}-\u{10C4F}]|[\u{10C00}-\u{10C4F}])/gu, '<span class="runic">$1</span>');
 const kelimeler = (s) => s.split(/\s*:\s*/).map((k) => k.trim()).filter(Boolean);
 
 // ---------- Tema: "Bengü Gece" — koyu zemin, turkuaz/mavi ince şeritler, akademik ----------
@@ -170,7 +172,7 @@ function blokSlayt(k, ctx, idx) {
     case "ornek-kelime": return ornekKelime(k);
     case "quiz": return quiz(k, idx);
     case "metin-ref": return metinRef(k, ctx.kapi);
-    case "gorsel": return `<div class="govde"><figure><img src="${gorselUri(k.src)}" alt="${esc(k.alt)}">${k.altyazi ? `<figcaption>${k.altyazi}${k.kaynak ? ` <span class="kaynak">· ${esc(k.kaynak)}</span>` : ""}</figcaption>` : ""}</figure></div>`;
+    case "gorsel": return `<div class="govde"><figure><img src="${gorselUri(k.src)}" alt="${esc(k.alt)}">${k.altyazi ? `<figcaption>${runikSar(k.altyazi)}${k.kaynak ? ` <span class="kaynak">· ${esc(k.kaynak)}</span>` : ""}</figcaption>` : ""}</figure></div>`;
     case "alistirma": return `<div class="govde"><h3>${esc(k.yonerge)}</h3><ul>${k.maddeler.map((m) => `<li>${m.soruRunik ? `<span class="runic">${m.soruRunik}</span>` : esc(m.soru)} ➔ ________</li>`).join("")}</ul></div>`;
     default: throw new Error(`Slayt için bilinmeyen blok: ${k.type}`);
   }
