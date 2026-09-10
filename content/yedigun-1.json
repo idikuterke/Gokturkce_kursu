@@ -1,0 +1,74 @@
+{
+ "id": "yedigun-1",
+ "tur": "yedigun",
+ "baslik": "Yedigün 1 — Giriş, Tarihsel Arka Plan ve Temel Tamgalar",
+ "altbaslik": "Göktürkçe Okuma-Yazma Öğreneği · 2 ders saati (45 + 45 dk)",
+ "surum": "2026-09-10",
+ "kapak": {
+  "friz": "𐱅𐰭𐰼𐰃 · 𐰋𐰃𐰠𐰏𐰀 · 𐰴𐰍𐰣 · 𐱅𐰇𐰼𐰜",
+  "kicker": "Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi",
+  "meta": [
+   {"k": "EĞİTMEN", "v": "İbrahim (Bayram) BİLİR"},
+   {"k": "KAZANIM", "v": "Yön mantığı · 4 ünlü tamga · 20 kutuplu ünsüz tamga"}
+  ]
+ },
+ "bolumler": [
+  {
+   "id": "ders-1-tarihce",
+   "kicker": "I. DERS · 45 DK",
+   "baslik": "Tarihçe ve Yazım Mantığı",
+   "yedigun": 1,
+   "bloklar": [
+    {"type": "bolum-ayraci", "targets": ["slayt"], "baslik": "I. Ders — Tarihçe ve Yazım Mantığı", "altbaslik": "Keşif · Çözüm · Malzeme · Yön", "friz": "𐱅𐰭𐰼𐰃"},
+    {"type": "prose", "targets": ["slayt"], "id": "kesif", "html": "<h3>Keşif ve Çözüm Süreci</h3><ul><li>Göktürk Kağanlığı dönemi (<b>552–744</b>) — Türk adıyla kurulan ilk devlet; alfabe taşa kazındı.</li><li>Çözüm: Danimarkalı dilbilimci <b>Vilhelm Thomsen</b>, <b>15 Aralık 1893</b>.</li><li>İlk çözülen kelime: <b>Tengri</b> <span class=\"runic\">𐱅𐰭𐰼𐰃</span></li></ul>"},
+    {"type": "metin-ref", "targets": ["slayt"], "db": "orhun", "ref": "KT-G-1", "kelimeAralik": [0, 4], "baslik": "Kül Tigin Yazıtı · Güney yüzü · 1. dize (açılış)", "goster": ["runik", "transkripsiyon", "turkce"]},
+    {"type": "prose", "targets": ["slayt"], "id": "malzeme", "html": "<h3>Yazı Malzemesi ve Epigrafi</h3><table class=\"tablo\"><tr><th></th><th>Taş — Orhun</th><th>Kâğıt — Irk Bitig</th></tr><tr><td>Dönem</td><td>8. yüzyıl</td><td>9. yüzyıl</td></tr><tr><td>Araç</td><td>Keski · köşeli, geometrik hatlar</td><td>Fırça · yuvarlak, akıcı hatlar</td></tr><tr><td>Tür</td><td>Anıt (bengü taş)</td><td>Fal kitabı (el yazması)</td></tr></table>"},
+    {"type": "prose", "targets": ["slayt"], "id": "yon", "html": "<h3>Yazım Yönü</h3><p class=\"buyuk\">Sağdan sola <span class=\"ok\">⟵</span></p><p>Kelimeler arasına <b>iki nokta</b> konur: <span class=\"runic buyuk\">𐱅𐰭𐰼𐰃 : 𐱅𐰏</span></p><p class=\"not\">Okurken de sağdan başlarız. Bu slaytlarda bütün runik satırlar sağa yaslıdır.</p>"},
+    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 1, "rol": "formatif", "konu": "Yazım Yönü ve Kuralları",
+     "soru": "Göktürk (Orhun-Yenisey) yazısının orijinal yazım yönü nasıldır ve kelimeleri birbirinden ayırmak için hangi noktalama sembolü kullanılır?",
+     "secenekler": ["Soldan sağa — Boşluk ( )", "Sağdan sola — Üst üste iki nokta ( : )", "Yukarıdan aşağıya — Noktalı virgül ( ; )", "Soldan sağa — Kısa çizgi ( - )"],
+     "dogru": 1,
+     "geriBildirim": {"ok": "Sağdan sola yazılır; kelime ayırıcı iki noktadır.", "no": "Yazıtlarda satır sağdan başlar; kelimeleri ( : ) ayırır."}}
+   ]
+  },
+  {
+   "id": "ders-2-sesler",
+   "kicker": "II. DERS · 45 DK",
+   "baslik": "Sesler ve Kutupluluk Sistemi",
+   "yedigun": 1,
+   "bloklar": [
+    {"type": "bolum-ayraci", "targets": ["slayt"], "baslik": "II. Ders — Sesler ve Kutupluluk", "altbaslik": "4 ünlü tamga · 8 ses · kalın / ince ünsüz çiftleri", "friz": "𐰀 𐰃 𐰆 𐰇"},
+    {"type": "prose", "targets": ["slayt"], "id": "unlu-kural", "html": "<h3>Ünlü Tamgalar</h3><p>Göktürkçede <b>4 ünlü tamga, 8 sesi</b> karşılar. Hangi sesin okunacağını kelimenin ünlü uyumu belirler.</p>"},
+    {"type": "tamga-grid", "targets": ["slayt", "baski"], "grup": "unluler", "gorunum": "izgara"},
+    {"type": "prose", "targets": ["slayt"], "id": "kutupluluk", "html": "<h3>Kutuplu Ünsüzler — Kalınlık-İncelik</h3><p>Alfabenin en karakteristik kuralı: aynı ünsüz sesin <b>kalın ünlüler</b> için bir, <b>ince ünlüler</b> için başka bir tamgası vardır.</p><p class=\"not\">Kalın: a, ı, o, u · İnce: e, i, ö, ü</p>"},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "B", "kalin": {"cp": "U+10C09", "deger": "b¹ — kalın B"}, "ince": {"cp": "U+10C0B", "deger": "b² — ince B"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "D", "kalin": {"cp": "U+10C11", "deger": "d¹ — kalın D"}, "ince": {"cp": "U+10C13", "deger": "d² — ince D"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "G", "kalin": {"cp": "U+10C0D", "deger": "g¹ — kalın G"}, "ince": {"cp": "U+10C0F", "deger": "g² — ince G"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "K", "kalin": {"cp": "U+10C34", "deger": "k¹ — kalın K"}, "ince": {"cp": "U+10C1A", "deger": "k² — ince K"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "L", "kalin": {"cp": "U+10C1E", "deger": "l¹ — kalın L"}, "ince": {"cp": "U+10C20", "deger": "l² — ince L"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "N", "kalin": {"cp": "U+10C23", "deger": "n¹ — kalın N"}, "ince": {"cp": "U+10C24", "deger": "n² — ince N"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "R", "kalin": {"cp": "U+10C3A", "deger": "r¹ — kalın R"}, "ince": {"cp": "U+10C3C", "deger": "r² — ince R"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "S", "kalin": {"cp": "U+10C3D", "deger": "s¹ — kalın S"}, "ince": {"cp": "U+10C3E", "deger": "s² — ince S"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "T", "kalin": {"cp": "U+10C43", "deger": "t¹ — kalın T"}, "ince": {"cp": "U+10C45", "deger": "t² — ince T"}},
+    {"type": "tamga-pair", "targets": ["slayt"], "ses": "Y", "kalin": {"cp": "U+10C16", "deger": "y¹ — kalın Y"}, "ince": {"cp": "U+10C18", "deger": "y² — ince Y"}},
+    {"type": "tamga-grid", "targets": ["slayt", "baski"], "grup": "kutuplu", "gorunum": "tablo"},
+    {"type": "ornek-kelime", "targets": ["slayt", "baski"], "id": "tahta-ornekleri", "ornekler": [
+     {"latin": "ata", "runik": "𐱃𐰀", "aciklama": "t¹ + A/E ➔ ilk “a” kural gereği düşer, kalın t yazılır, son “a” korunur."},
+     {"latin": "ete", "runik": "𐱅𐰀", "aciklama": "t² + A/E ➔ ilk “e” düşer, ince t yazılır, son “e” korunur."},
+     {"latin": "tengri", "anlam": "Tanrı", "runik": "𐱅𐰭𐰼𐰃", "aciklama": "t² + ng + r² + I/İ ➔ ince ses uyumu."}
+    ]},
+    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 1, "rol": "formatif", "konu": "Ünlü Harf İmlası",
+     "soru": "Göktürkçe imla kurallarına göre kelime içindeki ve kelime sonundaki ünlü (sesli) harflerin yazımıyla ilgili en temel “tuzak” kural hangisidir?",
+     "secenekler": ["Kelime içindeki ünlüler her zaman yazılır, sonundakiler hiç yazılmaz.", "Tüm ünlü harfler kelimenin her yerinde eksiksiz yazılmak zorundadır.", "Kelime içindeki ilk hece dışındaki ünlüler çoğunlukla yazılmaz; ancak kelime sonundaki ünlüler her zaman yazılır.", "Sadece ince ünlü harfler yazılır, kalın ünlü harfler hiç yazılmaz."],
+     "dogru": 2,
+     "geriBildirim": {"ok": "Tasarruf kuralı + kelime sonu istisnası. 2. Yedigün'de ayrıntısıyla işlenecek.", "no": "İpucu: ata ➔ 𐱃𐰀 örneğine bakın — ilk “a” yok, son “a” var."}},
+    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 1, "rol": "formatif", "konu": "Kalın ve İnce Ünsüz Uyumu",
+     "soru": "“Börü” (kurt) kelimesindeki <b>B</b> harfi ile “Bodun” (millet) kelimesindeki <b>B</b> harfi neden Göktürk alfabesinde farklı tamgalarla yazılır?",
+     "secenekler": ["Kelimelerin anlamları farklı olduğu için.", "“Börü” ince ünlülü (ö, ü), “Bodun” kalın ünlülü (o, u) bir kelime olduğundan; ünsüz tamgalar kalın/ince uyumuna göre seçilir.", "“Börü” kelimesindeki B harfi kelimenin başında olduğu için.", "Tamamen yazanın kişisel tercihine bağlıdır, kuralı yoktur."],
+     "dogru": 1,
+     "geriBildirim": {"ok": "börü ➔ b² (ince), bodun ➔ b¹ (kalın).", "no": "Ünlülere bakın: ö/ü ince, o/u kalın."}},
+    {"type": "prose", "targets": ["slayt"], "id": "kapanis", "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>Sağdan sola · ( : ) ayırıcı</li><li>4 ünlü tamga = 8 ses</li><li>10 ünsüz × kalın/ince = 20 tamga</li><li>Kelime başı/içi kısa a/e yazılmaz; kelime sonu ünlü her zaman yazılır</li></ul><p class=\"not\">Gelecek Yedigün: imla tasarrufu, ligatürler, konum kısıtları.</p>"}
+   ]
+  }
+ ]
+}

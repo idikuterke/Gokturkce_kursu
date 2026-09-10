@@ -10,6 +10,7 @@ import { spawnSync } from "node:child_process";
 import { PDFDocument } from "pdf-lib";
 import { kapiHazirla, ROOT } from "./kapi.mjs";
 import { belgeCiz } from "./render-baski.mjs";
+import { slaytCiz } from "./render-slayt.mjs";
 
 const P = (...s) => path.join(ROOT, ...s);
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > -1 ? process.argv[i + 1] ?? true : d; };
@@ -34,8 +35,35 @@ const OUT_PDF = P("04_PDF");
 fs.mkdirSync(OUT_HTML, { recursive: true });
 
 const kapi = await kapiHazirla();
-const belgeler = Object.keys(CIKTI).filter((id) => !BELGE || id === BELGE);
 let hata = false;
+
+// ---------- SLAYT hedefi ----------
+if (HEDEF === "slayt") {
+  const OUT_S = P("build/slayt"); fs.mkdirSync(OUT_S, { recursive: true });
+  const ids = fs.readdirSync(P("content")).filter((f) => f.endsWith(".json") && f !== "tamgalar.json").map((f) => f.slice(0, -5))
+    .filter((id) => BELGE ? id === BELGE : JSON.parse(fs.readFileSync(P("content", id + ".json"), "utf8")).tur === "yedigun");
+  for (const id of ids) {
+    const doc = JSON.parse(fs.readFileSync(P("content", id + ".json"), "utf8"));
+    kapi.belgeDenetle(doc);
+    const html = slaytCiz(doc, { kapi });
+    const r = kapi.ciktiDenetle(html, id);
+    const h = kapi.sonuc();
+    if (h.length) { hata = true; console.error(`✗ ${id}\n  ` + h.join("\n  ")); continue; }
+    const htmlP = path.join(OUT_S, id + ".html");
+    fs.writeFileSync(htmlP, html, "utf8");
+    const nSlayt = (html.match(/<section class="slayt/g) || []).length;
+    console.log(`✓ slayt ${id.padEnd(12)} ${nSlayt} slayt | tamga ${r.farkli} | ${(html.length / 1024).toFixed(0)} KB → ${path.relative(ROOT, htmlP)}`);
+    if (SADECE_HTML) continue;
+    const pdfP = path.join(OUT_S, id + ".pdf"); if (fs.existsSync(pdfP)) fs.unlinkSync(pdfP);
+    const res = spawnSync(EDGE, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", `--user-data-dir=${path.join(process.env.TEMP ?? ROOT, "edge_gk_s_" + id)}`, `--print-to-pdf=${pdfP}`, `file:///${htmlP.replace(/\\/g, "/")}`], { timeout: 240000 });
+    if (res.status !== 0 || !fs.existsSync(pdfP)) { console.error("slayt PDF üretilemedi"); hata = true; continue; }
+    const pdf = await PDFDocument.load(fs.readFileSync(pdfP), { updateMetadata: false });
+    console.log(`  PDF ${id}.pdf sayfa ${pdf.getPageCount()} | ${(fs.statSync(pdfP).size / 1024).toFixed(0)} KB`);
+  }
+  process.exit(hata ? 1 : 0);
+}
+
+const belgeler = Object.keys(CIKTI).filter((id) => !BELGE || id === BELGE);
 
 for (const id of belgeler) {
   const doc = JSON.parse(fs.readFileSync(P("content", id + ".json"), "utf8"));

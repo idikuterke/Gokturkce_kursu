@@ -7,6 +7,7 @@
     "kapi": "node engine/kapi.mjs",
     "build": "node engine/build.mjs",
     "build:baski": "node engine/build.mjs --hedef baski",
+    "build:slayt": "node engine/build.mjs --hedef slayt",
     "orhun-db": "node engine/orhun_db_uret.mjs"
   },
   "dependencies": {

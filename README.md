@@ -9,7 +9,7 @@ content/tamgalar.json   47 tamga envanteri (kod noktası + ders değeri)
 05_Kaynak_DB/orhun-db-v1.json       214 dize (KT/BK/TY) ┘ runik metin içerik dosyasına elle yazılmaz
 engine/kapi.mjs         GÜVENLİK KAPISI (tek kopya): şema + tamga (kaynak ∧ Noto cmap) + metin-ref + targets
 engine/render-baski.mjs A4 baskı renderer (03_Tasarim/gokturk-baski.css)
-engine/render-slayt.mjs (sıradaki adım) slayt renderer → slayt-html | slayt-pdf
+engine/render-slayt.mjs Slayt renderer (koyu 'Bengü Gece' teması, gömülü font, tek dosya) → build/slayt/<id>.html + .pdf
 engine/build.mjs        build → build/baski/html → Edge headless → 04_PDF/
 ```
 
@@ -18,6 +18,7 @@ engine/build.mjs        build → build/baski/html → Edge headless → 04_PDF/
 ```bash
 npm run kapi            # yalnız denetim
 npm run build           # baskı: 6 PDF → 04_PDF/
+npm run build:slayt     # tur=yedigun belgeler → build/slayt/*.html (+ .pdf, her slayt bir 16:9 sayfa)
 node engine/build.mjs --sadece-html --diff   # HTML üret, eski Python çıktısıyla karşılaştır
 node engine/build.mjs --belge kitapcik       # tek belge
 npm run orhun-db        # 05_Kaynak_DB/ham/turkbitig/*.html → orhun-db-v1.json
