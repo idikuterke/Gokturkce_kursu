@@ -9,6 +9,13 @@ const P = (...s) => path.join(ROOT, ...s);
 const FONT_B64 = fs.readFileSync(P("03_Tasarim/fontlar/NotoSansOldTurkic-Regular.ttf")).toString("base64");
 const chr = (cp) => String.fromCodePoint(parseInt(cp.slice(2), 16));
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+// Görseller tek dosya ilkesi gereği base64 gömülür (JPEG/PNG). Yol repo köküne görelidir.
+function gorselUri(src) {
+  const p = path.isAbsolute(src) ? src : P(src);
+  if (!fs.existsSync(p)) throw new Error(`Görsel yok: ${src}`);
+  const mime = /\.png$/i.test(p) ? "image/png" : /\.svg$/i.test(p) ? "image/svg+xml" : "image/jpeg";
+  return `data:${mime};base64,${fs.readFileSync(p).toString("base64")}`;
+}
 const kelimeler = (s) => s.split(/\s*:\s*/).map((k) => k.trim()).filter(Boolean);
 
 // ---------- Tema: "Bengü Gece" — koyu zemin, turkuaz/mavi ince şeritler, akademik ----------
@@ -70,7 +77,7 @@ table.tablo{border-collapse:collapse;width:100%;font-size:2.6vh} .tablo th{color
 .alt-bant{position:absolute;left:0;right:0;bottom:0;height:5vh;display:flex;align-items:center;justify-content:space-between;padding:0 7vw;font-size:1.7vh;color:var(--sonuk);letter-spacing:.1em}
 .ilerleme{position:absolute;left:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--turkuaz),var(--mavi));width:0;transition:width .25s}
 .yardim{position:absolute;right:2vw;top:2vh;font-size:1.6vh;color:var(--sonuk);opacity:.6}
-figure{margin:0;text-align:center} figure img{max-height:60vh;max-width:100%;border:1px solid var(--cizgi)} figcaption{color:var(--metin2);font-size:2.2vh;margin-top:1.5vh}
+figure{margin:0;text-align:center} figure img{max-height:62vh;max-width:100%;border:1px solid var(--cizgi);border-radius:4px} figcaption{color:var(--metin2);font-size:2.3vh;margin-top:1.8vh;line-height:1.4} figcaption .runic{color:#fff;font-size:1.3em} figcaption .kaynak{color:var(--sonuk);font-size:.8em}
 @media print{
   @page{size:297mm 167mm;margin:0}
   html,body{overflow:visible;height:auto;background:var(--zemin)}
@@ -163,7 +170,7 @@ function blokSlayt(k, ctx, idx) {
     case "ornek-kelime": return ornekKelime(k);
     case "quiz": return quiz(k, idx);
     case "metin-ref": return metinRef(k, ctx.kapi);
-    case "gorsel": return `<div class="govde"><figure><img src="${esc(k.src)}" alt="${esc(k.alt)}">${k.altyazi ? `<figcaption>${esc(k.altyazi)}${k.kaynak ? " · " + esc(k.kaynak) : ""}</figcaption>` : ""}</figure></div>`;
+    case "gorsel": return `<div class="govde"><figure><img src="${gorselUri(k.src)}" alt="${esc(k.alt)}">${k.altyazi ? `<figcaption>${k.altyazi}${k.kaynak ? ` <span class="kaynak">· ${esc(k.kaynak)}</span>` : ""}</figcaption>` : ""}</figure></div>`;
     case "alistirma": return `<div class="govde"><h3>${esc(k.yonerge)}</h3><ul>${k.maddeler.map((m) => `<li>${m.soruRunik ? `<span class="runic">${m.soruRunik}</span>` : esc(m.soru)} ➔ ________</li>`).join("")}</ul></div>`;
     default: throw new Error(`Slayt için bilinmeyen blok: ${k.type}`);
   }
