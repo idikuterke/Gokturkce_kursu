@@ -158,7 +158,7 @@
       "slayt"
      ],
      "id": "yenisey",
-     "html": "<h3>Üçüncü Bölge: Yenisey Yazıtları</h3><p>Güney Sibirya (Yenisey ırmağı) mezar taşları — Orhun'la aynı alfabe, <b>bölgesel glif varyantları</b>. Unicode bu biçimlere ayrı kod noktası verir; ses değeri aynıdır.</p><p class=\"not\">Örnek: Tonyukuk yazıtı ÖK/ÜK için Yenisey biçimi 𐰝 kullanır (Orhun 𐰜).</p>"
+     "html": "<h3>Üçüncü Bölge: Yenisey Yazıtları</h3><p>Güney Sibirya (Yenisey ırmağı) mezar taşları — Orhun'la aynı alfabe, <b>bölgesel glif varyantları</b>. Unicode bu biçimlere ayrı kod noktası verir; ses değeri aynıdır.</p><p><b>İki ek ünlü:</b> Orhun'un 4 ünlü damgasına Yenisey iki işaret ekler — <b>açık e (ä)</b>: <span class=\"cevrim\">äb, är, bäg, täg</span> · <b>kapalı é (ė)</b>: <span class=\"cevrim\">ėki, ėl, bėş, yėti</span> (Orhun'da i ile yazılır ya da yazılmaz).</p><p class=\"not\">Örnek: Tonyukuk yazıtı ÖK/ÜK için Yenisey biçimi 𐰝 kullanır (Orhun 𐰜).</p>"
     },
     {
      "type": "tamga-grid",

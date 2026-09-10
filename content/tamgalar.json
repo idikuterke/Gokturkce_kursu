@@ -276,7 +276,7 @@
   {
    "id": "yenisey-tam",
    "baslik": "Yenisey Yazıtları Varyantları — tam liste (31 tamga)",
-   "kaynak": "Unicode 15.1 Old Turkic bloğu resmi karakter adları (U+10C00–10C48); ders değerleri aynı adlı Orhon karşılığından",
+   "kaynak": "Unicode 15.1 Old Turkic bloğu resmi karakter adları (U+10C00–10C48); ders değerleri aynı adlı Orhon karşılığından; açık e / kapalı é: Talat Tekin, Orhon Türkçesi Grameri; Aysu Ata — 00_Kaynaklar/yenisey_acik_e_kapali_e.md",
    "not": "Yenisey biçimleri Orhon harflerinin bölgesel glif varyantlarıdır; ses değerleri aynıdır. Kursun 7'lik seçkisi 'yenisey' grubundadır.",
    "tamgalar": [
     {
@@ -287,9 +287,18 @@
     },
     {
      "cp": "U+10C02",
-     "deger": "e (açık) — yalnız Yenisey",
+     "deger": "açık e (ä) — yalnız Yenisey",
      "ad": "YENISEI AE",
-     "orhon": null
+     "orhon": null,
+     "not": "Yenisey'in ek ünlü işareti (Tekin: 5./6. ünlü). Orhun'da ayrı damgası yok. Örnek: äb, är, bäg, käl-, täg, ädgü (transkripsiyon). Bkz. 00_Kaynaklar/yenisey_acik_e_kapali_e.md",
+     "ornekler": [
+      "äb (ev)",
+      "är (er)",
+      "bäg (bey)",
+      "käl- (gelmek)",
+      "täg (gibi)",
+      "ädgü (iyi)"
+     ]
     },
     {
      "cp": "U+10C04",
@@ -299,9 +308,18 @@
     },
     {
      "cp": "U+10C05",
-     "deger": "é (kapalı e) — yalnız Yenisey",
+     "deger": "kapalı é (ė) — yalnız Yenisey",
      "ad": "YENISEI E",
-     "orhon": null
+     "orhon": null,
+     "not": "Yenisey'de müstakil damga; Orhun'da i ile yazılır veya yazılmaz. Örnek: ėki, ėl, bėş, yėti, yėgirmi (transkripsiyon). Bkz. 00_Kaynaklar/yenisey_acik_e_kapali_e.md",
+     "ornekler": [
+      "ėki (2)",
+      "ėl (il)",
+      "bėş (5)",
+      "yėti (7)",
+      "yėgirmi (20)",
+      "bėr- (vermek)"
+     ]
     },
     {
      "cp": "U+10C08",
