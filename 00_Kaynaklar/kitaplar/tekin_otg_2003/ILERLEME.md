@@ -1,9 +1,9 @@
 # Tekin OTG 2003 dijitalleştirme — ilerleme kütüğü (orkestratör: Claude Code)
-Son güncelleme: 2026-09-11 02:53
+Son güncelleme: 2026-09-11 02:57
 
 ## Durum
-- Transkribe edilen sayfa: 261 / 273 (02:53)
-- Eksik idx: 186 187 188 189 190 191 192 235 236 237 238 239 
+- Transkribe edilen sayfa: 272 / 273 (02:57)
+- Eksik idx: 192 
 - Çalışan uygulayıcılar (Claude Code, 4 paralel): A 021-029+076-089+096-107 · B 109-119+126-149 · C 153-179+183-192 · D 193-209+213-239
 - İkinci sistem (kullanıcının diğer ajanı) da aynı klasöre yazıyor; kural: var olan dosyayı ATLA, üzerine yazma.
 
@@ -24,3 +24,4 @@ Son güncelleme: 2026-09-11 02:53
 - 2026-09-11 gece: pilot s.44/52/108; Ata 2011 + Tanyeri txt (commit c580d6d); ilk tur 122 sayfa (429 limitiyle kesildi); ikinci tur 4 parti başlatıldı.
 - Parti A bitti (34 sf, [?] yok). Kılavuz için notlar: s025 §5 sözbaşı uzun ā yalnız āç/āç-/āt; s026 §8 sözbaşı ı/i daima yazılır; s027 §10 tāmka tek örnek; s028 §11 Yenisey kapalı ē (bēl, bēş, yēti); s077 §141 baŋa/saŋa kaynaşması; s106 §255 +nIŋ dudak uyumu dışı.
 - Parti B bitti (35 sf, [?] yok). Kılavuz notları: §261-262 +(I)n uyumsuz, +nI marjinal (koragıŋnı, kunı) → kitapçıktaki "+nı = n²" iddiası gözden geçirilecek; §269 araç eki +(X)n dudak uyumuna UYAR (okun) — belirtme +(I)n ile karıştırılmamalı; §265 +DA dağılımı (r/l/n sonrası +tA); §280-282 çift biçimler (bıŋ~biŋ~miŋ, beş~biş, yeti~yiti).
+- Parti D bitti (44 sf, [?] yok). Notlar: sözlükte Tekin uzun ünlüyü [āt], [āy], [āş], [āra] köşeli parantezle verir; ikili yazımlar bā-/ba-, āz-/az-; ñ (kıtañ, azkıña) ile ŋ karıştırılmamalı; §463 sayı sistemi (üç yegirmi=13, bir otuz=21); KT G1 "birki uguşum" okuması.
