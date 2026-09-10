@@ -1,0 +1,344 @@
+# Göktürkçe Okuma-Yazma Öğreneği — Eğitmen Kılavuzu
+
+
+## KISIM I · BÖLÜM 01 Kurs Kimliği ve Akademik Gerekçe
+Kursun amaç çerçevesi, hedef kitle ve eğitim dili.
+Göktürk (Eski Türk) alfabesi, tarihte “Türk” adıyla kurulan ilk devlet olan Göktürk Kağanlığı'nın hükmettiği 552–744 yılları arasında kullanılan, Türk dilinin yazılı ilk dönemini temsil eden eşsiz bir kültürel mirastır. Bu eğitim, yüzeysel bir harf ezberletme programının ötesinde, Prof. Dr. Aysu Ata'nın akademik disiplini (Ankara Üniversitesi TUR203 Köktürkçe ders standartları) ile katılımcıların kendi yazılarını yazabilmelerini hedefleyen temel düzey bir okuma-yazma atölyesini birleştirir.
+
+Eğitim boyunca, kâğıt üzerine fırçayla yazılan ve el yazısı geleneğini temsil eden 9. yüzyıla ait tek runik el yazması Irk Bitig (Eski Uygurca Fal Kitabı) müfredatın merkezine konularak epigrafi ve paleografi perspektifi genişletilir.
+
+ ÖZ TÜRKÇE — AKADEMİK TERİM KESİŞİMİ
+
+ 
+ Terim | Akademik Karşılığı | Kapsam | 
+
+ 
+ Tümce | 
+ Söz Dizimi / Sentaks | 
+ Cümle düzeyinde okuma-yazma çalışmaları; yazıtlardaki isim ve fiil cümleleri, “er-” yardımcı fiili ve şahıs zamiri çekimlerine göre incelenir. | 
+ 
+
+ 
+ Seslem | 
+ Hece / Yarı-Hece İşaretleri | 
+ Göktürkçenin yarı-hecesel yapısını temsil eden, bünyesinde zati ünlü barındıran çift sesli hece damgaları: OK/UK (𐰸), ÖK/ÜK (𐰜), IK/KI (𐰶), İÇ/Çİ (𐰱). |
+
+## KISIM I · BÖLÜM 02 Dört Yedigünlük Detaylı Ders Müfredatı
+Her dersin idari yapısı, teorik kuralları ve tahtada yapılacak örnek kelime tahlilleri.
+2.11. YEDİGÜN — Giriş, Tarihsel Arka Plan ve Temel Tamgalar
+
+Ders saati: 2 ders saati (45 + 45 dk). Öğrenme çıktıları: Göktürk alfabesinin tarihsel gelişimini kavrama, yön mantığını anlama, 4 ünlü ve 20 kutuplu ünsüz tamgayı okuma/yazma.
+
+I. Ders (45 dk) — Tarihçe ve Yazım Mantığı
+
+ - Keşif ve çözüm süreci: Alfabenin 552–744 yılları arasındaki Göktürk Kağanlığı döneminde taşa kazındığı, Danimarkalı dilbilimci Vilhelm Thomsen tarafından 15 Aralık 1893'te çözüldüğü anlatılır. İlk çözülen kelimenin “Tengri” (𐱅𐰭𐰼𐰃) olduğu vurgulanır.
+
+ - Yazı malzemesi ve epigrafi: Taş (Orhun) ve kâğıt (Irk Bitig) medyasının farklarına değinilir.
+
+ - Yazım yönü: Yazının sağdan sola doğru yazıldığı, kelimelerin arasına iki nokta ( : ) konulduğu tahtada gösterilir.
+
+II. Ders (45 dk) — Sesler ve Kutupluluk (Kalınlık-İnelik) Sistemi
+
+Ünlü tamgalar (vokaller): Göktürkçede 4 ünlü damganın 8 sesi karşıladığı öğretilir:
+
+ A / E | I / İ | O / U | Ö / Ü | 
+
+ 𐰀 | 𐰃 | 𐰆 | 𐰇 | 
+
+Kutuplu ünsüzler (konsonantlar): Alfabenin en karakteristik kuralı olan “kalınlık-incelik uyumu” tanıtılır. Aynı ünsüz sesin kalın ve ince ünlüler için iki farklı damgası vardır:
+
+ Ünsüz | Kalın (art) ünlülerle | İnce (ön) ünlülerle | 
+
+ B | b¹ 𐰉 | b² 𐰋 | 
+
+ D | d¹ 𐰑 | d² 𐰓 | 
+
+ G | g¹ 𐰍 | g² 𐰏 | 
+
+ K | k¹ 𐰴 | k² 𐰚 | 
+
+ L | l¹ 𐰞 | l² 𐰠 | 
+
+ N | n¹ 𐰣 | n² 𐰤 | 
+
+ R | r¹ 𐰺 | r² 𐰼 | 
+
+ S | s¹ 𐰽 | s² 𐰾 | 
+
+ T | t¹ 𐱃 | t² 𐱅 | 
+
+ Y | y¹ 𐰖 | y² 𐰘 | 
+
+Tahtada örnek kelime analizleri:
+
+ - ata ➔ 𐱃𐰀 (t¹ + A/E ➔ ilk “a” kural gereği düşer, kalın t yazılır, son “a” korunur).
+
+ - ete ➔ 𐱅𐰀 (t² + A/E ➔ ilk “e” düşer, ince t yazılır, son “e” korunur).
+
+ - tengri ➔ 𐱅𐰭𐰼𐰃 (t² + ng + r² + I/İ ➔ ince ses uyumu).
+
+2.22. YEDİGÜN — İmla Tasarrufu, Ligatürler ve Konum Kısıtları
+
+Ders saati: 2 ders saati (45 + 45 dk). Öğrenme çıktıları: Ünlü düşmesi kurallarını hatasız uygulama, çift sesli hece damgalarını (ligatürleri) kavrama, kelime başı/sonu imla kısıtlarını ve morfolojik istisnaları öğrenme.
+
+I. Ders (45 dk) — İmla Tasarrufu ve Ünlü Düşmesi Kuralları
+
+ - Sözbaşı ve içseste “a/e” düşmesi: Göktürk kâtiplerinin harf ve taş tasarrufu yapmak amacıyla, kelime başındaki ve içindeki kısa “a/e” seslerini yazmadıkları gösterilir: esen ➔ 𐰾𐰤 (s² + n²); atar ➔ 𐱃𐰺 (t¹ + r¹).
+
+ - Kelime sonu ünlüleri kuralı (override): Tasarruf kuralının en büyük istisnasıdır. Kelimenin sonundaki tüm ünlüler (a, e, ı, i, o, u, ö, ü) asla düşürülemez, kesinlikle yazılır: koku ➔ 𐰴𐰸𐰆 (sondaki “u” düşürülmez).
+
+ - İçseste dar ünlülerin düşmesi: Kök ek aldığında vurgusuz orta hecedeki dar ünlüler düşer: ogul + an ➔ oglan (𐰉𐰍𐰞𐰣).
+
+II. Ders (45 dk) — Hece Damgaları (Ligatürler) ve İmla İstisnaları
+
+Hece damgaları (ligatürler): Tek karakterde iki ses barındıran tamgalar öğretilir:
+
+ Değer | OK/UK · KO/KU | ÖK/ÜK · KÖ/KÜ | IK/KI | İÇ/Çİ | ND/NT | LD/LT | NÇ/NC | 
+
+ Tamga | 𐰸 | 𐰜 | 𐰶 | 𐰱 | 𐰦 | 𐰡 | 𐰨 | 
+
+Kelime başı ligatür yasağı (konum kısıtı): Bu hece damgaları kelime başında ünsüzle başlayan heceleri (ko, ku, kö, kü, kı) yazmak için tek başlarına kullanılamaz:
+
+ - kök ➔ 𐰚𐰜 (ince K + ÖK) — hatalı yazım: 𐰜𐰚 (ÖK + ince K).
+
+ - kıldı ➔ 𐰴𐰃𐰡𐰃 (kalın K + I + LD + I) — hatalı yazım: 𐰶𐰡𐰃 (IK/KI + LD + I).
+
+Kalın kökte ince-N (𐰤) istisnası: Kelime kökü tamamen kalın olsa bile, 3. şahıs iyelik ve belirtme durumu eklerindeki (ın/nı) “n” sesi daima İnce N (𐰤) ile yazılır: sabın (sözünü) ➔ 𐰽𐰉𐰤 (s¹ + b¹ + n²); adgırın (aygırını) ➔ 𐰉𐰑𐰍𐰺𐰤.
+
+2.33. YEDİGÜN — Söz Dizimi (Sentaks), Epigrafik Farklar ve Irk Bitig
+
+Ders saati: 2 ders saati (45 + 45 dk). Öğrenme çıktıları: Göktürkçe tümce yapılarını anlama, Orhun ve Irk Bitig epigrafilerini karşılaştırma, orijinal el yazması falları çözümleme.
+
+I. Ders (45 dk) — Tümce Yapısı ve Taş Ekonomisi (Eksilti)
+
+ - İsim tümcesi: Yüklemi isim olan yapılar (örn. Bilge Tonyukuk men).
+
+ - Fiil tümcesi: Yüklemi çekimli fiil olan yapılar (Özne + Tümleç + Yüklem).
+
+ - Taş ekonomisi ve eksiltili yapılar: Sert taşlara yazı kazımanın zorluğu nedeniyle kâtiplerin sıfat-fiilleri, yardımcı fiilleri veya yüklemleri yazmayıp düşürdükleri (işaretsiz bıraktıkları) anlatılır.
+
+II. Ders (45 dk) — Orhun – Irk Bitig Kıyaslaması ve Fal Okumaları
+
+ - Mecra ve epigrafi farkları: Taş (Orhun) üzerindeki köşeli geometrik hatların, kâğıt ve fırçayla (Irk Bitig) birlikte nasıl yuvarlak, akıcı ve el yazısına yatkın (cursiviform) varyantlara dönüştüğü gösterilir.
+
+ - Irk Bitig'in radikal imla farkları: ş (𐱁) tamgası tamamen kaldırılmış, yerine s (𐰽/𐰾) kullanılmıştır (yaş ➔ yas). İnce r (𐰼) yerine grafik benzerliği yüzünden ş (𐱁) karakteri ince “r” sesi için kullanılmıştır.
+
+Orijinal fal çözümlemeleri (metinler Irk Bitig veri tabanından aynen alınmıştır):
+
+[METİN · irkbitig:1] 
+
+
+[METİN · irkbitig:15] 
+2.44. YEDİGÜN — Okuma-Yazma Atölyesi, Değerlendirme ve Sınav
+
+Ders saati: 2 ders saati (45 + 45 dk). Öğrenme çıktıları: Öğrenilen tüm kuralları serbest kompozisyon ve okuma metinleri üzerinde uygulama, bitirme sınavını tamamlama.
+
+I. Ders (45 dk) — Kompozisyon Atölyesi
+
+Öğrencilere günümüz Türkçesiyle kısa cümleler ve dörtlükler verilir. Öğrencilerin tahtada bunları Göktürkçenin tasarruf kuralları, ligatür kısıtları ve ek imlalarına dikkat ederek yazması sağlanır.
+
+II. Ders (45 dk) — Bitirme Sınavı Uygulaması
+
+4 haftalık eğitimi ölçen, ezbere değil tamamen dilbilimsel mantığa dayalı teorik ve pratik sınav gerçekleştirilir. Sınav sonunda katılımcılara resmi sertifikaların takdimi yapılır. Sertifikasyon için devam durumu ve başarı kriteri (100 üzerinden en az 70) esas alınır.
+
+## KISIM I · BÖLÜM 03 Örnek Sınav Standartları ve Analitik Çözümleri
+Sertifikasyon sınavının ölçme alanları; ezbere değil, sınır durumlardaki mantığa dayalı ölçme ilkesi.
+Kursun başarıyla tamamlanıp sertifikasyon aşamasına geçilmesi için 4. Yedigünün sonunda uygulanacak sınav, ezbere dayalı değil, Göktürkçenin ileri düzey sınır durumlarındaki (edge cases) mantığı ölçecek şekilde tasarlanmıştır. Aşağıda, Aysu Ata ve Talat Tekin standartlarına göre sınavda ölçülecek kritik alanlar ve çözümleri sunulmuştur:
+
+ Kritik Ölçme Alanı | Sınav Soru Teması | Akademik Çözüm ve Gerekçesi (Cevap Anahtarı) | 
+
+ 
+ Ünlü Düşmesi ve Tasarruf Kuralı | 
+ esen ve atar kelimelerinin tamgalarla doğru yazımı | 
+ esen ➔ 𐰾𐰤, atar ➔ 𐱃𐰺 şeklinde yazılır. Sözbaşında ve içindeki kısa “a/e” ünlüleri imla tasarrufu gereği yazılmaz; okuyucu ünsüzlerin kutbundan ünlüyü çıkarır. | 
+ 
+
+ 
+ Tarihsel Sayı Sistemi Çekimi | 
+ sekiz elig ifadesinin rakamsal değeri | 
+ 48'dir. Eski Türkçede bir sonraki onluk referans alınarak elig (50) onluğuna ulaşmak için “sekiz” adım kaldığı (40 + 8) belirtilir. | 
+ 
+
+ 
+ Hece Ligatürlerinin Konum Kısıtlamaları | 
+ kök ve kıldı kelimelerinin doğru imlası | 
+ Kelime başındaki ünsüzle başlayan kı/ko/ku/kö/kü seslerinde ligatür asla kullanılamaz. kök baştaki kö için değil, sondaki ök için ligatür alır: 𐰚𐰜 (ince k + ÖK). kıldı kelime başında olduğu için ligatürsüz düz harflerle yazılır: 𐰴𐰃𐰡𐰃. | 
+ 
+
+ 
+ Irk Bitig Paleografik Okuması | 
+ 15. Falın transkripsiyonu ve Türkçe tahlili | 
+ Üzä tuman turdı, asra toz turdı... (Üstte duman durdu, altta toz durdu...) falının okunması ve kelimelerin morfolojik tahlili (örn. toz/tuman kelimelerinin imla tasarrufu). |
+
+## KISIM III · BÖLÜM 04 Tüm Alıştırmalar ve Bitirme Sınavı İçin Analitik Cevap Anahtarı
+Öğrenci çalışma yapraklarının tam çözümleri; eğitmen için, öğrenci dağıtımına kapalıdır.
+EĞİTMEN VERSİYONU
+4.11. Yedigün Çalışma Kâğıdı Cevapları
+
+Bölüm A — Transkripsiyondan Yazım
+
+ - ata ➔ 𐱃𐰀 — İlk “a” yazılmaz, kalın t 𐱃 ve kelime sonu olduğu için “a” 𐰀 yazılır.
+
+ - ete ➔ 𐱅𐰀 — İlk “e” yazılmaz, ince t 𐱅 ve son “e” 𐰀 yazılır.
+
+ - iri ➔ 𐰃𐰼𐰃 — Sözbaşındaki dar ünlü “i” 𐰃 yazılır, ince r 𐰼 ve son “i” 𐰃 yazılır.
+
+ - adak (ayak) ➔ 𐰑𐰴 — İlk “a” düşer, kalın d 𐰑, iç “a” düşer, kalın k 𐰴 yazılır.
+
+ - esiz (eyvah) ➔ 𐰾𐰔 — Sözbaşı “e” düşer, ince s 𐰾, iç “i” düşer, kutupsuz z 𐰔 yazılır.
+
+Bölüm B — Göktürkçeden Okuma
+
+ - 𐱅𐰭𐰼𐰃 ➔ Tengri — İnce t + ng + ince r + i.
+
+ - 𐰉𐰖 ➔ Bay — Kalın b + kalın y; “a” ünlüsü içseste düşürülmüştür.
+
+ - 𐰽𐰺𐰃𐰍 ➔ Sarıg — Kalın s + kalın r + ı + kalın g; ilk “a” düşmüş, “ı” yazılmıştır.
+
+ - 𐰋𐰃𐰠𐰏𐰀 ➔ Bilge — İnce b + i + ince l + ince g + e.
+
+4.22. Yedigün Çalışma Kâğıdı Cevapları
+
+Bölüm A — Ünlü Düşmesi ve Tasarruf
+
+ - esen ➔ 𐰾𐰤 — Kısa e'ler yazılmaz; ince s + ince n.
+
+ - atar ➔ 𐱃𐰺 — Kısa a'lar yazılmaz; kalın t + kalın r.
+
+ - er (erkek/insan) ➔ 𐰼 — Sözbaşı e'si düşer; geriye sadece ince r kalır.
+
+ - oglan ➔ 𐰉𐰍𐰞𐰣 — Kök “ogul” ek alınca “u” düşer; kalın b + kalın g + kalın l + kalın n; a'lar düşer.
+
+Bölüm B — Ligatürlerde Konum Kısıtı
+
+ - kök ➔ 𐰚𐰜 — Kelime başında ünsüzle başlayan “kö” hecesi ligatürle yazılamayacağı için düz ince k 𐰚 ile başlanır, ardından ÖK/ÜK 𐰜 ligatürü eklenir.
+
+ - kıldı ➔ 𐰴𐰃𐰡𐰃 — Kelime başında “kı” için IK ligatürü kullanılamaz; düz kalın k 𐰴 + 𐰃 + LD ligatürü 𐰡 + 𐰃 yazılır.
+
+ - koku ➔ 𐰴𐰸𐰆 — Kelime başında “ko” için ligatür yasaktır; kalın k 𐰴 + OK ligatürü 𐰸 + son ünlü “u” 𐰆 yazılır.
+
+Bölüm C — İnce-N (𐰤) İstisnası
+
+ - sabın (sözünü) ➔ 𐰽𐰉𐰤 — Kalın s + kalın b + İnce N 𐰤; kural dışıdır.
+
+ - adgırın (aygırını) ➔ 𐰉𐰑𐰍𐰺𐰤 — Kalın b + kalın d + kalın g + kalın r + İnce N 𐰤.
+
+4.33. Yedigün Çalışma Kâğıdı Cevapları
+
+Bölüm A — Mecra Farkları (Orhun / Irk Bitig)
+
+ - yaş: Orhun yazımı 𐰖𐱁 (kalın y + kutupsuz ş); Irk Bitig yazımı 𐰖𐰽 — Irk Bitig'de “ş” harfi tamamen tasfiye edildiği için kalın s 𐰽 ile yazılmıştır.
+
+ - er: Orhun yazımı 𐰼 (sözbaşı e'si yazılmaz, ince r tamgası); Irk Bitig yazımı 𐱁 — ince r yerine, grafik benzerliği olan ş 𐱁 tamgası ince r'yi temsil etmek için kullanılmıştır.
+
+Bölüm B — Irk Bitig 1. Fal Deşifresi
+
+Transkripsiyon: Tensi män. Yarın kéçe altun örgin üze olurupan meŋileyür män. Ança biliŋler: édgü ol.
+
+Kelime tahlili (ince-r / ş tamgası): Kâğıt el yazması olan Irk Bitig'e has kâtip alışkanlığı gereği ince “r” (𐰼) yerine, grafik olarak ona çok benzeyen ve asli işlevinden arındırılmış ş (𐱁) tamgası kullanılmıştır. Metinde bu durum 𐰇𐱁𐰏𐰃𐰤 (örgin), 𐰢𐰭𐰃𐰠𐰘𐰇𐱁 (meŋileyür) ve 𐰋𐰃𐰠𐰃𐰭𐰠𐱁 (biliŋler) kelimelerinde gözlenir.
+
+4.44. Yedigün — Bitirme Sınavı Analitik Cevap Anahtarı
+
+Soru 1 (Ünlü düşmesi ve tasarruf): Göktürk yazısında “harf ekonomisi ve taş tasarrufu” esastır. Kelime başındaki ve içindeki kısa ve vurgusuz “a/e” ünlülerinin okuyucu tarafından zihnen tamamlanabileceği varsayılarak yazılmazlar. esen kelimesinde baştaki ve içteki e'ler yazılmayarak sadece ince s ve ince n ile 𐰾𐰤; atar kelimesinde baştaki ve içteki a'lar yazılmayarak sadece kalın t ve kalın r ile 𐱃𐰺 yazılır.
+
+Soru 2 (Tarihsel sayı sistemi): Eski Türk sayı sisteminde sayılar bir sonraki onluğu referans alarak kurulur. Formül: [Birlik Sayı] + [Bir Sonraki Onluk Hane]. sekiz elig ifadesinde “elig” 50 demektir; önündeki “sekiz”, 50'ye ulaşmak için tamamlanan basamağın 8 birim olduğunu gösterir (40'tan sonraki 8. adım). Sayı 48'dir.
+
+Soru 3 (Konum kısıtlı ligatür): Yazılan kelimeler hatalıdır; çünkü çift sesli ligatürlerin kelime başında konum kısıtı (position constraint) vardır — ligatürler kelime başında ünsüzle başlayan “ko/ku/kö/kü/kı” hecelerini tek başlarına temsil edemezler. kök yazılırken önce düz ince k 𐰚 gelmeli, ardından ligatür eklenmelidir: 𐰚𐰜. kıldı yazılırken kelime başında IK/KI ligatürü gelemez; doğrusu düz kalın k 𐰴 + ı 𐰃 ile başlayan 𐰴𐰃𐰡𐰃 yazımıdır.
+
+Soru 4 (İstisna analizi): Bu durum dilbilimde “3. Şahıs İyelik ve Belirtme Hâli Kalın Kökte İnce-N İstisnası” olarak adlandırılır. Orhun kâtipleri, kelimenin kökü tamamen kalın ünlülerden oluşsa dahi, kelime sonuna gelen 3. kişi iyelik ve belirli nesne durum eklerini (ın/nı) büyük ünlü uyumunu bozarak istisnasız daima İnce N (𐰤) tamgasıyla yazmışlardır: sabın ➔ 𐰽𐰉𐰤; adgırın ➔ 𐰉𐰑𐰍𐰺𐰤.
+
+## EK · BÖLÜM 05 Yenisey Yazıtları ile Orhun Yazıtları Arasındaki Farklar
+Eğitmen için karşılaştırmalı epigrafi notu; tek sayfalık sunum kartı olarak da kullanılabilir.
+Yenisey Nehir Havzası'nda bulunan mezar stelleri (epitaflar) ile Moğolistan'daki anıtsal Orhun abideleri arasındaki farklar, Türk yazı dilinin en zengin bölgesel çeşitlilik alanını oluşturur.
+
+5.1Siyasi, Sosyal ve İdari Bağlam
+
+ 
+ Orhun Yazıtları
+
+ 
+ - İlahi Göktürk Hakanlığı'nın resmi, idari ve diplomatik devlet dili.
+
+ - Son derece standartlaştırılmış, kurallı ve disiplinli bir imla sistemi.
+
+ - Satırlar disiplinli biçimde sağdan sola akar; kelime ayırıcı iki nokta ( : ) diktir.
+
+ 
+ 
+
+ 
+ Yenisey Yazıtları
+
+ 
+ - Yenisey Kırgız Kağanlığı dönemi boy aristokratlarına ait mezar taşları (epitaf); resmi devlet dili değil, şahsi yas ifadeleri.
+
+ - Kuralsız, serbest ve bireysel yazım özellikleri.
+
+ - Yazım yönü serbesttir; satırların yön değiştirdiği boustrophedon akışlar görülür; ayraç eğik veya düz kazınabilir.
+
+ 
+ 
+
+5.2Tarihlendirme ve Gelişim Çizgisi
+
+ - Vilhelm Thomsen, Yenisey harflerinin Orhun'a kıyasla daha kaba ve ilkel görünmesinden ötürü bu yazıtların 6. veya 7. yüzyıla ait erken imla denemeleri olduğunu savunmuştur.
+
+ - Louis Bazin, Igor Kormushin ve A. M. Shcherbak gibi paleograflar; Yenisey yazıtlarındaki dilsel ve morfolojik katmanların 9. ve 10. yüzyıla ait olduğunu kanıtlamıştır. Yani Yenisey yazısı Orhun'un bir öncüsü değil, onunla eş zamanlı gelişmiş bağımsız bir bölgesel koldur.
+
+5.3Grafik ve Paleografik Farklar
+
+ - Karakter envanteri: Orhun stelleri standart 38–40 karakter kullanırken; Yenisey epigrafisinde standartlaşmamış 150'den fazla grafik harf varyantı ve 29–31 tescilli özgün karakter tespit edilmiştir.
+
+ - Kapalı é (𐰅) karakteri: Orhun abidelerinde kapalı /e/ sesi için müstakil harf yoktur; bu ses ya düz-dar “i” (𐰃) ile yazılır ya da hiç gösterilmez. Yenisey yazıtlarında ise kapalı /e/ için müstakil bir 𐰅 karakteri mevcuttur. Bu sesle yazılan kelimeler: éki, él, éş, ét-, bél, béş, yéti, yétmiş, kéş.
+
+ - Harf formu değişimleri: Kalın ünlülü kelimelerde kullanılan Kalın B (𐰊), Kalın D (𐰒), Kalın R (𐰻) ve Kalın T (𐱄) gibi tamgaların Yenisey varyantları grafik olarak Orhun'dakilerden belirgin şekilde farklıdır.
+
+5.4Fonetik ve Ağız (Diyalektal) Özellikler
+
+ - e ~ i farklılığı: eki/iki, elig/ilig, el/il, eçi/içi, beş/biş gibi ses nöbetleşmeleri son derece yaygındır.
+
+ - b ~ m farklılığı (sözbaşında): Orhun'da “b” ile başlayan kelimeler Yenisey'de “m” sesine döner: ben ➔ men, beŋkü ➔ meŋkü. Bu, modern Türkiye Türkçesi (b'li) ile Kırgız Türkçesi (m'li: men, moyun, murun) arasındaki tarihsel diyalekt farkının o dönemki yansımasıdır.
+
+ - g ~ k farklılığı: Standart Orhun Türkçesindeki edgü (iyi) kelimesi Yenisey mezar taşlarında tonsuzlaşarak edkü (𐰓𐰚𐰇) şeklinde yazılır.
+
+ - z ~ s ve ş ~ s farklılığı: Kelime içi ve sonundaki bazı seslerde sızıcılaşma görülür; örneğin Orhun'daki esizim (eyvahım/yazık) kelimesi Yenisey'de sıklıkla esisim olarak kaydedilmiştir.
+
+ - Düzlük-yuvarlaklık (küçük ünlü) uyumu sapması: Yenisey yazıtlarının büyük çoğunluğunda küçük ünlü uyumu sağlanmaz: böri (kurt), buñṣız (kaygısız), ḳuḷı (kulu), oġḷı (oğlu).
+
+ - Morfonolojik ek farklılıkları: Yönelme-ayrılma ekleri (-ga/-ge, -ka/-ke, -a/-e), bulunma-ayrılma ekleri (-da/-de, -ta/-te) ve geçmiş zaman ekleri (-dı/-di, -tı/-ti), özellikle l, m, n, r son ünsüzlerinden sonra Orhun'dakinden çok farklı tonlu/tonsuz varyasyonlarla çekimlenir (yaşımda/yaşımta, elimde/elimte).
+
+## KISIM IV · BÖLÜM 06 Künye, Kaynaklar ve Metin Güvenliği Raporu
+Materyalin dayandığı kaynaklar, font bilgisi ve runik metinlerin doğrulama kaydı.
+6.1Kaynak Materyal
+
+ - Kurs Proje Teklifi ve Protokolü (dernek eğitim faaliyeti başvuru formu)
+
+ - 4 Yedigünlük detaylı eğitmen müfredatı ve öğrenci çalışma kağıtları (alıştırmalar + analitik cevap anahtarı)
+
+ - Ek ünite metinleri: Göktürkçe sayılar, ses ayrışması (Lir/Şaz), zihinsel fiiller, quiz
+
+ - Irk Bitig okuma föyleri (özel tamgalı okuma, ot/up tamgaları) ve Irk Bitig fal veri tabanı
+
+ - Eğitmen ek notları: Yenisey–Orhun karşılaştırması, imla istisnaları çalışması
+
+Akademik çerçeve: Prof. Dr. Aysu Ata'nın metot ve terminolojisi ile Talat Tekin gramer sistemi esas alınmıştır.
+
+6.2Yazı Karakterleri (Fontlar)
+
+Runik karakterler Noto Sans Old Turkic (SIL Open Font License) ile dizilmiş ve bu PDF'e gömülmüştür; belge, Old Turkic fontu kurulmamış bilgisayarlarda ve baskıda da doğru görüntülenir. Latin metinler Source Serif 4, çevrim (transkripsiyon) satırları JetBrains Mono ile dizilmiştir (her ikisi de OFL lisanslıdır).
+
+6.3Metin Güvenliği — Doğrulama Kaydı
+
+ Denetim | Sonuç | 
+
+ Tamga envanteri | Kaynaklarda 47 farklı runik karakter kullanılmıştır; gömülü Noto Sans Old Turkic fontunun glif tablosunda 47/47 karakterin varlığı programatik olarak doğrulanmıştır (tofu riski yoktur). | 
+
+ Bozulmuş karakter düzeltmeleri | Öğrenci çalışma kağıdı cevap bölümündeki 3 dışa aktarım hatası düzeltilmiştir: 1) sabın çözümündeki metin kalıntısı ➔ 𐰽 (kalın S); 2) adgırın çözümündeki emoji ➔ 𐰑 (kalın D); 3) kıldı çözümündeki emoji ➔ 𐰃 (I/İ). Doğru biçimler müfredatın cevap anahtarıyla ve Unicode resmi harf adlarıyla örtüşmektedir. | 
+
+ 1. Fal metni | Öğrenci çalışma kağıdındaki kısmi yazım (içinde Latin harfli “altun” geçen satır) yerine Irk Bitig fal veri tabanının tam runik metni esas alınmıştır; transkripsiyon ve Türkçe çeviri de veri tabanıyla uyumludur. | 
+
+ Hariç tutulan varyant | Çalışma kağıdının sonundaki “2. Yedigün” varyant yaprağı öğrenci setine alınmamıştır: yaprak, IK/KI ligatürü için 𐰵 (Unicode: YENISEI AQ) işaretini kullanmakta ve müfredatla çelişmektedir. Unicode resmi adlarına göre IK/KI = 𐰶 (ORKHON IQ), İÇ/Çİ = 𐰱 (ORKHON IC) olup müfredat standardı doğrudur. | 
+
+ İmla standardı | Kutuplu ünsüzler ve ligatürler müfredatın tablosuyla dizilmiş; her karakter Unicode resmi adlarıyla eşleştirilerek nesnel olarak doğrulanmıştır. | 
+
+Bu kitapçık, yukarıdaki kaynaklardan editoryal temizlikle (konuşma dili kalıntıları ve sohbet artıkları çıkarılarak) derlenmiş; runik dizilere hiçbir ekleme veya değişiklik yapılmamıştır.

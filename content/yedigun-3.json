@@ -101,11 +101,11 @@
      "soru": "<span class=\"cevrim\">Bilge Tonyukuk men</span> tümcesi hangi türdendir ve yüklemi nedir?",
      "secenekler": [
       "Fiil tümcesi; yüklem 'men'",
-      "İsim tümcesi; yüklem 'Bilge Tonyukuk' + şahıs zamiri 'men'",
       "Eksiltili tümce; yüklem yok",
-      "Fiil tümcesi; yüklem 'Tonyukuk'"
+      "Fiil tümcesi; yüklem 'Tonyukuk'",
+      "İsim tümcesi; yüklem 'Bilge Tonyukuk' + şahıs zamiri 'men'"
      ],
-     "dogru": 1,
+     "dogru": 3,
      "geriBildirim": {
       "ok": "İsim yüklemi + 1. tekil şahıs zamiri.",
       "no": "Tümcede çekimli fiil var mı? Yok — isim tümcesi."
@@ -150,7 +150,7 @@
       "slayt"
      ],
      "id": "mecra",
-     "html": "<h3>Mecra Farkı → Harf Farkı</h3><table class=\"tablo\"><tr><th></th><th>Orhun (taş, keski)</th><th>Irk Bitig (kâğıt, fırça)</th></tr><tr><td>Hat</td><td>Köşeli, geometrik</td><td>Yuvarlak, akıcı, el yazısına yatkın (cursiviform)</td></tr><tr><td>ş sesi</td><td>𐱁 ayrı tamga</td><td>𐱁 <b>kaldırıldı</b>; yerine s (𐰽 / 𐰾): <i>yaş ➔ yas</i></td></tr><tr><td>ince r</td><td>𐰼</td><td>Grafik benzerlikle <b>𐱁</b> biçimi ince r için kullanıldı</td></tr><tr><td>Özel tamgalar</td><td>—</td><td>𐱇 <i>ot</i> (logogram) · 𐰰 <i>up/üp</i> · 𐰪 <i>ny/ń</i></td></tr></table>"
+     "html": "<h3>Mecra Farkı → Harf Farkı</h3><table class=\"tablo\"><tr><th></th><th>Orhun (taş, keski)</th><th>Irk Bitig (kâğıt, fırça)</th></tr><tr><td>Hat</td><td>Köşeli, geometrik</td><td>Yuvarlak, akıcı, el yazısına yatkın (cursiviform)</td></tr><tr><td>ş sesi</td><td>𐱁 ayrı tamga</td><td>𐱁 <b>kaldırıldı</b>; yerine s (𐰽 / 𐰾): <i>yaş ➔ yas</i></td></tr><tr><td>ince r</td><td>𐰼</td><td>Grafik benzerlikle <b>𐱁</b> biçimi ince r için kullanıldı</td></tr><tr><td>Özel tamgalar</td><td>—</td><td>𐱇 <i>ot</i> (logogram) · 𐰰 <i>up/üp</i> · 𐰪 <i>ny/ń</i></td></tr></table><p class=\"not\">Kaynak: Irk Bitig imla farkları için Talat Tekin, <i>Irk Bitig: The Book of Omens</i> (Wiesbaden 1993), giriş; kurs müfredatı (Aysu Ata, TUR203 çizgisi).</p>"
     },
     {
      "type": "prose",
@@ -186,11 +186,11 @@
      "soru": "Yenisey yazıtlarında <span class=\"cevrim\">ėki, bėş, yėti</span> kelimelerinde ayrı bir damgayla (𐰅, kapalı é) yazılan ünlü, Orhun yazıtlarında nasıl gösterilir?",
      "secenekler": [
       "Orhun'da da aynı özel damgayla",
-      "Açık e (ä) damgasıyla",
       "<b>i</b> damgasıyla yazılır ya da hiç yazılmaz — Orhun'un 4 ünlü damgası kapalı é'yi ayırmaz",
+      "Açık e (ä) damgasıyla",
       "Ö/Ü damgasıyla"
      ],
-     "dogru": 2,
+     "dogru": 1,
      "geriBildirim": {
       "ok": "Orhun 4 ünlü damgayla 8 sesi karşılar; kapalı é ile açık ä için ayrı işareti yalnız Yenisey ekler (Tekin).",
       "no": "Orhun ünlü envanterini hatırlayın: A/E · I/İ · O/U · Ö/Ü — beşinci işaret yok."
@@ -286,7 +286,6 @@
     {
      "type": "metin-ref",
      "targets": [
-      "slayt",
       "baski"
      ],
      "db": "irkbitig",
@@ -306,7 +305,6 @@
     {
      "type": "metin-ref",
      "targets": [
-      "slayt",
       "baski"
      ],
      "db": "irkbitig",
@@ -324,12 +322,12 @@
      "konu": "Irk Bitig İmlası",
      "soru": "Irk Bitig'de <span class=\"runic\">𐱁</span> tamgasını gördüğünüzde hangi sesi düşünmelisiniz?",
      "secenekler": [
-      "ş — Orhun'daki gibi",
       "ince r — ş tamgası bu el yazmasında r² için kullanılır",
+      "ş — Orhun'daki gibi",
       "kalın r",
       "z"
      ],
-     "dogru": 1,
+     "dogru": 0,
      "geriBildirim": {
       "ok": "ş sesi s ile yazılır; 𐱁 biçimi ince r'ye kaydırılmıştır.",
       "no": "Irk Bitig'de ş tamamen tasfiye edilmiştir; biçim başka bir sese verilmiştir."
@@ -347,11 +345,11 @@
      "soru": "“koń” (koyun) ve “turńa” (turna) kelimelerindeki damaksal <b>ny / ń</b> sesini karşılayan, Irk Bitig'e özgü tamga hangisidir?",
      "secenekler": [
       "𐰭 (ng)",
-      "𐰪 (ny / ń)",
       "𐰨 (nç)",
+      "𐰪 (ny / ń)",
       "𐰜 (ük)"
      ],
-     "dogru": 1,
+     "dogru": 2,
      "geriBildirim": {
       "ok": "𐰪 — Irk Bitig'in karakteristik tamgası.",
       "no": "ng ve nç kümeleri farklı; aranan damaksal n."

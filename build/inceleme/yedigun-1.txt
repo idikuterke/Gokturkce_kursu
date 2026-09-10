@@ -1,0 +1,90 @@
+# Yedigün 1 — Giriş, Tarihsel Arka Plan ve Temel Tamgalar
+
+Göktürkçe Okuma-Yazma Öğreneği · 2 ders saati (45 + 45 dk)
+
+## I. DERS · 45 DK Tarihçe ve Yazım Mantığı
+
+
+=== I. Ders — Tarihçe ve Yazım Mantığı — Keşif · Çözüm · Malzeme · Yön ===
+
+[GÖRSEL] Orhun bozkırında dikili bengü taş (temsilî) — Bengü taş — Orhun vadisi, temsilî canlandırma. Gerçek yazıt fotoğrafı için: Kül Tigin Yazıtı, Höşöö Tsaydam.
+Keşif ve Çözüm Süreci
+- Göktürk Kağanlığı dönemi (552–744) — Türk adıyla kurulan ilk devlet; alfabe taşa kazındı.
+- Çözüm: Danimarkalı dilbilimci Vilhelm Thomsen, 15 Aralık 1893.
+- İlk çözülen kelime: Tengri 𐱅𐰭𐰼𐰃
+
+[GÖRSEL] Taşa kazınmış Tengri: 𐱅𐰭𐰼𐰃 — İlk çözülen kelime: Tengri — 𐱅𐰭𐰼𐰃 (sağdan sola: t² · ng · r² · i). Yazı fonttan deterministik kazınmıştır.
+
+[METİN · orhun:KT-G-1 kelime [0, 4]] Kül Tigin Yazıtı · Güney yüzü · 1. dize (açılış)
+Yazı Malzemesi ve Epigrafi
+ | Taş — Orhun | Kâğıt — Irk Bitig | 
+Dönem | 8. yüzyıl | 9. yüzyıl | 
+Araç | Keski · köşeli, geometrik hatlar | Fırça · yuvarlak, akıcı hatlar | 
+Tür | Anıt (bengü taş) | Fal kitabı (el yazması) |
+
+[GÖRSEL] Keski ve taş — fırça ve kâğıt — Taş ve keski (Orhun) · kâğıt ve fırça (Irk Bitig): iki mecra, iki harf biçimi.
+
+[GÖRSEL] Açık el yazması kitapçık, boş sayfalar (temsilî) — Irk Bitig — kâğıda fırçayla yazılmış tek runik el yazması (9. yy). Temsilî canlandırma; orijinal: British Library Or.8212/161.
+Yazım Yönü
+Sağdan sola ⟵
+Kelimeler arasına iki nokta konur: 𐱅𐰭𐰼𐰃 : 𐱅𐰏
+Okurken de sağdan başlarız. Bu slaytlarda bütün runik satırlar sağa yaslıdır.
+
+[QUIZ · formatif · Yazım Yönü ve Kuralları · hedef:slayt,baski]
+Göktürk (Orhun-Yenisey) yazısının orijinal yazım yönü nasıldır ve kelimeleri birbirinden ayırmak için hangi noktalama sembolü kullanılır?
+  A) Soldan sağa — Boşluk ( )
+  B) Sağdan sola — Üst üste iki nokta ( : )  ✓
+  C) Yukarıdan aşağıya — Noktalı virgül ( ; )
+  D) Soldan sağa — Kısa çizgi ( - )
+  geri bildirim: ✓ Sağdan sola yazılır; kelime ayırıcı iki noktadır. | ✗ Yazıtlarda satır sağdan başlar; kelimeleri ( : ) ayırır.
+
+## II. DERS · 45 DK Sesler ve Kutupluluk Sistemi
+
+
+=== II. Ders — Sesler ve Kutupluluk — 4 ünlü tamga · 8 ses · kalın / ince ünsüz çiftleri ===
+Ünlü Tamgalar
+Göktürkçede 4 ünlü tamga, 8 sesi karşılar. Hangi sesin okunacağını kelimenin ünlü uyumu belirler.
+
+[TAMGA TABLOSU · grup=unluler · izgara] 
+Kutuplu Ünsüzler — Kalınlık-İncelik
+Alfabenin en karakteristik kuralı: aynı ünsüz sesin kalın ünlüler için bir, ince ünlüler için başka bir tamgası vardır.
+Kalın: a, ı, o, u · İnce: e, i, ö, ü
+[ÇİFT B: kalın U+10C09 · ince U+10C0B]
+[ÇİFT D: kalın U+10C11 · ince U+10C13]
+[ÇİFT G: kalın U+10C0D · ince U+10C0F]
+[ÇİFT K: kalın U+10C34 · ince U+10C1A]
+[ÇİFT L: kalın U+10C1E · ince U+10C20]
+[ÇİFT N: kalın U+10C23 · ince U+10C24]
+[ÇİFT R: kalın U+10C3A · ince U+10C3C]
+[ÇİFT S: kalın U+10C3D · ince U+10C3E]
+[ÇİFT T: kalın U+10C43 · ince U+10C45]
+[ÇİFT Y: kalın U+10C16 · ince U+10C18]
+
+[TAMGA TABLOSU · grup=kutuplu · tablo] 
+
+[ÖRNEK KELİME]
+  ata ➔ 𐱃𐰀 — t¹ + A/E ➔ ilk “a” kural gereği düşer, kalın t yazılır, son “a” korunur.
+  ete ➔ 𐱅𐰀 — t² + A/E ➔ ilk “e” düşer, ince t yazılır, son “e” korunur.
+  tengri (Tanrı) ➔ 𐱅𐰭𐰼𐰃 — t² + ng + r² + I/İ ➔ ince ses uyumu.
+
+[QUIZ · formatif · Ünlü Harf İmlası · hedef:slayt,baski]
+Göktürkçe imla kurallarına göre kelime içindeki ve kelime sonundaki ünlü (sesli) harflerin yazımıyla ilgili en temel “tuzak” kural hangisidir?
+  A) Kelime içindeki ünlüler her zaman yazılır, sonundakiler hiç yazılmaz.
+  B) Tüm ünlü harfler kelimenin her yerinde eksiksiz yazılmak zorundadır.
+  C) Kelime içindeki ilk hece dışındaki ünlüler çoğunlukla yazılmaz; ancak kelime sonundaki ünlüler her zaman yazılır.  ✓
+  D) Sadece ince ünlü harfler yazılır, kalın ünlü harfler hiç yazılmaz.
+  geri bildirim: ✓ Tasarruf kuralı + kelime sonu istisnası. 2. Yedigün'de ayrıntısıyla işlenecek. | ✗ İpucu: ata ➔ 𐱃𐰀 örneğine bakın — ilk “a” yok, son “a” var.
+
+[QUIZ · formatif · Kalın ve İnce Ünsüz Uyumu · hedef:slayt,baski]
+“Börü” (kurt) kelimesindeki B harfi ile “Bodun” (millet) kelimesindeki B harfi neden Göktürk alfabesinde farklı tamgalarla yazılır?
+  A) Kelimelerin anlamları farklı olduğu için.
+  B) “Börü” ince ünlülü (ö, ü), “Bodun” kalın ünlülü (o, u) bir kelime olduğundan; ünsüz tamgalar kalın/ince uyumuna göre seçilir.  ✓
+  C) “Börü” kelimesindeki B harfi kelimenin başında olduğu için.
+  D) Tamamen yazanın kişisel tercihine bağlıdır, kuralı yoktur.
+  geri bildirim: ✓ börü ➔ b² (ince), bodun ➔ b¹ (kalın). | ✗ Ünlülere bakın: ö/ü ince, o/u kalın.
+Bu Yedigünün Özeti
+- Sağdan sola · ( : ) ayırıcı
+- 4 ünlü tamga = 8 ses
+- 10 ünsüz × kalın/ince = 20 tamga
+- Kelime başı/içi kısa a/e yazılmaz; kelime sonu ünlü her zaman yazılır
+Gelecek Yedigün: imla tasarrufu, ligatürler, konum kısıtları.

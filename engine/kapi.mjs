@@ -23,6 +23,7 @@ const HEDEFLER = new Set(["baski", "slayt"]);
 export const hex = (c) => "U+" + c.codePointAt(0).toString(16).toUpperCase();
 export const runeler = (s) => new Set(String(s).match(RUNE) || []);
 
+const tumBloklar = (doc) => (doc.bolumler ?? []).flatMap((b) => b.bloklar ?? []);
 function tumMetin(o, acc = []) {
   if (typeof o === "string") acc.push(o);
   else if (Array.isArray(o)) o.forEach((x) => tumMetin(x, acc));
@@ -38,6 +39,9 @@ export async function kapiHazirla() {
   const orhunRaw = JSON.parse(fs.readFileSync(P("05_Kaynak_DB/orhun-db-v1.json"), "utf8"));
   const orhun = Object.fromEntries(orhunRaw.dizeler.map((d) => [d.id, d]));
   const tamgalar = JSON.parse(fs.readFileSync(P("content/tamgalar.json"), "utf8"));
+  // Altın sözlük: Latin ↔ runik (mantıksal sıra). Sıra hatası uydurma tamgadan sinsidir: tüm tamgalar geçerli görünür.
+  const sozluk = JSON.parse(fs.readFileSync(P("content/sozluk.json"), "utf8")).kelimeler;
+  const sozlukDeger = new Set(Object.values(sozluk));
 
   // Kaynak tamga kümesi
   const kaynak = new Set();
@@ -82,8 +86,33 @@ export async function kapiHazirla() {
     return null;
   }
 
+  // 'hatali' olarak bilinçli gösterilen ters/yanlış yazımlar ters-sıra taramasından muaf
+  const hataliIzin = new Set();
+  for (const f of fs.readdirSync(P("content")).filter((f) => f.endsWith(".json")))
+    for (const k of tumBloklar(JSON.parse(fs.readFileSync(P("content", f), "utf8"))))
+      if (k.type === "ornek-kelime") for (const o of k.ornekler) if (o.hatali) hataliIzin.add(o.hatali);
+
+  function tersSiraDenetle(metin, baglam) {
+    for (const [lat, run] of Object.entries(sozluk)) {
+      if ([...run].length < 2) continue;
+      const ters = [...run].reverse().join("");
+      if (ters === run || sozlukDeger.has(ters) || hataliIzin.has(ters)) continue;
+      if (metin.includes(ters)) hata(`[${baglam}] TERS SIRA: '${lat}' görsel sırada yazılmış (${ters}); mantıksal sıra ${run} olmalı`);
+    }
+  }
+  function sozlukEsle(lat, runik, baglam) {
+    const anahtar = lat.toLowerCase().replace(/\s*—\s*irk bitig$/i, " (irk bitig)").replace(/\s*—\s*orhun$/i, "").trim();
+    const bekl = sozluk[anahtar];
+    if (bekl && bekl !== runik) hata(`[${baglam}] SÖZLÜK UYUŞMAZLIĞI: '${anahtar}' = ${runik}, sözlükte ${bekl}`);
+  }
+
   function belgeDenetle(doc) {
     const ad = doc.id || "?";
+    for (const k of tumBloklar(doc)) {
+      if (k.type === "ornek-kelime") for (const o of k.ornekler) sozlukEsle(o.latin.split("(")[0], o.runik, `${ad} ornek-kelime`);
+      if (k.type === "alistirma") for (const m of k.maddeler) if (m.cevap && m.cevapRunik) sozlukEsle(m.cevap, m.cevapRunik, `${ad} alistirma`);
+    }
+    tersSiraDenetle(tumMetin(doc).join("\n"), ad);
     if (!validate(doc))
       for (const e of validate.errors) hata(`[${ad}] ŞEMA ${e.instancePath || "/"}: ${e.message}`);
     doc.bolumler?.forEach((b, bi) =>
@@ -115,19 +144,21 @@ export async function kapiHazirla() {
     return h;
   }
 
-  return { irk, orhun, tamgalar, kaynak, cmap, belgeDenetle, ciktiDenetle, refCoz, sonuc, hatalar };
+  return { irk, orhun, tamgalar, kaynak, cmap, sozluk, belgeDenetle, ciktiDenetle, tersSiraDenetle, refCoz, sonuc, hatalar };
 }
 
 // ---------- CLI ----------
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const g = await kapiHazirla();
-  const dosyalar = fs.readdirSync(P("content")).filter((f) => f.endsWith(".json") && f !== "tamgalar.json");
+  const dosyalar = fs.readdirSync(P("content")).filter((f) => f.endsWith(".json") && !["tamgalar.json", "sozluk.json"].includes(f));
   for (const f of dosyalar) {
     const doc = JSON.parse(fs.readFileSync(P("content", f), "utf8"));
     const r = g.belgeDenetle(doc);
     console.log(`${f.padEnd(22)} farklı tamga: ${String(r.farkli).padStart(2)} | kaynaksız: ${r.hurda} | tofu: ${r.tofu}`);
   }
-  console.log(`kaynak tamga kümesi: ${g.kaynak.size} | Noto cmap: ${g.cmap.size} kod noktası`);
+  for (const f of ["Gokturkce_Kurs_Teklifi_Revize.md", "Gokturkce_Kurs_Teklifi_Revize.html", "brosur-a5.html"])
+    if (fs.existsSync(P(f))) { g.tersSiraDenetle(fs.readFileSync(P(f), "utf8"), f); g.ciktiDenetle(fs.readFileSync(P(f), "utf8"), f); }
+  console.log(`kaynak tamga kümesi: ${g.kaynak.size} | Noto cmap: ${g.cmap.size} kod noktası | sözlük: ${Object.keys(g.sozluk).length} kelime`);
   const h = g.sonuc();
   if (h.length) { console.error("\nGÜVENLİK KAPISI BAŞARISIZ:\n  " + h.join("\n  ")); process.exit(1); }
   console.log("GÜVENLİK KAPISI: GEÇTİ");

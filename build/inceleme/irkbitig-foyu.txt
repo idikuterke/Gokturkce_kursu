@@ -1,0 +1,89 @@
+# Irk Bitig Okuma Föyü
+
+
+## BÖLÜM 01 Irk Bitig ve Özel Tamgaları
+Eserin paleografik yeri; standart envanterin dışına çıkan iki nadide işaret.
+Irk Bitig, kâğıt üzerine fırça ile yazılmış Türk yazı kültürünün en nadide örneklerinden biridir. Bilinen büyük yazıtların (Kül Tigin, Bilge Kağan) aksine bir “fal kitabı” niteliği taşıyan bu eser, paleografik açıdan Orhun alfabesinin standart sınırlarını zorlayan özel tamgalara ev sahipliği yapar. Metnin deşifre anahtarı sayılan ve sadece Irk Bitig ile bazı Yenisey yazıtlarına özgü olan “ot” (𐱇) ve “up” (𐰰) tamgaları, bir metnin tarihsel ve coğrafi aidiyetini belirlemede uzman bir epigraf için en güçlü kanıttır.
+
+ Tamga | Değer / İşlev | Karakteristik Özellik | Bölgesel Dağılım | 
+
+ 𐱇 | ot | Hem hece hem logograf (ideogram) — “ot, çimen, yeşillik” kelimesini tek başına karşılar | Irk Bitig, Yenisey | 
+
+ 𐰰 | up / üp | Bileşik ses — dar-yuvarlak ünlüden (u/ü) sonra gelen /p/ ünsüzünü, yani /up/ ve /üp/ ses öbeklerini yazan özel yarı-hece işareti | Irk Bitig, Yenisey | 
+
+ 𐰆 / 𐰇 | o/u · ö/ü | Standart ünlü tamgaları (genel kullanım) — karşılaştırma için | Tüm Orhun Yazıtları | 
+
+Neden sadece bu dönemde ve bu eserde?
+
+Taş anıtlardaki katı ve disiplinli imla kuralları, 9. yüzyılda kâğıt üzerine fırçayla hızlıca yazma ihtiyacıyla birleşince gevşemiştir. Kâtipler hem fırçanın akıcılığını kullanmış hem de harf ve zamandan tasarruf etmek için bu tür logografik (ot 𐱇) ve yarı-hecesel (up 𐰰) karakterler türetme serbestliğine kavuşmuştur. Her iki tamga da Türk yazı sisteminin erken dönemdeki zenginleşme ve dinamizm çabasının en kıymetli paleografik kanıtlarıdır.
+
+Kullanım sıklığı — tüm Eski Türkçe korpusta
+
+ - 𐱇 (ot) tamgası yalnızca üç kez kullanılmıştır: yaş ot (taze ot) ➔ 𐰖𐱁 𐱇 (17. ve 53. fallarda); otsuz (yeşilliksiz) ➔ 𐱇𐰽𐰔 (45. falda).
+
+ - 𐰰 (up) tamgasının fonetik kullanımı: olurupan (oturarak/oturup) ➔ 𐰆𐰞𐰆𐰺𐰰𐰣; bolup (olup) ➔ 𐰋𐰆𐰞𐰰 (bol + up).
+
+## BÖLÜM 02 Deşifre Algoritması
+Eski Türkçe bir metin karşısında izlenecek bilimsel yöntem.
+DEŞİFRE REHBERİ — 4 ADIM
+
+ 1. Yön tayini: Metni daima sağdan sola doğru okuyun.
+
+ 2. Ünsüz karakter analizi: Alfabedeki çifte ünsüz sistemi (art/kalın ve ön/ince ünsüz ayrımı) en büyük yardımcınızdır. Ünsüzün karakterini belirlemek, etrafındaki yazılmayan ünlülerin (a/ı vs e/i) ses değerlerini deşifre etmenizi sağlar.
+
+ 3. Özel tamga tespiti: Metinde 𐱇 (ot) veya 𐰰 (up) gibi esere özgü “anahtar” tamgaları işaretleyin.
+
+ 4. Noktalama ve sentaks: Kelime aralarındaki üst üste iki noktayı (:) durak olarak belirleyerek cümle yapısını kurun.
+
+## BÖLÜM 03 Fal Kartları — Orijinal Metin Deşifreleri
+4., 17. ve 15. fallar: runik dizilim, çevrim ve tahlil.
+3.1Kart 1 — 4. Fal: Tahtına Oturan Hükümdar ve “up” (𐰰) Tamgası
+
+[METİN · irkbitig:4] 
+Deşifre analizi: 4. faldaki olurupan kelimesi, “up” tamgasının kelime içindeki morfolojik işlevini anlamak için en temel örnektir.
+
+ - Parantez disiplini: Runik alfabede gösterilmeyen ancak Türkçe dudak uyumu ve morfoloji gereği orada olduğu bilinen ünlüler çevrimde parantez içinde gösterilir: ol(o)r-u-p(a)n. Burada ol(o)r- fiil kökündeki ikinci “o” ve -p(a)n ekindeki “a” yazılmamış fakat deşifrede belirtilmiştir.
+
+ - “Up” (𐰰) tamgasının rolü: Tamga, /up/ ses öbeğini tek başına karşılar; kelimenin morfolojik yapısında -u-p(a)n zarf-fiil ekinin merkezini oluşturarak eylemin “oturarak/oturup” şeklinde süreklilik/durum kazanmasını sağlar.
+
+ - Falın anlamı: “Han tahtı üzerine oturup hükmediyor.” Düzenin ve istikrarın yeniden tesis edildiğine işaret eden son derece olumlu bir işarettir.
+
+3.2Kart 2 — 17. Fal: Bozkırın Yaşam Kaynağı ve Logografik “ot” (𐱇)
+
+[METİN · irkbitig:17] 
+Deşifre analizi: Özlük at (kişiye özel değerli at) tasvirinin geçtiği 17. fal, “ot” tamgasının bir kavramı tek başına temsil etme gücünü gösterir.
+
+ - Logografik derinlik: 𐱇 tamgası, sadece /o/ ve /t/ seslerini birleştiren fonetik bir yapı değil, “bitki, meralık alan” anlamını taşıyan bir ideogramdır.
+
+ - Kültürel bağlam: Bozkır kültüründe “yaş ot” (taze bitki), hayvanın semirmesi ve dolayısıyla toplumun zenginleşmesi demektir. Bu hayati kavramın tek bir işaretle özelleştirilmesi, Türk runik yazısının kavramsal derinliğini yansıtır.
+
+ - Öğrenme noktası: Bu tamgayı gördüğünüzde onu sadece bir ses dizisi olarak değil, tek başına bir “isim” (ot/bitki) olarak okuma ihtimalini her zaman önceliklendirin. Bu, deşifre sürecinde metin anlamlandırma hızınızı ve doğruluğunuzu belirleyen kritik bir basamaktır.
+
+3.3Kart 3 — 15. Fal: Doğa Tasvirleri ve Deşifre Algoritması Uygulaması
+
+[METİN · irkbitig:15] 
+Tahlil notu: Doğadaki sis ve dumanın atmosferini yansıtan 15. fal (Üzä tuman turdı — üstte duman durdu), karmaşık bir metni deşifre ederken izlenecek bilimsel yöntemi kavramak için idealdir. Kelimelerin morfolojik tahlilinde toz/tuman kelimelerinin imla tasarrufu (yazılmayan ünlülerin parantezle gösterilmesi) örnek gösterilir.
+
+## BÖLÜM 04 Öğrenci Deşifre Atölyesi
+Paleografik notlarınız için uygulama alanı ve kontrol listesi.
+UYGULAMA ALANI
+
+ Transkripsiyon denemesi (Aysu Ata metodu — yazılmayan ünlüler parantez içinde):
+
+ 
+
+ Morfolojik analiz (kök ve ek ayrımı):
+
+ 
+
+Deşifre Kontrol Listesi
+
+ - Metni sağdan sola okuduğunuzdan emin misiniz?
+
+ - Yazılmayan ünlüleri morfolojik gerekliliğe göre parantez ( ) içine aldınız mı?
+
+ - “Ot” (𐱇) ve “up” (𐰰) tamgalarını, Orhun alfabesindeki standart 𐰆 (o/u) veya 𐰯 (p) harfleriyle karıştırmadınız mı?
+
+ - Ünsüzlerin kalınlık/incelik uyumunu kontrol ettiniz mi?
+
+Deşifre edilen her tamga, bin yıllık bir sessizliği bozacaktır. — Irk Bitig'in kolofon (kırmızı mürekkepli hatime) yazım kuralları, 4. yedigünün Irk Bitig entegrasyonunda incelenir.

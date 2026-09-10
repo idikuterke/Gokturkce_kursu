@@ -1,0 +1,162 @@
+# Yedigün 4 — Okuma-Yazma Atölyesi, Sayılar ve Bitirme Sınavı
+
+Göktürkçe Okuma-Yazma Öğreneği · 2 ders saati (45 + 45 dk)
+Sınav kuralı: {'soruSayisi': 12, 'esik': 60, 'puanEsit': True, 'devamOrani': 80}
+
+## I. DERS · 45 DK Kompozisyon Atölyesi ve Sayı Sistemi
+
+
+=== I. Ders — Atölye — Günümüz Türkçesinden runik yazıya · sayıların mantığı ===
+Yazarken Kontrol Listesi
+- Kelime kalın mı ince mi? ➔ ünsüz tamgasını seç
+- Sözbaşı / içses kısa a-e ➔ yazma
+- Kelime sonu ünlüsü ➔ mutlaka yaz
+- ko/ku/kö/kü/kı ile başlıyor mu? ➔ düz k ile başla, ligatür sonra
+- -ın / -nı eki ➔ ince N (𐰤)
+- Sağdan sola yaz, kelimeleri ( : ) ile ayır
+
+[ALIŞTIRMA · latin-runik] Tahtaya çıkan kursiyer yazar, sınıf kontrol listesiyle denetler.
+  1. bilge  ➔ 𐰋𐰃𐰠𐰏𐰀 bilge (ince b + i + ince l + ince g + son e yazılır)
+  2. kagan  ➔ 𐰴𐰍𐰣 kagan (kalın k + kalın g + kalın n; a'lar düşer)
+  3. bodun (millet)  ➔ 𐰉𐰆𐰑𐰣 bodun (kalın b + o/u + kalın d + kalın n; içses u düşer)
+  4. türk  ➔ 𐱅𐰇𐰼𐰜 türk (ince t + ö/ü + ince r + ÖK/ÜK ligatürü)
+Sayılar — Hedef Onluk Mantığı
+Eski Türkçe sayı, bulunulan onluğu değil ulaşılmak istenen bir sonraki onluğu söyler.
+eki yeg(i)rmi = 12 · bir otuz = 21 · sekiz elig = 48
+Formül: [birlik] + [hedef onluk]. Aysu Ata disiplini: yazılmayan ünlü parantezde — yeg(i)rmi.
+Temel Sayı Tablosu (Talat Tekin)
+Birlik | | Onluk | | 
+1 | bir | 10 | on | 
+2 | eki | 20 | yegirmi | 
+3 | üç | 30 | otuz | 
+4 | tört | 40 | kırk | 
+5 | biş | 50 | elig | 
+6 | altı | 60 | altmış | 
+7 | yiti | 70 | yitmiş | 
+8 | sekiz | 80 | sekiz on | 
+9 | tokuz | 90 | tokuz on |
+
+[METİN · orhun:KT-G-1 kelime [27, 29]] Yazıtta sayı — Kül Tigin · Güney 1: Otuz Tatar
+
+[GÖRSEL] Taşa kazınmış bir otuz: 𐰋𐰃𐰼 : 𐰆𐱃𐰔 — bir otuz (21) ➔ 𐰋𐰃𐰼 : 𐰆𐱃𐰔 — bir ince (b² r²), otuz kalın (t¹). Yazıtlardaki otuz yazımı (KT-G-1) esas alındı.
+
+[ALIŞTIRMA · acik-uclu] Kaç olduğunu bul:
+  1. eki yeg(i)rmi  ➔  12 (20'ye yönelen 2.)
+  2. altı otuz  ➔  26 (30'a yönelen 6.)
+  3. tokuz yitmiş  ➔  69 (70'e yönelen 9.)
+  4. bir yegirmi  ➔  11 (20'ye yönelen 1.)
+
+## II. DERS · 45 DK Bitirme Sınavı
+
+
+=== II. Ders — Bitirme Sınavı — 12 soru · eşit puan · geçme 60/100 (8 doğru) · %80 devam ===
+ADI SOYADI | | TARİH | | 
+
+12 soru · her soru 8,33 puan · geçme 60/100 (8 doğru) · süre 45 dk · yalnız bir seçenek işaretleyin.
+Sınav Kuralları
+- 12 çoktan seçmeli soru, her biri 8,33 puan
+- Sertifika eşiği 60/100 = 8 doğru
+- Ezber değil, kural mantığı ölçülür — her soru bir imla kuralının sınır durumudur
+- Başarısız olan kursiyer bir sonraki kurda ücretsiz tekrar hakkına sahiptir
+Paket kursta cevaplar anında değerlendirilir; sınıfta kâğıt üzerinde uygulanır.
+
+[QUIZ · sertifika · 1 · Yazım Yönü · hedef:slayt,baski]
+Göktürk yazısının yazım yönü ve kelime ayırıcısı nedir?
+  A) Soldan sağa — boşluk
+  B) Sağdan sola — üst üste iki nokta ( : )  ✓
+  C) Yukarıdan aşağıya — noktalı virgül
+  D) Soldan sağa — kısa çizgi
+  geri bildirim: ✓ Sağdan sola, ( : ) ayırıcı. | ✗ Yazıtlarda satır sağdan başlar.
+
+[QUIZ · sertifika · 2 · Ünlü Tamgalar · hedef:slayt,baski]
+Göktürkçede kaç ünlü tamga kaç sesi karşılar?
+  A) 8 tamga, 8 ses
+  B) 4 tamga, 8 ses  ✓
+  C) 4 tamga, 4 ses
+  D) 2 tamga, 8 ses
+  geri bildirim: ✓ A/E · I/İ · O/U · Ö/Ü. | ✗ Her ünlü tamga bir kalın-ince çiftini karşılar.
+
+[QUIZ · sertifika · 3 · Kutupluluk · hedef:slayt,baski]
+“Börü” ve “bodun” kelimelerindeki B sesi neden farklı tamgalarla yazılır?
+  A) Anlamları farklı olduğu için
+  B) Börü ince, bodun kalın ünlülü; ünsüz tamgası ünlü uyumuna göre seçilir  ✓
+  C) B kelime başında olduğu için
+  D) Kâtibin tercihi
+  geri bildirim: ✓ börü ➔ b², bodun ➔ b¹. | ✗ Ünlülere bakın.
+
+[QUIZ · sertifika · 4 · Tasarruf Kuralı · hedef:slayt,baski]
+esen ve atar kelimeleri neden yalnız ikişer tamgayla (𐰾𐰤, 𐱃𐰺) yazılır?
+  A) Ünlüler hiç yazılmaz
+  B) Sözbaşı ve içsesteki kısa a/e harf tasarrufu gereği yazılmaz; okur zihnen tamamlar  ✓
+  C) Kelimeler tek heceli sayılır
+  D) Yalnız kalın ünlüler yazılır
+  geri bildirim: ✓ Harf ekonomisi ve taş tasarrufu. | ✗ Kelime sonunda ünlü olsaydı yazılırdı; buradaki ünlüler baş ve içseste.
+
+[QUIZ · sertifika · 5 · Kelime Sonu Ünlüsü · hedef:slayt,baski]
+koku kelimesinin 𐰴𐰸𐰆 yazımında sondaki 𐰆 neden yazılmıştır?
+  A) Kalın ünlüler her zaman yazılır
+  B) Kelime sonu ünlüsü asla düşürülmez — tasarruf kuralının istisnası  ✓
+  C) OK ligatürü u sesini içermez
+  D) Kâtip hatası
+  geri bildirim: ✓ Kelime sonu ünlüsü her zaman yazılır. | ✗ Tasarruf kuralının tek büyük istisnasını hatırlayın.
+
+[QUIZ · sertifika · 6 · Konum Kısıtı · hedef:slayt,baski]
+kök için 𐰜𐰚, kıldı için 𐰶𐰡𐰃 yazımları neden hatalıdır?
+  A) Ligatürler yalnız kelime sonunda kullanılır
+  B) Hece damgaları kelime başında ünsüzle başlayan ko/ku/kö/kü/kı hecesini tek başına yazamaz; düz k ile başlanır: 𐰚𐰜, 𐰴𐰃𐰡𐰃  ✓
+  C) LD ligatürü yoktur
+  D) Hatalı değildir
+  geri bildirim: ✓ Kelime başı ligatür yasağı. | ✗ Kelime başındaki heceye bakın.
+
+[QUIZ · sertifika · 7 · İnce-N İstisnası · hedef:slayt,baski]
+Kalın ünlülü sabın (sözünü) ve adgırın (aygırını) kelimelerinin sonundaki n neden ince N (𐰤) ile yazılır?
+  A) Kâtipler ince N'yi daha kolay kazıdığı için
+  B) 3. şahıs iyelik ve belirtme eki (-ın/-nı) kalın kökte bile daima ince N ile yazılır — istisnasız imla kuralı  ✓
+  C) Kelimeler aslında ince ünlülüdür
+  D) Kalın N tamgası yoktur
+  geri bildirim: ✓ Kalın kökte ince-N istisnası. | ✗ Ekin işlevine bakın: iyelik / belirtme.
+
+[QUIZ · sertifika · 8 · Tek Formlu Ünsüzler · hedef:slayt,baski]
+Hangi tamganın kalın/ince biçim ayrımı yoktur?
+  A) 𐰉 / 𐰋 (B)
+  B) 𐰑 / 𐰓 (D)
+  C) 𐰲 (Ç)  ✓
+  D) 𐰽 / 𐰾 (S)
+  geri bildirim: ✓ Ç, M, P, Ş, Z kutupsuzdur. | ✗ Çifti olmayanı arayın.
+
+[QUIZ · sertifika · 9 · Irk Bitig İmlası · hedef:slayt,baski]
+Irk Bitig'de yaş kelimesi 𐰖𐰽 yazılır. Bunun sebebi nedir?
+  A) Kelime aslında 'yas' okunur
+  B) El yazmasında ş tamgası (𐱁) tasfiye edilmiş, ş sesi s ile yazılmıştır; 𐱁 biçimi ince r'ye kaydırılmıştır  ✓
+  C) Kâtip ş tamgasını bilmiyordu
+  D) Kalın ünlülü kelimelerde ş yazılmaz
+  geri bildirim: ✓ Irk Bitig'in radikal imla farkı. | ✗ Mecra değişimi harfleri de değiştirdi.
+
+[QUIZ · sertifika · 10 · Irk Bitig Özel Tamgası · hedef:slayt,baski]
+“koń” ve “turńa” kelimelerindeki damaksal ny/ń sesini karşılayan Irk Bitig tamgası hangisidir?
+  A) 𐰭 (ng)
+  B) 𐰪 (ny / ń)  ✓
+  C) 𐰨 (nç)
+  D) 𐰜 (ük)
+  geri bildirim: ✓ 𐰪 | ✗ ng ve nç farklı sesler.
+
+[QUIZ · sertifika · 11 · Sayı Sistemi · hedef:slayt,baski]
+sekiz elig hangi sayıdır ve neden?
+  A) 58 — elli sekiz
+  B) 48 — elig (50) hedef onluk; ona yönelen 8. adım  ✓
+  C) 85 — sekiz onluk beş
+  D) 13 — sekiz artı beş
+  geri bildirim: ✓ [birlik] + [hedef onluk] = 48. | ✗ Onluk, ulaşılmak istenen onluktur.
+
+[QUIZ · sertifika · 12 · Okuma · hedef:slayt,baski]
+𐱅𐰇𐰼𐰜 tamgalarının okunuşu hangisidir?
+  A) Tengri
+  B) Türk  ✓
+  C) Töre
+  D) Ötüken
+  geri bildirim: ✓ t² + ö/ü + r² + ÖK/ÜK ➔ Türk. | ✗ Sağdan sola okuyun: ince t ile başlar, ÖK ligatürüyle biter.
+Kutluluk Belgütü
+%80 devam + 60/100 ➔ Ahmet Yesevi Vakfı onaylı Bitirme Belgesi.
+Devamı: Okumalar Serisi — 4 Yedigün, Orhun yazıtlarından tam dize okumaları; temel kursu alanlara indirimli.
+𐰋𐰃𐰠𐰏𐰀 : 𐰉𐰆𐰞
+bilge bol — bilge ol.

@@ -152,11 +152,11 @@
      "soru": "Göktürk (Orhun-Yenisey) yazısının orijinal yazım yönü nasıldır ve kelimeleri birbirinden ayırmak için hangi noktalama sembolü kullanılır?",
      "secenekler": [
       "Soldan sağa — Boşluk ( )",
-      "Sağdan sola — Üst üste iki nokta ( : )",
       "Yukarıdan aşağıya — Noktalı virgül ( ; )",
-      "Soldan sağa — Kısa çizgi ( - )"
+      "Sağdan sola — boşluk",
+      "Sağdan sola — Üst üste iki nokta ( : )"
      ],
-     "dogru": 1,
+     "dogru": 3,
      "geriBildirim": {
       "ok": "Sağdan sola yazılır; kelime ayırıcı iki noktadır.",
       "no": "Yazıtlarda satır sağdan başlar; kelimeleri ( : ) ayırır."
@@ -400,12 +400,12 @@
      "konu": "Ünlü Harf İmlası",
      "soru": "Göktürkçe imla kurallarına göre kelime içindeki ve kelime sonundaki ünlü (sesli) harflerin yazımıyla ilgili en temel “tuzak” kural hangisidir?",
      "secenekler": [
+      "Kelime içindeki ilk hece dışındaki ünlüler çoğunlukla yazılmaz; ancak kelime sonundaki ünlüler her zaman yazılır.",
       "Kelime içindeki ünlüler her zaman yazılır, sonundakiler hiç yazılmaz.",
       "Tüm ünlü harfler kelimenin her yerinde eksiksiz yazılmak zorundadır.",
-      "Kelime içindeki ilk hece dışındaki ünlüler çoğunlukla yazılmaz; ancak kelime sonundaki ünlüler her zaman yazılır.",
       "Sadece ince ünlü harfler yazılır, kalın ünlü harfler hiç yazılmaz."
      ],
-     "dogru": 2,
+     "dogru": 0,
      "geriBildirim": {
       "ok": "Tasarruf kuralı + kelime sonu istisnası. 2. Yedigün'de ayrıntısıyla işlenecek.",
       "no": "İpucu: ata ➔ 𐱃𐰀 örneğine bakın — ilk “a” yok, son “a” var."
@@ -423,11 +423,11 @@
      "soru": "“Börü” (kurt) kelimesindeki <b>B</b> harfi ile “Bodun” (millet) kelimesindeki <b>B</b> harfi neden Göktürk alfabesinde farklı tamgalarla yazılır?",
      "secenekler": [
       "Kelimelerin anlamları farklı olduğu için.",
-      "“Börü” ince ünlülü (ö, ü), “Bodun” kalın ünlülü (o, u) bir kelime olduğundan; ünsüz tamgalar kalın/ince uyumuna göre seçilir.",
       "“Börü” kelimesindeki B harfi kelimenin başında olduğu için.",
-      "Tamamen yazanın kişisel tercihine bağlıdır, kuralı yoktur."
+      "“Börü” ince ünlülü (ö, ü), “Bodun” kalın ünlülü (o, u) bir kelime olduğundan; ünsüz tamgalar kalın/ince uyumuna göre seçilir.",
+      "Bodun kelimesinde b'den sonra o geldiği için ligatür kullanılır."
      ],
-     "dogru": 1,
+     "dogru": 2,
      "geriBildirim": {
       "ok": "börü ➔ b² (ince), bodun ➔ b¹ (kalın).",
       "no": "Ünlülere bakın: ö/ü ince, o/u kalın."

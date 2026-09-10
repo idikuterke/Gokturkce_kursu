@@ -7,7 +7,7 @@ content/*.json          İÇERİK (eğitmen düzenler)          schema/content.s
 content/tamgalar.json   47 tamga envanteri (kod noktası + ders değeri)
 00_Kaynaklar/irk-bitig-db-v3.json   67 fal          ┐ metin-ref blokları buradan çözülür;
 05_Kaynak_DB/orhun-db-v1.json       214 dize (KT/BK/TY) ┘ runik metin içerik dosyasına elle yazılmaz
-engine/kapi.mjs         GÜVENLİK KAPISI (tek kopya): şema + tamga (kaynak ∧ Noto cmap) + metin-ref + targets
+engine/kapi.mjs         GÜVENLİK KAPISI (tek kopya): şema + tamga (kaynak ∧ Noto cmap) + metin-ref + targets + ALTIN SÖZLÜK (content/sozluk.json: latin↔runik eşleşmesi, ters-sıra taraması — teklif/broşür dâhil) + sınav soru sayısı
 engine/render-baski.mjs A4 baskı renderer (03_Tasarim/gokturk-baski.css)
 engine/render-slayt.mjs Slayt renderer (koyu 'Bengü Gece' teması, gömülü font, tek dosya) → build/slayt/<id>.html + .pdf
 engine/build.mjs        build → build/baski/html → Edge headless → 04_PDF/
@@ -53,6 +53,8 @@ Kapıdan geçmeyen içerik üretilmez. Hata mesajı hangi belge › bölüm › 
 ## Kurallar
 
 - Runik metin **yalnız** kaynaklardan gelir. `metin-ref` DB'ye işaret eder; `tamga-grid` / `tamga-pair` kod noktasından (`cp`) çizer. Prose içine elle tamga yazılabilir ama kapı onu da kaynak kümesine karşı denetler.
+- Runik diziler **mantıksal sırada** (Unicode bidi=R; görüntüleyici sağa-sola çevirir). Görsel sırada yazılmış dizi = kapı hatası. `content/sozluk.json` altın sözlüktür; yeni örnek kelime eklerken sözlüğe de ekle.
+- Sertifika sınavı doğru şıkları dengeli dağıtılır (A/B/C/D ≈ 3'er); çeldiriciler gerçek öğrenci hatası olmalı, "kâtip hatası" türü boş şık yok.
 - Her blokta `targets` zorunlu: `["baski"]`, `["slayt"]` veya ikisi.
 - Sertifika sınavı: 12 soru, eşit puan, 60/100 (8 doğru), %80 devam — şemada sabit.
 - Terim: **Yedigün** (hafta). Kaynak dosyalarda (00_Kaynaklar) eski "Yedice" korunur; onlar provenance.

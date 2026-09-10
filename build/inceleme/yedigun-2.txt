@@ -1,0 +1,88 @@
+# Yedigün 2 — İmla Tasarrufu, Ligatürler ve Konum Kısıtları
+
+Göktürkçe Okuma-Yazma Öğreneği · 2 ders saati (45 + 45 dk)
+
+## I. DERS · 45 DK İmla Tasarrufu ve Ünlü Düşmesi
+
+
+=== I. Ders — İmla Tasarrufu — Kâtip neyi yazmaz, neyi asla düşürmez? ===
+Geçen Yedigünden
+- Sağdan sola · ( : ) ayırıcı
+- 4 ünlü tamga = 8 ses
+- 10 ünsüz × kalın/ince = 20 tamga
+Bugün: taşa kazımanın ekonomisi — ünlüler ne zaman yazılmaz?
+Kural 1 — Sözbaşı ve içseste kısa a/e yazılmaz
+Göktürk kâtipleri harf ve taş tasarrufu için kelime başındaki ve içindeki kısa a / e seslerini yazmaz; okuyucu zihnen tamamlar.
+Aysu Ata transkripsiyonunda yazılmayan ünlü parantezle gösterilir: (e)s(e)n, (a)t(a)r
+
+[ÖRNEK KELİME]
+  esen (sağ, esen) ➔ 𐰾𐰤 — s² + n² ➔ her iki e de düşer.
+  atar ➔ 𐱃𐰺 — t¹ + r¹ ➔ her iki a da düşer.
+  er (erkek, kişi) ➔ 𐰼 — Sözbaşı e düşer; geriye yalnız ince r kalır.
+Kural 2 — Kelime sonu ünlüsü ASLA düşmez
+Tasarruf kuralının en büyük istisnası.
+Kelimenin sonundaki bütün ünlüler (a, e, ı, i, o, u, ö, ü) mutlaka yazılır.
+koku ➔ 𐰴𐰸𐰆 — sondaki u yazıldı.
+Kural 3 — İçseste dar ünlü düşmesi
+Kök ek aldığında vurgusuz orta hecedeki dar ünlü (ı, i, u, ü) düşer.
+ogul + an ➔ oglan ➔ 𐰉𐰍𐰞𐰣
+b¹ + g¹ + l¹ + n¹ — kökün u'su düştü, a'lar tasarruf kuralıyla yazılmadı.
+
+[GÖRSEL] Taşa kazınmış esen: 𐰾𐰤 — esen ➔ 𐰾𐰤 — dört sesli kelime, iki tamga. Taşın ekonomisi.
+
+[QUIZ · formatif · Ünlü Düşmesi · hedef:slayt,baski]
+oglan kelimesi neden 𐰉𐰍𐰞𐰣 biçiminde dört tamgayla yazılır?
+  A) Kelimede yalnız dört ses vardır.
+  B) Kökteki u içseste düşer; a'lar kısa a/e tasarrufuyla yazılmaz; ünsüzler kalın seçilir.  ✓
+  C) Kâtip yanlış yazmıştır.
+  D) Ünlüler hiçbir zaman yazılmaz.
+  geri bildirim: ✓ ogul+an ➔ oglan; dar ünlü düşmesi + a/e tasarrufu. | ✗ İki kural birlikte çalışıyor: içses dar ünlü düşmesi ve a/e tasarrufu.
+
+## II. DERS · 45 DK Hece Damgaları ve İmla İstisnaları
+
+
+=== II. Ders — Hece Damgaları (Ligatürler) — Tek tamgada iki ses · konum kısıtı · ince-N istisnası ===
+Hece Damgaları
+Tek karakterde iki ses barındıran tamgalar. Öz Türkçe terim: seslem (akademik: hece / yarı-hece işareti).
+Ünlü + k birleşimleri: 𐰸 𐰜 𐰶 · ünsüz kümeleri: 𐰦 𐰡 𐰨 · iç/çi: 𐰱
+
+[TAMGA TABLOSU · grup=ligatur · izgara] 
+Kelime Başı Ligatür Yasağı
+Hece damgaları kelime başında ünsüzle başlayan ko / ku / kö / kü / kı hecelerini tek başına yazmak için kullanılamaz.
+Kelime başında düz harfle başlanır; ligatür ancak ondan sonra gelir.
+
+[ÖRNEK KELİME]
+  kök (mavi, gök) ➔ 𐰚𐰜 — Düz ince k² + ÖK ligatürü.  [hatalı: 𐰜𐰚]
+  kıldı ➔ 𐰴𐰃𐰡𐰃 — Düz kalın k¹ + I + LD + I.  [hatalı: 𐰶𐰡𐰃]
+  koku ➔ 𐰴𐰸𐰆 — Düz kalın k¹ + OK ligatürü + son ünlü u.
+
+[GÖRSEL] Taşa kazınmış kök: 𐰚𐰜 — kök ➔ 𐰚𐰜 — başta düz ince k, sonra ÖK damgası. Ters sıra (𐰜𐰚) hatalıdır.
+Kalın Kökte İnce-N İstisnası
+Kök tamamen kalın olsa bile 3. şahıs iyelik ve belirtme durumu eklerindeki n sesi (-ın / -nı) daima ince N 𐰤 ile yazılır.
+Büyük ünlü uyumunu bozan, istisnasız bir imla kuralı.
+
+[ÖRNEK KELİME]
+  sabın (sözünü) ➔ 𐰽𐰉𐰤 — s¹ + b¹ + n² — kalın kök, ince N.
+  adgırın (aygırını) ➔ 𐰉𐰑𐰍𐰺𐰤 — b¹ + d¹ + g¹ + r¹ + n² — kalın kök, ince N.
+
+[QUIZ · formatif · Konum Kısıtı · hedef:slayt,baski]
+Bir öğrenci kıldı kelimesini 𐰶𐰡𐰃 yazdı. Hata nedir?
+  A) Hata yok; kısa yazım tercih edilebilir.
+  B) IK/KI ligatürü kelime başında tek başına kullanılamaz; düz k¹ + I ile başlanmalıydı: 𐰴𐰃𐰡𐰃.  ✓
+  C) LD ligatürü yerine ayrı l ve d yazılmalıydı.
+  D) Son I yazılmamalıydı.
+  geri bildirim: ✓ Kelime başı ligatür yasağı. | ✗ Kelime başındaki 'kı' hecesine bakın.
+
+[QUIZ · formatif · Tek Formlu Ünsüzler · hedef:slayt,baski]
+Aşağıdaki ünsüz tamgalardan hangisinin kalın/ince ünlüye göre değişen bir biçimi yoktur?
+  A) 𐰉 / 𐰋 (B)
+  B) 𐰑 / 𐰓 (D)
+  C) 𐰲 (Ç)  ✓
+  D) 𐰽 / 𐰾 (S)
+  geri bildirim: ✓ Ç, M, P, Ş, Z kutupsuzdur. | ✗ Çiftleri olan harfler kutupludur; tek biçimli olanı arayın.
+Bu Yedigünün Özeti
+- Sözbaşı/içses kısa a-e yazılmaz; kelime sonu ünlüsü her zaman yazılır
+- Ek alan kökte orta hece dar ünlüsü düşer (oglan)
+- 7 hece damgası; kelime başında ko/ku/kö/kü/kı için tek başına kullanılmaz
+- Kalın kökte -ın/-nı eki daima ince N (𐰤)
+Gelecek Yedigün: tümce yapısı, taş ekonomisi, Irk Bitig imlası ve fal okumaları.

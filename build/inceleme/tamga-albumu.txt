@@ -1,0 +1,29 @@
+# Tamga Albümü ve Harf Kartları
+
+
+## BÖLÜM 1 Alfabe Tabloları — Tamga Grupları
+Kaynak metinlerde geçen 47 tamganın gruplu envanteri.
+
+[TAMGA TABLOSU · grup=unluler · tablo] 
+
+[TAMGA TABLOSU · grup=kutuplu · tablo] 
+
+[TAMGA TABLOSU · grup=kutupsuz · tablo] 
+
+[TAMGA TABLOSU · grup=ligatur · tablo] 
+
+[TAMGA TABLOSU · grup=irkbitig · tablo] 
+
+[TAMGA TABLOSU · grup=yenisey · tablo] 
+
+## BÖLÜM 2 Harf Kartları — Kes-Yapıştır Seti
+
+
+[TAMGA TABLOSU · grup=* · kart] 
+
+## BÖLÜM 3 Yenisey Varyantları ve Kâğıt Biçimleri
+Bölgesel glif varyantları (Unicode) ve Irk Bitig el yazması hattı (BabelStone Irk Bitig).
+
+[TAMGA TABLOSU · grup=yenisey-tam · tablo] 
+
+[TAMGA TABLOSU · grup=* · karsilastirma] Taş · Yenisey · Kâğıt — karşılaştırma tablosu

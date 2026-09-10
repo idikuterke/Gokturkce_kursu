@@ -98,7 +98,7 @@ Belirlenen ücret, güncel özel ders piyasası (bireysel ders saat ücreti 1.20
 **TEORİK KONULAR VE DİLBİLİMSEL KURALLAR**
 
 - **Tarihsel giriş:** Türk dili tarihi, Bengü Taşlar.
-- **Keşif süreci:** Vilhelm Thomsen'ın 15 Aralık 1893 keşfi ve ilk çözülen kelime *teŋri* 𐰃𐰼𐰭𐱅.
+- **Keşif süreci:** Vilhelm Thomsen'ın 15 Aralık 1893 keşfi ve ilk çözülen kelime *teŋri* 𐱅𐰭𐰼𐰃.
 - **Ünlü tamgalar:** 4 ünlü tamga 𐰇 𐰆 𐰃 𐰀 (8 sesi karşılar).
 - **Kutuplu ünsüz tamgalar:** 20 kutuplu ünsüz (kalın/ince uyumu) — b¹/b², g¹/g², d¹/d², y¹/y², k¹/k², l¹/l², n¹/n², r¹/r², s¹/s², t¹/t², ŋ, m, z, ç, p.
 - **Sağdan sola yazım yönü** ve kelimeler arası dikey iki nokta ayracı.
@@ -130,7 +130,7 @@ Belirlenen ücret, güncel özel ders piyasası (bireysel ders saat ücreti 1.20
 
 - Çift sesli ligatürlerin 𐰱 𐰶 𐰜 𐰸 kelime başı konum kısıtı egzersizi.
 - kı/ko/ku/kö/kü sesleri kelime başındaysa ligatürün asla kullanılamayacağı, düz tamga yazılacağı gösterilir.
-- **Örnek tahlil:** *kök* 𐰜𐰚 — *kıldı* 𐰃𐰡𐰃𐰴.
+- **Örnek tahlil:** *kök* 𐰚𐰜 — *kıldı* 𐰴𐰃𐰡𐰃.
 
 **IRK BİTİG ENTEGRASYONU**
 
@@ -171,7 +171,7 @@ Belirlenen ücret, güncel özel ders piyasası (bireysel ders saat ücreti 1.20
 **ATÖLYE VE ÖLÇME**
 
 - **Serbest kompozisyon yazımı:** Türkçe kısa bir metnin runik tamgalara dönüştürülmesi.
-- **12 soruluk Göktürkçe Okuma-Yazma Öğreneği Bitirme Sınavı uygulaması** (60 dakika).
+- **12 soruluk Göktürkçe Okuma-Yazma Öğreneği Bitirme Sınavı uygulaması** (45 dakika).
 - Sınav kâğıtlarının eğitmen tarafından çözümlenmesi ve katılımcılarla birlikte tahlili.
 
 **BELGE TAKDİMİ**
@@ -218,13 +218,13 @@ Belirlenen ücret, güncel özel ders piyasası (bireysel ders saat ücreti 1.20
 
 ## 6. Ölçme Standartları ve Örnek Çözümler
 
-Sertifikasyon aşamasına geçiş için 4. yedigünün sonunda uygulanacak sınav, ezbere dayalı değil; Göktürkçenin ileri düzey sınır durumlarındaki (edge case) mantığını ölçecek şekilde tasarlanmıştır. Aşağıda Aysu Ata ve Talat Tekin standartlarına göre ölçülecek kritik alanlar ve cevap anahtarı örnekleri sunulmuştur.
+Sertifikasyon aşamasına geçiş için 4. yedigünün sonunda uygulanacak sınav, ezbere dayalı değil; Göktürkçe imlasının kural mantığını ölçecek şekilde tasarlanmıştır (12 çoktan seçmeli soru, 45 dk; yazma becerisi sınıf içi açık uçlu pekiştirme çalışmasıyla desteklenir). Aşağıda Aysu Ata ve Talat Tekin standartlarına göre ölçülecek kritik alanlar ve cevap anahtarı örnekleri sunulmuştur.
 
 | KRİTİK ÖLÇME ALANI | SORU TEMASI | AKADEMİK ÇÖZÜM VE GEREKÇE |
 |---|---|---|
-| Ünlü düşmesi ve tasarruf kuralı | *esen* ve *atar* kelimelerinin tamgalarla doğru yazımı | *esen* → 𐰤𐰾 (s²n²), *atar* → 𐰺𐱃 (t¹r¹). Sözbaşında ve içseste kısa a/e ünlüleri Göktürk imla tasarrufu gereği yazılmaz; okuyucu ünlüyü ünsüzün kutbundan çıkarır. |
+| Ünlü düşmesi ve tasarruf kuralı | *esen* ve *atar* kelimelerinin tamgalarla doğru yazımı | *esen* → 𐰾𐰤 (s²n²), *atar* → 𐱃𐰺 (t¹r¹). Sözbaşında ve içseste kısa a/e ünlüleri Göktürk imla tasarrufu gereği yazılmaz; okuyucu ünlüyü ünsüzün kutbundan çıkarır. |
 | Tarihsel sayı sistemi çekimi | *sekiz elig* ifadesinin rakamsal değerinin çözülmesi | *sekiz elig* ifadesinin rakamsal karşılığı **48**'dir. Eski Türkçede bir sonraki onluk referans alınır; *elig* (50) onluğuna ulaşmak için sekiz adım kaldığı, yani 40 + 8 belirtilir. |
-| Hece ligatürlerinin konum kısıtlamaları | *kök* ve *kıldı* kelimelerinin tamgalarla doğru imlası | Kelime başındaki kı/ko/ku/kö/kü seslerinde ligatür asla kullanılamaz. Bu nedenle *kök* 𐰜𐰚 baştaki *kö* için değil, sondaki *ök* için ligatür alır. *kıldı* 𐰃𐰡𐰃𐰴 ise kısıt kelime başında olduğundan ligatürsüz düz tamgalarla yazılır. |
+| Hece ligatürlerinin konum kısıtlamaları | *kök* ve *kıldı* kelimelerinin tamgalarla doğru imlası | Kelime başındaki kı/ko/ku/kö/kü seslerinde ligatür asla kullanılamaz. Bu nedenle *kök* 𐰚𐰜 kelime başında düz ince k ile başlar, ÖK ligatürü ancak ondan sonra gelir (𐰜𐰚 hatalıdır). *kıldı* 𐰴𐰃𐰡𐰃 ise kısıt kelime başında olduğundan ligatürsüz düz tamgalarla yazılır. |
 | Irk Bitig paleografik okuması | 15. Falın transkripsiyonu ve Türkçe tahlili | "Üzä tuman turdı, asra toz turdı…" (Üstte duman durdu, altta toz durdu…) falının okunması ve kelimelerin morfolojik tahlili — örneğin *toz* ve *tuman* kelimelerinde imla tasarrufunun izlenmesi. |
 
 ---
@@ -263,10 +263,9 @@ Aşağıdaki cetvel, birinci ve ikinci yedigünde dağıtılacak tamga kartları
 |---|---|---|---|
 | 𐰔 | z | U+10C14 | |
 | 𐰲 | ç | U+10C32 | |
-| 𐰭 | ŋ | U+10C2D | (yumuşak g) |
+| 𐰭 | ŋ | U+10C2D | damaksal geniz ünsüzü (ng); yumuşak g değildir |
 | 𐰯 | p | U+10C2F | |
-| 𐰿 | ş | U+10C3F | |
-| 𐱁 | ſ (ş²) | U+10C41 | Irk Bitig varyantı |
+| 𐱁 | ş | U+10C41 | kutupsuz; Irk Bitig'de bu biçim ince r için kullanılır, ş sesi s ile yazılır |
 | 𐰢 | m | U+10C22 | |
 | 𐰡 | lt | U+10C21 | küme tamga |
 | 𐰦 | nt | U+10C26 | küme tamga |

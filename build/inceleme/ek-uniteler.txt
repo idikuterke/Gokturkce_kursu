@@ -1,0 +1,220 @@
+# Ek Üniteler Föyü
+
+
+## ÜNİTE A Göktürkçe Sayılar: Tarihsel Mantık ve Yazım Çalışma Yaprağı
+Günümüzden farklı olan “hedef onluk” merkezli sayı mantığını kavramak.
+A.1Teorik Özet: Eski Türkçede Sayıların Matematiksel Mantığı
+
+Göktürk Yazıtları'nda karşılaştığımız sayı sistemi, modern Türkçedeki toplama (20 + 1 = 21) mantığına dayanmaz. Eski Türk zihninde sayı sistemi, bulunulan birimi değil, ulaşılmak istenen bir sonraki onluğu referans alan “progresif” (ilerleyici) bir yapıdadır.
+
+ - Mantık: Birlik Sayı + Referans Alınan (Hedeflenen) Onluk
+
+ - Örnek: “12” sayısı için Eski Türk, “yirmiye yönelen ikinci sayı” mantığıyla eki yeg(i)rmi der. “21” sayısı için ise “otuz yolundaki birinci sayı” anlamında bir otuz ifadesini kullanır.
+
+ Rakam | Göktürkçe (Birlik) | Onluk | Göktürkçe (Onluk) | 
+
+ 1 | bir | 10 | on | 
+
+ 2 | eki | 20 | yegirmi | 
+
+ 3 | üç | 30 | otuz | 
+
+ 4 | tört | 40 | kırk | 
+
+ 5 | biş | 50 | elig | 
+
+ 6 | altı | 60 | altm(ı)ş | 
+
+ 7 | yiti | 70 | yitmiş | 
+
+ 8 | sekiz | 80 | sekiz on | 
+
+ 9 | to͡kuz | 90 | to͡kuz on | 
+
+Önemli not: Orhun Yazıtları'nda 50, 60 ve 70 sayıları (elig, altm(ı)ş, yitmiş) özgün köklere sahipken; 80 ve 90 sayıları sekiz on ve to͡kuz on şeklinde kurulur.
+
+Aysu Ata Disiplini: Transkripsiyon ve Parantez Kuralları
+
+ - Parantez disiplini: Göktürk yazısında bazı ünlüler (özellikle söz başı /a/ ve /ä/ sesleri ile ilk hece dışındaki düz-dar ünlüler) taş üzerine fiziksel olarak yazılmaz. Metinde görsel olarak bulunmayan ancak dilin fonetik yapısı gereği okunan bu sesler, transkripsiyonda parantez içinde ( ) gösterilir. Örnek: yeg(i)rmi.
+
+ - Ligatür arkı: Harf birleşimlerindeki özel fonetik değerleri belirtmek için harflerin üzerine bir ark (yay) eklenir. Örnek: to͡kuz.
+
+A.2Alıştırma 1 — “Kaç Olduğunu Bul” (Eşleştirme)
+
+Aşağıdaki Göktürkçe ifadeleri, tarihsel matematiksel mantığa göre günümüz rakam karşılıklarıyla eşleştiriniz.
+
+ Göktürkçe Transkripsiyon | Günümüz Karşılığı (Rakam) | 
+
+ eki yeg(i)rmi | | 
+
+ altı otuz | | 
+
+ to͡kuz yitmiş | | 
+
+ sekiz elig | | 
+
+ bir otuz | | 
+
+A.3Alıştırma 2 — Runik Yazım Pratiği (Sağdan Sola)
+
+Göktürk alfabesiyle yazarken en kritik kural şudur: Yazım her zaman sağdan sola doğru yapılır. Ayrıca kelimedeki ünlülerin kalın (art) veya ince (ön) oluşuna göre doğru ünsüz karakteri seçilmelidir.
+
+Talat Tekin gramerine göre harf rehberi: b (ince/ön): 𐰋 · i/ı: 𐰃 · r (ince/ön): 𐰼 · o/u: 𐰆 · t (kalın/art): 𐱃 · z: 𐰯
+
+Görev: “bir otuz” (21) ifadesini aşağıdaki kutucuklara, her kutuya bir harf gelecek şekilde sağdan sola doğru yazınız.
+
+ 7 | 6 | 5 | 4 | 3 | 2 | 1 | 
+
+ (z) | (u) | (t) | — | (r) | (i) | (b) | 
+
+ | | | | | | | 
+
+Yazar notu: Göktürkçenin sayı sistemindeki ileriye dönük mantık, Türklerin o dönemki zaman algısını ve matematiksel estetiğini yansıtır.
+
+## ÜNİTE B Altay Dil Birliği ve Büyük Ses Ayrışması (r/l ~ z/ş)
+Türk dillerinin sınıflandırılmasında en temel dilbilimsel ölçüt.
+B.1Temel Kavramlar ve Rekonstrüksiyon (Ana Dil)
+
+ - Ana Dil: Bir dil ailesine kaynaklık eden, tarihsel olarak belgelenemeyen ancak karşılaştırmalı yöntemlerle canlandırılan (rekonstrükte edilen) dildir.
+
+ - Ana Altayca: Türkçe, Moğolca, Tunguzca (belki Korece ve Japonca) dillerinin dâhil olduğu Altay grubuna kaynaklık ettiği varsayılan ortak ata dildir.
+
+ - Ana Türkçe: Çuvaşça dışındaki tüm tarihsel ve modern Türk dil ve diyalektlerine kaynaklık eden dildir.
+
+B.2Büyük Ses Denkliği ve Ramstedt Teorisi
+
+Dinamik dilbilimci Schott'un Türkçe ve Çuvaşça arasındaki ses ilişkilerini ortaya koyan çalışmasını geliştiren G. J. Ramstedt, Çuvaşçanın ses özellikleri bakımından Moğolcanın yanında yer aldığını tespit etmiştir. Ramstedt'in keşfine göre; Çuvaşça ve Moğolcadaki /r/ ve /l/ sesleri, Türkçedeki (ve Orhun Türkçesindeki) /z/ ve /ş/ seslerine denk gelmektedir. Hangi sesin “aslî (eskicil)” olduğu tartışması doğrultusunda dört temel görüş ortaya çıkmıştır:
+
+ Görüş | İddia | 
+
+ Rotasizm (r'leşme) | Türkçe /z/ sesinin aslî olduğunu; Çuvaşça ve Moğolcadaki /r/ sesinin bu aslî sesten türediğini savunur. | 
+
+ Lambdaizm (l'leşme) | Türkçe /ş/ sesinin aslî olduğunu; Çuvaşça ve Moğolcadaki /l/ sesinin bu aslî sesten türediğini savunur. | 
+
+ Zetasizm (z'leşme) | Çuvaşça ve Moğolcadaki /r/ sesinin aslî olduğunu; Türkçe /z/ sesinin bu aslî /r/ sesinden türediğini savunur. | 
+
+ Sigmatizm (ş'leşme) | Çuvaşça ve Moğolcadaki /l/ sesinin aslî olduğunu; Türkçe /ş/ sesinin bu aslî /l/ sesinden türediğini savunur. | 
+
+B.3Tarihsel Büyük Ayrışma ve “oguX” Teorisi
+
+ İlk Türkçe Dönemi · oguX
+
+ ◄►
+
+ 
+ 
+ Lir (r'li / l'li) Kolu
+
+ “x” sesini /r/ olarak telaffuz eden ve ogur şeklinde konuşan grup.
+
+ Ana Çuvaşça Dönemi: x değişkeni = /r/ → “ogur” (Lir)
+
+ ↳ Günümüzde yalnızca Çuvaşça.
+
+ 
+
+ 
+ Şaz (z'li / ş'li) Kolu
+
+ “x” sesini /z/ olarak telaffuz eden ve oguz şeklinde konuşan grup.
+
+ Ana Türkçe Dönemi: x değişkeni = /z/ → “oguz” (Şaz)
+
+ ↳ Orhun, Uygur, Karahanlı ve tüm modern kollar (Türkiye Türkçesi, Kazakça, Özbekçe vb.).
+
+ 
+
+ 
+
+Türk dillerini sınıflandırırken elimizdeki en güçlü dilbilimsel kıstas Türkçe /z/ = Çuvaşça /r/ denkliğidir.
+
+B.4Alıştırma 1 — Transkripsiyon ve Karşılaştırma
+
+Aşağıda Kül Tigin yazıtından Aysu Ata transkripsiyon yöntemiyle (parantez disiplini ve ligatür arkıyla) verilmiş cümleleri okuyunuz; kalın harfle yazılmış kelimelerdeki z/ş (Şaz) seslerinin Çuvaşça/Moğolcadaki r/l (Lir) karşılıklarını düşününüz.
+
+ G8: ... ötük(e)n yir ol(u)r(u)p (a)rk(ı)ş tirk(i)ş ıs(a)r n(e)ŋ buŋ(u)g yo͡k...
+
+ G8: ... türü ͡k bod(u)n to͡k (a)rk(u)k s(e)n açs(ı)k tos(ı)k öm(e)z s(e)n b(i)r tods(a)r...
+
+ G9: ... [ö]z(ü)m k ͡uutum b(a)r üçün k(a)g(a)n ol(u)rt(u)m...
+
+ - Tahlil kelimesi 1: todsa(r) (tok olursan/doyarsan) — içindeki /z/ sesi Şaz Türkçesinin özelliğidir.
+
+ - Tahlil kelimesi 2: [ö]z(ü)m (özüm/kendim) — içindeki /z/ sesi Şaz Türkçesinin özelliğidir.
+
+B.5Alıştırma 2 — r/l ~ z/ş Kelime Denkliği Eşleştirme
+
+Aşağıdaki r/l (Çuvaşça/Moğolca) ve z/ş (Türkiye Türkçesi/Orhun Türkçesi) ses denkliklerini inceleyerek boşlukları doldurunuz.
+
+ Kavram | Lir (r/l) Karşılığı (Çuvaşça / Moğolca) | Şaz (z/ş) Karşılığı (Türkçe / Orhun T.) | 
+
+ Sayı (İki) | ik-r-i (Moğolca) | iki-z (Türkçe) | 
+
+ Göz | ku-r (Çuvaşça) | gö-z (Türkçe) | 
+
+ Yaş (Ömür) | çu-l (Çuvaşça) | ya-ş (Türkçe) | 
+
+ Sayı (Yüz) | çü-r (Çuvaşça) | yü-z (Türkçe) | 
+
+ Dışarı | tı-r (Çuvaşça / Moğolca) | tı-ş (Türkçe / taşra) | 
+
+B.6Araştırma ve Ödev Projesi
+
+Türkiye Türkçesinde bugün birbiriyle anlamca doğrudan ilgili olmak şartıyla hem /z/ hem de /r/ seslerini bünyesinde barındıran ve aynı kökten türemiş kelime çiftleri mevcuttur (örneğin kudur- eylemi ile kuduz kelimesi; semri- eylemi ile semiz kelimesi). Siz de bu kurala uyan ve anlam ilişkisi kopmamış en az 3 kelime çifti bularak köken tahlillerini yapınız.
+
+## ÜNİTE C Zihinsel (Uslamlama) Fiiller — Eski Türk Düşünce Dünyası
+Runik metinlerdeki uslamlama fiilleri; evrene, devlete, aileye, ahlaka ve bilgiye bakış açısı.
+Eski Türkçede kullanılan zihinsel fiiller, Türk runik metinlerinde sadece dilbilimsel eylemler olmanın ötesinde; eski Türk ulusunun evrene, devlete, aileye, ahlaka ve bilgiye bakış açısını (usunu) yansıtan paha biçilmez kültürel aynalardır.
+
+1. Bilgiye ve akla verilen değer — bil-
+
+Yazıtlarda en sık karşılaşılan uslamlama fiili “bil-” (bilmek) eylemidir. Bu sıklık, eski Türk toplumunun bilgiye ve bilgili kişilere verdiği yüksek değeri kanıtlar. Metinlerde bilge kişiler sürekli övülür ve bu eylem öğütlenirken, “bilig bilmez” (bilgisiz, cahil) kişiler uyarılır ve eleştirilir. Türk idare sisteminde liyakatin, yani bilgeliğin ne kadar kritik bir meşruiyet ve güç kaynağı olduğu bu eylemin kullanımından açıkça anlaşılmaktadır.
+
+2. İstişare ve ortak akıl kültürü — ögläş-
+
+Düşünmek, akıl etmek ve hatırlamak anlamlarına gelen “ö-” eyleminden türetilen “ögläş-” (akıl danışmak, görüş almak) fiili, eski Türklerin yönetim felsefesini ortaya koyar. Kağanlar ve komutanlar tek başlarına karar almaz; bir askeri veya siyasi eyleme girişmeden önce kurultayda aksakallara ve bilge kişilere “akıl danışıp” (ögläşip) ortak kararla hareket ederlerdi.
+
+3. İstemli ve istençsiz bilişsel ayrım — tiŋla- / közlä-
+
+ - Kulağa sesin rastgele ulaşması basitçe eşid- veya tuy- iken; bir öğüdü veya sözü kendi isteğiyle pürdikkat dinlemek tiŋla- fiiliyle karşılanırdı.
+
+ - Rastgele görmek kör- iken; özel bir çaba ve dikkatle, stratejik olarak gözetlemek közlä- fiiliyle ifade edilirdi. Bu, eski Türklerin zihinsel odaklanma ve disipline (töreye) verdikleri önemi gösterir.
+
+4. Derin düşünce, yas ve yaşamın sınırları — sakın-
+
+Orijinal anlamı “düşünmek” olan, daha sonra “kaygılanmak, üzülmek” anlamlarına evrilen “sakın-” fiili, eski Türklerin varoluşsal düşüncelerini taşır. Kardeşi Kül Tigin'in vefatı üzerine Bilge Kağan'ın daldığı derin hüzün ve meditasyon “sakıntım” sözüyle ifade edilir. Kağan, zamanın ve ölümün mutlak sınırlarını düşünerek acısını dindirmeye çalışır. Vezir Tonyukuk ise aynı fiili askeri stratejide “semiz boğa ile zayıf boğayı uzaktan ayırt etme” benzetmesiyle bir zihinsel muhakeme aracı olarak kullanır.
+
+5. Aileye saygı ve hatadan dönme bilişselliği — öbkälä- / sakın-
+
+Irk Bitig'in 58. kehanetinde, anne babasına öfkelendiği (öbkäläp) için evden kaçan (tezip) bir gencin öyküsü anlatılır. Genç yolda tekrar düşününce (yana sakınmış), “Annemin öğüdünü alayım, babamın sözünü dinleyeyim” diyerek geri döner. Öfke gibi yıkıcı bir duygu tepkisinin, uslamlama (sakınmak/düşünmek) eylemiyle kontrol altına alınması, eski Türk toplumunda aileye ve ana-baba sözüne verilen sarsılmaz değeri yansıtır.
+
+6. Toplumsal ahlak ve vicdani sorumluluk — ökün- / ärtin-
+
+Bir işin yanlış sonuç verdiğini anlayıp üzülmeyi belirten “ökün-” (pişman olmak) ve “ärtin-” (vazgeçmek) fiilleri, töreye uyumun zihinsel kontrol mekanizmalarıdır. Bilge Kağan'ın ulusuna hitaben “vazgeç ve nadim ol!” (ärtin ökün) demesi, toplumsal ahlaka aykırı ve utanılacak durumlardan kaçınma yönünde bir vicdani hesaplaşma çağrısıdır.
+
+## EĞİTMEN BÖLÜMÜ Ek Üniteler — Çözümlü Cevap Anahtarı
+Dağıtım öncesi bu bölüm ayrılabilir.
+EĞİTMEN VERSİYONU
+Ç.Ünite A (Sayılar) Çözümleri
+
+Alıştırma 1 Cevapları
+
+ - eki yeg(i)rmi = 12 — Göktürkçe, birimin hedeflenen onluğa yöneldiği ilerleyici bir sıra sistemi kullanır; bu örnekte 20'ye (yegirmi) yönelen 2. sayı kastedilmiştir.
+
+ - altı otuz = 26 — 30'a (otuz) yönelen 6. sayı olduğu için.
+
+ - to͡kuz yitmiş = 69 — 70'e (yitmiş) yönelen 9. sayı olduğu için.
+
+ - sekiz elig = 48 — 50'ye (elig) yönelen 8. sayı olduğu için.
+
+ - bir otuz = 21 — 30'a yönelen 1. sayı olduğu için.
+
+Alıştırma 2 Cevapları (Runik Analiz)
+
+ - bir ➔ 𐰼𐰃𐰋 — Sağdan sola: b-i-r. “bir” kelimesi ön ünlülü olduğu için ince “b” 𐰋 ve ince “r” 𐰼 kullanılmıştır.
+
+ - otuz ➔ 𐰯𐱃𐰆 — Sağdan sola: o-t-u-z. Yazıtlarda “otuz” kelimesindeki ilk /o/ ve /u/ sesleri 𐰆 karakteriyle gösterilir; “t” kalın/art karakterli 𐱃 ile yazılır.
+
+ - bir otuz (21) ➔ 𐰯𐱃𐰆  𐰼𐰃𐰋
+
+Ünite B (Lir/Şaz): Alıştırma 2'nin denklik tablosu kaynaktan eksiksiz verilmiştir (ikr/ikiz, kur/göz, çul/yaş, çür/yüz, tır/tış); alıştırma 1'in tahlil kelimeleri metin içinde çözümlüdür. Ödev projesi öğrenci çalışmasına bırakılmıştır.

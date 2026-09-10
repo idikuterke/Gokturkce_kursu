@@ -1,0 +1,11 @@
+İnceleme paketi — Göktürkçe Öğreneği (10.09.2026)
+*.txt  : içeriklerin düz metin dökümü (HTML soyulmuş; [QUIZ]/[ALIŞTIRMA]/[METİN] etiketleri blok tipini gösterir; ✓ doğru şık)
+*.json : aynı içeriklerin yapısal kaynağı (schema/content.schema.json)
+Eleştirmenin istediği 5 belge:
+ 1 Öğretmen kılavuzu      → kitapcik.txt / .json
+ 2 Değerlendirme seti     → degerlendirme.txt (10 formatif) + yedigun-4.txt (12 soruluk sertifika sınavı, 'sertifika' etiketli)
+ 3 Çalışma yaprağı        → yapraklar.txt
+ 4 Müfredat / kazanım     → teklif.md (vakfa giden) + mufredat_kaynak.txt (ham kaynak)
+ 5 Tamga albümü           → tamga-albumu.txt + tamgalar.json (47 + Yenisey 31 + kâğıt 37)
+Ek: yedigun-1..3.txt (slayt içerikleri), irkbitig-foyu.txt, ek-uniteler.txt
+Zaman bütçesi: 101 slayt / 360 dk. Sertifika: 12 soru eşit puan, eşik 60, %80 devam.

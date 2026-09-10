@@ -1,0 +1,113 @@
+{
+ "id": "tamga-albumu",
+ "tur": "album",
+ "baslik": "Tamga Albümü ve Harf Kartları",
+ "surum": "2026-09-10",
+ "kapakHtml": "\n<div class=\"kapak\">\n  <div>\n    <div class=\"kapak-friz\">𐰀&nbsp;𐰉&nbsp;𐰃&nbsp;𐰋&nbsp;𐰆&nbsp;𐰍&nbsp;𐰇&nbsp;𐰏</div>\n    <div class=\"cift-cizgi\"></div>\n    <div class=\"kicker\">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>\n    <h1>Tamga Albümü ve Harf Kartları</h1>\n    <p class=\"alt-baslik\">47 Tamga · Alfabe Tabloları + Kes-Yapıştır Kart Seti</p>\n    <div class=\"kapak-meta\">\n      <table>\n        <tr><td class=\"k\">KAPSAM</td><td>4 ünlü · 20 kutuplu ünsüz · 7 kutupsuz ünsüz · 7 ligatür · 2 Irk Bitig özel tamgası · 7 Yenisey varyantı</td></tr>\n        <tr><td class=\"k\">KULLANIM</td><td>Tablolar derste projeksiyonla; kartlar basılıp kesilerek eşleştirme oyunlarında kullanılır</td></tr>\n        <tr><td class=\"k\">DOĞRULAMA</td><td>Her tamga Unicode resmi adıyla etiketlenmiştir; font gömülüdür</td></tr>\n      </table>\n    </div>\n  </div>\n  <div class=\"not\">Tüm tamgalar kaynak metinlerde fiilen geçen karakterlerden derlenmiştir (47/47).</div>\n</div>\n",
+ "bolumler": [
+  {
+   "id": "alfabe-tablolari",
+   "kicker": "BÖLÜM 1",
+   "baslik": "Alfabe Tabloları — Tamga Grupları",
+   "ozet": "Kaynak metinlerde geçen 47 tamganın gruplu envanteri.",
+   "bloklar": [
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski",
+      "slayt"
+     ],
+     "grup": "unluler",
+     "gorunum": "tablo"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski",
+      "slayt"
+     ],
+     "grup": "kutuplu",
+     "gorunum": "tablo"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski",
+      "slayt"
+     ],
+     "grup": "kutupsuz",
+     "gorunum": "tablo"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski",
+      "slayt"
+     ],
+     "grup": "ligatur",
+     "gorunum": "tablo"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski",
+      "slayt"
+     ],
+     "grup": "irkbitig",
+     "gorunum": "tablo"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski",
+      "slayt"
+     ],
+     "grup": "yenisey",
+     "gorunum": "tablo"
+    }
+   ]
+  },
+  {
+   "id": "harf-kartlari",
+   "kicker": "BÖLÜM 2",
+   "baslik": "Harf Kartları — Kes-Yapıştır Seti",
+   "ozet": "",
+   "bloklar": [
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski"
+     ],
+     "grup": "*",
+     "gorunum": "kart",
+     "kesmeCizgisi": true
+    }
+   ]
+  },
+  {
+   "id": "yenisey-ve-kagit",
+   "kicker": "BÖLÜM 3",
+   "baslik": "Yenisey Varyantları ve Kâğıt Biçimleri",
+   "ozet": "Bölgesel glif varyantları (Unicode) ve Irk Bitig el yazması hattı (BabelStone Irk Bitig).",
+   "bloklar": [
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski"
+     ],
+     "grup": "yenisey-tam",
+     "gorunum": "tablo"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski"
+     ],
+     "grup": "*",
+     "gorunum": "karsilastirma",
+     "baslik": "Taş · Yenisey · Kâğıt — karşılaştırma tablosu"
+    }
+   ]
+  }
+ ]
+}

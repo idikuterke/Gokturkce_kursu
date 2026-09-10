@@ -1,0 +1,104 @@
+# Yedigün 3 — Söz Dizimi, Epigrafik Farklar ve Irk Bitig
+
+Göktürkçe Okuma-Yazma Öğreneği · 2 ders saati (45 + 45 dk)
+
+## I. DERS · 45 DK Tümce Yapısı ve Taş Ekonomisi
+
+
+=== I. Ders — Tümce (Söz Dizimi) — İsim tümcesi · fiil tümcesi · eksiltili yapılar ===
+İki Tümce Türü
+Tür | Yüklem | Örnek | 
+İsim tümcesi | İsim / sıfat (+ er- yardımcı fiili veya şahıs zamiri) | Bilge Tonyukuk men — Ben Bilge Tonyukuk'um | 
+Fiil tümcesi | Çekimli fiil | Özne + Tümleç + Yüklem |
+
+[METİN · orhun:TY1-B-1 kelime [0, 3]] İsim tümcesi — Tonyukuk Yazıtı · 1. taş · Batı 1
+
+[METİN · orhun:KT-G-1 kelime [0, 7]] İsim tümcesi — Kül Tigin · Güney 1: Tanrı gibi gökte olmuş Türk Bilge Kağan
+
+[METİN · orhun:TY1-B-2 kelime [0, 6]] Fiil tümcesi — Tonyukuk · Batı 2: Türk bodun kanın bulmayın Tabgaçda adrıldı
+Taş Ekonomisi — Eksiltili (Elliptical) Yapılar
+Sert taşa kazımanın zorluğu kâtibi kısaltmaya iter: sıfat-fiiller, yardımcı fiiller, hatta yüklem işaretsiz bırakılabilir.
+Okur, bağlamdan tamamlar — tıpkı yazılmayan ünlüleri tamamladığı gibi. Yedigün 2'deki tasarruf kuralının tümce düzeyindeki karşılığı.
+
+[QUIZ · formatif · Tümce Türü · hedef:slayt,baski]
+Bilge Tonyukuk men tümcesi hangi türdendir ve yüklemi nedir?
+  A) Fiil tümcesi; yüklem 'men'
+  B) İsim tümcesi; yüklem 'Bilge Tonyukuk' + şahıs zamiri 'men'  ✓
+  C) Eksiltili tümce; yüklem yok
+  D) Fiil tümcesi; yüklem 'Tonyukuk'
+  geri bildirim: ✓ İsim yüklemi + 1. tekil şahıs zamiri. | ✗ Tümcede çekimli fiil var mı? Yok — isim tümcesi.
+
+## II. DERS · 45 DK Orhun – Irk Bitig Kıyaslaması ve Fal Okumaları
+
+
+=== II. Ders — Irk Bitig — Taştan kâğıda: aynı alfabe, başka el ===
+
+[GÖRSEL] Açık el yazması kitapçık (temsilî) — Irk Bitig (Fal Kitabı) — 9. yy, Dunhuang (Bin Buda mağaraları), kâğıt + fırça. Orijinal: British Library Or.8212/161. Temsilî canlandırma.
+Mecra Farkı → Harf Farkı
+ | Orhun (taş, keski) | Irk Bitig (kâğıt, fırça) | 
+Hat | Köşeli, geometrik | Yuvarlak, akıcı, el yazısına yatkın (cursiviform) | 
+ş sesi | 𐱁 ayrı tamga | 𐱁 kaldırıldı; yerine s (𐰽 / 𐰾): yaş ➔ yas | 
+ince r | 𐰼 | Grafik benzerlikle 𐱁 biçimi ince r için kullanıldı | 
+Özel tamgalar | — | 𐱇 ot (logogram) · 𐰰 up/üp · 𐰪 ny/ń |
+Üçüncü Bölge: Yenisey Yazıtları
+Güney Sibirya (Yenisey ırmağı) mezar taşları — Orhun'la aynı alfabe, bölgesel glif varyantları. Unicode bu biçimlere ayrı kod noktası verir; ses değeri aynıdır.
+İki ek ünlü: Orhun'un 4 ünlü damgasına Yenisey iki işaret ekler — açık e (ä): äb, är, bäg, täg · kapalı é (ė): ėki, ėl, bėş, yėti (Orhun'da i ile yazılır ya da yazılmaz).
+Örnek: Tonyukuk yazıtı ÖK/ÜK için Yenisey biçimi 𐰝 kullanır (Orhun 𐰜).
+
+[TAMGA TABLOSU · grup=unluler,kutuplu · karsilastirma] Orhun ↔ Yenisey — ünlüler ve kutuplu ünsüzler
+
+[QUIZ · formatif · Yenisey Ek Ünlüleri · hedef:slayt,baski]
+Yenisey yazıtlarında ėki, bėş, yėti kelimelerinde ayrı bir damgayla (𐰅, kapalı é) yazılan ünlü, Orhun yazıtlarında nasıl gösterilir?
+  A) Orhun'da da aynı özel damgayla
+  B) Açık e (ä) damgasıyla
+  C) i damgasıyla yazılır ya da hiç yazılmaz — Orhun'un 4 ünlü damgası kapalı é'yi ayırmaz  ✓
+  D) Ö/Ü damgasıyla
+  geri bildirim: ✓ Orhun 4 ünlü damgayla 8 sesi karşılar; kapalı é ile açık ä için ayrı işareti yalnız Yenisey ekler (Tekin). | ✗ Orhun ünlü envanterini hatırlayın: A/E · I/İ · O/U · Ö/Ü — beşinci işaret yok.
+
+[TAMGA TABLOSU · grup=irkbitig · izgara] 
+
+[TAMGA TABLOSU · grup=unluler,kutuplu · karsilastirma] Taş ↔ Kâğıt — ünlüler ve kutuplu ünsüzler
+
+[TAMGA TABLOSU · grup=kutupsuz,ligatur,irkbitig · karsilastirma] Taş ↔ Kâğıt — kutupsuzlar, hece damgaları, özel tamgalar
+
+[ÖRNEK KELİME]
+  yaş — Orhun (yaş, ömür) ➔ 𐰖𐱁 — y¹ + kutupsuz ş.
+  yaş — Irk Bitig ➔ 𐰖𐰽 — ş kaldırıldı; kalın s yazılır.
+  er — Orhun (kişi) ➔ 𐰼 — Sözbaşı e düşer; ince r.
+  er — Irk Bitig ➔ 𐱁 — İnce r için ş biçimi kullanılır.
+Fal Deşifre Yöntemi
+- Zar dizisini oku (3 zar × 1–4 nokta)
+- Runik satırı sağdan sola kelimelere ayır ( : )
+- Her kelimeyi Aysu Ata transkripsiyonuyla yaz — yazılmayan ünlüler parantezde
+- Irk Bitig imlasını uygula: 𐱁 gördüğünde ince r düşün
+- Kalıp kapanışı bul: ança biliŋler: edgü ol / yablak ol
+
+[METİN · irkbitig:1] 1. Fal · Zar 2-2-2 — Tensi men…
+
+[METİN · irkbitig:4] 4. Fal — up/üp (𐰰) tamgası
+
+[METİN · irkbitig:17] 17. Fal — ot (𐱇) logogramı
+
+[METİN · irkbitig:15] 15. Fal · Zar 3-1-4 — Üze tuman turdı…
+
+[QUIZ · formatif · Irk Bitig İmlası · hedef:slayt,baski]
+Irk Bitig'de 𐱁 tamgasını gördüğünüzde hangi sesi düşünmelisiniz?
+  A) ş — Orhun'daki gibi
+  B) ince r — ş tamgası bu el yazmasında r² için kullanılır  ✓
+  C) kalın r
+  D) z
+  geri bildirim: ✓ ş sesi s ile yazılır; 𐱁 biçimi ince r'ye kaydırılmıştır. | ✗ Irk Bitig'de ş tamamen tasfiye edilmiştir; biçim başka bir sese verilmiştir.
+
+[QUIZ · formatif · Irk Bitig Özel Tamgaları · hedef:slayt,baski]
+“koń” (koyun) ve “turńa” (turna) kelimelerindeki damaksal ny / ń sesini karşılayan, Irk Bitig'e özgü tamga hangisidir?
+  A) 𐰭 (ng)
+  B) 𐰪 (ny / ń)  ✓
+  C) 𐰨 (nç)
+  D) 𐰜 (ük)
+  geri bildirim: ✓ 𐰪 — Irk Bitig'in karakteristik tamgası. | ✗ ng ve nç kümeleri farklı; aranan damaksal n.
+Bu Yedigünün Özeti
+- İsim tümcesi (er- / şahıs zamiri) — fiil tümcesi (çekimli yüklem)
+- Taş ekonomisi tümceyi de kısaltır: eksilti
+- Irk Bitig: ş yok ➔ s; 𐱁 = ince r; 𐱇 ot, 𐰰 up, 𐰪 ny
+- Fal deşifresi: zar ➔ kelimeler ➔ transkripsiyon ➔ kapanış kalıbı
+Gelecek Yedigün: kompozisyon atölyesi, sayı sistemi ve 12 soruluk bitirme sınavı.

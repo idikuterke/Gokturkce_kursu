@@ -207,13 +207,13 @@
      "secenekler": [
       "Soldan sağa — boşluk",
       "Sağdan sola — üst üste iki nokta ( : )",
-      "Yukarıdan aşağıya — noktalı virgül",
-      "Soldan sağa — kısa çizgi"
+      "Soldan sağa — üst üste iki nokta ( : )",
+      "Sağdan sola — boşluk"
      ],
      "dogru": 1,
      "geriBildirim": {
       "ok": "Sağdan sola, ( : ) ayırıcı.",
-      "no": "Yazıtlarda satır sağdan başlar."
+      "no": "Yön ve ayırıcı birlikte doğru olmalı: yazıtlarda satır sağdan başlar, kelimeler ( : ) ile ayrılır."
      }
     },
     {
@@ -225,17 +225,17 @@
      "yedigun": 1,
      "rol": "sertifika",
      "konu": "2 · Ünlü Tamgalar",
-     "soru": "Göktürkçede kaç ünlü tamga kaç sesi karşılar?",
+     "soru": "Göktürkçede ünlü tamga ve ses sayısı nedir?",
      "secenekler": [
-      "8 tamga, 8 ses",
       "4 tamga, 8 ses",
+      "8 tamga, 8 ses",
       "4 tamga, 4 ses",
-      "2 tamga, 8 ses"
+      "2 tamga, 4 ses"
      ],
-     "dogru": 1,
+     "dogru": 0,
      "geriBildirim": {
-      "ok": "A/E · I/İ · O/U · Ö/Ü.",
-      "no": "Her ünlü tamga bir kalın-ince çiftini karşılar."
+      "ok": "A/E · I/İ · O/U · Ö/Ü — her tamga bir kalın-ince çifti.",
+      "no": "Her ünlü tamga iki sesi karşılar; 4 tamga → 8 ses."
      }
     },
     {
@@ -247,17 +247,17 @@
      "yedigun": 1,
      "rol": "sertifika",
      "konu": "3 · Kutupluluk",
-     "soru": "“Börü” ve “bodun” kelimelerindeki B sesi neden farklı tamgalarla yazılır?",
+     "soru": "“Börü” (kurt) ve “bodun” (millet) kelimelerindeki B sesi neden farklı tamgalarla yazılır?",
      "secenekler": [
-      "Anlamları farklı olduğu için",
-      "Börü ince, bodun kalın ünlülü; ünsüz tamgası ünlü uyumuna göre seçilir",
-      "B kelime başında olduğu için",
-      "Kâtibin tercihi"
+      "Börü kelime başında, bodun içseste B taşıdığı için",
+      "Börü tek heceli, bodun iki heceli olduğu için",
+      "Börü ince (ö, ü), bodun kalın (o, u) ünlülü olduğu için ünsüz tamgası ünlü uyumuna göre seçilir",
+      "Bodun özel isim olduğu için"
      ],
-     "dogru": 1,
+     "dogru": 2,
      "geriBildirim": {
-      "ok": "börü ➔ b², bodun ➔ b¹.",
-      "no": "Ünlülere bakın."
+      "ok": "börü ➔ b² (ince), bodun ➔ b¹ (kalın).",
+      "no": "Konum, hece sayısı veya isim türü değil — ünlü uyumu belirler."
      }
     },
     {
@@ -269,17 +269,17 @@
      "yedigun": 2,
      "rol": "sertifika",
      "konu": "4 · Tasarruf Kuralı",
-     "soru": "<b>esen</b> ve <b>atar</b> kelimeleri neden yalnız ikişer tamgayla (<span class=\"runic\">𐰾𐰤</span>, <span class=\"runic\">𐱃𐰺</span>) yazılır?",
+     "soru": "<b>esen</b> kelimesi <span class=\"runic\">𐰾𐰤</span> biçiminde iki tamgayla yazılır. Sebebi nedir?",
      "secenekler": [
-      "Ünlüler hiç yazılmaz",
-      "Sözbaşı ve içsesteki kısa a/e harf tasarrufu gereği yazılmaz; okur zihnen tamamlar",
-      "Kelimeler tek heceli sayılır",
-      "Yalnız kalın ünlüler yazılır"
+      "Kelime sonundaki e düşer, baştaki yazılır",
+      "Sözbaşı ve içsesteki kısa e sesleri harf tasarrufu gereği yazılmaz; okur tamamlar",
+      "İnce ünlüler hiçbir konumda yazılmaz",
+      "e sesi için Orhun'da ayrı tamga yoktur"
      ],
      "dogru": 1,
      "geriBildirim": {
-      "ok": "Harf ekonomisi ve taş tasarrufu.",
-      "no": "Kelime sonunda ünlü olsaydı yazılırdı; buradaki ünlüler baş ve içseste."
+      "ok": "Harf ekonomisi: baştaki ve içteki kısa a/e yazılmaz.",
+      "no": "Kelime sonu ünlüsü asla düşmez; düşen baş ve içsestekilerdir. A/E tamgası (𐰀) vardır."
      }
     },
     {
@@ -291,17 +291,17 @@
      "yedigun": 2,
      "rol": "sertifika",
      "konu": "5 · Kelime Sonu Ünlüsü",
-     "soru": "<b>koku</b> kelimesinin <span class=\"runic\">𐰴𐰸𐰆</span> yazımında sondaki <span class=\"runic\">𐰆</span> neden yazılmıştır?",
+     "soru": "<b>koku</b> kelimesi <span class=\"runic\">𐰴𐰸𐰆</span> yazılır. Sondaki <span class=\"runic\">𐰆</span> neden ayrıca yazılmıştır?",
      "secenekler": [
-      "Kalın ünlüler her zaman yazılır",
-      "Kelime sonu ünlüsü asla düşürülmez — tasarruf kuralının istisnası",
-      "OK ligatürü u sesini içermez",
-      "Kâtip hatası"
+      "OK ligatürü zaten u içerir; sondaki 𐰆 gereksizdir, kâtip fazladan yazmıştır",
+      "Kalın ünlüler her konumda yazılır",
+      "Kelime sonu ünlüsü asla düşürülmez — tasarruf kuralının tek büyük istisnası",
+      "İki heceli kelimelerde son hece tam yazılır"
      ],
-     "dogru": 1,
+     "dogru": 2,
      "geriBildirim": {
       "ok": "Kelime sonu ünlüsü her zaman yazılır.",
-      "no": "Tasarruf kuralının tek büyük istisnasını hatırlayın."
+      "no": "OK ligatürü ikinci hecenin ünsüz+ünlüsünü verir; sondaki u ayrı bir ses ve kelime sonundadır."
      }
     },
     {
@@ -313,17 +313,17 @@
      "yedigun": 2,
      "rol": "sertifika",
      "konu": "6 · Konum Kısıtı",
-     "soru": "<b>kök</b> için <span class=\"runic\">𐰜𐰚</span>, <b>kıldı</b> için <span class=\"runic\">𐰶𐰡𐰃</span> yazımları neden hatalıdır?",
+     "soru": "<b>kök</b> için <span class=\"runic\">𐰜𐰚</span> yazımı neden hatalıdır?",
      "secenekler": [
-      "Ligatürler yalnız kelime sonunda kullanılır",
-      "Hece damgaları kelime başında ünsüzle başlayan ko/ku/kö/kü/kı hecesini tek başına yazamaz; düz k ile başlanır: 𐰚𐰜, 𐰴𐰃𐰡𐰃",
-      "LD ligatürü yoktur",
-      "Hatalı değildir"
+      "ÖK ligatürü yalnız kelime ortasında kullanılır",
+      "Ligatür kalın ünlülü kelimelerde kullanılamaz",
+      "k² yerine k¹ kullanılmalıydı",
+      "Hece damgası kelime başında ünsüzle başlayan kö hecesini tek başına yazamaz; düz k² ile başlanır: 𐰚𐰜"
      ],
-     "dogru": 1,
+     "dogru": 3,
      "geriBildirim": {
-      "ok": "Kelime başı ligatür yasağı.",
-      "no": "Kelime başındaki heceye bakın."
+      "ok": "Kelime başı ligatür yasağı: 𐰚𐰜.",
+      "no": "Sorun ünlü kalınlığı değil, ligatürün kelime başındaki konumu."
      }
     },
     {
@@ -335,17 +335,17 @@
      "yedigun": 2,
      "rol": "sertifika",
      "konu": "7 · İnce-N İstisnası",
-     "soru": "Kalın ünlülü <b>sabın</b> (sözünü) ve <b>adgırın</b> (aygırını) kelimelerinin sonundaki n neden ince N (<span class=\"runic\">𐰤</span>) ile yazılır?",
+     "soru": "Kalın ünlülü <b>sabın</b> (sözünü) kelimesinin sonundaki n neden ince N (<span class=\"runic\">𐰤</span>) ile yazılır?",
      "secenekler": [
-      "Kâtipler ince N'yi daha kolay kazıdığı için",
-      "3. şahıs iyelik ve belirtme eki (-ın/-nı) kalın kökte bile daima ince N ile yazılır — istisnasız imla kuralı",
-      "Kelimeler aslında ince ünlülüdür",
-      "Kalın N tamgası yoktur"
+      "Kelime aslında ince ünlülüdür",
+      "n sesi Göktürkçede daima ince N ile yazılır",
+      "Kelime sonundaki ünsüzler her zaman ince yazılır",
+      "3. şahıs iyelik / belirtme eki (-ın/-nı) kalın kökte bile istisnasız ince N ile yazılır"
      ],
-     "dogru": 1,
+     "dogru": 3,
      "geriBildirim": {
       "ok": "Kalın kökte ince-N istisnası.",
-      "no": "Ekin işlevine bakın: iyelik / belirtme."
+      "no": "Kalın N (𐰣) vardır ve kökte kullanılır; istisna yalnız bu eklerdedir."
      }
     },
     {
@@ -357,17 +357,17 @@
      "yedigun": 2,
      "rol": "sertifika",
      "konu": "8 · Tek Formlu Ünsüzler",
-     "soru": "Hangi tamganın kalın/ince biçim ayrımı <b>yoktur</b>?",
+     "soru": "Aşağıdakilerden hangisi kalın/ince biçim ayrımı <b>olmayan</b> tamgadır?",
      "secenekler": [
+      "𐰲 (ç)",
       "𐰉 / 𐰋 (B)",
       "𐰑 / 𐰓 (D)",
-      "𐰲 (Ç)",
       "𐰽 / 𐰾 (S)"
      ],
-     "dogru": 2,
+     "dogru": 0,
      "geriBildirim": {
       "ok": "Ç, M, P, Ş, Z kutupsuzdur.",
-      "no": "Çifti olmayanı arayın."
+      "no": "Çifti olan harfler kutupludur; tek biçimli olanı arayın."
      }
     },
     {
@@ -381,15 +381,15 @@
      "konu": "9 · Irk Bitig İmlası",
      "soru": "Irk Bitig'de <b>yaş</b> kelimesi <span class=\"runic\">𐰖𐰽</span> yazılır. Bunun sebebi nedir?",
      "secenekler": [
-      "Kelime aslında 'yas' okunur",
-      "El yazmasında ş tamgası (𐱁) tasfiye edilmiş, ş sesi s ile yazılmıştır; 𐱁 biçimi ince r'ye kaydırılmıştır",
-      "Kâtip ş tamgasını bilmiyordu",
-      "Kalın ünlülü kelimelerde ş yazılmaz"
+      "Irk Bitig ş sesini s ile yazar; 𐱁 biçimi bu el yazmasında ince r için kullanılır",
+      "Kelime Irk Bitig lehçesinde “yas” okunur",
+      "Kalın ünlülü kelimelerde ş her zaman s'ye döner",
+      "Fırçayla 𐱁 çizmek zor olduğundan kâtipler s'yi seçmiştir"
      ],
-     "dogru": 1,
+     "dogru": 0,
      "geriBildirim": {
-      "ok": "Irk Bitig'in radikal imla farkı.",
-      "no": "Mecra değişimi harfleri de değiştirdi."
+      "ok": "Mecra değişimi imlayı değiştirdi: ş → s, 𐱁 → r².",
+      "no": "Ses değişmedi, imla değişti; kural kalınlığa bağlı değil."
      }
     },
     {
@@ -401,17 +401,17 @@
      "yedigun": 3,
      "rol": "sertifika",
      "konu": "10 · Irk Bitig Özel Tamgası",
-     "soru": "“koń” ve “turńa” kelimelerindeki damaksal ny/ń sesini karşılayan Irk Bitig tamgası hangisidir?",
+     "soru": "“koń” (koyun) ve “turńa” (turna) kelimelerindeki damaksal ny/ń sesini karşılayan tamga hangisidir?",
      "secenekler": [
       "𐰭 (ng)",
-      "𐰪 (ny / ń)",
       "𐰨 (nç)",
-      "𐰜 (ük)"
+      "𐰤 (ince n)",
+      "𐰪 (ny / ń)"
      ],
-     "dogru": 1,
+     "dogru": 3,
      "geriBildirim": {
-      "ok": "𐰪",
-      "no": "ng ve nç farklı sesler."
+      "ok": "𐰪 — Irk Bitig'in karakteristik tamgası.",
+      "no": "ng ve nç farklı kümeler; ince n tek ünsüz. Aranan damaksal n."
      }
     },
     {
@@ -423,17 +423,17 @@
      "yedigun": 4,
      "rol": "sertifika",
      "konu": "11 · Sayı Sistemi",
-     "soru": "<span class=\"cevrim\">sekiz elig</span> hangi sayıdır ve neden?",
+     "soru": "<span class=\"cevrim\">sekiz elig</span> hangi sayıdır?",
      "secenekler": [
-      "58 — elli sekiz",
-      "48 — elig (50) hedef onluk; ona yönelen 8. adım",
-      "85 — sekiz onluk beş",
-      "13 — sekiz artı beş"
+      "58",
+      "48",
+      "85",
+      "13"
      ],
      "dogru": 1,
      "geriBildirim": {
-      "ok": "[birlik] + [hedef onluk] = 48.",
-      "no": "Onluk, ulaşılmak istenen onluktur."
+      "ok": "elig (50) hedef onluk; ona yönelen 8. adım = 48.",
+      "no": "Onluk, bulunulan değil ulaşılmak istenen onluktur: 40'tan sonraki 8."
      }
     },
     {
@@ -448,14 +448,14 @@
      "soru": "<span class=\"runic\">𐱅𐰇𐰼𐰜</span> tamgalarının okunuşu hangisidir?",
      "secenekler": [
       "Tengri",
-      "Türk",
       "Töre",
+      "Türk",
       "Ötüken"
      ],
-     "dogru": 1,
+     "dogru": 2,
      "geriBildirim": {
       "ok": "t² + ö/ü + r² + ÖK/ÜK ➔ Türk.",
-      "no": "Sağdan sola okuyun: ince t ile başlar, ÖK ligatürüyle biter."
+      "no": "Sağdan sola: ince t ile başlar, ÖK ligatürüyle biter."
      }
     },
     {

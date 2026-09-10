@@ -1,0 +1,74 @@
+{
+ "id": "yedigun-2",
+ "tur": "yedigun",
+ "baslik": "Yedigün 2 — İmla Tasarrufu, Ligatürler ve Konum Kısıtları",
+ "altbaslik": "Göktürkçe Okuma-Yazma Öğreneği · 2 ders saati (45 + 45 dk)",
+ "surum": "2026-09-10",
+ "kapak": {
+  "friz": "𐰸 · 𐰜 · 𐰶 · 𐰱 · 𐰦 · 𐰡 · 𐰨",
+  "kicker": "Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi",
+  "meta": [
+   {"k": "EĞİTMEN", "v": "İbrahim (Bayram) BİLİR"},
+   {"k": "KAZANIM", "v": "Ünlü düşmesi kuralları · 7 hece damgası · kelime başı ligatür yasağı · ince-N istisnası"}
+  ]
+ },
+ "bolumler": [
+  {
+   "id": "ders-1-tasarruf",
+   "kicker": "I. DERS · 45 DK",
+   "baslik": "İmla Tasarrufu ve Ünlü Düşmesi",
+   "yedigun": 2,
+   "bloklar": [
+    {"type": "bolum-ayraci", "targets": ["slayt"], "baslik": "I. Ders — İmla Tasarrufu", "altbaslik": "Kâtip neyi yazmaz, neyi asla düşürmez?", "friz": "𐰾𐰤 · 𐱃𐰺"},
+    {"type": "prose", "targets": ["slayt"], "id": "hatirlatma", "html": "<h3>Geçen Yedigünden</h3><ul><li>Sağdan sola · ( : ) ayırıcı</li><li>4 ünlü tamga = 8 ses</li><li>10 ünsüz × kalın/ince = 20 tamga</li></ul><p class=\"not\">Bugün: taşa kazımanın ekonomisi — ünlüler ne zaman yazılmaz?</p>"},
+    {"type": "prose", "targets": ["slayt"], "id": "kural-1", "html": "<h3>Kural 1 — Sözbaşı ve içseste kısa a/e yazılmaz</h3><p>Göktürk kâtipleri harf ve taş tasarrufu için kelime başındaki ve içindeki kısa <b>a / e</b> seslerini yazmaz; okuyucu zihnen tamamlar.</p><p class=\"not\">Aysu Ata transkripsiyonunda yazılmayan ünlü parantezle gösterilir: <span class=\"cevrim\">(e)s(e)n</span>, <span class=\"cevrim\">(a)t(a)r</span></p>"},
+    {"type": "ornek-kelime", "targets": ["slayt", "baski"], "id": "tasarruf-ornekleri", "ornekler": [
+     {"latin": "esen", "anlam": "sağ, esen", "runik": "𐰾𐰤", "aciklama": "s² + n² ➔ her iki e de düşer."},
+     {"latin": "atar", "runik": "𐱃𐰺", "aciklama": "t¹ + r¹ ➔ her iki a da düşer."},
+     {"latin": "er", "anlam": "erkek, kişi", "runik": "𐰼", "aciklama": "Sözbaşı e düşer; geriye yalnız ince r kalır."}
+    ]},
+    {"type": "prose", "targets": ["slayt"], "id": "kural-2", "html": "<h3>Kural 2 — Kelime sonu ünlüsü ASLA düşmez</h3><p class=\"buyuk\">Tasarruf kuralının en büyük istisnası.</p><p>Kelimenin sonundaki bütün ünlüler (a, e, ı, i, o, u, ö, ü) mutlaka yazılır.</p><p><b>koku</b> ➔ <span class=\"runic buyuk\">𐰴𐰸𐰆</span> — sondaki <b>u</b> yazıldı.</p>"},
+    {"type": "prose", "targets": ["slayt"], "id": "kural-3", "html": "<h3>Kural 3 — İçseste dar ünlü düşmesi</h3><p>Kök ek aldığında vurgusuz orta hecedeki dar ünlü (ı, i, u, ü) düşer.</p><p><b>ogul + an ➔ oglan</b> ➔ <span class=\"runic buyuk\">𐰉𐰍𐰞𐰣</span></p><p class=\"not\">b¹ + g¹ + l¹ + n¹ — kökün u'su düştü, a'lar tasarruf kuralıyla yazılmadı.</p>"},
+    {"type": "gorsel", "targets": ["slayt"], "src": "content/gorsel/tas-esen.jpg", "alt": "Taşa kazınmış esen: 𐰾𐰤", "altyazi": "esen ➔ 𐰾𐰤 — dört sesli kelime, iki tamga. Taşın ekonomisi.", "kaynak": "Flux taş dokusu + kazi.py", "genislik": "tam",
+     "dogrulama": {"arac": "gokturkce_verify_image (kontrol maskesi)", "sonuc": "s-n · esen · geçerli", "tarih": "2026-09-10"}},
+    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 2, "rol": "formatif", "konu": "Ünlü Düşmesi",
+     "soru": "<b>oglan</b> kelimesi neden <span class=\"runic\">𐰉𐰍𐰞𐰣</span> biçiminde dört tamgayla yazılır?",
+     "secenekler": ["Kelimede yalnız dört ses vardır.", "Kökteki u içseste düşer; a'lar kısa a/e tasarrufuyla yazılmaz; ünsüzler kalın seçilir.", "Kâtip yanlış yazmıştır.", "Ünlüler hiçbir zaman yazılmaz."],
+     "dogru": 1, "geriBildirim": {"ok": "ogul+an ➔ oglan; dar ünlü düşmesi + a/e tasarrufu.", "no": "İki kural birlikte çalışıyor: içses dar ünlü düşmesi ve a/e tasarrufu."}}
+   ]
+  },
+  {
+   "id": "ders-2-ligatur",
+   "kicker": "II. DERS · 45 DK",
+   "baslik": "Hece Damgaları ve İmla İstisnaları",
+   "yedigun": 2,
+   "bloklar": [
+    {"type": "bolum-ayraci", "targets": ["slayt"], "baslik": "II. Ders — Hece Damgaları (Ligatürler)", "altbaslik": "Tek tamgada iki ses · konum kısıtı · ince-N istisnası", "friz": "𐰸 𐰜 𐰶 𐰱"},
+    {"type": "prose", "targets": ["slayt"], "id": "ligatur-tanim", "html": "<h3>Hece Damgaları</h3><p>Tek karakterde iki ses barındıran tamgalar. Öz Türkçe terim: <b>seslem</b> (akademik: hece / yarı-hece işareti).</p><p class=\"not\">Ünlü + k birleşimleri: 𐰸 𐰜 𐰶 · ünsüz kümeleri: 𐰦 𐰡 𐰨 · iç/çi: 𐰱</p>"},
+    {"type": "tamga-grid", "targets": ["slayt", "baski"], "grup": "ligatur", "gorunum": "izgara"},
+    {"type": "prose", "targets": ["slayt"], "id": "konum-kisiti", "html": "<h3>Kelime Başı Ligatür Yasağı</h3><p>Hece damgaları kelime başında ünsüzle başlayan <b>ko / ku / kö / kü / kı</b> hecelerini <b>tek başına</b> yazmak için kullanılamaz.</p><p class=\"not\">Kelime başında düz harfle başlanır; ligatür ancak ondan sonra gelir.</p>"},
+    {"type": "ornek-kelime", "targets": ["slayt", "baski"], "id": "konum-ornekleri", "ornekler": [
+     {"latin": "kök", "anlam": "mavi, gök", "runik": "𐰚𐰜", "aciklama": "Düz ince k² + ÖK ligatürü.", "hatali": "𐰜𐰚"},
+     {"latin": "kıldı", "runik": "𐰴𐰃𐰡𐰃", "aciklama": "Düz kalın k¹ + I + LD + I.", "hatali": "𐰶𐰡𐰃"},
+     {"latin": "koku", "runik": "𐰴𐰸𐰆", "aciklama": "Düz kalın k¹ + OK ligatürü + son ünlü u."}
+    ]},
+    {"type": "gorsel", "targets": ["slayt"], "src": "content/gorsel/tas-kok.jpg", "alt": "Taşa kazınmış kök: 𐰚𐰜", "altyazi": "kök ➔ 𐰚𐰜 — başta düz ince k, sonra ÖK damgası. Ters sıra (𐰜𐰚) hatalıdır.", "kaynak": "Flux taş dokusu + kazi.py", "genislik": "tam",
+     "dogrulama": {"arac": "gokturkce_verify_image (kontrol maskesi)", "sonuc": "k-ök · kök · geçerli", "tarih": "2026-09-10"}},
+    {"type": "prose", "targets": ["slayt"], "id": "ince-n", "html": "<h3>Kalın Kökte İnce-N İstisnası</h3><p>Kök tamamen kalın olsa bile <b>3. şahıs iyelik</b> ve <b>belirtme durumu</b> eklerindeki n sesi (<i>-ın / -nı</i>) daima <b>ince N</b> <span class=\"runic\">𐰤</span> ile yazılır.</p><p class=\"not\">Büyük ünlü uyumunu bozan, istisnasız bir imla kuralı.</p>"},
+    {"type": "ornek-kelime", "targets": ["slayt", "baski"], "id": "ince-n-ornekleri", "ornekler": [
+     {"latin": "sabın", "anlam": "sözünü", "runik": "𐰽𐰉𐰤", "aciklama": "s¹ + b¹ + n² — kalın kök, ince N."},
+     {"latin": "adgırın", "anlam": "aygırını", "runik": "𐰉𐰑𐰍𐰺𐰤", "aciklama": "b¹ + d¹ + g¹ + r¹ + n² — kalın kök, ince N."}
+    ]},
+    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 2, "rol": "formatif", "konu": "Konum Kısıtı",
+     "soru": "Bir öğrenci <b>kıldı</b> kelimesini <span class=\"runic\">𐰶𐰡𐰃</span> yazdı. Hata nedir?",
+     "secenekler": ["Hata yok; kısa yazım tercih edilebilir.", "IK/KI ligatürü kelime başında tek başına kullanılamaz; düz k¹ + I ile başlanmalıydı: 𐰴𐰃𐰡𐰃.", "LD ligatürü yerine ayrı l ve d yazılmalıydı.", "Son I yazılmamalıydı."],
+     "dogru": 1, "geriBildirim": {"ok": "Kelime başı ligatür yasağı.", "no": "Kelime başındaki 'kı' hecesine bakın."}},
+    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 2, "rol": "formatif", "konu": "Tek Formlu Ünsüzler",
+     "soru": "Aşağıdaki ünsüz tamgalardan hangisinin kalın/ince ünlüye göre değişen bir biçimi <b>yoktur</b>?",
+     "secenekler": ["𐰉 / 𐰋 (B)", "𐰑 / 𐰓 (D)", "𐰲 (Ç)", "𐰽 / 𐰾 (S)"],
+     "dogru": 2, "geriBildirim": {"ok": "Ç, M, P, Ş, Z kutupsuzdur.", "no": "Çiftleri olan harfler kutupludur; tek biçimli olanı arayın."}},
+    {"type": "prose", "targets": ["slayt"], "id": "kapanis", "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>Sözbaşı/içses kısa a-e yazılmaz; <b>kelime sonu ünlüsü her zaman yazılır</b></li><li>Ek alan kökte orta hece dar ünlüsü düşer (oglan)</li><li>7 hece damgası; kelime başında ko/ku/kö/kü/kı için tek başına kullanılmaz</li><li>Kalın kökte -ın/-nı eki daima ince N (𐰤)</li></ul><p class=\"not\">Gelecek Yedigün: tümce yapısı, taş ekonomisi, Irk Bitig imlası ve fal okumaları.</p>"}
+   ]
+  }
+ ]
+}

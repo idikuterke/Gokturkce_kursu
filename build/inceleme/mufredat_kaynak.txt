@@ -1,0 +1,181 @@
+GÖKTÜRKÇE (ESKİ TÜRKÇE) OKUMA-YAZMA EĞİTİMİ: KURUMSAL MATERYAL SETİ
+KISIM I: 4 YEDİCE (HAFTALIK) DETAYLI EĞİTMEN VE DERS MÜFREDATI
+Bu bölüm, her dersin idari yapısını, işlenecek teorik kuralları ve tahtada yapacağınız örnek kelime tahlillerini içerir. Prof. Dr. Aysu Ata'nın akademik standartları ile pratik öğretim tekniklerinin kesişimidir.
+1. YEDİCE: GİRİŞ, TARİHSEL ARKA PLAN VE TEMEL TAMGALAR
+Ders Saati: 2 Ders Saati (45 + 45 Dakika)
+Öğrenme Çıktıları: Göktürk alfabesinin tarihsel gelişimini kavrama, yön mantığını anlama, 4 ünlü ve 20 kutuplu ünsüz tamgayı okuma/yazma.
+I. Ders (45 Dk): Tarihçe ve Yazım Mantığı
+Keşif ve Çözüm Süreci: Alfabenin 552-744 yılları arasındaki Göktürk Kağanlığı döneminde taşa kazındığı, Danimarkalı dilbilimci Vilhelm Thomsen tarafından 15 Aralık 1893'te çözüldüğü anlatılır. İlk çözülen kelimenin "Tengri" (𐱅𐰭𐰼𐰃) olduğu vurgulanır.
+Yazı Malzemesi ve Epigrafi: Taş (Orhun) ve Kâğıt (Irk Bitig) medyasının farklarına değinilir.
+Yazım Yönü: Yazının sağdan sola doğru yazıldığı, kelimelerin arasına iki nokta ( : ) konulduğu tahtada gösterilir.
+II. Ders (45 Dk): Sesler ve Kutupluluk (Kalınlık-İnelik) Sistemi
+Ünlü Tamgalar (Vokaller): Göktürkçede 4 ünlü damganın 8 sesi karşıladığı öğretilir:
+A/E (𐰀) | I/İ (𐰃) | O/U (𐰆) | Ö/Ü (𐰇)
+Kutuplu Ünsüzler (Konsonantlar): Alfabenin en karakteristik kuralı olan "kalınlık-incelik uyumu" tanıtılır. Aynı ünsüz sesin kalın ve ince ünlüler için iki farklı damgası olduğu gösterilir:
+B: Kalın b¹ (𐰉) - İnce b² (𐰋)
+D: Kalın d¹ (𐰑) - İnce d² (𐰓)
+G: Kalın g¹ (𐰍) - İnce g² (𐰏)
+K: Kalın k¹ (𐰴) - İnce k² (𐰚)
+L: Kalın l¹ (𐰞) - İnce l² (𐰠)
+N: Kalın n¹ (𐰣) - İnce n² (𐰤)
+R: Kalın r¹ (𐰺) - İnce r² (𐰼)
+S: Kalın s¹ (𐰽) - İnce s² (𐰾)
+T: Kalın t¹ (𐱃) - İnce t² (𐱅)
+Y: Kalın y¹ (𐰖) - İnce y² (𐰘)
+Tahtada Örnek Kelime Analizleri (Yedice 1):
+ata ➔ 𐱃𐰀 (t¹ + A/E ➔ İlk 'a' kural gereği düşer, kalın t yazılır, son 'a' korunur).
+ede ➔ 𐱅𐰀 (t² + A/E ➔ İlk 'e' düşer, ince t yazılır, son 'e' korunur).
+tengri ➔ 𐱅𐰭𐰼𐰃 (t² + ng + r² + I/İ ➔ İnce ses uyumu).
+2. YEDİCE: İMLA TASARRUFU, LİGATÜRLER VE KONUM KISITLARI
+Ders Saati: 2 Ders Saati (45 + 45 Dakika)
+Öğrenme Çıktıları: Ünlü düşmesi kurallarını hatasız uygulama, çift sesli hece damgalarını (ligatürleri) kavrama, kelime başı/sonu imla kısıtlarını ve morfolojik istisnaları öğrenme.
+I. Ders (45 Dk): İmla Tasarrufu ve Ünlü Düşmesi Kuralları
+Sözbaşı ve İçseste "a/e" Düşmesi: Göktürk kâtiplerinin harf ve taş tasarrufu yapmak amacıyla, kelime başındaki ve içindeki kısa "a/e" seslerini yazmadıkları gösterilir:
+esen ➔ 𐰾𐰤 (s² + n² ➔ e'ler düşer).
+atar ➔ 𐱃𐰺 (t¹ + r¹ ➔ a'lar düşer).
+Kelime Sonu Ünlüleri Kuralı (Override): Tasarruf kuralının en büyük istisnasıdır. Kelimenin sonundaki tüm ünlüler (a, e, ı, i, o, u, ö, ü) asla düşürülemez, kesinlikle yazılır:
+koku ➔ 𐰴𐰸𐰆 (Sondaki 'u' sesi düşürülmez).
+İçseste Dar Ünlülerin Düşmesi: Kök ek aldığında vurgusuz orta hecedeki dar ünlüler düşer:
+ogul + an ➔ oglan (𐰉𐰍𐰞𐰣).
+II. Ders (45 Dk): Hece Damgaları (Ligatürler) ve İmla İstisnaları
+Hece Damgaları (Ligatürler): Tek karakterde iki ses barındıran tamgalar öğretilir:
+OK/UK/KO/KU (𐰸) | ÖK/ÜK/KÖ/KÜ (𐰜) | IK/KI (𐰶) | İÇ/Çİ (𐰱)
+ND/NT (𐰦) | LD/LT (𐰡) | NÇ/NC (𐰨)
+Kelime Başı Ligatür Yasağı (Position Constraint): Bu hece damgaları kelime başında ünsüzle başlayan heceleri (ko, ku, kö, kü, kı) yazmak için tek başlarına kullanılamaz:
+kök ➔ 𐰚𐰜 (İnce K + ÖK) [Hatalı yazım: 𐰜𐰚 (ÖK + İnce K)].
+kıldı ➔ 𐰴𐰃𐰡𐰃 (Kalın K + I + LD + I) [Hatalı yazım: 𐰶𐰡𐰃 (IK/KI + LD + I)].
+Kalın Kökte İnce N (𐰤) İstisnası: Kelime kökü tamamen kalın olsa bile, 3. şahıs iyelik ve belirtme durumu eklerindeki (ın/nı) "n" sesi daima İnce N (𐰤) ile yazılır:
+sabın (sözünü) ➔ 𐰽𐰉𐰤 (s¹ + b¹ + n²).
+adgırın (aygırını) ➔ 𐰉𐰑𐰍𐰺𐰤.
+3. YEDİCE: SÖZ DİZİMİ (SENTAKS), EPİGRAFİK FARKLAR VE IRK BİTİG
+Ders Saati: 2 Ders Saati (45 + 45 Dakika)
+Öğrenme Çıktıları: Göktürkçe tümce yapılarını anlama, Orhun ve Irk Bitig epigrafilerini karşılaştırma, orijinal el yazması falları çözümleme.
+I. Ders (45 Dk): Tümce Yapısı ve Taş Ekonomisi (Eksilti)
+Söz Dizimi (Sentaks): Göktürkçe tümce yapısının temelleri gösterilir:
+İsim Tümcesi: Yüklemi isim olan yapılar (örn: Bilge Tonyukuk men).
+Fiil Tümcesi: Yüklemi çekimli fiil olan yapılar (Özne + Tümleç + Yüklem).
+Taş Ekonomisi ve Eksiltili (Elliptical) Yapılar: Sert taşlara yazı kazımanın zorluğu nedeniyle kâtiplerin sıfat-fiilleri, yardımcı fiilleri veya yüklemleri yazmayıp düşürdükleri (işaretsiz bıraktıkları) anlatılır.
+II. Ders (45 Dk): Orhun - Irk Bitig Kıyaslaması ve Fal Okumaları
+Mecra ve Epigrafi Farkları: Taş (Orhun) üzerindeki köşeli geometrik hatların, kâğıt ve fırçayla (Irk Bitig) birlikte nasıl yuvarlak, akıcı ve el yazısına yatkın (cursiviform) varyantlara dönüştüğü gösterilir.
+Irk Bitig'in Radikal İmla Farkları:
+ş (𐱁) tamgası tamamen kaldırılmış, yerine s (𐰽/𐰾) kullanılmıştır (yaş ➔ yas).
+İnce r (𐰼) yerine grafik benzerliği yüzünden ş (𐱁) karakteri ince "r" sesi için kullanılmıştır.
+Orijinal Fal Çözümlemeleri:
+1. Fal (Zar: 2-2-2): Tensi män. Yarın kiçä altun örgin üzä olurupan mäŋileyür män. Ança biliŋlär: Ädgü ol. (Tanrı'nın oğluyum. Sabah akşam altın taht üzerinde oturarak sevinirim. Şöyle biliniz: İyidir.)
+15. Fal (Zar: 3-1-4): Üzä tuman turdı, asra toz turdı. Kuş oglı uça aztı, kiyik oglı yügürü aztı. Yana täŋri kutınta üçünç yılta kop äsän tükäl körüşmiş... Ädgü ol.
+4. YEDİCE: OKUMA-YAZMA ATÖLYESİ, DEĞERLENDİRME VE SINAV
+Ders Saati: 2 Ders Saati (45 + 45 Dakika)
+Öğrenme Çıktıları: Öğrenilen tüm kuralları serbest kompozisyon ve okuma metinleri üzerinde uygulama, bitirme sınavını tamamlama.
+I. Ders (45 Dk): Kompozisyon Atölyesi
+Öğrencilere günümüz Türkçesiyle kısa cümleler ve dörtlükler verilir. Öğrencilerin tahtada bunları Göktürkçenin tasarruf kuralları, ligatür kısıtları ve ek imlalarına dikkat ederek yazması sağlanır.
+II. Ders (45 Dk): Bitirme Sınavı Uygulaması
+4 haftalık eğitimi ölçen, ezbere değil tamamen dilbilimsel mantığa dayalı teorik ve pratik sınav gerçekleştirilir.
+KISIM II: 4 YEDİCE ÖĞRENCİ ÇALIŞMA KAĞITLARI (ALİŞTIRMALAR VE CEVAP ANAHTARI)
+Bu bölüm, öğrencilere her haftanın sonunda basılı olarak dağıtacağınız alıştırma yaprakları ve bunların eğitmen/kendi kendini değerlendirme cevap anahtarlarından oluşur.
+1. YEDİCE ÖĞRENCİ ÇALIŞMA KÂĞIDI (TEMEL TAMGALAR)
+BÖLÜM A: Transkripsiyondan Göktürkçeye Yazım Çalışması
+Aşağıdaki kelimeleri, büyük ünlü uyumuna ve kalın-ince tamga ayrımına dikkat ederek sağdan sola doğru Göktürkçe yazınız. (İpucu: Kelime başındaki düz ünlüler yazılır, kısa "a/e" ünlüsü yazılmaz!)
+ata ➔ ________________
+ede ➔ ________________
+iri ➔ ________________
+adak (ayak) ➔ ________________
+esiz (eyvah) ➔ ________________
+BÖLÜM B: Göktürkçeden Okuma Çalışması
+Aşağıdaki Göktürkçe kelimelerin transkripsiyonunu (okunuşunu) karşılarına yazınız. (Yazım yönü: Sağdan Sola)
+𐱅𐰭𐰼𐰃 ➔ ________________
+𐰉𐰖 ➔ ________________
+𐰽𐰺𐰃𐰍 ➔ ________________
+𐰋𐰃𐰠𐰏𐰀 ➔ ________________
+2. YEDİCE ÖĞRENCİ ÇALIŞMA KÂĞIDI (İMLA VE LİGATÜRLER)
+BÖLÜM A: Ünlü Düşmesi ve Tasarruf Alıştırmaları
+Aşağıdaki kelimeleri, Göktürkçenin "sözbaşında ve içseste kısa a/e seslerini yazmama" tasarruf kuralına uyarak yazınız.
+esen ➔ ________________
+atar ➔ ________________
+er (erkek/insan) ➔ ________________
+oglan ➔ ________________
+BÖLÜM B: Ligatürlerde Konum Kısıtı Alıştırmaları
+Kritik Kural: Çift sesli hece damgaları (OK, ÖK, IK) kelime başında ünsüzle başlayan "ko, ku, kö, kü, kı" hecelerini yazmak için tek başına kullanılamaz. Kelime başında düz harflerle başlamak esastır.
+kök (mavi/gök) ➔ ________________
+kıldı ➔ ________________
+koku ➔ ________________
+BÖLÜM C: İleri Düzey İstisnalar (İnce-N İstisnası)
+Kural: Kelime kalın da olsa, sonundaki 3. kişi iyelik ve belirtme ekleri (ın/nı) daima İnce N (𐰤) ile yazılır.
+sabın (sözünü) ➔ ________________
+adgırın (aygırını) ➔ ________________
+3. YEDİCE ÖĞRENCİ ÇALIŞMA KÂĞIDI (EPİGRAFİ VE IRK BİTİG)
+BÖLÜM A: Orhun ve Irk Bitig İmla Değişimi
+Aşağıdaki kelimeleri, hem Orhun abideleri standart yazımıyla hem de Irk Bitig'in imla kurallarına (yani ş yerine s kullanılması, ince r yerine ş yazılması kurallarına) göre iki farklı şekilde yazınız.
+yaş (yaş/ömür)
+Orhun Yazımı: ________________
+Irk Bitig Yazımı: ________________
+er (erkek/kişi)
+Orhun Yazımı: ________________
+Irk Bitig Yazımı: ________________
+BÖLÜM B: Irk Bitig Orijinal Fal Deşifresi
+Aşağıda harf harf ayrılmış olan Irk Bitig 1. Fal metninin transkripsiyonunu ve kelime tahlilini yapınız.
+𐱅𐰤𐰾𐰃∶𐰢𐰤∶𐰖𐰺𐰃𐱁∶𐰚𐰲𐰀∶altun∶𐰇𐰼𐰏𐰤∶𐰇𐰔𐰀∶𐰆𐰞𐰆𐰺𐰆𐰯𐰣∶𐰢𐰭𐰃𐰠𐰘𐰇𐰼∶𐰢𐰤
+Transkripsiyon: _____________________________________________________________
+Kelime Tahlili (Neden "yarın" kelimesinde sondaki 'r' yerine ş tamgası yazılmıştır?): _____________________________________________________________
+4. YEDİCE: BİTİRME SINAVI (RESMİ ÇIKTI ŞABLONU)
+Adı Soyadı: ________________
+Tarih: 08/09/2026
+Sınav Süresi: 45 Dakika
+Soru 1 (Yazım - 25 Puan):
+Göktürkçede kelime başındaki ve içindeki kısa "a/e" sesleri neden yazılmaz? Bu kuralı "esen" ve "atar" kelimelerinin Göktürkçe yazılışlarını göstererek açıklayınız.
+Cevabınız: _____________________________________________________________
+Soru 2 (Tarihsel Sayı Sistemi - 25 Puan):
+Eski Türk yazı sistemindeki sayı çekimi mantığına göre "sekiz elig" ifadesi hangi sayıya karşılık gelir? Bu sayı sisteminin çalışma prensibini açıklayarak belirtiniz.
+Cevabınız: _____________________________________________________________
+Soru 3 (Konum Kısıtlı Ligatür - 25 Puan):
+Bir öğrenci "kıldı" kelimesini 𐰶𐰡𐰃 (IK/KI ligatürü + LD ligatürü + I), "kök" kelimesini ise 𐰜𐰚 (ÖK/ÜK ligatürü + İnce K) şeklinde yazmıştır. Bu yazımlar akademik imla kurallarına göre neden hatalıdır? Doğru yazımlarını kurallarıyla birlikte gösteriniz.
+Cevabınız: _____________________________________________________________
+Soru 4 (İstisna Analizi - 25 Puan):
+Göktürkçe büyük ünlü uyumuna sahip bir dil olmasına rağmen, kalın ünlüye sahip olan "sabın" (sözünü) ve "adgırın" (aygırını) kelimelerinin sonundaki "n" harfi neden kalın N (𐰣) ile değil de İnce N (𐰤) tamgasıyla yazılmıştır? Bu istisnanın dilbilimsel adını açıklayınız.
+Cevabınız: _____________________________________________________________
+KISIM III: TÜM ALİŞTIRMALAR VE BİTİRME SINAVI İÇİN ANALİTİK CEVAP ANAHTARI
+1. YEDİCE ÇALIŞMA KÂĞIDI CEVAPLARI
+Bölüm A (Transkripsiyondan Yazım):
+ata ➔ 𐱃𐰀 (İlk 'a' yazılmaz, kalın t 𐱃 ve kelime sonu olduğu için 'a' 𐰀 yazılır).
+ede ➔ 𐱅𐰀 (İlk 'e' yazılmaz, ince t 𐱅 ve son 'e' 𐰀 yazılır).
+iri ➔ 𐰃𐰼𐰃 (Sözbaşındaki dar ünlü 'i' 𐰃 yazılır, ince r 𐰼 ve son 'i' 𐰃 yazılır).
+adak ➔ 𐰑𐰴 (İlk 'a' düşer, kalın d 𐰑, iç 'a' düşer, kalın k 𐰴 yazılır).
+esiz ➔ 𐰾𐰔 (Sözbaşı 'e' düşer, ince s 𐰾, iç 'i' düşer, kutupsuz z 𐰔 yazılır).
+Bölüm B (Göktürkçeden Okuma):
+𐱅𐰭𐰼𐰃 ➔ Tengri (İnce t + ng + ince r + i).
+𐰉𐰖 ➔ Bay (Kalın b + kalın y ➔ 'a' ünlüsü içseste düşürülmüştür).
+𐰽𐰺𐰃𐰍 ➔ Sarıg (Kalın s + kalın r + ı + kalın g ➔ ilk 'a' düşmüş, 'ı' yazılmıştır).
+𐰋𐰃𐰠𐰏𐰀 ➔ Bilge (İnce b + i + ince l + ince g + e).
+2. YEDİCE ÇALIŞMA KÂĞIDI CEVAPLARI
+Bölüm A (Ünlü Düşmesi):
+esen ➔ 𐰾𐰤 (Kısa e'ler yazılmaz, ince s + ince n).
+atar ➔ 𐱃𐰺 (Kısa a'ler yazılmaz, kalın t + kalın r).
+er ➔ 𐰼 (Sözbaşı e'si düşer, geriye sadece ince r kalır).
+oglan ➔ 𐰉𐰍𐰞𐰣 (Kök 'ogul' ek alınca 'u' düşer ➔ kalın b + kalın g + kalın l + kalın n ➔ a'lar düşer).
+Bölüm B (Ligatür Kısıtları):
+kök ➔ 𐰚𐰜 (Kelime başında ünsüzle başlayan 'kö' hecesi ligatürle yazılamayacağı için düz ince k 𐰚 ile başlanır, ardından ÖK/ÜK 𐰜 ligatürü eklenir).
+kıldı ➔ 𐰴𐰃𐰡𐰃 (Kelime başında 'kı' için IK ligatürü kullanılamaz; düz kalın k 𐰴 + 𐰃 + LD ligatürü 𐰡 + 𐰃 yazılır).
+koku ➔ 𐰴𐰸𐰆 (Kelime başında 'ko' için ligatür yasaktır. Kalın k 𐰴 + OK ligatürü 𐰸 + son ünlü 'u' 𐰆 yazılır).
+Bölüm C (İnce-N İstisnası):
+sabın ➔ 𐰽𐰉𐰤 (Kalın s + kalın b + İnce N 𐰤 ➔ Kural dışıdır).
+adgırın ➔ 𐰉𐰑𐰍𐰺𐰤 (Kalın b + kalın d + kalın g + kalın r + İnce N 𐰤).
+3. YEDİCE ÇALIŞMA KÂĞIDI CEVAPLARI
+Bölüm A (Mecra Farkları):
+yaş
+Orhun Yazımı: 𐰖𐱁 (Kalın y + kutupsuz ş)
+Irk Bitig Yazımı: 𐰖𐰽 (Irk Bitig'de 'ş' harfi tamamen tasfiye edildiği için kalın s 𐰽 ile yazılmıştır).
+er
+Orhun Yazımı: 𐰼 (Sözbaşı e'si yazılmaz, ince r tamgası yazılır)
+Irk Bitig Yazımı: 𐱁 (Irk Bitig'de ince r yerine, grafik benzerliği olan ş 𐱁 tamgası ince r'yi temsil etmek için kullanılmıştır).
+Bölüm B (Fal Deşifresi):
+Transkripsiyon: Tensi män. Yarın kiçä altun örgin üzä olurupan mäŋileyür män.
+Kelime Tahlili: Metindeki "yarın" kelimesinde, kâğıt el yazması olan Irk Bitig'e has kâtip alışkanlığı gereği ince "r" (𐰼) yerine grafik olarak ona çok benzeyen ve asli işlevinden arındırılmış olan ş (𐱁) tamgası kullanılmıştır.
+4. YEDİCE: BİTİRME SINAVI ANALİTİK CEVAP ANAHTARI
+Soru 1 Çözümü: Göktürk yazısında "harf ekonomisi ve taş tasarrufu" esastır. Bu yüzden kelime başındaki ve içindeki kısa ve vurgusuz "a" ve "e" ünlülerinin okuyucu tarafından zihnen tamamlanabileceği varsayılarak yazılmazlar.
+esen kelimesinde baştaki ve içteki e'ler yazılmayarak sadece ince s ve ince n ile 𐰾𐰤 yazılır.
+atar kelimesinde baştaki ve içteki a'lar yazılmayarak sadece kalın t ve kalın r ile 𐱃𐰺 yazılır.
+Soru 2 Çözümü: Eski Türk sayı sisteminde sayılar, bir sonraki onluğu referans alarak kurulur. Formül: [Birlik Sayı] + [Bir Sonraki Onluk Hane] şeklindedir.
+sekiz elig ifadesinde "elig" 50 demektir. Önündeki "sekiz" ise 50'ye ulaşmak için tamamlanan basamağın 8 birim olduğunu gösterir. Yani 40'tan sonraki 8. adımdır. Sayı 48'dir.
+Soru 3 Çözümü: Yazılan kelimeler hatalıdır; çünkü Göktürkçede çift sesli ligatürlerin kelime başında konum kısıtı (position constraint) vardır. Ligatürler kelime başında ünsüzle başlayan "ko/ku/kö/kü/kı" hecelerini tek başlarına temsil edemezler.
+kök yazılırken önce düz ince k 𐰚 gelmeli, ardından ligatür eklenmelidir. Doğrusu: 𐰚𐰜'dir.
+kıldı yazılırken kelime başında IK/KI ligatürü gelemez. Doğrusu düz kalın k 𐰴 + ı 𐰃 ile başlayan 𐰴𐰃𐰡𐰃 yazımıdır.
+Soru 4 Çözümü: Bu durum dilbilimde "3. Şahıs İyelik ve Belirtme Hâli Kalın Kökte İnce-N İstisnası" olarak adlandırılır. Orhun kâtipleri, kelimenin kökü tamamen kalın ünlülerden oluşsa dahi, kelime sonuna gelen 3. kişi iyelik ve belirli nesne durum eklerini (ın/nı) büyük ünlü uyumunu bozarak istisnasız bir şekilde daima İnce N (𐰤) tamgasıyla yazmışlardır.
