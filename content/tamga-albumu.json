@@ -83,6 +83,31 @@
      "kesmeCizgisi": true
     }
    ]
+  },
+  {
+   "id": "yenisey-ve-kagit",
+   "kicker": "BÖLÜM 3",
+   "baslik": "Yenisey Varyantları ve Kâğıt Biçimleri",
+   "ozet": "Bölgesel glif varyantları (Unicode) ve Irk Bitig el yazması hattı (BabelStone Irk Bitig).",
+   "bloklar": [
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski"
+     ],
+     "grup": "yenisey-tam",
+     "gorunum": "tablo"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "baski"
+     ],
+     "grup": "*",
+     "gorunum": "karsilastirma",
+     "baslik": "Taş · Yenisey · Kâğıt — karşılaştırma tablosu"
+    }
+   ]
   }
  ]
 }

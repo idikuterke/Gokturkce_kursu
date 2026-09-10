@@ -7,6 +7,7 @@ import { ROOT } from "./kapi.mjs";
 
 const P = (...s) => path.join(ROOT, ...s);
 const FONT_B64 = fs.readFileSync(P("03_Tasarim/fontlar/NotoSansOldTurkic-Regular.ttf")).toString("base64");
+const KAGIT_B64 = fs.readFileSync(P("00_Kaynaklar/fontlar/BabelStoneIrkBitig.ttf")).toString("base64"); // Irk Bitig el yazması biçimleri (yalnız kullanan belgeye gömülür)
 const chr = (cp) => String.fromCodePoint(parseInt(cp.slice(2), 16));
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 // Görseller tek dosya ilkesi gereği base64 gömülür (JPEG/PNG). Yol repo köküne görelidir.
@@ -23,6 +24,7 @@ const kelimeler = (s) => s.split(/\s*:\s*/).map((k) => k.trim()).filter(Boolean)
 // ---------- Tema: "Bengü Gece" — koyu zemin, turkuaz/mavi ince şeritler, akademik ----------
 const CSS = `
 @font-face{font-family:'Noto Sans Old Turkic';src:url(data:font/ttf;base64,${FONT_B64}) format('truetype')}
+/*KAGIT_FONT*/
 :root{
   --zemin:#0B1320; --zemin2:#101B2C; --panel:#152338; --cizgi:#233754;
   --metin:#E6EDF5; --metin2:#9FB0C6; --sonuk:#6C7F99;
@@ -59,6 +61,10 @@ table.tablo{border-collapse:collapse;width:100%;font-size:2.6vh} .tablo th{color
 .izgara{display:grid;grid-template-columns:repeat(auto-fit,minmax(18vw,1fr));gap:2vh;flex:1;align-content:center}
 .izgara .kart{padding:3vh 1vw} .izgara .kart .tamga{font-size:15vh} .izgara .kart .deger{font-size:2.6vh;color:#fff} .izgara .kart .ad{font-family:var(--mono);font-size:1.6vh;color:var(--sonuk);margin-top:1vh}
 .tablo .runic{font-size:5vh;color:#fff}
+.kagit{font-family:'BabelStone Irk Bitig','Noto Sans Old Turkic',serif;direction:rtl;unicode-bidi:isolate}
+.kars{display:grid;grid-template-columns:repeat(auto-fill,minmax(13vw,1fr));gap:1.2vh;flex:1;align-content:center;overflow:hidden}
+.kars .kart{padding:1.4vh .6vw;display:grid;grid-template-columns:1fr 1fr;gap:.4vw;align-items:center} .kars .kart .g{font-size:7.5vh;line-height:1.1;color:#fff} .kars .kart .g.yen{color:var(--altin)} .kars .kart .g.kag{color:var(--turkuaz)}
+.kars .kart .deger{grid-column:1/-1;font-size:1.7vh;margin-top:.4vh;color:var(--metin2)} .kars .kart .yok{color:var(--cizgi);font-size:3vh} .kars-lejant{display:flex;gap:3vw;font-size:2vh;color:var(--metin2);margin-bottom:1.5vh} .kars-lejant b{color:#fff}
 .tablo.sik{font-size:2.4vh} .tablo.sik td{padding:.55vh 1.2vh} .tablo.sik .t{text-align:center;width:9vw;direction:ltr} .tablo.sik .runic{font-size:4.2vh;line-height:1.1} .tablo.sik .ses-k{font-family:var(--serif);font-size:3.4vh;color:var(--turkuaz);width:5vw}
 /* örnek kelime (adım adım) */
 .ornek{display:grid;grid-template-columns:1fr 1.2fr 2fr;gap:2vw;align-items:center;padding:2.2vh 0;border-bottom:1px solid var(--cizgi);font-size:3vh}
@@ -119,7 +125,26 @@ function tamgaPair(k) {
     `</div></div>`;
 }
 
+function karsilastirma(k, tamgalar) {
+  // Orhon (taş) biçimi Noto ile; varsa Yenisey varyantı (altın) ve Irk Bitig kâğıt biçimi (turkuaz, BabelStone) yanında.
+  const G = (id) => tamgalar.gruplar.find((g) => g.id === id);
+  const yen = new Map((G("yenisey-tam")?.tamgalar ?? []).filter((t) => t.orhon).map((t) => [t.orhon, t.cp]));
+  const kag = new Set((G("kagit")?.tamgalar ?? []).map((t) => t.cp));
+  const taban = (k.grup === "*" ? ["unluler", "kutuplu", "kutupsuz", "ligatur", "irkbitig"] : k.grup.split(",")).flatMap((id) => G(id.trim())?.tamgalar ?? []);
+  const sut = k.sutunlar ?? ["tas", "yenisey", "kagit"];
+  const kartlar = taban.filter((t) => sut.includes("tas") || (sut.includes("yenisey") && yen.has(t.cp)) || (sut.includes("kagit") && kag.has(t.cp))).map((t) => {
+    let h = `<div class="kart">`;
+    if (sut.includes("tas")) h += `<div class="g runic">${chr(t.cp)}</div>`;
+    if (sut.includes("yenisey")) h += yen.has(t.cp) ? `<div class="g runic yen">${chr(yen.get(t.cp))}</div>` : `<div class="yok">—</div>`;
+    if (sut.includes("kagit")) h += kag.has(t.cp) ? `<div class="g kagit kag">${chr(t.cp)}</div>` : `<div class="yok">—</div>`;
+    return h + `<div class="deger">${esc(t.deger)}</div></div>`;
+  });
+  const lej = [sut.includes("tas") && "<span><b>Beyaz</b> taş — Orhun (Noto)</span>", sut.includes("yenisey") && "<span><b style=\"color:var(--altin)\">Altın</b> Yenisey varyantı</span>", sut.includes("kagit") && "<span><b style=\"color:var(--turkuaz)\">Turkuaz</b> kâğıt — Irk Bitig (BabelStone)</span>"].filter(Boolean).join("");
+  return `<div class="govde"><h3>${esc(k.baslik ?? "Taş · Yenisey · Kâğıt — aynı harf, üç biçim")}</h3><div class="kars-lejant">${lej}</div><div class="kars" style="grid-template-columns:repeat(auto-fill,minmax(${sut.length > 2 ? 15 : 11}vw,1fr))">${kartlar.join("")}</div></div>`;
+}
+
 function tamgaGrid(k, tamgalar) {
+  if (k.gorunum === "karsilastirma") return karsilastirma(k, tamgalar);
   const gruplar = k.grup === "*" ? tamgalar.gruplar : tamgalar.gruplar.filter((g) => g.id === k.grup);
   const tum = gruplar.flatMap((g) => g.tamgalar);
   const baslik = gruplar.length === 1 ? gruplar[0].baslik : "Tamga Envanteri";
@@ -172,7 +197,7 @@ function metinRef(k, kapi) {
 function blokSlayt(k, ctx, idx) {
   switch (k.type) {
     case "bolum-ayraci": return `<div class="govde"><div class="kicker">Bölüm</div>${k.friz ? `<div class="friz runic">${k.friz}</div>` : ""}<h1>${esc(k.baslik)}</h1>${k.altbaslik ? `<div class="alt">${esc(k.altbaslik)}</div>` : ""}</div>`;
-    case "prose": return `<div class="govde">${k.html}</div>`;
+    case "prose": return `<div class="govde">${runikSar(k.html).replace(/<span class="runic">(<span class="runic[^"]*">)/g, "$1").replace(/<\/span><\/span>/g, "</span>")}</div>`;
     case "bilgi-karti": return `<div class="govde"><h3>${esc(k.baslik)}</h3>${k.html}</div>`;
     case "tamga-pair": return tamgaPair(k);
     case "tamga-grid": return tamgaGrid(k, ctx.kapi.tamgalar);
@@ -297,6 +322,8 @@ export function slaytCiz(doc, ctx) {
   const body = slaytlar.map((s, i) =>
     `<section class="slayt${i === 0 ? " aktif" : ""}" data-n="${i + 1}">${i === 0 ? "" : ust(doc, s.bolum, i + 1, n)}${s.html ?? blokSlayt(s.blok, ctx, i)}` +
     `<div class="alt-bant"><span>Göktürkçe Okuma-Yazma Öğreneği · İbrahim (Bayram) Bilir</span><span>${esc(doc.altbaslik ?? "")}</span></div></section>`).join("\n");
-  return `<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(doc.baslik)}</title><style>${CSS}</style></head>` +
+  const kagitVar = doc.bolumler.some((b) => b.bloklar.some((k) => k.type === "tamga-grid" && k.gorunum === "karsilastirma" && (k.sutunlar ?? ["kagit"]).includes("kagit")));
+  const css = CSS.replace("/*KAGIT_FONT*/", kagitVar ? `@font-face{font-family:'BabelStone Irk Bitig';src:url(data:font/ttf;base64,${KAGIT_B64}) format('truetype')}` : "");
+  return `<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(doc.baslik)}</title><style>${css}</style></head>` +
     `<body data-doc="${esc(doc.id)}" data-surum="${esc(doc.surum)}"${ctx.sonucUrl ? ` data-sonuc-url="${esc(ctx.sonucUrl)}"` : ""}${ctx.egitmenEposta ? ` data-eposta="${esc(ctx.egitmenEposta)}"` : ""}${doc.sinav ? ` data-sinav='${JSON.stringify(doc.sinav)}'` : ""}><div class="deck">${body}</div><div class="yardim">← → boşluk · F tam ekran</div><div class="ilerleme"></div><script>${TRACKER_JS}${JS}</script></body></html>`;
 }

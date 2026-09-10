@@ -408,18 +408,33 @@
       "properties": {
         "grup": {
           "type": "string",
-          "description": "content/tamgalar.json içindeki grup id'si"
+          "description": "content/tamgalar.json grup id'si; '*' = tümü; karsilastirma'da virgülle birden çok grup"
         },
         "gorunum": {
           "enum": [
             "tablo",
             "kart",
-            "izgara"
+            "izgara",
+            "karsilastirma"
           ],
           "default": "tablo"
         },
         "kesmeCizgisi": {
           "type": "boolean"
+        },
+        "sutunlar": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "tas",
+              "yenisey",
+              "kagit"
+            ]
+          },
+          "description": "karsilastirma: gösterilecek sütunlar (varsayılan üçü)"
+        },
+        "baslik": {
+          "type": "string"
         }
       }
     },

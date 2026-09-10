@@ -32,6 +32,7 @@ Kapıdan geçmeyen içerik üretilmez. Hata mesajı hangi belge › bölüm › 
 - `content/yedigun-1..4.json` — 4 Yedigün slayt içeriği (95 slayt); Yedigün 4 = atölye + sayılar + 12 soruluk sertifika sınavı
 - `content/kitapcik|yapraklar|tamga-albumu|irkbitig-foyu|ek-uniteler|degerlendirme.json` — baskı seti (Python hattından göç)
 - `content/gorsel/` — doğrulanmış görseller + `KAYNAK.md` provenance
+- `content/tamgalar.json` grupları: unluler · kutuplu · kutupsuz · ligatur · irkbitig · yenisey (7, metinlerde geçen) · **yenisey-tam** (31, kaynak: Unicode adları) · **kagit** (37, kaynak: BabelStone Irk Bitig fontu). `tamga-grid` `gorunum: karsilastirma` taş / Yenisey / kâğıt biçimlerini yan yana çizer (`sutunlar` ile seçilir). Metin kaynaklarında geçmeyen tamga içeren grup `kaynak` bildirmek zorundadır (kapı denetler).
 
 ## Paket kurs katmanı
 

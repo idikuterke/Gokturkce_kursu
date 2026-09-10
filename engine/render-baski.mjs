@@ -5,7 +5,10 @@ import path from "node:path";
 import { ROOT } from "./kapi.mjs";
 
 const P = (...s) => path.join(ROOT, ...s);
-const CSS = fs.readFileSync(P("03_Tasarim/gokturk-baski.css"), "utf8");
+const fontUrl = (rel) => "file:///" + P(rel).replace(/\\/g, "/");
+const CSS = fs.readFileSync(P("03_Tasarim/gokturk-baski.css"), "utf8")
+  .replace(/url\('\.\.\/fontlar\//g, `url('${fontUrl("03_Tasarim/fontlar")}/`)
+  .replace(/url\('\.\.\/\.\.\/00_Kaynaklar\/fontlar\//g, `url('${fontUrl("00_Kaynaklar/fontlar")}/`);
 
 // uret2.py EXTRA_CSS — tamga albümü kart/tablo stilleri (yalnız ihtiyaç duyan belgelere eklenir)
 const EXTRA_CSS = `
@@ -61,7 +64,23 @@ function metinRef(k, g) {
   return orhunBlok(r, k);
 }
 
+function karsilastirma(k, tamgalar) {
+  const G = (id) => tamgalar.gruplar.find((g) => g.id === id);
+  const yen = new Map((G("yenisey-tam")?.tamgalar ?? []).filter((t) => t.orhon).map((t) => [t.orhon, t.cp]));
+  const kag = new Set((G("kagit")?.tamgalar ?? []).map((t) => t.cp));
+  const taban = (k.grup === "*" ? ["unluler", "kutuplu", "kutupsuz", "ligatur", "irkbitig"] : k.grup.split(",")).flatMap((id) => G(id.trim())?.tamgalar ?? []);
+  const satir = taban.map((t) =>
+    `<tr><td class="merkez"><span class="runic" style="font-size:1.9em">${chr(t.cp)}</span></td>` +
+    `<td class="merkez">${yen.has(t.cp) ? `<span class="runic" style="font-size:1.9em">${chr(yen.get(t.cp))}</span>` : '<span class="not">—</span>'}</td>` +
+    `<td class="merkez">${kag.has(t.cp) ? `<span class="runic" style="font-size:1.9em;font-family:'BabelStone Irk Bitig'">${chr(t.cp)}</span>` : '<span class="not">—</span>'}</td>` +
+    `<td><b>${t.deger}</b></td><td class="not">${t.ad ?? ""} · ${t.cp}</td></tr>`).join("");
+  return `<h3 class="alt-baslik">${k.baslik ?? "Taş · Yenisey · Kâğıt — aynı harf, üç biçim"}</h3>` +
+    `<table class="tablo"><tr><th class="merkez" style="width:18mm">Orhun (taş)</th><th class="merkez" style="width:18mm">Yenisey</th><th class="merkez" style="width:18mm">Irk Bitig (kâğıt)</th><th style="width:48mm">Ders değeri</th><th>Unicode</th></tr>${satir}</table>` +
+    `<p class="not">Yenisey biçimleri bölgesel glif varyantlarıdır (Unicode ayrı kod noktası verir); kâğıt biçimi aynı kod noktasının fırça hattıdır (BabelStone Irk Bitig fontu).</p>`;
+}
+
 function tamgaGrid(k, tamgalar) {
+  if (k.gorunum === "karsilastirma") return karsilastirma(k, tamgalar);
   const gruplar = k.grup === "*" ? tamgalar.gruplar : tamgalar.gruplar.filter((g) => g.id === k.grup);
   if (k.gorunum === "kart") {
     const tum = gruplar.flatMap((g) => g.tamgalar);

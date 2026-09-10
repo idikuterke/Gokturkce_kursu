@@ -45,6 +45,7 @@ export async function kapiHazirla() {
     runeler(fs.readFileSync(P("00_Kaynaklar", f), "utf8")).forEach((c) => kaynak.add(c));
   tumMetin(irkRaw).forEach((s) => runeler(s).forEach((c) => kaynak.add(c)));
   orhunRaw.dizeler.forEach((d) => runeler(d.gokturkce).forEach((c) => kaynak.add(c)));
+  const metinKaynak = new Set(kaynak);   // yalnız metinlerden (txt + DB'ler) gelen tamgalar
   for (const g of tamgalar.gruplar) for (const t of g.tamgalar) kaynak.add(String.fromCodePoint(parseInt(t.cp.slice(2), 16)));
 
   // Noto cmap
@@ -58,6 +59,13 @@ export async function kapiHazirla() {
 
   const hatalar = [];
   const hata = (m) => hatalar.push(m);
+
+  // tamgalar.json denetimi: metin kaynaklarında geçmeyen tamga içeren grup 'kaynak' alanı bildirmeli (Unicode/font gibi)
+  for (const g of tamgalar.gruplar) {
+    const dis = g.tamgalar.map((t) => String.fromCodePoint(parseInt(t.cp.slice(2), 16))).filter((c) => !metinKaynak.has(c));
+    if (dis.length && !g.kaynak) hata(`[tamgalar.json › ${g.id}] metin kaynaklarında olmayan ${dis.length} tamga var, grup 'kaynak' bildirmiyor: ${dis.map(hex).join(" ")}`);
+    for (const t of g.tamgalar) if (!cmap.has(parseInt(t.cp.slice(2), 16))) hata(`[tamgalar.json › ${g.id}] ${t.cp} Noto'da yok`);
+  }
 
   function tamgaDenetle(metin, baglam) {
     const out = runeler(metin);
@@ -84,8 +92,9 @@ export async function kapiHazirla() {
         if (!Array.isArray(k.targets) || !k.targets.length) hata(`[${yer}] targets boş`);
         else for (const t of k.targets) if (!HEDEFLER.has(t)) hata(`[${yer}] bilinmeyen target '${t}'`);
         if (k.type === "metin-ref" && !refCoz(k)) hata(`[${yer}] KIRIK metin-ref: ${k.db}:${k.ref}`);
-        if (k.type === "tamga-grid" && k.grup !== "*" && !tamgalar.gruplar.some((g) => g.id === k.grup))
-          hata(`[${yer}] bilinmeyen tamga grubu '${k.grup}'`);
+        if (k.type === "tamga-grid" && k.grup !== "*")
+          for (const gid of k.grup.split(",").map((x) => x.trim()))
+            if (!tamgalar.gruplar.some((g) => g.id === gid)) hata(`[${yer}] bilinmeyen tamga grubu '${gid}'`);
       }));
     // Sertifika sınavı: sinav tanımlıysa rol=sertifika quiz sayısı soruSayisi'na eşit olmalı
     if (doc.sinav) {

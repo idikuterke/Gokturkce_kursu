@@ -8,8 +8,14 @@
   "friz": "𐱇 · 𐰰 · 𐰪",
   "kicker": "Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi",
   "meta": [
-   {"k": "EĞİTMEN", "v": "İbrahim (Bayram) BİLİR"},
-   {"k": "KAZANIM", "v": "İsim / fiil tümcesi · eksilti · Orhun–Irk Bitig imla farkları · orijinal fal deşifresi"}
+   {
+    "k": "EĞİTMEN",
+    "v": "İbrahim (Bayram) BİLİR"
+   },
+   {
+    "k": "KAZANIM",
+    "v": "İsim / fiil tümcesi · eksilti · Orhun–Irk Bitig imla farkları · orijinal fal deşifresi"
+   }
   ]
  },
  "bolumler": [
@@ -19,16 +25,92 @@
    "baslik": "Tümce Yapısı ve Taş Ekonomisi",
    "yedigun": 3,
    "bloklar": [
-    {"type": "bolum-ayraci", "targets": ["slayt"], "baslik": "I. Ders — Tümce (Söz Dizimi)", "altbaslik": "İsim tümcesi · fiil tümcesi · eksiltili yapılar", "friz": "𐰋𐰃𐰠𐰏𐰀"},
-    {"type": "prose", "targets": ["slayt"], "id": "tumce-tur", "html": "<h3>İki Tümce Türü</h3><table class=\"tablo\"><tr><th>Tür</th><th>Yüklem</th><th>Örnek</th></tr><tr><td><b>İsim tümcesi</b></td><td>İsim / sıfat (+ <i>er-</i> yardımcı fiili veya şahıs zamiri)</td><td><span class=\"cevrim\">Bilge Tonyukuk men</span> — Ben Bilge Tonyukuk'um</td></tr><tr><td><b>Fiil tümcesi</b></td><td>Çekimli fiil</td><td>Özne + Tümleç + Yüklem</td></tr></table>"},
-    {"type": "metin-ref", "targets": ["slayt"], "db": "orhun", "ref": "TY1-B-1", "kelimeAralik": [0, 3], "baslik": "İsim tümcesi — Tonyukuk Yazıtı · 1. taş · Batı 1"},
-    {"type": "metin-ref", "targets": ["slayt"], "db": "orhun", "ref": "KT-G-1", "kelimeAralik": [0, 7], "baslik": "İsim tümcesi — Kül Tigin · Güney 1: Tanrı gibi gökte olmuş Türk Bilge Kağan"},
-    {"type": "metin-ref", "targets": ["slayt"], "db": "orhun", "ref": "TY1-B-2", "kelimeAralik": [0, 6], "baslik": "Fiil tümcesi — Tonyukuk · Batı 2: Türk bodun kanın bulmayın Tabgaçda adrıldı"},
-    {"type": "prose", "targets": ["slayt"], "id": "eksilti", "html": "<h3>Taş Ekonomisi — Eksiltili (Elliptical) Yapılar</h3><p>Sert taşa kazımanın zorluğu kâtibi kısaltmaya iter: sıfat-fiiller, yardımcı fiiller, hatta yüklem <b>işaretsiz</b> bırakılabilir.</p><p class=\"not\">Okur, bağlamdan tamamlar — tıpkı yazılmayan ünlüleri tamamladığı gibi. Yedigün 2'deki tasarruf kuralının tümce düzeyindeki karşılığı.</p>"},
-    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 3, "rol": "formatif", "konu": "Tümce Türü",
+    {
+     "type": "bolum-ayraci",
+     "targets": [
+      "slayt"
+     ],
+     "baslik": "I. Ders — Tümce (Söz Dizimi)",
+     "altbaslik": "İsim tümcesi · fiil tümcesi · eksiltili yapılar",
+     "friz": "𐰋𐰃𐰠𐰏𐰀"
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "tumce-tur",
+     "html": "<h3>İki Tümce Türü</h3><table class=\"tablo\"><tr><th>Tür</th><th>Yüklem</th><th>Örnek</th></tr><tr><td><b>İsim tümcesi</b></td><td>İsim / sıfat (+ <i>er-</i> yardımcı fiili veya şahıs zamiri)</td><td><span class=\"cevrim\">Bilge Tonyukuk men</span> — Ben Bilge Tonyukuk'um</td></tr><tr><td><b>Fiil tümcesi</b></td><td>Çekimli fiil</td><td>Özne + Tümleç + Yüklem</td></tr></table>"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "slayt"
+     ],
+     "db": "orhun",
+     "ref": "TY1-B-1",
+     "kelimeAralik": [
+      0,
+      3
+     ],
+     "baslik": "İsim tümcesi — Tonyukuk Yazıtı · 1. taş · Batı 1"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "slayt"
+     ],
+     "db": "orhun",
+     "ref": "KT-G-1",
+     "kelimeAralik": [
+      0,
+      7
+     ],
+     "baslik": "İsim tümcesi — Kül Tigin · Güney 1: Tanrı gibi gökte olmuş Türk Bilge Kağan"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "slayt"
+     ],
+     "db": "orhun",
+     "ref": "TY1-B-2",
+     "kelimeAralik": [
+      0,
+      6
+     ],
+     "baslik": "Fiil tümcesi — Tonyukuk · Batı 2: Türk bodun kanın bulmayın Tabgaçda adrıldı"
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "eksilti",
+     "html": "<h3>Taş Ekonomisi — Eksiltili (Elliptical) Yapılar</h3><p>Sert taşa kazımanın zorluğu kâtibi kısaltmaya iter: sıfat-fiiller, yardımcı fiiller, hatta yüklem <b>işaretsiz</b> bırakılabilir.</p><p class=\"not\">Okur, bağlamdan tamamlar — tıpkı yazılmayan ünlüleri tamamladığı gibi. Yedigün 2'deki tasarruf kuralının tümce düzeyindeki karşılığı.</p>"
+    },
+    {
+     "type": "quiz",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "yedigun": 3,
+     "rol": "formatif",
+     "konu": "Tümce Türü",
      "soru": "<span class=\"cevrim\">Bilge Tonyukuk men</span> tümcesi hangi türdendir ve yüklemi nedir?",
-     "secenekler": ["Fiil tümcesi; yüklem 'men'", "İsim tümcesi; yüklem 'Bilge Tonyukuk' + şahıs zamiri 'men'", "Eksiltili tümce; yüklem yok", "Fiil tümcesi; yüklem 'Tonyukuk'"],
-     "dogru": 1, "geriBildirim": {"ok": "İsim yüklemi + 1. tekil şahıs zamiri.", "no": "Tümcede çekimli fiil var mı? Yok — isim tümcesi."}}
+     "secenekler": [
+      "Fiil tümcesi; yüklem 'men'",
+      "İsim tümcesi; yüklem 'Bilge Tonyukuk' + şahıs zamiri 'men'",
+      "Eksiltili tümce; yüklem yok",
+      "Fiil tümcesi; yüklem 'Tonyukuk'"
+     ],
+     "dogru": 1,
+     "geriBildirim": {
+      "ok": "İsim yüklemi + 1. tekil şahıs zamiri.",
+      "no": "Tümcede çekimli fiil var mı? Yok — isim tümcesi."
+     }
+    }
    ]
   },
   {
@@ -37,31 +119,230 @@
    "baslik": "Orhun – Irk Bitig Kıyaslaması ve Fal Okumaları",
    "yedigun": 3,
    "bloklar": [
-    {"type": "bolum-ayraci", "targets": ["slayt"], "baslik": "II. Ders — Irk Bitig", "altbaslik": "Taştan kâğıda: aynı alfabe, başka el", "friz": "𐱇 · 𐰰"},
-    {"type": "gorsel", "targets": ["slayt"], "src": "content/gorsel/irk-bitig-sayfa.jpg", "alt": "Açık el yazması kitapçık (temsilî)", "altyazi": "Irk Bitig (Fal Kitabı) — 9. yy, Dunhuang (Bin Buda mağaraları), kâğıt + fırça. Orijinal: British Library Or.8212/161. Temsilî canlandırma.", "kaynak": "Temsilî görsel, ComfyUI/Flux", "genislik": "tam",
-     "dogrulama": {"arac": "gorsel-denetim", "sonuc": "yazı yok", "tarih": "2026-09-10"}},
-    {"type": "prose", "targets": ["slayt"], "id": "mecra", "html": "<h3>Mecra Farkı → Harf Farkı</h3><table class=\"tablo\"><tr><th></th><th>Orhun (taş, keski)</th><th>Irk Bitig (kâğıt, fırça)</th></tr><tr><td>Hat</td><td>Köşeli, geometrik</td><td>Yuvarlak, akıcı, el yazısına yatkın (cursiviform)</td></tr><tr><td>ş sesi</td><td>𐱁 ayrı tamga</td><td>𐱁 <b>kaldırıldı</b>; yerine s (𐰽 / 𐰾): <i>yaş ➔ yas</i></td></tr><tr><td>ince r</td><td>𐰼</td><td>Grafik benzerlikle <b>𐱁</b> biçimi ince r için kullanıldı</td></tr><tr><td>Özel tamgalar</td><td>—</td><td>𐱇 <i>ot</i> (logogram) · 𐰰 <i>up/üp</i> · 𐰪 <i>ny/ń</i></td></tr></table>"},
-    {"type": "tamga-grid", "targets": ["slayt", "baski"], "grup": "irkbitig", "gorunum": "izgara"},
-    {"type": "ornek-kelime", "targets": ["slayt", "baski"], "id": "iki-yazim", "ornekler": [
-     {"latin": "yaş — Orhun", "anlam": "yaş, ömür", "runik": "𐰖𐱁", "aciklama": "y¹ + kutupsuz ş."},
-     {"latin": "yaş — Irk Bitig", "runik": "𐰖𐰽", "aciklama": "ş kaldırıldı; kalın s yazılır."},
-     {"latin": "er — Orhun", "anlam": "kişi", "runik": "𐰼", "aciklama": "Sözbaşı e düşer; ince r."},
-     {"latin": "er — Irk Bitig", "runik": "𐱁", "aciklama": "İnce r için ş biçimi kullanılır."}
-    ]},
-    {"type": "prose", "targets": ["slayt"], "id": "fal-yontem", "html": "<h3>Fal Deşifre Yöntemi</h3><ol><li>Zar dizisini oku (3 zar × 1–4 nokta)</li><li>Runik satırı sağdan sola kelimelere ayır ( : )</li><li>Her kelimeyi Aysu Ata transkripsiyonuyla yaz — yazılmayan ünlüler parantezde</li><li>Irk Bitig imlasını uygula: 𐱁 gördüğünde <b>ince r</b> düşün</li><li>Kalıp kapanışı bul: <span class=\"cevrim\">ança biliŋler: edgü ol / yablak ol</span></li></ol>"},
-    {"type": "metin-ref", "targets": ["slayt", "baski"], "db": "irkbitig", "ref": "1", "baslik": "1. Fal · Zar 2-2-2 — Tensi men…"},
-    {"type": "metin-ref", "targets": ["slayt", "baski"], "db": "irkbitig", "ref": "4", "baslik": "4. Fal — up/üp (𐰰) tamgası"},
-    {"type": "metin-ref", "targets": ["slayt", "baski"], "db": "irkbitig", "ref": "17", "baslik": "17. Fal — ot (𐱇) logogramı"},
-    {"type": "metin-ref", "targets": ["slayt", "baski"], "db": "irkbitig", "ref": "15", "baslik": "15. Fal · Zar 3-1-4 — Üze tuman turdı…"},
-    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 3, "rol": "formatif", "konu": "Irk Bitig İmlası",
+    {
+     "type": "bolum-ayraci",
+     "targets": [
+      "slayt"
+     ],
+     "baslik": "II. Ders — Irk Bitig",
+     "altbaslik": "Taştan kâğıda: aynı alfabe, başka el",
+     "friz": "𐱇 · 𐰰"
+    },
+    {
+     "type": "gorsel",
+     "targets": [
+      "slayt"
+     ],
+     "src": "content/gorsel/irk-bitig-sayfa.jpg",
+     "alt": "Açık el yazması kitapçık (temsilî)",
+     "altyazi": "Irk Bitig (Fal Kitabı) — 9. yy, Dunhuang (Bin Buda mağaraları), kâğıt + fırça. Orijinal: British Library Or.8212/161. Temsilî canlandırma.",
+     "kaynak": "Temsilî görsel, ComfyUI/Flux",
+     "genislik": "tam",
+     "dogrulama": {
+      "arac": "gorsel-denetim",
+      "sonuc": "yazı yok",
+      "tarih": "2026-09-10"
+     }
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "mecra",
+     "html": "<h3>Mecra Farkı → Harf Farkı</h3><table class=\"tablo\"><tr><th></th><th>Orhun (taş, keski)</th><th>Irk Bitig (kâğıt, fırça)</th></tr><tr><td>Hat</td><td>Köşeli, geometrik</td><td>Yuvarlak, akıcı, el yazısına yatkın (cursiviform)</td></tr><tr><td>ş sesi</td><td>𐱁 ayrı tamga</td><td>𐱁 <b>kaldırıldı</b>; yerine s (𐰽 / 𐰾): <i>yaş ➔ yas</i></td></tr><tr><td>ince r</td><td>𐰼</td><td>Grafik benzerlikle <b>𐱁</b> biçimi ince r için kullanıldı</td></tr><tr><td>Özel tamgalar</td><td>—</td><td>𐱇 <i>ot</i> (logogram) · 𐰰 <i>up/üp</i> · 𐰪 <i>ny/ń</i></td></tr></table>"
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "yenisey",
+     "html": "<h3>Üçüncü Bölge: Yenisey Yazıtları</h3><p>Güney Sibirya (Yenisey ırmağı) mezar taşları — Orhun'la aynı alfabe, <b>bölgesel glif varyantları</b>. Unicode bu biçimlere ayrı kod noktası verir; ses değeri aynıdır.</p><p class=\"not\">Örnek: Tonyukuk yazıtı ÖK/ÜK için Yenisey biçimi 𐰝 kullanır (Orhun 𐰜).</p>"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "grup": "unluler,kutuplu",
+     "gorunum": "karsilastirma",
+     "sutunlar": [
+      "tas",
+      "yenisey"
+     ],
+     "baslik": "Orhun ↔ Yenisey — ünlüler ve kutuplu ünsüzler"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "grup": "irkbitig",
+     "gorunum": "izgara"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "grup": "unluler,kutuplu",
+     "gorunum": "karsilastirma",
+     "sutunlar": [
+      "tas",
+      "kagit"
+     ],
+     "baslik": "Taş ↔ Kâğıt — ünlüler ve kutuplu ünsüzler"
+    },
+    {
+     "type": "tamga-grid",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "grup": "kutupsuz,ligatur,irkbitig",
+     "gorunum": "karsilastirma",
+     "sutunlar": [
+      "tas",
+      "kagit"
+     ],
+     "baslik": "Taş ↔ Kâğıt — kutupsuzlar, hece damgaları, özel tamgalar"
+    },
+    {
+     "type": "ornek-kelime",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "id": "iki-yazim",
+     "ornekler": [
+      {
+       "latin": "yaş — Orhun",
+       "anlam": "yaş, ömür",
+       "runik": "𐰖𐱁",
+       "aciklama": "y¹ + kutupsuz ş."
+      },
+      {
+       "latin": "yaş — Irk Bitig",
+       "runik": "𐰖𐰽",
+       "aciklama": "ş kaldırıldı; kalın s yazılır."
+      },
+      {
+       "latin": "er — Orhun",
+       "anlam": "kişi",
+       "runik": "𐰼",
+       "aciklama": "Sözbaşı e düşer; ince r."
+      },
+      {
+       "latin": "er — Irk Bitig",
+       "runik": "𐱁",
+       "aciklama": "İnce r için ş biçimi kullanılır."
+      }
+     ]
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "fal-yontem",
+     "html": "<h3>Fal Deşifre Yöntemi</h3><ol><li>Zar dizisini oku (3 zar × 1–4 nokta)</li><li>Runik satırı sağdan sola kelimelere ayır ( : )</li><li>Her kelimeyi Aysu Ata transkripsiyonuyla yaz — yazılmayan ünlüler parantezde</li><li>Irk Bitig imlasını uygula: 𐱁 gördüğünde <b>ince r</b> düşün</li><li>Kalıp kapanışı bul: <span class=\"cevrim\">ança biliŋler: edgü ol / yablak ol</span></li></ol>"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "db": "irkbitig",
+     "ref": "1",
+     "baslik": "1. Fal · Zar 2-2-2 — Tensi men…"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "db": "irkbitig",
+     "ref": "4",
+     "baslik": "4. Fal — up/üp (𐰰) tamgası"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "db": "irkbitig",
+     "ref": "17",
+     "baslik": "17. Fal — ot (𐱇) logogramı"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "db": "irkbitig",
+     "ref": "15",
+     "baslik": "15. Fal · Zar 3-1-4 — Üze tuman turdı…"
+    },
+    {
+     "type": "quiz",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "yedigun": 3,
+     "rol": "formatif",
+     "konu": "Irk Bitig İmlası",
      "soru": "Irk Bitig'de <span class=\"runic\">𐱁</span> tamgasını gördüğünüzde hangi sesi düşünmelisiniz?",
-     "secenekler": ["ş — Orhun'daki gibi", "ince r — ş tamgası bu el yazmasında r² için kullanılır", "kalın r", "z"],
-     "dogru": 1, "geriBildirim": {"ok": "ş sesi s ile yazılır; 𐱁 biçimi ince r'ye kaydırılmıştır.", "no": "Irk Bitig'de ş tamamen tasfiye edilmiştir; biçim başka bir sese verilmiştir."}},
-    {"type": "quiz", "targets": ["slayt", "baski"], "yedigun": 3, "rol": "formatif", "konu": "Irk Bitig Özel Tamgaları",
+     "secenekler": [
+      "ş — Orhun'daki gibi",
+      "ince r — ş tamgası bu el yazmasında r² için kullanılır",
+      "kalın r",
+      "z"
+     ],
+     "dogru": 1,
+     "geriBildirim": {
+      "ok": "ş sesi s ile yazılır; 𐱁 biçimi ince r'ye kaydırılmıştır.",
+      "no": "Irk Bitig'de ş tamamen tasfiye edilmiştir; biçim başka bir sese verilmiştir."
+     }
+    },
+    {
+     "type": "quiz",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "yedigun": 3,
+     "rol": "formatif",
+     "konu": "Irk Bitig Özel Tamgaları",
      "soru": "“koń” (koyun) ve “turńa” (turna) kelimelerindeki damaksal <b>ny / ń</b> sesini karşılayan, Irk Bitig'e özgü tamga hangisidir?",
-     "secenekler": ["𐰭 (ng)", "𐰪 (ny / ń)", "𐰨 (nç)", "𐰜 (ük)"],
-     "dogru": 1, "geriBildirim": {"ok": "𐰪 — Irk Bitig'in karakteristik tamgası.", "no": "ng ve nç kümeleri farklı; aranan damaksal n."}},
-    {"type": "prose", "targets": ["slayt"], "id": "kapanis", "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>İsim tümcesi (<i>er-</i> / şahıs zamiri) — fiil tümcesi (çekimli yüklem)</li><li>Taş ekonomisi tümceyi de kısaltır: eksilti</li><li>Irk Bitig: ş yok ➔ s; 𐱁 = ince r; 𐱇 ot, 𐰰 up, 𐰪 ny</li><li>Fal deşifresi: zar ➔ kelimeler ➔ transkripsiyon ➔ kapanış kalıbı</li></ul><p class=\"not\">Gelecek Yedigün: kompozisyon atölyesi, sayı sistemi ve 12 soruluk bitirme sınavı.</p>"}
+     "secenekler": [
+      "𐰭 (ng)",
+      "𐰪 (ny / ń)",
+      "𐰨 (nç)",
+      "𐰜 (ük)"
+     ],
+     "dogru": 1,
+     "geriBildirim": {
+      "ok": "𐰪 — Irk Bitig'in karakteristik tamgası.",
+      "no": "ng ve nç kümeleri farklı; aranan damaksal n."
+     }
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "kapanis",
+     "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>İsim tümcesi (<i>er-</i> / şahıs zamiri) — fiil tümcesi (çekimli yüklem)</li><li>Taş ekonomisi tümceyi de kısaltır: eksilti</li><li>Irk Bitig: ş yok ➔ s; 𐱁 = ince r; 𐱇 ot, 𐰰 up, 𐰪 ny</li><li>Fal deşifresi: zar ➔ kelimeler ➔ transkripsiyon ➔ kapanış kalıbı</li></ul><p class=\"not\">Gelecek Yedigün: kompozisyon atölyesi, sayı sistemi ve 12 soruluk bitirme sınavı.</p>"
+    }
    ]
   }
  ]
