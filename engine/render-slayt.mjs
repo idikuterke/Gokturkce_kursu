@@ -81,7 +81,7 @@ table.tablo{border-collapse:collapse;width:100%;font-size:2.6vh} .tablo th{color
 .s-karar{font-family:var(--serif);font-size:4.2vh;margin:2vh 0 1vh} .s-karar.gecti{color:var(--yesil)} .s-karar.kaldi{color:var(--kirmizi)} .s-karar.bekliyor{color:var(--metin2)}
 .s-sifirla{align-self:flex-start;margin-top:2vh;background:transparent;color:var(--sonuk);border:1px solid var(--cizgi);border-radius:6px;padding:1vh 2vh;font:inherit;font-size:2vh;cursor:pointer} .s-sifirla:hover{color:var(--kirmizi);border-color:var(--kirmizi)}
 .s-form{display:flex;gap:1.5vw;align-items:center;flex-wrap:wrap;margin-top:2vh} .s-form input{background:var(--panel);color:#fff;border:1px solid var(--cizgi);border-radius:6px;padding:1.2vh 1.6vh;font:inherit;font-size:2.3vh;min-width:22vw} .s-form input:focus{outline:none;border-color:var(--turkuaz)}
-.s-gonder{background:var(--turkuaz);color:#062024;border:0;border-radius:6px;padding:1.3vh 2.4vh;font:inherit;font-size:2.3vh;font-weight:600;cursor:pointer} .s-gonder:disabled{opacity:.4;cursor:default} .s-mail{color:var(--metin2);font-size:2.1vh} .s-iletim.ok{color:var(--yesil)} .s-iletim.no{color:var(--kirmizi)}
+.s-gonder{background:var(--turkuaz);color:#062024;border:0;border-radius:6px;padding:1.3vh 2.4vh;font:inherit;font-size:2.3vh;font-weight:600;cursor:pointer} .s-gonder:disabled{opacity:.4;cursor:default} .s-mail{color:var(--metin2);font-size:2.1vh} .s-iletim.ok{color:var(--yesil)} .s-iletim.no{color:var(--kirmizi)} .kvkk{font-size:1.9vh;color:var(--sonuk);border-top:1px solid var(--cizgi);padding-top:1.2vh;margin-top:1.5vh;line-height:1.4}
 /* gövde dışı */
 .alt-bant{position:absolute;left:0;right:0;bottom:0;height:5vh;display:flex;align-items:center;justify-content:space-between;padding:0 7vw;font-size:1.7vh;color:var(--sonuk);letter-spacing:.1em}
 .ilerleme{position:absolute;left:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--turkuaz),var(--mavi));width:0;transition:width .25s}
@@ -280,6 +280,7 @@ function sonucSlayt(doc, ctx) {
     (web ? `<button class="s-gonder">Sonucu eğitmene gönder</button>` : "") +
     (ep ? `<a class="s-mail" href="#">E-posta ile gönder</a>` : "") + `</div><div class="s-iletim not"></div>` +
     `<p class="not">Geçme: ${doc.sinav.esik}/100 · %${doc.sinav.devamOrani ?? 80} devam koşuluyla sertifikaya hak kazanılır.${web ? " Gönderilen sonuç eğitmene ulaşır; ağ yoksa bir sonraki açılışta otomatik yeniden denenir." : " Sonuç bu tarayıcıda saklanır."}</p>` +
+    ((web || ep) ? `<p class="not kvkk"><b>KVKK Aydınlatma:</b> Gönder düğmesine bastığınızda ad-soyadınız, e-posta adresiniz (yazdıysanız), sınav puanınız ve cevaplarınız yalnızca sertifika değerlendirmesi ve kurs kaydı amacıyla eğitmen İbrahim (Bayram) Bilir'e iletilir; üçüncü kişilerle paylaşılmaz, reklam amacıyla kullanılmaz ve kurs kayıtları saklama süresi sonunda silinir. 6698 sayılı KVKK kapsamındaki bilgi edinme, düzeltme ve silme taleplerinizi ${ep ? esc(ep) : "eğitmene"} iletebilirsiniz. Göndermek isteğe bağlıdır; göndermezseniz sonucunuz yalnızca bu cihazda kalır.</p>` : "") +
     `<button class="s-sifirla">Cevapları sıfırla</button></div>`;
 }
 
