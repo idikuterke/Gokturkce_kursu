@@ -35,6 +35,7 @@ const CIKTI = {
   "degerlendirme":  { doc: "degerlendirme", html: "06_Degerlendirme_Seti.html",            pdf: "06_Degerlendirme_Seti.pdf",              egitmen: true },
   "sinav":          { doc: "yedigun-4",     html: "07_Bitirme_Sinavi.html",                pdf: "07_Bitirme_Sinavi.pdf",                  egitmen: false },
   "sinav-cevap":    { doc: "yedigun-4",     html: "07b_Bitirme_Sinavi_Cevap_Anahtari.html", pdf: "07b_Bitirme_Sinavi_Cevap_Anahtari.pdf", egitmen: true },
+  "cuzdan-karti":   { doc: "cuzdan-karti",  html: "08_Cuzdan_Karti_A6.html",               pdf: "08_Cuzdan_Karti_A6.pdf",                egitmen: false },
 };
 
 const OUT_HTML = P("build/baski/html");

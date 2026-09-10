@@ -9,7 +9,7 @@
     "build:baski": "node engine/build.mjs --hedef baski",
     "build:slayt": "node engine/build.mjs --hedef slayt",
     "paket": "node engine/build.mjs && node engine/build.mjs --hedef slayt --eposta ibrahim.b.bilir@gmail.com && node engine/paket.mjs",
-    "sonuc-sunucu": "node engine/sonuc-sunucu.mjs"
+    "sonuc-sunucu": "node engine/sonuc-sunucu.mjs",
     "orhun-db": "node engine/orhun_db_uret.mjs"
   },
   "dependencies": {

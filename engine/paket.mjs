@@ -28,6 +28,7 @@ const PDFLER = [
   ["04_Irk_Bitig_Okuma_Foyu.pdf", "Irk Bitig Okuma Föyü"],
   ["05_Ek_Uniteler_Foyu.pdf", "Ek Üniteler Föyü"],
   ["07_Bitirme_Sinavi.pdf", "Bitirme Sınavı (basılı sürüm)"],
+  ["08_Cuzdan_Karti_A6.pdf", "Yazım Kontrol Kartı (A6, çift yüzlü)"],
 ];
 for (const [f] of PDFLER) fs.copyFileSync(P("04_PDF", f), path.join(OUT, "pdf", f));
 

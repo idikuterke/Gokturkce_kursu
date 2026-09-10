@@ -26,6 +26,28 @@ const EXTRA_CSS = `
 .mono-blok { font-family:'JetBrains Mono',Consolas,monospace; font-size:8.5pt; background:#F5EFE0; border:1px solid var(--cizgi); padding:3mm 4mm; margin:2mm 0 3.5mm 0; page-break-inside:avoid; }
 .mono-blok p { margin:0 0 1.5mm 0; text-align:left; }
 `;
+
+// A6 cüzdan kartı (105×148 mm): sayfa başına bir kart yüzü; bölüm başlığı çizilmez
+const A6_CSS = `
+@page { size: A6; margin: 0; }
+body { margin:0; }
+.kart-sayfa { width:105mm; height:148mm; box-sizing:border-box; padding:7mm 7mm 6mm; page-break-after:always; position:relative;
+  border-left:2.2mm solid var(--okr); background:#FBF7EE; display:flex; flex-direction:column; }
+.kart-sayfa.arka { page-break-after:auto; }
+.k-kicker { font-family:'JetBrains Mono',Consolas,monospace; font-size:6.5pt; letter-spacing:.14em; text-transform:uppercase; color:var(--tas); }
+.k-baslik h1 { font-size:15pt; margin:1mm 0 2.5mm; color:var(--murekkep); border-bottom:1px solid var(--cizgi); padding-bottom:1.5mm; }
+.k-kurallar { margin:0; padding-left:4.5mm; font-size:8.6pt; line-height:1.38; }
+.k-kurallar li { margin-bottom:3.2mm; }
+.k-kurallar b { color:var(--okr); }
+.rn { font-family:'Noto Sans Old Turkic',serif; direction:rtl; unicode-bidi:isolate; font-size:1.15em; color:var(--murekkep); white-space:nowrap; }
+.k-dip { margin-top:auto; font-family:'JetBrains Mono',Consolas,monospace; font-size:6pt; color:var(--tas); border-top:1px solid var(--cizgi); padding-top:1.5mm; }
+.k-satir { display:flex; align-items:flex-start; margin-bottom:2mm; }
+.k-etiket { flex:0 0 13mm; font-size:6.5pt; font-weight:700; color:var(--okr); padding-top:1.2mm; }
+.k-grid { flex:1; display:flex; flex-wrap:wrap; gap:0.8mm 1.2mm; }
+.k-h { width:7.4mm; text-align:center; line-height:1; }
+.k-h .rn { display:block; font-size:12.5pt; }
+.k-d { display:block; font-size:5.6pt; color:var(--tas); margin-top:0.4mm; font-family:'JetBrains Mono',Consolas,monospace; }
+`;
 // build.py ile üretilen ilk iki belge EXTRA_CSS içermiyordu; birebir eşleşme için ayrım korunur.
 const EXTRA_CSS_YOK = new Set(["kitapcik", "yapraklar"]);
 
@@ -154,12 +176,14 @@ export function blokCiz(k, ctx) {
 
 /** Belgeyi A4 baskı HTML'ine çevirir. ctx: { kapi, egitmen } */
 export function belgeCiz(doc, ctx) {
-  const css = CSS + (EXTRA_CSS_YOK.has(doc.id) ? "" : EXTRA_CSS);
+  const a6 = doc.sayfa === "A6";
+  const css = CSS + (EXTRA_CSS_YOK.has(doc.id) ? "" : EXTRA_CSS) + (a6 ? A6_CSS : "");
   const parts = ['<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">', `<title>${doc.baslik}</title>`, `<style>${css}</style></head><body>`];
   parts.push(doc.kapakHtml ?? kapakCiz(doc.kapak, doc));
   for (const b of doc.bolumler) {
     const bloklar = b.bloklar.filter((k) => k.targets.includes("baski"));
     if (!bloklar.length) continue;
+    if (a6) { parts.push(bloklar.map((k) => blokCiz(k, ctx)).join("")); continue; }
     parts.push('<section class="bolum">');
     parts.push(`<div class="bolum-kicker">${b.kicker ?? ""}</div>`);
     parts.push(`<h2 class="bolum-baslik">${b.baslik}</h2>`);
