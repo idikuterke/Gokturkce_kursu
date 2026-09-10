@@ -75,6 +75,11 @@ table.tablo{border-collapse:collapse;width:100%;font-size:2.6vh} .tablo th{color
 .metin .runic.satir{font-size:6.5vh}
 .metin .trans{font-family:var(--serif);font-style:italic;font-size:3.2vh;color:var(--altin);margin:2vh 0 1vh;text-align:right}
 .metin .turkce{font-size:2.8vh;color:var(--metin2);text-align:right}
+/* sonuç */
+.s-kutu{display:grid;grid-template-columns:repeat(3,1fr);gap:2vw;margin:3vh 0} .s-kutu>div{background:var(--panel);border:1px solid var(--cizgi);border-top:3px solid var(--turkuaz);border-radius:6px;padding:3vh 2vw;text-align:center}
+.s-etiket{font-size:1.9vh;letter-spacing:.18em;text-transform:uppercase;color:var(--sonuk)} .s-deger{font-family:var(--serif);font-size:6vh;color:#fff;margin-top:1vh}
+.s-karar{font-family:var(--serif);font-size:4.2vh;margin:2vh 0 1vh} .s-karar.gecti{color:var(--yesil)} .s-karar.kaldi{color:var(--kirmizi)} .s-karar.bekliyor{color:var(--metin2)}
+.s-sifirla{align-self:flex-start;margin-top:2vh;background:transparent;color:var(--sonuk);border:1px solid var(--cizgi);border-radius:6px;padding:1vh 2vh;font:inherit;font-size:2vh;cursor:pointer} .s-sifirla:hover{color:var(--kirmizi);border-color:var(--kirmizi)}
 /* gövde dışı */
 .alt-bant{position:absolute;left:0;right:0;bottom:0;height:5vh;display:flex;align-items:center;justify-content:space-between;padding:0 7vw;font-size:1.7vh;color:var(--sonuk);letter-spacing:.1em}
 .ilerleme{position:absolute;left:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--turkuaz),var(--mavi));width:0;transition:width .25s}
@@ -139,7 +144,7 @@ function ornekKelime(k) {
 
 function quiz(k, idx) {
   const harf = "ABCDE";
-  return `<div class="govde quiz" data-quiz="${idx}" data-dogru="${k.dogru}" data-ok="${esc(k.geriBildirim?.ok ?? "Doğru.")}" data-no="${esc(k.geriBildirim?.no ?? "Tekrar deneyin.")}">` +
+  return `<div class="govde quiz" data-quiz="${idx}" data-qid="${k.id ?? "q" + idx}" data-rol="${k.rol}" data-dogru="${k.dogru}" data-ok="${esc(k.geriBildirim?.ok ?? "Doğru.")}" data-no="${esc(k.geriBildirim?.no ?? "Tekrar deneyin.")}">` +
     `<div class="kicker">${k.rol === "sertifika" ? "Sertifika sorusu" : "Pekiştirme"}${k.konu ? " · " + esc(k.konu) : ""}</div><div class="soru">${k.soru}</div>` +
     k.secenekler.map((s, i) => `<button class="secenek${i === k.dogru ? " cevap" : ""}" data-i="${i}"><span class="h">${harf[i]}</span>${s}</button>`).join("") +
     `<div class="geri"></div></div>`;
@@ -178,12 +183,53 @@ function blokSlayt(k, ctx, idx) {
   }
 }
 
+// ---------- tracker: paket kurs izleme arayüzü ----------
+// Modlar: none (localStorage, varsayılan) | scorm12 | xapi (arayüz hazır; uygulama alıcı kurum isteyince yazılır).
+// Arayüz: init(kimlik) · cevap(soruId, dogruMu, rol) · slayt(n) · setScore(raw,max) · complete(gecti) · durum() · sifirla()
+const TRACKER_JS = `
+window.GKTracker=(function(){
+  var mode='none',key,st={cevaplar:{},slayt:0};
+  function kaydet(){try{localStorage.setItem(key,JSON.stringify(st))}catch(e){}}
+  return {
+    mode:mode,
+    init:function(kimlik){key='gk:'+kimlik;try{var v=localStorage.getItem(key);if(v)st=JSON.parse(v)}catch(e){}return st},
+    cevap:function(id,dogru,rol,secim){st.cevaplar[id]={d:dogru?1:0,i:secim,rol:rol,t:Date.now()};kaydet()},
+    slayt:function(n){st.slayt=n;kaydet()},
+    setScore:function(raw,max){st.puan={raw:raw,max:max,t:Date.now()};kaydet()},
+    complete:function(gecti){st.tamam={gecti:gecti,t:Date.now()};kaydet()},
+    durum:function(){return st},
+    sifirla:function(){st={cevaplar:{},slayt:0};kaydet()}
+  };
+})();`;
+
 const JS = `
 (function(){
   var s=[].slice.call(document.querySelectorAll('.slayt')),i=0,bar=document.querySelector('.ilerleme'),say=document.querySelector('.sayac');
-  function go(n){i=Math.max(0,Math.min(s.length-1,n));s.forEach(function(e,j){e.classList.toggle('aktif',j===i)});bar.style.width=((i+1)/s.length*100)+'%';if(say)say.textContent=(i+1)+' / '+s.length;location.hash=i+1;}
+  var T=window.GKTracker,DOC=document.body.dataset.doc,SINAV=document.body.dataset.sinav?JSON.parse(document.body.dataset.sinav):null;
+  var st=T.init(DOC);
+  function isaretle(q,sec,kaydet){var d=+q.dataset.dogru,g=q.querySelector('.geri');
+    q.querySelectorAll('.secenek').forEach(function(x){if(+x.dataset.i===d)x.classList.add('dogru');if(+x.dataset.i===sec&&sec!==d)x.classList.add('yanlis')});
+    if(sec===d){g.textContent='✓ '+q.dataset.ok;g.className='geri ok'}else{g.textContent='✗ '+q.dataset.no;g.className='geri no'}
+    q.dataset.bitti=1;if(kaydet){T.cevap(q.dataset.qid,sec===d,q.dataset.rol,sec)}
+    sonucGuncelle()}
+  document.querySelectorAll('.quiz[data-qid]').forEach(function(q){var c=st.cevaplar[q.dataset.qid];if(c&&c.i!==undefined)isaretle(q,c.i,false)});
+  function sonucGuncelle(){var el=document.querySelector('.sonuc');if(!el||!SINAV)return;
+    var ids=[].slice.call(document.querySelectorAll('.quiz[data-rol="sertifika"]')).map(function(q){return q.dataset.qid});
+    var n=ids.length,c=0,d=0;ids.forEach(function(id){var a=st.cevaplar[id];if(a){c++;d+=a.d}});
+    var puan=Math.round(d/n*100),gecti=puan>=SINAV.esik,bitti=c===n;
+    el.querySelector('.s-cevap').textContent=c+' / '+n;
+    el.querySelector('.s-dogru').textContent=d;
+    el.querySelector('.s-puan').textContent=puan;
+    var k=el.querySelector('.s-karar');
+    if(!bitti){k.textContent='Sınav tamamlanmadı — kalan '+(n-c)+' soru';k.className='s-karar bekliyor'}
+    else if(gecti){k.textContent='GEÇTİ — eşik '+SINAV.esik+'/100';k.className='s-karar gecti';T.setScore(puan,100);T.complete(true)}
+    else{k.textContent='KALDI — eşik '+SINAV.esik+'/100 · bir sonraki kurda ücretsiz tekrar';k.className='s-karar kaldi';T.setScore(puan,100);T.complete(false)}
+    var yanlis=ids.filter(function(id){return st.cevaplar[id]&&!st.cevaplar[id].d});
+    el.querySelector('.s-yanlis').textContent=yanlis.length?'Yanlış cevaplanan: '+yanlis.map(function(id){return document.querySelector('[data-qid="'+id+'"] .kicker').textContent.split('·').slice(1).join('·').trim()}).join(' · '):''}
+  function go(n){i=Math.max(0,Math.min(s.length-1,n));s.forEach(function(e,j){e.classList.toggle('aktif',j===i)});bar.style.width=((i+1)/s.length*100)+'%';if(say)say.textContent=(i+1)+' / '+s.length;location.hash=i+1;T.slayt(i)}
   function adim(){var a=s[i].querySelector('.ornek[data-adim]:not(.acildi)');if(a){a.classList.add('acildi');return true}return false}
   document.addEventListener('keydown',function(e){
+    if(e.target.tagName==='INPUT')return;
     if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();if(!adim())go(i+1)}
     else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1)}
     else if(e.key==='Home')go(0);else if(e.key==='End')go(s.length-1);
@@ -191,15 +237,24 @@ const JS = `
   });
   document.addEventListener('click',function(e){
     var b=e.target.closest('.secenek');
-    if(b){var q=b.closest('.quiz');if(q.dataset.bitti)return;var d=+q.dataset.dogru,g=q.querySelector('.geri');
-      q.querySelectorAll('.secenek').forEach(function(x){if(+x.dataset.i===d)x.classList.add('dogru')});
-      if(+b.dataset.i===d){g.textContent='✓ '+q.dataset.ok;g.className='geri ok'}else{b.classList.add('yanlis');g.textContent='✗ '+q.dataset.no;g.className='geri no'}
-      q.dataset.bitti=1;return}
+    if(b){var q=b.closest('.quiz');if(q.dataset.bitti)return;isaretle(q,+b.dataset.i,true);return}
+    if(e.target.closest('.s-sifirla')){if(confirm('Bu modüldeki tüm cevaplar silinsin mi?')){T.sifirla();location.hash='';location.reload()}return}
     if(e.target.closest('.ornek')){adim();return}
+    if(e.target.closest('button,a,input'))return;
     if(e.clientX>window.innerWidth*0.85){if(!adim())go(i+1)}else if(e.clientX<window.innerWidth*0.15)go(i-1);
   });
-  var h=parseInt(location.hash.slice(1),10);go(isNaN(h)?0:h-1);
+  sonucGuncelle();
+  var h=parseInt(location.hash.slice(1),10);go(isNaN(h)?(st.slayt||0):h-1);
 })();`;
+
+function sonucSlayt(doc) {
+  return `<div class="govde sonuc"><div class="kicker">Sertifika sınavı sonucu</div><h2>${esc(doc.baslik.split("—")[0].trim())} — Değerlendirme</h2>` +
+    `<div class="s-kutu"><div><div class="s-etiket">Cevaplanan</div><div class="s-cevap s-deger"></div></div><div><div class="s-etiket">Doğru</div><div class="s-dogru s-deger"></div></div><div><div class="s-etiket">Puan / 100</div><div class="s-puan s-deger"></div></div></div>` +
+    `<div class="s-karar"></div><div class="s-yanlis not"></div>` +
+    `<p class="not">Geçme: ${doc.sinav.esik}/100 · %${doc.sinav.devamOrani ?? 80} devam koşuluyla sertifikaya hak kazanılır. Sonuç bu tarayıcıda saklanır; ekran görüntüsünü eğitmene iletin.</p>` +
+    `<button class="s-sifirla">Cevapları sıfırla</button></div>`;
+}
+
 
 /** Belgeyi tek dosya slayt HTML'ine çevirir. */
 export function slaytCiz(doc, ctx) {
@@ -208,10 +263,11 @@ export function slaytCiz(doc, ctx) {
   for (const b of doc.bolumler)
     for (const k of b.bloklar.filter((k) => k.targets.includes("slayt")))
       slaytlar.push({ bolum: b, blok: k });
+  if (doc.sinav) slaytlar.push({ bolum: { kicker: "SONUÇ", baslik: "Sertifika Sınavı" }, html: sonucSlayt(doc) });
   const n = slaytlar.length;
   const body = slaytlar.map((s, i) =>
     `<section class="slayt${i === 0 ? " aktif" : ""}" data-n="${i + 1}">${i === 0 ? "" : ust(doc, s.bolum, i + 1, n)}${s.html ?? blokSlayt(s.blok, ctx, i)}` +
     `<div class="alt-bant"><span>Göktürkçe Okuma-Yazma Öğreneği · İbrahim (Bayram) Bilir</span><span>${esc(doc.altbaslik ?? "")}</span></div></section>`).join("\n");
   return `<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(doc.baslik)}</title><style>${CSS}</style></head>` +
-    `<body><div class="deck">${body}</div><div class="yardim">← → boşluk · F tam ekran</div><div class="ilerleme"></div><script>${JS}</script></body></html>`;
+    `<body data-doc="${esc(doc.id)}"${doc.sinav ? ` data-sinav='${JSON.stringify(doc.sinav)}'` : ""}><div class="deck">${body}</div><div class="yardim">← → boşluk · F tam ekran</div><div class="ilerleme"></div><script>${TRACKER_JS}${JS}</script></body></html>`;
 }

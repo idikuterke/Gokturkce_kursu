@@ -1,0 +1,7 @@
+GÖKTÜRKÇE OKUMA-YAZMA ÖĞRENEĞİ — PAKET KURS
+Başlamak için: index.html dosyasını çift tıklayın (Chrome / Edge / Firefox).
+İnternet gerekmez. Klasörü olduğu gibi kopyalayın; dosya adlarını değiştirmeyin.
+Yedigün 1–4: slayt dersleri (ok tuşları / boşluk, F = tam ekran). Quiz cevapları tarayıcıda saklanır.
+Sertifika sınavı: Yedigün 4, 12 soru, geçme 60/100. Sonuç ekranının görüntüsünü eğitmene iletin.
+pdf/: çalışma yaprakları, tamga kartları, Irk Bitig föyü, ek üniteler, basılı sınav.
+Eğitmen: İbrahim (Bayram) Bilir · Sürüm 2026-09-10

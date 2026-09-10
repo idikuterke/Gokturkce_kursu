@@ -21,6 +21,7 @@ npm run build           # baskı: 8 PDF → 04_PDF/ (6 belge + 07 sınav kâğı
 npm run build:slayt     # tur=yedigun belgeler → build/slayt/*.html (+ .pdf, her slayt bir 16:9 sayfa)
 node engine/build.mjs --sadece-html --diff   # HTML üret, eski Python çıktısıyla karşılaştır
 node engine/build.mjs --belge kitapcik       # tek belge
+npm run paket           # baskı + slayt + build/paket/ (index.html, 4 modül, pdf/) + build/Gokturkce_Paket_Kurs.zip
 npm run orhun-db        # 05_Kaynak_DB/ham/turkbitig/*.html → orhun-db-v1.json
 ```
 
@@ -31,6 +32,13 @@ Kapıdan geçmeyen içerik üretilmez. Hata mesajı hangi belge › bölüm › 
 - `content/yedigun-1..4.json` — 4 Yedigün slayt içeriği (95 slayt); Yedigün 4 = atölye + sayılar + 12 soruluk sertifika sınavı
 - `content/kitapcik|yapraklar|tamga-albumu|irkbitig-foyu|ek-uniteler|degerlendirme.json` — baskı seti (Python hattından göç)
 - `content/gorsel/` — doğrulanmış görseller + `KAYNAK.md` provenance
+
+## Paket kurs katmanı
+
+- `engine/paket.mjs` → `build/paket/` : `index.html` (kurs ana sayfası, modül durumu), `yedigun-1..4.html`, `pdf/` (öğrenci PDF'leri), `BENIOKU.txt`; zip'lenir.
+- **GKTracker** (slayt HTML içinde): `init · cevap · slayt · setScore · complete · durum · sifirla`. Mod `none` = localStorage. `scorm12` / `xapi` arayüzde yer tutucu — alıcı kurum LMS isteyince yazılır (~150 satır).
+- Sertifika sınavı olan belgede (`sinav` alanı) son slayt otomatik **sonuç ekranı**: cevaplanan / doğru / puan, GEÇTİ–KALDI (eşik 60), yanlış konular, sıfırlama.
+- Eğitmen kılavuzu ve cevap anahtarı pakete girmez.
 
 ## Kurallar
 
