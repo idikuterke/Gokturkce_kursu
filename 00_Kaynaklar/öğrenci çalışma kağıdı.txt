@@ -1,0 +1,316 @@
+Dernekteki eğitiminizde öğrencilerinize doğrudan çıktı alıp basılı olarak dağıtabileceğiniz, her bir haftanın pedagojik ve akademik odağını ayrı ayrı yansıtan **4 Haftalık Detaylı Çalışma Yaprakları (Worksheets) Metin Kılavuzu** aşağıda sunulmuştur. 
+
+Bu metni, hedeflediğiniz profesyonel tasarım şablonuna kolayca kopyalayıp yapıştırabilir ve *Noto Sans Old Turkic* fontunu gömerek harika PDF belgeleri üretebilirsiniz.
+
+---
+
+# 1. YEDİCE (HAFTA) ÖĞRENCİ ÇALIŞMA YAPRAĞI
+## **Konu: Göktürkçe Giriş, Yön Mantığı, Ünlüler ve Kutuplu Ünsüzler**
+
+---
+
+### **I. BİLGİ KARTI (TEORİK ÖZET)**
+*   **Yazım Yönü:** Göktürk yazısı **sağdan sola** doğru yazılır ve okunur.
+*   **Kelime Ayracı:** Sözcükler arasına modern boşluk yerine **üst üste iki nokta ( : )** konulur.
+*   **Kutupluluk Sistemi:** Göktürkçede büyük-küçük harf ayrımı yoktur. Bunun yerine **kalın ve ince ünsüzler** vardır. Hangi ünsüzün kullanılacağına kelimedeki ünlülerin kalınlığına (A, I, O, U) veya inceliğine (E, İ, Ö, Ü) bakılarak karar verilir.
+*   **İlk Ünlü Kuralı:** Kelime başındaki düz-geniş ünlüler (A/E) yazılmazken, dar veya yuvarlak ünlüler (I/İ, O/U, Ö/Ü) daima yazılır.
+
+---
+
+### **II. ALİŞTIRMA BÖLÜMÜ**
+
+#### **Alıştırma 1: Transkripsiyondan Göktürkçeye Yazım (Sağdan Sola)**
+*Aşağıdaki kelimelerin ses özelliklerini analiz ederek uygun kalın veya ince tamgalarla Göktürkçe karşılıklarını yazınız.*
+
+1.  **ata** *(Kalın ünlü uyumu, ilk 'a' düşer, son 'a' yazılır)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+2.  **ede** *(İnce ünlü uyumu, ilk 'e' düşer, son 'e' yazılır)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+3.  **iri** *(İnce ünlü uyumu, ilk 'i' yazılır, ince 'r' ve son 'i' yazılır)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+4.  **adak** *(Kalın ünlü uyumu, ayak anlamına gelir, ünlüler düşer)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+5.  **esiz** *(İnce ünlü uyumu, eyvah anlamına gelir, ünlüler düşer)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### **Alıştırma 2: Göktürkçeden Latin Alfabesine Okuma (Sağdan Sola)**
+*Aşağıdaki Göktürkçe kelimeleri harf harf deşifre ederek transkripsiyonlarını yazınız.*
+
+1.  **𐱅𐰭𐰼𐰃**  
+    **Okunuşu:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+2.  **𐰉𐰖**  
+    **Okunuşu:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+3.  **𐰽𐰺𐰃𐰍**  
+    **Okunuşu:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+4.  **𐰋𐰃𐰠𐰏𐰀**  
+    **Okunuşu:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### **III. 1. YEDİCE CEVAP ANAHTARI VE ANALİZLERİ**
+
+*   **Alıştırma 1 Yazım Çözümleri:**
+    1.  *ata* ➔ **𐱃𐰀** (Kalın T `𐱃` + A/E `𐰀`). İlk 'a' sözbaşında olduğu için düşmüştür.
+    2.  *ede* ➔ **𐱅𐰀** (İnce T `𐱅` + A/E `𐰀`). İlk 'e' sözbaşında olduğu için düşmüştür.
+    3.  *iri* ➔ **Subjektif analiz:** ** canlandırılmış haliyle 𐰃𐰼𐰃** (Düz-dar ünlü `𐰃` + İnce R `𐰼` + Düz-dar ünlü `𐰃`). Söz başındaki düz-dar ünlü 'i' düşmez, yazılır.
+    4.  *adak* ➔ **𐰑𐰴** (Kalın D `𐰑` + Kalın K `𐰴`). Kısa 'a' sesleri tasarruf gereği yazılmamıştır.
+    5.  *esiz* ➔ **𐰾𐰔** (İnce S `𐰾` + Kutupsuz Z `𐰔`). Baş ve iç seslerdeki düz ünlüler elenmiştir.
+*   **Alıştırma 2 Okuma Çözümleri:**
+    1.  *𐱅𐰭𐰼𐰃* ➔ **Tengri** (İnce T `𐱅` + Nazal N `𐰭` + İnce R `𐰼` + Düz-dar ünlü `𐰃`).
+    2.  *𐰉𐰖* ➔ **Bay** (Kalın B `𐰉` + Kalın Y `𐰖`). Araya zihnen kısa 'a' eklenir.
+    3.  *𐰽𐰺𐰃𐰍* ➔ **Sarıg** (Kalın S `𐰽` + Kalın R `𐰺` + Düz-dar ünlü `𐰃` + Kalın G `𐰍`).
+    4.  *𐰋𐰃𐰠𐰏𐰀* ➔ **Bilge** (İnce B `𐰋` + Düz-dar ünlü `𐰃` + İnce L `𐰠` + İnce G `𐰏` + A/E `𐰀`).
+
+---
+---
+
+# 2. YEDİCE (HAFTA) ÖĞRENCİ ÇALIŞMA YAPRAĞI
+## **Konu: İmla Tasarrufu (Ünlü Düşmesi), Çift Sesli Ligatürler ve Konum Kısıtları**
+
+---
+
+### **I. BİLGİ KARTI (TEORİK ÖZET)**
+*   **Ünlü Tasarrufu:** Göktürk kâtipleri, kelime başı ve içindeki kısa/vurgusuz "a/e" seslerini asla yazmazlar. Ancak **kelime sonundaki tüm ünlüler istisnasız yazılır**.
+*   **Orta Hece Ünlü Düşmesi:** Kelime kökü ek alıp genişlediğinde, vurgusuz orta hecedeki dar ünlüler düşerek imlada daralmaya yol açar.
+*   **Hece Damgaları (Ligatürler):** `OK/UK` (𐰸), `ÖK/ÜK` (𐰜), `IK/KI` (𐰶) ve `İÇ/Çİ` (𐰱) gibi tamgalar kendi içlerinde ünlü barındırır.
+*   **Kelime Başı Konum Kısıtı:** Bu ligatürler kelime başında ünsüzle başlayan **"ko, ku, kö, kü, kı"** hecelerini yazmak için **tek başına asla kullanılamaz**. Önce düz ünsüz harf yazılmalıdır.
+*   **Kalın Kökte İnce-N İstisnası:** 3. şahıs iyelik ve belirtme eklerindeki (ın/nı) "n" sesi, kelime kalın da olsa daima **İnce N (𐰤)** ile yazılır.
+
+---
+
+### **II. ALİŞTIRMA BÖLÜMÜ**
+
+#### **Alıştırma 1: Tasarruf ve Ünlü Düşmesi Yazım Alıştırmaları**
+*Aşağıdaki kelimeleri, kelime başı/içi kısa ünlüleri düşürerek ve kelime sonu ünlülerini koruyarak yazınız.*
+
+1.  **esen** *(Kısa e'leri düşürünüz)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+2.  **atar** *(Kısa a'ları düşürünüz)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+3.  **oglan** *(Oğul kelimesi ek almış, orta hece 'u' düşmüştür)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+4.  **koku** *(İlk hecedeki ünlü düşer, kelime sonu ünlü korunur)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### **Alıştırma 2: Ligatür ve Konum Kısıtı Yazım Analizi**
+*Aşağıdaki kelimelerin hangisinde kelime başı ligatür yasağı olduğunu analiz ediniz ve doğru Göktürkçe yazımını yapınız.*
+
+1.  **kök** *(Kelime başında 'kö' vardır. Doğrudan ÖK/ÜK ligatürüyle başlayabilir miyiz?)*  
+    **Yazılışı ve Analizi:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+2.  **kıldı** *(Kelime başında 'kı' vardır. Doğrudan IK/KI ligatürüyle başlayabilir miyiz?)*  
+    **Yazılışı ve Analizi:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### **Alıştırma 3: İnce-N (𐰤) İstisnası Alıştırması**
+*Aşağıdaki kalın köklü kelimeleri "kalın kökte ince-n" kuralına dikkat ederek çekimleyiniz.*
+
+1.  **sabın** *(sözünü - Kalın S + Kalın B + İnce N)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+2.  **adgırın** *(aygırını - Kalın B + Kalın D + Kalın G + Kalın R + İnce N)*  
+    **Yazılışı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### **III. 2. YEDİCE CEVAP ANAHTARI VE ANALİZLERİ**
+
+*   **Alıştırma 1 Çözümleri:**
+    1.  *esen* ➔ **𐰾𐰤** (İnce S `𐰾` + İnce N `𐰤`). e'ler yazılmaz.
+    2.  *atar* ➔ **𐱃𐰺** (Kalın T `𐱃` + Kalın R `𐰺`). a'lar yazılmaz.
+    3.  *oglan* ➔ **𐰉𐰍𐰞𐰣** (Kalın B `𐰉` + Kalın G `𐰍` + Kalın L `𐰠` + Kalın N `𐰣`). 'u' ve 'a' sesleri düşmüştür.
+    4.  *koku* ➔ **𐰴𐰸𐰆** (Kalın K `𐰴` + OK/UK ligatürü `𐰸` + O/U ünlüsü `𐰆`). Sondaki 'u' yazılır.
+*   **Alıştırma 2 Çözümleri:**
+    1.  *kök* ➔ **`𐰚𐰜`** (İnce K `𐰚` + ÖK/ÜK ligatürü `𐰜`). Kelime başında ligatürle başlamak yasaktır, bu yüzden önce düz ince k `𐰚` yazılır.
+    2.  *kıldı* ➔ **`𐰴𐰃𐰡𐰃`** (Kalın K `𐰴` + Düz-dar ünlü `𐰃` + LD ligatürü `𐰡` + Düz-dar ünlü `𐰃`). Kelime başında `IK/KI` ligatürü tek başına kullanılamaz.
+*   **Alıştırma 3 Çözümleri:**
+    1.  *sabın* ➔ **`𐰽𐰉𐰤`** (Kalın S `Compartment` + Kalın B `𐰉` + **İnce N** `𐰤`). Normalde kalın N (`𐰣`) olması beklenirken tarihsel imla gereği ince N ile bitmiştir.
+    2.  *adgırın* ➔ **`𐰉🧠𐰍𐰺𐰤`** (Kalın B `𐰉` + Kalın D `𐰑` + Kalın G `𐰍` + Kalın R `𐰺` + **İnce N** `𐰤`).
+
+---
+---
+
+# 3. YEDİCE (HAFTA) ÖĞRENCİ ÇALIŞMA YAPRAĞI
+## **Konu: Tümce Söz Dizimi, Epigrafik Farklar ve Irk Bitig Deşifresi**
+
+---
+
+### **I. BİLGİ KARTI (TEORİK ÖZET)**
+*   **Sentaks (Söz Dizimi):** Göktürkçede isim cümleleri (örn: *Bilge Tonyukuk men* - Ben Bilge Tonyukuk'um) ve fiil cümleleri mevcuttur.
+*   **Taş Ekonomisi (Eksilti):** Taşa kazımak zor olduğundan, metinlerde bazı sıfat-fiiller ve yardımcı fiiller yazılmayarak düşürülür (eksiltilir).
+*   **Mecra Değişimi:** Taş üzerindeki köşeli Orhun harfleri, kâğıt ve fırçanın akıcılığıyla Irk Bitig'de yuvarlak hatlı el yazısı (**cursive**) karakterlerine dönüşmüştür.
+*   **Irk Bitig Radikal İmla Sapmaları:**
+    1.  `ş` (𐱁) karakteri alfabeden tamamen atılmış, yerine `s` (𐰽/𐰾) kullanılmıştır.
+    2.  İnce `r` (𐰼) yerine grafik benzerliği nedeniyle `ş` (𐱁) karakteri ince "r" sesini yazmak için kullanılmıştır.
+
+---
+
+### **II. ALİŞTIRMA BÖLÜMÜ**
+
+#### **Alıştırma 1: Orhun ve Irk Bitig Arasındaki İmla Dönüşümü**
+*Aşağıdaki kelimeleri, sol sütunda standart Orhun kurallarıyla, sağ sütunda ise Irk Bitig'in kendine has imla sapmalarına uyarak yazınız.*
+
+1.  **yaş** (yaş/ömür)  
+    *   **Orhun Yazımı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    *   **Irk Bitig Yazımı** *(ş harfi yerine s kullanınız)*: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+2.  **er** (erkek/insan)  
+    *   **Orhun Yazımı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    *   **Irk Bitig Yazımı** *(ince r harfi yerine ş harfini kullanınız)*: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### **Alıştırma 2: Orijinal Irk Bitig Metni Deşifresi**
+*Aşağıda harf harf ayrılmış olan Irk Bitig 1. Fal metninin transkripsiyonunu (okunuşunu) sağdan sola çözerek yazınız.*
+
+**𐱅𐰤𐰾𐰃∶𐰢𐰤∶𐰖𐰺𐱁∶𐰚𐰲𐰀∶altun∶𐰇𐰼𐰏𐰤∶𐰇𐰔𐰀∶𐰆𐰞𐰆𐰺𐰆𐰯𐰣∶𐰢𐰭𐰃𐰠𐰘𐰇𐰼∶𐰢𐰤**
+
+*   **Transkripsiyon (Okunuş):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+*   **Dilbilimsel Tahlil:** *Metinde geçen "yarın" (sabahleyin) kelimesi neden "y-a-r-ı-ş" şeklinde yazılmıştır?*  
+    **Açıklamanız:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### **III. 3. YEDİCE CEVAP ANAHTARI VE ANALİZLERİ**
+
+*   **Alıştırma 1 Çözümleri:**
+    1.  *yaş*
+        *   **Orhun:** **𐰖𐱁** (Kalın Y `𐰖` + Kutupsuz Ş `𐱁`).
+        *   **Irk Bitig:** **𐰖𐰽** (Kalın Y `𐰖` + Kalın S `𐰽`). Irk Bitig'de 'ş' tamgası kullanılmadığı için /ş/ sesi /s/ ile karşılanmıştır.
+    2.  *er*
+        *   **Orhun:** **𐰼** (İnce R `𐰼`). Kısa 'e' düşmüştür.
+        *   **Irk Bitig:** **𐱁** (Kutupsuz Ş `𐱁`). Kitapta ince 'r' sesi yerine grafik olarak ona çok benzeyen 'ş' tamgası kullanılmıştır.
+*   **Alıştırma 2 Çözümleri:**
+    *   **Transkripsiyon:** *“Tensi män. Yarın kiçä altun örgin üzä olurupan mäŋileyür män.”*
+    *   **Dilbilimsel Tahlil:** Irk Bitig'de ince `r` (𐰼) yerine grafik olarak ona çok benzeyen `ş` (𐱁) karakteri ince "r" sesini yazmak için kullanılmıştır. Bu nedenle "yarın" kelimesindeki 'r' sesi taşa/kâğıda `ş` (𐱁) harfiyle geçerek **𐰖𐰺𐱁** (y¹ + r¹ + ı + ş) şeklinde yazılmıştır.
+
+---
+---
+
+# 4. YEDİCE (HAFTA) ÖĞRENCİ BİTİRME SINAVI
+## **Göktürkçe Temel Okuma-Yazma Eğitimi Sertifikasyon Sınavı**
+
+---
+
+**Adı Soyadı:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+**Sınav Tarihi:** \_\_/\_\_/2026  
+**Sınav Süresi:** 45 Dakika  
+**Başarı Puanı:** 100 Üzerinden En Az 70  
+
+---
+
+### **SINAV SORULARI**
+
+#### **Soru 1: Ünlü Düşmesi ve Tasarruf Kuralı (25 Puan)**
+Göktürk yazım sisteminde kelime başındaki ve içindeki kısa "a" ve "e" sesleri neden yazılmaz? Bu kuralı **"esen"** ve **"atar"** kelimelerinin Göktürkçe yazılışlarını göstererek açıklayınız.
+
+*   **Cevabınız:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### **Soru 2: Tarihsel Sayı Sistemi Çözümlemesi (25 Puan)**
+Eski Türk yazı sistemindeki sayı çekimi mantığına göre **"sekiz elig"** ifadesi günümüzdeki hangi sayıya karşılık gelir? Bu sayı sisteminin çalışma prensibini açıklayarak belirtiniz.
+
+*   **Cevabınız:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### **Soru 3: Hece Ligatürlerinde Konum Kısıtları (25 Puan)**
+Bir öğrenci **"kıldı"** kelimesini `𐰶𐰡𐰃` (`IK/KI` ligatürü + `LD` ligatürü + `I`), **"kök"** kelimesini ise `𐰜𐰚` (`ÖK/ÜK` ligatürü + `İnce K`) şeklinde yazmıştır. Bu yazımlar akademik imla kurallarına göre neden **hatalıdır**? Doğru yazımlarını kurallarıyla birlikte gösteriniz.
+
+*   **Cevabınız:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### **Soru 4: Dilbilimsel İmla İstisnası Analizi (25 Puan)**
+Göktürkçe büyük ünlü uyumuna sahip sıkı kutuplu bir dil olmasına rağmen, kalın ünlüye sahip olan **"sabın"** (sözünü) ve **"adgırın"** (aygırını) kelimelerinin sonundaki "n" harfi neden kalın N (`𐰣`) ile değil de **İnce N (`𐰤`)** tamgasıyla yazılmıştır? Bu istisnanın dilbilimsel adını ve kuralını açıklayınız.
+
+*   **Cevabınız:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### **IV. BİTİRME SINAVI ANALİTİK CEVAP ANAHTARI (EĞİTMEN İÇİN)**
+
+*   **Soru 1 Çözüm Analizi (Derecelendirme: 25 Puan):**
+    *   **Teorik Açıklama (15 Puan):** Göktürkçede **"harf ekonomisi ve taş tasarrufu"** esastır. Kelime başı ve içindeki kısa ve vurgusuz "a" ve "e" ünlülerinin, okuyucu tarafından zihnen ve bağlamdan tamamlanabileceği varsayıldığı için yazılmazlar.
+    *   **Pratik Uygulama (10 Puan):**  
+        *   *esen* kelimesinde baştaki ve içteki e'ler yazılmayarak sadece ince s ve ince n ile **`𐰾𐰤`** yazılır.  
+        *   *atar* kelimesinde baştaki ve içteki a'lar yazılmayarak sadece kalın t ve kalın r ile **`𐱃𐰺`** yazılır.
+*   **Soru 2 Çözüm Analizi (Derecelendirme: 25 Puan):**
+    *   **Çalışma Prensibi (15 Puan):** Eski Türk sayı sisteminde sayılar, bir sonraki onluğu referans alarak kurulur. Formül: **[Birlik Sayı] + [Bir Sonraki Onluk Hane]** şeklindedir.
+    *   **Sayısal Karşılık (10 Puan):** *sekiz elig* ifadesinde "elig" 50 demektir. Önündeki "sekiz" ise 50'ye ulaşmak için tamamlanan basamağın 8 birim olduğunu gösterir. Yani 40'tan sonraki 8. adımdır. Sayı **48**'dir.
+*   **Soru 3 Çözüm Analizi (Derecelendirme: 25 Puan):**
+    *   **Hata Analizi (15 Puan):** Göktürkçede çift sesli ligatürlerin **kelime başında konum kısıtı (position constraint)** vardır. Ligatürler kelime başında ünsüzle başlayan "ko/ku/kö/kü/kı" hecelerini tek başlarına temsil edemezler.
+    *   **Doğru Yazımlar (10 Puan):**  
+        *   *kök* yazılırken önce düz ince k `𐰚` gelmeli, ardından ligatür eklenmelidir. Doğrusu: **`𐰚𐰜`**'dir.  
+        *   *kıldı* yazılırken kelime başında `IK/KI` ligatürü gelemez. Doğrusu düz kalın k `𐰴` + `ı` `🔑` ile başlayan **`𐰴𐰃𐰡𐰃`** yazımıdır.
+*   **Soru 4 Çözüm Analizi (Derecelendirme: 25 Puan):**
+    *   **Linguistik Kural (15 Puan):** Bu durum dilbilimde **"3. Şahıs İyelik ve Belirtme Hâli Kalın Kökte İnce-N İstisnası"** olarak adlandırılır.
+    *   **Açıklama (10 Puan):** Orhun kâtipleri, kelimenin kökü tamamen kalın ünlülerden oluşsa dahi, kelime sonuna gelen 3. kişi iyelik ve belirli nesne durum eklerini (ın/nı) büyük ünlü uyumunu bozarak istisnasız bir şekilde daima **İnce N (𐰤)** tamgasıyla yazmışlardır.
+
+---
+
+Bu şablonları kendi tasarım programınıza aktardığınızda, derneğe sunacağınız eğitim paketi tam anlamıyla akademik bir kürsü disiplinine ve pedagojik mükemmelliğe kavuşacaktır.
+
+Yenisey ve Orhun epigrafisindeki bu zengin farkları karşılaştırmalı gösteren tek sayfalık kurumsal **karşılaştırma tablosunu** da hazırlamamı ister misiniz? 📝
+
+
+Göktürkçe 2. Yedice Öğrenci Çalışma Yaprağı
+1. Giriş ve Öğrenme Hedefleri
+Merhaba genç Türkolog adayı!
+Bu çalışma yaprağıyla, basit harf tanımanın ötesine geçerek Orhon Yazıtları'nın kalbindeki sofistike yazım mantığına giriş yapıyoruz. Göktürk yazısı, sadece seslerin yan yana dizilmesi değil; bir "verimlilik ustalığı" üzerine kurulu sistemdir. Bugün, gereksiz ünlülerin nasıl elendiğini ve birden fazla sesi tek bir işarette toplayan ligatürlerin (hece işaretleri) metne nasıl hız kazandırdığını keşfedeceğiz. Hedefimiz, yazıtlardaki o kadim estetiği ve tasarruf mantığını kavramaktır.
+Hazırsan, Türkçenin ilk yazılı kurallarını profesyonel bir bakış açısıyla incelemeye başlayalım.
+2. Yedice 2: Temel Yazım Kuralları Özeti
+Aşağıdaki tablo, Orhon Türkçesi epigrafi geleneğinin temelini oluşturan üç kritik kuralı özetlemektedir:
+Kural
+Açıklama
+Kaynak Örnekleri
+Ünlü Düşmesi
+İlk ve orta hecelerdeki kısa /a/ ve /ä/ ünlüleri genellikle yazılmaz. Ünsüz işareti zaten bu ünlüleri bünyesinde barındırır.
+at (𐱃), er (𐰼), adak (𐰑𐰴)
+Ligatürler ve Konum Kısıtları
+Bazı işaretler hem ünsüzü hem de yanındaki ünlüyü (V+C veya C+V) tek başına temsil eder. Damak uyumuna göre seçilirler.
+𐰸 (OK/UK - Kalın), 𐰜 (ÖK/ÜK - İnce), 𐰵 (IK/KI - Kalın), 𐰶 (İÇ/Çİ - İnce/Genel)
+'ın/nı' Kalın Gövde İstisnası
+Kelime kalın ünlülü olsa bile, 2. şahıs iyelik veya belirtme eklerinde kalın 𐰣 (N) yerine ince 𐰤 (N) kullanılması bir yazım geleneğidir.
+kaganın (𐰴𐰍𐰣𐰤)
+Neden Önemli? (So What?): İnce-N (𐰤) istisnası, Orhon yazıcılarının damak uyumu kuralını bilinçli olarak kırdığı nadir anlardan biridir. Bu durum, yazının sadece sese dayalı olmadığını, aynı zamanda kökleşmiş bir imla geleneğine (ortografi) sahip olduğunu gösterir.
+Şimdi bu kuralları uygulama vakti. Bilgilerini kağıda dökme sırası sende!
+3. Uygulama I: Transkripsiyondan Göktürkçeye Yazım Çalışması
+Aşağıdaki kelimeleri, belirtilen ipuçlarını dikkate alarak Göktürk harflerine dönüştürünüz. Göktürkçenin sağdan sola yazıldığını ve her işaretin bir "iskelet" oluşturduğunu unutmayınız.
+Latin Transkripsiyon
+İpucu (Kural Odağı)
+Göktürkçe Harfler (Öğrenci Alanı)
+1. kıldı
+/IK, KI/ ligatürünü (𐰵) kullanarak yazınız.
+2. kök
+/ÖK, ÜK/ ligatürünü (𐰜) kullanarak en verimli formda yazınız.
+3. adgırın
+Kelime gövdesi kalın olmasına rağmen sondaki ince-N (𐰤) istisnasını uygulayınız.
+4. esen
+İlk hece ünlüsünü düşürün; ince S (𐰾) ve ince N (𐰤) kullanın.
+5. oglan
+Kalın G (𐰍) ve kalın L (𐰞) harflerini kullanarak iskeleti kurun.
+4. Uygulama II: Göktürkçeden Okuma Çalışması
+Aşağıda, yazıtlardan (Talat Tekin, Görsel 25-30) alınan orijinal formlar yer almaktadır. Bu harf dizilerini transkripsiyon kurallarına göre okuyunuz.
+1. 𐱃 (İpucu: Kelime başı /a/ ünlüsü düşmüştür)
+2. 𐰼 (İpucu: İlk hecedeki /e/ ünlüsü yazılmamıştır, tek bir ünsüz okunur)
+3. 𐰑𐰴 (İpucu: İlk hecedeki /a/ ünlüsü yazılmamıştır, kelime 'ayak' anlamına gelir)
+4. 𐰋 (İpucu: 'Ev, bark, barınak' anlamındaki kelime)
+5. 𐰄𐰑𐰸 (İpucu: 'Kutsal' anlamındadır. Başta yazılan /I/ ünlüsüne ve sondaki /UK/ ligatürüne dikkat!)
+5. Cevap Anahtarı ve Dilbilimsel Açıklamalar
+Uygulama I Çözümleri
+kıldı: 𐰃𐰑𐰵𐰴
+Görsel Sıralama (Sağdan Sola): 𐰴 (K) + 𐰵 (KI) + 𐰑 (D) + 𐰃 (I).
+kök: 𐰜
+Açıklama: Tek bir karakterle tüm kelime karşılanmıştır.
+adgırın: 𐰤𐰺𐰍𐰑
+Görsel Sıralama (Sağdan Sola): 𐰑 (D) + 𐰍 (G) + 𐰺 (R) + 𐰤 (İnce N).
+esen: 𐰤𐰾
+Görsel Sıralama (Sağdan Sola): 𐰾 (S) + 𐰤 (N). İlk 'e' kural gereği düşürülmüştür.
+oglan: 𐰣𐰞𐰍𐰆
+Görsel Sıralama (Sağdan Sola): 𐰆 (O) + 𐰍 (G) + 𐰞 (L) + 𐰣 (N).
+Uygulama II Çözümleri
+at (𐱃): Kalın T harfi, başında yazılmayan /a/ ünlüsünü kapsar.
+er (𐰼): İnce R harfi, başında yazılmayan /e/ ünlüsünü kapsar.
+adak (𐰑𐰴): D ve K harfleriyle yazılır, aradaki ve baştaki /a/ sesleri düşer.
+eb (𐰋): 'Ev' kelimesidir. İnce B harfi tek başına kelimeyi karşılar.
+iduk (𐰄𐰑𐰸): İduk (Kutsal). Başta /I/ ünlüsü (𐰄) yazılmıştır; sonrasında D ve UK ligatürü (𐰸) gelir.
+Dilbilimsel Notlar (Hoca Notu)
+adgırın ve İnce-N İstisnası: Yazıtlarda damak uyumu genel kuraldır; ancak kaganın, adgırın gibi örneklerde iyelik ve belirtme ekindeki 'n' sesinin ince harfle (𐰤) yazılması, Orhon Türkçesinin en karakteristik ortografik geleneklerinden biridir. Bu, harf uyumunun ses uyumundan bazen ayrışabildiğini kanıtlar.
+kök ve Verimlilik: Eğer bu kelimeyi 𐰚𐰇𐰚 (K-Ü-K) şeklinde yazsaydık üç karakter kullanmamız gerekecekti. Oysa ligatür (𐰜) kullanımı sayesinde tek bir vuruşla aynı anlam ifade edilmiştir. Bu, yazıcının taş üzerindeki alan tasarrufu başarısıdır.
+kıldı ve IK/KI Ligatürü: Kalın-sırt ünlüsü içeren fiillerde (kıldı, kırdı vb.) 𐰵 işareti çok sık kullanılır. Bu işaretin kullanımı, Göktürk yazısının sadece bir alfabe değil, hece yapısını da tanıyan hibrit bir sistem olduğunu gösterir.
+iduk ve Baş Ünlü Yazımı: Normalde kelime başı /ı, i/ sesleri düşebilirken, iduk (kutsal) gibi kelimelerde baş ünlünün (𐰄) yazılması, bu sesin ya uzun bir ünlüyü temsil ettiğini ya da kelimenin özel dini öneminden dolayı imlasının korunduğunu düşündürür.
+Tebrikler! Orhon yazıcılarının sırlarını keşfetme yolunda dev bir adım attın. Bir sonraki derste birleşik ünsüzleri inceleyeceğiz.

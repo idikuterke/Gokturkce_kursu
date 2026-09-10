@@ -1,0 +1,345 @@
+<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Tamga Albümü ve Harf Kartları</title><style>/* ============================================================
+   BENGÜ TAŞ — Göktürkçe Okuma-Yazma Kursu · Baskı Tasarım Sistemi
+   A4 dikey · print-first · Old Turkic font gömmeli
+   ============================================================ */
+
+@font-face {
+  font-family: 'Noto Sans Old Turkic';
+  src: url('../fontlar/NotoSansOldTurkic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Turk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/turkbitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BabelStone Irk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/BabelStoneIrkBitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fontlar/SourceSerif4.ttf') format('truetype');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fontlar/JetBrainsMono.ttf') format('truetype');
+  font-weight: 100 800;
+}
+
+:root {
+  --kagit:   #FBF7EE;   /* sıcak kâğıt */
+  --kagit2:  #FDFAF2;   /* fal kutusu zemin */
+  --murekkep:#2A211A;   /* sıcak siyah mürekkep */
+  --tas:     #6E5A45;   /* taş kahve, ikincil metin */
+  --okr:     #A97B32;   /* okr / bengü altın, vurgu */
+  --kirmizi: #A6331F;   /* Irk Bitig kırmızı mürekkep */
+  --cizgi:   #D9CCB2;   /* saç çizgisi */
+  --panel:   #F2EAD8;   /* bilgi kartı zemini */
+  --bant:    #2A211A;   /* yaprak bandı */
+}
+
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 8.5pt;
+    color: #6E5A45;
+  }
+}
+
+html, body {
+  margin: 0; padding: 0;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* ---------- Runik metin ---------- */
+.runic {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', 'BabelStone Irk Bitig', serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.5em;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.tamga-buyuk { font-size: 2.1em; }
+.tamga-okr   { color: var(--okr); }
+.tamga-krmz  { color: var(--kirmizi); }
+
+.cevrim {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  color: var(--tas);
+}
+
+/* ---------- Kapak ---------- */
+.kapak {
+  height: 246mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  page-break-after: always;
+}
+.kapak-friz {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', serif;
+  direction: rtl;
+  color: var(--okr);
+  font-size: 26pt;
+  letter-spacing: 0.18em;
+  text-align: center;
+  line-height: 1.3;
+}
+.kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--kirmizi);
+  text-transform: uppercase;
+  margin-bottom: 6mm;
+}
+.kapak h1 {
+  font-size: 31pt;
+  font-weight: 800;
+  line-height: 1.14;
+  margin: 0 0 5mm 0;
+  letter-spacing: -0.01em;
+}
+.kapak .alt-baslik {
+  font-size: 12.5pt;
+  color: var(--tas);
+  margin: 0 0 10mm 0;
+}
+.cift-cizgi {
+  border-top: 2.5px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  height: 3px; margin: 7mm 0;
+}
+.kapak-meta {
+  font-size: 10pt;
+  border-top: 1px solid var(--cizgi);
+  padding-top: 4mm;
+  color: var(--murekkep);
+}
+.kapak-meta table { width: 100%; border-collapse: collapse; }
+.kapak-meta td { padding: 1.1mm 0; vertical-align: top; }
+.kapak-meta td.k { width: 34mm; color: var(--tas); font-family:'JetBrains Mono',monospace; font-size:8.5pt; letter-spacing:0.06em; }
+
+/* ---------- Bölüm yapısı ---------- */
+.bolum { page-break-before: always; }
+.bolum-kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.3em;
+  color: var(--okr); text-transform: uppercase;
+  margin-bottom: 1.5mm;
+}
+.bolum-baslik {
+  font-size: 19pt; font-weight: 800; line-height: 1.2;
+  margin: 0 0 2mm 0;
+}
+.bolum-ozet { color: var(--tas); font-size: 10pt; margin: 0 0 5mm 0; }
+.bolum hr.baslik-cizgi { border: none; border-top: 2.5px solid var(--okr); margin: 0 0 5mm 0; }
+
+h3.alt-baslik {
+  font-size: 12.5pt; font-weight: 700;
+  margin: 6mm 0 2mm 0;
+  color: var(--murekkep);
+}
+h3.alt-baslik .no { color: var(--kirmizi); font-family:'JetBrains Mono',monospace; font-size:9pt; margin-right:2mm; }
+
+h4.mini {
+  font-size: 10.5pt; font-weight: 700; margin: 4mm 0 1.5mm 0;
+}
+
+p { margin: 0 0 2.6mm 0; text-align: justify; }
+ul, ol { margin: 0 0 2.6mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+
+/* ---------- Paneller ve tablolar ---------- */
+.bilgi-karti {
+  background: var(--panel);
+  border: 1px solid var(--cizgi);
+  border-top: 3px solid var(--okr);
+  padding: 4mm 5mm 3mm 5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+}
+.bilgi-karti .bk-baslik {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--okr); margin-bottom: 2.2mm;
+}
+.bilgi-karti p:last-child, .bilgi-karti ul:last-child { margin-bottom: 0; }
+
+table.tablo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 4.5mm 0;
+  font-size: 10pt;
+}
+table.tablo th {
+  background: #EFE6D2;
+  border-top: 2px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  padding: 2mm 2.5mm;
+  text-align: left;
+  font-size: 9pt;
+  letter-spacing: 0.04em;
+}
+table.tablo td {
+  border-bottom: 1px solid var(--cizgi);
+  padding: 1.8mm 2.5mm;
+  vertical-align: top;
+}
+table.tablo tr:last-child td { border-bottom: 1px solid var(--tas); }
+table.tablo .merkez { text-align: center; }
+
+.fal-kutusu {
+  border: 1px solid var(--cizgi);
+  border-left: 3px solid var(--kirmizi);
+  background: var(--kagit2);
+  padding: 4mm 5mm;
+  margin: 2.5mm 0 4mm 0;
+  page-break-inside: avoid;
+}
+.fal-kutusu .runik-satir {
+  text-align: center;
+  font-size: 13pt;
+  margin: 2mm 0 2.5mm 0;
+}
+
+/* ---------- Alıştırma ve cevap ---------- */
+.alisirma { margin: 0 0 4mm 0; page-break-inside: avoid; }
+.alisirma-no {
+  color: var(--kirmizi); font-weight: 700;
+  font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9pt;
+}
+.blank {
+  display: inline-block;
+  min-width: 55mm;
+  border-bottom: 1px dotted var(--tas);
+  height: 3.6mm;
+}
+.blank-uzun { min-width: 120mm; }
+.egitmen-tag {
+  display: inline-block;
+  color: var(--kirmizi);
+  border: 1px solid var(--kirmizi);
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 7.5pt; letter-spacing: 0.14em;
+  padding: 0.3mm 1.8mm;
+  margin-left: 2mm;
+  vertical-align: 2px;
+}
+.cevap-blok { page-break-inside: avoid; }
+.cevap-blok .runic { color: var(--murekkep); }
+
+/* ---------- Yaprak bandı ---------- */
+.yaprak-bant {
+  background: var(--bant);
+  color: var(--kagit);
+  padding: 3mm 4.5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+.yaprak-bant .yb-ust {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8pt; letter-spacing: 0.26em; color: var(--okr);
+  text-transform: uppercase;
+}
+.yaprak-bant .yb-baslik { font-size: 15pt; font-weight: 700; line-height: 1.25; margin-top: 1mm; }
+
+/* ---------- Sınav ve kimlik satırları ---------- */
+.cevap-satiri {
+  border-bottom: 1px dotted var(--tas);
+  height: 7mm;
+  margin: 0 0 2.2mm 0;
+}
+.soru { margin: 0 0 5.5mm 0; page-break-inside: avoid; }
+.soru .soru-baslik { font-weight: 700; }
+.soru .puan {
+  float: right;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  color: var(--kirmizi);
+  letter-spacing: 0.06em;
+}
+.kimlik-satir {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1mm 0 5mm 0;
+}
+.kimlik-satir td {
+  border-bottom: 1px solid var(--tas);
+  padding: 0.6mm 2mm;
+  font-size: 10pt;
+}
+.kimlik-satir td.lb {
+  border: none;
+  width: 34mm;
+  padding-left: 0;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  color: var(--tas);
+}
+
+/* ---------- Not / dip ---------- */
+.not { font-size: 8.8pt; color: var(--tas); }
+.kaynak-not {
+  border-top: 1px solid var(--cizgi);
+  margin-top: 6mm; padding-top: 2.5mm;
+  font-size: 8.8pt; color: var(--tas);
+}
+.kirmizi-not { color: var(--kirmizi); }
+
+/* ---------- İki sütunlu karşılaştırma ---------- */
+.karsilastirma { display: flex; gap: 4mm; margin: 2mm 0 4mm 0; page-break-inside: avoid; }
+.karsilastirma .kolon {
+  flex: 1; border: 1px solid var(--cizgi); padding: 3mm 4mm; background: var(--kagit2);
+}
+.karsilastirma .kolon h5 {
+  margin: 0 0 1.5mm 0; font-size: 10pt; font-weight: 700;
+  border-bottom: 2px solid var(--okr); padding-bottom: 1.5mm;
+}
+.karsilastirma .kolon ul { margin: 0; padding-left: 4.5mm; }
+
+.kart-tablo { width:100%; border-collapse:collapse; table-layout:fixed; margin-bottom:0; }
+.kart-tablo td { border:1px dashed #C9BBA0; height:47mm; text-align:center; vertical-align:middle; padding:2mm 1.5mm; }
+.kart-tamga { font-family:'Noto Sans Old Turkic','Turk Bitig','BabelStone Irk Bitig',serif; direction:rtl; unicode-bidi:isolate; font-size:30pt; line-height:1.1; color:var(--murekkep); }
+.kart-deger { font-weight:700; font-size:10pt; margin-top:1.6mm; }
+.kart-ad { font-family:'JetBrains Mono',Consolas,monospace; font-size:7pt; color:#8A7A64; margin-top:0.8mm; }
+.kutu { display:inline-block; width:3.2mm; height:3.2mm; border:1.2px solid var(--tas); margin-right:2mm; vertical-align:-0.2mm; }
+.kontrol-liste { list-style:none; padding-left:0; }
+.kontrol-liste li { margin-bottom:1.8mm; }
+.akis { margin:2mm 0 4mm 0; }
+.akis-dugum { text-align:center; background:var(--panel); border:1px solid var(--cizgi); border-top:3px solid var(--okr); padding:3mm; font-weight:700; }
+.akis-oklar { text-align:center; color:var(--okr); font-size:13pt; margin:1mm 0; letter-spacing:1em; }
+.mono-blok { font-family:'JetBrains Mono',Consolas,monospace; font-size:8.5pt; background:#F5EFE0; border:1px solid var(--cizgi); padding:3mm 4mm; margin:2mm 0 3.5mm 0; page-break-inside:avoid; }
+.mono-blok p { margin:0 0 1.5mm 0; text-align:left; }
+</style></head><body>
+<div class="kapak">
+  <div>
+    <div class="kapak-friz">𐰀&nbsp;𐰉&nbsp;𐰃&nbsp;𐰋&nbsp;𐰆&nbsp;𐰍&nbsp;𐰇&nbsp;𐰏</div>
+    <div class="cift-cizgi"></div>
+    <div class="kicker">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>
+    <h1>Tamga Albümü ve Harf Kartları</h1>
+    <p class="alt-baslik">47 Tamga · Alfabe Tabloları + Kes-Yapıştır Kart Seti</p>
+    <div class="kapak-meta">
+      <table>
+        <tr><td class="k">KAPSAM</td><td>4 ünlü · 20 kutuplu ünsüz · 7 kutupsuz ünsüz · 7 ligatür · 2 Irk Bitig özel tamgası · 7 Yenisey varyantı</td></tr>
+        <tr><td class="k">KULLANIM</td><td>Tablolar derste projeksiyonla; kartlar basılıp kesilerek eşleştirme oyunlarında kullanılır</td></tr>
+        <tr><td class="k">DOĞRULAMA</td><td>Her tamga Unicode resmi adıyla etiketlenmiştir; font gömülüdür</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="not">Tüm tamgalar kaynak metinlerde fiilen geçen karakterlerden derlenmiştir (47/47).</div>
+</div>
+<section class="bolum"><div class="bolum-kicker">BÖLÜM 1</div><h2 class="bolum-baslik">Alfabe Tabloları — Tamga Grupları</h2><p class="bolum-ozet">Kaynak metinlerde geçen 47 tamganın gruplu envanteri.</p><hr class="baslik-cizgi"><h3 class="alt-baslik">Ünlü Tamgalar — 4 tamga · 8 ses</h3><table class="tablo"><tr><th class="merkez" style="width:22mm">Tamga</th><th style="width:52mm">Ders değeri</th><th>Unicode resmi adı</th></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰀</span></td><td><b>A / E</b></td><td class="not">ORKHON A · U+10C00</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰃</span></td><td><b>I / İ</b></td><td class="not">ORKHON I · U+10C03</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰆</span></td><td><b>O / U</b></td><td class="not">ORKHON O · U+10C06</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰇</span></td><td><b>Ö / Ü</b></td><td class="not">ORKHON OE · U+10C07</td></tr></table><h3 class="alt-baslik">Kutuplu Ünsüz Tamgalar — kalın / ince çiftleri (20 tamga)</h3><table class="tablo"><tr><th class="merkez" style="width:22mm">Tamga</th><th style="width:52mm">Ders değeri</th><th>Unicode resmi adı</th></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰉</span></td><td><b>b¹ — kalın B</b></td><td class="not">ORKHON AB · U+10C09</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰋</span></td><td><b>b² — ince B</b></td><td class="not">ORKHON AEB · U+10C0B</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰑</span></td><td><b>d¹ — kalın D</b></td><td class="not">ORKHON AD · U+10C11</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰓</span></td><td><b>d² — ince D</b></td><td class="not">ORKHON AED · U+10C13</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰍</span></td><td><b>g¹ — kalın G</b></td><td class="not">ORKHON AG · U+10C0D</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰏</span></td><td><b>g² — ince G</b></td><td class="not">ORKHON AEG · U+10C0F</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰴</span></td><td><b>k¹ — kalın K</b></td><td class="not">ORKHON AQ · U+10C34</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰚</span></td><td><b>k² — ince K</b></td><td class="not">ORKHON AEK · U+10C1A</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰞</span></td><td><b>l¹ — kalın L</b></td><td class="not">ORKHON AL · U+10C1E</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰠</span></td><td><b>l² — ince L</b></td><td class="not">ORKHON AEL · U+10C20</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰣</span></td><td><b>n¹ — kalın N</b></td><td class="not">ORKHON AN · U+10C23</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰤</span></td><td><b>n² — ince N</b></td><td class="not">ORKHON AEN · U+10C24</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰺</span></td><td><b>r¹ — kalın R</b></td><td class="not">ORKHON AR · U+10C3A</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰼</span></td><td><b>r² — ince R</b></td><td class="not">ORKHON AER · U+10C3C</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰽</span></td><td><b>s¹ — kalın S</b></td><td class="not">ORKHON AS · U+10C3D</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰾</span></td><td><b>s² — ince S</b></td><td class="not">ORKHON AES · U+10C3E</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐱃</span></td><td><b>t¹ — kalın T</b></td><td class="not">ORKHON AT · U+10C43</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐱅</span></td><td><b>t² — ince T</b></td><td class="not">ORKHON AET · U+10C45</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰖</span></td><td><b>y¹ — kalın Y</b></td><td class="not">ORKHON AY · U+10C16</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰘</span></td><td><b>y² — ince Y</b></td><td class="not">ORKHON AEY · U+10C18</td></tr></table><h3 class="alt-baslik">Kutupsuz Ünsüz Tamgalar (7)</h3><table class="tablo"><tr><th class="merkez" style="width:22mm">Tamga</th><th style="width:52mm">Ders değeri</th><th>Unicode resmi adı</th></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰲</span></td><td><b>ç</b></td><td class="not">ORKHON EC · U+10C32</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰢</span></td><td><b>m</b></td><td class="not">ORKHON EM · U+10C22</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰭</span></td><td><b>ng</b></td><td class="not">ORKHON ENG · U+10C2D</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰪</span></td><td><b>ny / ń — Irk Bitig</b></td><td class="not">ORKHON ENY · U+10C2A</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰯</span></td><td><b>p</b></td><td class="not">ORKHON EP · U+10C2F</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰔</span></td><td><b>z</b></td><td class="not">ORKHON EZ · U+10C14</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐱁</span></td><td><b>ş</b></td><td class="not">ORKHON ESH · U+10C41</td></tr></table><h3 class="alt-baslik">Çift Sesli Hece Damgaları — Ligatürler (7)</h3><table class="tablo"><tr><th class="merkez" style="width:22mm">Tamga</th><th style="width:52mm">Ders değeri</th><th>Unicode resmi adı</th></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰸</span></td><td><b>OK / UK · KO / KU</b></td><td class="not">ORKHON OQ · U+10C38</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰜</span></td><td><b>ÖK / ÜK · KÖ / KÜ</b></td><td class="not">ORKHON OEK · U+10C1C</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰶</span></td><td><b>IK / KI</b></td><td class="not">ORKHON IQ · U+10C36</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰱</span></td><td><b>İÇ / Çİ</b></td><td class="not">ORKHON IC · U+10C31</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰦</span></td><td><b>ND / NT</b></td><td class="not">ORKHON ENT · U+10C26</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰡</span></td><td><b>LD / LT</b></td><td class="not">ORKHON ELT · U+10C21</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰨</span></td><td><b>NÇ / NC</b></td><td class="not">ORKHON ENC · U+10C28</td></tr></table><h3 class="alt-baslik">Irk Bitig'e Özgü Özel Tamgalar (2)</h3><table class="tablo"><tr><th class="merkez" style="width:22mm">Tamga</th><th style="width:52mm">Ders değeri</th><th>Unicode resmi adı</th></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐱇</span></td><td><b>ot — logografik kelime tamgası</b></td><td class="not">ORKHON OT · U+10C47</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰰</span></td><td><b>up / üp — yarı-hece tamgası</b></td><td class="not">ORKHON OP · U+10C30</td></tr></table><h3 class="alt-baslik">Yenisey Varyantları (7)</h3><table class="tablo"><tr><th class="merkez" style="width:22mm">Tamga</th><th style="width:52mm">Ders değeri</th><th>Unicode resmi adı</th></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰄</span></td><td><b>Yenisey I</b></td><td class="not">YENISEI I · U+10C04</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰅</span></td><td><b>Yenisey E — kapalı é</b></td><td class="not">YENISEI E · U+10C05</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰊</span></td><td><b>Yenisey kalın B</b></td><td class="not">YENISEI AB · U+10C0A</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰒</span></td><td><b>Yenisey kalın D</b></td><td class="not">YENISEI AD · U+10C12</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰻</span></td><td><b>Yenisey kalın R</b></td><td class="not">YENISEI AR · U+10C3B</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐱄</span></td><td><b>Yenisey kalın T</b></td><td class="not">YENISEI AT · U+10C44</td></tr><tr><td class="merkez" style="width:22mm"><span class="runic" style="font-size:1.9em">𐰵</span></td><td><b>Yenisey kalın K</b></td><td class="not">YENISEI AQ · U+10C35</td></tr></table></section><section class="bolum"><div class="bolum-kicker">BÖLÜM 2</div><h2 class="bolum-baslik">Harf Kartları — Kes-Yapıştır Seti</h2><hr class="baslik-cizgi"><p class="not">Kesme çizgileri boyunca keserek 47 kartlık tamga setini hazırlayabilirsiniz. Kartlar dersi izleyen gruplama sırasıyla dizilmiştir.</p><table class="kart-tablo"><tr><td><div class="kart-tamga">𐰀</div><div class="kart-deger">A / E</div><div class="kart-ad">ORKHON A</div></td><td><div class="kart-tamga">𐰃</div><div class="kart-deger">I / İ</div><div class="kart-ad">ORKHON I</div></td><td><div class="kart-tamga">𐰆</div><div class="kart-deger">O / U</div><div class="kart-ad">ORKHON O</div></td><td><div class="kart-tamga">𐰇</div><div class="kart-deger">Ö / Ü</div><div class="kart-ad">ORKHON OE</div></td><td><div class="kart-tamga">𐰉</div><div class="kart-deger">b¹ — kalın B</div><div class="kart-ad">ORKHON AB</div></td><td><div class="kart-tamga">𐰋</div><div class="kart-deger">b² — ince B</div><div class="kart-ad">ORKHON AEB</div></td><td><div class="kart-tamga">𐰑</div><div class="kart-deger">d¹ — kalın D</div><div class="kart-ad">ORKHON AD</div></td><td><div class="kart-tamga">𐰓</div><div class="kart-deger">d² — ince D</div><div class="kart-ad">ORKHON AED</div></td><td><div class="kart-tamga">𐰍</div><div class="kart-deger">g¹ — kalın G</div><div class="kart-ad">ORKHON AG</div></td><td><div class="kart-tamga">𐰏</div><div class="kart-deger">g² — ince G</div><div class="kart-ad">ORKHON AEG</div></td><td><div class="kart-tamga">𐰴</div><div class="kart-deger">k¹ — kalın K</div><div class="kart-ad">ORKHON AQ</div></td><td><div class="kart-tamga">𐰚</div><div class="kart-deger">k² — ince K</div><div class="kart-ad">ORKHON AEK</div></td></tr></table><div style="page-break-after:always"></div><table class="kart-tablo"><tr><td><div class="kart-tamga">𐰞</div><div class="kart-deger">l¹ — kalın L</div><div class="kart-ad">ORKHON AL</div></td><td><div class="kart-tamga">𐰠</div><div class="kart-deger">l² — ince L</div><div class="kart-ad">ORKHON AEL</div></td><td><div class="kart-tamga">𐰣</div><div class="kart-deger">n¹ — kalın N</div><div class="kart-ad">ORKHON AN</div></td><td><div class="kart-tamga">𐰤</div><div class="kart-deger">n² — ince N</div><div class="kart-ad">ORKHON AEN</div></td><td><div class="kart-tamga">𐰺</div><div class="kart-deger">r¹ — kalın R</div><div class="kart-ad">ORKHON AR</div></td><td><div class="kart-tamga">𐰼</div><div class="kart-deger">r² — ince R</div><div class="kart-ad">ORKHON AER</div></td><td><div class="kart-tamga">𐰽</div><div class="kart-deger">s¹ — kalın S</div><div class="kart-ad">ORKHON AS</div></td><td><div class="kart-tamga">𐰾</div><div class="kart-deger">s² — ince S</div><div class="kart-ad">ORKHON AES</div></td><td><div class="kart-tamga">𐱃</div><div class="kart-deger">t¹ — kalın T</div><div class="kart-ad">ORKHON AT</div></td><td><div class="kart-tamga">𐱅</div><div class="kart-deger">t² — ince T</div><div class="kart-ad">ORKHON AET</div></td><td><div class="kart-tamga">𐰖</div><div class="kart-deger">y¹ — kalın Y</div><div class="kart-ad">ORKHON AY</div></td><td><div class="kart-tamga">𐰘</div><div class="kart-deger">y² — ince Y</div><div class="kart-ad">ORKHON AEY</div></td></tr></table><div style="page-break-after:always"></div><table class="kart-tablo"><tr><td><div class="kart-tamga">𐰲</div><div class="kart-deger">ç</div><div class="kart-ad">ORKHON EC</div></td><td><div class="kart-tamga">𐰢</div><div class="kart-deger">m</div><div class="kart-ad">ORKHON EM</div></td><td><div class="kart-tamga">𐰭</div><div class="kart-deger">ng</div><div class="kart-ad">ORKHON ENG</div></td><td><div class="kart-tamga">𐰪</div><div class="kart-deger">ny / ń — Irk Bitig</div><div class="kart-ad">ORKHON ENY</div></td><td><div class="kart-tamga">𐰯</div><div class="kart-deger">p</div><div class="kart-ad">ORKHON EP</div></td><td><div class="kart-tamga">𐰔</div><div class="kart-deger">z</div><div class="kart-ad">ORKHON EZ</div></td><td><div class="kart-tamga">𐱁</div><div class="kart-deger">ş</div><div class="kart-ad">ORKHON ESH</div></td><td><div class="kart-tamga">𐰸</div><div class="kart-deger">OK / UK · KO / KU</div><div class="kart-ad">ORKHON OQ</div></td><td><div class="kart-tamga">𐰜</div><div class="kart-deger">ÖK / ÜK · KÖ / KÜ</div><div class="kart-ad">ORKHON OEK</div></td><td><div class="kart-tamga">𐰶</div><div class="kart-deger">IK / KI</div><div class="kart-ad">ORKHON IQ</div></td><td><div class="kart-tamga">𐰱</div><div class="kart-deger">İÇ / Çİ</div><div class="kart-ad">ORKHON IC</div></td><td><div class="kart-tamga">𐰦</div><div class="kart-deger">ND / NT</div><div class="kart-ad">ORKHON ENT</div></td></tr></table><div style="page-break-after:always"></div><table class="kart-tablo"><tr><td><div class="kart-tamga">𐰡</div><div class="kart-deger">LD / LT</div><div class="kart-ad">ORKHON ELT</div></td><td><div class="kart-tamga">𐰨</div><div class="kart-deger">NÇ / NC</div><div class="kart-ad">ORKHON ENC</div></td><td><div class="kart-tamga">𐱇</div><div class="kart-deger">ot — logografik kelime tamgası</div><div class="kart-ad">ORKHON OT</div></td><td><div class="kart-tamga">𐰰</div><div class="kart-deger">up / üp — yarı-hece tamgası</div><div class="kart-ad">ORKHON OP</div></td><td><div class="kart-tamga">𐰄</div><div class="kart-deger">Yenisey I</div><div class="kart-ad">YENISEI I</div></td><td><div class="kart-tamga">𐰅</div><div class="kart-deger">Yenisey E — kapalı é</div><div class="kart-ad">YENISEI E</div></td><td><div class="kart-tamga">𐰊</div><div class="kart-deger">Yenisey kalın B</div><div class="kart-ad">YENISEI AB</div></td><td><div class="kart-tamga">𐰒</div><div class="kart-deger">Yenisey kalın D</div><div class="kart-ad">YENISEI AD</div></td><td><div class="kart-tamga">𐰻</div><div class="kart-deger">Yenisey kalın R</div><div class="kart-ad">YENISEI AR</div></td><td><div class="kart-tamga">𐱄</div><div class="kart-deger">Yenisey kalın T</div><div class="kart-ad">YENISEI AT</div></td><td><div class="kart-tamga">𐰵</div><div class="kart-deger">Yenisey kalın K</div><div class="kart-ad">YENISEI AQ</div></td></tr></table></section></body></html>

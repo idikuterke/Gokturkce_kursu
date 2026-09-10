@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Göktürkçe Okuma-Yazma Öğreneği - Revize Teklif</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Turkic&display=swap');
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Segoe UI', 'Calibri', Arial, sans-serif;
+        font-size: 11pt;
+        line-height: 1.5;
+        max-width: 210mm;
+        margin: 0 auto;
+        padding: 15mm 20mm;
+        color: #2c2c2c;
+        background: white;
+    }
+    
+    @page {
+        size: A4;
+        margin: 15mm 20mm;
+    }
+    
+    /* Header */
+    .header {
+        text-align: center;
+        border-bottom: 3px double #1e3a5f;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .header h1 {
+        font-size: 16pt;
+        color: #1e3a5f;
+        margin: 5px 0;
+        letter-spacing: 1px;
+    }
+    
+    .header .subtitle {
+        font-size: 12pt;
+        color: #555;
+        font-weight: normal;
+    }
+    
+    .header .runic {
+        font-family: 'Noto Sans Old Turkic', sans-serif;
+        font-size: 14pt;
+        margin: 10px 0;
+        color: #1e3a5f;
+    }
+    
+    /* Info box */
+    .info-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+        font-size: 10pt;
+    }
+    
+    .info-table th, .info-table td {
+        border: 1px solid #ccc;
+        padding: 8px 12px;
+        text-align: left;
+    }
+    
+    .info-table th {
+        background-color: #1e3a5f;
+        color: white;
+        width: 30%;
+    }
+    
+    .info-table td {
+        background-color: #f9f9f9;
+    }
+    
+    .info-table tr:nth-child(even) td {
+        background-color: #f4f4f4;
+    }
+    
+    /* Sections */
+    h2 {
+        color: #1e3a5f;
+        font-size: 13pt;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #1e3a5f;
+        padding-bottom: 5px;
+    }
+    
+    h3 {
+        color: #2a4a6f;
+        font-size: 11pt;
+        margin-top: 18px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    
+    h4 {
+        color: #3a5a7f;
+        font-size: 10pt;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    
+    p {
+        margin: 8px 0;
+        text-align: justify;
+    }
+    
+    ul, ol {
+        margin: 8px 0;
+        padding-left: 25px;
+    }
+    
+    li {
+        margin: 5px 0;
+    }
+    
+    /* Tables */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 12px 0;
+        font-size: 9pt;
+    }
+    
+    th, td {
+        border: 1px solid #bbb;
+        padding: 6px 8px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #1e3a5f;
+        color: white;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f5f5f5;
+    }
+    
+    /* Runic text */
+    .runic {
+        font-family: 'Noto Sans Old Turkic', sans-serif;
+        font-size: 12pt;
+    }
+    
+    /* Signature boxes */
+    .signature-section {
+        margin-top: 40px;
+        page-break-inside: avoid;
+    }
+    
+    .signature-box {
+        display: inline-block;
+        width: 45%;
+        margin: 20px 2%;
+        vertical-align: top;
+    }
+    
+    .signature-box h4 {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+    }
+    
+    .signature-line {
+        margin-top: 40px;
+        border-bottom: 1px solid #333;
+    }
+    
+    .signature-label {
+        font-size: 9pt;
+        color: #666;
+    }
+    
+    /* Protocol section */
+    .protocol {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        padding: 15px 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+    
+    .protocol h2 {
+        margin-top: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    /* Page break */
+    .page-break {
+        page-break-before: always;
+    }
+    
+    /* Highlight box */
+    .highlight-box {
+        background-color: #e8f0f8;
+        border-left: 4px solid #1e3a5f;
+        padding: 10px 15px;
+        margin: 15px 0;
+    }
+    
+    /* Print styles */
+    @media print {
+        body {
+            padding: 0;
+        }
+        
+        h2 {
+            page-break-after: avoid;
+        }
+        
+        .no-print {
+            display: none;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- SAYFA 1: KAPAK VE GİRİŞ -->
+<div class="header">
+    <h1>AHMET YESEVI VAKFI · EĞİTİM FAALİYETİ PROJE TEKLİFİ</h1>
+    <p class="subtitle">Göktürkçe Okuma-Yazma Öğreneği<br>
+    <strong>Türk Runik Yazı Sistemi Temel Seviye Eğitim Programı · 4 Yedigün (Hafta) · Sertifikalı</strong></p>
+    <p class="runic">𐰰 𐱇 · 𐰱 𐰶 𐰜 𐰸 · 𐰇 𐰆 𐰃 𐰀</p>
+    <p style="font-size: 9pt; color: #666;">ÜNLÜ TAMGALAR · HECE LİGATÜRLERİ · ÖZEL TAMGALAR — UNICODE U+10C00–U+10C4F</p>
+</div>
+
+<table class="info-table">
+    <tr><th>Teklifi Sunan Eğitmen</th><td>İbrahim (Bayram) BİLİR — Göktürkçe Araştırmacısı / Eğitmen</td></tr>
+    <tr><th>Kurum Ortağı</th><td>Ahmet Yesevi Vakfı — Vakıf Başkanı: Emre YÜKSELEN</td></tr>
+    <tr><th>Program Adı</th><td>Göktürkçe Okuma-Yazma Öğreneği (Temel Seviye)</td></tr>
+    <tr><th>Süre ve Format</th><td>4 Yedigün (hafta) · Haftalık 2 ders saati (45+45 dk) · Toplam 8 ders saati · Yüz yüze</td></tr>
+    <tr><th>Hedef Kitle</th><td>18 yaş üstü, ön koşul aranmayan temel seviye kursiyerler</td></tr>
+    <tr><th>Kapasite</th><td>En az 15 — en çok 25 kişi (esneklik koşulları için Bölüm 2)</td></tr>
+    <tr><th>Yöntem</th><td>Teorik konu anlatımı + pratik yazma atölyesi</td></tr>
+    <tr><th>Ders Materyali</th><td>Eğitmen çalışma yaprakları, sunum slaytları, harf (tamga) kartları</td></tr>
+    <tr><th><strong>Kurs Ücreti</strong></th><td><strong>Eğitmen net hakkı kişi başı 1.000 TL</strong> (hazırlık, ders, sınav ve sertifikasyon dâhil)</td></tr>
+    <tr><th>Tahsilat</th><td>Tahsilat yöntemi, vakıf payı ve vergilendirme modeli <strong>Vakıf Yönetimi'nce</strong> belirlenir; bu düzenleme eğitmen net hakkını etkilemez.</td></tr>
+    <tr><th>Belgelendirme</th><td>Ahmet Yesevi Vakfı onaylı Bitirme Belgesi (Kutluluk Belgütü)</td></tr>
+    <tr><th>Belge Tarihi</th><td>08.09.2026</td></tr>
+</table>
+
+<h2>1. Eğitim Gerekçesi ve Akademik Temeller</h2>
+
+<p>Göktürk (Eski Türk) alfabesi, tarihte "Türk" adıyla kurulan ilk devlet olan Göktürk Kağanlığı'nın hükmettiği 552–744 yılları arasında kullanılan, Türk dilinin yazılı ilk dönemini temsil eden ve köklerimize inen eşsiz bir kültürel mirastır.</p>
+
+<p>Bu eğitim, yüzeysel bir harf ezberletme programının ötesinde, Prof. Dr. Aysu Ata'nın akademik disiplini (Ankara Üniversitesi TUR203 Köktürkçe ders standartları) ile katılımcıların kendi yazılarını yazabilmelerini hedefleyen temel düzey bir okuma-yazma atölyesini birleştirir. Eğitim boyunca, kâğıt üzerine fırçayla yazılan ve el yazısı geleneğini temsil eden <strong>9.–10. yüzyıla ait runik el yazması Irk Bitig</strong> (Uygur dönemine ait runik el yazması) müfredatın merkezine konularak epigrafi ve paleografi perspektifi genişletilecektir.</p>
+
+<h3>Eğitimde Öz Türkçe ve Akademik Terim Kesişimi</h3>
+<ul>
+<li><strong>Tümce</strong> (Akademik karşılığı: Söz Dizimi / Sentaks) — Cümle düzeyinde yapılan okuma-yazma çalışmaları.</li>
+<li><strong>Seslem</strong> (Akademik karşılığı: Hece / Yarı-hece işaretleri) — Göktürkçenin yarı-hecesel yapısını temsil eden ve bünyesinde zati ünlü barındıran OK/UK 𐰸, ÖK/ÜK 𐰜, IK/KI 𐰶 ve İÇ/Çİ 𐰱 gibi çift sesli hece damgaları (ligatürler).</li>
+<li><strong>Yedigün</strong> (Akademik karşılığı: Hafta) — Programın haftalık ders birimi.</li>
+</ul>
+
+<h2>2. Program Hedefleri, Kapasite ve Esneklik</h2>
+
+<h3>Kazanım Hedefleri</h3>
+<p>Kursu başarıyla tamamlayan katılımcı:</p>
+<ol>
+<li>Göktürk yazısının ünlü, kutuplu ve kutupsuz tamgalarını tanır, ayırt eder ve doğru çizer.</li>
+<li>Ünlü tasarrufu, ligatür kullanımı ve istisnai imla kurallarını kelime üzerinde hatasız uygular.</li>
+<li>Orhun Bengü Taşları ile Irk Bitig metinlerini temel düzeyde okuyup deşifre eder.</li>
+<li>Türkçe bir metni Aysu Ata transkripsiyon metoduna uygun olarak runik tamgalara dönüştürür.</li>
+<li>Eski Türkçenin tarihsel sayı sistemini kavrar, sayı gruplarını okur ve yazar.</li>
+</ol>
+
+<h3>Kapasite Koşulları</h3>
+<table>
+    <tr><th>Kriter</th><th>Değer</th><th>Açıklama</th></tr>
+    <tr><td>Asgari katılımcı</td><td>15 kişi</td><td>Bu sayının altında programın ekonomik ve atölye verimliliği koşulları sağlanamamaktadır.</td></tr>
+    <tr><td>Azami katılımcı</td><td>25 kişi</td><td>Pratik yazma atölyesinde bireysel geri bildirim niteliğini korumak için üst sınır.</td></tr>
+    <tr><td>Ön koşul</td><td>Yok</td><td>Türkçe okuryazarlık yeterlidir.</td></tr>
+    <tr><td>Yaş aralığı</td><td>18+</td><td>Üst yaş sınırı yoktur.</td></tr>
+</table>
+
+<p><strong>Esneklik-1 · Talep fazlası:</strong> 25 kişinin üzerinde başvuru gelmesi hâlinde program, farklı saatlerde iki ayrı grup hâlinde (sabah / öğleden sonra veya hafta içi / hafta sonu) düzenlenebilir.</p>
+
+<p><strong>Esneklik-2 · Ders saati formatı:</strong> Haftalık 2 ders saati; 90+90 dakika, 3×60 dakika veya benzeri formatlarda yeniden düzenlenebilir. Toplam 8 ders saatlik hacim korunur.</p>
+
+<h2>3. Ücretlendirme ve Belgelendirme Koşulları</h2>
+
+<div class="highlight-box">
+<p><strong>Kişi Başı Kurs Ücreti: 1.000 TL (eğitmen net hakkı)</strong></p>
+<p>Eğitmen net hakkı kişi başı 1.000 TL'dir. Tahsilat yöntemi, vakıf payı ve vergilendirme modeli <strong>Vakıf Yönetimi'nce</strong> belirlenir; bu düzenleme eğitmen net hakkını etkilemez.</p>
+</div>
+
+<p>Belirlenen ücret, güncel özel ders piyasası (bireysel ders saat ücreti 1.200–1.500 TL bandı) ile karşılaştırıldığında grup eğitimi ölçeğinde erişilebilir bir seviyededir.</p>
+
+<h3>Belgelendirme Koşulları</h3>
+<table>
+    <tr><th>ÖLÇÜT</th><th>KOŞUL</th></tr>
+    <tr><td>Devam zorunluluğu</td><td>%80 devam — 4 yedigün boyunca en fazla bir ders devamsızlığı kabul edilir.</td></tr>
+    <tr><td><strong>Sınav başarı eşiği</strong></td><td><strong>12 soruluk bitirme sınavından 100 üzerinden 60 ve üzeri.</strong></td></tr>
+    <tr><td>Başarısızlık hâli</td><td>Ek ücret alınmaksızın bir kez sınav tekrarı hakkı tanınır.</td></tr>
+    <tr><td>Belgeyi düzenleyen</td><td>Ahmet Yesevi Vakfı — Bitirme Belgesi (Kutluluk Belgütü), vakıf kaşesi ve eğitmen imzası ile.</td></tr>
+</table>
+
+<!-- SAYFA 2: YEDİGÜNLER -->
+<div class="page-break"></div>
+
+<h2>4. Yedigünlük (Haftalık) Ders Planı</h2>
+
+<h3>1. Yedigün — Giriş ve Temel Tamgalar <span style="font-weight: normal; font-size: 9pt;">(2 Ders Saati · Teorik & Çizim)</span></h3>
+
+<p><strong>TEORİK KONULAR:</strong></p>
+<ul>
+<li><strong>Tarihsel giriş:</strong> Türk dili tarihi, Bengü Taşlar.</li>
+<li><strong>Keşif süreci:</strong> Vilhelm Thomsen'ın 15 Aralık 1893 keşfi ve ilk çözülen kelime <em>teŋri</em> <span class="runic">𐰃𐰼𐰭𐱅</span>.</li>
+<li><strong>Ünlü tamgalar:</strong> 4 ünlü tamga <span class="runic">𐰇 𐰆 𐰃 𐰀</span> (8 sesi karşılar).</li>
+<li><strong>Kutuplu ünsüz tamgalar:</strong> 20 kutuplu ünsüz (kalın/ince uyumu) — b¹/b², g¹/g², d¹/d², y¹/y², k¹/k², l¹/l², n¹/n², r¹/r², s¹/s², t¹/t², ŋ, m, z, ç, p.</li>
+<li><strong>Sağdan sola yazım yönü</strong> ve kelimeler arası dikey iki nokta ayracı.</li>
+<li><strong>Sözbaşı düz ünlülerin (a/e) düşme kuralına giriş.</strong></li>
+</ul>
+
+<p><strong>ATÖLYE:</strong> Tamgaların çizim yönleri, sağdan sola yazım disiplini, katılımcının kendi adını tamgalarla yazma.</p>
+
+<p><strong>IRK BİTİG ENTEGRASYONU:</strong> Kâğıt üzerine fırçayla yazılan el yazması epigrafi geleneğine giriş.</p>
+
+<hr>
+
+<h3>2. Yedigün — İmla Tasarrufu ve Ligatürler <span style="font-weight: normal; font-size: 9pt;">(2 Ders Saati · İmla & Hece)</span></h3>
+
+<p><strong>TEORİK KONULAR:</strong></p>
+<ul>
+<li><strong>Tasarruf ilkesi:</strong> İçseste ve sözbaşında kısa a/e ünlülerinin yazılmama kuralı.</li>
+<li><strong>Seslemler:</strong> Tek, iki ve ikiden çok tamgalı hece sıkıştırmaları; orta hecedeki vurgusuz dar ünlülerin düşmesi (<em>ogul → oglan</em>).</li>
+<li><strong>Kutupsuz ünsüzler:</strong> Kutupsuz (nötr) tamgalar — ç, m, p, ş, z, lt, nt, nç, ny, ŋ.</li>
+<li><strong>İstisna-1 (kelime sonu):</strong> Kelime sonundaki ünlülerin asla düşürülmeyip yazılması zorunluluğu.</li>
+<li><strong>İstisna-2 (İnce N):</strong> Kalın sözcüklerin sonundaki "ın/nı" iyelik ve belirtme eklerinin daima İnce N <span class="runic">𐰤</span> ile yazılması.</li>
+</ul>
+
+<p><strong>ATÖLYE:</strong> Ligatürlerin <span class="runic">𐰱 𐰶 𐰜 𐰸</span> kelime başı konum kısıtı egzersizi. <em>kök</em> <span class="runic">𐰜𐰚</span> — <em>kıldı</em> <span class="runic">𐰃𐰡𐰃𐰴</span> örnek tahlili.</p>
+
+<hr>
+
+<h3>3. Yedigün — Söz Dizimi, El Yazmaları ve Sayı Sistemi <span style="font-weight: normal; font-size: 9pt;">(2 Ders Saati · Okuma & Metin)</span></h3>
+
+<p><strong>TEORİK KONULAR:</strong></p>
+<ul>
+<li><strong>Söz dizimi (sentaks):</strong> Tümce, dörtlük ve düz yazı yapıları; isim ve fiil tümceleri.</li>
+<li><strong>Taş ekonomisi:</strong> Sert taş yüzeye kazıma zorluğu nedeniyle eksiltili sentaks.</li>
+<li><strong>Epigrafik karşılaştırma:</strong> Orhun-Irk Bitig harf varyantı farkları — fırça ile yuvarlaklaşan hatlar, ş tamgasının elenmesi, <strong>ince <em>r</em> (<span class="runic">𐰼</span>) yerine grafik benzerliği nedeniyle ş (<span class="runic">𐱁</span>) kullanılması</strong>.</li>
+<li><strong>Özel tamgalar:</strong> <em>ot</em> logogramı <span class="runic">𐱇</span> ve <em>up</em> tamgası <span class="runic">𐰰</span>.</li>
+<li><strong>Tarihsel sayı sistemi:</strong> Bir sonraki onluğun referans alındığı sayı kurma mantığı — <em>b(i)r otuz</em> = 21, <em>s(e)kiz elig</em> = 48.</li>
+</ul>
+
+<p><strong>ATÖLYE:</strong> Orhun Bengü Taşlarından seçme satırların transkripsiyonlu analizi, sayı yazım ve okuma pratikleri.</p>
+
+<hr>
+
+<h3>4. Yedigün — Genel Tekrar, Sınav ve Kapanış <span style="font-weight: normal; font-size: 9pt;">(2 Ders Saati · Sınav & Kapanış)</span></h3>
+
+<p><strong>TEORİK:</strong> Tüm kuralların gözden geçirilmesi, yaygın imla hatalarının analizi.</p>
+
+<p><strong>ATÖLYE VE ÖLÇME:</strong></p>
+<ul>
+<li>Serbest kompozisyon yazımı: Türkçe kısa bir metnin runik tamgalara dönüştürülmesi.</li>
+<li><strong>12 soruluk Göktürkçe Bitirme Sınavı</strong> (60 dakika).</li>
+<li>Sınav çözümlemesi.</li>
+</ul>
+
+<div class="highlight-box">
+<p><strong>BELGE TAKDİMİ:</strong> Sınav sonuçlarının açıklanmasını müteakip ayrı bir kapanış oturumunda gerçekleştirilir. <strong>Sınav sonucu ile belge takdimi arasında en az bir hafta süre bulunur.</strong></p>
+</div>
+
+<p><strong>IRK BİTİG ENTEGRASYONU:</strong> Kolofon (kırmızı mürekkepli hatime) yazım kurallarının tahlili.</p>
+
+<hr>
+
+<h3>Ek Ünite — İleri Dil Tarihi <span style="font-weight: normal; font-size: 9pt;">(Opsiyonel)</span></h3>
+
+<p><strong>KAPSAM:</strong> <strong>Ural-Altay hipotezi (tarihsel bir varsayım olarak)</strong> ve Türk dillerinin sınıflandırılması · r/l (Lir) ve z/ş (Şaz) ses denkliği · <em>oguX</em> teorisi.</p>
+
+<p><em>Bu ünite temel programın dışındadır; katılımcı ilgisi ve vakıf talebi hâlinde ayrı bir oturum olarak planlanabilir.</em></p>
+
+<!-- SAYFA 3: TABLOLAR -->
+<div class="page-break"></div>
+
+<h2>5. Müfredat ve Kazanım Tablosu</h2>
+
+<table>
+    <tr><th>YEDİGÜN</th><th>DERS KONULARI</th><th>DİLBİLİMSEL VE İMLA KURALLARI</th><th>ÖĞRENME KAZANIMLARI</th></tr>
+    <tr>
+        <td><strong>1. Yedigün</strong></td>
+        <td>Giriş ve Temel Tamgalar</td>
+        <td>Göktürk yazısının keşfi · Yazım yönü · <strong>Ünlü tamgalar ve kutuplu ünsüz tamgalar</strong></td>
+        <td>Göktürk yazısının tarihsel gelişimini açıklar · Runik yazının sağdan sola yön mantığını kavrar · Kalın/ince tamgaları seçerek heceleme yapar</td>
+    </tr>
+    <tr>
+        <td><strong>2. Yedigün</strong></td>
+        <td>İmla Tasarrufu ve Ligatürler</td>
+        <td>Ünlü tasarrufu · Hece sıkıştırma · <strong>Kutupsuz ünsüzler</strong> · Ligatürler</td>
+        <td>İmla tasarrufu kurallarını hatasız uygular · Hece damgalarını doğru konumlandırır · Kelime başı ligatür kısıtını ayırt eder</td>
+    </tr>
+    <tr>
+        <td><strong>3. Yedigün</strong></td>
+        <td>Söz Dizimi, El Yazmaları ve Sayı Sistemi</td>
+        <td>Tümce yapısı · Taş ekonomisi · <strong>Tarihsel sayı sistemi</strong> · Orhun-Irk Bitig kıyaslaması</td>
+        <td>Basit tümce yapılarını çözümler · Sayı mantığını kavrar · Paleografiyi karşılaştırır</td>
+    </tr>
+    <tr>
+        <td><strong>4. Yedigün</strong></td>
+        <td>Genel Tekrar ve Sınav</td>
+        <td>Tüm kuralların gözden geçirilmesi · Serbest kompozisyon · <strong>Bitirme sınavı</strong></td>
+        <td>Türkçe bir metni runik tamgalara dönüştürür · Kutluluk Belgütü almaya hak kazanır</td>
+    </tr>
+</table>
+
+<h2>6. Ölçme Standartları ve Örnek Çözümler</h2>
+
+<table>
+    <tr><th>KRİTİK ÖLÇME ALANI</th><th>SORU TEMASI</th><th>AKADEMİK ÇÖZÜM</th></tr>
+    <tr>
+        <td>Ünlü düşmesi ve tasarruf kuralı</td>
+        <td><em>esen</em> ve <em>atar</em> kelimelerinin tamgalarla yazımı</td>
+        <td><em>esen</em> → <span class="runic">𐰤𐰾</span>, <em>atar</em> → <span class="runic">𐰺𐱃</span>. Sözbaşında ve içseste kısa a/e ünlüleri yazılmaz.</td>
+    </tr>
+    <tr>
+        <td>Tarihsel sayı sistemi</td>
+        <td><em>sekiz elig</em> ifadesinin değeri</td>
+        <td><strong>48</strong>. Bir sonraki onluk referans alınır: 50 – 2 = 48 (yani 40 + 8).</td>
+    </tr>
+    <tr>
+        <td>Ligatür konum kısıtlamaları</td>
+        <td><em>kök</em> ve <em>kıldı</em> kelimelerinin yazımı</td>
+        <td><em>kök</em> <span class="runic">𐰜𐰚</span>: kelime başı <em>kö-</em> ligatürsüz, sondaki <em>-ök</em> ligatürlü. <em>kıldı</em> <span class="runic">𐰃𐰡𐰃𐰴</span>: kelime başı kısıtı nedeniyle ligatürsüz.</td>
+    </tr>
+    <tr>
+        <td>Irk Bitig paleografik okuması</td>
+        <td>15. Falın transkripsiyonu</td>
+        <td>"Üzä tuman turdı, asra toz turdı…" falının okunması ve morfolojik tahlili.</td>
+    </tr>
+</table>
+
+<!-- SAYFA 4: TAMGA CETVELİ -->
+<div class="page-break"></div>
+
+<h2>7. Tamga Cetveli — Ders Materyali Örneği</h2>
+
+<p><em>Tüm tamgalar Unicode U+10C00–U+10C4F (Old Turkic) bloğundan, Orhun varyantı esas alınmıştır.</em></p>
+
+<h3>ÜNLÜ TAMGALAR — 4 TAMGA, 8 SESİ KARŞILAR</h3>
+<table>
+    <tr><th>Tamga</th><th>Ses</th><th>Unicode</th></tr>
+    <tr><td class="runic">𐰀</td><td>a / e</td><td>U+10C00</td></tr>
+    <tr><td class="runic">𐰃</td><td>ı / i</td><td>U+10C03</td></tr>
+    <tr><td class="runic">𐰆</td><td>o / u</td><td>U+10C06</td></tr>
+    <tr><td class="runic">𐰇</td><td>ö / ü</td><td>U+10C07</td></tr>
+</table>
+
+<h3>ÜNSÜZ TAMGALAR — KUTUPLU (KALIN¹ / İNCE²)</h3>
+<table>
+    <tr><th>Kalın</th><th>İnce</th><th>Ses</th><th>Unicode</th></tr>
+    <tr><td class="runic">𐰉</td><td class="runic">𐰋</td><td>b</td><td>U+10C09 / U+10C0B</td></tr>
+    <tr><td class="runic">𐰍</td><td class="runic">𐰏</td><td>g</td><td>U+10C0D / U+10C0F</td></tr>
+    <tr><td class="runic">𐰑</td><td class="runic">𐰓</td><td>d</td><td>U+10C11 / U+10C13</td></tr>
+    <tr><td class="runic">𐰖</td><td class="runic">𐰘</td><td>y</td><td>U+10C16 / U+10C18</td></tr>
+    <tr><td class="runic">𐰴</td><td class="runic">𐰚</td><td>k</td><td>U+10C34 / U+10C1A</td></tr>
+    <tr><td class="runic">𐰞</td><td class="runic">𐰠</td><td>l</td><td>U+10C1E / U+10C20</td></tr>
+    <tr><td class="runic">𐰣</td><td class="runic">𐰤</td><td>n</td><td>U+10C23 / U+10C24</td></tr>
+    <tr><td class="runic">𐰺</td><td class="runic">𐰼</td><td>r</td><td>U+10C3A / U+10C3C</td></tr>
+    <tr><td class="runic">𐰽</td><td class="runic">𐰾</td><td>s</td><td>U+10C3D / U+10C3E</td></tr>
+    <tr><td class="runic">𐱃</td><td class="runic">𐱅</td><td>t</td><td>U+10C43 / U+10C45</td></tr>
+</table>
+
+<h3>ÜNSÜZ TAMGALAR — KUTUPSUZ (NÖTR)</h3>
+<table>
+    <tr><th>Tamga</th><th>Ses</th><th>Unicode</th><th>Not</th></tr>
+    <tr><td class="runic">𐰔</td><td>z</td><td>U+10C14</td><td>—</td></tr>
+    <tr><td class="runic">𐰲</td><td>ç</td><td>U+10C32</td><td>—</td></tr>
+    <tr><td class="runic">𐰭</td><td>ŋ</td><td>U+10C2D</td><td>yumuşak g</td></tr>
+    <tr><td class="runic">𐰯</td><td>p</td><td>U+10C2F</td><td>—</td></tr>
+    <tr><td class="runic">𐰿</td><td>ş</td><td>U+10C3F</td><td>—</td></tr>
+    <tr><td class="runic">𐱁</td><td>ſ (ş²)</td><td>U+10C41</td><td>Irk Bitig varyantı</td></tr>
+    <tr><td class="runic">𐰢</td><td>m</td><td>U+10C22</td><td>—</td></tr>
+    <tr><td class="runic">𐰡</td><td>lt</td><td>U+10C21</td><td>küme tamga</td></tr>
+    <tr><td class="runic">𐰦</td><td>nt</td><td>U+10C26</td><td>küme tamga</td></tr>
+    <tr><td class="runic">𐰨</td><td>nç</td><td>U+10C28</td><td>küme tamga</td></tr>
+    <tr><td class="runic">𐰪</td><td>ny</td><td>U+10C2A</td><td>küme tamga</td></tr>
+</table>
+
+<h3>HECE LİGATÜRLERİ VE ÖZEL TAMGALAR</h3>
+<table>
+    <tr><th>Tamga</th><th>Ses</th><th>Unicode</th></tr>
+    <tr><td class="runic">𐰸</td><td>ok / uk</td><td>U+10C38</td></tr>
+    <tr><td class="runic">𐰜</td><td>ök / ük</td><td>U+10C1C</td></tr>
+    <tr><td class="runic">𐰶</td><td>ık / kı</td><td>U+10C36</td></tr>
+    <tr><td class="runic">𐰱</td><td>iç / çi</td><td>U+10C31</td></tr>
+    <tr><td class="runic">𐱇</td><td>ot (logoram)</td><td>U+10C47</td></tr>
+    <tr><td class="runic">𐰰</td><td>up</td><td>U+10C30</td></tr>
+    <tr><td class="runic">𐱈</td><td>baş</td><td>U+10C48</td></tr>
+</table>
+
+<h2>8. Vakıf Altyapı Talepleri ve Teknik Şartlar</h2>
+
+<h3>Fiziki Koşullar</h3>
+<ul>
+<li>Akıllı tahta veya projeksiyon sistemi bulunan, en az 20 (tercihen 25) kişilik derslik.</li>
+<li>Yazma atölyesi için sıra/masa düzeni — katılımcıların önünde yazı yüzeyi bulunması zorunludur.</li>
+<li>Her yedigün öncesinde eğitmen tarafından hazırlanacak "Öğrenci Çalışma Yaprakları"nın vakıf imkânlarıyla çoğaltılarak dağıtılması.</li>
+</ul>
+
+<h3>Dijital Altyapı</h3>
+<table>
+    <tr><th>GEREKLİLİK</th><th>UYGULAMA</th></tr>
+    <tr><td>Yazı karakteri</td><td><strong>Noto Sans Old Turkic</strong> — ücretsiz ve açık lisanslı (SIL Open Font License).</td></tr>
+    <tr><td>Kurulum sorumluluğu</td><td>Kurs öncesi kurulum ve test eğitmen tarafından yapılacaktır.</td></tr>
+    <tr><td>Yedek çözüm</td><td>Tüm materyaller tamgalar gömülü PDF formatında hazırlanmıştır.</td></tr>
+</table>
+
+<!-- SAYFA 5: İMZALAR -->
+<div class="page-break"></div>
+
+<div class="signature-section">
+<h2>İMZA BLOKLARI</h2>
+
+<div class="signature-box">
+<h4>TEKLİFİ SUNAN EĞİTMEN</h4>
+<p><strong>İbrahim (Bayram) BİLİR</strong><br>
+Göktürkçe Araştırmacısı / Eğitmen</p>
+<div class="signature-line"></div>
+<p class="signature-label">İmza</p>
+<div style="margin-top: 30px;"></div>
+<div class="signature-line"></div>
+<p class="signature-label">Tarih</p>
+</div>
+
+<div class="signature-box">
+<h4>VAKIF YÖNETİM KURULU ONAYI</h4>
+<p><strong>Emre YÜKSELEN</strong><br>
+Ahmet Yesevi Vakfı — Vakıf Başkanı</p>
+<div class="signature-line"></div>
+<p class="signature-label">İmza ve Kaşe</p>
+<div style="margin-top: 30px;"></div>
+<div class="signature-line"></div>
+<p class="signature-label">Karar Tarih / No</p>
+</div>
+</div>
+
+<!-- SAYFA 6: UYGULAMA PROTOKOLÜ -->
+<div class="page-break"></div>
+
+<div class="protocol">
+<h2>EK: UYGULAMA PROTOKOLÜ</h2>
+<p><em>Teklif Belgesi'nin ayrılmaz parçasıdır.</em></p>
+
+<h3>1. Kayıt ve Kapasite Koşulları</h3>
+<table>
+    <tr><th>Madde</th><th>Detay</th></tr>
+    <tr><td><strong>Asgari katılımcı</strong></td><td>Programın açılabilmesi için en az <strong>15 kişilik</strong> kesin kayıt gereklidir.</td></tr>
+    <tr><td><strong>Kayıt kapanışı</strong></td><td>Program başlangıç tarihinden <strong>en az 7 gün önce</strong> kapanır.</td></tr>
+    <tr><td><strong>Yetersiz başvuru</strong></td><td>Kayıt kapanışına 7 gün kala 15 kişiye ulaşılamazsa, program <strong>bir sonraki döneme ertelenir.</strong> Tahsil edilen ücretler iade edilir.</td></tr>
+    <tr><td><strong>Maksimum</strong></td><td>25 kişi. Üzeri hâlinde aynı müfredatla ikinci grup açılır.</td></tr>
+</table>
+
+<h3>2. Takvim ve Sorumluluklar</h3>
+<table>
+    <tr><th>AŞAMA</th><th>SORUMLULUK</th><th>AÇIKLAMA</th></tr>
+    <tr><td>Duyuru ve tanıtım</td><td>Vakıf</td><td>Sosyal medya, web sitesi, e-posta</td></tr>
+    <tr><td>Kayıt süreci</td><td>Vakıf</td><td>Başvuru kabulü, katılımcı listesi</td></tr>
+    <tr><td>Tahsilat</td><td>Vakıf</td><td>Yöntem vakıf tarafından belirlenir</td></tr>
+    <tr><td>Materyal çoğaltma</td><td>Vakıf</td><td>Eğitmen yapraklarının bastırılması</td></tr>
+    <tr><td>Derslerin yürütülmesi</td><td>Eğitmen</td><td>Müfredat, ölçme ve değerlendirme</td></tr>
+    <tr><td>Sertifika düzenlenmesi</td><td>Vakıf + Eğitmen</td><td>Vakıf kaşesi + eğitmen imzası</td></tr>
+</table>
+<p><strong>Başlangıç tarihi:</strong> Tarafların karşılıklı mutabakatıyla belirlenir.</p>
+
+<h3>3. Materyal Telifi ve Fikri Mülkiyet</h3>
+<p>Eğitmen tarafından hazırlanan tüm materyaller (çalışma yaprakları, sunum slaytları, tamga kartları, sınav kâğıtları, HTML platform içerikleri) <strong>eğitmene aittir.</strong></p>
+<p>Vakıf, bu materyalleri yalnızca <strong>bu program kapsamında sınırlı çoğaltma ve kullanma hakkı</strong> ile edinir.</p>
+<p><em>Eğitmen, aynı müfredatı gelecekte farklı platformlarda kullanma hakkını saklı tutar.</em></p>
+
+<h3>4. Çekim İzni ve Katılımcı Onamı</h3>
+<ul>
+<li><strong>Çekim hakkı:</strong> Program süresince ders içi fotoğraf ve video çekimi yapılabilir. Görüntüler Vakfın kurumsal iletişim materyallerinde kullanılabilir.</li>
+<li><strong>Katılımcı onamı:</strong> Kayıt sürecinde katılımcılardan görsel çekim onam formu toplanır. Onam vermeyenlerin görüntüleri kullanılamaz.</li>
+</ul>
+
+<h3>5. Katılımcı Listesi ve KVKK</h3>
+<p>Toplanan kişisel veriler (ad, soyad, iletişim) yalnızca bu programın yürütülmesi amacıyla işlenir. Verilerin başka amaçlarla kullanımı katılımcıların açık rızasına tabidir.</p>
+
+<h3>6. Belgenin Hukuki Niteliği</h3>
+<div class="highlight-box">
+<p><strong>Kutluluk Belgütü</strong>, Ahmet Yesevi Vakfı onaylı bir <strong>bitirme belgesidir.</strong></p>
+<ul>
+<li>MEB akreditasyonlu bir sertifika <strong>değildir.</strong></li>
+<li>Herhangi bir mesleki yeterlilik belgesi <strong>değildir.</strong></li>
+<li>Eğitimin başarıyla tamamlandığını teyit eden vakıf belgesidir.</li>
+</ul>
+</div>
+
+<h3>7. Okumalar Serisi Köprüsü</h3>
+<p>Programı başarıyla tamamlayanlara, devam niteliğindeki <strong>Okumalar Serisi</strong> programı <strong>indirimli olarak</strong> sunulur.</p>
+
+<h3>8. Eğitmen Özgeçmişi</h3>
+<p><strong>İbrahim (Bayram) BİLİR</strong> — Göktürkçe Araştırmacısı / Eğitmen</p>
+<ul>
+<li>15 yılı aşkın Göktürkçe araştırma ve eğitim deneyimi</li>
+<li>Türk runik yazısı transkripsiyonu, Orhun filolojisi ve epigrafi akademik yayınları</li>
+<li>Ahmet Yesevi Vakfı bünyesinde birçok Göktürkçe eğitim programı yürütümü</li>
+<li>10 yılı aşkın kurum müdürlüğü deneyimi</li>
+</ul>
+
+<hr style="margin-top: 30px;">
+<p><em>Bu protokol, 08.09.2026 tarihli Göktürkçe Okuma-Yazma Öğreneği Teklif Belgesi'nin ayrılmaz bir parçasıdır.</em></p>
+
+<div style="margin-top: 20px;">
+<p style="display: inline-block; width: 45%;"><strong>Eğitmen İmzası:</strong> _________________________</p>
+<p style="display: inline-block; width: 45%;"><strong>Vakıf Yetkilisi İmzası:</strong> _________________________</p>
+</div>
+<p style="margin-top: 10px;"><strong>Tarih:</strong> ______ / ______ / ____________</p>
+</div>
+
+</body>
+</html>

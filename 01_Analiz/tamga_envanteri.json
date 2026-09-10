@@ -1,0 +1,1515 @@
+{
+ "fonts": {
+  "noto_block_coverage": 73,
+  "babel_block_coverage": 37,
+  "turkbitig_block_coverage": 73
+ },
+ "used_runes": {
+  "0x10c00": {
+   "name": "OLD TURKIC LETTER ORKHON A",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 20,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c03": {
+   "name": "OLD TURKIC LETTER ORKHON I",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 54,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt"
+   ]
+  },
+  "0x10c04": {
+   "name": "OLD TURKIC LETTER YENISEI I",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 4,
+   "files": [
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c05": {
+   "name": "OLD TURKIC LETTER YENISEI E",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c06": {
+   "name": "OLD TURKIC LETTER ORKHON O",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 25,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c07": {
+   "name": "OLD TURKIC LETTER ORKHON OE",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 11,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig özel tamgalı okuma .txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c09": {
+   "name": "OLD TURKIC LETTER ORKHON AB",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 20,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c0a": {
+   "name": "OLD TURKIC LETTER YENISEI AB",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c0b": {
+   "name": "OLD TURKIC LETTER ORKHON AEB",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 15,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt",
+    "ırk bitig farklı harfler .txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c0d": {
+   "name": "OLD TURKIC LETTER ORKHON AG",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 20,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c0f": {
+   "name": "OLD TURKIC LETTER ORKHON AEG",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 8,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c11": {
+   "name": "OLD TURKIC LETTER ORKHON AD",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 18,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c12": {
+   "name": "OLD TURKIC LETTER YENISEI AD",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c13": {
+   "name": "OLD TURKIC LETTER ORKHON AED",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 3,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c14": {
+   "name": "OLD TURKIC LETTER ORKHON EZ",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 7,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt"
+   ]
+  },
+  "0x10c16": {
+   "name": "OLD TURKIC LETTER ORKHON AY",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 17,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c18": {
+   "name": "OLD TURKIC LETTER ORKHON AEY",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 3,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c1a": {
+   "name": "OLD TURKIC LETTER ORKHON AEK",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c1c": {
+   "name": "OLD TURKIC LETTER ORKHON OEK",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 18,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c1e": {
+   "name": "OLD TURKIC LETTER ORKHON AL",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 12,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c20": {
+   "name": "OLD TURKIC LETTER ORKHON AEL",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 9,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c21": {
+   "name": "OLD TURKIC LETTER ORKHON ELT",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 11,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c22": {
+   "name": "OLD TURKIC LETTER ORKHON EM",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 6,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c23": {
+   "name": "OLD TURKIC LETTER ORKHON AN",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 16,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c24": {
+   "name": "OLD TURKIC LETTER ORKHON AEN",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 45,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c26": {
+   "name": "OLD TURKIC LETTER ORKHON ENT",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "müfredat.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c28": {
+   "name": "OLD TURKIC LETTER ORKHON ENC",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "müfredat.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c2a": {
+   "name": "OLD TURKIC LETTER ORKHON ENY",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c2d": {
+   "name": "OLD TURKIC LETTER ORKHON ENG",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 10,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c2f": {
+   "name": "OLD TURKIC LETTER ORKHON EP",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 5,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt"
+   ]
+  },
+  "0x10c30": {
+   "name": "OLD TURKIC LETTER ORKHON OP",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 13,
+   "files": [
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c31": {
+   "name": "OLD TURKIC LETTER ORKHON IC",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c32": {
+   "name": "OLD TURKIC LETTER ORKHON EC",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 3,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c34": {
+   "name": "OLD TURKIC LETTER ORKHON AQ",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 25,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c35": {
+   "name": "OLD TURKIC LETTER YENISEI AQ",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 5,
+   "files": [
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c36": {
+   "name": "OLD TURKIC LETTER ORKHON IQ",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 6,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c38": {
+   "name": "OLD TURKIC LETTER ORKHON OQ",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 12,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c3a": {
+   "name": "OLD TURKIC LETTER ORKHON AR",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 25,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c3b": {
+   "name": "OLD TURKIC LETTER YENISEI AR",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c3c": {
+   "name": "OLD TURKIC LETTER ORKHON AER",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 32,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c3d": {
+   "name": "OLD TURKIC LETTER ORKHON AS",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 17,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c3e": {
+   "name": "OLD TURKIC LETTER ORKHON AES",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c41": {
+   "name": "OLD TURKIC LETTER ORKHON ESH",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c43": {
+   "name": "OLD TURKIC LETTER ORKHON AT",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt"
+   ]
+  },
+  "0x10c44": {
+   "name": "OLD TURKIC LETTER YENISEI AT",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c45": {
+   "name": "OLD TURKIC LETTER ORKHON AET",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 16,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c47": {
+   "name": "OLD TURKIC LETTER ORKHON OT",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 12,
+   "files": [
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  }
+ },
+ "block_names": {
+  "0x10c00": {
+   "name": "OLD TURKIC LETTER ORKHON A",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 20,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c01": {
+   "name": "OLD TURKIC LETTER YENISEI A",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c02": {
+   "name": "OLD TURKIC LETTER YENISEI AE",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c03": {
+   "name": "OLD TURKIC LETTER ORKHON I",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 54,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt"
+   ]
+  },
+  "0x10c04": {
+   "name": "OLD TURKIC LETTER YENISEI I",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 4,
+   "files": [
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c05": {
+   "name": "OLD TURKIC LETTER YENISEI E",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c06": {
+   "name": "OLD TURKIC LETTER ORKHON O",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 25,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c07": {
+   "name": "OLD TURKIC LETTER ORKHON OE",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 11,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig özel tamgalı okuma .txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c08": {
+   "name": "OLD TURKIC LETTER YENISEI OE",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c09": {
+   "name": "OLD TURKIC LETTER ORKHON AB",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 20,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c0a": {
+   "name": "OLD TURKIC LETTER YENISEI AB",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c0b": {
+   "name": "OLD TURKIC LETTER ORKHON AEB",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 15,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt",
+    "ırk bitig farklı harfler .txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c0c": {
+   "name": "OLD TURKIC LETTER YENISEI AEB",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c0d": {
+   "name": "OLD TURKIC LETTER ORKHON AG",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 20,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c0e": {
+   "name": "OLD TURKIC LETTER YENISEI AG",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c0f": {
+   "name": "OLD TURKIC LETTER ORKHON AEG",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 8,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c10": {
+   "name": "OLD TURKIC LETTER YENISEI AEG",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c11": {
+   "name": "OLD TURKIC LETTER ORKHON AD",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 18,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c12": {
+   "name": "OLD TURKIC LETTER YENISEI AD",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c13": {
+   "name": "OLD TURKIC LETTER ORKHON AED",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 3,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c14": {
+   "name": "OLD TURKIC LETTER ORKHON EZ",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 7,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt"
+   ]
+  },
+  "0x10c15": {
+   "name": "OLD TURKIC LETTER YENISEI EZ",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c16": {
+   "name": "OLD TURKIC LETTER ORKHON AY",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 17,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c17": {
+   "name": "OLD TURKIC LETTER YENISEI AY",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c18": {
+   "name": "OLD TURKIC LETTER ORKHON AEY",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 3,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c19": {
+   "name": "OLD TURKIC LETTER YENISEI AEY",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c1a": {
+   "name": "OLD TURKIC LETTER ORKHON AEK",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c1b": {
+   "name": "OLD TURKIC LETTER YENISEI AEK",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c1c": {
+   "name": "OLD TURKIC LETTER ORKHON OEK",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 18,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c1d": {
+   "name": "OLD TURKIC LETTER YENISEI OEK",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c1e": {
+   "name": "OLD TURKIC LETTER ORKHON AL",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 12,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c1f": {
+   "name": "OLD TURKIC LETTER YENISEI AL",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c20": {
+   "name": "OLD TURKIC LETTER ORKHON AEL",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 9,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c21": {
+   "name": "OLD TURKIC LETTER ORKHON ELT",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 11,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c22": {
+   "name": "OLD TURKIC LETTER ORKHON EM",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 6,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c23": {
+   "name": "OLD TURKIC LETTER ORKHON AN",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 16,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c24": {
+   "name": "OLD TURKIC LETTER ORKHON AEN",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 45,
+   "files": [
+    "öğretmen kılavuzu.txt",
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c25": {
+   "name": "OLD TURKIC LETTER YENISEI AEN",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c26": {
+   "name": "OLD TURKIC LETTER ORKHON ENT",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "müfredat.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c27": {
+   "name": "OLD TURKIC LETTER YENISEI ENT",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c28": {
+   "name": "OLD TURKIC LETTER ORKHON ENC",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "müfredat.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c29": {
+   "name": "OLD TURKIC LETTER YENISEI ENC",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c2a": {
+   "name": "OLD TURKIC LETTER ORKHON ENY",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c2b": {
+   "name": "OLD TURKIC LETTER YENISEI ENY",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c2c": {
+   "name": "OLD TURKIC LETTER YENISEI ANG",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c2d": {
+   "name": "OLD TURKIC LETTER ORKHON ENG",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 10,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c2e": {
+   "name": "OLD TURKIC LETTER YENISEI AENG",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c2f": {
+   "name": "OLD TURKIC LETTER ORKHON EP",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 5,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt"
+   ]
+  },
+  "0x10c30": {
+   "name": "OLD TURKIC LETTER ORKHON OP",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 13,
+   "files": [
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c31": {
+   "name": "OLD TURKIC LETTER ORKHON IC",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 2,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c32": {
+   "name": "OLD TURKIC LETTER ORKHON EC",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 3,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c33": {
+   "name": "OLD TURKIC LETTER YENISEI EC",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c34": {
+   "name": "OLD TURKIC LETTER ORKHON AQ",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 25,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c35": {
+   "name": "OLD TURKIC LETTER YENISEI AQ",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 5,
+   "files": [
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c36": {
+   "name": "OLD TURKIC LETTER ORKHON IQ",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 6,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt"
+   ]
+  },
+  "0x10c37": {
+   "name": "OLD TURKIC LETTER YENISEI IQ",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c38": {
+   "name": "OLD TURKIC LETTER ORKHON OQ",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 12,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c39": {
+   "name": "OLD TURKIC LETTER YENISEI OQ",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c3a": {
+   "name": "OLD TURKIC LETTER ORKHON AR",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 25,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c3b": {
+   "name": "OLD TURKIC LETTER YENISEI AR",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c3c": {
+   "name": "OLD TURKIC LETTER ORKHON AER",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 32,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c3d": {
+   "name": "OLD TURKIC LETTER ORKHON AS",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 17,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c3e": {
+   "name": "OLD TURKIC LETTER ORKHON AES",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c3f": {
+   "name": "OLD TURKIC LETTER ORKHON ASH",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c40": {
+   "name": "OLD TURKIC LETTER YENISEI ASH",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c41": {
+   "name": "OLD TURKIC LETTER ORKHON ESH",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c42": {
+   "name": "OLD TURKIC LETTER YENISEI ESH",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c43": {
+   "name": "OLD TURKIC LETTER ORKHON AT",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 19,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "göktürkçe sayılar.txt"
+   ]
+  },
+  "0x10c44": {
+   "name": "OLD TURKIC LETTER YENISEI AT",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 1,
+   "files": [
+    "öğretmen kılavuzu.txt"
+   ]
+  },
+  "0x10c45": {
+   "name": "OLD TURKIC LETTER ORKHON AET",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 16,
+   "files": [
+    "müfredat.txt",
+    "öğrenci çalışma kağıdı.txt",
+    "quiz_ve_diger_bilgiler.txt"
+   ]
+  },
+  "0x10c46": {
+   "name": "OLD TURKIC LETTER YENISEI AET",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c47": {
+   "name": "OLD TURKIC LETTER ORKHON OT",
+   "in_noto": true,
+   "in_babel": true,
+   "in_turkbitig": true,
+   "used": true,
+   "count": 12,
+   "files": [
+    "ırk bitig farklı harfler .txt",
+    "ırk bitig özel tamgalı okuma .txt"
+   ]
+  },
+  "0x10c48": {
+   "name": "OLD TURKIC LETTER ORKHON BASH",
+   "in_noto": true,
+   "in_babel": false,
+   "in_turkbitig": true,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c49": {
+   "name": "(tanimsiz)",
+   "in_noto": false,
+   "in_babel": false,
+   "in_turkbitig": false,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c4a": {
+   "name": "(tanimsiz)",
+   "in_noto": false,
+   "in_babel": false,
+   "in_turkbitig": false,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c4b": {
+   "name": "(tanimsiz)",
+   "in_noto": false,
+   "in_babel": false,
+   "in_turkbitig": false,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c4c": {
+   "name": "(tanimsiz)",
+   "in_noto": false,
+   "in_babel": false,
+   "in_turkbitig": false,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c4d": {
+   "name": "(tanimsiz)",
+   "in_noto": false,
+   "in_babel": false,
+   "in_turkbitig": false,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c4e": {
+   "name": "(tanimsiz)",
+   "in_noto": false,
+   "in_babel": false,
+   "in_turkbitig": false,
+   "used": false,
+   "count": 0,
+   "files": []
+  },
+  "0x10c4f": {
+   "name": "(tanimsiz)",
+   "in_noto": false,
+   "in_babel": false,
+   "in_turkbitig": false,
+   "used": false,
+   "count": 0,
+   "files": []
+  }
+ },
+ "corrupt_found": {
+  "0x1f9e0": 1,
+  "0x1f511": 1
+ },
+ "missing_in_noto": [],
+ "missing_in_babel": [
+  "0x10c04",
+  "0x10c05",
+  "0x10c0a",
+  "0x10c12",
+  "0x10c21",
+  "0x10c31",
+  "0x10c35",
+  "0x10c36",
+  "0x10c3b",
+  "0x10c44"
+ ],
+ "missing_in_turkbitig": [],
+ "db_fal1": null
+}

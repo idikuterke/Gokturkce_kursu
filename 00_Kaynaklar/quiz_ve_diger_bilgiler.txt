@@ -1,0 +1,121 @@
+Eski Türkçede kullanılan **mental (zihinsel) fiiller**, Türk runik metinlerinde sadece dilbilimsel eylemler olmanın ötesinde; eski Türk ulusunun evrene, devlete, aileye, ahlaka ve bilgiye bakış açısını (usunu) yansıtan paha biçilmez birer kültürel aynadır. Bu fiiller, eski Türklerin düşünce dünyasını ve yaşam tarzını şu temel eksenlerde yansıtır:
+
+### 1. Bilgiye ve Akla Verilen Değer (*bil-*)
+Yazıtlarda en sık karşılaşılan uslamlama fiili **"bil-"** (bilmek) eylemidir. Bu sıklık, eski Türk toplumunun bilgiye ve bilgili kişilere verdiği yüksek değeri kanıtlar. Metinlerde bilge kişiler sürekli övülür ve bu eylem öğütlenirken, *"bilig bilmez"* (bilgisiz, cahil) kişiler uyarılır ve eleştirilir. Türk idare sisteminde liyakatin, yani bilgeliğin ne kadar kritik bir meşruiyet ve güç kaynağı olduğu bu eylemin kullanımından açıkça anlaşılmaktadır.
+
+### 2. İstişare ve Ortak Akıl Kültürü (*ögläş-*)
+Düşünmek, akıl etmek ve hatırlamak anlamlarına gelen **"ö-"** eyleminden türetilen **"ögläş-"** (akıl danışmak, görüş almak) fiili, eski Türklerin yönetim felsefesini ortaya koyar. Kağanlar ve komutanlar tek başlarına karar almaz; bir askeri veya siyasi eyleme girişmeden önce kurultayda aksakallara ve bilge kişilere *"akıl danışıp"* (*ögläşip*) ortak kararla hareket ederlerdi. 
+
+### 3. İstemli ve İstençsiz Bilişsel Ayrım (*tiŋla-* / *közlä-*)
+Eski Türklerin zihinsel farkındalığı o kadar gelişmiştir ki, duyu organlarıyla yapılan eylemlerde bile "istemsiz algılama" ile "istemli/çaba gerektiren odaklanma" arasındaki farkı dilbilgisel olarak ayırmışlardır:
+*   Kulağa sesin rastgele ulaşması basitçe **"eşid-"** veya **"tuy-"** iken; bir öğüdü veya sözü kendi isteğiyle pürdikkat dinlemek **"tiŋla-"** fiiliyle karşılanırdı.
+*   Rastgele görmek **"kör-"** iken; özel bir çaba ve dikkatle, stratejik olarak gözetlemek **"közlä-"** fiiliyle ifade edilirdi. Bu da eski Türklerin zihinsel odaklanma ve disipline (töreye) verdikleri önemi gösterir.
+
+### 4. Derin Düşünce, Yas ve Yaşamın Sınırları (*sakın-*)
+Orijinal anlamı "düşünmek" olan, daha sonra "kaygılanmak, üzülmek" anlamlarına evrilen **"sakın-"** fiili, eski Türklerin varoluşsal düşüncelerini taşır. Kardeşi Kül Tigin'in vefatı üzerine Bilge Kağan'ın daldığı derin hüzün ve meditasyon *"sakıntım"* sözüyle ifade edilir. Burada kağan, zamanın ve ölümün mutlak sınırlarını düşünerek kendi acısını dindirmeye çalışır. Vezir Tonyukuk ise aynı fiili askeri stratejide, "semiz boğa ile zayıf boğayı uzaktan ayırt etme" benzetmesiyle bir zihinsel muhakeme aracı olarak kullanır.
+
+### 5. Aileye Saygı ve Hatadan Dönme Bilişselliği (*öbkälä-* / *sakın-*)
+*Irk Bitig*’in 58. kehanetinde (öyküsünde), anne babasına öfkelenip (*öbkäläp*) evden kaçan (*tezip*) bir gencin öyküsü anlatılır. Genç yolda tekrar düşününce (*yana sakınmış*), *"Annemin öğüdünü alayım, babamın sözünü dinleyeyim"* diyerek geri döner. Bu durum, öfke gibi yıkıcı bir duygu tepkisinin, uslamlama (sakınmak/düşünmek) eylemiyle nasıl kontrol altına alındığını ve eski Türk toplumunda aileye, ana-baba sözüne verilen sarsılmaz değeri yansıtır.
+
+### 6. Toplumsal Ahlak ve Vicdani Sorumluluk (*ökün-* / *ärtin-*)
+Bir işin yanlış sonuç verdiğini anlayıp üzülmeyi belirten **"ökün-"** (pişman olmak) ve **"ärtin-"** (vazgeçmek) fiilleri, töreye uyumun zihinsel kontrol mekanizmalarıdır. Bilge Kağan’ın ulusuna hitaben *"vazgeç ve nadim ol!"* (*ärtin ökün*) demesi, toplumsal ahlaka aykırı ve utanılacak durumlardan kaçınma yönünde bir vicdani hesaplaşma çağrısıdır.
+
+---
+
+### 🎓 Göktürkçe Temel Okuma-Yazma Kursu Bilgi Yarışması (Quiz) Taslağı
+
+Öğrencilerinizin 4 haftalık eğitim boyunca edindikleri bilgileri pekiştirecek ve keyifli bir değerlendirme sunacak **10 soruluk bilgi yarışması tasarımı** aşağıda hazırlanmıştır. Bu taslak, hazırladığınız ders kılavuzundaki haftalık kurguyla tam uyumludur.
+
+#### **Soru 1 (Yazım Yönü ve Kuralları - 1. Hafta)**
+*   **Soru:** Göktürk (Orhun-Yenisey) yazısının orijinal yazım yönü nasıldır ve kelimeleri birbirinden ayırmak için hangi noktalama sembolü kullanılır?
+*   **Seçenekler:**
+    A) Soldan sağa — Boşluk ( )  
+    B) Sağdan sola — Üst üste iki nokta ( : )  
+    C) Yukarıdan aşağıya — Noktalı virgül ( ; )  
+    D) Soldan sağa — Kısa çizgi ( - )  
+*   **Doğru Cevap:** **B** (Sağdan sola yazılır ve kelime ayırıcı olarak `:` kullanılır).
+
+#### **Soru 2 (Ünlü Harf İmlası - 1. Hafta)**
+*   **Soru:** Göktürkçe imla kurallarına göre kelime içindeki ve kelime sonundaki ünlü (sesli) harflerin yazımıyla ilgili en temel "tuzak" kural hangisidir?
+*   **Seçenekler:**
+    A) Kelime içindeki ünlüler her zaman yazılır, sonundakiler hiç yazılmaz.  
+    B) Tüm ünlü harfler kelimenin her yerinde eksiksiz yazılmak zorundadır.  
+    C) Kelime içindeki ilk hece dışındaki ünlüler çoğunlukla yazılmaz; ancak kelime sonundaki ünlüler her zaman yazılır.  
+    D) Sadece ince ünlü harfler yazılır, kalın ünlü harfler hiç yazılmaz.  
+*   **Doğru Cevap:** **C** (Kelime sonundaki ünlüler asla düşürülmez, içindekiler ise ses uyumuna göre çoğunlukla yazılmaz).
+
+#### **Soru 3 (Kalın ve İnce Ünsüz Uyumu - 2. Hafta)**
+*   **Soru:** "Börü" (Kurt) kelimesindeki **B** harfi ile "Bodun" (Millet) kelimesindeki **B** harfi neden Göktürk alfabesinde farklı sembollerle (gliflerle) yazılır?
+*   **Seçenekler:**
+    A) Kelimelerin anlamları farklı olduğu için.  
+    B) "Börü" ince ünlülü (ö, ü), "Bodun" kalın ünlülü (o, u) bir kelime olduğundan; ünsüz harfler de kalın/ince uyumuna göre farklı glifler alır.  
+    C) "Börü" kelimesindeki B harfi kelimenin başında olduğu için.  
+    D) Tamamen yazanın kişisel tercihine bağlıdır, kuralı yoktur.  
+*   **Doğru Cevap:** **B** (Göktürkçede ünsüzlerin çoğunun kalın ünlülerle kullanılan `𐰉` ve ince ünlülerle kullanılan `𐰋` gibi kalın-ince çiftleri vardır).
+
+#### **Soru 4 (Tek Formlu Ünsüzler - 2. Hafta)**
+*   **Soru:** Aşağıdaki Göktürkçe ünsüz harflerden hangisinin kalın veya ince ünlülerle kullanımına göre değişen bir formu **yoktur** (yani tek formlu/nötr bir harftir)?
+*   **Seçenekler:**
+    A) 𐰉 / 𐰋 (B)  
+    B) 𐰑 / 𐰓 (D)  
+    C) 𐰲 (Ç)  
+    D) 𐰽 / 𐰾 (S)  
+*   **Doğru Cevap:** **C** (Ç, M, P, Ş, Z gibi harfler nötrdür, kalınlık-incelik farkına göre değişmez).
+
+#### **Soru 5 (Çift Sesli ve Birleşik Tamgalar - 3. Hafta)**
+*   **Soru:** Göktürkçede iki sesin yan yana gelmesiyle oluşan `𐰦` (ND / NT) ve `𐰸` (OQ / UQ) gibi tamgalara ne ad verilir?
+*   **Seçenekler:**
+    A) Yarım Tamgalar  
+    B) Çift Sesli / Birleşik Tamgalar  
+    C) Yabancı Tamgalar  
+    D) Sessiz Tamgalar  
+*   **Doğru Cevap:** **B** (Birleşik sesleri karşılayan özel piktografik kökenli tamgalardır).
+
+#### **Soru 6 (Irk Bitig'in Kendine Özgü Tamgaları - 3. Hafta)**
+*   **Soru:** Eski Türkçe fal kitabı olan *Irk Bitig*’de, Orhun Yazıtları’ndan farklı olarak "koń" (koyun) ve "turńa" (turna) kelimelerinde kullanılan ve damaksal **"ny / ń"** sesini karşılayan özel tamga hangisidir?
+*   **Seçenekler:**
+    A) 𐰭 (ng)  
+    B) 𐰪 (ny / ń)  
+    C) 𐰨 (nç)  
+    D) 𐰜 (ük)  
+*   **Doğru Cevap:** **B** (Irk Bitig'de `𐰪` damgası bu kelimelerde çok karakteristik bir biçimde kullanılır).
+
+#### **Soru 7 (Tarihî Sayı Sayma Düzeni - 4. Hafta)**
+*   **Soru:** Orhun Yazıtları'ndaki sayı sayma mantığına göre yazılmış olan **"bir yegirmi"** ifadesi, günümüz sayı sisteminde hangi sayıya karşılık gelmektedir?
+*   **Seçenekler:**
+    A) 21 (Yirmi Bir)  
+    B) 11 (On Bir)  
+    C) 19 (On Dokuz)  
+    D) 12 (On İki)  
+*   **Doğru Cevap:** **B** (Eski Türkçede sayılar bir sonraki ondalık dilimin kaçıncı adımı olduğuna göre söylenirdi; "bir yegirmi" yirminin birinci adımı yani 11 demektir).
+
+#### **Soru 8 (Sayı Çözümleme - 4. Hafta)**
+*   **Soru:** Eski Türk sayı sayma mantığına göre **23** sayısı tarihi metinlerde nasıl söylenirdi?
+*   **Seçenekler:**
+    A) yirmi üç  
+    B) üç otuz (otuzun üçüncüsü)  
+    C) iki yirmi üç  
+    D) üç yegirmi  
+*   **Doğru Cevap:** **B** (Otuzun üçüncü adımı anlamına gelen "üç otuz" olarak söylenirdi).
+
+#### **Soru 9 (Mental Fiil Okuma - Genel Kültür)**
+*   **Soru:** Kül Tigin Yazıtı'nda geçen *"öd teŋri yasar, kişioγlı qop ölgeli törimiş"* (Zamanı Tanrı yaşar/yönetir, insanoğlu hep ölümlü yaratılmış) ifadesindeki **"yasar"** ve **"törimiş"** bilişsel kavramları neyi simgeler?
+*   **Seçenekler:**
+    A) İnsanın ölümsüzlüğünü  
+    B) Evrensel kozmik yasayı ve kaderin mutlak sınırlarını  
+    C) Göçebe yaşamın zorluklarını  
+    D) Savaş hazırlıklarını  
+*   **Doğru Cevap:** **B** (Kozmik zamanı ve insan hayatının kaçınılmaz sınırlarını ifade eder).
+
+#### **Soru 10 (Transliterasyon Alıştırması - Genel Uygulama)**
+*   **Soru:** Göktürk alfabesiyle yazılmış olan **`𐱅𐰇𐰼𐰜`** tamgalarının günümüz Latin harfleriyle doğru okunuşu (transliterasyonu) aşağıdakilerden hangisidir?
+*   **Seçenekler:**
+    A) Tengri  
+    B) Türk  
+    C) Töre  
+    D) Ötüken  
+*   **Doğru Cevap:** **B** (t-ü-r-k harfleriyle sağdan sola doğru "Türk" yazmaktadır).
+
+---
+
+🌊 Eğitiminizi bu eğlenceli yarışma kurgusuyla taçlandırmak öğrencilerin ilgisini fazlasıyla çekecektir. Kurs kılavuzunun veya bu bilgi yarışmasının detaylarını zenginleştirmeye devam edelim mi?

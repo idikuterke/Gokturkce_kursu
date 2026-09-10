@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Göktürkçe Broşür - A5</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Noto+Sans:+NKo+Unjoined:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @page {
+      size: 148mm 210mm;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      gap: 30px;
+    }
+
+    .page {
+      width: 148mm;
+      height: 210mm;
+      background: #0d0d0d;
+      color: #e8d5b7;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    }
+
+    /* Ornamental border pattern */
+    .page::before {
+      content: '';
+      position: absolute;
+      inset: 8px;
+      border: 2px solid #c9a227;
+      pointer-events: none;
+    }
+
+    .page::after {
+      content: '';
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(201, 162, 39, 0.4);
+      pointer-events: none;
+    }
+
+    /* Front Side */
+    .front {
+      background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #0d0d0d 100%);
+    }
+
+    .front-header {
+      padding: 25px 30px 15px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .ornament {
+      font-size: 24px;
+      color: #c9a227;
+      letter-spacing: 8px;
+      margin-bottom: 8px;
+    }
+
+    .main-title {
+      font-family: 'Cinzel', serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #c9a227;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      font-size: 11px;
+      color: #8a8a8a;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .studio-custom {
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      font-size: 9px;
+      color: #666;
+      text-align: right;
+      border-left: 1px solid #444;
+      padding-left: 10px;
+      min-width: 120px;
+    }
+
+    .studio-custom span {
+      display: block;
+      color: #c9a227;
+      font-weight: 600;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #c9a227, transparent);
+      margin: 12px 30px;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 10px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .intro-text {
+      font-size: 11px;
+      color: #999;
+      text-align: center;
+      line-height: 1.6;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+
+    .services-grid {
+      display: flex;
+      gap: 15px;
+      margin-top: 5px;
+    }
+
+    .service-box {
+      flex: 1;
+      background: rgba(201, 162, 39, 0.08);
+      border: 1px solid rgba(201, 162, 39, 0.3);
+      padding: 15px;
+      text-align: center;
+      position: relative;
+    }
+
+    .service-box::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 3px;
+      background: #c9a227;
+    }
+
+    .service-icon {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .service-title {
+      font-family: 'Cinzel', serif;
+      font-size: 14px;
+      color: #c9a227;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    .service-features {
+      list-style: none;
+      font-size: 8px;
+      color: #aaa;
+      line-height: 1.8;
+    }
+
+    .service-features li {
+      position: relative;
+      padding-left: 10px;
+    }
+
+    .service-features li::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: #c9a227;
+      font-size: 5px;
+      top: 4px;
+    }
+
+    .slogan {
+      text-align: center;
+      padding: 12px;
+      background: rgba(201, 162, 39, 0.1);
+      border-top: 1px solid rgba(201, 162, 39, 0.3);
+      border-bottom: 1px solid rgba(201, 162, 39, 0.3);
+    }
+
+    .slogan-text {
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      color: #c9a227;
+      font-style: italic;
+      letter-spacing: 2px;
+    }
+
+    .front-footer {
+      padding: 15px 30px 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta-contact {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .contact-item {
+      font-size: 9px;
+      color: #888;
+    }
+
+    .contact-item strong {
+      color: #c9a227;
+    }
+
+    /* Back Side */
+    .back {
+      background: linear-gradient(135deg, #0d0d0d 0%, #151510 50%, #0d0d0d 100%);
+    }
+
+    .back-header {
+      padding: 20px 30px 10px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .back-title {
+      font-family: 'Cinzel', serif;
+      font-size: 18px;
+      color: #c9a227;
+      letter-spacing: 3px;
+      margin-bottom: 5px;
+    }
+
+    .back-subtitle {
+      font-size: 9px;
+      color: #666;
+      letter-spacing: 2px;
+    }
+
+    .pricing-section {
+      padding: 10px 25px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .pricing-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .pricing-row {
+      display: flex;
+      background: rgba(201, 162, 39, 0.05);
+      border: 1px solid rgba(201, 162, 39, 0.2);
+      padding: 8px 12px;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pricing-type {
+      font-size: 9px;
+      color: #888;
+      width: 50px;
+    }
+
+    .pricing-type strong {
+      display: block;
+      color: #c9a227;
+      font-size: 10px;
+    }
+
+    .pricing-items {
+      flex: 1;
+      display: flex;
+      justify-content: space-around;
+      font-size: 10px;
+    }
+
+    .price-item {
+      text-align: center;
+    }
+
+    .price-label {
+      font-size: 7px;
+      color: #666;
+      margin-bottom: 2px;
+    }
+
+    .price-value {
+      color: #e8d5b7;
+      font-weight: 600;
+    }
+
+    .divider-small {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(201, 162, 39, 0.4), transparent);
+      margin: 8px 25px;
+    }
+
+    .discounts {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 0 25px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .discount-badge {
+      background: linear-gradient(135deg, #c9a227 0%, #a68520 100%);
+      color: #0d0d0d;
+      padding: 6px 12px;
+      font-size: 8px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .discount-badge span {
+      display: block;
+      font-size: 11px;
+    }
+
+    .authority-section {
+      padding: 10px 25px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .authority-title {
+      font-size: 10px;
+      color: #c9a227;
+      margin-bottom: 8px;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
+    .authority-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+
+    .authority-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      font-size: 8px;
+      color: #999;
+      line-height: 1.4;
+    }
+
+    .authority-check {
+      color: #c9a227;
+      font-weight: bold;
+      font-size: 10px;
+    }
+
+    .portfolio-section {
+      padding: 8px 25px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .portfolio-title {
+      font-size: 8px;
+      color: #666;
+      text-align: center;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    .portfolio-grid {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .portfolio-item {
+      width: 70px;
+      height: 50px;
+      background: rgba(201, 162, 39, 0.1);
+      border: 1px solid rgba(201, 162, 39, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: #c9a227;
+      position: relative;
+    }
+
+    .portfolio-item::after {
+      content: '✓';
+      position: absolute;
+      bottom: 3px;
+      right: 5px;
+      font-size: 8px;
+      color: #4a9;
+    }
+
+    .portfolio-placeholder {
+      font-size: 7px;
+      color: #666;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+    .back-footer {
+      margin-top: auto;
+      padding: 12px 25px 18px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .final-cta {
+      background: rgba(201, 162, 39, 0.1);
+      border: 1px solid rgba(201, 162, 39, 0.4);
+      padding: 10px 15px;
+      margin-bottom: 10px;
+    }
+
+    .final-cta-title {
+      font-family: 'Cinzel', serif;
+      font-size: 11px;
+      color: #c9a227;
+      margin-bottom: 5px;
+    }
+
+    .final-cta-text {
+      font-size: 8px;
+      color: #888;
+    }
+
+    .final-contact {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .final-contact-item {
+      font-size: 9px;
+      color: #aaa;
+    }
+
+    .final-contact-item strong {
+      color: #c9a227;
+    }
+
+    /* Göktürkçe sample text decoration */
+    .runic-sample {
+      font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+      font-size: 20px;
+      color: #c9a227;
+      letter-spacing: 5px;
+      text-align: center;
+      margin: 5px 0;
+    }
+
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+      .page {
+        box-shadow: none;
+        page-break-after: always;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ÖN YÜZ -->
+  <div class="page front">
+    <div class="front-header">
+      <div class="ornament">◆ ◇ ◆</div>
+      <div class="main-title">GÖKTÜRKÇE</div>
+      <div class="subtitle">Doğrulama & Yazım</div>
+      <div class="studio-custom">
+        <span>___</span> Dövme Stüdyosuna Özel
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="main-content">
+      <p class="intro-text">
+        Piyasadaki Göktürkçe dövmelerin büyük kısmı yanlış yazılmış.<br>
+        <strong style="color: #c9a227;">Sizin stüdyonuz farkı yapabilir.</strong>
+      </p>
+
+      <div class="services-grid">
+        <div class="service-box">
+          <div class="service-icon">✎</div>
+          <div class="service-title">YAZIYORUM</div>
+          <ul class="service-features">
+            <li>Metni Göktürkçe'ye aktarıyorum</li>
+            <li>3 farklı stil seçeneği</li>
+            <li>SVG + PDF + PNG teslim</li>
+            <li>Her dosyada benzersiz QR kod</li>
+          </ul>
+        </div>
+
+        <div class="service-box">
+          <div class="service-icon">✓</div>
+          <div class="service-title">DOĞRULUYORUM</div>
+          <ul class="service-features">
+            <li>Mevcut yazıyı kural-tam kontrol</li>
+            <li>Onay veya düzeltme raporu</li>
+            <li>QR kodlu doğrulama belgesi</li>
+            <li>24-48 saat teslim</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slogan">
+        <div class="runic-sample">�台山𐱃𐰸</div>
+        <div class="slogan-text">"Doğru yazılsın, kalıcı olsun."</div>
+      </div>
+    </div>
+
+    <div class="front-footer">
+      <div class="cta-contact">
+        <div class="contact-item"><strong>WhatsApp</strong> 0XXX XXX XX XX</div>
+        <div class="contact-item"><strong>onozlabs.com</strong></div>
+        <div class="contact-item"><strong>@onozlabs</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARKA YÜZ -->
+  <div class="page back">
+    <div class="back-header">
+      <div class="back-title">FİYATLAR & OTORİTE</div>
+      <div class="back-subtitle">Neden Onoz Labs?</div>
+    </div>
+
+    <div class="pricing-section">
+      <div class="pricing-grid">
+        <div class="pricing-row">
+          <div class="pricing-type">
+            <strong>Kısa</strong>
+            1-2 kelime
+          </div>
+          <div class="pricing-items">
+            <div class="price-item">
+              <div class="price-label">Yazım</div>
+              <div class="price-value">550 ₺</div>
+            </div>
+            <div class="price-item">
+              <div class="price-label">Doğrulama</div>
+              <div class="price-value">300 ₺</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-row">
+          <div class="pricing-type">
+            <strong>Orta</strong>
+            3-5 kelime
+          </div>
+          <div class="pricing-items">
+            <div class="price-item">
+              <div class="price-label">Yazım</div>
+              <div class="price-value">950 ₺</div>
+            </div>
+            <div class="price-item">
+              <div class="price-label">Doğrulama</div>
+              <div class="price-value">550 ₺</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-row">
+          <div class="pricing-type">
+            <strong>Uzun</strong>
+            Cümle+
+          </div>
+          <div class="pricing-items">
+            <div class="price-item">
+              <div class="price-label">Yazım</div>
+              <div class="price-value">1.650 ₺</div>
+            </div>
+            <div class="price-item">
+              <div class="price-label">Doğrulama</div>
+              <div class="price-value">850 ₺</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-small"></div>
+
+    <div class="discounts">
+      <div class="discount-badge">
+        <span>−%15</span>
+        5+ sipariş
+      </div>
+      <div class="discount-badge">
+        <span>−%25</span>
+        10+ sipariş
+      </div>
+      <div class="discount-badge">
+        <span>−%20</span>
+        İlk sipariş
+      </div>
+    </div>
+
+    <div class="divider-small"></div>
+
+    <div class="authority-section">
+      <div class="authority-title">NEDEN ONOZ LABS?</div>
+      <div class="authority-grid">
+        <div class="authority-item">
+          <span class="authority-check">✓</span>
+          <span>15 yıllık Göktürkçe uzmanlığı, kurs hazırlığı sürecinde</span>
+        </div>
+        <div class="authority-item">
+          <span class="authority-check">✓</span>
+          <span>Türk Dili Derneği çevresinde irtibatlı</span>
+        </div>
+        <div class="authority-item">
+          <span class="authority-check">✓</span>
+          <span>Kendi geliştirdiğim doğrulama sistemi — 15+ yazıt kuralı</span>
+        </div>
+        <div class="authority-item">
+          <span class="authority-check">✓</span>
+          <span>QR kodlu "Doğrulama Belgesi" — müşteriye somut güven</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-section">
+      <div class="portfolio-title">SON İŞLERİMİZDEN ÖRNEKLER</div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">𐰖</div>
+        <div class="portfolio-item">𐱃</div>
+        <div class="portfolio-item">𐰸</div>
+      </div>
+      <div class="portfolio-placeholder">(Broşür tasarım aşamasında — JPG/PNG eklenebilir)</div>
+    </div>
+
+    <div class="back-footer">
+      <div class="final-cta">
+        <div class="final-cta-title">İLK KELİMENİZ İÇİN BUGÜN:</div>
+        <div class="final-cta-text">Size özel tasarım veya mevcut dövmenizi doğrulatalım</div>
+      </div>
+      <div class="final-contact">
+        <div class="final-contact-item"><strong>WhatsApp</strong> 0XXX XXX XX XX</div>
+        <div class="final-contact-item"><strong>onozlabs.com</strong></div>
+        <div class="final-contact-item"><strong>@onozlabs</strong></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

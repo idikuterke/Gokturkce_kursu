@@ -1,0 +1,91 @@
+Göktürkçe Sayılar: Tarihsel Mantık ve Yazım Çalışma Yaprağı
+
+Öğrenim Hedefleri
+
+Bu çalışma yaprağını başarıyla tamamladığınızda;
+
+* Eski Türkçenin günümüzden farklı olan "hedef onluk" merkezli sayı mantığını kavrayacak,
+* Prof. Dr. Aysu Ata’nın filolojik disiplini olan "parantezli transkripsiyon" yöntemini uygulayacak,
+* Talat Tekin gramer sistemine uygun olarak, ünlü uyumuna göre doğru runik harfleri seçip sağdan sola yazabileceksiniz.
+
+1. Teorik Özet: Eski Türkçede Sayıların Matematiksel Mantığı
+
+Göktürk Yazıtları’nda karşılaştığımız sayı sistemi, modern Türkçedeki toplama (20 + 1 = 21) mantığına dayanmaz. Eski Türk zihninde sayı sistemi bulunulan birimi değil, ulaşılmak istenen bir sonraki onluğu referans alan "progresif" (ilerleyici) bir yapıdadır.
+
+* Mantık: Birlik Sayı + Referans Alınan (Hedeflenen) Onluk
+* Örnek: "12" sayısı için Eski Türk, "Yirmiye yönelen ikinci sayı" mantığıyla eki yegirmi der. "21" sayısı için ise "Otuz yolundaki birinci sayı" anlamında bir otuz ifadesini kullanır.
+
+Temel Sayı Tablosu (Talat Tekin Sistemine Göre)
+
+Rakam	Göktürkçe (Birlik)	Onluk Karşılığı	Göktürkçe (Onluk)
+1	bir	10	on
+2	eki	20	yegirmi
+3	üç	30	otuz
+4	tört	40	kırk
+5	biş	50	elig
+6	altı	60	altm(ı)ş
+7	yiti	70	yitmiş
+8	sekiz	80	sekiz on
+9	to͡kuz	90	to͡kuz on
+
+Önemli Not: Orhun Yazıtları'nda 50, 60 ve 70 sayıları (elig, altmıis, yitmiş) özgün köklere sahipken; 80 ve 90 sayıları sekiz on ve tokuz on şeklinde kurulur.
+
+2. Aysu Ata Disiplini: Transkripsiyon ve Parantez Kuralları
+
+Eski Türk dili çalışmalarında Prof. Dr. Aysu Ata’nın uyguladığı yöntem, metne karşı dilbilimsel bir dürüstlük sergilemeyi esas alır.
+
+1. Parantez Disiplini: Göktürk yazısında bazı ünlüler (özellikle söz başı /a/ ve /ä/ sesleri ile ilk hece dışındaki düz-dar ünlüler) taş üzerine fiziksel olarak yazılmaz [Source Image 25]. Metinde görsel olarak bulunmayan ancak dilin fonetik yapısı gereği okunan bu sesler, transkripsiyonda parantez içinde ( ) gösterilir. Örnek: yeg(i)rmi.
+2. Ligatür Arkı: Harf birleşimlerindeki özel fonetik değerleri belirtmek için harflerin üzerine bir ark (yay) eklenir. Örnek: to͡kuz.
+
+3. Alıştırma 1: "Kaç Olduğunu Bul" (Eşleştirme)
+
+Aşağıdaki Göktürkçe ifadeleri, tarihsel matematiksel mantığa göre günümüz rakam karşılıklarıyla eşleştiriniz.
+
+Göktürkçe Transkripsiyon	Günümüz Karşılığı (Rakam)
+eki yeg(i)rmi	__________
+altı otuz	__________
+to͡kuz yitmiş	__________
+sekiz elig	__________
+bir otuz	__________
+
+4. Alıştırma 2: Runik Yazım Pratiği (Sağdan Sola)
+
+Göktürk alfabesiyle yazarken en kritik kural şudur: Yazım her zaman SAĞDAN SOLA doğru yapılır. Ayrıca, kelimedeki ünlülerin kalın (art) veya ince (ön) oluşuna göre doğru ünsüz karakteri seçilmelidir.
+
+Talat Tekin Gramerine Göre Harf Rehberi:
+
+* b (ince/ön): 𐰋 (İnce ünlülü 'bir' kelimesi için bu karakter kullanılır)
+* i / ı: 𐰃
+* r (ince/ön): 𐰼
+* o / u: 𐰆
+* t (kalın/art): 𐱃 ('otuz' kelimesi kalın ünlülü olduğu için bu karakter seçilir)
+* z: 𐰯
+
+Görev: "bir otuz" (21) ifadesini aşağıdaki kutucuklara, her kutuya bir harf gelecek şekilde sağdan sola doğru yazınız.
+
+6	5	4	[BOŞLUK]	3	2	1
+(z)	(u)	(t)		(r)	(i)	(b)
+...	...	...		...	...	...
+
+5. Çözümlü Cevap Anahtarı ve Dilbilimsel Gerekçeler
+
+Alıştırma 1 Cevapları:
+
+1. eki yeg(i)rmi = 12
+  * Gerekçe: Göktürkçe, birimin hedeflenen onluğa yöneldiği ilerleyici bir sıra sistemi kullanır. Bu örnekte 20’ye (yegirmi) yönelen 2. sayı kastedilmiştir.
+2. altı otuz = 26
+  * Gerekçe: 30’a (otuz) yönelen 6. sayı olduğu için.
+3. to͡kuz yitmiş = 69
+  * Gerekçe: 70’e (yitmiş) yönelen 9. sayı olduğu için.
+4. sekiz elig = 48
+  * Gerekçe: 50’ye (elig) yönelen 8. sayı olduğu için.
+5. bir otuz = 21
+  * Gerekçe: 30’a yönelen 1. sayı olduğu için.
+
+Alıştırma 2 Cevapları (Runik Analiz):
+
+* bir: 𐰼𐰃𐰋 (Sağdan sola: b-i-r. Not: 'bir' kelimesi ön ünlülü olduğu için ince 'b' 𐰋 ve ince 'r' 𐰼 kullanılmıştır.)
+* otuz: 𐰯𐱃𐰆 (Sağdan sola: o-t-u-z. Not: Yazıtlarda 'otuz' kelimesindeki ilk /o/ ve /u/ sesleri 𐰆 karakteriyle gösterilir, 't' ise kalın/art karakterli 𐱃 ile yazılır.)
+* bir otuz (21): 𐰯𐱃𐰆 𐰼𐰃𐰋
+
+Yazar Notu: Göktürkçenin sayı sistemindeki bu ileriye dönük mantık, Türklerin o dönemdeki zaman algısını ve matematiksel estetiğini yansıtır. Yazımda "ince/ön" ve "kalın/art" uyumuna dikkat ederek bu zorlu alfabeyi başarıyla uyguladınız. Tebrikler!

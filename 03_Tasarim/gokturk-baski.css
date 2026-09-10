@@ -1,0 +1,312 @@
+/* ============================================================
+   BENGÜ TAŞ — Göktürkçe Okuma-Yazma Kursu · Baskı Tasarım Sistemi
+   A4 dikey · print-first · Old Turkic font gömmeli
+   ============================================================ */
+
+@font-face {
+  font-family: 'Noto Sans Old Turkic';
+  src: url('../fontlar/NotoSansOldTurkic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Turk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/turkbitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BabelStone Irk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/BabelStoneIrkBitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fontlar/SourceSerif4.ttf') format('truetype');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fontlar/JetBrainsMono.ttf') format('truetype');
+  font-weight: 100 800;
+}
+
+:root {
+  --kagit:   #FBF7EE;   /* sıcak kâğıt */
+  --kagit2:  #FDFAF2;   /* fal kutusu zemin */
+  --murekkep:#2A211A;   /* sıcak siyah mürekkep */
+  --tas:     #6E5A45;   /* taş kahve, ikincil metin */
+  --okr:     #A97B32;   /* okr / bengü altın, vurgu */
+  --kirmizi: #A6331F;   /* Irk Bitig kırmızı mürekkep */
+  --cizgi:   #D9CCB2;   /* saç çizgisi */
+  --panel:   #F2EAD8;   /* bilgi kartı zemini */
+  --bant:    #2A211A;   /* yaprak bandı */
+}
+
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 8.5pt;
+    color: #6E5A45;
+  }
+}
+
+html, body {
+  margin: 0; padding: 0;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* ---------- Runik metin ---------- */
+.runic {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', 'BabelStone Irk Bitig', serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.5em;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.tamga-buyuk { font-size: 2.1em; }
+.tamga-okr   { color: var(--okr); }
+.tamga-krmz  { color: var(--kirmizi); }
+
+.cevrim {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  color: var(--tas);
+}
+
+/* ---------- Kapak ---------- */
+.kapak {
+  height: 246mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  page-break-after: always;
+}
+.kapak-friz {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', serif;
+  direction: rtl;
+  color: var(--okr);
+  font-size: 26pt;
+  letter-spacing: 0.18em;
+  text-align: center;
+  line-height: 1.3;
+}
+.kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--kirmizi);
+  text-transform: uppercase;
+  margin-bottom: 6mm;
+}
+.kapak h1 {
+  font-size: 31pt;
+  font-weight: 800;
+  line-height: 1.14;
+  margin: 0 0 5mm 0;
+  letter-spacing: -0.01em;
+}
+.kapak .alt-baslik {
+  font-size: 12.5pt;
+  color: var(--tas);
+  margin: 0 0 10mm 0;
+}
+.cift-cizgi {
+  border-top: 2.5px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  height: 3px; margin: 7mm 0;
+}
+.kapak-meta {
+  font-size: 10pt;
+  border-top: 1px solid var(--cizgi);
+  padding-top: 4mm;
+  color: var(--murekkep);
+}
+.kapak-meta table { width: 100%; border-collapse: collapse; }
+.kapak-meta td { padding: 1.1mm 0; vertical-align: top; }
+.kapak-meta td.k { width: 34mm; color: var(--tas); font-family:'JetBrains Mono',monospace; font-size:8.5pt; letter-spacing:0.06em; }
+
+/* ---------- Bölüm yapısı ---------- */
+.bolum { page-break-before: always; }
+.bolum-kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.3em;
+  color: var(--okr); text-transform: uppercase;
+  margin-bottom: 1.5mm;
+}
+.bolum-baslik {
+  font-size: 19pt; font-weight: 800; line-height: 1.2;
+  margin: 0 0 2mm 0;
+}
+.bolum-ozet { color: var(--tas); font-size: 10pt; margin: 0 0 5mm 0; }
+.bolum hr.baslik-cizgi { border: none; border-top: 2.5px solid var(--okr); margin: 0 0 5mm 0; }
+
+h3.alt-baslik {
+  font-size: 12.5pt; font-weight: 700;
+  margin: 6mm 0 2mm 0;
+  color: var(--murekkep);
+}
+h3.alt-baslik .no { color: var(--kirmizi); font-family:'JetBrains Mono',monospace; font-size:9pt; margin-right:2mm; }
+
+h4.mini {
+  font-size: 10.5pt; font-weight: 700; margin: 4mm 0 1.5mm 0;
+}
+
+p { margin: 0 0 2.6mm 0; text-align: justify; }
+ul, ol { margin: 0 0 2.6mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+
+/* ---------- Paneller ve tablolar ---------- */
+.bilgi-karti {
+  background: var(--panel);
+  border: 1px solid var(--cizgi);
+  border-top: 3px solid var(--okr);
+  padding: 4mm 5mm 3mm 5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+}
+.bilgi-karti .bk-baslik {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--okr); margin-bottom: 2.2mm;
+}
+.bilgi-karti p:last-child, .bilgi-karti ul:last-child { margin-bottom: 0; }
+
+table.tablo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 4.5mm 0;
+  font-size: 10pt;
+}
+table.tablo th {
+  background: #EFE6D2;
+  border-top: 2px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  padding: 2mm 2.5mm;
+  text-align: left;
+  font-size: 9pt;
+  letter-spacing: 0.04em;
+}
+table.tablo td {
+  border-bottom: 1px solid var(--cizgi);
+  padding: 1.8mm 2.5mm;
+  vertical-align: top;
+}
+table.tablo tr:last-child td { border-bottom: 1px solid var(--tas); }
+table.tablo .merkez { text-align: center; }
+
+.fal-kutusu {
+  border: 1px solid var(--cizgi);
+  border-left: 3px solid var(--kirmizi);
+  background: var(--kagit2);
+  padding: 4mm 5mm;
+  margin: 2.5mm 0 4mm 0;
+  page-break-inside: avoid;
+}
+.fal-kutusu .runik-satir {
+  text-align: center;
+  font-size: 13pt;
+  margin: 2mm 0 2.5mm 0;
+}
+
+/* ---------- Alıştırma ve cevap ---------- */
+.alisirma { margin: 0 0 4mm 0; page-break-inside: avoid; }
+.alisirma-no {
+  color: var(--kirmizi); font-weight: 700;
+  font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9pt;
+}
+.blank {
+  display: inline-block;
+  min-width: 55mm;
+  border-bottom: 1px dotted var(--tas);
+  height: 3.6mm;
+}
+.blank-uzun { min-width: 120mm; }
+.egitmen-tag {
+  display: inline-block;
+  color: var(--kirmizi);
+  border: 1px solid var(--kirmizi);
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 7.5pt; letter-spacing: 0.14em;
+  padding: 0.3mm 1.8mm;
+  margin-left: 2mm;
+  vertical-align: 2px;
+}
+.cevap-blok { page-break-inside: avoid; }
+.cevap-blok .runic { color: var(--murekkep); }
+
+/* ---------- Yaprak bandı ---------- */
+.yaprak-bant {
+  background: var(--bant);
+  color: var(--kagit);
+  padding: 3mm 4.5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+.yaprak-bant .yb-ust {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8pt; letter-spacing: 0.26em; color: var(--okr);
+  text-transform: uppercase;
+}
+.yaprak-bant .yb-baslik { font-size: 15pt; font-weight: 700; line-height: 1.25; margin-top: 1mm; }
+
+/* ---------- Sınav ve kimlik satırları ---------- */
+.cevap-satiri {
+  border-bottom: 1px dotted var(--tas);
+  height: 7mm;
+  margin: 0 0 2.2mm 0;
+}
+.soru { margin: 0 0 5.5mm 0; page-break-inside: avoid; }
+.soru .soru-baslik { font-weight: 700; }
+.soru .puan {
+  float: right;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  color: var(--kirmizi);
+  letter-spacing: 0.06em;
+}
+.kimlik-satir {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1mm 0 5mm 0;
+}
+.kimlik-satir td {
+  border-bottom: 1px solid var(--tas);
+  padding: 0.6mm 2mm;
+  font-size: 10pt;
+}
+.kimlik-satir td.lb {
+  border: none;
+  width: 34mm;
+  padding-left: 0;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  color: var(--tas);
+}
+
+/* ---------- Not / dip ---------- */
+.not { font-size: 8.8pt; color: var(--tas); }
+.kaynak-not {
+  border-top: 1px solid var(--cizgi);
+  margin-top: 6mm; padding-top: 2.5mm;
+  font-size: 8.8pt; color: var(--tas);
+}
+.kirmizi-not { color: var(--kirmizi); }
+
+/* ---------- İki sütunlu karşılaştırma ---------- */
+.karsilastirma { display: flex; gap: 4mm; margin: 2mm 0 4mm 0; page-break-inside: avoid; }
+.karsilastirma .kolon {
+  flex: 1; border: 1px solid var(--cizgi); padding: 3mm 4mm; background: var(--kagit2);
+}
+.karsilastirma .kolon h5 {
+  margin: 0 0 1.5mm 0; font-size: 10pt; font-weight: 700;
+  border-bottom: 2px solid var(--okr); padding-bottom: 1.5mm;
+}
+.karsilastirma .kolon ul { margin: 0; padding-left: 4.5mm; }

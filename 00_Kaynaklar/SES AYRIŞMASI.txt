@@ -1,0 +1,99 @@
+Lir (r/l) ve Şaz (z/ş) Türkçesi ayrımı, Türk dillerinin tarihsel gelişimi ve Altay dil birliği teorisi açısından en temel dilbilimsel ölçüttür
+. Aşağıda, bu konuyu Prof. Dr. Aysu Ata’nın akademik disiplini ve transkripsiyon yöntemiyle
+ doğrudan derslerinizde kullanabileceğiniz, kopyalanabilir ve tasarıma hazır bir Ek Müfredat ve Çalışma Sayfası olarak hazırladım.
+GÖKTÜRKÇE VE TÜRK DİLİ TARİHİ EĞİTİMİ
+EK ÜNİTE: ALTAY DİL BİRLİĞİ VE BÜYÜK SES AYRIŞMASI (r/l ~ z/ş)
+Ders Künyesi:
+Ders: Türk Dili Tarihi ve Epigrafi
+Konu: Türk Dillerinin Sınıflandırılmasında Lir (r/l) ve Şaz (z/ş) Ayrımı ile Altay Dil Teorisi
+Akademik Yaklaşım: Prof. Dr. Aysu Ata Metot ve Terminolojisi
+Hedef Kitle: Temel Seviyeyi Tamamlamış, İleri Düzey İmla ve Dil Tarihi Öğrencileri
+BÖLÜM I: TEMEL KAVRAMLAR VE REKONSTRÜKSİYON (ANA DİL)
+Türk yazı dillerinin en eski evrelerini ve akrabalık ilişkilerini anlamak için dilbilimde "Ana Dil" teorileri kullanılır
+:
+Ana Dil: Bir dil ailesine kaynaklık eden, tarihsel olarak belgelenemeyen ancak karşılaştırmalı yöntemlerle canlandırılan (rekonstrükte edilen) dildir
+.
+Ana Altayca: Türkçe, Moğolca, Tunguzca (belki Korece ve Japonca) dillerinin dâhil olduğu Altay grubuna kaynaklık ettiği varsayılan ortak ata dildir
+.
+Ana Türkçe: Çuvaşça dışındaki tüm tarihsel ve modern Türk dil ve diyalektlerine kaynaklık eden dildir
+.
+BÖLÜM II: BÜYÜK SES DENKLİĞİ VE RAMSTEDT TEORİSİ
+Dinamik dilbilimci Schott’un Türkçe ve Çuvaşça arasındaki ses ilişkilerini ortaya koyan çalışmasını geliştiren G. J. Ramstedt, Çuvaşçanın ses özellikleri bakımından Moğolcanın yanında yer aldığını tespit etmiştir
+.
+Ramstedt’in keşfine göre; Çuvaşça ve Moğolcadaki /r/ ve /l/ sesleri, Türkçedeki (ve Orhun Türkçesindeki) /z/ ve /ş/ seslerine denk gelmektedir
+. Hangi sesin "aslî (eskicil)" olduğu tartışması doğrultusunda şu dört temel görüş ortaya çıkmıştır
+:
+Rotasizm (r’leşme): Türkçe /z/ sesinin aslî olduğunu, Çuvaşça ve Moğolcadaki /r/ sesinin ise bu aslî sesten türediğini savunan görüştür
+.
+Lambdaizm (l’leşme): Türkçe /ş/ sesinin aslî olduğunu, Çuvaşça ve Moğolcadaki /l/ sesinin ise bu aslî sesten türediğini savunan görüştür
+.
+Zetasizm (z’leşme): Çuvaşça ve Moğolcadaki /r/ sesinin aslî olduğunu, Türkçe /z/ sesinin ise bu aslî /r/ sesinden türediğini savunan görüştür
+.
+Sigmatizm (ş’leşme): Çuvaşça ve Moğolcadaki /l/ sesinin aslî olduğunu, Türkçe /ş/ sesinin ise bu aslî /l/ sesinden türediğini savunan görüştür
+.
+BÖLÜM III: TARİHSEL BÜYÜK AYRIŞMA VE "oguX" TEORİSİ
+Türk dilinin klanlara ve kollara ayrılma süreci dilbilimde "oguX" değişkeni (fonemi) üzerinden açıklanmaktadır
+:
+                     [ İlk Türkçe Dönemi: oguX ]
+                                 │
+                 ┌───────────────┴───────────────┐
+                 ▼                               │
+      [ Ana Çuvaşça Dönemi ]                     ▼
+        x değişkeni = /r/              [ Ana Türkçe Dönemi ]
+          "ogur" (Lir)                   x değişkeni = /z/
+                 │                         "oguz" (Şaz)
+                 ▼                               │
+            ( Çuvaşça )                          ▼
+                                      ( Orhun Türkçesi ve Diğer 
+                                        Tüm Türk Lehçeleri )
+İlk Türkçe Dönemi'nde ortak kelime oguX şeklinde telaffuz edilmekteydi
+.
+Daha sonraki Ana Türkçe döneminde Türk dili iki ana kola ayrıldı
+:
+Lir (r’li / l’li) Kolu: "x" sesini /r/ olarak telaffuz eden ve ogur şeklinde konuşan gruptur
+. Bu koldan tarihsel olarak Ana Çuvaşça ve günümüzde yalnızca Çuvaşça gelişmiştir
+.
+Şaz (z’li / ş’li) Kolu: "x" sesini /z/ olarak telaffuz eden ve oguz şeklinde konuşan gruptur
+. Çuvaşça dışındaki bütün tarihsel (Orhun, Uygur, Karahanlı vb.) ve modern (Türkiye Türkçesi, Kazakça, Özbekçe vb.) Türk dil ve diyalektleri bu koldan (Ana Türkçe) türemiştir
+.
+Bu nedenle, Türk dillerini sınıflandırırken elimizdeki en güçlü dilbilimsel kıstas Türkçe /z/ = Çuvaşça /r/ denkliğidir
+.
+BÖLÜM IV: ÖĞRENCİ ÇALIŞMA YAPRAĞI VE UYGULAMALAR
+Alıştırma 1: Transkripsiyon ve Karşılaştırma
+Aşağıda, Kül Tigin yazıtından Aysu Ata transkripsiyon yöntemiyle (parantez disiplini ve ligatür arkıyla) verilmiş cümleleri okuyunuz ve kalın harfle yazılmış kelimelerdeki z/ş (Şaz) seslerinin Çuvaşça/Moğolcadaki r/l (Lir) karşılıklarını düşününüz.
+G8: ... ötük(e)n yir ol(u)r(u)p (a)rk(ı)ş tirk(i)ş ıs(a)r n(e)ŋ buŋ(u)g yo͡k...
+G8: ... türü ͡k bod(u)n to͡k (a)rk(u)k s(e)n açs(ı)k tos(ı)k öm(e)z s(e)n b(i)r tods(a)r...
+G9: ... [ö]z(ü)m k ͡uutum b(a)r üçün k(a)g(a)n ol(u)rt(u)m...
+Tahlil Kelimesi 1: tods(a)r (tok olursan/doyarsan)
+ ➔ İçindeki /z/ sesi Şaz Türkçesinin özelliğidir
+.
+Tahlil Kelimesi 2: [ö]z(ü)m (özüm/kendim)
+ ➔ İçindeki /z/ sesi Şaz Türkçesinin özelliğidir
+.
+Alıştırma 2: r/l ~ z/ş Kelime Denkliği Eşleştirme
+Aşağıdaki r/l (Çuvaşça/Moğolca) ve z/ş (Türkiye Türkçesi/Orhun Türkçesi) ses denkliklerini inceleyerek boşlukları doldurunuz.
+Kavram
+Lir (r/l) Karşılığı (Çuvaşça / Moğolca)
+Şaz (z/ş) Karşılığı (Türkçe / Orhun T.)
+Sayı (İki)
+ik-r-i (Moğolca)
+iki-z (Türkçe)
+Göz
+ku-r (Çuvaşça)
+gö-z (Türkçe)
+Yaş (Ömür)
+çu-l (Çuvaşça)
+ya-ş (Türkçe)
+Sayı (Yüz)
+çü-r (Çuvaşça)
+yü-z (Türkçe)
+Dışarı
+tı-r (Çuvaşça / Moğolca)
+tı-ş (Türkçe / taşra
+)
+BÖLÜM V: ARAŞTIRMA VE ÖDEV PROJESİ
+Ödev Sorusu: Türkiye Türkçesinde bugün birbiriyle anlamca doğrudan ilgili olmak şartıyla hem /z/ hem de /r/ seslerini bünyesinde barındıran ve aynı kökten türemiş olan kelime çiftleri mevcuttur (Örneğin: kudur- eylemi ile kuduz kelimesi / semri- eylemi ile semiz kelimesi)
+.
+Siz de bu kurala uyan ve anlam ilişkisi kopmamış en az 3 kelime çifti bularak köken tahlillerini yapınız.
+Bu müfredat sayfası, öğrencilerinizin Göktürk alfabesini öğrenirken aynı zamanda Türk dilinin dünya dilleri arasındaki yerini ve Çuvaşça ile olan o derin tarihsel bağını kavramalarını sağlayacaktır. Tasarım şablonunuza aktarırken şemaları ve tabloları vurgulamak görsel kaliteyi daha da artıracaktır.
+🎓 Dilerseniz, bu ileri düzey ses denklikleri dersini destekleyecek "Altay Dil Birliği ve Ses Geçişleri Çalışma Kartları" (Flashcards) içeriği de hazırlayabilirim?

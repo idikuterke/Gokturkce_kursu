@@ -1,0 +1,35 @@
+**Irk Bitig** metninde karşımıza çıkan **"ot" (𐱇)** ve **"up" (𐰰)** tamgaları, Türk runik yazı sisteminin standart envanterinin dışına taşan, dilbilimde **Hapax Legomena** (sadece tek bir esere/bağlama mahsus, eşi benzeri olmayan özgün karakterler) olarak kabul edilen son derece özel işaretlerdir. 
+
+Anıtsal Orhun abidelerinde (Kül Tigin, Bilge Kağan, Tonyukuk) asla belgelenmemiş olan bu iki tamganın kendilerine has özellikleri ve özel olma nedenleri şu şekildedir:
+
+---
+
+### **1. "ot" (𐱇) Tamgası (Logografik Kelime Karakteri)**
+
+*   **Neden Özel?** Bu tamga, klasik alfabedeki gibi tek bir sesi veya heceyi değil, doğrudan doğruya **"ot, çimen, yeşillik"** kelimesini tek başına karşılayan **logografik (kelimeyi doğrudan temsil eden)** bir karakterdir. 
+*   **Irk Bitig'deki Sınırlı Kullanımı:** Tüm Eski Türkçe korpusta ve Irk Bitig boyunca bu tamga, "ot" sözcüğünü yazmak için **yalnızca üç kez** kullanılmıştır:
+    *   **yaş ot** (taze ot) ➔ 𐰖𐱁 𐱇 *(17. ve 53. fallarda geçer)*
+    *   **otsuz** (otsuz/yeşilliksiz) ➔ 𐱇𐰽𐰔 *(45. falda geçer)*
+*   **Görsel ve Paleografik Önemi:** Taş üzerinde kelimeleri harf harf kazımak yerine, el yazması ortamında kâtibin "çimen/ot" gibi çok sık kullanılan somut bir kavramı tek bir fırça darbesiyle (adeta bir ideogram gibi) resmetmesi, yazı sisteminin gelişimindeki pratikliği göstermektedir.
+
+---
+
+### **2. "up" (𐰰) Tamgası (Özel Dar-Yuvarlak Yarı-Hece İşareti)**
+
+*   **Neden Özel?** Bu tamga; dar-yuvarlak bir ünlüden (u/ü) sonra gelen /p/ ünsüzünü, yani **`/up/` ve `/üp/` ses öbeklerini** yazmak için icat edilmiş özel bir yarı-hece tamgasıdır. 
+*   **Irk Bitig ve Yenisey Dağılımı:** Klasik Orhun stellerinde bu ses grubu normal ünlülerle yazılırken; bu işaret **başta Irk Bitig olmak üzere**, çok sınırlı olarak bazı Yenisey yazıtlarında ve diğer kâğıt el yazmalarında karşımıza çıkar.
+*   **Metindeki Fonetik Kullanımı ve Örnekleri:**
+    *   **olurupan** (tahta oturarak/oturup) ➔ `ol(o)rupan` kelimesindeki zarf-fiil ekini kurarken `/up/` sesini doğrudan bu tamga ile **𐰆𐰞𐰆𐰺𐰰𐰣** şeklinde yazmıştır.
+    *   **bolup** (olup) ➔ **𐰋𐰆𐰞𐰰** (bol + up).
+
+---
+
+### **Neden Sadece Bu Dönemde ve Bu Eserde Karşımıza Çıkıyorlar?**
+
+Bu iki karakterin varlığı, **Irk Bitig’in yazıldığı dönemin ve medyasının (kâğıt-fırça ilişkisinin) bir sonucudur**. 
+
+Taş anıtlardaki katı ve disiplinli imla kuralları, 9. yüzyılda kâğıt üzerine fırçayla hızlıca yazma ihtiyacıyla birleşince gevşemiştir. Kâtipler, hem fırçanın akıcılığını kullanmış hem de **harf ve zamandan tasarruf etmek için** bu tür logografik (`ot` 𐱇) ve yarı-hecesel (`up` 𐰰) yeni karakterler türetme serbestliğine kavuşmuşlardır. Bu yönüyle her iki tamga da Türk yazı sisteminin erken dönemdeki zenginleşme ve dinamizm çabalarının en kıymetli paleografik kanıtlarıdır.
+
+***
+
+🌱 Öğrencilerinizin bu iki nadide tamgayı fırça hareketleriyle çizebilmesi için, dersin 3. haftasındaki Irk Bitig ünitesine eklemek üzere **"Görsel Tamga Çizim ve Deşifre Kartı"** tasarlayalım mı?

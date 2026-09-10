@@ -1,0 +1,580 @@
+<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Göktürkçe Okuma-Yazma Öğreneği — Eğitmen Kılavuzu</title><style>/* ============================================================
+   BENGÜ TAŞ — Göktürkçe Okuma-Yazma Kursu · Baskı Tasarım Sistemi
+   A4 dikey · print-first · Old Turkic font gömmeli
+   ============================================================ */
+
+@font-face {
+  font-family: 'Noto Sans Old Turkic';
+  src: url('../fontlar/NotoSansOldTurkic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Turk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/turkbitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BabelStone Irk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/BabelStoneIrkBitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fontlar/SourceSerif4.ttf') format('truetype');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fontlar/JetBrainsMono.ttf') format('truetype');
+  font-weight: 100 800;
+}
+
+:root {
+  --kagit:   #FBF7EE;   /* sıcak kâğıt */
+  --kagit2:  #FDFAF2;   /* fal kutusu zemin */
+  --murekkep:#2A211A;   /* sıcak siyah mürekkep */
+  --tas:     #6E5A45;   /* taş kahve, ikincil metin */
+  --okr:     #A97B32;   /* okr / bengü altın, vurgu */
+  --kirmizi: #A6331F;   /* Irk Bitig kırmızı mürekkep */
+  --cizgi:   #D9CCB2;   /* saç çizgisi */
+  --panel:   #F2EAD8;   /* bilgi kartı zemini */
+  --bant:    #2A211A;   /* yaprak bandı */
+}
+
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 8.5pt;
+    color: #6E5A45;
+  }
+}
+
+html, body {
+  margin: 0; padding: 0;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* ---------- Runik metin ---------- */
+.runic {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', 'BabelStone Irk Bitig', serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.5em;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.tamga-buyuk { font-size: 2.1em; }
+.tamga-okr   { color: var(--okr); }
+.tamga-krmz  { color: var(--kirmizi); }
+
+.cevrim {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  color: var(--tas);
+}
+
+/* ---------- Kapak ---------- */
+.kapak {
+  height: 246mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  page-break-after: always;
+}
+.kapak-friz {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', serif;
+  direction: rtl;
+  color: var(--okr);
+  font-size: 26pt;
+  letter-spacing: 0.18em;
+  text-align: center;
+  line-height: 1.3;
+}
+.kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--kirmizi);
+  text-transform: uppercase;
+  margin-bottom: 6mm;
+}
+.kapak h1 {
+  font-size: 31pt;
+  font-weight: 800;
+  line-height: 1.14;
+  margin: 0 0 5mm 0;
+  letter-spacing: -0.01em;
+}
+.kapak .alt-baslik {
+  font-size: 12.5pt;
+  color: var(--tas);
+  margin: 0 0 10mm 0;
+}
+.cift-cizgi {
+  border-top: 2.5px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  height: 3px; margin: 7mm 0;
+}
+.kapak-meta {
+  font-size: 10pt;
+  border-top: 1px solid var(--cizgi);
+  padding-top: 4mm;
+  color: var(--murekkep);
+}
+.kapak-meta table { width: 100%; border-collapse: collapse; }
+.kapak-meta td { padding: 1.1mm 0; vertical-align: top; }
+.kapak-meta td.k { width: 34mm; color: var(--tas); font-family:'JetBrains Mono',monospace; font-size:8.5pt; letter-spacing:0.06em; }
+
+/* ---------- Bölüm yapısı ---------- */
+.bolum { page-break-before: always; }
+.bolum-kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.3em;
+  color: var(--okr); text-transform: uppercase;
+  margin-bottom: 1.5mm;
+}
+.bolum-baslik {
+  font-size: 19pt; font-weight: 800; line-height: 1.2;
+  margin: 0 0 2mm 0;
+}
+.bolum-ozet { color: var(--tas); font-size: 10pt; margin: 0 0 5mm 0; }
+.bolum hr.baslik-cizgi { border: none; border-top: 2.5px solid var(--okr); margin: 0 0 5mm 0; }
+
+h3.alt-baslik {
+  font-size: 12.5pt; font-weight: 700;
+  margin: 6mm 0 2mm 0;
+  color: var(--murekkep);
+}
+h3.alt-baslik .no { color: var(--kirmizi); font-family:'JetBrains Mono',monospace; font-size:9pt; margin-right:2mm; }
+
+h4.mini {
+  font-size: 10.5pt; font-weight: 700; margin: 4mm 0 1.5mm 0;
+}
+
+p { margin: 0 0 2.6mm 0; text-align: justify; }
+ul, ol { margin: 0 0 2.6mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+
+/* ---------- Paneller ve tablolar ---------- */
+.bilgi-karti {
+  background: var(--panel);
+  border: 1px solid var(--cizgi);
+  border-top: 3px solid var(--okr);
+  padding: 4mm 5mm 3mm 5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+}
+.bilgi-karti .bk-baslik {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--okr); margin-bottom: 2.2mm;
+}
+.bilgi-karti p:last-child, .bilgi-karti ul:last-child { margin-bottom: 0; }
+
+table.tablo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 4.5mm 0;
+  font-size: 10pt;
+}
+table.tablo th {
+  background: #EFE6D2;
+  border-top: 2px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  padding: 2mm 2.5mm;
+  text-align: left;
+  font-size: 9pt;
+  letter-spacing: 0.04em;
+}
+table.tablo td {
+  border-bottom: 1px solid var(--cizgi);
+  padding: 1.8mm 2.5mm;
+  vertical-align: top;
+}
+table.tablo tr:last-child td { border-bottom: 1px solid var(--tas); }
+table.tablo .merkez { text-align: center; }
+
+.fal-kutusu {
+  border: 1px solid var(--cizgi);
+  border-left: 3px solid var(--kirmizi);
+  background: var(--kagit2);
+  padding: 4mm 5mm;
+  margin: 2.5mm 0 4mm 0;
+  page-break-inside: avoid;
+}
+.fal-kutusu .runik-satir {
+  text-align: center;
+  font-size: 13pt;
+  margin: 2mm 0 2.5mm 0;
+}
+
+/* ---------- Alıştırma ve cevap ---------- */
+.alisirma { margin: 0 0 4mm 0; page-break-inside: avoid; }
+.alisirma-no {
+  color: var(--kirmizi); font-weight: 700;
+  font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9pt;
+}
+.blank {
+  display: inline-block;
+  min-width: 55mm;
+  border-bottom: 1px dotted var(--tas);
+  height: 3.6mm;
+}
+.blank-uzun { min-width: 120mm; }
+.egitmen-tag {
+  display: inline-block;
+  color: var(--kirmizi);
+  border: 1px solid var(--kirmizi);
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 7.5pt; letter-spacing: 0.14em;
+  padding: 0.3mm 1.8mm;
+  margin-left: 2mm;
+  vertical-align: 2px;
+}
+.cevap-blok { page-break-inside: avoid; }
+.cevap-blok .runic { color: var(--murekkep); }
+
+/* ---------- Yaprak bandı ---------- */
+.yaprak-bant {
+  background: var(--bant);
+  color: var(--kagit);
+  padding: 3mm 4.5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+.yaprak-bant .yb-ust {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8pt; letter-spacing: 0.26em; color: var(--okr);
+  text-transform: uppercase;
+}
+.yaprak-bant .yb-baslik { font-size: 15pt; font-weight: 700; line-height: 1.25; margin-top: 1mm; }
+
+/* ---------- Sınav ve kimlik satırları ---------- */
+.cevap-satiri {
+  border-bottom: 1px dotted var(--tas);
+  height: 7mm;
+  margin: 0 0 2.2mm 0;
+}
+.soru { margin: 0 0 5.5mm 0; page-break-inside: avoid; }
+.soru .soru-baslik { font-weight: 700; }
+.soru .puan {
+  float: right;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  color: var(--kirmizi);
+  letter-spacing: 0.06em;
+}
+.kimlik-satir {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1mm 0 5mm 0;
+}
+.kimlik-satir td {
+  border-bottom: 1px solid var(--tas);
+  padding: 0.6mm 2mm;
+  font-size: 10pt;
+}
+.kimlik-satir td.lb {
+  border: none;
+  width: 34mm;
+  padding-left: 0;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  color: var(--tas);
+}
+
+/* ---------- Not / dip ---------- */
+.not { font-size: 8.8pt; color: var(--tas); }
+.kaynak-not {
+  border-top: 1px solid var(--cizgi);
+  margin-top: 6mm; padding-top: 2.5mm;
+  font-size: 8.8pt; color: var(--tas);
+}
+.kirmizi-not { color: var(--kirmizi); }
+
+/* ---------- İki sütunlu karşılaştırma ---------- */
+.karsilastirma { display: flex; gap: 4mm; margin: 2mm 0 4mm 0; page-break-inside: avoid; }
+.karsilastirma .kolon {
+  flex: 1; border: 1px solid var(--cizgi); padding: 3mm 4mm; background: var(--kagit2);
+}
+.karsilastirma .kolon h5 {
+  margin: 0 0 1.5mm 0; font-size: 10pt; font-weight: 700;
+  border-bottom: 2px solid var(--okr); padding-bottom: 1.5mm;
+}
+.karsilastirma .kolon ul { margin: 0; padding-left: 4.5mm; }
+</style></head><body>
+<div class="kapak">
+  <div>
+    <div class="kapak-friz">𐱅𐰭𐰼𐰃&nbsp;·&nbsp;𐰋𐰃𐰠𐰏𐰀&nbsp;·&nbsp;𐰴𐰍𐰣&nbsp;·&nbsp;𐱅𐰇𐰼𐰜</div>
+    <div class="cift-cizgi"></div>
+    <div class="kicker">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>
+    <h1>Göktürkçe Okuma-Yazma Öğreneği</h1>
+    <p class="alt-baslik">Temel Seviye Okuma-Yazma Kursu — Eğitmen Kılavuzu ve Kurs Kitapçığı · 4 Yedigün</p>
+    <div class="kapak-meta">
+      <table>
+        <tr><td class="k">EĞİTMEN</td><td>İbrahim (Bayram) BİLİR — Göktürkçe Araştırmacısı / Eğitmen</td></tr>
+        <tr><td class="k">HEDEF KİTLE</td><td>Temel seviye kursiyerler (en az 15 — en çok 25 kişi)</td></tr>
+        <tr><td class="k">YÖNTEM</td><td>Yüz yüze · teorik konu anlatımı ve pratik yazma atölyesi</td></tr>
+        <tr><td class="k">SÜRE</td><td>4 Yedigün × 2 ders saati (45 + 45 dakika)</td></tr>
+        <tr><td class="k">MATERYAL</td><td>Bu kılavuz · Öğrenci Çalışma Yaprakları · Tamga (harf) kartları</td></tr>
+        <tr><td class="k">BAĞLAM</td><td>Dernek eğitim faaliyeti başvurusu · 2026</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="not">Bu kitapçıktaki tüm Göktürkçe (runik) diziler kaynak metinlerden aynen alınmış, font gömülü olarak hazırlanmıştır.</div>
+</div>
+<section class="bolum"><div class="bolum-kicker">KISIM I · BÖLÜM 01</div><h2 class="bolum-baslik">Kurs Kimliği ve Akademik Gerekçe</h2><p class="bolum-ozet">Kursun amaç çerçevesi, hedef kitle ve eğitim dili.</p><hr class="baslik-cizgi">
+<p>Göktürk (Eski Türk) alfabesi, tarihte “Türk” adıyla kurulan ilk devlet olan Göktürk Kağanlığı'nın hükmettiği 552–744 yılları arasında kullanılan, Türk dilinin yazılı ilk dönemini temsil eden eşsiz bir kültürel mirastır. Bu eğitim, yüzeysel bir harf ezberletme programının ötesinde, Prof. Dr. Aysu Ata'nın akademik disiplini (Ankara Üniversitesi TUR203 Köktürkçe ders standartları) ile katılımcıların kendi yazılarını yazabilmelerini hedefleyen temel düzey bir okuma-yazma atölyesini birleştirir.</p>
+<p>Eğitim boyunca, kâğıt üzerine fırçayla yazılan ve el yazısı geleneğini temsil eden 9. yüzyıla ait tek runik el yazması <b>Irk Bitig</b> (Eski Uygurca Fal Kitabı) müfredatın merkezine konularak epigrafi ve paleografi perspektifi genişletilir.</p>
+
+<div class="bilgi-karti">
+  <div class="bk-baslik">ÖZ TÜRKÇE — AKADEMİK TERİM KESİŞİMİ</div>
+  <table class="tablo">
+    <tr><th style="width:22mm">Terim</th><th>Akademik Karşılığı</th><th>Kapsam</th></tr>
+    <tr>
+      <td><b>Tümce</b></td>
+      <td>Söz Dizimi / Sentaks</td>
+      <td>Cümle düzeyinde okuma-yazma çalışmaları; yazıtlardaki isim ve fiil cümleleri, “er-” yardımcı fiili ve şahıs zamiri çekimlerine göre incelenir.</td>
+    </tr>
+    <tr>
+      <td><b>Seslem</b></td>
+      <td>Hece / Yarı-Hece İşaretleri</td>
+      <td>Göktürkçenin yarı-hecesel yapısını temsil eden, bünyesinde zati ünlü barındıran çift sesli hece damgaları: OK/UK (<span class="runic">𐰸</span>), ÖK/ÜK (<span class="runic">𐰜</span>), IK/KI (<span class="runic">𐰶</span>), İÇ/Çİ (<span class="runic">𐰱</span>).</td>
+    </tr>
+  </table>
+</div>
+</section><section class="bolum"><div class="bolum-kicker">KISIM I · BÖLÜM 02</div><h2 class="bolum-baslik">Dört Yedigünlük Detaylı Ders Müfredatı</h2><p class="bolum-ozet">Her dersin idari yapısı, teorik kuralları ve tahtada yapılacak örnek kelime tahlilleri.</p><hr class="baslik-cizgi">
+<h3 class="alt-baslik"><span class="no">2.1</span>1. YEDİGÜN — Giriş, Tarihsel Arka Plan ve Temel Tamgalar</h3>
+<p><b>Ders saati:</b> 2 ders saati (45 + 45 dk). <b>Öğrenme çıktıları:</b> Göktürk alfabesinin tarihsel gelişimini kavrama, yön mantığını anlama, 4 ünlü ve 20 kutuplu ünsüz tamgayı okuma/yazma.</p>
+<h4 class="mini">I. Ders (45 dk) — Tarihçe ve Yazım Mantığı</h4>
+<ul>
+  <li><b>Keşif ve çözüm süreci:</b> Alfabenin 552–744 yılları arasındaki Göktürk Kağanlığı döneminde taşa kazındığı, Danimarkalı dilbilimci Vilhelm Thomsen tarafından 15 Aralık 1893'te çözüldüğü anlatılır. İlk çözülen kelimenin “Tengri” (<span class="runic">𐱅𐰭𐰼𐰃</span>) olduğu vurgulanır.</li>
+  <li><b>Yazı malzemesi ve epigrafi:</b> Taş (Orhun) ve kâğıt (Irk Bitig) medyasının farklarına değinilir.</li>
+  <li><b>Yazım yönü:</b> Yazının sağdan sola doğru yazıldığı, kelimelerin arasına iki nokta ( : ) konulduğu tahtada gösterilir.</li>
+</ul>
+<h4 class="mini">II. Ders (45 dk) — Sesler ve Kutupluluk (Kalınlık-İnelik) Sistemi</h4>
+<p><b>Ünlü tamgalar (vokaller):</b> Göktürkçede 4 ünlü damganın 8 sesi karşıladığı öğretilir:</p>
+<table class="tablo">
+  <tr><th class="merkez">A / E</th><th class="merkez">I / İ</th><th class="merkez">O / U</th><th class="merkez">Ö / Ü</th></tr>
+  <tr><td class="merkez"><span class="runic tamga-buyuk">𐰀</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰃</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰆</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰇</span></td></tr>
+</table>
+<p><b>Kutuplu ünsüzler (konsonantlar):</b> Alfabenin en karakteristik kuralı olan “kalınlık-incelik uyumu” tanıtılır. Aynı ünsüz sesin kalın ve ince ünlüler için iki farklı damgası vardır:</p>
+<table class="tablo">
+  <tr><th>Ünsüz</th><th class="merkez">Kalın (art) ünlülerle</th><th class="merkez">İnce (ön) ünlülerle</th></tr>
+  <tr><td>B</td><td class="merkez">b¹ <span class="runic">𐰉</span></td><td class="merkez">b² <span class="runic">𐰋</span></td></tr>
+  <tr><td>D</td><td class="merkez">d¹ <span class="runic">𐰑</span></td><td class="merkez">d² <span class="runic">𐰓</span></td></tr>
+  <tr><td>G</td><td class="merkez">g¹ <span class="runic">𐰍</span></td><td class="merkez">g² <span class="runic">𐰏</span></td></tr>
+  <tr><td>K</td><td class="merkez">k¹ <span class="runic">𐰴</span></td><td class="merkez">k² <span class="runic">𐰚</span></td></tr>
+  <tr><td>L</td><td class="merkez">l¹ <span class="runic">𐰞</span></td><td class="merkez">l² <span class="runic">𐰠</span></td></tr>
+  <tr><td>N</td><td class="merkez">n¹ <span class="runic">𐰣</span></td><td class="merkez">n² <span class="runic">𐰤</span></td></tr>
+  <tr><td>R</td><td class="merkez">r¹ <span class="runic">𐰺</span></td><td class="merkez">r² <span class="runic">𐰼</span></td></tr>
+  <tr><td>S</td><td class="merkez">s¹ <span class="runic">𐰽</span></td><td class="merkez">s² <span class="runic">𐰾</span></td></tr>
+  <tr><td>T</td><td class="merkez">t¹ <span class="runic">𐱃</span></td><td class="merkez">t² <span class="runic">𐱅</span></td></tr>
+  <tr><td>Y</td><td class="merkez">y¹ <span class="runic">𐰖</span></td><td class="merkez">y² <span class="runic">𐰘</span></td></tr>
+</table>
+<p><b>Tahtada örnek kelime analizleri:</b></p>
+<ul>
+  <li><span class="cevrim">ata</span> ➔ <span class="runic">𐱃𐰀</span> (t¹ + A/E ➔ ilk “a” kural gereği düşer, kalın t yazılır, son “a” korunur).</li>
+  <li><span class="cevrim">ede</span> ➔ <span class="runic">𐱅𐰀</span> (t² + A/E ➔ ilk “e” düşer, ince t yazılır, son “e” korunur).</li>
+  <li><span class="cevrim">tengri</span> ➔ <span class="runic">𐱅𐰭𐰼𐰃</span> (t² + ng + r² + I/İ ➔ ince ses uyumu).</li>
+</ul>
+
+<h3 class="alt-baslik"><span class="no">2.2</span>2. YEDİGÜN — İmla Tasarrufu, Ligatürler ve Konum Kısıtları</h3>
+<p><b>Ders saati:</b> 2 ders saati (45 + 45 dk). <b>Öğrenme çıktıları:</b> Ünlü düşmesi kurallarını hatasız uygulama, çift sesli hece damgalarını (ligatürleri) kavrama, kelime başı/sonu imla kısıtlarını ve morfolojik istisnaları öğrenme.</p>
+<h4 class="mini">I. Ders (45 dk) — İmla Tasarrufu ve Ünlü Düşmesi Kuralları</h4>
+<ul>
+  <li><b>Sözbaşı ve içseste “a/e” düşmesi:</b> Göktürk kâtiplerinin harf ve taş tasarrufu yapmak amacıyla, kelime başındaki ve içindeki kısa “a/e” seslerini yazmadıkları gösterilir: <span class="cevrim">esen</span> ➔ <span class="runic">𐰾𐰤</span> (s² + n²); <span class="cevrim">atar</span> ➔ <span class="runic">𐱃𐰺</span> (t¹ + r¹).</li>
+  <li><b>Kelime sonu ünlüleri kuralı (override):</b> Tasarruf kuralının en büyük istisnasıdır. Kelimenin sonundaki tüm ünlüler (a, e, ı, i, o, u, ö, ü) asla düşürülemez, kesinlikle yazılır: <span class="cevrim">koku</span> ➔ <span class="runic">𐰴𐰸𐰆</span> (sondaki “u” düşürülmez).</li>
+  <li><b>İçseste dar ünlülerin düşmesi:</b> Kök ek aldığında vurgusuz orta hecedeki dar ünlüler düşer: <span class="cevrim">ogul + an</span> ➔ <span class="cevrim">oglan</span> (<span class="runic">𐰉𐰍𐰞𐰣</span>).</li>
+</ul>
+<h4 class="mini">II. Ders (45 dk) — Hece Damgaları (Ligatürler) ve İmla İstisnaları</h4>
+<p><b>Hece damgaları (ligatürler):</b> Tek karakterde iki ses barındıran tamgalar öğretilir:</p>
+<table class="tablo">
+  <tr><th>Değer</th><th class="merkez">OK/UK · KO/KU</th><th class="merkez">ÖK/ÜK · KÖ/KÜ</th><th class="merkez">IK/KI</th><th class="merkez">İÇ/Çİ</th><th class="merkez">ND/NT</th><th class="merkez">LD/LT</th><th class="merkez">NÇ/NC</th></tr>
+  <tr><td>Tamga</td><td class="merkez"><span class="runic tamga-buyuk">𐰸</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰜</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰶</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰱</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰦</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰡</span></td><td class="merkez"><span class="runic tamga-buyuk">𐰨</span></td></tr>
+</table>
+<p><b>Kelime başı ligatür yasağı (konum kısıtı):</b> Bu hece damgaları kelime başında ünsüzle başlayan heceleri (ko, ku, kö, kü, kı) yazmak için tek başlarına kullanılamaz:</p>
+<ul>
+  <li><span class="cevrim">kök</span> ➔ <span class="runic">𐰚𐰜</span> (ince K + ÖK) — hatalı yazım: <span class="runic kirmizi-not">𐰜𐰚</span> (ÖK + ince K).</li>
+  <li><span class="cevrim">kıldı</span> ➔ <span class="runic">𐰴𐰃𐰡𐰃</span> (kalın K + I + LD + I) — hatalı yazım: <span class="runic kirmizi-not">𐰶𐰡𐰃</span> (IK/KI + LD + I).</li>
+</ul>
+<p><b>Kalın kökte ince-N (𐰤) istisnası:</b> Kelime kökü tamamen kalın olsa bile, 3. şahıs iyelik ve belirtme durumu eklerindeki (ın/nı) “n” sesi daima İnce N (𐰤) ile yazılır: <span class="cevrim">sabın</span> (sözünü) ➔ <span class="runic">𐰽𐰉𐰤</span> (s¹ + b¹ + n²); <span class="cevrim">adgırın</span> (aygırını) ➔ <span class="runic">𐰉𐰑𐰍𐰺𐰤</span>.</p>
+
+<h3 class="alt-baslik"><span class="no">2.3</span>3. YEDİGÜN — Söz Dizimi (Sentaks), Epigrafik Farklar ve Irk Bitig</h3>
+<p><b>Ders saati:</b> 2 ders saati (45 + 45 dk). <b>Öğrenme çıktıları:</b> Göktürkçe tümce yapılarını anlama, Orhun ve Irk Bitig epigrafilerini karşılaştırma, orijinal el yazması falları çözümleme.</p>
+<h4 class="mini">I. Ders (45 dk) — Tümce Yapısı ve Taş Ekonomisi (Eksilti)</h4>
+<ul>
+  <li><b>İsim tümcesi:</b> Yüklemi isim olan yapılar (örn. <span class="cevrim">Bilge Tonyukuk men</span>).</li>
+  <li><b>Fiil tümcesi:</b> Yüklemi çekimli fiil olan yapılar (Özne + Tümleç + Yüklem).</li>
+  <li><b>Taş ekonomisi ve eksiltili yapılar:</b> Sert taşlara yazı kazımanın zorluğu nedeniyle kâtiplerin sıfat-fiilleri, yardımcı fiilleri veya yüklemleri yazmayıp düşürdükleri (işaretsiz bıraktıkları) anlatılır.</li>
+</ul>
+<h4 class="mini">II. Ders (45 dk) — Orhun – Irk Bitig Kıyaslaması ve Fal Okumaları</h4>
+<ul>
+  <li><b>Mecra ve epigrafi farkları:</b> Taş (Orhun) üzerindeki köşeli geometrik hatların, kâğıt ve fırçayla (Irk Bitig) birlikte nasıl yuvarlak, akıcı ve el yazısına yatkın (cursiviform) varyantlara dönüştüğü gösterilir.</li>
+  <li><b>Irk Bitig'in radikal imla farkları:</b> ş (𐱁) tamgası tamamen kaldırılmış, yerine s (𐰽/𐰾) kullanılmıştır (<span class="cevrim">yaş</span> ➔ <span class="cevrim">yas</span>). İnce r (𐰼) yerine grafik benzerliği yüzünden ş (𐱁) karakteri ince “r” sesi için kullanılmıştır.</li>
+</ul>
+<p><b>Orijinal fal çözümlemeleri</b> (metinler Irk Bitig veri tabanından aynen alınmıştır):</p>
+<div class="fal-kutusu"><p class="not" style="margin-bottom:1.5mm"><b>1. FAL</b> · Zar: 2-2-2 · <span class="cevrim">iyi</span></p><div class="runik-satir runic">𐱅𐰤 : 𐰾𐰃 : 𐰢𐰤 : 𐰖𐰺𐰣 : 𐰚𐰃𐰲𐰀 : 𐰞𐱃𐰆𐰣 : 𐰇𐱁𐰏𐰃𐰤 : 𐰇𐰔𐰀 : 𐰆𐰞𐰆𐰺𐰆𐰯𐰣 : 𐰢𐰭𐰃𐰠𐰘𐰇𐱁 : 𐰢𐰤 : 𐰨𐰀 : 𐰋𐰃𐰠𐰃𐰭𐰠𐱁 : 𐰓𐰏𐰇 : 𐰆𐰞</div><p><span class="cevrim">Tensi : men . yarın : kéçe : altun : örgin : üze : olurupan : meŋileyür : men . ança : biliŋler : édgü : ol .</span></p><p class="not">Tensi (Tanrı oğlu) ben. Sabah akşam altın taht üzerinde oturup mutlu bir şekilde yaşarım. Öylece biliniz: (bu fal) iyidir.</p></div>
+<div class="fal-kutusu"><p class="not" style="margin-bottom:1.5mm"><b>15. FAL</b> · Zar: 1-4-1 · <span class="cevrim">iyi</span></p><div class="runik-satir runic">𐰇𐰔𐰀 : 𐱃𐰆𐰢𐰣 : 𐱃𐰆𐰺𐰑𐰃 : 𐰽𐰺𐰀 : 𐱃𐰆𐰔 : 𐱃𐰆𐰺𐰑𐰃 : 𐰴𐰆𐰽 : 𐰆𐰍𐰃 : 𐰆𐰲𐰀 : 𐰀𐰔𐱃𐰃 : 𐰚𐰃𐰘𐰃𐰚 : 𐰆𐰍𐰞𐰃 : 𐰘𐰇𐰏𐰇𐱁𐰇 : 𐰀𐰔𐱃𐰃 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰖𐰆𐰺𐰃𐰖𐰆 : 𐰀𐰔𐱃𐰃 : 𐰖𐰣𐰀 : 𐱅𐰭𐱁𐰃 : 𐰴𐰆𐱃𐰃𐰣𐱃𐰀 : 𐰇𐰲𐰇𐰨 : 𐰖𐰃𐰞𐱃𐰀 : 𐰴𐰆𐰯 : 𐰾𐰤 : 𐱅𐰇𐰚𐰞 : 𐰚𐰇𐱁𐰇𐰾𐰢𐰾 : 𐰴𐰆𐰯 : 𐰇𐰏𐰃𐱁𐱁 : 𐰾𐰋𐰃𐰤𐰇𐱁 : 𐱅𐰃𐱁 : 𐰨𐰀 : 𐰋𐰃𐰠𐰃𐰭𐰠𐱁 : 𐰓𐰏𐰇 : 𐰆𐰞</div><p><span class="cevrim">Üze : tuman : turdı , asra : toz : turdı . kuş : oglı : uça : aztı , kéyik : oglı : yügürü : aztı , kişi : oglı : yorıyu : aztı . yana : teŋri : kutınta : üçünç : yılta : kop : esen : tükel : körüşmiş . kop : ögirer : sévinür : tér . ança : biliŋler : édgü : ol .</span></p><p class="not">Yukarıdan sis bastırdı, aşağıdan toz kalktı. Kuş yavrusu uçarak yolunu kaybetti. Yabani hayvan yavrusu koşarak yolunu kaybetti. İnsanoğlu yürüyerek yolunu kaybetti. Yine, Tanrı lütfu ile üçüncü yılda hepsi sağ salim bir araya gelip görüşmüşler. Hepsi neşelenip seviniyor. Öylece biliniz: (bu fal) iyidir.</p></div>
+
+<h3 class="alt-baslik"><span class="no">2.4</span>4. YEDİGÜN — Okuma-Yazma Atölyesi, Değerlendirme ve Sınav</h3>
+<p><b>Ders saati:</b> 2 ders saati (45 + 45 dk). <b>Öğrenme çıktıları:</b> Öğrenilen tüm kuralları serbest kompozisyon ve okuma metinleri üzerinde uygulama, bitirme sınavını tamamlama.</p>
+<h4 class="mini">I. Ders (45 dk) — Kompozisyon Atölyesi</h4>
+<p>Öğrencilere günümüz Türkçesiyle kısa cümleler ve dörtlükler verilir. Öğrencilerin tahtada bunları Göktürkçenin tasarruf kuralları, ligatür kısıtları ve ek imlalarına dikkat ederek yazması sağlanır.</p>
+<h4 class="mini">II. Ders (45 dk) — Bitirme Sınavı Uygulaması</h4>
+<p>4 haftalık eğitimi ölçen, ezbere değil tamamen dilbilimsel mantığa dayalı teorik ve pratik sınav gerçekleştirilir. Sınav sonunda katılımcılara resmi sertifikaların takdimi yapılır. Sertifikasyon için devam durumu ve başarı kriteri (100 üzerinden en az 70) esas alınır.</p>
+</section><section class="bolum"><div class="bolum-kicker">KISIM I · BÖLÜM 03</div><h2 class="bolum-baslik">Örnek Sınav Standartları ve Analitik Çözümleri</h2><p class="bolum-ozet">Sertifikasyon sınavının ölçme alanları; ezbere değil, sınır durumlardaki mantığa dayalı ölçme ilkesi.</p><hr class="baslik-cizgi">
+<p>Kursun başarıyla tamamlanıp sertifikasyon aşamasına geçilmesi için 4. Yedigünün sonunda uygulanacak sınav, ezbere dayalı değil, Göktürkçenin ileri düzey sınır durumlarındaki (edge cases) mantığı ölçecek şekilde tasarlanmıştır. Aşağıda, Aysu Ata ve Talat Tekin standartlarına göre sınavda ölçülecek kritik alanlar ve çözümleri sunulmuştur:</p>
+<table class="tablo">
+  <tr><th style="width:38mm">Kritik Ölçme Alanı</th><th style="width:44mm">Sınav Soru Teması</th><th>Akademik Çözüm ve Gerekçesi (Cevap Anahtarı)</th></tr>
+  <tr>
+    <td>Ünlü Düşmesi ve Tasarruf Kuralı</td>
+    <td><span class="cevrim">esen</span> ve <span class="cevrim">atar</span> kelimelerinin tamgalarla doğru yazımı</td>
+    <td><span class="cevrim">esen</span> ➔ <span class="runic">𐰾𐰤</span>, <span class="cevrim">atar</span> ➔ <span class="runic">𐱃𐰺</span> şeklinde yazılır. Sözbaşında ve içindeki kısa “a/e” ünlüleri imla tasarrufu gereği yazılmaz; okuyucu ünsüzlerin kutbundan ünlüyü çıkarır.</td>
+  </tr>
+  <tr>
+    <td>Tarihsel Sayı Sistemi Çekimi</td>
+    <td><span class="cevrim">sekiz elig</span> ifadesinin rakamsal değeri</td>
+    <td>48'dir. Eski Türkçede bir sonraki onluk referans alınarak <span class="cevrim">elig</span> (50) onluğuna ulaşmak için “sekiz” adım kaldığı (40 + 8) belirtilir.</td>
+  </tr>
+  <tr>
+    <td>Hece Ligatürlerinin Konum Kısıtlamaları</td>
+    <td><span class="cevrim">kök</span> ve <span class="cevrim">kıldı</span> kelimelerinin doğru imlası</td>
+    <td>Kelime başındaki ünsüzle başlayan kı/ko/ku/kö/kü seslerinde ligatür asla kullanılamaz. <span class="cevrim">kök</span> baştaki kö için değil, sondaki ök için ligatür alır: <span class="runic">𐰚𐰜</span> (ince k + ÖK). <span class="cevrim">kıldı</span> kelime başında olduğu için ligatürsüz düz harflerle yazılır: <span class="runic">𐰴𐰃𐰡𐰃</span>.</td>
+  </tr>
+  <tr>
+    <td>Irk Bitig Paleografik Okuması</td>
+    <td>15. Falın transkripsiyonu ve Türkçe tahlili</td>
+    <td><span class="cevrim">Üzä tuman turdı, asra toz turdı...</span> (Üstte duman durdu, altta toz durdu...) falının okunması ve kelimelerin morfolojik tahlili (örn. toz/tuman kelimelerinin imla tasarrufu).</td>
+  </tr>
+</table>
+</section><section class="bolum"><div class="bolum-kicker">KISIM III · BÖLÜM 04</div><h2 class="bolum-baslik">Tüm Alıştırmalar ve Bitirme Sınavı İçin Analitik Cevap Anahtarı</h2><p class="bolum-ozet">Öğrenci çalışma yapraklarının tam çözümleri; eğitmen için, öğrenci dağıtımına kapalıdır.</p><hr class="baslik-cizgi">
+<span class="egitmen-tag">EĞİTMEN VERSİYONU</span>
+<h3 class="alt-baslik"><span class="no">4.1</span>1. Yedigün Çalışma Kâğıdı Cevapları</h3>
+<h4 class="mini">Bölüm A — Transkripsiyondan Yazım</h4>
+<ul class="cevap-blok">
+  <li><span class="cevrim">ata</span> ➔ <span class="runic">𐱃𐰀</span> — İlk “a” yazılmaz, kalın t 𐱃 ve kelime sonu olduğu için “a” 𐰀 yazılır.</li>
+  <li><span class="cevrim">ede</span> ➔ <span class="runic">𐱅𐰀</span> — İlk “e” yazılmaz, ince t 𐱅 ve son “e” 𐰀 yazılır.</li>
+  <li><span class="cevrim">iri</span> ➔ <span class="runic">𐰃𐰼𐰃</span> — Sözbaşındaki dar ünlü “i” 𐰃 yazılır, ince r 𐰼 ve son “i” 𐰃 yazılır.</li>
+  <li><span class="cevrim">adak</span> (ayak) ➔ <span class="runic">𐰑𐰴</span> — İlk “a” düşer, kalın d 𐰑, iç “a” düşer, kalın k 𐰴 yazılır.</li>
+  <li><span class="cevrim">esiz</span> (eyvah) ➔ <span class="runic">𐰾𐰔</span> — Sözbaşı “e” düşer, ince s 𐰾, iç “i” düşer, kutupsuz z 𐰔 yazılır.</li>
+</ul>
+<h4 class="mini">Bölüm B — Göktürkçeden Okuma</h4>
+<ul class="cevap-blok">
+  <li><span class="runic">𐱅𐰭𐰼𐰃</span> ➔ <span class="cevrim">Tengri</span> — İnce t + ng + ince r + i.</li>
+  <li><span class="runic">𐰉𐰖</span> ➔ <span class="cevrim">Bay</span> — Kalın b + kalın y; “a” ünlüsü içseste düşürülmüştür.</li>
+  <li><span class="runic">𐰽𐰺𐰃𐰍</span> ➔ <span class="cevrim">Sarıg</span> — Kalın s + kalın r + ı + kalın g; ilk “a” düşmüş, “ı” yazılmıştır.</li>
+  <li><span class="runic">𐰋𐰃𐰠𐰏𐰀</span> ➔ <span class="cevrim">Bilge</span> — İnce b + i + ince l + ince g + e.</li>
+</ul>
+
+<h3 class="alt-baslik"><span class="no">4.2</span>2. Yedigün Çalışma Kâğıdı Cevapları</h3>
+<h4 class="mini">Bölüm A — Ünlü Düşmesi ve Tasarruf</h4>
+<ul class="cevap-blok">
+  <li><span class="cevrim">esen</span> ➔ <span class="runic">𐰾𐰤</span> — Kısa e'ler yazılmaz; ince s + ince n.</li>
+  <li><span class="cevrim">atar</span> ➔ <span class="runic">𐱃𐰺</span> — Kısa a'lar yazılmaz; kalın t + kalın r.</li>
+  <li><span class="cevrim">er</span> (erkek/insan) ➔ <span class="runic">𐰼</span> — Sözbaşı e'si düşer; geriye sadece ince r kalır.</li>
+  <li><span class="cevrim">oglan</span> ➔ <span class="runic">𐰉𐰍𐰞𐰣</span> — Kök “ogul” ek alınca “u” düşer; kalın b + kalın g + kalın l + kalın n; a'lar düşer.</li>
+</ul>
+<h4 class="mini">Bölüm B — Ligatürlerde Konum Kısıtı</h4>
+<ul class="cevap-blok">
+  <li><span class="cevrim">kök</span> ➔ <span class="runic">𐰚𐰜</span> — Kelime başında ünsüzle başlayan “kö” hecesi ligatürle yazılamayacağı için düz ince k 𐰚 ile başlanır, ardından ÖK/ÜK 𐰜 ligatürü eklenir.</li>
+  <li><span class="cevrim">kıldı</span> ➔ <span class="runic">𐰴𐰃𐰡𐰃</span> — Kelime başında “kı” için IK ligatürü kullanılamaz; düz kalın k 𐰴 + 𐰃 + LD ligatürü 𐰡 + 𐰃 yazılır.</li>
+  <li><span class="cevrim">koku</span> ➔ <span class="runic">𐰴𐰸𐰆</span> — Kelime başında “ko” için ligatür yasaktır; kalın k 𐰴 + OK ligatürü 𐰸 + son ünlü “u” 𐰆 yazılır.</li>
+</ul>
+<h4 class="mini">Bölüm C — İnce-N (𐰤) İstisnası</h4>
+<ul class="cevap-blok">
+  <li><span class="cevrim">sabın</span> (sözünü) ➔ <span class="runic">𐰽𐰉𐰤</span> — Kalın s + kalın b + İnce N 𐰤; kural dışıdır.</li>
+  <li><span class="cevrim">adgırın</span> (aygırını) ➔ <span class="runic">𐰉𐰑𐰍𐰺𐰤</span> — Kalın b + kalın d + kalın g + kalın r + İnce N 𐰤.</li>
+</ul>
+
+<h3 class="alt-baslik"><span class="no">4.3</span>3. Yedigün Çalışma Kâğıdı Cevapları</h3>
+<h4 class="mini">Bölüm A — Mecra Farkları (Orhun / Irk Bitig)</h4>
+<ul class="cevap-blok">
+  <li><span class="cevrim">yaş</span>: Orhun yazımı <span class="runic">𐰖𐱁</span> (kalın y + kutupsuz ş); Irk Bitig yazımı <span class="runic">𐰖𐰽</span> — Irk Bitig'de “ş” harfi tamamen tasfiye edildiği için kalın s 𐰽 ile yazılmıştır.</li>
+  <li><span class="cevrim">er</span>: Orhun yazımı <span class="runic">𐰼</span> (sözbaşı e'si yazılmaz, ince r tamgası); Irk Bitig yazımı <span class="runic">𐱁</span> — ince r yerine, grafik benzerliği olan ş 𐱁 tamgası ince r'yi temsil etmek için kullanılmıştır.</li>
+</ul>
+<h4 class="mini">Bölüm B — Irk Bitig 1. Fal Deşifresi</h4>
+<p class="cevap-blok"><b>Transkripsiyon:</b> <span class="cevrim">Tensi män. Yarın kéçe altun örgin üze olurupan meŋileyür män. Ança biliŋler: édgü ol.</span></p>
+<p class="cevap-blok"><b>Kelime tahlili (ince-r / ş tamgası):</b> Kâğıt el yazması olan Irk Bitig'e has kâtip alışkanlığı gereği ince “r” (𐰼) yerine, grafik olarak ona çok benzeyen ve asli işlevinden arındırılmış ş (𐱁) tamgası kullanılmıştır. Metinde bu durum <span class="runic">𐰇𐱁𐰏𐰃𐰤</span> (örgin), <span class="runic">𐰢𐰭𐰃𐰠𐰘𐰇𐱁</span> (meŋileyür) ve <span class="runic">𐰋𐰃𐰠𐰃𐰭𐰠𐱁</span> (biliŋler) kelimelerinde gözlenir.</p>
+
+<h3 class="alt-baslik"><span class="no">4.4</span>4. Yedigün — Bitirme Sınavı Analitik Cevap Anahtarı</h3>
+<div class="cevap-blok">
+<p><b>Soru 1 (Ünlü düşmesi ve tasarruf):</b> Göktürk yazısında “harf ekonomisi ve taş tasarrufu” esastır. Kelime başındaki ve içindeki kısa ve vurgusuz “a/e” ünlülerinin okuyucu tarafından zihnen tamamlanabileceği varsayılarak yazılmazlar. <span class="cevrim">esen</span> kelimesinde baştaki ve içteki e'ler yazılmayarak sadece ince s ve ince n ile <span class="runic">𐰾𐰤</span>; <span class="cevrim">atar</span> kelimesinde baştaki ve içteki a'lar yazılmayarak sadece kalın t ve kalın r ile <span class="runic">𐱃𐰺</span> yazılır.</p>
+<p><b>Soru 2 (Tarihsel sayı sistemi):</b> Eski Türk sayı sisteminde sayılar bir sonraki onluğu referans alarak kurulur. Formül: [Birlik Sayı] + [Bir Sonraki Onluk Hane]. <span class="cevrim">sekiz elig</span> ifadesinde “elig” 50 demektir; önündeki “sekiz”, 50'ye ulaşmak için tamamlanan basamağın 8 birim olduğunu gösterir (40'tan sonraki 8. adım). Sayı <b>48</b>'dir.</p>
+<p><b>Soru 3 (Konum kısıtlı ligatür):</b> Yazılan kelimeler hatalıdır; çünkü çift sesli ligatürlerin kelime başında konum kısıtı (position constraint) vardır — ligatürler kelime başında ünsüzle başlayan “ko/ku/kö/kü/kı” hecelerini tek başlarına temsil edemezler. <span class="cevrim">kök</span> yazılırken önce düz ince k 𐰚 gelmeli, ardından ligatür eklenmelidir: <span class="runic">𐰚𐰜</span>. <span class="cevrim">kıldı</span> yazılırken kelime başında IK/KI ligatürü gelemez; doğrusu düz kalın k 𐰴 + ı 𐰃 ile başlayan <span class="runic">𐰴𐰃𐰡𐰃</span> yazımıdır.</p>
+<p><b>Soru 4 (İstisna analizi):</b> Bu durum dilbilimde “3. Şahıs İyelik ve Belirtme Hâli Kalın Kökte İnce-N İstisnası” olarak adlandırılır. Orhun kâtipleri, kelimenin kökü tamamen kalın ünlülerden oluşsa dahi, kelime sonuna gelen 3. kişi iyelik ve belirli nesne durum eklerini (ın/nı) büyük ünlü uyumunu bozarak istisnasız daima İnce N (𐰤) tamgasıyla yazmışlardır: <span class="cevrim">sabın</span> ➔ <span class="runic">𐰽𐰉𐰤</span>; <span class="cevrim">adgırın</span> ➔ <span class="runic">𐰉𐰑𐰍𐰺𐰤</span>.</p>
+</div>
+</section><section class="bolum"><div class="bolum-kicker">EK · BÖLÜM 05</div><h2 class="bolum-baslik">Yenisey Yazıtları ile Orhun Yazıtları Arasındaki Farklar</h2><p class="bolum-ozet">Eğitmen için karşılaştırmalı epigrafi notu; tek sayfalık sunum kartı olarak da kullanılabilir.</p><hr class="baslik-cizgi">
+<p>Yenisey Nehir Havzası'nda bulunan mezar stelleri (epitaflar) ile Moğolistan'daki anıtsal Orhun abideleri arasındaki farklar, Türk yazı dilinin en zengin bölgesel çeşitlilik alanını oluşturur.</p>
+<h3 class="alt-baslik"><span class="no">5.1</span>Siyasi, Sosyal ve İdari Bağlam</h3>
+<div class="karsilastirma">
+  <div class="kolon">
+    <h5>Orhun Yazıtları</h5>
+    <ul>
+      <li>İlahi Göktürk Hakanlığı'nın resmi, idari ve diplomatik devlet dili.</li>
+      <li>Son derece standartlaştırılmış, kurallı ve disiplinli bir imla sistemi.</li>
+      <li>Satırlar disiplinli biçimde sağdan sola akar; kelime ayırıcı iki nokta ( : ) diktir.</li>
+    </ul>
+  </div>
+  <div class="kolon">
+    <h5>Yenisey Yazıtları</h5>
+    <ul>
+      <li>Yenisey Kırgız Kağanlığı dönemi boy aristokratlarına ait mezar taşları (epitaf); resmi devlet dili değil, şahsi yas ifadeleri.</li>
+      <li>Kuralsız, serbest ve bireysel yazım özellikleri.</li>
+      <li>Yazım yönü serbesttir; satırların yön değiştirdiği boustrophedon akışlar görülür; ayraç eğik veya düz kazınabilir.</li>
+    </ul>
+  </div>
+</div>
+<h3 class="alt-baslik"><span class="no">5.2</span>Tarihlendirme ve Gelişim Çizgisi</h3>
+<ul>
+  <li>Vilhelm Thomsen, Yenisey harflerinin Orhun'a kıyasla daha kaba ve ilkel görünmesinden ötürü bu yazıtların 6. veya 7. yüzyıla ait erken imla denemeleri olduğunu savunmuştur.</li>
+  <li>Louis Bazin, Igor Kormushin ve A. M. Shcherbak gibi paleograflar; Yenisey yazıtlarındaki dilsel ve morfolojik katmanların 9. ve 10. yüzyıla ait olduğunu kanıtlamıştır. Yani Yenisey yazısı Orhun'un bir öncüsü değil, onunla eş zamanlı gelişmiş bağımsız bir bölgesel koldur.</li>
+</ul>
+<h3 class="alt-baslik"><span class="no">5.3</span>Grafik ve Paleografik Farklar</h3>
+<ul>
+  <li><b>Karakter envanteri:</b> Orhun stelleri standart 38–40 karakter kullanırken; Yenisey epigrafisinde standartlaşmamış 150'den fazla grafik harf varyantı ve 29–31 tescilli özgün karakter tespit edilmiştir.</li>
+  <li><b>Kapalı é (𐰅) karakteri:</b> Orhun abidelerinde kapalı /e/ sesi için müstakil harf yoktur; bu ses ya düz-dar “i” (𐰃) ile yazılır ya da hiç gösterilmez. Yenisey yazıtlarında ise kapalı /e/ için müstakil bir 𐰅 karakteri mevcuttur. Bu sesle yazılan kelimeler: <span class="cevrim">éki, él, éş, ét-, bél, béş, yéti, yétmiş, kéş</span>.</li>
+  <li><b>Harf formu değişimleri:</b> Kalın ünlülü kelimelerde kullanılan Kalın B (𐰊), Kalın D (𐰒), Kalın R (𐰻) ve Kalın T (𐱄) gibi tamgaların Yenisey varyantları grafik olarak Orhun'dakilerden belirgin şekilde farklıdır.</li>
+</ul>
+<h3 class="alt-baslik"><span class="no">5.4</span>Fonetik ve Ağız (Diyalektal) Özellikler</h3>
+<ul>
+  <li><b>e ~ i farklılığı:</b> <span class="cevrim">eki/iki, elig/ilig, el/il, eçi/içi, beş/biş</span> gibi ses nöbetleşmeleri son derece yaygındır.</li>
+  <li><b>b ~ m farklılığı (sözbaşında):</b> Orhun'da “b” ile başlayan kelimeler Yenisey'de “m” sesine döner: <span class="cevrim">ben ➔ men, beŋkü ➔ meŋkü</span>. Bu, modern Türkiye Türkçesi (b'li) ile Kırgız Türkçesi (m'li: men, moyun, murun) arasındaki tarihsel diyalekt farkının o dönemki yansımasıdır.</li>
+  <li><b>g ~ k farklılığı:</b> Standart Orhun Türkçesindeki <span class="cevrim">edgü</span> (iyi) kelimesi Yenisey mezar taşlarında tonsuzlaşarak <span class="cevrim">edkü</span> (<span class="runic">𐰓𐰚𐰇</span>) şeklinde yazılır.</li>
+  <li><b>z ~ s ve ş ~ s farklılığı:</b> Kelime içi ve sonundaki bazı seslerde sızıcılaşma görülür; örneğin Orhun'daki <span class="cevrim">esizim</span> (eyvahım/yazık) kelimesi Yenisey'de sıklıkla <span class="cevrim">esisim</span> olarak kaydedilmiştir.</li>
+  <li><b>Düzlük-yuvarlaklık (küçük ünlü) uyumu sapması:</b> Yenisey yazıtlarının büyük çoğunluğunda küçük ünlü uyumu sağlanmaz: <span class="cevrim">böri</span> (kurt), <span class="cevrim">buñṣız</span> (kaygısız), <span class="cevrim">ḳuḷı</span> (kulu), <span class="cevrim">oġḷı</span> (oğlu).</li>
+  <li><b>Morfonolojik ek farklılıkları:</b> Yönelme-ayrılma ekleri (-ga/-ge, -ka/-ke, -a/-e), bulunma-ayrılma ekleri (-da/-de, -ta/-te) ve geçmiş zaman ekleri (-dı/-di, -tı/-ti), özellikle l, m, n, r son ünsüzlerinden sonra Orhun'dakinden çok farklı tonlu/tonsuz varyasyonlarla çekimlenir (<span class="cevrim">yaşımda/yaşımta, elimde/elimte</span>).</li>
+</ul>
+</section><section class="bolum"><div class="bolum-kicker">KISIM IV · BÖLÜM 06</div><h2 class="bolum-baslik">Künye, Kaynaklar ve Metin Güvenliği Raporu</h2><p class="bolum-ozet">Materyalin dayandığı kaynaklar, font bilgisi ve runik metinlerin doğrulama kaydı.</p><hr class="baslik-cizgi">
+<h3 class="alt-baslik"><span class="no">6.1</span>Kaynak Materyal</h3>
+<ul>
+  <li>Kurs Proje Teklifi ve Protokolü (dernek eğitim faaliyeti başvuru formu)</li>
+  <li>4 Yedigünlük detaylı eğitmen müfredatı ve öğrenci çalışma kağıtları (alıştırmalar + analitik cevap anahtarı)</li>
+  <li>Ek ünite metinleri: Göktürkçe sayılar, ses ayrışması (Lir/Şaz), zihinsel fiiller, quiz</li>
+  <li>Irk Bitig okuma föyleri (özel tamgalı okuma, ot/up tamgaları) ve Irk Bitig fal veri tabanı</li>
+  <li>Eğitmen ek notları: Yenisey–Orhun karşılaştırması, imla istisnaları çalışması</li>
+</ul>
+<p class="not">Akademik çerçeve: Prof. Dr. Aysu Ata'nın metot ve terminolojisi ile Talat Tekin gramer sistemi esas alınmıştır.</p>
+
+<h3 class="alt-baslik"><span class="no">6.2</span>Yazı Karakterleri (Fontlar)</h3>
+<p>Runik karakterler <b>Noto Sans Old Turkic</b> (SIL Open Font License) ile dizilmiş ve bu PDF'e gömülmüştür; belge, Old Turkic fontu kurulmamış bilgisayarlarda ve baskıda da doğru görüntülenir. Latin metinler Source Serif 4, çevrim (transkripsiyon) satırları JetBrains Mono ile dizilmiştir (her ikisi de OFL lisanslıdır).</p>
+
+<h3 class="alt-baslik"><span class="no">6.3</span>Metin Güvenliği — Doğrulama Kaydı</h3>
+<table class="tablo">
+  <tr><th style="width:44mm">Denetim</th><th>Sonuç</th></tr>
+  <tr><td>Tamga envanteri</td><td>Kaynaklarda 47 farklı runik karakter kullanılmıştır; gömülü Noto Sans Old Turkic fontunun glif tablosunda 47/47 karakterin varlığı programatik olarak doğrulanmıştır (tofu riski yoktur).</td></tr>
+  <tr><td>Bozulmuş karakter düzeltmeleri</td><td>Öğrenci çalışma kağıdı cevap bölümündeki 3 dışa aktarım hatası düzeltilmiştir: 1) <span class="cevrim">sabın</span> çözümündeki metin kalıntısı ➔ <span class="runic">𐰽</span> (kalın S); 2) <span class="cevrim">adgırın</span> çözümündeki emoji ➔ <span class="runic">𐰑</span> (kalın D); 3) <span class="cevrim">kıldı</span> çözümündeki emoji ➔ <span class="runic">𐰃</span> (I/İ). Doğru biçimler müfredatın cevap anahtarıyla ve Unicode resmi harf adlarıyla örtüşmektedir.</td></tr>
+  <tr><td>1. Fal metni</td><td>Öğrenci çalışma kağıdındaki kısmi yazım (içinde Latin harfli “altun” geçen satır) yerine Irk Bitig fal veri tabanının tam runik metni esas alınmıştır; transkripsiyon ve Türkçe çeviri de veri tabanıyla uyumludur.</td></tr>
+  <tr><td>Hariç tutulan varyant</td><td>Çalışma kağıdının sonundaki “2. Yedigün” varyant yaprağı öğrenci setine alınmamıştır: yaprak, IK/KI ligatürü için <span class="runic">𐰵</span> (Unicode: YENISEI AQ) işaretini kullanmakta ve müfredatla çelişmektedir. Unicode resmi adlarına göre IK/KI = <span class="runic">𐰶</span> (ORKHON IQ), İÇ/Çİ = <span class="runic">𐰱</span> (ORKHON IC) olup müfredat standardı doğrudur.</td></tr>
+  <tr><td>İmla standardı</td><td>Kutuplu ünsüzler ve ligatürler müfredatın tablosuyla dizilmiş; her karakter Unicode resmi adlarıyla eşleştirilerek nesnel olarak doğrulanmıştır.</td></tr>
+</table>
+<p class="not">Bu kitapçık, yukarıdaki kaynaklardan editoryal temizlikle (konuşma dili kalıntıları ve sohbet artıkları çıkarılarak) derlenmiş; runik dizilere hiçbir ekleme veya değişiklik yapılmamıştır.</p>
+</section></body></html>

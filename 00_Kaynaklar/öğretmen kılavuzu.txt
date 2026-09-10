@@ -1,0 +1,40 @@
+### **1. Bu İstisnalar İçin Çalışma Kâğıdı**
+
+Sizin için tam olarak bu pedagojik ihtiyacı düşünerek az önce **"Göktürkçe 2. Yedice Öğrenci Çalışma Yaprağı"** adında çok pratik bir alıştırma kılavuzunu hazırladım ve Studio panelinize kaydettim. 
+
+Bu çalışma kâğıdı; öğrencilerinizin **orta hece ünlü düşmesi**, hece ligatürlerinin kelime başı **konum kısıtları** (özellikle *kıldı* ve *kök* kelimelerinin yazım çelişkileri) ve kalın köklü sözcüklerdeki **ince-N (𐰤) istisnasını** (*adgırın*, *sabın*) bizzat el alıştırmalarıyla yazıp okuyarak pekiştirmelerini sağlamaktadır. Belgenin sonunda da her alıştırmanın dilbilimsel gerekçeli bir analitik cevap anahtarı yer almaktadır.
+
+*Eğer isterseniz, az önce listelediğimiz diğer ileri düzey istisnaları da (çift ünlüler, ikiz ünsüz tekilleştirme sapmaları, kapalı é yazımları vb.) kapsayan ikinci bir **"Gelişmiş Göktürkçe İmla İstisnaları Alıştırma Kâğıdı"** daha hazırlayabilirim.*
+
+---
+
+### **2. Yenisey Yazıtları ile Orhun Yazıtları Arasındaki Farklar**
+
+Yenisey Nehir Havzası'nda bulunan mezar stelleri (epitaflar) ile Moğolistan'daki anıtsal Orhun abideleri arasındaki farklar, Türk yazı dilinin en zengin bölgesel çeşitlilik alanını oluşturur. Bu farklar akademik kaynaklara göre şu şekildedir:
+
+#### **A. Siyasi, Sosyal ve İdari Bağlam Farkları**
+*   **Orhun Yazıtları:** İlahi Göktürk Hakanlığı'nın resmi, idari ve diplomatik devlet dilini yansıtır. Bu yüzden son derece **standartlaştırılmış, kurallı ve disiplinli** bir imla sistemine sahiptir.
+*   **Yenisey Yazıtları:** Yenisey Kırgız Kağanlığı dönemindeki boy aristokratlarına ait mezar taşlarıdır (epitaf). Resmi bir devlet dilinden ziyade şahsi yas ifadeleri taşıdığından **kuralsız, serbest ve bireysel** yazım özellikleri gösterir.
+
+#### **B. Tarihlendirme ve Gelişim Çizgisi**
+*   Vilhelm Thomsen, Yenisey harflerinin Orhun'a kıyasla daha kaba ve ilkel görünmesinden ötürü bu yazıtların 6. veya 7. yüzyıla ait erken imla denemeleri olduğunu savunmuştur.
+*   Ancak Louis Bazin, Igor Kormushin ve A.M. Shcherbak gibi paleograflar; Yenisey yazıtlarındaki dilsel ve morfolojik katmanların **9. ve 10. yüzyıla** ait olduğunu kanıtlamışlardır. Yani Yenisey yazısı Orhun'un bir öncüsü değil, onunla **eş zamanlı olarak gelişmiş bağımsız bir bölgesel koldur**.
+
+#### **C. Grafik ve Paleografik (Yazımsal) Farklar**
+*   **Karakter Envanteri:** Orhun stelleri standart 38-40 karakter kullanırken; Yenisey epigrafisinde standartlaşmamış **150'den fazla grafik harf varyantı** ve 29-31 tescilli özgün karakter tespit edilmiştir.
+*   **Kapalı É (𐰅) Karakterinin Varlığı:** Orhun abidelerinde kapalı /e/ sesi için müstakil bir harf yoktur; bu ses ya düz-dar "i" ( hissesiyle) yazılır ya da hiç gösterilmez. Yenisey yazıtlarında ise kapalı /e/ sesini temsil eden **müstakil bir 𐰅 karakteri** mevcuttur. Bu sesle yazılan Yenisey kelimeleri şunlardır: *éki (iki), él (halk), éş (arkadaş), ét- (düzenlemek), bél (bel), béş (beş), yéti (yedi), yétmiş (yetmiş), kéş (okluk/sadak)*.
+*   **Harf Formu Değişimleri:** Kalın ünlülü kelimelerde kullanılan Kalın B (𐰊), Kalın D (𐰒), Kalın R (𐰻) ve Kalın T (𐱄) gibi tamgaların Yenisey varyantları grafik olarak Orhun'dakilerden belirgin şekilde farklıdır.
+*   **Yazım Yönü ve Ayırıcılar:** Orhun yazıtlarında satırlar disiplinli bir şekilde sağdan sola dikey veya yatay akarken; Yenisey stellerinde yazım yönü serbesttir, hatta satırların birbirini takip ederek yön değiştirdiği **boustrophedon** akışlar görülür. Kelime ayırıcı iki nokta (:) simgesi Orhun'da dik iken Yenisey'de eğik veya düz kazınabilmiştir.
+
+#### **D. Fonetik ve Ağız (Diyalektal) Özellikleri**
+Yenisey Kırgızlarının dili, Orhun Türkçesinden seslik düzeyde şu ağız özellikleriyle ayrılır:
+*   **e ~ i Farklılığı:** Yenisey'de *eki / iki*, *elig / ilig*, *el / il*, *eçi / içi*, *beş / biş* gibi ses nöbetleşmeleri son derece yaygındır.
+*   **b ~ m Farklılığı (Sözbaşında):** Orhun'da "b" ile başlayan kelimeler Yenisey'de "m" sesine döner: *ben ➔ men*, *beŋkü ➔ meŋkü*. Bu ses olayı modern Türkiye Türkçesi (b'li) ile Kırgız Türkçesi (m'li: *men, moyun, murun*) arasındaki tarihsel diyalekt farkının o dönemdeki doğrudan yansımasıdır.
+*   **g ~ k Farklılığı:** Standart Orhun Türkçesindeki *edgü* (iyi) kelimesi Yenisey mezar taşlarında tonsuzlaşarak **edkü** (𐰓𐰚𐰇) şeklinde yazılır.
+*   **z ~ s ve ş ~ s Farklılığı:** Kelime içi ve sonundaki bazı seslerde sızıcılaşma görülür; örneğin Orhun'daki *esizim* (eyvahım/yazık) kelimesi Yenisey'de sıklıkla **esisim** olarak kaydedilmiştir.
+*   **Düzlük-Yuvarlaklık (Küçük Ünlü) Uyumu Sapması:** Yenisey yazıtlarının büyük çoğunluğunda küçük ünlü uyumu sağlanmaz. Orhun yazıtlarındaki uyuma karşılık Yenisey'de *böri (kurt)*, *buñṣız (kaygısız)*, *ḳuḷı (kulu)*, *oġḷı (oğlu)* gibi kelimelerde ikinci hecedeki ünlü düzlük-yuvarlaklık kurallarına uymadan yazılmıştır.
+*   **Morfonolojik Suffix (Ek) Farklılıkları:** Yenisey'de yönelme-ayrılma ekleri (*-ga/-ge, -ka/-ke, -a/-e*) ile bulunma-ayrılma ekleri (*-da/-de, -ta/-te*) ve geçmiş zaman ekleri (*-dı/-di, -tı/-ti*) özellikle `l, m, n, r` son ünsüzlerinden sonra Orhun'dakinden çok farklı tonlu/tonsuz varyasyonlarla çekimlenir (*yaşımda / yaşımta*, *elimde / elimte*).
+
+---
+
+📖 Dernek sunumundan önce Yenisey ve Orhun epigrafisindeki bu farkları karşılaştırmalı gösteren tek sayfalık kurumsal bir **karşılaştırma tablosu veya slayt kartı** hazırlayalım mı?

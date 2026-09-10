@@ -1,0 +1,88 @@
+{
+ "id": "yapraklar",
+ "tur": "yaprak",
+ "baslik": "Göktürkçe Okuma-Yazma Öğreneği — Öğrenci Çalışma Yaprakları",
+ "surum": "2026-09-10",
+ "kapakHtml": "\n<div class=\"kapak\">\n  <div>\n    <div class=\"kapak-friz\">𐰀&nbsp;·&nbsp;𐰃&nbsp;·&nbsp;𐰆&nbsp;·&nbsp;𐰇</div>\n    <div class=\"cift-cizgi\"></div>\n    <div class=\"kicker\">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>\n    <h1>Öğrenci Çalışma Yaprakları</h1>\n    <p class=\"alt-baslik\">Göktürkçe Temel Okuma-Yazma Kursu · 4 Yedigün (Hafta) · Öğrenci Versiyonu</p>\n    <div class=\"bilgi-karti\" style=\"margin-top:8mm\">\n      <div class=\"bk-baslik\">BU SETTE</div>\n      <ul>\n        <li>1. Yedigün — Giriş, Yön Mantığı, Ünlüler ve Kutuplu Ünsüzler</li>\n        <li>2. Yedigün — İmla Tasarrufu, Çift Sesli Ligatürler ve Konum Kısıtları</li>\n        <li>3. Yedigün — Tümce Söz Dizimi, Epigrafik Farklar ve Irk Bitig Deşifresi</li>\n        <li>4. Yedigün — Bitirme (Sertifikasyon) Sınavı</li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"not\">Her yaprağın cevap anahtarı eğitmen kılavuzundadır (dağıtım için basılmaz).</div>\n</div>\n",
+ "bolumler": [
+  {
+   "id": "giris-yon-mantigi-unluler-ve-kutuplu-unsuzler",
+   "kicker": "1. YEDİGÜN",
+   "baslik": "Giriş, Yön Mantığı, Ünlüler ve Kutuplu Ünsüzler",
+   "ozet": "",
+   "bloklar": [
+    {
+     "type": "prose",
+     "targets": [
+      "baski"
+     ],
+     "html": "\n<div class=\"yaprak-bant\">\n  <div class=\"yb-ust\">1. YEDİGÜN · ÖĞRENCİ ÇALIŞMA YAPRAĞI</div>\n  <div class=\"yb-baslik\">Göktürkçe Giriş, Yön Mantığı, Ünlüler ve Kutuplu Ünsüzler</div>\n</div>\n<table class=\"kimlik-satir\"><tr><td class=\"lb\">ADI SOYADI</td><td></td><td class=\"lb\" style=\"width:22mm\">TARİH</td><td style=\"width:32mm\"></td></tr></table>\n\n<div class=\"bilgi-karti\">\n  <div class=\"bk-baslik\">BİLGİ KARTI · TEORİK ÖZET</div>\n  <ul>\n    <li><b>Yazım yönü:</b> Göktürk yazısı <b>sağdan sola</b> doğru yazılır ve okunur.</li>\n    <li><b>Kelime ayracı:</b> Sözcükler arasına modern boşluk yerine <b>üst üste iki nokta ( : )</b> konulur.</li>\n    <li><b>Kutupluluk sistemi:</b> Göktürkçede büyük-küçük harf ayrımı yoktur. Bunun yerine <b>kalın ve ince ünsüzler</b> vardır. Hangi ünsüzün kullanılacağına kelimedeki ünlülerin kalınlığına (A, I, O, U) veya inceliğine (E, İ, Ö, Ü) bakılarak karar verilir.</li>\n    <li><b>İlk ünlü kuralı:</b> Kelime başındaki düz-geniş ünlüler (A/E) yazılmazken, dar veya yuvarlak ünlüler (I/İ, O/U, Ö/Ü) daima yazılır.</li>\n    <li><b>Ünlü tamgalar (4 tamga · 8 ses):</b> A/E <span class=\"runic\">𐰀</span> · I/İ <span class=\"runic\">𐰃</span> · O/U <span class=\"runic\">𐰆</span> · Ö/Ü <span class=\"runic\">𐰇</span></li>\n  </ul>\n</div>\n\n<div class=\"alisirma\">\n  <h4 class=\"mini\"><span class=\"alisirma-no\">ALIŞTIRMA 1</span> — Transkripsiyondan Göktürkçeye Yazım (Sağdan Sola)</h4>\n  <p>Aşağıdaki kelimelerin ses özelliklerini analiz ederek uygun kalın veya ince tamgalarla Göktürkçe karşılıklarını yazınız.</p>\n  <ol>\n    <li><b>ata</b> <span class=\"not\">(kalın ünlü uyumu; ilk “a” düşer, son “a” yazılır)</span> — <span class=\"blank\"></span></li>\n    <li><b>ede</b> <span class=\"not\">(ince ünlü uyumu; ilk “e” düşer, son “e” yazılır)</span> — <span class=\"blank\"></span></li>\n    <li><b>iri</b> <span class=\"not\">(ince ünlü uyumu; ilk “i” yazılır, ince “r” ve son “i” yazılır)</span> — <span class=\"blank\"></span></li>\n    <li><b>adak</b> <span class=\"not\">(ayak; kalın ünlü uyumu, ünlüler düşer)</span> — <span class=\"blank\"></span></li>\n    <li><b>esiz</b> <span class=\"not\">(eyvah; ince ünlü uyumu, ünlüler düşer)</span> — <span class=\"blank\"></span></li>\n  </ol>\n</div>\n\n<div class=\"alisirma\">\n  <h4 class=\"mini\"><span class=\"alisirma-no\">ALIŞTIRMA 2</span> — Göktürkçeden Latin Alfabesine Okuma (Sağdan Sola)</h4>\n  <p>Aşağıdaki Göktürkçe kelimeleri harf harf deşifre ederek transkripsiyonlarını yazınız.</p>\n  <ol>\n    <li><span class=\"runic tamga-buyuk\">𐱅𐰭𐰼𐰃</span> — Okunuşu: <span class=\"blank\"></span></li>\n    <li><span class=\"runic tamga-buyuk\">𐰉𐰖</span> — Okunuşu: <span class=\"blank\"></span></li>\n    <li><span class=\"runic tamga-buyuk\">𐰽𐰺𐰃𐰍</span> — Okunuşu: <span class=\"blank\"></span></li>\n    <li><span class=\"runic tamga-buyuk\">𐰋𐰃𐰠𐰏𐰀</span> — Okunuşu: <span class=\"blank\"></span></li>\n  </ol>\n</div>\n"
+    }
+   ]
+  },
+  {
+   "id": "i-mla-tasarrufu-cift-sesli-ligaturler-ve-konum-kisitlari",
+   "kicker": "2. YEDİGÜN",
+   "baslik": "İmla Tasarrufu, Çift Sesli Ligatürler ve Konum Kısıtları",
+   "ozet": "",
+   "bloklar": [
+    {
+     "type": "prose",
+     "targets": [
+      "baski"
+     ],
+     "html": "\n<div class=\"yaprak-bant\">\n  <div class=\"yb-ust\">2. YEDİGÜN · ÖĞRENCİ ÇALIŞMA YAPRAĞI</div>\n  <div class=\"yb-baslik\">İmla Tasarrufu (Ünlü Düşmesi), Çift Sesli Ligatürler ve Konum Kısıtları</div>\n</div>\n<table class=\"kimlik-satir\"><tr><td class=\"lb\">ADI SOYADI</td><td></td><td class=\"lb\" style=\"width:22mm\">TARİH</td><td style=\"width:32mm\"></td></tr></table>\n\n<div class=\"bilgi-karti\">\n  <div class=\"bk-baslik\">BİLGİ KARTI · TEORİK ÖZET</div>\n  <ul>\n    <li><b>Ünlü tasarrufu:</b> Göktürk kâtipleri, kelime başı ve içindeki kısa/vurgusuz “a/e” seslerini asla yazmazlar. Ancak <b>kelime sonundaki tüm ünlüler istisnasız yazılır</b>.</li>\n    <li><b>Orta hece ünlü düşmesi:</b> Kelime kökü ek alıp genişlediğinde, vurgusuz orta hecedeki dar ünlüler düşerek imlada daralmaya yol açar.</li>\n    <li><b>Hece damgaları (ligatürler):</b> OK/UK (<span class=\"runic\">𐰸</span>), ÖK/ÜK (<span class=\"runic\">𐰜</span>), IK/KI (<span class=\"runic\">𐰶</span>) ve İÇ/Çİ (<span class=\"runic\">𐰱</span>) gibi tamgalar kendi içlerinde ünlü barındırır.</li>\n    <li><b>Kelime başı konum kısıtı:</b> Bu ligatürler kelime başında ünsüzle başlayan “ko, ku, kö, kü, kı” hecelerini yazmak için <b>tek başına asla kullanılamaz</b>. Önce düz ünsüz harf yazılmalıdır.</li>\n    <li><b>Kalın kökte ince-N istisnası:</b> 3. şahıs iyelik ve belirtme eklerindeki (ın/nı) “n” sesi, kelime kalın da olsa daima İnce N (<span class=\"runic\">𐰤</span>) ile yazılır.</li>\n  </ul>\n</div>\n\n<div class=\"alisirma\">\n  <h4 class=\"mini\"><span class=\"alisirma-no\">ALIŞTIRMA 1</span> — Tasarruf ve Ünlü Düşmesi Yazım Alıştırmaları</h4>\n  <p>Aşağıdaki kelimeleri, kelime başı/içi kısa ünlüleri düşürerek ve kelime sonu ünlülerini koruyarak yazınız.</p>\n  <ol>\n    <li><b>esen</b> <span class=\"not\">(kısa e'leri düşürünüz)</span> — <span class=\"blank\"></span></li>\n    <li><b>atar</b> <span class=\"not\">(kısa a'ları düşürünüz)</span> — <span class=\"blank\"></span></li>\n    <li><b>oglan</b> <span class=\"not\">(oğul kelimesi ek almış; orta hece “u” düşmüştür)</span> — <span class=\"blank\"></span></li>\n    <li><b>koku</b> <span class=\"not\">(ilk hecedeki ünlü düşer, kelime sonu ünlü korunur)</span> — <span class=\"blank\"></span></li>\n  </ol>\n</div>\n\n<div class=\"alisirma\">\n  <h4 class=\"mini\"><span class=\"alisirma-no\">ALIŞTIRMA 2</span> — Ligatür ve Konum Kısıtı Yazım Analizi</h4>\n  <p>Aşağıdaki kelimelerin hangisinde kelime başı ligatür yasağı olduğunu analiz ediniz ve doğru Göktürkçe yazımını yapınız.</p>\n  <ol>\n    <li><b>kök</b> <span class=\"not\">(mavi/gök; kelime başında “kö” vardır. Doğrudan ÖK/ÜK ligatürüyle başlayabilir miyiz?)</span>\n      <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div></li>\n    <li><b>kıldı</b> <span class=\"not\">(kelime başında “kı” vardır. Doğrudan IK/KI ligatürüyle başlayabilir miyiz?)</span>\n      <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div></li>\n  </ol>\n</div>\n\n<div class=\"alisirma\">\n  <h4 class=\"mini\"><span class=\"alisirma-no\">ALIŞTIRMA 3</span> — İnce-N (𐰤) İstisnası Alıştırması</h4>\n  <p>Aşağıdaki kalın köklü kelimeleri “kalın kökte ince-n” kuralına dikkat ederek yazınız.</p>\n  <ol>\n    <li><b>sabın</b> <span class=\"not\">(sözünü — kalın S + kalın B + ince N)</span> — <span class=\"blank\"></span></li>\n    <li><b>adgırın</b> <span class=\"not\">(aygırını — kalın B + kalın D + kalın G + kalın R + ince N)</span> — <span class=\"blank\"></span></li>\n  </ol>\n</div>\n"
+    }
+   ]
+  },
+  {
+   "id": "tumce-soz-dizimi-epigrafik-farklar-ve-irk-bitig-desifresi",
+   "kicker": "3. YEDİGÜN",
+   "baslik": "Tümce Söz Dizimi, Epigrafik Farklar ve Irk Bitig Deşifresi",
+   "ozet": "",
+   "bloklar": [
+    {
+     "type": "prose",
+     "targets": [
+      "baski"
+     ],
+     "html": "\n<div class=\"yaprak-bant\">\n  <div class=\"yb-ust\">3. YEDİGÜN · ÖĞRENCİ ÇALIŞMA YAPRAĞI</div>\n  <div class=\"yb-baslik\">Tümce Söz Dizimi, Epigrafik Farklar ve Irk Bitig Deşifresi</div>\n</div>\n<table class=\"kimlik-satir\"><tr><td class=\"lb\">ADI SOYADI</td><td></td><td class=\"lb\" style=\"width:22mm\">TARİH</td><td style=\"width:32mm\"></td></tr></table>\n\n<div class=\"bilgi-karti\">\n  <div class=\"bk-baslik\">BİLGİ KARTI · TEORİK ÖZET</div>\n  <ul>\n    <li><b>Sentaks (söz dizimi):</b> Göktürkçede isim cümleleri (örn. <span class=\"cevrim\">Bilge Tonyukuk men</span> — “Ben Bilge Tonyukuk'um”) ve fiil cümleleri mevcuttur.</li>\n    <li><b>Taş ekonomisi (eksilti):</b> Taşa kazımak zor olduğundan, metinlerde bazı sıfat-fiiller ve yardımcı fiiller yazılmayarak düşürülür (eksiltilir).</li>\n    <li><b>Mecra değişimi:</b> Taş üzerindeki köşeli Orhun harfleri, kâğıt ve fırçanın akıcılığıyla Irk Bitig'de yuvarlak hatlı el yazısı (cursive) karakterlerine dönüşmüştür.</li>\n    <li><b>Irk Bitig radikal imla sapmaları:</b> (1) ş (<span class=\"runic\">𐱁</span>) karakteri alfabeden tamamen atılmış, yerine s (<span class=\"runic\">𐰽</span>/<span class=\"runic\">𐰾</span>) kullanılmıştır. (2) İnce r (<span class=\"runic\">𐰼</span>) yerine grafik benzerliği nedeniyle ş (<span class=\"runic\">𐱁</span>) karakteri ince “r” sesini yazmak için kullanılmıştır.</li>\n  </ul>\n</div>\n\n<div class=\"alisirma\">\n  <h4 class=\"mini\"><span class=\"alisirma-no\">ALIŞTIRMA 1</span> — Orhun ve Irk Bitig Arasındaki İmla Dönüşümü</h4>\n  <p>Aşağıdaki kelimeleri, standart Orhun kurallarıyla ve Irk Bitig'in kendine has imla sapmalarına uyarak iki farklı şekilde yazınız.</p>\n  <ol>\n    <li><b>yaş</b> <span class=\"not\">(yaş/ömür)</span>\n      <div>Orhun Yazımı: <span class=\"blank\"></span></div>\n      <div>Irk Bitig Yazımı <span class=\"not\">(ş harfi yerine s kullanınız)</span>: <span class=\"blank\"></span></div></li>\n    <li><b>er</b> <span class=\"not\">(erkek/insan)</span>\n      <div>Orhun Yazımı: <span class=\"blank\"></span></div>\n      <div>Irk Bitig Yazımı <span class=\"not\">(ince r harfi yerine ş harfini kullanınız)</span>: <span class=\"blank\"></span></div></li>\n  </ol>\n</div>\n\n<div class=\"alisirma\">\n  <h4 class=\"mini\"><span class=\"alisirma-no\">ALIŞTIRMA 2</span> — Orijinal Irk Bitig Metni Deşifresi (1. Fal · Zar: 2-2-2)</h4>\n  <p>Aşağıdaki Irk Bitig 1. Fal metninin transkripsiyonunu (okunuşunu) sağdan sola çözerek yazınız.</p>\n  <div class=\"fal-kutusu\">\n    <div class=\"runik-satir runic\">"
+    },
+    {
+     "type": "metin-ref",
+     "targets": [
+      "baski",
+      "slayt"
+     ],
+     "db": "irkbitig",
+     "ref": "1",
+     "goster": [
+      "runik"
+     ]
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "baski"
+     ],
+     "html": "</div>\n  </div>\n  <p><b>Transkripsiyon (okunuş):</b></p>\n  <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div>\n  <p><b>Dilbilimsel tahlil:</b> Metinde ince “r” sesi hangi kelimelerde ve hangi tamgayla yazılmıştır? Irk Bitig kâtibinin bu tercihinin nedenini açıklayınız.</p>\n  <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div>\n</div>\n"
+    }
+   ]
+  },
+  {
+   "id": "gokturkce-temel-okuma-yazma-egitimi-sertifikasyon-sinavi",
+   "kicker": "4. YEDİGÜN",
+   "baslik": "Göktürkçe Temel Okuma-Yazma Eğitimi Sertifikasyon Sınavı",
+   "ozet": "",
+   "bloklar": [
+    {
+     "type": "prose",
+     "targets": [
+      "baski"
+     ],
+     "html": "\n<div class=\"yaprak-bant\">\n  <div class=\"yb-ust\">4. YEDİGÜN · BİTİRME SINAVI</div>\n  <div class=\"yb-baslik\">Göktürkçe Temel Okuma-Yazma Eğitimi Sertifikasyon Sınavı</div>\n</div>\n<table class=\"kimlik-satir\">\n  <tr><td class=\"lb\">ADI SOYADI</td><td></td><td class=\"lb\" style=\"width:20mm\">TARİH</td><td style=\"width:30mm\"></td></tr>\n  <tr><td class=\"lb\">SÜRE</td><td>45 dakika</td><td class=\"lb\">BAŞARI PUANI</td><td>100 üzerinden en az 70</td></tr>\n</table>\n\n<div class=\"soru\">\n  <p class=\"soru-baslik\"><span class=\"puan\">25 PUAN</span>Soru 1 — Ünlü Düşmesi ve Tasarruf Kuralı</p>\n  <p>Göktürk yazım sisteminde kelime başındaki ve içindeki kısa “a” ve “e” sesleri neden yazılmaz? Bu kuralı <b>esen</b> ve <b>atar</b> kelimelerinin Göktürkçe yazılışlarını göstererek açıklayınız.</p>\n  <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div>\n</div>\n\n<div class=\"soru\">\n  <p class=\"soru-baslik\"><span class=\"puan\">25 PUAN</span>Soru 2 — Tarihsel Sayı Sistemi Çözümlemesi</p>\n  <p>Eski Türk yazı sistemindeki sayı çekimi mantığına göre <b>sekiz elig</b> ifadesi günümüzdeki hangi sayıya karşılık gelir? Bu sayı sisteminin çalışma prensibini açıklayarak belirtiniz.</p>\n  <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div>\n</div>\n\n<div class=\"soru\">\n  <p class=\"soru-baslik\"><span class=\"puan\">25 PUAN</span>Soru 3 — Hece Ligatürlerinde Konum Kısıtları</p>\n  <p>Bir öğrenci <b>kıldı</b> kelimesini <span class=\"runic\">𐰶𐰡𐰃</span> (IK/KI ligatürü + LD ligatürü + I), <b>kök</b> kelimesini ise <span class=\"runic\">𐰜𐰚</span> (ÖK/ÜK ligatürü + İnce K) şeklinde yazmıştır. Bu yazımlar akademik imla kurallarına göre neden <b>hatalıdır</b>? Doğru yazımlarını kurallarıyla birlikte gösteriniz.</p>\n  <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div>\n</div>\n\n<div class=\"soru\">\n  <p class=\"soru-baslik\"><span class=\"puan\">25 PUAN</span>Soru 4 — Dilbilimsel İmla İstisnası Analizi</p>\n  <p>Göktürkçe büyük ünlü uyumuna sahip sıkı kutuplu bir dil olmasına rağmen, kalın ünlüye sahip olan <b>sabın</b> (sözünü) ve <b>adgırın</b> (aygırını) kelimelerinin sonundaki “n” harfi neden kalın N (<span class=\"runic\">𐰣</span>) ile değil de <b>İnce N</b> (<span class=\"runic\">𐰤</span>) tamgasıyla yazılmıştır? Bu istisnanın dilbilimsel adını ve kuralını açıklayınız.</p>\n  <div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div><div class=\"cevap-satiri\"></div>\n</div>\n\n<p class=\"kaynak-not\">Sertifikasyon: Devam durumu ve sınav başarısı (≥ 70/100) birlikte değerlendirilir; başarılı katılımcılara resmi sertifika takdim edilir.</p>\n"
+    }
+   ]
+  }
+ ]
+}

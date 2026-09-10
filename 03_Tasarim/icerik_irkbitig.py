@@ -1,0 +1,114 @@
+# -*- coding: utf-8 -*-
+"""Irk Bitig Okuma Föyü içerik modülü. Fal blokları «FALx_BLOK» belirteçleriyle veri tabanından eklenir."""
+
+KAPAK = """
+<div class="kapak">
+  <div>
+    <div class="kapak-friz">𐰖𐱁&nbsp;·&nbsp;𐱇&nbsp;·&nbsp;𐰆𐰞𐰆𐰺𐰰𐰣</div>
+    <div class="cift-cizgi"></div>
+    <div class="kicker">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>
+    <h1>Irk Bitig Okuma Föyü</h1>
+    <p class="alt-baslik">Özel Tamgalı Okuma ve Fal Deşifre Kartları · 3. Yedice Ünitesi</p>
+    <div class="kapak-meta">
+      <table>
+        <tr><td class="k">ESER</td><td>Irk Bitig (Fal Kitabı) — kâğıt üzerine fırça ile yazılmış runik el yazması</td></tr>
+        <tr><td class="k">BULUNUŞ</td><td>Doğu Türkistan · Bin Budak (Dunhuang) mağaraları</td></tr>
+        <tr><td class="k">ODAK</td><td>“ot” (𐱇) ve “up” (𐰰) özel tamgaları · fal deşifre algoritması</td></tr>
+        <tr><td class="k">FALLAR</td><td>4. Fal · 17. Fal · 15. Fal (orijinal runik metin + çevrim + çeviri)</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="not">Fal metinleri Irk Bitig veri tabanından aynen alınmıştır; font gömülü olduğundan bu föy her bilgisayarda ve baskıda doğru görünür.</div>
+</div>
+"""
+
+BOLUMS = []
+
+BOLUMS.append({
+    "kicker": "BÖLÜM 01",
+    "baslik": "Irk Bitig ve Özel Tamgaları",
+    "ozet": "Eserin paleografik yeri; standart envanterin dışına çıkan iki nadide işaret.",
+    "govde": """
+<p>Irk Bitig, kâğıt üzerine fırça ile yazılmış Türk yazı kültürünün en nadide örneklerinden biridir. Bilinen büyük yazıtların (Kül Tigin, Bilge Kağan) aksine bir “fal kitabı” niteliği taşıyan bu eser, paleografik açıdan Orhun alfabesinin standart sınırlarını zorlayan özel tamgalara ev sahipliği yapar. Metnin deşifre anahtarı sayılan ve sadece Irk Bitig ile bazı Yenisey yazıtlarına özgü olan “ot” (𐱇) ve “up” (𐰰) tamgaları, bir metnin tarihsel ve coğrafi aidiyetini belirlemede uzman bir epigraf için en güçlü kanıttır.</p>
+<table class="tablo">
+  <tr><th class="merkez">Tamga</th><th>Değer / İşlev</th><th>Karakteristik Özellik</th><th>Bölgesel Dağılım</th></tr>
+  <tr><td class="merkez"><span class="runic tamga-buyuk">𐱇</span></td><td><span class="cevrim">ot</span></td><td>Hem hece hem logograf (ideogram) — “ot, çimen, yeşillik” kelimesini tek başına karşılar</td><td>Irk Bitig, Yenisey</td></tr>
+  <tr><td class="merkez"><span class="runic tamga-buyuk">𐰰</span></td><td><span class="cevrim">up / üp</span></td><td>Bileşik ses — dar-yuvarlak ünlüden (u/ü) sonra gelen /p/ ünsüzünü, yani <span class="cevrim">/up/</span> ve <span class="cevrim">/üp/</span> ses öbeklerini yazan özel yarı-hece işareti</td><td>Irk Bitig, Yenisey</td></tr>
+  <tr><td class="merkez"><span class="runic tamga-buyuk">𐰆</span> / <span class="runic tamga-buyuk">𐰇</span></td><td><span class="cevrim">o/u · ö/ü</span></td><td>Standart ünlü tamgaları (genel kullanım) — karşılaştırma için</td><td>Tüm Orhun Yazıtları</td></tr>
+</table>
+<h4 class="mini">Neden sadece bu dönemde ve bu eserde?</h4>
+<p>Taş anıtlardaki katı ve disiplinli imla kuralları, 9. yüzyılda kâğıt üzerine fırçayla hızlıca yazma ihtiyacıyla birleşince gevşemiştir. Kâtipler hem fırçanın akıcılığını kullanmış hem de harf ve zamandan tasarruf etmek için bu tür logografik (ot 𐱇) ve yarı-hecesel (up 𐰰) karakterler türetme serbestliğine kavuşmuştur. Her iki tamga da Türk yazı sisteminin erken dönemdeki zenginleşme ve dinamizm çabasının en kıymetli paleografik kanıtlarıdır.</p>
+<h4 class="mini">Kullanım sıklığı — tüm Eski Türkçe korpusta</h4>
+<ul>
+  <li><b>𐱇 (ot) tamgası yalnızca üç kez kullanılmıştır:</b> <span class="cevrim">yaş ot</span> (taze ot) ➔ <span class="runic">𐰖𐱁 𐱇</span> (17. ve 53. fallarda); <span class="cevrim">otsuz</span> (yeşilliksiz) ➔ <span class="runic">𐱇𐰽𐰔</span> (45. falda).</li>
+  <li><b>𐰰 (up) tamgasının fonetik kullanımı:</b> <span class="cevrim">olurupan</span> (oturarak/oturup) ➔ <span class="runic">𐰆𐰞𐰆𐰺𐰰𐰣</span>; <span class="cevrim">bolup</span> (olup) ➔ <span class="runic">𐰋𐰆𐰞𐰰</span> (bol + up).</li>
+</ul>
+"""
+})
+
+BOLUMS.append({
+    "kicker": "BÖLÜM 02",
+    "baslik": "Deşifre Algoritması",
+    "ozet": "Eski Türkçe bir metin karşısında izlenecek bilimsel yöntem.",
+    "govde": """
+<div class="bilgi-karti">
+  <div class="bk-baslik">DEŞİFRE REHBERİ — 4 ADIM</div>
+  <p><b>1. Yön tayini:</b> Metni daima sağdan sola doğru okuyun.</p>
+  <p><b>2. Ünsüz karakter analizi:</b> Alfabedeki çifte ünsüz sistemi (art/kalın ve ön/ince ünsüz ayrımı) en büyük yardımcınızdır. Ünsüzün karakterini belirlemek, etrafındaki yazılmayan ünlülerin (a/ı vs e/i) ses değerlerini deşifre etmenizi sağlar.</p>
+  <p><b>3. Özel tamga tespiti:</b> Metinde 𐱇 (ot) veya 𐰰 (up) gibi esere özgü “anahtar” tamgaları işaretleyin.</p>
+  <p><b>4. Noktalama ve sentaks:</b> Kelime aralarındaki üst üste iki noktayı (:) durak olarak belirleyerek cümle yapısını kurun.</p>
+</div>
+"""
+})
+
+BOLUMS.append({
+    "kicker": "BÖLÜM 03",
+    "baslik": "Fal Kartları — Orijinal Metin Deşifreleri",
+    "ozet": "4., 17. ve 15. fallar: runik dizilim, çevrim ve tahlil.",
+    "govde": """
+<h3 class="alt-baslik"><span class="no">3.1</span>Kart 1 — 4. Fal: Tahtına Oturan Hükümdar ve “up” (𐰰) Tamgası</h3>
+«FAL4_BLOK»
+<p><b>Deşifre analizi:</b> 4. faldaki <span class="cevrim">olurupan</span> kelimesi, “up” tamgasının kelime içindeki morfolojik işlevini anlamak için en temel örnektir.</p>
+<ul>
+  <li><b>Parantez disiplini:</b> Runik alfabede gösterilmeyen ancak Türkçe dudak uyumu ve morfoloji gereği orada olduğu bilinen ünlüler çevrimde parantez içinde gösterilir: <span class="cevrim">ol(o)r-u-p(a)n</span>. Burada ol(o)r- fiil kökündeki ikinci “o” ve -p(a)n ekindeki “a” yazılmamış fakat deşifrede belirtilmiştir.</li>
+  <li><b>“Up” (𐰰) tamgasının rolü:</b> Tamga, <span class="cevrim">/up/</span> ses öbeğini tek başına karşılar; kelimenin morfolojik yapısında -u-p(a)n zarf-fiil ekinin merkezini oluşturarak eylemin “oturarak/oturup” şeklinde süreklilik/durum kazanmasını sağlar.</li>
+  <li><b>Falın anlamı:</b> “Han tahtı üzerine oturup hükmediyor.” Düzenin ve istikrarın yeniden tesis edildiğine işaret eden son derece olumlu bir işarettir.</li>
+</ul>
+
+<h3 class="alt-baslik"><span class="no">3.2</span>Kart 2 — 17. Fal: Bozkırın Yaşam Kaynağı ve Logografik “ot” (𐱇)</h3>
+«FAL17_BLOK»
+<p><b>Deşifre analizi:</b> Özlük at (kişiye özel değerli at) tasvirinin geçtiği 17. fal, “ot” tamgasının bir kavramı tek başına temsil etme gücünü gösterir.</p>
+<ul>
+  <li><b>Logografik derinlik:</b> 𐱇 tamgası, sadece /o/ ve /t/ seslerini birleştiren fonetik bir yapı değil, “bitki, meralık alan” anlamını taşıyan bir ideogramdır.</li>
+  <li><b>Kültürel bağlam:</b> Bozkır kültüründe “yaş ot” (taze bitki), hayvanın semirmesi ve dolayısıyla toplumun zenginleşmesi demektir. Bu hayati kavramın tek bir işaretle özelleştirilmesi, Türk runik yazısının kavramsal derinliğini yansıtır.</li>
+  <li><b>Öğrenme noktası:</b> Bu tamgayı gördüğünüzde onu sadece bir ses dizisi olarak değil, tek başına bir “isim” (ot/bitki) olarak okuma ihtimalini her zaman önceliklendirin. Bu, deşifre sürecinde metin anlamlandırma hızınızı ve doğruluğunuzu belirleyen kritik bir basamaktır.</li>
+</ul>
+
+<h3 class="alt-baslik"><span class="no">3.3</span>Kart 3 — 15. Fal: Doğa Tasvirleri ve Deşifre Algoritması Uygulaması</h3>
+«FAL15_BLOK»
+<p><b>Tahlil notu:</b> Doğadaki sis ve dumanın atmosferini yansıtan 15. fal (Üzä tuman turdı — üstte duman durdu), karmaşık bir metni deşifre ederken izlenecek bilimsel yöntemi kavramak için idealdir. Kelimelerin morfolojik tahlilinde <span class="cevrim">toz/tuman</span> kelimelerinin imla tasarrufu (yazılmayan ünlülerin parantezle gösterilmesi) örnek gösterilir.</p>
+"""
+})
+
+BOLUMS.append({
+    "kicker": "BÖLÜM 04",
+    "baslik": "Öğrenci Deşifre Atölyesi",
+    "ozet": "Paleografik notlarınız için uygulama alanı ve kontrol listesi.",
+    "govde": """
+<div class="bilgi-karti">
+  <div class="bk-baslik">UYGULAMA ALANI</div>
+  <p><b>Transkripsiyon denemesi (Aysu Ata metodu — yazılmayan ünlüler parantez içinde):</b></p>
+  <div class="cevap-satiri"></div><div class="cevap-satiri"></div>
+  <p><b>Morfolojik analiz (kök ve ek ayrımı):</b></p>
+  <div class="cevap-satiri"></div><div class="cevap-satiri"></div>
+</div>
+<h4 class="mini">Deşifre Kontrol Listesi</h4>
+<ul class="kontrol-liste">
+  <li><span class="kutu"></span>Metni sağdan sola okuduğunuzdan emin misiniz?</li>
+  <li><span class="kutu"></span>Yazılmayan ünlüleri morfolojik gerekliliğe göre parantez ( ) içine aldınız mı?</li>
+  <li><span class="kutu"></span>“Ot” (𐱇) ve “up” (𐰰) tamgalarını, Orhun alfabesindeki standart 𐰆 (o/u) veya 𐰯 (p) harfleriyle karıştırmadınız mı?</li>
+  <li><span class="kutu"></span>Ünsüzlerin kalınlık/incelik uyumunu kontrol ettiniz mi?</li>
+</ul>
+<p class="kaynak-not">Deşifre edilen her tamga, bin yıllık bir sessizliği bozacaktır. — Irk Bitig'in kolofon (kırmızı mürekkepli hatime) yazım kuralları, 4. yedicenin Irk Bitig entegrasyonunda incelenir.</p>
+"""
+})

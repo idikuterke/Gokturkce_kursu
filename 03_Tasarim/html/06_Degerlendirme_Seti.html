@@ -1,0 +1,451 @@
+<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Değerlendirme Seti</title><style>/* ============================================================
+   BENGÜ TAŞ — Göktürkçe Okuma-Yazma Kursu · Baskı Tasarım Sistemi
+   A4 dikey · print-first · Old Turkic font gömmeli
+   ============================================================ */
+
+@font-face {
+  font-family: 'Noto Sans Old Turkic';
+  src: url('../fontlar/NotoSansOldTurkic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Turk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/turkbitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BabelStone Irk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/BabelStoneIrkBitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fontlar/SourceSerif4.ttf') format('truetype');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fontlar/JetBrainsMono.ttf') format('truetype');
+  font-weight: 100 800;
+}
+
+:root {
+  --kagit:   #FBF7EE;   /* sıcak kâğıt */
+  --kagit2:  #FDFAF2;   /* fal kutusu zemin */
+  --murekkep:#2A211A;   /* sıcak siyah mürekkep */
+  --tas:     #6E5A45;   /* taş kahve, ikincil metin */
+  --okr:     #A97B32;   /* okr / bengü altın, vurgu */
+  --kirmizi: #A6331F;   /* Irk Bitig kırmızı mürekkep */
+  --cizgi:   #D9CCB2;   /* saç çizgisi */
+  --panel:   #F2EAD8;   /* bilgi kartı zemini */
+  --bant:    #2A211A;   /* yaprak bandı */
+}
+
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 8.5pt;
+    color: #6E5A45;
+  }
+}
+
+html, body {
+  margin: 0; padding: 0;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* ---------- Runik metin ---------- */
+.runic {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', 'BabelStone Irk Bitig', serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.5em;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.tamga-buyuk { font-size: 2.1em; }
+.tamga-okr   { color: var(--okr); }
+.tamga-krmz  { color: var(--kirmizi); }
+
+.cevrim {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  color: var(--tas);
+}
+
+/* ---------- Kapak ---------- */
+.kapak {
+  height: 246mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  page-break-after: always;
+}
+.kapak-friz {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', serif;
+  direction: rtl;
+  color: var(--okr);
+  font-size: 26pt;
+  letter-spacing: 0.18em;
+  text-align: center;
+  line-height: 1.3;
+}
+.kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--kirmizi);
+  text-transform: uppercase;
+  margin-bottom: 6mm;
+}
+.kapak h1 {
+  font-size: 31pt;
+  font-weight: 800;
+  line-height: 1.14;
+  margin: 0 0 5mm 0;
+  letter-spacing: -0.01em;
+}
+.kapak .alt-baslik {
+  font-size: 12.5pt;
+  color: var(--tas);
+  margin: 0 0 10mm 0;
+}
+.cift-cizgi {
+  border-top: 2.5px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  height: 3px; margin: 7mm 0;
+}
+.kapak-meta {
+  font-size: 10pt;
+  border-top: 1px solid var(--cizgi);
+  padding-top: 4mm;
+  color: var(--murekkep);
+}
+.kapak-meta table { width: 100%; border-collapse: collapse; }
+.kapak-meta td { padding: 1.1mm 0; vertical-align: top; }
+.kapak-meta td.k { width: 34mm; color: var(--tas); font-family:'JetBrains Mono',monospace; font-size:8.5pt; letter-spacing:0.06em; }
+
+/* ---------- Bölüm yapısı ---------- */
+.bolum { page-break-before: always; }
+.bolum-kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.3em;
+  color: var(--okr); text-transform: uppercase;
+  margin-bottom: 1.5mm;
+}
+.bolum-baslik {
+  font-size: 19pt; font-weight: 800; line-height: 1.2;
+  margin: 0 0 2mm 0;
+}
+.bolum-ozet { color: var(--tas); font-size: 10pt; margin: 0 0 5mm 0; }
+.bolum hr.baslik-cizgi { border: none; border-top: 2.5px solid var(--okr); margin: 0 0 5mm 0; }
+
+h3.alt-baslik {
+  font-size: 12.5pt; font-weight: 700;
+  margin: 6mm 0 2mm 0;
+  color: var(--murekkep);
+}
+h3.alt-baslik .no { color: var(--kirmizi); font-family:'JetBrains Mono',monospace; font-size:9pt; margin-right:2mm; }
+
+h4.mini {
+  font-size: 10.5pt; font-weight: 700; margin: 4mm 0 1.5mm 0;
+}
+
+p { margin: 0 0 2.6mm 0; text-align: justify; }
+ul, ol { margin: 0 0 2.6mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+
+/* ---------- Paneller ve tablolar ---------- */
+.bilgi-karti {
+  background: var(--panel);
+  border: 1px solid var(--cizgi);
+  border-top: 3px solid var(--okr);
+  padding: 4mm 5mm 3mm 5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+}
+.bilgi-karti .bk-baslik {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--okr); margin-bottom: 2.2mm;
+}
+.bilgi-karti p:last-child, .bilgi-karti ul:last-child { margin-bottom: 0; }
+
+table.tablo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 4.5mm 0;
+  font-size: 10pt;
+}
+table.tablo th {
+  background: #EFE6D2;
+  border-top: 2px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  padding: 2mm 2.5mm;
+  text-align: left;
+  font-size: 9pt;
+  letter-spacing: 0.04em;
+}
+table.tablo td {
+  border-bottom: 1px solid var(--cizgi);
+  padding: 1.8mm 2.5mm;
+  vertical-align: top;
+}
+table.tablo tr:last-child td { border-bottom: 1px solid var(--tas); }
+table.tablo .merkez { text-align: center; }
+
+.fal-kutusu {
+  border: 1px solid var(--cizgi);
+  border-left: 3px solid var(--kirmizi);
+  background: var(--kagit2);
+  padding: 4mm 5mm;
+  margin: 2.5mm 0 4mm 0;
+  page-break-inside: avoid;
+}
+.fal-kutusu .runik-satir {
+  text-align: center;
+  font-size: 13pt;
+  margin: 2mm 0 2.5mm 0;
+}
+
+/* ---------- Alıştırma ve cevap ---------- */
+.alisirma { margin: 0 0 4mm 0; page-break-inside: avoid; }
+.alisirma-no {
+  color: var(--kirmizi); font-weight: 700;
+  font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9pt;
+}
+.blank {
+  display: inline-block;
+  min-width: 55mm;
+  border-bottom: 1px dotted var(--tas);
+  height: 3.6mm;
+}
+.blank-uzun { min-width: 120mm; }
+.egitmen-tag {
+  display: inline-block;
+  color: var(--kirmizi);
+  border: 1px solid var(--kirmizi);
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 7.5pt; letter-spacing: 0.14em;
+  padding: 0.3mm 1.8mm;
+  margin-left: 2mm;
+  vertical-align: 2px;
+}
+.cevap-blok { page-break-inside: avoid; }
+.cevap-blok .runic { color: var(--murekkep); }
+
+/* ---------- Yaprak bandı ---------- */
+.yaprak-bant {
+  background: var(--bant);
+  color: var(--kagit);
+  padding: 3mm 4.5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+.yaprak-bant .yb-ust {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8pt; letter-spacing: 0.26em; color: var(--okr);
+  text-transform: uppercase;
+}
+.yaprak-bant .yb-baslik { font-size: 15pt; font-weight: 700; line-height: 1.25; margin-top: 1mm; }
+
+/* ---------- Sınav ve kimlik satırları ---------- */
+.cevap-satiri {
+  border-bottom: 1px dotted var(--tas);
+  height: 7mm;
+  margin: 0 0 2.2mm 0;
+}
+.soru { margin: 0 0 5.5mm 0; page-break-inside: avoid; }
+.soru .soru-baslik { font-weight: 700; }
+.soru .puan {
+  float: right;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  color: var(--kirmizi);
+  letter-spacing: 0.06em;
+}
+.kimlik-satir {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1mm 0 5mm 0;
+}
+.kimlik-satir td {
+  border-bottom: 1px solid var(--tas);
+  padding: 0.6mm 2mm;
+  font-size: 10pt;
+}
+.kimlik-satir td.lb {
+  border: none;
+  width: 34mm;
+  padding-left: 0;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  color: var(--tas);
+}
+
+/* ---------- Not / dip ---------- */
+.not { font-size: 8.8pt; color: var(--tas); }
+.kaynak-not {
+  border-top: 1px solid var(--cizgi);
+  margin-top: 6mm; padding-top: 2.5mm;
+  font-size: 8.8pt; color: var(--tas);
+}
+.kirmizi-not { color: var(--kirmizi); }
+
+/* ---------- İki sütunlu karşılaştırma ---------- */
+.karsilastirma { display: flex; gap: 4mm; margin: 2mm 0 4mm 0; page-break-inside: avoid; }
+.karsilastirma .kolon {
+  flex: 1; border: 1px solid var(--cizgi); padding: 3mm 4mm; background: var(--kagit2);
+}
+.karsilastirma .kolon h5 {
+  margin: 0 0 1.5mm 0; font-size: 10pt; font-weight: 700;
+  border-bottom: 2px solid var(--okr); padding-bottom: 1.5mm;
+}
+.karsilastirma .kolon ul { margin: 0; padding-left: 4.5mm; }
+
+.kart-tablo { width:100%; border-collapse:collapse; table-layout:fixed; margin-bottom:0; }
+.kart-tablo td { border:1px dashed #C9BBA0; height:47mm; text-align:center; vertical-align:middle; padding:2mm 1.5mm; }
+.kart-tamga { font-family:'Noto Sans Old Turkic','Turk Bitig','BabelStone Irk Bitig',serif; direction:rtl; unicode-bidi:isolate; font-size:30pt; line-height:1.1; color:var(--murekkep); }
+.kart-deger { font-weight:700; font-size:10pt; margin-top:1.6mm; }
+.kart-ad { font-family:'JetBrains Mono',Consolas,monospace; font-size:7pt; color:#8A7A64; margin-top:0.8mm; }
+.kutu { display:inline-block; width:3.2mm; height:3.2mm; border:1.2px solid var(--tas); margin-right:2mm; vertical-align:-0.2mm; }
+.kontrol-liste { list-style:none; padding-left:0; }
+.kontrol-liste li { margin-bottom:1.8mm; }
+.akis { margin:2mm 0 4mm 0; }
+.akis-dugum { text-align:center; background:var(--panel); border:1px solid var(--cizgi); border-top:3px solid var(--okr); padding:3mm; font-weight:700; }
+.akis-oklar { text-align:center; color:var(--okr); font-size:13pt; margin:1mm 0; letter-spacing:1em; }
+.mono-blok { font-family:'JetBrains Mono',Consolas,monospace; font-size:8.5pt; background:#F5EFE0; border:1px solid var(--cizgi); padding:3mm 4mm; margin:2mm 0 3.5mm 0; page-break-inside:avoid; }
+.mono-blok p { margin:0 0 1.5mm 0; text-align:left; }
+</style></head><body>
+<div class="kapak">
+  <div>
+    <div class="kapak-friz">𐰶𐰡𐰃&nbsp;·&nbsp;𐰚𐰜&nbsp;·&nbsp;𐰴𐰃</div>
+    <div class="cift-cizgi"></div>
+    <div class="kicker">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>
+    <h1>Değerlendirme Seti</h1>
+    <p class="alt-baslik">Göktürkçe Temel Okuma-Yazma Kursu · Bilgi Yarışması ve Sertifikasyon Ölçeği</p>
+    <div class="kapak-meta">
+      <table>
+        <tr><td class="k">BÖLÜM 1</td><td>Göktürkçe Temel Okuma-Yazma Kursu Bilgi Yarışması (10 soru — öğrenci versiyonu)</td></tr>
+        <tr><td class="k">BÖLÜM 2</td><td>Yarışma cevap anahtarı (eğitmen)</td></tr>
+        <tr><td class="k">BÖLÜM 3</td><td>Bitirme sınavı değerlendirme ölçeği ve puanlama kılavuzu (eğitmen)</td></tr>
+        <tr><td class="k">BÖLÜM 4</td><td>Sertifikasyon kriterleri</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="not">Yarışma soruları 4 yedicelik ders kurgusuyla birebir uyumludur; eğitmen bölümü dağıtım öncesi ayrılır.</div>
+</div>
+<section class="bolum"><div class="bolum-kicker">BÖLÜM 1 · ÖĞRENCİ VERSİYONU</div><h2 class="bolum-baslik">Göktürkçe Temel Okuma-Yazma Kursu Bilgi Yarışması</h2><p class="bolum-ozet">4 haftalık eğitimde edinilen bilgileri pekiştiren 10 soruluk değerlendirme.</p><hr class="baslik-cizgi">
+<table class="kimlik-satir"><tr><td class="lb">ADI SOYADI</td><td></td><td class="lb" style="width:22mm">TARİH</td><td style="width:32mm"></td></tr></table>
+
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">1. HAFTA</span>Soru 1 — Yazım Yönü ve Kuralları</p>
+  <p>Göktürk (Orhun-Yenisey) yazısının orijinal yazım yönü nasıldır ve kelimeleri birbirinden ayırmak için hangi noktalama sembolü kullanılır?</p>
+  <p>A) Soldan sağa — Boşluk ( )<br>B) Sağdan sola — Üst üste iki nokta ( : )<br>C) Yukarıdan aşağıya — Noktalı virgül ( ; )<br>D) Soldan sağa — Kısa çizgi ( - )</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">1. HAFTA</span>Soru 2 — Ünlü Harf İmlası</p>
+  <p>Göktürkçe imla kurallarına göre kelime içindeki ve kelime sonundaki ünlü (sesli) harflerin yazımıyla ilgili en temel “tuzak” kural hangisidir?</p>
+  <p>A) Kelime içindeki ünlüler her zaman yazılır, sonundakiler hiç yazılmaz.<br>B) Tüm ünlü harfler kelimenin her yerinde eksiksiz yazılmak zorundadır.<br>C) Kelime içindeki ilk hece dışındaki ünlüler çoğunlukla yazılmaz; ancak kelime sonundaki ünlüler her zaman yazılır.<br>D) Sadece ince ünlü harfler yazılır, kalın ünlü harfler hiç yazılmaz.</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">2. HAFTA</span>Soru 3 — Kalın ve İnce Ünsüz Uyumu</p>
+  <p>“Börü” (kurt) kelimesindeki <b>B</b> harfi ile “Bodun” (millet) kelimesindeki <b>B</b> harfi neden Göktürk alfabesinde farklı sembollerle (gliflerle) yazılır?</p>
+  <p>A) Kelimelerin anlamları farklı olduğu için.<br>B) “Börü” ince ünlülü (ö, ü), “Bodun” kalın ünlülü (o, u) bir kelime olduğundan; ünsüz harfler de kalın/ince uyumuna göre farklı glifler alır.<br>C) “Börü” kelimesindeki B harfi kelimenin başında olduğu için.<br>D) Tamamen yazanın kişisel tercihine bağlıdır, kuralı yoktur.</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">2. HAFTA</span>Soru 4 — Tek Formlu Ünsüzler</p>
+  <p>Aşağıdaki Göktürkçe ünsüz harflerden hangisinin kalın veya ince ünlülerle kullanımına göre değişen bir formu <b>yoktur</b> (yani tek formlu/nötr bir harftir)?</p>
+  <p>A) 𐰉 / 𐰋 (B)<br>B) 𐰑 / 𐰓 (D)<br>C) 𐰲 (Ç)<br>D) 𐰽 / 𐰾 (S)</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">3. HAFTA</span>Soru 5 — Çift Sesli ve Birleşik Tamgalar</p>
+  <p>Göktürkçede iki sesin yan yana gelmesiyle oluşan <span class="runic">𐰦</span> (ND / NT) ve <span class="runic">𐰸</span> (OQ / UQ) gibi tamgalara ne ad verilir?</p>
+  <p>A) Yarım Tamgalar<br>B) Çift Sesli / Birleşik Tamgalar<br>C) Yabancı Tamgalar<br>D) Sessiz Tamgalar</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">3. HAFTA</span>Soru 6 — Irk Bitig'in Kendine Özgü Tamgaları</p>
+  <p>Eski Türkçe fal kitabı olan Irk Bitig'de, Orhun Yazıtları'ndan farklı olarak “koń” (koyun) ve “turńa” (turna) kelimelerinde kullanılan ve damaksal <b>“ny / ń”</b> sesini karşılayan özel tamga hangisidir?</p>
+  <p>A) 𐰭 (ng)<br>B) 𐰪 (ny / ń)<br>C) 𐰨 (nç)<br>D) 𐰜 (ük)</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">4. HAFTA</span>Soru 7 — Tarihî Sayı Sayma Düzeni</p>
+  <p>Orhun Yazıtları'ndaki sayı sayma mantığına göre yazılmış olan <b>“bir yegirmi”</b> ifadesi, günümüz sayı sisteminde hangi sayıya karşılık gelmektedir?</p>
+  <p>A) 21 (Yirmi Bir)<br>B) 11 (On Bir)<br>C) 19 (On Dokuz)<br>D) 12 (On İki)</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">4. HAFTA</span>Soru 8 — Sayı Çözümleme</p>
+  <p>Eski Türk sayı sayma mantığına göre <b>23</b> sayısı tarihi metinlerde nasıl söylenirdi?</p>
+  <p>A) yirmi üç<br>B) üç otuz (otuzun üçüncüsü)<br>C) iki yirmi üç<br>D) üç yegirmi</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">GENEL KÜLTÜR</span>Soru 9 — Zihinsel Fiil Okuma</p>
+  <p>Kül Tigin Yazıtı'nda geçen <span class="cevrim">“öd teŋri yasar, kişioγlı qop ölgeli törimiş”</span> (Zamanı Tanrı yaşar/yönetir, insanoğlu hep ölümlü yaratılmış) ifadesindeki “yasar” ve “törimiş” bilişsel kavramları neyi simgeler?</p>
+  <p>A) İnsanın ölümsüzlüğünü<br>B) Evrensel kozmik yasayı ve kaderin mutlak sınırlarını<br>C) Göçebe yaşamın zorluklarını<br>D) Savaş hazırlıklarını</p>
+</div>
+<div class="soru">
+  <p class="soru-baslik"><span class="puan">GENEL UYGULAMA</span>Soru 10 — Transliterasyon Alıştırması</p>
+  <p>Göktürk alfabesiyle yazılmış olan <span class="runic tamga-buyuk">𐱅𐰇𐰼𐰜</span> tamgalarının günümüz Latin harfleriyle doğru okunuşu (transliterasyonu) aşağıdakilerden hangisidir?</p>
+  <p>A) Tengri<br>B) Türk<br>C) Töre<br>D) Ötüken</p>
+</div>
+</section><section class="bolum"><div class="bolum-kicker">BÖLÜM 2 · EĞİTMEN</div><h2 class="bolum-baslik">Yarışma Cevap Anahtarı</h2><hr class="baslik-cizgi">
+<span class="egitmen-tag">EĞİTMEN VERSİYONU</span>
+<table class="tablo">
+  <tr><th class="merkez" style="width:14mm">Soru</th><th class="merkez" style="width:20mm">Cevap</th><th>Gerekçe</th></tr>
+  <tr><td class="merkez">1</td><td class="merkez"><b>B</b></td><td>Sağdan sola yazılır; kelime ayırıcı olarak üst üste iki nokta ( : ) kullanılır.</td></tr>
+  <tr><td class="merkez">2</td><td class="merkez"><b>C</b></td><td>Kelime sonundaki ünlüler asla düşürülmez; içindekiler ses uyumuna göre çoğunlukla yazılmaz.</td></tr>
+  <tr><td class="merkez">3</td><td class="merkez"><b>B</b></td><td>Göktürkçede ünsüzlerin çoğunun kalın ünlülerle kullanılan 𐰉 ve ince ünlülerle kullanılan 𐰋 gibi kalın-ince çiftleri vardır.</td></tr>
+  <tr><td class="merkez">4</td><td class="merkez"><b>C</b></td><td>Ç, M, P, Ş, Z gibi harfler nötrdür; kalınlık-incelik farkına göre değişmez.</td></tr>
+  <tr><td class="merkez">5</td><td class="merkez"><b>B</b></td><td>Birleşik sesleri karşılayan özel piktografik kökenli tamgalardır.</td></tr>
+  <tr><td class="merkez">6</td><td class="merkez"><b>B</b></td><td>Irk Bitig'de 𐰪 damgası bu kelimelerde çok karakteristik biçimde kullanılır.</td></tr>
+  <tr><td class="merkez">7</td><td class="merkez"><b>B</b></td><td>Sayılar bir sonraki ondalık dilimin kaçıncı adımı olduğuna göre söylenirdi; “bir yegirmi” yirminin birinci adımı, yani 11 demektir.</td></tr>
+  <tr><td class="merkez">8</td><td class="merkez"><b>B</b></td><td>Otuzun üçüncü adımı anlamına gelen “üç otuz” olarak söylenirdi.</td></tr>
+  <tr><td class="merkez">9</td><td class="merkez"><b>B</b></td><td>Kozmik zamanı ve insan hayatının kaçınılmaz sınırlarını ifade eder.</td></tr>
+  <tr><td class="merkez">10</td><td class="merkez"><b>B</b></td><td>t-ü-r-k harfleriyle sağdan sola doğru “Türk” yazmaktadır.</td></tr>
+</table>
+</section><section class="bolum"><div class="bolum-kicker">BÖLÜM 3 · EĞİTMEN</div><h2 class="bolum-baslik">Bitirme Sınavı Değerlendirme Ölçeği ve Puanlama Kılavuzu</h2><p class="bolum-ozet">4. yedicenin sonunda uygulanan sertifikasyon sınavının analitik puanlaması.</p><hr class="baslik-cizgi">
+<span class="egitmen-tag">EĞİTMEN VERSİYONU</span>
+<table class="tablo">
+  <tr><th style="width:34mm">Soru / Kritik Alan</th><th>Puanlama Dökümü</th><th>Çözüm Özeti</th></tr>
+  <tr>
+    <td><b>Soru 1</b><br>Ünlü Düşmesi ve Tasarruf Kuralı</td>
+    <td>Teorik açıklama: <b>15 puan</b><br>Pratik uygulama: <b>10 puan</b></td>
+    <td>“Harf ekonomisi ve taş tasarrufu” esastır; kısa ve vurgusuz a/e ünlüleri zihnen tamamlanabilir kabul edilir. <span class="cevrim">esen</span> ➔ <span class="runic">𐰾𐰤</span>; <span class="cevrim">atar</span> ➔ <span class="runic">𐱃𐰺</span>.</td>
+  </tr>
+  <tr>
+    <td><b>Soru 2</b><br>Tarihsel Sayı Sistemi</td>
+    <td>Çalışma prensibi: <b>15 puan</b><br>Sayısal karşılık: <b>10 puan</b></td>
+    <td>Formül: [Birlik Sayı] + [Bir Sonraki Onluk Hane]. <span class="cevrim">sekiz elig</span>: “elig” 50; 40'tan sonraki 8. adım ➔ <b>48</b>.</td>
+  </tr>
+  <tr>
+    <td><b>Soru 3</b><br>Konum Kısıtlı Ligatür</td>
+    <td>Hata analizi: <b>15 puan</b><br>Doğru yazımlar: <b>10 puan</b></td>
+    <td>Ligatürler kelime başında ünsüzle başlayan ko/ku/kö/kü/kı hecelerini tek başına temsil edemez. <span class="cevrim">kök</span> ➔ <span class="runic">𐰚𐰜</span>; <span class="cevrim">kıldı</span> ➔ <span class="runic">𐰴𐰃𐰡𐰃</span>.</td>
+  </tr>
+  <tr>
+    <td><b>Soru 4</b><br>İmla İstisnası Analizi</td>
+    <td>Dilbilimsel kural: <b>15 puan</b><br>Açıklama: <b>10 puan</b></td>
+    <td>“3. Şahıs İyelik ve Belirtme Hâli Kalın Kökte İnce-N İstisnası”: kök kalın olsa da ın/nı ekleri daima İnce N (𐰤) ile yazılır. <span class="cevrim">sabın</span> ➔ <span class="runic">𐰽𐰉𐰤</span>; <span class="cevrim">adgırın</span> ➔ <span class="runic">𐰉𐰑𐰍𐰺𐰤</span>.</td>
+  </tr>
+</table>
+<p class="not">Sınav, ezbere değil tamamen dilbilimsel mantığa dayalıdır; öğrenci yazma çalışmalarındaki yaygın imla hataları analitik olarak tahlil edilip düzeltilerek değerlendirilir.</p>
+</section><section class="bolum"><div class="bolum-kicker">BÖLÜM 4</div><h2 class="bolum-baslik">Sertifikasyon Kriterleri</h2><hr class="baslik-cizgi">
+<div class="bilgi-karti">
+  <div class="bk-baslik">KURS TAMAMLAMA VE SERTİFİKA</div>
+  <ul>
+    <li><b>Devam durumu:</b> 4 yedicenin tamamına katılım esas alınır.</li>
+    <li><b>Başarı kriteri:</b> Bitirme sınavında 100 üzerinden en az 70 puan.</li>
+    <li><b>Sertifikasyon:</b> Ölçme sınavının ardından 12 soruluk Göktürkçe Okuma-Yazma Öğreneği Bitirme Sınavı çözümlenir; başarılı katılımcılara resmi sertifikalar takdim töreniyle verilir.</li>
+    <li><b>Eğitmen değerlendirmesi:</b> Sınav kağıtları eğitmen tarafından yukarıdaki analitik ölçekle çözümlenir; yaygın imla hataları sınıf nezdinde tahlil edilir.</li>
+  </ul>
+</div>
+<p class="kaynak-not">Bu set; bilgi yarışması taslağı, bitirme sınavı şablonu ve analitik cevap anahtarlarından derlenmiştir. Runik diziler kaynak metinlerden aynen alınmıştır.</p>
+</section></body></html>

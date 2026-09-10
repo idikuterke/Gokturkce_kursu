@@ -1,0 +1,407 @@
+<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Irk Bitig Okuma Föyü</title><style>/* ============================================================
+   BENGÜ TAŞ — Göktürkçe Okuma-Yazma Kursu · Baskı Tasarım Sistemi
+   A4 dikey · print-first · Old Turkic font gömmeli
+   ============================================================ */
+
+@font-face {
+  font-family: 'Noto Sans Old Turkic';
+  src: url('../fontlar/NotoSansOldTurkic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Turk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/turkbitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BabelStone Irk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/BabelStoneIrkBitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fontlar/SourceSerif4.ttf') format('truetype');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fontlar/JetBrainsMono.ttf') format('truetype');
+  font-weight: 100 800;
+}
+
+:root {
+  --kagit:   #FBF7EE;   /* sıcak kâğıt */
+  --kagit2:  #FDFAF2;   /* fal kutusu zemin */
+  --murekkep:#2A211A;   /* sıcak siyah mürekkep */
+  --tas:     #6E5A45;   /* taş kahve, ikincil metin */
+  --okr:     #A97B32;   /* okr / bengü altın, vurgu */
+  --kirmizi: #A6331F;   /* Irk Bitig kırmızı mürekkep */
+  --cizgi:   #D9CCB2;   /* saç çizgisi */
+  --panel:   #F2EAD8;   /* bilgi kartı zemini */
+  --bant:    #2A211A;   /* yaprak bandı */
+}
+
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 8.5pt;
+    color: #6E5A45;
+  }
+}
+
+html, body {
+  margin: 0; padding: 0;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* ---------- Runik metin ---------- */
+.runic {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', 'BabelStone Irk Bitig', serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.5em;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.tamga-buyuk { font-size: 2.1em; }
+.tamga-okr   { color: var(--okr); }
+.tamga-krmz  { color: var(--kirmizi); }
+
+.cevrim {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  color: var(--tas);
+}
+
+/* ---------- Kapak ---------- */
+.kapak {
+  height: 246mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  page-break-after: always;
+}
+.kapak-friz {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', serif;
+  direction: rtl;
+  color: var(--okr);
+  font-size: 26pt;
+  letter-spacing: 0.18em;
+  text-align: center;
+  line-height: 1.3;
+}
+.kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--kirmizi);
+  text-transform: uppercase;
+  margin-bottom: 6mm;
+}
+.kapak h1 {
+  font-size: 31pt;
+  font-weight: 800;
+  line-height: 1.14;
+  margin: 0 0 5mm 0;
+  letter-spacing: -0.01em;
+}
+.kapak .alt-baslik {
+  font-size: 12.5pt;
+  color: var(--tas);
+  margin: 0 0 10mm 0;
+}
+.cift-cizgi {
+  border-top: 2.5px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  height: 3px; margin: 7mm 0;
+}
+.kapak-meta {
+  font-size: 10pt;
+  border-top: 1px solid var(--cizgi);
+  padding-top: 4mm;
+  color: var(--murekkep);
+}
+.kapak-meta table { width: 100%; border-collapse: collapse; }
+.kapak-meta td { padding: 1.1mm 0; vertical-align: top; }
+.kapak-meta td.k { width: 34mm; color: var(--tas); font-family:'JetBrains Mono',monospace; font-size:8.5pt; letter-spacing:0.06em; }
+
+/* ---------- Bölüm yapısı ---------- */
+.bolum { page-break-before: always; }
+.bolum-kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.3em;
+  color: var(--okr); text-transform: uppercase;
+  margin-bottom: 1.5mm;
+}
+.bolum-baslik {
+  font-size: 19pt; font-weight: 800; line-height: 1.2;
+  margin: 0 0 2mm 0;
+}
+.bolum-ozet { color: var(--tas); font-size: 10pt; margin: 0 0 5mm 0; }
+.bolum hr.baslik-cizgi { border: none; border-top: 2.5px solid var(--okr); margin: 0 0 5mm 0; }
+
+h3.alt-baslik {
+  font-size: 12.5pt; font-weight: 700;
+  margin: 6mm 0 2mm 0;
+  color: var(--murekkep);
+}
+h3.alt-baslik .no { color: var(--kirmizi); font-family:'JetBrains Mono',monospace; font-size:9pt; margin-right:2mm; }
+
+h4.mini {
+  font-size: 10.5pt; font-weight: 700; margin: 4mm 0 1.5mm 0;
+}
+
+p { margin: 0 0 2.6mm 0; text-align: justify; }
+ul, ol { margin: 0 0 2.6mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+
+/* ---------- Paneller ve tablolar ---------- */
+.bilgi-karti {
+  background: var(--panel);
+  border: 1px solid var(--cizgi);
+  border-top: 3px solid var(--okr);
+  padding: 4mm 5mm 3mm 5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+}
+.bilgi-karti .bk-baslik {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--okr); margin-bottom: 2.2mm;
+}
+.bilgi-karti p:last-child, .bilgi-karti ul:last-child { margin-bottom: 0; }
+
+table.tablo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 4.5mm 0;
+  font-size: 10pt;
+}
+table.tablo th {
+  background: #EFE6D2;
+  border-top: 2px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  padding: 2mm 2.5mm;
+  text-align: left;
+  font-size: 9pt;
+  letter-spacing: 0.04em;
+}
+table.tablo td {
+  border-bottom: 1px solid var(--cizgi);
+  padding: 1.8mm 2.5mm;
+  vertical-align: top;
+}
+table.tablo tr:last-child td { border-bottom: 1px solid var(--tas); }
+table.tablo .merkez { text-align: center; }
+
+.fal-kutusu {
+  border: 1px solid var(--cizgi);
+  border-left: 3px solid var(--kirmizi);
+  background: var(--kagit2);
+  padding: 4mm 5mm;
+  margin: 2.5mm 0 4mm 0;
+  page-break-inside: avoid;
+}
+.fal-kutusu .runik-satir {
+  text-align: center;
+  font-size: 13pt;
+  margin: 2mm 0 2.5mm 0;
+}
+
+/* ---------- Alıştırma ve cevap ---------- */
+.alisirma { margin: 0 0 4mm 0; page-break-inside: avoid; }
+.alisirma-no {
+  color: var(--kirmizi); font-weight: 700;
+  font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9pt;
+}
+.blank {
+  display: inline-block;
+  min-width: 55mm;
+  border-bottom: 1px dotted var(--tas);
+  height: 3.6mm;
+}
+.blank-uzun { min-width: 120mm; }
+.egitmen-tag {
+  display: inline-block;
+  color: var(--kirmizi);
+  border: 1px solid var(--kirmizi);
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 7.5pt; letter-spacing: 0.14em;
+  padding: 0.3mm 1.8mm;
+  margin-left: 2mm;
+  vertical-align: 2px;
+}
+.cevap-blok { page-break-inside: avoid; }
+.cevap-blok .runic { color: var(--murekkep); }
+
+/* ---------- Yaprak bandı ---------- */
+.yaprak-bant {
+  background: var(--bant);
+  color: var(--kagit);
+  padding: 3mm 4.5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+.yaprak-bant .yb-ust {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8pt; letter-spacing: 0.26em; color: var(--okr);
+  text-transform: uppercase;
+}
+.yaprak-bant .yb-baslik { font-size: 15pt; font-weight: 700; line-height: 1.25; margin-top: 1mm; }
+
+/* ---------- Sınav ve kimlik satırları ---------- */
+.cevap-satiri {
+  border-bottom: 1px dotted var(--tas);
+  height: 7mm;
+  margin: 0 0 2.2mm 0;
+}
+.soru { margin: 0 0 5.5mm 0; page-break-inside: avoid; }
+.soru .soru-baslik { font-weight: 700; }
+.soru .puan {
+  float: right;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  color: var(--kirmizi);
+  letter-spacing: 0.06em;
+}
+.kimlik-satir {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1mm 0 5mm 0;
+}
+.kimlik-satir td {
+  border-bottom: 1px solid var(--tas);
+  padding: 0.6mm 2mm;
+  font-size: 10pt;
+}
+.kimlik-satir td.lb {
+  border: none;
+  width: 34mm;
+  padding-left: 0;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  color: var(--tas);
+}
+
+/* ---------- Not / dip ---------- */
+.not { font-size: 8.8pt; color: var(--tas); }
+.kaynak-not {
+  border-top: 1px solid var(--cizgi);
+  margin-top: 6mm; padding-top: 2.5mm;
+  font-size: 8.8pt; color: var(--tas);
+}
+.kirmizi-not { color: var(--kirmizi); }
+
+/* ---------- İki sütunlu karşılaştırma ---------- */
+.karsilastirma { display: flex; gap: 4mm; margin: 2mm 0 4mm 0; page-break-inside: avoid; }
+.karsilastirma .kolon {
+  flex: 1; border: 1px solid var(--cizgi); padding: 3mm 4mm; background: var(--kagit2);
+}
+.karsilastirma .kolon h5 {
+  margin: 0 0 1.5mm 0; font-size: 10pt; font-weight: 700;
+  border-bottom: 2px solid var(--okr); padding-bottom: 1.5mm;
+}
+.karsilastirma .kolon ul { margin: 0; padding-left: 4.5mm; }
+
+.kart-tablo { width:100%; border-collapse:collapse; table-layout:fixed; margin-bottom:0; }
+.kart-tablo td { border:1px dashed #C9BBA0; height:47mm; text-align:center; vertical-align:middle; padding:2mm 1.5mm; }
+.kart-tamga { font-family:'Noto Sans Old Turkic','Turk Bitig','BabelStone Irk Bitig',serif; direction:rtl; unicode-bidi:isolate; font-size:30pt; line-height:1.1; color:var(--murekkep); }
+.kart-deger { font-weight:700; font-size:10pt; margin-top:1.6mm; }
+.kart-ad { font-family:'JetBrains Mono',Consolas,monospace; font-size:7pt; color:#8A7A64; margin-top:0.8mm; }
+.kutu { display:inline-block; width:3.2mm; height:3.2mm; border:1.2px solid var(--tas); margin-right:2mm; vertical-align:-0.2mm; }
+.kontrol-liste { list-style:none; padding-left:0; }
+.kontrol-liste li { margin-bottom:1.8mm; }
+.akis { margin:2mm 0 4mm 0; }
+.akis-dugum { text-align:center; background:var(--panel); border:1px solid var(--cizgi); border-top:3px solid var(--okr); padding:3mm; font-weight:700; }
+.akis-oklar { text-align:center; color:var(--okr); font-size:13pt; margin:1mm 0; letter-spacing:1em; }
+.mono-blok { font-family:'JetBrains Mono',Consolas,monospace; font-size:8.5pt; background:#F5EFE0; border:1px solid var(--cizgi); padding:3mm 4mm; margin:2mm 0 3.5mm 0; page-break-inside:avoid; }
+.mono-blok p { margin:0 0 1.5mm 0; text-align:left; }
+</style></head><body>
+<div class="kapak">
+  <div>
+    <div class="kapak-friz">𐰖𐱁&nbsp;·&nbsp;𐱇&nbsp;·&nbsp;𐰆𐰞𐰆𐰺𐰰𐰣</div>
+    <div class="cift-cizgi"></div>
+    <div class="kicker">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>
+    <h1>Irk Bitig Okuma Föyü</h1>
+    <p class="alt-baslik">Özel Tamgalı Okuma ve Fal Deşifre Kartları · 3. Yedigün Ünitesi</p>
+    <div class="kapak-meta">
+      <table>
+        <tr><td class="k">ESER</td><td>Irk Bitig (Fal Kitabı) — kâğıt üzerine fırça ile yazılmış runik el yazması</td></tr>
+        <tr><td class="k">BULUNUŞ</td><td>Doğu Türkistan · Bin Budak (Dunhuang) mağaraları</td></tr>
+        <tr><td class="k">ODAK</td><td>“ot” (𐱇) ve “up” (𐰰) özel tamgaları · fal deşifre algoritması</td></tr>
+        <tr><td class="k">FALLAR</td><td>4. Fal · 17. Fal · 15. Fal (orijinal runik metin + çevrim + çeviri)</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="not">Fal metinleri Irk Bitig veri tabanından aynen alınmıştır; font gömülü olduğundan bu föy her bilgisayarda ve baskıda doğru görünür.</div>
+</div>
+<section class="bolum"><div class="bolum-kicker">BÖLÜM 01</div><h2 class="bolum-baslik">Irk Bitig ve Özel Tamgaları</h2><p class="bolum-ozet">Eserin paleografik yeri; standart envanterin dışına çıkan iki nadide işaret.</p><hr class="baslik-cizgi">
+<p>Irk Bitig, kâğıt üzerine fırça ile yazılmış Türk yazı kültürünün en nadide örneklerinden biridir. Bilinen büyük yazıtların (Kül Tigin, Bilge Kağan) aksine bir “fal kitabı” niteliği taşıyan bu eser, paleografik açıdan Orhun alfabesinin standart sınırlarını zorlayan özel tamgalara ev sahipliği yapar. Metnin deşifre anahtarı sayılan ve sadece Irk Bitig ile bazı Yenisey yazıtlarına özgü olan “ot” (𐱇) ve “up” (𐰰) tamgaları, bir metnin tarihsel ve coğrafi aidiyetini belirlemede uzman bir epigraf için en güçlü kanıttır.</p>
+<table class="tablo">
+  <tr><th class="merkez">Tamga</th><th>Değer / İşlev</th><th>Karakteristik Özellik</th><th>Bölgesel Dağılım</th></tr>
+  <tr><td class="merkez"><span class="runic tamga-buyuk">𐱇</span></td><td><span class="cevrim">ot</span></td><td>Hem hece hem logograf (ideogram) — “ot, çimen, yeşillik” kelimesini tek başına karşılar</td><td>Irk Bitig, Yenisey</td></tr>
+  <tr><td class="merkez"><span class="runic tamga-buyuk">𐰰</span></td><td><span class="cevrim">up / üp</span></td><td>Bileşik ses — dar-yuvarlak ünlüden (u/ü) sonra gelen /p/ ünsüzünü, yani <span class="cevrim">/up/</span> ve <span class="cevrim">/üp/</span> ses öbeklerini yazan özel yarı-hece işareti</td><td>Irk Bitig, Yenisey</td></tr>
+  <tr><td class="merkez"><span class="runic tamga-buyuk">𐰆</span> / <span class="runic tamga-buyuk">𐰇</span></td><td><span class="cevrim">o/u · ö/ü</span></td><td>Standart ünlü tamgaları (genel kullanım) — karşılaştırma için</td><td>Tüm Orhun Yazıtları</td></tr>
+</table>
+<h4 class="mini">Neden sadece bu dönemde ve bu eserde?</h4>
+<p>Taş anıtlardaki katı ve disiplinli imla kuralları, 9. yüzyılda kâğıt üzerine fırçayla hızlıca yazma ihtiyacıyla birleşince gevşemiştir. Kâtipler hem fırçanın akıcılığını kullanmış hem de harf ve zamandan tasarruf etmek için bu tür logografik (ot 𐱇) ve yarı-hecesel (up 𐰰) karakterler türetme serbestliğine kavuşmuştur. Her iki tamga da Türk yazı sisteminin erken dönemdeki zenginleşme ve dinamizm çabasının en kıymetli paleografik kanıtlarıdır.</p>
+<h4 class="mini">Kullanım sıklığı — tüm Eski Türkçe korpusta</h4>
+<ul>
+  <li><b>𐱇 (ot) tamgası yalnızca üç kez kullanılmıştır:</b> <span class="cevrim">yaş ot</span> (taze ot) ➔ <span class="runic">𐰖𐱁 𐱇</span> (17. ve 53. fallarda); <span class="cevrim">otsuz</span> (yeşilliksiz) ➔ <span class="runic">𐱇𐰽𐰔</span> (45. falda).</li>
+  <li><b>𐰰 (up) tamgasının fonetik kullanımı:</b> <span class="cevrim">olurupan</span> (oturarak/oturup) ➔ <span class="runic">𐰆𐰞𐰆𐰺𐰰𐰣</span>; <span class="cevrim">bolup</span> (olup) ➔ <span class="runic">𐰋𐰆𐰞𐰰</span> (bol + up).</li>
+</ul>
+</section><section class="bolum"><div class="bolum-kicker">BÖLÜM 02</div><h2 class="bolum-baslik">Deşifre Algoritması</h2><p class="bolum-ozet">Eski Türkçe bir metin karşısında izlenecek bilimsel yöntem.</p><hr class="baslik-cizgi">
+<div class="bilgi-karti">
+  <div class="bk-baslik">DEŞİFRE REHBERİ — 4 ADIM</div>
+  <p><b>1. Yön tayini:</b> Metni daima sağdan sola doğru okuyun.</p>
+  <p><b>2. Ünsüz karakter analizi:</b> Alfabedeki çifte ünsüz sistemi (art/kalın ve ön/ince ünsüz ayrımı) en büyük yardımcınızdır. Ünsüzün karakterini belirlemek, etrafındaki yazılmayan ünlülerin (a/ı vs e/i) ses değerlerini deşifre etmenizi sağlar.</p>
+  <p><b>3. Özel tamga tespiti:</b> Metinde 𐱇 (ot) veya 𐰰 (up) gibi esere özgü “anahtar” tamgaları işaretleyin.</p>
+  <p><b>4. Noktalama ve sentaks:</b> Kelime aralarındaki üst üste iki noktayı (:) durak olarak belirleyerek cümle yapısını kurun.</p>
+</div>
+</section><section class="bolum"><div class="bolum-kicker">BÖLÜM 03</div><h2 class="bolum-baslik">Fal Kartları — Orijinal Metin Deşifreleri</h2><p class="bolum-ozet">4., 17. ve 15. fallar: runik dizilim, çevrim ve tahlil.</p><hr class="baslik-cizgi">
+<h3 class="alt-baslik"><span class="no">3.1</span>Kart 1 — 4. Fal: Tahtına Oturan Hükümdar ve “up” (𐰰) Tamgası</h3>
+<div class="fal-kutusu"><p class="not" style="margin-bottom:1.5mm"><b>4. FAL</b> · Zar: 1-1-1 · <span class="cevrim">iyi</span></p><div class="runik-satir runic">𐰇𐰼𐰇𐰭 : 𐰾𐰼𐰃 : 𐱃𐰆𐰍𐰣 : 𐰴𐰆𐰽 : 𐰢𐰤 : 𐰲𐰃𐰣𐱃𐰣 : 𐰃𐰍𐰲 : 𐰇𐰔𐰀 : 𐰆𐰞𐰆𐰆𐰰𐰣 : 𐰢𐰭𐰃𐰠𐰘𐰇𐰼 : 𐰢𐰤 : 𐰨𐰀 : 𐰋𐰃𐰠𐰃𐰭𐰠𐰼</div><p><span class="cevrim">Ürüŋ : esri : togan : kuş : men . çıntan : ıgaç : üze : oluruːpan : meŋileyür : men . ança : biliŋler .</span></p><p class="not">Ak benekli doğanım! Sandal ağacı üzerinde oturup mutluluk içinde yaşarım. Öylece biliniz: (bu fal) iyidir.</p></div>
+<p><b>Deşifre analizi:</b> 4. faldaki <span class="cevrim">olurupan</span> kelimesi, “up” tamgasının kelime içindeki morfolojik işlevini anlamak için en temel örnektir.</p>
+<ul>
+  <li><b>Parantez disiplini:</b> Runik alfabede gösterilmeyen ancak Türkçe dudak uyumu ve morfoloji gereği orada olduğu bilinen ünlüler çevrimde parantez içinde gösterilir: <span class="cevrim">ol(o)r-u-p(a)n</span>. Burada ol(o)r- fiil kökündeki ikinci “o” ve -p(a)n ekindeki “a” yazılmamış fakat deşifrede belirtilmiştir.</li>
+  <li><b>“Up” (𐰰) tamgasının rolü:</b> Tamga, <span class="cevrim">/up/</span> ses öbeğini tek başına karşılar; kelimenin morfolojik yapısında -u-p(a)n zarf-fiil ekinin merkezini oluşturarak eylemin “oturarak/oturup” şeklinde süreklilik/durum kazanmasını sağlar.</li>
+  <li><b>Falın anlamı:</b> “Han tahtı üzerine oturup hükmediyor.” Düzenin ve istikrarın yeniden tesis edildiğine işaret eden son derece olumlu bir işarettir.</li>
+</ul>
+
+<h3 class="alt-baslik"><span class="no">3.2</span>Kart 2 — 17. Fal: Bozkırın Yaşam Kaynağı ve Logografik “ot” (𐱇)</h3>
+<div class="fal-kutusu"><p class="not" style="margin-bottom:1.5mm"><b>17. FAL</b> · Zar: 2-3-3 · <span class="cevrim">iyi</span></p><div class="runik-satir runic">𐰇𐰔𐰞𐰜 : 𐱃 : 𐰇𐰭 : 𐰘𐰃𐱁𐰓𐰀 : 𐰺𐰯 : 𐰆𐰭𐰆𐰆𐰯 : 𐱃𐰆𐰺𐰆 : 𐰴𐰞𐰢𐰃𐰾 : 𐱅𐰭𐱁𐰃 : 𐰚𐰇𐰲𐰃𐰭𐰀 : 𐰍 : 𐰇𐰔𐰀 : 𐰖𐰆𐰞 : 𐰽𐰆𐰉 : 𐰆𐰇𐱁𐰇𐰯𐰤 : 𐰘𐰃𐰾 : 𐰇𐰔𐰀 : 𐰖𐰽 : 𐱇 : 𐰚𐰇𐱁𐰇𐰯𐰤 : 𐰖𐰆𐰺𐰃𐰖𐰆 : 𐰉𐰺𐰃𐰯𐰣 : 𐰽𐰆𐰉 : 𐰃𐰲𐰃𐰯𐰤 : 𐰖𐰀𐰽 : 𐰘𐰃𐰯𐰤 : 𐰇𐰠𐰇𐰢𐰓𐰀 : 𐰆𐰔𐰢𐰃𐰾 : 𐱅𐰃𐱁 : 𐰨𐰀 : 𐰋𐰃𐰠𐰃𐰭𐰠𐱁 : 𐰓𐰏𐰇 : 𐰆𐰞</div><p><span class="cevrim">Özlük : at : öŋ : yérde : arıp : oŋuːp : turu : kalmış . teŋri : küçiŋe : tag : üze : yol : suv : köripen , yiş : üze : yaş : ot : köripen : yorıyu : barıpan : suv : içipen : yaş : yépen : ölümde : ozmış : tér . ança : biliŋler : édgü : ol .</span></p><p class="not">Bir hususî binek atı çölde yorulup, bitkin düşüp kalakalmış. Tanrının kudretiyle bir dağ üzerinde yol ve su kaynağı görerek, bir ormanlık dağda taze çimen görerek yürüyüp oralara gitmiş. Su içip, ot yiyerek ölümden dönmüş. Öylece biliniz: (bu fal) iyidir.</p></div>
+<p><b>Deşifre analizi:</b> Özlük at (kişiye özel değerli at) tasvirinin geçtiği 17. fal, “ot” tamgasının bir kavramı tek başına temsil etme gücünü gösterir.</p>
+<ul>
+  <li><b>Logografik derinlik:</b> 𐱇 tamgası, sadece /o/ ve /t/ seslerini birleştiren fonetik bir yapı değil, “bitki, meralık alan” anlamını taşıyan bir ideogramdır.</li>
+  <li><b>Kültürel bağlam:</b> Bozkır kültüründe “yaş ot” (taze bitki), hayvanın semirmesi ve dolayısıyla toplumun zenginleşmesi demektir. Bu hayati kavramın tek bir işaretle özelleştirilmesi, Türk runik yazısının kavramsal derinliğini yansıtır.</li>
+  <li><b>Öğrenme noktası:</b> Bu tamgayı gördüğünüzde onu sadece bir ses dizisi olarak değil, tek başına bir “isim” (ot/bitki) olarak okuma ihtimalini her zaman önceliklendirin. Bu, deşifre sürecinde metin anlamlandırma hızınızı ve doğruluğunuzu belirleyen kritik bir basamaktır.</li>
+</ul>
+
+<h3 class="alt-baslik"><span class="no">3.3</span>Kart 3 — 15. Fal: Doğa Tasvirleri ve Deşifre Algoritması Uygulaması</h3>
+<div class="fal-kutusu"><p class="not" style="margin-bottom:1.5mm"><b>15. FAL</b> · Zar: 1-4-1 · <span class="cevrim">iyi</span></p><div class="runik-satir runic">𐰇𐰔𐰀 : 𐱃𐰆𐰢𐰣 : 𐱃𐰆𐰺𐰑𐰃 : 𐰽𐰺𐰀 : 𐱃𐰆𐰔 : 𐱃𐰆𐰺𐰑𐰃 : 𐰴𐰆𐰽 : 𐰆𐰍𐰃 : 𐰆𐰲𐰀 : 𐰀𐰔𐱃𐰃 : 𐰚𐰃𐰘𐰃𐰚 : 𐰆𐰍𐰞𐰃 : 𐰘𐰇𐰏𐰇𐱁𐰇 : 𐰀𐰔𐱃𐰃 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰖𐰆𐰺𐰃𐰖𐰆 : 𐰀𐰔𐱃𐰃 : 𐰖𐰣𐰀 : 𐱅𐰭𐱁𐰃 : 𐰴𐰆𐱃𐰃𐰣𐱃𐰀 : 𐰇𐰲𐰇𐰨 : 𐰖𐰃𐰞𐱃𐰀 : 𐰴𐰆𐰯 : 𐰾𐰤 : 𐱅𐰇𐰚𐰞 : 𐰚𐰇𐱁𐰇𐰾𐰢𐰾 : 𐰴𐰆𐰯 : 𐰇𐰏𐰃𐱁𐱁 : 𐰾𐰋𐰃𐰤𐰇𐱁 : 𐱅𐰃𐱁 : 𐰨𐰀 : 𐰋𐰃𐰠𐰃𐰭𐰠𐱁 : 𐰓𐰏𐰇 : 𐰆𐰞</div><p><span class="cevrim">Üze : tuman : turdı , asra : toz : turdı . kuş : oglı : uça : aztı , kéyik : oglı : yügürü : aztı , kişi : oglı : yorıyu : aztı . yana : teŋri : kutınta : üçünç : yılta : kop : esen : tükel : körüşmiş . kop : ögirer : sévinür : tér . ança : biliŋler : édgü : ol .</span></p><p class="not">Yukarıdan sis bastırdı, aşağıdan toz kalktı. Kuş yavrusu uçarak yolunu kaybetti. Yabani hayvan yavrusu koşarak yolunu kaybetti. İnsanoğlu yürüyerek yolunu kaybetti. Yine, Tanrı lütfu ile üçüncü yılda hepsi sağ salim bir araya gelip görüşmüşler. Hepsi neşelenip seviniyor. Öylece biliniz: (bu fal) iyidir.</p></div>
+<p><b>Tahlil notu:</b> Doğadaki sis ve dumanın atmosferini yansıtan 15. fal (Üzä tuman turdı — üstte duman durdu), karmaşık bir metni deşifre ederken izlenecek bilimsel yöntemi kavramak için idealdir. Kelimelerin morfolojik tahlilinde <span class="cevrim">toz/tuman</span> kelimelerinin imla tasarrufu (yazılmayan ünlülerin parantezle gösterilmesi) örnek gösterilir.</p>
+</section><section class="bolum"><div class="bolum-kicker">BÖLÜM 04</div><h2 class="bolum-baslik">Öğrenci Deşifre Atölyesi</h2><p class="bolum-ozet">Paleografik notlarınız için uygulama alanı ve kontrol listesi.</p><hr class="baslik-cizgi">
+<div class="bilgi-karti">
+  <div class="bk-baslik">UYGULAMA ALANI</div>
+  <p><b>Transkripsiyon denemesi (Aysu Ata metodu — yazılmayan ünlüler parantez içinde):</b></p>
+  <div class="cevap-satiri"></div><div class="cevap-satiri"></div>
+  <p><b>Morfolojik analiz (kök ve ek ayrımı):</b></p>
+  <div class="cevap-satiri"></div><div class="cevap-satiri"></div>
+</div>
+<h4 class="mini">Deşifre Kontrol Listesi</h4>
+<ul class="kontrol-liste">
+  <li><span class="kutu"></span>Metni sağdan sola okuduğunuzdan emin misiniz?</li>
+  <li><span class="kutu"></span>Yazılmayan ünlüleri morfolojik gerekliliğe göre parantez ( ) içine aldınız mı?</li>
+  <li><span class="kutu"></span>“Ot” (𐱇) ve “up” (𐰰) tamgalarını, Orhun alfabesindeki standart 𐰆 (o/u) veya 𐰯 (p) harfleriyle karıştırmadınız mı?</li>
+  <li><span class="kutu"></span>Ünsüzlerin kalınlık/incelik uyumunu kontrol ettiniz mi?</li>
+</ul>
+<p class="kaynak-not">Deşifre edilen her tamga, bin yıllık bir sessizliği bozacaktır. — Irk Bitig'in kolofon (kırmızı mürekkepli hatime) yazım kuralları, 4. yedigünün Irk Bitig entegrasyonunda incelenir.</p>
+</section></body></html>

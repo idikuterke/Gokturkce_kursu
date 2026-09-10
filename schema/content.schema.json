@@ -1,0 +1,689 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gokturkce-kursu/content.schema.json",
+  "title": "Göktürkçe Kursu — İçerik Şeması v1",
+  "description": "Teslim biçiminden bağımsız içerik birimi. Bir belge (kitapçık, çalışma yaprakları, Yedigün slaytı…) bölümlerden, bölümler bloklardan oluşur. Renderer hangi bloğu hangi hedefte nasıl çizeceğine karar verir; içerik hedef bilmez, yalnız 'targets' ile hangi hedeflerde görüneceğini bildirir.",
+  "type": "object",
+  "required": [
+    "id",
+    "tur",
+    "baslik",
+    "surum",
+    "bolumler"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Dosya adıyla aynı: yedigun-1, kitapcik, yapraklar…"
+    },
+    "tur": {
+      "enum": [
+        "kilavuz",
+        "yaprak",
+        "album",
+        "foy",
+        "degerlendirme",
+        "yedigun",
+        "teklif"
+      ]
+    },
+    "baslik": {
+      "type": "string"
+    },
+    "altbaslik": {
+      "type": "string"
+    },
+    "surum": {
+      "type": "string"
+    },
+    "kapak": {
+      "$ref": "#/$defs/kapak"
+    },
+    "sinav": {
+      "$ref": "#/$defs/sinavKurali"
+    },
+    "bolumler": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/bolum"
+      }
+    },
+    "kapakHtml": {
+      "type": "string",
+      "description": "GEÇİŞ ALANI: eski Python modüllerinden aynen taşınan kapak HTML. Yapısal kapak hazır olunca kaldırılacak."
+    }
+  },
+  "$defs": {
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "baski",
+          "slayt"
+        ]
+      },
+      "description": "ZORUNLU. Boş veya bilinmeyen değer güvenlik kapısını düşürür."
+    },
+    "runik": {
+      "type": "string",
+      "description": "Yalnız Eski Türk bloğu (U+10C00–10C4F) + ayraçlar (boşluk, :, ∶, ·). Kapı: her tamga kaynak kümesinde ve Noto cmap'inde olmalı. Desen kapıda kodla denetlenir (JSON Schema'da astral aralık taşınabilir değil)."
+    },
+    "html": {
+      "type": "string",
+      "description": "Sınırlı HTML: p, b, i, br, span.runic, span.cevrim, ul/ol/li, table. Renderer aynen geçirir; içindeki tamgalar da kapıdan geçer."
+    },
+    "kapak": {
+      "type": "object",
+      "required": [
+        "friz",
+        "kicker"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "friz": {
+          "$ref": "#/$defs/runik"
+        },
+        "kicker": {
+          "type": "string"
+        },
+        "meta": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "k",
+              "v"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "k": {
+                "type": "string"
+              },
+              "v": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "not": {
+          "type": "string"
+        }
+      }
+    },
+    "sinavKurali": {
+      "type": "object",
+      "required": [
+        "soruSayisi",
+        "esik",
+        "puanEsit"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "soruSayisi": {
+          "type": "integer",
+          "const": 12
+        },
+        "esik": {
+          "type": "integer",
+          "const": 60
+        },
+        "puanEsit": {
+          "type": "boolean",
+          "const": true
+        },
+        "devamOrani": {
+          "type": "integer",
+          "const": 80
+        }
+      },
+      "description": "Sertifika kuralı: 12 soru eşit puan, 60/100 eşik (8 doğru), %80 devam. Sabit; değiştirmek karar gerektirir."
+    },
+    "bolum": {
+      "type": "object",
+      "required": [
+        "id",
+        "baslik",
+        "bloklar"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "kicker": {
+          "type": "string"
+        },
+        "baslik": {
+          "type": "string"
+        },
+        "ozet": {
+          "type": "string"
+        },
+        "yedigun": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "bloklar": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/blok"
+          }
+        }
+      }
+    },
+    "blok": {
+      "type": "object",
+      "required": [
+        "type",
+        "targets"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "prose",
+            "bolum-ayraci",
+            "tamga-pair",
+            "tamga-grid",
+            "ornek-kelime",
+            "alistirma",
+            "quiz",
+            "metin-ref",
+            "gorsel",
+            "bilgi-karti"
+          ]
+        },
+        "targets": {
+          "$ref": "#/$defs/targets"
+        },
+        "id": {
+          "type": "string"
+        },
+        "not": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "prose"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/prose"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "bolum-ayraci"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/bolumAyraci"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "tamga-pair"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/tamgaPair"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "tamga-grid"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/tamgaGrid"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "ornek-kelime"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/ornekKelime"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "alistirma"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/alistirma"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "quiz"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/quiz"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "metin-ref"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/metinRef"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "gorsel"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/gorsel"
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "bilgi-karti"
+              }
+            }
+          },
+          "then": {
+            "$ref": "#/$defs/bilgiKarti"
+          }
+        }
+      ]
+    },
+    "prose": {
+      "required": [
+        "html"
+      ],
+      "properties": {
+        "html": {
+          "$ref": "#/$defs/html"
+        }
+      }
+    },
+    "bolumAyraci": {
+      "required": [
+        "baslik"
+      ],
+      "properties": {
+        "baslik": {
+          "type": "string"
+        },
+        "altbaslik": {
+          "type": "string"
+        },
+        "friz": {
+          "$ref": "#/$defs/runik"
+        }
+      }
+    },
+    "tamgaKart": {
+      "type": "object",
+      "required": [
+        "cp",
+        "deger"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "cp": {
+          "type": "string",
+          "pattern": "^U\\+10C[0-4][0-9A-F]$",
+          "description": "Kod noktası; tamga bu değerden üretilir, metin olarak tekrar yazılmaz."
+        },
+        "deger": {
+          "type": "string",
+          "description": "Ders değeri: 'b¹ — kalın B'"
+        },
+        "not": {
+          "type": "string"
+        }
+      }
+    },
+    "tamgaPair": {
+      "description": "Kutuplu ünsüz çifti: kalın/ince.",
+      "required": [
+        "ses",
+        "kalin",
+        "ince"
+      ],
+      "properties": {
+        "ses": {
+          "type": "string",
+          "description": "B, D, G…"
+        },
+        "kalin": {
+          "$ref": "#/$defs/tamgaKart"
+        },
+        "ince": {
+          "$ref": "#/$defs/tamgaKart"
+        }
+      }
+    },
+    "tamgaGrid": {
+      "description": "Tamga tablosu / kart seti. Kaynağı content/tamgalar.json (01_Analiz envanteri + GRUPLAR'dan türetilir).",
+      "required": [
+        "grup"
+      ],
+      "properties": {
+        "grup": {
+          "type": "string",
+          "description": "content/tamgalar.json içindeki grup id'si"
+        },
+        "gorunum": {
+          "enum": [
+            "tablo",
+            "kart",
+            "izgara"
+          ],
+          "default": "tablo"
+        },
+        "kesmeCizgisi": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ornekKelime": {
+      "description": "Tahtada kelime tahlili: ata ➔ 𐱃𐰀 + kural açıklaması.",
+      "required": [
+        "ornekler"
+      ],
+      "properties": {
+        "ornekler": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "latin",
+              "runik",
+              "aciklama"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "latin": {
+                "type": "string"
+              },
+              "anlam": {
+                "type": "string"
+              },
+              "runik": {
+                "$ref": "#/$defs/runik"
+              },
+              "aciklama": {
+                "type": "string"
+              },
+              "hatali": {
+                "$ref": "#/$defs/runik",
+                "description": "Varsa gösterilecek yanlış yazım (kıldı örneği)"
+              }
+            }
+          }
+        }
+      }
+    },
+    "alistirma": {
+      "description": "Çalışma yaprağı alıştırması. 'cevap*' yalnız eğitmen sürümünde çizilir.",
+      "required": [
+        "yon",
+        "yonerge",
+        "maddeler"
+      ],
+      "properties": {
+        "yon": {
+          "enum": [
+            "latin-runik",
+            "runik-latin",
+            "acik-uclu",
+            "iki-yazim"
+          ]
+        },
+        "yonerge": {
+          "type": "string"
+        },
+        "maddeler": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "soru"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "soru": {
+                "type": "string"
+              },
+              "soruRunik": {
+                "$ref": "#/$defs/runik"
+              },
+              "cevap": {
+                "type": "string"
+              },
+              "cevapRunik": {
+                "$ref": "#/$defs/runik"
+              },
+              "cevapRunik2": {
+                "$ref": "#/$defs/runik",
+                "description": "iki-yazim: Irk Bitig yazımı"
+              },
+              "aciklama": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "quiz": {
+      "description": "Çoktan seçmeli. Slaytta anlık geri bildirim; baskıda soru + (eğitmen sürümünde) cevap.",
+      "required": [
+        "soru",
+        "secenekler",
+        "dogru",
+        "rol"
+      ],
+      "properties": {
+        "yedigun": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "konu": {
+          "type": "string"
+        },
+        "soru": {
+          "$ref": "#/$defs/html"
+        },
+        "secenekler": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "$ref": "#/$defs/html"
+          }
+        },
+        "dogru": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "geriBildirim": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "ok": {
+              "type": "string"
+            },
+            "no": {
+              "type": "string"
+            }
+          }
+        },
+        "rol": {
+          "enum": [
+            "formatif",
+            "sertifika"
+          ],
+          "description": "sertifika: 12 soruluk bitirme sınavına dâhil"
+        }
+      }
+    },
+    "metinRef": {
+      "description": "Kaynak metin bloğu. Runik metin BURAYA YAZILMAZ; kapı ref'i DB'de çözer, renderer DB'den çeker.",
+      "required": [
+        "db",
+        "ref"
+      ],
+      "properties": {
+        "db": {
+          "enum": [
+            "irkbitig",
+            "orhun"
+          ]
+        },
+        "ref": {
+          "type": "string",
+          "description": "irkbitig: fal_no ('1','15'); orhun: dize id ('KT-G-1')"
+        },
+        "goster": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "runik",
+              "transkripsiyon",
+              "turkce",
+              "yorum",
+              "zar"
+            ]
+          },
+          "default": [
+            "runik",
+            "transkripsiyon",
+            "turkce"
+          ]
+        },
+        "kelimeAralik": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Dizenin yalnız bir kelime aralığı (slayt için)"
+        },
+        "baslik": {
+          "type": "string"
+        }
+      }
+    },
+    "gorsel": {
+      "description": "Görsel dosya. Runik içeren görseller gokturk_verify ile doğrulanmış olmalı ('dogrulama').",
+      "required": [
+        "src",
+        "alt"
+      ],
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "alt": {
+          "type": "string"
+        },
+        "altyazi": {
+          "type": "string"
+        },
+        "kaynak": {
+          "type": "string"
+        },
+        "genislik": {
+          "enum": [
+            "tam",
+            "yarim",
+            "kucuk"
+          ]
+        },
+        "dogrulama": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "arac": {
+              "type": "string"
+            },
+            "sonuc": {
+              "type": "string"
+            },
+            "tarih": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "bilgiKarti": {
+      "required": [
+        "baslik",
+        "html"
+      ],
+      "properties": {
+        "baslik": {
+          "type": "string"
+        },
+        "html": {
+          "$ref": "#/$defs/html"
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "required": [
+        "kapak"
+      ]
+    },
+    {
+      "required": [
+        "kapakHtml"
+      ]
+    }
+  ]
+}

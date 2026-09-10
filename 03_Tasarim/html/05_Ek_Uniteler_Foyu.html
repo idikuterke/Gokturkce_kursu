@@ -1,0 +1,485 @@
+<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Ek Üniteler Föyü</title><style>/* ============================================================
+   BENGÜ TAŞ — Göktürkçe Okuma-Yazma Kursu · Baskı Tasarım Sistemi
+   A4 dikey · print-first · Old Turkic font gömmeli
+   ============================================================ */
+
+@font-face {
+  font-family: 'Noto Sans Old Turkic';
+  src: url('../fontlar/NotoSansOldTurkic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Turk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/turkbitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BabelStone Irk Bitig';
+  src: url('../../00_Kaynaklar/fontlar/BabelStoneIrkBitig.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('../fontlar/SourceSerif4.ttf') format('truetype');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../fontlar/JetBrainsMono.ttf') format('truetype');
+  font-weight: 100 800;
+}
+
+:root {
+  --kagit:   #FBF7EE;   /* sıcak kâğıt */
+  --kagit2:  #FDFAF2;   /* fal kutusu zemin */
+  --murekkep:#2A211A;   /* sıcak siyah mürekkep */
+  --tas:     #6E5A45;   /* taş kahve, ikincil metin */
+  --okr:     #A97B32;   /* okr / bengü altın, vurgu */
+  --kirmizi: #A6331F;   /* Irk Bitig kırmızı mürekkep */
+  --cizgi:   #D9CCB2;   /* saç çizgisi */
+  --panel:   #F2EAD8;   /* bilgi kartı zemini */
+  --bant:    #2A211A;   /* yaprak bandı */
+}
+
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 8.5pt;
+    color: #6E5A45;
+  }
+}
+
+html, body {
+  margin: 0; padding: 0;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* ---------- Runik metin ---------- */
+.runic {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', 'BabelStone Irk Bitig', serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-size: 1.5em;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+.tamga-buyuk { font-size: 2.1em; }
+.tamga-okr   { color: var(--okr); }
+.tamga-krmz  { color: var(--kirmizi); }
+
+.cevrim {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  color: var(--tas);
+}
+
+/* ---------- Kapak ---------- */
+.kapak {
+  height: 246mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  page-break-after: always;
+}
+.kapak-friz {
+  font-family: 'Noto Sans Old Turkic', 'Turk Bitig', serif;
+  direction: rtl;
+  color: var(--okr);
+  font-size: 26pt;
+  letter-spacing: 0.18em;
+  text-align: center;
+  line-height: 1.3;
+}
+.kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 9pt;
+  letter-spacing: 0.32em;
+  color: var(--kirmizi);
+  text-transform: uppercase;
+  margin-bottom: 6mm;
+}
+.kapak h1 {
+  font-size: 31pt;
+  font-weight: 800;
+  line-height: 1.14;
+  margin: 0 0 5mm 0;
+  letter-spacing: -0.01em;
+}
+.kapak .alt-baslik {
+  font-size: 12.5pt;
+  color: var(--tas);
+  margin: 0 0 10mm 0;
+}
+.cift-cizgi {
+  border-top: 2.5px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  height: 3px; margin: 7mm 0;
+}
+.kapak-meta {
+  font-size: 10pt;
+  border-top: 1px solid var(--cizgi);
+  padding-top: 4mm;
+  color: var(--murekkep);
+}
+.kapak-meta table { width: 100%; border-collapse: collapse; }
+.kapak-meta td { padding: 1.1mm 0; vertical-align: top; }
+.kapak-meta td.k { width: 34mm; color: var(--tas); font-family:'JetBrains Mono',monospace; font-size:8.5pt; letter-spacing:0.06em; }
+
+/* ---------- Bölüm yapısı ---------- */
+.bolum { page-break-before: always; }
+.bolum-kicker {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.3em;
+  color: var(--okr); text-transform: uppercase;
+  margin-bottom: 1.5mm;
+}
+.bolum-baslik {
+  font-size: 19pt; font-weight: 800; line-height: 1.2;
+  margin: 0 0 2mm 0;
+}
+.bolum-ozet { color: var(--tas); font-size: 10pt; margin: 0 0 5mm 0; }
+.bolum hr.baslik-cizgi { border: none; border-top: 2.5px solid var(--okr); margin: 0 0 5mm 0; }
+
+h3.alt-baslik {
+  font-size: 12.5pt; font-weight: 700;
+  margin: 6mm 0 2mm 0;
+  color: var(--murekkep);
+}
+h3.alt-baslik .no { color: var(--kirmizi); font-family:'JetBrains Mono',monospace; font-size:9pt; margin-right:2mm; }
+
+h4.mini {
+  font-size: 10.5pt; font-weight: 700; margin: 4mm 0 1.5mm 0;
+}
+
+p { margin: 0 0 2.6mm 0; text-align: justify; }
+ul, ol { margin: 0 0 2.6mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+
+/* ---------- Paneller ve tablolar ---------- */
+.bilgi-karti {
+  background: var(--panel);
+  border: 1px solid var(--cizgi);
+  border-top: 3px solid var(--okr);
+  padding: 4mm 5mm 3mm 5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+}
+.bilgi-karti .bk-baslik {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--okr); margin-bottom: 2.2mm;
+}
+.bilgi-karti p:last-child, .bilgi-karti ul:last-child { margin-bottom: 0; }
+
+table.tablo {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 4.5mm 0;
+  font-size: 10pt;
+}
+table.tablo th {
+  background: #EFE6D2;
+  border-top: 2px solid var(--okr);
+  border-bottom: 1px solid var(--cizgi);
+  padding: 2mm 2.5mm;
+  text-align: left;
+  font-size: 9pt;
+  letter-spacing: 0.04em;
+}
+table.tablo td {
+  border-bottom: 1px solid var(--cizgi);
+  padding: 1.8mm 2.5mm;
+  vertical-align: top;
+}
+table.tablo tr:last-child td { border-bottom: 1px solid var(--tas); }
+table.tablo .merkez { text-align: center; }
+
+.fal-kutusu {
+  border: 1px solid var(--cizgi);
+  border-left: 3px solid var(--kirmizi);
+  background: var(--kagit2);
+  padding: 4mm 5mm;
+  margin: 2.5mm 0 4mm 0;
+  page-break-inside: avoid;
+}
+.fal-kutusu .runik-satir {
+  text-align: center;
+  font-size: 13pt;
+  margin: 2mm 0 2.5mm 0;
+}
+
+/* ---------- Alıştırma ve cevap ---------- */
+.alisirma { margin: 0 0 4mm 0; page-break-inside: avoid; }
+.alisirma-no {
+  color: var(--kirmizi); font-weight: 700;
+  font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9pt;
+}
+.blank {
+  display: inline-block;
+  min-width: 55mm;
+  border-bottom: 1px dotted var(--tas);
+  height: 3.6mm;
+}
+.blank-uzun { min-width: 120mm; }
+.egitmen-tag {
+  display: inline-block;
+  color: var(--kirmizi);
+  border: 1px solid var(--kirmizi);
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 7.5pt; letter-spacing: 0.14em;
+  padding: 0.3mm 1.8mm;
+  margin-left: 2mm;
+  vertical-align: 2px;
+}
+.cevap-blok { page-break-inside: avoid; }
+.cevap-blok .runic { color: var(--murekkep); }
+
+/* ---------- Yaprak bandı ---------- */
+.yaprak-bant {
+  background: var(--bant);
+  color: var(--kagit);
+  padding: 3mm 4.5mm;
+  margin: 0 0 4.5mm 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+.yaprak-bant .yb-ust {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8pt; letter-spacing: 0.26em; color: var(--okr);
+  text-transform: uppercase;
+}
+.yaprak-bant .yb-baslik { font-size: 15pt; font-weight: 700; line-height: 1.25; margin-top: 1mm; }
+
+/* ---------- Sınav ve kimlik satırları ---------- */
+.cevap-satiri {
+  border-bottom: 1px dotted var(--tas);
+  height: 7mm;
+  margin: 0 0 2.2mm 0;
+}
+.soru { margin: 0 0 5.5mm 0; page-break-inside: avoid; }
+.soru .soru-baslik { font-weight: 700; }
+.soru .puan {
+  float: right;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  color: var(--kirmizi);
+  letter-spacing: 0.06em;
+}
+.kimlik-satir {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1mm 0 5mm 0;
+}
+.kimlik-satir td {
+  border-bottom: 1px solid var(--tas);
+  padding: 0.6mm 2mm;
+  font-size: 10pt;
+}
+.kimlik-satir td.lb {
+  border: none;
+  width: 34mm;
+  padding-left: 0;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.08em;
+  color: var(--tas);
+}
+
+/* ---------- Not / dip ---------- */
+.not { font-size: 8.8pt; color: var(--tas); }
+.kaynak-not {
+  border-top: 1px solid var(--cizgi);
+  margin-top: 6mm; padding-top: 2.5mm;
+  font-size: 8.8pt; color: var(--tas);
+}
+.kirmizi-not { color: var(--kirmizi); }
+
+/* ---------- İki sütunlu karşılaştırma ---------- */
+.karsilastirma { display: flex; gap: 4mm; margin: 2mm 0 4mm 0; page-break-inside: avoid; }
+.karsilastirma .kolon {
+  flex: 1; border: 1px solid var(--cizgi); padding: 3mm 4mm; background: var(--kagit2);
+}
+.karsilastirma .kolon h5 {
+  margin: 0 0 1.5mm 0; font-size: 10pt; font-weight: 700;
+  border-bottom: 2px solid var(--okr); padding-bottom: 1.5mm;
+}
+.karsilastirma .kolon ul { margin: 0; padding-left: 4.5mm; }
+
+.kart-tablo { width:100%; border-collapse:collapse; table-layout:fixed; margin-bottom:0; }
+.kart-tablo td { border:1px dashed #C9BBA0; height:47mm; text-align:center; vertical-align:middle; padding:2mm 1.5mm; }
+.kart-tamga { font-family:'Noto Sans Old Turkic','Turk Bitig','BabelStone Irk Bitig',serif; direction:rtl; unicode-bidi:isolate; font-size:30pt; line-height:1.1; color:var(--murekkep); }
+.kart-deger { font-weight:700; font-size:10pt; margin-top:1.6mm; }
+.kart-ad { font-family:'JetBrains Mono',Consolas,monospace; font-size:7pt; color:#8A7A64; margin-top:0.8mm; }
+.kutu { display:inline-block; width:3.2mm; height:3.2mm; border:1.2px solid var(--tas); margin-right:2mm; vertical-align:-0.2mm; }
+.kontrol-liste { list-style:none; padding-left:0; }
+.kontrol-liste li { margin-bottom:1.8mm; }
+.akis { margin:2mm 0 4mm 0; }
+.akis-dugum { text-align:center; background:var(--panel); border:1px solid var(--cizgi); border-top:3px solid var(--okr); padding:3mm; font-weight:700; }
+.akis-oklar { text-align:center; color:var(--okr); font-size:13pt; margin:1mm 0; letter-spacing:1em; }
+.mono-blok { font-family:'JetBrains Mono',Consolas,monospace; font-size:8.5pt; background:#F5EFE0; border:1px solid var(--cizgi); padding:3mm 4mm; margin:2mm 0 3.5mm 0; page-break-inside:avoid; }
+.mono-blok p { margin:0 0 1.5mm 0; text-align:left; }
+</style></head><body>
+<div class="kapak">
+  <div>
+    <div class="kapak-friz">𐰋𐰃𐰼&nbsp;·&nbsp;𐰯𐱃𐰆&nbsp;·&nbsp;𐰢𐰭𐰃𐰠</div>
+    <div class="cift-cizgi"></div>
+    <div class="kicker">Türk Runik Yazı Sistemi · Okuma-Yazma Eğitimi</div>
+    <h1>Ek Üniteler Föyü</h1>
+    <p class="alt-baslik">Sayılar · Lir/Şaz Ses Ayrışması · Zihinsel (Uslamlama) Fiiller</p>
+    <div class="kapak-meta">
+      <table>
+        <tr><td class="k">ÜNİTE A</td><td>Göktürkçe Sayılar — “hedef onluk” sayma mantığı ve runik yazım</td></tr>
+        <tr><td class="k">ÜNİTE B</td><td>Lir (r/l) ve Şaz (z/ş) Türkçesi — Altay dil birliği ve büyük ses ayrışması</td></tr>
+        <tr><td class="k">ÜNİTE C</td><td>Zihinsel fiiller — eski Türk düşünce dünyasının kültürel aynası</td></tr>
+        <tr><td class="k">AKADEMİK ÇERÇEVE</td><td>Prof. Dr. Aysu Ata metodu ve terminolojisi · Talat Tekin gramer sistemi</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="not">Cevap çözümleri belge sonundaki eğitmen bölümündedir (dağıtılan nüshadan ayrılabilir).</div>
+</div>
+<section class="bolum"><div class="bolum-kicker">ÜNİTE A</div><h2 class="bolum-baslik">Göktürkçe Sayılar: Tarihsel Mantık ve Yazım Çalışma Yaprağı</h2><p class="bolum-ozet">Günümüzden farklı olan “hedef onluk” merkezli sayı mantığını kavramak.</p><hr class="baslik-cizgi">
+<h3 class="alt-baslik"><span class="no">A.1</span>Teorik Özet: Eski Türkçede Sayıların Matematiksel Mantığı</h3>
+<p>Göktürk Yazıtları'nda karşılaştığımız sayı sistemi, modern Türkçedeki toplama (20 + 1 = 21) mantığına dayanmaz. Eski Türk zihninde sayı sistemi, bulunulan birimi değil, ulaşılmak istenen bir sonraki onluğu referans alan “progresif” (ilerleyici) bir yapıdadır.</p>
+<ul>
+  <li><b>Mantık:</b> Birlik Sayı + Referans Alınan (Hedeflenen) Onluk</li>
+  <li><b>Örnek:</b> “12” sayısı için Eski Türk, “yirmiye yönelen ikinci sayı” mantığıyla <span class="cevrim">eki yeg(i)rmi</span> der. “21” sayısı için ise “otuz yolundaki birinci sayı” anlamında <span class="cevrim">bir otuz</span> ifadesini kullanır.</li>
+</ul>
+<table class="tablo">
+  <tr><th class="merkez">Rakam</th><th>Göktürkçe (Birlik)</th><th class="merkez">Onluk</th><th>Göktürkçe (Onluk)</th></tr>
+  <tr><td class="merkez">1</td><td><span class="cevrim">bir</span></td><td class="merkez">10</td><td><span class="cevrim">on</span></td></tr>
+  <tr><td class="merkez">2</td><td><span class="cevrim">eki</span></td><td class="merkez">20</td><td><span class="cevrim">yegirmi</span></td></tr>
+  <tr><td class="merkez">3</td><td><span class="cevrim">üç</span></td><td class="merkez">30</td><td><span class="cevrim">otuz</span></td></tr>
+  <tr><td class="merkez">4</td><td><span class="cevrim">tört</span></td><td class="merkez">40</td><td><span class="cevrim">kırk</span></td></tr>
+  <tr><td class="merkez">5</td><td><span class="cevrim">biş</span></td><td class="merkez">50</td><td><span class="cevrim">elig</span></td></tr>
+  <tr><td class="merkez">6</td><td><span class="cevrim">altı</span></td><td class="merkez">60</td><td><span class="cevrim">altm(ı)ş</span></td></tr>
+  <tr><td class="merkez">7</td><td><span class="cevrim">yiti</span></td><td class="merkez">70</td><td><span class="cevrim">yitmiş</span></td></tr>
+  <tr><td class="merkez">8</td><td><span class="cevrim">sekiz</span></td><td class="merkez">80</td><td><span class="cevrim">sekiz on</span></td></tr>
+  <tr><td class="merkez">9</td><td><span class="cevrim">to͡kuz</span></td><td class="merkez">90</td><td><span class="cevrim">to͡kuz on</span></td></tr>
+</table>
+<p class="not">Önemli not: Orhun Yazıtları'nda 50, 60 ve 70 sayıları (elig, altm(ı)ş, yitmiş) özgün köklere sahipken; 80 ve 90 sayıları <span class="cevrim">sekiz on</span> ve <span class="cevrim">to͡kuz on</span> şeklinde kurulur.</p>
+<h4 class="mini">Aysu Ata Disiplini: Transkripsiyon ve Parantez Kuralları</h4>
+<ul>
+  <li><b>Parantez disiplini:</b> Göktürk yazısında bazı ünlüler (özellikle söz başı /a/ ve /ä/ sesleri ile ilk hece dışındaki düz-dar ünlüler) taş üzerine fiziksel olarak yazılmaz. Metinde görsel olarak bulunmayan ancak dilin fonetik yapısı gereği okunan bu sesler, transkripsiyonda parantez içinde ( ) gösterilir. Örnek: <span class="cevrim">yeg(i)rmi</span>.</li>
+  <li><b>Ligatür arkı:</b> Harf birleşimlerindeki özel fonetik değerleri belirtmek için harflerin üzerine bir ark (yay) eklenir. Örnek: <span class="cevrim">to͡kuz</span>.</li>
+</ul>
+<h3 class="alt-baslik"><span class="no">A.2</span>Alıştırma 1 — “Kaç Olduğunu Bul” (Eşleştirme)</h3>
+<p>Aşağıdaki Göktürkçe ifadeleri, tarihsel matematiksel mantığa göre günümüz rakam karşılıklarıyla eşleştiriniz.</p>
+<table class="tablo">
+  <tr><th>Göktürkçe Transkripsiyon</th><th>Günümüz Karşılığı (Rakam)</th></tr>
+  <tr><td><span class="cevrim">eki yeg(i)rmi</span></td><td><span class="blank"></span></td></tr>
+  <tr><td><span class="cevrim">altı otuz</span></td><td><span class="blank"></span></td></tr>
+  <tr><td><span class="cevrim">to͡kuz yitmiş</span></td><td><span class="blank"></span></td></tr>
+  <tr><td><span class="cevrim">sekiz elig</span></td><td><span class="blank"></span></td></tr>
+  <tr><td><span class="cevrim">bir otuz</span></td><td><span class="blank"></span></td></tr>
+</table>
+<h3 class="alt-baslik"><span class="no">A.3</span>Alıştırma 2 — Runik Yazım Pratiği (Sağdan Sola)</h3>
+<p>Göktürk alfabesiyle yazarken en kritik kural şudur: Yazım her zaman <b>sağdan sola</b> doğru yapılır. Ayrıca kelimedeki ünlülerin kalın (art) veya ince (ön) oluşuna göre doğru ünsüz karakteri seçilmelidir.</p>
+<p><b>Talat Tekin gramerine göre harf rehberi:</b> b (ince/ön): 𐰋 · i/ı: 𐰃 · r (ince/ön): 𐰼 · o/u: 𐰆 · t (kalın/art): 𐱃 · z: 𐰯</p>
+<p><b>Görev:</b> “bir otuz” (21) ifadesini aşağıdaki kutucuklara, her kutuya bir harf gelecek şekilde sağdan sola doğru yazınız.</p>
+<table class="tablo">
+  <tr><th class="merkez">7</th><th class="merkez">6</th><th class="merkez">5</th><th class="merkez">4</th><th class="merkez">3</th><th class="merkez">2</th><th class="merkez">1</th></tr>
+  <tr><td class="merkez"><span class="not">(z)</span></td><td class="merkez"><span class="not">(u)</span></td><td class="merkez"><span class="not">(t)</span></td><td class="merkez">—</td><td class="merkez"><span class="not">(r)</span></td><td class="merkez"><span class="not">(i)</span></td><td class="merkez"><span class="not">(b)</span></td></tr>
+  <tr><td class="merkez" style="height:11mm"></td><td class="merkez"></td><td class="merkez"></td><td class="merkez"></td><td class="merkez"></td><td class="merkez"></td><td class="merkez"></td></tr>
+</table>
+<p class="not">Yazar notu: Göktürkçenin sayı sistemindeki ileriye dönük mantık, Türklerin o dönemki zaman algısını ve matematiksel estetiğini yansıtır.</p>
+</section><section class="bolum"><div class="bolum-kicker">ÜNİTE B</div><h2 class="bolum-baslik">Altay Dil Birliği ve Büyük Ses Ayrışması (r/l ~ z/ş)</h2><p class="bolum-ozet">Türk dillerinin sınıflandırılmasında en temel dilbilimsel ölçüt.</p><hr class="baslik-cizgi">
+<h3 class="alt-baslik"><span class="no">B.1</span>Temel Kavramlar ve Rekonstrüksiyon (Ana Dil)</h3>
+<ul>
+  <li><b>Ana Dil:</b> Bir dil ailesine kaynaklık eden, tarihsel olarak belgelenemeyen ancak karşılaştırmalı yöntemlerle canlandırılan (rekonstrükte edilen) dildir.</li>
+  <li><b>Ana Altayca:</b> Türkçe, Moğolca, Tunguzca (belki Korece ve Japonca) dillerinin dâhil olduğu Altay grubuna kaynaklık ettiği varsayılan ortak ata dildir.</li>
+  <li><b>Ana Türkçe:</b> Çuvaşça dışındaki tüm tarihsel ve modern Türk dil ve diyalektlerine kaynaklık eden dildir.</li>
+</ul>
+<h3 class="alt-baslik"><span class="no">B.2</span>Büyük Ses Denkliği ve Ramstedt Teorisi</h3>
+<p>Dinamik dilbilimci Schott'un Türkçe ve Çuvaşça arasındaki ses ilişkilerini ortaya koyan çalışmasını geliştiren G. J. Ramstedt, Çuvaşçanın ses özellikleri bakımından Moğolcanın yanında yer aldığını tespit etmiştir. Ramstedt'in keşfine göre; Çuvaşça ve Moğolcadaki /r/ ve /l/ sesleri, Türkçedeki (ve Orhun Türkçesindeki) /z/ ve /ş/ seslerine denk gelmektedir. Hangi sesin “aslî (eskicil)” olduğu tartışması doğrultusunda dört temel görüş ortaya çıkmıştır:</p>
+<table class="tablo">
+  <tr><th>Görüş</th><th>İddia</th></tr>
+  <tr><td><b>Rotasizm</b> (r'leşme)</td><td>Türkçe /z/ sesinin aslî olduğunu; Çuvaşça ve Moğolcadaki /r/ sesinin bu aslî sesten türediğini savunur.</td></tr>
+  <tr><td><b>Lambdaizm</b> (l'leşme)</td><td>Türkçe /ş/ sesinin aslî olduğunu; Çuvaşça ve Moğolcadaki /l/ sesinin bu aslî sesten türediğini savunur.</td></tr>
+  <tr><td><b>Zetasizm</b> (z'leşme)</td><td>Çuvaşça ve Moğolcadaki /r/ sesinin aslî olduğunu; Türkçe /z/ sesinin bu aslî /r/ sesinden türediğini savunur.</td></tr>
+  <tr><td><b>Sigmatizm</b> (ş'leşme)</td><td>Çuvaşça ve Moğolcadaki /l/ sesinin aslî olduğunu; Türkçe /ş/ sesinin bu aslî /l/ sesinden türediğini savunur.</td></tr>
+</table>
+<h3 class="alt-baslik"><span class="no">B.3</span>Tarihsel Büyük Ayrışma ve “oguX” Teorisi</h3>
+<div class="akis">
+  <div class="akis-dugum">İlk Türkçe Dönemi · <span class="cevrim">oguX</span></div>
+  <div class="akis-oklar"><span>◄</span><span>►</span></div>
+  <div class="karsilastirma">
+    <div class="kolon">
+      <h5>Lir (r'li / l'li) Kolu</h5>
+      <p>“x” sesini /r/ olarak telaffuz eden ve <span class="cevrim">ogur</span> şeklinde konuşan grup.</p>
+      <p>Ana Çuvaşça Dönemi: x değişkeni = /r/ → “ogur” (Lir)</p>
+      <p>↳ Günümüzde yalnızca <b>Çuvaşça</b>.</p>
+    </div>
+    <div class="kolon">
+      <h5>Şaz (z'li / ş'li) Kolu</h5>
+      <p>“x” sesini /z/ olarak telaffuz eden ve <span class="cevrim">oguz</span> şeklinde konuşan grup.</p>
+      <p>Ana Türkçe Dönemi: x değişkeni = /z/ → “oguz” (Şaz)</p>
+      <p>↳ <b>Orhun, Uygur, Karahanlı</b> ve tüm modern kollar (Türkiye Türkçesi, Kazakça, Özbekçe vb.).</p>
+    </div>
+  </div>
+</div>
+<p>Türk dillerini sınıflandırırken elimizdeki en güçlü dilbilimsel kıstas <b>Türkçe /z/ = Çuvaşça /r/</b> denkliğidir.</p>
+<h3 class="alt-baslik"><span class="no">B.4</span>Alıştırma 1 — Transkripsiyon ve Karşılaştırma</h3>
+<p>Aşağıda Kül Tigin yazıtından Aysu Ata transkripsiyon yöntemiyle (parantez disiplini ve ligatür arkıyla) verilmiş cümleleri okuyunuz; kalın harfle yazılmış kelimelerdeki z/ş (Şaz) seslerinin Çuvaşça/Moğolcadaki r/l (Lir) karşılıklarını düşününüz.</p>
+<div class="mono-blok">
+  <p>G8: ... ötük(e)n yir ol(u)r(u)p (a)rk(ı)ş tirk(i)ş ıs(a)r n(e)ŋ buŋ(u)g yo͡k...</p>
+  <p>G8: ... türü ͡k bod(u)n to͡k (a)rk(u)k s(e)n açs(ı)k tos(ı)k öm(e)z s(e)n b(i)r tods(a)r...</p>
+  <p>G9: ... [ö]z(ü)m k ͡uutum b(a)r üçün k(a)g(a)n ol(u)rt(u)m...</p>
+</div>
+<ul>
+  <li><b>Tahlil kelimesi 1:</b> <span class="cevrim">todsa(r)</span> (tok olursan/doyarsan) — içindeki /z/ sesi Şaz Türkçesinin özelliğidir.</li>
+  <li><b>Tahlil kelimesi 2:</b> <span class="cevrim">[ö]z(ü)m</span> (özüm/kendim) — içindeki /z/ sesi Şaz Türkçesinin özelliğidir.</li>
+</ul>
+<h3 class="alt-baslik"><span class="no">B.5</span>Alıştırma 2 — r/l ~ z/ş Kelime Denkliği Eşleştirme</h3>
+<p>Aşağıdaki r/l (Çuvaşça/Moğolca) ve z/ş (Türkiye Türkçesi/Orhun Türkçesi) ses denkliklerini inceleyerek boşlukları doldurunuz.</p>
+<table class="tablo">
+  <tr><th>Kavram</th><th>Lir (r/l) Karşılığı (Çuvaşça / Moğolca)</th><th>Şaz (z/ş) Karşılığı (Türkçe / Orhun T.)</th></tr>
+  <tr><td>Sayı (İki)</td><td><span class="cevrim">ik-r-i</span> (Moğolca)</td><td><span class="cevrim">iki-z</span> (Türkçe)</td></tr>
+  <tr><td>Göz</td><td><span class="cevrim">ku-r</span> (Çuvaşça)</td><td><span class="cevrim">gö-z</span> (Türkçe)</td></tr>
+  <tr><td>Yaş (Ömür)</td><td><span class="cevrim">çu-l</span> (Çuvaşça)</td><td><span class="cevrim">ya-ş</span> (Türkçe)</td></tr>
+  <tr><td>Sayı (Yüz)</td><td><span class="cevrim">çü-r</span> (Çuvaşça)</td><td><span class="cevrim">yü-z</span> (Türkçe)</td></tr>
+  <tr><td>Dışarı</td><td><span class="cevrim">tı-r</span> (Çuvaşça / Moğolca)</td><td><span class="cevrim">tı-ş</span> (Türkçe / taşra)</td></tr>
+</table>
+<h3 class="alt-baslik"><span class="no">B.6</span>Araştırma ve Ödev Projesi</h3>
+<p>Türkiye Türkçesinde bugün birbiriyle anlamca doğrudan ilgili olmak şartıyla hem /z/ hem de /r/ seslerini bünyesinde barındıran ve aynı kökten türemiş kelime çiftleri mevcuttur (örneğin <span class="cevrim">kudur-</span> eylemi ile <span class="cevrim">kuduz</span> kelimesi; <span class="cevrim">semri-</span> eylemi ile <span class="cevrim">semiz</span> kelimesi). Siz de bu kurala uyan ve anlam ilişkisi kopmamış <b>en az 3 kelime çifti</b> bularak köken tahlillerini yapınız.</p>
+</section><section class="bolum"><div class="bolum-kicker">ÜNİTE C</div><h2 class="bolum-baslik">Zihinsel (Uslamlama) Fiiller — Eski Türk Düşünce Dünyası</h2><p class="bolum-ozet">Runik metinlerdeki uslamlama fiilleri; evrene, devlete, aileye, ahlaka ve bilgiye bakış açısı.</p><hr class="baslik-cizgi">
+<p>Eski Türkçede kullanılan zihinsel fiiller, Türk runik metinlerinde sadece dilbilimsel eylemler olmanın ötesinde; eski Türk ulusunun evrene, devlete, aileye, ahlaka ve bilgiye bakış açısını (usunu) yansıtan paha biçilmez kültürel aynalardır.</p>
+<h4 class="mini">1. Bilgiye ve akla verilen değer — <span class="cevrim">bil-</span></h4>
+<p>Yazıtlarda en sık karşılaşılan uslamlama fiili “bil-” (bilmek) eylemidir. Bu sıklık, eski Türk toplumunun bilgiye ve bilgili kişilere verdiği yüksek değeri kanıtlar. Metinlerde bilge kişiler sürekli övülür ve bu eylem öğütlenirken, “bilig bilmez” (bilgisiz, cahil) kişiler uyarılır ve eleştirilir. Türk idare sisteminde liyakatin, yani bilgeliğin ne kadar kritik bir meşruiyet ve güç kaynağı olduğu bu eylemin kullanımından açıkça anlaşılmaktadır.</p>
+<h4 class="mini">2. İstişare ve ortak akıl kültürü — <span class="cevrim">ögläş-</span></h4>
+<p>Düşünmek, akıl etmek ve hatırlamak anlamlarına gelen “ö-” eyleminden türetilen “ögläş-” (akıl danışmak, görüş almak) fiili, eski Türklerin yönetim felsefesini ortaya koyar. Kağanlar ve komutanlar tek başlarına karar almaz; bir askeri veya siyasi eyleme girişmeden önce kurultayda aksakallara ve bilge kişilere “akıl danışıp” (ögläşip) ortak kararla hareket ederlerdi.</p>
+<h4 class="mini">3. İstemli ve istençsiz bilişsel ayrım — <span class="cevrim">tiŋla-</span> / <span class="cevrim">közlä-</span></h4>
+<ul>
+  <li>Kulağa sesin rastgele ulaşması basitçe <span class="cevrim">eşid-</span> veya <span class="cevrim">tuy-</span> iken; bir öğüdü veya sözü kendi isteğiyle pürdikkat dinlemek <span class="cevrim">tiŋla-</span> fiiliyle karşılanırdı.</li>
+  <li>Rastgele görmek <span class="cevrim">kör-</span> iken; özel bir çaba ve dikkatle, stratejik olarak gözetlemek <span class="cevrim">közlä-</span> fiiliyle ifade edilirdi. Bu, eski Türklerin zihinsel odaklanma ve disipline (töreye) verdikleri önemi gösterir.</li>
+</ul>
+<h4 class="mini">4. Derin düşünce, yas ve yaşamın sınırları — <span class="cevrim">sakın-</span></h4>
+<p>Orijinal anlamı “düşünmek” olan, daha sonra “kaygılanmak, üzülmek” anlamlarına evrilen “sakın-” fiili, eski Türklerin varoluşsal düşüncelerini taşır. Kardeşi Kül Tigin'in vefatı üzerine Bilge Kağan'ın daldığı derin hüzün ve meditasyon “sakıntım” sözüyle ifade edilir. Kağan, zamanın ve ölümün mutlak sınırlarını düşünerek acısını dindirmeye çalışır. Vezir Tonyukuk ise aynı fiili askeri stratejide “semiz boğa ile zayıf boğayı uzaktan ayırt etme” benzetmesiyle bir zihinsel muhakeme aracı olarak kullanır.</p>
+<h4 class="mini">5. Aileye saygı ve hatadan dönme bilişselliği — <span class="cevrim">öbkälä-</span> / <span class="cevrim">sakın-</span></h4>
+<p>Irk Bitig'in 58. kehanetinde, anne babasına öfkelendiği (öbkäläp) için evden kaçan (tezip) bir gencin öyküsü anlatılır. Genç yolda tekrar düşününce (yana sakınmış), “Annemin öğüdünü alayım, babamın sözünü dinleyeyim” diyerek geri döner. Öfke gibi yıkıcı bir duygu tepkisinin, uslamlama (sakınmak/düşünmek) eylemiyle kontrol altına alınması, eski Türk toplumunda aileye ve ana-baba sözüne verilen sarsılmaz değeri yansıtır.</p>
+<h4 class="mini">6. Toplumsal ahlak ve vicdani sorumluluk — <span class="cevrim">ökün-</span> / <span class="cevrim">ärtin-</span></h4>
+<p>Bir işin yanlış sonuç verdiğini anlayıp üzülmeyi belirten “ökün-” (pişman olmak) ve “ärtin-” (vazgeçmek) fiilleri, töreye uyumun zihinsel kontrol mekanizmalarıdır. Bilge Kağan'ın ulusuna hitaben “vazgeç ve nadim ol!” (ärtin ökün) demesi, toplumsal ahlaka aykırı ve utanılacak durumlardan kaçınma yönünde bir vicdani hesaplaşma çağrısıdır.</p>
+</section><section class="bolum"><div class="bolum-kicker">EĞİTMEN BÖLÜMÜ</div><h2 class="bolum-baslik">Ek Üniteler — Çözümlü Cevap Anahtarı</h2><p class="bolum-ozet">Dağıtım öncesi bu bölüm ayrılabilir.</p><hr class="baslik-cizgi">
+<span class="egitmen-tag">EĞİTMEN VERSİYONU</span>
+<h3 class="alt-baslik"><span class="no">Ç.</span>Ünite A (Sayılar) Çözümleri</h3>
+<h4 class="mini">Alıştırma 1 Cevapları</h4>
+<ul class="cevap-blok">
+  <li><span class="cevrim">eki yeg(i)rmi</span> = <b>12</b> — Göktürkçe, birimin hedeflenen onluğa yöneldiği ilerleyici bir sıra sistemi kullanır; bu örnekte 20'ye (yegirmi) yönelen 2. sayı kastedilmiştir.</li>
+  <li><span class="cevrim">altı otuz</span> = <b>26</b> — 30'a (otuz) yönelen 6. sayı olduğu için.</li>
+  <li><span class="cevrim">to͡kuz yitmiş</span> = <b>69</b> — 70'e (yitmiş) yönelen 9. sayı olduğu için.</li>
+  <li><span class="cevrim">sekiz elig</span> = <b>48</b> — 50'ye (elig) yönelen 8. sayı olduğu için.</li>
+  <li><span class="cevrim">bir otuz</span> = <b>21</b> — 30'a yönelen 1. sayı olduğu için.</li>
+</ul>
+<h4 class="mini">Alıştırma 2 Cevapları (Runik Analiz)</h4>
+<ul class="cevap-blok">
+  <li><span class="cevrim">bir</span> ➔ <span class="runic">𐰼𐰃𐰋</span> — Sağdan sola: b-i-r. “bir” kelimesi ön ünlülü olduğu için ince “b” 𐰋 ve ince “r” 𐰼 kullanılmıştır.</li>
+  <li><span class="cevrim">otuz</span> ➔ <span class="runic">𐰯𐱃𐰆</span> — Sağdan sola: o-t-u-z. Yazıtlarda “otuz” kelimesindeki ilk /o/ ve /u/ sesleri 𐰆 karakteriyle gösterilir; “t” kalın/art karakterli 𐱃 ile yazılır.</li>
+  <li><span class="cevrim">bir otuz</span> (21) ➔ <span class="runic">𐰯𐱃𐰆&nbsp;&nbsp;𐰼𐰃𐰋</span></li>
+</ul>
+<p class="not">Ünite B (Lir/Şaz): Alıştırma 2'nin denklik tablosu kaynaktan eksiksiz verilmiştir (ikr/ikiz, kur/göz, çul/yaş, çür/yüz, tır/tış); alıştırma 1'in tahlil kelimeleri metin içinde çözümlüdür. Ödev projesi öğrenci çalışmasına bırakılmıştır.</p>
+</section></body></html>

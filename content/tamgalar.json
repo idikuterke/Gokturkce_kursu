@@ -1,0 +1,389 @@
+{
+ "surum": "tamgalar-v1",
+ "aciklama": "Kurs tamga envanteri. 'cp' kod noktasından üretilir; renderer tamgayı chr(cp) ile çizer. Ders değerleri müfredat tablolarından.",
+ "gruplar": [
+  {
+   "id": "unluler",
+   "baslik": "Ünlü Tamgalar — 4 tamga · 8 ses",
+   "tamgalar": [
+    {
+     "cp": "U+10C00",
+     "deger": "A / E",
+     "ad": "ORKHON A"
+    },
+    {
+     "cp": "U+10C03",
+     "deger": "I / İ",
+     "ad": "ORKHON I"
+    },
+    {
+     "cp": "U+10C06",
+     "deger": "O / U",
+     "ad": "ORKHON O"
+    },
+    {
+     "cp": "U+10C07",
+     "deger": "Ö / Ü",
+     "ad": "ORKHON OE"
+    }
+   ]
+  },
+  {
+   "id": "kutuplu",
+   "baslik": "Kutuplu Ünsüz Tamgalar — kalın / ince çiftleri (20 tamga)",
+   "tamgalar": [
+    {
+     "cp": "U+10C09",
+     "deger": "b¹ — kalın B",
+     "ad": "ORKHON AB"
+    },
+    {
+     "cp": "U+10C0B",
+     "deger": "b² — ince B",
+     "ad": "ORKHON AEB"
+    },
+    {
+     "cp": "U+10C11",
+     "deger": "d¹ — kalın D",
+     "ad": "ORKHON AD"
+    },
+    {
+     "cp": "U+10C13",
+     "deger": "d² — ince D",
+     "ad": "ORKHON AED"
+    },
+    {
+     "cp": "U+10C0D",
+     "deger": "g¹ — kalın G",
+     "ad": "ORKHON AG"
+    },
+    {
+     "cp": "U+10C0F",
+     "deger": "g² — ince G",
+     "ad": "ORKHON AEG"
+    },
+    {
+     "cp": "U+10C34",
+     "deger": "k¹ — kalın K",
+     "ad": "ORKHON AQ"
+    },
+    {
+     "cp": "U+10C1A",
+     "deger": "k² — ince K",
+     "ad": "ORKHON AEK"
+    },
+    {
+     "cp": "U+10C1E",
+     "deger": "l¹ — kalın L",
+     "ad": "ORKHON AL"
+    },
+    {
+     "cp": "U+10C20",
+     "deger": "l² — ince L",
+     "ad": "ORKHON AEL"
+    },
+    {
+     "cp": "U+10C23",
+     "deger": "n¹ — kalın N",
+     "ad": "ORKHON AN"
+    },
+    {
+     "cp": "U+10C24",
+     "deger": "n² — ince N",
+     "ad": "ORKHON AEN"
+    },
+    {
+     "cp": "U+10C3A",
+     "deger": "r¹ — kalın R",
+     "ad": "ORKHON AR"
+    },
+    {
+     "cp": "U+10C3C",
+     "deger": "r² — ince R",
+     "ad": "ORKHON AER"
+    },
+    {
+     "cp": "U+10C3D",
+     "deger": "s¹ — kalın S",
+     "ad": "ORKHON AS"
+    },
+    {
+     "cp": "U+10C3E",
+     "deger": "s² — ince S",
+     "ad": "ORKHON AES"
+    },
+    {
+     "cp": "U+10C43",
+     "deger": "t¹ — kalın T",
+     "ad": "ORKHON AT"
+    },
+    {
+     "cp": "U+10C45",
+     "deger": "t² — ince T",
+     "ad": "ORKHON AET"
+    },
+    {
+     "cp": "U+10C16",
+     "deger": "y¹ — kalın Y",
+     "ad": "ORKHON AY"
+    },
+    {
+     "cp": "U+10C18",
+     "deger": "y² — ince Y",
+     "ad": "ORKHON AEY"
+    }
+   ]
+  },
+  {
+   "id": "kutupsuz",
+   "baslik": "Kutupsuz Ünsüz Tamgalar (7)",
+   "tamgalar": [
+    {
+     "cp": "U+10C32",
+     "deger": "ç",
+     "ad": "ORKHON EC"
+    },
+    {
+     "cp": "U+10C22",
+     "deger": "m",
+     "ad": "ORKHON EM"
+    },
+    {
+     "cp": "U+10C2D",
+     "deger": "ng",
+     "ad": "ORKHON ENG"
+    },
+    {
+     "cp": "U+10C2A",
+     "deger": "ny / ń — Irk Bitig",
+     "ad": "ORKHON ENY"
+    },
+    {
+     "cp": "U+10C2F",
+     "deger": "p",
+     "ad": "ORKHON EP"
+    },
+    {
+     "cp": "U+10C14",
+     "deger": "z",
+     "ad": "ORKHON EZ"
+    },
+    {
+     "cp": "U+10C41",
+     "deger": "ş",
+     "ad": "ORKHON ESH"
+    }
+   ]
+  },
+  {
+   "id": "ligatur",
+   "baslik": "Çift Sesli Hece Damgaları — Ligatürler (7)",
+   "tamgalar": [
+    {
+     "cp": "U+10C38",
+     "deger": "OK / UK · KO / KU",
+     "ad": "ORKHON OQ"
+    },
+    {
+     "cp": "U+10C1C",
+     "deger": "ÖK / ÜK · KÖ / KÜ",
+     "ad": "ORKHON OEK"
+    },
+    {
+     "cp": "U+10C36",
+     "deger": "IK / KI",
+     "ad": "ORKHON IQ"
+    },
+    {
+     "cp": "U+10C31",
+     "deger": "İÇ / Çİ",
+     "ad": "ORKHON IC"
+    },
+    {
+     "cp": "U+10C26",
+     "deger": "ND / NT",
+     "ad": "ORKHON ENT"
+    },
+    {
+     "cp": "U+10C21",
+     "deger": "LD / LT",
+     "ad": "ORKHON ELT"
+    },
+    {
+     "cp": "U+10C28",
+     "deger": "NÇ / NC",
+     "ad": "ORKHON ENC"
+    }
+   ]
+  },
+  {
+   "id": "irkbitig",
+   "baslik": "Irk Bitig'e Özgü Özel Tamgalar (2)",
+   "tamgalar": [
+    {
+     "cp": "U+10C47",
+     "deger": "ot — logografik kelime tamgası",
+     "ad": "ORKHON OT"
+    },
+    {
+     "cp": "U+10C30",
+     "deger": "up / üp — yarı-hece tamgası",
+     "ad": "ORKHON OP"
+    }
+   ]
+  },
+  {
+   "id": "yenisey",
+   "baslik": "Yenisey Varyantları (7)",
+   "tamgalar": [
+    {
+     "cp": "U+10C04",
+     "deger": "Yenisey I",
+     "ad": "YENISEI I"
+    },
+    {
+     "cp": "U+10C05",
+     "deger": "Yenisey E — kapalı é",
+     "ad": "YENISEI E"
+    },
+    {
+     "cp": "U+10C0A",
+     "deger": "Yenisey kalın B",
+     "ad": "YENISEI AB"
+    },
+    {
+     "cp": "U+10C12",
+     "deger": "Yenisey kalın D",
+     "ad": "YENISEI AD"
+    },
+    {
+     "cp": "U+10C3B",
+     "deger": "Yenisey kalın R",
+     "ad": "YENISEI AR"
+    },
+    {
+     "cp": "U+10C44",
+     "deger": "Yenisey kalın T",
+     "ad": "YENISEI AT"
+    },
+    {
+     "cp": "U+10C35",
+     "deger": "Yenisey kalın K",
+     "ad": "YENISEI AQ"
+    }
+   ]
+  }
+ ],
+ "ciftler": [
+  {
+   "ses": "B",
+   "kalin": {
+    "cp": "U+10C09",
+    "deger": "b¹ — kalın B"
+   },
+   "ince": {
+    "cp": "U+10C0B",
+    "deger": "b² — ince B"
+   }
+  },
+  {
+   "ses": "D",
+   "kalin": {
+    "cp": "U+10C11",
+    "deger": "d¹ — kalın D"
+   },
+   "ince": {
+    "cp": "U+10C13",
+    "deger": "d² — ince D"
+   }
+  },
+  {
+   "ses": "G",
+   "kalin": {
+    "cp": "U+10C0D",
+    "deger": "g¹ — kalın G"
+   },
+   "ince": {
+    "cp": "U+10C0F",
+    "deger": "g² — ince G"
+   }
+  },
+  {
+   "ses": "K",
+   "kalin": {
+    "cp": "U+10C34",
+    "deger": "k¹ — kalın K"
+   },
+   "ince": {
+    "cp": "U+10C1A",
+    "deger": "k² — ince K"
+   }
+  },
+  {
+   "ses": "L",
+   "kalin": {
+    "cp": "U+10C1E",
+    "deger": "l¹ — kalın L"
+   },
+   "ince": {
+    "cp": "U+10C20",
+    "deger": "l² — ince L"
+   }
+  },
+  {
+   "ses": "N",
+   "kalin": {
+    "cp": "U+10C23",
+    "deger": "n¹ — kalın N"
+   },
+   "ince": {
+    "cp": "U+10C24",
+    "deger": "n² — ince N"
+   }
+  },
+  {
+   "ses": "R",
+   "kalin": {
+    "cp": "U+10C3A",
+    "deger": "r¹ — kalın R"
+   },
+   "ince": {
+    "cp": "U+10C3C",
+    "deger": "r² — ince R"
+   }
+  },
+  {
+   "ses": "S",
+   "kalin": {
+    "cp": "U+10C3D",
+    "deger": "s¹ — kalın S"
+   },
+   "ince": {
+    "cp": "U+10C3E",
+    "deger": "s² — ince S"
+   }
+  },
+  {
+   "ses": "T",
+   "kalin": {
+    "cp": "U+10C43",
+    "deger": "t¹ — kalın T"
+   },
+   "ince": {
+    "cp": "U+10C45",
+    "deger": "t² — ince T"
+   }
+  },
+  {
+   "ses": "Y",
+   "kalin": {
+    "cp": "U+10C16",
+    "deger": "y¹ — kalın Y"
+   },
+   "ince": {
+    "cp": "U+10C18",
+    "deger": "y² — ince Y"
+   }
+  }
+ ]
+}
