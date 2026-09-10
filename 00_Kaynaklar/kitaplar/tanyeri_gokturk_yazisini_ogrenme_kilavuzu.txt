@@ -1,0 +1,1356 @@
+PROVENANS: Yavuz Tanyeri, Göktürk Yazısını Öğrenme Kılavuzu (35 sf). Kaynak dosya: .../Göktürkçe Eğitimi/Gokturk_Yazisini_Ogrenme_Kilavuzu_Yavuz.pdf
+(aynı içerik: 1047-_Turkoloji_Tarix_Gokturk_Yazisini_Oghrenme_Klavuzu_Yavuz_Tanyeri.pdf). Çıkarım: pdftotext -layout, 2026-09-11, Claude Code.
+Not: Tanyeri runik tamgaları görsel/gömülü font olarak kullanır — metin katmanında runik yoktur; tablo sayfaları için PDF'e bakılmalı.
+================================================================================
+
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ          www.bilgicik.com
+
+                                                   Sayfa:
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+        Değerli Türkçe sevdalıları,
+
+Ö
+N Bu kılavuz, Türkçenin ilk yazılı belgelerinde kullanılan Orhun (Göktürk)
+
+        yazısını, Türkiye TÜRKlerine basit düzeyde öğretebilmek amacıyla
+        hazırlanmıştır. Kılavuzdan yararlanarak, Göktürkler dönemi ve Göktürkçe
+        hakkında genel anlamda bilgi edinebilir; Göktürk alfabesindeki harflerin
+
+S yazım ve kullanım özelliklerini kavrayarak Göktürk yazısını
+        öğrenebilirsiniz.
+
+Ö Bir yazı sistemini derinlemesine öğretmek için bu kılavuz yetersiz
+Z kalacaktır. Çünkü burada Göktürk yazısı, oldukça basit düzeyde
+
+        anlatılmaktadır. Bu kılavuz yardımıyla Göktürkçe üzerinde yapacağınız
+        çalışmalar sonucunda, Türk ulusuna ait tek milli alfabe olan Göktürk
+        alfabesini ve yazısını Orhun Yazıtları'nı taşlar üzerinden okuyabilecek
+        düzeyde öğrenebilir; Göktürk harfli yazıtlar hakkında genel bilgi sahibi
+        olabilir ve bugün kullandığımız Türkiye Türkçesini Orhun yazısına
+        uyarlayabilirsiniz.
+
+        Bu kılavuz hakkındaki görüşlerinizi ve varsa yanlışlarımızı e-posta yoluyla
+        bize bildirirseniz, çalışmamızın iyileştirilmesinde bize katkı sağlamış
+        olursunuz. Kutlu dileğimiz, Türk gençlerinin Türk dilinin köklerine kadar
+        uzanabilmesi ve oradan alacağı ışık ile bilinçlenmesidir.
+
+        Kılavuzun hazırlanmasında beni yönlendiren ve eksiklerini gidermemde
+        sonsuz desteğini esirgemeyerek bu çalışmanın ortaya çıkmasında en az
+        benim kadar emeği bulunan değerli hocam Yrd. Doç. Dr. Ercan ALKAYA'ya
+        teşekkür ederim.
+
+        Bu çalışma, acunun dört yanına dağılmış yüce TÜRK budununa
+        armağandır.
+
+        Kutluġ bolsun!
+
+        Yavuz TANYERİ
+
+          İletişim: bilgi@bilgicik.com
+
+                      Sayfa: 1
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ            www.bilgicik.com
+
+Göktürk Tarihi Hakkında
+
+                                              Göktürkler, 500'lü yıllarda Avarlar'a bağlı olarak yaşayan ve
+                                              bir kısmı Aşina önderliğinde Altaylar'ın güneyine göç eden
+                                              birkaç Türk topluluğunun birleşmesinden meydana
+                                              gelmiştir. Bu bilgi hem Çin kaynakları hem de Bozkurt
+                                              Efsanesi gibi sözlü Türk kaynaklarınca desteklenmektedir.
+
+                                              Bumın, 534 yılında başlarında bulunduğu Türk topluluğunu
+                                              genişletip güçlendirmek için Tabgaç devletiyle ilişki kurmuş
+                                              ve 542 yılında Çin'e sefer düzenlemiştir. Bu sırada Bumın,
+Juan Juanlar olarak bilinen Avarlarlar'a karşı ayaklanan Tölisler'in isyanını bastırarak 50.000 kişiyi
+kendine bağlamıştır. Avar hükümdarı ile Bumın arasında çıkan bir anlaşmazlık nedeniyle,
+Göktürkler 552 yılında Avarlar'a karşı bağımsızlıklarını ilan etmişler ve bir bahar baskını ile Juan
+Juanlar'ı ortadan kaldırmışlardır.
+
+Bumın, Ötüken'de Göktürkler'in kağanı olduğunu duyurmuş; fakat aynı yıl vefat etmiştir. Bumın
+Kağan'dan sonra devletin doğusunu Bumın'ın oğlu Mukan; batısını ise kardeşi İstemi yönetmeye
+başlamıştır. Bu dönemde Göktürk devletinin en parlak devirleri yaşanmıştır. İstemi Yabgu önce
+Sasaniler'le, daha sonra da Bizans ile ittifak kurmak istemiştir. 572 yılında Mukan Kağan; 576
+yılında ise İstemi Yabgu vefat etmiştir.
+
+Mukan Kağan'dan sonra Doğu Göktürk Kağanlığı'nın başına Tapar Kağan; İstemi Yabgu'dan sonra
+Batı Göktürk Kağanlığı'nın başına ise İstemi'nin oğlu Tardu geçmiştir. Doğu Göktürkleri Çinlilerle
+mücadele etmiş, bir süre onları vergiye bağlamışlardır. Fakat 630 yılında türlü Çin entrikaları
+yüzünden onlara yenilmiş ve Çin egemenliğinde yaşamaya başlamıştır. Batı Göktürkleri de Çin,
+Bizans ve Sassaniler'le mücadele etmiş ve 659 yılında Çin egemenliğine girmiştir.
+
+Çin egemenliğine önce giren Doğu Göktürk Kağanlığı'na bağlı Türkler, Çin tutsaklığında yaşamaya
+dayanamamışlardır. 639 yılında Kürşad adlı bir Türk kahramanı, yetiştirdiği 40 çeriyle birlikte Çin
+Sarayı'nı basmış ve yüzlerce Çinliyi öldürmüştür. Çin prensini yakalamaya çok yakınken, dışarıdan
+gelen Çin birliklerine daha fazla dayanamayıp sarayın ahırından aldıkları atlarla Vey Irmağı'na
+doğru kaçmaya çalışan Türk yiğitleri, çevrede devriye Çin birliklerini geçemeyerek uçmağa
+varmışlardır. Bu ihtilal hareketi, başarıya ulaşmadan sonuçlanmış; fakat Çin'de yaşayan binlerce
+tutsak TÜRK'ün yüreğine bağımsızlık ülküsünü salmaya yetmiştir.
+
+682 yılında Kutluğ Kağan önderliğinde Ötüken'e gelen ve burada yeniden il kurmaya çalışan
+Göktürkler'den bir topluluk, zaman içinde güçlenmiş ve bağımsızlığını ilan etmiştir. İl'i derleyip
+topladığı için Kutluğ Kağan, İlteriş adını almıştır. İlteriş'in kağanlık döneminin sonlarına doğru,
+Çin'deki Batı Göktürkleri de bağımsızlıklarına kavuşmuşlardır. İlteriş Kağan'dan sonra İkinci
+Göktürk Devleti'nin başına geçen Kapgan Kağan, Çin İmparatoriçesi'ne şart koşarak Çin'deki
+Türklerin iadesini sağlamış, Batı ve Doğu Kök Türklerini birleştirmiş; Uygur, Kırgız, Çik, Basmıl,
+Karluk gibi birçok Türk boyunu da kağanlığa bağlayarak “Türk birliğini” kurmuş; dört bir yana
+sayısız seferler düzenleyip ordular göndererek başlıya baş eğdirmiş, dizliye diz çöktürmüştür.
+
+Kapgan Kağan'dan sonra yaşanan kısa bir geçiş döneminden sonra; Bilge Kağan ve Kül Tigin'in
+devleti birlikte yönettikleri, 716 - 734 yıllarını kapsayan parlak bir dönem başlamıştır. Bilge
+Tonyukuk'un vezir olduğu bu dönemde, Çin üzerinde mutlak egemenlik sağlanmış ve Çin'deki
+bütün Türkler getirilerek Türk birliği sağlamlaştırılmıştır. Orhun Yazıtları, İkinci Göktürk Devleti'nin
+bu döneminde dikilmiştir ve yazılı metinlerden takip edebildiğimiz Türk tarihinin ilk sayfaları, bu
+kutlu belgelerle günümüze kadar ulaşmıştır.
+
+                                                   Sayfa: 2
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ                                          www.bilgicik.com
+
+                          Göktürk Harfli Yazıtlar
+
+Göktürk harfli yazıtlar içinde en çok bilinen ve üzerinde en çok araştırma yapılanlar Köktürk
+bengü taşlarıdır. Köktürk bengü taşlarının büyük çoğunluğu Orhun Irmağı çevresinde
+bulunmaktadır. Bunun için bu yazıtlara, Orhun Yazıtları da denilmektedir. Orhun Yazıtları
+denildiğinde akla genellikle Kül Tigin, Bilge Kağan ve Tonyukuk yazıtları gelmektedir. Çünkü bu üç
+yazıt, geniş içeriğe sahiptir ve önemli bilgiler vermektedir. Aşağıda Göktürk harfli bütün yazıtlar
+listelenmiştir.
+
+Köktürk Yazılı Metinleri                                     Köktürk Bengü Taşları
+
+1- Köktürk Bengü Taşları                                   1- Çoyren (Çoyr) / (687 - 692)
+
+2- Uygur Bitigleri                                         2- Hoytu Tamir / (717 - 720)
+3- Yenisey Yazıtları                                       3- Öngin (İşbara Tamgan Tarkan) (719 - 720)
+4- Diğer Yazıtlar                                          4- İhe Huşuto (Köl İç Çor) / (723 - 725)
+                                                           5- İhe Aşete (Altun Tamgan Tarkan) / (724)
+  - Moğolistan’daki Diğer Yazıtlar                         6- Bayın Çokto (Tonyukuk) / (716 - 734)
+  - Dağlık Altay Cumhuriyeti’ndeki Yazıtlar                7- Birinci Orhun (Kül Tigin) / (732)
+  - Kırgızistan’daki Yazıtlar                              8- İkinci Orhun (Bilge Kağan) / (735)
+  - Türkistan’daki Yazıtlar                                9- İhe Nur / (730)
+  - Kuzey Kafkasya Yazıtları                               10- Hangiday
+  - Kırım, Balkanlar ve Macaristan’da Bulunan Yazıtlar
+  - Sekel Yazıtı
+
+                                                        ,
+
+Köktürk yazılı metinleri içinde tarihi bilinen ve bugüne ulaşan en eski Türk yazıtı “Çoyr” yazıtıdır.
+
+Bir Köktürk erinin İlteriş'e katıldığını anlatan bu yazıt, 687 - 692 yılları arasında dikilmiştir ve 6
+
+satırdan oluşmaktadır. Son yıllarda Moğolistan'da Birinci Göktürk Kağanlığı dönemine ait 581
+
+yılında yazılmış “Bugut” Yazıtı bulunmuştur. Bu yazıt Çoyr yazıtından daha eski tarihte yazılmış
+
+olmasına rağmen Türkçe değil, Soğdcadır.
+
+Orhun Yazıtları içinde daha fazla önem taşıyan üç büyük yazıt hakkında kısa bilgiler:
+
+1. Kül Tigin Yazıtı: Kağan olmasında ve devletin kuvvetlenmesinde birinci
+
+derecede rol oynamış bulunan kahraman kardeşine karşı Bilge Kağan’ın duyduğu
+minnet duygularının ifadesi olan bu yazıt, 732 yılında Bilge Kağan tarafından kardeşi
+adına diktirilmiştir. Köktürklerin birinci dönemdeki şevket devrini, daha sonra nasıl
+zayıflayıp Çin'e tutsak olduklarını, Çin esaretinden kurtuluşlarını ve nihayet Köl
+Tigin'in kahramanlıklarla dolu hayatını anlatır.
+
+Kül Tigin, İlteriş Kağan'ın oğlu ve Bilge Kağan'ın kardeşidir. Amcası Kapgan Kağan'ın
+ölümünden sonra tahta ağabeyini oturtmak için Kapgan Kağan'ın oğullarıyla
+mücadele eden Kül Tigin, ağabeyiyle birlikte Büyük Okyanus'tan Afganistan'daki
+Demir Kapı'ya; Tibet'ten Sibirya'ya kadar uzanan geniş coğrafyada birçok kavim
+üzerine 20'den fazla akın düzenlemiş, Türk tarihinin en büyük kahramanlarından
+biridir.
+
+                Bilge Kağan, 71 satırdan oluşan Kül Tigin Yazıtı'nı yeğeni Yollug Tigin'e yazdırmıştır.
+                Olaylar Bilge Kağan tarafından anlatılmıştır. Kül Tigin âbidesi, kaplumbağa şeklindeki
+                oyuk bir kaide taşına oturtulmuştur ve yazıt bu kaidenin yanına devrilmiş bir şekilde
+bulunmuştur. Özellikle devrik vaziyette rüzgâra maruz kalan kısımlarında tahribat ve silintiler
+olmuştur. Yüksekliği 3,75 metredir. İtina ile yontulmuş, bir çeşit kireç taşı veya saf olmayan
+mermerdendir. Yukarıya doğru biraz daralmaktadır. Dört cephelidir. Âbidenin üstü kemer şeklinde
+bitmektedir ve yukarı kısımda beş kenarlı olmaktadır. Doğu cephesinin üstünde kağanın işareti
+vardır. Batı cephesi büyük bir Çince kitabe ile kaplıdır. Diğer üç cephesi Türkçe kitabelerle doludur.
+
+                                                   Sayfa: 3
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ            www.bilgicik.com
+
+                   2. Bilge Kağan Yazıtı: Bilge Kağan'ın ölümünden bir yıl sonra (735) oğlu
+
+                        tarafından Kül Tigin Yazıtı'nın bir kilometre uzağına diktirilmiştir. Bu yazıt
+                        devrilmiş ve parçalanmıştır. Bunun için diğer yazıtlara göre daha fazla
+                        tahribata uğramıştır. Bu yazıtta da yine Bilge Kağan konuşmaktadır. Bu yazıtın
+                        büyük çoğunluğu, Kül Tigin Yazıtı'yla aynıdır. Yalnızca Kül Tigin'in olmadığı
+                        zamanlarda geçen olaylar farklıdır.
+
+                        İlteriş Kağan'ın oğlu, Kapgan Kağan'ın yeğeni, Tonyukuk'un damadı ve Köl
+                        Tigin'in ağabeyi olan Bilge Kağan; 19 yıl şadlık, 19 yıl da kağanlık yapmış olan
+                        büyük bir devlet adamıdır. Türk tarihinin en büyük hükümdarlarından biri ve
+                        Türk hitabet sanatının ilk büyük ismidir. Türk edebiyatının ilk isimleri olan
+                        Tonyukuk hatıra türünün, Bilge Kağan ise hitabet türünün ilk örneklerini
+                        vermiştir.
+
+                        Yazıtın geniş olan doğu yüzünde 41 satırlık; daha dar olan kuzey ve güney
+                        yüzlerinde ise 15'er satırlık Türkçe metin bulunmaktadır. Bu abidenin de batı
+yüzünde küçük bir Çince metin varsa da, bu bölüm büyük ölçüde tahribata uğradığından metnin
+pek azı okunabilmiştir.
+
+              3. Tonyukuk Yazıtı: Bu yazıt, İlteriş Kağan'ın isyanına iştirak eden ve o günden
+
+                  Bilge Kağan devrine kadar devlet idaresinin baş yardımcısı olarak kalan büyük Türk
+                  devlet adamı ve başkumandanı Tonyukuk'un ihtiyarlık döneminde, bizzat kendisi
+                  tarafından diktirilmiştir. Abidede konuşan kişi Tonyukuk'tur.
+
+                  Tonyukuk Yazıtı, devrilmemiş dikili ve dört cepheli iki ayrı taştan oluşmaktadır.
+                  Birinci ve daha büyük olan taşta 35, ikinci taşta ise 27 satır bulunmaktadır. Bu
+                  abidenin yazıları, Kül Tigin ve Bilge Kağan yazıtlarındakinden daha özensiz ve
+                  okunaksızdır. İkinci taş, birinciye göre daha çok yıpranmıştır.
+
+                  Bu yazıtın ne zaman dikildiği kesin olarak belli olmamakla birlikte, Bilge Kağan'In
+                  hükümdarlık yaptığı 716 - 734 yılları arasında dikildiği düşünülmektedir. Yazıtta
+                  Tonyukuk, Türk edebiyatında hatıra türünün ilk büyük eserini ortaya koymuştur.
+
+                  Göktürk yazılı metinler içinden, Orhun Yazıtları denildiğinde akla ilk gelen üç
+                  büyük bengü taş hakkında bilgiler verdikten sonra, diğer Köktürk bengü taşları
+                  hakkında kısaca bilgi verebiliriz:
+
+                  • Çoyren (Çoyr) / (687 – 692): Tarihi bilinen ve bugüne kadar ulaşan en eski Türk
+                  yazıtıdır. Bir Köktürk erinin İlteriş’e katıldığını anlatan 6 satırlık bir yazıttır. Konu
+açısından oldukça basittir; fakat ilk yazıt olması bakımından çok önemlidir.
+
+• Hoytu Tamir / (717 – 720): Hoytu Tamir bölgesinde bulunduğu için kendi bölgesinin adını
+almıştır. Diğer yazıtlardan farkı; taş üzerine kazınarak değil, kayalar üzerine boyanarak
+oluşturulmasıdır. 34 parçadan oluşur. Metinlerde, Köl İç Çor’un Türgişler’le savaşması anlatılır.
+
+• Öngin / (719 - 720): 19 satırdan oluşur. Bilge Işbara Tamgan Tarkan adlı bir beyin Türk Ulusu için
+nasıl çalıştıkları anlatılır. Yazıtta, “kağana bağlılık” fikri işlenmiştir.
+
+• İhe Huşotu (Köl İç Çor) / (723 - 725): 29 satırdan oluşmaktadır. Köl İç Çor’un savaşlardaki
+yiğitliklerini anlatmaktadır.
+
+• İhe Aşete (Altun Tamgan Tarkan) / (724); İhe Nûr / (730) ve Hangiday adlı birkaç satırlık
+metinden oluşan üç küçük yazıt da, Köktürk Bengü Taşları arasında bulunmaktadır.
+
+                                                   Sayfa: 4
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ            www.bilgicik.com
+
+Orhun Yazıtları'nın Bulunuşu ve Yapılan Çalışmalar
+
+13. yy’da Tarih-i Cihangüşa’yı yazan İlhanlı tarihçisi Alaeddin Ata
+Melik Cüveyni Köktürk yazılı metinlerini görmüştür. Cüveyni’nin
+gördüğü yazılı kayalar, Uygur bitiglerinden “Karabalsagun”
+yazıtlarıdır. Ünlü tarihçi İbni Arabşah da Köktürk harflerinden
+bahseder ve “Ben gördüm, 41 harf var.” der.
+
+Batı’da Yenisey Yazıtları’ndan ilk bahseden Romen Seyyah
+Nicolaie Gavriloyiç Milescu’dur. 1721’in sonlarında Güney
+Sibirya’da, Yenisey Irmağı’nın ve kollarının suladığı Abakan
+bölgesinde genç bir doktor (Almanyalı bilgin D. G. Messerchimidt) ve
+genç bir subay (İsveçli J. P. Tabbert) bahsettiği taşları görmüşler ve
+Yenisey Yazıtları’ndan üçüncü Uybat ve Yenisey - Tes Yazıtı’nı
+keşfetmişlerdir.
+
+                                       Bu bilgilerin neşredilmesi Batı bilim dünyasının dikkatini
+                                       çekmiştir. Bunun üzerine araştırmalar başlamış ve Avrupalı
+                                       bilginler bu yazıların kimlere ait olduğu konusunda tahminler
+yapmaya başlamışlardır. Kimi bu yazıların Prusyalılara, kimi İskitlere, kimi Yunan ve Romanlılara
+ait olduğunu savunmuştur. Bu arada ilmi seferler düzenlenmiş, yeni taşlar keşfedilmiştir.
+
+1889 yılında Nikolay M. Yadrintsev, Moğolistan’da araştırmalar yaparken daha sonradan Kül
+Tigin’e ait olduğu anlaşılan bengü taşı bulmuştur. Yadrintsev Bilge Kağan’a ait abide ile Ongin
+Bengü Taşını da keşfetmiştir. Bu sırada başka bir araştırmacı 1893’te Hoytu Tamir yazıtlarını
+bulmuştur. Tonyukuk bengü taşı ise, 1897’de botanikçi Yelizaveta Klements tarafından
+keşfedilmiştir.
+
+Köl Tigin ve Bilge Kağan Bengü Taşları’nın bulunuşu, yazıyı çözmeye çalışan bilginlere yeni ufuklar
+açmıştır. Çünkü bu taşlar hacimlilerdi ve batı cephelerinde Çince metin bulunuyordu. Çince
+metinler okununca abidelerin Köktürkler’e ait olduğu anlaşılmıştır. Sonraki süreçte Wilhelm
+Radloff ve Danimarkalı dil bilimci Wilhelm Thomsen arasında bu esrarlı yazıların keşfi konusunda
+yarış başlamıştır.
+
+Wilhelm Thomsen uzun araştırma ve incelemeler yaptıktan sonra yazıtlardaki satırların sağdan
+sola sıralandığını çözmüş; ünlü seslerle diğer bazı harfleri keşfetmiş ve arkası çorap söküğü gibi
+gelmiştir. Esrarlı harflerin sırrını çözen Danimarkalı dil bilimci W. Thomsen, 25 Kasım 1893’te, bu
+taştan abidelerin Türkler’e ait olduğunu tüm dünyaya duyurmuştur.
+
+Wilhelm Radloff 40 Yenisey, 10 Hoytu Tamir ve 6 Moğolistan olmak üzere, toplam 56 yazıtı ilk
+okuyan, ilk tercüme eden, sözlüklerini ve gramerini yapan bir öncüdür. Fakat Radloff hazırladığı ilk
+çalışmayı yayımlamakta acele ettiği için, bu çalışması okuma yanlışlarıyla doludur. Thomsen'in
+Radloff'tan iki yıl sonra yayımladığı çalışma çok daha başarılı olduğundan, bu eser Türklük bilimi
+alanında daha yaygın kullanılan bir kaynak olmuştur.
+
+                                                   Sayfa: 5
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ                             www.bilgicik.com
+
+Türkiye’de Köktürk Yazıtları’nı ilk tanıtan bilim adamı Necip Asım
+olduğu gibi, Orhun Abideleri'ni ilk defa neşretme şerefi de ona
+aittir. Müsteşrikler Kongresinde Ahmet Mithat Efendi, Thomsen’i
+tanımıştır. Ahmet Mithat, Thomsen'den aldığı meşhur kitabın
+nüshasını Necip Asım’a vermiştir. Necip Asım da 1897’de “Pek
+Eski Türk Yazısı” adıyla ülkemizde Köktürk harfleri ve abideleri
+hakkında ilk kitabı yayımlamıştır.
+
+Şemseddin Sami, Orhun Abideleri’ni bizde neşretmeye teşebbüs
+eden ilk kişidir. Köktürk Bengü Taşlarının kısmen de olsa ilk
+tercümesi Ahmet Hikmet Müftüoğlu'na aittir ve “Gönül Hanım”
+adlı bir roman içerisinde yer alır. M. Fuat Köprülü “Türk Edebiyatı
+Tarihi” adlı eserinde anıtlardan bahsedip, değerlendirmeler
+yapmıştır. Türkiye’de bengü taşları konusunu “Eski Türk Yazıtları”
+adlı eserinde en geniş ölçüde işleyen büyük tarihçi Hüseyin Namık Orkun’dur.
+
+1943’te Nihal ATSIZ, “Türk Edebiyatı Tarihi” adlı eserinde Tonyukuk ve Kül Tigin bengü taşlarının
+bugünkü Türkçeye çevrilmiş şekillerini vermiştir. İlk baskısı 1970’te neşredilen Muharrem Ergin’in
+“Orhun Abideleri” adlı eseri üç büyük bengü taşın yeni okunuş ve tercümelerini içermektedir.
+Şimdi Muharrem Ergin’in talebelerinden Osman Fikri Sertkaya bir kuyumcu titizliği ile abideler
+üzerinde çalışmaktadır.
+
+“Orhun Yazıtları” ve “Orhun Türkçesi Grameri” gibi eserlerle yazıtlar hakkında çok kapsamlı
+çalışmalar yapan önemli isim Talat Tekin’dir. 1985 yılında Büyük Türk Klasikleri dizisinin 1. cildinde
+“Bengütaş Edebiyatı” başlığıyla Ahmet Bican Ercilasun da, Tonyukuk ve Köl Tigin anıtlarının yeni
+bir aktarımını vermiş, anıtları özellikle edebi yönden değerlendirmiştir.
+
+1990 yılından itibaren Köktürk Anıtları üzerindeki çalışmalar, Türkiye’de büyük bir ivme
+kazanmıştır. Türkiye Cumhuriyeti Dışişleri Bakanlığı’na bağlı olarak kurulan Türk İşbirliği ve
+Kalkınma Ajansı (TİKA), Köktürk Anıtları konusuna büyük önem vermiştir. Türk Dil Kurumu’nca
+başlatılan projelerle de Köktürk Anıtları konusunda ilerlemeler kaydedilmiştir. Tonyukuk Külliyesi
+ile Bilge Kağan - Kül Tigin Külliyelerinde, 1988’de inşasına başlanan koruma ve müze binaları
+1990’da TİKA tarafından teslim alınmıştır.
+
+Bugün Amerika’dan Japonya’ya kadar bütün dünya Türkologları, hemen hemen her dilde
+heyecanla bengü taşları araştırmaktadır. Âbideler üzerinde yapılan çalışmalar sonucunda, 6 tanesi
+büyük olan Orhun harfli yeni kitâbeler ve metinler bulunmuş, neşirler birbirini kovalamıştır. Son
+zamanlarda Orhun Irmağı vadisinde yapılan arkeolojik araştırmalar da hız kazanmış ve burada
+yüzlerce heykel, balbal, çeşitli eserler ve şehir harabeleri bulunmuştur. Bu alanda yapılan
+çalışmaların adları bile, bir kitap teşkil edecek kadar geniştir.
+
+Gerçekten de Orhun Âbidelerini, bugün Türkiye'den binlerce kilometre uzakta eski Türk
+yurdunda, bugünkü Moğolistan'da Türklüğün şehadet parmakları olarak yükselen bu mübarek
+taşları kana kana okumak, her kelimesi üzerinde derin derin düşünmek, resimlerini huşû içinde
+seyrederek ruhu yıkamak, her Türk için millî ibadettir.
+
+                                                   Sayfa: 6
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+Göktürk (Orhun) Yazısı Hakkında
+
+Türklerin bilinen ilk yazılı kaynakları olan Orhun Yazıtları'nda kullanılan Göktürk Yazısı, 7. yüzyıla
+kadar işlenerek temellendirilmiş ve bu dönemden sonra yazılı kaynaklarda kullanılır olmuştur.
+Orhun yazısının Göktürkler döneminde oluştuğu söylense de, Göktürk Yazıtları'nda kullanılan yazı
+dili üzerinde yapılan dil bilimsel araştırmalar, Türk yazı dilinin Göktürklerden çok daha önceye
+kadar uzandığını göstermektedir. Bir yazı dilinin, Orhun Abideleri'ndeki olgunluğa ulaşabilmesi
+için, uzun yıllar boyunca işlenmesi gerekmektedir. Bu durum göz önüne alındığında, Orhun yazı
+dilinin en eski dönemlerinin milattan önceye kadar uzandığını söyleyebiliriz.
+
+Türk yazı dilini belgelerle takip edebildiğimiz 7. yüzyıldan sonraki dönemde, Orhun yazısı 5-6
+yüzyıl boyunca Türklerin yaşadığı geniş coğrafyada kullanılmıştır. Karahanlılar döneminde
+Uygurların oluşturduğu yeni alfabenin yaygınlaşmaya başlamasıyla, Göktürk yazısı bırakılmıştır. Bu
+yazının en güzel örneklerini bulduğumuz Orhun Yazıtları, bin yıldan fazla süre boyunca kendini
+koruyarak bugünlere ulaşmış olsa da, ancak 19. yüzyılın ortalarında keşfedilmiştir.
+
+Göktürk alfabesindeki harfler, doğadaki nesnelerden hareketle oluşturulmuştur. Bu özelliğiyle
+Orhun alfabesinin, Göktürklerden binlerce yıl önce yaşayan TÜRKlerin oluşturdukları bir “resim
+yazısının” devamı olduğu söylenebilir. Çünkü harflerin çoğu, doğadaki veya insan tasavvurundaki
+nesnelere benzemektedir. Söz gelimi, "O" harfi, aşağı doğru bakan bir oku göstermektedir. Bu
+harfin alfabedeki karşılığı da, "ok - uk" biçimindedir. Bu konu ilerleyen sayfalarda ayrıntılı olarak
+işlenecektir.
+
+Göktürk yazısındaki harfler, genellikle dikey ve yatay çizgilerden oluşmaktadır. Çünkü Göktürkler,
+genellikle harfleri sert yüzeylere kazıyarak yazıyı oluşturuyorlardı. Bir bakıma “çivi yazısı” özelliği
+gösteren Orhun yazısı, ilkel yöntemlerle taşlara kazındığı hâlde oldukça estetik bir görünüme
+sahiptir. Göktürk yazısı, genellikle keskin çizgilere sahip olmakla birlikte, kağıt üzerine aktarılınca
+(Irk Bitig gibi) tarihi süreç içerisinde daha yumuşak çizgilerden oluşmaya başlamıştır.
+
+Göktürk yazısı, bugünkü Türk yazısına tam ters biçimde sağdan sola doğru yazılmaktadır. Alfabede
+toplam 38 harf bulunmaktadır. Bu harflerin 30 tanesi sessiz, 4 tanesi sesli, 4 tanesi de çift seslidir.
+Şimdi Orhun Türkçesinin gramerini ve sözcük bilgisini bir yana bırakarak, Göktürk yazısını
+öğrenmeye harfleri tanımayla başlayabiliriz.
+
+                                   Sayfa: 7
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ            www.bilgicik.com
+
+Göktürk alfabesindeki 38 harf, aşağıdaki tabloda toplu hâlde gösterilmiştir. Bu tablo, Orhun
+yazısını öğrenirken, özellikle ünsüzlerin kalınlık - incelik durumlarını anımsamak amacıyla sıkça
+kullanılacaktır.
+
+                                                   Sayfa: 8
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ            www.bilgicik.com
+
+Göktürk alfabesinde 30 tane ünsüz harf bulunmaktadır.
+Bu harflerin 20 tanesi "kalınlık - incelik" durumuna göre
+değişmektedir. Geriye kalan 10 harfin de, 5 tanesi bütün
+ünlülerle kullanılan harflerden; 5 tanesi ise çift ünsüzü
+karşılayan harflerden oluşmaktadır.
+
+Kalınlık - incelik uyumuna göre değişen ünsüzlerin
+kullanımı, şu şekildedir: Göktürk alfabesinde ünsüzlerin
+kalınlık - incelik uyumu, günümüzdeki büyük ünlü uyumu
+ile bağlantılıdır. Eğer bir sözcüğün ilk hecesinde "kalın" bir
+ünlü var ise, yazıda o hecedeki ünsüzün "kalın" biçimi
+kullanılır. Eğer ilk hecedeki ünlü "ince" ise, o hecede
+kullanılan ünsüzün de "ince" biçimi kullanılır. Örneğin
+"budun" sözcüğü Göktürk yazısı ile "NDuB" biçiminde
+yazılmaktadır. Dikkat edilirse "budun" sözcüğünün ilk
+hecesinde "u" ünlüsü bulunmaktadır. "U" sesi kalın bir
+ünlü olduğu için, onunla aynı hecede bulunan "b" sesinin
+de "kalın" biçiminin (B) kullanılması gerekmektedir.
+
+Uyumu başka bir örnek ile açıklayalım: "Tigin" sözcüğü
+Eski Türkçede "ngit" biçiminde yazılmaktadır. Bu
+sözcüğün ilk hecesinde bir ince ünlü olan "i" ünlüsü
+bulunmaktadır. Bunun için o hecedeki "t" ünsüzünün de
+"ince" biçimi olan "t" harfi kullanılmalıdır.
+
+Şimdi Eski Türkçedeki ünsüzlerde görülen kalınlık - incelik
+uyumunu bir genelleme yaparak tanımlayalım: Eğer bir
+sözcüğün ilk hecesinde "kalın" ünlü (a, ı, o, u) varsa, o
+hecedeki ünsüz de "kalın"; eğer ilk hecede "ince" ünlü (e,
+i, ö, ü) varsa o hecedeki ünsüz de "ince" biçimiyle
+kullanılmalıdır. Elbette bu kural, yalnızca kalınlık - incelik
+uyumuna dahil olan 20 ünsüz için geçerlidir. Zira "m"
+sesini karşılayan "m" harfinin kalın veya ince biçimi yoktur.
+
+Bütün ünlülerle kullanılan ünsüzler, içinde "ç, m, p, ş, z" seslerinin bulunduğu herhangi bir
+sözcüğün içinde kullanılabilirler. Örneğin “ressam” anlamına gelen "bedizçi" sözcüğündeki "ç"
+sesini karşılayan “ç” harfi ve “z” sesini karşılayan “z” harfi, kendisinden sonraki ve önceki
+ünlünün kalın veya ince oluşundan bağımsız olarak "içzdb" biçiminde kullanılmaktadır. Aynı
+şekilde bugün "gümüş" biçiminde kullanılan "kümüş" sözcüğünün " mük" biçimindeki
+yazımında "m" sesini karşılayan "m" harfi ile "ş" sesini karşılayan " " harfinin ünlülerin
+durumundan bağımsız olarak kullanıldıkları görülebilir.
+
+Kalınlık - incelik uyumuna göre değişen ünsüzlerin ve bütün ünlülerle kullanılanların dışında, çift
+ünsüzden oluşan "Ğ" [ny], "U" [ld - lt], "I" [nç], "P" [nt] ve "ğ" [ng] harfleri bulunmaktadır. Bu
+harfler, içinde bu çift ünsüzlerden bulunan sözcüklerde kullanılırlar. Örneğin "erinç" sözcüğünü,
+sondaki "nç" sesini, "I" harfiyle karşılayarak "Ir " biçiminde yazabiliriz. Bu sözcüğü "çnr"
+biçiminde de yazmayı düşünebiliriz; fakat burada "nç" sesi için "n " ve "ç" harflerini kullanmak
+yerine, tek "I" harfini kullanmak daha mantıklı ve kurallı olacaktır.
+
+                                                   Sayfa: 9
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+Göktürk alfabesindeki ünsüz harfleri ve kullanımlarını
+gördükten sonra, ünlülerin nasıl kullanıldıklarına
+bakabiliriz. Göktürk alfabesinde toplam 4 tane ünlü vardır.
+Bugün Türkçede kullandığımız 8 ünlü, Göktürk alfabesinde
+4 harf ile gösterilmektedir. "A" ve "E" ünlülerini "e" harfi;
+"I" ve "İ" ünlülerini "i" harfi; "O" ve "U" ünlülerini "o"
+harfi; "Ö" ve "Ü" ünlülerini ise "ü" harfi göstermektedir.
+Yandaki tablonun en altında gördüğünüz sonuncu harf ise,
+"kapalı e" (ė) sesini belirtmek için kullanılan "E" harfidir.
+Bu harf, Orhun Yazıtları'nda geçmemekle birlikte Yenisey
+Yazıtları'nda birkaç sözcükte kullanıldığı için, Göktürk
+yazısındaki ünlüler arasında sıralanmıştır.
+
+                                              Göktürk alfabesinde ünlülerin sayısı oldukça azdır; fakat bu
+ünsüzlerin çokluğuyla telafi edilmiştir ve bu durum yazıda genellikle soruna yol açmamaktadır.
+Tabloda görülen ilk iki ünlü harf olan “a” [a, e] ve “ı” [ı, i], sözcükler içindeki ünsüzlerin kalınlık -
+incelik durumlarına göre rahatlıkla ayırt edilebilmektedir. Çünkü bu harflerin kullanıldığı sözcük,
+eğer kalın ünsüzlerle yazılmışsa, kalın olan ünlüyü; ince ünlülerle yazılmışsa, ince olan ünlüyü
+seçmemiz gerekmektedir. Örneğin: "taşra" sözcüğü "aR T" biçiminde yazılmaktadır. Sözcüğün
+yazımına dikkat edilirse, başta "kalın" bir ünsüzün kullanıldığı görülecektir. Bu bize, kalın
+ünsüzden sonra gelecek ünlülerin de kalın biçiminin kullanılacağına işaret etmektedir. Sözcüğün
+sonundaki "e" ünlüsü, "a" ve "e" seslerini karşılamaktadır. Bu durumda sözcük kalın ünsüzlerden
+oluştuğu için, sondaki ünlünün de "a" sesini karşıladığını anlayabiliriz.
+
+Farklı bir örneğe bakacak olursak: "bilig" sözcüğünü, Orhun yazısıyla "glib" biçiminde yazarız.
+Sözcüğün sağ baştaki ilk harfine bakacak olursak, "b" harfinin "ince" biçiminin kullanıldığını
+görürüz. Bu bize, bu harften sonra gelecek ünlünün de "ince" olacağını düşündürmelidir. Sondaki
+harf, yine "g" harfinin "ince" biçimidir. Demek ki tezimiz doğru yürümekte ve bir sözcüğün ilk
+hecesinde hangi türden ünsüz varsa, sonra gelenler de o türden olmaktadır. O hâlde, iki ince
+ünsüzün arasında kalan ve "I" ile "İ" seslerini karşılayan "i" ünlüsünün, "ince" biçimi olan “i”
+sesini seçmemiz gerekmektedir.
+
+İlk iki sesli harfi, kalınlık - inceliğe göre okumak oldukça kolaydır. Fakat “u” [o, u] ve “ö” [ö, ü]
+ünlülerini bu biçimde okumak olanaksızdır. Çünkü bu iki harfin karşıladığı iki ses de, kalın veya
+incedir. Şöyle ki: "u" harfinin karşıladığı iki ünlü de "kalın"dır. Bu durumda ünsüzlerin
+durumlarına bakarak "u" harfinin karşıladığı seslerden birini seçmemiz olanaksızdır. Örneğin:
+
+"bung" sözcüğü, "ğuB" biçiminde yazılmaktadır. Sözcüğün sağındaki ilk harften başlarsak, "b"
+harfinin "kalın" biçiminin kullanıldığını görürüz. Bu durumda ortadaki ünlü de "kalın" olmak
+zorundadır. Fakat "u" harfinin karşıladığı "o" ve "u" ünlülerinin ikisi de "kalın" olduğu için,
+hangisini seçeceğimizi bilemeyiz. Bu durumda bu sözcüğü "bong" olarak da okuyabiliriz; "bung"
+olarak da... Böylesi sözcüklerin okunması, genellikle sorunlu olmuştur. Bazı Türklük bilimcilerin
+"Kül-Tigin" biçiminde okudukları adı, bazıları "Köl-Tigin"; bazılarının “Tonyukuk” diye okudukları
+adı, bazıları “Tunyukuk” diye okumuşlardır. Göktürkçedeki “a” ile “e” ünlülerini birbirinden ayıran
+düzenli yapının, “u” ile “o” veya “ü” ile “ö” ünlülerini birbirinden ayıramayışının nedeni, bu
+ünlülerin sesletimi (telaffuzu) arasındaki farkın hissedilmeyecek kadar az olmasıyla açıklanabilir.
+Bunun için böyle sözcükleri okurken, anlamlı olduğunu düşündüğünüz en doğru biçimiyle
+seslendirmemiz gerekmektedir.
+
+                                                   Sayfa: 10
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+             Göktürk Yazısında Yazım (İmlâ)
+
+Göktürk yazısı, oldukça düzenli ve gelişmiş bir yapıya sahiptir. Sözcüklerin oluşturulması,
+kullanılacak harflerin sıralanışını düzenleyen belli uyumlarla sistemli hâle getirilmiştir. Göktürk
+yazısına sistemli bir yapı kazandıran belli başlı yazım kuralları, aşağıda maddeler hâlinde
+sıralanmıştır.
+
+1. Sözcük sonundaki ünlüler, her durumda gösterilmek zorundadır. Örneğin "bu kadar"
+
+anlamındaki "bunça" sözcüğü, "eIuB" biçiminde yazılmaktadır. Sözcüğün son sesini karşılayan
+"e" harfi, genellikle ilk hecelerde yazılmasa da son hecede kullanılmak zorundadır. Bu durum
+bütün ünlülerde geçerlidir. “imrgy“ (yigirmi), “elrib“ (birle), “ügd“ (edgü), “aPuB“
+(bunta) ve “irğt“ (Tengri) sözcüklerinde, son sesi karşılayan tüm harflerin kullanıldığı
+görülmektedir.
+
+2. İlk ve orta hecede "e" harfinin karşıladığı "a - e" ünlüsü genellikle kullanılmaz. Bunun nedeni,
+
+kullanılan ünsüz harflerin çoğunun zaten “a” veya “e” sesini içeriyor olmasıdır. Örneğin "Tengri"
+sözcüğü Eski Türkçede "irğt" biçiminde yazılmaktadır. Bu sözcüğün ilk hecesinde bir ince ünlü
+olan "e" ünlüsü bulunduğu hâlde, bu ünlü yazıda gösterilmemektedir. Bu durum, "t" ünlüsünün
+"ince" okutması nedeniyle karışıklığa neden olmamaktadır. “NoTL”(altun), “Ymu” (Umay),
+“NGq” (kagan), “nm” (men)... gibi örneklerde de ilk veya orta hecede bulunan “a - e”
+ünlülerinin gösterilmediğini görebiliriz.
+Bazı sözcüklerde ilk veya orta hecedeki “a” ünlüsünün gösterildiğini görebiliriz. Bu yazım, bu
+sözcüklerdeki “a” ünlüsünün uzun olduğunu gösterir. Örneğin; “isim” anlamına gelen “Ta” (āt)
+sözcüğüyle “duvar” anlamına gelen “maT” (tām) sözcüklerinde “T” harfinin “at - ta” sesini
+karşılamasına rağmen, uzun ünlüyü belirtmek için “a” harfinin de kullanıldığı görülmektedir.
+
+3. Bir sözcüğün art arda gelen iki hecesinde aynı ünlü varsa, bunların yalnızca bir tanesi (genellikle
+
+ilk hecedeki) gösterilir. Örneğin "üçün" sözcüğü "nçü" biçiminde yazılmaktadır. Burada ilk
+hecedeki "ü" ünlüsünü karşılayan "ü" harfi, ikinci hecede de olmasına rağmen yazıda
+gösterilmemiştir. Aynı şekilde "Tigin" adının "ngit" biçimindeki yazımında da hem ilk hecede
+hem de ikinci hecede "i" ünlüsü bulunmasına rağmen, "i" ünlüsünü karşılayan "i" harfi yalnızca
+ilk hecede kullanılmıştır. Bu kuralın istisnaları bulunmakla birlikte, genel kullanım böyledir.
+“mPlıQ” (kılıntım) örneğinde de bu kullanım görülmektedir.
+
+                                  Sayfa: 11
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ                                 www.bilgicik.com
+
+4. İçinde hem ünsüz hem de ünlü sesi barındıran çift sesli "Q", "c", "OK" ve "Ü"
+
+harfleri kullanıldığı zaman, yanlarındaki ünlüler yazılmaz. Eğer yazılmışsa,
+burada uzun ünlü olduğunu düşünmek gerekir. “ÜrK üt” (Türük) sözcüğünde
+“Ü” harfi “ük” sesini karşıladığı için, yeniden “ü” harfini kullanmaya gerek
+kalmamıştır. “QLB” (balık) örneğinde de bu kullanımı görebiliriz.
+
+5. İlk hecenin düz ünlüsünden sonra gelen yuvarlak ünlüler, genellikle
+
+gösterilir. “NuTL“ (altun) ve “mtrülk” (kelürtüm) sözcüklerinde “a” ve “e”
+düz ünlülerinden sonra gelen “u” ve “ü” yuvarlak ünlülerinin gösterildiğini
+görebiliriz.
+
+6. İlk hecedeki yuvarlak ünlülerden sonra gelen düz ünlüler de genellikle
+
+gösterilir. “ıTıLGo“ (oglıtı) ve “giçüs” (süçig) sözcüklerinde, “o” ve “ü”
+yuvarlak ünlülerinden sonra gelen “ı” ve “ü” düz ünlülerinin yazıldığı
+görülmektedir.
+
+7. İlk hecedeki yuvarlak ünlüden sonra gelen yuvarlak ünlüler, genellikle
+
+gösterilmez. “NuDB“ (bodun) ve “lğük“ (köngül) sözcüklerinde, ilk
+hecedeki “o” ve “ü” yuvarlak ünlülerinden sonra gelen “u” ve “ü” yuvarlak ünlülerinin yazılmadığı
+görülmektedir.
+
+8. İnce ünlülerle birlikte kullanılan "s" [s] harfinin, bazen " " [ş] harfi yerine kullanıldığı
+
+görülmektedir. Bunun tam tersi olarak " " [ş] harfinin, "s" [s] harfi yerine kullanıldığı da
+görülmektedir. “srtli“ (İlteriş), “RSY“ (yaşar) ve “isik” (kişi) sözcüklerinde “ş” sesinin “s”
+harfiyle karşılandığı görülmektedir.
+
+9. Bir sözcükte “ok, uk, ko, ku” sesini karşılayan “O” harfi ile “u” [o, u] ünlüsü yanyana
+
+kullanılmışsa, bu kullanımın “uzun ünlüyü” gösterdiğini anlamak gerekir. “eDOPuO”
+(kōndukta), “poO” (kōp), “TuO” (kūt) ve “YTuO” (kūtay) sözcüklerinde, ilk hecedeki ünlünün
+uzun olduğunu görebiliriz.
+
+10. Bir sözcük içindeki ikiz veya benzer ünsüzler, tek harfle gösterilebilir. Örneğin “aQLB”
+
+(balıkka) ve “GluY“ (Yollug) sözcüklerinde ikiz ünsüzler, tek harfle gösterilmiştir.
+
+11. Göktürk yazısında sözcükleri veya sözcük gruplarını ayırmak için, bugünkü yazıda
+
+kullandığımız biçimde "boşluk" bırakmak yerine, "iki nokta" (:) kullanılmıştır. Her sözcükten veya
+sözcük grubundan sonra iki nokta konularak, yazının okunması kolaylaştırılmak istenmiştir. Bugün
+için bu, oldukça zahmetli ve gereksiz bir çabadır. Fakat o dönemde, sert yüzeyler üzerine kazınan
+sözcükleri ayırmada, iki nokta kullanılması anlamlıdır. Ayrıca yazıtlarda kullanılan iki nokta (:) imi
+(tamgası), Göktürk yazısındaki tek noktalama işaretidir. Bu noktalama işaretinin örnek kullanımı
+şöyledir:
+
+“mdtib : ngitGLuY : nigtib : NGq : eglib” (Bilge Kaġan bitigin Yolluġ Tigin bitidim.)
+
+Sayfa: 12
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ                      www.bilgicik.com
+
+              Yazım Kurallarıyla İlgili Alıştırmalar
+
+Göktürk yazısında ünlü - ünsüz harflerin kullanımlarını düzenleyen yazım kurallarıyla ilgili
+öğrendiklerinizi pekiştirmek amacıyla, aşağıda örnek örnek sözcükleri inceleyebilirsiniz.
+
+• "zGo" : Oġuz • "NuTA q" : Katun • "nÜtü" : Ötüken                    • "OOĞK uTA " : Tonyukuk
+                                                                       • " TA : ügğb": Bengü Taş
+• "NGq" : Kaġan • "NqRTA " : Tarkan • "srtli" : İlteriş                • "uRGıRuO" : Kūrıgaru
+                                                                       • "qmLuI" : Ançulamak
+• "ügd" : Edgü • "NuTL" : Altun • "qLBY" : Yablak                      • "glmdk" : Kedimliġ
+                                                                       • "kmnkö" : Ökünmek
+• "qRı" : Irak • "NDuB" : Bodun • "Üğüs" : Süngük                      • "qmNqS" : Sakınmak
+                                                                       • "qmTıOT" : Tokıtmak
+• "ODı" : Iduk • "glib" : Bilig • "irğt" : Tengri                      • "kmtib" : Bitimek
+                                                                       • "qmNGzq" : Kazganmak
+• "OY" : Yok  • "ğuB" : Bung                       • "ngit" : Tigin    • "qmRB : eçu" : Uça barmak
+                                                                       • "kmrütr" : Ertürmek
+• " ıy" : Yış • "ymu" : Umay • "GDY" : Yadaġ                           • "qmqLRY" : Yarlıkamak
+                                                                       • "qmRLu" : Olurmak
+• "gt" : Teg • "nügy" : Yigün • "GRoT" : Toruġ                         • "kmtrkös" : Sökürtmek
+                                                                       • "kmrPküy" : Yüküntürmek
+• " T" : Taş  • "lğök" : Köngül • "OTR" : Artuk                        • "km lzös" : Sözleşmek
+                                                                       • "qmıDu" : Udımak
+• "LıY" : Yıl • "qRB" : Bark                       • "kgrk" : Kergek   • "kmtgı" : İgitmek
+                                                                       • "qmNlıQ" : Kılınmak
+• " Y" : Yaş  • "gtib" : Bitig • "zdb" : Bediz                         • "kmntö" : Ötünmek
+                                                                       • "kmtrgüy" : Yügürtmek
+• "trüt" : Tört • "zks" : Sekiz                    • "aIuB" : Bunça    • "kmrütly" : Yeltürmek
+
+• "D " : Şad • "qızY" : Yazık • "imrgy" : Yigirmi
+
+• " ib" : Biş • "L Y" : Yaşıl                      • "zqRıQ" : Kırkız
+
+• "zit" : Tiz • "rmt" : Temir • "zquT" : Tokuz
+
+• "ğn " : Neng • "zBY" : Yabız                     • "zSNuT" : Tonsuz
+
+• "nüt " : Tün • "elrib" : Birle • "qLBY" : Yablak
+
+• "Tu " : Ot  • "nyit" : Tiyin • "zPük" : Küntüz
+
+• "BuS " : Sub • "glü" : Ülüg                      • "GLNoT" : Tonluġ
+
+• "YB " : Bay • " kü" : Üküş                       • "ĞGıç" : Çıgany
+
+• "gy " : Yig • "ıGY" : Yaġı                       • "ğLuB" : Bulung
+
+• "poO " : Kōp • "ersık" : Kisre • "çGBT" : Tabgaç
+
+• "zB " : Baz • "QKLB" : Balık                     • "NqRT" : Tarkan
+
+                                                   Sayfa: 13
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+               Göktürkçenin Ses Özellikleri
+
+Bugünkü Türkiye Türkçesinde bulunan “c, f, ğ, h, j, v” sesleri Göktürkçede olmadığı hâlde; ölçünlü
+Türkiye Türkçesinde bulunmayıp farklı Türk lehçelerinde yaşayan “ŋ” ve “ń” sesleri Göktürkçede
+bulunmaktadır.
+
+Göktürkçedeki ünlülerin tamamı, bir sözcüğün her yerinde bulunabili. Ünsüzlerin tamamı
+sözcüklerin içinde ve sonunda bulunabiliyorken; sözcük başında yalnızca belirli ünsüzler
+bulunabilmektedir. “b, ç, k, , s, t, y” sesleri, “biş, çabış, kişi, kaġan, sıgıt, taş ve yagız”
+örneklerinde görüldüğü üzere sözcük başında kullanılabilmektedir. Bu ünsüzlerin dışında kalan “d,
+g, ġ, l, m, n, ŋ, ń, p, r, ş, z” ünsüzleri, birkaç istisna dışında sözcük başında bulunmamaktadır.
+
+Köktürkçenin genel ses özelliklerini maddeler hâlinde şöyle sıralayabiliriz:
+
+1. Aslî uzunluklar korunur: āç, āt (ad), būka (boğa), tām (duvar) Göktürk yazısında bu uzunlukları
+gösteren kesin bir yazım kuralı bulunmamaktadır. Fakat genellikle sözcük başında kullanılmayan
+bazı seslerin, özellikle belirtildiği sözcüklerde uzun ünlü olduğu anlaşılmaktadır.
+
+2. Sözcük başındaki “k”ler korunur: “keç-” (geçmek), “kel-” (gelmek), “köl” (göl), “küç” (güç)
+
+3. Sözcük başındaki “t”ler korunur: “tag” (dağ), “temir” (demir), “tod-” (doymak), “tört” (dört)
+
+4. Sözcük içi ve sonundaki “b”ler korunur: “eb” (ev), “ebir-” (evirmek), “kabış-” (kavuşmak)
+
+5. Bütün “ç”ler korunur: “çabış” (çavuş), “bunça” (bunca), “oçak” (ocak), “uçuz” (ucuz)
+
+6. Hece ve sözcük sonlarındaki “g” ve “ġ”lar korunur: “ag-” (ağmak), “beg” (bey), “oġlan” (oğlan)
+
+7. İkinci ve daha sonraki hecelerin başındaki “g” ve “ġ”lar korunur: “edgü” (iyi), “kazgan-”
+(kazanmak), “tabışgan” (tavşan)
+
+8. Bütün “d”ler korunur: “adak” (ayak), “adgır” (aygır), “adrıl-” (ayrılmak), “bod” (boy)
+
+9. İlk hecedeki “i”ler korunur: “bir-” (vermek), “biş” (beş), “it-” (etmek), “yir” (yer) Bugün Türkiye
+Türkçesinde “e” olan bazı ilk hece “i”lerinin, Köktürkçede “i” değil “ė” (kapalı e) olduğu da
+düşünülmektedir.
+
+10. Türkiye Türkçesinde “v” ile başlayan üç sözcük, Köktürkçede “b” ile başlar: “bar” (var), “bar-”
+(varmak), “bir-” (vermek)
+
+11. “Bol-” (olmak) fiilinde “b” sesi korunmaktadır.
+
+12. Göktürkçede büyük ünlü uyumuna büyük ölçüde uyulmaktadır: “bedizet-” (süsletmek),
+“başlıgıg” (başlıyı), “süŋüglüg” (mızraklı), “balıkdakı” (şehirdeki), “yorıyur” (yürür)
+
+13. Göktürkçede küçük ünlü uyumu çok güçlü değildir. “altun” (altın), “eçü” (ata) gibi sözcükler,
+kurala uymazlar. Bazı yardımcı ünlüler ve eklerdeki ünlüler düzlük - yuvarlaklık uyumuna uyar:
+“bigil-i-m” (aklım), “köz-ü-m” (gözüm), “baş-lıg” (başlı), “ölür-tüm” (öldürdüm)
+
+Sayfa: 14
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ                             www.bilgicik.com
+
+             Göktürkçenin Biçim Özellikleri
+
+YAPIM EKLERİ
+
+İsimden İsim Yapma Ekleri
+
+  •“+çı”: Meslek ve uğraşma isimleri yapar. Bu ekin “c”li ve yuvarlak biçimleri yoktur: “yir+çi”
+(kılavuz), “yagı+çı” (savaşçı), “sıgıt+çı” (ağlayıcı)
+ •“+lXg”: Sahip olma bildirir: “baş+lıg” (başlı), “tiz+lig” (dizli), “at+lıg” (atlı), “ton+lug” (elbiseli)
+ •“+sXz”: Sahip olmama bildirir: “yol+suz”, “keçig+siz” (geçitsiz), “buŋ+suz” (kedersiz)
+ •“+GI”: Aitlik bildirir: “öŋre+ki” (öndeki), “buluŋda+kı” (köşedeki), “tagda+kı” (dağdaki)
+ •“(X)nç”: Sayılarda sıralama bildirir: “üç+ünç” (üçüncü), “tört+ünç” (dördüncü)
+
+İsimden Fiil Yapma Ekleri
+
+   •“+lA-”: “baş+la-”, “sü+le-” (akın etmek) Bu ekin “n-, ş-, t-” fiilden fiil yapma ekleriyle
+genişletilmiş biçimleri de vardır: “söz+leş-”, “sü+let-”, “kan+lan-”
+ •“+(A)d-”: Olma bildiren fiiller yapar: “kul+ad-” (kul olmak), “küŋ+ed-” (cariye olmak)
+ •“+Ik-”: “iç+ik-” (içeri girmek, tâbi olmak), “taş+ık-” (dışarı çıkmak, tutsaklıktan kurtulmak)
+ •“+sIrA-”: “+sızlaşmak” anlamında fiiller yapar: “il+sire-” (devletsizleşmek), “urug+sırat-”
+
+Fiilden İsim Yapma Ekleri
+
+ •“-(X)g”: “bil-ig” (bilgi), “öl-üg” (ölü), “tir-ig” (diri), “biti-g” (yazı)
+ •“-(X)m”: “öl-üm”, “ked-im” (giyim), “bat-ım”
+ •“-(X)ş”: “ük-üş” (çok), “teg-iş” (değme)
+ •“-(X)nç”: “öt-ünç” (rica), “bulga-nç” (karışıklık)
+
+Fiilden Fiil Yapma Ekleri
+
+ •“-d-”: Pekiştirme işlevindedir. “ko-d-” (koymak), “ı-d-” (göndermek), “to-d-” (doymak)
+ •“-(X)l-”: Edilgen çatı ekidir: “ad(ı)r-rıl-” (ayrılmak), “tir-il-” (dirilmek)
+ •“-(X)n-”: Dönüşlü çatı ekidir: “kıl-ın-”, “tut-un-”, “kubra-n-” (toplanmak), “seb-in-” (sevinmek)
+ •“-(X)ş-”: İşteş çatı ekidir: “kab-ış-” (kavuşmak), “ögle-ş-” (danışmak)
+ •“-Ur-”: Ettirgen çatı ekidir; düz biçimleri yoktur: “öl-ür-” (öldürmek), “teg-tir-” (değdirmek)
+ •“-tUr-”: Ettirgen çatı ekidir; düz biçimleri yoktur: “ag-tur-” (yükseltmek)
+ •“-(X)t-”: Ettirgen çatı ekidir; ünlü ve r ile biten fiillerin dışında da kullanılabilir: “yorı-t-”
+(yürütmek), “süle-t-” (akın etmek), “yagu-t-” (yaklaştırmak)
+
+Sayfa: 15
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+                              İSİM ÇEKİM EKLERİ
+
+Çokluk Ekleri: Göktürkçede düzenli çokluk eki yoktur. Türkçede belirlilik - belirsizlik kategorisi
+olmadığı için nesneler “belirli bir nesne” olarak adlandırılmamış; “nesnenin türü” adlandırılmıştır.
+Örneğin “ıgaç” (ağaç) denildiği zaman, belirli bir ağaç katedilmemiş; “ağaç türü” adlandırılmıştır.
+Bu nedenle dilin başlangıcında çokluk ekine gerek duyulmamıştır. Bunun yanında sadece insan
+belirten sözcüklerde kullanılan şu çokluk ekleri vardır:
+
+ •“+lAr”: “beg+ler”, “konçuy+lar” (hanım sultanlar), “ög+ler” (analar)
+ •“+An”: “og(u)l+an”, “er+en” (erler)
+ •“+(X)t”: “og(u)l+ıt” (oğullar), “tarkat” (tarkanlar), “yılpagu+t” (alpagular, yiğitler)
+ •“+gUn”: “ini+y+gün” (küçük kardeşler), “kelin+gün” (gelinler)
+
+İyelik Ekleri: Göktürkçede iyelik ekleri bugünkü gibidir. Ses bakımından tek fark, ikinci
+şahıslardaki sesin diş değil, damak ŋ'si olmasıdır. Ayrıca çokluk eki olmadığı için, üçüncü çoğul
+şahıs iyelik eki yoktur:
+
+ •“+(X)m”: “öz+üm” (kendim), “kut+um” (talihim), “kaŋ+ım” (babam), “ög+üm” (annem)
+ •“+(X)ŋ”: “og(u)l+uŋ”, “kan+ıŋ” (hanın), “süŋük+üŋ” (kemiğin)
+ •“+(s)I”: “sab+ı” (sözü), “agı+sı” (hediyesi), “yagı+sı” (düşmanı)
+ •“+(X)mXz”: “kaŋ+ımız” (babamız), “eçi+miz” (amcamız), “il+imiz” (devletimiz)
+ •“+(X)ŋXz”: “oglan+ıŋız”, “taygun+uŋuz” (oğullarınız)
+
+Hal Ekleri:
+
+ • İlgi Hâli Eki: Ünsüzle biten sözcüklerden sonra “+Iŋ” biçimindedir: “ben+iŋ” (benim), “biz+iŋ”
+(bizim) Ünlüyle biten sözcüklerden sonra “+nIŋ” biçimindedir: “Bayırku+nıŋ”
+
+ • Yükleme Hâli Eki: İyelik eki almamış isimlerden sonra “+(X)g” biçimindedir: “bodun+ug”
+(ulusu), “kişi+g” (kişiyi) İyelik eklerinden sonra “+(I)n” biçimindedir: “sabım+ın” (sözümü),
+“kanıŋ+ın” (hânını) İşaret ve şahıs zamirlerinden sonra “+nI” biçimindedir: “bu+nı”, “biz+ni”
+
+ • Yönelme Hâli Eki: Göktürkçede yönelme hâli eki “+kA” biçimindedir: “yazı+ka” (ovaya),
+“taluy+ka” (denize) Üçüncü şahıs iyelik ekinden sonra “+ŋa” biçimdedir: “yiri+ŋe”, “sabı+ŋa”
+Teklik 1. ve 2. şahıs iyelik eklerinden sonra çoğunlukla “+A” biçimindedir: “Türküm+e”, “ebiŋ+e”
+
+• Bulunma - Çıkma Hâli Eki: Göktürkçede çıkma hâli için ayrı bir ek yoktur. “+DA” hem bulunma,
+hem çıkma hâlini karşılar: “teŋri+de” (gökte), “yir+de” (yerde), “yış+da” (ormandan)
+
+• Eşitlik Hâli Eki: “+çA” biçimindedir: “gibi, göre, kadar” anlamlarını verir: “ot+ça” (ateş gibi)
+
+• Vasıta Hâli Eki: Göktürkçede vasıta hâli eki “+(X)n”dır. “ile, olarak” anlamlarını verir: “ok+un”
+(ok ile), “süŋüg+ün” (mızrak ile), “er+in” (erle), “sab+ın” (sözle)
+
+• Yön Hâli Eki: Göktürkçede iki yön eki vardır: Birincisi “-gArU” ekidir: “il-gerü” (ileriye, doğuya),
+“kurı-garu” (batıya), “yırı-garu” (kuzeye), “yir-gerü” (yere), “eb+gerü” (eve) İkincisi “+rA” ekidir:
+“iç+re” (içeri), “taş+ra” (dışarı), “öŋ+re” (öne doğru)
+
+• Soru Eki: Köktürkçede soru için iki edat kullanılır: Birincisi “mu” edatıdır: “bar mu?” (var mı?),
+“kagan mu?” İkincisi “gU” edatıdır: “bar gu?”, “begler gü?”
+
+                                  Sayfa: 16
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+                              FİİL ÇEKİM EKLERİ
+
+Şahıs Ekleri: Göktürkçede iki türlü şahıs eki vardır:
+
+    1. Bilinen geçmiş zaman ve “-sIk” ekiyle yapılan gelecek zamanda kullanılan şahıs ekleri:
+         “-m”, “ŋ~-g”, “-Ø”, “-mXz”, “- ŋXz ~ -gXz”, “-Ø” Bu ekler iyelik eklerinden geldiği için, iyelik
+         ekleriyle aynıdır.
+
+    2. Geniş ve gelecek zamanlarda kullanılan şahıs ekleri: “men”, “sen”, “Ø”, “biz”, “siz”, “Ø”
+         Bunlar da şahıs zamirlerinden geldiği için, şahıs zamirleriyle aynıdır.
+
+Kipler:
+
+ • Bilinen Geçmiş Zaman: 1. ve 2. şahıslarda “-DX”; 3. şahısta “-DI” ekiyle kurulur. “l, n, r” ile
+biten fiil tabanlarından sonra ekin “-t”li, diğer durumlarda “-d”li biçimi kullanılır: “tidim” (dedim),
+“birtim” (verdim), “sakıntım” (düşündüm), “ötüntüm” (arz ettim), “içikdiŋ” (tâbi oldun)
+
+ • Öğrenilen Geçmiş Zaman: “-mIş” ekiyle kurulan öğrenilen geçmiş zamanın bengü taşlarda
+sadece 3. şahsına rastlanır: “timiş”(demiş), “ögleşmiş” (danışmış), “sökürmiş” (çöktürmüş)
+
+ • Geniş - Şimdiki Zaman: Göktürkçede geniş ve şimdiki zaman ayrılmamıştır. Bu kip sözün
+gelişine göre bazen geniş, bazen şimdiki zamanla Türkiye Türkçesine aktarılır. Olumlu geniş zaman
+eki “-Ar” ve “-Ur”; olumsuz geniş zaman eki “-mAz”dır. Olumlu geniş zaman eki yerine bazen “-Ir”
+eki de kullanılır. Ayrıca bu ekin ne zaman “-Ar” ne zaman “-Ur” olacağı da kesin bir kurala bağlı
+değildir: “birür men” (veririm, veriyorum), “kazganur men” (kazanırım, kazanıyorum), “bilir siz”
+(bilirsiniz, biliyorsunuz), “körür” (görür, görüyor), “korkur biz” (korkarız, korkuyoruz)
+
+• Gelecek Zaman: Göktürkçede gelecek zaman iki türlü kurulur. Birincisi “-DAçI” ekiyle kurulur:
+“ölteçi sen” (öleceksin), “olurtaçı sen” (oturacaksın) Olumsuz çekimde bu ek “-çI” biçimindedir:
+“yaramaçı” (yaramayacak) Diğer eke göre daha az kullanılan ikinci çekim “-sIk” ekiyle kurulur:
+“ölsikiŋ” (öleceksin)
+
+ • Emir Kipi: Emir kipinde her şahıs ayrı bir ekle gösterilir. 1. Tekilde “-(A)yIn”; 2. tekilde “-Ø”;
+3. tekilde “-zU(n)”; 1. çoğulda “-(A)lIm”; 2. çoğulda “-(X)ŋ”; 3. çoğulda “-zU(n)” eki kullanılır.
+Teklik 2. şahısta ek kullanılmaz; fiil tabanı doğrudan doğruya teklik 2. şahıs emri ifade eder:
+“tegeyin” (ulaşayım), “tıŋla” (dinle), “barzun” (gitsin), “kabışalım” (kavuşalım), “barıŋ” (gidin)
+
+Birleşik Çekim: Köktürkçede birleşik çekimin hikâye ve rivayet şekilleri vardır. Hikâye, “er-”
+fiilinin bilinen geçmiş zamanıyla, rivayet “er-” fiilinin öğrenilen geçmiş zamanıyla yapılır. “Er-”, “i-”
+fiilinin Göktürkçedeki aslî biçimidir.
+
+ • Hikâye: “bolmış erti” (olmuştu), “tegmiş erti” (değmişti), “kelürür ertim” (getirdim), “bayur
+ertimiz” (bağlıyorduk), “kaltaçı ertigiz” (kalacaktınız)
+
+ • Rivayet: “yorıyur ermiş” (yürüyormuş), “yagutur ermiş” (yaklaştırırmış), “olurur ermiş”
+(oturuyormuş), “yorıtmaz ermiş” (yürütmezmiş)
+
+Sayfa: 17
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+SIFAT-FİİLLER
+
+• “-mIş”: “kalmışı” (kalmış olanı), “konmış tiyin” (konmuş diye), “tutmış yir” (tuttuğu yer)
+• “-dUk”: “barduk yir” (gidilmiş yer), “birtük üçün” (verdiği için), “yarlıkaduk” (buyurduğu)
+• “-(X)gmA: “uduzugma (sevk eden), “keligme” (gelen), “körügme” (tâbi olan)
+• “-(X)r ~ -Ar”: “körür köz” (gören göz), “bilir bilig” (bilen akıl)
+• “-mAz”: “bilig bilmez kişi” (bilgi bilmez kişi), “körmez teg” (görmez gibi)
+• “-sIk”: “udısıkım” (uyuyasım), “olursıkım” (oturasım), “tutsıkıŋın” (tutacağını)
+• “-DaçI”: “kelteçimiz” (gelecek olanımız), “ölteçi bodun” (ölecek ulus)
+
+                                 ZARF-FİİLLER
+
+• “-A”: “aşa” (aşarak), “keçe” (geçerek), “süre” (sürerek), “bintüre” (bindirerek)
+• “-(y)U”: “yiyü” (yiyerek), “tutunu” (tutunarak), “yabulu” (yuvarlanarak), “ölü” (ölerek)
+• “-(X)p”: “kodup” (koyup), “eşidip” (işitip), “olurup” (oturup), “sülep” (asker sevk edip)
+• “-(X)pAn”: “olurupan” (oturup), “kelipen” (gelip), “sülepen” (asker sevk edip)
+• “-mAtI(n)”: “udımatı” (uyumadan), “olurmatı” (oturmadan), “sakınmatı” (düşünmeden)
+• “-yIn”: “bulmayın” (bulmayıp), “tiyin” (diye)
+• “-sAr”: Göktürkçede şart kipi henüz oluşmamıştır. “-sAr” eki şahıslara bağlanmadan kullanılan
+bir zarf-fiil ekidir. “bir todsar” (bir doysan), “ol yirgerü barsar” (o yere varsan)
+• “-gAlI”: “kılıngalı” (kılınalı), “olurgalı” (oturalı), “ölgeli” (ölmek için)
+• “-DUkdA”: “kılıntukda” (kılındığında, yaratıldığı zaman), “olurtukda” (oturduğu zaman)
+
+                               BİRLEŞİK FİİLLER
+
+Köktürkçede birleşik fiiller, aşağıda sıralandığı şekilde iki yolla yapılır:
+
+    1. “İsim + yardımcı fiil”: Geçişsiz fiiller için “bol-”; geçişli fiiller için “kıl-” yardımcı fiili
+         kullanılır. “kul bol-” (kul olmak), “küŋ bol-” (cariye olmak), “baz kıl-” (tâbi kılmak)
+
+    2. “Fiil + zarf fiil eki + tasvir fiili”:
+         - “Fiil + -A~-I/-U + bir-”: Kesinlik bildirir. “Ver-” tasvir fiili Türkiye Türkçesinde tezlik bildirir.
+         Göktürkçede tezlik değil, kesinlik bildirir: “Tuta birmiş” (tutmuştur), “alı birmiş” (almış)
+
+         - “Fiil + -I/-U + u-”: Yeterlik bildirir: “kim artatı udaçı erti” (kim bozabilecek idi), “itini
+         yaratunu umaduk yana içikmiş” (teşkilâtlanmadığı için tekrar tâbi olmuş)
+
+         - “Fiil + -U + ıd-”: Oluşun, hareketin tamamlandığını bildirir: “ıçgınu ıdmış” (elden
+         çıkarmış), “yitürü ıdmış” (kaybetmiş)
+
+         - “Fiil + -A ~-U~(X)p + bar-”: Oluşun, hareketin tamamlandığını bildirir: “uça barmış”
+         (uçup gitmiş, vefat etmiş), “yokadu barır ermiş” (yok olup gidermiş)
+
+                                 İSİM CÜMLESİ
+
+Göktürkçede isim cümlesi iki şekilde kurulur. Birincisinde cümlenin sonuna doğrudan isim soylu
+bir sözcük getirilir: “Bilge Tonyukuk men.” (Ben Bilge Tonyukuk'um.) İkincisinde “er-” fiili
+kullanılır: “Tabgaç kagan yagımız erti.” (Çin milleti düşmanımız idi.)
+
+                                                   Sayfa: 18
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+                Göktürk Yazısında Sayılar
+
+Orhun Yazıtları'nda sayılar, yazı ile belirtilmiştir. Sözcük düzeyinde kalan bu sayıların, rakamla
+yazılışı kaynaklarda bulunmamaktadır. Göktürkçede ya rakam tamgaları bulunmamaktadır ya da
+yazılı kaynaklarda geçmediği için (güçlü olasılık) bilinmemektedir. Eski Türkçede sayılar, “bir, eki, üç,
+tört, biş, altı, yiti, sekiz, tokuz, on” diye telaffuz edilir. Yazıtlarda sayıların kullanıldığı bir bölüm,
+şöyledir:
+
+Yukarıdaki örnek metinde, Eski Türkçede “yiti yigirmi” olarak okunan sayının, bugünkü Türkçede
+“on yediye” karşılık geldiğini görebiliriz. Göktürk yazısında sayıların yazımıyla ilgili kuralları, şöyle
+sıralayabiliriz:
+
+1- Herhangi bir onluk sayıdan (10, 30, 50 gibi) “önce”, herhangi bir birlik sayı (1, 4, 6 gibi) gelirse;
+
+onluk sayıdan bir tane düşürülür ve onluktan önce gelen sayı ona eklenir. Örneğin “biş otuz”
+sayısında, “biş” birlik sayısı “otuz” onluk sayısından önce geldiği için, “otuz” onluğundan bir tane
+düşürüp, elde edilen “yirmi” sayısının üzerine “beş” birliğini ekliyoruz. Böylece “biş otuz” sayısını,
+“yirmi beş” biçiminde günümüz sayı sistemine aktarıyoruz.
+
+2- Herhangi bir onluk sayıdan “sonra”, “artukı” (bugünkü artı gibi) bağlacını takip eden bir birlik sayı
+
+gelirse; onluk sayının üzerine birlik sayı doğrudan eklenir. Örneğin “yigirmi artukı yiti” sayısını,
+“yirmi yedi” biçiminde günümüz sayı sistemine aktarabiliriz.
+
+3- Göktürk yazısındaki yüzlük ve binlik sayılar, günümüzdeki gibidir. “Biş yüz” sayısı, bugünkü
+
+“beş yüz” sayısıyla aynıdır. Aynı şekilde “üç bin” sayısı da günümüzdeki gibidir.
+
+Şimdi öğrenmeyi pekiştirmek için birkaç örnek verelim: bir toksan [81]; otuz artukı eki [32]; altı
+yüz artukı tört kırk [634]; üç bin yiti yüz artukı biş yigirmi [3715]; tört yüz artukı sekiz elli [448]
+
+                                  Sayfa: 19
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+               Göktürk Alfabesinin Kökeni
+
+                                     Göktürk alfabesindeki harfler dikkatle incelendiği zaman, Türklerin
+                                     günlük yaşamda kullandığı nesnelerin yazıdaki hâli gibi olduğu
+                                  anlaşılabilir. Özellikle "O" (ok) ve "Y" (yay) gibi, benzetilen
+                                     nesneleri hem görsel olarak hem de ses açısından birebir
+                                     karşılayan bu harfler, Göktürk alfabesinin TÜRKlere ait olduğunu da
+                                     kanıtlamaya yeterlidir. Çünkü harflerin görüntüsü ile karşıladıkları
+                                     ses arasındaki benzerlikler, üzerinde durmaya değecek kadar
+                                     önemlidir. Bir benzerlik, rastlantı olarak kabul edilebilir. İki
+                                     benzerlik, tesadüf olarak nitelendirilebilir. Fakat aşağıda sıralanan
+                                     11 benzerlik (fazlası da var), bunun bir tesadüf olmadığını söylemeye
+                                     yeterlidir.
+
+                                     Harflerin günlük yaşamdaki nesnelerden hareketle oluşmuş
+olmaları, Göktürk alfabesinin bir "resim yazısı" (hiyeroglif) oluşturan harflerin devamı olabileceği
+konusunda da bizi düşündürmektedir. Şimdi kısaca, o harfleri inceleyelim:
+
+HARF       AÇIKLAMA
+
+[EB - BE]  İnce ünlülerle kullanılan "b" sesini karşılayan bu harf, Türkler için "ev" niteliği
+           taşıyan bir otağa (çadıra) benzemektedir. Eski Türkçede sözcük sonlarındaki "b"
+           sesleri, sonraki dönemlerde genellikle "v" sesine dönüşmüştür. "Eb" sözcüğünün
+           de "ev" biçimine dönüştüğünü düşünürsek, bu harfin "ev" (çadır, otağ)
+           nesnesinden hareketle oluştuduğu söylenebilir.
+
+           Kalın ünlülerle kullanılan "g" sesini karşılayan bu harf, ayakta duran bir kişinin iki
+
+           bacağı arasında kalan boşluğu andırmaktadır. Divan-u Lügati't TÜRK'te "ağ"
+
+           sözcüğü, "İki bacak arasındaki boşluk." biçiminde tanımlanmaktadır. Bugün de
+
+[AG - GA]  pantolonların veya benzer giysilerin iki bacak arasındaki birleşme yerine "ağ"
+           denmektedir. İşte bu harfin de, "ağ"dan hareketle oluştuğu söylenebilir.
+
+             İnce ünlülerle kullanılan "n" sesini karşılayan bu harf, iki basamaktan oluşan bir
+             merdivene benzemektedir. Merdiven, "inme" eylemini gerçekleştirdiğimiz bir
+             araçtır. Bugün "in-" biçiminde kullandığımız eylem, Eski Türkçede "en-"
+[EN - NE] biçimindedir. İşte bu harfin, "en-" eyleminden hareketle oluştuğu söylenebilir.
+
+             İnce ünlülerle kullanılan "r" sesini karşılayan bu harf, ayakta duran bir askere
+             benzemektedir. Asker sözcüğünün Eski Türkçedeki karşılığı, "er"dir. Bu harfin de,
+             "er" görüntüsünden hareketle oluştuğu söylenebilir.
+[ER - RE]
+
+             Kalın ünlülerle kullanılan "s" sesini karşılayan bu harf, asılmış bir cismi
+             andırmaktadır. Sağ yana doğru uzayan kısım, nesnenin bağlı olduğu cismi; sol
+             yandan aşağı doğru gelen kısım ise, asılmış bir nesneyi andırmaktadır. Bu harfin
+[AS - SA] oluşumunun da, "as-" eylemine dayandığı söylenebilir.
+
+           Sayfa: 20
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+HARF                                               AÇIKLAMA
+
+[AT - TA]  Kalın ünlülerle kullanılan "t" sesini karşılayan bu harf, Türklerin günlük
+           yaşantısında oldukça önemli yeri olan "at"a veya eski Türk inancında kutsal
+           olduğuna inanılan "dağ"a benzemektedir. Harfin tepesindeki yukarı bakan ok, bir
+           atın başını veya dağın doruğunu andırmaktadır. Bu harfin, "at" sözcüğünün
+           birebir harfleşmesinden veya Eski Türkçede "tağ" biçiminde kullanılan "dağ"
+           sözcüğünün ilk iki sesinin alınmasıyla oluştuğu söylenebilir.
+
+             Kalın ünlülerle kullanılan "y" sesini karşılayan bu harf, Türk savaş sanatının
+             vazgeçilmez parçalarından biri olan "yay"a benzemektedir. Bir yayın, gerilmemiş
+             hâlini andıran bu harfin, "yay" sözcüğünün ilk iki sesinin alınmasıyla oluştuğu
+[AY - YA] söylenebilir.
+
+         Bütün ünlülerle birlikte kullanılabilen ve "p" sesini karşılayan bu harf, bir ipi
+         andırmaktadır. Bu harfin, "ip" sözcüğünden hareketle oluştuğu söylenebilir.
+[P]
+
+             Kalın ünlülerle kullanılan "k" sesini karşılayan bu harf, Türk savaş sanatının
+             temelindeki yayın tamamlayıcısı olan "ok"tur. Aralarında benzerlik kurduğumuz
+             nesneye tıpatıp benzeyen bu harf, doğrudan "ok" nesnesinin adını
+[OK - KU] karşılamaktadır. Bu harfin "ok" adından hareketle oluştuğunu söyleyebiliriz.
+
+           Çift sesli bir ünsüz olan ve tüm ünlülerle birlikte kullanılabilen bu harf, Türk
+
+           töresinde bir söz üzerinde karar kılmak, yemin etmek amacıyla yapılan bir
+
+           törende kullanılan kaba (tasa) benzemektedir. Eski Türkçede, bugün de kullanılan
+
+           "ant içmek" deyimi bulunmaktadır. Bir konu üzerine söz verecek (yemin edecek)
+
+           Türkler, "ant" adı verilen bir kabın içine biraz kımız koyar, o kımıza da "ant
+
+[NT]       içecek" tüm kişiler bileklerini keserek bir damla kan akıtırlarmış. Daha sonra o
+           karışımdan, kişiler bir yudum içer ve böylece sözleri üzerine "ant içmiş" (yemin
+
+           etmiş, anda olmuş) olurlarmış. İşte "ant" kabındaki "nt" sesini karşılayan bu harfin,
+
+           bu nesneden hareketle oluştuğu söylenebilir.
+
+[ES - SE]  İnce ünlülerle kullanılan "s" sesini karşılayan bu harf, Göktürkler dönemindeki
+           Türk budununun en önemli savaş aletlerinden biri olan "süngü"ye
+           benzemektedir. İnce ve uzun bir nesne olan süngü, Göktürk alfabesine de bu
+           biçimde yansımıştır. Süngü sözcüğünün başında bulunan "s" sesinin, bu harfin
+           oluşumunda etkili olduğunu söyleyebiliriz.
+
+Yukarıda Göktürk alfabesindeki harflerin Türk yaşantısıyla ne düzeyde iç içe olduğu apaçık
+görülüyorken, bir alfabe yaratma işini Türk ulusuna yakıştırmak istemeyen batılı bilim adamları
+Orhun alfabesini Soğd, Pehlevi, İranî, Aramî veya doğrudan Sami kaynaklı gibi kabul etmişlerdir.
+Batıda Göktürk yazısını “runik” yazı diye nitelendiren dil bilimciler, bu yazının Slav kökenli
+olduğunu bile kanıtlama yoluna gitmişlerdir. Fakat bu tezlerin tamamı, doğru temellerden yoksun
+olmaları nedeniyle çürümüştür.
+
+Biz yukarıdaki açıklamaların ve bir bakıma “tamga” özelliği taşıyan harfler ile Göktürkler'in günlük
+yaşantısında önemli yer tutan nesneler arasında kurulan ilgilerin, Göktürk alfabesinin Türkler
+tarafından yaratıldığını kanıtlamaya yeterli olduğunu düşünüyoruz.
+
+                                                   Sayfa: 21
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+                 Göktürkçenin Söz Varlığı
+
+Türkçenin bilinen ilk yazılı kaynakları olan Orhun Yazıtları, Türk dilinin
+yaşını belirlemede hareket noktamızı oluşturan önemli belgelerdir.
+Yazıtlarda kullanılan dil, Türkçenin bengü taşlardan çok daha önce bir yazı
+diline sahip olduğunu göstermektedir. Çünkü abidelerdeki yazı dili,
+düzenli bir yapıya ve ciddi bir söz varlığına sahiptir.
+
+Orhun Yazıtları içinde önemli kabul edilen üç büyük bengü taş olan Kül
+Tigin, Bilge Kağan ve Tonyukuk yazıtlarında geçen sözcük sayısı 6.000'e
+yakın olmakla birlikte; farklı sözcüklerin sayısı 840'tır. Bu 840 farklı
+sözcüğün 147 tanesi yer, kavim, kişi ve at isimleridir. Bu özel adları da
+çıkarırsak, üç büyük yazıtta tekrarlanmayan sözcük sayısının 693
+olduğunu söyleyebiliriz.
+
+Göktürk Yazıtları, çok sınırlı konular hakkında bize bilgi vermektedir.
+Yazıtlarda genellikle askerlikle ilgili olayların anlatılması, sınırlı bir söz
+varlığının kullanılmasını zorunlu kılmıştır. Bunun için yazıtlarda
+belirlediğimiz yaklaşık 700 kelimelik bir söz varlığı, kuşkusuz ki o dönemki Göktürkçenin bütün söz
+varlığını göstermemektedir. Çünkü Morris Swadesh adlı dil bilimcinin, insan dillerinin en temel
+sözcükleri olarak belirlediği 100 sözcüğün 36 tanesi bile, Göktürkçede bulunduğu hâlde yazıtlarda
+geçmemektedir.
+
+Morris Swadesh'in 100 temel kelime listesindeki “ben, ayak, kan, saç, bulut, taş, ateş, büyük, iyi,
+otur-, uyu-, öldür-” gibi 64 sözcük, Orhun Yazıtları'nda geçmektedir. “Göz, kulak, dil ve boğaz”
+için sözcüklere sahip olan bir dilin, “burun, ağız, diş ve tırnak” için hiçbir sözcüğe sahip
+olmayabileceğini düşünmek, elbette yanlıştır. Bu sözcükler Türk dilinin söz varlığı içinde
+bulunduğu hâlde, yazıtlarda anlatılan olaylarda gerek duyulmadığı için kullanılmamıştır.
+
+Yazıtlardaki söz varlığı ögelerini, şu başlıklar altında açıklayabiliriz:
+
+1. Soyut Kavramlardaki Zenginlik: Yazıtlarda Göktürkler çağındaki Türk yaşantısını betimleyen
+
+somut kavramların yanında, Türk ulusunun sevincini ve sıkıntılarını yansıtan soyut kavramların
+kullanıldığını da görebiliriz. Örneğin karışıklık ve kargaşa durumunu anlatmak için, yazıtlarda
+“bulgak”, “bulganç”ve “kamşag” sözcükleri kullanılmıştır. “Beñgü” (ebedi), “ölgeli” (ölümlü, fani)
+ve “erdem” (fazilet) gibi sözcükler de, yazıtlarda kullanılan soyut kavramlara örnektir.
+
+2. Eş anlamlılık: Bir dilin yabancı dillerden etkilenmeyen söz varlığı içinde, bütünüyle aynı
+
+anlama gelen birden fazla sözcüğün bulunamayacağı, dil biliminde benimsenen bir ilkedir. Bugün
+“göndermek” ve “yollamak” gibi bütünüyle eşanlamlı gibi görünen sözcüklerin Eski Türkçedeki
+kullanımlarına baktığımızda, bu iki sözcüğün aslında ayrı anlamları karşıladığını görürüz. Bugün eş
+anlamlı olarak kullanılan bu sözcüklerin anlamları, zaman içinde birbirine yakınlaştığı için bugün
+bütünüyle eş anlamlı olarak görülmektedir. Yazıtlarda “eksiksiz, tümüyle” anlamına gelen
+“tüketi” ve “kalısız” sözcükleri ile “sevinmek” kavramını karşılayan “ögirmek” ve “sebinmek”
+sözcükleri kullanılmıştır. Bu durum, bu sözcüklerin bengü taşların yazıldığı tarihten çok daha
+önceki bir dönemde ayrı anlamları içeriyorken, Orhun Yazıtları'nın yazıldığı döneme gelinceye
+kadar anlamlarının yakınlaştığını düşündürmektedir.
+
+Sayfa: 22
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+3. Çok Anlamlılık: Herhangi bir dilde, bir sözcüğün birden çok anlamı karşılayabilmesi için, uzun
+
+süre içinde değişik konulardaki yazılar ile bilim ve sanat yapıtlarında yer alması ve böylece
+işlenmesi gerekmektedir. Yazıtlarda geçen “agı” sözcüğü, temelde “ipekli kumaş” anlamına
+gelmektedir. Fakat zaman içinde bu sözcük, “hediye, mal, hazine” anlamlarını da yüklenmiştir.
+“göñül”, “sab” ve “kiçig” gibi sözcüklerde de, çok anlamlılık göze çarpmaktadır.
+
+4. İleri Ögeler: Bu kavram, bilinen en eski yazılı metinlerimizde, bir sözcüğün belirgin hâldeki
+
+kökü tek başına geçmediği hâlde, bu kökten türemiş olduğu kabul edilen sözcükleri karşılamak
+için kullanılmaktadır. Örneğin yazıtlarda “kabul etmek, uygun görmek” anlamında kullanılan
+“taplamak” sözcüğünün kökü olarak kabul edebileceğimiz “tap” sözcüğü, ancak yazıtlardan daha
+sonraki yazılı metinlerde “istek, rıza, güç” gibi anlamlarla karşımıza çıkmaktadır.
+
+5. İkilemeler: Yazıtlarda anlatımı güçlü ve etkili kılarak güzelleştirmek için eş, yakın ya da karşıt
+
+anlamlı ikilemeler sıkça kullanılmıştır. “Açsık tosık” (açlık tokluk), “arkış tirkiş” (kervan kafile), “eb
+bark” (ev bark), “iş küç” (iş güç), “için taşın” (içini dışını) ve “tünli künli” (geceli gündüzlü),
+yazıtlardaki söz varlığının ikilemeler açısından ne kadar zengin olduğunu göstermektedir.
+
+6. Deyimler: Orhun Yazıtları'nın dili, deyimler açısından da oldukça zengindir. “Adak kamşat-”
+
+(gerçek anlamda ayağı burkmak, mecaz anlamda şaşırtıp yanlış hareket etmek), “atı küsi yok
+bol-” (adı sanı yok olmak), “ot sub kıl-” (ateş ile su gibi birbirine düşman etmek) ve “uça bar-”
+(uçup gitmek, ölmek) gibi deyimler, yazıtlardaki anlatımı güçlü ve etkili kılmak için kullanılmıştır.
+
+7. Atasözleri: Orhun Yazıtları'nda Bilge Kağan, Türk ulusuna atasözü niteliğindeki şu cümleyle
+
+seslenmektedir: “Türük bodun tokurkak sen; açsık tosık ömez sen, bir todsar açsık ömez sen.” (Ey
+Türk milleti, sen çok tok gözlüsün; açlık tokluk düşünmezsin, bir doyarsan bir daha açlığı
+düşünmezsin.) Bu ifade, Türk ulusunun yaşam anlayışı üzerinde yapılmış bir çözümleme olduğu
+gibi, aynı zamanda buduna karşı yapılmış bir uyarıdır. Türk ulusunun ezeli düşmanları olan
+Çinlilere karşı Türk budununun nasıl bir tutum içerisinde olması gerektiği de yine atasözü
+niteliğindeki cümlelerle ifade edilmiştir.
+
+8. Edebi Sanatlar: Orhun Yazıtları'nda kullanılan dil incelendiğinde, “hitabet” sanatının baskın
+
+biçimde kendisini hissettirdiği görülmektedir. Bilge Kağan'ın Kül Tigin Yazıtı'nda; “Ey TÜRK Ulusu!
+Üstte mavi gök çökmedikçe, altta yağız yer delinmedikçe, senin ilini ve töreni kim bozabilir?”
+ifadesiyle seslenişi, anlam boyutunda estetik ve ahengin gelişmiş olduğunu göstermektedir.
+Bunun yanı sıra yazıtlarda “benzetme” sanatı; “Kangım kaġan süsi böri teg ermiş, yaġısı kony teg
+ermiş.” (Babam hakanın askerleri kurt gibi, düşmanları da koyun gibiymiş.); “Türgiş kaġan süsi
+Bolçuda otça borça kelti.” (Türgiş kağanının ordusu Bolçu'dan ateş gibi, bora gibi üzerimize geldi.)
+cümlelerinde görüldüğü üzere sıkça kullanılmıştır.
+
+9. Koşutluk: Orhun Yazıtları'nda kullanılan dilin tipik bir özelliği olan koşutluk, eşit ögeli
+
+birimlerden oluşan cümle parçalarını ifade etmektedir. “Üze kök Tengri, asra yaġız yer” veya
+“Çıgany bodunuġ bay kıltım, az bodunuġ üküş kıltım.” gibi ifadelerde görüldüğü üzere, eşit ögeli
+birimlerle koşutluk sağlanarak anlatım güçlü ve etkili kılınmıştır.
+
+Yukarıda sıralanan maddeler altında verilen bilgiler, yazıtlar döneminde Türkçenin gelişmiş bir
+“yazı” ve “yazın” diline sahip olduğunu göstermeye yeterlidir. Bunun için Türk dilinin yalnızca
+“konuşma dili” olarak kullanıldığı dönemi, yazıtlardan en aşağı 2000 yıl öncesinde düşünmek
+gerekmektedir.
+
+                                                   Sayfa: 23
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ                                           www.bilgicik.com
+
+          Orhun Yazıtları Hakkında Yazılanlar
+
+“Türk adının, Türk milletinin isminin geçtiği ilk Türkçe metin. İlk Türk tarihi. Taşlar
+üzerine yazılmış tarih. Türk devlet adamlarının millete hesap vermesi, milletle
+hesaplaşması. Devlet ve milletin karşılıklı vazifeleri. Türk nizamının, Türk töresinin,
+Türk medeniyetinin, yüksek Türk kültürünün büyük vesikası. Türk askeri dehasının,
+Türk askerlik san’a-tının esasları. Türk gururun ilâhi yüksekliği. Türk feragat ve
+faziletinin büyük örneği. Türk içtimai hayatının ulvi tablosu. Türk edebiyatının ilk
+şaheseri. Türk hitabet sanatının erişilmez şaheseri. Hükümdarâne eda ve ihtişamlı
+hitap tarzı. Yalın ve keskin üslûbun şaşırtıcı numunesi. Türk milliyetçiliğinin temel
+kitabı. Bir kavmi bir millet yapabilecek eser. Asırlar içinden millî istikameti aydınlatan
+ışık. Türk dilinin mübarek kaynağı. Türk yazı dilinin ilk, fakat harikulade işlek örneği.
+Türk yazı dilinin başlangıcını milâdın ilk asırlarına çıkartan delil. Türk ordusunun
+kuruluşunu en az 1250 sene öteye götüren vesika. Türklüğün en büyük iftihar vesilesi
+olan eser. İnsanlık âleminin sosyal muhteva bakımından en manalı mezar taşları.
+Dünyanın bugün belki de en büyük meselesi olan Çin hakkında 1250 sene evvelki Türk
+ikazı. vs. vs.”
+
+Muharrem ERGİN, “Orhun Abideleri”, Boğaziçi Yayınları, s. XIV, İstanbul, 2005
+
+“Üslûp bazı yerlerde biraz kuru, muttarit, hatta ekseriyetle 'tahkiye'de dürüst bir
+mantık tertibinden mahrumdur. Lâkin buna rağmen, bazı parçalarda eda o kadar canlı
+ve ahenkli, o kadar samimî ve derin tahassüllere mâkestir ki, işte buralarda çok
+kuvvetli 'maşerî bir lirizm', 'destanî bir ruh' kendini kuvvetle hissettiriyor; burada,
+hatta alelâde nakil ve hikâyenin fevkinde 'bediî bir gaye' de takip edilmektedir: Kısa lâkin kat'î ve vâzıh
+cümleler, tasvirlerinde sahtelikten tamamen uzak sade ve kuvvetli bir ifade, birbiriyle ahenktar bir surette
+telif edilmiş fiiller, arada ifadeyi yeknesaklıktan kurtarmak için fiillerin değiştirilmesi, tekrarlar, hülâsa
+bütün bu gibi beyan incelikleri, bu kitabeleri alelâde bir lisan ve tarih vesikası şeklinden kurtarıyor...
+Göktürkçenin bu kadar muntazam ve güzel, imlâsı mazbut bir nesir lisanı olabilmesi için, herhâlde uzun
+tekâmül devirleri geçirdiği muhakkaktır.”
+
+Fuat KÖPRÜLÜ, “Türk Edebiyatı Tarihi”, 1928
+
+“Cümlelerin bazan kısa, bazan uzun oluşu; mânâya kuvvet vermek için bazan aynı kelimenin birbirine yakın
+yerlerde tekrarlanması, yani bir nevi 'tekrir' sanatı yapılması; bazan ise aksine olarak, mânâsı birbirine
+yakın kelimelerin aynı cümlede veya birbiri ardınca gelen cümlelerde kullanılması bu yazıta oldukça yüksek
+bir edebî değer verdirmektedir. Yuluğ Tigin bu yazıtta Bilge Kağan ağzından Türk milletine hitap ederken ne
+kadar lirik ve romantik ise tarihî vak'aları anlatmakta da o kadar realisttir. Bu yazılarda yalan, mübalega,
+boşuna öğünme yoktur. Türk milletinin bütün ahlâkî safiyeti, bütün değerleri ve kusurları apaçık göze
+çarpmaktadır.
+
+Nihal ATSIZ, “Türk Edebiyatı Tarihi”, İrfan Yayınevi, s. 121, 1997, İstanbul
+
+“Orhon Yazıtları yalnızca siyasî ve askerî olayların oluş sırasıyla hikâye edildiği kuru bir harp tarihi değildir.
+Tam tersine, bu yazıtların özellikle Bilge Kağan'ın beylerine ve halkına seslendiği ve onları Çinlilerin
+entrikalarına ve anayurdu bırakıp uzak diyarlara gitmelerinin doğuracağı felâketlere karşı uyardığı
+bölümleri son derece etkili bir anlatım gücüne ve güzelliğine sahiptir. Bu bakımdan Orhon Yazıtları'nın
+Türkçenin en eski ve en güzel hitabet örnekleri olduğu söylenebilir.”
+
+Talat TEKİN, “Orhon Yazıtları”, Yıldız – Dil ve Edebiyat, s. 15, 2003, İstanbul
+
+                                  Sayfa: 24
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+Göktürk Yazısıyla Örnek Metinler
+
+Göktürk yazısında harfler, sayılar ve yazım kuralları ile ilgili öğrendiklerimizi pekiştirmek amacıyla,
+aşağıdaki Orhun Yazıtları'ndan birkaç örnek metin üzerinde alıştırma yapmanız yararlı olacaktır.
+Metinler hem Orkun alfabesiyle hem de Latin alfabesiyle verilmiş, günümüz Türkçesine aktarımı
+da en altta gösterilmiştir.
+
+                                                   Sayfa: 25
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+                                                   Sayfa: 26
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+                                                   Sayfa: 27
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+                                                   Sayfa: 28
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+                                                   Sayfa: 29
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+                                                   Sayfa: 30
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+                            Sözlük
+
+alk-     bitirmek, tamamlamak, bitmek, tükenmek, sona ermek
+altun    altın
+ança     öyle, öylece, şöyle, şöylece, böyle, böylece, o kadar, çok, bedava, karşılıksız
+ançula-  takdim etmek, arzetmek, sunmak
+apa      ecdat, büyük baba
+artuk    fazla, ziyade, artık
+aşsız    yemeksiz, aç
+balık    şehir, çamur, balçık, bataklık
+bark     ev, mezar, türbe, abide
+bay      zengin
+baz      yabancı, tâbi
+bediz    resim, heykel, nakış, şekil, süs
+bedizçi  ressam, nakkaş
+bengü    ebedî, daimî, sonsuz
+bilig    bilgi, fikir, düşünce, zekâ
+birle    ile
+biti-    yazmak
+bitig    yazı, yazma, kitabe, kitap
+bodun    budun, ulus, millet, kavim
+buluńg   taraf, yan
+bunça    bunca, bu kadar, böyle
+bung     keder, sıkıntı, dert, zahmet, eziyet, minnet
+çıġaŋy   yoksul, fakir
+eçi      amca, ağabey
+edgü     iyi
+erinç    olacak, olmalı, tabiî, elbette, -dır / -dir
+ertür-   erdirmek, yaptırmak
+ıduk     mukaddes, kutlu, mübarek
+ıgar     ağır, değerli, önemli, hürmetli
+ırak     uzak
+igit-    beslemek, bakmak, yetiştirmek, büyütmek, ilgilenmek
+illig    illi, vatanlı, ülkeli, devletli
+ilsire-  ilsizleşmek, devletsizleşmek, ilini kaybetmek, esaret altına girmek
+
+         Sayfa: 31
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+ini          küçük kardeş
+kagan        hakan, hükümdar, kağan
+kaganlıg     bağımsız, müstakil, kağanı olan
+kagansırat-  kağansızlaştırmak, esaret altına almak
+kang         baba, peder
+kapıġ        kapı
+kazgan-      kazanmak, toplamak, biriktirmek, zapdetmek, ele geçirmek, fethetmek
+kedimliġ     giyimli, giyim kuşamı olan, zırhlı
+kelür-       getirmek
+kergek bol-  yok olmak, ölmek, vefat etmek
+kılın-       yaratılmak, yapılmak, meydana gelmek
+Kırkız       Kırgız
+kisre        sonra, ondan sonra
+kony         koyun
+kop          çok, hep, pek, tamamen
+kögmen       Kögmen Dağı, ormanı, Sayan Dağı
+köngül       gönül, kalp, yürek, iç, fikir, düşünce, akıl, anlayış, arzu, ülkü
+kurıgaru     batı, batıya doğru
+kut          devlet, ikbal, saadet, baht, talih
+kutay        ipek, ipekli
+kü           ses, ün, şan, şöhret, san
+küntüz       gündüz
+men          ben
+neng         nesne, şey, mal, eşya; h,ç, asla
+olur-        oturmak, tahta oturmak, kağan olmak
+ot           ateş
+ög           anne, üvey anne
+ögüz         ırmak, nehir, deniz
+ökün-        pişman olmak, eseflenmek, hayıflanmak, kendine gelmek, üzülmek
+ötün-        arz etmek, rica etmek, dilek dilemek
+sakın-       düşünmek, düşünceye dalmak, endişelenmek, düşünüp taşınmak, yas tutmak
+sıgıt        ağlama, feryat figan etmek, sızlamak, matem
+sökür-       diz çöktürmek, dize getirmek
+sub          su, nehir
+süçig        tatlı, lezzetli
+
+                                                   Sayfa: 32
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ             www.bilgicik.com
+
+süle-     ordu sevk etmek, akın düzenlemek, sefere çıkmak
+süngük    kemik
+süngüş-   süngüleşmek, mızraklaşmak, çarpışmak, savaşmak, harp etmek
+şad       Türk devletinin batı kısmının başkanı, yabgu
+Şantung   Şantung Ovası
+Tabgaç    Çin, Çinli
+teg       gibi
+Tengri    Gök, Tanrı, ilâh, Allah, Gök Tanrısı
+tigin     Kağan'ın oğullarına verilen unvan, prens
+tirgür-   yaşatmak, diriltmek, canlandırmak
+tiyin     diye, diyerek
+tiz       diz
+tokı-     vurmak, dövmek, çarpmak, dokumak, sokmak, batırmak, tokmaklamak, yontmak
+tonsuz    elbisesiz, çıplak
+toruġ     doru, doru rengi
+toruk     zayıf, bitkin, takatsiz, kuvvetsiz
+törü      töre, kanun, nizam, örf ve adet, görenek, düzen, devlet nizamı
+tün       gece
+uça bar-  vefat etmek, ölmek, kergek bolmak
+udı-      uyumak
+Umay      bir Tanrıça adı
+üçün      için, dolayı, yüzünden
+üküş      çok, fazla
+ülüg      kısmet, pay, nasip, şans
+yabız     yavuz, fena, kötü, perişan
+yablak    kötü, fena, perişan
+yadaġ     yaya
+yagı      düşman
+yarlıka-  buyurmak, lûtfetmek, bağışlamak, esirgemek, korumak
+yaşıl     yeşil
+yeltür-   koşturmak
+yış       orman, ormanlık dağ
+yig       iyi
+yoġ       natem, yas, ölü yemeği, cenaze töreni
+yügürt-   koşturmak, akıtmak
+
+                                                   Sayfa: 33
+Göktürk Yazısını Öğrenme Kılavuzu | Yavuz TANYERİ  www.bilgicik.com
+
+                          Kaynakça
+
+    1- ERGİN, Muharrem, "Orhun Abideleri", Boğaziçi Yayınları, İstanbul, 2005
+    2- ERCİLASUN, Ahmet Bican, "Türk Dili Tarihi", Akçağ Yayınları, Ankara, 2005
+    3- ALYILMAZ, Cengiz, "Orhun Yazıtlarının Bugünkü Durumu", Kurmay Yayınları, Ankara, 2005
+    4- TEKİN, Talat, "Orhon Yazıtları", TDK Yayınları, Ankara, 2006
+    5- TEKİN, Talat, “Orhon Yazıtları”, Yıldız - Dil ve Edebiyat, İstanbul, 2003
+    6- GABAIN, A. Von, "Eski Türkçenin Grameri", TDK Yayınları, Ankara, 2003
+    7- ATSIZ, Hüseyin Nihal, “Türk Edebiyatı Tarihi”, İrfan Yayınevi, İstanbul, 1997
+    8- EMRE, Ahmet Cevat, “Türk Lehçelerinin Mukayeseli Grameri”, İstanbul, 1949
+    9- AKSAN, Doğan, “Türkiye Türkçesinin Dünü, Bugünü, Yarını”, Bilgi Yayınevi Ankara, 2005
+
+TÜRK Ulusu'nun Göktürkler gibi acunu titretebilecek güce kavuşması için, lütfen bu kılavuzu
+                                       çevrenizdekilerle paylaşın.
+
+                                   Hazırlayan ve Sunan
+
+             Yavuz TANYERİ
+
+                                       İletişim: bilgi@bilgicik.com
+
+                                Sayfa: 34
+
