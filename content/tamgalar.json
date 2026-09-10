@@ -177,7 +177,7 @@
   },
   {
    "id": "ligatur",
-   "baslik": "Çift Sesli Hece Damgaları — Ligatürler (7)",
+   "baslik": "Çift Sesli Hece Damgaları — Ligatürler (8)",
    "tamgalar": [
     {
      "cp": "U+10C38",
@@ -213,8 +213,16 @@
      "cp": "U+10C28",
      "deger": "NÇ / NC",
      "ad": "ORKHON ENC"
+    },
+    {
+     "cp": "U+10C3F",
+     "deger": "aş (hece damgası)",
+     "ad": "ORKHON ASH",
+     "not": "Orhun yazıtlarında nadir kullanılır; ş sesi için kullanılmaz — ş = 𐱁. Yenisey varyantı U+10C40.",
+     "kaynak": "Tekin, Orhon Türkçesi Grameri; Unicode 15.1 ORKHON ASH"
     }
-   ]
+   ],
+   "kaynak": "Unicode 15.1 Old Turkic bloğu; 𐰿 (aş): Tekin, Orhon Türkçesi Grameri — 00_Kaynaklar/imla_kurallari_13_madde.md (EK 2026-09-10)"
   },
   {
    "id": "irkbitig",
@@ -461,7 +469,7 @@
     },
     {
      "cp": "U+10C40",
-     "deger": "ş¹ — kalın Ş",
+     "deger": "aş — Yenisey varyantı",
      "ad": "YENISEI ASH",
      "orhon": "U+10C3F"
     },

@@ -283,6 +283,7 @@ Aşağıdaki cetvel, birinci ve ikinci yedigünde dağıtılacak tamga kartları
 | 𐱇 | ot (logoram) | U+10C47 |
 | 𐰰 | up | U+10C30 |
 | 𐱈 | baş | U+10C48 |
+| 𐰿 | aş — hece damgası; Orhun'da nadir; Yenisey varyantı U+10C40 | U+10C3F |
 
 > Cetvelde Orhun varyantları esas alınmıştır.
 

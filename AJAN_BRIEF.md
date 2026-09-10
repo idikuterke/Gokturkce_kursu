@@ -56,7 +56,7 @@ Kapı kırmızıysa **build çalışmaz**; kapıyı gevşetmek yasak — içeri�
 1. İçerik yalnız `content/*.json`'a yazılır. Renderer'a içerik gömülmez; HTML/PDF elle düzenlenmez.
 2. Runik metin **mantıksal sırada** (Unicode bidi=R; ilk ses ilk karakter). Görsel sıraya (sağdan sola diziliş) çevirme YOK. Kapı ters diziyi yakalar.
 3. Sertifika sınavı: **12 soru, eşit puan, 60/100 eşik (8 doğru), %80 devam, 45 dk.** Şık dağılımı dengeli (3'er A/B/C/D). Bunu değiştiren hiçbir kaynak entegre edilmez; çelişki varsa kullanıcıya sor.
-4. Terminoloji: **ş** için 𐱁 tek kutupsuz ş (Irk Bitig'de aynı işaret ince r) — 𐰿 kullanılmaz. **ŋ** = "damaksal geniz ünsüzü (ng); yumuşak g değildir". **Açık e (ä) U+10C02 / kapalı é (ė) U+10C05** yalnız Yenisey — kaynak `00_Kaynaklar/yenisey_acik_e_kapali_e.md`. Ünsüz üst simgeleri: ¹ kalın, ² ince.
+4. Terminoloji: **ş** için 𐱁 tek kutupsuz ş (Irk Bitig'de aynı işaret ince r) — 𐰿 (U+10C3F) ş değil, 'aş' hece damgasıdır: Orhun'da nadir, Yenisey varyantı U+10C40; yalnız tamgalar.json ligatur grubu + teklif cetvelinde gösterilir. **ŋ** = "damaksal geniz ünsüzü (ng); yumuşak g değildir". **Açık e (ä) U+10C02 / kapalı é (ė) U+10C05** yalnız Yenisey — kaynak `00_Kaynaklar/yenisey_acik_e_kapali_e.md`. Ünsüz üst simgeleri: ¹ kalın, ² ince.
 5. Bilinçli yanlış örnekler `ornek-kelime.ornekler[].hatali` alanında verilir; kapı bunları muaf tutar. Başka yolla "yanlış örnek" gösterme.
 6. `𐱈` (BAŞ) kayıtta kalır; fal 17 çift 𐰆 kalır (kitap doğrulaması bekliyor). "ete" doğru, "ede" yanlış.
 7. Teklif metni yalnız yüz yüze içindir; paket/çevrim içi için kopyalanmaz.

@@ -14,7 +14,7 @@
    },
    {
     "k": "KAZANIM",
-    "v": "Ünlü düşmesi kuralları · 7 hece damgası · kelime başı ligatür yasağı · ince-N istisnası"
+    "v": "Ünlü düşmesi kuralları · 8 hece damgası · kelime başı ligatür yasağı · ince-N istisnası"
    }
   ]
  },
@@ -291,6 +291,15 @@
      ]
     },
     {
+     "type": "prose",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "id": "uzun-unlu-ve-uyumsuz-ekler",
+     "html": "<h3>Aslî Uzun Ünlü ve Uyuma Girmeyen Ekler</h3><p>Söz başı kısa <i>a</i> yazılmaz; <b>aslî uzun ā</b> yazılır: <b>āç</b> (acıkmış) <span class=\"runic\">𐰀𐰲</span> · <b>āt</b> (ad, unvan) <span class=\"runic\">𐰀𐱃</span> · <b>tāmka</b> <span class=\"runic\">𐱃𐰀𐰢𐰴𐰀</span> · Tunyukuk <b>būka</b> <span class=\"runic\">𐰉𐰆𐰸𐰀</span> (ū = U + UK ligatürü ile ünlü ikilemesi).</p><p><b>Damak uyumuna girmeyen ekler:</b> +(s)i → ince s² <span class=\"runic\">𐰾</span>: <b>yagısi</b> <span class=\"runic\">𐰘𐰍𐰃𐰾𐰃</span> · +(ı)n → ince n² (sabın) · -mış hep ince (sakınmış).</p><p><b>Dudak uyumuna girmeyenler:</b> +sız (buŋsız) · +sıra- · -sık (tosık) · +lı (tünli künli) · +nı (kunı) · -dı (uçdı) · +kı (çölgi).</p><p class=\"not\">Tekin, Orhon Türkçesi Grameri s. 52, 108.</p>"
+    },
+    {
      "type": "quiz",
      "targets": [
       "slayt",
@@ -340,7 +349,7 @@
       "slayt"
      ],
      "id": "kapanis",
-     "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>Sözbaşı/içses kısa a-e yazılmaz; <b>kelime sonu ünlüsü her zaman yazılır</b></li><li>Ek alan kökte orta hece dar ünlüsü düşer (oglan)</li><li>7 hece damgası; kelime başında ko/ku/kö/kü/kı için tek başına kullanılmaz</li><li>Kalın kökte -ın/-nı eki daima ince N (𐰤)</li></ul><p class=\"not\">Gelecek Yedigün: tümce yapısı, taş ekonomisi, Irk Bitig imlası ve fal okumaları.</p>"
+     "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>Sözbaşı/içses kısa a-e yazılmaz; <b>kelime sonu ünlüsü her zaman yazılır</b></li><li>Ek alan kökte orta hece dar ünlüsü düşer (oglan)</li><li>8 hece damgası; kelime başında ko/ku/kö/kü/kı için tek başına kullanılmaz</li><li>Kalın kökte -ın/-nı eki daima ince N (𐰤)</li></ul><p class=\"not\">Gelecek Yedigün: tümce yapısı, taş ekonomisi, Irk Bitig imlası ve fal okumaları.</p>"
     }
    ]
   }
