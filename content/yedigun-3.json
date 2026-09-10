@@ -175,6 +175,28 @@
      "baslik": "Orhun ↔ Yenisey — ünlüler ve kutuplu ünsüzler"
     },
     {
+     "type": "quiz",
+     "targets": [
+      "slayt",
+      "baski"
+     ],
+     "yedigun": 3,
+     "rol": "formatif",
+     "konu": "Yenisey Ek Ünlüleri",
+     "soru": "Yenisey yazıtlarında <span class=\"cevrim\">ėki, bėş, yėti</span> kelimelerinde ayrı bir damgayla (𐰅, kapalı é) yazılan ünlü, Orhun yazıtlarında nasıl gösterilir?",
+     "secenekler": [
+      "Orhun'da da aynı özel damgayla",
+      "Açık e (ä) damgasıyla",
+      "<b>i</b> damgasıyla yazılır ya da hiç yazılmaz — Orhun'un 4 ünlü damgası kapalı é'yi ayırmaz",
+      "Ö/Ü damgasıyla"
+     ],
+     "dogru": 2,
+     "geriBildirim": {
+      "ok": "Orhun 4 ünlü damgayla 8 sesi karşılar; kapalı é ile açık ä için ayrı işareti yalnız Yenisey ekler (Tekin).",
+      "no": "Orhun ünlü envanterini hatırlayın: A/E · I/İ · O/U · Ö/Ü — beşinci işaret yok."
+     }
+    },
+    {
      "type": "tamga-grid",
      "targets": [
       "slayt",
