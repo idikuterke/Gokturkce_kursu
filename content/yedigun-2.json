@@ -214,7 +214,7 @@
       "slayt"
      ],
      "id": "konum-kisiti",
-     "html": "<h3>Kelime Başı Ligatür Yasağı</h3><p>Hece damgaları kelime başında ünsüzle başlayan <b>ko / ku / kö / kü / kı</b> hecelerini <b>tek başına</b> yazmak için kullanılamaz.</p><p class=\"not\">Kelime başında düz harfle başlanır; ligatür ancak ondan sonra gelir.</p>"
+     "html": "<h3>Kelime Başı Ligatür Eğilimi</h3><p>Hece damgaları kelime başında ünsüzle başlayan <b>ko / ku / kö / kü / kı</b> hecelerini <b>tek başına</b> yazmak için genellikle kullanılmaz.</p><p class=\"not\">Orhun'da yaygın yazım: düz harfle başla, ligatür sonra. Tekin'de istisnalar: kılıp (𐰶), kut / kopın (𐰸), kör- (𐰜) — §12, §16-17, §28-29.</p>"
     },
     {
      "type": "ornek-kelime",
@@ -234,7 +234,7 @@
       {
        "latin": "kıldı",
        "runik": "𐰴𐰃𐰡𐰃",
-       "aciklama": "Düz kalın k¹ + I + LD + I.",
+       "aciklama": "Düz kalın k¹ + I + LD + I — Orhun'da yaygın yazım; ligatürlü biçim istisnai.",
        "hatali": "𐰶𐰡𐰃"
       },
       {
@@ -266,7 +266,7 @@
       "slayt"
      ],
      "id": "ince-n",
-     "html": "<h3>Kalın Kökte İnce-N İstisnası</h3><p>Kök tamamen kalın olsa bile <b>3. şahıs iyelik</b> ve <b>belirtme durumu</b> eklerindeki n sesi (<i>-ın / -nı</i>) daima <b>ince N</b> <span class=\"runic\">𐰤</span> ile yazılır.</p><p class=\"not\">Büyük ünlü uyumunu bozan, istisnasız bir imla kuralı.</p>"
+     "html": "<h3>Kalın Kökte İnce-N İstisnası</h3><p>Kök tamamen kalın olsa bile <b>3. şahıs iyelik</b> ve <b>belirtme durumu</b> ekindeki n sesi (<i>+(ı)n</i>) genellikle <b>ince N</b> <span class=\"runic\">𐰤</span> ile yazılır.</p><p class=\"not\">Büyük ünlü uyumunu bozan yaygın bir imla eğilimi (Tekin §66); Moyun Çor'da ve birkaç Orhun örneğinde kalın N (§91). Araç eki +(X)n (okun) kalın N ile yazılır — ince n iki eki ayırt eder (§269).</p>"
     },
     {
      "type": "ornek-kelime",
@@ -297,7 +297,7 @@
       "baski"
      ],
      "id": "uzun-unlu-ve-uyumsuz-ekler",
-     "html": "<h3>Aslî Uzun Ünlü ve Uyuma Girmeyen Ekler</h3><p>Söz başı kısa <i>a</i> yazılmaz; <b>aslî uzun ā</b> yazılır: <b>āç</b> (acıkmış) <span class=\"runic\">𐰀𐰲</span> · <b>āt</b> (ad, unvan) <span class=\"runic\">𐰀𐱃</span> · <b>tāmka</b> <span class=\"runic\">𐱃𐰀𐰢𐰴𐰀</span> · Tunyukuk <b>būka</b> <span class=\"runic\">𐰉𐰆𐰸𐰀</span> (ū = U + UK ligatürü ile ünlü ikilemesi).</p><p><b>Damak uyumuna girmeyen ekler:</b> +(s)i → ince s² <span class=\"runic\">𐰾</span>: <b>yagısi</b> <span class=\"runic\">𐰘𐰍𐰃𐰾𐰃</span> · +(ı)n → ince n² (sabın) · -mış hep ince (sakınmış).</p><p><b>Dudak uyumuna girmeyenler:</b> +sız (buŋsız) · +sıra- · -sık (tosık) · +lı (tünli künli) · +nı (kunı) · -dı (uçdı) · +kı (çölgi).</p><p class=\"not\">Tekin, Orhon Türkçesi Grameri s. 52, 108.</p>"
+     "html": "<h3>Aslî Uzun Ünlü ve Uyuma Girmeyen Ekler</h3><p>Söz başı kısa <i>a</i> yazılmaz; <b>aslî uzun ā</b> yazılır: <b>āç</b> (acıkmış) <span class=\"runic\">𐰀𐰲</span> · <b>āt</b> (ad, unvan) <span class=\"runic\">𐰀𐱃</span> · <b>tāmka</b> (duvara) <span class=\"runic\">𐱃𐰀𐰢𐰴𐰀</span> · Tunyukuk <b>būka</b> <span class=\"runic\">𐰉𐰆𐰸𐰀</span> (ū = U + UK ligatürü ile ünlü ikilemesi).</p><p><b>Damak uyumuna girmeyen ekler:</b> +(s)i → ince s² <span class=\"runic\">𐰾</span>: <b>yagısi</b> <span class=\"runic\">𐰖𐰍𐰾𐰃</span> · +(ı)n → ince n² (sabın) · -miş hep ince (sakınmiş; Tekin §68).</p><p><b>Dudak uyumuna girmeyenler:</b> +sız (buŋsız) · +sıra- · -sık (tosık) · +lı (tünli künli) · +nı (kunı) · -dı (uçdı) · +kı (çölgi).</p><p class=\"not\">Tekin 2003: s. 25 §5, s. 27 §10, s. 43-46 §45-51; s. 55-57 §76-86.</p>"
     },
     {
      "type": "quiz",
@@ -310,14 +310,14 @@
      "konu": "Konum Kısıtı",
      "soru": "Bir öğrenci <b>kıldı</b> kelimesini <span class=\"runic\">𐰶𐰡𐰃</span> yazdı. Hata nedir?",
      "secenekler": [
-      "IK/KI ligatürü kelime başında tek başına kullanılamaz; düz k¹ + I ile başlanmalıydı: 𐰴𐰃𐰡𐰃.",
+      "IK/KI ligatürü kelime başında genellikle tek başına kullanılmaz; Orhun'da yaygın yazım düz k¹ + I ile başlar: 𐰴𐰃𐰡𐰃.",
       "IK ligatürü yalnız kalın ünlülü kelimelerde geçerlidir, kıldı incedir.",
       "LD ligatürü yerine ayrı l ve d yazılmalıydı.",
       "Son I yazılmamalıydı."
      ],
      "dogru": 0,
      "geriBildirim": {
-      "ok": "Kelime başı ligatür yasağı.",
+      "ok": "Kelime başı ligatür eğilimi: düz harfle başla.",
       "no": "Kelime başındaki 'kı' hecesine bakın."
      }
     },
@@ -349,7 +349,7 @@
       "slayt"
      ],
      "id": "kapanis",
-     "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>Sözbaşı/içses kısa a-e yazılmaz; <b>kelime sonu ünlüsü her zaman yazılır</b></li><li>Ek alan kökte orta hece dar ünlüsü düşer (oglan)</li><li>8 hece damgası; kelime başında ko/ku/kö/kü/kı için tek başına kullanılmaz</li><li>Kalın kökte -ın/-nı eki daima ince N (𐰤)</li></ul><p class=\"not\">Gelecek Yedigün: tümce yapısı, taş ekonomisi, Irk Bitig imlası ve fal okumaları.</p>"
+     "html": "<h3>Bu Yedigünün Özeti</h3><ul><li>Sözbaşı/içses kısa a-e yazılmaz; <b>kelime sonu ünlüsü her zaman yazılır</b></li><li>Ek alan kökte orta hece dar ünlüsü düşer (oglan)</li><li>8 hece damgası; kelime başında ko/ku/kö/kü/kı için genellikle tek başına kullanılmaz</li><li>Kalın kökte +(ı)n eki genellikle ince N (𐰤)</li></ul><p class=\"not\">Gelecek Yedigün: tümce yapısı, taş ekonomisi, Irk Bitig imlası ve fal okumaları.</p>"
     }
    ]
   }

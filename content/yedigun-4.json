@@ -46,7 +46,7 @@
       "slayt"
      ],
      "id": "kontrol-listesi",
-     "html": "<h3>Yazarken Kontrol Listesi</h3><ol><li>Kelime kalın mı ince mi? ➔ ünsüz tamgasını seç</li><li>Sözbaşı / içses kısa a-e ➔ yazma</li><li>Kelime sonu ünlüsü ➔ mutlaka yaz</li><li>ko/ku/kö/kü/kı ile başlıyor mu? ➔ düz k ile başla, ligatür sonra</li><li>-ın / -nı eki ➔ ince N (𐰤)</li><li>Sağdan sola yaz, kelimeleri ( : ) ile ayır</li></ol>"
+     "html": "<h3>Yazarken Kontrol Listesi</h3><ol><li>Kelime kalın mı ince mi? ➔ ünsüz tamgasını seç</li><li>Sözbaşı / içses kısa a-e ➔ yazma</li><li>Kelime sonu ünlüsü ➔ mutlaka yaz</li><li>ko/ku/kö/kü/kı ile başlıyor mu? ➔ genellikle düz k ile başla, ligatür sonra</li><li>+(ı)n eki ➔ genellikle ince N (𐰤)</li><li>Sağdan sola yaz, kelimeleri ( : ) ile ayır</li></ol>"
     },
     {
      "type": "alistirma",
@@ -98,7 +98,7 @@
       "slayt"
      ],
      "id": "sayi-tablo",
-     "html": "<h3>Temel Sayı Tablosu (Talat Tekin)</h3><table class=\"tablo\"><tr><th>Birlik</th><th></th><th>Onluk</th><th></th></tr><tr><td>1</td><td class=\"cevrim\">bir</td><td>10</td><td class=\"cevrim\">on</td></tr><tr><td>2</td><td class=\"cevrim\">eki</td><td>20</td><td class=\"cevrim\">yegirmi</td></tr><tr><td>3</td><td class=\"cevrim\">üç</td><td>30</td><td class=\"cevrim\">otuz</td></tr><tr><td>4</td><td class=\"cevrim\">tört</td><td>40</td><td class=\"cevrim\">kırk</td></tr><tr><td>5</td><td class=\"cevrim\">biş</td><td>50</td><td class=\"cevrim\">elig</td></tr><tr><td>6</td><td class=\"cevrim\">altı</td><td>60</td><td class=\"cevrim\">altmış</td></tr><tr><td>7</td><td class=\"cevrim\">yiti</td><td>70</td><td class=\"cevrim\">yitmiş</td></tr><tr><td>8</td><td class=\"cevrim\">sekiz</td><td>80</td><td class=\"cevrim\">sekiz on</td></tr><tr><td>9</td><td class=\"cevrim\">tokuz</td><td>90</td><td class=\"cevrim\">tokuz on</td></tr></table>"
+     "html": "<h3>Temel Sayı Tablosu (Talat Tekin)</h3><table class=\"tablo\"><tr><th>Birlik</th><th></th><th>Onluk</th><th></th></tr><tr><td>1</td><td class=\"cevrim\">bir</td><td>10</td><td class=\"cevrim\">on</td></tr><tr><td>2</td><td class=\"cevrim\">eki</td><td>20</td><td class=\"cevrim\">yegirmi</td></tr><tr><td>3</td><td class=\"cevrim\">üç</td><td>30</td><td class=\"cevrim\">otuz</td></tr><tr><td>4</td><td class=\"cevrim\">tört</td><td>40</td><td class=\"cevrim\">kırk</td></tr><tr><td>5</td><td class=\"cevrim\">biş</td><td>50</td><td class=\"cevrim\">elig</td></tr><tr><td>6</td><td class=\"cevrim\">altı</td><td>60</td><td class=\"cevrim\">altmış</td></tr><tr><td>7</td><td class=\"cevrim\">yiti</td><td>70</td><td class=\"cevrim\">yetmiş</td></tr><tr><td>8</td><td class=\"cevrim\">sekiz</td><td>80</td><td class=\"cevrim\">sekiz on</td></tr><tr><td>9</td><td class=\"cevrim\">tokuz</td><td>90</td><td class=\"cevrim\">tokuz on</td></tr></table>"
     },
     {
      "type": "metin-ref",
@@ -150,7 +150,7 @@
        "aciklama": "30'a yönelen 6."
       },
       {
-       "soru": "tokuz yitmiş",
+       "soru": "tokuz yetmiş",
        "cevap": "69",
        "aciklama": "70'e yönelen 9."
       },
@@ -318,11 +318,11 @@
       "ÖK ligatürü yalnız kelime ortasında kullanılır",
       "Ligatür kalın ünlülü kelimelerde kullanılamaz",
       "k² yerine k¹ kullanılmalıydı",
-      "Hece damgası kelime başında ünsüzle başlayan kö hecesini tek başına yazamaz; düz k² ile başlanır: 𐰚𐰜"
+      "Hece damgası kelime başında ünsüzle başlayan kö hecesini genellikle tek başına yazmaz; düz k² ile başlanır: 𐰚𐰜"
      ],
      "dogru": 3,
      "geriBildirim": {
-      "ok": "Kelime başı ligatür yasağı: 𐰚𐰜.",
+      "ok": "Kelime başı ligatür eğilimi: düz k² önce — 𐰚𐰜.",
       "no": "Sorun ünlü kalınlığı değil, ligatürün kelime başındaki konumu."
      }
     },
@@ -340,7 +340,7 @@
       "Kelime aslında ince ünlülüdür",
       "n sesi Göktürkçede daima ince N ile yazılır",
       "Kelime sonundaki ünsüzler her zaman ince yazılır",
-      "3. şahıs iyelik / belirtme eki (-ın/-nı) kalın kökte bile istisnasız ince N ile yazılır"
+      "3. şahıs iyelik + belirtme eki (+(ı)n) kalın kökte bile genellikle ince N ile yazılır"
      ],
      "dogru": 3,
      "geriBildirim": {
