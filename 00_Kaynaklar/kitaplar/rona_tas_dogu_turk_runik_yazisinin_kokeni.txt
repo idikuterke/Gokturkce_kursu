@@ -1,0 +1,303 @@
+PROVENANS: A. Róna-Tas, 'Doğu Türk Runik Yazısının Kökeni ve Gelişimi Üzerine', çev. Erdem Uçar (8 sf). Font kodlaması düzeltildi (Đ→İ, đ→ı).
+Kaynak dosya: C:/Users/pc/Downloads/Göktürkçe_PDF_Koleksiyonu/Göktürkçe Eğitimi/Do%F0u Türk Runik Yazısının Kökeni ve Gelişimi Üzerine Rona Tas.pdf
+Çıkarım: pdftotext -layout, 2026-09-11, Claude Code. Sayfa sınırları form-feed ile korunur.
+================================================================================
+
+                   DOĞU TÜRK RUNİK YAZISININ KÖKENİ
+                                                   VE
+
+                                     GELİŞİMİ ÜZERİNE*
+                                          A. RÓNA-TAS
+
+                                    Çev. ERDEM UÇAR**
+      Doğu Türk Runik Yazısı (DTRY) hakkında Avrupalı bilim
+adamlarının üç yüzyıllık bilgisi olmasına ve Wilhelm Thomsen’in yazıyı
+çözümlemiş olmasına rağmen, hâlâ yazının kökeni üzerinde belirsizlikler
+bulunmaktadır. Şimdiye kadar ortaya atılan teoriler iki grupta
+toplanabilir. Çoğu kişi yazının kökeninin yabancı, genellikle de Sami
+kökenli olduğunu düşünmektedir. Diğerleri de yazının yerli olduğunu,
+eski damgalardan ve eşya simgelerinden geldiğini ileri sürmektedir.
+DTRY hakkındaki son iki yazının sahibi Clauson (1970) ve Livšic (1978)
+yazılar hakkında ileri sürülen erken dönem teorilerin özetini
+vermektedir. Clauson eski İrani prototiplerinin, Bizans, Eftalit kaynaklı
+Yunan harflerinin tekmilleştirilmesinden meydana geldiğini ileri sürdü.
+Yazı belki Türkçe yazmak için kullanılan Soğdlu bir kişi tarafından
+meydana getirilmişti. Livšic’e göre bütün harfler Soğd kökenliydi ve
+yazının icat edeni Soğd harflerini aldıktan sonra onları değiştirmiş,
+farklılıkları ekleyip çoğu harfte model olarak kullanmıştı. Şimdiye kadar
+ortaya atılan hipotezlerde yanlışlık ve eksiklikler var. Eksiklik yazının
+benzersiz oluşu ve gelişimi üzerine doyurucu cevap bulunamayışıdır.
+Araştırmacılar her harfin yabancı kökenli olduğunu düşünüyor ve
+harflerin bazılarının icat edilmiş olabileceğini kabul etmiyorlar.
+
+      Yazının yapısı konusunda cevap bulmaya çalışan yalnızca Pritsak
+olmuştur. (1980) Onun görüşlerinden bazıları çok orijinal olmasına
+
+* Bu yazı İngilizce olarak “Acta Orientalia Academiae Scieniarum Hung. Tomus
+     XLI (1), 7-14 (1987), Akadémiai Kiado, Budapest.” künyeli eserde
+     yayımlanmıştır.
+
+** Ege Üniversitesi Türk Dünyası Araştırmaları Enstitüsü Türk Dili ve Lehçeleri
+     Ana Bilim Dalı Araştırma Görevlisi.
+
+                                                    1
+rağmen ancak bir kısmı kabul edilebilir. Biz 27. harfin 15. harfin
+gelişimi olduğunu kabul ediyor ve Pritsak’a birçok K işaretinin bu
+fonemin tekrarı olduğu konusunda katılıyoruz. Tabii ki yaklaşımımız ve
+vardığımız sonuçlar tamamıyla farklı olacaktır. Kısaca belirtmek
+gerekirse yazımda Pritsak’ın görüşleri bir tarafta duracak ve erken
+dönem görüşleri ayrıntılara girmeden kendi yaklaşımımla göstereceğim.
+Bu sebeple en iyi çözümün diğer hipotezleri eleştirmek olduğunu
+düşünüyorum.
+
+      Problemin çözümü için yapılması gereken iş bütün materyallerin
+yazı bakımından araştırılmasının yapılması ve yazı malzemesi ile
+yazıldığı bölge arasında bağlantıların kurulmasıydı. Böyle bir çalışma
+Güney Sibirya Yazıtlarını (1983a) yeniden yayımlayan Vasilyev (1983)
+tarafından yakın bir zamanda yapıldı. Bu çalışma ile Yenisey Vadisi ve
+Güney Sibirya’daki yazıtların sanıldığı kadar eski olmadığı, onların
+Moğolistan’daki büyük yazıtlarla yaşıt veya belki de biraz daha eski
+oldukları anlaşıldı.
+
+      DTRY’deki 39 işaret beş gruba ayrılabilir: A. Ünlüleri gösteren
+harfler; B. Kelimenin önünde veya sonunda bulunmasına göre ayrılan çift
+harfler; C. K ’nin dal sesleri olan harfler; D. Sızıcı ünsüzleri gösteren
+harfler; E. Ünlü olmaksızın kullanılan ünsüzler; F. Birleşik ünsüzleri
+gösteren harfler. (Bk. I. Tablo)
+
+      5 numaralı işaret yenidir ve Yenisey bölgesindeki birkaç yazıtta
+bulunur. Geri kalan diğer dört ünlü işaret oldukça farklı bir sistemi
+gösteriyor. 1 ve 3 numaralı işaretler ön ve arka ünlüler için ortaktır.(a-e,
+ı-i) 2 ve 4 numaralı işaretler yuvarlak ünlüleri gösterir ve açıklık-
+kapalılık bakımından ortaktır. (o-u, ö-ü) Bu sistemde ünlü sayısı Sami
+dilindekinden daha fazladır ve ön ünlüler Türk diline özeldir. Bu ses için
+işaretin ikincil olduğu tezi, işaretin biçimine bakıldığında düşünülebilir.
+Thomsen 3 numaralı işarete eklemelerle 4 numaralı işaretin meydana
+getirildiği görüşündedir. Eğer durum böyleyse, üç bölümde ünlü
+
+                                                    2
+işaretlerinin tarihini yeniden düzenleyebiliriz: 1. A:W:I; 2. A:W:I:W;
+3. A:é:W:I:W. Bu yazının gelişiminde normal gibi gözüküyorsa da asıl
+problem şu: Acaba aynı gelişimi ünsüz harflerin gelişiminde de bulmak
+mümkün mü?
+
+      İlk olarak belirtilmesi gereken şey, çift gösterimli ünsüz
+işaretlerinin diğer işaretlerle aynı olmadığıdır. B1, B2 ve diğer
+satırlardan bağımsızdır. W. Thomsen yayımladığı ek notta (1894–1896)
+R2, L2, T1, N2, G1 ve Ş (No: 30) işaretlerinin piktograf (resim yazısı)
+olup olmayacağı konusunu merak etti. Benzer fikirler Palivanov ve Emre
+tarafından da ifade edildi. Daha sonra B2, K4, ve Y1’in piktografik
+kökeni A. von Gabain (1948) ve G. Clauson (1970) tarafından açıklandı.
+Eğer D2’nin de piktografik kökeni varsa, o zaman ilk gruptaki her çiftten
+birinin piktografik kökene sahip olması gerekirdi. Buna göre, bütün
+ünsüzlerin bir ünlüden önce okunması gerektiği belirtilmelidir, zira bu
+durum Mani yazısından (Le Coq 1909:1050) çevrilen Runik alfabede
+görülebilir. Böylece biz aşağıdaki tabloyu çıkarabiliriz:
+
+B1 ab       B2 eb
+
+D1 ad       D2 ed “mal, hayvan”
+G1 ag       G2 eg
+Y1 ay “ay”  Y2 ey
+L1 al       L2 el “el”
+N1 an       N2 en “en”
+R1 ar       R2 er “er”
+T1 at “at”  T2 et
+
+K3 ik “iğ”
+
+K4     ok
+
+“ok”
+
+      Burada çok az yorum yapılabilir. Y1’in yay olabileceği
+düşünülebilir, ama buna sistem izin vermiyor. Problem bütün piktografik
+ünsüzlerin ünlüyle okunabilmesidir. Thomsen N2 için en- “inmek, adım
+
+            3
+atmak” kelimesini önerdi, ama bu yalnız fiiller için geçerli olabilir. Zira
+kelime Kaşgarî’de isim olarak gözüküyor. Thomsen No: 30 için eşik
+“kapı” kelimesini önerdi, ama bütün “anahtar kelimeler” tek heceliydi.
+D2 için işaret çiftlik hayvanlarına vurulan damgalarla aynı olup çarpı
+işaretiyledir. (Bk. A. Róna-Tas: 1956) K harfinin ayrımı da önemlidir.
+K4 ve K5, 2 ve 4 numaralı ünlülerle aynı özellikleri paylaşır. Bütün
+bunlar II. bölümün ünlü işaretlerinden sonra veya aynı zamanda ortaya
+çıkmış olduğunu gösteriyor.
+
+Sızıcı ünsüzler bakımından gösterim biraz karışık görünüyor ve
+
+beraberinde birkaç yorumu daha getiriyor. En önemli yazıtlara kronolojik
+
+olarak bakalım:
+
+ONGİN (720 VEYA 731)  S1     S2           s
+
+                      Ş1     Ş2
+
+KÜLİ ÇOR, KÜL TEGİN, S1      S   S2
+
+BİLGE KAĞAN
+
+(724, 732, 735)
+
+                      Ş1     ş   Ş2          s, ş
+
+TONYUKUK (726)        S1     S   S2          s
+
+                      Ş2         Ş2
+
+TERH, TEZ, ŞİNE USU,
+
+SUÇİ (750, 752-753, 760, S1      S2
+
+840)                         ş               s
+
+                      Ş2         Ş2
+
+YENİSEY               S1         S2          s
+
+                      Ş2     ş   Ş1 - Ş2
+
+      Eğer bugün hala bulunan 27 numaralı işaretin bütün şekillerini
+karşılaştırırsak, aşağıdakileri elde edebiliriz: (Bk. Vasilev 1983: 133–
+134)
+
+      Bu bizim l ve temel işaretin türevleri ile ilgilenmemiz gerektiğini
+gösteriyor. Temel işaret L2’dir. Nasıl oluyor da L2 ve türevleri Ş2
+harfine karşılık geliyor? Biz Ş olmayan bir Türk dilinde yazının orijinal
+bir şekilde kullanıldığını düşünüyoruz. Daha sonra yazı önceden L’ye
+karşılık L’yi kullanan bir Türk diline geçti, ama Ş problem olarak hala
+karşımızda durmaktadır. Birisi el “insanlar” kelimesini yazsaydı,
+
+                                                    4
+problem olmazdı, çünkü bu kelime ikinci bir Türk dilinde olan el
+olacaktı. Diğer taraftan birisi el “dost, yoldaş, arkadaş” yazsaydı, bu eş
+olarak okunabilirdi, ancak Ş sesini göstermenin bir yolu daha vardı: S
+şeklinde de gösterilebilirdi. Bu yazının ilk tercihi gibi gözüküyordu, ama
+Bilge Kagan’da durum L2 + ikinci görünüm şeklindeydi. Uygur dönemi
+yazıtlarında Ş ile S arasındaki fark ön ve arka sızıcı ünsüzlerle
+sağlanıyordu. Ş için yeni işaret Yenisey yazıtlarında ortaya çıktı.
+
+      Eğer 35 numaralı harf (Z) için de aynı usul uygulanabilseydi, 27
+numaralı harfe de ikinci bir köken ilave edilebilirdi. Gerçekten de böyle
+bir durum mümkün gözüküyor. Zira 35 numaralı işaretin temel şekli 18
+numaralı (R1) işarete bir kanca eklenmesiyle meydana geldiği
+düşünülebilir.
+
+      Uygur yazısında bu kanca ayırıcı işaret olarak bulunuyordu. Son
+dönem Soğd yazısı ile Uygur yazısı arasındaki temel fark L ünsüzünün
+gösterilmesinde bir harfin bulunmayışıydı. Bu sebeple Türkler “resh”
+harfine bir kanca ekleyip bu harfi L okumak zorunda kaldı. Aynı şekilde
+DTRY’de “Z okunması gereken R” ünsüzünü göstermek için de kanca
+buna benzer bir fonksiyon icra etti. Tipik Türkçe unsurları gösteren 32
+numaralı ŋ ve 36 numaralı ñ işareti kalmıştı. Bunların her ikisi de eski n
+işaretine (No: 16) gidiyordu: ŋ + ayırıcı işaret ve n + çift n = ñ
+
+      LD, ND ve NÇ harflerinden yaralanılarak Türk dilindeki özel
+işaretleri göstermek gerekiyordu, çünkü bu harflerin hiçbiri kendilerini
+oluşturan harflerin birleşmesinden meydana gelmiyordu.
+
+Böylece DTRY’deki dört gelişim safhasını yeniden kurabiliriz:
+
+I. A, I, W, b, d, g, y, l, n, r, t, k1, k2, s1, ş2, ç, p, m.
+
+II. W  b2, d2, g1, y1, l2, n2, r2, t1, r, k3, k4, k5.
+
+III.   ş, z     ld, nd, nç.
+
+IV. é  ş1-2
+
+      En erken safhaları sonraki gelişmelerden ayırdıktan sonra, şimdi
+işaretlerin kökenini veya alındıkları modeli arayabiliriz. Thomsen’den bu
+
+             5
+yana Soğd alfabesi göz önünde bulundurulmuştu, ama Soğd alfabesiyle
+doğrudan bir ilişki kurmak doğru değildi. Soğd alfabesini Aramî kökenli
+diğer alfabelerden farklılaştıran tipik özellik, eski Soğd metinlerinde
+“lamed” harfinin kurallı bir şekilde sızıcı d harfiyle gösterilmesidir. (L
+yalnızca alıntı kelimelerde yer alıyordu.) DTRY’de L harfi “lamed”
+şeklinde olup D1 veya D2 değildir. Diğer taraftan II. Tabloda görüldüğü
+üzere bazı şekiller eski Soğd harflerine çok yakındır. Diğer bazı harfler
+ise eski Gürcistan’daki Armaz kasabasında bulunan Armazî alfabesindeki
+harflere benzemektedir. Sonuç olarak, DTRY’nin eski Soğd ve Armazî
+alfabeye yakın Aramî alfabesine gittiğini, ama onlarla aynı olmadığını
+söyleyebiliriz. Belki de bu üç alfabe de aynı kökene sahiptir.
+
+      DTRY’deki Soğd etkisi sonradan ortaya çıktı. LD, ND, NÇ
+harflerinde Soğd etkisi görülebilir. Sedalı patlayıcı diş ünsüzü, N
+ünsüzünden sonra hariç, Soğdçada sızıcıdır. Bu durum DTRY sisteminin
+kullanıldığı Eski Doğu Türkçesi için de geçerlidir. LD işaretini Soğd
+yazısındaki “lamed” ile ilişkilendirebiliriz. ND işareti Soğdça ayırıcı
+nokta ile “nun” harfinin birleşmesinden meydana gelmiştir. Tonyukuk
+yazıtında harf hala açıktır ve ayırıcı noktaya sahiptir, ancak Kül Tigin ve
+Bilge Kağan yazıtlarında üç nokta bulunur ve harfteki üç yarım daire
+kapalıdır. NÇ işareti ise çift N’den oluşmuşa benziyor.
+
+      R2, elde etmek için kancanın kullanımında da Soğd etkisi
+görülebilir.
+
+      Tekliflerimizi şu şekilde özetleyebiliriz: Türkler Aramî ve ona
+yakın alfabelerden şekiller almasına rağmen, oluşturdukları alfabe Aramî
+veya Soğd alfabesiyle aynı değildi, çünkü yazının tahta, taş veya kaya
+parçalarına oyularak yazılması ilk farklılığı oluşturmaktaydı. Bu alfabe
+bir müddet kullanıldıktan sonra, Türkçedeki bazı özel seslerin
+gösterilmesiyle ilgili bir problem çıktı. Kalın ve ince ünlüleri ayırma
+ihtiyacı hemen göze çarpıyordu ve bunun için yeni işaretler icat edildi.
+Yeni harflerin oluşturulmasında iki yol takip edildi: Var olan harflere
+
+                                                    6
+yeni işaretler eklendi ve resim yazısı kullanıldı. En çok kullanılan K
+fonemi üzerinde duruldu. Eski Bulgar, Hazar ve Çuvaş dilinde bulunan Ş
+ve Z sesleri bu dilde yoktu. II. Türk Kağanlığı bu yazıyı alarak Z
+fonemini göstermek için iyi bir çözüm buldu, ama uzun bir süre Ş
+işaretinin gösterilmesi ile idare edildi.
+
+      II. Türk Kağanlığında başta bulunan yöneticilerin itibarı yerel
+yöneticiler tarafından taklit edildi. Böylelikle yüksek yöneticilerin
+stilinde Manihaizm, Mani ve Soğd-Uygur yazılarının da kullanılmasıyla
+bozulma başladı. Bozulma yerli çeşitlerin ortaya çıkmasına sebep oldu.
+Alfabenin özel bir türü ise DTRY’nin kâğıda yazıldığı dönemde
+Türkistan’da ortaya çıktı.
+
+                                           KAYNAKÇA
+      Cereteli, G. V. “Armazskoe pis’mo i problema proishoZdenija
+gruzinskogo alfavita” I-II Epigrafia Vostoka (2), 90-101; (3), 59-71,
+1948/1949.
+      Clauson, G. “The Origin of the Turkish Runic Alphabet” Acta Or.
+Havniae 32, 51-56, 1970.
+      Emre, A. Cevat. Sur l’origine de l’alphabet vieux-turc, İst.1938.
+      Gabain, A. V. Alttürkisches Schrifttum, SBAW, Berlin 1948.
+      Kormuşin, I. V. “K osnovnym ponjatijam tjurkskoj runiçeskoj
+paleografi” ST, 1975:2, 25-47.
+      Kyzlasov, L. R. “Novaja Datirovka jenisejskoj pis’mennoti” Sov.
+Arh.,1960:3, 93-120.
+      Kyzlasov, L. R. “O datirovke pamjatnikov jenisejskov jenisejskoj
+pis’mennoti” Sov. Arh.,1965:3, 38-49.
+      Le Coq, A. A. “Köktürkisches aus Turfan” SPAW, 1047-1060, 1909.
+      Livšic, V. A. “O proishoZdenii drevnetjurrkoj runiçeskoj
+pis’menotti” ST, 1978:4, 84-98.
+      Mackenzie, D. N. A Concise Pahlavi Dictionary, London 1986.
+
+                                                    7
+      Palivanov, E. O. “Ideografiçeskij motiv v formacii orhonskgo
+alfavita” Bjuleten Sredneaziatskogo gosudarstvennogo Instututa, Taşkent
+1925:9, 177-179.
+
+      Pritsak, O. “Turkology and the Comparative Study of the Altaic
+Languages. The System of the Old Runic Script” Journal of Turkish
+Studies, (4), 1980, 83-110.
+
+      Réna-Tas, A. “Tally-stick and Divination-dice in the Iconography of
+Lha-mo” AOH 6, 1956, 163-179.
+
+      Thomsen, V. L’alphabet runiforme turc. MDFOu V. Reprinted with
+additions in: Samlede Alhandlinger t. III.Kobenhavn, 1922, 27-82.
+
+      Vasilev, D. D. Grafiçeskij fond pamjatnikov tjurkskoj rıniçeskoj
+pis’mennosti aziatskogo areala, Moskva 1983.
+
+      Vasilev, D. D. Korpus tjurkskih runiçeskih pamjatnikov bassejna
+Eniseja, Leningrad 1983.
+
+                                                    8
+

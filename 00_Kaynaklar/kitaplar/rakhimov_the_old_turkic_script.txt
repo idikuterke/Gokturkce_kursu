@@ -1,0 +1,149 @@
+PROVENANS: Abdugafur A. Rakhimov, 'The Old Turkic Script' (4 sf, İngilizce).
+Kaynak dosya: C:/Users/pc/Downloads/Göktürkçe_PDF_Koleksiyonu/Göktürkçe Eğitimi/The Old Turkic Script.pdf
+Çıkarım: pdftotext -layout, 2026-09-11, Claude Code. Sayfa sınırları form-feed ile korunur.
+================================================================================
+
+                The Old Turkic Script
+
+                                           Abdugafur A. Rakhimov
+
+In brief about history of Script.
+
+T. he ORHONO-YENISEI INSCRIPTIONS, the most ancient writings, monuments of the
+         Turkic people. In 1696-1722 years these inscriptions are opened by Russian scientists
+         S.Remezov, F.Stralenberg, D.Messershmid in top of the current of the Yenisei. In 1889,
+on the rivers Orkhons (Mongolia) by .M.Jadrintsev is opened. In 1893, these inscriptions are
+decoded by the Danish linguist V.Tomsen. And for the ﬁrst time are read by Russian linguist
+V.V.Radlov (1894). The Orhono-yenisei inscriptions concern by 7-11 centuries. Seven groups
+the Orhono-Yenisei inscriptions are known: Baikal, Yenisei, Mongolian, Altai, East Turkistan,
+Central Asian, and East European. Accordingly they belong to the breeding the union of the
+Kurgan, the empire of the Kirghiz, the empire of the East Turkic, the empire of the West
+Turkic, the empire of the Uigur (in Mongolia), the state of the Uigur (in East Turkistan),
+Khazars (Chazars) and Pechenegs. On a genre accessory are allocated: historically-biographic
+stone-letters texts of Mongolia; lyrics of texts of Yenisei; legal documents, magic and religious
+texts (on a paper) from East Turkistan; memorable inscriptions on rocks, stones and struc-
+tures; labels on household subjects. The inscriptions of Mongolia stating history 2nd East
+Turkic and the empire of the Uigur have the greatest historical value.
+
+The Font Base.
+
+    It is known, that (La)TEX use only the fonts which have specially been written by Donald
+Knut in the language of the METAFONT Program. Here, we also used METAFONT what to
+create the Old Turkic script (Gokturk script or Orkhon script or Orkhon-Yenisey script). This
+font can be used only freely.
+
+    In the ZIP-ﬁle there are .gf, .pk, .tfm ﬁles which it is necessary to copy corresponding
+folders in your (La)TEX program:
+
+                             ...\TEXMF\fonts\pk
+                             ...\TEXMF\fonts\tfm
+
+    It is easy see, that these ﬁles make such sizes of fonts as 10pt, 11pt, 14pt, 16pt, 20pt and
+25pt. But, using the .mf ﬁle and setting the necessary values variable ”u” (in the .mf ﬁle) you
+can create the necessary sizes of fonts (i.e. .gf, .pk, .tfm ﬁles you can to create, also, using .mf
+ﬁle). In this case, of course, you should compile your .mf ﬁle (with new parametre of ”u”) on
+the METAFONT Program.
+
+       ..\BIN\win32\mf \mode=ljfour; mode_setup; input orhun.mf
+..\BIN\win32\gftodvi orhun.600gf
+..\BIN\win32\gftopk orhun.600gf
+..\BIN\win32\dvips orhun.dvi
+
+Then, the necessary font to appear in expansions .gf, .pk, .tfm. Moreover, these ﬁles can be
+copied in the catalogue (directory) in which you work.
+
+To use the Orkhon-Yenisey script in the text.
+
+    To write the text in old Turkic language you should use the TEX-command: \font. For
+example,
+
+\font\letteror=orhun              ABGdDOUoZt
+{\letteror ABGdDOUoZt}            TYylLMnNsS
+{\letteror TYylLMnNsS}            PCkKrRvmcQ
+{\letteror PCkKrRvmcQ}            zVeawgibI:
+{\letteror zVeawgibI:}
+
+So the following historical text is written
+
+The monument of the TONYUKUK (The second stone, northern a part)
+
+                              VOTAGLeBMZoNB:rsretrkY:RSMngZa:ngasertLe
+                                                            rsrMtrkYNB:RSMngZa:kk
+
+                             AMynDOb:AMyDOb:AtNery:nDObresKrot:ngangPa
+                                                          :etreCtrkYede:AMyesei:
+
+                                ot:ngangPa:NCokQgZa:kkVOTAGLeB:ngasrtLe
+                                                               ObekDeROY:nDObresKr
+
+                              odGe:gnDObZgO:gnDObresKrot:nga:AGLeBKrot
+                                                                                    RURlU
+
+To write the text in Orkhon script, certainly, we should knowd Old Turkic alphabet. In the
+
+                                                             2
+    following table this alphabet is given
+
+    O-Y sound                       O-Y sound                              O-Y sound
+
+    A a, e                          a k (with a )                          R  r (with thick vowels)
+
+    B  b (with thin vowels)         w k (with hard i )                     r  r (with thin vowels)
+
+    b  b (with thick vowels)        l       L (with thick vowels)          S  s (with thick vowels)
+
+    C  L -ch (j) (in the end a word)        L (with thin vowels)           s  s (with thin vowels)
+
+    I ich, ic                       m       -it (in the end a word)        v  -sh (in the end a word)
+
+    D  d (with thick vowels)        M       -m (in the end a word)         T  t (with thick vowels)
+
+    d  d (with thin vowels)         n       n (with thick vowels)          t  t (with thin vowels)
+
+    G  g (with thin vowels)         N       n (with thin vowels)           O o, u
+
+    g  g (with thick vowels)        z       -ng (in the end a word)        U o, u
+
+    e i, the closed e               V       -ny (in the end a word)        o o’, the soft u
+
+    i k (e, with i )                c       Y -nch(j) (in the end a word)     y (with thick vowels)
+
+    K k (o’, with the soft u )      Q       y -nt(d) (in the end a word)      y (with thin vowels)
+
+    k k (with o, u )                P       -p (in the end a word)         Z  -z (in the end a word)
+
+    In the keyboard the Orkhon script are typed as follows
+
+QQ     W        E               RR      TT      YY                  UU        II      OO             PP
+                                rr      tt      yy                            ii      oo
+q      ww       ee                                                  u                                p
+
+    AA         SS      DD           F       GG          H               J         KK         LL
+
+    aa         ss      dd           f       gg          h               j         kk         ll
+
+            ZZ         X            CC      VV      BB                  NN        MM
+                                    cc      vv      bb                  nn        mm
+            zz         x
+
+                                               3
+The conclusion.
+
+Further we plan to write a orkhun-package which will allow to work more conveniently with
+these fonts and will expand possibilities use of fonts. On all questions and wishes, we ask you
+to address to the address written more low. We will be very glad to have your valuable remarks
+and wishes.
+
+Acknowledgements.
+
+I would like to thank the members of the Mathematical Department of the Karadeniz Technical
+University, for hospitality while this work was being done. In particular I am grateful to my
+friend to professor Vamık Kadimo˘glu for helpful conversations.
+
+    Prof.Dr. Abdugafur Rakhimov
+The Tashkent institute of railways and engineering. Tashkent, Uzbekistan
+The Karadeniz Technical University, Trabzon, Turkey
+E-mail: rakhimov@ktu.edu.tr ; rakhimov2002@yahoo.com ; gafur rakhimov@yahoo.com
+
+                                                             4
+

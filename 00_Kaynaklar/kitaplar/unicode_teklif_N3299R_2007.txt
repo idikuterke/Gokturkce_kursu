@@ -1,0 +1,427 @@
+PROVENANS: ISO/IEC JTC1/SC2/WG2 N3299R (2007-09-19): Proposal to encode the Old Turkic script — glif adları, varyantlar, kod tablosu. (Koleksiyonda 'Göktürk Tüm Alfabe.pdf' adıyla)
+Kaynak dosya: C:/Users/pc/Downloads/Göktürkçe_PDF_Koleksiyonu/Göktürkçe Eğitimi/Göktürk Tüm Alfabe.pdf
+Çıkarım: pdftotext -layout, 2026-09-11, Claude Code. Sayfa sınırları form-feed ile korunur.
+================================================================================
+
+                         ISO/IEC JTC 1/SC 2/WG 2 N 3299 R
+
+                                    DATE: 2007-09-19
+
+ISO/IEC JTC 1/SC 2/WG 2
+
+Universal Multiple-Octet Coded Character Set (UCS) - ISO/IEC 10646 Secretariat: ANSI
+
+TITLE:   PROPOSING TO SUPPLEMENT WITH THE SPECIAL          SCRIP
+SOURCE:                                                                AND
+         CHARACTER FOR Old Turkic to ISO/IEC 10646
+
+         CHINA
+
+STATUS:  NATIONAL BODY POSITION
+
+ACTION:  FOR CONSIDERATION BY JTC1/SC2/WG2
+
+DISTRIBUTION: ISO/IEC JTC1/SC2/WG2
+
+                                    A. Administrative
+
+1 Title: PROPOSING TO SUPPLEMENT WITH THE SPECLAL SCRIPT AND CHARACTER
+          FOR Old Turkic REVISED PROPOSAL N 3258
+
+2 Requester's name: CHINA
+3 Requester type (Member body/Liaison/Individual contribution): Individual
+4 Submission date: 2007/08/15
+5 Requester's reference (if applicable): No
+6 Choose one of the following: This is a complete proposal: Yes or, More information will be
+
+          provided later: No
+
+                                        B. Technical - General
+
+1. Choose one of the following:
+a. This proposal is for a new script (set of characters): Yes
+
+     Proposed name of script: Old Turkic
+
+b. The proposal is for addition of character(s) to existing block: No Name of existing block:
+
+Number of characters in proposal: 71
+Proposed category (select one from below - see section 2.2 of P&P document): A-Contemporary_____
+
+      B.1-Specialized (small collection) _____ B.2-Specialized (large collection) _____ C-Major extinct X
+      D-Attested extinct _____ E-Minor extinct _____ F-Archaic Hieroglyphic or Ideographic _____ G-Obscure or
+      questionable usage symbols _____
+4. Proposed Level of Implementation (1, 2 or 3) (see Annex K in P&P document): Is a rationale provided for the
+      choice? No If Yes, reference:
+5. Is a repertoire including character names provided? Yes
+
+                                                                                                                                                                             1
+      a. If YES, are the names in accordance with the “character naming guidelines” in Annex L of P&P document?
+            Yes
+
+      b. Are the character shapes attached in a legible form suitable for review? Yes
+       Who will provide the appropriate computerized font (ordered preference: True Type, or PostScript format) for
+            publishing the standard? jpg files were provided by the Xinjiang University,China If available now, identify
+            source(s) for the font (include address, e-mail, ftp-site, etc.) and indicate the tools used: wushour@xju.edu.cn
+         References:
+
+      a. Are references (to other character sets, dictionaries, descriptive texts etc.) provided?
+
+      Yes
+
+      b. Are published examples of use (such as samples from newspapers, magazines, or other sources) of proposed
+
+            characters attached? Yes
+             8. Special encoding issues: Does the proposal address other aspects of character data processing (if
+
+            applicable) such as input, presentation, sorting, searching, indexing, transliteration etc. (if yes please enclose
+            information)? No
+      2. Additional Information: Submitters are invited to provide any additional information about Properties of the
+            proposed Character(s) or Script that will assist in correct understanding of and correct linguistic processing
+            of the proposed character(s) or script. Examples of such properties are: Casing information, Numeric
+            information, Currency information, Display behaviour information such as line breaks, widths etc.,
+            Combining behaviour, Spacing behaviour, Directional behaviour, Default Collation behaviour, relevance in
+            Mark Up contexts, Compatibility equivalence and other Unicode normalization related information. See the
+            Unicode standard at http://www.unicode.org for such information on other scripts. Also see
+            http://www.unicode.org/Public/UNIDATA/UCD.html and associated Unicode Technical Reports for
+            information needed for consideration by the Unicode Technical Committee for inclusion in the Unicode
+            Standard.
+
+                                          C. Technical – Justification
+
+      1. Has this proposal for addition of character(s) been submitted before? No If YES explain
+      2. Has contact been made to members of the user community (for example: N ational Body, user groups
+
+            of the script or characters, other experts, etc.)? Yes If YES, with whom? (1)Xinjiang
+            University;(2)Xinjiang Museam;(3)Xinjiang Language Community If YES, available relevant documents:
+            The contract between Xinjiang University and Xinjisng Museam
+      3. Information on the user community for the proposed characters (for example: size, demographics, information
+            technology use, or publishing use) is included? This is a very important character for study history, economic,
+            culture and language of Turkic kingdom and Uygur kingdom.
+
+      Reference: for example,
+
+      Table-1: «ПамятникиДревнитюркскойПисьменности», С.Е.Малов, 1951-года, Москва,
+      Ленинград， Table-2 Orkhun-Yeniséy Alphabet ，Table-3 Old Türk (Orkhun) Alphabet， Table-4: “Iski Türk
+
+      Yazitlari”, Yusayin Namiq Orqun, Türkiye, Istanbul
+ٛ 4. The context of use for the proposed characters (type of use; common or rare): people through Internet.
+ٛ Reference: for example, Orkhon alphabet ，Kök Türk Alphabet
+ٛ 5.Are the proposed characters in current use by the user community? Yes If YES, where? Reference: for
+
+      example, Xinjiang of china , Centre Asia, North Euorupe
+ٛ 6. After giving due considerations to the principles in the P&P document must the proposed characters be entirely
+
+      in the BMP? No
+ٛ If YES, is a rationale provided?If YES, reference:
+ٛ 7. Should the proposed characters be kept together in a contiguous range (rather than being scattered)?
+ٛ Yes
+ٛ 8. Can any of the proposed characters be considered a presentation form of an existing character or character
+
+      sequence? No
+ٛ If YES, is a rationale for its inclusion provided?If YES, reference:
+ٛ 9. Can any of the proposed characters be encoded using a composed character sequence of either existing
+
+      characters or other proposed characters? No
+ٛ If YES, is a rationale for its inclusion provided?If YES, reference:
+
+      10. Can any of the proposed character(s) be considered to be similar (in appearance or function) to an existing
+
+                                                                                                                                                                                  2
+character? No
+If YES, is a rationale for its inclusion provided?If YES, reference:
+11. Does the proposal include use of combining characters and/or use of composite sequences?
+
+No ， If YES, is a rationale for its inclusion provided? If YES, reference: Is a list of composite sequences
+
+and their corresponding glyph images (graphic symbols) provided? No
+
+If YES, reference:
+
+12. Does the proposal contain characters with any special properties such as control function or similar
+
+semantics?          No ，If YES, describe in detail (include attachment if necessary):
+
+13. Does the proposal contain any Ideographic compatibility character(s)? No
+
+If YES, is the equivalent corresponding unified ideographic character(s) identified? If YES, reference:
+
+      D. Proposal
+
+     1. Introduction
+
+    Old Turkic script had been used in Turkic kingdom (A.D. 552-744) and
+Uygur kingdom (A.D. 744-840) when that of old Uyghur peoples were live
+in Mongolia grassland, include Mongolia’s Orkhun river and Siberia's
+Yenisey river.The Runestone of record it had been found in Mongolia's
+Orkhun river and Siberia's Yenisey river. So called Orkhun-Yenisey script .
+
+    Old Turkic script looks like German's Runic script, so some called it
+Turkic-Runic script(Table-4: “Iski Türk Yazitlari”, Yusayin Namiq Orqun, Türkiye,
+Istanbul )
+
+    In addition to be used in Turkic kingdom and Uygur kingdom, the script also is
+used in Khalkhas that live in Yenisey river, so some called it Kok Turk script(or
+old turk)(Table-3),the script of prior to Moslem or Siberia script.
+C.E.Malob summarize and listed all Orkhun characters in Table-1 , Publishede in
+Moskua, Linningrade,in 1951.
+
+   The earliest known examples of writing in any Turkic language were found in
+the Orkhon river valley in Mongolia in the 19th century. They date from the early
+8th century AD and the script in which they are written is known as the Orkhon
+alphabet. Inscriptions dating from the later 8th century AD in a slight variant of
+the Orkhon alphabet, known as Yenisei or Siberian runes, have also been found
+around Yenisei and other parts of Siberia.
+
+    The monuments of Kultigin and Bilge Kagan, situated near the
+   Kosho-Tsaydam lake in the Orhun River valley to the south of the Lake Baykal.
+
+    (The Runestones of Bilge Kagan(735 Christ) and Kultigin (732 Christ) found
+in Hoshu-Saydam in the Orkhun River,in Mungolier,1889.)
+
+    and that of Sage Tonyukuk, the Deputy-Khan a little farther, are the three
+important memorials which make up what is known in general as the Orhun
+Monuments. The inscription used on them consists 38 characters.
+
+    The Runestones of Qurin(686-687 Christ) found in near the Olanbatur city
+in Mungolier ,situate Qurin, 1971.
+
+    Numerous stone monuments are also found around the Yenisei River,
+       These Runestones are very important material for
+
+  study history, economic, culture and language of Turkic
+
+                                                                                                                                                                3
+  kingdom and Uygur kingdom.
+   2. The Uyghur Orkhun script structure
+    Old Turkic script is a script which is complex of phoneme and syllable. (Perstak
+of German put forward a view that it is a complete syllable letters). It is to say that
+this script is not depend on phoneme (one sign represent one consonant or one
+vowel) and not depend on syllable letters (one sign represent one syllable).It
+has38-40(it has a different count that had been fond Runestore) letters. There are
+
+                         four vowels in it and all the others are consonant.
+
+    Some consonants have two forms, one of which was used with front vowels, the
+
+    other with back vowels.
+   The eight vowel sounds of Turkish, are represented in couples by 4 marks, and
+they are usually not employed in the beginning and the middle syllables of a word,
+but are shown in the last syllable, or if they occur at the end. For example:
+
+a ferocious bull, or a fire-breathing dragon.
+
+The "god", or "a deity".
+
+                                                                                                                                                 4
+     The Old Turkic letter were usually written from right to left, Some time
+written on sticks in boustrophedon style (alternating direction right to left then left
+to right). The runes include separate letters The sign (:) used to set off word and
+word. sometimes a phrase (mostly attributive,attributive phrase) represent one
+word .
+
+ 3. Characters and Variants
+
+    Experts discussion and summarized on the origins of the Orkhun scripts it has
+42 Characters, include some variants(Yenisey scripts) totally 71 letters(Table -5) .
+Suche as the shown in Tables 1-4, some characters have the different forms of the
+lettera, som have not. For example character [A / Ə] for the Orkhun script as the
+table 3,4, have different forms(variants) in the Yensey script as the table 3,4,
+atc. Those variants should be separately encoded and handled as font variants of
+given character.
+ Table 1,2 listed on togerther for Orkhun and Yensay scripts .
+
+ 4. Chart and Nameslist
+
+      There has been held many meetings to discuss the over four std Old Turkic
+alphabet following Table-1 to Table-4(page 10—13), and the experts finaly made
+the common and representative std Old Turkic alphabet. The Old Turkic alphabet
+has been settled to include 71 letters by discussions which hold experts.
+
+୩ ୪ ୫ AE  ‫ﯪ‬      ஋஌  NE   2╛
+                          1┰
+୬୭  I ( Ï ) ‫ﯶ\ﯹ‬  ஍எ  RA   2┰
+                          1╓
+̲ ୮ OU    ‫ﯮ\ﯰ‬    ஏ   RE   2╓
+                          1┴
+୰ ̳ ୯ OE,UE ‫ﯲ\ﯴ‬  ஐ   LA   2┴
+                          ‫پ‬
+ୱ   KA    ‫ﻕ‬      ஒ   LE
+                          ‫╝ﻲ‬
+୲ ୳ KI    1‫ﻕ‬     ஓ   SA
+                          2‫ڭ‬
+୵ ୴ KO    2‫ﻕ‬     ஔ   SE   ╗
+                          ‫چ‬
+୶ ͽ KE    1‫ﻙ‬     க   P    1‫چ‬
+                          ┸
+୷୸  KOE   2‫ﻙ‬     ஖஗  NY   ┲
+
+୹ ୺ GA    ‫گ‬      ஘ங  NG   ┙╕
+
+ͼ ୻ ୼ GE  ‫ﻍ‬      ச̸  M             5
+
+୽ ୾ TA    1┘     ஛   CH
+
+୿   TE    2┘     ஝   ICH
+
+஀ ஁ DA    1 ┬ ஞ ட ̴ SH
+
+ஂ   DE    2┬     ஠஡  Z
+
+ஃ   BA    1┐     ஢   LT
+஄ அ ͻ BE  2 ┐ ண த ̯̰̱ NT                                 ┙╝
+
+ஆ  YA     1‫ﻱ‬  ஥͜                                    NCH  ┥╝
+
+ஈ  YE     2‫ﻱ‬  ஧                                     RT   ┘┰
+
+ஊ  NA     1╛
+
+Table-5: the basic set of Uyghur Orkhun characters
+
+There are basically two sets of characters that need encoding ,a set of basic Orkhun
+letters, and a somewhat different set of letters used in the Yenisey inscriptions,as
+can be seen from tables 3 and 4.We should encode one character for each of the
+basic Orkhun letters,unifying non-significant glphy variants, and that we should
+also encode a Yenisey form of the characters.
+We have shown a list of the basic set of 42 Old Turkic Orkhun characters, and 29
+Old Turkic Yenisey characters,,totally 71 characters, We have been apply them to
+ISO-10646:
+
+   We propose the following Code Table includes letters, name pronunciation and code
+
+number for Old Turkic letters, from U+10C00 to U+10C4F in ISO-10646:
+
+                                                             6
+7
+8
+Old Turkic.ttf
+
+ 5. Old Turkic alphabet:
+
+   We had verified all Uyghur Orkhun characters many times, selected four basic
+Old Turkic alphabet tables and shown them such as follow:
+
+                                                                                                                                                 9
+Table-1: «Памятники Древнитюркской Письменности», С.Е.Малов, 1951-года, Москва, Лен
+инград.
+
+                                                                                                                                                       10
+Orkhun-Yeniséy Alphabet
+
+            Table-2
+
+                                                                                                        11
+Old Türk (Orkhun) Alphabet
+
+              Table-3
+
+                                                                                                           12
+Table-4: “Iski Türk Yazitlari”, Yusayin Namiq Orqun, Türkiye, Istanbul
+
+                                                                                                                                                  13
+Links
+
+G.J.Ramstedr ：“Zwei Uyghurische Rune—inschriften in the North Mongolei.JSFOU,
+xxx,3.1013”
+S.I．Malof：The Old Turuk monuments for Mongole and Kherghiz pepoles
+Husuyin Namiq Orkghun: “The Old Turuk monuments”(Eski turuk Yaziklari, 1936
+Details of ancient Turkic languages and alphabets (in English and Russian)
+http://www.turkicworld.org/
+Speculations on connections between Turkic runes and other runic alphabets
+http://www.antalya-ws.com/futhark/FUTHP2E.HTM
+
+Reference:
+
+      Because of a superficial resemblance to the Orkhon or Turkic runes is probably a
+result of the writing materials used - most inscriptions are in hard surfaces, such as stone
+or wood, and curved lines are difficult to inscribe in such surfaces.
+
+      By the 9th century AD, the Orkhon and Yenisei alphabets were replaced by the Uighur
+alphabet, which developed from the cursive version of the Sogdian script. Written mainly
+from right to left in horizontal lines, though some inscriptions are written vertically with
+the letters rotated by 90°. When written vertically, it read from bottom to top and right to
+left.
+
+      The Orhun monuments were discovered by a Swedish officer named Strahlenberg,
+and his finding was made known by publications in 1730. In 1893, the Danish scholar
+Thomsen was able to decipher these inscriptions and declare that they were written in
+Turkish.The monuments of Kultigin and Bilge Kagan, situated near the
+Kosho-Tsaydam lake in the Orhun River valley to the south of the Lake Baykal, and that of
+Sage Tonyukuk, the Deputy-Khan a little farther, are the three important memorials
+which make up what is known in general as the Orhun Monuments. The inscription used
+on them consists above 38 characters. Numerous stone monuments are also found around
+the Yenisei River,
+
+                                                                                                                                                               14
+15
+      The Europen scholars have come to recognize from the very beginning the obvious
+similarity between the character forms of the Primitive Norse stones and those of the
+C.Asian Gokturk monuments, but for certain various reasons have refrained from tackling
+this point by denying all kinds of plausible relations. All throughout the period of 160 years
+that elapsed between the years of 1730 and 1893, that is between the discovery of Orhun
+monuments and their definitely final decipherment, fanciful theories were fabricated about
+the Vikings' (or Indo-Germans', or Celts', or Goths') prehistoric emigrations into C.Asia,
+and the erection of Orhun stones as landmarks of their presence and civilization dating
+back to several thousands of years BC in that region. Only when in 1893, it was understood
+that these inscriptions were not written in any other tongue but pure Turkish, then those
+fanciful theories were discarded, and the proposed pre-historic datings were revised to be
+not earlier than AD 700. Even today, a number of academicians are still straining at
+finding a Sogdian, Persian or Aramaic origin for Turkish inscriptions, but their efforts at
+proving their claims all end in vain. A casual comparision of ancient scripts is all needed to
+see that the characters used in Orhun monuments are more identical with the futhark than
+any of those alleged originals. Besides this close resemblance, it is an exciting fact that the
+Primitive Norse runes declared to have ambiguous contexts can be rendered
+meaningfully when they are exposed to our novel method of read-ing ancient Turkish
+scripts. The ancient Turkish script used in Central Asia and the Primitive Norse futhark in
+Europe,
+
+                                                                                                                                                               16
+   The shape of the letters were mainly influenced by the fact that the row was
+heading from right to left. They used the vowels very rarely and when they did they did it
+only for the long ones. This shows the relation to the Arabic style (Semite writing
+family...). The Turks extended their empire to the Black Sea, where new nations formed
+
+    with their lands: the Kaganat Kazaks and the Western Turks. The two (1. & 2.) drawings
+
+bellow show us two Turkish runic scripts:
+
+fig. 1  fig. 2
+
+                                                         17
+      The words "ír (to write)" and "betű (letter)" are of Turkish origin and tell us a lot about
+the Magyar runic scripts. Hopefully the, these days excavations at Etelköz, Transylvania
+will prove that our ancestors didn't forget the letters brought from the Kazaks. more and
+more memories appear from the ancient Kazak Empire's land. The Szekler writing style is
+a generally used writing skill between the pagan Magyars, which was destroyed by the
+Christianity, but remained between the separately and independent organized Szeklers."
+The Runestones of Qurin(686-687 Christ) found in near the Olanbatur city in
+
+    Mungolier ,situate Qurin, 1971 . The Qurin Runestones and some other Old
+    Orkhun material show in bellow：
+
+                                                                                                                                                               18
+19
+20
+21
+22
+23
+24
+       Links
+Reading the Runes - The Hungarian Quarterly (in English)
+http://www.hungarianquarterly.com/no157/080.html
+Information about Hungarian Runes (in Hungarian)
+http://www.solyommadar.hu/
+http://www.pararadio.hu/010326_196/rovas.html
+Kensington Runestone Information and Analysis - by Mike Zalar
+Books
+Blegen, Theodore C.: Kensington Rune Stone : New Light on an Old Riddle . Minnesota Historical
+Society, 1960, ISBN=0873510445.
+Hall, Robert Anderson: The Kensington Rune-Stone is Genuine , Linguistic, Practical,
+Methodological Considerations. Hornbeam Press, ISBN=0917496213.
+Reiergord, Thomas: The Kensington Rune Stone: Its Place in History. Pogo Pr;, 2001.
+ISBN=1880654245. The language used on the rune stone is the same as the vernacular on
+historical legal documents written between 1355 and 1375.
+
+                                                                                                                                                               25
+

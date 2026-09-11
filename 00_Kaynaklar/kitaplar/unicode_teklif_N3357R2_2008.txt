@@ -1,0 +1,500 @@
+PROVENANS: ISO/IEC JTC1/SC2/WG2 N3357R2 / L2/08-071 (2008-01-25): Old Turkic revised proposal — Orhon/Yenisey varyantları, ligatürler. (Koleksiyonda 'unicode.pdf')
+Kaynak dosya: C:/Users/pc/Downloads/Göktürkçe_PDF_Koleksiyonu/Göktürkçe Eğitimi/unicode.pdf
+Çıkarım: pdftotext -layout, 2026-09-11, Claude Code. Sayfa sınırları form-feed ile korunur.
+================================================================================
+
+                                                ISO/IEC JTC1/SC2/WG2 N3357R2
+
+                                                                                                 L2/08-071
+
+                                                                                                                  2008-01-25
+                                   Universal Multiple-Octet Coded Character Set
+                                    International Organization for Standardization
+                                    Organisation Internationale de Normalisation
+                                 Международная организация по стандартизации
+
+Doc Type: Working Group Document
+Title: Proposal for encoding the Old Turkic script in the SMP of the UCS
+Source: China, Ireland, the UK, and UC Berkeley Script Encoding Initiative
+
+              (Universal Scripts Project)
+Status: National Body and Liaison Contribution
+Action: For consideration by JTC1/SC2/WG2 and UTC
+Date: 2008-01-25
+
+Introduction. The Old Turkic script has its roots in the Aramaic script, probably via the scripts which
+developed for Iranian languages. It was used in a wide area stretching across the grasslands of Mongolia,
+in particular concentrated near the Orkhon River in Mongolia and the Yenisei River in Siberia. Old
+Turkic script appears to have been put to widespread and popular use for grave stelae, border signs or
+graffiti of all sorts in hundreds of inscriptions in South Siberia. When, around 700 CE, the Türk founded
+their empire in Mongolia (which went on to conquer a vast area between China and present day
+Turkmenistan, all the way down to Afghanistan in the South and the Urals in the North), they needed a
+national script for their national monuments. The script has a number of names, which can be rendered in
+English as Old Turkic, Turkic Runiform, Turkic Runes, Orkhon, Yenisei. In Turkish it is sometimes
+called Kök Turki ‘Old Turkic’. Resemblances to Germanic Runes are entirely superficial and accidental.
+
+The texts found in the Orkhon River valley in the 19th century are the earliest-known examples of
+writing in any Turkic language. The Orkhon inscriptions date from the early 8th century CE. The
+inscriptions on the bank of the Orkhon river were the first to be deciphered because they are bilingual
+with Chinese. There are no more than 6 or 7 of them. About 50 years later the Uighur empire replaced the
+Türk empire, and its rulers also put up some stelae, even fewer in number, this time along the (nearby)
+river Selenge (also in Mongolia). Later inscriptions dating from the later 8th century occur in a variant of
+the script alphabet, known as Yenisei or Siberian runes, have also been found around Yenisei and other
+parts of Siberia. Old Turkic is used to write Iranian text in a few manuscripts.
+
+Structure. Old Turkic writing is more-or-less alphabetic, and is inscribed from right to left in rows
+running from bottom to top. Modern editors use right-to-left directionality but usually set their text in
+rows running from top to bottom. (Boustrophedon writing is not unknown, though it is rather rare. When
+the writing changes direction, the letter shapes are mirrored. This happens regardless of the character’s
+base shape; Ä U+10C00 ORKHON A appears as Å when written in boustrophedon, and Å U+10C01 YENISEI
+A appears as Ä.)
+
+Describing Old Turkic as “more-or-less alphabetic” is more-or-less accurate. Consonants have a sort of
+implicit vowel associated with them; the vowel precedes as in the character names here. It also happens
+that a vowel after a letter is also implicit. But that only happens because it is implicit with reference to
+the next consonant letter. If there is no next consonant letter, that is, if the word ends in a vowel, it always
+is explicit. This fact is supported also by characters which appear to be ideograms: ‘arrow’ is /ok/ in Old
+Turkic, and the characters ∂ U+10C36 ORKHON OQ and ∑ U+10C37 YENISEI OQ have arrow shapes. /ay/ is
+‘moon’, and ñ U+10C16 ORKHON AY looks like one; /äb/ means ‘home, tent’ and ã U+10C0B ORKHON AEB
+
+                                                                                                                              1
+and å U+10C0C YENISEI AEB have a tent shape (evidently very similar to the actual tents used in the
+area).
+
+All of this affects reading and orthography, not processing, however. Initial and medial vowels are often
+not explicitly written, though in final syllables they often are; compare ∞çâ¡ ÇĞBT ← reversed as ATABAĞEÇ
+otbog˘ aç ‘a ferocious bull, a fire-breathing dragon’ and É∫´√ IRŊT ← reversed as ÄTAŊÄRI tengri ‘deity’.
+Character set and naming convention. The set of characters proposed here includes both Orkhon and
+Yenisei “variants”. Old Turkic orthographies vary and there is overlap between the letters used in
+different areas, just as there are letters shared between Orkhon and Yenisei. In the character names,
+ORKHON is applied to letters typically found in the Orkhon area, and YENISEI to letters typically found in
+the Yenisei area, and those names do not imply more than that. Non-significant glyph variants have been
+unified. The possibility of treating Orkhon and Yenisei characters as font-dependent (which would reduce
+the number of characters from 71 to 46) has been explored but rejected, as the distribution of the forms
+cannot simply be predicted by the provenance of an inscription. The proposed encoding is favoured by
+experts both in China and in Europe and permits a comprehensive representation of texts of all kinds.
+
+While some consonants are neutral, others are associated with either front or back vowels. In von
+Gabain’s transcription, L1 is written for back-vowel consonants, L2 for front-vowel consonants, and L0
+for neutral consonants (the example ∞çâ¡ and É∫´√ above could be transliterated as T1B1Ğ1Ç0 and T1Ŋ1R2I).
+The naming convention here writes A in front of L1 consonants, AE (for ä) in front of L2 consonants, and
+E in front of neutral consonants. There are also I consonants, and O is used to represent some consonants
+which are either o or u; two vowel letters have the name OE which similarly represents ö or ü. All of this
+is indicative of the strength of the feature of vowel harmony in Turkic languages.
+
+Ordering. The order of the characters in the code charts is indicative of their alphabetical order.
+However, since the character model for Old Turkic supports a superset of characters used in different
+geographic areas, about half the characters are sorted together at the first level and only differentiated for
+tie-breaking. This ensures that a word like ∞çâ¡, which could also be written ±éä¬ (using all of the
+Yenisei letters), can be found in one place in a word-list. Superscript y in the list below identifies the
+Yenisei letters.
+
+                  Ä a << Å ay < Ç ä < É i << Ñ iy < Ö e < Ü o < á ö << à öy <
+   â ab << ä aby < ã äb << å äby < ç ag << é agy < è äg << ê ägy < ë ad << í ady < ì äd <
+
+            î ez << ï ezy < ñ ay << ó ayy < ò äy << ô äyy < ö äk << õ äky < ú ok <
+     ù al << û aly < ü äl < † elt < ° em < ¢ an < £ än << § äny < • ent < ¶ enc << ß ency <
+
+           ® eñ << © eñy < ™ aŋ < ´ eŋ << ¨ eŋy < ≠ ep < Æ op < Ø ic < ∞ ec << ± ecy <
+            ≤ aq << ≥ aqy < ¥ iq << μ iqy < ∂ oq << ∑ oqy < ∏ ar << π ary < ∫ är <
+   ª as < º äs < Ω aš << æ ašy < ø eš << ¿ ešy < ¡ at << ¬ aty < √ ät << ƒ äty < ≈ ot < Δ baš
+
+Punctuation. The character U+205A TWO DOT PUNCTUATION is used for a variety of purposes. The actual
+appearance of this varies in different manuscripts and editions. Many instances of this use a much tighter
+form of the punctuation, with the dots closer together, as in Figures 3 and 12. The character U+2E30 RING
+POINT is sometimes used as a separator just as U+205A TWO DOT PUNCTUATION is, as in Figure 9.
+
+Unicode Character Properties
+
+10C00;OLD TURKIC LETTER ORKHON A;Lo;0;R;;;;;N;;;;;
+10C01;OLD TURKIC LETTER YENISEI A;Lo;0;R;;;;;N;;;;;
+10C02;OLD TURKIC LETTER YENISEI AE;Lo;0;R;;;;;N;;;;;
+10C03;OLD TURKIC LETTER ORKHON I;Lo;0;R;;;;;N;;;;;
+10C04;OLD TURKIC LETTER YENISEI I;Lo;0;R;;;;;N;;;;;
+10C05;OLD TURKIC LETTER YENISEI E;Lo;0;R;;;;;N;;;;;
+10C06;OLD TURKIC LETTER ORKHON O;Lo;0;R;;;;;N;;;;;
+10C07;OLD TURKIC LETTER ORKHON OE;Lo;0;R;;;;;N;;;;;
+
+                                                                                                                              2
+10C08;OLD TURKIC LETTER YENISEI OE;Lo;0;R;;;;;N;;;;;
+10C09;OLD TURKIC LETTER ORKHON AB;Lo;0;R;;;;;N;;;;;
+10C0A;OLD TURKIC LETTER YENISEI AB;Lo;0;R;;;;;N;;;;;
+10C0B;OLD TURKIC LETTER ORKHON AEB;Lo;0;R;;;;;N;;;;;
+10C0C;OLD TURKIC LETTER YENISEI AEB;Lo;0;R;;;;;N;;;;;
+10C0D;OLD TURKIC LETTER ORKHON AG;Lo;0;R;;;;;N;;;;;
+10C0E;OLD TURKIC LETTER YENISEI AG;Lo;0;R;;;;;N;;;;;
+10C0F;OLD TURKIC LETTER ORKHON AEG;Lo;0;R;;;;;N;;;;;
+10C10;OLD TURKIC LETTER YENISEI AEG;Lo;0;R;;;;;N;;;;;
+10C11;OLD TURKIC LETTER ORKHON AD;Lo;0;R;;;;;N;;;;;
+10C12;OLD TURKIC LETTER YENISEI AD;Lo;0;R;;;;;N;;;;;
+10C13;OLD TURKIC LETTER ORKHON AED;Lo;0;R;;;;;N;;;;;
+10C14;OLD TURKIC LETTER ORKHON EZ;Lo;0;R;;;;;N;;;;;
+10C15;OLD TURKIC LETTER YENISEI EZ;Lo;0;R;;;;;N;;;;;
+10C16;OLD TURKIC LETTER ORKHON AY;Lo;0;R;;;;;N;;;;;
+10C17;OLD TURKIC LETTER YENISEI AY;Lo;0;R;;;;;N;;;;;
+10C18;OLD TURKIC LETTER ORKHON AEY;Lo;0;R;;;;;N;;;;;
+10C19;OLD TURKIC LETTER YENISEI AEY;Lo;0;R;;;;;N;;;;;
+10C1A;OLD TURKIC LETTER ORKHON AEK;Lo;0;R;;;;;N;;;;;
+10C1B;OLD TURKIC LETTER YENISEI AEK;Lo;0;R;;;;;N;;;;;
+10C1C;OLD TURKIC LETTER ORKHON OK;Lo;0;R;;;;;N;;;;;
+10C1D;OLD TURKIC LETTER ORKHON AL;Lo;0;R;;;;;N;;;;;
+10C1E;OLD TURKIC LETTER YENISEI AL;Lo;0;R;;;;;N;;;;;
+10C1F;OLD TURKIC LETTER ORKHON AEL;Lo;0;R;;;;;N;;;;;
+10C20;OLD TURKIC LETTER ORKHON ELT;Lo;0;R;;;;;N;;;;;
+10C21;OLD TURKIC LETTER ORKHON EM;Lo;0;R;;;;;N;;;;;
+10C22;OLD TURKIC LETTER YENISEI AN;Lo;0;R;;;;;N;;;;;
+10C23;OLD TURKIC LETTER ORKHON AEN;Lo;0;R;;;;;N;;;;;
+10C24;OLD TURKIC LETTER YENISEI AEN;Lo;0;R;;;;;N;;;;;
+10C25;OLD TURKIC LETTER ORKHON ENT;Lo;0;R;;;;;N;;;;;
+10C26;OLD TURKIC LETTER ORKHON ENC;Lo;0;R;;;;;N;;;;;
+10C27;OLD TURKIC LETTER YENISEI ENC;Lo;0;R;;;;;N;;;;;
+10C28;OLD TURKIC LETTER ORKHON ENY;Lo;0;R;;;;;N;;;;;
+10C29;OLD TURKIC LETTER YENISEI ENY;Lo;0;R;;;;;N;;;;;
+10C2A;OLD TURKIC LETTER YENISEI ANG;Lo;0;R;;;;;N;;;;;
+10C2B;OLD TURKIC LETTER ORKHON ENG;Lo;0;R;;;;;N;;;;;
+10C2C;OLD TURKIC LETTER YENISEI ENG;Lo;0;R;;;;;N;;;;;
+10C2D;OLD TURKIC LETTER ORKHON EP;Lo;0;R;;;;;N;;;;;
+10C2E;OLD TURKIC LETTER ORKHON OC;Lo;0;R;;;;;N;;;;;
+10C2F;OLD TURKIC LETTER ORKHON IC;Lo;0;R;;;;;N;;;;;
+10C30;OLD TURKIC LETTER ORKHON EC;Lo;0;R;;;;;N;;;;;
+10C31;OLD TURKIC LETTER YENISEI EC;Lo;0;R;;;;;N;;;;;
+10C32;OLD TURKIC LETTER ORKHON AQ;Lo;0;R;;;;;N;;;;;
+10C33;OLD TURKIC LETTER YENISEI AQ;Lo;0;R;;;;;N;;;;;
+10C34;OLD TURKIC LETTER ORKHON IQ;Lo;0;R;;;;;N;;;;;
+10C35;OLD TURKIC LETTER YENISEI IQ;Lo;0;R;;;;;N;;;;;
+10C36;OLD TURKIC LETTER ORKHON OQ;Lo;0;R;;;;;N;;;;;
+10C37;OLD TURKIC LETTER YENISEI OQ;Lo;0;R;;;;;N;;;;;
+10C38;OLD TURKIC LETTER ORKHON AR;Lo;0;R;;;;;N;;;;;
+10C39;OLD TURKIC LETTER YENISEI AR;Lo;0;R;;;;;N;;;;;
+10C3A;OLD TURKIC LETTER ORKHON AER;Lo;0;R;;;;;N;;;;;
+10C3B;OLD TURKIC LETTER ORKHON AS;Lo;0;R;;;;;N;;;;;
+10C3C;OLD TURKIC LETTER ORKHON AES;Lo;0;R;;;;;N;;;;;
+10C3D;OLD TURKIC LETTER ORKHON ASH;Lo;0;R;;;;;N;;;;;
+10C3E;OLD TURKIC LETTER YENISEI ASH;Lo;0;R;;;;;N;;;;;
+10C3F;OLD TURKIC LETTER ORKHON ESH;Lo;0;R;;;;;N;;;;;
+10C40;OLD TURKIC LETTER YENISEI ESH;Lo;0;R;;;;;N;;;;;
+10C41;OLD TURKIC LETTER ORKHON AT;Lo;0;R;;;;;N;;;;;
+10C42;OLD TURKIC LETTER YENISEI AT;Lo;0;R;;;;;N;;;;;
+10C43;OLD TURKIC LETTER ORKHON AET;Lo;0;R;;;;;N;;;;;
+10C44;OLD TURKIC LETTER YENISEI AET;Lo;0;R;;;;;N;;;;;
+10C45;OLD TURKIC LETTER ORKHON OT;Lo;0;R;;;;;N;;;;;
+10C46;OLD TURKIC LETTER ORKHON BASH;Lo;0;R;;;;;N;;;;;
+
+Bibliography
+
+Erdal, Marcel. 2004. A grammar of Old Turkic. Leiden & Boston: Brill.
+
+Faulmann, Carl. 1990 (1880). Das Buch der Schrift. Frankfurt am Main: Eichborn. ISBN 3-8218-1720-8
+
+Kara, György. 1996. “Aramaic scripts for Altaic languages”, in Peter T. Daniels and William Bright, eds.
+
+  The world’s writing systems. New York; Oxford: Oxford University Press. ISBN 0-19-507993-0
+
+Róna-Tas, A. 1991. An introduction to Turkology. Szeged.
+
+Scharlipp, Wolfgang Ekkehard. 2000. Eski Türk run yazıtlarına giris¸: ders kitabı = An introduction to the
+
+  Old Turkish Runic inscriptions: A textbook in English and Turkish. Engelschoff: Auf dem Ruffel. ISBN
+
+  3-933847-00-X
+                                                                                                                              3
+Tekin, Talât. [1968]. A grammar of Orkhon Turkic. Bloomington: Indiana University.
+von Gabain, A. 1941. Alttürkische Grammatik mit Bibliographie, Lesestücken und Wörterverzeichnis,
+
+  auch Neutürkisch. Mit vier Schrifttafeln und sieben Schriftproben. (Porta Linguarum Orientalium; 23)
+  Leipzig: Otto Harrassowitz.
+Малов, С.Е. 1951, Памятники Древнитюркской Письменности, Москва & Ленинград.
+10. Acknowledgements. This project was made possible in part by a grant from the U.S. National
+Endowment for the Humanities, which funded the Script Encoding Initiative in respect of the Old Turkic
+encoding. Any views, findings, conclusions or recommendations expressed in this publication do not
+necessarily reflect those of the National Endowment of the Humanities.
+Figures
+
+                              Figure 1a. Table of Old Turkic letters, from Tekin1968.
+                                                                                                                              4
+Figure 1b. Table of Old Turkic letters, from Tekin1968.
+                                                                                                5
+Figure 1c. Notes on additional Old Turkic letters, from Tekin1968.
+                                                                                                       6
+Figure 2. Table of Old Turkic letters in Orkhon and Yenisei, taken from von Gabain 1941. This summary
+   table is the source for the inherent vowel quality taken for the character names. It contains all of the
+                                               characters in the proposal.
+
+                                                                                                                              7
+Figure 3. Sample of Old Turkic text from a manuscript, taken from von Gabain 1941.
+                             Figure 4. Sample of Old Turkic text.
+                                                                                                                  8
+Figure 5. Table of Old Turkic characters from an Uighur source.
+                                                                                                     9
+Figure 6. Table of Old Turkic characters from an Uighur source.
+                                                                                                   10
+Figure 7. Table of Old Turkic letters showing Orkhon and Yenisei varieties, from “Iski Türk Yazitlari”,
+                                          Yusayin Namiq Orqun, Istanbul.
+
+                                                                                                                           11
+Figure 8. Table of the “Old Turkic Runic Alphabet”, from Малов 1951.
+                                                                                                        12
+         Figure 9. An Old Turkic manuscript.
+
+Figure 10. Monument with an Old Turkic inscription
+                                                                                             13
+Figure 11. Old Turkic monuments.
+                                                                                  14
+Figure 12. An Old Turkic manuscript.
+                                                                                    15
+Figure 13. Selections from several different editions of Old Turkic texts.
+                                                                                                        16
+A. Administrative
+
+1. Title
+Proposal for encoding the Old Turkic script in the BMP of the UCS
+2. Requester’s name
+China, Ireland, the UK, and UC Berkeley Script Encoding Initiative (Universal Scripts Project)
+3. Requester type (Member body/Liaison/Individual contribution)
+National Body and Liaison contribution.
+4. Submission date
+2008-01-25
+5. Requester’s reference (if applicable)
+6. Choose one of the following:
+6a. This is a complete proposal
+No.
+6b. More information will be provided later
+Yes.
+
+B. Technical – General
+
+1. Choose one of the following:
+1a. This proposal is for a new script (set of characters)
+Yes.
+1b. Proposed name of script
+Old Turkic.
+1c. The proposal is for addition of character(s) to an existing block
+No.
+1d. Name of the existing block
+2. Number of characters in proposal
+71.
+3. Proposed category (A-Contemporary; B.1-Specialized (small collection); B.2-Specialized (large collection); C-Major extinct; D-Attested
+extinct; E-Minor extinct; F-Archaic Hieroglyphic or Ideographic; G-Obscure or questionable usage symbols)
+Category E.
+4a. Is a repertoire including character names provided?
+Yes.
+4b. If YES, are the names in accordance with the “character naming guidelines” in Annex L of P&P document?
+Yes.
+4c. Are the character shapes attached in a legible form suitable for review?
+Yes.
+5a. Who will provide the appropriate computerized font (ordered preference: True Type, or PostScript format) for publishing the standard?
+Wushour Silamu and Michael Everson.
+5b. If available now, identify source(s) for the font (include address, e-mail, ftp-site, etc.) and indicate the tools used:
+Wushour Silamu and Michael Everson, Fontographer.
+6a. Are references (to other character sets, dictionaries, descriptive texts etc.) provided?
+Yes.
+6b. Are published examples of use (such as samples from newspapers, magazines, or other sources) of proposed characters attached?
+Yes.
+7. Does the proposal address other aspects of character data processing (if applicable) such as input, presentation, sorting, searching,
+indexing, transliteration etc. (if yes please enclose information)?
+Yes.
+8. Submitters are invited to provide any additional information about Properties of the proposed Character(s) or Script that will assist in
+correct understanding of and correct linguistic processing of the proposed character(s) or script. Examples of such properties are: Casing
+information, Numeric information, Currency information, Display behaviour information such as line breaks, widths etc., Combining
+behaviour, Spacing behaviour, Directional behaviour, Default Collation behaviour, relevance in Mark Up contexts, Compatibility
+equivalence and other Unicode normalization related information. See the Unicode standard at http://www.unicode.org for such information
+on other scripts. Also see Unicode Character Database http://www.unicode.org/Public/UNIDATA/UnicodeCharacterDatabase.html and
+associated Unicode Technical Reports for information needed for consideration by the Unicode Technical Committee for inclusion in the
+Unicode Standard.
+See above.
+
+C. Technical – Justification
+
+1. Has this proposal for addition of character(s) been submitted before? If YES, explain.
+No.
+2a. Has contact been made to members of the user community (for example: National Body, user groups of the script or characters, other
+experts, etc.)?
+Yes.
+2b. If YES, with whom?
+Experts at Xinjiang University and Xinjiang Museum in China, Marcel Erdal (France), Mehmet Olmez (Turkey)
+2c. If YES, available relevant documents
+3. Information on the user community for the proposed characters (for example: size, demographics, information technology use, or
+publishing use) is included?
+Turkologists and other scholars.
+
+                                                                                                                            17
+4a. The context of use for the proposed characters (type of use; common or rare)
+Rare; historical use.
+4b. Reference
+5a. Are the proposed characters in current use by the user community?
+Yes.
+5b. If YES, where?
+Scholarly and popular publications.
+6a. After giving due considerations to the principles in the P&P document must the proposed characters be entirely in the BMP?
+No.
+6b. If YES, is a rationale provided?
+6c. If YES, reference
+7. Should the proposed characters be kept together in a contiguous range (rather than being scattered)?
+Yes.
+8a. Can any of the proposed characters be considered a presentation form of an existing character or character sequence?
+No.
+8b. If YES, is a rationale for its inclusion provided?
+8c. If YES, reference
+9a. Can any of the proposed characters be encoded using a composed character sequence of either existing characters or other proposed
+characters?
+No.
+9b. If YES, is a rationale for its inclusion provided?
+9c. If YES, reference
+10a. Can any of the proposed character(s) be considered to be similar (in appearance or function) to an existing character?
+No.
+10b. If YES, is a rationale for its inclusion provided?
+10c. If YES, reference
+11a. Does the proposal include use of combining characters and/or use of composite sequences (see clauses 4.12 and 4.14 in ISO/IEC
+10646-1: 2000)?
+No.
+11b. If YES, is a rationale for such use provided?
+11c. If YES, reference
+11d. Is a list of composite sequences and their corresponding glyph images (graphic symbols) provided?
+No.
+11e. If YES, reference
+12a. Does the proposal contain characters with any special properties such as control function or similar semantics?
+No.
+12b. If YES, describe in detail (include attachment if necessary)
+13a. Does the proposal contain any Ideographic compatibility character(s)?
+No.
+13b. If YES, is the equivalent corresponding unified ideographic character(s) identified?
+
+                                                                                                                            18
+10C00                              Old Turkic                                  10C4F
+
+                                   10C0 10C1 10C2 10C3 10C4                              5
+
+                                   0               10C10  10C20  10C30  10C40
+
+                                            10C00
+
+                                   1               10C11  10C21  10C31  10C41
+
+                                            10C01
+
+                                   2               10C12  10C22  10C32  10C42
+
+                                            10C02
+
+                                   3               10C13  10C23  10C33  10C43
+
+                                            10C03
+
+                                   4               10C14  10C24  10C34  10C44
+
+                                            10C04
+
+                                   5               10C15  10C25  10C35  10C45
+
+                                            10C05
+
+                                   6               10C16  10C26  10C36  10C46
+
+                                            10C06
+
+                                   7               10C17  10C27  10C37
+
+                                            10C07
+
+                                   8               10C18  10C28  10C38
+
+                                            10C08
+
+                                   9               10C19  10C29  10C39
+
+                                            10C09
+
+                                   A               10C1A  10C2A  10C3A
+
+                                            10C0A
+
+                                   B               10C1B  10C2B  10C3B
+
+                                            10C0B
+
+                                   C               10C1C  10C2C  10C3C
+
+                                            10C0C
+
+                                   D               10C1D  10C2D  10C3D
+
+                                            10C0D
+
+                                   E               10C1E  10C2E  10C3E
+
+                                            10C0E
+
+                                   F               10C1F  10C2F  10C3F
+
+                                            10C0F
+
+Printed using UniBook™             Date: 2008-01-25
+(http://www.unicode.org/unibook/)
+10C00                              Old Turkic        10C46
+
+       Vowels                                 10C39  OLD TURKIC LETTER YENISEI AR
+                                              10C3A  OLD TURKIC LETTER ORKHON AER
+       10C00   OLD TURKIC LETTER ORKHON A     10C3B  OLD TURKIC LETTER ORKHON AS
+       10C01   OLD TURKIC LETTER YENISEI A    10C3C  OLD TURKIC LETTER ORKHON AES
+       10C02   OLD TURKIC LETTER YENISEI AE   10C3D  OLD TURKIC LETTER ORKHON ASH
+       10C03   OLD TURKIC LETTER ORKHON I     10C3E  OLD TURKIC LETTER YENISEI ASH
+       10C04   OLD TURKIC LETTER YENISEI I    10C3F  OLD TURKIC LETTER ORKHON ESH
+       10C05   OLD TURKIC LETTER YENISEI E    10C40  OLD TURKIC LETTER YENISEI ESH
+       10C06   OLD TURKIC LETTER ORKHON O     10C41  OLD TURKIC LETTER ORKHON AT
+       10C07   OLD TURKIC LETTER ORKHON OE    10C42  OLD TURKIC LETTER YENISEI AT
+       10C08   OLD TURKIC LETTER YENISEI OE   10C43  OLD TURKIC LETTER ORKHON AET
+                                              10C44  OLD TURKIC LETTER YENISEI AET
+       Consonants                             10C45  OLD TURKIC LETTER ORKHON OT
+                                              10C46  OLD TURKIC LETTER ORKHON BASH
+       10C09   OLD TURKIC LETTER ORKHON AB
+       10C0A   OLD TURKIC LETTER YENISEI AB
+       10C0B   OLD TURKIC LETTER ORKHON AEB
+       10C0C   OLD TURKIC LETTER YENISEI AEB
+       10C0D   OLD TURKIC LETTER ORKHON AG
+       10C0E   OLD TURKIC LETTER YENISEI AG
+       10C0F   OLD TURKIC LETTER ORKHON AEG
+       10C10   OLD TURKIC LETTER YENISEI AEG
+       10C11   OLD TURKIC LETTER ORKHON AD
+       10C12   OLD TURKIC LETTER YENISEI AD
+       10C13   OLD TURKIC LETTER ORKHON AED
+       10C14   OLD TURKIC LETTER ORKHON EZ
+       10C15   OLD TURKIC LETTER YENISEI EZ
+       10C16   OLD TURKIC LETTER ORKHON AY
+       10C17   OLD TURKIC LETTER YENISEI AY
+       10C18   OLD TURKIC LETTER ORKHON AEY
+       10C19   OLD TURKIC LETTER YENISEI AEY
+       10C1A   OLD TURKIC LETTER ORKHON AEK
+       10C1B   OLD TURKIC LETTER YENISEI AEK
+       10C1C   OLD TURKIC LETTER ORKHON OK
+       10C1D   OLD TURKIC LETTER ORKHON AL
+       10C1E   OLD TURKIC LETTER YENISEI AL
+       10C1F   OLD TURKIC LETTER ORKHON AEL
+       10C20   OLD TURKIC LETTER ORKHON ELT
+       10C21   OLD TURKIC LETTER ORKHON EM
+       10C22   OLD TURKIC LETTER ORKHON AN
+       10C23   OLD TURKIC LETTER ORKHON AEN
+       10C24   OLD TURKIC LETTER YENISEI AEN
+       10C25   OLD TURKIC LETTER ORKHON ENT
+       10C26   OLD TURKIC LETTER ORKHON ENC
+       10C27   OLD TURKIC LETTER YENISEI ENC
+       10C28   OLD TURKIC LETTER ORKHON ENY
+       10C29   OLD TURKIC LETTER YENISEI ENY
+       10C2A   OLD TURKIC LETTER YENISEI ANG
+       10C2B   OLD TURKIC LETTER ORKHON ENG
+       10C2C   OLD TURKIC LETTER YENISEI ENG
+       10C2D   OLD TURKIC LETTER ORKHON EP
+       10C2E   OLD TURKIC LETTER ORKHON OP
+       10C2F   OLD TURKIC LETTER ORKHON IC
+       10C30   OLD TURKIC LETTER ORKHON EC
+       10C31   OLD TURKIC LETTER YENISEI EC
+       10C32   OLD TURKIC LETTER ORKHON AQ
+       10C33   OLD TURKIC LETTER YENISEI AQ
+       10C34   OLD TURKIC LETTER ORKHON IQ
+       10C35   OLD TURKIC LETTER YENISEI IQ
+       10C36   OLD TURKIC LETTER ORKHON OQ
+       10C37   OLD TURKIC LETTER YENISEI OQ
+       10C38   OLD TURKIC LETTER ORKHON AR
+
+Printed using UniBook™             Date: 2008-01-25                                 6
+(http://www.unicode.org/unibook/)
+

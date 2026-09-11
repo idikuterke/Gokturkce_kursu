@@ -1,0 +1,190 @@
+PROVENANS: Unicode Standard, Old Turkic Range 10C00–10C4F code chart excerpt (character names list). (Koleksiyonda 'Orhon ve Yenisey Evrensel Kod.pdf'; U10C00.pdf aynı içerik)
+Kaynak dosya: C:/Users/pc/Downloads/Göktürkçe_PDF_Koleksiyonu/Göktürkçe Eğitimi/Orhon ve Yenisey Evrensel Kod.pdf
+Çıkarım: pdftotext -layout, 2026-09-11, Claude Code. Sayfa sınırları form-feed ile korunur.
+================================================================================
+
+Old Turkic
+
+Range: 10C00–10C4F
+
+This file contains an excerpt from the character code tables and list of character names for
+The Unicode Standard, Version 6.0.
+
+This file may be changed at any time without notice to reflect errata or other updates to the Unicode Standard.
+See http://www.unicode.org/errata/ for an up-to-date list of errata.
+
+See http://www.unicode.org/charts/ for access to a complete list of the latest character code charts.
+See http://www.unicode.org/charts/PDF/Unicode-6.0/ for charts showing only the characters added in Unicode 6.0.
+See http://www.unicode.org/Public/6.0.0/charts/ for a complete archived file of character code charts for Unicode 6.0.
+
+Disclaimer
+These charts are provided as the online reference to the character contents of the Unicode Standard, Version 6.0 but do
+not provide all the information needed to fully support individual scripts using the Unicode Standard. For a complete
+understanding of the use of the characters contained in this file, please consult the appropriate sections of The Unicode
+Standard, Version 6.0, online at http://www.unicode.org/versions/Unicode6.0.0/, as well as Unicode Standard Annexes #9,
+#11, #14, #15, #24, #29, #31, #34, #38, #41, #42, and #44, the other Unicode Technical Reports and Standards, and the
+Unicode Character Database, which are available online.
+
+See http://www.unicode.org/ucd/ and http://www.unicode.org/reports/
+
+A thorough understanding of the information contained in these additional sources is required for a successful
+implementation.
+
+Fonts
+The shapes of the reference glyphs used in these code charts are not prescriptive. Considerable variation is to be
+expected in actual fonts. The particular fonts used in these charts were provided to the Unicode Consortium by a number
+of different font designers, who own the rights to the fonts.
+
+See http://www.unicode.org/charts/fonts.html for a list.
+
+Terms of Use
+You may freely use these code charts for personal or internal business uses only. You may not incorporate them either
+wholly or in part into any product or publication, or otherwise distribute them without express written permission from
+the Unicode Consortium. However, you may provide links to these charts.
+
+The fonts and font data used in production of these code charts may NOT be extracted, or used in any other way in any
+product or publication, without permission or license granted by the typeface owner(s).
+
+The Unicode Consortium is not liable for errors or omissions in this file or the standard itself. Information on characters
+added to the Unicode Standard since the publication of the most recent version of the Unicode Standard, as well as on
+characters currently being considered for addition to the Unicode Standard can be found on the Unicode web site.
+
+See http://www.unicode.org/pending/pending.html and http://www.unicode.org/alloc/Pipeline.html.
+
+Copyright © 1991-2010 Unicode, Inc. All rights reserved.
+10C00         Old Turkic                  10C4F
+
+ 1156  10C0 10C1 10C2 10C3 10C4
+
+       0    
+
+       10C00  10C10  10C20  10C30  10C40
+
+       1    
+
+       10C01  10C11  10C21  10C31  10C41
+
+       2    
+
+       10C02  10C12  10C22  10C32  10C42
+
+       3    
+
+       10C03  10C13  10C23  10C33  10C43
+
+       4   
+
+       10C04  10C14  10C24  10C34  10C44
+
+       5  
+
+       10C05  10C15  10C25  10C35  10C45
+
+       6  
+
+       10C06  10C16  10C26  10C36  10C46
+
+       7    
+
+       10C07  10C17  10C27  10C37  10C47
+
+       8   
+
+       10C08  10C18  10C28  10C38  10C48
+
+       9   
+
+       10C09  10C19  10C29  10C39
+
+       A   
+
+       10C0A  10C1A  10C2A  10C3A
+
+       B   
+
+       10C0B  10C1B  10C2B  10C3B
+
+       C   
+
+       10C0C  10C1C  10C2C  10C3C
+
+       D   
+
+       10C0D  10C1D  10C2D  10C3D
+
+       E   
+
+       10C0E  10C1E  10C2E  10C3E
+
+       F   
+
+       10C0F  10C1F  10C2F  10C3F
+
+       The Unicode Standard 6.0, Copyright © 1991-2010 Unicode, Inc. All rights reserved.
+10C00                                   Old Turkic                                  10C48
+
+Vowels                                  10C3B  OLD TURKIC LETTER YENISEI AR
+10C00  OLD TURKIC LETTER ORKHON A      10C3C  OLD TURKIC LETTER ORKHON AER
+10C01  OLD TURKIC LETTER YENISEI A     10C3D  OLD TURKIC LETTER ORKHON AS
+10C02  OLD TURKIC LETTER YENISEI AE    10C3E  OLD TURKIC LETTER ORKHON AES
+10C03  OLD TURKIC LETTER ORKHON I      10C3F  OLD TURKIC LETTER ORKHON ASH
+10C04  OLD TURKIC LETTER YENISEI I     10C40  OLD TURKIC LETTER YENISEI ASH
+10C05  OLD TURKIC LETTER YENISEI E     10C41  OLD TURKIC LETTER ORKHON ESH
+10C06  OLD TURKIC LETTER ORKHON O      10C42  OLD TURKIC LETTER YENISEI ESH
+10C07  OLD TURKIC LETTER ORKHON OE     10C43  OLD TURKIC LETTER ORKHON AT
+10C08  OLD TURKIC LETTER YENISEI OE    10C44  OLD TURKIC LETTER YENISEI AT
+                                        10C45  OLD TURKIC LETTER ORKHON AET
+Consonants                              10C46  OLD TURKIC LETTER YENISEI AET
+10C09  OLD TURKIC LETTER ORKHON AB     10C47  OLD TURKIC LETTER ORKHON OT
+10C0A  OLD TURKIC LETTER YENISEI AB    10C48  OLD TURKIC LETTER ORKHON BASH
+10C0B  OLD TURKIC LETTER ORKHON AEB
+10C0C  OLD TURKIC LETTER YENISEI AEB
+10C0D  OLD TURKIC LETTER ORKHON AG
+10C0E  OLD TURKIC LETTER YENISEI AG
+10C0F  OLD TURKIC LETTER ORKHON AEG
+10C10  OLD TURKIC LETTER YENISEI AEG
+10C11  OLD TURKIC LETTER ORKHON AD
+10C12  OLD TURKIC LETTER YENISEI AD
+10C13  OLD TURKIC LETTER ORKHON AED
+10C14  OLD TURKIC LETTER ORKHON EZ
+10C15  OLD TURKIC LETTER YENISEI EZ
+10C16  OLD TURKIC LETTER ORKHON AY
+10C17  OLD TURKIC LETTER YENISEI AY
+10C18  OLD TURKIC LETTER ORKHON AEY
+10C19  OLD TURKIC LETTER YENISEI AEY
+10C1A  OLD TURKIC LETTER ORKHON AEK
+10C1B  OLD TURKIC LETTER YENISEI AEK
+10C1C  OLD TURKIC LETTER ORKHON OEK
+10C1D  OLD TURKIC LETTER YENISEI OEK
+10C1E  OLD TURKIC LETTER ORKHON AL
+10C1F  OLD TURKIC LETTER YENISEI AL
+10C20  OLD TURKIC LETTER ORKHON AEL
+10C21  OLD TURKIC LETTER ORKHON ELT
+10C22  OLD TURKIC LETTER ORKHON EM
+10C23  OLD TURKIC LETTER ORKHON AN
+10C24  OLD TURKIC LETTER ORKHON AEN
+10C25  OLD TURKIC LETTER YENISEI AEN
+10C26  OLD TURKIC LETTER ORKHON ENT
+10C27  OLD TURKIC LETTER YENISEI ENT
+10C28  OLD TURKIC LETTER ORKHON ENC
+10C29  OLD TURKIC LETTER YENISEI ENC
+10C2A  OLD TURKIC LETTER ORKHON ENY
+10C2B  OLD TURKIC LETTER YENISEI ENY
+10C2C  OLD TURKIC LETTER YENISEI ANG
+10C2D  OLD TURKIC LETTER ORKHON ENG
+10C2E  OLD TURKIC LETTER YENISEI AENG
+10C2F  OLD TURKIC LETTER ORKHON EP
+10C30  OLD TURKIC LETTER ORKHON OP
+10C31  OLD TURKIC LETTER ORKHON IC
+10C32  OLD TURKIC LETTER ORKHON EC
+10C33  OLD TURKIC LETTER YENISEI EC
+10C34  OLD TURKIC LETTER ORKHON AQ
+10C35  OLD TURKIC LETTER YENISEI AQ
+10C36  OLD TURKIC LETTER ORKHON IQ
+10C37  OLD TURKIC LETTER YENISEI IQ
+10C38  OLD TURKIC LETTER ORKHON OQ
+10C39  OLD TURKIC LETTER YENISEI OQ
+10C3A  OLD TURKIC LETTER ORKHON AR
+
+The Unicode Standard 6.0, Copyright © 1991-2010 Unicode, Inc. All rights reserved.  1157
+
