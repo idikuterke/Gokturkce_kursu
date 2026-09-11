@@ -28,7 +28,9 @@ Tarama; metin katmanı YOK. Yöntem: sayfa → PNG (170 dpi, PyMuPDF kurulu) →
 - commit YAPMA. Repo'nun başka hiçbir dosyasına (content/, engine/, 04_PDF/, build/, tekin_otg_2003/, *.md kök) DOKUNMA; npm komutu çalıştırma.
 - Rapor (ILERLEME.md'ye): kurs için önemli görünen imla kuralları, kelime tanıkları, Tekin'den farklı okuyuşlar (kısa madde).
 
-## BÖLÜNME (2026-09-11, kullanıcı kararı)
-- Antigravity: idx 000–282 (ilk yarı). 282'de dur; ILERLEME.md'ye "ilk yarı tamam" yaz.
-- İkinci yarı idx 283–565: başka ajan (Claude Code uygulayıcısı) — daha sonra, acele yok. Aynı kurallar, aynı klasör, aynı biçim.
-- Öncelik: Köktürkçe bölümleri; Uygurca bölümler sonraya (ileride Uygurca kursu için gerekecek).
+## BÖLÜNME (2026-09-11, güncel orkestrasyon kararı)
+- Antigravity: s000–s059 (Parti 1 ve Parti 2, toplam 60 sayfa). s059 tamamlanınca ILERLEME.md'ye "Antigravity etabı tamamlandı (s000-s059)" yazılır.
+- Diğer Ajan(lar) (Claude Code / Harici Ajanlar): s060–s565 (Kalan 506 sayfa, 10 partiye bölünmüş halde).
+- Ayrıntılı diğer ajan briefi için: `00_Kaynaklar/kitaplar/olmez_2017/BRIEF_DIGER_AJAN.md` dosyasına bakınız.
+- Kurallar, format, diyakritikler, dizinler ve kısıtlar tamamen aynıdır.
+
