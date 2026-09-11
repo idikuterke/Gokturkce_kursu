@@ -377,9 +377,10 @@
        "aciklama": "t¹ + A/E ➔ ilk “a” kural gereği düşer, kalın t yazılır, son “a” korunur."
       },
       {
-       "latin": "ete",
-       "runik": "𐱅𐰀",
-       "aciklama": "t² + A/E ➔ ilk “e” düşer, ince t yazılır, son “e” korunur (öğretici örnek; yazıt tanığı yok)."
+       "latin": "eki",
+       "anlam": "iki",
+       "runik": "𐰚𐰃",
+       "aciklama": "k² + I/İ ➔ sözbaşındaki kapalı “e” yazılmaz, ince k yazılır, son “i” korunur (BK D 41; Tekin §7)."
       },
       {
        "latin": "tengri",

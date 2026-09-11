@@ -65,9 +65,10 @@
        "aciklama": "s² + n² ➔ her iki e de düşer."
       },
       {
-       "latin": "atar",
-       "runik": "𐱃𐰺",
-       "aciklama": "t¹ + r¹ ➔ her iki a da düşer (öğretici örnek; yazıt tanığı yok)."
+       "latin": "tabgaç",
+       "anlam": "Çin",
+       "runik": "𐱃𐰉𐰍𐰲",
+       "aciklama": "t¹ + b¹ + g¹ + ç ➔ her iki kısa a da düşer (T 1; Tekin §10)."
       },
       {
        "latin": "er",
@@ -83,7 +84,7 @@
       "slayt"
      ],
      "id": "kural-2",
-     "html": "<h3>Kural 2 — Kelime sonu ünlüsü ASLA düşmez</h3><p class=\"buyuk\">Tasarruf kuralının en büyük istisnası.</p><p>Kelimenin sonundaki bütün ünlüler (a, e, ı, i, o, u, ö, ü) mutlaka yazılır.</p><p><b>koku</b> ➔ <span class=\"runic buyuk\">𐰴𐰸𐰆</span> — sondaki <b>u</b> yazıldı.</p>"
+     "html": "<h3>Kural 2 — Kelime sonu ünlüsü ASLA düşmez</h3><p class=\"buyuk\">Tasarruf kuralının en büyük istisnası.</p><p>Kelimenin sonundaki bütün ünlüler (a, e, ı, i, o, u, ö, ü) mutlaka yazılır.</p><p><b>bayırku</b> (boy adı) ➔ <span class=\"runic buyuk\">𐰉𐰖𐰺𐰸𐰆</span> — sondaki <b>u</b> yazıldı (KT G 4; Tekin §255).</p>"
     },
     {
      "type": "prose",
@@ -176,11 +177,26 @@
     {
      "type": "tamga-grid",
      "targets": [
-      "slayt",
       "baski"
      ],
      "grup": "ligatur",
      "gorunum": "izgara"
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "ligatur-hece",
+     "html": "<h3>Hece Damgaları — Ligatürler (7)</h3><div class=\"izgara\"><div class=\"kart\"><div class=\"tamga runic\">𐰸</div><div class=\"deger\">OK / UK · KO / KU</div><div class=\"ad\">ORKHON OQ</div></div><div class=\"kart\"><div class=\"tamga runic\">𐰜</div><div class=\"deger\">ÖK / ÜK · KÖ / KÜ</div><div class=\"ad\">ORKHON OEK</div></div><div class=\"kart\"><div class=\"tamga runic\">𐰶</div><div class=\"deger\">IK / KI</div><div class=\"ad\">ORKHON IQ</div></div><div class=\"kart\"><div class=\"tamga runic\">𐰱</div><div class=\"deger\">İÇ / Çİ</div><div class=\"ad\">ORKHON IC</div></div><div class=\"kart\"><div class=\"tamga runic\">𐰡</div><div class=\"deger\">LD / LT</div><div class=\"ad\">ORKHON ELT</div></div><div class=\"kart\"><div class=\"tamga runic\">𐰦</div><div class=\"deger\">ND / NT</div><div class=\"ad\">ORKHON ENT</div></div><div class=\"kart\"><div class=\"tamga runic\">𐰨</div><div class=\"deger\">NÇ / NC</div><div class=\"ad\">ORKHON ENC</div></div></div>"
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "ligatur-ozel",
+     "html": "<h3>Özel Hece Damgaları — aş · baş</h3><div class=\"izgara\"><div class=\"kart\"><div class=\"tamga runic\">𐰿</div><div class=\"deger\">aş (hece damgası)</div><div class=\"ad\">ORKHON ASH</div></div><div class=\"kart\"><div class=\"tamga runic\">𐱈</div><div class=\"deger\">baş (hece/kelime damgası)</div><div class=\"ad\">ORKHON BASH</div></div></div><p class=\"not\">Orhun yazıtlarında nadir (Tekin 2003 s. 23). 𐰿 ş sesi için kullanılmaz — ş = 𐱁; Yenisey varyantı U+10C40. 𐱈 Irk Bitig'de ideogram.</p>"
     },
     {
      "type": "ornek-kelime",
@@ -202,9 +218,10 @@
        "aciklama": "Karşılaştır: burada ligatür yok; d¹ + n¹ ayrı yazılır — ND ligatürü (𐰦) yalnız n ve d aynı hecede yan yana gelince."
       },
       {
-       "latin": "koku",
-       "runik": "𐰴𐰸𐰆",
-       "aciklama": "OK/UK ligatürü ikinci hecede: k¹ + OK + u (öğretici örnek; yazıt tanığı yok)."
+       "latin": "bayırku",
+       "anlam": "boy adı",
+       "runik": "𐰉𐰖𐰺𐰸𐰆",
+       "aciklama": "OK/UK ligatürü son hecede: b¹ + y¹ + r¹ + OK + u (KT G 4; Tekin §255 /BYRKU/)."
       }
      ]
     },
@@ -238,9 +255,10 @@
        "hatali": "𐰶𐰡𐰃"
       },
       {
-       "latin": "koku",
-       "runik": "𐰴𐰸𐰆",
-       "aciklama": "Düz kalın k¹ + OK ligatürü + son ünlü u (öğretici örnek; yazıt tanığı yok)."
+       "latin": "bayırku",
+       "anlam": "boy adı",
+       "runik": "𐰉𐰖𐰺𐰸𐰆",
+       "aciklama": "Kelime başında düz harfler (b¹ y¹ r¹); ligatür 𐰸 ancak son hecede + kelime sonu ünlüsü u (KT G 4)."
       }
      ]
     },

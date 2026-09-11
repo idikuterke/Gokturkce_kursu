@@ -16,7 +16,7 @@ Terim **her yerde "Yedigün"** ("Yedice" değil, "hafta" değil).
 ## 2. Repo haritası (E:\Gokturkce_kursu — git repo)
 ```
 content/            TEK İÇERİK KAYNAĞI (JSON). Buraya yazılan her şey üç çıktıya gider.
-  yedigun-1..4.json   slayt+baskı ders içerikleri (30/23/24/25 slayt). Y4 = 12 sertifika sorusu + sinav alanı
+  yedigun-1..4.json   slayt+baskı ders içerikleri (30/25/24/25 slayt). Y4 = 12 sertifika sorusu + sinav alanı
   kitapcik.json, yapraklar.json, degerlendirme.json, irkbitig-foyu.json, ek-uniteler.json, tamga-albumu.json  baskı belgeleri
   tamgalar.json       tamga grupları: unluler, kutuplu, kutupsuz, ligatur, irkbitig, yenisey(7), yenisey-tam(31), kagit(37), ciftler
   sozluk.json         ALTIN SÖZLÜK: latin <-> runik (mantıksal sıra). 29 kelime. Kapı bunu zorlar.

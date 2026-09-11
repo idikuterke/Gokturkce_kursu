@@ -92,12 +92,21 @@ export async function kapiHazirla() {
     for (const k of tumBloklar(JSON.parse(fs.readFileSync(P("content", f), "utf8"))))
       if (k.type === "ornek-kelime") for (const o of k.ornekler) if (o.hatali) hataliIzin.add(o.hatali);
 
+  // Kural: 3+ harfli maddelerde ters dizi alt-dizi olarak aranır (eski davranış). ≤2 harfli maddelerde
+  // (kut 𐰸𐱃 ↔ tokuz içindeki 𐱃𐰸) yanlış pozitif kaçınılmaz → ters dizi yalnız RUNİK KELİME SINIRINDA eşleşir:
+  // hemen öncesi ve sonrası Eski Türk harfi (U+10C00–10C48) OLMAMALI (boşluk, ":", etiket, satır ucu olabilir).
+  const RUNIK_HARF = "[\\u{10C00}-\\u{10C48}]";
+  const kacir = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   function tersSiraDenetle(metin, baglam) {
     for (const [lat, run] of Object.entries(sozluk)) {
-      if ([...run].length < 2) continue;
-      const ters = [...run].reverse().join("");
+      const harf = [...run];
+      if (harf.length < 2) continue;
+      const ters = harf.reverse().join("");
       if (ters === run || sozlukDeger.has(ters) || hataliIzin.has(ters)) continue;
-      if (metin.includes(ters)) hata(`[${baglam}] TERS SIRA: '${lat}' görsel sırada yazılmış (${ters}); mantıksal sıra ${run} olmalı`);
+      const bulundu = harf.length <= 2
+        ? new RegExp(`(?<!${RUNIK_HARF})${kacir(ters)}(?!${RUNIK_HARF})`, "u").test(metin)
+        : metin.includes(ters);
+      if (bulundu) hata(`[${baglam}] TERS SIRA: '${lat}' görsel sırada yazılmış (${ters}); mantıksal sıra ${run} olmalı`);
     }
   }
   function sozlukEsle(lat, runik, baglam) {
