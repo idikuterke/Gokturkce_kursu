@@ -150,7 +150,7 @@
       "slayt"
      ],
      "id": "mecra",
-     "html": "<h3>Mecra Farkı → Harf Farkı</h3><table class=\"tablo\"><tr><th></th><th>Orhun (taş, keski)</th><th>Irk Bitig (kâğıt, fırça)</th></tr><tr><td>Hat</td><td>Köşeli, geometrik</td><td>Yuvarlak, akıcı, el yazısına yatkın (cursiviform)</td></tr><tr><td>ş sesi</td><td>𐱁 ayrı tamga</td><td>𐱁 <b>kaldırıldı</b>; yerine s (𐰽 / 𐰾): <i>yaş ➔ yas</i></td></tr><tr><td>ince r</td><td>𐰼</td><td>Grafik benzerlikle <b>𐱁</b> biçimi ince r için kullanıldı</td></tr><tr><td>Özel tamgalar</td><td>—</td><td>𐱇 <i>ot</i> (logogram) · 𐰰 <i>up/üp</i> · 𐰪 <i>ny/ń</i></td></tr></table><p class=\"not\">Kaynak: Irk Bitig imla farkları için Talat Tekin, <i>Irk Bitig: The Book of Omens</i> (Wiesbaden 1993), giriş; kurs müfredatı (Aysu Ata, TUR203 çizgisi).</p>"
+     "html": "<h3>Mecra Farkı → Harf Farkı</h3><table class=\"tablo\"><tr><th></th><th>Orhun (taş, keski)</th><th>Irk Bitig (kâğıt, fırça)</th></tr><tr><td>Hat</td><td>Köşeli, geometrik</td><td>Yuvarlak, akıcı, el yazısına yatkın (cursiviform)</td></tr><tr><td>ş sesi</td><td>𐱁 ayrı tamga</td><td>𐱁 <b>kaldırıldı</b>; yerine s (𐰽 / 𐰾): <i>yaş ➔ yas</i></td></tr><tr><td>ince r</td><td>𐰼</td><td>Grafik benzerlikle <b>𐱁</b> biçimi ince r için kullanıldı (Tekin, Irk Bitig: The Book of Omens, 1993, giriş)</td></tr><tr><td>Özel tamgalar</td><td>—</td><td>𐱇 <i>ot</i> (logogram) · 𐰰 <i>up/üp</i> · 𐰪 <i>ny/ń</i></td></tr></table><p class=\"not\">Kaynak: Irk Bitig imla farkları için Talat Tekin, <i>Irk Bitig: The Book of Omens</i> (Wiesbaden 1993), giriş; kurs müfredatı (Aysu Ata, TUR203 çizgisi).</p>"
     },
     {
      "type": "prose",
@@ -329,7 +329,7 @@
      ],
      "dogru": 0,
      "geriBildirim": {
-      "ok": "ş sesi s ile yazılır; 𐱁 biçimi ince r'ye kaydırılmıştır.",
+      "ok": "ş sesi s ile yazılır; 𐱁 biçimi ince r'ye kaydırılmıştır (Tekin, Irk Bitig: The Book of Omens, 1993, giriş).",
       "no": "Irk Bitig'de ş tamamen tasfiye edilmiştir; biçim başka bir sese verilmiştir."
      }
     },

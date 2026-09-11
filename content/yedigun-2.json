@@ -67,7 +67,7 @@
       {
        "latin": "atar",
        "runik": "𐱃𐰺",
-       "aciklama": "t¹ + r¹ ➔ her iki a da düşer."
+       "aciklama": "t¹ + r¹ ➔ her iki a da düşer (öğretici örnek; yazıt tanığı yok)."
       },
       {
        "latin": "er",
@@ -204,7 +204,7 @@
       {
        "latin": "koku",
        "runik": "𐰴𐰸𐰆",
-       "aciklama": "OK/UK ligatürü ikinci hecede: k¹ + OK + u."
+       "aciklama": "OK/UK ligatürü ikinci hecede: k¹ + OK + u (öğretici örnek; yazıt tanığı yok)."
       }
      ]
     },
@@ -240,7 +240,7 @@
       {
        "latin": "koku",
        "runik": "𐰴𐰸𐰆",
-       "aciklama": "Düz kalın k¹ + OK ligatürü + son ünlü u."
+       "aciklama": "Düz kalın k¹ + OK ligatürü + son ünlü u (öğretici örnek; yazıt tanığı yok)."
       }
      ]
     },
@@ -277,13 +277,13 @@
      "id": "ince-n-ornekleri",
      "ornekler": [
       {
-       "latin": "sabın",
+       "latin": "sabin",
        "anlam": "sözünü",
        "runik": "𐰽𐰉𐰤",
        "aciklama": "s¹ + b¹ + n² — kalın kök, ince N."
       },
       {
-       "latin": "adgırın",
+       "latin": "adgırin",
        "anlam": "aygırını",
        "runik": "𐰑𐰍𐰺𐰤",
        "aciklama": "d¹ + g¹ + r¹ + n² — baştaki a ve içses ı'lar düşer; kalın kök, ince N."
@@ -297,7 +297,7 @@
       "baski"
      ],
      "id": "uzun-unlu-ve-uyumsuz-ekler",
-     "html": "<h3>Aslî Uzun Ünlü ve Uyuma Girmeyen Ekler</h3><p>Söz başı kısa <i>a</i> yazılmaz; <b>aslî uzun ā</b> yazılır: <b>āç</b> (acıkmış) <span class=\"runic\">𐰀𐰲</span> · <b>āt</b> (ad, unvan) <span class=\"runic\">𐰀𐱃</span> · <b>tāmka</b> (duvara) <span class=\"runic\">𐱃𐰀𐰢𐰴𐰀</span> · Tunyukuk <b>būka</b> <span class=\"runic\">𐰉𐰆𐰸𐰀</span> (ū = U + UK ligatürü ile ünlü ikilemesi).</p><p><b>Damak uyumuna girmeyen ekler:</b> +(s)i → ince s² <span class=\"runic\">𐰾</span>: <b>yagısi</b> <span class=\"runic\">𐰖𐰍𐰾𐰃</span> · +(ı)n → ince n² (sabın) · -miş hep ince (sakınmiş; Tekin §68).</p><p><b>Dudak uyumuna girmeyenler:</b> +sız (buŋsız) · +sıra- · -sık (tosık) · +lı (tünli künli) · +nı (kunı) · -dı (uçdı) · +kı (çölgi).</p><p class=\"not\">Tekin 2003: s. 25 §5, s. 27 §10, s. 43-46 §45-51; s. 55-57 §76-86.</p>"
+     "html": "<h3>Aslî Uzun Ünlü ve Uyuma Girmeyen Ekler</h3><p>Söz başı kısa <i>a</i> yazılmaz; <b>aslî uzun ā</b> yazılır: <b>āç</b> (acıkmış) <span class=\"runic\">𐰀𐰲</span> · <b>āt</b> (ad, unvan) <span class=\"runic\">𐰀𐱃</span> · <b>tāmka</b> (duvara) <span class=\"runic\">𐱃𐰀𐰢𐰴𐰀</span> · Tunyukuk <b>būka</b> <span class=\"runic\">𐰉𐰆𐰸𐰀</span> (ū = U + UK ligatürü ile ünlü ikilemesi).</p><p><b>Damak uyumuna girmeyen ekler:</b> +(s)i → ince s² <span class=\"runic\">𐰾</span>: <b>yagısi</b> <span class=\"runic\">𐰖𐰍𐰾𐰃</span> · +(ı)n → ince n² (sabin) · -miş hep ince (sakınmiş; Tekin §68).</p><p><b>Dudak uyumuna girmeyenler:</b> +sız (buŋsız) · +sıra- · -sık (tosık) · +lı (tünli künli) · +nı (kunı) · -dı (uçdı) · +kı (çölgi).</p><p class=\"not\">Tekin 2003: s. 25 §5, s. 27 §10, s. 43-46 §45-51; s. 55-57 §76-86.</p>"
     },
     {
      "type": "quiz",

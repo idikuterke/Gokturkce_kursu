@@ -265,7 +265,7 @@ Aşağıdaki cetvel, birinci ve ikinci yedigünde dağıtılacak tamga kartları
 | 𐰲 | ç | U+10C32 | |
 | 𐰭 | ŋ | U+10C2D | damaksal geniz ünsüzü (ng); yumuşak g değildir |
 | 𐰯 | p | U+10C2F | |
-| 𐱁 | ş | U+10C41 | kutupsuz; Irk Bitig'de bu biçim ince r için kullanılır, ş sesi s ile yazılır |
+| 𐱁 | ş | U+10C41 | kutupsuz; Irk Bitig'de bu biçim ince r için kullanılır, ş sesi s ile yazılır (Tekin, Irk Bitig: The Book of Omens, 1993, giriş) |
 | 𐰢 | m | U+10C22 | |
 | 𐰡 | lt | U+10C21 | küme tamga |
 | 𐰦 | nt | U+10C26 | küme tamga |

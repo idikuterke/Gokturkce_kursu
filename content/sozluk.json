@@ -2,7 +2,6 @@
  "aciklama": "Altın sözlük: Latin ↔ runik (mantıksal sıra, Unicode bidi=R). Kapı: belgelerde bu dizilerin TERSİ geçerse ve ornek-kelime/alistirma latin↔runik uyuşmazsa build durur. Irk Bitig yazımları ayrı anahtarla (‘yaş (ib)’).",
  "kelimeler": {
   "adak": "𐰑𐰴",
-  "adgırın": "𐰑𐰍𐰺𐰤",
   "ata": "𐱃𐰀",
   "atar": "𐱃𐰺",
   "bay": "𐰉𐰖",
@@ -22,7 +21,6 @@
   "oglan": "𐰉𐰍𐰞𐰣",
   "ot": "𐱇",
   "otuz": "𐰆𐱃𐰔",
-  "sabın": "𐰽𐰉𐰤",
   "sarıg": "𐰽𐰺𐰃𐰍",
   "tengri": "𐱅𐰭𐰼𐰃",
   "teŋri": "𐱅𐰭𐰼𐰃",
@@ -38,7 +36,9 @@
   "būka": "𐰉𐰆𐰸𐰀",
   "yagısi": "𐰖𐰍𐰾𐰃",
   "balıkka": "𐰉𐰞𐰶𐰀",
-  "bodunın": "𐰉𐰆𐰑𐰣𐰤",
-  "kaganın": "𐰴𐰍𐰣𐰤"
+  "kaganin": "𐰴𐰍𐰣𐰤",
+  "bodunin": "𐰉𐰆𐰑𐰣𐰤",
+  "sabin": "𐰽𐰉𐰤",
+  "adgırin": "𐰑𐰍𐰺𐰤"
  }
 }

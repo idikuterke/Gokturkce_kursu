@@ -335,7 +335,7 @@
      "yedigun": 2,
      "rol": "sertifika",
      "konu": "7 · İnce-N İstisnası",
-     "soru": "Kalın ünlülü <b>sabın</b> (sözünü) kelimesinin sonundaki n neden ince N (<span class=\"runic\">𐰤</span>) ile yazılır?",
+     "soru": "Kalın ünlülü <b>sabin</b> (sözünü) kelimesinin sonundaki n neden ince N (<span class=\"runic\">𐰤</span>) ile yazılır?",
      "secenekler": [
       "Kelime aslında ince ünlülüdür",
       "n sesi Göktürkçede daima ince N ile yazılır",
@@ -388,7 +388,7 @@
      ],
      "dogru": 0,
      "geriBildirim": {
-      "ok": "Mecra değişimi imlayı değiştirdi: ş → s, 𐱁 → r².",
+      "ok": "Mecra değişimi imlayı değiştirdi: ş → s, 𐱁 → r² (Tekin, Irk Bitig: The Book of Omens, 1993, giriş).",
       "no": "Ses değişmedi, imla değişti; kural kalınlığa bağlı değil."
      }
     },
