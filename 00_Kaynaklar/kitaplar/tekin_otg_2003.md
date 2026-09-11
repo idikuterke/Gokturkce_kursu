@@ -1,12 +1,12 @@
 # Talat Tekin — Orhon Türkçesi Grameri (2003) — tam transkripsiyon
-PROVENANS: Türk Dilleri Araştırmaları Dizisi 9, İstanbul 2003, 273 sf. Kaynak: taranmış PDF (bozuk OCR katmanı kullanılmadı); Claude Code görsel okuma, 2026-09-11.
+PROVENANS: Türk Dilleri Araştırmaları Dizisi, İstanbul 2003, 273 sf. Kaynak: taranmış PDF (bozuk OCR katmanı kullanılmadı); Claude Code görsel okuma, 2026-09-11.
 SAYFA NUMARALAMA: idx 000-216 = basılı sayfa; idx 217 numarasız ara kapak (METİN ÖRNEKLERİ); idx 218-272 = basılı sayfa idx+1. Atıf için BASILI numarayı kullanın.
 İŞARETLER: ā ē uzun; ä açık e; ŋ; ñ; (ı) yazılmamış ünlü; /X/ harf çevirisi; [..] onarım; [?] okunamayan.
 
 
 
 ---
-<!-- idx 000 | basılı — -->
+<!-- idx 000 | basılı 0 -->
 # s. 000 — (ön kapak)
 
 TÜRK DİLLERİ ARAŞTIRMALARI DİZİSİ: 9
@@ -836,7 +836,7 @@ Orhon yazıtlarında yalnız şu sözcükte ilk hecedeki uzun /a/ ünlüsü yaz�
 
 Irk Bitig’de ve Yenisey yazıtlarından birinde de şu sözcüklerin ilk hecelerindeki uzun /a/ ünlüsü yazıda gösterilmiştir:
 - /BAmIs/ *bāmiş* “bağlamış” (IB 14)
-- /KAL/ *kāl-* “kalmak” (Elegest 19)
+- /KAL/ *kāl-* “kalmak” (Elegest I 9)
 
 
 ---
@@ -4864,28 +4864,28 @@ Bk. **Soru Zarfları**.
 <!-- idx 149 | basılı 149 -->
 # s. 149 — ORHON TÜRKÇESİ GRAMERİ
 
-*kara türgiş bodunug anta ölürmiş almiş yana yorıp...* "Türgiş avam halkını orada öldürmüş, almış. Yine yürüyüp..." (KT D 40), vb.
+*kara türgiş bodunug anta ölürmiş almış yana yorıp...* “Türgiş avam halkını orada öldürmüş, almış. Yine yürüyüp...” (KT D 40), vb.
 
-Öbür sayı zarfları *ekinti* "ikinci olarak", *üçünç* "üçüncü olarak" vb. için bk. **Sıra Sayıları**.
+Öbür sayı zarfları *ekinti* “ikinci olarak”, *üçünç* “üçüncü olarak” vb. için bk. **Sıra Sayıları**.
 
 ## Soru Zarfları
 
-**346.** Çok eski *\*ka* soru zamirinden türemiş olan *kaçan* "ne zaman" soru zarfı yalnız *kaçan näŋ ärsär* "ne zaman olsa, er ya da geç" söz öbeğinde geçer:
-*kaça(n) näŋ ärsär ol b(i)zni... ölürtäçik-ök* "Er ya da geç, o bizi mutlak öldürecektir" (T 20-21)
-*kaça(n) näŋ ärsär ölürtäçik-ök* "Er ya da geç, o (bizi) öldürecektir" (T 29-30)
-*kaçan (n)äŋ ärsär ölürtäçik-ök* "Er ya da geç, o (bizi) öldürecektir" (T 21)
+**346.** Çok eski *\*ka* soru zamirinden türemiş olan *kaçan* “ne zaman” soru zarfı yalnız *kaçan näŋ ärsär* “ne zaman olsa, er ya da geç” söz öbeğinde geçer:
+- *kaça(n) näŋ ärsär ol b(i)zni... ölürtäçik-ök* “Er ya da geç, o bizi mutlak öldürecektir” (T 20-21)
+- *kaça(n) näŋ ärsär ölürtäçik-ök* “Er ya da geç, o (bizi) öldürecektir” (T 29-30)
+- *kaçan (n)äŋ ärsär ölürtäçik-ök* “Er ya da geç, o (bizi) öldürecektir” (T 21)
 
 ## Sontakılar
 
-**347.** Orhon Türkçesinde kullanılan sontakılar şunlardır: *ara, birlä, ıngaru, kisrä, kudı, ötrü, sayu, tapa, täg, üçün, üzä, eyin, tägi, adın, öŋi, ıngaru*. Bu sontakılar yalın durum, verme-bulunma durumu, bulunma-çıkma durumu gibi türlü ad durumlarını yönetirler.
+**347.** Orhon Türkçesinde kullanılan sontakılar şunlardır: *ara*, *birlä*, *ıŋaru*, *kisrä*, *kudı*, *ötrü*, *sayu*, *tapa*, *täg*, *üçün*, *üzä*, *eyin*, *tägi*, *adın*, *öŋi*, *ıŋaru*. Bu sontakılar yalın durum, verme-bulunma durumu, bulunma-çıkma durumu gibi türlü ad durumlarını yönetirler.
 
 ## Yalın Durumu Yöneten Sontakılar
 
-**348.** Adların yalın durumunu yöneten sontakılar şunlardır: *āra/ara, birlä, kudı, sayu, tapa, täg, üçün, üzä, eyin*.
+**348.** Adların yalın durumunu yöneten sontakılar şunlardır: *āra/ara*, *birlä*, *kudı*, *sayu*, *tapa*, *täg*, *üçün*, *üzä*, *eyin*.
 
-**349.** *āra, ara* "arasında" (< *\*ār-* "arasından geçmek, içinden geçmek"; krş. MK *argula-* "arasından geçmek"):
-*üzä kök täŋri asra yagız yer kılıntokda ekin ara kişi oglı kılınmiş* "Yukarıda mavi gök aşağıda kara toprak yaratıldığında ikisinin arasında insanoğlu yaratılmış" (KT D 1)
-*ekin ara idi oksuz kök türük iti ança olorur ärmiş* "(Bu) iki (sınır) arasında hiç boy örgütü olmayan Doğu Türklerini örgütleyerek öylece
+**349.** *āra*, *ara* “arasında” (< *\*ār-* “arasından geçmek, içinden geçmek”; krş. MK *argula-* “arasından geçmek”):
+- *üzä kök täŋri asra yagız yer kılıntokda ekin ara kişi oglı kılınmiş* “Yukarıda mavi gök aşağıda kara toprak yaratıldığında ikisinin arasında insanoğlu yaratılmış” (KT D 1)
+- *ekin ara idi oksuz kök türük iti ança olorur ärmiş* “(Bu) iki (sınır) arasında hiç boy örgütü olmayan Doğu Türklerini örgütleyerek öylece
 
 
 ---

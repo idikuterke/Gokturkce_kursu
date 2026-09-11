@@ -28,6 +28,6 @@ Son güncelleme: 2026-09-11 03:01
 - Parti C bitti (37 sf; [?] yalnız s189 Toyok 16-18 baskı bozuk). Notlar: §378/440 ok/ök ünlü sonrası -k; §380-398 Yenisey acınma ünlemleri; §409 -DOk l/n/r sonrası -tok.
 - TAMLIK: 273/273; [?] içeren 2 sayfa (s124, s189); s217 numarasız ara kapak; s240-272 başlıklarına basılı numara eklendi; rastgele kontrol s160 = PNG birebir.
 - Tek dosya: 00_Kaynaklar/kitaplar/tekin_otg_2003.md (445 KB, 491 paragraf no).
-- Adım 5 (kılavuz/kaynak çelişki taraması) SIRADA — sabah onaya sunulacak liste hazırlanıyor.
+- Adım 5 TAMAM: tekin_celiski_raporu.md (32 bulgu, 10 kullanıcı kararı). Adım 6 kullanıcı onayı bekliyor.
 - 2026-09-11 sabah: makine yeniden başladı. Diğer ajan tekin_otg_2003.md'yi etiketsiz sürümle ezmiş ve s177-179/s183'ü biçimsel değiştirmişti → commit 221c1e7 sürümüne geri dönüldü (idx/basılı etiketleri şart). KURAL: tekin_otg_2003.md elle düzenlenmez; sNNN.md'den yeniden üretilir.
 - Adım 5 çelişki taraması yeniden başlatıldı (ilk deneme kapanışta kesildi).
