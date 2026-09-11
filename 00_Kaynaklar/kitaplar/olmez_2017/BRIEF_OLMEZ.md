@@ -27,3 +27,8 @@ Tarama; metin katmanı YOK. Yöntem: sayfa → PNG (170 dpi, PyMuPDF kurulu) →
 - Bitince: tek dosya olmez_2017.md üretme — orkestratör üretir (sayfa etiketleri için).
 - commit YAPMA. Repo'nun başka hiçbir dosyasına (content/, engine/, 04_PDF/, build/, tekin_otg_2003/, *.md kök) DOKUNMA; npm komutu çalıştırma.
 - Rapor (ILERLEME.md'ye): kurs için önemli görünen imla kuralları, kelime tanıkları, Tekin'den farklı okuyuşlar (kısa madde).
+
+## BÖLÜNME (2026-09-11, kullanıcı kararı)
+- Antigravity: idx 000–282 (ilk yarı). 282'de dur; ILERLEME.md'ye "ilk yarı tamam" yaz.
+- İkinci yarı idx 283–565: başka ajan (Claude Code uygulayıcısı) — daha sonra, acele yok. Aynı kurallar, aynı klasör, aynı biçim.
+- Öncelik: Köktürkçe bölümleri; Uygurca bölümler sonraya (ileride Uygurca kursu için gerekecek).
