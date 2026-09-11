@@ -155,8 +155,9 @@
     },
     {
      "cp": "U+10C2A",
-     "deger": "ny / ń — Irk Bitig",
-     "ad": "ORKHON ENY"
+     "deger": "ny / ñ",
+     "ad": "ORKHON ENY",
+     "not": "Orhun'da da kullanılır: koñ (KT D12), azkıña (KT D34), çıgañ (KT G10) — Tekin 2003 s. 23; ŋ ile karıştırılmaz"
     },
     {
      "cp": "U+10C2F",
@@ -177,7 +178,7 @@
   },
   {
    "id": "ligatur",
-   "baslik": "Çift Sesli Hece Damgaları — Ligatürler (8)",
+   "baslik": "Çift Sesli Hece Damgaları — Ligatürler (9)",
    "tamgalar": [
     {
      "cp": "U+10C38",
@@ -197,7 +198,8 @@
     {
      "cp": "U+10C31",
      "deger": "İÇ / Çİ",
-     "ad": "ORKHON IC"
+     "ad": "ORKHON IC",
+     "not": "Tekin 2003 s. 23 ayrıca 'Çİ birleşik damgası' adlı ikinci bir işaret ayırır; Unicode'da kodlanmamıştır."
     },
     {
      "cp": "U+10C26",
@@ -220,9 +222,16 @@
      "ad": "ORKHON ASH",
      "not": "Orhun yazıtlarında nadir kullanılır; ş sesi için kullanılmaz — ş = 𐱁. Yenisey varyantı U+10C40.",
      "kaynak": "Tekin, Orhon Türkçesi Grameri; Unicode 15.1 ORKHON ASH"
+    },
+    {
+     "cp": "U+10C48",
+     "deger": "baş (hece/kelime damgası)",
+     "ad": "ORKHON BASH",
+     "not": "Orhun tablosunda BAŞ hece damgası (Tekin 2003 s. 23); Irk Bitig'de ideogram; nadir",
+     "kaynak": "Tekin 2003 s. 23; Unicode 15.1 ORKHON BASH"
     }
    ],
-   "kaynak": "Unicode 15.1 Old Turkic bloğu; 𐰿 (aş): Tekin, Orhon Türkçesi Grameri — 00_Kaynaklar/imla_kurallari_13_madde.md (EK 2026-09-10)"
+   "kaynak": "Unicode 15.1 Old Turkic bloğu; 𐰿 (aş): Tekin, Orhon Türkçesi Grameri — 00_Kaynaklar/imla_kurallari_13_madde.md (EK 2026-09-10); 𐱈 (baş): Tekin 2003 s. 23 — 00_Kaynaklar/kitaplar/tamgalar_denetim_raporu.md"
   },
   {
    "id": "irkbitig",
@@ -634,9 +643,10 @@
     },
     {
      "cp": "U+10C2A",
-     "deger": "ny / ń — Irk Bitig",
+     "deger": "ny / ñ",
      "ad": "ORKHON ENY",
-     "font": "BabelStone Irk Bitig"
+     "font": "BabelStone Irk Bitig",
+     "not": "Orhun'da da kullanılır: koñ (KT D12), azkıña (KT D34), çıgañ (KT G10) — Tekin 2003 s. 23; ŋ ile karıştırılmaz"
     },
     {
      "cp": "U+10C2D",

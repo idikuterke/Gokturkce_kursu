@@ -58,7 +58,7 @@ Kapı kırmızıysa **build çalışmaz**; kapıyı gevşetmek yasak — içeri�
 3. Sertifika sınavı: **12 soru, eşit puan, 60/100 eşik (8 doğru), %80 devam, 45 dk.** Şık dağılımı dengeli (3'er A/B/C/D). Bunu değiştiren hiçbir kaynak entegre edilmez; çelişki varsa kullanıcıya sor.
 4. Terminoloji: **ş** için 𐱁 tek kutupsuz ş (Irk Bitig'de aynı işaret ince r) — 𐰿 (U+10C3F) ş değil, 'aş' hece damgasıdır: Orhun'da nadir, Yenisey varyantı U+10C40; yalnız tamgalar.json ligatur grubu + teklif cetvelinde gösterilir. **ŋ** = "damaksal geniz ünsüzü (ng); yumuşak g değildir". **Açık e (ä) U+10C02 / kapalı é (ė) U+10C05** yalnız Yenisey — kaynak `00_Kaynaklar/yenisey_acik_e_kapali_e.md`. Ünsüz üst simgeleri: ¹ kalın, ² ince.
 5. Bilinçli yanlış örnekler `ornek-kelime.ornekler[].hatali` alanında verilir; kapı bunları muaf tutar. Başka yolla "yanlış örnek" gösterme.
-6. `𐱈` (BAŞ) kayıtta kalır; fal 17 çift 𐰆 kalır (kitap doğrulaması bekliyor). "ete" doğru, "ede" yanlış.
+6. `𐱈` (BAŞ) tamgalar.json ligatur grubunda (Tekin 2003 s. 23); fal 17 çift 𐰆 kalır (kitap doğrulaması bekliyor). "ete" doğru, "ede" yanlış.
 7. Teklif metni yalnız yüz yüze içindir; paket/çevrim içi için kopyalanmaz.
 8. KVKK: sonuç verisi kurs bitiminden 2 yıl sonra silinir — metin render-slayt.mjs'te; değiştirme.
 9. Tema: koyu "Bengü Gece", turkuaz/mavi ince şeritler, akademik. Görsellerde diffusion çizimi rune YASAK; runeler fonttan (kazi.py) basılır, `gokturkce_verify_image` ile doğrulanır.
