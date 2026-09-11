@@ -48,7 +48,7 @@
       "slayt"
      ],
      "id": "kural-1",
-     "html": "<h3>Kural 1 — Sözbaşı ve içseste kısa a/e yazılmaz</h3><p>Göktürk kâtipleri harf ve taş tasarrufu için kelime başındaki ve içindeki kısa <b>a / e</b> seslerini yazmaz; okuyucu zihnen tamamlar.</p><p class=\"not\">Aysu Ata transkripsiyonunda yazılmayan ünlü parantezle gösterilir: <span class=\"cevrim\">(e)s(e)n</span>, <span class=\"cevrim\">(a)t(a)r</span></p>"
+     "html": "<h3>Kural 1 — Sözbaşı ve içseste kısa a/e yazılmaz</h3><p>Göktürk kâtipleri harf ve taş tasarrufu için kelime başındaki ve içindeki kısa <b>a / e</b> seslerini yazmaz; okuyucu zihnen tamamlar.</p><p class=\"not\">Aysu Ata transkripsiyonunda (Ata 2011 s.67) yazılmayan ünlü parantezle gösterilir: <span class=\"cevrim\">(a)d(a)k</span>, <span class=\"cevrim\">(e)r(e)n</span> — ünsüz damgalar a/e sesini hece değeri olarak taşır (Tekin §22).</p>"
     },
     {
      "type": "ornek-kelime",
@@ -93,6 +93,14 @@
      ],
      "id": "kural-3",
      "html": "<h3>Kural 3 — İçseste dar ünlü düşmesi</h3><p>Kök ek aldığında vurgusuz orta hecedeki dar ünlü (ı, i, u, ü) düşer.</p><p><b>ogul + an ➔ oglan</b> ➔ <span class=\"runic buyuk\">𐰉𐰍𐰞𐰣</span></p><p class=\"not\">b¹ + g¹ + l¹ + n¹ — kökün u'su düştü, a'lar tasarruf kuralıyla yazılmadı.</p>"
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "kural-3b",
+     "html": "<h3>Kural 3b — İlk hece sonrası ünlü</h3><table class=\"tablo\"><tr><th>Kombinasyon</th><th>Yazım</th><th>Örnek</th></tr><tr><td>düz → düz-dar (ı/i)</td><td>yazılmaz</td><td><span class=\"cevrim\">s(e)b(i)n(i)p</span> · <span class=\"cevrim\">buŋs(ı)z</span></td></tr><tr><td>düz → yuvarlak</td><td>yazılır</td><td><span class=\"cevrim\">ıduk</span> <span class=\"runic\">𐰃𐰑𐰆𐰴</span> · <span class=\"cevrim\">k(e)lürt(ü)m</span></td></tr><tr><td>yuvarlak → yuvarlak</td><td>yazılmaz</td><td><span class=\"cevrim\">ul(u)g</span> · <span class=\"cevrim\">köŋ(ü)l</span></td></tr><tr><td>yuvarlak → düz</td><td>yazılır</td><td><span class=\"cevrim\">oglıtı</span> <span class=\"runic\">𐰆𐰍𐰞𐰃𐱃</span> · <span class=\"cevrim\">süçig</span></td></tr></table><p class=\"not\">Ata 2011 s.67-68; Tanyeri s.12 md.3, 5-7. bodun'daki “içses u düşer” aslında bu tablonun 3. satırıdır.</p>"
     },
     {
      "type": "gorsel",
@@ -207,9 +215,9 @@
      "id": "ligatur-okuma",
      "ornekler": [
       {
-       "latin": "türk",
+       "latin": "türük",
        "runik": "𐱅𐰇𐰼𐰜",
-       "aciklama": "t² + ö/ü + r² + ÖK/ÜK ligatürü — kelime sonunda ligatür serbest."
+       "aciklama": "t² + ö/ü + r² + ÖK/ÜK ligatürü — kelime sonunda ligatür serbest. KT G1 okunuşu: türük."
       },
       {
        "latin": "bodun",
@@ -315,7 +323,7 @@
       "baski"
      ],
      "id": "uzun-unlu-ve-uyumsuz-ekler",
-     "html": "<h3>Aslî Uzun Ünlü ve Uyuma Girmeyen Ekler</h3><p>Söz başı kısa <i>a</i> yazılmaz; <b>aslî uzun ā</b> yazılır: <b>āç</b> (acıkmış) <span class=\"runic\">𐰀𐰲</span> · <b>āt</b> (ad, unvan) <span class=\"runic\">𐰀𐱃</span> · <b>tāmka</b> (duvara) <span class=\"runic\">𐱃𐰀𐰢𐰴𐰀</span> · Tunyukuk <b>būka</b> <span class=\"runic\">𐰉𐰆𐰸𐰀</span> (ū = U + UK ligatürü ile ünlü ikilemesi).</p><p><b>Damak uyumuna girmeyen ekler:</b> +(s)i → ince s² <span class=\"runic\">𐰾</span>: <b>yagısi</b> <span class=\"runic\">𐰖𐰍𐰾𐰃</span> · +(ı)n → ince n² (sabin) · -miş hep ince (sakınmiş; Tekin §68).</p><p><b>Dudak uyumuna girmeyenler:</b> +sız (buŋsız) · +sıra- · -sık (tosık) · +lı (tünli künli) · +nı (kunı) · -dı (uçdı) · +kı (çölgi).</p><p class=\"not\">Tekin 2003: s. 25 §5, s. 27 §10, s. 43-46 §45-51; s. 55-57 §76-86.</p>"
+     "html": "<h3>Aslî Uzun Ünlü ve Uyuma Girmeyen Ekler</h3><p>Söz başı kısa <i>a</i> yazılmaz; <b>aslî uzun ā</b> yazılır: <b>āç</b> (acıkmış) <span class=\"runic\">𐰀𐰲</span> · <b>āt</b> (ad, unvan) <span class=\"runic\">𐰀𐱃</span> · <b>tāmka</b> (duvara) <span class=\"runic\">𐱃𐰀𐰢𐰴𐰀</span> · Tunyukuk <b>būka</b> <span class=\"runic\">𐰉𐰆𐰸𐰀</span> (ū = U + UK ligatürü ile ünlü ikilemesi).</p><p><b>Damak uyumuna girmeyen ekler:</b> +(s)i → ince s² <span class=\"runic\">𐰾</span>: <b>yagısi</b> <span class=\"runic\">𐰖𐰍𐰾𐰃</span> · +(ı)n → ince n² (sabin) · -mış hep ince (sakınmış; ş = ince s² 𐱁 — Tekin §68 okuyuşu -miş).</p><p><b>Dudak uyumuna girmeyenler:</b> +sız (buŋsız) · +sıra- · -sık (tosık) · +lı (tünli künli) · +nı (kunı) · -dı (uçdı) · +kı (çölgi).</p><p class=\"not\">Tekin 2003: s. 25 §5, s. 27 §10, s. 43-46 §45-51; s. 55-57 §76-86.</p>"
     },
     {
      "type": "quiz",

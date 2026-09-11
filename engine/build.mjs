@@ -22,7 +22,15 @@ const DIFF = process.argv.includes("--diff");
 const BELGE = arg("--belge", null);
 const SONUC_URL = arg("--sonuc-url", process.env.GK_SONUC_URL ?? null);   // tracker web modu: sonuçların POST edileceği uç
 const EPOSTA = arg("--eposta", process.env.GK_EPOSTA ?? null);          // e-posta yedeği (mailto)
-const EDGE = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
+// Tarayıcı sırası: GK_BROWSER env ile zorlanabilir; Edge (gömülü yol) → Edge 153 (bozuk güncelleme yedeği) → Chrome.
+// 2026-09-11: Edge 153 güncellemesi yarım kaldığında msedge.exe anında (≈38 ms) çıkıp PDF yazmıyor; fallback şart.
+const EDGE_LISTEM = [
+  process.env.GK_BROWSER,
+  "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+  "C:/Program Files (x86)/Microsoft/Edge/Application/153.0.4234.32/msedge.exe",
+  "C:/Program Files/Google/Chrome/Application/chrome.exe",
+].filter(Boolean);
+const EDGE = EDGE_LISTEM.find((p) => fs.existsSync(p)) ?? EDGE_LISTEM[0];
 
 // Belge → çıktı adları (eski hattın adları; 04_PDF sıralaması korunur)
 // (anahtar = çıktı adı; doc = content/<doc>.json). Aynı belge iki sürüm üretebilir (öğrenci / eğitmen).
@@ -50,6 +58,7 @@ if (HEDEF === "slayt") {
   const OUT_S = P("build/slayt"); fs.mkdirSync(OUT_S, { recursive: true });
   const ids = fs.readdirSync(P("content")).filter((f) => f.endsWith(".json") && f !== "tamgalar.json").map((f) => f.slice(0, -5))
     .filter((id) => BELGE ? id === BELGE : JSON.parse(fs.readFileSync(P("content", id + ".json"), "utf8")).tur === "yedigun");
+  const TARAYICI = SADECE_HTML ? null : tarayiciSec();
   for (const id of ids) {
     const doc = JSON.parse(fs.readFileSync(P("content", id + ".json"), "utf8"));
     kapi.belgeDenetle(doc);
@@ -63,8 +72,8 @@ if (HEDEF === "slayt") {
     console.log(`✓ slayt ${id.padEnd(12)} ${nSlayt} slayt | tamga ${r.farkli} | ${(html.length / 1024).toFixed(0)} KB → ${path.relative(ROOT, htmlP)}`);
     if (SADECE_HTML) continue;
     const pdfP = path.join(OUT_S, id + ".pdf"); if (fs.existsSync(pdfP)) fs.unlinkSync(pdfP);
-    const res = spawnSync(EDGE, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", `--user-data-dir=${path.join(process.env.TEMP ?? ROOT, "edge_gk_s_" + id)}`, `--print-to-pdf=${pdfP}`, `file:///${htmlP.replace(/\\/g, "/")}`], { timeout: 240000 });
-    if (res.status !== 0 || !fs.existsSync(pdfP)) { console.error("slayt PDF üretilemedi"); hata = true; continue; }
+    const res = spawnSync(TARAYICI, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", `--user-data-dir=${path.join(process.env.TEMP ?? ROOT, "edge_gk_s_" + id)}`, `--print-to-pdf=${pdfP}`, `file:///${htmlP.replace(/\\/g, "/")}`], { timeout: 240000 });
+    if (res.status !== 0 || !fs.existsSync(pdfP)) { console.error(`slayt PDF üretilemedi (motor: ${TARAYICI})`); hata = true; continue; }
     const pdf = await PDFDocument.load(fs.readFileSync(pdfP), { updateMetadata: false });
     console.log(`  PDF ${id}.pdf sayfa ${pdf.getPageCount()} | ${(fs.statSync(pdfP).size / 1024).toFixed(0)} KB`);
   }
@@ -103,16 +112,37 @@ for (const id of belgeler) {
 if (hata) { console.error("BUILD DURDU."); process.exit(1); }
 if (SADECE_HTML || HEDEF !== "baski") process.exit(0);
 
-// ---------- Edge headless PDF ----------
-if (!fs.existsSync(EDGE)) { console.error("Edge bulunamadı: " + EDGE); process.exit(1); }
+// ---------- Tarayıcı headless PDF (Edge öncelikli; bozuksa Chrome'a düş) ----------
+function tarayiciSec() {
+  const adaylar = [process.env.GK_BROWSER, EDGE, "C:/Program Files/Google/Chrome/Application/chrome.exe"].filter(Boolean);
+  for (let i = 0; i < adaylar.length; i++) {
+    const exe = adaylar[i];
+    if (!fs.existsSync(exe)) continue;
+    // Her adaya ayrı profil: bozuk Edge'in geride kalan headless süreçleri ortak profili kilitlemesin.
+    const mini = path.join(process.env.TEMP ?? ROOT, `gk_pdf_profi_${i}`);
+    const miniPdf = mini + "_test.pdf";
+    try { fs.rmSync(mini, { recursive: true, force: true }); } catch {}
+    if (fs.existsSync(miniPdf)) fs.unlinkSync(miniPdf);
+    fs.mkdirSync(mini, { recursive: true });
+    const r = spawnSync(exe, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", `--user-data-dir=${mini}`, `--print-to-pdf=${miniPdf}`, "about:blank"], { timeout: 60000 });
+    if (r.status === 0 && fs.existsSync(miniPdf) && fs.statSync(miniPdf).size > 500) {
+      fs.unlinkSync(miniPdf);
+      console.log(`PDF motoru: ${path.basename(path.dirname(path.dirname(exe)))}`);
+      return exe;
+    }
+  }
+  console.error("Hiçbir tarayıcı PDF üretemedi (Edge + Chrome yok/bozuk)");
+  process.exit(1);
+}
+const TARAYICI = tarayiciSec();
 let toplam = 0;
 for (const id of belgeler) {
   const htmlP = path.join(OUT_HTML, CIKTI[id].html).replace(/\\/g, "/");
   const pdfP = path.join(OUT_PDF, CIKTI[id].pdf);
   if (fs.existsSync(pdfP)) fs.unlinkSync(pdfP);
   const prof = path.join(process.env.TEMP ?? ROOT, "edge_gk_" + id);
-  const res = spawnSync(EDGE, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", `--user-data-dir=${prof}`, `--print-to-pdf=${pdfP}`, `file:///${htmlP}`], { timeout: 240000 });
-  if (res.status !== 0 || !fs.existsSync(pdfP) || fs.statSync(pdfP).size < 10000) { console.error(`PDF üretilemedi: ${pdfP}`); process.exit(1); }
+  const res = spawnSync(TARAYICI, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", `--user-data-dir=${prof}`, `--print-to-pdf=${pdfP}`, `file:///${htmlP}`], { timeout: 240000 });
+  if (res.status !== 0 || !fs.existsSync(pdfP) || fs.statSync(pdfP).size < 10000) { console.error(`PDF üretilemedi: ${pdfP} (motor: ${TARAYICI})`); process.exit(1); }
   const pdf = await PDFDocument.load(fs.readFileSync(pdfP), { updateMetadata: false });
   const n = pdf.getPageCount(); toplam += n;
   console.log(`PDF ${CIKTI[id].pdf.padEnd(42)} sayfa ${String(n).padStart(2)} | ${(fs.statSync(pdfP).size / 1024).toFixed(0)} KB`);

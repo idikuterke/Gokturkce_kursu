@@ -74,13 +74,13 @@
        "soru": "bodun (millet)",
        "cevap": "bodun",
        "cevapRunik": "𐰉𐰆𐰑𐰣",
-       "aciklama": "kalın b + o/u + kalın d + kalın n; içses u düşer"
+       "aciklama": "kalın b + o/u + kalın d + kalın n; yuvarlaktan sonra yuvarlak yazılmaz (Kural 3b)"
       },
       {
-       "soru": "türk",
-       "cevap": "türk",
+       "soru": "türük",
+       "cevap": "türük",
        "cevapRunik": "𐱅𐰇𐰼𐰜",
-       "aciklama": "ince t + ö/ü + ince r + ÖK/ÜK ligatürü"
+       "aciklama": "ince t + ö/ü + ince r + ÖK/ÜK ligatürü — okunuş: türük (KT G1)"
       }
      ]
     },
@@ -90,7 +90,7 @@
       "slayt"
      ],
      "id": "sayi-mantik",
-     "html": "<h3>Sayılar — Hedef Onluk Mantığı</h3><p>Eski Türkçe sayı, bulunulan onluğu değil <b>ulaşılmak istenen bir sonraki onluğu</b> söyler.</p><p class=\"buyuk\"><span class=\"cevrim\">eki yeg(i)rmi</span> = 12 · <span class=\"cevrim\">bir otuz</span> = 21 · <span class=\"cevrim\">sekiz elig</span> = 48</p><p class=\"not\">Formül: [birlik] + [hedef onluk]. Aysu Ata disiplini: yazılmayan ünlü parantezde — yeg(i)rmi.</p>"
+     "html": "<h3>Sayılar — Hedef Onluk Mantığı</h3><p>Eski Türkçe sayı, bulunulan onluğu değil <b>ulaşılmak istenen bir sonraki onluğu</b> söyler.</p><p class=\"buyuk\"><span class=\"cevrim\">eki yeg(i)rmi</span> = 12 · <span class=\"cevrim\">bir otuz</span> = 21 · <span class=\"cevrim\">sekiz elig</span> = 48</p><p class=\"not\">Formül: [birlik] + [hedef onluk]. Aysu Ata disiplini: yazılmayan ünlü parantezde — yeg(i)rmi.</p><p><b>artukı ile toplama:</b> kalan birlikler <span class=\"cevrim\">artukı</span> (“artan”) ile eklenir: <span class=\"cevrim\">yegirmi artukı yiti</span> = 27 (Tanyeri s.19).</p>"
     },
     {
      "type": "prose",
@@ -111,7 +111,7 @@
       27,
       29
      ],
-     "baslik": "Yazıtta sayı — Kül Tigin · Güney 1: Otuz Tatar"
+     "baslik": "Yazıtta sayı — Köl Tigin · Güney 1: Otuz Tatar"
     },
     {
      "type": "gorsel",
@@ -449,12 +449,12 @@
      "secenekler": [
       "Tengri",
       "Töre",
-      "Türk",
+      "Türük",
       "Ötüken"
      ],
      "dogru": 2,
      "geriBildirim": {
-      "ok": "t² + ö/ü + r² + ÖK/ÜK ➔ Türk.",
+      "ok": "t² + ö/ü + r² + ÖK/ÜK ➔ Türük (KT G1 okunuşu; T 1-3'te ayrıca türk yazımı).",
       "no": "Sağdan sola: ince t ile başlar, ÖK ligatürüyle biter."
      }
     },

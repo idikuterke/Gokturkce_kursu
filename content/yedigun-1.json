@@ -41,7 +41,7 @@
      ],
      "src": "content/gorsel/orhun-bengu-tas.jpg",
      "alt": "Orhun bozkırında dikili bengü taş (temsilî)",
-     "altyazi": "Bengü taş — Orhun vadisi, temsilî canlandırma. Gerçek yazıt fotoğrafı için: Kül Tigin Yazıtı, Höşöö Tsaydam.",
+     "altyazi": "Bengü taş — Orhun vadisi, temsilî canlandırma. Gerçek yazıt fotoğrafı için: Köl Tigin Yazıtı, Höşöö Tsaydam.",
      "kaynak": "Temsilî görsel, ComfyUI/Flux",
      "genislik": "tam",
      "dogrulama": {
@@ -56,7 +56,7 @@
       "slayt"
      ],
      "id": "kesif",
-     "html": "<h3>Keşif ve Çözüm Süreci</h3><ul><li>Göktürk Kağanlığı dönemi (<b>552–744</b>) — Türk adıyla kurulan ilk devlet; alfabe taşa kazındı.</li><li>Çözüm: Danimarkalı dilbilimci <b>Vilhelm Thomsen</b>, <b>15 Aralık 1893</b>.</li><li>İlk çözülen kelime: <b>Tengri</b> <span class=\"runic\">𐱅𐰭𐰼𐰃</span></li></ul>"
+     "html": "<h3>Keşif ve Çözüm Süreci</h3><ul><li>Göktürk Kağanlığı dönemi (<b>552–744</b>) — Türk adıyla kurulan ilk devlet; alfabe taşa kazındı.</li><li>Çözüm: Danimarkalı dilbilimci <b>Vilhelm Thomsen</b>, <b>15 Aralık 1893</b>.</li><li>Thomsen'in anahtar sözcüklerinden biri: <b>teŋri</b> <span class=\"runic\">𐱅𐰭𐰼𐰃</span> (Ata 2011 s.67)</li></ul>"
     },
     {
      "type": "gorsel",
@@ -64,8 +64,8 @@
       "slayt"
      ],
      "src": "content/gorsel/tengri-tas.jpg",
-     "alt": "Taşa kazınmış Tengri: 𐱅𐰭𐰼𐰃",
-     "altyazi": "İlk çözülen kelime: Tengri — 𐱅𐰭𐰼𐰃 (sağdan sola: t² · ng · r² · i). Yazı fonttan deterministik kazınmıştır.",
+     "alt": "Taşa kazınmış teŋri: 𐱅𐰭𐰼𐰃",
+     "altyazi": "Thomsen'in anahtar sözcüklerinden teŋri — 𐱅𐰭𐰼𐰃 (sağdan sola: t² · ng · r² · i). Yazı fonttan deterministik kazınmıştır.",
      "kaynak": "Flux taş dokusu + kazi.py",
      "genislik": "tam",
      "dogrulama": {
@@ -73,6 +73,14 @@
       "sonuc": "t-ŋ-r-ı · teŋri · EDPT s.523 · geçerli",
       "tarih": "2026-09-10"
      }
+    },
+    {
+     "type": "prose",
+     "targets": [
+      "slayt"
+     ],
+     "id": "yazit-kimlik",
+     "html": "<h3>Yazıt Kimlik Kartı</h3><table class=\"tablo\"><tr><th>Yazıt</th><th>Tarih</th><th>Kişisi</th></tr><tr><td><b>Köl Tigin</b> (KT)</td><td>732</td><td>Köl Tigin adına; kardeşi Bilge Kağan diktirdi</td></tr><tr><td><b>Bilge Kağan</b> (BK)</td><td>735</td><td>Bilge Kağan adına</td></tr><tr><td><b>Tunyukuk</b> (T)</td><td>~720'ler</td><td>Başbakan Tunyukuk adına</td></tr></table><p class=\"not\">Bulunuş: Yadrintsev 1889 · Radloff atlası 1892 — Çözüm: V. Thomsen, 25 Kasım 1893 / ilan 15 Aralık 1893 (Ata 2011 s.66-67; Tanyeri s.5).</p><p class=\"not\">Okunuş notu: u/o ve ö/ü tek tamga olduğu için ayrılmaz (Kül~Köl, Tunyukuk~Tunyukuk); bu kursta <b>Köl Tigin</b> ve <b>Tunyukuk</b> (Tanyeri s.10).</p>"
     },
     {
      "type": "metin-ref",
@@ -85,7 +93,7 @@
       0,
       4
      ],
-     "baslik": "Kül Tigin Yazıtı · Güney yüzü · 1. dize (açılış)",
+     "baslik": "Köl Tigin Yazıtı · Güney yüzü · 1. dize (açılış)",
      "goster": [
       "runik",
       "transkripsiyon",

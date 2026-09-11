@@ -40,7 +40,7 @@
       "slayt"
      ],
      "id": "tumce-tur",
-     "html": "<h3>İki Tümce Türü</h3><table class=\"tablo\"><tr><th>Tür</th><th>Yüklem</th><th>Örnek</th></tr><tr><td><b>İsim tümcesi</b></td><td>İsim / sıfat (+ <i>er-</i> yardımcı fiili veya şahıs zamiri)</td><td><span class=\"cevrim\">Bilge Tonyukuk men</span> — Ben Bilge Tonyukuk'um</td></tr><tr><td><b>Fiil tümcesi</b></td><td>Çekimli fiil</td><td>Özne + Tümleç + Yüklem</td></tr></table>"
+     "html": "<h3>İki Tümce Türü</h3><table class=\"tablo\"><tr><th>Tür</th><th>Yüklem</th><th>Örnek</th></tr><tr><td><b>İsim tümcesi</b></td><td>İsim / sıfat (+ <i>er-</i> yardımcı fiili veya şahıs zamiri)</td><td><span class=\"cevrim\">Bilge Tunyukuk men</span> — Ben Bilge Tunyukuk'um</td></tr><tr><td><b>Fiil tümcesi</b></td><td>Çekimli fiil</td><td>Özne + Tümleç + Yüklem</td></tr></table>"
     },
     {
      "type": "metin-ref",
@@ -53,7 +53,7 @@
       0,
       3
      ],
-     "baslik": "İsim tümcesi — Tonyukuk Yazıtı · 1. taş · Batı 1"
+     "baslik": "İsim tümcesi — Tunyukuk Yazıtı · 1. taş · Batı 1"
     },
     {
      "type": "metin-ref",
@@ -66,7 +66,7 @@
       0,
       7
      ],
-     "baslik": "İsim tümcesi — Kül Tigin · Güney 1: Tanrı gibi gökte olmuş Türk Bilge Kağan"
+     "baslik": "İsim tümcesi — Köl Tigin · Güney 1: Tanrı gibi gökte olmuş Türk Bilge Kağan"
     },
     {
      "type": "metin-ref",
@@ -79,7 +79,7 @@
       0,
       6
      ],
-     "baslik": "Fiil tümcesi — Tonyukuk · Batı 2: Türk bodun kanın bulmayın Tabgaçda adrıldı"
+     "baslik": "Fiil tümcesi — Tunyukuk · Batı 2: Türk bodun kanın bulmayın Tabgaçda adrıldı"
     },
     {
      "type": "prose",
@@ -98,12 +98,12 @@
      "yedigun": 3,
      "rol": "formatif",
      "konu": "Tümce Türü",
-     "soru": "<span class=\"cevrim\">Bilge Tonyukuk men</span> tümcesi hangi türdendir ve yüklemi nedir?",
+     "soru": "<span class=\"cevrim\">Bilge Tunyukuk men</span> tümcesi hangi türdendir ve yüklemi nedir?",
      "secenekler": [
       "Fiil tümcesi; yüklem 'men'",
       "Eksiltili tümce; yüklem yok",
-      "Fiil tümcesi; yüklem 'Tonyukuk'",
-      "İsim tümcesi; yüklem 'Bilge Tonyukuk' + şahıs zamiri 'men'"
+      "Fiil tümcesi; yüklem 'Tunyukuk'",
+      "İsim tümcesi; yüklem 'Bilge Tunyukuk' + şahıs zamiri 'men'"
      ],
      "dogru": 3,
      "geriBildirim": {
@@ -158,7 +158,7 @@
       "slayt"
      ],
      "id": "yenisey",
-     "html": "<h3>Üçüncü Bölge: Yenisey Yazıtları</h3><p>Güney Sibirya (Yenisey ırmağı) mezar taşları — Orhun'la aynı alfabe, <b>bölgesel glif varyantları</b>. Unicode bu biçimlere ayrı kod noktası verir; ses değeri aynıdır.</p><p><b>İki ek ünlü:</b> Orhun'un 4 ünlü damgasına Yenisey iki işaret ekler — <b>açık e (ä)</b>: <span class=\"cevrim\">äb, är, bäg, täg</span> · <b>kapalı é (ė)</b>: <span class=\"cevrim\">ėki, ėl, bėş, yėti</span> (Orhun'da i ile yazılır ya da yazılmaz).</p><p class=\"not\">Örnek: Tonyukuk yazıtı ÖK/ÜK için Yenisey biçimi 𐰝 kullanır (Orhun 𐰜).</p>"
+     "html": "<h3>Üçüncü Bölge: Yenisey Yazıtları</h3><p>Güney Sibirya (Yenisey ırmağı) mezar taşları — Orhun'la aynı alfabe, <b>bölgesel glif varyantları</b>. Unicode bu biçimlere ayrı kod noktası verir; ses değeri aynıdır.</p><p><b>İki ek ünlü:</b> Orhun'un 4 ünlü damgasına Yenisey iki işaret ekler — <b>açık e (ä)</b>: <span class=\"cevrim\">äb, är, bäg, täg</span> · <b>kapalı é (ė)</b>: <span class=\"cevrim\">ėki, ėl, bėş, yėti</span> (Orhun'da i ile yazılır ya da yazılmaz).</p><p class=\"not\">Örnek: Tunyukuk yazıtı ÖK/ÜK için Yenisey biçimi 𐰝 kullanır (Orhun 𐰜).</p>"
     },
     {
      "type": "tamga-grid",
