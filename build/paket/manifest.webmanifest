@@ -1,0 +1,25 @@
+{
+  "name": "Göktürkçe Okuma-Yazma Öğreneği",
+  "short_name": "Göktürkçe Kursu",
+  "description": "Türk Runik Yazı Sistemi · 4 Yedigün · çevrimdışı kurs paketi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B1320",
+  "theme_color": "#0B1320",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

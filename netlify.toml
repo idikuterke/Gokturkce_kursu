@@ -1,0 +1,13 @@
+[build]
+  command = "node engine/build.mjs && node engine/build.mjs --hedef slayt && node engine/paket.mjs && node engine/pwa-uret.mjs"
+  publish = "build/paket"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Cache-Control = "no-cache"

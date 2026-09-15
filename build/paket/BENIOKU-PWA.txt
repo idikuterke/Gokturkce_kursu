@@ -1,0 +1,13 @@
+GÖKTÜRKÇE PAKET KURS — PWA DAĞITIM NOTU
+Bu klasör tam bir kurulabilir web uygulamasıdır (manifest + service worker + ikonlar).
+
+Yerel test : node engine/onizleme-sunucu.mjs  → http://127.0.0.1:5173/
+Dağıtım    : klasörü olduğu gibi yükleyin —
+             Vercel   : vercel deploy --prod (yapılandırma: vercel.json hazır)
+             Netlify  : netlify deploy --prod (yapılandırma: netlify.toml hazır)
+             Pages    : repoya koyup kök dizin = build/paket seçin
+
+Notlar:
+- Service worker TÜM dosyaları önceden önbelleğe alır (precache); ilk ziyaretten sonra tam çevrimdışı çalışır.
+- sw.js sürümü içerik karmasıdır: içerik değişince pwa-uret.mjs yeni karmayı üretir, istemciler otomatik güncellenir.
+- file:// ile açım SW kaydetmez ama paket yine de çalışır (çevrimdışı zip sürümü).
