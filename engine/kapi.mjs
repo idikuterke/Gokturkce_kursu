@@ -14,6 +14,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
 import opentype from "opentype.js";
+import { denetle as orhunTara, istisnaOku as orhunIstisna } from "./orhun-tara.mjs";
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const P = (...s) => path.join(ROOT, ...s);
@@ -38,6 +39,7 @@ export async function kapiHazirla() {
   for (const r of Array.isArray(irkRaw) ? irkRaw : Object.values(irkRaw)) irk[String(r.fal_no)] = r;
   const orhunRaw = JSON.parse(fs.readFileSync(P("05_Kaynak_DB/orhun-db-v1.json"), "utf8"));
   const orhun = Object.fromEntries(orhunRaw.dizeler.map((d) => [d.id, d]));
+  const orhunTaramasi = orhunTara(orhunRaw.dizeler, orhunIstisna(P));   // runik iskelet ↔ transkripsiyon
   const tamgalar = JSON.parse(fs.readFileSync(P("content/tamgalar.json"), "utf8"));
   // Altın sözlük: Latin ↔ runik (mantıksal sıra). Sıra hatası uydurma tamgadan sinsidir: tüm tamgalar geçerli görünür.
   const sozluk = JSON.parse(fs.readFileSync(P("content/sozluk.json"), "utf8")).kelimeler;
@@ -63,6 +65,7 @@ export async function kapiHazirla() {
 
   const hatalar = [];
   const hata = (m) => hatalar.push(m);
+  orhunTaramasi.hata.forEach(hata);
 
   // tamgalar.json denetimi: metin kaynaklarında geçmeyen tamga içeren grup 'kaynak' alanı bildirmeli (Unicode/font gibi)
   for (const g of tamgalar.gruplar) {
@@ -153,7 +156,7 @@ export async function kapiHazirla() {
     return h;
   }
 
-  return { irk, orhun, tamgalar, kaynak, cmap, sozluk, belgeDenetle, ciktiDenetle, tersSiraDenetle, refCoz, sonuc, hatalar };
+  return { orhunTaramasi, irk, orhun, tamgalar, kaynak, cmap, sozluk, belgeDenetle, ciktiDenetle, tersSiraDenetle, refCoz, sonuc, hatalar };
 }
 
 // ---------- CLI ----------
@@ -167,7 +170,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   }
   for (const f of ["Gokturkce_Kurs_Teklifi_Revize.md", "Gokturkce_Kurs_Teklifi_Revize.html", "brosur-a5.html"])
     if (fs.existsSync(P(f))) { g.tersSiraDenetle(fs.readFileSync(P(f), "utf8"), f); g.ciktiDenetle(fs.readFileSync(P(f), "utf8"), f); }
-  console.log(`kaynak tamga kümesi: ${g.kaynak.size} | Noto cmap: ${g.cmap.size} kod noktası | sözlük: ${Object.keys(g.sozluk).length} kelime`);
+  console.log(`kaynak tamga kümesi: ${g.kaynak.size} | Noto cmap: ${g.cmap.size} kod noktası | sözlük: ${Object.keys(g.sozluk).length} kelime | orhun-db taraması: ${g.orhunTaramasi.sapma} gerekçeli sapma (kalan istisna)`);
   const h = g.sonuc();
   if (h.length) { console.error("\nGÜVENLİK KAPISI BAŞARISIZ:\n  " + h.join("\n  ")); process.exit(1); }
   console.log("GÜVENLİK KAPISI: GEÇTİ");

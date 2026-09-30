@@ -1,0 +1,197 @@
+{
+ "aciklama": "Orhun DB taramasında runik iskelet ↔ transkripsiyon farkı gösteren ama kaynaktan doğrulanmadan düzeltilmeyen kelimeler. durum=inceleme: kitap (Tekin 2003/1998, Ata 2011) karşılaştırması bekliyor. Bir kelime düzeltilince ya da sapma kalmayınca kapı bayat istisna hatası verir; satırı sil.",
+ "istisnalar": [
+  {
+   "id": "KT-G-6",
+   "sira": 10,
+   "runik": "𐰖𐰍𐰞𐰽𐰺",
+   "transkripsiyon": "YaŊıLSaR",
+   "durum": "inceleme",
+   "neden": "ŋ/ñ yerine g yazımı olabilir (yañılsar); ñ≠g ayrımı kitaptan doğrulanmalı"
+  },
+  {
+   "id": "KT-D-24",
+   "sira": 1,
+   "runik": "𐰸𐰆𐰴𐰃𐰍𐰺𐰆",
+   "transkripsiyon": "KURIGaRU",
+   "durum": "inceleme",
+   "neden": "kalın k (𐰴) ↔ r (𐰺) karışıklığı olası (kurıgaru); iki yazıtta aynı"
+  },
+  {
+   "id": "KT-D-24",
+   "sira": 9,
+   "runik": "𐰴𐰣𐰍",
+   "transkripsiyon": "KaNıN",
+   "durum": "inceleme",
+   "neden": "runik 𐰴𐰣𐰍 (g ile biter); transkripsiyon n ile — kitaptan doğrulanmalı"
+  },
+  {
+   "id": "KT-D-24",
+   "sira": 24,
+   "runik": "𐰉𐰆𐰡𐰃",
+   "transkripsiyon": "BODLI",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "KT-D-34",
+   "sira": 0,
+   "runik": "𐱅𐰏𐰓𐰜𐰃𐰤",
+   "transkripsiyon": "TeKDÜKİN",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "KT-D-39",
+   "sira": 5,
+   "runik": "𐰇𐰚𐰇𐰔𐰏",
+   "transkripsiyon": "ÖGÜZüG",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "KT-K-1",
+   "sira": 21,
+   "runik": "𐰼𐰚𐰠𐰃",
+   "transkripsiyon": "eKRLİ",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "KT-K-2",
+   "sira": 17,
+   "runik": "𐰇𐰠𐰼𐱅𐰢𐰔",
+   "transkripsiyon": "ÖMLüRTüMüZ",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "KT-K-4",
+   "sira": 13,
+   "runik": "𐰉𐰆𐰑𐰣𐰢",
+   "transkripsiyon": "BONuNuM",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "KT-K-12",
+   "sira": 13,
+   "runik": "𐰚𐰼𐰏𐰚𐰾𐰔",
+   "transkripsiyon": "KeRGeSİZ",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "KT-K-13",
+   "sira": 20,
+   "runik": "𐰋𐰃𐱅𐰏",
+   "transkripsiyon": "BİTiK",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "BK-D-19",
+   "sira": 43,
+   "runik": "𐰸𐰆𐰴𐰃𐰍𐰺𐰆",
+   "transkripsiyon": "KURIGaRU",
+   "durum": "inceleme",
+   "neden": "kalın k (𐰴) ↔ r (𐰺) karışıklığı olası (kurıgaru); iki yazıtta aynı"
+  },
+  {
+   "id": "BK-D-20",
+   "sira": 7,
+   "runik": "𐰴𐰣𐰍",
+   "transkripsiyon": "KaNıN",
+   "durum": "inceleme",
+   "neden": "runik 𐰴𐰣𐰍 (g ile biter); transkripsiyon n ile — kitaptan doğrulanmalı"
+  },
+  {
+   "id": "BK-D-25",
+   "sira": 19,
+   "runik": "𐰴𐰃𐱁𐰑𐰢",
+   "transkripsiyon": "KILDıM",
+   "durum": "inceleme",
+   "neden": "aynı kelime başka dizelerde 𐰴𐰃𐰡𐰢 (kıltım); burada ş (𐱁) + d — okuma kitaptan doğrulanmalı"
+  },
+  {
+   "id": "BK-D-29",
+   "sira": 31,
+   "runik": "𐰢𐰤𐰤",
+   "transkripsiyon": "MENİŊ",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "BK-D-39",
+   "sira": 13,
+   "runik": "𐰉𐰆𐰑𐰣𐰍",
+   "transkripsiyon": "BONuDuG",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "BK-K-4",
+   "sira": 39,
+   "runik": "𐰖𐰍𐰞𐰽𐰺",
+   "transkripsiyon": "YaŊıLSaR",
+   "durum": "inceleme",
+   "neden": "ŋ/ñ yerine g yazımı olabilir (yañılsar); ñ≠g ayrımı kitaptan doğrulanmalı"
+  },
+  {
+   "id": "BK-K-14",
+   "sira": 34,
+   "runik": "𐰚𐰇𐰭𐰠𐱅𐰚𐰃",
+   "transkripsiyon": "KÖŊüLKeTİ",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "BK-K-14",
+   "sira": 35,
+   "runik": "𐰽𐰉𐰢𐰣",
+   "transkripsiyon": "SaBıNıM",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "TY1-B-3",
+   "sira": 3,
+   "runik": "𐰃𐰲𐰚𐰓𐰭",
+   "transkripsiyon": "İÇiKDÜK",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "TY1-K-2",
+   "sira": 1,
+   "runik": "𐰾𐰉𐰺𐱈",
+   "transkripsiyon": "IBRıK",
+   "durum": "inceleme",
+   "neden": "𐱈 (BASH) yalnız bu dizede; DB notlarında zaten \"doğrulanmadı\""
+  },
+  {
+   "id": "TY1-K-4",
+   "sira": 12,
+   "runik": "𐰨𐰚𐰓𐰃",
+   "transkripsiyon": "iÇiKDİ",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "TY1-K-10",
+   "sira": 17,
+   "runik": "𐰨𐰼𐰀",
+   "transkripsiyon": "İÇRE",
+   "durum": "inceleme",
+   "neden": "iskelet farkı var; dizgi hatası mı yazıt yazımı mı, Tekin/Thomsen ile karşılaştırılacak"
+  },
+  {
+   "id": "TY2-B-1",
+   "sira": 15,
+   "runik": "𐰸𐰆𐰯",
+   "transkripsiyon": "KOPUN",
+   "durum": "inceleme",
+   "neden": "runik 𐰸𐰆𐰯 sonda n yok; transkripsiyon kopun"
+  }
+ ]
+}
