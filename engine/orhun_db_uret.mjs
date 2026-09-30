@@ -3,6 +3,7 @@
 // Runik diziler kaynaktan AYNEN alınır; hiçbir tamga üretilmez veya değiştirilmez.
 import fs from "node:fs";
 import path from "node:path";
+import { yamaUygula, yamalariOku } from "./orhun-tara.mjs";
 
 const ROOT = "E:/Gokturkce_kursu";
 const HAM = path.join(ROOT, "05_Kaynak_DB/ham/turkbitig");
@@ -67,6 +68,9 @@ for (const k of kayitlar) {
   if (a !== b) { uyari++; k.uyari = `runik ${a} kelime, transkripsiyon ${b} kelime`; }
   else if (b !== c) { k.not = `çeviri kelime sayısı farklı (${c}) — normal`; }
 }
+// Kaynak sitedeki bilinen dizgi hatalarının düzeltmeleri (yeniden üretimde kaybolmasın)
+const yamalar = yamalariOku((...s) => path.join(ROOT, ...s));
+for (const y of yamaUygula(kayitlar, yamalar)) (kayitlar.find((k) => k.id === y.id).duzeltmeler ??= []).push({ sira: y.sira, alan: y.alan || "gokturkce", eski: y.eski, yeni: y.yeni, gerekce: y.gerekce });
 const tamgalar = new Set(kayitlar.flatMap((k) => k.gokturkce.match(RUNE) || []));
 
 const db = {
@@ -80,6 +84,7 @@ const db = {
     tamgalar: [...tamgalar].sort().map((c) => "U+" + c.codePointAt(0).toString(16).toUpperCase()),
     kelime_uyusmazligi: uyari,
   },
+  notlar: [`DÜZELTME: ${yamalar.length} kelimelik dizgi düzeltmesi 05_Kaynak_DB/orhun-db-duzeltmeler.json'da; dize başına 'duzeltmeler' alanı.`],
   dizeler: kayitlar,
 };
 fs.writeFileSync(OUT, JSON.stringify(db, null, 1), "utf8");

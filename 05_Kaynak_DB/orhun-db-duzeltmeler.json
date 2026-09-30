@@ -1,0 +1,197 @@
+{
+ "aciklama": "Orhun DB düzeltme yamaları: turkbitig.com kaynaklı dizgi hatalarının düzeltmeleri. orhun_db_uret.mjs yeniden üretimde bunları uygular; eski değer eşleşmezse hata verir. Kanıt ölçütü: aynı transkripsiyonlu kelime DB'nin başka dizelerinde düzeltilmiş runik yazımla geçiyor (tek karakter / ters sıra farkı) ve/veya runik ↔ çeviri bütünlüğü.",
+ "yamalar": [
+  {
+   "id": "KT-D-4",
+   "sira": 7,
+   "alan": "gokturkce",
+   "eski": "𐰋𐰇𐰚𐰲𐰃",
+   "yeni": "𐰋𐰇𐰚𐰠𐰃",
+   "gerekce": "BÖKLİ: ç (𐰲) yerine ince l (𐰠)"
+  },
+  {
+   "id": "BK-D-5",
+   "sira": 5,
+   "alan": "gokturkce",
+   "eski": "𐰋𐰇𐰚𐰲𐰃",
+   "yeni": "𐰋𐰇𐰚𐰠𐰃",
+   "gerekce": "BÖKLİ: ç (𐰲) yerine ince l (𐰠)"
+  },
+  {
+   "id": "KT-D-5",
+   "sira": 26,
+   "alan": "gokturkce",
+   "eski": "𐰉𐰆𐰖𐰴𐰸𐰃",
+   "yeni": "𐰉𐰆𐰖𐰺𐰸𐰃",
+   "gerekce": "BUYRUKI: kalın k (𐰴) yerine kalın r (𐰺)"
+  },
+  {
+   "id": "BK-D-6",
+   "sira": 15,
+   "alan": "gokturkce",
+   "eski": "𐰉𐰆𐰖𐰴𐰸𐰃",
+   "yeni": "𐰉𐰆𐰖𐰺𐰸𐰃",
+   "gerekce": "BUYRUKI: kalın k (𐰴) yerine kalın r (𐰺)"
+  },
+  {
+   "id": "KT-D-15",
+   "sira": 10,
+   "alan": "gokturkce",
+   "eski": "𐰇𐰲𐰇𐰢",
+   "yeni": "𐰇𐰲𐰇𐰤",
+   "gerekce": "ÜÇÜN: sonda m (𐰢) yerine ince n (𐰤)"
+  },
+  {
+   "id": "BK-D-13",
+   "sira": 8,
+   "alan": "gokturkce",
+   "eski": "𐰇𐰲𐰇𐰢",
+   "yeni": "𐰇𐰲𐰇𐰤",
+   "gerekce": "ÜÇÜN: sonda m (𐰢) yerine ince n (𐰤)"
+  },
+  {
+   "id": "BK-D-14",
+   "sira": 33,
+   "alan": "gokturkce",
+   "eski": "𐰇𐰲𐰇𐰢",
+   "yeni": "𐰇𐰲𐰇𐰤",
+   "gerekce": "ÜÇÜN: sonda m (𐰢) yerine ince n (𐰤)"
+  },
+  {
+   "id": "KT-D-39",
+   "sira": 23,
+   "alan": "gokturkce",
+   "eski": "𐱃𐰆𐰴𐰸",
+   "yeni": "𐱃𐰆𐰺𐰸",
+   "gerekce": "TORUK: kalın k (𐰴) yerine kalın r (𐰺)"
+  },
+  {
+   "id": "KT-K-1",
+   "sira": 7,
+   "alan": "gokturkce",
+   "eski": "𐰯𐰆𐰴",
+   "yeni": "𐰴𐰆𐰯",
+   "gerekce": "KOP: ters sıra (p-o-k → k-o-p)"
+  },
+  {
+   "id": "BK-D-3",
+   "sira": 36,
+   "alan": "gokturkce",
+   "eski": "𐱅𐰃𐰔𐰲𐰏𐰏",
+   "yeni": "𐱅𐰃𐰔𐰠𐰏𐰏",
+   "gerekce": "TİZLiGiG: ç (𐰲) yerine ince l (𐰠)"
+  },
+  {
+   "id": "BK-D-3",
+   "sira": 38,
+   "alan": "gokturkce",
+   "eski": "𐰃𐰠𐰏𐰠𐰇",
+   "yeni": "𐰃𐰠𐰏𐰼𐰇",
+   "gerekce": "İLGeRÜ: ince l (𐰠) yerine ince r (𐰼)"
+  },
+  {
+   "id": "BK-D-25",
+   "sira": 26,
+   "alan": "gokturkce",
+   "eski": "𐱅𐰼𐰃",
+   "yeni": "𐰼𐱅𐰃",
+   "gerekce": "eRTİ: ters sıra (t-r-i → r-t-i)"
+  },
+  {
+   "id": "BK-D-26",
+   "sira": 1,
+   "alan": "gokturkce",
+   "eski": "𐰾𐰇𐰘𐰓𐰢",
+   "yeni": "𐰾𐰇𐰠𐰓𐰢",
+   "gerekce": "SÜLeDiM: y (𐰘) yerine ince l (𐰠)"
+  },
+  {
+   "id": "BK-D-26",
+   "sira": 13,
+   "alan": "gokturkce",
+   "eski": "𐰆𐱃𐰜",
+   "yeni": "𐰆𐱃𐰔",
+   "gerekce": "OTuZ: sonda ÖK (𐰜) yerine z (𐰔)"
+  },
+  {
+   "id": "BK-D-26",
+   "sira": 24,
+   "alan": "gokturkce",
+   "eski": "𐱃𐰃𐰀",
+   "yeni": "𐱃𐰯𐰀",
+   "gerekce": "TaPA: ortada I (𐰃) yerine p (𐰯)"
+  },
+  {
+   "id": "BK-D-30",
+   "sira": 11,
+   "alan": "gokturkce",
+   "eski": "𐰃𐰚𐰠𐰃",
+   "yeni": "𐰃𐰠𐰚𐰃",
+   "gerekce": "İLKİ: k-l sırası yer değiştirmiş"
+  },
+  {
+   "id": "BK-D-37",
+   "sira": 1,
+   "alan": "gokturkce",
+   "eski": "𐰾𐰇𐰤𐱁𐰓𐰢",
+   "yeni": "𐰾𐰇𐰭𐱁𐰓𐰢",
+   "gerekce": "SÜŊüŞDüM: ŋ (𐰭) yerine ince n (𐰤)"
+  },
+  {
+   "id": "TY1-G-8",
+   "sira": 1,
+   "alan": "gokturkce",
+   "eski": "𐰋𐰢",
+   "yeni": "𐰋𐰤",
+   "gerekce": "BeN: sonda m (𐰢) yerine ince n (𐰤)"
+  },
+  {
+   "id": "TY1-D-7",
+   "sira": 24,
+   "alan": "gokturkce",
+   "eski": "𐰽𐰺𐰦𐰢",
+   "yeni": "𐰽𐰴𐰦𐰢",
+   "gerekce": "SaKıNDıM: kalın r (𐰺) yerine kalın k (𐰴)"
+  },
+  {
+   "id": "TY2-K-1",
+   "sira": 13,
+   "alan": "gokturkce",
+   "eski": "𐰼𐱅𐰃",
+   "yeni": "𐰼𐱅𐰢",
+   "gerekce": "eRTiM: sonda I (𐰃) yerine m (𐰢)"
+  },
+  {
+   "id": "BK-K-10",
+   "sira": 3,
+   "alan": "gokturkce",
+   "eski": "𐱅𐰇𐰘𐰇𐰤",
+   "yeni": "𐱅𐰇𐰼𐰇𐰤",
+   "gerekce": "TÖRÜN: y (𐰘) yerine ince r (𐰼)"
+  },
+  {
+   "id": "BK-K-10",
+   "sira": 10,
+   "alan": "gokturkce",
+   "eski": "𐱅𐰇𐰘𐰇𐰤",
+   "yeni": "𐱅𐰇𐰼𐰇𐰤",
+   "gerekce": "TÖRÜN: y (𐰘) yerine ince r (𐰼)"
+  },
+  {
+   "id": "KT-KD-1",
+   "sira": 23,
+   "alan": "transkripsiyon",
+   "eski": "POK",
+   "yeni": "KOP",
+   "gerekce": "Runik 𐰴𐰆𐰯 = KOP; transkripsiyon ters yazılmış (POK)"
+  },
+  {
+   "id": "KT-K-13",
+   "sira": 12,
+   "alan": "transkripsiyon",
+   "eski": "TaMGaÇI",
+   "yeni": "TaRDUŞ",
+   "gerekce": "Runik 𐱃𐰺𐰑𐰆𐱁 = TaRDUŞ; çeviri de TARDUŞ; transkripsiyonda yanlışlıkla TaMGaÇI tekrarlanmış"
+  }
+ ]
+}

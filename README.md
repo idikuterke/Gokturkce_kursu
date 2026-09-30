@@ -8,6 +8,7 @@ content/tamgalar.json   47 tamga envanteri (kod noktası + ders değeri)
 00_Kaynaklar/irk-bitig-db-v3.json   67 fal          ┐ metin-ref blokları buradan çözülür;
 05_Kaynak_DB/orhun-db-v1.json       214 dize (KT/BK/TY) ┘ runik metin içerik dosyasına elle yazılmaz
 engine/kapi.mjs         GÜVENLİK KAPISI (tek kopya): şema + tamga (kaynak ∧ Noto cmap) + metin-ref + targets + ALTIN SÖZLÜK (content/sozluk.json: latin↔runik eşleşmesi, ters-sıra taraması — teklif/broşür dâhil) + sınav soru sayısı
+engine/orhun-tara.mjs   Orhun DB taraması (kapıya bağlı): runik iskelet ↔ transkripsiyon; yama: 05_Kaynak_DB/orhun-db-duzeltmeler.json, gerekçeli istisna: orhun-db-istisna.json (bayat istisna = hata)
 engine/render-baski.mjs A4 baskı renderer (03_Tasarim/gokturk-baski.css)
 engine/render-slayt.mjs Slayt renderer (koyu 'Bengü Gece' teması, gömülü font, tek dosya) → build/slayt/<id>.html + .pdf
 engine/build.mjs        build → build/baski/html → Edge headless → 04_PDF/

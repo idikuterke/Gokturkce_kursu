@@ -1001,7 +1001,7 @@
    "yuz_kod": "D",
    "satir": 4,
    "sira": 17,
-   "gokturkce": "𐰚𐰼𐰏𐰚 : 𐰉𐰆𐰞𐰢𐰾 : 𐰖𐰆𐰍𐰲𐰃 : 𐰾𐰃𐰍𐱃𐰲𐰃 : 𐰇𐰭𐰼𐰃 : 𐰜𐰇𐰤 : 𐱃𐰆𐰍𐰽𐰴𐰑𐰃 : 𐰋𐰇𐰚𐰲𐰃 : 𐰲𐰇𐰠𐰏𐰠 : 𐱃𐰉𐰍𐰲 : 𐱅𐰇𐰯𐰇𐱅 : 𐰯𐰺 : 𐰯𐰆𐰺𐰢 : 𐰶𐰃𐰺𐰴𐰔 : 𐰇𐰲𐰸𐰆𐰺𐰃𐰴𐰣 : 𐰆𐱃𐰔𐱃𐱃𐰺 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰨𐰀 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐰯𐰤 : 𐰽𐰃𐰍𐱃𐰀𐰢𐰾 : 𐰖𐰆𐰍𐰞𐰀𐰢𐰾 : 𐰦𐰍 : 𐰚𐰇𐰠𐰏 : 𐰴𐰍𐰣 : 𐰼𐰢𐰾 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰴𐰍𐰣 :",
+   "gokturkce": "𐰚𐰼𐰏𐰚 : 𐰉𐰆𐰞𐰢𐰾 : 𐰖𐰆𐰍𐰲𐰃 : 𐰾𐰃𐰍𐱃𐰲𐰃 : 𐰇𐰭𐰼𐰃 : 𐰜𐰇𐰤 : 𐱃𐰆𐰍𐰽𐰴𐰑𐰃 : 𐰋𐰇𐰚𐰠𐰃 : 𐰲𐰇𐰠𐰏𐰠 : 𐱃𐰉𐰍𐰲 : 𐱅𐰇𐰯𐰇𐱅 : 𐰯𐰺 : 𐰯𐰆𐰺𐰢 : 𐰶𐰃𐰺𐰴𐰔 : 𐰇𐰲𐰸𐰆𐰺𐰃𐰴𐰣 : 𐰆𐱃𐰔𐱃𐱃𐰺 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰨𐰀 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐰯𐰤 : 𐰽𐰃𐰍𐱃𐰀𐰢𐰾 : 𐰖𐰆𐰍𐰞𐰀𐰢𐰾 : 𐰦𐰍 : 𐰚𐰇𐰠𐰏 : 𐰴𐰍𐰣 : 𐰼𐰢𐰾 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰴𐰍𐰣 :",
    "transkripsiyon": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : ÜÇKURIKaN : OTuZTaTaR : KITaYN : TaTaBI : BUNÇA : BODuN : KeLİPeN : SIGTAMıŞ : YUGLAMıŞ : aNTaG : KÜLüG : KAGaN : eRMiŞ : aNDA : KİSRE : İNİSİ : KaGaN :",
    "turkce": "KERGEK : OLMUŞ : YUĞCU : SIĞITÇI : ÖNDE : GÜN : DOĞUSUNDA : BÖKLÜ : ÇÜLLÜİL : TABGAÇ : TİBET : APAR : RUM : KIRGIZ : ÜÇKURIKAN : OTUZ-TATAR : KITAY : TATABI : BUNCA : BOYLAR : GELİP : SIĞTAMIŞ : YUĞLAMIŞ : ÖYLE : ÜNLÜ : KAĞAN : İMİŞ : ANDAN : SONRA : İNİSİ : KAĞAN :",
    "kelime_sayisi": 31,
@@ -1046,7 +1046,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/kultigin.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 7,
+     "alan": "gokturkce",
+     "eski": "𐰋𐰇𐰚𐰲𐰃",
+     "yeni": "𐰋𐰇𐰚𐰠𐰃",
+     "gerekce": "BÖKLİ: ç (𐰲) yerine ince l (𐰠)"
+    }
+   ]
   },
   {
    "id": "KT-D-5",
@@ -1057,7 +1066,7 @@
    "yuz_kod": "D",
    "satir": 5,
    "sira": 18,
-   "gokturkce": "𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃𐱃𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃 : 𐰴𐰭𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰋𐰃𐰠𐰏𐰾𐰃𐰔 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰉𐰆𐰖𐰴𐰸𐰃 : 𐰘𐰢𐰀 : 𐰋𐰃𐰠𐰏𐰾𐰔 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰼𐰢𐰾 : 𐰼𐰨 :",
+   "gokturkce": "𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃𐱃𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃 : 𐰴𐰭𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰋𐰃𐰠𐰏𐰾𐰃𐰔 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰉𐰆𐰖𐰺𐰸𐰃 : 𐰘𐰢𐰀 : 𐰋𐰃𐰠𐰏𐰾𐰔 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰼𐰢𐰾 : 𐰼𐰨 :",
    "transkripsiyon": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊIN : TeG : KILıNMaDUK : eRiNÇ : BİLiGSİZ : KaGaN : OLuRMıŞ : eRiNÇ : YaBLaK : KaGaN : OLuRMıŞ : eRiNÇ : BUYRUKI : YiME : BİLiGSiZ : eRiNÇ : YaBLaK : eRMiŞ : eRiNÇ :",
    "turkce": "OLMUŞ : GERÇEK : OĞULLARI : KAĞAN : OLMUŞ : GERÇEK : ONDAN : SONRA : İNİSİ : EÇİSİ : DEK : KILINMADIĞI : GERÇEK : OĞLU : BABASI : DEK : KILINMADIĞI : GERÇEK : BİLGİSİZ : KAĞAN : OTURMUŞ : GERÇEK : YAVLAK : KAĞAN : OTURMUŞ : GERÇEK : BUYRUĞU : YİNE : BİLGİSİZ : GERÇEK : YAVLAK : İMİŞ : GERÇEK :",
    "kelime_sayisi": 33,
@@ -1104,7 +1113,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/kultigin.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 26,
+     "alan": "gokturkce",
+     "eski": "𐰉𐰆𐰖𐰴𐰸𐰃",
+     "yeni": "𐰉𐰆𐰖𐰺𐰸𐰃",
+     "gerekce": "BUYRUKI: kalın k (𐰴) yerine kalın r (𐰺)"
+    }
+   ]
   },
   {
    "id": "KT-D-6",
@@ -1595,7 +1613,7 @@
    "yuz_kod": "D",
    "satir": 15,
    "sira": 28,
-   "gokturkce": "𐰶𐰃𐰺𐰴 : 𐰺𐱃𐰸𐰃 : 𐰘𐱅𐰃 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰠𐰢𐰾 : 𐰘𐰏𐰼𐰢𐰃 : 𐰾𐰇𐰭𐰾 : 𐰾𐰇𐰭𐰾𐰢𐰾 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰢 : 𐰃𐰠𐰠𐰏𐰏 : 𐰠𐰾𐰼𐱅𐰢𐰾 : 𐰴𐰍𐰣𐰞𐰍𐰍 : 𐰴𐰍𐰣𐰽𐰺𐱃𐰢𐰾 : 𐰖𐰍𐰃𐰍 : 𐰉𐰔 : 𐰚𐰃𐰠𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾 : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰇𐰚𐰦𐰇𐰼𐰢𐰾 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣 : 𐰨𐰀 : 𐰃𐰠𐰏 :",
+   "gokturkce": "𐰶𐰃𐰺𐰴 : 𐰺𐱃𐰸𐰃 : 𐰘𐱅𐰃 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰠𐰢𐰾 : 𐰘𐰏𐰼𐰢𐰃 : 𐰾𐰇𐰭𐰾 : 𐰾𐰇𐰭𐰾𐰢𐰾 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰤 : 𐰃𐰠𐰠𐰏𐰏 : 𐰠𐰾𐰼𐱅𐰢𐰾 : 𐰴𐰍𐰣𐰞𐰍𐰍 : 𐰴𐰍𐰣𐰽𐰺𐱃𐰢𐰾 : 𐰖𐰍𐰃𐰍 : 𐰉𐰔 : 𐰚𐰃𐰠𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾 : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰇𐰚𐰦𐰇𐰼𐰢𐰾 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣 : 𐰨𐰀 : 𐰃𐰠𐰏 :",
    "transkripsiyon": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : KaGaNLıGıG : KaGaNSıRaTMıŞ : YaGIG : BaZ : KİLMiŞ : TİZLiGiG : SÖKÜRMiŞ : BaŞLıGıG : YÜKüNDÜRMiŞ : KaŊıM : KaGaN : aNÇA : İLiG :",
    "turkce": "KIRK : ARTI : YEDİ : YOLU : SÜLEMİŞ : YİRMİ : SÜNGÜŞ : SÜNGÜŞMÜŞ : TANRI : BUYURDUĞU : İÇİN : İLLİYİ : İLSİRETMİŞ : KAĞANLIYI : KAĞANSIRATMIŞ : YAĞIYI : BAZ : KILMIŞ : DİZLİYİ : [DİZ] ÇÖKTÜRMÜŞ : BAŞLIYI : YÜKÜNDÜRMÜŞ : BABAM : KAĞAN : ANCA : İLİ :",
    "kelime_sayisi": 26,
@@ -1635,7 +1653,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/kultigin.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 10,
+     "alan": "gokturkce",
+     "eski": "𐰇𐰲𐰇𐰢",
+     "yeni": "𐰇𐰲𐰇𐰤",
+     "gerekce": "ÜÇÜN: sonda m (𐰢) yerine ince n (𐰤)"
+    }
+   ]
   },
   {
    "id": "KT-D-16",
@@ -2920,7 +2947,7 @@
    "yuz_kod": "D",
    "satir": 39,
    "sira": 52,
-   "gokturkce": "𐰽𐰆𐰍𐰑𐰴 : 𐰉𐰆𐰑𐰣 : 𐰃𐱅𐰘𐰃𐰤 : 𐱅𐰃𐰘𐰤 : 𐰘𐰃𐰨𐰇 : 𐰇𐰚𐰇𐰔𐰏 : 𐰚𐰲𐰀 : 𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢𐰔 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰴𐰺𐰀 : 𐱅𐰇𐰼𐰏𐰾 : 𐰉𐰆𐰑𐰣 : 𐰖𐰍𐰃 : 𐰉𐰆𐰞𐰢𐱁 : 𐰚𐰭𐰼𐰾 : 𐱃𐰯𐰀 : 𐰉𐰺𐰑𐰃 : 𐰋𐰃𐰔𐰭 : 𐰾𐰇 : 𐱃𐰃 : 𐱃𐰆𐰴𐰸 : 𐰔𐰆𐰴𐰃 : 𐰖𐰆𐰸 : 𐰼𐱅𐰃 : 𐰖𐰉𐰞𐰴 : 𐰴𐰃𐰾𐰃 : 𐰼 :",
+   "gokturkce": "𐰽𐰆𐰍𐰑𐰴 : 𐰉𐰆𐰑𐰣 : 𐰃𐱅𐰘𐰃𐰤 : 𐱅𐰃𐰘𐰤 : 𐰘𐰃𐰨𐰇 : 𐰇𐰚𐰇𐰔𐰏 : 𐰚𐰲𐰀 : 𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢𐰔 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰴𐰺𐰀 : 𐱅𐰇𐰼𐰏𐰾 : 𐰉𐰆𐰑𐰣 : 𐰖𐰍𐰃 : 𐰉𐰆𐰞𐰢𐱁 : 𐰚𐰭𐰼𐰾 : 𐱃𐰯𐰀 : 𐰉𐰺𐰑𐰃 : 𐰋𐰃𐰔𐰭 : 𐰾𐰇 : 𐱃𐰃 : 𐱃𐰆𐰺𐰸 : 𐰔𐰆𐰴𐰃 : 𐰖𐰆𐰸 : 𐰼𐱅𐰃 : 𐰖𐰉𐰞𐰴 : 𐰴𐰃𐰾𐰃 : 𐰼 :",
    "transkripsiyon": "SOGDaK : BODuN : İTeYİN : TİYiN : YİNÇÜ : ÖGÜZüG : KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiMiZ : aNDA : KİSRE : KaRA : TÜRGiŞ : BODuN : YaGI : BOLMuŞ : KeŊeRiS : TaPA : BaRDI : BİZiŊ : SÜ : aTI : TORUK : aZUKI : YOK : eRTİ : YaBLaK : KİŞİ : eR --- :",
    "turkce": "SOĞDAK : BOYLARINI : [DÜZEN] EDEYİM : DİYE : İNCİ : ÖZÜĞÜ : GEÇİP : DEMİRKAPIYA : DEĞİN : SÜLEDİK : ONDAN : SONRA : KARA : TÜRGİŞ : BOYLARI : YAĞI : OLMUŞ : KENGERİS : TARAFINA : VARDI[LAR] : BİZİM : SÜ : ATI : TORUK : AZIĞI : YOK : İDİ : YAVLAK : KİŞİ : ER --- :",
    "kelime_sayisi": 30,
@@ -2964,7 +2991,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/kultigin.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 23,
+     "alan": "gokturkce",
+     "eski": "𐱃𐰆𐰴𐰸",
+     "yeni": "𐱃𐰆𐰺𐰸",
+     "gerekce": "TORUK: kalın k (𐰴) yerine kalın r (𐰺)"
+    }
+   ]
   },
   {
    "id": "KT-D-40",
@@ -3030,7 +3066,7 @@
    "yuz_kod": "K",
    "satir": 1,
    "sira": 54,
-   "gokturkce": "--- : 𐰋𐰃𐰼𐰠𐰀 : 𐰸𐰆𐱁𐰆 : 𐱃𐰆𐱃𐰸 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰭𐱁𐰢𐱁 : 𐰼𐰃𐰤 : 𐰯𐰆𐰴 : 𐰇𐰠𐰇𐰼𐰢𐰾 : 𐰋𐰃𐰤 : 𐰉𐰺𐰢𐰃𐰤 : 𐰴𐰞𐰃𐰾𐰔 : 𐰸𐰆𐰯 : 𐰚𐰠𐰇𐰼𐱅𐰃 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰘𐰃𐱅𐰃𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰭𐰀 : 𐰴𐰺𐰞𐰸 : 𐰉𐰆𐰑𐰣 : 𐰼𐰇𐰼 : 𐰉𐰺𐰆𐰺 : 𐰼𐰚𐰠𐰃 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃 : 𐱃𐰢𐰍 : 𐰃𐰑𐰸 : 𐰉𐱁𐰑𐰀 : 𐰾𐰇𐰭𐰾𐰓𐰢𐰔 :",
+   "gokturkce": "--- : 𐰋𐰃𐰼𐰠𐰀 : 𐰸𐰆𐱁𐰆 : 𐱃𐰆𐱃𐰸 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰭𐱁𐰢𐱁 : 𐰼𐰃𐰤 : 𐰴𐰆𐰯 : 𐰇𐰠𐰇𐰼𐰢𐰾 : 𐰋𐰃𐰤 : 𐰉𐰺𐰢𐰃𐰤 : 𐰴𐰞𐰃𐰾𐰔 : 𐰸𐰆𐰯 : 𐰚𐰠𐰇𐰼𐱅𐰃 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰘𐰃𐱅𐰃𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰭𐰀 : 𐰴𐰺𐰞𐰸 : 𐰉𐰆𐰑𐰣 : 𐰼𐰇𐰼 : 𐰉𐰺𐰆𐰺 : 𐰼𐰚𐰠𐰃 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃 : 𐱃𐰢𐰍 : 𐰃𐰑𐰸 : 𐰉𐱁𐰑𐰀 : 𐰾𐰇𐰭𐰾𐰓𐰢𐰔 :",
    "transkripsiyon": "--- : BİRLE : KOŞU : TUTuK : BİRLE : SÜŊüŞMüŞ : eRİN : KOP : ÖLÜRMüŞ : eBİN : BaRıMıN : KaLISıZ : KOP : KeLÜRTİ : KÖLTİGiN : YİTİOTuZ : YaŞIŊA : KaRLUK : BODuN : eRÜR : BaRUR : eKRLİ : YaGI : BOLDI : TaMaG : IDUK : BaŞDA : SÜŊüŞDüMüZ :",
    "turkce": "--- : İLE : KOŞU : TUTUK : İLE : SÜNGÜŞMÜŞ : ERİNİ : HEP : ÖLDÜRMÜŞ : EVİNİ : VARINI : KALISIZ : HEP : GETİRDİ : KÜLTİĞİN : YEDİOTUZ : YAŞINDA [İKEN] : KARLUK : BOYLARI : ERİR : VARIR : ERKLİ : YAĞI : OLDU : TAMAG : IDUK : BAŞTA : SÜNGÜŞDÜK :",
    "kelime_sayisi": 28,
@@ -3072,7 +3108,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/kultigin.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 7,
+     "alan": "gokturkce",
+     "eski": "𐰯𐰆𐰴",
+     "yeni": "𐰴𐰆𐰯",
+     "gerekce": "KOP: ters sıra (p-o-k → k-o-p)"
+    }
+   ]
   },
   {
    "id": "KT-K-2",
@@ -3686,7 +3731,7 @@
    "satir": 13,
    "sira": 66,
    "gokturkce": "𐰆𐰣𐰸 : 𐰆𐰍𐰞𐰢 : 𐱅𐰇𐰼𐰏𐰾 : 𐰴𐰍𐰦𐰀 : 𐰢𐰚𐰼𐰲 : 𐱃𐰢𐰍𐰲𐰃 : 𐰆𐰍𐰔 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰢𐰍𐰲𐰃 : 𐰚𐰠𐱅𐰃 : 𐰶𐰃𐰺𐰴𐰔 : 𐰴𐰍𐰦𐰀 : 𐱃𐰺𐰑𐰆𐱁 : 𐰃𐰣𐰨𐰆 : 𐰲𐰆𐰺 : 𐰚𐰠𐱅𐰃 : 𐰉𐰺𐰴 : 𐰃𐱅𐰏𐰇𐰲𐰃 : 𐰋𐰓𐰔 : 𐰖𐰺𐱃𐰍𐰢𐰀 : 𐰋𐰃𐱅𐰏 : 𐱃𐱁 : 𐰃𐱅𐰏𐰇𐰲𐰃 : 𐱃𐰉𐰍𐰲 : 𐰴𐰍𐰣 : 𐰲𐰃𐰴𐰣𐰃 : 𐰲𐰭 : 𐰾𐰭𐰇𐰤 : 𐰚𐰠𐱅𐰃 :",
-   "transkripsiyon": "ONOK : OGLuM : TÜRGiŞ : KaGaNDA : MaKaRaÇ : TaMGaÇI : OGuZ : BİLGE : TaMGaÇI : KeLTİ : KIRKıZ : KaGaNDA : TaMGaÇI : INaNÇU : ÇOR : KeLTİ : BaRK : İTGÜÇİ : BeDiZ : YaRaTıGMA : BİTiK : TaŞ : İTGÜÇİ : TaBGaÇ : KaGaN : ÇIKaNI : ÇaŊ : SeŊÜN : KeLTİ :",
+   "transkripsiyon": "ONOK : OGLuM : TÜRGiŞ : KaGaNDA : MaKaRaÇ : TaMGaÇI : OGuZ : BİLGE : TaMGaÇI : KeLTİ : KIRKıZ : KaGaNDA : TaRDUŞ : INaNÇU : ÇOR : KeLTİ : BaRK : İTGÜÇİ : BeDiZ : YaRaTıGMA : BİTiK : TaŞ : İTGÜÇİ : TaBGaÇ : KaGaN : ÇIKaNI : ÇaŊ : SeŊÜN : KeLTİ :",
    "turkce": "ONOK : OĞLUM : TÜRGİŞ : KAĞANINDAN : MAKARAÇ : DAMGACI : OĞUZ : BİLGE : DAMGACI : GELDİ : KIRGIZ : TARDUŞ : DAMGACI : INANÇU : ÇOR : GELDİ : BARK : EDİCİ : BEZE : YARATICISI : BİTİ : TAŞ : EDİCİ : TABGAÇ : KAĞANININ : YEĞENİ : ÇANG : SENGÜN : GELDİ :",
    "kelime_sayisi": 29,
    "tamga_sayisi": 119,
@@ -3728,7 +3773,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/kultigin.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 12,
+     "alan": "transkripsiyon",
+     "eski": "TaMGaÇI",
+     "yeni": "TaRDUŞ",
+     "gerekce": "Runik 𐱃𐰺𐰑𐰆𐱁 = TaRDUŞ; çeviri de TARDUŞ; transkripsiyonda yanlışlıkla TaMGaÇI tekrarlanmış"
+    }
+   ]
   },
   {
    "id": "KT-KD-1",
@@ -3740,7 +3794,7 @@
    "satir": 1,
    "sira": 67,
    "gokturkce": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰸𐰆𐰪 : 𐰘𐰃𐰞𐰴𐰀 : 𐰘𐰃𐱅𐰃 : 𐰘𐰏𐰼𐰢𐰚𐰀 : 𐰆𐰲𐰑𐰃 : 𐱃𐰆𐰴𐰔𐰨 : 𐰖 : 𐰘𐱅𐰃 : 𐰆𐱃𐰔𐰴𐰀 : 𐰖𐰆𐰍 : 𐰼𐱅𐰇𐰼𐱅𐰢𐰔 : 𐰉𐰺𐰴𐰃𐰤 : 𐰋𐰓𐰔𐰃𐰤 : 𐰋𐰃𐱅𐰏 : 𐱃𐱁𐰃𐰤 : 𐰣 : 𐰋𐰃𐰲𐰃𐰤 : 𐰘𐰃𐰞𐰴𐰀 : 𐰘𐰃𐱅𐰨 : 𐰖 : 𐰘𐰃𐱅𐰃 : 𐰆𐱃𐰔𐰴𐰀 : 𐰴𐰆𐰯 : 𐰞𐰴𐰑𐰢𐰔 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰇𐰔𐰃 : 𐰶𐰃𐰺𐰴 : 𐰺𐱃𐰸𐰃 : 𐰘𐰃𐱅𐰃 : 𐰖𐱁𐰍 : 𐰉𐰆𐰞𐰃𐱃 : 𐱃𐱁 --- : 𐰉𐰆𐰨𐰀 : 𐰋𐰓𐰔𐰲𐰃𐰏 : 𐱃𐰆𐰖𐰍𐰣 : 𐰠𐱅𐰋𐰼 : 𐰚𐰠𐰇𐰼𐱅𐰃 :",
-   "transkripsiyon": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN : BİTiG : TaŞIN : aN : BİÇİN : YILKA : YİTiNÇ : aY : YİTİ : OTuZKA : POK : aLKDıMıZ : KÖLTİGiN : ÖZİ : KIRK : aRTUKI : YİTİ : YaŞıG : BOLIT : TaŞ --- : BuNÇA : BeDiZÇİG : TOYGuN : iLTeBeR : KeLÜRTİ :",
+   "transkripsiyon": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN : BİTiG : TaŞIN : aN : BİÇİN : YILKA : YİTiNÇ : aY : YİTİ : OTuZKA : KOP : aLKDıMıZ : KÖLTİGiN : ÖZİ : KIRK : aRTUKI : YİTİ : YaŞıG : BOLIT : TaŞ --- : BuNÇA : BeDiZÇİG : TOYGuN : iLTeBeR : KeLÜRTİ :",
    "turkce": "KÜLTİĞİN : KOYUN : YILININ [BİRİNCİ-AYININ] : YEDİ : YİRMİ[SİNDE] : UÇTU : DOKUZUNCU : AY[IN] : YEDİ : OTUZDA : YUĞ : ERDİRDİK : BARKINI : BEZESİNİ : BİTİ : TAŞINI : [O] AN : BİÇİN : YILININ : YEDİNCİ : AY[ININ] : YEDİ : OTUZDA : HEP : ALKDIK : KÜLTİĞİNİN : ÖZÜ : KIRK : ARTI : YEDİ : YAŞINDA : BULUT [OLDU] : TAŞ --- : BUNCA : BEZECİYİ : TOYGUN : İLTEBER : GETİRDİ :",
    "kelime_sayisi": 38,
    "tamga_sayisi": 161,
@@ -3791,7 +3845,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/kultigin.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 23,
+     "alan": "transkripsiyon",
+     "eski": "POK",
+     "yeni": "KOP",
+     "gerekce": "Runik 𐰴𐰆𐰯 = KOP; transkripsiyon ters yazılmış (POK)"
+    }
+   ]
   },
   {
    "id": "KT-GD-1",
@@ -4057,7 +4120,7 @@
    "yuz_kod": "D",
    "satir": 3,
    "sira": 3,
-   "gokturkce": "𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃𐰦𐰀 : 𐰇𐰔𐰀 : 𐰲𐰇𐰢 : 𐰯𐰀𐰢 : 𐰉𐰆𐰢𐰣 : 𐰴𐰍𐰣 : 𐰃𐰾𐱅𐰢𐰃 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐱁 : 𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰭 : 𐰃𐰠𐰃𐰤 : 𐱅𐰇𐰼𐰇𐰾𐰃𐰤 : 𐱃𐰆𐱃𐰀 : 𐰋𐰃𐰼𐰢𐰾 : 𐰃𐱅𐰃 : 𐰋𐰃𐰼𐰢𐰾 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭 : 𐰴𐰆𐰯 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾 : 𐰾𐰇 : 𐰾𐰇𐰠𐰯𐰤 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭𐰑𐰴𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰴𐰆𐰯 : 𐰞𐰢𐰾 : 𐰚𐰆𐰯 : 𐰉𐰔 : 𐰴𐰃𐰞𐰢𐰾 : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰜𐰦𐰼𐰢𐰾 : 𐱅𐰃𐰔𐰲𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾 : 𐰃𐰠𐰏𐰠𐰇 : 𐰴𐰑𐰺𐰴𐰣 : 𐰘𐰃𐱁𐰴𐰀 : 𐱅𐰏𐰃 : 𐰚𐰃𐰼𐰇 :",
+   "gokturkce": "𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃𐰦𐰀 : 𐰇𐰔𐰀 : 𐰲𐰇𐰢 : 𐰯𐰀𐰢 : 𐰉𐰆𐰢𐰣 : 𐰴𐰍𐰣 : 𐰃𐰾𐱅𐰢𐰃 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐱁 : 𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰭 : 𐰃𐰠𐰃𐰤 : 𐱅𐰇𐰼𐰇𐰾𐰃𐰤 : 𐱃𐰆𐱃𐰀 : 𐰋𐰃𐰼𐰢𐰾 : 𐰃𐱅𐰃 : 𐰋𐰃𐰼𐰢𐰾 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭 : 𐰴𐰆𐰯 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾 : 𐰾𐰇 : 𐰾𐰇𐰠𐰯𐰤 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭𐰑𐰴𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰴𐰆𐰯 : 𐰞𐰢𐰾 : 𐰚𐰆𐰯 : 𐰉𐰔 : 𐰴𐰃𐰞𐰢𐰾 : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰜𐰦𐰼𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾 : 𐰃𐰠𐰏𐰼𐰇 : 𐰴𐰑𐰺𐰴𐰣 : 𐰘𐰃𐱁𐰴𐰀 : 𐱅𐰏𐰃 : 𐰚𐰃𐰼𐰇 :",
    "transkripsiyon": "KİŞİ : OGLINDA : ÜZE : eÇÜM : aPAM : BUMıN : KaGaN : İSTeMİ : KaGaN : OLuRMıŞ : OLuRıPaN : TÜRK : BODuNıŊ : İLİN : TÖRÜSÜN : TUTA : BİRMiŞ : İTİ : BİRMiŞ : TÖRT : BULıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLePeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLıGıG : YÜKüNDüRMiŞ : TİZLiGiG : SÖKüRMiŞ : İLGeRÜ : KaDıRKaN : YIŞKA : TeGİ : KİRÜ :",
    "turkce": "KİŞİ : OĞLUN[UN] DA : ÜZE[RİNE] : EÇÜM : APAM : BUMIN : KAĞAN : İSTEMİ : KAĞAN : OTURMUŞ : OTURUP : TÜRK : BOYLARININ : İLİNİ : TÖRESİNİ : TUTU : VERMİŞ : [DÜZEN] EDİ : VERMİŞ : DÖRT : TARAF : HEP : YAĞI : İMİŞ : SÜ : SÜLEYİP : DÖRT : TARAFDAKİ : BOYLARI : HEP : ALMIŞ : HEP : BAZ : KILMIŞ : BAŞLIYI : YÜKÜNDÜRMÜŞ : DİZLİYİ : ÇÖKTÜRMÜŞ : İLERİ : KADIRKAN : YIŞA : DEĞİN : GERİ :",
    "kelime_sayisi": 43,
@@ -4114,7 +4177,23 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 36,
+     "alan": "gokturkce",
+     "eski": "𐱅𐰃𐰔𐰲𐰏𐰏",
+     "yeni": "𐱅𐰃𐰔𐰠𐰏𐰏",
+     "gerekce": "TİZLiGiG: ç (𐰲) yerine ince l (𐰠)"
+    },
+    {
+     "sira": 38,
+     "alan": "gokturkce",
+     "eski": "𐰃𐰠𐰏𐰠𐰇",
+     "yeni": "𐰃𐰠𐰏𐰼𐰇",
+     "gerekce": "İLGeRÜ: ince l (𐰠) yerine ince r (𐰼)"
+    }
+   ]
   },
   {
    "id": "BK-D-4",
@@ -4196,7 +4275,7 @@
    "yuz_kod": "D",
    "satir": 5,
    "sira": 5,
-   "gokturkce": "𐰖𐰆𐰍𐰲𐰃 : 𐰾𐰃𐰍𐱃𐰲𐰃 : 𐰇𐰭𐰼𐰃 : 𐰜𐰇𐰤 : 𐱃𐰆𐰍𐰽𐰴𐰑𐰃 : 𐰋𐰇𐰚𐰲𐰃 : 𐰲𐰇𐰠𐰏𐰠 : 𐱃𐰉𐰍𐰲 : 𐱅𐰇𐰯𐰇𐱅 : 𐰯𐰺 : 𐰯𐰆𐰺𐰢 : 𐰶𐰃𐰺𐰴𐰔 : 𐰇𐰲𐰸𐰆𐰺𐰃𐰴𐰣 : 𐰆𐱃𐰔𐱃𐱃𐰺 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰨𐰀 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐰯𐰤 : 𐰽𐰃𐰍𐱃𐰀𐰢𐰾 : 𐰖𐰆𐰍𐰞𐰀𐰢𐰾 : 𐰦𐰍 : 𐰚𐰇𐰠𐰏 : 𐰴𐰍𐰣 : 𐰼𐰢𐰾 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃𐱃𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐱅𐰏 :",
+   "gokturkce": "𐰖𐰆𐰍𐰲𐰃 : 𐰾𐰃𐰍𐱃𐰲𐰃 : 𐰇𐰭𐰼𐰃 : 𐰜𐰇𐰤 : 𐱃𐰆𐰍𐰽𐰴𐰑𐰃 : 𐰋𐰇𐰚𐰠𐰃 : 𐰲𐰇𐰠𐰏𐰠 : 𐱃𐰉𐰍𐰲 : 𐱅𐰇𐰯𐰇𐱅 : 𐰯𐰺 : 𐰯𐰆𐰺𐰢 : 𐰶𐰃𐰺𐰴𐰔 : 𐰇𐰲𐰸𐰆𐰺𐰃𐰴𐰣 : 𐰆𐱃𐰔𐱃𐱃𐰺 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰨𐰀 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐰯𐰤 : 𐰽𐰃𐰍𐱃𐰀𐰢𐰾 : 𐰖𐰆𐰍𐰞𐰀𐰢𐰾 : 𐰦𐰍 : 𐰚𐰇𐰠𐰏 : 𐰴𐰍𐰣 : 𐰼𐰢𐰾 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃𐱃𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐱅𐰏 :",
    "transkripsiyon": "YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : ÜÇKURIKaN : OTuZTaTaR : KITaYN : TaTaBI : BUNÇA : BODuN : KeLİPeN : SIGTAMıŞ : YUGLAMıŞ : aNTaG : KÜLüG : KAGaN : eRMiŞ : aNDA : KİSRE : İNİSİ : KaGaN : BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG :",
    "turkce": "YUĞCU : SIĞITÇI : ÖNDE : GÜN : DOĞUSUNDA : BÖKLÜ : ÇÖLLÜİL : TABGAÇ : TİBET : APAR : RUM : KIRGIZ : ÜÇ-KURIKAN : OTUZ-TATAR : KITAY : TATABI : BUNCA : BOYLARI : GELİP : SIGTAMIŞ : YUĞLAMIŞ : ÖYLE : ÜNLÜ : KAĞAN : İMİŞ : ONDAN : SONRA : İNİSİ : KAĞAN : OLMUŞ : GERÇEK : OĞULLARI : KAĞAN : OLMUŞ : GERÇEK : ONDAN : SONRA : İNİSİ : EÇİSİ : DEK :",
    "kelime_sayisi": 40,
@@ -4250,7 +4329,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 5,
+     "alan": "gokturkce",
+     "eski": "𐰋𐰇𐰚𐰲𐰃",
+     "yeni": "𐰋𐰇𐰚𐰠𐰃",
+     "gerekce": "BÖKLİ: ç (𐰲) yerine ince l (𐰠)"
+    }
+   ]
   },
   {
    "id": "BK-D-6",
@@ -4261,7 +4349,7 @@
    "yuz_kod": "D",
    "satir": 6,
    "sira": 6,
-   "gokturkce": "𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃 : 𐰴𐰭𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰋𐰃𐰠𐰏𐰾𐰃𐰔 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰉𐰆𐰖𐰴𐰸𐰃 : 𐰘𐰢𐰀 : 𐰋𐰃𐰠𐰏𐰾𐰔 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰼𐰢𐰾 : 𐰼𐰨 : 𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐱅𐰇𐰔𐰾𐰔 : 𐰇𐰲𐰇𐰤 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐱅𐰋𐰠𐰏𐰃𐰤 : 𐰚𐰇𐰼𐰠𐰏 : 𐰇𐰲𐰇𐰤 : 𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰃𐰤𐰠𐰃 : 𐰲𐰃𐰠𐰃 : 𐰚𐰃𐰭𐰾𐰇𐰼𐱅𐰜𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰋𐰏𐰠𐰃 : 𐰉𐰆𐰑𐰣𐰞𐰃𐰍 :",
+   "gokturkce": "𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃 : 𐰴𐰭𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨 : 𐰋𐰃𐰠𐰏𐰾𐰃𐰔 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾 : 𐰼𐰨 : 𐰉𐰆𐰖𐰺𐰸𐰃 : 𐰘𐰢𐰀 : 𐰋𐰃𐰠𐰏𐰾𐰔 : 𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰼𐰢𐰾 : 𐰼𐰨 : 𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐱅𐰇𐰔𐰾𐰔 : 𐰇𐰲𐰇𐰤 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐱅𐰋𐰠𐰏𐰃𐰤 : 𐰚𐰇𐰼𐰠𐰏 : 𐰇𐰲𐰇𐰤 : 𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰃𐰤𐰠𐰃 : 𐰲𐰃𐰠𐰃 : 𐰚𐰃𐰭𐰾𐰇𐰼𐱅𐰜𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰋𐰏𐰠𐰃 : 𐰉𐰆𐰑𐰣𐰞𐰃𐰍 :",
    "transkripsiyon": "KILıNMaDUK : eRiNÇ : OGLI : KaNGIN : TeG : KILıNMaDUK : eRiNÇ : BİLiGSİZ : KaGaN : OLuRMıŞ : eRiNÇ : YaBLaK : KaGaN : OLuRMıŞ : eRiNÇ : BUYRUKI : YiME : BİLiGSiZ : eRiNÇ : YaBLaK : eRMiŞ : eRiNÇ : BeGLeRİ : BODuNI : TÜZSüZ : ÜÇÜN : TaBGaÇ : BODuN : TeBLiGİN : KÜRLüG : ÜÇÜN : aRMaKÇISIN : ÜÇÜN : İNiLİ : eÇİLİ : KİŊŞÜRTÜKİN : ÜÇÜN : BeGLİ : BODuNLIG :",
    "turkce": "KILINMADI : GERÇEK : OĞLU : BABASI : DEK : KILINMADI : GERÇEK : BİLGİSİZ : KAĞAN : OTURMUŞ : GERÇEK : YAVLAK : KAĞAN : OTURMUŞ : GERÇEK : BUYRUĞU : YİNE : BİLGİSİZ [İMİŞ] : GERÇEK : YAVLAK : İMİŞ : GERÇEK : BEĞLERİ : BOYLARI : DÜZSÜZ [OLDUĞU] : İÇİN : TABGAÇ : BOYLARI : TEBLİ : GÜR : [OLDUĞU] İÇİN : ARMAKÇI : [OLDUĞU] İÇİN : İNİYİ : EÇİYİ : KİNLEŞTİRDİĞİ : İÇİN : BEĞLE : BOYLARI :",
    "kelime_sayisi": 39,
@@ -4314,7 +4402,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 15,
+     "alan": "gokturkce",
+     "eski": "𐰉𐰆𐰖𐰴𐰸𐰃",
+     "yeni": "𐰉𐰆𐰖𐰺𐰸𐰃",
+     "gerekce": "BUYRUKI: kalın k (𐰴) yerine kalın r (𐰺)"
+    }
+   ]
   },
   {
    "id": "BK-D-7",
@@ -4714,7 +4811,7 @@
    "yuz_kod": "D",
    "satir": 13,
    "sira": 13,
-   "gokturkce": "𐰘𐱅𐰃 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰠𐰢𐰾 : 𐰘𐰏𐰼𐰢𐰃 : 𐰾𐰇𐰭𐰾 : 𐰾𐰇𐰭𐰾𐰢𐰾 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰢 : 𐰃𐰠𐰠𐰏𐰏 : 𐰠𐰾𐰼𐱅𐰢𐰾 : 𐰴𐰍𐰣𐰞𐰍𐰍 : 𐰴𐰍𐰣𐰽𐰺𐱃𐰢𐰾 : 𐰖𐰍𐰃𐰍 : 𐰉𐰔 : 𐰚𐰃𐰠𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾 : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰇𐰚𐰦𐰇𐰼𐰢𐰾 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣 : 𐰨𐰀 : 𐰃𐰠𐰏 : 𐱅𐰇𐰼𐰇𐰏 : 𐰴𐰔𐰍𐰣𐰯 : 𐰆𐰲𐰀 : 𐰉𐰺𐰢𐰾 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣𐰴𐰀 : 𐰉𐱁𐰞𐰖𐰆 : 𐰉𐰔 : 𐰴𐰍𐰣𐰍 : 𐰉𐰞𐰉𐰞 : 𐱅𐰃𐰚𐰢𐰾 : 𐰴𐰭𐰢 :",
+   "gokturkce": "𐰘𐱅𐰃 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰠𐰢𐰾 : 𐰘𐰏𐰼𐰢𐰃 : 𐰾𐰇𐰭𐰾 : 𐰾𐰇𐰭𐰾𐰢𐰾 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰤 : 𐰃𐰠𐰠𐰏𐰏 : 𐰠𐰾𐰼𐱅𐰢𐰾 : 𐰴𐰍𐰣𐰞𐰍𐰍 : 𐰴𐰍𐰣𐰽𐰺𐱃𐰢𐰾 : 𐰖𐰍𐰃𐰍 : 𐰉𐰔 : 𐰚𐰃𐰠𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾 : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰇𐰚𐰦𐰇𐰼𐰢𐰾 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣 : 𐰨𐰀 : 𐰃𐰠𐰏 : 𐱅𐰇𐰼𐰇𐰏 : 𐰴𐰔𐰍𐰣𐰯 : 𐰆𐰲𐰀 : 𐰉𐰺𐰢𐰾 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣𐰴𐰀 : 𐰉𐱁𐰞𐰖𐰆 : 𐰉𐰔 : 𐰴𐰍𐰣𐰍 : 𐰉𐰞𐰉𐰞 : 𐱅𐰃𐰚𐰢𐰾 : 𐰴𐰭𐰢 :",
    "transkripsiyon": "YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : KaGaNLıGıG : KaGaNSıRaTMıŞ : YaGIG : BaZ : KILMıŞ : TİZLiGiG : SÖKÜRMiŞ : BaŞLıGıG : YÜKüNDÜRMiŞ : KaŊıM : KaGaN : aNÇA : İLiG : TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : KaŊıM :",
    "turkce": "YEDİ : YOLU : SÜLEMİŞ : YİRMİ : SÜNGÜŞ : SÜNGÜŞMÜŞ : TANRI : BUYURDUĞU : İÇİN : İLLİYİ : İLSİRETMİŞ : KAĞANLIYI : KAĞANSIRATMIŞ : YAĞIYI : BAZ : KILMIŞ : DİZLİYİ : ÇÖKTÜRMÜŞ : BAŞLIYI : YÜKÜNDÜRMÜŞ : BABAM : KAĞAN : ANCAK : İLİ : TÖREYİ : KAZANIP : UÇA : VARMIŞ : BABAM : KAĞANIN : BAŞINA : BAZ : KAĞANI : BALBAL : DİKMİŞ : BABAM :",
    "kelime_sayisi": 36,
@@ -4764,7 +4861,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 8,
+     "alan": "gokturkce",
+     "eski": "𐰇𐰲𐰇𐰢",
+     "yeni": "𐰇𐰲𐰇𐰤",
+     "gerekce": "ÜÇÜN: sonda m (𐰢) yerine ince n (𐰤)"
+    }
+   ]
   },
   {
    "id": "BK-D-14",
@@ -4775,7 +4881,7 @@
    "yuz_kod": "D",
    "satir": 14,
    "sira": 14,
-   "gokturkce": "𐰴𐰍𐰣 : 𐰆𐰲𐰑𐰸𐰑𐰀 : 𐰇𐰔𐰢 : 𐰾𐰚𐰃𐰔 : 𐰖𐱁𐰑𐰀 : 𐰴𐰞𐱃𐰢 : 𐰆𐰞 : 𐱅𐰇𐰼𐰇𐰓𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃 : 𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰍 : 𐰘𐰃𐰲𐰀 : 𐰃𐱅𐰓𐰃 : 𐰃𐰏𐱅𐰃 : 𐰲𐰃𐰍𐰪𐰍 : 𐰉𐰖 : 𐰶𐰡𐰃 : 𐰔𐰃𐰍 : 𐰜𐰇𐱁 : 𐰶𐰡𐰃 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰸𐰑𐰀 : 𐰇𐰔𐰢 : 𐱅𐰃𐰏𐰤 : 𐰚𐰼 --- : 𐰃𐰘 --- : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰢 :",
+   "gokturkce": "𐰴𐰍𐰣 : 𐰆𐰲𐰑𐰸𐰑𐰀 : 𐰇𐰔𐰢 : 𐰾𐰚𐰃𐰔 : 𐰖𐱁𐰑𐰀 : 𐰴𐰞𐱃𐰢 : 𐰆𐰞 : 𐱅𐰇𐰼𐰇𐰓𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃 : 𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰍 : 𐰘𐰃𐰲𐰀 : 𐰃𐱅𐰓𐰃 : 𐰃𐰏𐱅𐰃 : 𐰲𐰃𐰍𐰪𐰍 : 𐰉𐰖 : 𐰶𐰡𐰃 : 𐰔𐰃𐰍 : 𐰜𐰇𐱁 : 𐰶𐰡𐰃 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰸𐰑𐰀 : 𐰇𐰔𐰢 : 𐱅𐰃𐰏𐰤 : 𐰚𐰼 --- : 𐰃𐰘 --- : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰤 :",
    "transkripsiyon": "KaGaN : UÇDUKDA : ÖZüM : SeKİZ : YaŞDA : KaLTıM : OL : TÖRÜDE : ÜZE : eÇİM : KaGaN : OLuRTI : OLuRıPaN : TÜRK : BODuNıG : YİÇE : İTDİ : İGiTİ : ÇIGaNYıG : BaY : KILDI : aZIG : ÖKÜŞ : KILDI : eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TİGiN : eRK --- : İY --- : TeŊRİ : YaRLıKaDUK : ÜÇÜN :",
    "turkce": "KAĞAN : UÇTUĞUNDA : ÖZÜM : SEKİZ : YAŞINDA : KALDIM : O : TÖRE : ÜZE[RİNE] : EÇÜM : KAĞAN : OTURDU : OTURUP : TÜRK : BOYLARINI : YİNE : [DÜZEN] ETDİ : YEDİRDİ : ÇIĞANYI : BAY : KILDI : AZI : ÇOK : KILDI : EÇÜM : KAĞAN : OTURDUĞUNDA : ÖZÜM : TİGİN : ERK --- : İY --- : TANRI : BUYURDUĞU : İÇİN :",
    "kelime_sayisi": 34,
@@ -4823,7 +4929,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 33,
+     "alan": "gokturkce",
+     "eski": "𐰇𐰲𐰇𐰢",
+     "yeni": "𐰇𐰲𐰇𐰤",
+     "gerekce": "ÜÇÜN: sonda m (𐰢) yerine ince n (𐰤)"
+    }
+   ]
   },
   {
    "id": "BK-D-15",
@@ -5509,7 +5624,7 @@
    "yuz_kod": "D",
    "satir": 25,
    "sira": 25,
-   "gokturkce": "𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢 : 𐰉𐰆𐰑𐰣𐰍 : 𐰦𐰀 : 𐰉𐰆𐰔𐰑𐰢 : 𐱃𐰉𐰍𐰲 : 𐰆𐰭 : 𐱃𐰆𐱃𐰸 : 𐰋𐰾 : 𐱅𐰇𐰢𐰤 : 𐰾𐰇 : 𐰚𐰠𐱅𐰃 : 𐰃𐰑𐰸 : 𐰉𐱁𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰆𐰞 : 𐰾𐰇𐰏 : 𐰦𐰀 : 𐰖𐰆𐰸 : 𐰴𐰃𐱁𐰑𐰢 : 𐰘𐰏𐰼𐰢𐰃 : 𐰖𐱁𐰢𐰀 : 𐰉𐰽𐰢𐰞 : 𐰃𐰑𐰸𐱃 : 𐰆𐰍𐱁𐰢 : 𐰉𐰆𐰑𐰣 : 𐱅𐰼𐰃 : 𐰺𐰴𐱁 : 𐰃𐰑𐰢𐰔 : 𐱅𐰃𐰘𐰤 : 𐰾𐰇𐰠𐰓𐰢 : 𐰚 --- : --- 𐱅 : 𐰱𐰏𐰼𐱅𐰢 : 𐰴𐰞𐰭𐰤 : 𐰋𐰼𐰇 : 𐰚𐰠𐰇𐰼𐱅𐰢 : 𐰚𐰃 : 𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰢𐰀 : 𐱃𐰉𐰍𐰲 :",
+   "gokturkce": "𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢 : 𐰉𐰆𐰑𐰣𐰍 : 𐰦𐰀 : 𐰉𐰆𐰔𐰑𐰢 : 𐱃𐰉𐰍𐰲 : 𐰆𐰭 : 𐱃𐰆𐱃𐰸 : 𐰋𐰾 : 𐱅𐰇𐰢𐰤 : 𐰾𐰇 : 𐰚𐰠𐱅𐰃 : 𐰃𐰑𐰸 : 𐰉𐱁𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰆𐰞 : 𐰾𐰇𐰏 : 𐰦𐰀 : 𐰖𐰆𐰸 : 𐰴𐰃𐱁𐰑𐰢 : 𐰘𐰏𐰼𐰢𐰃 : 𐰖𐱁𐰢𐰀 : 𐰉𐰽𐰢𐰞 : 𐰃𐰑𐰸𐱃 : 𐰆𐰍𐱁𐰢 : 𐰉𐰆𐰑𐰣 : 𐰼𐱅𐰃 : 𐰺𐰴𐱁 : 𐰃𐰑𐰢𐰔 : 𐱅𐰃𐰘𐰤 : 𐰾𐰇𐰠𐰓𐰢 : 𐰚 --- : --- 𐱅 : 𐰱𐰏𐰼𐱅𐰢 : 𐰴𐰞𐰭𐰤 : 𐰋𐰼𐰇 : 𐰚𐰠𐰇𐰼𐱅𐰢 : 𐰚𐰃 : 𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰢𐰀 : 𐱃𐰉𐰍𐰲 :",
    "transkripsiyon": "TaPA : SÜLeDİM : BODuNuG : aNDA : BOZDuM : TaBGaÇ : OŊ : TUTUK : BiŞ : TÜMeN : SÜ : KeLTİ : IDUK : BaŞDA : SÜŊüŞDüM : OL : SÜG : aNDA : YOK : KILDıM : YiGiRMİ : YaŞıMA : BaSMıL : IDıKUT : OGuŞuM : BODuN : eRTİ : aRKıŞ : IDMaZ : TİYiN : SÜLeDiM : K --- : --- T : İÇGeRTiM : KaLıŊıN : BiRÜ : KeLÜRTüM : iKİ : OTuZ : YaŞIMA : TaBGaÇ :",
    "turkce": "TARAFINA : SÜLEDİM : BOYLARINI : [O] ANDA : BOZDUM : TABGAÇ : ONG : PAŞA : BEŞ : TÜMEN : SÜ : [İLE] GELDİ : IDUK : BAŞDA : SÜNGÜŞDÜM : O : SÜYÜ : [O] ANDA : YOK : KILDIM : YİRMİ : YAŞIMDA : BASMIL : IDIKUT : OĞUŞUM : BOYUM : İDİ : ARKIŞ : İDMEZ : DİYE : SÜLEDİM : K --- : --- T : İÇGERTTİM : KALINGINI : BERİ : GETİRDİM : İKİ : OTUZ : YAŞIMDA : TABGAÇ :",
    "kelime_sayisi": 41,
@@ -5564,7 +5679,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 26,
+     "alan": "gokturkce",
+     "eski": "𐱅𐰼𐰃",
+     "yeni": "𐰼𐱅𐰃",
+     "gerekce": "eRTİ: ters sıra (t-r-i → r-t-i)"
+    }
+   ]
   },
   {
    "id": "BK-D-26",
@@ -5575,7 +5699,7 @@
    "yuz_kod": "D",
    "satir": 26,
    "sira": 26,
-   "gokturkce": "𐱃𐰯𐰀 : 𐰾𐰇𐰘𐰓𐰢 : 𐰲𐰲𐰀 : 𐰾𐰭𐰇𐰤 : 𐰾𐰚𐰔 : 𐱅𐰇𐰢𐰤 : 𐰾𐰇 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰦𐰀 : 𐰇𐰠𐰼𐱅𐰢 : 𐰞𐱃𐰃 : 𐰆𐱃𐰜 : 𐰖𐱁𐰢𐰀 : 𐰲𐰃𐰚 : 𐰉𐰆𐰑𐰣 : 𐰶𐰃𐰺𐰴𐰔 : 𐰋𐰃𐰼𐰠𐰀 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃 : 𐰚𐰢 : 𐰚𐰲𐰀 : 𐰲𐰃𐰚 : 𐱃𐰃𐰀 : 𐰾𐰇𐰠𐰓𐰢 : 𐰇𐰼𐰯𐰤𐱅𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰽𐰨𐰑𐰢 : 𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰞𐱃𐰢 : --- 𐰠𐰏𐰼𐱅𐰢 : 𐰘𐱅𐰃 : 𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰢𐰀 : 𐰶𐰃𐰺𐰴𐰔 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢 : 𐰾𐰇𐰭𐰏 : 𐰉𐱃𐰢𐰃 :",
+   "gokturkce": "𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢 : 𐰲𐰲𐰀 : 𐰾𐰭𐰇𐰤 : 𐰾𐰚𐰔 : 𐱅𐰇𐰢𐰤 : 𐰾𐰇 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰦𐰀 : 𐰇𐰠𐰼𐱅𐰢 : 𐰞𐱃𐰃 : 𐰆𐱃𐰔 : 𐰖𐱁𐰢𐰀 : 𐰲𐰃𐰚 : 𐰉𐰆𐰑𐰣 : 𐰶𐰃𐰺𐰴𐰔 : 𐰋𐰃𐰼𐰠𐰀 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃 : 𐰚𐰢 : 𐰚𐰲𐰀 : 𐰲𐰃𐰚 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢 : 𐰇𐰼𐰯𐰤𐱅𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰽𐰨𐰑𐰢 : 𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰞𐱃𐰢 : --- 𐰠𐰏𐰼𐱅𐰢 : 𐰘𐱅𐰃 : 𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰢𐰀 : 𐰶𐰃𐰺𐰴𐰔 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢 : 𐰾𐰇𐰭𐰏 : 𐰉𐱃𐰢𐰃 :",
    "transkripsiyon": "TaPA : SÜLeDiM : ÇaÇA : SEŊÜN : SeKiZ : TÜMeN : SÜ : BİRLE : SÜŊüŞDüM : SÜSİN : aNDA : ÖLüRTüM : aLTI : OTuZ : YaŞıMA : ÇİK : BODuN : KIRKıZ : BİRLE : YaGI : BOLTI : KeM : KeÇE : ÇİK : TaPA : SÜLeDiM : ÖRPeNTE : SÜŊüŞDüM : SÜSİN : SaNÇDıM : aZ : BODuNuG : aLTıM : --- iLGeRTiM : YiTİ : OTuZ : YaŞIMA : KIRKıZ : TaPA : SÜLeDiM : SÜŊüG : BaTıMI :",
    "turkce": "TARAFINA : SÜLEDİM : ÇAÇA : SENGÜN : SEKİZ : TÜMEN : SÜ : İLE : SÜNGÜŞDÜM : SÜSÜNÜ : [O] ANDA : ÖLDÜRDÜM : ALTI : OTUZ : YAŞIMDA : ÇİK : BOYLARI : KIRGIZ : İLE [BİRLEŞİP] : [BİZE] YAĞI : OLDU : KEM [IRMAĞINI] : GEÇİP : ÇİK : TARAFINA : SÜLEDİM : ÖRPENDE : SÜNGÜŞDÜM : SÜSÜNÜ : SANÇTIM : AZ : BOYLARINI : ALDIM : --- İLGERTDİM : YEDİ : OTUZ : YAŞIMDA : KIRGIZ : TARAFINA : SÜLEDİM : SÜNGÜ : BATIMI [DERİNLİKTE] :",
    "kelime_sayisi": 42,
@@ -5631,7 +5755,30 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 1,
+     "alan": "gokturkce",
+     "eski": "𐰾𐰇𐰘𐰓𐰢",
+     "yeni": "𐰾𐰇𐰠𐰓𐰢",
+     "gerekce": "SÜLeDiM: y (𐰘) yerine ince l (𐰠)"
+    },
+    {
+     "sira": 13,
+     "alan": "gokturkce",
+     "eski": "𐰆𐱃𐰜",
+     "yeni": "𐰆𐱃𐰔",
+     "gerekce": "OTuZ: sonda ÖK (𐰜) yerine z (𐰔)"
+    },
+    {
+     "sira": 24,
+     "alan": "gokturkce",
+     "eski": "𐱃𐰃𐰀",
+     "yeni": "𐱃𐰯𐰀",
+     "gerekce": "TaPA: ortada I (𐰃) yerine p (𐰯)"
+    }
+   ]
   },
   {
    "id": "BK-D-27",
@@ -5840,7 +5987,7 @@
    "yuz_kod": "D",
    "satir": 30,
    "sira": 30,
-   "gokturkce": "𐰚𐰇𐰤𐰃 : 𐱅𐰏𐰓𐰜 : 𐰇𐰲𐰤 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃 : 𐰋𐰃𐰼 : 𐰖𐰃𐰞𐰴𐰀 : 𐱅𐰇𐰼𐱅 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰭 : 𐰃𐰚𐰠𐰃 : 𐱃𐰆𐰍𐰆 : 𐰉𐰞𐰶𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐱃𐰆𐰍𐰞𐰀 : 𐰇𐰏𐰔𐰏 : 𐰘𐰇𐰔𐱅𐰃 : 𐰚𐰲𐰯 : 𐰾𐰇𐰾𐰃 : --- : 𐰚𐰃𐰦𐰃 : 𐰦𐰺𐰍𐰆𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰽𐰨𐰑𐰢 : 𐰃𐰠𐰃𐰤 : 𐰞𐱃𐰢 : 𐰇𐰲𐰨 : 𐰲𐰆𐱁 : 𐰉𐱁𐰃𐰦𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰑𐰴 : 𐰴𐰢𐱁𐱃𐰃 : 𐰖𐰉𐰞𐰴 :",
+   "gokturkce": "𐰚𐰇𐰤𐰃 : 𐱅𐰏𐰓𐰜 : 𐰇𐰲𐰤 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃 : 𐰋𐰃𐰼 : 𐰖𐰃𐰞𐰴𐰀 : 𐱅𐰇𐰼𐱅 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰭 : 𐰃𐰠𐰚𐰃 : 𐱃𐰆𐰍𐰆 : 𐰉𐰞𐰶𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐱃𐰆𐰍𐰞𐰀 : 𐰇𐰏𐰔𐰏 : 𐰘𐰇𐰔𐱅𐰃 : 𐰚𐰲𐰯 : 𐰾𐰇𐰾𐰃 : --- : 𐰚𐰃𐰦𐰃 : 𐰦𐰺𐰍𐰆𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰽𐰨𐰑𐰢 : 𐰃𐰠𐰃𐰤 : 𐰞𐱃𐰢 : 𐰇𐰲𐰨 : 𐰲𐰆𐱁 : 𐰉𐱁𐰃𐰦𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰑𐰴 : 𐰴𐰢𐱁𐱃𐰃 : 𐰖𐰉𐰞𐰴 :",
    "transkripsiyon": "KÜNİ : TeGDÜK : ÜÇüN : YaGI : BOLDI : BİR : YILKA : TÖRT : YOLI : SÜŊüŞDüM : eŊ : İLKİ : TOGU : BaLIKDA : SÜŊüŞDüM : TOGLA : ÖGüZüG : YÜZüTİ : KeÇiP : SÜSİ : --- : iKİNTİ : aNDıRGUDA : SÜŊüŞDüM : SÜSİN : SaNÇDıM : İLİN : aLTıM : ÜÇüNÇ : ÇUŞ : BaŞINDA : SÜŊüŞDüM : TÜRK : BODuN : aDaK : KaMŞatTI : YaBLaK :",
    "turkce": "KİN : DEĞDİĞİ : İÇİN : YAĞI : OLDU : BİR : YILDA : DÖRT : YOL : SÜNGÜŞDÜM : EN : İLKİ : DOĞU : BALIKTA : SÜNGÜŞDÜM : TOĞLA : ÖĞÜZÜNÜ : YÜZÜP : GEÇİP : SÜSİ : --- : İKİNCİ : ANDIRGUDA : SÜNGÜŞDÜM : SÜSİNİ : SANÇTIM : İLİNİ : ALDIM : ÜÇÜNCÜ : ÇUŞ : BAŞINDA : SÜNGÜŞDÜM : TÜRK : BOYLARI : AYAK : KAMŞATTI : YAVLAK :",
    "kelime_sayisi": 37,
@@ -5891,7 +6038,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 11,
+     "alan": "gokturkce",
+     "eski": "𐰃𐰚𐰠𐰃",
+     "yeni": "𐰃𐰠𐰚𐰃",
+     "gerekce": "İLKİ: k-l sırası yer değiştirmiş"
+    }
+   ]
   },
   {
    "id": "BK-D-31",
@@ -6278,7 +6434,7 @@
    "yuz_kod": "D",
    "satir": 37,
    "sira": 37,
-   "gokturkce": "𐰦𐰀 : 𐰾𐰇𐰤𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰽𐰨𐰑𐰢 : 𐰃𐰲𐰚𐰏𐰢𐰀 : 𐰱𐰚𐰓𐰃 : 𐰉𐰆𐰑𐰣 : 𐰉𐰆𐰡𐰃 : 𐰇𐰠𐰏𐰢𐰀 : 𐰇𐰠𐱅𐰃 : 𐰾𐰠𐰭𐰀 : 𐰸𐰆𐰑𐰃 : 𐰖𐰆𐰺𐰯𐰣 : 𐰴𐰺𐰍𐰣 : 𐰶𐰃𐰽𐰞𐱃𐰀 : 𐰋𐰃𐰤 : 𐰉𐰺𐰴𐰃𐰤 : 𐰦𐰀 : 𐰉𐰆𐰔𐰑𐰢 : --- : 𐰘𐱁𐰴𐰀 : 𐰍𐰑𐰃 : 𐰆𐰖𐰍𐰺 : 𐰠𐱅𐰋𐰼 : 𐰘𐰇𐰔𐰲𐰀 : 𐰼𐰏 : 𐰃𐰠𐰏𐰼𐰇 : 𐱅𐰔𐰯 : 𐰉𐰺𐰑𐰃 : --- :",
+   "gokturkce": "𐰦𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢 : 𐰾𐰇𐰾𐰃𐰤 : 𐰽𐰨𐰑𐰢 : 𐰃𐰲𐰚𐰏𐰢𐰀 : 𐰱𐰚𐰓𐰃 : 𐰉𐰆𐰑𐰣 : 𐰉𐰆𐰡𐰃 : 𐰇𐰠𐰏𐰢𐰀 : 𐰇𐰠𐱅𐰃 : 𐰾𐰠𐰭𐰀 : 𐰸𐰆𐰑𐰃 : 𐰖𐰆𐰺𐰯𐰣 : 𐰴𐰺𐰍𐰣 : 𐰶𐰃𐰽𐰞𐱃𐰀 : 𐰋𐰃𐰤 : 𐰉𐰺𐰴𐰃𐰤 : 𐰦𐰀 : 𐰉𐰆𐰔𐰑𐰢 : --- : 𐰘𐱁𐰴𐰀 : 𐰍𐰑𐰃 : 𐰆𐰖𐰍𐰺 : 𐰠𐱅𐰋𐰼 : 𐰘𐰇𐰔𐰲𐰀 : 𐰼𐰏 : 𐰃𐰠𐰏𐰼𐰇 : 𐱅𐰔𐰯 : 𐰉𐰺𐰑𐰃 : --- :",
    "transkripsiyon": "aNDA : SÜŊüŞDüM : SÜSİN : SaNÇDıM : İÇiKiGME : İÇiKDİ : BODuN : BOLDI : ÖLüGME : ÖLTİ : SeLeŊE : KODI : YORıPaN : KaRGaN : KISıLTA : eBİN : BaRKIN : aNDA : BOZDuM : --- : YıŞKA : aGDI : UYGuR : iLTeBeR : YÜZÇE : eRiG : İLGeRÜ : TeZiP : BaRDI : --- :",
    "turkce": "ANDA : SÜNGÜŞDÜM : SÜSİNİ : SANÇTIM : İÇİGEN : İÇİGDİ : BOY : OLDU : ÖLEN : ÖLDÜ : SELENGEDEN : KOYI : YÜRÜYÜP : KARGAN : KISILDA : EVİNİ : BARKINI : [O] ANDA : BOZDUM : --- : YIŞA : AĞDI : UYGUR : İLBAŞISI : YÜZCE : ERLE : İLERİ : TEZİP : VARDI : --- :",
    "kelime_sayisi": 30,
@@ -6322,7 +6478,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 1,
+     "alan": "gokturkce",
+     "eski": "𐰾𐰇𐰤𐱁𐰓𐰢",
+     "yeni": "𐰾𐰇𐰭𐱁𐰓𐰢",
+     "gerekce": "SÜŊüŞDüM: ŋ (𐰭) yerine ince n (𐰤)"
+    }
+   ]
   },
   {
    "id": "BK-D-38",
@@ -7839,7 +8004,7 @@
    "yuz_kod": "K",
    "satir": 10,
    "sira": 67,
-   "gokturkce": "𐰶𐰃𐰔𐰃𐰣 : 𐰼𐱅𐰃𐰭𐰇 : 𐰆𐰞𐰍 : 𐱅𐰇𐰘𐰇𐰤 : 𐰆𐰍𐰞𐰢𐰀 : 𐰞𐰃 : 𐰋𐰃𐰼𐱅𐰢 : --- : 𐰼𐱅𐰃𐰭𐰇 : 𐰆𐰞𐰍 : 𐱅𐰇𐰘𐰇𐰤 : 𐰞𐰃 : 𐰋𐰃𐰼𐱅𐰢 : 𐰖 --- 𐱅 : 𐰼𐱅𐰇𐰼𐱅𐰢 : --- : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰇𐰚𐰦𐰼𐱅𐰢 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰼𐱅𐰢 : 𐰇𐰔𐰀 : 𐱅𐰭𐰼𐰃 : 𐰽𐰺𐰀 : 𐰘𐰼 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰤 :",
+   "gokturkce": "𐰶𐰃𐰔𐰃𐰣 : 𐰼𐱅𐰃𐰭𐰇 : 𐰆𐰞𐰍 : 𐱅𐰇𐰼𐰇𐰤 : 𐰆𐰍𐰞𐰢𐰀 : 𐰞𐰃 : 𐰋𐰃𐰼𐱅𐰢 : --- : 𐰼𐱅𐰃𐰭𐰇 : 𐰆𐰞𐰍 : 𐱅𐰇𐰼𐰇𐰤 : 𐰞𐰃 : 𐰋𐰃𐰼𐱅𐰢 : 𐰖 --- 𐱅 : 𐰼𐱅𐰇𐰼𐱅𐰢 : --- : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰇𐰚𐰦𐰼𐱅𐰢 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰼𐱅𐰢 : 𐰇𐰔𐰀 : 𐱅𐰭𐰼𐰃 : 𐰽𐰺𐰀 : 𐰘𐰼 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰤 :",
    "transkripsiyon": "KIZIN : eRTİŊÜ : ULuG : TÖRÜN : OGLıMA : aLI : BİRTiM : --- : eRTİŊÜ : ULuG : TÖRÜN : aLI : BİRTiM : Ya --- T : eRTÜRTüM : --- : BaŞLıGıG : YÜKüNTüRTüM : TİZLiGiG : SÖKüRTüM : ÜZE : TeŊRİ : aSRA : YiR : YaRLıKaDUK : ÜÇüN :",
    "turkce": "KIZINI : YÜCE : ULU : TÖRENLE : OĞLUMA : ALI : VERDİM : --- : YÜCE : ULU : TÖRENLE : ALI : VERDİM : YA --- T : ERDİRDİM : --- : BAŞLIYI : YÜKÜNDÜRDÜM : DİZLİYİ : ÇÖKTÜRDÜM : ÜSTTE : TANRI : ALTTA : YER : BUYURDUĞU : İÇİN :",
    "kelime_sayisi": 26,
@@ -7879,7 +8044,23 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/bilgekagan.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 3,
+     "alan": "gokturkce",
+     "eski": "𐱅𐰇𐰘𐰇𐰤",
+     "yeni": "𐱅𐰇𐰼𐰇𐰤",
+     "gerekce": "TÖRÜN: y (𐰘) yerine ince r (𐰼)"
+    },
+    {
+     "sira": 10,
+     "alan": "gokturkce",
+     "eski": "𐱅𐰇𐰘𐰇𐰤",
+     "yeni": "𐱅𐰇𐰼𐰇𐰤",
+     "gerekce": "TÖRÜN: y (𐰘) yerine ince r (𐰼)"
+    }
+   ]
   },
   {
    "id": "BK-K-11",
@@ -9096,7 +9277,7 @@
    "yuz_kod": "G",
    "satir": 8,
    "sira": 15,
-   "gokturkce": "𐰴𐰍𐰣𐰢 : 𐰋𐰢 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰇𐱅𐰤𐱅𐰝 : 𐰇𐱅𐰨𐰢𐰤 : 𐰾𐰓𐰇 : 𐰋𐰼𐱅𐰃 : 𐰚𐰇𐰭𐰠𐰭𐰲𐰀 : 𐰆𐰑𐰔 : 𐱅𐰓𐰃 : 𐰚𐰇𐰚 : 𐰇𐰭𐰏 : 𐰖𐰆𐰍𐰺𐰆 : 𐰇𐱅𐰚𐰤 : 𐰘𐰃𐰽𐰍𐰀𐰺𐰆 : 𐰆𐰑𐰔𐱅𐰢 : 𐰃𐰤𐰏 : 𐰚𐰝𐰠𐰚𐰤 : 𐱃𐰆𐰍𐰞𐰑𐰀 : 𐰆𐰍𐰔 : 𐰚𐰠𐱅𐰃 :",
+   "gokturkce": "𐰴𐰍𐰣𐰢 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰇𐱅𐰤𐱅𐰝 : 𐰇𐱅𐰨𐰢𐰤 : 𐰾𐰓𐰇 : 𐰋𐰼𐱅𐰃 : 𐰚𐰇𐰭𐰠𐰭𐰲𐰀 : 𐰆𐰑𐰔 : 𐱅𐰓𐰃 : 𐰚𐰇𐰚 : 𐰇𐰭𐰏 : 𐰖𐰆𐰍𐰺𐰆 : 𐰇𐱅𐰚𐰤 : 𐰘𐰃𐰽𐰍𐰀𐰺𐰆 : 𐰆𐰑𐰔𐱅𐰢 : 𐰃𐰤𐰏 : 𐰚𐰝𐰠𐰚𐰤 : 𐱃𐰆𐰍𐰞𐰑𐰀 : 𐰆𐰍𐰔 : 𐰚𐰠𐱅𐰃 :",
    "transkripsiyon": "KaGaNıM : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüNTÜK : ÖTüNÇüMüN : iŞiDÜ : BiRTİ : KÖŊLüŊÇE : UDuZ : TiDİ : KÖK : ÖŊüG : YOGuRU : ÖTüKeN : YIŞGARU : UDuZTıM : İNiG : KÖKLüKüN : TOGuLDA : OGuZ : KeLTİ :",
    "turkce": "KAĞANIM : BEN : ÖZÜM : BİLGE : TONYUKUK : ÖTÜNDÜK : [KAĞAN] ÖTÜNÇÜMÜ : İŞİTİ : VERDİ : GÖNLÜNCE : [ORDUYU] UDUZ : DEDİ : KÖK : ÖNGÜ : YUKARI : ÖTÜKEN : YIŞ [YÖNÜNE] : UDUZDUM : İNİG : KÖKLÜKÜN : TOĞULDA : OĞUZ [ORDUSU] : GELDİ :",
    "kelime_sayisi": 23,
@@ -9133,7 +9314,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/tonyukuk.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 1,
+     "alan": "gokturkce",
+     "eski": "𐰋𐰢",
+     "yeni": "𐰋𐰤",
+     "gerekce": "BeN: sonda m (𐰢) yerine ince n (𐰤)"
+    }
+   ]
   },
   {
    "id": "TY1-G-9",
@@ -9542,7 +9732,7 @@
    "yuz_kod": "D",
    "satir": 7,
    "sira": 24,
-   "gokturkce": "𐰇𐰔𐰢 : 𐰔 : 𐰘𐰃𐰼𐰢 : 𐰣𐰃 : 𐰋𐰠𐰢 : --- : 𐰼𐰢𐰾 : 𐰋𐰃𐰼 : 𐱃 : 𐰆𐰺𐰆𐰸𐰃 : 𐰼𐰢𐰾 : 𐰣𐰃𐰣 : 𐰉𐰺𐰢𐰾 : 𐰭𐰺 : 𐰖𐱃𐰯 : 𐰋𐰃𐰼 : 𐱃𐰞𐰍 : 𐰉𐰺𐰢𐰾 : 𐱅𐰘𐰤 : 𐰆𐰞 : 𐰖𐰆𐰞𐰣 : 𐰖𐰆𐰺𐰃𐰽𐰺 : 𐰆𐰨 : 𐱅𐰓𐰢 : 𐰽𐰺𐰦𐰢 : 𐰴𐰍𐰣𐰢𐰀 :",
+   "gokturkce": "𐰇𐰔𐰢 : 𐰔 : 𐰘𐰃𐰼𐰢 : 𐰣𐰃 : 𐰋𐰠𐰢 : --- : 𐰼𐰢𐰾 : 𐰋𐰃𐰼 : 𐱃 : 𐰆𐰺𐰆𐰸𐰃 : 𐰼𐰢𐰾 : 𐰣𐰃𐰣 : 𐰉𐰺𐰢𐰾 : 𐰭𐰺 : 𐰖𐱃𐰯 : 𐰋𐰃𐰼 : 𐱃𐰞𐰍 : 𐰉𐰺𐰢𐰾 : 𐱅𐰘𐰤 : 𐰆𐰞 : 𐰖𐰆𐰞𐰣 : 𐰖𐰆𐰺𐰃𐰽𐰺 : 𐰆𐰨 : 𐱅𐰓𐰢 : 𐰽𐰴𐰦𐰢 : 𐰴𐰍𐰣𐰢𐰀 :",
    "transkripsiyon": "ÖZüM : aZ : YiRiM : aNI : BELiM : --- : eRMiŞ : BİR : aT : ORUKI : eRMiŞ : aNIN : BaRMıŞ : AŊAR : aYTıP : BİR : aTLıG : BaRMıŞ : TiYiN : OL : YOLuN : YORISaR : UNÇ : TiDiM : SaKıNDıM : KaGaNıMA :",
    "turkce": "ÖZÜM : AZ : YERİM : ONU : BESLERİM : --- : İMİŞ : BİR : AT : ORUĞU : [VAR]İMİŞ : ONUN [İLE] : VARMIŞ [GİTMİŞ] : ONA : AYTIP : BİR : ATLI : VARMIŞ : DİYE : O : YOLU : YORSAK : İYİDİR : DEDİM : SAKINDIM : KAĞANIMA :",
    "kelime_sayisi": 26,
@@ -9582,7 +9772,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/tonyukuk.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 24,
+     "alan": "gokturkce",
+     "eski": "𐰽𐰺𐰦𐰢",
+     "yeni": "𐰽𐰴𐰦𐰢",
+     "gerekce": "SaKıNDıM: kalın r (𐰺) yerine kalın k (𐰴)"
+    }
+   ]
   },
   {
    "id": "TY1-K-1",
@@ -11047,7 +11246,7 @@
    "yuz_kod": "K",
    "satir": 1,
    "sira": 59,
-   "gokturkce": "𐰃𐰠𐱅𐰼𐰃𐰾 : 𐰴𐰍𐰣 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺 : 𐰖𐰸 : 𐰼𐱅𐰃 : 𐰼𐰾𐰼 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺 : 𐰋𐰤 : 𐰖𐰸 : 𐰼𐱅𐰃 : 𐰼𐰾𐰼 :",
+   "gokturkce": "𐰃𐰠𐱅𐰼𐰃𐰾 : 𐰴𐰍𐰣 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺 : 𐰖𐰸 : 𐰼𐱅𐰃 : 𐰼𐰾𐰼 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺 : 𐰋𐰤 : 𐰖𐰸 : 𐰼𐱅𐰢 : 𐰼𐰾𐰼 :",
    "transkripsiyon": "İLTeRİŞ : KaGaN : KaZGaNMaSaR : YOK : eRTİ : eRSeR : BeN : ÖZüM : BİLGE : TONYUKUK : KaZGaNMaSaR : BeN : YOK : eRTiM : eRSeR :",
    "turkce": "İLTERİŞ : KAĞAN : KAZANMASA : YOK : İDİ : İSE : BEN : ÖZÜM : BİLGE : TONYUKUK : KAZANMASAM : BEN : YOK : İDİM : İSE :",
    "kelime_sayisi": 15,
@@ -11076,7 +11275,16 @@
     "site": "turkbitig.com",
     "url": "https://www.turkbitig.com/orhun-yazitlari/tonyukuk.html",
     "erisim": "2026-09-10"
-   }
+   },
+   "duzeltmeler": [
+    {
+     "sira": 13,
+     "alan": "gokturkce",
+     "eski": "𐰼𐱅𐰃",
+     "yeni": "𐰼𐱅𐰢",
+     "gerekce": "eRTiM: sonda I (𐰃) yerine m (𐰢)"
+    }
+   ]
   },
   {
    "id": "TY2-K-2",
@@ -11195,6 +11403,7 @@
  ],
  "notlar": [
   "Tonyukuk yazıtında ÖK/ÜK için U+10C1D (YENISEI OEK) kullanılmıştır; Orhun standardı U+10C1C. Otantik varyant, değiştirilmedi.",
-  "U+10C48 (ORKHON BASH) yalnız TY1-K-2 dizesinde; doğrulanmadı."
+  "U+10C48 (ORKHON BASH) yalnız TY1-K-2 dizesinde; doğrulanmadı.",
+  "DÜZELTME: 24 kelimelik dizgi düzeltmesi 05_Kaynak_DB/orhun-db-duzeltmeler.json'da; dize başına 'duzeltmeler' alanı."
  ]
 }
