@@ -1,0 +1,508 @@
+import React, { useState, useEffect, useCallback } from 'react';
+import confetti from 'canvas-confetti';
+import { Navbar } from './components/Navbar';
+import { LearningPath } from './components/LearningPath';
+import { TamgalikView } from './components/TamgalikView';
+import { KitabelerReader } from './components/KitabelerReader';
+import { SozlukView } from './components/SozlukView';
+import { GokturkKeyboard } from './components/GokturkKeyboard';
+import { BelgelerView } from './components/BelgelerView';
+import { FlashcardsView } from './components/FlashcardsView';
+import { LessonModal } from './components/LessonModal';
+import { DailyQuestsModal } from './components/DailyQuestsModal';
+import { QuestToast } from './components/QuestToast';
+import { IstatistiklerView } from './components/IstatistiklerView';
+import { CelebrationBanner } from './components/CelebrationBanner';
+import { UNITS } from './data/curriculumData';
+import { Lesson, UserProgress, DailyQuest, QuestCategory } from './types';
+import { Badge } from './data/badgesData';
+import { playSuccessSound, playVictoryFanfare } from './utils/audio';
+import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQuests';
+import { formatDateToKey, getInitialActivityHistory } from './utils/statsUtils';
+
+const STORAGE_KEY = 'gokturkce_progress_v1';
+
+const INITIAL_PROGRESS: UserProgress = {
+  xp: 0,
+  streak: 1,
+  hearts: 5,
+  maxHearts: 5,
+  lastActiveDate: new Date().toISOString(),
+  completedLessons: {},
+  rank: 'Er',
+  dailyQuests: ensureDailyQuests(),
+  learnedWords: { tengri: true, turuk: true, kagan: true },
+  activityHistory: getInitialActivityHistory(1)
+};
+
+export const App: React.FC = () => {
+  const [currentTab, setCurrentTab] = useState<string>(() => {
+    try {
+      const savedTab = localStorage.getItem('gokturkce_active_tab');
+      if (savedTab) return savedTab;
+    } catch {
+      // ignore
+    }
+    return 'istatistik';
+  });
+
+  const handleTabChange = (tab: string) => {
+    setCurrentTab(tab);
+    try {
+      localStorage.setItem('gokturkce_active_tab', tab);
+    } catch {
+      // ignore
+    }
+  };
+
+  const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
+  const [isQuestsModalOpen, setIsQuestsModalOpen] = useState(false);
+  const [toastQuest, setToastQuest] = useState<DailyQuest | null>(null);
+  const [activeCelebration, setActiveCelebration] = useState<{
+    type: 'rank' | 'badge';
+    title: string;
+    subtitle: string;
+    runicSymbol?: string;
+    badge?: Badge;
+  } | null>(null);
+
+  // Load progress from localStorage or default
+  const [progress, setProgress] = useState<UserProgress>(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        return {
+          ...parsed,
+          dailyQuests: ensureDailyQuests(parsed.dailyQuests)
+        };
+      }
+    } catch {
+      // ignore
+    }
+    return INITIAL_PROGRESS;
+  });
+
+  // Ensure daily quests are refreshed if day changed while app is open
+  useEffect(() => {
+    setProgress(prev => {
+      const ensured = ensureDailyQuests(prev.dailyQuests);
+      if (ensured.date !== prev.dailyQuests?.date) {
+        return { ...prev, dailyQuests: ensured };
+      }
+      return prev;
+    });
+  }, []);
+
+  // Persist progress to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    } catch {
+      // ignore
+    }
+  }, [progress]);
+
+  // Rank calculator helper
+  const calculateRank = (xp: number): 'Er' | 'Çor' | 'Tarkan' | 'Toygun' | 'Bilge' | 'Kağan' => {
+    if (xp >= 500) return 'Kağan';
+    if (xp >= 320) return 'Bilge';
+    if (xp >= 200) return 'Toygun';
+    if (xp >= 120) return 'Tarkan';
+    if (xp >= 50) return 'Çor';
+    return 'Er';
+  };
+
+  // Helper to record daily activity into history
+  const recordActivity = (xpGained = 0, lessonsGained = 0, wordsGained = 0) => {
+    const todayKey = formatDateToKey(new Date());
+    const dayNames = ['Paz', 'Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt'];
+    const dayName = dayNames[new Date().getDay()];
+
+    setProgress(prev => {
+      const history = prev.activityHistory ? { ...prev.activityHistory } : getInitialActivityHistory(prev.streak);
+      const currentDay = history[todayKey] || {
+        date: todayKey,
+        dayName,
+        xp: 0,
+        lessonsCompleted: 0,
+        wordsLearned: 0
+      };
+
+      history[todayKey] = {
+        ...currentDay,
+        xp: currentDay.xp + xpGained,
+        lessonsCompleted: currentDay.lessonsCompleted + lessonsGained,
+        wordsLearned: currentDay.wordsLearned + wordsGained
+      };
+
+      return {
+        ...prev,
+        activityHistory: history
+      };
+    });
+  };
+
+  // Helper to increment quest progress
+  const handleUpdateQuest = useCallback((category: QuestCategory, amount = 1) => {
+    setProgress(prev => {
+      const currentQuests = ensureDailyQuests(prev.dailyQuests);
+      const { updatedState, newlyCompleted } = updateQuestProgressInState(currentQuests, category, amount);
+
+      if (newlyCompleted.length > 0) {
+        playVictoryFanfare();
+        confetti({
+          particleCount: 50,
+          spread: 60,
+          origin: { y: 0.7 }
+        });
+        setToastQuest(newlyCompleted[0]);
+      }
+
+      return {
+        ...prev,
+        dailyQuests: updatedState
+      };
+    });
+  }, []);
+
+  // Handle learning a word in dictionary or lesson
+  const handleLearnWord = (wordId: string) => {
+    handleUpdateQuest('words', 1);
+    recordActivity(5, 0, 1);
+    setProgress(prev => ({
+      ...prev,
+      learnedWords: {
+        ...(prev.learnedWords || {}),
+        [wordId]: true
+      }
+    }));
+  };
+
+  // Handle claiming individual quest reward
+  const handleClaimReward = (questId: string) => {
+    setProgress(prev => {
+      if (!prev.dailyQuests) return prev;
+      const targetQuest = prev.dailyQuests.quests.find(q => q.id === questId);
+      if (!targetQuest || !targetQuest.completed || targetQuest.claimed) return prev;
+
+      playVictoryFanfare();
+      confetti({
+        particleCount: 75,
+        spread: 70,
+        origin: { y: 0.6 }
+      });
+
+      const updatedQuests = prev.dailyQuests.quests.map(q => 
+        q.id === questId ? { ...q, claimed: true } : q
+      );
+
+      const addedXp = targetQuest.reward.xp;
+      const addedHearts = targetQuest.reward.hearts || 0;
+      const newXp = prev.xp + addedXp;
+      const newRank = calculateRank(newXp);
+      const newHearts = Math.min(prev.maxHearts, prev.hearts + addedHearts);
+
+      return {
+        ...prev,
+        xp: newXp,
+        rank: newRank,
+        hearts: newHearts,
+        dailyQuests: {
+          ...prev.dailyQuests,
+          quests: updatedQuests
+        }
+      };
+    });
+  };
+
+  // Handle claiming all-completed super bonus (+50 XP, +2 can)
+  const handleClaimSuperBonus = () => {
+    setProgress(prev => {
+      if (!prev.dailyQuests || prev.dailyQuests.allCompletedBonusClaimed) return prev;
+
+      playVictoryFanfare();
+      confetti({
+        particleCount: 150,
+        spread: 100,
+        origin: { y: 0.5 }
+      });
+
+      const bonusXp = 50;
+      const newXp = prev.xp + bonusXp;
+      const newRank = calculateRank(newXp);
+      const newHearts = Math.min(prev.maxHearts, prev.hearts + 2);
+
+      return {
+        ...prev,
+        xp: newXp,
+        rank: newRank,
+        hearts: newHearts,
+        dailyQuests: {
+          ...prev.dailyQuests,
+          allCompletedBonusClaimed: true
+        }
+      };
+    });
+  };
+
+  // Handle claiming a milestone badge bonus
+  const handleClaimBadge = (badge: Badge) => {
+    setProgress(prev => {
+      if (prev.claimedBadges?.[badge.id]) return prev;
+
+      const bonusXp = badge.bonusXp || 25;
+      const newXp = prev.xp + bonusXp;
+      const newRank = calculateRank(newXp);
+      const isRankUp = newRank !== prev.rank;
+
+      recordActivity(bonusXp, 0, 0);
+
+      // Trigger celebration banner for the unlocked badge or rank up
+      if (isRankUp) {
+        setActiveCelebration({
+          type: 'rank',
+          title: `${newRank} Rütbesine Yükseldiniz!`,
+          subtitle: `Tebrikler! ${newXp} XP eşiğini aştınız ve Bozkırda kutlu bir makama eriştiniz.`,
+          runicSymbol: '𐰚'
+        });
+      } else {
+        setActiveCelebration({
+          type: 'badge',
+          title: `"${badge.title}" Nişanı Alındı!`,
+          subtitle: badge.description,
+          runicSymbol: badge.runicSymbol,
+          badge
+        });
+      }
+
+      return {
+        ...prev,
+        xp: newXp,
+        rank: newRank,
+        claimedBadges: {
+          ...(prev.claimedBadges || {}),
+          [badge.id]: true
+        }
+      };
+    });
+  };
+
+  // Handle lesson completion
+  const handleLessonComplete = (xpEarned: number) => {
+    if (!activeLesson) return;
+    const lessonId = activeLesson.id;
+
+    // Advance daily lesson quest
+    handleUpdateQuest('lesson', 1);
+    recordActivity(xpEarned, 1, 0);
+
+    setProgress(prev => {
+      const newXp = prev.xp + xpEarned;
+      const newRank = calculateRank(newXp);
+      const isRankUp = newRank !== prev.rank;
+
+      if (isRankUp) {
+        setActiveCelebration({
+          type: 'rank',
+          title: `${newRank} Rütbesine Yükseldiniz!`,
+          subtitle: `Bozkırın kadim bilgeliğinde yeni mertebeniz kutlu olsun! Toplam ${newXp} XP.`,
+          runicSymbol: '𐰚'
+        });
+      }
+
+      return {
+        ...prev,
+        xp: newXp,
+        rank: newRank,
+        completedLessons: {
+          ...prev.completedLessons,
+          [lessonId]: true
+        }
+      };
+    });
+  };
+
+  // Deduct heart
+  const handleHeartLoss = () => {
+    setProgress(prev => ({
+      ...prev,
+      hearts: Math.max(0, prev.hearts - 1)
+    }));
+  };
+
+  // Refill hearts to max
+  const handleRefillHearts = () => {
+    playSuccessSound();
+    setProgress(prev => ({
+      ...prev,
+      hearts: prev.maxHearts
+    }));
+  };
+
+  // Quick practice generator
+  const handleQuickPractice = () => {
+    const randomUnit = UNITS[0];
+    const randomLesson = randomUnit.lessons[0];
+    setActiveLesson({
+      ...randomLesson,
+      id: 'quick-practice',
+      title: 'Hızlı Can Tazeleme Antrenmanı',
+      subtitle: 'Tamgaları tekrar et, +1 Can ve +10 XP kazan',
+      xp: 10
+    });
+  };
+
+  // Words learned count for Sozluk display
+  const wordsQuest = progress.dailyQuests?.quests.find(q => q.category === 'words');
+  const wordsLearnedCount = wordsQuest ? wordsQuest.current : 0;
+
+  return (
+    <div className="min-h-screen flex flex-col bg-[#0B1320] text-[#E6EDF5]">
+      {/* Top Navbar */}
+      <Navbar
+        currentTab={currentTab}
+        onTabChange={handleTabChange}
+        progress={progress}
+        onRefillHearts={handleRefillHearts}
+        onOpenQuests={() => setIsQuestsModalOpen(true)}
+      />
+
+      {/* Main Content Body */}
+      <main className="flex-1 pb-16">
+        {currentTab === 'ogren' && (
+          <LearningPath
+            units={UNITS}
+            progress={progress}
+            onStartLesson={(lesson) => setActiveLesson(lesson)}
+            onOpenTamgalik={() => handleTabChange('tamgalik')}
+            onOpenFlashcards={() => handleTabChange('kartlar')}
+            onQuickPractice={handleQuickPractice}
+            onClaimReward={handleClaimReward}
+            onClaimSuperBonus={handleClaimSuperBonus}
+            onNavigateToTab={(tab) => handleTabChange(tab)}
+            onOpenQuestsModal={() => setIsQuestsModalOpen(true)}
+          />
+        )}
+
+        {currentTab === 'kartlar' && (
+          <FlashcardsView
+            onEarnXp={(xp) => {
+              recordActivity(xp, 0, 0);
+              setProgress(prev => {
+                const newXp = prev.xp + xp;
+                return {
+                  ...prev,
+                  xp: newXp,
+                  rank: calculateRank(newXp)
+                };
+              });
+            }}
+            onCompleteSeries={() => handleUpdateQuest('tamga_series', 1)}
+            onListenPronunciation={() => handleUpdateQuest('listen', 1)}
+          />
+        )}
+
+        {currentTab === 'tamgalik' && (
+          <TamgalikView 
+            onOpenFlashcards={() => handleTabChange('kartlar')} 
+            onListenPronunciation={() => handleUpdateQuest('listen', 1)}
+          />
+        )}
+
+        {currentTab === 'kitabeler' && <KitabelerReader />}
+
+        {currentTab === 'sozluk' && (
+          <SozlukView 
+            onLearnWord={handleLearnWord}
+            onListenPronunciation={() => handleUpdateQuest('listen', 1)}
+            wordsLearnedCount={wordsLearnedCount}
+            learnedWordsRecord={progress.learnedWords}
+          />
+        )}
+
+        {currentTab === 'istatistik' && (
+          <IstatistiklerView
+            progress={progress}
+            onNavigateToTab={(tab) => handleTabChange(tab)}
+            onClaimBadge={handleClaimBadge}
+          />
+        )}
+
+        {currentTab === 'klavye' && <GokturkKeyboard />}
+        {currentTab === 'belgeler' && <BelgelerView />}
+      </main>
+
+      {/* Interactive Lesson Modal */}
+      {activeLesson && (
+        <LessonModal
+          lesson={activeLesson}
+          progress={progress}
+          onComplete={(xp) => {
+            handleLessonComplete(xp);
+            // also award a heart if in quick practice
+            if (activeLesson.id === 'quick-practice') {
+              setProgress(prev => ({
+                ...prev,
+                hearts: Math.min(prev.maxHearts, prev.hearts + 1)
+              }));
+            }
+          }}
+          onClose={() => setActiveLesson(null)}
+          onHeartLoss={handleHeartLoss}
+          onRefillHearts={handleRefillHearts}
+          onListenPronunciation={() => handleUpdateQuest('listen', 1)}
+          onLearnWord={handleLearnWord}
+        />
+      )}
+
+      {/* Daily Quests Details Modal */}
+      {isQuestsModalOpen && progress.dailyQuests && (
+        <DailyQuestsModal
+          dailyQuests={progress.dailyQuests}
+          onClose={() => setIsQuestsModalOpen(false)}
+          onClaimReward={handleClaimReward}
+          onClaimSuperBonus={handleClaimSuperBonus}
+          onNavigateToTab={(tab) => {
+            setIsQuestsModalOpen(false);
+            setCurrentTab(tab);
+          }}
+        />
+      )}
+
+      {/* Quest Completion Toast Notification */}
+      {toastQuest && (
+        <QuestToast
+          quest={toastQuest}
+          onClose={() => setToastQuest(null)}
+          onClaim={() => {
+            handleClaimReward(toastQuest.id);
+            setToastQuest(null);
+          }}
+        />
+      )}
+
+      {/* Level Up (Rank) & Badge Celebration Banner */}
+      {activeCelebration && (
+        <CelebrationBanner
+          type={activeCelebration.type}
+          title={activeCelebration.title}
+          subtitle={activeCelebration.subtitle}
+          runicSymbol={activeCelebration.runicSymbol}
+          badge={activeCelebration.badge}
+          onClose={() => setActiveCelebration(null)}
+        />
+      )}
+
+      {/* Minimal Footer */}
+      <footer className="border-t border-[#233754] py-6 text-center text-xs text-[#6C7F99] bg-[#080E18]">
+        <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span>Göktürkçe Öğreneği &copy; {new Date().getFullYear()} — Antik Bozkır Yazıtları ve Dil Eğitimi</span>
+          <span className="runic text-sm text-[#2BC4C4]">𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣</span>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default App;

@@ -70,7 +70,7 @@ if (HEDEF === "slayt") {
     fs.writeFileSync(htmlP, html, "utf8");
     const nSlayt = (html.match(/<section class="slayt/g) || []).length;
     console.log(`✓ slayt ${id.padEnd(12)} ${nSlayt} slayt | tamga ${r.farkli} | ${(html.length / 1024).toFixed(0)} KB → ${path.relative(ROOT, htmlP)}`);
-    if (SADECE_HTML) continue;
+    if (SADECE_HTML || !TARAYICI) continue;
     const pdfP = path.join(OUT_S, id + ".pdf"); if (fs.existsSync(pdfP)) fs.unlinkSync(pdfP);
     const res = spawnSync(TARAYICI, ["--headless=new", "--disable-gpu", "--no-pdf-header-footer", `--user-data-dir=${path.join(process.env.TEMP ?? ROOT, "edge_gk_s_" + id)}`, `--print-to-pdf=${pdfP}`, `file:///${htmlP.replace(/\\/g, "/")}`], { timeout: 240000 });
     if (res.status !== 0 || !fs.existsSync(pdfP)) { console.error(`slayt PDF üretilemedi (motor: ${TARAYICI})`); hata = true; continue; }
@@ -131,10 +131,14 @@ function tarayiciSec() {
       return exe;
     }
   }
-  console.error("Hiçbir tarayıcı PDF üretemedi (Edge + Chrome yok/bozuk)");
-  process.exit(1);
+  console.warn("Tarayıcı bulunamadı (Edge / Chrome yok) — PDF üretimi atlanıyor, mevcut 04_PDF/*.pdf korunuyor.");
+  return null;
 }
 const TARAYICI = tarayiciSec();
+if (!TARAYICI) {
+  console.log("Tarayıcı olmadığı için baskı PDF üretimi atlandı (HTML çıktıları hazır).");
+  process.exit(0);
+}
 let toplam = 0;
 for (const id of belgeler) {
   const htmlP = path.join(OUT_HTML, CIKTI[id].html).replace(/\\/g, "/");

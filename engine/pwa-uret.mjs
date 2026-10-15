@@ -13,7 +13,8 @@ const PAKET = P("build/paket");
 if (!fs.existsSync(path.join(PAKET, "index.html"))) throw new Error("Önce `npm run paket`: build/paket yok");
 
 // ---------- ikonlar ----------
-const font = opentype.loadSync(P("03_Tasarim/fontlar/NotoSansOldTurkic-Regular.ttf"));
+const fontBuffer = fs.readFileSync(P("03_Tasarim/fontlar/NotoSansOldTurkic-Regular.ttf"));
+const font = opentype.parse(fontBuffer.buffer.slice(fontBuffer.byteOffset, fontBuffer.byteOffset + fontBuffer.byteLength));
 const glif = font.charToGlyph(String.fromCodePoint(0x10c30)); // 𐱅 (türük/türk'ün ilk tamgası)
 const boyut = 512, olcek = 0.52 * boyut;
 const yol = glif.getPath(0, 0, olcek);

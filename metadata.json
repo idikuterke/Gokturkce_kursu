@@ -1,0 +1,6 @@
+{
+  "name": "Göktürkçe Öğreneği",
+  "description": "Duolingo deneyimiyle Göktürk alfabesi, Orhun kitabeleri ve Eski Türkçeyi keşfedin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

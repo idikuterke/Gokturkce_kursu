@@ -85,11 +85,17 @@ pdf/: çalışma yaprakları, tamga kartları, Irk Bitig föyü, ek üniteler, b
 Eğitmen: İbrahim (Bayram) Bilir · Sürüm ${new Date().toISOString().slice(0, 10)}
 `, "utf8");
 
-// zip (PowerShell Compress-Archive — ek bağımlılık yok)
+// zip (PowerShell on Windows, python3 on Linux — ek bağımlılık yok)
 const zip = P("build", "Gokturkce_Paket_Kurs.zip");
 if (fs.existsSync(zip)) fs.unlinkSync(zip);
-const r = spawnSync("powershell", ["-NoProfile", "-Command", `Compress-Archive -Path '${OUT}\\*' -DestinationPath '${zip}' -CompressionLevel Optimal`], { encoding: "utf8" });
-if (r.status !== 0) console.error("zip uyarı:", r.stderr);
+if (process.platform === "win32") {
+  const r = spawnSync("powershell", ["-NoProfile", "-Command", `Compress-Archive -Path '${OUT}\\*' -DestinationPath '${zip}' -CompressionLevel Optimal`], { encoding: "utf8" });
+  if (r.status !== 0) console.error("zip uyarı:", r.stderr);
+} else {
+  const pyScript = "import zipfile, os, sys; out, zf = sys.argv[1], sys.argv[2]; z = zipfile.ZipFile(zf, 'w', zipfile.ZIP_DEFLATED); [z.write(os.path.join(r, f), os.path.relpath(os.path.join(r, f), out)) for r, _, fs in os.walk(out) for f in fs]; z.close()";
+  const r = spawnSync("python3", ["-c", pyScript, OUT, zip], { encoding: "utf8" });
+  if (r.status !== 0) console.error("zip uyarı:", r.stderr);
+}
 const boyut = (p) => (fs.statSync(p).size / 1024 / 1024).toFixed(1) + " MB";
 console.log(`Paket: ${path.relative(ROOT, OUT)} → ${moduller.length} modül (${moduller.reduce((a, m) => a + m.slayt, 0)} slayt), ${PDFLER.length} PDF`);
 if (fs.existsSync(zip)) console.log(`Zip: ${path.relative(ROOT, zip)} (${boyut(zip)})`);

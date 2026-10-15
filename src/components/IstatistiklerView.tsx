@@ -1,0 +1,501 @@
+import React, { useState } from 'react';
+import { 
+  BarChart, 
+  Bar, 
+  XAxis, 
+  YAxis, 
+  Tooltip, 
+  ResponsiveContainer, 
+  AreaChart, 
+  Area, 
+  CartesianGrid 
+} from 'recharts';
+import { 
+  Flame, 
+  BookOpen, 
+  Award, 
+  Zap, 
+  TrendingUp, 
+  Calendar, 
+  CheckCircle2, 
+  Shield, 
+  Layers, 
+  Sparkles,
+  ArrowRight
+} from 'lucide-react';
+import { UserProgress } from '../types';
+import { getWeeklyChartData, getStreakCalendarDays } from '../utils/statsUtils';
+import { SOZLUK } from '../data/sozlukData';
+import { TAMGALAR } from '../data/tamgalarData';
+import { BadgesSection } from './BadgesSection';
+import { Badge } from '../data/badgesData';
+
+interface IstatistiklerViewProps {
+  progress: UserProgress;
+  onNavigateToTab: (tab: string) => void;
+  onClaimBadge?: (badge: Badge) => void;
+}
+
+export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
+  progress,
+  onNavigateToTab,
+  onClaimBadge
+}) => {
+  const [metricMode, setMetricMode] = useState<'xp' | 'kelime'>('xp');
+
+  // Stats derivations
+  const learnedWordsCount = Object.keys(progress.learnedWords || {}).length;
+  const completedLessonsCount = Object.keys(progress.completedLessons || {}).length;
+  const totalDictionaryWords = SOZLUK.length;
+  const totalTamgas = TAMGALAR.length;
+
+  const weeklyData = getWeeklyChartData(progress.activityHistory);
+  const calendarDays = getStreakCalendarDays(progress.activityHistory, progress.streak);
+
+  const totalWeeklyXp = weeklyData.reduce((sum, d) => sum + d.xp, 0);
+  const totalWeeklyWords = weeklyData.reduce((sum, d) => sum + d.kelime, 0);
+  const activeDaysThisWeek = weeklyData.filter(d => d.active).length;
+
+  // Dictionary completion percentage
+  const wordMasteryPercent = Math.min(100, Math.round((learnedWordsCount / totalDictionaryWords) * 100));
+
+  return (
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 space-y-8">
+      {/* Page Title & Profile Header */}
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-[#233754]">
+        <div>
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#2BC4C4] mb-1">
+            <Award className="w-4 h-4" />
+            <span>Kullanıcı Profili & Gelişim Paneli</span>
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-bold text-white font-serif tracking-tight">
+            İstatistiklerim
+          </h1>
+          <p className="text-sm text-[#9FB0C6] mt-1">
+            Göktürkçe öğrenme serüveniniz, günlük aktivite grafikleri ve kelime haznemiz.
+          </p>
+        </div>
+
+        {/* User Rank & Summary Card */}
+        <div className="flex items-center gap-4 bg-[#101B2C] border border-[#233754] px-4 py-3 rounded-2xl shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2BC4C4] to-[#1E8A8A] flex items-center justify-center text-white font-serif text-2xl font-bold shadow-md shadow-[#2BC4C4]/20">
+            𐱅
+          </div>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="text-base font-bold text-white font-serif">{progress.rank} Alp</span>
+              <span className="text-[10px] font-sans font-semibold px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30">
+                Seviye
+              </span>
+            </div>
+            <p className="text-xs text-[#9FB0C6] flex items-center gap-2 mt-0.5">
+              <span className="text-amber-400 font-bold flex items-center gap-0.5">
+                <Zap className="w-3 h-3 fill-current" /> {progress.xp} XP
+              </span>
+              <span>•</span>
+              <span className="text-orange-400 font-bold flex items-center gap-0.5">
+                <Flame className="w-3 h-3 fill-current" /> {progress.streak} Gün Seri
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* 4 Key Summary Stats Cards */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* Total Learned Words */}
+        <div className="bg-[#101B2C] border border-[#233754] hover:border-[#2BC4C4]/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-[#9FB0C6]">
+            <span className="text-xs font-semibold">Öğrenilen Kelimeler</span>
+            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-[#2BC4C4]">
+              <BookOpen className="w-4 h-4" />
+            </div>
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-2xl sm:text-3xl font-bold text-white font-mono">
+              {learnedWordsCount}
+            </span>
+            <span className="text-xs text-[#9FB0C6]">/ {totalDictionaryWords}</span>
+          </div>
+          <div className="w-full h-1.5 bg-[#0B1320] rounded-full overflow-hidden mt-1">
+            <div 
+              className="h-full bg-[#2BC4C4] rounded-full transition-all duration-500"
+              style={{ width: `${Math.max(5, wordMasteryPercent)}%` }}
+            />
+          </div>
+          <p className="text-[11px] text-[#9FB0C6] flex items-center justify-between pt-1">
+            <span>Sözlük Haznesi</span>
+            <span className="text-[#2BC4C4] font-semibold">%{wordMasteryPercent}</span>
+          </p>
+        </div>
+
+        {/* Current Active Streak */}
+        <div className="bg-[#101B2C] border border-[#233754] hover:border-orange-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-[#9FB0C6]">
+            <span className="text-xs font-semibold">Aktif Seri (Streak)</span>
+            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-orange-400">
+              <Flame className="w-4 h-4" />
+            </div>
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-2xl sm:text-3xl font-bold text-orange-400 font-mono">
+              {progress.streak}
+            </span>
+            <span className="text-xs text-[#9FB0C6]">Gün Kesintisiz</span>
+          </div>
+          <p className="text-[11px] text-[#9FB0C6] pt-1">
+            Her gün bir tamga veya ders tamamlayarak seriyi koru.
+          </p>
+        </div>
+
+        {/* Total XP Earned */}
+        <div className="bg-[#101B2C] border border-[#233754] hover:border-amber-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-[#9FB0C6]">
+            <span className="text-xs font-semibold">Kazanılan Tecrübe</span>
+            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-amber-400">
+              <Zap className="w-4 h-4" />
+            </div>
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-2xl sm:text-3xl font-bold text-amber-400 font-mono">
+              {progress.xp}
+            </span>
+            <span className="text-xs text-[#9FB0C6]">XP Toplam</span>
+          </div>
+          <p className="text-[11px] text-[#9FB0C6] pt-1">
+            Bu hafta kazanılan: <span className="text-amber-400 font-bold">+{totalWeeklyXp} XP</span>
+          </p>
+        </div>
+
+        {/* Completed Lessons */}
+        <div className="bg-[#101B2C] border border-[#233754] hover:border-emerald-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-[#9FB0C6]">
+            <span className="text-xs font-semibold">Bitirilen Dersler</span>
+            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-emerald-400">
+              <CheckCircle2 className="w-4 h-4" />
+            </div>
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-2xl sm:text-3xl font-bold text-emerald-400 font-mono">
+              {completedLessonsCount}
+            </span>
+            <span className="text-xs text-[#9FB0C6]">Ders Modülü</span>
+          </div>
+          <p className="text-[11px] text-[#9FB0C6] pt-1">
+            Orhun Yazıtları müfredatında kaydedilen ilerleme.
+          </p>
+        </div>
+      </div>
+
+      {/* Main Charts Row: Haftalık Öğrenme Aktivitesi & Streak Geçmişi */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        {/* Left 7 Columns: Haftalık Aktivite Grafiği (Recharts Bar & Area) */}
+        <div className="lg:col-span-7 bg-[#101B2C] border border-[#233754] rounded-2xl p-6 shadow-xl space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h2 className="text-base font-bold text-white font-serif flex items-center gap-2">
+                <TrendingUp className="w-4 h-4 text-[#2BC4C4]" />
+                Haftalık Öğrenme Aktivitesi
+              </h2>
+              <p className="text-xs text-[#9FB0C6] mt-0.5">
+                Son 7 gün içindeki tecrübe (XP) ve kelime kazanımlarınız
+              </p>
+            </div>
+
+            {/* Metric Mode Toggle */}
+            <div className="flex items-center bg-[#0B1320] p-1 rounded-xl border border-[#233754] text-xs self-start sm:self-auto">
+              <button
+                onClick={() => setMetricMode('xp')}
+                className={`px-3 py-1 rounded-lg font-semibold transition-all ${
+                  metricMode === 'xp'
+                    ? 'bg-[#2BC4C4] text-[#0B1320] shadow-sm'
+                    : 'text-[#9FB0C6] hover:text-white'
+                }`}
+              >
+                XP Dağılımı
+              </button>
+              <button
+                onClick={() => setMetricMode('kelime')}
+                className={`px-3 py-1 rounded-lg font-semibold transition-all ${
+                  metricMode === 'kelime'
+                    ? 'bg-[#2BC4C4] text-[#0B1320] shadow-sm'
+                    : 'text-[#9FB0C6] hover:text-white'
+                }`}
+              >
+                Kelimeler
+              </button>
+            </div>
+          </div>
+
+          {/* Recharts Container */}
+          <div className="h-[260px] w-full pt-2">
+            <ResponsiveContainer width="100%" height={250}>
+              {metricMode === 'xp' ? (
+                <AreaChart data={weeklyData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                  <defs>
+                    <linearGradient id="xpGradient" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#2BC4C4" stopOpacity={0.4} />
+                      <stop offset="95%" stopColor="#2BC4C4" stopOpacity={0.0} />
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#1D2D44" vertical={false} />
+                  <XAxis 
+                    dataKey="day" 
+                    stroke="#6C7F99" 
+                    tick={{ fill: '#9FB0C6', fontSize: 12 }} 
+                    axisLine={{ stroke: '#233754' }}
+                  />
+                  <YAxis 
+                    stroke="#6C7F99" 
+                    tick={{ fill: '#9FB0C6', fontSize: 12 }} 
+                    axisLine={{ stroke: '#233754' }}
+                  />
+                  <Tooltip 
+                    content={({ active, payload, label }) => {
+                      if (active && payload && payload.length) {
+                        const item = payload[0].payload;
+                        return (
+                          <div className="bg-[#0B1320] border border-[#2BC4C4] p-3 rounded-xl shadow-xl text-xs space-y-1">
+                            <span className="font-bold text-white block">{item.fullDate} ({label})</span>
+                            <span className="text-amber-400 font-semibold block">+{item.xp} XP Kazanıldı</span>
+                            <span className="text-[#2BC4C4] block">{item.kelime} Kelime Öğrenildi</span>
+                          </div>
+                        );
+                      }
+                      return null;
+                    }}
+                  />
+                  <Area 
+                    type="monotone" 
+                    dataKey="xp" 
+                    stroke="#2BC4C4" 
+                    strokeWidth={3} 
+                    fillOpacity={1} 
+                    fill="url(#xpGradient)" 
+                  />
+                </AreaChart>
+              ) : (
+                <BarChart data={weeklyData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#1D2D44" vertical={false} />
+                  <XAxis 
+                    dataKey="day" 
+                    stroke="#6C7F99" 
+                    tick={{ fill: '#9FB0C6', fontSize: 12 }} 
+                    axisLine={{ stroke: '#233754' }}
+                  />
+                  <YAxis 
+                    stroke="#6C7F99" 
+                    tick={{ fill: '#9FB0C6', fontSize: 12 }} 
+                    axisLine={{ stroke: '#233754' }}
+                    allowDecimals={false}
+                  />
+                  <Tooltip 
+                    content={({ active, payload, label }) => {
+                      if (active && payload && payload.length) {
+                        const item = payload[0].payload;
+                        return (
+                          <div className="bg-[#0B1320] border border-[#2BC4C4] p-3 rounded-xl shadow-xl text-xs space-y-1">
+                            <span className="font-bold text-white block">{item.fullDate} ({label})</span>
+                            <span className="text-[#2BC4C4] font-semibold block">{item.kelime} Kelime İncelendi</span>
+                            <span className="text-amber-400 block">+{item.xp} XP</span>
+                          </div>
+                        );
+                      }
+                      return null;
+                    }}
+                  />
+                  <Bar 
+                    dataKey="kelime" 
+                    fill="#2BC4C4" 
+                    radius={[6, 6, 0, 0]} 
+                  />
+                </BarChart>
+              )}
+            </ResponsiveContainer>
+          </div>
+
+          {/* Bottom Chart Footer Insights */}
+          <div className="flex items-center justify-between pt-4 border-t border-[#233754] text-xs">
+            <div className="flex items-center gap-2 text-[#9FB0C6]">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#2BC4C4]" />
+              <span>Bu Hafta Aktif Gün: <strong className="text-white">{activeDaysThisWeek} / 7 gün</strong></span>
+            </div>
+            <div className="text-right">
+              <span className="text-[#9FB0C6]">Haftalık Toplam: </span>
+              <strong className="text-amber-400 font-mono">+{totalWeeklyXp} XP</strong>
+            </div>
+          </div>
+        </div>
+
+        {/* Right 5 Columns: Streak (Ardışık Gün) Geçmişi & Takvimi */}
+        <div className="lg:col-span-5 bg-[#101B2C] border border-[#233754] rounded-2xl p-6 shadow-xl space-y-6 flex flex-col justify-between">
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-base font-bold text-white font-serif flex items-center gap-2">
+                  <Flame className="w-4 h-4 text-orange-400" />
+                  Streak (Ardışık Gün) Geçmişi
+                </h2>
+                <p className="text-xs text-[#9FB0C6] mt-0.5">
+                  Son 21 günlük devamlılık ve öğrenme ritminiz
+                </p>
+              </div>
+              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-400/10 border border-orange-400/30 text-orange-400 text-xs font-bold">
+                <Flame className="w-3.5 h-3.5 fill-current" />
+                <span>{progress.streak} Gün</span>
+              </div>
+            </div>
+
+            {/* Streak Calendar Grid (Past 21 Days) */}
+            <div className="bg-[#0B1320] border border-[#233754] p-4 rounded-xl">
+              <div className="flex items-center justify-between text-xs text-[#9FB0C6] mb-3 font-semibold">
+                <span className="flex items-center gap-1.5">
+                  <Calendar className="w-3.5 h-3.5 text-[#2BC4C4]" />
+                  Son 3 Hafta Ritim Tablosu
+                </span>
+                <span className="text-[11px]">Koyu: Tamamlandı</span>
+              </div>
+
+              {/* 7 Columns Grid */}
+              <div className="grid grid-cols-7 gap-2">
+                {calendarDays.map((item, idx) => (
+                  <div
+                    key={idx}
+                    title={`${item.dayNumber} ${item.monthName} - ${item.isActive ? 'Aktivite var' : 'Aktivite yok'}`}
+                    className={`aspect-square rounded-lg flex flex-col items-center justify-center text-[10px] font-mono border transition-all ${
+                      item.isToday
+                        ? 'border-[#2BC4C4] ring-2 ring-[#2BC4C4]/30'
+                        : 'border-transparent'
+                    } ${
+                      item.isActive
+                        ? 'bg-gradient-to-br from-orange-500 to-amber-500 text-slate-950 font-bold shadow-sm shadow-orange-500/20'
+                        : 'bg-[#152338] text-[#6C7F99]'
+                    }`}
+                  >
+                    <span>{item.dayNumber}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex items-center justify-between text-[11px] text-[#6C7F99] mt-3 pt-2 border-t border-[#233754]">
+                <span className="flex items-center gap-1">
+                  <span className="w-2.5 h-2.5 rounded bg-gradient-to-br from-orange-500 to-amber-500 inline-block" />
+                  Aktif Çalışma
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="w-2.5 h-2.5 rounded bg-[#152338] inline-block border border-[#233754]" />
+                  Pasif Gün
+                </span>
+              </div>
+            </div>
+
+            {/* Streak Motivation Message */}
+            <div className="p-3.5 rounded-xl bg-gradient-to-r from-[#152338] to-[#1a2c47] border border-[#233754] text-xs text-[#E6EDF5] space-y-1">
+              <span className="font-bold text-amber-300 flex items-center gap-1">
+                <Sparkles className="w-3.5 h-3.5" /> Bozkırın Kadim Kuralı: Süreklilik
+              </span>
+              <p className="text-[#9FB0C6] leading-relaxed text-[11px]">
+                Her gün 1 tamga okumak veya bir dize çözmek, Orhun yazıtlarının tamamını 30 günde sökmenizi sağlar.
+              </p>
+            </div>
+          </div>
+
+          {/* Fast Action to reinforce streak */}
+          <button
+            onClick={() => onNavigateToTab('sozluk')}
+            className="w-full py-2.5 px-4 rounded-xl bg-[#152338] hover:bg-[#1f3350] border border-[#233754] hover:border-[#2BC4C4] text-xs font-bold text-[#2BC4C4] hover:text-white transition-all flex items-center justify-center gap-2 shadow-sm"
+          >
+            <span>Sözlükte Yeni Kelime Keşfet</span>
+            <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+
+      {/* Badges and Milestones Section */}
+      <BadgesSection 
+        progress={progress}
+        onClaimBadge={onClaimBadge}
+      />
+
+      {/* Words Learned & Category Mastery Breakdown */}
+      <div className="bg-[#101B2C] border border-[#233754] rounded-2xl p-6 shadow-xl space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h2 className="text-base font-bold text-white font-serif flex items-center gap-2">
+              <BookOpen className="w-4 h-4 text-[#2BC4C4]" />
+              Kelime Haznesi & Sözlük Durumu
+            </h2>
+            <p className="text-xs text-[#9FB0C6] mt-0.5">
+              İncelediğiniz ve hafızanıza aldığınız Orhun Yazıtları kelimeleri
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-[#9FB0C6]">Toplam Hazne:</span>
+            <span className="text-xs font-bold text-amber-400 bg-amber-400/10 px-3 py-1 rounded-lg border border-amber-400/30">
+              {learnedWordsCount} / {totalDictionaryWords} Sözcük
+            </span>
+          </div>
+        </div>
+
+        {/* Recently Learned Words Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {SOZLUK.slice(0, 6).map((word) => {
+            const isLearned = Boolean(progress.learnedWords?.[word.id]);
+
+            return (
+              <div
+                key={word.id}
+                className={`p-3.5 rounded-xl border transition-all flex items-center justify-between gap-3 ${
+                  isLearned
+                    ? 'bg-[#152338] border-[#2BC4C4]/40 shadow-sm'
+                    : 'bg-[#101B2C] border-[#233754] opacity-70'
+                }`}
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-lg bg-[#0B1320] border border-[#233754] flex items-center justify-center text-xl text-[#2BC4C4] font-serif flex-shrink-0">
+                    {word.runic}
+                  </div>
+                  <div>
+                    <span className="text-sm font-bold text-white font-serif block">
+                      {word.transcription}
+                    </span>
+                    <span className="text-xs text-[#9FB0C6] line-clamp-1">
+                      {word.meaning}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex-shrink-0">
+                  {isLearned ? (
+                    <span className="text-[10px] font-bold text-[#37B36A] bg-[#37B36A]/15 px-2 py-0.5 rounded-md border border-[#37B36A]/30 flex items-center gap-1">
+                      <CheckCircle2 className="w-3 h-3" /> Hafızada
+                    </span>
+                  ) : (
+                    <button
+                      onClick={() => onNavigateToTab('sozluk')}
+                      className="text-[11px] text-[#6C7F99] hover:text-[#2BC4C4] flex items-center gap-0.5"
+                    >
+                      Öğren &rarr;
+                    </button>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Action to view all dictionary */}
+        <div className="pt-2 text-center">
+          <button
+            onClick={() => onNavigateToTab('sozluk')}
+            className="inline-flex items-center gap-2 text-xs text-[#2BC4C4] hover:text-white font-bold bg-[#152338] hover:bg-[#1f3350] border border-[#233754] hover:border-[#2BC4C4] px-5 py-2.5 rounded-xl transition-all shadow-md"
+          >
+            <span>Tüm Sözlüğü İncele ({totalDictionaryWords} Kelime)</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
