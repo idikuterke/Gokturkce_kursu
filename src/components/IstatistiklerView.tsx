@@ -62,34 +62,34 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 space-y-8">
       {/* Page Title & Profile Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-[#233754]">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-[#1E4D57]">
         <div>
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#2BC4C4] mb-1">
-            <Award className="w-4 h-4" />
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#2DD4BF] mb-1">
+            <Award className="w-4 h-4 text-[#F59E0B]" />
             <span>Kullanıcı Profili & Gelişim Paneli</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-white font-serif tracking-tight">
-            İstatistiklerim
+            Alp Karnesi & İstatistikler
           </h1>
-          <p className="text-sm text-[#9FB0C6] mt-1">
-            Göktürkçe öğrenme serüveniniz, günlük aktivite grafikleri ve kelime haznemiz.
+          <p className="text-sm text-[#94A3B8] mt-1">
+            Bozkır yolculuğundaki kadim rütbeleriniz, ardışık alev seriniz ve kazanılan tecrübeler.
           </p>
         </div>
 
         {/* User Rank & Summary Card */}
-        <div className="flex items-center gap-4 bg-[#101B2C] border border-[#233754] px-4 py-3 rounded-2xl shadow-lg">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2BC4C4] to-[#1E8A8A] flex items-center justify-center text-white font-serif text-2xl font-bold shadow-md shadow-[#2BC4C4]/20">
+        <div className="flex items-center gap-4 bg-[#0C242A] border border-[#1E4D57] px-4 py-3 rounded-2xl shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2DD4BF] to-[#0D9488] flex items-center justify-center text-[#042023] font-serif text-2xl font-bold shadow-md shadow-[#2DD4BF]/20">
             𐱅
           </div>
           <div>
             <div className="flex items-center gap-2">
               <span className="text-base font-bold text-white font-serif">{progress.rank} Alp</span>
-              <span className="text-[10px] font-sans font-semibold px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30">
-                Seviye
+              <span className="text-[10px] font-sans font-bold px-2 py-0.5 rounded-full bg-[#F59E0B]/15 text-[#F59E0B] border border-[#F59E0B]/30">
+                Mevcut Rütbe
               </span>
             </div>
-            <p className="text-xs text-[#9FB0C6] flex items-center gap-2 mt-0.5">
-              <span className="text-amber-400 font-bold flex items-center gap-0.5">
+            <p className="text-xs text-[#94A3B8] flex items-center gap-2 mt-0.5">
+              <span className="text-[#F59E0B] font-bold flex items-center gap-0.5">
                 <Zap className="w-3 h-3 fill-current" /> {progress.xp} XP
               </span>
               <span>•</span>
@@ -98,6 +98,62 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
               </span>
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* Görsel Bozkır Rütbe Basamakları (Steppe Rank Ladders) */}
+      <div className="bg-[#0C242A] border border-[#1E4D57] rounded-3xl p-6 shadow-xl space-y-4 text-left">
+        <div className="flex items-center justify-between border-b border-[#1A434C] pb-3">
+          <div className="flex items-center gap-2">
+            <Shield className="w-5 h-5 text-[#F59E0B]" />
+            <h3 className="text-base font-bold text-white font-serif">Bozkır Rütbe Basamakları</h3>
+          </div>
+          <span className="text-xs text-[#2DD4BF] font-mono">
+            {progress.xp} XP Toplam
+          </span>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-1">
+          {[
+            { title: 'Er', minXp: 0, rune: '𐰼', role: 'Acemi Alp', icon: '🛡️' },
+            { title: 'Çor', minXp: 50, rune: '𐰱', role: 'Bozkır Süvarisi', icon: '🐎' },
+            { title: 'Tarkan', minXp: 120, rune: '𐱃', role: 'Ordu Komutanı', icon: '⚔️' },
+            { title: 'Toygun', minXp: 200, rune: '𐱃𐰆', role: 'Kurultay Üyesi', icon: '🐺' },
+            { title: 'Bilge', minXp: 320, rune: '𐰋', role: 'Ulu Bilgin', icon: '📜' },
+            { title: 'Kağan', minXp: 500, rune: '𐰴', role: 'Ulu Hakan', icon: '👑' },
+          ].map((r) => {
+            const isAttained = progress.xp >= r.minXp;
+            const isCurrent = progress.rank === r.title;
+
+            return (
+              <div
+                key={r.title}
+                className={`relative p-3.5 rounded-2xl border text-center transition-all ${
+                  isCurrent
+                    ? 'bg-gradient-to-b from-[#163F49] to-[#0A2227] border-[#F59E0B] shadow-lg shadow-[#F59E0B]/20 scale-105 ring-1 ring-[#F59E0B]'
+                    : isAttained
+                    ? 'bg-[#0E2930] border-[#1C4B54] text-white opacity-95'
+                    : 'bg-[#08181C] border-[#143238] text-gray-500 opacity-60'
+                }`}
+              >
+                {isCurrent && (
+                  <span className="absolute -top-2 left-1/2 -translate-x-1/2 px-2 py-0.2 rounded-full text-[9px] font-black tracking-wider uppercase bg-[#F59E0B] text-[#381E02]">
+                    ŞU AN
+                  </span>
+                )}
+
+                <div className="text-xl mb-1">{r.icon}</div>
+                <div className="runic text-2xl font-bold my-0.5 text-[#2DD4BF]">
+                  {r.rune}
+                </div>
+                <h4 className="text-xs font-bold text-white font-serif">{r.title}</h4>
+                <p className="text-[10px] text-[#94A3B8]">{r.role}</p>
+                <span className="inline-block mt-1 text-[9px] font-mono px-1.5 py-0.5 rounded bg-[#07161A] text-[#F59E0B]">
+                  {r.minXp} XP
+                </span>
+              </div>
+            );
+          })}
         </div>
       </div>
 

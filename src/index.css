@@ -12,6 +12,26 @@
   font-display: swap;
 }
 
+:root {
+  --steppe-bg: #09171A;
+  --steppe-card: #0F252B;
+  --steppe-card-border: #1E3F47;
+  --steppe-teal: #14B8A6;
+  --steppe-gold: #F59E0B;
+  --steppe-bronze: #854D0E;
+}
+
+body {
+  background-color: #071518;
+  color: #E2E8F0;
+  background-image: 
+    radial-gradient(circle at 15% 20%, rgba(20, 184, 166, 0.07) 0%, transparent 40%),
+    radial-gradient(circle at 85% 80%, rgba(245, 158, 11, 0.05) 0%, transparent 35%),
+    linear-gradient(to bottom, #071518, #0B1E22);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
 .runic {
   font-family: 'Noto Sans Old Turkic', serif;
   direction: rtl;
@@ -28,20 +48,63 @@
   direction: rtl;
 }
 
+/* Duolingo-style 3D tactile buttons */
+.btn-3d-teal {
+  background-color: #0D9488;
+  color: #042023;
+  border-bottom: 4px solid #0F766E;
+  transition: all 0.1s ease;
+}
+.btn-3d-teal:hover {
+  background-color: #14B8A6;
+}
+.btn-3d-teal:active {
+  transform: translateY(2px);
+  border-bottom-width: 2px;
+}
+
+.btn-3d-gold {
+  background-color: #F59E0B;
+  color: #381E02;
+  border-bottom: 4px solid #B45309;
+  transition: all 0.1s ease;
+}
+.btn-3d-gold:hover {
+  background-color: #FBBF24;
+}
+.btn-3d-gold:active {
+  transform: translateY(2px);
+  border-bottom-width: 2px;
+}
+
+.btn-3d-bronze {
+  background-color: #173239;
+  color: #E6F3F5;
+  border-bottom: 4px solid #0D2024;
+  transition: all 0.1s ease;
+}
+.btn-3d-bronze:hover {
+  background-color: #1D3F47;
+}
+.btn-3d-bronze:active {
+  transform: translateY(2px);
+  border-bottom-width: 2px;
+}
+
 /* Custom scrollbars */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0B1320;
+  background: #071518;
 }
 ::-webkit-scrollbar-thumb {
-  background: #233754;
+  background: #1A3B43;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2BC4C4;
+  background: #2DD4BF;
 }
 
 @keyframes fadeInDown {
@@ -73,3 +136,17 @@
 .animate-popIn {
   animation: popIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+@keyframes gentlePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-gentle-pulse {
+  animation: gentlePulse 2.4s ease-in-out infinite;
+}
+

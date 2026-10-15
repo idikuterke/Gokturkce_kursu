@@ -2,19 +2,15 @@ import React, { useState, useEffect, useCallback } from 'react';
 import confetti from 'canvas-confetti';
 import { Navbar } from './components/Navbar';
 import { LearningPath } from './components/LearningPath';
-import { TamgalikView } from './components/TamgalikView';
-import { KitabelerReader } from './components/KitabelerReader';
-import { SozlukView } from './components/SozlukView';
-import { GokturkKeyboard } from './components/GokturkKeyboard';
-import { BelgelerView } from './components/BelgelerView';
-import { FlashcardsView } from './components/FlashcardsView';
+import { AlistirmaView } from './components/AlistirmaView';
+import { KesfetView } from './components/KesfetView';
 import { LessonModal } from './components/LessonModal';
 import { DailyQuestsModal } from './components/DailyQuestsModal';
 import { QuestToast } from './components/QuestToast';
 import { IstatistiklerView } from './components/IstatistiklerView';
 import { CelebrationBanner } from './components/CelebrationBanner';
 import { UNITS } from './data/curriculumData';
-import { Lesson, UserProgress, DailyQuest, QuestCategory } from './types';
+import { Lesson, UserProgress, DailyQuest, QuestCategory, TamgaItem } from './types';
 import { Badge } from './data/badgesData';
 import { playSuccessSound, playVictoryFanfare } from './utils/audio';
 import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQuests';
@@ -43,8 +39,10 @@ export const App: React.FC = () => {
     } catch {
       // ignore
     }
-    return 'istatistik';
+    return 'ogren';
   });
+
+  const [selectedDrawingTamga, setSelectedDrawingTamga] = useState<TamgaItem | undefined>(undefined);
 
   const handleTabChange = (tab: string) => {
     setCurrentTab(tab);
@@ -353,12 +351,39 @@ export const App: React.FC = () => {
     });
   };
 
+  // Handle chest rewards from the learning path
+  const handleEarnChestReward = (bonusXp: number, heartsToAdd: number) => {
+    recordActivity(bonusXp, 0, 0);
+    setProgress(prev => {
+      const newXp = prev.xp + bonusXp;
+      const newHearts = Math.min(prev.maxHearts, prev.hearts + heartsToAdd);
+      const newRank = calculateRank(newXp);
+      const isRankUp = newRank !== prev.rank;
+
+      if (isRankUp) {
+        setActiveCelebration({
+          type: 'rank',
+          title: `${newRank} Rütbesine Yükseldiniz!`,
+          subtitle: `Yıldız Sandığı açarak ${newXp} XP eşiğini aştınız ve yeni bir bozkır rütbesine eriştiniz!`,
+          runicSymbol: '𐰚'
+        });
+      }
+
+      return {
+        ...prev,
+        xp: newXp,
+        hearts: newHearts,
+        rank: newRank
+      };
+    });
+  };
+
   // Words learned count for Sozluk display
   const wordsQuest = progress.dailyQuests?.quests.find(q => q.category === 'words');
   const wordsLearnedCount = wordsQuest ? wordsQuest.current : 0;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0B1320] text-[#E6EDF5]">
+    <div className="min-h-screen flex flex-col bg-[#071518] text-[#E2E8F0] selection:bg-[#2DD4BF] selection:text-[#042023]">
       {/* Top Navbar */}
       <Navbar
         currentTab={currentTab}
@@ -375,45 +400,69 @@ export const App: React.FC = () => {
             units={UNITS}
             progress={progress}
             onStartLesson={(lesson) => setActiveLesson(lesson)}
-            onOpenTamgalik={() => handleTabChange('tamgalik')}
-            onOpenFlashcards={() => handleTabChange('kartlar')}
+            onOpenTamgalik={() => {
+              setSelectedDrawingTamga(undefined);
+              handleTabChange('alistirma');
+            }}
+            onOpenFlashcards={() => {
+              handleTabChange('alistirma');
+            }}
             onQuickPractice={handleQuickPractice}
             onClaimReward={handleClaimReward}
             onClaimSuperBonus={handleClaimSuperBonus}
             onNavigateToTab={(tab) => handleTabChange(tab)}
             onOpenQuestsModal={() => setIsQuestsModalOpen(true)}
+            onEarnChestReward={handleEarnChestReward}
+            onStartDrawingTamga={(tamga) => {
+              setSelectedDrawingTamga(tamga);
+              handleTabChange('alistirma');
+            }}
           />
         )}
 
-        {currentTab === 'kartlar' && (
-          <FlashcardsView
+        {(currentTab === 'alistirma' || currentTab === 'kartlar' || currentTab === 'tamgalik') && (
+          <AlistirmaView
+            progress={progress}
+            initialMode={currentTab === 'kartlar' ? 'kartlar' : currentTab === 'tamgalik' ? 'tamgalik' : 'cizim'}
+            selectedDrawingTamga={selectedDrawingTamga}
             onEarnXp={(xp) => {
               recordActivity(xp, 0, 0);
               setProgress(prev => {
                 const newXp = prev.xp + xp;
+                const newRank = calculateRank(newXp);
+                if (newRank !== prev.rank) {
+                  setActiveCelebration({
+                    type: 'rank',
+                    title: `${newRank} Rütbesine Yükseldiniz!`,
+                    subtitle: `Tebrikler! ${newXp} XP eşiğini aştınız ve Bozkırda kutlu bir makama eriştiniz.`,
+                    runicSymbol: '𐰚'
+                  });
+                }
                 return {
                   ...prev,
                   xp: newXp,
-                  rank: calculateRank(newXp)
+                  rank: newRank
                 };
               });
             }}
+            onRefillHeart={() => {
+              setProgress(prev => ({
+                ...prev,
+                hearts: Math.min(prev.maxHearts, prev.hearts + 1)
+              }));
+            }}
+            onListenPronunciation={() => handleUpdateQuest('listen', 1)}
             onCompleteSeries={() => handleUpdateQuest('tamga_series', 1)}
-            onListenPronunciation={() => handleUpdateQuest('listen', 1)}
           />
         )}
 
-        {currentTab === 'tamgalik' && (
-          <TamgalikView 
-            onOpenFlashcards={() => handleTabChange('kartlar')} 
-            onListenPronunciation={() => handleUpdateQuest('listen', 1)}
-          />
-        )}
-
-        {currentTab === 'kitabeler' && <KitabelerReader />}
-
-        {currentTab === 'sozluk' && (
-          <SozlukView 
+        {(currentTab === 'kesfet' || currentTab === 'kitabeler' || currentTab === 'sozluk' || currentTab === 'klavye' || currentTab === 'belgeler') && (
+          <KesfetView
+            initialSection={
+              currentTab === 'sozluk' ? 'sozluk' :
+              currentTab === 'klavye' ? 'klavye' :
+              currentTab === 'belgeler' ? 'belgeler' : 'kitabeler'
+            }
             onLearnWord={handleLearnWord}
             onListenPronunciation={() => handleUpdateQuest('listen', 1)}
             wordsLearnedCount={wordsLearnedCount}
@@ -428,9 +477,6 @@ export const App: React.FC = () => {
             onClaimBadge={handleClaimBadge}
           />
         )}
-
-        {currentTab === 'klavye' && <GokturkKeyboard />}
-        {currentTab === 'belgeler' && <BelgelerView />}
       </main>
 
       {/* Interactive Lesson Modal */}

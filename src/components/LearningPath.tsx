@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
-import { Check, Lock, Star, Play, Sparkles, Award, Shield, Flame, BookOpen, Compass, Layers, RefreshCw, BarChart2 } from 'lucide-react';
-import { Unit, Lesson, UserProgress } from '../types';
-import { MascotBoru } from './MascotBoru';
+import { 
+  Check, Lock, Star, Play, Sparkles, Award, Shield, Flame, 
+  BookOpen, Compass, Layers, RefreshCw, BarChart2, Heart, Gift, 
+  ChevronRight, Volume2, PenTool, CheckCircle2
+} from 'lucide-react';
+import { Unit, Lesson, UserProgress, TamgaItem } from '../types';
+import { MascotAlp } from './MascotAlp';
 import { TAMGALAR } from '../data/tamgalarData';
-import { playChiselSound } from '../utils/audio';
+import { playChiselSound, playSuccessSound, playVictoryFanfare } from '../utils/audio';
 import { DailyQuestsWidget } from './DailyQuestsWidget';
+import { GununTamgasiModal } from './GununTamgasiModal';
+import confetti from 'canvas-confetti';
 
 interface LearningPathProps {
   units: Unit[];
@@ -16,6 +22,9 @@ interface LearningPathProps {
   onClaimReward: (questId: string) => void;
   onClaimSuperBonus: () => void;
   onNavigateToTab: (tab: string) => void;
+  onOpenQuestsModal?: () => void;
+  onEarnChestReward?: (xp: number, hearts: number) => void;
+  onStartDrawingTamga?: (tamga: TamgaItem) => void;
 }
 
 export const LearningPath: React.FC<LearningPathProps> = ({
@@ -27,9 +36,21 @@ export const LearningPath: React.FC<LearningPathProps> = ({
   onQuickPractice,
   onClaimReward,
   onClaimSuperBonus,
-  onNavigateToTab
+  onNavigateToTab,
+  onOpenQuestsModal,
+  onEarnChestReward,
+  onStartDrawingTamga
 }) => {
   const [selectedLesson, setSelectedLesson] = useState<Lesson | null>(null);
+  const [isGununTamgasiOpen, setIsGununTamgasiOpen] = useState(false);
+  const [openedChests, setOpenedChests] = useState<Record<string, boolean>>(() => {
+    try {
+      const saved = localStorage.getItem('gokturkce_opened_chests');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
 
   // Pick today's tamga based on day of year
   const dayIndex = Math.floor(Date.now() / 86400000) % TAMGALAR.length;
@@ -37,16 +58,13 @@ export const LearningPath: React.FC<LearningPathProps> = ({
 
   // Helper to determine if a lesson is unlocked
   const isLessonUnlocked = (unit: Unit, lessonIndex: number): boolean => {
-    // First lesson in first unit is always unlocked
     if (unit.number === 1 && lessonIndex === 0) return true;
     
-    // Check if previous lesson in this unit is completed
     if (lessonIndex > 0) {
       const prevLesson = unit.lessons[lessonIndex - 1];
       return !!progress.completedLessons[prevLesson.id];
     }
     
-    // If it's the first lesson of a subsequent unit, check if the previous unit's exam was completed
     const prevUnit = units[unit.number - 2];
     if (prevUnit) {
       const lastLessonOfPrevUnit = prevUnit.lessons[prevUnit.lessons.length - 1];
@@ -56,366 +74,468 @@ export const LearningPath: React.FC<LearningPathProps> = ({
     return false;
   };
 
-  const ranks = [
-    { title: 'Er', minXp: 0, rune: '𐰼', desc: 'Acemi Alp' },
-    { title: 'Çor', minXp: 50, rune: '𐰱', desc: 'Bozkır Savaşçısı' },
-    { title: 'Tarkan', minXp: 120, rune: '𐱃', desc: 'Ordu Komutanı' },
-    { title: 'Toygun', minXp: 200, rune: '𐱃𐰆', desc: 'Kurultay Üyesi' },
-    { title: 'Bilge', minXp: 320, rune: '𐰋', desc: 'Ulu Bilgin' },
-    { title: 'Kağan', minXp: 500, rune: '𐰴', desc: 'Bütün Türklerin Hakanı' }
-  ];
+  // Open star chest handler
+  const handleOpenChest = (chestId: string) => {
+    if (openedChests[chestId]) return;
+
+    playVictoryFanfare();
+    confetti({
+      particleCount: 50,
+      spread: 60,
+      origin: { y: 0.7 },
+      colors: ['#F59E0B', '#2DD4BF', '#FBBF24']
+    });
+
+    const updated = { ...openedChests, [chestId]: true };
+    setOpenedChests(updated);
+    try {
+      localStorage.setItem('gokturkce_opened_chests', JSON.stringify(updated));
+    } catch {
+      // ignore
+    }
+
+    if (onEarnChestReward) {
+      onEarnChestReward(25, 1);
+    }
+  };
+
+  // Dynamic Winding Offsets for Duolingo Path (Zig-Zag / Steppe Trail)
+  const getWindingOffsetClass = (index: number): string => {
+    const cycle = index % 6;
+    switch (cycle) {
+      case 0: return 'translate-x-0';
+      case 1: return 'translate-x-8 sm:translate-x-14';
+      case 2: return 'translate-x-14 sm:translate-x-24';
+      case 3: return 'translate-x-8 sm:translate-x-14';
+      case 4: return 'translate-x-0';
+      case 5: return '-translate-x-8 sm:-translate-x-14';
+      default: return 'translate-x-0';
+    }
+  };
+
+  // Today's summary stats
+  const todayCompletedCount = Object.keys(progress.completedLessons || {}).length;
+  const todayXp = progress.xp;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
-      {/* Left 2 Columns: Main Duolingo Learning Tree */}
-      <div className="lg:col-span-2 space-y-12">
-        {/* Banner with mascot */}
-        <div className="relative overflow-hidden bg-gradient-to-r from-[#101B2C] via-[#152338] to-[#101B2C] border border-[#233754] rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
-          <div className="space-y-2 text-center sm:text-left z-10">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#2BC4C4]/10 text-[#2BC4C4] border border-[#2BC4C4]/30">
-              <Sparkles className="w-3.5 h-3.5" /> Kadim Yazı Macerası
-            </span>
-            <h2 className="text-2xl font-bold text-white font-serif">
+      {/* Left 2 Columns: Duolingo Vertical Learning Path */}
+      <div className="lg:col-span-2 space-y-10">
+        
+        {/* Banner with Bilge Bozkır Alpi Mascot */}
+        <div className="relative overflow-hidden bg-gradient-to-r from-[#0C242A] via-[#10343D] to-[#0C242A] border border-[#1E4D57] rounded-3xl p-6 sm:p-7 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl">
+          <div className="space-y-2.5 text-center sm:text-left z-10 max-w-md">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-[#F59E0B]/10 text-[#F59E0B] border border-[#F59E0B]/30">
+              <Sparkles className="w-3.5 h-3.5" /> Bozkırın Kadim Yolculuğu
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white font-serif tracking-tight">
               Taşlara Kazınan Tarih Seni Bekliyor
             </h2>
-            <p className="text-sm text-[#9FB0C6] max-w-md">
-              Her gün 5 dakika ayırarak Orhun bengü taşlarını doğrudan orijinal runik tamgalarıyla okumayı öğren.
+            <p className="text-xs sm:text-sm text-[#94A3B8] leading-relaxed">
+              Her gün birkaç dakika ayırarak Orhun bengü taşlarını orijinal runik tamgalarıyla okumayı öğren.
             </p>
+            <div className="pt-2 flex flex-wrap items-center justify-center sm:justify-start gap-2">
+              <button
+                onClick={() => onNavigateToTab('alistirma')}
+                className="btn-3d-teal px-4 py-2 text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer shadow-md"
+              >
+                <PenTool className="w-3.5 h-3.5" />
+                <span>Yazma Pratiği Yap</span>
+              </button>
+              <button
+                onClick={() => onNavigateToTab('kesfet')}
+                className="btn-3d-bronze px-4 py-2 text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer"
+              >
+                <BookOpen className="w-3.5 h-3.5 text-[#2DD4BF]" />
+                <span>Kitabeleri Oku</span>
+              </button>
+            </div>
           </div>
+
           <div className="z-10 flex-shrink-0">
-            <MascotBoru 
-              mood="happy" 
-              speech="Esen olsun alpım! Bugün hangi tamgayı öğreniyoruz?" 
-              size={110} 
+            <MascotAlp 
+              mood="proud" 
+              speech="Esen olsun alpım! Yolculukta her tamga yeni bir fetihtir." 
+              size={135} 
             />
           </div>
-          {/* Subtle background rune watermark */}
-          <div className="absolute right-0 top-0 bottom-0 pointer-events-none opacity-5 flex items-center justify-center select-none">
-            <span className="runic text-9xl font-bold text-white">𐱅𐰇𐰼𐰜</span>
+
+          {/* Subtle Runic Ambient Background */}
+          <div className="absolute right-2 top-0 bottom-0 pointer-events-none opacity-5 flex items-center justify-center select-none runic text-9xl text-white font-bold">
+            𐱅𐰇𐰼𐰜
           </div>
         </div>
 
-        {/* Quick Access to Istatistiklerim & Grafikler Banner */}
-        <div 
-          onClick={() => onNavigateToTab('istatistik')}
-          className="p-4 rounded-2xl bg-[#101B2C] border border-[#2BC4C4]/50 hover:border-[#2BC4C4] transition-all cursor-pointer flex items-center justify-between gap-4 shadow-lg hover:shadow-[#2BC4C4]/10 group"
-        >
-          <div className="flex items-center gap-3.5">
-            <div className="w-10 h-10 rounded-xl bg-[#2BC4C4]/15 border border-[#2BC4C4]/40 flex items-center justify-center text-[#2BC4C4] group-hover:scale-110 transition-transform">
-              <BarChart2 className="w-5 h-5" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-sm font-bold text-white font-serif group-hover:text-[#2BC4C4] transition-colors">
-                  İstatistiklerim & Gelişim Grafikleri
-                </span>
-                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#2BC4C4] text-[#0B1320]">
-                  YENİ SAYFA
-                </span>
-              </div>
-              <p className="text-xs text-[#9FB0C6] mt-0.5">
-                Kelime haznesi, 21 günlük seri (streak) takvimi ve haftalık XP aktivite grafiklerini incele &rarr;
-              </p>
-            </div>
-          </div>
-          <button className="px-3.5 py-1.5 rounded-xl bg-[#152338] group-hover:bg-[#2BC4C4] text-[#2BC4C4] group-hover:text-[#0B1320] font-bold text-xs border border-[#233754] group-hover:border-[#2BC4C4] transition-all flex items-center gap-1.5 flex-shrink-0">
-            <span>Aç</span>
-            <span>&rarr;</span>
-          </button>
-        </div>
-
-        {/* Units and Nodes Path */}
+        {/* Units & Duolingo Winding Nodes */}
         {units.map((unit) => {
-          const completedCount = unit.lessons.filter(l => progress.completedLessons[l.id]).length;
-          const totalCount = unit.lessons.length;
-          const percent = Math.round((completedCount / totalCount) * 100);
+          const unitLessons = unit.lessons;
+          const completedInUnit = unitLessons.filter(l => progress.completedLessons[l.id]).length;
+          const unitProgressPercent = Math.round((completedInUnit / unitLessons.length) * 100);
 
           return (
             <div key={unit.id} className="space-y-6">
               {/* Unit Header Card */}
-              <div className={`p-5 rounded-2xl bg-gradient-to-r ${unit.accentColor} text-white shadow-lg relative overflow-hidden`}>
-                <div className="flex items-center justify-between gap-4">
-                  <div>
-                    <span className="text-xs font-bold uppercase tracking-widest text-white/80">
-                      {unit.number}. AŞAMA
+              <div className="bg-[#0C2228] border border-[#1A424B] rounded-2xl p-5 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="text-center sm:text-left space-y-1">
+                  <div className="flex items-center justify-center sm:justify-start gap-2">
+                    <span className="text-xs font-bold text-[#F59E0B] tracking-wider uppercase font-mono">
+                      {unit.number}. Aşama
                     </span>
-                    <h3 className="text-xl font-bold font-serif">{unit.title}</h3>
-                    <p className="text-xs text-white/90 font-medium mt-0.5">{unit.subtitle}</p>
+                    <span className="text-xs text-[#2DD4BF]">· {unit.subtitle}</span>
                   </div>
-                  <div className="text-right flex-shrink-0">
-                    <span className="text-xs font-bold bg-black/20 px-2.5 py-1 rounded-full backdrop-blur-sm">
-                      {completedCount} / {totalCount} Tamamlandı
-                    </span>
-                    <div className="w-24 h-2 bg-black/20 rounded-full mt-2 overflow-hidden">
-                      <div 
-                        className="h-full bg-white rounded-full transition-all duration-500"
-                        style={{ width: `${percent}%` }}
+                  <h3 className="text-lg sm:text-xl font-bold text-white font-serif">{unit.title}</h3>
+                  <p className="text-xs text-[#94A3B8]">{unit.description}</p>
+                </div>
+
+                {/* Circular Duolingo Progress Indicator */}
+                <div className="flex items-center gap-3 flex-shrink-0">
+                  <div className="relative w-12 h-12 flex items-center justify-center">
+                    <svg className="w-full h-full -rotate-90" viewBox="0 0 36 36">
+                      <path
+                        className="text-[#15343D]"
+                        strokeWidth="3.5"
+                        stroke="currentColor"
+                        fill="none"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
                       />
-                    </div>
+                      <path
+                        className="text-[#2DD4BF] transition-all duration-700 ease-out"
+                        strokeDasharray={`${unitProgressPercent}, 100`}
+                        strokeWidth="3.5"
+                        strokeLinecap="round"
+                        stroke="currentColor"
+                        fill="none"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                      />
+                    </svg>
+                    <span className="absolute text-[11px] font-bold text-white font-mono">
+                      %{unitProgressPercent}
+                    </span>
+                  </div>
+                  <div className="text-left text-xs">
+                    <p className="font-bold text-white">{completedInUnit} / {unitLessons.length}</p>
+                    <p className="text-[10px] text-[#64748B]">Ders Bitti</p>
                   </div>
                 </div>
               </div>
 
-              {/* Stepping Stones Path */}
-              <div className="flex flex-col items-center py-4 space-y-6 relative">
-                {unit.lessons.map((lesson, idx) => {
-                  const unlocked = isLessonUnlocked(unit, idx);
-                  const completed = !!progress.completedLessons[lesson.id];
-                  
-                  // Gentle S-curve sine horizontal shift
-                  const offsetX = Math.sin((unit.number * 3 + idx) * 0.9) * 55;
+              {/* Dikey Kıvrımlı Yol Haritası (Duolingo Path) */}
+              <div className="relative py-6 flex flex-col items-center gap-6">
+                {/* Connecting Steppe Trail Line */}
+                <div className="absolute top-4 bottom-8 w-2 bg-gradient-to-b from-[#1C4852] via-[#205763] to-[#1C4852] rounded-full pointer-events-none opacity-60" />
+
+                {unitLessons.map((lesson, idx) => {
+                  const isCompleted = !!progress.completedLessons[lesson.id];
+                  const isUnlocked = isLessonUnlocked(unit, idx);
+                  const isCurrentActive = isUnlocked && !isCompleted;
+                  const offsetClass = getWindingOffsetClass(idx);
+                  const isExam = lesson.type === 'exam';
+
+                  // Show star chest after every 3 lessons
+                  const showChestBefore = idx > 0 && idx % 3 === 0;
+                  const chestId = `chest_${unit.id}_${idx}`;
+                  const isChestOpened = !!openedChests[chestId];
 
                   return (
-                    <div
-                      key={lesson.id}
-                      style={{ transform: `translateX(${offsetX}px)` }}
-                      className="relative transition-all duration-300 flex flex-col items-center"
-                    >
-                      {/* Node Button */}
-                      <button
-                        onClick={() => {
-                          playChiselSound();
-                          if (unlocked) {
-                            setSelectedLesson(lesson);
-                          }
-                        }}
-                        disabled={!unlocked}
-                        className={`group relative w-18 h-18 rounded-3xl flex items-center justify-center transition-all duration-200 ${
-                          completed
-                            ? 'bg-[#37B36A] hover:bg-[#2e9c5b] text-white shadow-[0_6px_0_#1e6b3e] active:translate-y-1 active:shadow-[0_2px_0_#1e6b3e]'
-                            : unlocked
-                            ? 'bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] shadow-[0_6px_0_#177575] active:translate-y-1 active:shadow-[0_2px_0_#177575] animate-pulse ring-4 ring-[#2BC4C4]/30'
-                            : 'bg-[#152338] text-[#6C7F99] border-2 border-[#233754] shadow-[0_4px_0_#0e1826] cursor-not-allowed opacity-75'
-                        }`}
-                      >
-                        {/* Center Icon */}
-                        {completed ? (
-                          <Check className="w-8 h-8 stroke-[3]" />
-                        ) : !unlocked ? (
-                          <Lock className="w-6 h-6 text-[#6C7F99]" />
-                        ) : lesson.type === 'exam' ? (
-                          <Award className="w-8 h-8" />
-                        ) : (
-                          <Star className="w-7 h-7 fill-current" />
-                        )}
-
-                        {/* Top-Right Mini XP Badge */}
-                        {unlocked && !completed && (
-                          <span className="absolute -top-2 -right-2 bg-amber-400 text-slate-900 font-bold text-[10px] px-1.5 py-0.5 rounded-full shadow">
-                            +{lesson.xp}
-                          </span>
-                        )}
-                      </button>
-
-                      {/* Lesson Title Label under node */}
-                      <div className="mt-2 text-center max-w-[140px]">
-                        <span className={`text-xs font-semibold leading-tight line-clamp-1 ${unlocked ? 'text-white' : 'text-[#6C7F99]'}`}>
-                          {lesson.title}
-                        </span>
-                      </div>
-
-                      {/* Interactive Lesson Card Dialog on click */}
-                      {selectedLesson?.id === lesson.id && (
-                        <div className="absolute top-22 z-30 w-72 bg-[#152338] border-2 border-[#2BC4C4] rounded-2xl p-4 shadow-2xl animate-in fade-in zoom-in duration-150">
-                          <div className="flex items-start justify-between gap-2 mb-2">
-                            <div>
-                              <span className="text-[10px] font-bold uppercase tracking-wider text-[#2BC4C4]">
-                                {lesson.type === 'exam' ? 'Aşama Sınavı' : 'Ders'}
-                              </span>
-                              <h4 className="text-base font-bold text-white font-serif">{lesson.title}</h4>
-                            </div>
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setSelectedLesson(null);
-                              }}
-                              className="text-[#9FB0C6] hover:text-white p-1"
-                            >
-                              ✕
-                            </button>
-                          </div>
-                          <p className="text-xs text-[#9FB0C6] mb-4">{lesson.subtitle}</p>
-
-                          <div className="flex items-center justify-between text-xs text-amber-400 font-semibold mb-4 bg-[#101B2C] p-2 rounded-lg border border-[#233754]">
-                            <span>Ödül: +{lesson.xp} Tamga XP</span>
-                            <span>{lesson.exercises.length} Alıştırma</span>
-                          </div>
-
+                    <React.Fragment key={lesson.id}>
+                      {/* Interactive Star Chest Node */}
+                      {showChestBefore && (
+                        <div className={`relative z-10 transition-transform ${offsetClass} my-1`}>
                           <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setSelectedLesson(null);
-                              onStartLesson(lesson);
-                            }}
-                            className="w-full py-2.5 rounded-xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-[#2BC4C4]/20 active:scale-95 transition-transform"
+                            onClick={() => handleOpenChest(chestId)}
+                            title={isChestOpened ? 'Açıldı' : 'Yıldız Sandığını Aç (+25 XP & 1 Can)'}
+                            className={`p-3.5 rounded-2xl flex items-center gap-2 transition-all cursor-pointer ${
+                              isChestOpened
+                                ? 'bg-[#102B33] border border-[#19404B] text-gray-500 opacity-60'
+                                : 'btn-3d-gold animate-bounce shadow-lg shadow-[#F59E0B]/25'
+                            }`}
                           >
-                            <Play className="w-4 h-4 fill-current" />
-                            <span>{completed ? 'Tekrar Et' : 'Ders Başlat'}</span>
+                            <Gift className={`w-5 h-5 ${isChestOpened ? 'text-gray-400' : 'text-[#381E02] animate-spin'}`} />
+                            <span className="text-xs font-bold whitespace-nowrap">
+                              {isChestOpened ? 'Sandık Alındı' : 'Yıldız Sandığı!'}
+                            </span>
                           </button>
                         </div>
                       )}
-                    </div>
+
+                      {/* Main Lesson Node */}
+                      <div className={`relative z-10 transition-transform ${offsetClass} flex flex-col items-center`}>
+                        {/* Active Lesson Floating Banner / Flag */}
+                        {isCurrentActive && (
+                          <div className="mb-2 animate-bounce">
+                            <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-[#F59E0B] text-[#381E02] shadow-md border border-[#FDE68A] flex items-center gap-1">
+                              <Sparkles className="w-3 h-3 text-[#381E02]" /> BAŞLA
+                            </span>
+                          </div>
+                        )}
+
+                        {/* Duolingo Circular 3D Node Button */}
+                        <button
+                          onClick={() => {
+                            if (isUnlocked) {
+                              playChiselSound();
+                              setSelectedLesson(lesson);
+                            }
+                          }}
+                          disabled={!isUnlocked}
+                          className={`relative w-18 h-18 sm:w-20 sm:h-20 rounded-full flex flex-col items-center justify-center transition-all cursor-pointer ${
+                            isCompleted
+                              ? 'bg-[#0D9488] border-b-4 border-[#0F766E] shadow-lg shadow-[#0D9488]/30 hover:scale-105 active:translate-y-1 text-white'
+                              : isCurrentActive
+                              ? 'bg-[#F59E0B] border-b-4 border-[#B45309] shadow-xl shadow-[#F59E0B]/35 hover:scale-105 active:translate-y-1 animate-gentle-pulse text-[#381E02]'
+                              : 'bg-[#152E36] border-b-4 border-[#0A1A1F] text-[#4B636C] cursor-not-allowed opacity-80'
+                          }`}
+                        >
+                          {/* Inner Icon or Rune */}
+                          {isCompleted ? (
+                            <Check className="w-8 h-8 stroke-[3]" />
+                          ) : isCurrentActive ? (
+                            <Play className="w-8 h-8 fill-current ml-0.5" />
+                          ) : isExam ? (
+                            <Shield className="w-7 h-7" />
+                          ) : (
+                            <Lock className="w-6 h-6" />
+                          )}
+
+                          {/* Mini Star / Crown on top */}
+                          {isCompleted && (
+                            <div className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-[#F59E0B] border-2 border-[#0C242A] flex items-center justify-center text-[#381E02] shadow-sm">
+                              <Star className="w-3.5 h-3.5 fill-current" />
+                            </div>
+                          )}
+                        </button>
+
+                        {/* Lesson Title Label Below Node */}
+                        <div className="mt-2 text-center max-w-[140px]">
+                          <p className={`text-xs font-bold leading-tight truncate ${
+                            isCurrentActive ? 'text-[#F59E0B]' : isCompleted ? 'text-white' : 'text-[#64748B]'
+                          }`}>
+                            {lesson.title}
+                          </p>
+                          <span className="text-[10px] text-[#2DD4BF] font-mono">
+                            +{lesson.xp} XP
+                          </span>
+                        </div>
+                      </div>
+                    </React.Fragment>
                   );
                 })}
+
+                {/* Bölüm Sonu Toyu / Kurultay Final Sınavı Kapısı */}
+                <div className="relative z-10 mt-4 text-center">
+                  <div className="p-4 rounded-3xl bg-gradient-to-b from-[#13353E] to-[#0A1E24] border-2 border-[#F59E0B]/50 shadow-xl max-w-sm flex flex-col items-center gap-3">
+                    <div className="w-14 h-14 rounded-2xl bg-[#F59E0B]/10 border border-[#F59E0B]/40 flex items-center justify-center text-[#F59E0B]">
+                      <Shield className="w-8 h-8" />
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-white font-serif">{unit.number}. Aşama Bozkır Toyu</h4>
+                      <p className="text-[11px] text-[#94A3B8]">
+                        Bu aşamadaki tüm tamgaları tamamlayıp büyük kitabe sınavına katıl!
+                      </p>
+                    </div>
+                    <button
+                      onClick={() => {
+                        const lastLesson = unit.lessons[unit.lessons.length - 1];
+                        if (isLessonUnlocked(unit, unit.lessons.length - 1)) {
+                          onStartLesson(lastLesson);
+                        }
+                      }}
+                      disabled={!isLessonUnlocked(unit, unit.lessons.length - 1)}
+                      className={`w-full py-2.5 px-4 rounded-xl text-xs font-bold cursor-pointer transition-all ${
+                        isLessonUnlocked(unit, unit.lessons.length - 1)
+                          ? 'btn-3d-gold shadow-lg shadow-[#F59E0B]/25'
+                          : 'bg-[#152D34] text-gray-500 cursor-not-allowed opacity-60'
+                      }`}
+                    >
+                      Toya Başla
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           );
         })}
+
+        {/* "Bugün Ne Öğrendin?" Özet Kartı */}
+        <div className="bg-[#0C242A] border border-[#1A4752] rounded-3xl p-6 sm:p-7 shadow-xl text-left space-y-4">
+          <div className="flex items-center justify-between border-b border-[#183F49] pb-3">
+            <div className="flex items-center gap-2">
+              <span className="p-2 rounded-xl bg-[#2DD4BF]/10 text-[#2DD4BF] border border-[#2DD4BF]/20">
+                <CheckCircle2 className="w-4 h-4" />
+              </span>
+              <div>
+                <h4 className="text-sm font-bold text-white font-serif">Bugün Ne Öğrendin?</h4>
+                <p className="text-[11px] text-[#94A3B8]">Günlük Bozkır İlerleme Özeti</p>
+              </div>
+            </div>
+            <span className="text-xs font-bold text-[#F59E0B] font-mono">
+              🔥 {progress.streak} Günlük Seri
+            </span>
+          </div>
+
+          <div className="grid grid-cols-3 gap-3">
+            <div className="p-3 rounded-2xl bg-[#08191E] border border-[#163840] text-center">
+              <span className="text-[10px] text-[#64748B] uppercase font-bold block">Tamamlanan</span>
+              <span className="text-lg font-bold text-white font-mono">{todayCompletedCount} Ders</span>
+            </div>
+            <div className="p-3 rounded-2xl bg-[#08191E] border border-[#163840] text-center">
+              <span className="text-[10px] text-[#64748B] uppercase font-bold block">Toplam XP</span>
+              <span className="text-lg font-bold text-[#F59E0B] font-mono">{todayXp} XP</span>
+            </div>
+            <div className="p-3 rounded-2xl bg-[#08191E] border border-[#163840] text-center">
+              <span className="text-[10px] text-[#64748B] uppercase font-bold block">Mevcut Rütbe</span>
+              <span className="text-lg font-bold text-[#2DD4BF] font-serif">{progress.rank}</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* Right 1 Column: Gamification Widgets & Quick Practice */}
+      {/* Right Column: Kompakt Günün Tamgası, Hızlı Can & Görevler */}
       <div className="space-y-6">
-        {/* Günlük Görevler / Buyruklar Widget */}
-        {progress.dailyQuests && (
-          <DailyQuestsWidget
-            dailyQuests={progress.dailyQuests}
-            onClaimReward={onClaimReward}
-            onClaimSuperBonus={onClaimSuperBonus}
-            onNavigateToTab={onNavigateToTab}
-            onStartRandomLesson={() => {
-              const firstLesson = units[0]?.lessons[0];
-              if (firstLesson) onStartLesson(firstLesson);
-            }}
-          />
-        )}
+        
+        {/* İnteraktif Günün Tamgası Kartı (Tıklanınca Detay Modal Açar) */}
+        <div 
+          onClick={() => setIsGununTamgasiOpen(true)}
+          className="group relative overflow-hidden bg-gradient-to-br from-[#0C242A] to-[#08191D] border border-[#1E4852] hover:border-[#F59E0B] rounded-3xl p-5 shadow-xl transition-all cursor-pointer"
+        >
+          <div className="flex items-center justify-between mb-3">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-[#F59E0B]/10 text-[#F59E0B] border border-[#F59E0B]/30">
+              <Sparkles className="w-3 h-3" /> Günün Tamgası
+            </span>
+            <span className="text-[11px] text-[#2DD4BF] group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5 font-bold">
+              Hikayeyi Aç <ChevronRight className="w-3.5 h-3.5" />
+            </span>
+          </div>
 
-        {/* Günün Tamgası Card */}
-        <div className="bg-[#101B2C] border border-[#233754] rounded-2xl p-5 shadow-lg space-y-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#2BC4C4]">
-              <Sparkles className="w-4 h-4" /> Günün Tamgası
+          <div className="flex items-center gap-4 bg-[#07161A] p-4 rounded-2xl border border-[#163B43]">
+            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#163842] to-[#0B1E22] border border-[#F59E0B] flex items-center justify-center flex-shrink-0 shadow-md">
+              <span className="runic text-3xl text-[#2DD4BF] group-hover:scale-110 transition-transform">
+                {todaysTamga.rune}
+              </span>
             </div>
-            <button 
-              onClick={onOpenTamgalik}
-              className="text-xs text-[#9FB0C6] hover:text-[#2BC4C4] transition-colors underline"
+
+            <div className="space-y-1 text-left">
+              <h4 className="text-base font-bold text-white font-serif">{todaysTamga.name}</h4>
+              <p className="text-xs text-[#94A3B8]">
+                Ses: <span className="text-[#2DD4BF] font-bold">/{todaysTamga.sound}/</span> · {todaysTamga.type || 'Nötr'}
+              </p>
+              <p className="text-[11px] text-[#F59E0B] italic truncate max-w-[180px]">
+                "{todaysTamga.mnemonicHint}"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Kompakt Hızlı Can & Talimhane Kartı */}
+        <div className="bg-[#0C2228] border border-[#1B424B] rounded-3xl p-5 shadow-xl space-y-3 text-left">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Heart className="w-4 h-4 text-rose-500 fill-rose-500" />
+              <span className="text-xs font-bold text-white">Bozkır Can Gücü</span>
+            </div>
+            <span className="text-xs font-mono font-bold text-[#F59E0B]">
+              {progress.hearts} / {progress.maxHearts} Can
+            </span>
+          </div>
+
+          {/* Heart meter */}
+          <div className="flex items-center gap-1.5 py-1">
+            {Array.from({ length: progress.maxHearts }).map((_, i) => (
+              <div
+                key={i}
+                className={`h-2 flex-1 rounded-full transition-all ${
+                  i < progress.hearts ? 'bg-rose-500 shadow-sm shadow-rose-500/50' : 'bg-[#15313A]'
+                }`}
+              />
+            ))}
+          </div>
+
+          <div className="flex items-center gap-2 pt-1">
+            <button
+              onClick={onQuickPractice}
+              className="flex-1 py-2 px-3 rounded-xl btn-3d-teal text-xs font-bold flex items-center justify-center gap-1.5 cursor-pointer"
             >
-              Tamgalık &rarr;
+              <RefreshCw className="w-3.5 h-3.5" />
+              <span>Hızlı Can Tazele</span>
+            </button>
+            <button
+              onClick={() => onNavigateToTab('alistirma')}
+              className="py-2 px-3 rounded-xl btn-3d-bronze text-xs font-bold flex items-center justify-center cursor-pointer"
+              title="Yazma Talimhanesi"
+            >
+              <PenTool className="w-3.5 h-3.5 text-[#2DD4BF]" />
             </button>
           </div>
-
-          <div className="flex items-center gap-4 bg-[#152338] border border-[#233754] p-4 rounded-xl">
-            <div className="w-16 h-16 rounded-xl bg-[#0B1320] border border-[#2BC4C4]/40 flex items-center justify-center text-[#2BC4C4] shadow-inner flex-shrink-0">
-              <span className="runic text-4xl leading-none">{todaysTamga.rune}</span>
-            </div>
-            <div className="min-w-0">
-              <h4 className="text-base font-bold text-white font-serif">{todaysTamga.name}</h4>
-              <p className="text-xs text-[#2BC4C4] font-semibold">{todaysTamga.sound}</p>
-              <p className="text-xs text-[#9FB0C6] mt-0.5 truncate">{todaysTamga.exampleWord} — {todaysTamga.exampleMeaning}</p>
-            </div>
-          </div>
-
-          <p className="text-xs text-[#9FB0C6] italic bg-[#0B1320]/60 p-2.5 rounded-lg border border-[#233754]">
-            💡 {todaysTamga.mnemonicHint}
-          </p>
         </div>
 
-        {/* Kartlarla Çalış (Flashcards) Quick Widget */}
-        <div className="bg-[#101B2C] border-2 border-[#2BC4C4]/50 rounded-2xl p-5 shadow-lg space-y-3 relative overflow-hidden">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#2BC4C4] flex items-center gap-1.5">
-              <Layers className="w-4 h-4" /> Kartlarla Çalış
-            </span>
-            <span className="text-[10px] bg-[#2BC4C4]/15 text-[#2BC4C4] font-bold px-2 py-0.5 rounded-full">
-              Hızlı Ezber
-            </span>
-          </div>
-          <p className="text-xs text-[#9FB0C6]">
-            Ön yüzde runik tamga, arka yüzde okunuşu. Tamgaları 3D çevrilebilir kartlarla hafızana kazı!
-          </p>
-          <button
-            onClick={onOpenFlashcards}
-            className="w-full py-2.5 rounded-xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-xs flex items-center justify-center gap-2 shadow-md shadow-[#2BC4C4]/20 active:scale-95 transition-transform"
-          >
-            <Layers className="w-4 h-4" />
-            <span>Kart Modunu Başlat</span>
-          </button>
-        </div>
-
-        {/* Hızlı Antrenman & Can Tazele */}
-        <div className="bg-gradient-to-br from-[#101B2C] to-[#152338] border border-[#233754] rounded-2xl p-5 shadow-lg space-y-3">
-          <div className="flex items-center justify-between">
-            <h4 className="text-sm font-bold text-white flex items-center gap-2 font-serif">
-              <RefreshCw className="w-4 h-4 text-rose-400" /> Hızlı Can Tazeleme
-            </h4>
-            <span className="text-xs font-semibold text-rose-400">❤️ {progress.hearts}/{progress.maxHearts}</span>
-          </div>
-          <p className="text-xs text-[#9FB0C6]">
-            Canın azaldıysa veya öğrendiklerini pekiştirmek istersen hızlı bir tamga antrenmanı yap ve canını tazele!
-          </p>
-          <button
-            onClick={onQuickPractice}
-            className="w-full py-2.5 rounded-xl bg-rose-500 hover:bg-rose-600 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-md shadow-rose-500/20 active:scale-95 transition-transform"
-          >
-            <RefreshCw className="w-4 h-4" />
-            <span>Alıştırma Yap (+1 Can / +10 XP)</span>
-          </button>
-        </div>
-
-        {/* Kağanlık Rütbeleri (Rank Ladder) */}
-        <div className="bg-[#101B2C] border border-[#233754] rounded-2xl p-5 shadow-lg space-y-4">
-          <h4 className="text-sm font-bold text-white flex items-center gap-2 font-serif">
-            <Shield className="w-4 h-4 text-[#C9A24A]" /> Bozkır Rütbe Basamakları
-          </h4>
-          <div className="space-y-2.5">
-            {ranks.map((r) => {
-              const isCurrent = progress.rank === r.title;
-              const isPassed = progress.xp >= r.minXp;
-              return (
-                <div
-                  key={r.title}
-                  className={`flex items-center justify-between p-2.5 rounded-xl border transition-all ${
-                    isCurrent
-                      ? 'bg-[#C9A24A]/15 border-[#C9A24A] text-white shadow-md'
-                      : isPassed
-                      ? 'bg-[#152338] border-[#233754] text-[#E6EDF5] opacity-80'
-                      : 'bg-[#0B1320] border-[#1b2b42] text-[#6C7F99] opacity-50'
-                  }`}
-                >
-                  <div className="flex items-center gap-3">
-                    <span className="w-7 h-7 rounded-lg bg-[#0B1320] flex items-center justify-center runic text-base font-bold text-[#C9A24A] border border-[#233754]">
-                      {r.rune}
-                    </span>
-                    <div>
-                      <span className="text-xs font-bold block">{r.title}</span>
-                      <span className="text-[10px] text-[#9FB0C6]">{r.desc}</span>
-                    </div>
-                  </div>
-                  <div className="text-right">
-                    <span className="text-xs font-semibold text-[#2BC4C4]">{r.minXp} XP</span>
-                    {isCurrent && (
-                      <span className="block text-[9px] font-bold text-amber-400 uppercase tracking-wider">
-                        Mevcut
-                      </span>
-                    )}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* İstatistiklerim & Profil Özeti Widget */}
-        <div className="bg-gradient-to-br from-[#101B2C] via-[#152338] to-[#101B2C] border border-[#233754] hover:border-[#2BC4C4]/50 rounded-2xl p-5 shadow-lg space-y-3 transition-all">
-          <div className="flex items-center justify-between">
-            <h4 className="text-sm font-bold text-white flex items-center gap-2 font-serif">
-              <BarChart2 className="w-4 h-4 text-[#2BC4C4]" /> İstatistiklerim & Gelişim
-            </h4>
-            <span className="text-xs font-bold text-orange-400 flex items-center gap-1">
-              <Flame className="w-3.5 h-3.5 fill-current" /> {progress.streak} Gün
-            </span>
-          </div>
-          <p className="text-xs text-[#9FB0C6]">
-            Kelime hazneni, haftalık tecrübe grafiğini ve ardışık gün geçmişini incele.
-          </p>
-          <button
-            onClick={() => onNavigateToTab('istatistik')}
-            className="w-full py-2.5 rounded-xl bg-[#152338] hover:bg-[#1f3350] border border-[#233754] hover:border-[#2BC4C4] text-[#2BC4C4] hover:text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm active:scale-95 transition-all cursor-pointer"
-          >
-            <BarChart2 className="w-4 h-4" />
-            <span>Detaylı İstatistikleri Gör</span>
-          </button>
-        </div>
+        {/* Günlük Görevler Widget */}
+        <DailyQuestsWidget
+          progress={progress}
+          onClaimReward={onClaimReward}
+          onClaimSuperBonus={onClaimSuperBonus}
+          onOpenModal={onOpenQuestsModal}
+        />
       </div>
+
+      {/* Lesson Selection Modal */}
+      {selectedLesson && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeInDown">
+          <div className="relative w-full max-w-md bg-[#0C242A] border border-[#20535E] rounded-3xl p-6 sm:p-7 shadow-2xl text-left space-y-4">
+            <div className="flex items-center justify-between border-b border-[#183E47] pb-3">
+              <span className="text-xs font-bold text-[#F59E0B] tracking-wider uppercase font-mono">
+                Ders Hazırlığı
+              </span>
+              <span className="text-xs text-[#2DD4BF] font-mono">+{selectedLesson.xp} XP</span>
+            </div>
+
+            <div className="space-y-1">
+              <h3 className="text-xl font-bold text-white font-serif">{selectedLesson.title}</h3>
+              <p className="text-xs text-[#94A3B8]">{selectedLesson.subtitle}</p>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-[#07171B] border border-[#163840] flex items-center justify-between text-xs text-[#CBD5E1]">
+              <span>Toplam Soru:</span>
+              <span className="font-bold text-white">{selectedLesson.exercises.length} Alıştırma</span>
+            </div>
+
+            <div className="flex items-center gap-3 pt-2">
+              <button
+                onClick={() => {
+                  const lessonToStart = selectedLesson;
+                  setSelectedLesson(null);
+                  onStartLesson(lessonToStart);
+                }}
+                className="flex-1 py-3 px-4 rounded-xl btn-3d-teal font-bold text-xs flex items-center justify-center gap-2 cursor-pointer shadow-lg"
+              >
+                <Play className="w-4 h-4 fill-current" />
+                <span>Derse Başla</span>
+              </button>
+
+              <button
+                onClick={() => setSelectedLesson(null)}
+                className="py-3 px-4 rounded-xl btn-3d-bronze text-xs font-bold cursor-pointer"
+              >
+                Kapat
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Günün Tamgası Hikaye & Ses Modalı */}
+      <GununTamgasiModal
+        tamga={todaysTamga}
+        isOpen={isGununTamgasiOpen}
+        onClose={() => setIsGununTamgasiOpen(false)}
+        onStartDrawing={(t) => {
+          if (onStartDrawingTamga) {
+            onStartDrawingTamga(t);
+          } else {
+            onNavigateToTab('alistirma');
+          }
+        }}
+        onOpenFlashcards={onOpenFlashcards}
+      />
     </div>
   );
 };
