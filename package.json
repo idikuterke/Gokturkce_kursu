@@ -8,6 +8,7 @@
     "build": "tsc --noEmit && vite build",
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
+    "ceviri:liste": "node engine/ceviri-istek-listesi.mjs",
     "icerik:uret": "node engine/icerik-uret.mjs",
     "icerik:kontrol": "node engine/icerik-uret.mjs && git diff --exit-code --stat src/data/generated"
   },
