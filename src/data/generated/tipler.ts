@@ -36,7 +36,11 @@ export interface KorpusKelimesi {
   zorluk: number;
 }
 
-export type UretilmisAlistirmaTuru = 'runik_oku' | 'kelime_kur';
+export type UretilmisAlistirmaTuru =
+  | 'runik_oku'
+  | 'kelime_kur'
+  | 'kelime_ceviri'
+  | 'dize_ceviri';
 
 export interface SozlukKelimesi {
   id: string;

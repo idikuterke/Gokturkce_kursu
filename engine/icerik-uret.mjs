@@ -238,8 +238,84 @@ for (const k of uygun) {
   });
 }
 
-// Çeviri alıştırmaları: insan denetimi bekliyor, şimdilik üretilmez.
+// ── Çeviri alıştırmaları ────────────────────────────────────────────────────
+// İki ayrı iş; kaynakları ve kapıları farklı:
+//
+// 1) KELİME ÇEVİRİSİ — kaynağı sözlük. Sözlükteki anlamların kaynağı
+//    ayrıca denetlenmiş durumda ve dize çevirilerine bağlı değil, bu yüzden
+//    şimdi üretilebilir.
+// 2) DİZE ÇEVİRİSİ — kaynağı kitabe dizesinin Türkçe çevirisi. Bunlar insan
+//    denetiminden geçmedi (dogrulama.ceviri), bu yüzden ÜRETİLMEZ. Denetimden
+//    geçen dize çıktıkça kendiliğinden devreye girerler.
+//
+// Ayrıca dizeler uzun (medyan 28 kelime); tek alıştırmaya bütün dize
+// sığmadığı için dize çevirisi KISA dizelerle sınırlanır.
+const sozlukKayitlari = fs.existsSync(P("05_Kaynak_DB/sozluk-anlamlar.json"))
+  ? oku("05_Kaynak_DB/sozluk-anlamlar.json").filter((k) => k.runik && k.anlam && !k.korpustaYok)
+  : [];
+
+// Çeldirici anlam: aynı kategoriden olanlar öne alınır — "millet" ile
+// "gümüş" arasında seçmek kolaydır, "millet" ile "boy birliği" değil.
+const anlamCeldiricileri = (dogru, havuz, adet = 3) => {
+  const ayni = havuz.filter((k) => k.kategori === dogru.kategori && k.anlam !== dogru.anlam);
+  const diger = havuz.filter((k) => k.kategori !== dogru.kategori && k.anlam !== dogru.anlam);
+  const secilen = [];
+  const gorulen = new Set([dogru.anlam]);
+  for (const liste of [ayni, diger]) {
+    for (let i = 0; i < liste.length && secilen.length < adet; i++) {
+      // Deterministik seçim.
+      const k = liste[(i * 23 + dogru.runik.length * 7) % liste.length];
+      if (gorulen.has(k.anlam)) continue;
+      gorulen.add(k.anlam);
+      secilen.push(k);
+    }
+  }
+  return secilen;
+};
+
+// Runik → zorluk (korpustaki en sık biçimden).
+const runikZorluk = new Map();
+for (const k of kelimeler) {
+  if (!runikZorluk.has(k.runik)) runikZorluk.set(k.runik, k.zorluk);
+}
+
+let kelimeCevirisi = 0;
+for (const k of sozlukKayitlari) {
+  const yanlislar = anlamCeldiricileri(k, sozlukKayitlari);
+  if (yanlislar.length < 3) continue;
+  // Sözlükteki transkripsiyon sözlük biçimi ("bodun"), korpustaki ise
+  // yazıldığı biçim ("BODuN"); anahtar eşleşmediği için ARAMA RUNİK
+  // ÜZERİNDEN. Önceki sürümde eşleşme hep başarısız oluyor ve bütün çeviri
+  // soruları yedek değere (3. bant) düşüyordu.
+  const kelimeKaydi = runikZorluk.get(k.runik);
+  alistirmalar.push({
+    id: `gen-cev-${kelimeCevirisi + 1}`,
+    tur: "kelime_ceviri",
+    // Anlam bilgisi okumadan bağımsız; zorluk kelimenin okunma zorluğundan gelir.
+    zorluk: kelimeKaydi ?? 3,
+    runik: k.runik,
+    transkripsiyon: k.transkripsiyon,
+    dogru: k.anlam,
+    secenekler: [k.anlam, ...yanlislar.map((y) => y.anlam)],
+    kaynak: (k.bicimler && k.bicimler[0]?.dizeler?.[0]) || "—"
+  });
+  kelimeCevirisi++;
+}
+
 const ceviriyeHazir = dizeler.filter((d) => d.dogrulama?.ceviri === "gecti");
+// Kısa ve denetimden geçmiş dizeler: bütün dize tek alıştırmaya ancak böyle sığar.
+const dizeCevirisi = ceviriyeHazir.filter((d) => d.kelimeSayisi <= 12 && !d.yipranma);
+for (const d of dizeCevirisi) {
+  alistirmalar.push({
+    id: `gen-dizecev-${d.id}`,
+    tur: "dize_ceviri",
+    zorluk: Math.min(5, Math.max(1, Math.ceil(d.kelimeSayisi / 3))),
+    runik: d.runik,
+    transkripsiyon: d.transkripsiyon,
+    dogru: d.turkce,
+    kaynak: d.id
+  });
+}
 
 // ── Yazım ───────────────────────────────────────────────────────────────────
 // Çıktı JSON: bu veri yalnızca alıştırma/deşifre ekranlarında gerekiyor.
@@ -286,15 +362,19 @@ const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
   const okuma = bantAlistirmalari.filter((a) => a.tur === "runik_oku");
   // Kelime kurma yalnızca anlamı bilinen kelimelerle.
   const kurma = bantAlistirmalari.filter((a) => a.tur === "kelime_kur" && anlamlar.has(a.runik));
+  const ceviri = bantAlistirmalari.filter((a) => a.tur === "kelime_ceviri");
 
   const dersler = [];
   for (let d = 0; d < DERS_SAYISI; d++) {
     const secilen = [];
     for (let j = 0; j < DERS_BASINA; j++) {
       const sira = d * DERS_BASINA + j;
-      // Dönüşümlü: önce tanı, sonra yaz.
-      const kaynak = j % 2 === 0 ? okuma : kurma;
-      const secim = kaynak[Math.floor(sira / 2) % (kaynak.length || 1)];
+      // Üçlü dönüşüm: tanı → yaz → anlamını bil.
+      // Tek beceriyi arka arkaya sormak yerine aynı kelimeyi farklı
+      // açılardan yoklamak pekiştirmeyi artırıyor.
+      const siraliKaynaklar = [okuma, kurma, ceviri].filter((x) => x.length);
+      const kaynak = siraliKaynaklar[j % siraliKaynaklar.length];
+      const secim = kaynak[Math.floor(sira / siraliKaynaklar.length) % kaynak.length];
       if (secim && !secilen.includes(secim.id)) secilen.push(secim.id);
     }
     if (secilen.length) {
@@ -402,7 +482,11 @@ export interface KorpusKelimesi {
   zorluk: number;
 }
 
-export type UretilmisAlistirmaTuru = 'runik_oku' | 'kelime_kur';
+export type UretilmisAlistirmaTuru =
+  | 'runik_oku'
+  | 'kelime_kur'
+  | 'kelime_ceviri'
+  | 'dize_ceviri';
 
 export interface SozlukKelimesi {
   id: string;
@@ -467,4 +551,6 @@ console.log(`dize            : ${dizeler.length}`);
 console.log(`benzersiz kelime: ${kelimeler.length} (güvenilir ${kelimeler.filter((k) => k.guvenilir).length})`);
 console.log(`alıştırma       : ${alistirmalar.length}`);
 console.log(`yakın çeldirici : ${yakinKullanan} kelimede bulundu (tek tamga farkıyla gerçek kelime)`);
-console.log(`çeviriye hazır  : ${ceviriyeHazir.length} dize (insan denetimi bekliyor)`);
+console.log(`kelime çevirisi : ${kelimeCevirisi}`);
+console.log(`dize çevirisi   : ${dizeCevirisi.length}  (denetimden geçen kısa dize)`);
+console.log(`  denetim bekleyen dize: ${dizeler.length - ceviriyeHazir.length}`);

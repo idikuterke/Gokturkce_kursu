@@ -52,10 +52,12 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
     const bandda = hepsi.filter((a) => a.zorluk === zorluk);
     const okuma = bandda.filter((a) => a.tur === 'runik_oku');
     const kurma = bandda.filter((a) => a.tur === 'kelime_kur');
+    const ceviri = bandda.filter((a) => a.tur === 'kelime_ceviri');
     const karisik: UretilmisAlistirma[] = [];
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 8; i++) {
       if (okuma[i]) karisik.push(okuma[i]);
       if (kurma[i]) karisik.push(kurma[i]);
+      if (ceviri[i]) karisik.push(ceviri[i]);
     }
     return karisik;
   }, [hepsi, zorluk]);
@@ -274,7 +276,11 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
           ) : (
           <>
           <div className="text-center space-y-3">
-            <p className="text-sm text-[#9FB0C6]">Bu kelimenin okunuşu hangisidir?</p>
+            <p className="text-sm text-[#9FB0C6]">
+              {aktif.tur === 'kelime_ceviri'
+                ? `"${aktif.transkripsiyon}" kelimesi ne anlama geliyor?`
+                : 'Bu kelimenin okunuşu hangisidir?'}
+            </p>
             <button
               onClick={() => { playChiselSound(); speakTamgaOrWord(aktif.dogru ?? aktif.runik, aktif.runik); }}
               title="Telaffuzu dinle"

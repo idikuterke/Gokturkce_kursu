@@ -34,6 +34,34 @@ const alistirmayaCevir = (
     };
   }
 
+  if (a.tur === 'kelime_ceviri') {
+    if (!a.dogru || !a.secenekler?.length) return null;
+    return {
+      id: a.id,
+      type: 'choice',
+      prompt: `"${a.transkripsiyon}" kelimesi ne anlama geliyor?`,
+      subprompt: a.kaynak !== '—' ? `Kaynak: ${a.kaynak}` : undefined,
+      runePrompt: a.runik,
+      options: a.secenekler,
+      correctAnswer: a.dogru,
+      explanation: `${a.transkripsiyon} — ${a.dogru}`
+    };
+  }
+
+  if (a.tur === 'dize_ceviri') {
+    if (!a.dogru) return null;
+    return {
+      id: a.id,
+      type: 'choice',
+      prompt: 'Bu kitabe satırı ne anlama geliyor?',
+      subprompt: a.transkripsiyon,
+      runePrompt: a.runik,
+      options: [a.dogru],
+      correctAnswer: a.dogru,
+      explanation: `${a.kaynak} dizesi.`
+    };
+  }
+
   // Kelime kurma: "Anlam" alanı gösterildiği için anlamı bilinmeyen kelime
   // buraya alınmaz — üretim tarafında da süzülüyor, burada ikinci kapı.
   const anlam = anlamlar.get(a.runik);
