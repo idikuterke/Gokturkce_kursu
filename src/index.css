@@ -107,20 +107,28 @@ body {
   background: #2DD4BF;
 }
 
+/* Yalnizca dikey kayma. Yatay -%50 BURADA OLMAMALI:
+   - `inset-0` kaplamalarda `forwards` ile kalici olup kaplamayi
+     kendi genisliginin yarisi kadar sola kaydirir;
+   - `left-1/2 -translate-x-1/2` ile ortalanan ogelerde ise Tailwind v4
+     ortalamayi ayri `translate` ozelliginde tuttugu icin `transform`
+     ile toplanir ve ogeyi iki kat kaydirir.
+   Ortalamayi her iki durumda da yerlesim siniflari yapar. */
 @keyframes fadeInDown {
   from {
     opacity: 0;
-    transform: translate(-50%, -24px);
+    transform: translateY(-24px);
   }
   to {
     opacity: 1;
-    transform: translate(-50%, 0);
+    transform: translateY(0);
   }
 }
 
 .animate-fadeInDown {
   animation: fadeInDown 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
 
 @keyframes popIn {
   0% {
