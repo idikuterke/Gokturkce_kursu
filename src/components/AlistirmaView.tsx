@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { PenTool, Layers, Heart, Bookmark, Sparkles, Award } from 'lucide-react';
+import { PenTool, Layers, Heart, Bookmark, Sparkles, Award, ScrollText } from 'lucide-react';
 import { FlashcardsView } from './FlashcardsView';
 import { TamgaDrawingPractice } from './TamgaDrawingPractice';
 import { TamgalikView } from './TamgalikView';
+import { KitabeAlistirmalari } from './KitabeAlistirmalari';
 import { UserProgress, TamgaItem } from '../types';
 
 interface AlistirmaViewProps {
@@ -11,7 +12,7 @@ interface AlistirmaViewProps {
   onRefillHeart: () => void;
   onListenPronunciation: () => void;
   onCompleteSeries: () => void;
-  initialMode?: 'cizim' | 'kartlar' | 'can' | 'tamgalik';
+  initialMode?: 'cizim' | 'kartlar' | 'can' | 'tamgalik' | 'kitabe';
   selectedDrawingTamga?: TamgaItem;
 }
 
@@ -24,7 +25,7 @@ export const AlistirmaView: React.FC<AlistirmaViewProps> = ({
   initialMode = 'cizim',
   selectedDrawingTamga
 }) => {
-  const [activeSubTab, setActiveSubTab] = useState<'cizim' | 'kartlar' | 'can' | 'tamgalik'>(initialMode);
+  const [activeSubTab, setActiveSubTab] = useState<'cizim' | 'kartlar' | 'can' | 'tamgalik' | 'kitabe'>(initialMode);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 space-y-8">
@@ -90,6 +91,18 @@ export const AlistirmaView: React.FC<AlistirmaViewProps> = ({
         </button>
 
         <button
+          onClick={() => setActiveSubTab('kitabe')}
+          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
+            activeSubTab === 'kitabe'
+              ? 'btn-3d-teal shadow-md shadow-[#0D9488]/25'
+              : 'text-[#94A3B8] hover:text-white hover:bg-[#102B33]'
+          }`}
+        >
+          <ScrollText className="w-4 h-4" />
+          <span>Kitabe Alıştırmaları</span>
+        </button>
+
+        <button
           onClick={() => setActiveSubTab('can')}
           className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
             activeSubTab === 'can'
@@ -125,6 +138,10 @@ export const AlistirmaView: React.FC<AlistirmaViewProps> = ({
             onOpenFlashcards={() => setActiveSubTab('kartlar')}
             onListenPronunciation={onListenPronunciation}
           />
+        )}
+
+        {activeSubTab === 'kitabe' && (
+          <KitabeAlistirmalari onEarnXp={onEarnXp} />
         )}
 
         {activeSubTab === 'can' && (
