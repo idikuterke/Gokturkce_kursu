@@ -90,3 +90,38 @@ okur. Buraya kadarki her şey o anın hazırlığı.
   kelime sayısı ve kaynak listesi gerekiyor.
 - **Ses kaydı yok.** Şu an tarayıcının konuşma sentezi kullanılıyor; kalite
   yetersiz. Tamga ve kelime telaffuzları için kayıt gerekebilir.
+
+---
+
+## Denetim Ekranı (geliştirici aracı)
+
+`npm run dev` → <http://localhost:3000/#denetim>
+
+Üretim derlemesine **girmez** (`import.meta.env.DEV` ile elenir, `dist/` içinde yoktur).
+
+Üç kuyruk:
+
+| Kuyruk | Kayıt | Kaynak |
+|---|---|---|
+| Cümlecik | 953 | `docs/cumlecik-adaylari.json` |
+| Dize | 207 | `docs/ceviri-bekleyen-dizeler.json` |
+| Sözlük | 260 | `docs/sozluk-anlam-bekleyenler.json` |
+
+Kısayollar: `A` onay · `R` red · `←`/`→` gezinme · `Ctrl+S` dışa aktar.
+Kaynak alanı boşken onay düğmesi kapalıdır.
+
+Kararlar `localStorage`'da birikir. İş akışı:
+
+```bash
+# 1. ekranda çalış, "Dışa aktar" ile JSON indir
+# 2. önce kuru çalıştır
+node engine/denetim-uygula.mjs ~/Downloads/denetim-dize-2026-10-16.json --kuru
+# 3. sorun yoksa uygula
+node engine/denetim-uygula.mjs ~/Downloads/denetim-dize-2026-10-16.json
+node engine/icerik-uret.mjs && node engine/kapi.mjs
+```
+
+Onaylar şuralara yazılır:
+`dize` → `05_Kaynak_DB/orhun-db-v1.json` · `cumlecik` → `05_Kaynak_DB/cumlecikler-onayli.json` · `sozluk` → `05_Kaynak_DB/sozluk-anlamlar.json`
+
+Runik düzeltmesi **otomatik uygulanmaz** — rapora düşer, elle karar verilir.

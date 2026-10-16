@@ -8,6 +8,7 @@
     "build": "tsc --noEmit && vite build",
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
+    "denetim:uygula": "node engine/denetim-uygula.mjs",
     "cumlecik:ayir": "node engine/cumlecik-ayir.mjs",
     "ceviri:liste": "node engine/ceviri-istek-listesi.mjs",
     "icerik:uret": "node engine/icerik-uret.mjs",
