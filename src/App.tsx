@@ -30,8 +30,8 @@ const IstatistiklerView = lazy(() =>
 );
 
 const TabYukleniyor = () => (
-  <div className="flex items-center justify-center py-24 text-sm text-[#6C7F99]">
-    <span className="w-4 h-4 mr-3 rounded-full border-2 border-[#2BC4C4] border-t-transparent animate-spin" />
+  <div className="flex items-center justify-center py-24 text-sm text-metin-3">
+    <span className="w-4 h-4 mr-3 rounded-full border-2 border-marka border-t-transparent animate-spin" />
     Yükleniyor...
   </div>
 );
@@ -421,7 +421,7 @@ export const App: React.FC = () => {
   const wordsLearnedCount = wordsQuest ? wordsQuest.current : 0;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#071518] text-[#E2E8F0] selection:bg-[#2DD4BF] selection:text-[#042023]">
+    <div className="min-h-screen flex flex-col bg-[#071518] text-metin-acik selection:bg-marka-acik selection:text-derin-5">
       {/* Top Navbar */}
       <Navbar
         currentTab={currentTab}
@@ -591,10 +591,10 @@ export const App: React.FC = () => {
       )}
 
       {/* Minimal Footer */}
-      <footer className="border-t border-[#233754] py-6 text-center text-xs text-[#6C7F99] bg-[#080E18]">
+      <footer className="border-t border-zemin-4 py-6 text-center text-xs text-metin-3 bg-[#080E18]">
         <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>Göktürkçe Öğreneği &copy; {new Date().getFullYear()} — Antik Bozkır Yazıtları ve Dil Eğitimi</span>
-          <span className="runic text-sm text-[#2BC4C4]">𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣</span>
+          <span className="runic text-sm text-marka">𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣</span>
         </div>
       </footer>
     </div>

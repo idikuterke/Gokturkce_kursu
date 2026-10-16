@@ -92,10 +92,10 @@ export const MascotBoru: React.FC<MascotBoruProps> = ({
       </div>
 
       {speech && (
-        <div className="relative bg-[#152338] border border-[#233754] text-[#E6EDF5] rounded-2xl px-4 py-2.5 text-sm shadow-lg max-w-[280px]">
+        <div className="relative bg-zemin-3 border border-zemin-4 text-metin rounded-2xl px-4 py-2.5 text-sm shadow-lg max-w-[280px]">
           {/* Chat bubble tail */}
-          <div className="absolute top-1/2 -left-2 -translate-y-1/2 w-0 h-0 border-t-6 border-t-transparent border-b-6 border-b-transparent border-r-8 border-r-[#233754]" />
-          <div className="absolute top-1/2 -left-1.5 -translate-y-1/2 w-0 h-0 border-t-5 border-t-transparent border-b-5 border-b-transparent border-r-7 border-r-[#152338]" />
+          <div className="absolute top-1/2 -left-2 -translate-y-1/2 w-0 h-0 border-t-6 border-t-transparent border-b-6 border-b-transparent border-r-8 border-r-zemin-4" />
+          <div className="absolute top-1/2 -left-1.5 -translate-y-1/2 w-0 h-0 border-t-5 border-t-transparent border-b-5 border-b-transparent border-r-7 border-r-zemin-3" />
           <p className="font-medium leading-relaxed">{speech}</p>
         </div>
       )}

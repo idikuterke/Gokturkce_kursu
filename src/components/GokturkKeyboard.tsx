@@ -151,26 +151,26 @@ export const GokturkKeyboard: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
       {/* Header */}
-      <div className="border-b border-[#233754] pb-6">
-        <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4] flex items-center gap-1.5">
+      <div className="border-b border-zemin-4 pb-6">
+        <span className="text-xs font-bold uppercase tracking-widest text-marka flex items-center gap-1.5">
           <Keyboard className="w-3.5 h-3.5" /> İnteraktif Runik Yazıcı
         </span>
         <h2 className="text-3xl font-bold text-white font-serif mt-1">
           Göktürkçe Çevirici ve Sanal Klavye
         </h2>
-        <p className="text-sm text-[#9FB0C6] mt-1">
+        <p className="text-sm text-metin-2 mt-1">
           Latin harfleriyle yazın, imla kurallarına uygun olarak anında sağdan sola Göktürk runik yazısına dönüşsün.
         </p>
       </div>
 
       {/* Quick sample chips */}
       <div className="flex items-center gap-2 overflow-x-auto pb-2">
-        <span className="text-xs text-[#6C7F99] font-medium whitespace-nowrap">Örnekler:</span>
+        <span className="text-xs text-metin-3 font-medium whitespace-nowrap">Örnekler:</span>
         {sampleWords.map(sw => (
           <button
             key={sw.latin}
             onClick={() => handleInputChange(sw.latin)}
-            className="px-3 py-1 bg-[#101B2C] hover:bg-[#152338] border border-[#233754] hover:border-[#2BC4C4] rounded-full text-xs text-[#E6EDF5] whitespace-nowrap transition-colors"
+            className="px-3 py-1 bg-zemin-2 hover:bg-zemin-3 border border-zemin-4 hover:border-marka rounded-full text-xs text-metin whitespace-nowrap transition-colors"
           >
             {sw.label}
           </button>
@@ -181,7 +181,7 @@ export const GokturkKeyboard: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Latin Input */}
         <div className="space-y-2">
-          <label className="text-xs font-bold uppercase tracking-wider text-[#9FB0C6] block">
+          <label className="text-xs font-bold uppercase tracking-wider text-metin-2 block">
             Latin Harfleriyle Metin
           </label>
           <div className="relative">
@@ -190,12 +190,12 @@ export const GokturkKeyboard: React.FC = () => {
               value={inputText}
               onChange={(e) => handleInputChange(e.target.value)}
               placeholder="Türkçe kelime veya cümle yazın..."
-              className="w-full p-4 bg-[#101B2C] border-2 border-[#233754] focus:border-[#2BC4C4] rounded-2xl text-base text-white placeholder-[#6C7F99] outline-none transition-colors resize-none"
+              className="w-full p-4 bg-zemin-2 border-2 border-zemin-4 focus:border-marka rounded-2xl text-base text-white placeholder-metin-3 outline-none transition-colors resize-none"
             />
             {inputText && (
               <button
                 onClick={() => handleInputChange('')}
-                className="absolute right-3 top-3 text-[#6C7F99] hover:text-white p-1 text-xs"
+                className="absolute right-3 top-3 text-metin-3 hover:text-white p-1 text-xs"
               >
                 Temizle
               </button>
@@ -206,33 +206,33 @@ export const GokturkKeyboard: React.FC = () => {
         {/* Runic Stone Output */}
         <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <label className="text-xs font-bold uppercase tracking-wider text-[#2BC4C4] block">
+            <label className="text-xs font-bold uppercase tracking-wider text-marka block">
               Göktürkçe Çıktı (Sağdan Sola)
             </label>
             <button
               onClick={handleCopy}
-              className="flex items-center gap-1.5 px-3 py-1 bg-[#152338] hover:bg-[#1f3350] border border-[#233754] rounded-lg text-xs font-semibold text-[#2BC4C4] transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1 bg-zemin-3 hover:bg-[#1f3350] border border-zemin-4 rounded-lg text-xs font-semibold text-marka transition-colors"
             >
               {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
               <span>{copied ? 'Kopyalandı!' : 'Kopyala'}</span>
             </button>
           </div>
           
-          <div className="min-h-36 p-6 bg-gradient-to-br from-[#101B2C] to-[#152338] border-2 border-[#2BC4C4]/50 rounded-2xl flex items-center justify-center text-center shadow-inner">
+          <div className="min-h-36 p-6 bg-gradient-to-br from-zemin-2 to-zemin-3 border-2 border-marka/50 rounded-2xl flex items-center justify-center text-center shadow-inner">
             <p className="runic text-4xl sm:text-5xl text-white leading-relaxed tracking-wider select-all drop-shadow-[0_4px_12px_rgba(43,196,196,0.3)]">
-              {runicResult || <span className="text-[#6C7F99] text-base font-sans italic">Runik yazı burada belirecek...</span>}
+              {runicResult || <span className="text-metin-3 text-base font-sans italic">Runik yazı burada belirecek...</span>}
             </p>
           </div>
         </div>
       </div>
 
       {/* Virtual On-Screen Runic Keyboard */}
-      <div className="bg-[#101B2C] border border-[#233754] rounded-3xl p-6 space-y-4 shadow-xl">
+      <div className="bg-zemin-2 border border-zemin-4 rounded-3xl p-6 space-y-4 shadow-xl">
         <div className="flex items-center justify-between">
           <h4 className="text-sm font-bold text-white flex items-center gap-2 font-serif">
-            <Keyboard className="w-4 h-4 text-[#2BC4C4]" /> Sanal Göktürk Tamga Tuş takımı
+            <Keyboard className="w-4 h-4 text-marka" /> Sanal Göktürk Tamga Tuş takımı
           </h4>
-          <span className="text-xs text-[#6C7F99]">Tuşlara tıklayarak doğrudan metne ekleyin</span>
+          <span className="text-xs text-metin-3">Tuşlara tıklayarak doğrudan metne ekleyin</span>
         </div>
 
         {/* Keyboard Keys Grid */}
@@ -242,7 +242,7 @@ export const GokturkKeyboard: React.FC = () => {
               key={t.codePoint + t.name}
               onClick={() => handleVirtualRuneClick(t.rune)}
               title={`${t.name} (${t.sound})`}
-              className="h-12 rounded-xl bg-[#152338] hover:bg-[#2BC4C4] text-white hover:text-[#0B1320] border border-[#233754] hover:border-[#2BC4C4] font-bold runic text-2xl flex items-center justify-center transition-all active:scale-95 shadow"
+              className="h-12 rounded-xl bg-zemin-3 hover:bg-marka text-white hover:text-zemin border border-zemin-4 hover:border-marka font-bold runic text-2xl flex items-center justify-center transition-all active:scale-95 shadow"
             >
               {t.rune}
             </button>
@@ -251,7 +251,7 @@ export const GokturkKeyboard: React.FC = () => {
           <button
             onClick={() => handleVirtualRuneClick(' : ')}
             title="Sözcük Ayracı (:)"
-            className="h-12 rounded-xl bg-[#152338] hover:bg-[#C9A24A] text-amber-400 hover:text-black border border-[#233754] font-bold text-xl flex items-center justify-center transition-all active:scale-95 shadow"
+            className="h-12 rounded-xl bg-zemin-3 hover:bg-altin text-amber-400 hover:text-black border border-zemin-4 font-bold text-xl flex items-center justify-center transition-all active:scale-95 shadow"
           >
             :
           </button>
@@ -262,7 +262,7 @@ export const GokturkKeyboard: React.FC = () => {
             disabled={!runicResult}
             title="Son tamgayı sil"
             aria-label="Son tamgayı sil"
-            className="h-12 col-span-2 rounded-xl bg-[#152338] hover:bg-rose-500/90 text-[#9FB0C6] hover:text-white border border-[#233754] hover:border-rose-500 flex items-center justify-center gap-1.5 text-xs font-bold transition-all active:scale-95 shadow disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-[#152338] disabled:hover:text-[#9FB0C6]"
+            className="h-12 col-span-2 rounded-xl bg-zemin-3 hover:bg-rose-500/90 text-metin-2 hover:text-white border border-zemin-4 hover:border-rose-500 flex items-center justify-center gap-1.5 text-xs font-bold transition-all active:scale-95 shadow disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-zemin-3 disabled:hover:text-metin-2"
           >
             <Delete className="w-4 h-4" /> Sil
           </button>
@@ -273,7 +273,7 @@ export const GokturkKeyboard: React.FC = () => {
             disabled={!runicResult}
             title="Çıktıyı tamamen temizle"
             aria-label="Çıktıyı tamamen temizle"
-            className="h-12 col-span-2 rounded-xl bg-[#152338] hover:bg-[#233754] text-[#9FB0C6] hover:text-white border border-[#233754] flex items-center justify-center gap-1.5 text-xs font-bold transition-all active:scale-95 shadow disabled:opacity-40 disabled:cursor-not-allowed"
+            className="h-12 col-span-2 rounded-xl bg-zemin-3 hover:bg-zemin-4 text-metin-2 hover:text-white border border-zemin-4 flex items-center justify-center gap-1.5 text-xs font-bold transition-all active:scale-95 shadow disabled:opacity-40 disabled:cursor-not-allowed"
           >
             <Eraser className="w-4 h-4" /> Tümünü Sil
           </button>

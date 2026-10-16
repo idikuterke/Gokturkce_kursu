@@ -155,7 +155,7 @@ export const DenetimView: React.FC = () => {
   }, [disaAktar, ilerle, kararVer]);
 
   const girdi =
-    'w-full rounded-xl border-2 border-[#E3EAF2] px-4 py-3 text-[#1F3147] focus:border-[#2BC4C4] focus:outline-none';
+    'w-full rounded-xl border-2 border-[#E3EAF2] px-4 py-3 text-[#1F3147] focus:border-marka focus:outline-none';
 
   return (
     <div className="min-h-screen bg-[#F6F9FC]">
@@ -167,7 +167,7 @@ export const DenetimView: React.FC = () => {
             yalnızca geliştirme
           </span>
         </div>
-        <p className="mt-1 text-sm text-[#6C7F99]">
+        <p className="mt-1 text-sm text-metin-3">
           Kısayollar: <kbd>A</kbd> onay · <kbd>R</kbd> red · <kbd>←</kbd>/<kbd>→</kbd> gezinme ·{' '}
           <kbd>Ctrl+S</kbd> dışa aktar
         </p>
@@ -180,8 +180,8 @@ export const DenetimView: React.FC = () => {
             onClick={() => setKuyrukId(k.id)}
             className={`rounded-xl px-4 py-2 text-sm font-semibold transition-colors ${
               k.id === kuyrukId
-                ? 'bg-[#2BC4C4] text-white'
-                : 'bg-[#EEF3F8] text-[#42597A] hover:bg-[#E0E9F3]'
+                ? 'bg-marka text-white'
+                : 'bg-[#EEF3F8] text-metin-5 hover:bg-[#E0E9F3]'
             }`}
           >
             {k.ad}
@@ -189,7 +189,7 @@ export const DenetimView: React.FC = () => {
         ))}
       </div>
 
-      <p className="mb-4 text-sm text-[#6C7F99]">{kuyruk.aciklama}</p>
+      <p className="mb-4 text-sm text-metin-3">{kuyruk.aciklama}</p>
 
       {kotaUyarisi && (
         <p className="mb-4 rounded-xl bg-[#FFE1E1] px-4 py-3 text-sm text-[#9B1C1C]">
@@ -204,13 +204,13 @@ export const DenetimView: React.FC = () => {
         </span>
         <div className="h-2 min-w-40 flex-1 overflow-hidden rounded-full bg-[#E3EAF2]">
           <div
-            className="h-full bg-[#2BC4C4] transition-all"
+            className="h-full bg-marka transition-all"
             style={{
               width: `${sayim.toplam ? ((sayim.onay + sayim.red) / sayim.toplam) * 100 : 0}%`,
             }}
           />
         </div>
-        <label className="flex items-center gap-2 text-[#42597A]">
+        <label className="flex items-center gap-2 text-metin-5">
           <input
             type="checkbox"
             checked={sadeceBekleyen}
@@ -229,7 +229,7 @@ export const DenetimView: React.FC = () => {
         </button>
       </div>
 
-      {yukleniyor && <p className="text-[#6C7F99]">Yükleniyor…</p>}
+      {yukleniyor && <p className="text-metin-3">Yükleniyor…</p>}
       {hata && (
         <p className="rounded-xl bg-[#FFE1E1] px-4 py-3 text-sm text-[#9B1C1C]">{hata}</p>
       )}
@@ -244,11 +244,11 @@ export const DenetimView: React.FC = () => {
         <article className="rounded-3xl border-2 border-[#E3EAF2] bg-white p-6">
           <div className="mb-4 flex flex-wrap items-baseline gap-3">
             <h2 className="font-mono text-lg font-bold text-[#1F3147]">{aktif.baslik}</h2>
-            <span className="text-sm text-[#6C7F99]">{aktif.altBaslik}</span>
+            <span className="text-sm text-metin-3">{aktif.altBaslik}</span>
             {aktif.rozetler.map((r) => (
               <span
                 key={r}
-                className="rounded-full bg-[#EEF3F8] px-3 py-1 text-xs font-semibold text-[#42597A]"
+                className="rounded-full bg-[#EEF3F8] px-3 py-1 text-xs font-semibold text-metin-5"
               >
                 {r}
               </span>
@@ -270,16 +270,16 @@ export const DenetimView: React.FC = () => {
           >
             {aktif.runik}
           </p>
-          <p className="mb-2 break-words font-mono text-sm text-[#42597A]">
+          <p className="mb-2 break-words font-mono text-sm text-metin-5">
             {aktif.transkripsiyon}
           </p>
           {aktif.baglam && (
-            <p className="mb-5 break-words text-sm text-[#6C7F99]">{aktif.baglam}</p>
+            <p className="mb-5 break-words text-sm text-metin-3">{aktif.baglam}</p>
           )}
 
           <div className="space-y-3">
             <label className="block">
-              <span className="mb-1 block text-sm font-semibold text-[#42597A]">
+              <span className="mb-1 block text-sm font-semibold text-metin-5">
                 {kuyruk.metinEtiketi}
               </span>
               <textarea
@@ -293,7 +293,7 @@ export const DenetimView: React.FC = () => {
 
             <div className="grid gap-3 sm:grid-cols-2">
               <label className="block">
-                <span className="mb-1 block text-sm font-semibold text-[#42597A]">
+                <span className="mb-1 block text-sm font-semibold text-metin-5">
                   {kuyruk.turEtiketi}
                 </span>
                 <select
@@ -310,7 +310,7 @@ export const DenetimView: React.FC = () => {
                 </select>
               </label>
               <label className="block">
-                <span className="mb-1 block text-sm font-semibold text-[#42597A]">
+                <span className="mb-1 block text-sm font-semibold text-metin-5">
                   Kaynak (zorunlu)
                 </span>
                 <input
@@ -323,7 +323,7 @@ export const DenetimView: React.FC = () => {
             </div>
 
             <label className="block">
-              <span className="mb-1 block text-sm font-semibold text-[#42597A]">Not</span>
+              <span className="mb-1 block text-sm font-semibold text-metin-5">Not</span>
               <input
                 value={aktifKarar.not}
                 onChange={(e) => guncelle({ not: e.target.value })}
@@ -364,18 +364,18 @@ export const DenetimView: React.FC = () => {
             >
               Reddet (R)
             </button>
-            <span className="ml-auto text-sm text-[#6C7F99]">
+            <span className="ml-auto text-sm text-metin-3">
               {Math.min(indeks + 1, gorunen.length)} / {gorunen.length}
             </span>
             <button
               onClick={() => ilerle(-1)}
-              className="rounded-xl bg-[#EEF3F8] px-4 py-3 font-semibold text-[#42597A]"
+              className="rounded-xl bg-[#EEF3F8] px-4 py-3 font-semibold text-metin-5"
             >
               ←
             </button>
             <button
               onClick={() => ilerle(1)}
-              className="rounded-xl bg-[#EEF3F8] px-4 py-3 font-semibold text-[#42597A]"
+              className="rounded-xl bg-[#EEF3F8] px-4 py-3 font-semibold text-metin-5"
             >
               →
             </button>

@@ -22,27 +22,27 @@ export const KitabelerReader: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-8">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#233754] pb-6">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zemin-4 pb-6">
         <div>
-          <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4] flex items-center gap-1.5">
+          <span className="text-xs font-bold uppercase tracking-widest text-marka flex items-center gap-1.5">
             <BookOpen className="w-3.5 h-3.5" /> Orhun Vadisi Kitabeleri
           </span>
           <h2 className="text-3xl font-bold text-white font-serif mt-1">
             Bengü Taş Okuma Odası
           </h2>
-          <p className="text-sm text-[#9FB0C6] mt-1">
+          <p className="text-sm text-metin-2 mt-1">
             Kül Tigin, Bilge Kağan ve Tonyukuk yazıtlarından orijinal dizeler ve Irk Bitig kadim fal metinleri.
           </p>
         </div>
 
         {/* View Mode Toggle */}
-        <div className="flex items-center gap-1 bg-[#101B2C] border border-[#233754] p-1 rounded-xl">
+        <div className="flex items-center gap-1 bg-zemin-2 border border-zemin-4 p-1 rounded-xl">
           <button
             onClick={() => setViewMode('stele')}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               viewMode === 'stele'
-                ? 'bg-[#2BC4C4] text-[#0B1320]'
-                : 'text-[#9FB0C6] hover:text-white'
+                ? 'bg-marka text-zemin'
+                : 'text-metin-2 hover:text-white'
             }`}
           >
             Bengü Taş Görünümü
@@ -51,8 +51,8 @@ export const KitabelerReader: React.FC = () => {
             onClick={() => setViewMode('academic')}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               viewMode === 'academic'
-                ? 'bg-[#2BC4C4] text-[#0B1320]'
-                : 'text-[#9FB0C6] hover:text-white'
+                ? 'bg-marka text-zemin'
+                : 'text-metin-2 hover:text-white'
             }`}
           >
             Akademik Tahlil
@@ -77,8 +77,8 @@ export const KitabelerReader: React.FC = () => {
             }}
             className={`px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all ${
               selectedMonument === tab.id
-                ? 'bg-[#2BC4C4] text-[#0B1320] shadow-md shadow-[#2BC4C4]/20'
-                : 'bg-[#101B2C] text-[#9FB0C6] hover:text-white border border-[#233754]'
+                ? 'bg-marka text-zemin shadow-md shadow-marka/20'
+                : 'bg-zemin-2 text-metin-2 hover:text-white border border-zemin-4'
             }`}
           >
             {tab.label}
@@ -102,29 +102,29 @@ export const KitabelerReader: React.FC = () => {
                   }}
                   className={`relative p-6 sm:p-8 rounded-3xl border-2 cursor-pointer transition-all duration-300 ${
                     isActive
-                      ? 'bg-gradient-to-br from-[#101B2C] via-[#152338] to-[#0d1624] border-[#2BC4C4] shadow-2xl shadow-[#2BC4C4]/10'
-                      : 'bg-[#101B2C] border-[#233754] hover:border-[#3B82F6]/60 opacity-90'
+                      ? 'bg-gradient-to-br from-zemin-2 via-zemin-3 to-[#0d1624] border-marka shadow-2xl shadow-marka/10'
+                      : 'bg-zemin-2 border-zemin-4 hover:border-bilgi/60 opacity-90'
                   }`}
                 >
                   {/* Stele Top Header */}
-                  <div className="flex items-center justify-between border-b border-[#233754] pb-3 mb-4">
-                    <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4]">
+                  <div className="flex items-center justify-between border-b border-zemin-4 pb-3 mb-4">
+                    <span className="text-xs font-bold uppercase tracking-widest text-marka">
                       {line.monument} • {line.section} • Satır {line.line}
                     </span>
-                    <span className="text-xs text-[#6C7F99] font-mono">{line.id}</span>
+                    <span className="text-xs text-metin-3 font-mono">{line.id}</span>
                   </div>
 
                   {/* The Glowing Runic Inscription */}
                   <div className="py-4">
-                    <p className="runic text-2xl sm:text-3xl text-[#E6EDF5] leading-relaxed text-right tracking-wide select-none drop-shadow-[0_2px_8px_rgba(43,196,196,0.25)]">
+                    <p className="runic text-2xl sm:text-3xl text-metin leading-relaxed text-right tracking-wide select-none drop-shadow-[0_2px_8px_rgba(43,196,196,0.25)]">
                       {line.runic}
                     </p>
                   </div>
 
                   {/* Quick Translation Snippet */}
-                  <div className="mt-4 pt-4 border-t border-[#233754] flex items-center justify-between text-xs text-[#9FB0C6]">
+                  <div className="mt-4 pt-4 border-t border-zemin-4 flex items-center justify-between text-xs text-metin-2">
                     <span className="line-clamp-1 italic">{line.modernTurkish}</span>
-                    <span className="text-[#2BC4C4] font-semibold flex-shrink-0 ml-2">İncele &rarr;</span>
+                    <span className="text-marka font-semibold flex-shrink-0 ml-2">İncele &rarr;</span>
                   </div>
                 </div>
               );
@@ -133,25 +133,25 @@ export const KitabelerReader: React.FC = () => {
 
           {/* Stele Inspector Panel (Right 1 col) */}
           <div className="space-y-6">
-            <div className="sticky top-24 bg-[#101B2C] border-2 border-[#2BC4C4]/60 rounded-3xl p-6 shadow-2xl space-y-6">
-              <div className="border-b border-[#233754] pb-4">
-                <span className="text-[10px] font-bold uppercase tracking-widest text-[#2BC4C4] block">
+            <div className="sticky top-24 bg-zemin-2 border-2 border-marka/60 rounded-3xl p-6 shadow-2xl space-y-6">
+              <div className="border-b border-zemin-4 pb-4">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-marka block">
                   Metin İncelemesi
                 </span>
                 <h3 className="text-xl font-bold text-white font-serif mt-1">
                   {activeLine.monument}
                 </h3>
-                <p className="text-xs text-[#9FB0C6] mt-0.5">
+                <p className="text-xs text-metin-2 mt-0.5">
                   {activeLine.section} — {activeLine.line}. Satır
                 </p>
               </div>
 
               {/* Runic text in panel */}
-              <div className="bg-[#0B1320] p-4 rounded-2xl border border-[#233754]">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-[#6C7F99] block mb-1">
+              <div className="bg-zemin p-4 rounded-2xl border border-zemin-4">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-metin-3 block mb-1">
                   Taştaki Orijinal Metin (RTL)
                 </span>
-                <p className="runic text-xl text-[#2BC4C4] text-right leading-relaxed">
+                <p className="runic text-xl text-marka text-right leading-relaxed">
                   {activeLine.runic}
                 </p>
               </div>
@@ -161,28 +161,28 @@ export const KitabelerReader: React.FC = () => {
                 <span className="text-xs font-bold uppercase tracking-wider text-amber-400 block">
                   Transkripsiyon (Latin Çevrim)
                 </span>
-                <p className="text-xs text-[#E6EDF5] italic font-serif leading-relaxed bg-[#152338] p-3 rounded-xl border border-[#233754]">
+                <p className="text-xs text-metin italic font-serif leading-relaxed bg-zemin-3 p-3 rounded-xl border border-zemin-4">
                   {activeLine.transcription}
                 </p>
               </div>
 
               {/* Modern Turkish */}
               <div className="space-y-1">
-                <span className="text-xs font-bold uppercase tracking-wider text-[#37B36A] block">
+                <span className="text-xs font-bold uppercase tracking-wider text-basari block">
                   Türkiye Türkçesi Anlamı
                 </span>
-                <p className="text-xs text-white leading-relaxed bg-[#152338] p-3 rounded-xl border border-[#233754]">
+                <p className="text-xs text-white leading-relaxed bg-zemin-3 p-3 rounded-xl border border-zemin-4">
                   "{activeLine.modernTurkish}"
                 </p>
               </div>
 
               {/* Historical Context */}
               {activeLine.historicalContext && (
-                <div className="bg-[#0B1320] border border-[#233754] p-3.5 rounded-xl space-y-1">
-                  <span className="text-[11px] font-bold text-[#2BC4C4] flex items-center gap-1.5">
+                <div className="bg-zemin border border-zemin-4 p-3.5 rounded-xl space-y-1">
+                  <span className="text-[11px] font-bold text-marka flex items-center gap-1.5">
                     <Info className="w-3.5 h-3.5" /> Tarihsel & Edebi Not
                   </span>
-                  <p className="text-xs text-[#9FB0C6] leading-relaxed">
+                  <p className="text-xs text-metin-2 leading-relaxed">
                     {activeLine.historicalContext}
                   </p>
                 </div>
@@ -192,10 +192,10 @@ export const KitabelerReader: React.FC = () => {
         </div>
       ) : (
         /* Academic Table Layout */
-        <div className="bg-[#101B2C] border border-[#233754] rounded-2xl overflow-hidden shadow-xl">
+        <div className="bg-zemin-2 border border-zemin-4 rounded-2xl overflow-hidden shadow-xl">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm">
-              <thead className="bg-[#152338] border-b border-[#233754] text-xs uppercase tracking-wider text-[#2BC4C4]">
+              <thead className="bg-zemin-3 border-b border-zemin-4 text-xs uppercase tracking-wider text-marka">
                 <tr>
                   <th className="py-3 px-4">Yazıt / Dize</th>
                   <th className="py-3 px-4 text-right">Runik Orijinal</th>
@@ -203,17 +203,17 @@ export const KitabelerReader: React.FC = () => {
                   <th className="py-3 px-4">Türkiye Türkçesi</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-[#233754]">
+              <tbody className="divide-y divide-zemin-4">
                 {filteredLines.map((line) => (
-                  <tr key={line.id} className="hover:bg-[#152338]/60 transition-colors">
+                  <tr key={line.id} className="hover:bg-zemin-3/60 transition-colors">
                     <td className="py-4 px-4 whitespace-nowrap align-top">
                       <span className="font-bold text-white block text-xs">{line.monument}</span>
-                      <span className="text-[11px] text-[#6C7F99]">{line.section} - Satır {line.line}</span>
+                      <span className="text-[11px] text-metin-3">{line.section} - Satır {line.line}</span>
                     </td>
                     <td className="py-4 px-4 text-right align-top">
-                      <span className="runic text-2xl text-[#2BC4C4] block leading-relaxed">{line.runic}</span>
+                      <span className="runic text-2xl text-marka block leading-relaxed">{line.runic}</span>
                     </td>
-                    <td className="py-4 px-4 align-top text-xs text-[#9FB0C6] italic font-serif">
+                    <td className="py-4 px-4 align-top text-xs text-metin-2 italic font-serif">
                       {line.transcription}
                     </td>
                     <td className="py-4 px-4 align-top text-xs text-white leading-relaxed">

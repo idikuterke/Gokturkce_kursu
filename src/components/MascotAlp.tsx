@@ -216,16 +216,16 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
 
       {/* Atmospheric Speech Bubble */}
       {speech && (
-        <div className="relative max-w-xs sm:max-w-sm px-4 py-3 rounded-2xl bg-[#0D242B] border border-[#1E4D57] shadow-lg text-left">
+        <div className="relative max-w-xs sm:max-w-sm px-4 py-3 rounded-2xl bg-[#0D242B] border border-derin shadow-lg text-left">
           {/* Arrow pointing to mascot */}
-          <div className="hidden sm:block absolute -left-2 top-1/2 -translate-y-1/2 w-0 h-0 border-t-[7px] border-t-transparent border-r-[8px] border-r-[#1E4D57] border-b-[7px] border-b-transparent" />
+          <div className="hidden sm:block absolute -left-2 top-1/2 -translate-y-1/2 w-0 h-0 border-t-[7px] border-t-transparent border-r-[8px] border-r-derin border-b-[7px] border-b-transparent" />
           <div className="hidden sm:block absolute -left-1.5 top-1/2 -translate-y-1/2 w-0 h-0 border-t-[6px] border-t-transparent border-r-[7px] border-r-[#0D242B] border-b-[6px] border-b-transparent" />
           
           <div className="flex items-center gap-1.5 mb-1">
-            <span className="text-[10px] font-bold text-[#F59E0B] tracking-wider uppercase font-serif">Bilge Alp</span>
-            <span className="text-[10px] text-[#2DD4BF] font-mono">· Kadim Rehber</span>
+            <span className="text-[10px] font-bold text-uyari tracking-wider uppercase font-serif">Bilge Alp</span>
+            <span className="text-[10px] text-marka-acik font-mono">· Kadim Rehber</span>
           </div>
-          <p className="text-xs sm:text-sm text-[#E2E8F0] leading-snug font-medium">
+          <p className="text-xs sm:text-sm text-metin-acik leading-snug font-medium">
             "{speech}"
           </p>
         </div>

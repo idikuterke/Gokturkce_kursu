@@ -1,0 +1,37 @@
+{
+  "aciklama": "Tema renk haritası. TEK KAYNAK burasıdır. Değiştirip `npm run tema:uygula` çalıştır: hem src/index.css içindeki @theme bloğu hem de bileşenlerdeki sınıf adları bu haritadan üretilir.",
+  "kullanim": "Bileşenlerde bg-marka / text-metin-2 / border-zemin-4 gibi yazılır; ham hex yazılmaz.",
+  "renkler": {
+    "marka":        { "hex": "#2BC4C4", "rol": "ana vurgu — düğme, aktif sekme, ilerleme" },
+    "marka-acik":   { "hex": "#2DD4BF", "rol": "vurgu açık tonu — degrade ucu, hover" },
+    "marka-koyu":   { "hex": "#25ADAD", "rol": "vurgu koyu tonu — basılı hâl" },
+    "marka-derin":  { "hex": "#0D9488", "rol": "vurgu en koyu ton — kenarlık" },
+
+    "zemin":        { "hex": "#0B1320", "rol": "sayfa zemini (en koyu)" },
+    "zemin-2":      { "hex": "#101B2C", "rol": "bölüm zemini" },
+    "zemin-3":      { "hex": "#152338", "rol": "kart zemini" },
+    "zemin-4":      { "hex": "#233754", "rol": "kart kenarlığı / ayırıcı" },
+
+    "metin":        { "hex": "#E6EDF5", "rol": "birincil metin" },
+    "metin-2":      { "hex": "#9FB0C6", "rol": "ikincil metin" },
+    "metin-3":      { "hex": "#6C7F99", "rol": "üçüncül metin / ipucu" },
+    "metin-4":      { "hex": "#94A3B8", "rol": "soluk metin" },
+    "metin-5":      { "hex": "#42597A", "rol": "en soluk metin / pasif" },
+    "metin-acik":   { "hex": "#E2E8F0", "rol": "açık yüzey üzerinde metin" },
+
+    "basari":       { "hex": "#37B36A", "rol": "doğru cevap, tamamlandı" },
+    "uyari":        { "hex": "#F59E0B", "rol": "uyarı, seri (streak), enerji" },
+    "uyari-acik":   { "hex": "#FBBF24", "rol": "uyarı açık tonu" },
+    "bilgi":        { "hex": "#3B82F6", "rol": "bilgi, bağlantı" },
+    "altin":        { "hex": "#C9A24A", "rol": "rozet, başarım" },
+
+    "derin":        { "hex": "#1E4D57", "rol": "turkuaz-koyu yüzey" },
+    "derin-2":      { "hex": "#102B33", "rol": "turkuaz-koyu yüzey 2" },
+    "derin-3":      { "hex": "#0C242A", "rol": "turkuaz-koyu yüzey 3" },
+    "derin-4":      { "hex": "#0B2026", "rol": "turkuaz-koyu yüzey 4" },
+    "derin-5":      { "hex": "#042023", "rol": "turkuaz-koyu yüzey 5 (en koyu)" },
+
+    "toprak":       { "hex": "#271C19", "rol": "taş/toprak dokusu — kitabe görünümü" },
+    "toprak-2":     { "hex": "#381E02", "rol": "taş/toprak dokusu 2" }
+  }
+}

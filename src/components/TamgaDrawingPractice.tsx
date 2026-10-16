@@ -144,15 +144,15 @@ export const TamgaDrawingPractice: React.FC<TamgaDrawingPracticeProps> = ({
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-[#1A3E45] pb-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="text-xs font-bold px-2 py-0.5 rounded bg-[#133840] text-[#2DD4BF] border border-[#20525C]">
+            <span className="text-xs font-bold px-2 py-0.5 rounded bg-[#133840] text-marka-acik border border-[#20525C]">
               Yazma Pratiği
             </span>
-            <span className="text-xs text-[#E2E8F0]/70">Bengü Taş Kazıma Tuvali</span>
+            <span className="text-xs text-metin-acik/70">Bengü Taş Kazıma Tuvali</span>
           </div>
           <h3 className="text-xl font-bold text-white font-serif mt-1 flex items-center gap-2">
             <span>Tamga Çizimi:</span>
-            <span className="text-[#F59E0B]">{selectedTamga.name}</span>
-            <span className="text-xs text-[#2DD4BF] font-mono">({selectedTamga.sound})</span>
+            <span className="text-uyari">{selectedTamga.name}</span>
+            <span className="text-xs text-marka-acik font-mono">({selectedTamga.sound})</span>
           </h3>
         </div>
 
@@ -164,8 +164,8 @@ export const TamgaDrawingPractice: React.FC<TamgaDrawingPracticeProps> = ({
               onClick={() => setSelectedTamga(t)}
               className={`w-9 h-9 rounded-xl flex items-center justify-center font-bold text-sm transition-all cursor-pointer ${
                 selectedTamga.rune === t.rune
-                  ? 'bg-[#2DD4BF] text-[#052327] shadow-md shadow-[#2DD4BF]/20 scale-105'
-                  : 'bg-[#102B33] hover:bg-[#163842] text-[#E2E8F0] border border-[#1E4953]'
+                  ? 'bg-marka-acik text-[#052327] shadow-md shadow-marka-acik/20 scale-105'
+                  : 'bg-derin-2 hover:bg-[#163842] text-metin-acik border border-[#1E4953]'
               }`}
             >
               <span className="runic">{t.rune}</span>
@@ -182,7 +182,7 @@ export const TamgaDrawingPractice: React.FC<TamgaDrawingPracticeProps> = ({
         {/* Subtle Reference Guide Template */}
         {showGuide && (
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
-            <span className="runic text-[140px] text-[#2DD4BF]/15 font-bold animate-pulse">
+            <span className="runic text-[140px] text-marka-acik/15 font-bold animate-pulse">
               {selectedTamga.rune}
             </span>
           </div>
@@ -204,7 +204,7 @@ export const TamgaDrawingPractice: React.FC<TamgaDrawingPracticeProps> = ({
         />
 
         {/* Hint banner at top */}
-        <div className="absolute top-3 left-3 right-3 flex items-center justify-between text-[11px] text-[#2DD4BF]/80 pointer-events-none z-20">
+        <div className="absolute top-3 left-3 right-3 flex items-center justify-between text-[11px] text-marka-acik/80 pointer-events-none z-20">
           <span>Parmağınla veya fareyle taşı yont</span>
           <span className="font-mono">Orhun Usulü</span>
         </div>
@@ -215,17 +215,17 @@ export const TamgaDrawingPractice: React.FC<TamgaDrawingPracticeProps> = ({
         <div className="flex items-center gap-2">
           <button
             onClick={() => setShowGuide(!showGuide)}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-[#112C34] hover:bg-[#183B47] text-[#E2E8F0] border border-[#1E4953] transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-[#112C34] hover:bg-[#183B47] text-metin-acik border border-[#1E4953] transition-colors cursor-pointer"
           >
-            {showGuide ? <EyeOff className="w-3.5 h-3.5 text-[#2DD4BF]" /> : <Eye className="w-3.5 h-3.5 text-[#2DD4BF]" />}
+            {showGuide ? <EyeOff className="w-3.5 h-3.5 text-marka-acik" /> : <Eye className="w-3.5 h-3.5 text-marka-acik" />}
             <span>{showGuide ? 'Şablonu Gizle' : 'Şablonu Göster'}</span>
           </button>
           
           <button
             onClick={clearCanvas}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-[#112C34] hover:bg-[#183B47] text-[#E2E8F0] border border-[#1E4953] transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold bg-[#112C34] hover:bg-[#183B47] text-metin-acik border border-[#1E4953] transition-colors cursor-pointer"
           >
-            <RotateCcw className="w-3.5 h-3.5 text-[#F59E0B]" />
+            <RotateCcw className="w-3.5 h-3.5 text-uyari" />
             <span>Temizle</span>
           </button>
         </div>
@@ -235,7 +235,7 @@ export const TamgaDrawingPractice: React.FC<TamgaDrawingPracticeProps> = ({
           disabled={!hasDrawn}
           className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold cursor-pointer transition-all ${
             hasDrawn
-              ? 'btn-3d-teal shadow-lg shadow-[#0D9488]/25'
+              ? 'btn-3d-teal shadow-lg shadow-marka-derin/25'
               : 'bg-[#132C33] text-gray-500 cursor-not-allowed opacity-60'
           }`}
         >
@@ -249,21 +249,21 @@ export const TamgaDrawingPractice: React.FC<TamgaDrawingPracticeProps> = ({
         <div className="animate-popIn p-4 rounded-xl bg-[#091D22] border border-[#20525C] flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-3">
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center font-bold text-lg font-mono ${
-              score >= 80 ? 'bg-[#2DD4BF] text-[#042023]' : 'bg-[#F59E0B] text-[#381E02]'
+              score >= 80 ? 'bg-marka-acik text-derin-5' : 'bg-uyari text-toprak-2'
             }`}>
               %{score}
             </div>
             <div>
               <p className="text-xs font-bold text-white flex items-center gap-1.5">
-                <Award className="w-4 h-4 text-[#F59E0B]" />
+                <Award className="w-4 h-4 text-uyari" />
                 {score >= 80 ? 'Yazım Onaylandı!' : 'Pratiğe Devam Et'}
               </p>
-              <p className="text-xs text-[#94A3B8]">{feedback}</p>
+              <p className="text-xs text-metin-4">{feedback}</p>
             </div>
           </div>
 
           {score >= 80 && (
-            <span className="text-xs font-bold text-[#F59E0B] px-3 py-1 rounded-full bg-[#F59E0B]/10 border border-[#F59E0B]/30 whitespace-nowrap">
+            <span className="text-xs font-bold text-uyari px-3 py-1 rounded-full bg-uyari/10 border border-uyari/30 whitespace-nowrap">
               +15 XP & Can Yenilendi
             </span>
           )}

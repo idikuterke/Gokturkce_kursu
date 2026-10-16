@@ -54,7 +54,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
   const getQuestIcon = (category: QuestCategory) => {
     switch (category) {
       case 'words':
-        return <BookOpen className="w-4 h-4 text-[#2BC4C4]" />;
+        return <BookOpen className="w-4 h-4 text-marka" />;
       case 'tamga_series':
         return <Layers className="w-4 h-4 text-purple-400" />;
       case 'lesson':
@@ -62,7 +62,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
       case 'listen':
         return <Volume2 className="w-4 h-4 text-emerald-400" />;
       default:
-        return <Target className="w-4 h-4 text-[#2BC4C4]" />;
+        return <Target className="w-4 h-4 text-marka" />;
     }
   };
 
@@ -102,43 +102,43 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
   };
 
   return (
-    <div className="bg-[#101B2C] border-2 border-[#233754] hover:border-[#2BC4C4]/50 rounded-2xl p-5 shadow-xl space-y-4 transition-all">
+    <div className="bg-zemin-2 border-2 border-zemin-4 hover:border-marka/50 rounded-2xl p-5 shadow-xl space-y-4 transition-all">
       {/* Header */}
-      <div className="flex items-center justify-between border-b border-[#233754] pb-3">
+      <div className="flex items-center justify-between border-b border-zemin-4 pb-3">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#2BC4C4] to-[#1E8A8A] flex items-center justify-center text-[#0B1320] font-bold shadow-md shadow-[#2BC4C4]/20">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-marka to-[#1E8A8A] flex items-center justify-center text-zemin font-bold shadow-md shadow-marka/20">
             <Target className="w-4 h-4" />
           </div>
           <div>
             <h3 className="text-sm font-bold text-white font-serif flex items-center gap-1.5">
               Günlük Görevler
-              <span className="text-[10px] font-sans font-semibold px-2 py-0.5 rounded-full bg-[#2BC4C4]/15 text-[#2BC4C4] border border-[#2BC4C4]/30">
+              <span className="text-[10px] font-sans font-semibold px-2 py-0.5 rounded-full bg-marka/15 text-marka border border-marka/30">
                 {completedCount}/{quests.length}
               </span>
             </h3>
-            <p className="text-[11px] text-[#9FB0C6]">Her gün tamamla, tamga ödülleri kazan</p>
+            <p className="text-[11px] text-metin-2">Her gün tamamla, tamga ödülleri kazan</p>
           </div>
         </div>
 
         {/* Reset Countdown */}
         <div 
           title="Yenilenme Vakti: Gece Yarısı 00:00"
-          className="flex items-center gap-1 text-[11px] text-[#9FB0C6] bg-[#152338] px-2.5 py-1 rounded-full border border-[#233754]"
+          className="flex items-center gap-1 text-[11px] text-metin-2 bg-zemin-3 px-2.5 py-1 rounded-full border border-zemin-4"
         >
-          <Clock className="w-3 h-3 text-[#2BC4C4]" />
+          <Clock className="w-3 h-3 text-marka" />
           <span>{timeLeft.hours}s {timeLeft.minutes}d</span>
         </div>
       </div>
 
       {/* Progress Bar of all quests */}
       <div className="space-y-1.5">
-        <div className="flex items-center justify-between text-xs text-[#9FB0C6]">
+        <div className="flex items-center justify-between text-xs text-metin-2">
           <span>Günün İlerlemesi</span>
           <span className="font-semibold text-white">%{totalProgressPercent}</span>
         </div>
-        <div className="w-full h-2 bg-[#152338] rounded-full overflow-hidden border border-[#233754]">
+        <div className="w-full h-2 bg-zemin-3 rounded-full overflow-hidden border border-zemin-4">
           <div 
-            className="h-full bg-gradient-to-r from-[#2BC4C4] to-[#37B36A] rounded-full transition-all duration-500 shadow-[0_0_10px_rgba(43,196,196,0.5)]"
+            className="h-full bg-gradient-to-r from-marka to-basari rounded-full transition-all duration-500 shadow-[0_0_10px_rgba(43,196,196,0.5)]"
             style={{ width: `${totalProgressPercent}%` }}
           />
         </div>
@@ -156,22 +156,22 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
               key={quest.id}
               className={`p-3 rounded-xl border transition-all ${
                 isClaimed
-                  ? 'bg-[#152338]/40 border-[#233754] opacity-75'
+                  ? 'bg-zemin-3/40 border-zemin-4 opacity-75'
                   : isFinished
-                  ? 'bg-gradient-to-r from-[#152338] to-[#1c304d] border-amber-400/50 shadow-md shadow-amber-400/5 ring-1 ring-amber-400/30'
-                  : 'bg-[#152338] border-[#233754] hover:border-[#2BC4C4]/40'
+                  ? 'bg-gradient-to-r from-zemin-3 to-[#1c304d] border-amber-400/50 shadow-md shadow-amber-400/5 ring-1 ring-amber-400/30'
+                  : 'bg-zemin-3 border-zemin-4 hover:border-marka/40'
               }`}
             >
               <div className="flex items-start justify-between gap-2 mb-1.5">
                 <div className="flex items-start gap-2.5 min-w-0">
-                  <div className="mt-0.5 p-1.5 rounded-lg bg-[#0B1320] border border-[#233754] flex-shrink-0">
+                  <div className="mt-0.5 p-1.5 rounded-lg bg-zemin border border-zemin-4 flex-shrink-0">
                     {getQuestIcon(quest.category)}
                   </div>
                   <div className="min-w-0">
                     <h4 className="text-xs font-bold text-white leading-snug truncate">
                       {quest.title}
                     </h4>
-                    <p className="text-[11px] text-[#9FB0C6] leading-tight line-clamp-1 mt-0.5">
+                    <p className="text-[11px] text-metin-2 leading-tight line-clamp-1 mt-0.5">
                       {quest.description}
                     </p>
                   </div>
@@ -180,7 +180,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
                 {/* Status or Claim Button */}
                 <div className="flex-shrink-0">
                   {isClaimed ? (
-                    <span className="inline-flex items-center gap-1 text-[11px] font-bold text-[#37B36A] bg-[#37B36A]/10 px-2 py-0.5 rounded-md border border-[#37B36A]/30">
+                    <span className="inline-flex items-center gap-1 text-[11px] font-bold text-basari bg-basari/10 px-2 py-0.5 rounded-md border border-basari/30">
                       <CheckCircle2 className="w-3 h-3" /> Alındı
                     </span>
                   ) : isFinished ? (
@@ -198,7 +198,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
                   ) : (
                     <button
                       onClick={() => handleActionClick(quest.category)}
-                      className="inline-flex items-center gap-1 text-[11px] text-[#2BC4C4] hover:text-white bg-[#0B1320] hover:bg-[#2BC4C4]/20 border border-[#233754] hover:border-[#2BC4C4] px-2 py-0.5 rounded-md transition-all"
+                      className="inline-flex items-center gap-1 text-[11px] text-marka hover:text-white bg-zemin hover:bg-marka/20 border border-zemin-4 hover:border-marka px-2 py-0.5 rounded-md transition-all"
                     >
                       <span>Yap</span>
                       <ArrowRight className="w-3 h-3" />
@@ -208,18 +208,18 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
               </div>
 
               {/* Progress and Reward Badges */}
-              <div className="flex items-center justify-between gap-3 text-[11px] mt-2 pt-1 border-t border-[#233754]/60">
+              <div className="flex items-center justify-between gap-3 text-[11px] mt-2 pt-1 border-t border-zemin-4/60">
                 {/* Progress bar */}
                 <div className="flex-1 flex items-center gap-2">
-                  <div className="flex-1 h-1.5 bg-[#0B1320] rounded-full overflow-hidden">
+                  <div className="flex-1 h-1.5 bg-zemin rounded-full overflow-hidden">
                     <div 
                       className={`h-full rounded-full transition-all duration-300 ${
-                        isFinished ? 'bg-[#37B36A]' : 'bg-[#2BC4C4]'
+                        isFinished ? 'bg-basari' : 'bg-marka'
                       }`}
                       style={{ width: `${progressPercent}%` }}
                     />
                   </div>
-                  <span className="text-[10px] font-mono text-[#9FB0C6] font-semibold">
+                  <span className="text-[10px] font-mono text-metin-2 font-semibold">
                     {quest.current}/{quest.target}
                   </span>
                 </div>
@@ -246,10 +246,10 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
       {/* Bozkır Kut Sandığı (Super Reward when all 4 are done) */}
       <div className={`p-4 rounded-xl border-2 transition-all relative overflow-hidden ${
         dailyQuests?.allCompletedBonusClaimed
-          ? 'bg-[#152338]/50 border-[#233754] opacity-80'
+          ? 'bg-zemin-3/50 border-zemin-4 opacity-80'
           : allQuestsCompleted
-          ? 'bg-gradient-to-r from-amber-500/20 via-[#152338] to-amber-500/20 border-amber-400 shadow-xl shadow-amber-400/10 ring-2 ring-amber-400/40'
-          : 'bg-gradient-to-br from-[#101B2C] to-[#152338] border-[#233754]'
+          ? 'bg-gradient-to-r from-amber-500/20 via-zemin-3 to-amber-500/20 border-amber-400 shadow-xl shadow-amber-400/10 ring-2 ring-amber-400/40'
+          : 'bg-gradient-to-br from-zemin-2 to-zemin-3 border-zemin-4'
       }`}>
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-3">
@@ -258,7 +258,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
                 ? 'bg-[#1b2b42] text-amber-400'
                 : allQuestsCompleted
                 ? 'bg-gradient-to-br from-amber-400 to-amber-600 text-slate-950 animate-pulse'
-                : 'bg-[#0B1320] border border-[#233754] text-[#6C7F99]'
+                : 'bg-zemin border border-zemin-4 text-metin-3'
             }`}>
               🎁
             </div>
@@ -269,7 +269,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
                   (Büyük Günlük Ödül)
                 </span>
               </h4>
-              <p className="text-[11px] text-[#9FB0C6]">
+              <p className="text-[11px] text-metin-2">
                 Tüm görevleri tamamla: <span className="text-amber-400 font-semibold">+50 XP</span> & <span className="text-rose-400 font-semibold">❤️ Tam Can</span>
               </p>
             </div>
@@ -292,7 +292,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
                 <span>Sandığı Aç!</span>
               </button>
             ) : (
-              <span className="text-[11px] text-[#6C7F99] bg-[#0B1320] px-2 py-1 rounded-md border border-[#233754]">
+              <span className="text-[11px] text-metin-3 bg-zemin px-2 py-1 rounded-md border border-zemin-4">
                 {completedCount}/4 Tamam
               </span>
             )}

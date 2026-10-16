@@ -27,20 +27,20 @@ export const DailyQuestsModal: React.FC<DailyQuestsModalProps> = ({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm animate-fadeIn">
       <div 
-        className="w-full max-w-lg bg-[#0B1320] border-2 border-[#2BC4C4] rounded-3xl shadow-2xl overflow-hidden animate-zoomIn"
+        className="w-full max-w-lg bg-zemin border-2 border-marka rounded-3xl shadow-2xl overflow-hidden animate-zoomIn"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Top Header */}
-        <div className="flex items-center justify-between px-6 py-4 bg-[#101B2C] border-b border-[#233754]">
+        <div className="flex items-center justify-between px-6 py-4 bg-zemin-2 border-b border-zemin-4">
           <div className="flex items-center gap-2">
-            <Target className="w-5 h-5 text-[#2BC4C4]" />
+            <Target className="w-5 h-5 text-marka" />
             <h2 className="text-base font-bold text-white font-serif">
               Günün Görevleri & Ödülleri
             </h2>
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-xl bg-[#152338] hover:bg-[#233754] text-[#9FB0C6] hover:text-white transition-colors"
+            className="p-1.5 rounded-xl bg-zemin-3 hover:bg-zemin-4 text-metin-2 hover:text-white transition-colors"
           >
             <X className="w-4 h-4" />
           </button>

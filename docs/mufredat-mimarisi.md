@@ -125,3 +125,34 @@ Onaylar şuralara yazılır:
 `dize` → `05_Kaynak_DB/orhun-db-v1.json` · `cumlecik` → `05_Kaynak_DB/cumlecikler-onayli.json` · `sozluk` → `05_Kaynak_DB/sozluk-anlamlar.json`
 
 Runik düzeltmesi **otomatik uygulanmaz** — rapora düşer, elle karar verilir.
+
+---
+
+## Tema Token Katmanı
+
+Tek kaynak: **`src/styles/tema.json`**. Renk değiştirmek = bu dosyada hex düzenlemek.
+
+```bash
+npm run tema:uygula   # @theme bloğunu, tema.ts'i ve bileşen sınıflarını yeniden üretir
+npm run tema:rapor    # henüz tokenleştirilmemiş ham renkleri listeler
+```
+
+Üretilen iki dosya **elle düzenlenmez**:
+
+| Dosya | İçerik | Kullanım |
+|---|---|---|
+| `src/index.css` → `@theme` bloğu | `--color-marka: #2BC4C4;` | Tailwind sınıfları: `bg-marka`, `text-metin-2` |
+| `src/styles/tema.ts` | `TEMA.marka` | SVG `fill`/`stroke`, recharts propları, inline style |
+
+26 token, 1076 sınıf dönüştürüldü. Dönüşüm doğrulandı: tam sayfa ekran
+görüntüsü (1280×9365) **piksel farkı sıfır**. Tek token değiştirildiğinde
+3536 piksel değişiyor — zincir çalışıyor.
+
+### Kalan ham renkler
+
+159 farklı renk / 315 kullanım hâlâ ham hex. Bunlar Tailwind sınıfı
+**değil**: maskot SVG'lerinin `fill` değerleri, grafik renkleri, inline
+style. Tokenleştirmek için `TEMA.marka` biçimine elle çevrilmeleri gerekir.
+`npm run tema:rapor` en çok kullanılanları sıralar.
+
+Yeni kod yazarken ham hex yazma — token yoksa `tema.json`'a ekle.

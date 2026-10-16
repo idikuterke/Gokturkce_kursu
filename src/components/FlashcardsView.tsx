@@ -146,15 +146,15 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#233754] pb-6">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zemin-4 pb-6">
         <div>
-          <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4] flex items-center gap-1.5">
+          <span className="text-xs font-bold uppercase tracking-widest text-marka flex items-center gap-1.5">
             <Layers className="w-3.5 h-3.5" /> Hızlı Ezber & Tekrar Modu
           </span>
           <h2 className="text-3xl font-bold text-white font-serif mt-1">
             Kartlarla Çalış (Flashcards)
           </h2>
-          <p className="text-sm text-[#9FB0C6] mt-1">
+          <p className="text-sm text-metin-2 mt-1">
             Ön yüzde runik tamga, arka yüzde okunuşu ve imla ipuçları. Boşluk tuşu ile kartı çevirebilirsiniz.
           </p>
         </div>
@@ -162,9 +162,9 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
         {/* Shuffle Button */}
         <button
           onClick={handleShuffle}
-          className="flex items-center gap-2 px-4 py-2 bg-[#101B2C] hover:bg-[#152338] border border-[#233754] hover:border-[#2BC4C4] rounded-xl text-xs font-semibold text-[#E6EDF5] transition-colors self-start sm:self-auto"
+          className="flex items-center gap-2 px-4 py-2 bg-zemin-2 hover:bg-zemin-3 border border-zemin-4 hover:border-marka rounded-xl text-xs font-semibold text-metin transition-colors self-start sm:self-auto"
         >
-          <Shuffle className="w-4 h-4 text-[#2BC4C4]" />
+          <Shuffle className="w-4 h-4 text-marka" />
           <span>Karıştır</span>
         </button>
       </div>
@@ -186,8 +186,8 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
             }}
             className={`px-3.5 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all ${
               filter === tab.id
-                ? 'bg-[#2BC4C4] text-[#0B1320] shadow-md shadow-[#2BC4C4]/20'
-                : 'bg-[#101B2C] text-[#9FB0C6] hover:text-white border border-[#233754]'
+                ? 'bg-marka text-zemin shadow-md shadow-marka/20'
+                : 'bg-zemin-2 text-metin-2 hover:text-white border border-zemin-4'
             }`}
           >
             {tab.label}
@@ -198,11 +198,11 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
       {/* Progress & Counter */}
       <div className="space-y-2">
         <div className="flex items-center justify-between text-xs font-semibold">
-          <span className="text-[#9FB0C6]">
+          <span className="text-metin-2">
             Kart: <span className="text-white">{currentIndex + 1}</span> / {deck.length}
           </span>
           <div className="flex items-center gap-4">
-            <span className="text-[#37B36A] flex items-center gap-1">
+            <span className="text-basari flex items-center gap-1">
               <CheckCircle2 className="w-3.5 h-3.5" /> {knownCount} Öğrenildi
             </span>
             <span className="text-amber-400 flex items-center gap-1">
@@ -210,9 +210,9 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
             </span>
           </div>
         </div>
-        <div className="w-full h-2 bg-[#101B2C] rounded-full overflow-hidden border border-[#233754]">
+        <div className="w-full h-2 bg-zemin-2 rounded-full overflow-hidden border border-zemin-4">
           <div
-            className="h-full bg-gradient-to-r from-[#2BC4C4] to-[#37B36A] transition-all duration-300 rounded-full"
+            className="h-full bg-gradient-to-r from-marka to-basari transition-all duration-300 rounded-full"
             style={{ width: `${Math.round(((currentIndex + 1) / deck.length) * 100)}%` }}
           />
         </div>
@@ -232,10 +232,10 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
               }`}
             >
               {/* FRONT FACE: TAMGA */}
-              <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] bg-gradient-to-br from-[#101B2C] via-[#152338] to-[#0e1726] border-2 border-[#2BC4C4]/60 group-hover:border-[#2BC4C4] rounded-3xl p-8 flex flex-col justify-between items-center text-center shadow-2xl shadow-[#2BC4C4]/10 transition-colors">
+              <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] bg-gradient-to-br from-zemin-2 via-zemin-3 to-[#0e1726] border-2 border-marka/60 group-hover:border-marka rounded-3xl p-8 flex flex-col justify-between items-center text-center shadow-2xl shadow-marka/10 transition-colors">
                 {/* Top card pill */}
                 <div className="w-full flex items-center justify-between">
-                  <span className="text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-[#0B1320] text-[#2BC4C4] border border-[#233754]">
+                  <span className="text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-zemin text-marka border border-zemin-4">
                     {currentCard.category.toUpperCase()}
                   </span>
                   <div className="flex items-center gap-2">
@@ -245,12 +245,12 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
                         e.stopPropagation();
                         speakTamgaOrWord(currentCard.rune, currentCard.sound);
                       }}
-                      className="p-1.5 rounded-full bg-[#0B1320] hover:bg-[#2BC4C4]/20 text-[#2BC4C4] border border-[#233754] transition-colors"
+                      className="p-1.5 rounded-full bg-zemin hover:bg-marka/20 text-marka border border-zemin-4 transition-colors"
                       title="Telaffuzu Dinle"
                     >
                       <Volume2 className="w-3.5 h-3.5" />
                     </button>
-                    <span className="text-xs text-[#6C7F99] font-mono">
+                    <span className="text-xs text-metin-3 font-mono">
                       {currentCard.codePoint}
                     </span>
                   </div>
@@ -258,35 +258,35 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
 
                 {/* Giant Centered Stone Rune */}
                 <div className="my-auto flex flex-col items-center">
-                  <span className="runic text-8xl sm:text-9xl font-bold text-white group-hover:text-[#2BC4C4] transition-colors leading-none drop-shadow-[0_8px_24px_rgba(43,196,196,0.3)]">
+                  <span className="runic text-8xl sm:text-9xl font-bold text-white group-hover:text-marka transition-colors leading-none drop-shadow-[0_8px_24px_rgba(43,196,196,0.3)]">
                     {currentCard.rune}
                   </span>
                 </div>
 
                 {/* Bottom Hint */}
-                <div className="w-full flex items-center justify-center gap-1.5 text-xs text-[#6C7F99] group-hover:text-[#9FB0C6] transition-colors">
+                <div className="w-full flex items-center justify-center gap-1.5 text-xs text-metin-3 group-hover:text-metin-2 transition-colors">
                   <RotateCw className="w-3.5 h-3.5" />
                   <span>Okunuşunu görmek için karta tıkla veya boşluk (space) tuşuna bas</span>
                 </div>
               </div>
 
               {/* BACK FACE: SOUND & MEANING */}
-              <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-gradient-to-br from-[#152338] via-[#101B2C] to-[#0d1624] border-2 border-[#C9A24A]/70 group-hover:border-[#C9A24A] rounded-3xl p-8 flex flex-col justify-between text-left shadow-2xl shadow-black/60 transition-colors">
+              <div className="absolute inset-0 w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-gradient-to-br from-zemin-3 via-zemin-2 to-[#0d1624] border-2 border-altin/70 group-hover:border-altin rounded-3xl p-8 flex flex-col justify-between text-left shadow-2xl shadow-black/60 transition-colors">
                 {/* Top header */}
-                <div className="flex items-center justify-between border-b border-[#233754] pb-3">
+                <div className="flex items-center justify-between border-b border-zemin-4 pb-3">
                   <div>
-                    <span className="text-[10px] font-bold uppercase tracking-widest text-[#C9A24A] block">
+                    <span className="text-[10px] font-bold uppercase tracking-widest text-altin block">
                       Okunuş & Tahlil
                     </span>
                     <h3 className="text-xl font-bold text-white font-serif">{currentCard.name}</h3>
                   </div>
                   <div className="text-right">
-                    <span className="runic text-4xl text-[#2BC4C4] leading-none">{currentCard.rune}</span>
+                    <span className="runic text-4xl text-marka leading-none">{currentCard.rune}</span>
                   </div>
                 </div>
 
                 {/* Big Phonetic Sound Showcase */}
-                <div className="bg-[#0B1320] p-4 rounded-2xl border border-[#233754] flex items-center justify-between">
+                <div className="bg-zemin p-4 rounded-2xl border border-zemin-4 flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <button
                       type="button"
@@ -295,16 +295,16 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
                         speakTamgaOrWord(currentCard.rune, currentCard.sound);
                         if (onListenPronunciation) onListenPronunciation();
                       }}
-                      className="p-2 rounded-xl bg-[#152338] hover:bg-[#2BC4C4]/20 text-[#2BC4C4] border border-[#233754] hover:border-[#2BC4C4] transition-colors"
+                      className="p-2 rounded-xl bg-zemin-3 hover:bg-marka/20 text-marka border border-zemin-4 hover:border-marka transition-colors"
                       title="Sesi Dinle"
                     >
                       <Volume2 className="w-4 h-4" />
                     </button>
                     <div>
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-[#6C7F99] block">
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-metin-3 block">
                         Fonetik Ses Değeri
                       </span>
-                      <span className="text-2xl font-bold text-[#2BC4C4] font-serif">{currentCard.sound}</span>
+                      <span className="text-2xl font-bold text-marka font-serif">{currentCard.sound}</span>
                     </div>
                   </div>
                   {currentCard.type && (
@@ -321,9 +321,9 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
                 </div>
 
                 {/* Example Inscription Word */}
-                <div className="space-y-1 bg-[#0B1320] p-3.5 rounded-2xl border border-[#233754]">
+                <div className="space-y-1 bg-zemin p-3.5 rounded-2xl border border-zemin-4">
                   <div className="flex items-center justify-between">
-                    <span className="text-[10px] uppercase font-bold text-[#6C7F99] block tracking-wider">
+                    <span className="text-[10px] uppercase font-bold text-metin-3 block tracking-wider">
                       Yazıtlardan Örnek
                     </span>
                     <button
@@ -333,7 +333,7 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
                         speakTamgaOrWord(currentCard.exampleWord);
                         if (onListenPronunciation) onListenPronunciation();
                       }}
-                      className="text-xs text-[#2BC4C4] hover:text-white flex items-center gap-1 transition-colors"
+                      className="text-xs text-marka hover:text-white flex items-center gap-1 transition-colors"
                       title="Örnek Kelimeyi Dinle"
                     >
                       <Volume2 className="w-3 h-3" />
@@ -347,7 +347,7 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
                 </div>
 
                 {/* Mnemonic Hook */}
-                <p className="text-xs text-[#9FB0C6] italic bg-[#0B1320]/60 p-2.5 rounded-xl border border-[#233754]">
+                <p className="text-xs text-metin-2 italic bg-zemin/60 p-2.5 rounded-xl border border-zemin-4">
                   💡 {currentCard.mnemonicHint}
                 </p>
               </div>
@@ -362,8 +362,8 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
               disabled={currentIndex === 0}
               className={`py-3 px-4 rounded-2xl border text-xs font-semibold flex items-center justify-center gap-1.5 transition-all ${
                 currentIndex === 0
-                  ? 'bg-[#101B2C] border-[#233754] text-[#6C7F99] cursor-not-allowed'
-                  : 'bg-[#152338] border-[#233754] text-white hover:border-[#3B82F6]'
+                  ? 'bg-zemin-2 border-zemin-4 text-metin-3 cursor-not-allowed'
+                  : 'bg-zemin-3 border-zemin-4 text-white hover:border-bilgi'
               }`}
             >
               <ArrowLeft className="w-4 h-4" />
@@ -373,9 +373,9 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
             {/* Flip toggle */}
             <button
               onClick={handleFlip}
-              className="py-3 px-4 rounded-2xl bg-[#101B2C] hover:bg-[#152338] border border-[#233754] hover:border-[#2BC4C4] text-white text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors"
+              className="py-3 px-4 rounded-2xl bg-zemin-2 hover:bg-zemin-3 border border-zemin-4 hover:border-marka text-white text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors"
             >
-              <RotateCw className="w-4 h-4 text-[#2BC4C4]" />
+              <RotateCw className="w-4 h-4 text-marka" />
               <span>{isFlipped ? 'Tamgaya Dön' : 'Çevir'}</span>
             </button>
 
@@ -391,7 +391,7 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
             {/* Biliyorum (Mastered) */}
             <button
               onClick={handleMarkKnown}
-              className="py-3 px-4 rounded-2xl bg-[#37B36A] hover:bg-[#2ea35d] text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-colors shadow-lg shadow-[#37B36A]/20"
+              className="py-3 px-4 rounded-2xl bg-basari hover:bg-[#2ea35d] text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-colors shadow-lg shadow-basari/20"
             >
               <CheckCircle2 className="w-4 h-4" />
               <span>Biliyorum (+5 XP)</span>
@@ -400,30 +400,30 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
         </div>
       ) : (
         /* Completion screen */
-        <div className="max-w-md mx-auto bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
-          <div className="w-20 h-20 mx-auto rounded-full bg-[#2BC4C4]/15 border-2 border-[#2BC4C4] flex items-center justify-center text-[#2BC4C4]">
+        <div className="max-w-md mx-auto bg-zemin-2 border-2 border-marka rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
+          <div className="w-20 h-20 mx-auto rounded-full bg-marka/15 border-2 border-marka flex items-center justify-center text-marka">
             <Award className="w-10 h-10" />
           </div>
 
           <div className="space-y-2">
-            <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4]">
+            <span className="text-xs font-bold uppercase tracking-widest text-marka">
               Tebrikler Alpım!
             </span>
             <h3 className="text-2xl font-bold text-white font-serif">
               Kart Turunu Tamamladın
             </h3>
-            <p className="text-sm text-[#9FB0C6]">
+            <p className="text-sm text-metin-2">
               Seçilen gruptaki tüm tamgaları gözden geçirdin. Hafızanı taze tutmak için dilediğin zaman kartları karıştırıp yeniden başlayabilirsin.
             </p>
           </div>
 
           {/* Daily Quest completion badge */}
-          <div className="bg-[#152338] border border-[#2BC4C4]/40 rounded-2xl p-3 flex items-center justify-between text-left">
+          <div className="bg-zemin-3 border border-marka/40 rounded-2xl p-3 flex items-center justify-between text-left">
             <div className="flex items-center gap-2.5">
               <span className="text-xl">🎯</span>
               <div>
                 <span className="text-xs font-bold text-white block">Günlük Görev İlerlemesi</span>
-                <span className="text-[11px] text-[#2BC4C4] font-semibold">&quot;Bir Tamga Serisi Tamamla&quot; görevin kaydedildi!</span>
+                <span className="text-[11px] text-marka font-semibold">&quot;Bir Tamga Serisi Tamamla&quot; görevin kaydedildi!</span>
               </div>
             </div>
             <span className="text-xs font-bold text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded-lg border border-amber-400/30">
@@ -432,19 +432,19 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
           </div>
 
           <div className="grid grid-cols-2 gap-4 py-2">
-            <div className="bg-[#152338] border border-[#233754] p-4 rounded-2xl">
-              <span className="text-xs text-[#9FB0C6] block mb-1">Öğrenilen</span>
-              <span className="text-2xl font-bold text-[#37B36A]">{knownCount}</span>
+            <div className="bg-zemin-3 border border-zemin-4 p-4 rounded-2xl">
+              <span className="text-xs text-metin-2 block mb-1">Öğrenilen</span>
+              <span className="text-2xl font-bold text-basari">{knownCount}</span>
             </div>
-            <div className="bg-[#152338] border border-[#233754] p-4 rounded-2xl">
-              <span className="text-xs text-[#9FB0C6] block mb-1">Tekrar Edilecek</span>
+            <div className="bg-zemin-3 border border-zemin-4 p-4 rounded-2xl">
+              <span className="text-xs text-metin-2 block mb-1">Tekrar Edilecek</span>
               <span className="text-2xl font-bold text-amber-400">{reviewCount}</span>
             </div>
           </div>
 
           <button
             onClick={handleRestart}
-            className="w-full py-3.5 rounded-2xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-sm shadow-xl shadow-[#2BC4C4]/20 transition-transform active:scale-95 flex items-center justify-center gap-2"
+            className="w-full py-3.5 rounded-2xl bg-marka hover:bg-marka-koyu text-zemin font-bold text-sm shadow-xl shadow-marka/20 transition-transform active:scale-95 flex items-center justify-center gap-2"
           >
             <RotateCcw className="w-4 h-4" />
             <span>Yeniden Başla</span>

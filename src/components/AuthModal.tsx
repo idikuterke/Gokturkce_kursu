@@ -95,15 +95,15 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
         <button
           onClick={onClose}
           aria-label="Kapat"
-          className="absolute top-5 right-5 p-2 rounded-xl bg-[#112F37] hover:bg-[#183E48] text-[#94A3B8] hover:text-white transition-colors"
+          className="absolute top-5 right-5 p-2 rounded-xl bg-[#112F37] hover:bg-[#183E48] text-metin-4 hover:text-white transition-colors"
         >
           <X className="w-5 h-5" />
         </button>
 
         <div className="space-y-1 mb-5">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-[#2DD4BF]">Hesap</span>
+          <span className="text-[11px] font-bold uppercase tracking-wider text-marka-acik">Hesap</span>
           <h2 className="text-2xl font-bold text-white font-serif">{title}</h2>
-          <p className="text-xs text-[#9FB0C6] leading-snug">
+          <p className="text-xs text-metin-2 leading-snug">
             İlerlemen hesabına kaydedilir; telefonda ve bilgisayarda aynı yerden devam edersin.
           </p>
         </div>
@@ -126,7 +126,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                 }
               }}
               disabled={isBusy}
-              className="w-full py-3 mb-4 rounded-xl bg-white hover:bg-[#F1F5F9] text-[#0B1320] font-bold text-sm transition-colors active:scale-95 flex items-center justify-center gap-2.5 disabled:opacity-60"
+              className="w-full py-3 mb-4 rounded-xl bg-white hover:bg-[#F1F5F9] text-zemin font-bold text-sm transition-colors active:scale-95 flex items-center justify-center gap-2.5 disabled:opacity-60"
             >
               <GoogleLogo />
               Google ile devam et
@@ -134,7 +134,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
             <div className="flex items-center gap-3 mb-4">
               <span className="flex-1 h-px bg-[#1B434C]" />
-              <span className="text-[11px] text-[#6C7F99] uppercase tracking-wider">veya</span>
+              <span className="text-[11px] text-metin-3 uppercase tracking-wider">veya</span>
               <span className="flex-1 h-px bg-[#1B434C]" />
             </div>
           </>
@@ -144,14 +144,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
           {mode === 'signUp' && (
             <label className="block">
               <span className="sr-only">Görünen ad</span>
-              <div className="flex items-center gap-2 px-3 rounded-xl bg-[#091D22] border border-[#1B434C] focus-within:border-[#2DD4BF] transition-colors">
-                <UserIcon className="w-4 h-4 text-[#6C7F99]" />
+              <div className="flex items-center gap-2 px-3 rounded-xl bg-[#091D22] border border-[#1B434C] focus-within:border-marka-acik transition-colors">
+                <UserIcon className="w-4 h-4 text-metin-3" />
                 <input
                   type="text"
                   value={displayName}
                   onChange={(e) => setDisplayName(e.target.value)}
                   placeholder="Adın (isteğe bağlı)"
-                  className="flex-1 bg-transparent py-3 text-sm text-white placeholder:text-[#6C7F99] outline-none"
+                  className="flex-1 bg-transparent py-3 text-sm text-white placeholder:text-metin-3 outline-none"
                 />
               </div>
             </label>
@@ -159,8 +159,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
           <label className="block">
             <span className="sr-only">E-posta</span>
-            <div className="flex items-center gap-2 px-3 rounded-xl bg-[#091D22] border border-[#1B434C] focus-within:border-[#2DD4BF] transition-colors">
-              <Mail className="w-4 h-4 text-[#6C7F99]" />
+            <div className="flex items-center gap-2 px-3 rounded-xl bg-[#091D22] border border-[#1B434C] focus-within:border-marka-acik transition-colors">
+              <Mail className="w-4 h-4 text-metin-3" />
               <input
                 type="email"
                 required
@@ -168,7 +168,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="E-posta"
-                className="flex-1 bg-transparent py-3 text-sm text-white placeholder:text-[#6C7F99] outline-none"
+                className="flex-1 bg-transparent py-3 text-sm text-white placeholder:text-metin-3 outline-none"
               />
             </div>
           </label>
@@ -176,8 +176,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
           {mode !== 'reset' && (
             <label className="block">
               <span className="sr-only">Parola</span>
-              <div className="flex items-center gap-2 px-3 rounded-xl bg-[#091D22] border border-[#1B434C] focus-within:border-[#2DD4BF] transition-colors">
-                <Lock className="w-4 h-4 text-[#6C7F99]" />
+              <div className="flex items-center gap-2 px-3 rounded-xl bg-[#091D22] border border-[#1B434C] focus-within:border-marka-acik transition-colors">
+                <Lock className="w-4 h-4 text-metin-3" />
                 <input
                   type="password"
                   required
@@ -186,7 +186,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Parola (en az 6 karakter)"
-                  className="flex-1 bg-transparent py-3 text-sm text-white placeholder:text-[#6C7F99] outline-none"
+                  className="flex-1 bg-transparent py-3 text-sm text-white placeholder:text-metin-3 outline-none"
                 />
               </div>
             </label>
@@ -198,7 +198,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
             </p>
           )}
           {notice && (
-            <p className="text-xs text-[#37B36A] bg-[#37B36A]/10 border border-[#37B36A]/30 rounded-xl px-3 py-2">
+            <p className="text-xs text-basari bg-basari/10 border border-basari/30 rounded-xl px-3 py-2">
               {notice}
             </p>
           )}
@@ -206,7 +206,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
           <button
             type="submit"
             disabled={isBusy}
-            className="w-full py-3 rounded-xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-sm transition-colors active:scale-95 flex items-center justify-center gap-2 disabled:opacity-60"
+            className="w-full py-3 rounded-xl bg-marka hover:bg-marka-koyu text-zemin font-bold text-sm transition-colors active:scale-95 flex items-center justify-center gap-2 disabled:opacity-60"
           >
             {isBusy && <Loader2 className="w-4 h-4 animate-spin" />}
             {mode === 'signIn' ? 'Giriş Yap' : mode === 'signUp' ? 'Hesap Oluştur' : 'Bağlantı Gönder'}
@@ -215,23 +215,23 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
         <div className="mt-4 flex flex-wrap items-center justify-between gap-2 text-xs">
           {mode !== 'signUp' ? (
-            <button onClick={() => { setMode('signUp'); setError(null); setNotice(null); }} className="text-[#2DD4BF] hover:text-white font-bold">
+            <button onClick={() => { setMode('signUp'); setError(null); setNotice(null); }} className="text-marka-acik hover:text-white font-bold">
               Hesabın yok mu? Oluştur
             </button>
           ) : (
-            <button onClick={() => { setMode('signIn'); setError(null); setNotice(null); }} className="text-[#2DD4BF] hover:text-white font-bold">
+            <button onClick={() => { setMode('signIn'); setError(null); setNotice(null); }} className="text-marka-acik hover:text-white font-bold">
               Zaten hesabın var mı? Giriş yap
             </button>
           )}
           {mode !== 'reset' && (
-            <button onClick={() => { setMode('reset'); setError(null); setNotice(null); }} className="text-[#6C7F99] hover:text-white">
+            <button onClick={() => { setMode('reset'); setError(null); setNotice(null); }} className="text-metin-3 hover:text-white">
               Parolamı unuttum
             </button>
           )}
         </div>
 
-        <p className="mt-4 pt-4 border-t border-[#183E47] text-[11px] text-[#6C7F99] flex items-start gap-1.5 leading-snug">
-          <CloudUpload className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-[#2DD4BF]" />
+        <p className="mt-4 pt-4 border-t border-[#183E47] text-[11px] text-metin-3 flex items-start gap-1.5 leading-snug">
+          <CloudUpload className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-marka-acik" />
           Bu cihazdaki mevcut ilerlemen giriş yaptığında hesabınla birleştirilir; hiçbir şey kaybolmaz.
         </p>
       </div>

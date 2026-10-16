@@ -25,7 +25,7 @@ if (rootElement) {
     <React.StrictMode>
       <ErrorBoundary>
         {DenetimView ? (
-          <Suspense fallback={<p className="p-8 text-[#6C7F99]">Denetim ekranı yükleniyor…</p>}>
+          <Suspense fallback={<p className="p-8 text-metin-3">Denetim ekranı yükleniyor…</p>}>
             <DenetimView />
           </Suspense>
         ) : (

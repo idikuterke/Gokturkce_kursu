@@ -62,34 +62,34 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 space-y-8">
       {/* Page Title & Profile Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-[#1E4D57]">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-derin">
         <div>
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#2DD4BF] mb-1">
-            <Award className="w-4 h-4 text-[#F59E0B]" />
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-marka-acik mb-1">
+            <Award className="w-4 h-4 text-uyari" />
             <span>Kullanıcı Profili & Gelişim Paneli</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-white font-serif tracking-tight">
             Alp Karnesi & İstatistikler
           </h1>
-          <p className="text-sm text-[#94A3B8] mt-1">
+          <p className="text-sm text-metin-4 mt-1">
             Bozkır yolculuğundaki kadim rütbeleriniz, ardışık alev seriniz ve kazanılan tecrübeler.
           </p>
         </div>
 
         {/* User Rank & Summary Card */}
-        <div className="flex items-center gap-4 bg-[#0C242A] border border-[#1E4D57] px-4 py-3 rounded-2xl shadow-lg">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#2DD4BF] to-[#0D9488] flex items-center justify-center text-[#042023] font-serif text-2xl font-bold shadow-md shadow-[#2DD4BF]/20">
+        <div className="flex items-center gap-4 bg-derin-3 border border-derin px-4 py-3 rounded-2xl shadow-lg">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-marka-acik to-marka-derin flex items-center justify-center text-derin-5 font-serif text-2xl font-bold shadow-md shadow-marka-acik/20">
             𐱅
           </div>
           <div>
             <div className="flex items-center gap-2">
               <span className="text-base font-bold text-white font-serif">{progress.rank} Alp</span>
-              <span className="text-[10px] font-sans font-bold px-2 py-0.5 rounded-full bg-[#F59E0B]/15 text-[#F59E0B] border border-[#F59E0B]/30">
+              <span className="text-[10px] font-sans font-bold px-2 py-0.5 rounded-full bg-uyari/15 text-uyari border border-uyari/30">
                 Mevcut Rütbe
               </span>
             </div>
-            <p className="text-xs text-[#94A3B8] flex items-center gap-2 mt-0.5">
-              <span className="text-[#F59E0B] font-bold flex items-center gap-0.5">
+            <p className="text-xs text-metin-4 flex items-center gap-2 mt-0.5">
+              <span className="text-uyari font-bold flex items-center gap-0.5">
                 <Zap className="w-3 h-3 fill-current" /> {progress.xp} XP
               </span>
               <span>•</span>
@@ -102,13 +102,13 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
       </div>
 
       {/* Görsel Bozkır Rütbe Basamakları (Steppe Rank Ladders) */}
-      <div className="bg-[#0C242A] border border-[#1E4D57] rounded-3xl p-6 shadow-xl space-y-4 text-left">
+      <div className="bg-derin-3 border border-derin rounded-3xl p-6 shadow-xl space-y-4 text-left">
         <div className="flex items-center justify-between border-b border-[#1A434C] pb-3">
           <div className="flex items-center gap-2">
-            <Shield className="w-5 h-5 text-[#F59E0B]" />
+            <Shield className="w-5 h-5 text-uyari" />
             <h3 className="text-base font-bold text-white font-serif">Bozkır Rütbe Basamakları</h3>
           </div>
-          <span className="text-xs text-[#2DD4BF] font-mono">
+          <span className="text-xs text-marka-acik font-mono">
             {progress.xp} XP Toplam
           </span>
         </div>
@@ -130,25 +130,25 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                 key={r.title}
                 className={`relative p-3.5 rounded-2xl border text-center transition-all ${
                   isCurrent
-                    ? 'bg-gradient-to-b from-[#163F49] to-[#0A2227] border-[#F59E0B] shadow-lg shadow-[#F59E0B]/20 scale-105 ring-1 ring-[#F59E0B]'
+                    ? 'bg-gradient-to-b from-[#163F49] to-[#0A2227] border-uyari shadow-lg shadow-uyari/20 scale-105 ring-1 ring-uyari'
                     : isAttained
                     ? 'bg-[#0E2930] border-[#1C4B54] text-white opacity-95'
                     : 'bg-[#08181C] border-[#143238] text-gray-500 opacity-60'
                 }`}
               >
                 {isCurrent && (
-                  <span className="absolute -top-2 left-1/2 -translate-x-1/2 px-2 py-0.2 rounded-full text-[9px] font-black tracking-wider uppercase bg-[#F59E0B] text-[#381E02]">
+                  <span className="absolute -top-2 left-1/2 -translate-x-1/2 px-2 py-0.2 rounded-full text-[9px] font-black tracking-wider uppercase bg-uyari text-toprak-2">
                     ŞU AN
                   </span>
                 )}
 
                 <div className="text-xl mb-1">{r.icon}</div>
-                <div className="runic text-2xl font-bold my-0.5 text-[#2DD4BF]">
+                <div className="runic text-2xl font-bold my-0.5 text-marka-acik">
                   {r.rune}
                 </div>
                 <h4 className="text-xs font-bold text-white font-serif">{r.title}</h4>
-                <p className="text-[10px] text-[#94A3B8]">{r.role}</p>
-                <span className="inline-block mt-1 text-[9px] font-mono px-1.5 py-0.5 rounded bg-[#07161A] text-[#F59E0B]">
+                <p className="text-[10px] text-metin-4">{r.role}</p>
+                <span className="inline-block mt-1 text-[9px] font-mono px-1.5 py-0.5 rounded bg-[#07161A] text-uyari">
                   {r.minXp} XP
                 </span>
               </div>
@@ -160,10 +160,10 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
       {/* 4 Key Summary Stats Cards */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Total Learned Words */}
-        <div className="bg-[#101B2C] border border-[#233754] hover:border-[#2BC4C4]/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
-          <div className="flex items-center justify-between text-[#9FB0C6]">
+        <div className="bg-zemin-2 border border-zemin-4 hover:border-marka/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-metin-2">
             <span className="text-xs font-semibold">Öğrenilen Kelimeler</span>
-            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-[#2BC4C4]">
+            <div className="p-2 rounded-xl bg-zemin border border-zemin-4 text-marka">
               <BookOpen className="w-4 h-4" />
             </div>
           </div>
@@ -171,25 +171,25 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
             <span className="text-2xl sm:text-3xl font-bold text-white font-mono">
               {learnedWordsCount}
             </span>
-            <span className="text-xs text-[#9FB0C6]">/ {totalDictionaryWords}</span>
+            <span className="text-xs text-metin-2">/ {totalDictionaryWords}</span>
           </div>
-          <div className="w-full h-1.5 bg-[#0B1320] rounded-full overflow-hidden mt-1">
+          <div className="w-full h-1.5 bg-zemin rounded-full overflow-hidden mt-1">
             <div 
-              className="h-full bg-[#2BC4C4] rounded-full transition-all duration-500"
+              className="h-full bg-marka rounded-full transition-all duration-500"
               style={{ width: `${Math.max(5, wordMasteryPercent)}%` }}
             />
           </div>
-          <p className="text-[11px] text-[#9FB0C6] flex items-center justify-between pt-1">
+          <p className="text-[11px] text-metin-2 flex items-center justify-between pt-1">
             <span>Sözlük Haznesi</span>
-            <span className="text-[#2BC4C4] font-semibold">%{wordMasteryPercent}</span>
+            <span className="text-marka font-semibold">%{wordMasteryPercent}</span>
           </p>
         </div>
 
         {/* Current Active Streak */}
-        <div className="bg-[#101B2C] border border-[#233754] hover:border-orange-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
-          <div className="flex items-center justify-between text-[#9FB0C6]">
+        <div className="bg-zemin-2 border border-zemin-4 hover:border-orange-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-metin-2">
             <span className="text-xs font-semibold">Aktif Seri (Streak)</span>
-            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-orange-400">
+            <div className="p-2 rounded-xl bg-zemin border border-zemin-4 text-orange-400">
               <Flame className="w-4 h-4" />
             </div>
           </div>
@@ -197,18 +197,18 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
             <span className="text-2xl sm:text-3xl font-bold text-orange-400 font-mono">
               {progress.streak}
             </span>
-            <span className="text-xs text-[#9FB0C6]">Gün Kesintisiz</span>
+            <span className="text-xs text-metin-2">Gün Kesintisiz</span>
           </div>
-          <p className="text-[11px] text-[#9FB0C6] pt-1">
+          <p className="text-[11px] text-metin-2 pt-1">
             Her gün bir tamga veya ders tamamlayarak seriyi koru.
           </p>
         </div>
 
         {/* Total XP Earned */}
-        <div className="bg-[#101B2C] border border-[#233754] hover:border-amber-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
-          <div className="flex items-center justify-between text-[#9FB0C6]">
+        <div className="bg-zemin-2 border border-zemin-4 hover:border-amber-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-metin-2">
             <span className="text-xs font-semibold">Kazanılan Tecrübe</span>
-            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-amber-400">
+            <div className="p-2 rounded-xl bg-zemin border border-zemin-4 text-amber-400">
               <Zap className="w-4 h-4" />
             </div>
           </div>
@@ -216,18 +216,18 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
             <span className="text-2xl sm:text-3xl font-bold text-amber-400 font-mono">
               {progress.xp}
             </span>
-            <span className="text-xs text-[#9FB0C6]">XP Toplam</span>
+            <span className="text-xs text-metin-2">XP Toplam</span>
           </div>
-          <p className="text-[11px] text-[#9FB0C6] pt-1">
+          <p className="text-[11px] text-metin-2 pt-1">
             Bu hafta kazanılan: <span className="text-amber-400 font-bold">+{totalWeeklyXp} XP</span>
           </p>
         </div>
 
         {/* Completed Lessons */}
-        <div className="bg-[#101B2C] border border-[#233754] hover:border-emerald-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
-          <div className="flex items-center justify-between text-[#9FB0C6]">
+        <div className="bg-zemin-2 border border-zemin-4 hover:border-emerald-400/50 rounded-2xl p-5 shadow-lg space-y-2 transition-all">
+          <div className="flex items-center justify-between text-metin-2">
             <span className="text-xs font-semibold">Bitirilen Dersler</span>
-            <div className="p-2 rounded-xl bg-[#0B1320] border border-[#233754] text-emerald-400">
+            <div className="p-2 rounded-xl bg-zemin border border-zemin-4 text-emerald-400">
               <CheckCircle2 className="w-4 h-4" />
             </div>
           </div>
@@ -235,9 +235,9 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
             <span className="text-2xl sm:text-3xl font-bold text-emerald-400 font-mono">
               {completedLessonsCount}
             </span>
-            <span className="text-xs text-[#9FB0C6]">Ders Modülü</span>
+            <span className="text-xs text-metin-2">Ders Modülü</span>
           </div>
-          <p className="text-[11px] text-[#9FB0C6] pt-1">
+          <p className="text-[11px] text-metin-2 pt-1">
             Orhun Yazıtları müfredatında kaydedilen ilerleme.
           </p>
         </div>
@@ -246,26 +246,26 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
       {/* Main Charts Row: Haftalık Öğrenme Aktivitesi & Streak Geçmişi */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Left 7 Columns: Haftalık Aktivite Grafiği (Recharts Bar & Area) */}
-        <div className="lg:col-span-7 bg-[#101B2C] border border-[#233754] rounded-2xl p-6 shadow-xl space-y-6">
+        <div className="lg:col-span-7 bg-zemin-2 border border-zemin-4 rounded-2xl p-6 shadow-xl space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
               <h2 className="text-base font-bold text-white font-serif flex items-center gap-2">
-                <TrendingUp className="w-4 h-4 text-[#2BC4C4]" />
+                <TrendingUp className="w-4 h-4 text-marka" />
                 Haftalık Öğrenme Aktivitesi
               </h2>
-              <p className="text-xs text-[#9FB0C6] mt-0.5">
+              <p className="text-xs text-metin-2 mt-0.5">
                 Son 7 gün içindeki tecrübe (XP) ve kelime kazanımlarınız
               </p>
             </div>
 
             {/* Metric Mode Toggle */}
-            <div className="flex items-center bg-[#0B1320] p-1 rounded-xl border border-[#233754] text-xs self-start sm:self-auto">
+            <div className="flex items-center bg-zemin p-1 rounded-xl border border-zemin-4 text-xs self-start sm:self-auto">
               <button
                 onClick={() => setMetricMode('xp')}
                 className={`px-3 py-1 rounded-lg font-semibold transition-all ${
                   metricMode === 'xp'
-                    ? 'bg-[#2BC4C4] text-[#0B1320] shadow-sm'
-                    : 'text-[#9FB0C6] hover:text-white'
+                    ? 'bg-marka text-zemin shadow-sm'
+                    : 'text-metin-2 hover:text-white'
                 }`}
               >
                 XP Dağılımı
@@ -274,8 +274,8 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                 onClick={() => setMetricMode('kelime')}
                 className={`px-3 py-1 rounded-lg font-semibold transition-all ${
                   metricMode === 'kelime'
-                    ? 'bg-[#2BC4C4] text-[#0B1320] shadow-sm'
-                    : 'text-[#9FB0C6] hover:text-white'
+                    ? 'bg-marka text-zemin shadow-sm'
+                    : 'text-metin-2 hover:text-white'
                 }`}
               >
                 Kelimeler
@@ -311,10 +311,10 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                       if (active && payload && payload.length) {
                         const item = payload[0].payload;
                         return (
-                          <div className="bg-[#0B1320] border border-[#2BC4C4] p-3 rounded-xl shadow-xl text-xs space-y-1">
+                          <div className="bg-zemin border border-marka p-3 rounded-xl shadow-xl text-xs space-y-1">
                             <span className="font-bold text-white block">{item.fullDate} ({label})</span>
                             <span className="text-amber-400 font-semibold block">+{item.xp} XP Kazanıldı</span>
-                            <span className="text-[#2BC4C4] block">{item.kelime} Kelime Öğrenildi</span>
+                            <span className="text-marka block">{item.kelime} Kelime Öğrenildi</span>
                           </div>
                         );
                       }
@@ -350,9 +350,9 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                       if (active && payload && payload.length) {
                         const item = payload[0].payload;
                         return (
-                          <div className="bg-[#0B1320] border border-[#2BC4C4] p-3 rounded-xl shadow-xl text-xs space-y-1">
+                          <div className="bg-zemin border border-marka p-3 rounded-xl shadow-xl text-xs space-y-1">
                             <span className="font-bold text-white block">{item.fullDate} ({label})</span>
-                            <span className="text-[#2BC4C4] font-semibold block">{item.kelime} Kelime İncelendi</span>
+                            <span className="text-marka font-semibold block">{item.kelime} Kelime İncelendi</span>
                             <span className="text-amber-400 block">+{item.xp} XP</span>
                           </div>
                         );
@@ -371,20 +371,20 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
           </div>
 
           {/* Bottom Chart Footer Insights */}
-          <div className="flex items-center justify-between pt-4 border-t border-[#233754] text-xs">
-            <div className="flex items-center gap-2 text-[#9FB0C6]">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#2BC4C4]" />
+          <div className="flex items-center justify-between pt-4 border-t border-zemin-4 text-xs">
+            <div className="flex items-center gap-2 text-metin-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-marka" />
               <span>Bu Hafta Aktif Gün: <strong className="text-white">{activeDaysThisWeek} / 7 gün</strong></span>
             </div>
             <div className="text-right">
-              <span className="text-[#9FB0C6]">Haftalık Toplam: </span>
+              <span className="text-metin-2">Haftalık Toplam: </span>
               <strong className="text-amber-400 font-mono">+{totalWeeklyXp} XP</strong>
             </div>
           </div>
         </div>
 
         {/* Right 5 Columns: Streak (Ardışık Gün) Geçmişi & Takvimi */}
-        <div className="lg:col-span-5 bg-[#101B2C] border border-[#233754] rounded-2xl p-6 shadow-xl space-y-6 flex flex-col justify-between">
+        <div className="lg:col-span-5 bg-zemin-2 border border-zemin-4 rounded-2xl p-6 shadow-xl space-y-6 flex flex-col justify-between">
           <div className="space-y-4">
             <div className="flex items-center justify-between">
               <div>
@@ -392,7 +392,7 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                   <Flame className="w-4 h-4 text-orange-400" />
                   Streak (Ardışık Gün) Geçmişi
                 </h2>
-                <p className="text-xs text-[#9FB0C6] mt-0.5">
+                <p className="text-xs text-metin-2 mt-0.5">
                   Son 21 günlük devamlılık ve öğrenme ritminiz
                 </p>
               </div>
@@ -403,10 +403,10 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
             </div>
 
             {/* Streak Calendar Grid (Past 21 Days) */}
-            <div className="bg-[#0B1320] border border-[#233754] p-4 rounded-xl">
-              <div className="flex items-center justify-between text-xs text-[#9FB0C6] mb-3 font-semibold">
+            <div className="bg-zemin border border-zemin-4 p-4 rounded-xl">
+              <div className="flex items-center justify-between text-xs text-metin-2 mb-3 font-semibold">
                 <span className="flex items-center gap-1.5">
-                  <Calendar className="w-3.5 h-3.5 text-[#2BC4C4]" />
+                  <Calendar className="w-3.5 h-3.5 text-marka" />
                   Son 3 Hafta Ritim Tablosu
                 </span>
                 <span className="text-[11px]">Koyu: Tamamlandı</span>
@@ -420,12 +420,12 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                     title={`${item.dayNumber} ${item.monthName} - ${item.isActive ? 'Aktivite var' : 'Aktivite yok'}`}
                     className={`aspect-square rounded-lg flex flex-col items-center justify-center text-[10px] font-mono border transition-all ${
                       item.isToday
-                        ? 'border-[#2BC4C4] ring-2 ring-[#2BC4C4]/30'
+                        ? 'border-marka ring-2 ring-marka/30'
                         : 'border-transparent'
                     } ${
                       item.isActive
                         ? 'bg-gradient-to-br from-orange-500 to-amber-500 text-slate-950 font-bold shadow-sm shadow-orange-500/20'
-                        : 'bg-[#152338] text-[#6C7F99]'
+                        : 'bg-zemin-3 text-metin-3'
                     }`}
                   >
                     <span>{item.dayNumber}</span>
@@ -433,24 +433,24 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                 ))}
               </div>
 
-              <div className="flex items-center justify-between text-[11px] text-[#6C7F99] mt-3 pt-2 border-t border-[#233754]">
+              <div className="flex items-center justify-between text-[11px] text-metin-3 mt-3 pt-2 border-t border-zemin-4">
                 <span className="flex items-center gap-1">
                   <span className="w-2.5 h-2.5 rounded bg-gradient-to-br from-orange-500 to-amber-500 inline-block" />
                   Aktif Çalışma
                 </span>
                 <span className="flex items-center gap-1">
-                  <span className="w-2.5 h-2.5 rounded bg-[#152338] inline-block border border-[#233754]" />
+                  <span className="w-2.5 h-2.5 rounded bg-zemin-3 inline-block border border-zemin-4" />
                   Pasif Gün
                 </span>
               </div>
             </div>
 
             {/* Streak Motivation Message */}
-            <div className="p-3.5 rounded-xl bg-gradient-to-r from-[#152338] to-[#1a2c47] border border-[#233754] text-xs text-[#E6EDF5] space-y-1">
+            <div className="p-3.5 rounded-xl bg-gradient-to-r from-zemin-3 to-[#1a2c47] border border-zemin-4 text-xs text-metin space-y-1">
               <span className="font-bold text-amber-300 flex items-center gap-1">
                 <Sparkles className="w-3.5 h-3.5" /> Bozkırın Kadim Kuralı: Süreklilik
               </span>
-              <p className="text-[#9FB0C6] leading-relaxed text-[11px]">
+              <p className="text-metin-2 leading-relaxed text-[11px]">
                 Her gün 1 tamga okumak veya bir dize çözmek, Orhun yazıtlarının tamamını 30 günde sökmenizi sağlar.
               </p>
             </div>
@@ -459,7 +459,7 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
           {/* Fast Action to reinforce streak */}
           <button
             onClick={() => onNavigateToTab('sozluk')}
-            className="w-full py-2.5 px-4 rounded-xl bg-[#152338] hover:bg-[#1f3350] border border-[#233754] hover:border-[#2BC4C4] text-xs font-bold text-[#2BC4C4] hover:text-white transition-all flex items-center justify-center gap-2 shadow-sm"
+            className="w-full py-2.5 px-4 rounded-xl bg-zemin-3 hover:bg-[#1f3350] border border-zemin-4 hover:border-marka text-xs font-bold text-marka hover:text-white transition-all flex items-center justify-center gap-2 shadow-sm"
           >
             <span>Sözlükte Yeni Kelime Keşfet</span>
             <ArrowRight className="w-4 h-4" />
@@ -474,20 +474,20 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
       />
 
       {/* Words Learned & Category Mastery Breakdown */}
-      <div className="bg-[#101B2C] border border-[#233754] rounded-2xl p-6 shadow-xl space-y-6">
+      <div className="bg-zemin-2 border border-zemin-4 rounded-2xl p-6 shadow-xl space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <h2 className="text-base font-bold text-white font-serif flex items-center gap-2">
-              <BookOpen className="w-4 h-4 text-[#2BC4C4]" />
+              <BookOpen className="w-4 h-4 text-marka" />
               Kelime Haznesi & Sözlük Durumu
             </h2>
-            <p className="text-xs text-[#9FB0C6] mt-0.5">
+            <p className="text-xs text-metin-2 mt-0.5">
               İncelediğiniz ve hafızanıza aldığınız Orhun Yazıtları kelimeleri
             </p>
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-xs text-[#9FB0C6]">Toplam Hazne:</span>
+            <span className="text-xs text-metin-2">Toplam Hazne:</span>
             <span className="text-xs font-bold text-amber-400 bg-amber-400/10 px-3 py-1 rounded-lg border border-amber-400/30">
               {learnedWordsCount} / {totalDictionaryWords} Sözcük
             </span>
@@ -504,19 +504,19 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                 key={word.id}
                 className={`p-3.5 rounded-xl border transition-all flex items-center justify-between gap-3 ${
                   isLearned
-                    ? 'bg-[#152338] border-[#2BC4C4]/40 shadow-sm'
-                    : 'bg-[#101B2C] border-[#233754] opacity-70'
+                    ? 'bg-zemin-3 border-marka/40 shadow-sm'
+                    : 'bg-zemin-2 border-zemin-4 opacity-70'
                 }`}
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-lg bg-[#0B1320] border border-[#233754] flex items-center justify-center text-xl text-[#2BC4C4] font-serif flex-shrink-0">
+                  <div className="w-10 h-10 rounded-lg bg-zemin border border-zemin-4 flex items-center justify-center text-xl text-marka font-serif flex-shrink-0">
                     {word.runic}
                   </div>
                   <div>
                     <span className="text-sm font-bold text-white font-serif block">
                       {word.transcription}
                     </span>
-                    <span className="text-xs text-[#9FB0C6] line-clamp-1">
+                    <span className="text-xs text-metin-2 line-clamp-1">
                       {word.meaning}
                     </span>
                   </div>
@@ -524,13 +524,13 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
 
                 <div className="flex-shrink-0">
                   {isLearned ? (
-                    <span className="text-[10px] font-bold text-[#37B36A] bg-[#37B36A]/15 px-2 py-0.5 rounded-md border border-[#37B36A]/30 flex items-center gap-1">
+                    <span className="text-[10px] font-bold text-basari bg-basari/15 px-2 py-0.5 rounded-md border border-basari/30 flex items-center gap-1">
                       <CheckCircle2 className="w-3 h-3" /> Hafızada
                     </span>
                   ) : (
                     <button
                       onClick={() => onNavigateToTab('sozluk')}
-                      className="text-[11px] text-[#6C7F99] hover:text-[#2BC4C4] flex items-center gap-0.5"
+                      className="text-[11px] text-metin-3 hover:text-marka flex items-center gap-0.5"
                     >
                       Öğren &rarr;
                     </button>
@@ -545,7 +545,7 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
         <div className="pt-2 text-center">
           <button
             onClick={() => onNavigateToTab('sozluk')}
-            className="inline-flex items-center gap-2 text-xs text-[#2BC4C4] hover:text-white font-bold bg-[#152338] hover:bg-[#1f3350] border border-[#233754] hover:border-[#2BC4C4] px-5 py-2.5 rounded-xl transition-all shadow-md"
+            className="inline-flex items-center gap-2 text-xs text-marka hover:text-white font-bold bg-zemin-3 hover:bg-[#1f3350] border border-zemin-4 hover:border-marka px-5 py-2.5 rounded-xl transition-all shadow-md"
           >
             <span>Tüm Sözlüğü İncele ({totalDictionaryWords} Kelime)</span>
             <ArrowRight className="w-3.5 h-3.5" />

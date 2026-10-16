@@ -7,7 +7,7 @@ export const UNITS: Unit[] = [
     title: 'Tamgaların Doğuşu',
     subtitle: 'Yazım Yönü ve 4 Ünlü Tamga',
     description: 'Göktürk yazısının sağdan sola doğası ve 8 sesi karşılayan 4 ana ünlü damgayı öğrenin.',
-    accentColor: 'from-[#2BC4C4] to-[#1E8A8A]',
+    accentColor: 'from-marka to-[#1E8A8A]',
     lessons: [
       {
         id: 'lesson-1-1',
@@ -148,7 +148,7 @@ export const UNITS: Unit[] = [
     title: 'Kutuplu Ünsüzler Dünyası',
     subtitle: 'Kalın ve İnce Damga Çiftleri',
     description: 'Türkçenin ünlü uyumunu taşa nakşeden kutuplu ünsüzleri (b¹, b², d¹, d², k¹, k², g¹, g²) keşfedin.',
-    accentColor: 'from-[#3B82F6] to-[#1D4ED8]',
+    accentColor: 'from-bilgi to-[#1D4ED8]',
     lessons: [
       {
         id: 'lesson-2-1',
@@ -252,7 +252,7 @@ export const UNITS: Unit[] = [
     title: 'Hece Damgaları ve Kutupsuz Sesler',
     subtitle: 'Ligatürler ve Taş Tasarrufu',
     description: 'Eski Türk taş ustalarının tek vuruşta iki sesi birden yazmasını sağlayan mucizevi ligatürler (ok, ök, ık, iç, nd, ld, nç).',
-    accentColor: 'from-[#C9A24A] to-[#967425]',
+    accentColor: 'from-altin to-[#967425]',
     lessons: [
       {
         id: 'lesson-3-1',
@@ -334,7 +334,7 @@ export const UNITS: Unit[] = [
     title: 'Bengü Taş İmla Kuralları',
     subtitle: 'Ünlü Düşmeleri ve Sözcük Çözümleme',
     description: '13 temel Orhun imla kuralı. İlk hecede a/e ünlüsünün yazılmaması ve kelime birleştirme sanatını öğrenin.',
-    accentColor: 'from-[#37B36A] to-[#15803D]',
+    accentColor: 'from-basari to-[#15803D]',
     lessons: [
       {
         id: 'lesson-4-1',

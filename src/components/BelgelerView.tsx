@@ -80,14 +80,14 @@ export const BelgelerView: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 space-y-8">
       {/* Header */}
-      <div className="border-b border-[#233754] pb-6">
-        <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4] flex items-center gap-1.5">
+      <div className="border-b border-zemin-4 pb-6">
+        <span className="text-xs font-bold uppercase tracking-widest text-marka flex items-center gap-1.5">
           <BookOpen className="w-3.5 h-3.5" /> Orijinal Kurs Arşivi
         </span>
         <h2 className="text-3xl font-bold text-white font-serif mt-1">
           Baskıya Hazır PDF Kütüphanesi
         </h2>
-        <p className="text-sm text-[#9FB0C6] mt-1">
+        <p className="text-sm text-metin-2 mt-1">
           Eğitmen İbrahim (Bayram) Bilir tarafından hazırlanan akademik ve uygulamalı kurs materyalleri.
         </p>
       </div>
@@ -97,33 +97,33 @@ export const BelgelerView: React.FC = () => {
         {documents.map((doc) => (
           <div
             key={doc.id}
-            className="bg-[#101B2C] border border-[#233754] hover:border-[#2BC4C4] rounded-2xl p-6 flex flex-col justify-between transition-all duration-200 hover:-translate-y-1 shadow-xl shadow-black/20"
+            className="bg-zemin-2 border border-zemin-4 hover:border-marka rounded-2xl p-6 flex flex-col justify-between transition-all duration-200 hover:-translate-y-1 shadow-xl shadow-black/20"
           >
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-[#152338] text-[#2BC4C4] border border-[#233754]">
+                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-zemin-3 text-marka border border-zemin-4">
                   {doc.category}
                 </span>
-                <span className="text-xs text-[#6C7F99]">{doc.size}</span>
+                <span className="text-xs text-metin-3">{doc.size}</span>
               </div>
 
               <div>
                 <h3 className="text-lg font-bold text-white font-serif flex items-center gap-2">
-                  <FileText className="w-4 h-4 text-[#2BC4C4]" />
+                  <FileText className="w-4 h-4 text-marka" />
                   <span>{doc.title}</span>
                 </h3>
-                <p className="text-xs text-[#9FB0C6] mt-2 leading-relaxed">
+                <p className="text-xs text-metin-2 mt-2 leading-relaxed">
                   {doc.desc}
                 </p>
               </div>
             </div>
 
-            <div className="pt-5 border-t border-[#233754] mt-4 flex items-center gap-2">
+            <div className="pt-5 border-t border-zemin-4 mt-4 flex items-center gap-2">
               <a
                 href={`/pdf/${doc.filename}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 py-2.5 rounded-xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-md shadow-[#2BC4C4]/20"
+                className="flex-1 py-2.5 rounded-xl bg-marka hover:bg-marka-koyu text-zemin font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-md shadow-marka/20"
               >
                 <ExternalLink className="w-3.5 h-3.5" />
                 <span>Görüntüle</span>
@@ -131,7 +131,7 @@ export const BelgelerView: React.FC = () => {
               <a
                 href={`/pdf/${doc.filename}`}
                 download={doc.filename}
-                className="p-2.5 rounded-xl bg-[#152338] hover:bg-[#1b2d47] text-[#9FB0C6] hover:text-white border border-[#233754] transition-colors"
+                className="p-2.5 rounded-xl bg-zemin-3 hover:bg-[#1b2d47] text-metin-2 hover:text-white border border-zemin-4 transition-colors"
                 title="İndir"
               >
                 <Download className="w-4 h-4" />

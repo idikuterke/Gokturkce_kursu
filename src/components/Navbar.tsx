@@ -53,19 +53,19 @@ export const Navbar: React.FC<NavbarProps> = ({
           onClick={() => onTabChange('ogren')}
           className="flex items-center gap-2.5 cursor-pointer group flex-shrink-0"
         >
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#2DD4BF] to-[#0D9488] flex items-center justify-center text-[#042023] font-serif text-xl shadow-[0_0_15px_rgba(45,212,191,0.35)] group-hover:scale-105 transition-transform">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-marka-acik to-marka-derin flex items-center justify-center text-derin-5 font-serif text-xl shadow-[0_0_15px_rgba(45,212,191,0.35)] group-hover:scale-105 transition-transform">
             <span className="runic text-2xl leading-none">𐱅</span>
           </div>
           <div>
             <h1 className="text-base sm:text-lg font-bold text-white tracking-tight flex items-center gap-1.5 font-serif">
-              Göktürkçe <span className="text-[#2DD4BF] font-sans font-semibold text-[10px] px-1.5 py-0.2 rounded-full bg-[#2DD4BF]/10 border border-[#2DD4BF]/30">ÖĞRENEK</span>
+              Göktürkçe <span className="text-marka-acik font-sans font-semibold text-[10px] px-1.5 py-0.2 rounded-full bg-marka-acik/10 border border-marka-acik/30">ÖĞRENEK</span>
             </h1>
-            <p className="text-[10px] text-[#94A3B8] -mt-0.5 hidden sm:block">Kadim Bozkır Dili & Yazıtları</p>
+            <p className="text-[10px] text-metin-4 -mt-0.5 hidden sm:block">Kadim Bozkır Dili & Yazıtları</p>
           </div>
         </div>
 
         {/* Zone 2: 4 Streamlined Navigation Tabs (Desktop) */}
-        <nav className="hidden md:flex items-center gap-1 bg-[#0B2026] p-1 rounded-2xl border border-[#173D46]">
+        <nav className="hidden md:flex items-center gap-1 bg-derin-4 p-1 rounded-2xl border border-[#173D46]">
           {primaryTabs.map((tab) => {
             const Icon = tab.icon;
             const isActive = isCurrentTabActive(tab.id);
@@ -75,8 +75,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                 onClick={() => onTabChange(tab.id)}
                 className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
                   isActive
-                    ? 'btn-3d-teal shadow-md shadow-[#0D9488]/25 text-[#042023]'
-                    : 'text-[#94A3B8] hover:text-white hover:bg-[#122F37]'
+                    ? 'btn-3d-teal shadow-md shadow-marka-derin/25 text-derin-5'
+                    : 'text-metin-4 hover:text-white hover:bg-[#122F37]'
                 }`}
               >
                 <Icon className="w-3.5 h-3.5" />
@@ -92,18 +92,18 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Flame Streak Indicator */}
           <div 
             title={`${progress.streak} Günlük Öğrenme Serisi`}
-            className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-[#0B2026] border border-[#1E4D57] text-[#F59E0B] text-xs font-bold shadow-inner"
+            className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-derin-4 border border-derin text-uyari text-xs font-bold shadow-inner"
           >
-            <Flame className="w-4 h-4 fill-[#F59E0B] animate-pulse" />
+            <Flame className="w-4 h-4 fill-uyari animate-pulse" />
             <span className="font-mono">{progress.streak}</span>
           </div>
 
           {/* XP Meter */}
           <div 
             title={`${progress.xp} Toplam Tecrübe Puanı`}
-            className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-[#0B2026] border border-[#1E4D57] text-[#2DD4BF] text-xs font-bold shadow-inner"
+            className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-derin-4 border border-derin text-marka-acik text-xs font-bold shadow-inner"
           >
-            <Zap className="w-4 h-4 fill-[#2DD4BF]" />
+            <Zap className="w-4 h-4 fill-marka-acik" />
             <span className="font-mono">{progress.xp}</span>
           </div>
 
@@ -111,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             onClick={onRefillHearts}
             title="Can Durumu (Tıklayarak Yenile)"
-            className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-[#0B2026] hover:bg-[#122F37] border border-[#1E4D57] text-rose-400 hover:text-rose-300 text-xs font-bold transition-colors cursor-pointer"
+            className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-derin-4 hover:bg-[#122F37] border border-derin text-rose-400 hover:text-rose-300 text-xs font-bold transition-colors cursor-pointer"
           >
             <Heart className="w-4 h-4 fill-rose-500 text-rose-500" />
             <span className="font-mono">{progress.hearts}</span>
@@ -124,8 +124,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               title="Günlük Görevler & Ödüller"
               className={`relative p-1.5 sm:px-2.5 sm:py-1 rounded-xl border transition-all cursor-pointer flex items-center gap-1.5 ${
                 hasUnclaimed
-                  ? 'btn-3d-gold shadow-md shadow-[#F59E0B]/25 text-[#381E02]'
-                  : 'bg-[#0B2026] hover:bg-[#122F37] border-[#1E4D57] text-[#94A3B8]'
+                  ? 'btn-3d-gold shadow-md shadow-uyari/25 text-toprak-2'
+                  : 'bg-derin-4 hover:bg-[#122F37] border-derin text-metin-4'
               }`}
             >
               <Target className="w-4 h-4" />
@@ -144,16 +144,16 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div className="flex items-center gap-1">
                 <span
                   title={user.email ?? undefined}
-                  className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-[#0B2026] border border-[#1E4D57] text-[#94A3B8] text-xs font-bold max-w-32 truncate"
+                  className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-derin-4 border border-derin text-metin-4 text-xs font-bold max-w-32 truncate"
                 >
-                  <UserCircle2 className="w-4 h-4 text-[#2DD4BF] flex-shrink-0" />
+                  <UserCircle2 className="w-4 h-4 text-marka-acik flex-shrink-0" />
                   <span className="truncate">{user.displayName || user.email?.split('@')[0]}</span>
                 </span>
                 <button
                   onClick={() => { void logOut(); }}
                   title="Çıkış yap"
                   aria-label="Çıkış yap"
-                  className="p-1.5 rounded-xl bg-[#0B2026] hover:bg-[#122F37] border border-[#1E4D57] text-[#94A3B8] hover:text-white transition-colors"
+                  className="p-1.5 rounded-xl bg-derin-4 hover:bg-[#122F37] border border-derin text-metin-4 hover:text-white transition-colors"
                 >
                   <LogOut className="w-4 h-4" />
                 </button>
@@ -162,7 +162,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <button
                 onClick={onOpenAccount}
                 title="Giriş yap — ilerlemen buluta kaydedilsin"
-                className="flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-[#0B2026] hover:bg-[#122F37] border border-[#1E4D57] text-[#94A3B8] hover:text-white text-xs font-bold transition-colors"
+                className="flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-derin-4 hover:bg-[#122F37] border border-derin text-metin-4 hover:text-white text-xs font-bold transition-colors"
               >
                 <CloudOff className="w-4 h-4 text-amber-400" />
                 <span className="hidden sm:inline">Giriş Yap</span>
@@ -173,7 +173,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Mobile Hamburger Menu Toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-1.5 rounded-xl bg-[#0B2026] border border-[#173D46] text-[#94A3B8] hover:text-white"
+            className="md:hidden p-1.5 rounded-xl bg-derin-4 border border-[#173D46] text-metin-4 hover:text-white"
           >
             {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
@@ -195,8 +195,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                 }}
                 className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-xl text-xs font-bold transition-all ${
                   isActive
-                    ? 'btn-3d-teal text-[#042023]'
-                    : 'text-[#94A3B8] hover:text-white hover:bg-[#102B33]'
+                    ? 'btn-3d-teal text-derin-5'
+                    : 'text-metin-4 hover:text-white hover:bg-derin-2'
                 }`}
               >
                 <Icon className="w-4 h-4" />

@@ -1,5 +1,37 @@
 @import "tailwindcss";
 
+
+/* === TEMA TOKENLARI: otomatik üretilir, elle düzenleme === */
+@theme {
+  --color-marka: #2BC4C4; /* ana vurgu — düğme, aktif sekme, ilerleme */
+  --color-marka-acik: #2DD4BF; /* vurgu açık tonu — degrade ucu, hover */
+  --color-marka-koyu: #25ADAD; /* vurgu koyu tonu — basılı hâl */
+  --color-marka-derin: #0D9488; /* vurgu en koyu ton — kenarlık */
+  --color-zemin: #0B1320; /* sayfa zemini (en koyu) */
+  --color-zemin-2: #101B2C; /* bölüm zemini */
+  --color-zemin-3: #152338; /* kart zemini */
+  --color-zemin-4: #233754; /* kart kenarlığı / ayırıcı */
+  --color-metin: #E6EDF5; /* birincil metin */
+  --color-metin-2: #9FB0C6; /* ikincil metin */
+  --color-metin-3: #6C7F99; /* üçüncül metin / ipucu */
+  --color-metin-4: #94A3B8; /* soluk metin */
+  --color-metin-5: #42597A; /* en soluk metin / pasif */
+  --color-metin-acik: #E2E8F0; /* açık yüzey üzerinde metin */
+  --color-basari: #37B36A; /* doğru cevap, tamamlandı */
+  --color-uyari: #F59E0B; /* uyarı, seri (streak), enerji */
+  --color-uyari-acik: #FBBF24; /* uyarı açık tonu */
+  --color-bilgi: #3B82F6; /* bilgi, bağlantı */
+  --color-altin: #C9A24A; /* rozet, başarım */
+  --color-derin: #1E4D57; /* turkuaz-koyu yüzey */
+  --color-derin-2: #102B33; /* turkuaz-koyu yüzey 2 */
+  --color-derin-3: #0C242A; /* turkuaz-koyu yüzey 3 */
+  --color-derin-4: #0B2026; /* turkuaz-koyu yüzey 4 */
+  --color-derin-5: #042023; /* turkuaz-koyu yüzey 5 (en koyu) */
+  --color-toprak: #271C19; /* taş/toprak dokusu — kitabe görünümü */
+  --color-toprak-2: #381E02; /* taş/toprak dokusu 2 */
+}
+/* === TEMA TOKENLARI SONU === */
+
 @font-face {
   font-family: 'Noto Sans Old Turkic';
   src: url('/fontlar/NotoSansOldTurkic-Regular.ttf') format('truetype');

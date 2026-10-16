@@ -212,15 +212,15 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   // Game over state if hearts reach 0
   if (progress.hearts <= 0 && !isFinished) {
     return (
-      <div className="fixed inset-0 z-50 bg-[#0B1320]/95 backdrop-blur-md flex items-center justify-center p-4">
-        <div className="max-w-md w-full bg-[#101B2C] border-2 border-rose-500/50 rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
+      <div className="fixed inset-0 z-50 bg-zemin/95 backdrop-blur-md flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-zemin-2 border-2 border-rose-500/50 rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
           <div className="w-20 h-20 mx-auto rounded-full bg-rose-500/10 border-2 border-rose-500 flex items-center justify-center text-rose-500 animate-pulse">
             <Heart className="w-10 h-10 fill-rose-500" />
           </div>
 
           <div className="space-y-2">
             <h3 className="text-2xl font-bold text-white font-serif">Canların Tükendi!</h3>
-            <p className="text-sm text-[#9FB0C6]">
+            <p className="text-sm text-metin-2">
               Bengü taşları sökmek sabır ister alpım. Hemen canını tazeleyebilir veya serbest antrenmanla devam edebilirsin.
             </p>
           </div>
@@ -234,7 +234,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             </button>
             <button
               onClick={onClose}
-              className="w-full py-3 rounded-2xl bg-[#152338] hover:bg-[#1b2d47] text-[#9FB0C6] font-medium text-sm transition-colors border border-[#233754]"
+              className="w-full py-3 rounded-2xl bg-zemin-3 hover:bg-[#1b2d47] text-metin-2 font-medium text-sm transition-colors border border-zemin-4"
             >
               Öğrenme Yoluna Dön
             </button>
@@ -248,30 +248,30 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   if (isFinished) {
     const accuracy = Math.round((correctCount / lesson.exercises.length) * 100);
     return (
-      <div className="fixed inset-0 z-50 bg-[#0B1320]/95 backdrop-blur-md flex items-center justify-center p-4">
-        <div className="max-w-md w-full bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
+      <div className="fixed inset-0 z-50 bg-zemin/95 backdrop-blur-md flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-zemin-2 border-2 border-marka rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
           <div className="flex justify-center">
             <MascotAlp mood="proud" size={130} />
           </div>
 
           <div className="space-y-2">
-            <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4]">
+            <span className="text-xs font-bold uppercase tracking-widest text-marka">
               Ders Tamamlandı!
             </span>
             <h3 className="text-3xl font-bold text-white font-serif">{lesson.title}</h3>
-            <p className="text-sm text-[#9FB0C6]">
+            <p className="text-sm text-metin-2">
               Tebrikler alpım! Bir adımı daha geride bıraktın ve kadim Türk runiklerini hafızana kazıdın.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-4 py-2">
-            <div className="bg-[#152338] border border-[#233754] p-4 rounded-2xl">
-              <span className="text-xs text-[#9FB0C6] block mb-1">Kazanılan Puan</span>
-              <span className="text-2xl font-bold text-[#2BC4C4]">+{lesson.xp} XP</span>
+            <div className="bg-zemin-3 border border-zemin-4 p-4 rounded-2xl">
+              <span className="text-xs text-metin-2 block mb-1">Kazanılan Puan</span>
+              <span className="text-2xl font-bold text-marka">+{lesson.xp} XP</span>
             </div>
-            <div className="bg-[#152338] border border-[#233754] p-4 rounded-2xl">
-              <span className="text-xs text-[#9FB0C6] block mb-1">İsabet Oranı</span>
-              <span className="text-2xl font-bold text-[#37B36A]">%{accuracy}</span>
+            <div className="bg-zemin-3 border border-zemin-4 p-4 rounded-2xl">
+              <span className="text-xs text-metin-2 block mb-1">İsabet Oranı</span>
+              <span className="text-2xl font-bold text-basari">%{accuracy}</span>
             </div>
           </div>
 
@@ -284,7 +284,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
 
           <button
             onClick={onClose}
-            className="w-full py-3.5 rounded-2xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-base shadow-xl shadow-[#2BC4C4]/30 transition-transform active:scale-95 flex items-center justify-center gap-2"
+            className="w-full py-3.5 rounded-2xl bg-marka hover:bg-marka-koyu text-zemin font-bold text-base shadow-xl shadow-marka/30 transition-transform active:scale-95 flex items-center justify-center gap-2"
           >
             <span>Devam Et</span>
             <ArrowRight className="w-5 h-5" />
@@ -295,27 +295,27 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   }
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#0B1320] flex flex-col justify-between">
+    <div className="fixed inset-0 z-50 bg-zemin flex flex-col justify-between">
       {/* Top Header Bar */}
       <div className="max-w-4xl w-full mx-auto px-4 pt-6 pb-4 flex items-center gap-4">
         <button
           onClick={onClose}
-          className="text-[#9FB0C6] hover:text-white p-2 rounded-xl hover:bg-[#152338] transition-colors"
+          className="text-metin-2 hover:text-white p-2 rounded-xl hover:bg-zemin-3 transition-colors"
           title="Çıkış"
         >
           <X className="w-6 h-6" />
         </button>
 
         {/* Progress Bar */}
-        <div className="flex-1 h-3.5 bg-[#152338] rounded-full overflow-hidden border border-[#233754]">
+        <div className="flex-1 h-3.5 bg-zemin-3 rounded-full overflow-hidden border border-zemin-4">
           <div
-            className="h-full bg-gradient-to-r from-[#2BC4C4] to-[#37B36A] rounded-full transition-all duration-300"
+            className="h-full bg-gradient-to-r from-marka to-basari rounded-full transition-all duration-300"
             style={{ width: `${progressPercent}%` }}
           />
         </div>
 
         {/* Hearts */}
-        <div className="flex items-center gap-1.5 text-rose-500 font-bold text-sm bg-[#152338] border border-[#233754] px-3 py-1.5 rounded-full">
+        <div className="flex items-center gap-1.5 text-rose-500 font-bold text-sm bg-zemin-3 border border-zemin-4 px-3 py-1.5 rounded-full">
           <Heart className="w-4 h-4 fill-rose-500" />
           <span>{progress.hearts}</span>
         </div>
@@ -334,7 +334,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             {currentExercise.prompt}
           </h3>
           {currentExercise.subprompt && (
-            <p className="text-sm text-[#9FB0C6] font-medium">{currentExercise.subprompt}</p>
+            <p className="text-sm text-metin-2 font-medium">{currentExercise.subprompt}</p>
           )}
         </div>
 
@@ -342,7 +342,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
         {currentExercise.runePrompt && (
           <div 
             onClick={() => handleSpeak(currentExercise.runePrompt!)}
-            className="group my-4 p-8 bg-[#101B2C] border-2 border-[#233754] hover:border-[#2BC4C4] rounded-3xl flex flex-col items-center justify-center text-[#2BC4C4] shadow-inner cursor-pointer transition-all active:scale-[0.99]"
+            className="group my-4 p-8 bg-zemin-2 border-2 border-zemin-4 hover:border-marka rounded-3xl flex flex-col items-center justify-center text-marka shadow-inner cursor-pointer transition-all active:scale-[0.99]"
             title="Telaffuzu dinlemek için tıkla"
           >
             <span className={`runic text-7xl sm:text-8xl leading-none transition-all drop-shadow-[0_4px_12px_rgba(43,196,196,0.3)] ${
@@ -350,8 +350,8 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             }`}>
               {currentExercise.runePrompt}
             </span>
-            <div className="mt-3 flex items-center gap-1.5 text-xs text-[#9FB0C6] group-hover:text-[#2BC4C4] bg-[#152338] px-3 py-1 rounded-full border border-[#233754] transition-colors">
-              <Volume2 className={`w-3.5 h-3.5 ${speakingText === currentExercise.runePrompt ? 'text-amber-400 animate-pulse' : 'text-[#2BC4C4]'}`} />
+            <div className="mt-3 flex items-center gap-1.5 text-xs text-metin-2 group-hover:text-marka bg-zemin-3 px-3 py-1 rounded-full border border-zemin-4 transition-colors">
+              <Volume2 className={`w-3.5 h-3.5 ${speakingText === currentExercise.runePrompt ? 'text-amber-400 animate-pulse' : 'text-marka'}`} />
               <span>{speakingText === currentExercise.runePrompt ? 'Okunuyor...' : 'Telaffuzunu Dinle'}</span>
             </div>
           </div>
@@ -386,10 +386,10 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       handleSpeak(option);
                     }
                   }}
-                  className={`relative min-h-16 py-3 pl-12 pr-20 rounded-2xl border-2 text-center transition-all font-medium text-sm flex items-center justify-center cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2BC4C4] ${
+                  className={`relative min-h-16 py-3 pl-12 pr-20 rounded-2xl border-2 text-center transition-all font-medium text-sm flex items-center justify-center cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-marka ${
                     isSelected
-                      ? 'bg-[#2BC4C4]/15 border-[#2BC4C4] text-white shadow-[0_0_15px_rgba(43,196,196,0.2)]'
-                      : 'bg-[#152338] border-[#233754] text-[#E6EDF5] hover:border-[#3B82F6]/60 hover:bg-[#1a2c47]'
+                      ? 'bg-marka/15 border-marka text-white shadow-[0_0_15px_rgba(43,196,196,0.2)]'
+                      : 'bg-zemin-3 border-zemin-4 text-metin hover:border-bilgi/60 hover:bg-[#1a2c47]'
                   }`}
                 >
                   <span className="leading-relaxed">{option}</span>
@@ -398,14 +398,14 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       type="button"
                       onClick={(e) => handleSpeak(option, undefined, e)}
                       title="Telaffuzu Dinle"
-                      className={`p-1.5 rounded-lg hover:bg-[#2BC4C4]/20 transition-colors ${
-                        speakingText === option ? 'text-amber-400 bg-amber-400/20 animate-pulse' : 'text-[#6C7F99] hover:text-[#2BC4C4]'
+                      className={`p-1.5 rounded-lg hover:bg-marka/20 transition-colors ${
+                        speakingText === option ? 'text-amber-400 bg-amber-400/20 animate-pulse' : 'text-metin-3 hover:text-marka'
                       }`}
                     >
                       <Volume2 className="w-4 h-4" />
                     </button>
                     <span className={`w-5 h-5 rounded-full border flex items-center justify-center text-xs flex-shrink-0 ${
-                      isSelected ? 'border-[#2BC4C4] bg-[#2BC4C4] text-[#0B1320] font-bold' : 'border-[#6C7F99]'
+                      isSelected ? 'border-marka bg-marka text-zemin font-bold' : 'border-metin-3'
                     }`}>
                       {isSelected && '✓'}
                     </span>
@@ -419,11 +419,11 @@ export const LessonModal: React.FC<LessonModalProps> = ({
         {/* 2. Cloze Sentence Fill-in */}
         {currentExercise.type === 'cloze' && currentExercise.clozeSentence && (
           <div className="space-y-6 my-2">
-            <div className="p-6 bg-[#101B2C] border-2 border-[#233754] rounded-2xl text-center space-y-3 relative group">
+            <div className="p-6 bg-zemin-2 border-2 border-zemin-4 rounded-2xl text-center space-y-3 relative group">
               <button
                 type="button"
                 onClick={() => handleSpeak(currentExercise.clozeSentence?.fullMeaning || '')}
-                className="absolute right-4 top-4 p-2 rounded-xl bg-[#152338] border border-[#233754] hover:border-[#2BC4C4] text-[#2BC4C4] hover:text-white transition-colors"
+                className="absolute right-4 top-4 p-2 rounded-xl bg-zemin-3 border border-zemin-4 hover:border-marka text-marka hover:text-white transition-colors"
                 title="Cümlenin Telaffuzunu Dinle"
               >
                 <Volume2 className="w-4 h-4" />
@@ -434,12 +434,12 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                 title="Dinlemek için tıkla"
               >
                 <span>{currentExercise.clozeSentence.preRune}</span>
-                <span className="w-14 h-14 border-2 border-dashed border-[#2BC4C4] rounded-xl flex items-center justify-center text-[#2BC4C4] bg-[#152338]">
+                <span className="w-14 h-14 border-2 border-dashed border-marka rounded-xl flex items-center justify-center text-marka bg-zemin-3">
                   {selectedChoice || '?'}
                 </span>
                 <span>{currentExercise.clozeSentence.postRune}</span>
               </div>
-              <div className="text-xs text-[#9FB0C6] pt-2 border-t border-[#233754] flex items-center justify-center gap-2">
+              <div className="text-xs text-metin-2 pt-2 border-t border-zemin-4 flex items-center justify-center gap-2">
                 <span>Anlam: <span className="text-white font-semibold">{currentExercise.clozeSentence.fullMeaning}</span></span>
               </div>
             </div>
@@ -457,8 +457,8 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                   }}
                   className={`w-14 h-14 rounded-2xl border-2 runic text-2xl font-bold flex items-center justify-center transition-all ${
                     selectedChoice === opt
-                      ? 'bg-[#2BC4C4] text-[#0B1320] border-[#2BC4C4] scale-105 shadow-lg'
-                      : 'bg-[#152338] text-white border-[#233754] hover:border-[#2BC4C4]'
+                      ? 'bg-marka text-zemin border-marka scale-105 shadow-lg'
+                      : 'bg-zemin-3 text-white border-zemin-4 hover:border-marka'
                   }`}
                   title="Seç ve Telaffuzunu Dinle"
                 >
@@ -474,7 +474,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
           <div className="grid grid-cols-2 gap-4 my-2">
             {/* Runes Column */}
             <div className="space-y-2.5">
-              <span className="text-xs text-[#9FB0C6] font-semibold uppercase tracking-wider block mb-1">
+              <span className="text-xs text-metin-2 font-semibold uppercase tracking-wider block mb-1">
                 Tamgalar (Dinlemek için tıkla)
               </span>
               {currentExercise.pairs.map((pair) => {
@@ -491,14 +491,14 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                     }}
                     className={`relative w-full min-h-16 py-3 px-12 rounded-2xl border-2 text-center transition-all flex items-center justify-center ${
                       isMatched
-                        ? 'bg-[#37B36A]/20 border-[#37B36A] text-[#37B36A] opacity-60 cursor-default'
+                        ? 'bg-basari/20 border-basari text-basari opacity-60 cursor-default'
                         : isSelected
-                        ? 'bg-[#2BC4C4]/20 border-[#2BC4C4] text-white shadow-lg'
-                        : 'bg-[#152338] border-[#233754] text-white hover:border-[#3B82F6]'
+                        ? 'bg-marka/20 border-marka text-white shadow-lg'
+                        : 'bg-zemin-3 border-zemin-4 text-white hover:border-bilgi'
                     }`}
                   >
                     <span className="runic text-3xl font-bold leading-none">{pair.rune}</span>
-                    <Volume2 className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#6C7F99] opacity-70" />
+                    <Volume2 className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-metin-3 opacity-70" />
                   </button>
                 );
               })}
@@ -506,7 +506,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
 
             {/* Sounds Column */}
             <div className="space-y-2.5">
-              <span className="text-xs text-[#9FB0C6] font-semibold uppercase tracking-wider block mb-1">
+              <span className="text-xs text-metin-2 font-semibold uppercase tracking-wider block mb-1">
                 Ses Değerleri
               </span>
               {shuffledSoundPairs.map((pair) => {
@@ -523,14 +523,14 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                     }}
                     className={`relative w-full min-h-16 py-3 px-12 rounded-2xl border-2 text-center text-sm font-semibold transition-all flex items-center justify-center ${
                       isMatched
-                        ? 'bg-[#37B36A]/20 border-[#37B36A] text-[#37B36A] opacity-60 cursor-default'
+                        ? 'bg-basari/20 border-basari text-basari opacity-60 cursor-default'
                         : isSelected
-                        ? 'bg-[#2BC4C4]/20 border-[#2BC4C4] text-white shadow-lg'
-                        : 'bg-[#152338] border-[#233754] text-[#E6EDF5] hover:border-[#3B82F6]'
+                        ? 'bg-marka/20 border-marka text-white shadow-lg'
+                        : 'bg-zemin-3 border-zemin-4 text-metin hover:border-bilgi'
                     }`}
                   >
                     <span>{pair.sound}</span>
-                    <Volume2 className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#6C7F99] opacity-70" />
+                    <Volume2 className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-metin-3 opacity-70" />
                   </button>
                 );
               })}
@@ -542,15 +542,15 @@ export const LessonModal: React.FC<LessonModalProps> = ({
         {currentExercise.type === 'word_builder' && currentExercise.targetWord && (
           <div className="space-y-6 my-2">
             {/* Target Meaning */}
-            <div className="p-4 bg-[#101B2C] border border-[#233754] rounded-2xl flex items-center justify-between">
+            <div className="p-4 bg-zemin-2 border border-zemin-4 rounded-2xl flex items-center justify-between">
               <div>
-                <span className="text-xs text-[#9FB0C6] block">Hedef Kelime</span>
+                <span className="text-xs text-metin-2 block">Hedef Kelime</span>
                 <div className="flex items-center gap-2 mt-0.5">
                   <span className="text-lg font-bold text-white font-serif">{currentExercise.targetWord.latin}</span>
                   <button
                     type="button"
                     onClick={() => handleSpeak(currentExercise.targetWord?.latin || currentExercise.targetWord?.rune || '')}
-                    className="p-1.5 rounded-lg bg-[#152338] hover:bg-[#2BC4C4]/20 text-[#2BC4C4] border border-[#233754] hover:border-[#2BC4C4] transition-colors"
+                    className="p-1.5 rounded-lg bg-zemin-3 hover:bg-marka/20 text-marka border border-zemin-4 hover:border-marka transition-colors"
                     title="Kelimeyi Dinle"
                   >
                     <Volume2 className="w-3.5 h-3.5" />
@@ -558,18 +558,18 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                 </div>
               </div>
               <div className="text-right">
-                <span className="text-xs text-[#9FB0C6] block">Anlam</span>
-                <span className="text-sm font-semibold text-[#2BC4C4]">{currentExercise.targetWord.meaning}</span>
+                <span className="text-xs text-metin-2 block">Anlam</span>
+                <span className="text-sm font-semibold text-marka">{currentExercise.targetWord.meaning}</span>
               </div>
             </div>
 
             {/* Answer Tray (RTL!) */}
             <div
               dir="rtl"
-              className="min-h-20 p-4 bg-[#152338] border-2 border-[#233754] rounded-2xl flex items-center justify-center gap-2 flex-wrap"
+              className="min-h-20 p-4 bg-zemin-3 border-2 border-zemin-4 rounded-2xl flex items-center justify-center gap-2 flex-wrap"
             >
               {arrangedTokens.length === 0 ? (
-                <span dir="ltr" className="text-xs text-[#6C7F99] italic">
+                <span dir="ltr" className="text-xs text-metin-3 italic">
                   Aşağıdaki tamgalara tıklayarak buraya yerleştirin (telaffuzları seslendirilecektir)...
                 </span>
               ) : (
@@ -577,7 +577,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                   <button
                     key={`${token}-${idx}`}
                     onClick={() => !isChecked && handleRemoveToken(token, idx)}
-                    className="min-w-14 h-14 px-3 rounded-xl bg-[#2BC4C4] hover:bg-rose-500 text-[#0B1320] hover:text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-all shadow-md group"
+                    className="min-w-14 h-14 px-3 rounded-xl bg-marka hover:bg-rose-500 text-zemin hover:text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-all shadow-md group"
                     title="Kaldırmak ve telaffuzunu dinlemek için tıkla"
                   >
                     {token}
@@ -593,7 +593,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                   key={`${token}-${idx}`}
                   disabled={isChecked}
                   onClick={() => handleSelectToken(token, idx)}
-                  className="min-w-14 h-14 px-3 rounded-xl bg-[#101B2C] border-2 border-[#233754] hover:border-[#2BC4C4] text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-all shadow active:scale-95"
+                  className="min-w-14 h-14 px-3 rounded-xl bg-zemin-2 border-2 border-zemin-4 hover:border-marka text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-all shadow active:scale-95"
                   title="Yerleştir ve telaffuzu dinle"
                 >
                   {token}
@@ -607,15 +607,15 @@ export const LessonModal: React.FC<LessonModalProps> = ({
         {currentExercise.type === 'translation' && currentExercise.translationData && (
           <div className="space-y-6 my-2">
             {/* Ancient Inscription Quote Card */}
-            <div className="p-5 bg-gradient-to-r from-[#101B2C] to-[#152338] border-2 border-[#233754] rounded-2xl space-y-2 relative group">
+            <div className="p-5 bg-gradient-to-r from-zemin-2 to-zemin-3 border-2 border-zemin-4 rounded-2xl space-y-2 relative group">
               <div className="flex items-center justify-between">
-                <span className="text-xs text-[#2BC4C4] font-semibold uppercase tracking-wider block">
+                <span className="text-xs text-marka font-semibold uppercase tracking-wider block">
                   Bengü Taş Dizesi
                 </span>
                 <button
                   type="button"
                   onClick={() => handleSpeak(currentExercise.translationData?.transcription || currentExercise.translationData?.runicText || '')}
-                  className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-[#0B1320] text-xs font-semibold text-[#2BC4C4] border border-[#233754] hover:border-[#2BC4C4] transition-colors"
+                  className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-zemin text-xs font-semibold text-marka border border-zemin-4 hover:border-marka transition-colors"
                   title="Bengü Taş Dizesini Dinle"
                 >
                   <Volume2 className="w-3.5 h-3.5" />
@@ -625,15 +625,15 @@ export const LessonModal: React.FC<LessonModalProps> = ({
               <p className="runic text-2xl sm:text-3xl text-white leading-relaxed text-right">
                 {currentExercise.translationData.runicText}
               </p>
-              <p className="text-xs text-[#9FB0C6] italic border-t border-[#233754] pt-2">
+              <p className="text-xs text-metin-2 italic border-t border-zemin-4 pt-2">
                 Okunuş: {currentExercise.translationData.transcription}
               </p>
             </div>
 
             {/* Translation Tray */}
-            <div className="min-h-18 p-4 bg-[#152338] border-2 border-[#233754] rounded-2xl flex items-center gap-2 flex-wrap">
+            <div className="min-h-18 p-4 bg-zemin-3 border-2 border-zemin-4 rounded-2xl flex items-center gap-2 flex-wrap">
               {arrangedTokens.length === 0 ? (
-                <span className="text-xs text-[#6C7F99] italic">
+                <span className="text-xs text-metin-3 italic">
                   Kelimeleri sırasıyla seçerek Türkçe cümleyi oluşturun...
                 </span>
               ) : (
@@ -641,7 +641,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                   <button
                     key={`${token}-${idx}`}
                     onClick={() => !isChecked && handleRemoveToken(token, idx)}
-                    className="px-3.5 py-1.5 rounded-xl bg-[#2BC4C4] text-[#0B1320] font-semibold text-sm shadow hover:bg-rose-500 hover:text-white transition-colors"
+                    className="px-3.5 py-1.5 rounded-xl bg-marka text-zemin font-semibold text-sm shadow hover:bg-rose-500 hover:text-white transition-colors"
                   >
                     {token}
                   </button>
@@ -656,7 +656,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                   key={`${token}-${idx}`}
                   disabled={isChecked}
                   onClick={() => handleSelectToken(token, idx)}
-                  className="px-3.5 py-2 rounded-xl bg-[#101B2C] border border-[#233754] hover:border-[#2BC4C4] text-white font-medium text-sm transition-all shadow"
+                  className="px-3.5 py-2 rounded-xl bg-zemin-2 border border-zemin-4 hover:border-marka text-white font-medium text-sm transition-all shadow"
                 >
                   {token}
                 </button>
@@ -669,24 +669,24 @@ export const LessonModal: React.FC<LessonModalProps> = ({
       {/* Bottom Feedback Banner & Action Bar */}
       <div className={`w-full border-t transition-all duration-300 ${
         !isChecked
-          ? 'bg-[#0B1320] border-[#233754]'
+          ? 'bg-zemin border-zemin-4'
           : isCorrect
-          ? 'bg-[#37B36A]/15 border-[#37B36A]'
+          ? 'bg-basari/15 border-basari'
           : 'bg-rose-500/15 border-rose-500'
       }`}>
         <div className="max-w-3xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
           {/* Feedback message */}
           {isChecked ? (
             <div className="flex items-start gap-3 w-full sm:w-auto">
-              <div className={`p-2 rounded-xl ${isCorrect ? 'bg-[#37B36A] text-white' : 'bg-rose-500 text-white'}`}>
+              <div className={`p-2 rounded-xl ${isCorrect ? 'bg-basari text-white' : 'bg-rose-500 text-white'}`}>
                 {isCorrect ? <CheckCircle2 className="w-6 h-6" /> : <AlertCircle className="w-6 h-6" />}
               </div>
               <div>
-                <h4 className={`text-base font-bold font-serif ${isCorrect ? 'text-[#37B36A]' : 'text-rose-400'}`}>
+                <h4 className={`text-base font-bold font-serif ${isCorrect ? 'text-basari' : 'text-rose-400'}`}>
                   {isCorrect ? 'Harika! Doğru Cevap' : 'Yanlış Cevap'}
                 </h4>
                 {currentExercise.explanation && (
-                  <p className="text-xs text-[#E6EDF5] mt-0.5 max-w-lg leading-relaxed">
+                  <p className="text-xs text-metin mt-0.5 max-w-lg leading-relaxed">
                     {currentExercise.explanation}
                   </p>
                 )}
@@ -698,7 +698,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
               </div>
             </div>
           ) : (
-            <div className="hidden sm:block text-xs text-[#6C7F99]">
+            <div className="hidden sm:block text-xs text-metin-3">
               Seçimini yap ve kontrol et düğmesine tıkla.
             </div>
           )}
@@ -709,11 +709,11 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             disabled={!canCheck()}
             className={`w-full sm:w-auto px-8 py-3.5 rounded-2xl font-bold text-sm shadow-xl transition-all flex items-center justify-center gap-2 flex-shrink-0 ${
               !canCheck()
-                ? 'bg-[#152338] text-[#6C7F99] border border-[#233754] cursor-not-allowed'
+                ? 'bg-zemin-3 text-metin-3 border border-zemin-4 cursor-not-allowed'
                 : !isChecked
-                ? 'bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] active:scale-95 shadow-[#2BC4C4]/20'
+                ? 'bg-marka hover:bg-marka-koyu text-zemin active:scale-95 shadow-marka/20'
                 : isCorrect
-                ? 'bg-[#37B36A] hover:bg-[#2e9c5b] text-white active:scale-95'
+                ? 'bg-basari hover:bg-[#2e9c5b] text-white active:scale-95'
                 : 'bg-rose-500 hover:bg-rose-600 text-white active:scale-95'
             }`}
           >

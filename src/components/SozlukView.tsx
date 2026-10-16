@@ -96,49 +96,49 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 space-y-8">
       {/* Daily Quest Motivation Banner */}
-      <div className="p-4 bg-gradient-to-r from-[#101B2C] via-[#152338] to-[#101B2C] border border-[#2BC4C4]/40 rounded-2xl flex items-center justify-between gap-4 shadow-lg">
+      <div className="p-4 bg-gradient-to-r from-zemin-2 via-zemin-3 to-zemin-2 border border-marka/40 rounded-2xl flex items-center justify-between gap-4 shadow-lg">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-[#2BC4C4]/15 border border-[#2BC4C4]/40 flex items-center justify-center text-[#2BC4C4]">
+          <div className="w-10 h-10 rounded-xl bg-marka/15 border border-marka/40 flex items-center justify-center text-marka">
             <Target className="w-5 h-5" />
           </div>
           <div>
-            <span className="text-xs font-bold text-[#2BC4C4] uppercase tracking-wider block">
+            <span className="text-xs font-bold text-marka uppercase tracking-wider block">
               Günün Görevi: 3 Kelime Öğren
             </span>
-            <p className="text-xs text-[#9FB0C6]">
+            <p className="text-xs text-metin-2">
               Aşağıdaki kelimelerden herhangi birini inceleyip &quot;Kelimeyi Öğren&quot; butonuna basarak günlük görevine ilerle.
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-2 bg-[#0B1320] px-3.5 py-1.5 rounded-xl border border-[#233754] text-xs font-semibold">
-          <span className="text-[#9FB0C6]">Bugün:</span>
+        <div className="flex items-center gap-2 bg-zemin px-3.5 py-1.5 rounded-xl border border-zemin-4 text-xs font-semibold">
+          <span className="text-metin-2">Bugün:</span>
           <span className="text-amber-400 font-bold font-mono">{wordsLearnedCount}/3</span>
         </div>
       </div>
 
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#233754] pb-6">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zemin-4 pb-6">
         <div>
-          <span className="text-xs font-bold uppercase tracking-widest text-[#2BC4C4] flex items-center gap-1.5">
+          <span className="text-xs font-bold uppercase tracking-widest text-marka flex items-center gap-1.5">
             <Shield className="w-3.5 h-3.5" /> Kadim Söz Varlığı
           </span>
           <h2 className="text-3xl font-bold text-white font-serif mt-1">
             Orhun Türkçesi Altın Sözlüğü
           </h2>
-          <p className="text-sm text-[#9FB0C6] mt-1">
+          <p className="text-sm text-metin-2 mt-1">
             Bengü taşlarda ve eski Türk yazmalarında geçen temel kavramlar, runik çözümlemeleri ve anlamları.
           </p>
         </div>
 
         {/* Search Input */}
         <div className="relative w-full sm:w-72">
-          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-[#6C7F99]" />
+          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-metin-3" />
           <input
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Kelime veya anlam ara..."
-            className="w-full pl-10 pr-4 py-2 bg-[#101B2C] border border-[#233754] focus:border-[#2BC4C4] rounded-xl text-sm text-white placeholder-[#6C7F99] outline-none transition-colors"
+            className="w-full pl-10 pr-4 py-2 bg-zemin-2 border border-zemin-4 focus:border-marka rounded-xl text-sm text-white placeholder-metin-3 outline-none transition-colors"
           />
         </div>
       </div>
@@ -161,8 +161,8 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
             }}
             className={`px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all ${
               selectedCategory === cat.id
-                ? 'bg-[#2BC4C4] text-[#0B1320] shadow-md shadow-[#2BC4C4]/20'
-                : 'bg-[#101B2C] text-[#9FB0C6] hover:text-white border border-[#233754]'
+                ? 'bg-marka text-zemin shadow-md shadow-marka/20'
+                : 'bg-zemin-2 text-metin-2 hover:text-white border border-zemin-4'
             }`}
           >
             {cat.label}
@@ -175,7 +175,7 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
         {filteredWords.map((item) => (
           <div
             key={item.id}
-            className="bg-[#101B2C] border border-[#233754] hover:border-[#2BC4C4] rounded-2xl p-5 space-y-4 transition-all duration-200 shadow-lg shadow-black/20 flex flex-col justify-between"
+            className="bg-zemin-2 border border-zemin-4 hover:border-marka rounded-2xl p-5 space-y-4 transition-all duration-200 shadow-lg shadow-black/20 flex flex-col justify-between"
           >
             <div className="flex items-start justify-between gap-2">
               <div>
@@ -184,13 +184,13 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
                   <button
                     type="button"
                     onClick={() => handleSpeech(item)}
-                    className="p-1.5 rounded-lg bg-[#152338] hover:bg-[#2BC4C4]/20 text-[#2BC4C4] border border-[#233754] hover:border-[#2BC4C4] transition-colors"
+                    className="p-1.5 rounded-lg bg-zemin-3 hover:bg-marka/20 text-marka border border-zemin-4 hover:border-marka transition-colors"
                     title="Sesli Telaffuzunu Dinle"
                   >
                     <Volume2 className="w-3.5 h-3.5" />
                   </button>
                 </div>
-                <span className="text-xs text-[#2BC4C4] font-semibold">{item.meaning}</span>
+                <span className="text-xs text-marka font-semibold">{item.meaning}</span>
               </div>
               <div className="text-right">
                 <span className="runic text-3xl font-bold text-white block">{item.runic}</span>
@@ -198,30 +198,30 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
             </div>
 
             {item.breakdown ? (
-              <div className="space-y-1 bg-[#152338] p-3 rounded-xl border border-[#233754]">
-                <span className="text-[10px] uppercase font-bold text-[#6C7F99] block tracking-wider">
+              <div className="space-y-1 bg-zemin-3 p-3 rounded-xl border border-zemin-4">
+                <span className="text-[10px] uppercase font-bold text-metin-3 block tracking-wider">
                   Tamga Tahlili
                 </span>
-                <p className="text-xs text-[#E6EDF5] leading-relaxed">
+                <p className="text-xs text-metin leading-relaxed">
                   {item.breakdown}
                 </p>
               </div>
             ) : etiketler[item.id] ? (
-              <span className="inline-flex self-start px-2.5 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider bg-[#152338] border border-[#233754] text-[#9FB0C6]">
+              <span className="inline-flex self-start px-2.5 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider bg-zemin-3 border border-zemin-4 text-metin-2">
                 {etiketler[item.id]}
               </span>
             ) : null}
 
             {bicimler[item.id]?.length > 1 && (
-              <div className="space-y-1.5 bg-[#0B1320] p-3 rounded-xl border border-[#233754]">
-                <span className="text-[10px] uppercase font-bold text-[#6C7F99] block tracking-wider flex items-center gap-1">
+              <div className="space-y-1.5 bg-zemin p-3 rounded-xl border border-zemin-4">
+                <span className="text-[10px] uppercase font-bold text-metin-3 block tracking-wider flex items-center gap-1">
                   <Quote className="w-3 h-3" /> Kitabelerdeki Biçimleri
                 </span>
                 {bicimler[item.id].slice(0, 3).map((b) => (
                   <div key={b.runik + b.transkripsiyon} className="flex items-center justify-between gap-2 text-[11px]">
-                    <span className="runic text-base text-[#2BC4C4]">{b.runik}</span>
-                    <span className="text-[#9FB0C6] font-mono flex-1 truncate">{b.transkripsiyon}</span>
-                    <span className="text-[#6C7F99] font-mono" title={b.dizeler.join(', ')}>
+                    <span className="runic text-base text-marka">{b.runik}</span>
+                    <span className="text-metin-2 font-mono flex-1 truncate">{b.transkripsiyon}</span>
+                    <span className="text-metin-3 font-mono" title={b.dizeler.join(', ')}>
                       ×{b.siklik}
                     </span>
                   </div>
@@ -237,11 +237,11 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
             )}
 
             {/* Bottom Actions & Source */}
-            <div className="space-y-2 pt-2 border-t border-[#233754]">
+            <div className="space-y-2 pt-2 border-t border-zemin-4">
               {item.source && (
-                <div className="text-[10px] text-[#6C7F99] font-medium flex items-center justify-between">
+                <div className="text-[10px] text-metin-3 font-medium flex items-center justify-between">
                   <span>Kaynak: {item.source}</span>
-                  <span className="text-[#C9A24A]">Bengü Taş</span>
+                  <span className="text-altin">Bengü Taş</span>
                 </div>
               )}
 
@@ -249,21 +249,21 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
                 <button
                   type="button"
                   onClick={() => handleSpeech(item)}
-                  className="text-xs text-[#9FB0C6] hover:text-[#2BC4C4] flex items-center gap-1 transition-colors"
+                  className="text-xs text-metin-2 hover:text-marka flex items-center gap-1 transition-colors"
                 >
                   <Volume2 className="w-3 h-3" />
                   <span>Dinle</span>
                 </button>
 
                 {isWordLearned(item.id) ? (
-                  <span className="text-xs font-bold text-[#37B36A] flex items-center gap-1 bg-[#37B36A]/10 px-2.5 py-1 rounded-lg border border-[#37B36A]/30">
+                  <span className="text-xs font-bold text-basari flex items-center gap-1 bg-basari/10 px-2.5 py-1 rounded-lg border border-basari/30">
                     <Check className="w-3.5 h-3.5" /> Öğrenildi
                   </span>
                 ) : (
                   <button
                     type="button"
                     onClick={() => handleLearnClick(item)}
-                    className="text-xs font-bold text-[#0B1320] bg-[#2BC4C4] hover:bg-[#25adad] px-3 py-1 rounded-lg shadow-sm shadow-[#2BC4C4]/20 active:scale-95 transition-all flex items-center gap-1"
+                    className="text-xs font-bold text-zemin bg-marka hover:bg-marka-koyu px-3 py-1 rounded-lg shadow-sm shadow-marka/20 active:scale-95 transition-all flex items-center gap-1"
                   >
                     <span>+ Kelimeyi Öğren</span>
                   </button>

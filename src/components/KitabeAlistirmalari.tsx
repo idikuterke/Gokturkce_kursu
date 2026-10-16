@@ -138,8 +138,8 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
 
   if (!hepsi) {
     return (
-      <div className="flex items-center justify-center gap-3 py-20 text-[#6C7F99] text-sm">
-        <Loader2 className="w-5 h-5 animate-spin text-[#2BC4C4]" />
+      <div className="flex items-center justify-center gap-3 py-20 text-metin-3 text-sm">
+        <Loader2 className="w-5 h-5 animate-spin text-marka" />
         Kitabe alıştırmaları yükleniyor...
       </div>
     );
@@ -149,12 +149,12 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
 
   return (
     <div className="space-y-6">
-      <div className="p-5 bg-[#0C242A] border border-[#1E4D57] rounded-3xl space-y-3">
+      <div className="p-5 bg-derin-3 border border-derin rounded-3xl space-y-3">
         <div className="flex items-center gap-2">
-          <ScrollText className="w-4 h-4 text-[#2DD4BF]" />
+          <ScrollText className="w-4 h-4 text-marka-acik" />
           <h3 className="text-sm font-bold text-white font-serif">Kitabe Alıştırmaları</h3>
         </div>
-        <p className="text-xs text-[#9FB0C6] leading-snug">
+        <p className="text-xs text-metin-2 leading-snug">
           Her soru Orhun yazıtlarından gerçek bir satıra dayanıyor. Şıklar da
           kitabelerde geçen gerçek kelimeler — tamgaları okumadan ayırt edilemezler.
         </p>
@@ -165,8 +165,8 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
               onClick={() => zorlugaGec(z)}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-colors ${
                 zorluk === z
-                  ? 'bg-[#2BC4C4] border-[#2BC4C4] text-[#0B1320]'
-                  : 'bg-[#102B33] border-[#1E4D57] text-[#94A3B8] hover:text-white'
+                  ? 'bg-marka border-marka text-zemin'
+                  : 'bg-derin-2 border-derin text-metin-4 hover:text-white'
               }`}
             >
               {ZORLUK_ADI[z]}
@@ -176,23 +176,23 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
       </div>
 
       {bitti ? (
-        <div className="p-8 bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl text-center space-y-4">
+        <div className="p-8 bg-zemin-2 border-2 border-marka rounded-3xl text-center space-y-4">
           <h4 className="text-xl font-bold text-white font-serif">
             {ZORLUK_ADI[zorluk]} bölümü bitti
           </h4>
-          <p className="text-sm text-[#9FB0C6]">
-            {liste.length} sorudan <span className="text-[#37B36A] font-bold">{dogruSayisi}</span> doğru.
+          <p className="text-sm text-metin-2">
+            {liste.length} sorudan <span className="text-basari font-bold">{dogruSayisi}</span> doğru.
           </p>
           <button
             onClick={() => zorlugaGec(zorluk)}
-            className="px-5 py-2.5 rounded-xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-sm inline-flex items-center gap-2"
+            className="px-5 py-2.5 rounded-xl bg-marka hover:bg-marka-koyu text-zemin font-bold text-sm inline-flex items-center gap-2"
           >
             <RotateCcw className="w-4 h-4" /> Tekrar çöz
           </button>
         </div>
       ) : (
-        <div className="p-6 bg-[#101B2C] border border-[#233754] rounded-3xl space-y-5">
-          <div className="flex items-center justify-between text-xs text-[#6C7F99]">
+        <div className="p-6 bg-zemin-2 border border-zemin-4 rounded-3xl space-y-5">
+          <div className="flex items-center justify-between text-xs text-metin-3">
             <span>Soru {sira + 1} / {liste.length}</span>
             <span className="font-mono">{dogruSayisi} doğru</span>
           </div>
@@ -200,17 +200,17 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
           {aktif.tur === 'kelime_kur' ? (
             <div className="space-y-4">
               <div className="text-center space-y-2">
-                <p className="text-sm text-[#9FB0C6] flex items-center justify-center gap-1.5">
-                  <Hammer className="w-4 h-4 text-[#2DD4BF]" />
+                <p className="text-sm text-metin-2 flex items-center justify-center gap-1.5">
+                  <Hammer className="w-4 h-4 text-marka-acik" />
                   Bu kelimeyi tamgalarla <strong className="text-white">sağdan sola</strong> kurun
                 </p>
                 <button
                   onClick={() => { playChiselSound(); speakTamgaOrWord(aktif.transkripsiyon ?? '', aktif.runik); }}
                   title="Telaffuzu dinle"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#0B1320] border border-[#233754] hover:border-[#2BC4C4] transition-colors"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-zemin border border-zemin-4 hover:border-marka transition-colors"
                 >
                   <span className="text-lg font-bold text-white font-serif">{aktif.transkripsiyon}</span>
-                  <Volume2 className="w-4 h-4 text-[#6C7F99]" />
+                  <Volume2 className="w-4 h-4 text-metin-3" />
                 </button>
               </div>
 
@@ -219,14 +219,14 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
                 dir="rtl"
                 className={`min-h-20 p-4 rounded-2xl border-2 flex items-center justify-center gap-2 flex-wrap transition-colors ${
                   secim === 'dogru'
-                    ? 'bg-[#37B36A]/10 border-[#37B36A]'
+                    ? 'bg-basari/10 border-basari'
                     : secim === 'yanlis'
                     ? 'bg-rose-500/10 border-rose-500'
-                    : 'bg-[#152338] border-[#233754]'
+                    : 'bg-zemin-3 border-zemin-4'
                 }`}
               >
                 {tepsi.length === 0 ? (
-                  <span dir="ltr" className="text-xs text-[#6C7F99] italic">
+                  <span dir="ltr" className="text-xs text-metin-3 italic">
                     Aşağıdaki tamgalara tıklayarak buraya yerleştirin...
                   </span>
                 ) : (
@@ -235,7 +235,7 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
                       key={`${t}-${i}`}
                       onClick={() => tamgaGeriAl(i)}
                       title="Geri al"
-                      className="min-w-14 h-14 px-3 rounded-xl bg-[#2BC4C4] hover:bg-rose-500 text-[#0B1320] hover:text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-colors"
+                      className="min-w-14 h-14 px-3 rounded-xl bg-marka hover:bg-rose-500 text-zemin hover:text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-colors"
                     >
                       {t}
                     </button>
@@ -249,7 +249,7 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
                     <button
                       key={`${t}-${i}`}
                       onClick={() => tamgaKoy(i)}
-                      className="min-w-14 h-14 px-3 rounded-xl bg-[#101B2C] border-2 border-[#233754] hover:border-[#2BC4C4] text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-colors active:scale-95"
+                      className="min-w-14 h-14 px-3 rounded-xl bg-zemin-2 border-2 border-zemin-4 hover:border-marka text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-colors active:scale-95"
                     >
                       {t}
                     </button>
@@ -261,7 +261,7 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
                 <button
                   onClick={kurmayiKontrolEt}
                   disabled={tepsi.length === 0}
-                  className="w-full py-3 rounded-2xl bg-[#2BC4C4] hover:bg-[#25adad] disabled:opacity-40 disabled:cursor-not-allowed text-[#0B1320] font-bold text-sm transition-colors active:scale-95"
+                  className="w-full py-3 rounded-2xl bg-marka hover:bg-marka-koyu disabled:opacity-40 disabled:cursor-not-allowed text-zemin font-bold text-sm transition-colors active:scale-95"
                 >
                   Kontrol Et
                 </button>
@@ -276,7 +276,7 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
           ) : (
           <>
           <div className="text-center space-y-3">
-            <p className="text-sm text-[#9FB0C6]">
+            <p className="text-sm text-metin-2">
               {aktif.tur === 'kelime_ceviri'
                 ? `"${aktif.transkripsiyon}" kelimesi ne anlama geliyor?`
                 : 'Bu kelimenin okunuşu hangisidir?'}
@@ -284,10 +284,10 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
             <button
               onClick={() => { playChiselSound(); speakTamgaOrWord(aktif.dogru ?? aktif.runik, aktif.runik); }}
               title="Telaffuzu dinle"
-              className="group inline-flex flex-col items-center gap-2 px-8 py-6 bg-[#0B1320] border-2 border-[#233754] hover:border-[#2BC4C4] rounded-3xl transition-colors"
+              className="group inline-flex flex-col items-center gap-2 px-8 py-6 bg-zemin border-2 border-zemin-4 hover:border-marka rounded-3xl transition-colors"
             >
-              <span className="runic text-6xl text-[#2BC4C4] leading-none">{aktif.runik}</span>
-              <Volume2 className="w-4 h-4 text-[#6C7F99] group-hover:text-[#2BC4C4]" />
+              <span className="runic text-6xl text-marka leading-none">{aktif.runik}</span>
+              <Volume2 className="w-4 h-4 text-metin-3 group-hover:text-marka" />
             </button>
           </div>
 
@@ -303,11 +303,11 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
                   className={`relative min-h-14 py-3 px-5 rounded-2xl border-2 text-center font-semibold text-sm transition-all flex items-center justify-center ${
                     secim
                       ? dogru
-                        ? 'bg-[#37B36A]/20 border-[#37B36A] text-[#37B36A]'
+                        ? 'bg-basari/20 border-basari text-basari'
                         : secili
                         ? 'bg-rose-500/20 border-rose-500 text-rose-400'
-                        : 'bg-[#152338] border-[#233754] text-[#6C7F99]'
-                      : 'bg-[#152338] border-[#233754] text-[#E6EDF5] hover:border-[#3B82F6]'
+                        : 'bg-zemin-3 border-zemin-4 text-metin-3'
+                      : 'bg-zemin-3 border-zemin-4 text-metin hover:border-bilgi'
                   }`}
                 >
                   {s}
@@ -323,11 +323,11 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
           {secim && (
             <div className="space-y-3 pt-1">
               {kaynakDize && (
-                <div className="p-3 bg-[#0B1320] border border-[#233754] rounded-2xl space-y-1">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#2DD4BF]">
+                <div className="p-3 bg-zemin border border-zemin-4 rounded-2xl space-y-1">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-marka-acik">
                     Kaynak · {kaynakDize.kaynakAd} {kaynakDize.yuz} {kaynakDize.satir}
                   </span>
-                  <p className="text-[11px] text-[#9FB0C6] font-mono leading-snug line-clamp-2">
+                  <p className="text-[11px] text-metin-2 font-mono leading-snug line-clamp-2">
                     {kaynakDize.transkripsiyon.slice(0, 150)}…
                   </p>
                   {kaynakDize.dogrulama.ceviri !== 'gecti' && (
@@ -339,7 +339,7 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
               )}
               <button
                 onClick={ileri}
-                className="w-full py-3 rounded-2xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-sm transition-colors active:scale-95"
+                className="w-full py-3 rounded-2xl bg-marka hover:bg-marka-koyu text-zemin font-bold text-sm transition-colors active:scale-95"
               >
                 Devam Et
               </button>

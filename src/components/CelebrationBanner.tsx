@@ -78,15 +78,15 @@ export const CelebrationBanner: React.FC<CelebrationToastProps> = ({
 
   return (
     <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-lg animate-fadeInDown">
-      <div className="relative overflow-hidden rounded-2xl border-2 border-amber-400 bg-gradient-to-r from-[#101B2C] via-[#15253F] to-[#0E1726] p-5 shadow-2xl shadow-amber-500/25">
+      <div className="relative overflow-hidden rounded-2xl border-2 border-amber-400 bg-gradient-to-r from-zemin-2 via-[#15253F] to-[#0E1726] p-5 shadow-2xl shadow-amber-500/25">
         {/* Glow orb */}
         <div className="absolute -top-12 -left-12 w-32 h-32 bg-amber-400/20 rounded-full blur-2xl pointer-events-none" />
-        <div className="absolute -bottom-12 -right-12 w-32 h-32 bg-[#2BC4C4]/20 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute -bottom-12 -right-12 w-32 h-32 bg-marka/20 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative flex items-center gap-4">
           {/* Runic Badge Medallion */}
           <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 p-0.5 shadow-lg shadow-amber-500/30 flex-shrink-0 animate-pulse">
-            <div className="w-full h-full bg-[#0B1320] rounded-[14px] flex items-center justify-center text-3xl font-serif text-amber-300">
+            <div className="w-full h-full bg-zemin rounded-[14px] flex items-center justify-center text-3xl font-serif text-amber-300">
               <span className="runic tracking-tight drop-shadow">{runicSymbol}</span>
             </div>
           </div>
@@ -100,7 +100,7 @@ export const CelebrationBanner: React.FC<CelebrationToastProps> = ({
             <h4 className="text-lg font-bold text-white font-serif tracking-tight truncate">
               {title}
             </h4>
-            <p className="text-xs text-[#9FB0C6] mt-0.5 line-clamp-2">
+            <p className="text-xs text-metin-2 mt-0.5 line-clamp-2">
               {subtitle}
             </p>
           </div>
@@ -108,7 +108,7 @@ export const CelebrationBanner: React.FC<CelebrationToastProps> = ({
           {/* Close button */}
           <button
             onClick={onClose}
-            className="absolute top-2 right-2 p-1.5 rounded-lg text-[#9FB0C6] hover:text-white hover:bg-[#233754] transition-colors"
+            className="absolute top-2 right-2 p-1.5 rounded-lg text-metin-2 hover:text-white hover:bg-zemin-4 transition-colors"
             title="Kapat"
           >
             <X className="w-4 h-4" />

@@ -32,18 +32,18 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
       {/* Steppe Exploration Header */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-[#0C242A] via-[#10323B] to-[#0C242A] border border-[#1D4853] rounded-3xl p-6 sm:p-8 text-left shadow-2xl">
+      <div className="relative overflow-hidden bg-gradient-to-r from-derin-3 via-[#10323B] to-derin-3 border border-[#1D4853] rounded-3xl p-6 sm:p-8 text-left shadow-2xl">
         <div className="max-w-2xl space-y-2 z-10 relative">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-bold px-3 py-1 rounded-full bg-[#2DD4BF]/10 text-[#2DD4BF] border border-[#2DD4BF]/30 flex items-center gap-1.5">
+            <span className="text-xs font-bold px-3 py-1 rounded-full bg-marka-acik/10 text-marka-acik border border-marka-acik/30 flex items-center gap-1.5">
               <Compass className="w-3.5 h-3.5" /> Bozkır Arşivi
             </span>
-            <span className="text-xs text-[#F59E0B] font-mono">Keşfet & Oku</span>
+            <span className="text-xs text-uyari font-mono">Keşfet & Oku</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-white font-serif">
             Bengü Taşlar, Kadim Sözler ve Yazıtlar
           </h2>
-          <p className="text-xs sm:text-sm text-[#94A3B8] leading-relaxed">
+          <p className="text-xs sm:text-sm text-metin-4 leading-relaxed">
             Kül Tigin, Bilge Kağan ve Tonyukuk anıtlarının satırlarını orijinal runik metinleriyle incele, canlı klavye ile yaz ve kaynak eserleri keşfet.
           </p>
         </div>
@@ -65,17 +65,17 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
               onClick={() => setActiveSection(sec.id as any)}
               className={`flex flex-col items-center sm:items-start text-center sm:text-left p-3 rounded-xl transition-all cursor-pointer ${
                 isActive
-                  ? 'btn-3d-teal shadow-md shadow-[#0D9488]/25'
-                  : 'bg-[#0E262C] hover:bg-[#14343C] text-[#94A3B8] hover:text-white border border-[#1A424B]'
+                  ? 'btn-3d-teal shadow-md shadow-marka-derin/25'
+                  : 'bg-[#0E262C] hover:bg-[#14343C] text-metin-4 hover:text-white border border-[#1A424B]'
               }`}
             >
               <div className="flex items-center gap-2">
-                <Icon className={`w-4 h-4 ${isActive ? 'text-[#042023]' : 'text-[#2DD4BF]'}`} />
-                <span className={`text-xs font-bold ${isActive ? 'text-[#042023]' : 'text-white'}`}>
+                <Icon className={`w-4 h-4 ${isActive ? 'text-derin-5' : 'text-marka-acik'}`} />
+                <span className={`text-xs font-bold ${isActive ? 'text-derin-5' : 'text-white'}`}>
                   {sec.label}
                 </span>
               </div>
-              <span className={`text-[10px] mt-0.5 truncate hidden sm:inline ${isActive ? 'text-[#042023]/80' : 'text-[#64748B]'}`}>
+              <span className={`text-[10px] mt-0.5 truncate hidden sm:inline ${isActive ? 'text-derin-5/80' : 'text-[#64748B]'}`}>
                 {sec.desc}
               </span>
             </button>

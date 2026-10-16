@@ -8,6 +8,8 @@
     "build": "tsc --noEmit && vite build",
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
+    "tema:uygula": "node engine/tema-uygula.mjs",
+    "tema:rapor": "node engine/tema-uygula.mjs --rapor",
     "denetim:uygula": "node engine/denetim-uygula.mjs",
     "cumlecik:ayir": "node engine/cumlecik-ayir.mjs",
     "ceviri:liste": "node engine/ceviri-istek-listesi.mjs",

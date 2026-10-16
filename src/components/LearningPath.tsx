@@ -123,15 +123,15 @@ export const LearningPath: React.FC<LearningPathProps> = ({
       <div className="lg:col-span-2 space-y-10">
         
         {/* Banner with Bilge Bozkır Alpi Mascot */}
-        <div className="relative overflow-hidden bg-gradient-to-r from-[#0C242A] via-[#10343D] to-[#0C242A] border border-[#1E4D57] rounded-3xl p-6 sm:p-7 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl">
+        <div className="relative overflow-hidden bg-gradient-to-r from-derin-3 via-[#10343D] to-derin-3 border border-derin rounded-3xl p-6 sm:p-7 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl">
           <div className="space-y-2.5 text-center sm:text-left z-10 max-w-md">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-[#F59E0B]/10 text-[#F59E0B] border border-[#F59E0B]/30">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-uyari/10 text-uyari border border-uyari/30">
               <Sparkles className="w-3.5 h-3.5" /> Bozkırın Kadim Yolculuğu
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-serif tracking-tight">
               Taşlara Kazınan Tarih Seni Bekliyor
             </h2>
-            <p className="text-xs sm:text-sm text-[#94A3B8] leading-relaxed">
+            <p className="text-xs sm:text-sm text-metin-4 leading-relaxed">
               Her gün birkaç dakika ayırarak Orhun bengü taşlarını orijinal runik tamgalarıyla okumayı öğren.
             </p>
             <div className="pt-2 flex flex-wrap items-center justify-center sm:justify-start gap-2">
@@ -146,7 +146,7 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                 onClick={() => onNavigateToTab('kesfet')}
                 className="btn-3d-bronze px-4 py-2 text-xs font-bold rounded-xl flex items-center gap-1.5 cursor-pointer"
               >
-                <BookOpen className="w-3.5 h-3.5 text-[#2DD4BF]" />
+                <BookOpen className="w-3.5 h-3.5 text-marka-acik" />
                 <span>Kitabeleri Oku</span>
               </button>
             </div>
@@ -178,13 +178,13 @@ export const LearningPath: React.FC<LearningPathProps> = ({
               <div className="bg-[#0C2228] border border-[#1A424B] rounded-2xl p-5 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="text-center sm:text-left space-y-1">
                   <div className="flex items-center justify-center sm:justify-start gap-2">
-                    <span className="text-xs font-bold text-[#F59E0B] tracking-wider uppercase font-mono">
+                    <span className="text-xs font-bold text-uyari tracking-wider uppercase font-mono">
                       {unit.number}. Aşama
                     </span>
-                    <span className="text-xs text-[#2DD4BF]">· {unit.subtitle}</span>
+                    <span className="text-xs text-marka-acik">· {unit.subtitle}</span>
                   </div>
                   <h3 className="text-lg sm:text-xl font-bold text-white font-serif">{unit.title}</h3>
-                  <p className="text-xs text-[#94A3B8]">{unit.description}</p>
+                  <p className="text-xs text-metin-4">{unit.description}</p>
                 </div>
 
                 {/* Circular Duolingo Progress Indicator */}
@@ -199,7 +199,7 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                         d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
                       />
                       <path
-                        className="text-[#2DD4BF] transition-all duration-700 ease-out"
+                        className="text-marka-acik transition-all duration-700 ease-out"
                         strokeDasharray={`${unitProgressPercent}, 100`}
                         strokeWidth="3.5"
                         strokeLinecap="round"
@@ -246,11 +246,11 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                             title={isChestOpened ? 'Açıldı' : 'Yıldız Sandığını Aç (+25 XP & 1 Can)'}
                             className={`p-3.5 rounded-2xl flex items-center gap-2 transition-all cursor-pointer ${
                               isChestOpened
-                                ? 'bg-[#102B33] border border-[#19404B] text-gray-500 opacity-60'
-                                : 'btn-3d-gold animate-bounce shadow-lg shadow-[#F59E0B]/25'
+                                ? 'bg-derin-2 border border-[#19404B] text-gray-500 opacity-60'
+                                : 'btn-3d-gold animate-bounce shadow-lg shadow-uyari/25'
                             }`}
                           >
-                            <Gift className={`w-5 h-5 ${isChestOpened ? 'text-gray-400' : 'text-[#381E02] animate-spin'}`} />
+                            <Gift className={`w-5 h-5 ${isChestOpened ? 'text-gray-400' : 'text-toprak-2 animate-spin'}`} />
                             <span className="text-xs font-bold whitespace-nowrap">
                               {isChestOpened ? 'Sandık Alındı' : 'Yıldız Sandığı!'}
                             </span>
@@ -263,8 +263,8 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                         {/* Active Lesson Floating Banner / Flag */}
                         {isCurrentActive && (
                           <div className="mb-2 animate-bounce">
-                            <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-[#F59E0B] text-[#381E02] shadow-md border border-[#FDE68A] flex items-center gap-1">
-                              <Sparkles className="w-3 h-3 text-[#381E02]" /> BAŞLA
+                            <span className="px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-uyari text-toprak-2 shadow-md border border-[#FDE68A] flex items-center gap-1">
+                              <Sparkles className="w-3 h-3 text-toprak-2" /> BAŞLA
                             </span>
                           </div>
                         )}
@@ -280,9 +280,9 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                           disabled={!isUnlocked}
                           className={`relative w-18 h-18 sm:w-20 sm:h-20 rounded-full flex flex-col items-center justify-center transition-all cursor-pointer ${
                             isCompleted
-                              ? 'bg-[#0D9488] border-b-4 border-[#0F766E] shadow-lg shadow-[#0D9488]/30 hover:scale-105 active:translate-y-1 text-white'
+                              ? 'bg-marka-derin border-b-4 border-[#0F766E] shadow-lg shadow-marka-derin/30 hover:scale-105 active:translate-y-1 text-white'
                               : isCurrentActive
-                              ? 'bg-[#F59E0B] border-b-4 border-[#B45309] shadow-xl shadow-[#F59E0B]/35 hover:scale-105 active:translate-y-1 animate-gentle-pulse text-[#381E02]'
+                              ? 'bg-uyari border-b-4 border-[#B45309] shadow-xl shadow-uyari/35 hover:scale-105 active:translate-y-1 animate-gentle-pulse text-toprak-2'
                               : 'bg-[#152E36] border-b-4 border-[#0A1A1F] text-[#4B636C] cursor-not-allowed opacity-80'
                           }`}
                         >
@@ -299,7 +299,7 @@ export const LearningPath: React.FC<LearningPathProps> = ({
 
                           {/* Mini Star / Crown on top */}
                           {isCompleted && (
-                            <div className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-[#F59E0B] border-2 border-[#0C242A] flex items-center justify-center text-[#381E02] shadow-sm">
+                            <div className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-uyari border-2 border-derin-3 flex items-center justify-center text-toprak-2 shadow-sm">
                               <Star className="w-3.5 h-3.5 fill-current" />
                             </div>
                           )}
@@ -308,11 +308,11 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                         {/* Lesson Title Label Below Node */}
                         <div className="mt-2 text-center max-w-[140px]">
                           <p className={`text-xs font-bold leading-tight truncate ${
-                            isCurrentActive ? 'text-[#F59E0B]' : isCompleted ? 'text-white' : 'text-[#64748B]'
+                            isCurrentActive ? 'text-uyari' : isCompleted ? 'text-white' : 'text-[#64748B]'
                           }`}>
                             {lesson.title}
                           </p>
-                          <span className="text-[10px] text-[#2DD4BF] font-mono">
+                          <span className="text-[10px] text-marka-acik font-mono">
                             +{lesson.xp} XP
                           </span>
                         </div>
@@ -323,13 +323,13 @@ export const LearningPath: React.FC<LearningPathProps> = ({
 
                 {/* Bölüm Sonu Toyu / Kurultay Final Sınavı Kapısı */}
                 <div className="relative z-10 mt-4 text-center">
-                  <div className="p-4 rounded-3xl bg-gradient-to-b from-[#13353E] to-[#0A1E24] border-2 border-[#F59E0B]/50 shadow-xl max-w-sm flex flex-col items-center gap-3">
-                    <div className="w-14 h-14 rounded-2xl bg-[#F59E0B]/10 border border-[#F59E0B]/40 flex items-center justify-center text-[#F59E0B]">
+                  <div className="p-4 rounded-3xl bg-gradient-to-b from-[#13353E] to-[#0A1E24] border-2 border-uyari/50 shadow-xl max-w-sm flex flex-col items-center gap-3">
+                    <div className="w-14 h-14 rounded-2xl bg-uyari/10 border border-uyari/40 flex items-center justify-center text-uyari">
                       <Shield className="w-8 h-8" />
                     </div>
                     <div>
                       <h4 className="text-sm font-bold text-white font-serif">{unit.number}. Aşama Bozkır Toyu</h4>
-                      <p className="text-[11px] text-[#94A3B8]">
+                      <p className="text-[11px] text-metin-4">
                         Bu aşamadaki tüm tamgaları tamamlayıp büyük kitabe sınavına katıl!
                       </p>
                     </div>
@@ -343,7 +343,7 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                       disabled={!isLessonUnlocked(unit, unit.lessons.length - 1)}
                       className={`w-full py-2.5 px-4 rounded-xl text-xs font-bold cursor-pointer transition-all ${
                         isLessonUnlocked(unit, unit.lessons.length - 1)
-                          ? 'btn-3d-gold shadow-lg shadow-[#F59E0B]/25'
+                          ? 'btn-3d-gold shadow-lg shadow-uyari/25'
                           : 'bg-[#152D34] text-gray-500 cursor-not-allowed opacity-60'
                       }`}
                     >
@@ -357,18 +357,18 @@ export const LearningPath: React.FC<LearningPathProps> = ({
         })}
 
         {/* "Bugün Ne Öğrendin?" Özet Kartı */}
-        <div className="bg-[#0C242A] border border-[#1A4752] rounded-3xl p-6 sm:p-7 shadow-xl text-left space-y-4">
+        <div className="bg-derin-3 border border-[#1A4752] rounded-3xl p-6 sm:p-7 shadow-xl text-left space-y-4">
           <div className="flex items-center justify-between border-b border-[#183F49] pb-3">
             <div className="flex items-center gap-2">
-              <span className="p-2 rounded-xl bg-[#2DD4BF]/10 text-[#2DD4BF] border border-[#2DD4BF]/20">
+              <span className="p-2 rounded-xl bg-marka-acik/10 text-marka-acik border border-marka-acik/20">
                 <CheckCircle2 className="w-4 h-4" />
               </span>
               <div>
                 <h4 className="text-sm font-bold text-white font-serif">Bugün Ne Öğrendin?</h4>
-                <p className="text-[11px] text-[#94A3B8]">Günlük Bozkır İlerleme Özeti</p>
+                <p className="text-[11px] text-metin-4">Günlük Bozkır İlerleme Özeti</p>
               </div>
             </div>
-            <span className="text-xs font-bold text-[#F59E0B] font-mono">
+            <span className="text-xs font-bold text-uyari font-mono">
               🔥 {progress.streak} Günlük Seri
             </span>
           </div>
@@ -380,11 +380,11 @@ export const LearningPath: React.FC<LearningPathProps> = ({
             </div>
             <div className="p-3 rounded-2xl bg-[#08191E] border border-[#163840] text-center">
               <span className="text-[10px] text-[#64748B] uppercase font-bold block">Toplam XP</span>
-              <span className="text-lg font-bold text-[#F59E0B] font-mono">{todayXp} XP</span>
+              <span className="text-lg font-bold text-uyari font-mono">{todayXp} XP</span>
             </div>
             <div className="p-3 rounded-2xl bg-[#08191E] border border-[#163840] text-center">
               <span className="text-[10px] text-[#64748B] uppercase font-bold block">Mevcut Rütbe</span>
-              <span className="text-lg font-bold text-[#2DD4BF] font-serif">{progress.rank}</span>
+              <span className="text-lg font-bold text-marka-acik font-serif">{progress.rank}</span>
             </div>
           </div>
         </div>
@@ -396,30 +396,30 @@ export const LearningPath: React.FC<LearningPathProps> = ({
         {/* İnteraktif Günün Tamgası Kartı (Tıklanınca Detay Modal Açar) */}
         <div 
           onClick={() => setIsGununTamgasiOpen(true)}
-          className="group relative overflow-hidden bg-gradient-to-br from-[#0C242A] to-[#08191D] border border-[#1E4852] hover:border-[#F59E0B] rounded-3xl p-5 shadow-xl transition-all cursor-pointer"
+          className="group relative overflow-hidden bg-gradient-to-br from-derin-3 to-[#08191D] border border-[#1E4852] hover:border-uyari rounded-3xl p-5 shadow-xl transition-all cursor-pointer"
         >
           <div className="flex items-center justify-between mb-3">
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-[#F59E0B]/10 text-[#F59E0B] border border-[#F59E0B]/30">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-uyari/10 text-uyari border border-uyari/30">
               <Sparkles className="w-3 h-3" /> Günün Tamgası
             </span>
-            <span className="text-[11px] text-[#2DD4BF] group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5 font-bold">
+            <span className="text-[11px] text-marka-acik group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5 font-bold">
               Hikayeyi Aç <ChevronRight className="w-3.5 h-3.5" />
             </span>
           </div>
 
           <div className="flex items-center gap-4 bg-[#07161A] p-4 rounded-2xl border border-[#163B43]">
-            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#163842] to-[#0B1E22] border border-[#F59E0B] flex items-center justify-center flex-shrink-0 shadow-md">
-              <span className="runic text-3xl text-[#2DD4BF] group-hover:scale-110 transition-transform">
+            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#163842] to-[#0B1E22] border border-uyari flex items-center justify-center flex-shrink-0 shadow-md">
+              <span className="runic text-3xl text-marka-acik group-hover:scale-110 transition-transform">
                 {todaysTamga.rune}
               </span>
             </div>
 
             <div className="space-y-1 text-left">
               <h4 className="text-base font-bold text-white font-serif">{todaysTamga.name}</h4>
-              <p className="text-xs text-[#94A3B8]">
-                Ses: <span className="text-[#2DD4BF] font-bold">/{todaysTamga.sound}/</span> · {todaysTamga.type || 'Nötr'}
+              <p className="text-xs text-metin-4">
+                Ses: <span className="text-marka-acik font-bold">/{todaysTamga.sound}/</span> · {todaysTamga.type || 'Nötr'}
               </p>
-              <p className="text-[11px] text-[#F59E0B] italic truncate max-w-[180px]">
+              <p className="text-[11px] text-uyari italic truncate max-w-[180px]">
                 "{todaysTamga.mnemonicHint}"
               </p>
             </div>
@@ -433,7 +433,7 @@ export const LearningPath: React.FC<LearningPathProps> = ({
               <Heart className="w-4 h-4 text-rose-500 fill-rose-500" />
               <span className="text-xs font-bold text-white">Bozkır Can Gücü</span>
             </div>
-            <span className="text-xs font-mono font-bold text-[#F59E0B]">
+            <span className="text-xs font-mono font-bold text-uyari">
               {progress.hearts} / {progress.maxHearts} Can
             </span>
           </div>
@@ -463,7 +463,7 @@ export const LearningPath: React.FC<LearningPathProps> = ({
               className="py-2 px-3 rounded-xl btn-3d-bronze text-xs font-bold flex items-center justify-center cursor-pointer"
               title="Yazma Talimhanesi"
             >
-              <PenTool className="w-3.5 h-3.5 text-[#2DD4BF]" />
+              <PenTool className="w-3.5 h-3.5 text-marka-acik" />
             </button>
           </div>
         </div>
@@ -480,17 +480,17 @@ export const LearningPath: React.FC<LearningPathProps> = ({
       {/* Lesson Selection Modal */}
       {selectedLesson && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeInDown">
-          <div className="relative w-full max-w-md bg-[#0C242A] border border-[#20535E] rounded-3xl p-6 sm:p-7 shadow-2xl text-left space-y-4">
+          <div className="relative w-full max-w-md bg-derin-3 border border-[#20535E] rounded-3xl p-6 sm:p-7 shadow-2xl text-left space-y-4">
             <div className="flex items-center justify-between border-b border-[#183E47] pb-3">
-              <span className="text-xs font-bold text-[#F59E0B] tracking-wider uppercase font-mono">
+              <span className="text-xs font-bold text-uyari tracking-wider uppercase font-mono">
                 Ders Hazırlığı
               </span>
-              <span className="text-xs text-[#2DD4BF] font-mono">+{selectedLesson.xp} XP</span>
+              <span className="text-xs text-marka-acik font-mono">+{selectedLesson.xp} XP</span>
             </div>
 
             <div className="space-y-1">
               <h3 className="text-xl font-bold text-white font-serif">{selectedLesson.title}</h3>
-              <p className="text-xs text-[#94A3B8]">{selectedLesson.subtitle}</p>
+              <p className="text-xs text-metin-4">{selectedLesson.subtitle}</p>
             </div>
 
             <div className="p-3.5 rounded-2xl bg-[#07171B] border border-[#163840] flex items-center justify-between text-xs text-[#CBD5E1]">
