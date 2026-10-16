@@ -4,3 +4,4 @@ __pycache__/
 build/slayt/_kontrol/
 content/gorsel/ham/
 .freebuff/
+dist/
