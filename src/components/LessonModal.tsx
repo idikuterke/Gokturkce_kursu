@@ -47,8 +47,17 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   const [isFinished, setIsFinished] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
 
-  const currentExercise: Exercise = lesson.exercises[currentIndex];
-  const progressPercent = Math.round((currentIndex / lesson.exercises.length) * 100);
+  // Yanlis yanitlanan alistirma kuyrugun sonuna eklenir ve dogru
+  // yanitlanana kadar tekrar sorulur. `queue` bu yuzden ders boyunca
+  // buyuyebilir; `lesson.exercises` ise degismeden kalir.
+  const [queue, setQueue] = useState<Exercise[]>(lesson.exercises);
+  // Ilk denemede yanlis yanitlanan alistirmalarin kimlikleri. Hem isabet
+  // oranini durust tutar hem de "Tekrar" rozetini tetikler.
+  const [missedIds, setMissedIds] = useState<Set<string>>(new Set());
+
+  const currentExercise: Exercise = queue[currentIndex];
+  const progressPercent = Math.round((currentIndex / queue.length) * 100);
+  const isRetry = missedIds.has(currentExercise.id);
 
   // Initialize tokens when exercise changes
   useEffect(() => {
@@ -75,7 +84,9 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   // Alistirma degismedikce sira sabit kalsin diye useMemo ile tutuluyor.
   const shuffledSoundPairs = useMemo(
     () => shuffleDistinct(currentExercise.pairs ?? []),
-    [currentExercise.id, currentExercise.pairs]
+    // currentIndex de bagimlilikta: ayni alistirma tekrar sorulunca
+    // sira yeniden karissin, ezberden cozulmesin.
+    [currentIndex, currentExercise.id, currentExercise.pairs]
   );
 
   // Pair match selection logic
@@ -115,7 +126,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   const handleCheck = () => {
     if (isChecked) {
       // Continue to next exercise or finish
-      if (currentIndex + 1 < lesson.exercises.length) {
+      if (currentIndex + 1 < queue.length) {
         setCurrentIndex(prev => prev + 1);
       } else {
         // Complete lesson!
@@ -152,13 +163,20 @@ export const LessonModal: React.FC<LessonModalProps> = ({
 
     if (correct) {
       playSuccessSound();
-      setCorrectCount(prev => prev + 1);
+      // Isabet orani yalnizca ilk denemeleri sayar; tekrar turunda
+      // verilen dogru cevap orani sismesin.
+      if (!missedIds.has(currentExercise.id)) {
+        setCorrectCount(prev => prev + 1);
+      }
       if (currentExercise.type === 'word_builder' && currentExercise.targetWord && onLearnWord) {
         onLearnWord(currentExercise.targetWord.latin);
       }
     } else {
       playErrorSound();
       onHeartLoss();
+      // Dogru yanitlanana kadar kuyrugun sonunda yeniden sorulsun.
+      setMissedIds(prev => new Set(prev).add(currentExercise.id));
+      setQueue(prev => [...prev, currentExercise]);
     }
   };
 
@@ -257,6 +275,13 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             </div>
           </div>
 
+          {missedIds.size > 0 && (
+            <p className="text-xs text-amber-400/90 flex items-center justify-center gap-1.5">
+              <RotateCcw className="w-3.5 h-3.5" />
+              {missedIds.size} alıştırmayı tekrar ederek pekiştirdin
+            </p>
+          )}
+
           <button
             onClick={onClose}
             className="w-full py-3.5 rounded-2xl bg-[#2BC4C4] hover:bg-[#25adad] text-[#0B1320] font-bold text-base shadow-xl shadow-[#2BC4C4]/30 transition-transform active:scale-95 flex items-center justify-center gap-2"
@@ -300,6 +325,11 @@ export const LessonModal: React.FC<LessonModalProps> = ({
       <div className="flex-1 max-w-2xl w-full mx-auto px-4 py-6 flex flex-col justify-center overflow-y-auto">
         {/* Prompt Header */}
         <div className="mb-6 space-y-2">
+          {isRetry && (
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-amber-400/10 text-amber-400 border border-amber-400/30">
+              <RotateCcw className="w-3 h-3" /> Tekrar
+            </span>
+          )}
           <h3 className="text-xl sm:text-2xl font-bold text-white font-serif leading-snug">
             {currentExercise.prompt}
           </h3>
@@ -341,14 +371,14 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                     setSelectedChoice(option);
                     handleSpeak(option);
                   }}
-                  className={`p-4 rounded-2xl border-2 text-left transition-all font-medium text-sm flex items-center justify-between gap-3 ${
+                  className={`relative min-h-16 py-3 pl-12 pr-20 rounded-2xl border-2 text-center transition-all font-medium text-sm flex items-center justify-center ${
                     isSelected
                       ? 'bg-[#2BC4C4]/15 border-[#2BC4C4] text-white shadow-[0_0_15px_rgba(43,196,196,0.2)]'
                       : 'bg-[#152338] border-[#233754] text-[#E6EDF5] hover:border-[#3B82F6]/60 hover:bg-[#1a2c47]'
                   }`}
                 >
-                  <span className="leading-relaxed flex items-center gap-2">{option}</span>
-                  <div className="flex items-center gap-2">
+                  <span className="leading-relaxed">{option}</span>
+                  <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-2">
                     <button
                       type="button"
                       onClick={(e) => handleSpeak(option, undefined, e)}
@@ -532,7 +562,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                   <button
                     key={`${token}-${idx}`}
                     onClick={() => !isChecked && handleRemoveToken(token, idx)}
-                    className="w-14 h-14 rounded-xl bg-[#2BC4C4] hover:bg-rose-500 text-[#0B1320] hover:text-white font-bold runic text-2xl flex items-center justify-center transition-all shadow-md group"
+                    className="min-w-14 h-14 px-3 rounded-xl bg-[#2BC4C4] hover:bg-rose-500 text-[#0B1320] hover:text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-all shadow-md group"
                     title="Kaldırmak ve telaffuzunu dinlemek için tıkla"
                   >
                     {token}
@@ -548,7 +578,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                   key={`${token}-${idx}`}
                   disabled={isChecked}
                   onClick={() => handleSelectToken(token, idx)}
-                  className="w-14 h-14 rounded-xl bg-[#101B2C] border-2 border-[#233754] hover:border-[#2BC4C4] text-white font-bold runic text-2xl flex items-center justify-center transition-all shadow active:scale-95"
+                  className="min-w-14 h-14 px-3 rounded-xl bg-[#101B2C] border-2 border-[#233754] hover:border-[#2BC4C4] text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-all shadow active:scale-95"
                   title="Yerleştir ve telaffuzu dinle"
                 >
                   {token}

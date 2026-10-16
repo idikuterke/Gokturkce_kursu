@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Keyboard, Copy, Check, Sparkles, RefreshCw, Share2 } from 'lucide-react';
+import { Keyboard, Copy, Check, Sparkles, RefreshCw, Share2, Delete, Eraser } from 'lucide-react';
 import { TAMGALAR } from '../data/tamgalarData';
 import { SOZLUK } from '../data/sozlukData';
 import { playChiselSound, playSuccessSound } from '../utils/audio';
@@ -111,6 +111,25 @@ export const GokturkKeyboard: React.FC = () => {
   const handleVirtualRuneClick = (rune: string) => {
     playChiselSound();
     setRunicResult(prev => prev + rune);
+  };
+
+  const handleVirtualBackspace = () => {
+    playChiselSound();
+    setRunicResult(prev => {
+      if (!prev) return prev;
+      // Sozcuk ayraci tek parca olarak silinsin
+      if (prev.endsWith(' : ')) return prev.slice(0, -3);
+      // Runik tamgalar BMP disinda (surrogate cifti): UTF-16 birimiyle degil
+      // kod noktasiyla sil, yoksa yarim karakter kalir.
+      const codePoints = Array.from(prev);
+      codePoints.pop();
+      return codePoints.join('');
+    });
+  };
+
+  const handleVirtualClear = () => {
+    playChiselSound();
+    setRunicResult('');
   };
 
   const handleCopy = () => {
@@ -235,6 +254,28 @@ export const GokturkKeyboard: React.FC = () => {
             className="h-12 rounded-xl bg-[#152338] hover:bg-[#C9A24A] text-amber-400 hover:text-black border border-[#233754] font-bold text-xl flex items-center justify-center transition-all active:scale-95 shadow"
           >
             :
+          </button>
+
+          {/* Geri silme */}
+          <button
+            onClick={handleVirtualBackspace}
+            disabled={!runicResult}
+            title="Son tamgayı sil"
+            aria-label="Son tamgayı sil"
+            className="h-12 col-span-2 rounded-xl bg-[#152338] hover:bg-rose-500/90 text-[#9FB0C6] hover:text-white border border-[#233754] hover:border-rose-500 flex items-center justify-center gap-1.5 text-xs font-bold transition-all active:scale-95 shadow disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-[#152338] disabled:hover:text-[#9FB0C6]"
+          >
+            <Delete className="w-4 h-4" /> Sil
+          </button>
+
+          {/* Tumunu temizle */}
+          <button
+            onClick={handleVirtualClear}
+            disabled={!runicResult}
+            title="Çıktıyı tamamen temizle"
+            aria-label="Çıktıyı tamamen temizle"
+            className="h-12 col-span-2 rounded-xl bg-[#152338] hover:bg-[#233754] text-[#9FB0C6] hover:text-white border border-[#233754] flex items-center justify-center gap-1.5 text-xs font-bold transition-all active:scale-95 shadow disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            <Eraser className="w-4 h-4" /> Tümünü Sil
           </button>
         </div>
       </div>

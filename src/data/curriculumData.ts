@@ -409,9 +409,14 @@ export const UNITS: Unit[] = [
             id: 'ex-5-1-1',
             type: 'choice',
             prompt: '"Teŋride" (Tanrı\'da / Tanrı katından) kelimesindeki bulunma eki hangisidir?',
-            options: ['-da / -de (𐰓𐰀)', '-ka / -ke (𐰚𐰀)', '-dın / -din (𐰓𐰤)', '-nı / -ni (𐰤𐰃)'],
-            correctAnswer: '-da / -de (𐰓𐰀)',
-            explanation: 'Tebrikler! Orhun Türkçesinde bulunma ve ayrılma görevi -da/-de ekiyle karşılanırdı.'
+            options: [
+              '-da / -de (𐰑𐰀 / 𐰓𐰀)',
+              '-ka / -ke (𐰴𐰀 / 𐰚𐰀)',
+              '-dın / -din (𐰑𐰣 / 𐰓𐰤)',
+              '-nı / -ni (𐰣𐰃 / 𐰤𐰃)'
+            ],
+            correctAnswer: '-da / -de (𐰑𐰀 / 𐰓𐰀)',
+            explanation: 'Doğru! Orhun Türkçesinde bulunma ve ayrılma görevini -da/-de eki üstlenir. Ekin tek bir yazımı yoktur: ünsüzler kalın/ince çifti olduğu için kelimenin ünlü uyumuna göre seçilir. "Teŋride" ince sıradan olduğu için ince d² tamgası kullanılır: 𐱅𐰭𐰼𐰃 + 𐰓𐰀. Kalın sıradan bir kelimede ise kalın d¹ ile 𐰑𐰀 yazılırdı (örn. "kaganda").'
           },
           {
             id: 'ex-5-1-2',
