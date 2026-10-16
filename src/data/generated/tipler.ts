@@ -60,6 +60,27 @@ export interface SozlukKelimesi {
   }>;
 }
 
+export interface KusakDersi {
+  id: string;
+  baslik: string;
+  altbaslik: string;
+  xp: number;
+  /** Alıştırmalar kimlikle anılır; veri alistirmalar.json'da tekrarlanmaz. */
+  alistirmaIdleri: string[];
+}
+
+export interface Kusak {
+  id: string;
+  /** Elle yazılmış 5 aşamanın ardından gelir; numara 6'dan başlar. */
+  numara: number;
+  /** Alıştırma zorluk bandı (1-5). */
+  bant: number;
+  baslik: string;
+  altbaslik: string;
+  aciklama: string;
+  dersler: KusakDersi[];
+}
+
 export interface UretilmisAlistirma {
   id: string;
   tur: UretilmisAlistirmaTuru;

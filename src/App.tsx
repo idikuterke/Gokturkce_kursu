@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, lazy, Suspense } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
 import confetti from 'canvas-confetti';
 import { Navbar } from './components/Navbar';
 import { LearningPath } from './components/LearningPath';
@@ -14,6 +14,7 @@ import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQues
 import { formatDateToKey, getInitialActivityHistory } from './utils/statsUtils';
 import { useCloudProgress } from './hooks/useCloudProgress';
 import { AuthModal } from './components/AuthModal';
+import { uretilmisKusaklar } from './data/generated/kusakKur';
 
 // Acilista yalnizca "Ogren" sekmesi gorunur. Digerleri ayri parcalara
 // bolunup ilk acildiklarinda yuklenir; boylece recharts gibi agir
@@ -63,6 +64,20 @@ export const App: React.FC = () => {
 
   const [selectedDrawingTamga, setSelectedDrawingTamga] = useState<TamgaItem | undefined>(undefined);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  // Elle yazılmış 5 aşamanın ardına eklenen, korpustan üretilmiş kuşaklar.
+  // Ayrı parçada; öğrenme yolu açılınca iniyor. İnmezse yol elle yazılmış
+  // içerikle sorunsuz çalışmaya devam eder.
+  const [uretilmisUniteler, setUretilmisUniteler] = useState<typeof UNITS>([]);
+
+  useEffect(() => {
+    let iptal = false;
+    uretilmisKusaklar()
+      .then((u) => { if (!iptal) setUretilmisUniteler(u); })
+      .catch(() => { /* yol elle yazılmış içerikle çalışır */ });
+    return () => { iptal = true; };
+  }, []);
+
+  const tumUniteler = useMemo(() => [...UNITS, ...uretilmisUniteler], [uretilmisUniteler]);
 
   const handleTabChange = (tab: string) => {
     setCurrentTab(tab);
@@ -422,7 +437,7 @@ export const App: React.FC = () => {
         <Suspense fallback={<TabYukleniyor />}>
         {currentTab === 'ogren' && (
           <LearningPath
-            units={UNITS}
+            units={tumUniteler}
             progress={progress}
             onStartLesson={(lesson) => setActiveLesson(lesson)}
             onOpenTamgalik={() => {

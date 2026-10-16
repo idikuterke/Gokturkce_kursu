@@ -363,15 +363,30 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             {currentExercise.options.map((option) => {
               const isSelected = selectedChoice === option;
               return (
-                <button
+                // Geçersiz HTML olmasın diye div: içinde hoparlör düğmesi var,
+                // <button> içine <button> konamaz (React de uyarıyor).
+                // Erişilebilirlik role/tabIndex/klavye ile korunuyor.
+                <div
                   key={option}
+                  role="radio"
+                  aria-checked={isSelected}
+                  tabIndex={isChecked ? -1 : 0}
                   onClick={() => {
                     if (isChecked) return;
                     playChiselSound();
                     setSelectedChoice(option);
                     handleSpeak(option);
                   }}
-                  className={`relative min-h-16 py-3 pl-12 pr-20 rounded-2xl border-2 text-center transition-all font-medium text-sm flex items-center justify-center ${
+                  onKeyDown={(e) => {
+                    if (isChecked) return;
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      playChiselSound();
+                      setSelectedChoice(option);
+                      handleSpeak(option);
+                    }
+                  }}
+                  className={`relative min-h-16 py-3 pl-12 pr-20 rounded-2xl border-2 text-center transition-all font-medium text-sm flex items-center justify-center cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-[#2BC4C4] ${
                     isSelected
                       ? 'bg-[#2BC4C4]/15 border-[#2BC4C4] text-white shadow-[0_0_15px_rgba(43,196,196,0.2)]'
                       : 'bg-[#152338] border-[#233754] text-[#E6EDF5] hover:border-[#3B82F6]/60 hover:bg-[#1a2c47]'
@@ -395,7 +410,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       {isSelected && '✓'}
                     </span>
                   </div>
-                </button>
+                </div>
               );
             })}
           </div>

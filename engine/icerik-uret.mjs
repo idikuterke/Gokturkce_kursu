@@ -254,6 +254,77 @@ yazJson("korpus.json", dizeler);
 yazJson("kelimeler.json", kelimeler);
 yazJson("alistirmalar.json", alistirmalar);
 
+// ── Kuşaklar ────────────────────────────────────────────────────────────────
+// Elle yazılmış 5 aşama alfabeyi ve imla kurallarını ÖĞRETİR; korunuyor.
+// Buradaki kuşaklar onun devamı: öğrenilen kuralların gerçek kitabe
+// malzemesiyle pekiştirildiği, zorluğu kademeli artan uygulama aşamaları.
+// Böylece üretilen alıştırmalar ayrı bir sekmede kalmayıp öğrenme yoluna,
+// dolayısıyla XP/can/ilerleme sistemine bağlanır.
+const KUSAK_TANIMI = [
+  { bant: 1, baslik: "Bengü Taş Kelimeleri", altbaslik: "Kitabelerin en sık sözcükleri" },
+  { bant: 2, baslik: "Yazılmayan Ünlüler", altbaslik: "Eksik ünlüyü okurken tamamlama" },
+  { bant: 3, baslik: "Uzun Sözcükler", altbaslik: "Çok tamgalı biçimler ve ekler" },
+  { bant: 4, baslik: "Ayırt Etme", altbaslik: "Birbirine benzeyen tamgalar ve sözcükler" },
+  { bant: 5, baslik: "Deşifre Ustalığı", altbaslik: "Yıpranmış ve karmaşık dizgiler" }
+];
+
+const DERS_BASINA = 8;
+const DERS_SAYISI = 3;
+
+// Sözlükte anlamı olan kelimeler: kelime kurma alıştırmasında "Anlam" alanı
+// gösterildiği için yalnızca anlamı BİLİNEN kelimeler oraya konur. Anlamı
+// olmayanı boş ya da uydurma anlamla göstermek öğretici olmaz.
+const anlamlar = new Map();
+if (fs.existsSync(P("05_Kaynak_DB/sozluk-anlamlar.json"))) {
+  for (const k of oku("05_Kaynak_DB/sozluk-anlamlar.json")) {
+    if (k.runik && k.anlam && !k.korpustaYok) anlamlar.set(k.runik, k.anlam);
+  }
+}
+
+const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
+  const bantAlistirmalari = alistirmalar.filter((a) => a.zorluk === tanim.bant);
+  const okuma = bantAlistirmalari.filter((a) => a.tur === "runik_oku");
+  // Kelime kurma yalnızca anlamı bilinen kelimelerle.
+  const kurma = bantAlistirmalari.filter((a) => a.tur === "kelime_kur" && anlamlar.has(a.runik));
+
+  const dersler = [];
+  for (let d = 0; d < DERS_SAYISI; d++) {
+    const secilen = [];
+    for (let j = 0; j < DERS_BASINA; j++) {
+      const sira = d * DERS_BASINA + j;
+      // Dönüşümlü: önce tanı, sonra yaz.
+      const kaynak = j % 2 === 0 ? okuma : kurma;
+      const secim = kaynak[Math.floor(sira / 2) % (kaynak.length || 1)];
+      if (secim && !secilen.includes(secim.id)) secilen.push(secim.id);
+    }
+    if (secilen.length) {
+      dersler.push({
+        id: `kusak-${tanim.bant}-ders-${d + 1}`,
+        baslik: `${tanim.baslik} ${d + 1}`,
+        altbaslik: tanim.altbaslik,
+        xp: 15 + tanim.bant * 5,
+        alistirmaIdleri: secilen
+      });
+    }
+  }
+
+  return {
+    id: `kusak-${tanim.bant}`,
+    numara: 6 + i,
+    bant: tanim.bant,
+    baslik: tanim.baslik,
+    altbaslik: tanim.altbaslik,
+    aciklama: `Orhun yazıtlarından derlenmiş, ${tanim.bant}. zorluk bandındaki gerçek sözcüklerle pekiştirme.`,
+    dersler
+  };
+}).filter((k) => k.dersler.length);
+
+yazJson("kusaklar.json", kusaklar);
+console.log(
+  `kuşak           : ${kusaklar.length} (${kusaklar.reduce((n, k) => n + k.dersler.length, 0)} ders, ` +
+  `${kusaklar.reduce((n, k) => n + k.dersler.reduce((m, d) => m + d.alistirmaIdleri.length, 0), 0)} alıştırma)`
+);
+
 // ── Sözlük ──────────────────────────────────────────────────────────────────
 // sozluk-anlamlar.json dışarıdan gelen anlamların korpusla birleştirilmiş
 // halidir (engine/sozluk-birlestir.mjs). Burada yalnızca uygulamanın
@@ -353,6 +424,27 @@ export interface SozlukKelimesi {
     siklik: number;
     dizeler: string[];
   }>;
+}
+
+export interface KusakDersi {
+  id: string;
+  baslik: string;
+  altbaslik: string;
+  xp: number;
+  /** Alıştırmalar kimlikle anılır; veri alistirmalar.json'da tekrarlanmaz. */
+  alistirmaIdleri: string[];
+}
+
+export interface Kusak {
+  id: string;
+  /** Elle yazılmış 5 aşamanın ardından gelir; numara 6'dan başlar. */
+  numara: number;
+  /** Alıştırma zorluk bandı (1-5). */
+  bant: number;
+  baslik: string;
+  altbaslik: string;
+  aciklama: string;
+  dersler: KusakDersi[];
 }
 
 export interface UretilmisAlistirma {
