@@ -1,6 +1,26 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "slayt-sunucu", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "8765", "--directory", "build/slayt"], "port": 8765 }
+    {
+      "name": "slayt-sunucu",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "build/slayt"
+      ],
+      "port": 8765
+    },
+    {
+      "name": "vite-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 5173
+    }
   ]
 }

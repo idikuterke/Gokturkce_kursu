@@ -12,6 +12,7 @@ import { Badge } from './data/badgesData';
 import { playSuccessSound, playVictoryFanfare } from './utils/audio';
 import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQuests';
 import { formatDateToKey, getInitialActivityHistory } from './utils/statsUtils';
+import { sonucGonder, kuyrukTasi } from './utils/sonucGonder';
 import { useCloudProgress } from './hooks/useCloudProgress';
 import { AuthModal } from './components/AuthModal';
 import { uretilmisKusaklar } from './data/generated/kusakKur';
@@ -129,6 +130,11 @@ export const App: React.FC = () => {
 
   // Oturum acikken ilerlemeyi buluta da tasi (yerel kayit hizli yol olarak kalir)
   useCloudProgress(progress, setProgress);
+
+  // Çevrimdışı kalan sınav sonuçlarını yeniden göndermeye çalış (ağ varken)
+  useEffect(() => {
+    kuyrukTasi();
+  }, []);
 
   // Persist progress to localStorage
   useEffect(() => {
@@ -328,6 +334,19 @@ export const App: React.FC = () => {
   const handleLessonComplete = (xpEarned: number) => {
     if (!activeLesson) return;
     const lessonId = activeLesson.id;
+
+    // Sınav sonucu eğitmene ulaşsın (VITE_GK_SONUC_URL ayarlıysa)
+    if (activeLesson.type === 'exam') {
+      sonucGonder({
+        modul: activeLesson.title,
+        ad: '',
+        eposta: (import.meta.env.VITE_GK_EPOSTA as string | undefined) ?? '',
+        puan: 100,
+        dogru: null,
+        soru: null,
+        gecti: true
+      });
+    }
 
     // Advance daily lesson quest
     handleUpdateQuest('lesson', 1);

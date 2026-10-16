@@ -1,13 +1,11 @@
 [build]
-  command = "node engine/build.mjs && node engine/build.mjs --hedef slayt && node engine/paket.mjs && node engine/pwa-uret.mjs"
-  publish = "build/paket"
+  command = "npm install --no-audit --no-fund && npm run kapi && npm run build"
+  publish = "dist"
 
 [[headers]]
-  for = "/sw.js"
+  for = "/assets/*"
   [headers.values]
-    Cache-Control = "no-cache"
+    Cache-Control = "public, max-age=31536000, immutable"
 
-[[headers]]
-  for = "/manifest.webmanifest"
-  [headers.values]
-    Cache-Control = "no-cache"
+[[build.environment]]
+  NODE_VERSION = "22"
