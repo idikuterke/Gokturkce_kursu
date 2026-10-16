@@ -53,7 +53,17 @@ for (const [dosya, meta] of Object.entries(YAZITLAR)) {
       tamga_sayisi: runik.length,
       dusen_unlu: dusenUnlu(mt),
       yipranma: /---/.test(gokturkce) || /---/.test(mt),
-      dogrulandi: false,         // eğitmen kitaptan (Tekin / Ata) karşılaştırınca true yapılır
+      // Üç denetim ayrı izlenir; tek bayrak hangisinin yapıldığını gizliyordu.
+      // iskelet'i orhun-tara.mjs doldurur (orhun-dogrulama-gecis.mjs), ceviri
+      // ve okuma eğitmenin kitaptan (Tekin / Ata) karşılaştırmasını bekler.
+      dogrulama: {
+        iskelet: "denetlenmedi",
+        ceviri: "denetlenmedi",
+        okuma: "denetlenmedi",
+        denetleyen: null,
+        kaynak: null,
+        tarih: null,
+      },
       etiketler: [],
       kaynakca: { site: "turkbitig.com", url: meta.url, erisim: "2026-09-10" },
     });
