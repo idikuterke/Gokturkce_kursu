@@ -5,7 +5,7 @@ import { Lesson, Exercise, UserProgress } from '../types';
 import { playChiselSound, playSuccessSound, playErrorSound, playVictoryFanfare } from '../utils/audio';
 import { shuffle, shuffleDistinct } from '../utils/shuffle';
 import { speakTamgaOrWord } from '../utils/speech';
-import { MascotBoru } from './MascotBoru';
+import { MascotAlp } from './MascotAlp';
 
 interface LessonModalProps {
   lesson: Lesson;
@@ -233,7 +233,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
       <div className="fixed inset-0 z-50 bg-[#0B1320]/95 backdrop-blur-md flex items-center justify-center p-4">
         <div className="max-w-md w-full bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
           <div className="flex justify-center">
-            <MascotBoru mood="proud" size={130} />
+            <MascotAlp mood="proud" size={130} />
           </div>
 
           <div className="space-y-2">
@@ -444,7 +444,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       handleSpeak(pair.rune, pair.sound);
                       setSelectedPairRune(pair.rune);
                     }}
-                    className={`w-full py-3.5 px-4 rounded-2xl border-2 text-center transition-all flex items-center justify-between px-5 ${
+                    className={`w-full min-h-16 py-3 px-5 rounded-2xl border-2 text-center transition-all flex items-center justify-between ${
                       isMatched
                         ? 'bg-[#37B36A]/20 border-[#37B36A] text-[#37B36A] opacity-60 cursor-default'
                         : isSelected
@@ -476,7 +476,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       handleSpeak(pair.sound);
                       setSelectedPairSound(pair.sound);
                     }}
-                    className={`w-full py-4 px-4 rounded-2xl border-2 text-center text-sm font-semibold transition-all flex items-center justify-between px-5 ${
+                    className={`w-full min-h-16 py-3 px-5 rounded-2xl border-2 text-center text-sm font-semibold transition-all flex items-center justify-between ${
                       isMatched
                         ? 'bg-[#37B36A]/20 border-[#37B36A] text-[#37B36A] opacity-60 cursor-default'
                         : isSelected
