@@ -9379,11 +9379,11 @@
       },
       "dogrulama": {
         "iskelet": "gecti",
-        "ceviri": "denetlenmedi",
+        "ceviri": "gecti",
         "okuma": "denetlenmedi",
         "denetleyen": null,
-        "kaynak": null,
-        "tarih": null
+        "kaynak": "Tekin 2003, s. 54",
+        "tarih": "2026-10-16"
       }
     },
     {
@@ -9415,11 +9415,11 @@
       },
       "dogrulama": {
         "iskelet": "gecti",
-        "ceviri": "denetlenmedi",
+        "ceviri": "gecti",
         "okuma": "denetlenmedi",
         "denetleyen": null,
-        "kaynak": null,
-        "tarih": null
+        "kaynak": "Tekin 2003, s. 54",
+        "tarih": "2026-10-16"
       }
     },
     {
@@ -9451,11 +9451,11 @@
       },
       "dogrulama": {
         "iskelet": "gecti",
-        "ceviri": "denetlenmedi",
+        "ceviri": "hatali",
         "okuma": "denetlenmedi",
         "denetleyen": null,
-        "kaynak": null,
-        "tarih": null
+        "kaynak": "Turkce alanda ceviri yerine modernlestirilmis okunus var",
+        "tarih": "2026-10-16"
       }
     },
     {
@@ -9487,11 +9487,11 @@
       },
       "dogrulama": {
         "iskelet": "gecti",
-        "ceviri": "denetlenmedi",
+        "ceviri": "hatali",
         "okuma": "denetlenmedi",
         "denetleyen": null,
-        "kaynak": null,
-        "tarih": null
+        "kaynak": "Turkce alanda ceviri yerine modernlestirilmis okunus var",
+        "tarih": "2026-10-16"
       }
     },
     {
@@ -9558,11 +9558,11 @@
       },
       "dogrulama": {
         "iskelet": "gecti",
-        "ceviri": "denetlenmedi",
+        "ceviri": "hatali",
         "okuma": "denetlenmedi",
         "denetleyen": null,
-        "kaynak": null,
-        "tarih": null
+        "kaynak": "Metin sonunda tas kirigi (lacuna/---) mevcut",
+        "tarih": "2026-10-16"
       }
     },
     {
@@ -11913,11 +11913,11 @@
       },
       "dogrulama": {
         "iskelet": "gecti",
-        "ceviri": "denetlenmedi",
+        "ceviri": "hatali",
         "okuma": "denetlenmedi",
         "denetleyen": null,
-        "kaynak": null,
-        "tarih": null
+        "kaynak": "Sungusduk yerine savastik kelimesi kullanilmali",
+        "tarih": "2026-10-16"
       }
     },
     {
@@ -12891,11 +12891,11 @@
       },
       "dogrulama": {
         "iskelet": "gecti",
-        "ceviri": "denetlenmedi",
+        "ceviri": "gecti",
         "okuma": "denetlenmedi",
         "denetleyen": null,
-        "kaynak": null,
-        "tarih": null
+        "kaynak": "Tekin 2003, s. 250",
+        "tarih": "2026-10-16"
       }
     }
   ],

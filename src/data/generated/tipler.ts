@@ -94,6 +94,8 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
+  /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
+  gunumuzOkumasi?: boolean;
   /** Kaynak kitabe dizesinin kimliği (ör. KT-G-1). */
   kaynak: string;
 }

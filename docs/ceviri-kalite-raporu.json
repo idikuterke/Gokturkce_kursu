@@ -1,0 +1,2588 @@
+{
+  "lacunalar": [
+    {
+      "id": "KT-G-3",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-G-11",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-G-12",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-G-13",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-2",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-14",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-19",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-20",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-30",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-37",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-38",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-D-39",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-K-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-KD-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-GD-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-GB-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "KT-B-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-2",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-12",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-14",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-16",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-17",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-25",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-26",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-28",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-29",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-30",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-31",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-32",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-33",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-34",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-35",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-36",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-37",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-38",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-39",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-40",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-D-41",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-GD-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-2",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-3",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-4",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-5",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-6",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-7",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-8",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-9",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-10",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-11",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-14",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-G-15",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-K-9",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-K-10",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-K-11",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-K-12",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-K-13",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-K-15",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-B-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-B-7",
+      "yipranmaBayragi": false
+    },
+    {
+      "id": "BK-B-8",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-B-9",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "BK-GB-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY1-D-6",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY1-D-7",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY1-K-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY1-K-2",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY2-G-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY2-G-3",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY2-D-1",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY2-D-7",
+      "yipranmaBayragi": true
+    },
+    {
+      "id": "TY2-D-8",
+      "yipranmaBayragi": true
+    }
+  ],
+  "cevirilmemisler": [
+    {
+      "id": "BK-G-5",
+      "kelimeSayisi": 1,
+      "cevirilmemis": 1,
+      "oran": 100,
+      "ornekler": [
+        "YOR --- → YOR ---"
+      ]
+    },
+    {
+      "id": "BK-B-4",
+      "kelimeSayisi": 4,
+      "cevirilmemis": 2,
+      "oran": 50,
+      "ornekler": [
+        "KöBüRGeSİ → KÖBÜRGESİ",
+        "öTeRÇE → ÖTERCE"
+      ]
+    },
+    {
+      "id": "BK-G-2",
+      "kelimeSayisi": 20,
+      "cevirilmemis": 8,
+      "oran": 40,
+      "ornekler": [
+        "SÜLeDiM → SÜLEDİM",
+        "OTuZ → OTUZ",
+        "KIŞıN → KIŞIN",
+        "SÜLeDiM → SÜLEDİM"
+      ]
+    },
+    {
+      "id": "BK-D-25",
+      "kelimeSayisi": 41,
+      "cevirilmemis": 15,
+      "oran": 37,
+      "ornekler": [
+        "SÜLeDİM → SÜLEDİM",
+        "BOZDuM → BOZDUM",
+        "TÜMeN → TÜMEN",
+        "SÜ → SÜ"
+      ]
+    },
+    {
+      "id": "BK-G-14",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 10,
+      "oran": 37,
+      "ornekler": [
+        "ŞaDPIT → ŞADPIT",
+        "BOYLA → BOYLA",
+        "BaGA → BAĞA",
+        "BUYRUK → BUYRUK"
+      ]
+    },
+    {
+      "id": "BK-K-15",
+      "kelimeSayisi": 19,
+      "cevirilmemis": 7,
+      "oran": 37,
+      "ornekler": [
+        "oK → OK",
+        "TaTIŊA → TATINA",
+        "BİLiŊ → BİLİN",
+        "BeŊGÜ → BENGÜ"
+      ]
+    },
+    {
+      "id": "KT-G-13",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 10,
+      "oran": 36,
+      "ornekler": [
+        "BU --- İL → BU --- İL",
+        "--- M → --- M",
+        "TaKI → TAKİ",
+        "BeŊGÜ → BENGÜ"
+      ]
+    },
+    {
+      "id": "KT-D-13",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 9,
+      "oran": 35,
+      "ornekler": [
+        "eR → ER",
+        "eR → ER",
+        "iLSiReMiŞ → ILSİREMİŞ",
+        "KaGaNSıRaMıŞ → KAĞANSIRAMIŞ"
+      ]
+    },
+    {
+      "id": "BK-D-12",
+      "kelimeSayisi": 40,
+      "cevirilmemis": 14,
+      "oran": 35,
+      "ornekler": [
+        "eÇÜM → EÇÜM",
+        "aPAM → APAM",
+        "YaRaTMıŞ → YARATMIŞ",
+        "TÖLİS → TÖLİS"
+      ]
+    },
+    {
+      "id": "TY1-K-7",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 9,
+      "oran": 35,
+      "ornekler": [
+        "YUGLaTaYIN → YUĞLATAYIM",
+        "YIŞDA → YIŞDA",
+        "SÜ → SÜ",
+        "BaŞI → BAŞI"
+      ]
+    },
+    {
+      "id": "BK-D-39",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 8,
+      "oran": 33,
+      "ornekler": [
+        "TaTaBI → TATABI",
+        "YaLaBaÇI → YALABAÇI",
+        "SÜLeDiM → SÜLEDİM",
+        "BOZDuM → BOZDUM"
+      ]
+    },
+    {
+      "id": "BK-B-7",
+      "kelimeSayisi": 3,
+      "cevirilmemis": 1,
+      "oran": 33,
+      "ornekler": [
+        "ÖZüM → ÖZÜM"
+      ]
+    },
+    {
+      "id": "KT-D-4",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 10,
+      "oran": 32,
+      "ornekler": [
+        "KeRGeK → KERGEK",
+        "SIGıTÇI → SIĞITÇI",
+        "aPaR → APAR",
+        "ÜÇKURIKaN → ÜÇKURIKAN"
+      ]
+    },
+    {
+      "id": "BK-G-11",
+      "kelimeSayisi": 25,
+      "cevirilmemis": 8,
+      "oran": 32,
+      "ornekler": [
+        "LİSÜN → LİSÜN",
+        "TaY → TAY",
+        "KOKuLuK → KOKULUK",
+        "Ö --- → Ö ---"
+      ]
+    },
+    {
+      "id": "KT-D-33",
+      "kelimeSayisi": 35,
+      "cevirilmemis": 11,
+      "oran": 31,
+      "ornekler": [
+        "IŞBaRA → IŞBARA",
+        "BOZ → BOZ",
+        "BİNiP → BİNİP",
+        "aT → AT"
+      ]
+    },
+    {
+      "id": "TY2-D-5",
+      "kelimeSayisi": 16,
+      "cevirilmemis": 5,
+      "oran": 31,
+      "ornekler": [
+        "UDU → UDU",
+        "ÖZüM → ÖZÜM",
+        "İL → İL",
+        "UDU → UDU"
+      ]
+    },
+    {
+      "id": "KT-D-14",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 8,
+      "oran": 30,
+      "ornekler": [
+        "YaGI → YAĞI",
+        "BaZ → BAZ",
+        "YaGI → YAĞI",
+        "KURIKaN → KURIKAN"
+      ]
+    },
+    {
+      "id": "KT-D-40",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 9,
+      "oran": 30,
+      "ornekler": [
+        "aLP → ALP",
+        "eR → ER",
+        "aNTaG → ANTAG",
+        "ÖKüNüP → ÖKÜNÜP"
+      ]
+    },
+    {
+      "id": "BK-D-29",
+      "kelimeSayisi": 40,
+      "cevirilmemis": 12,
+      "oran": 30,
+      "ornekler": [
+        "KARLUK → KARLUK",
+        "ERKLİ → ERKLİ",
+        "YAGI → YAĞI",
+        "TAMAG → TAMAG"
+      ]
+    },
+    {
+      "id": "BK-G-8",
+      "kelimeSayisi": 20,
+      "cevirilmemis": 6,
+      "oran": 30,
+      "ornekler": [
+        "KUG → KUĞ",
+        "TÜMeN → TÜMEN",
+        "SÜ → SÜ",
+        "ÜÇ [TÜMeN] → ÜÇ [TÜMEN]"
+      ]
+    },
+    {
+      "id": "KT-K-10",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 9,
+      "oran": 29,
+      "ornekler": [
+        "İNiM → İNİM",
+        "KeRGeK → KERGEK",
+        "ÖZüM → ÖZÜM",
+        "SaKıNDıM → SAKINDIM"
+      ]
+    },
+    {
+      "id": "TY1-G-6",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 7,
+      "oran": 29,
+      "ornekler": [
+        "BiZ → BİZ",
+        "İÇİ → İÇİ",
+        "BİZ → BİZ",
+        "UÇuZ → UCUZ"
+      ]
+    },
+    {
+      "id": "BK-D-3",
+      "kelimeSayisi": 43,
+      "cevirilmemis": 12,
+      "oran": 28,
+      "ornekler": [
+        "KİŞİ → KİŞİ",
+        "eÇÜM → EÇÜM",
+        "aPAM → APAM",
+        "BUMıN → BUMIN"
+      ]
+    },
+    {
+      "id": "BK-D-38",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 8,
+      "oran": 28,
+      "ornekler": [
+        "--- Tİ → --- Tİ",
+        "AÇ → AÇ",
+        "aLıP → ALIP",
+        "OTuZ → OTUZ"
+      ]
+    },
+    {
+      "id": "KT-G-7",
+      "kelimeSayisi": 37,
+      "cevirilmemis": 10,
+      "oran": 27,
+      "ornekler": [
+        "KİŞİ → KİŞİ",
+        "BOŞGURUR → BOŞGURUR",
+        "IRaK → IRAK",
+        "aGI → AĞI"
+      ]
+    },
+    {
+      "id": "KT-D-15",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 7,
+      "oran": 27,
+      "ornekler": [
+        "KIRK → KIRK",
+        "SÜLeMiŞ → SÜLEMİŞ",
+        "iLSiReTMiŞ → İLSİRETMİŞ",
+        "KaGaNSıRaTMıŞ → KAĞANSIRATMIŞ"
+      ]
+    },
+    {
+      "id": "KT-D-24",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 9,
+      "oran": 27,
+      "ornekler": [
+        "KaNıN → KANIN",
+        "BeGLiK → BEĞLİK",
+        "URI → URI",
+        "OGLuŊ → OĞLUN"
+      ]
+    },
+    {
+      "id": "KT-D-30",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 8,
+      "oran": 27,
+      "ornekler": [
+        "KaGaNLıGDA → KAĞANLIĞIDA",
+        "BaZ → BAZ",
+        "KILDıM → KILDIM",
+        "KILDıM → KILDIM"
+      ]
+    },
+    {
+      "id": "KT-D-37",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 7,
+      "oran": 27,
+      "ornekler": [
+        "iRTiŞ → İRTİŞ",
+        "SÜSİ → SÜSİ",
+        "BOLÇUDA → BOLÇUDA",
+        "BOZ → BOZ"
+      ]
+    },
+    {
+      "id": "BK-K-6",
+      "kelimeSayisi": 51,
+      "cevirilmemis": 14,
+      "oran": 27,
+      "ornekler": [
+        "BİLMeZ → BİLMEZ",
+        "KİŞİ → KİŞİ",
+        "aLıP → ALIP",
+        "KİŞİ → KİŞİ"
+      ]
+    },
+    {
+      "id": "TY2-B-8",
+      "kelimeSayisi": 15,
+      "cevirilmemis": 4,
+      "oran": 27,
+      "ornekler": [
+        "aZÇA → AZCA",
+        "TeZMiŞ → TEZMİŞ",
+        "OK → OK",
+        "SÜLeTDiM → SÜLETDİM"
+      ]
+    },
+    {
+      "id": "KT-D-32",
+      "kelimeSayisi": 35,
+      "cevirilmemis": 9,
+      "oran": 26,
+      "ornekler": [
+        "TUTuK → TUTUK",
+        "OTuZ → OTUZ",
+        "ÇaÇA → ÇAÇA",
+        "eŊ → EN"
+      ]
+    },
+    {
+      "id": "KT-GB-1",
+      "kelimeSayisi": 19,
+      "cevirilmemis": 5,
+      "oran": 26,
+      "ornekler": [
+        "KÖLTİGiNiŊ → KÜLTİĞİNİN",
+        "--- BeGiM → --- BEĞİM",
+        "--- TaŞ → --- TAŞ",
+        "BİTiDiM → BİTİDİM"
+      ]
+    },
+    {
+      "id": "BK-D-24",
+      "kelimeSayisi": 42,
+      "cevirilmemis": 11,
+      "oran": 26,
+      "ornekler": [
+        "IGaR → IĞAR",
+        "IGaR → IĞAR",
+        "KILDıM → KILDIM",
+        "BaZ → BAZ"
+      ]
+    },
+    {
+      "id": "BK-G-9",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 7,
+      "oran": 26,
+      "ornekler": [
+        "OGLuM → OĞLUM",
+        "KUG → KUĞ",
+        "BaLBaL → BALBAL",
+        "YIL → YIL"
+      ]
+    },
+    {
+      "id": "BK-GB-1",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 6,
+      "oran": 26,
+      "ornekler": [
+        "BİTiDiM → BİTİDİM",
+        "BUNÇA → BUNCA",
+        "aTISI → ATISI",
+        "YOLuG → YOLUĞ"
+      ]
+    },
+    {
+      "id": "TY2-B-7",
+      "kelimeSayisi": 19,
+      "cevirilmemis": 5,
+      "oran": 26,
+      "ornekler": [
+        "aNDA → ANDA",
+        "eR → ER",
+        "OK → OK",
+        "OK → OK"
+      ]
+    },
+    {
+      "id": "KT-G-4",
+      "kelimeSayisi": 32,
+      "cevirilmemis": 8,
+      "oran": 25,
+      "ornekler": [
+        "SÜLeDiM → SÜLEDİM",
+        "YiR → YİR",
+        "BaYıRKU → BAYIRKU",
+        "SÜLeDiM → SÜLEDİM"
+      ]
+    },
+    {
+      "id": "KT-K-1",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 7,
+      "oran": 25,
+      "ornekler": [
+        "KOŞU → KOŞU",
+        "TUTuK → TUTUK",
+        "KaLISıZ → KALISIZ",
+        "KaRLUK → KARLUK"
+      ]
+    },
+    {
+      "id": "BK-D-5",
+      "kelimeSayisi": 40,
+      "cevirilmemis": 10,
+      "oran": 25,
+      "ornekler": [
+        "SIGıTÇI → SIĞITÇI",
+        "aPaR → APAR",
+        "ÜÇKURIKaN → ÜÇ-KURIKAN",
+        "OTuZTaTaR → OTUZ-TATAR"
+      ]
+    },
+    {
+      "id": "BK-D-13",
+      "kelimeSayisi": 36,
+      "cevirilmemis": 9,
+      "oran": 25,
+      "ornekler": [
+        "SÜLeMiŞ → SÜLEMİŞ",
+        "iLSiReTMiŞ → İLSİRETMİŞ",
+        "KaGaNSıRaTMıŞ → KAĞANSIRATMIŞ",
+        "BaZ → BAZ"
+      ]
+    },
+    {
+      "id": "BK-G-7",
+      "kelimeSayisi": 16,
+      "cevirilmemis": 4,
+      "oran": 25,
+      "ornekler": [
+        "aLP → ALP",
+        "BaLBaL → BALBAL",
+        "TaTaBI → TATABI",
+        "--- Ka --- → --- KA ---"
+      ]
+    },
+    {
+      "id": "BK-B-2",
+      "kelimeSayisi": 4,
+      "cevirilmemis": 1,
+      "oran": 25,
+      "ornekler": [
+        "UÇA → UÇA"
+      ]
+    },
+    {
+      "id": "BK-B-5",
+      "kelimeSayisi": 4,
+      "cevirilmemis": 1,
+      "oran": 25,
+      "ornekler": [
+        "SIGUN → SIĞUN"
+      ]
+    },
+    {
+      "id": "TY1-D-2",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 6,
+      "oran": 25,
+      "ornekler": [
+        "OTuZ → OTUZ",
+        "BaLıK → BALIK",
+        "YaGıMıZ → YAĞIMIZ",
+        "OK → OK"
+      ]
+    },
+    {
+      "id": "TY2-B-1",
+      "kelimeSayisi": 16,
+      "cevirilmemis": 4,
+      "oran": 25,
+      "ornekler": [
+        "aNTaG → ANTAG",
+        "YaRıŞ → YARIŞ",
+        "TÜMeN → TÜMEN",
+        "SÜ → SÜ"
+      ]
+    },
+    {
+      "id": "TY2-G-1",
+      "kelimeSayisi": 12,
+      "cevirilmemis": 3,
+      "oran": 25,
+      "ornekler": [
+        "TeMiR → TEMİR",
+        "İNeL → İNEL",
+        "TeZİK → TEZİK"
+      ]
+    },
+    {
+      "id": "TY2-D-1",
+      "kelimeSayisi": 12,
+      "cevirilmemis": 3,
+      "oran": 25,
+      "ornekler": [
+        "KaPaGaN → KAPAĞAN",
+        "OTuZ → OTUZ",
+        "KaPaGaN → KAPAĞAN"
+      ]
+    },
+    {
+      "id": "KT-D-2",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 7,
+      "oran": 24,
+      "ornekler": [
+        "YaGI → YAĞI",
+        "SÜ → SÜ",
+        "aLMıŞ → ALMIŞ",
+        "BaZ → BAZ"
+      ]
+    },
+    {
+      "id": "KT-D-20",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 8,
+      "oran": 24,
+      "ornekler": [
+        "BaRS → BARS",
+        "BeG → BEĞ",
+        "BİZ → BİZ",
+        "YaŊıLDI → YANILDI"
+      ]
+    },
+    {
+      "id": "KT-D-34",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 8,
+      "oran": 24,
+      "ornekler": [
+        "YeR → YER",
+        "İRKiN → İRKİN",
+        "YaGI → YAĞI",
+        "TÜRGİ → TÜRGİ"
+      ]
+    },
+    {
+      "id": "KT-K-8",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 7,
+      "oran": 24,
+      "ornekler": [
+        "BİNiP → BİNİP",
+        "BaLIKA → BALIKA",
+        "SÜ → SÜ",
+        "aMGA → AMGA"
+      ]
+    },
+    {
+      "id": "KT-K-11",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 8,
+      "oran": 24,
+      "ornekler": [
+        "SaKıNDıM → SAKINDIM",
+        "YaŞ → YAŞ",
+        "SaKıNDıM → SAKINDIM",
+        "SaKıNDıM → SAKINDIM"
+      ]
+    },
+    {
+      "id": "KT-K-12",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 8,
+      "oran": 24,
+      "ornekler": [
+        "UDaR → UDAR",
+        "İSiyİ → İSİYİ",
+        "aGI → AĞI",
+        "BÖLüN → BÖLÜN"
+      ]
+    },
+    {
+      "id": "KT-K-13",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 7,
+      "oran": 24,
+      "ornekler": [
+        "ONOK → ONOK",
+        "OGLuM → OĞLUM",
+        "MaKaRaÇ → MAKARAÇ",
+        "INaNÇU → INANÇU"
+      ]
+    },
+    {
+      "id": "BK-D-26",
+      "kelimeSayisi": 42,
+      "cevirilmemis": 10,
+      "oran": 24,
+      "ornekler": [
+        "SÜLeDiM → SÜLEDİM",
+        "ÇaÇA → ÇAÇA",
+        "TÜMeN → TÜMEN",
+        "SÜ → SÜ"
+      ]
+    },
+    {
+      "id": "BK-D-30",
+      "kelimeSayisi": 37,
+      "cevirilmemis": 9,
+      "oran": 24,
+      "ornekler": [
+        "YaGI → YAĞI",
+        "eŊ → EN",
+        "İLKİ → İLKİ",
+        "TOGLA → TOĞLA"
+      ]
+    },
+    {
+      "id": "TY2-B-3",
+      "kelimeSayisi": 17,
+      "cevirilmemis": 4,
+      "oran": 24,
+      "ornekler": [
+        "aLP → ALP",
+        "UMaY → UMAY",
+        "BaSA → BASA",
+        "BİZ → BİZ?"
+      ]
+    },
+    {
+      "id": "KT-D-1",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 7,
+      "oran": 23,
+      "ornekler": [
+        "YeR → YER",
+        "KİŞİ → KİŞİ",
+        "KILıNMıŞ → KILINMIŞ",
+        "KİŞİ → KİŞİ"
+      ]
+    },
+    {
+      "id": "KT-D-39",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 7,
+      "oran": 23,
+      "ornekler": [
+        "SOGDaK → SOĞDAK",
+        "YaGI → YAĞI",
+        "SÜ → SÜ",
+        "aTI → ATI"
+      ]
+    },
+    {
+      "id": "BK-D-11",
+      "kelimeSayisi": 40,
+      "cevirilmemis": 9,
+      "oran": 23,
+      "ornekler": [
+        "İNMiS → İNMİŞ",
+        "YeTMiŞ → YETMİŞ",
+        "eR → ER",
+        "SÜSİ → SÜSİ"
+      ]
+    },
+    {
+      "id": "BK-D-37",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 7,
+      "oran": 23,
+      "ornekler": [
+        "aNDA → ANDA",
+        "KaRGaN → KARGAN",
+        "BOZDuM → BOZDUM",
+        "aGDI → AĞDI"
+      ]
+    },
+    {
+      "id": "BK-G-13",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 7,
+      "oran": 23,
+      "ornekler": [
+        "YaRaTMıŞ → YARATMIŞ",
+        "SaBıM → SABIM",
+        "TaRDUŞ → TARDUŞ",
+        "KÖL → KÖL"
+      ]
+    },
+    {
+      "id": "BK-K-3",
+      "kelimeSayisi": 44,
+      "cevirilmemis": 10,
+      "oran": 23,
+      "ornekler": [
+        "SÜLeDiM → SÜLEDİM",
+        "SÜLeDiM → SÜLEDİM",
+        "YiR → YİR",
+        "BaYıRKU → BAYIRKU"
+      ]
+    },
+    {
+      "id": "TY1-K-8",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 6,
+      "oran": 23,
+      "ornekler": [
+        "iLeT → İLET",
+        "aY → AY",
+        "SaŊA → SANA",
+        "NE → NE"
+      ]
+    },
+    {
+      "id": "TY2-G-4",
+      "kelimeSayisi": 13,
+      "cevirilmemis": 3,
+      "oran": 23,
+      "ornekler": [
+        "GeRİT → GERİT(?)",
+        "aSIGI → ASIĞI",
+        "BİLGESİ → BİLGESİ"
+      ]
+    },
+    {
+      "id": "KT-K-5",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 6,
+      "oran": 22,
+      "ornekler": [
+        "BİNiP → BİNİP",
+        "SÜ → SÜ",
+        "KILıÇLaDI → KILIÇLADI",
+        "KUŞaLGuKDA → KUŞALGUKDA"
+      ]
+    },
+    {
+      "id": "BK-D-40",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 5,
+      "oran": 22,
+      "ornekler": [
+        "KaRLuK → KARLUK",
+        "SÜLE → SÜLE",
+        "TUDuN → TUDUN",
+        "KaRLuK → KARLUK"
+      ]
+    },
+    {
+      "id": "BK-K-14",
+      "kelimeSayisi": 37,
+      "cevirilmemis": 8,
+      "oran": 22,
+      "ornekler": [
+        "SeN → SEN",
+        "SeN → SEN",
+        "SeN → SEN",
+        "SIMaDI → SIMADI"
+      ]
+    },
+    {
+      "id": "TY1-G-8",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 5,
+      "oran": 22,
+      "ornekler": [
+        "KaGaNıM → KAĞANIM",
+        "ÖZüM → ÖZÜM",
+        "İNiG → İNİG",
+        "KÖKLüKüN → KÖKLÜKÜN"
+      ]
+    },
+    {
+      "id": "TY1-K-6",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 6,
+      "oran": 22,
+      "ornekler": [
+        "KaGaNI → KAĞANI",
+        "TAŞIKMıŞ → TAŞIKMIŞ",
+        "OK → OK",
+        "KaLISıZ → KALISIZ"
+      ]
+    },
+    {
+      "id": "TY1-K-11",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 5,
+      "oran": 22,
+      "ornekler": [
+        "SÜ → SÜ",
+        "SÜ → SÜ",
+        "YOLSuZuN → YOLSUZUN",
+        "iRTiŞ → İRTİŞ"
+      ]
+    },
+    {
+      "id": "KT-G-1",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 6,
+      "oran": 21,
+      "ornekler": [
+        "OGuŞuM → OĞUŞUM",
+        "ŞaDPIT → ŞADPIT",
+        "TaRKaT → TARKAT",
+        "BUYRUK → BUYRUK"
+      ]
+    },
+    {
+      "id": "KT-G-8",
+      "kelimeSayisi": 38,
+      "cevirilmemis": 8,
+      "oran": 21,
+      "ornekler": [
+        "SeN → SEN",
+        "aRKıŞ → ARKIŞ",
+        "BeŊGÜ → BENGÜ",
+        "İL → İL"
+      ]
+    },
+    {
+      "id": "KT-G-10",
+      "kelimeSayisi": 34,
+      "cevirilmemis": 7,
+      "oran": 21,
+      "ornekler": [
+        "BaY → BAY",
+        "KILDıM → KILDIM",
+        "KILDıM → KILDIM",
+        "aZU → AZU"
+      ]
+    },
+    {
+      "id": "KT-D-31",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 7,
+      "oran": 21,
+      "ornekler": [
+        "UMaY → UMAY",
+        "ÖGüM → ÖĞÜM",
+        "İNiM → İNİM",
+        "eR → ER"
+      ]
+    },
+    {
+      "id": "KT-GD-1",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 6,
+      "oran": 21,
+      "ornekler": [
+        "BUNÇA → BUNCA",
+        "aTISI → ATISI",
+        "YOLuGTİGiN → YOLUĞTİGİN",
+        "YOLuGTİGiN → YOLLUĞTİGİN"
+      ]
+    },
+    {
+      "id": "BK-D-1",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 5,
+      "oran": 21,
+      "ornekler": [
+        "YaRaTMıŞ → YARATMIŞ",
+        "--- NDA → --- NDA",
+        "eYİ → EYİ",
+        "eDiZ → EDİZ"
+      ]
+    },
+    {
+      "id": "BK-D-14",
+      "kelimeSayisi": 34,
+      "cevirilmemis": 7,
+      "oran": 21,
+      "ornekler": [
+        "ÖZüM → ÖZÜM",
+        "BaY → BAY",
+        "KILDI → KILDI",
+        "KILDI → KILDI"
+      ]
+    },
+    {
+      "id": "BK-D-31",
+      "kelimeSayisi": 39,
+      "cevirilmemis": 8,
+      "oran": 21,
+      "ornekler": [
+        "aGıtTıM → AĞITTIM",
+        "eZGiNTİ → EZGİNTİ",
+        "KaDıZDA → KADIZDA",
+        "--- BaRıM --- → --- BARIM ---"
+      ]
+    },
+    {
+      "id": "BK-D-32",
+      "kelimeSayisi": 47,
+      "cevirilmemis": 10,
+      "oran": 21,
+      "ornekler": [
+        "SÜLeDiM → SÜLEDİM",
+        "SÜ → SÜ",
+        "TaŞIKMıŞ → TAŞIKMIŞ",
+        "SÜ → SÜ"
+      ]
+    },
+    {
+      "id": "BK-D-36",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 6,
+      "oran": 21,
+      "ornekler": [
+        "TaBGaÇDA → TABGAÇDA",
+        "KUR → KUR",
+        "ÖZüM → ÖZÜM",
+        "--- Ü --- → --- Ü ---"
+      ]
+    },
+    {
+      "id": "BK-D-41",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 5,
+      "oran": 21,
+      "ornekler": [
+        "aRKıŞI → ARKIŞI",
+        "SÜLeDiM → SÜLEDİM",
+        "TeZiP → TEZİP",
+        "KaGaNıM → KAĞANIM"
+      ]
+    },
+    {
+      "id": "BK-G-10",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 6,
+      "oran": 21,
+      "ornekler": [
+        "BUNÇA → BUNCA",
+        "IT → İT",
+        "UÇA → UÇA",
+        "LaGZIN → LAĞZIN"
+      ]
+    },
+    {
+      "id": "TY1-D-1",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 5,
+      "oran": 21,
+      "ornekler": [
+        "BİZ → BİZ",
+        "SÜ → SÜ",
+        "KaGaNıMA → KAĞANIMA",
+        "ÖTüNüP → ÖTÜNÜP"
+      ]
+    },
+    {
+      "id": "TY1-K-9",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 6,
+      "oran": 21,
+      "ornekler": [
+        "YİYİ → YİYİ",
+        "TaŞIKDI → TAŞIKDI",
+        "OK → OK",
+        "KaLISıZ → KALISIZ"
+      ]
+    },
+    {
+      "id": "KT-G-12",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 6,
+      "oran": 20,
+      "ornekler": [
+        "BaRK → BARK",
+        "TaŞ → TAŞ",
+        "TaTIŊA → TATINA",
+        "BİLiŊ → BİLİN"
+      ]
+    },
+    {
+      "id": "BK-D-20",
+      "kelimeSayisi": 46,
+      "cevirilmemis": 9,
+      "oran": 20,
+      "ornekler": [
+        "KaNıN → KANIN",
+        "YaTDI → YATDI",
+        "BeGLiK → BEĞLİK",
+        "URI → URI"
+      ]
+    },
+    {
+      "id": "BK-D-23",
+      "kelimeSayisi": 41,
+      "cevirilmemis": 8,
+      "oran": 20,
+      "ornekler": [
+        "TaTaBI → TATABI",
+        "SÜLeDiM → SÜLEDİM",
+        "KUTuM → KUTUM",
+        "ÜLÜGüM → ÜLÜĞÜM"
+      ]
+    },
+    {
+      "id": "BK-K-5",
+      "kelimeSayisi": 44,
+      "cevirilmemis": 9,
+      "oran": 20,
+      "ornekler": [
+        "aGISIŊA → AĞISINA",
+        "aRTURuP → ARTURUP",
+        "ÇOGaY → ÇOĞAY",
+        "TÖGüLTüN → TÖGÜLTÜN"
+      ]
+    },
+    {
+      "id": "TY1-K-2",
+      "kelimeSayisi": 20,
+      "cevirilmemis": 4,
+      "oran": 20,
+      "ornekler": [
+        "YOBuLU → YOBULU",
+        "YaŊıLıP → YANILIP",
+        "BOGuZLaNDI → BOĞAZLANDI",
+        "YeLÜ → YELÜ"
+      ]
+    },
+    {
+      "id": "TY2-B-9",
+      "kelimeSayisi": 15,
+      "cevirilmemis": 3,
+      "oran": 20,
+      "ornekler": [
+        "YiNÇÜ → YİNÇÜ",
+        "TİNSİ → TİNSİ",
+        "eK → EK"
+      ]
+    },
+    {
+      "id": "KT-D-12",
+      "kelimeSayisi": 32,
+      "cevirilmemis": 6,
+      "oran": 19,
+      "ornekler": [
+        "BaLIKDaKI → BALIKDAKI",
+        "İNMiS → İNMİŞ",
+        "YeTMiŞ → YETMİŞ",
+        "eR → ER"
+      ]
+    },
+    {
+      "id": "KT-D-16",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 6,
+      "oran": 19,
+      "ornekler": [
+        "UÇA → UÇA",
+        "BaZ → BAZ",
+        "BaLBaL → BALBAL",
+        "BaY → BAY"
+      ]
+    },
+    {
+      "id": "KT-D-29",
+      "kelimeSayisi": 32,
+      "cevirilmemis": 6,
+      "oran": 19,
+      "ornekler": [
+        "KİSRE → KİSRE",
+        "KUTuM → KUTUM",
+        "YaLıŊ → YALIN",
+        "BaY → BAY"
+      ]
+    },
+    {
+      "id": "KT-K-4",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 6,
+      "oran": 19,
+      "ornekler": [
+        "aT → AT",
+        "İZGİL → İZGİL",
+        "YaGI → YAĞI",
+        "eŊ → EN"
+      ]
+    },
+    {
+      "id": "KT-K-6",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 5,
+      "oran": 19,
+      "ornekler": [
+        "eDiZ → EDİZ",
+        "BOLÇUDA → BOLÇUDA",
+        "BİNiP → BİNİP",
+        "ÇUŞ → ÇUŞ"
+      ]
+    },
+    {
+      "id": "KT-K-9",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 5,
+      "oran": 19,
+      "ornekler": [
+        "BİNiP → BİNİP",
+        "ÖGLeRiM → ÖGLERİM",
+        "eKeLeRiM → EKELERİM",
+        "KONÇuYLaRıM → KONÇUYLARIM"
+      ]
+    },
+    {
+      "id": "BK-D-2",
+      "kelimeSayisi": 36,
+      "cevirilmemis": 7,
+      "oran": 19,
+      "ornekler": [
+        "öGüRüP → ÖĞÜRÜP",
+        "ÖZüM → ÖZÜM",
+        "BUNÇA → BUNCA",
+        "aGıR → AĞIR"
+      ]
+    },
+    {
+      "id": "BK-K-13",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 6,
+      "oran": 19,
+      "ornekler": [
+        "aT → AT",
+        "--- Ü --- → --- Ü ---",
+        "--- ÜR --- → --- ÜR ---",
+        "aGIMIN → AĞIMIN"
+      ]
+    },
+    {
+      "id": "TY1-D-7",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 5,
+      "oran": 19,
+      "ornekler": [
+        "ÖZüM → ÖZÜM",
+        "aT → AT",
+        "aYTıP → AYTIP",
+        "SaKıNDıM → SAKINDIM"
+      ]
+    },
+    {
+      "id": "TY2-B-5",
+      "kelimeSayisi": 16,
+      "cevirilmemis": 3,
+      "oran": 19,
+      "ornekler": [
+        "ÖRTÇE → ÖRTÇE",
+        "KIZıP → KIZIP",
+        "BİZ → BİZ"
+      ]
+    },
+    {
+      "id": "KT-G-6",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 6,
+      "oran": 18,
+      "ornekler": [
+        "aLP → ALP",
+        "KİŞİ → KİŞİ",
+        "aGISIŊA → AĞISINA",
+        "aRTURuP → ARTURUP"
+      ]
+    },
+    {
+      "id": "KT-D-7",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 5,
+      "oran": 18,
+      "ornekler": [
+        "BeGLiK → BEĞLİK",
+        "URI → URI",
+        "KUL → KUL",
+        "iŞİLiK → İŞİLİK"
+      ]
+    },
+    {
+      "id": "KT-K-3",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 5,
+      "oran": 18,
+      "ornekler": [
+        "BİNiP → BİNİP",
+        "İLİ → İLİ",
+        "İZGiL → İZGİL",
+        "aLP → ALP"
+      ]
+    },
+    {
+      "id": "KT-KD-1",
+      "kelimeSayisi": 38,
+      "cevirilmemis": 7,
+      "oran": 18,
+      "ornekler": [
+        "YUG → YUĞ",
+        "BİÇİN → BİÇİN",
+        "KIRK → KIRK",
+        "TaŞ --- → TAŞ ---"
+      ]
+    },
+    {
+      "id": "BK-D-9",
+      "kelimeSayisi": 40,
+      "cevirilmemis": 7,
+      "oran": 18,
+      "ornekler": [
+        "KaGaNıM → KAĞANIM",
+        "NE → NE",
+        "YaGI → YAĞI",
+        "YaGI → YAĞI"
+      ]
+    },
+    {
+      "id": "BK-G-12",
+      "kelimeSayisi": 17,
+      "cevirilmemis": 3,
+      "oran": 18,
+      "ornekler": [
+        "BUNÇA → BUNCA",
+        "ÖZLüK → ÖZLÜK",
+        "SaNSıZ → SANSIZ"
+      ]
+    },
+    {
+      "id": "TY2-G-2",
+      "kelimeSayisi": 17,
+      "cevirilmemis": 3,
+      "oran": 18,
+      "ornekler": [
+        "YiRÜKİ → YİRÜKİ",
+        "aRDaK → ARDAK",
+        "TİNSİ → TİNSİ"
+      ]
+    },
+    {
+      "id": "TY2-D-6",
+      "kelimeSayisi": 17,
+      "cevirilmemis": 3,
+      "oran": 18,
+      "ornekler": [
+        "İL → İL",
+        "İL → İL",
+        "ÖZüM → ÖZÜM"
+      ]
+    },
+    {
+      "id": "BK-D-28",
+      "kelimeSayisi": 42,
+      "cevirilmemis": 7,
+      "oran": 17,
+      "ornekler": [
+        "BOLÇUDA → BOLÇUDA",
+        "OTuZ → OTUZ",
+        "BaLıK → BALIK",
+        "SÜLeDiM → SÜLEDİM"
+      ]
+    },
+    {
+      "id": "BK-G-4",
+      "kelimeSayisi": 6,
+      "cevirilmemis": 1,
+      "oran": 17,
+      "ornekler": [
+        "KILDıM → KILDIM"
+      ]
+    },
+    {
+      "id": "BK-K-8",
+      "kelimeSayisi": 42,
+      "cevirilmemis": 7,
+      "oran": 17,
+      "ornekler": [
+        "İL → İL",
+        "BUNDA → BUNDA",
+        "YaŊıLıP → YANILIP",
+        "BUNDA → BUNDA"
+      ]
+    },
+    {
+      "id": "BK-K-12",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 4,
+      "oran": 17,
+      "ornekler": [
+        "TÜMeN → TÜMEN",
+        "--- YA → --- YA",
+        "aLMıN → ALMIN[?]",
+        "--- ÜN → --- ÜN"
+      ]
+    },
+    {
+      "id": "TY1-B-1",
+      "kelimeSayisi": 12,
+      "cevirilmemis": 2,
+      "oran": 17,
+      "ornekler": [
+        "ÖZüM → ÖZÜM",
+        "KILıNDıM → KILINDIM"
+      ]
+    },
+    {
+      "id": "TY1-B-6",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 4,
+      "oran": 17,
+      "ornekler": [
+        "SaKıNDıM → SAKINDIM",
+        "ÖZüM → ÖZÜM",
+        "BOYLA → BOYLA",
+        "BaGA → BAĞA"
+      ]
+    },
+    {
+      "id": "TY1-G-7",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 4,
+      "oran": 17,
+      "ornekler": [
+        "YOGUN → YOĞUN",
+        "ALP → ALP",
+        "SÜMüZ → SÜMÜZ",
+        "NE → NE?"
+      ]
+    },
+    {
+      "id": "TY1-K-5",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 4,
+      "oran": 17,
+      "ornekler": [
+        "SÜ → SÜ",
+        "KaGaNI → KAĞANI",
+        "aLP → ALP",
+        "aYGUÇISI → AYGUÇISI"
+      ]
+    },
+    {
+      "id": "KT-D-25",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 5,
+      "oran": 16,
+      "ornekler": [
+        "BaLBaL → BALBAL",
+        "KÜSİ → KÜSİ",
+        "ÖGüM → ÖĞÜM",
+        "İL → İL"
+      ]
+    },
+    {
+      "id": "BK-D-17",
+      "kelimeSayisi": 45,
+      "cevirilmemis": 7,
+      "oran": 16,
+      "ornekler": [
+        "BİZ → BİZ",
+        "YaZıNDI → YAZINDI",
+        "KaGaNI → KAĞANI",
+        "KUL → KUL"
+      ]
+    },
+    {
+      "id": "BK-D-34",
+      "kelimeSayisi": 38,
+      "cevirilmemis": 6,
+      "oran": 16,
+      "ornekler": [
+        "BOZDuM → BOZDUM",
+        "TaTaR → TATAR",
+        "aGUDA → AĞUDA",
+        "BOZDuM → BOZDUM"
+      ]
+    },
+    {
+      "id": "BK-GD-1",
+      "kelimeSayisi": 19,
+      "cevirilmemis": 3,
+      "oran": 16,
+      "ornekler": [
+        "SÜ → SÜ",
+        "YULıGÇI → YULIGÇI",
+        "K --- BeS → K --- BES"
+      ]
+    },
+    {
+      "id": "BK-K-7",
+      "kelimeSayisi": 44,
+      "cevirilmemis": 7,
+      "oran": 16,
+      "ornekler": [
+        "KaLMıŞI → KALMIŞI",
+        "ÖZüM → ÖZÜM",
+        "KUTuM → KUTUM",
+        "BaY → BAY"
+      ]
+    },
+    {
+      "id": "TY1-G-3",
+      "kelimeSayisi": 25,
+      "cevirilmemis": 4,
+      "oran": 16,
+      "ornekler": [
+        "KaGaNI → KAĞANI",
+        "aLP → ALP",
+        "aYGUÇISI → AYGUÇISI",
+        "KİŞİ → KİŞİ"
+      ]
+    },
+    {
+      "id": "TY1-K-4",
+      "kelimeSayisi": 19,
+      "cevirilmemis": 3,
+      "oran": 16,
+      "ornekler": [
+        "SÜSİ → SÜSİ",
+        "iÇiKDİ → İÇİKDİ",
+        "KÖGMeN → KÖGMEN"
+      ]
+    },
+    {
+      "id": "KT-G-11",
+      "kelimeSayisi": 34,
+      "cevirilmemis": 5,
+      "oran": 15,
+      "ornekler": [
+        "BeŊGÜ → BENGÜ",
+        "BİLiŊ → BİLİN",
+        "SİZ → SİZ?",
+        "BeŊGÜ → BENGÜ"
+      ]
+    },
+    {
+      "id": "KT-D-21",
+      "kelimeSayisi": 39,
+      "cevirilmemis": 6,
+      "oran": 15,
+      "ornekler": [
+        "YaNA → YANA",
+        "KaDıRKaN → KADIRKAN",
+        "KUL → KUL",
+        "İNİSİ → İNİSİ"
+      ]
+    },
+    {
+      "id": "KT-K-2",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 5,
+      "oran": 15,
+      "ornekler": [
+        "aLP → ALP",
+        "BİNiP → BİNİP",
+        "YaGI → YAĞI",
+        "BİRKIRK → BİRKIRK"
+      ]
+    },
+    {
+      "id": "BK-D-16",
+      "kelimeSayisi": 40,
+      "cevirilmemis": 6,
+      "oran": 15,
+      "ornekler": [
+        "KaGaNI → KAĞANI",
+        "BeGLeRİ → BEĞLERİ",
+        "OK → OK",
+        "YaRaTıP → YARATIP"
+      ]
+    },
+    {
+      "id": "BK-G-15",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 4,
+      "oran": 15,
+      "ornekler": [
+        "--- ÇA → --- ÇA",
+        "aGIR → AĞIR",
+        "ÖZüME → ÖZÜME",
+        "BUNÇA → BUNCA"
+      ]
+    },
+    {
+      "id": "BK-K-1",
+      "kelimeSayisi": 40,
+      "cevirilmemis": 6,
+      "oran": 15,
+      "ornekler": [
+        "ŞaDPIT → ŞADPIT",
+        "TaRKaT → TARKAT",
+        "BUYRUK → BUYRUK",
+        "OTuZ → OTUZ"
+      ]
+    },
+    {
+      "id": "BK-K-9",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 5,
+      "oran": 15,
+      "ornekler": [
+        "BUNÇA → BUNCA",
+        "ÖZüM → ÖZÜM",
+        "--- İ --- → --- İ ---",
+        "KILDıM → KILDIM"
+      ]
+    },
+    {
+      "id": "KT-D-8",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 4,
+      "oran": 14,
+      "ornekler": [
+        "YIL → YIL",
+        "BÖKLİ → BÖKLİ",
+        "aLI → ALI",
+        "KaMaG → KAMAG"
+      ]
+    },
+    {
+      "id": "KT-D-11",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 4,
+      "oran": 14,
+      "ornekler": [
+        "ÖGüM → ÖĞÜM",
+        "İLBİLGE → İLBİLGE",
+        "TUTuP → TUTUP",
+        "TaŞıKMıŞ → TAŞIKMIŞ"
+      ]
+    },
+    {
+      "id": "KT-D-19",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 4,
+      "oran": 14,
+      "ornekler": [
+        "KaGaNI → KAĞANI",
+        "BeGLeRİ → BEĞLERİ",
+        "OK → OK",
+        "YaRaTıP → YARATIP"
+      ]
+    },
+    {
+      "id": "BK-D-18",
+      "kelimeSayisi": 43,
+      "cevirilmemis": 6,
+      "oran": 14,
+      "ornekler": [
+        "KUL → KUL",
+        "İNİSİ → İNİSİ",
+        "BİLMeZ → BİLMEZ",
+        "BİLMeZ → BİLMEZ"
+      ]
+    },
+    {
+      "id": "BK-D-19",
+      "kelimeSayisi": 44,
+      "cevirilmemis": 6,
+      "oran": 14,
+      "ornekler": [
+        "KiM → KİM",
+        "ÖKÜN → ÖKÜN",
+        "KaGaNıŊA → KAĞANINA",
+        "eRMiŞ → ERMİŞ"
+      ]
+    },
+    {
+      "id": "BK-D-21",
+      "kelimeSayisi": 42,
+      "cevirilmemis": 6,
+      "oran": 14,
+      "ornekler": [
+        "ÖGüM → ÖĞÜM",
+        "İL → İL",
+        "KÜSİ → KÜSİ",
+        "aŞSıZ → AŞSIZ"
+      ]
+    },
+    {
+      "id": "BK-D-22",
+      "kelimeSayisi": 44,
+      "cevirilmemis": 6,
+      "oran": 14,
+      "ornekler": [
+        "KÜSİ → KÜSİ",
+        "İNiM → İNİM",
+        "KILMaDıM → KILMADIM",
+        "ÖZüM → ÖZÜM"
+      ]
+    },
+    {
+      "id": "BK-D-35",
+      "kelimeSayisi": 36,
+      "cevirilmemis": 5,
+      "oran": 14,
+      "ornekler": [
+        "aLP → ALP",
+        "KaGaNıŊA → KAĞANINA",
+        "YaŊıLDI → YANILDI",
+        "TaPKILMaDI → TAPILMADI"
+      ]
+    },
+    {
+      "id": "BK-G-1",
+      "kelimeSayisi": 22,
+      "cevirilmemis": 3,
+      "oran": 14,
+      "ornekler": [
+        "SÜSİ → SÜSİ",
+        "TÜMeN → TÜMEN",
+        "Bİ --- → Bİ ---"
+      ]
+    },
+    {
+      "id": "TY1-B-5",
+      "kelimeSayisi": 14,
+      "cevirilmemis": 2,
+      "oran": 14,
+      "ornekler": [
+        "YaGıL → YAĞIL",
+        "SaKıNDıM → SAKINDIM"
+      ]
+    },
+    {
+      "id": "TY1-K-3",
+      "kelimeSayisi": 22,
+      "cevirilmemis": 3,
+      "oran": 14,
+      "ornekler": [
+        "aNI → ANI",
+        "KODI → KODI",
+        "BaYUR → BAYUR"
+      ]
+    },
+    {
+      "id": "KT-G-9",
+      "kelimeSayisi": 32,
+      "cevirilmemis": 4,
+      "oran": 13,
+      "ornekler": [
+        "KaGaNıŊıN → KAĞANININ",
+        "KaLMıŞI → KALMIŞI",
+        "ÖZüM → ÖZÜM",
+        "KUTuM → KUTUM"
+      ]
+    },
+    {
+      "id": "KT-D-3",
+      "kelimeSayisi": 39,
+      "cevirilmemis": 5,
+      "oran": 13,
+      "ornekler": [
+        "İDİ → İDİ",
+        "OKSuZ → OKSUZ",
+        "aLP → ALP",
+        "aLP → ALP"
+      ]
+    },
+    {
+      "id": "KT-D-9",
+      "kelimeSayisi": 32,
+      "cevirilmemis": 4,
+      "oran": 13,
+      "ornekler": [
+        "İLiM → İLİM",
+        "KaGaNıM → KAĞANIM",
+        "NE → NE",
+        "YaGI → YAĞI"
+      ]
+    },
+    {
+      "id": "KT-D-23",
+      "kelimeSayisi": 31,
+      "cevirilmemis": 4,
+      "oran": 13,
+      "ornekler": [
+        "ÖKÜN → ÖKÜN",
+        "KaGaNıŊA → KAĞANINA",
+        "eRMiŞ → ERMİŞ",
+        "iLiŊE → İLİNE"
+      ]
+    },
+    {
+      "id": "BK-D-4",
+      "kelimeSayisi": 46,
+      "cevirilmemis": 6,
+      "oran": 13,
+      "ornekler": [
+        "İDİ → İDİ",
+        "OKSuZ → OKSUZ",
+        "aLP → ALP",
+        "aLP → ALP"
+      ]
+    },
+    {
+      "id": "BK-D-7",
+      "kelimeSayisi": 39,
+      "cevirilmemis": 5,
+      "oran": 13,
+      "ornekler": [
+        "BeGLiK → BEĞLİK",
+        "KUL → KUL",
+        "iŞİLiK → İŞİLİK",
+        "KIZ → KIZ"
+      ]
+    },
+    {
+      "id": "BK-D-33",
+      "kelimeSayisi": 38,
+      "cevirilmemis": 5,
+      "oran": 13,
+      "ornekler": [
+        "BUNÇA → BUNCA",
+        "SaKıNıŊ → SAKININ",
+        "BİLiŊ → BİLİN",
+        "--- D --- → --- D ---"
+      ]
+    },
+    {
+      "id": "BK-G-3",
+      "kelimeSayisi": 8,
+      "cevirilmemis": 1,
+      "oran": 13,
+      "ornekler": [
+        "KO --- → KO ---"
+      ]
+    },
+    {
+      "id": "BK-K-4",
+      "kelimeSayisi": 45,
+      "cevirilmemis": 6,
+      "oran": 13,
+      "ornekler": [
+        "aGISI → AĞISI",
+        "aRıP → ARIP",
+        "IRaK → IRAK",
+        "ÖYÜR → ÖYÜR"
+      ]
+    },
+    {
+      "id": "TY1-G-1",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 3,
+      "oran": 13,
+      "ornekler": [
+        "ToK → TOK",
+        "YaGıMıZ → YAĞIMIZ",
+        "BİZ → BİZ"
+      ]
+    },
+    {
+      "id": "TY1-G-9",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 3,
+      "oran": 13,
+      "ornekler": [
+        "SÜSİ → SÜSİ",
+        "BİZ → BİZ",
+        "YaRLıKaDI → YARLIKADI"
+      ]
+    },
+    {
+      "id": "TY1-K-1",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 3,
+      "oran": 13,
+      "ornekler": [
+        "SÜ → SÜ",
+        "aT → AT",
+        "eR → ER"
+      ]
+    },
+    {
+      "id": "TY2-K-2",
+      "kelimeSayisi": 16,
+      "cevirilmemis": 2,
+      "oran": 13,
+      "ornekler": [
+        "KaPaGaN → KAPAĞAN",
+        "KİŞİ → KİŞİ"
+      ]
+    },
+    {
+      "id": "KT-D-35",
+      "kelimeSayisi": 25,
+      "cevirilmemis": 3,
+      "oran": 12,
+      "ornekler": [
+        "KÖGMeN → KÖGMEN",
+        "YIŞDA → YIŞDA",
+        "BaYıRKUNuŊ → BAYIRKUNUN"
+      ]
+    },
+    {
+      "id": "BK-K-10",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 3,
+      "oran": 12,
+      "ornekler": [
+        "aLI → ALI",
+        "aLI → ALI",
+        "Ya --- T → YA --- T"
+      ]
+    },
+    {
+      "id": "BK-K-11",
+      "kelimeSayisi": 25,
+      "cevirilmemis": 3,
+      "oran": 12,
+      "ornekler": [
+        "--- KA → --- KA",
+        "iŞGiTİSİN → İŞGİTİSİNİ",
+        "ÖZLüK → ÖZLÜK"
+      ]
+    },
+    {
+      "id": "TY1-D-4",
+      "kelimeSayisi": 26,
+      "cevirilmemis": 3,
+      "oran": 12,
+      "ornekler": [
+        "KaGaNI → KAĞANI",
+        "aLP → ALP",
+        "aYGUÇISI → AYGUÇISI"
+      ]
+    },
+    {
+      "id": "TY1-D-6",
+      "kelimeSayisi": 25,
+      "cevirilmemis": 3,
+      "oran": 12,
+      "ornekler": [
+        "iLK → İLK",
+        "İZ → İZ",
+        "eRİ → ERİ"
+      ]
+    },
+    {
+      "id": "TY2-D-2",
+      "kelimeSayisi": 17,
+      "cevirilmemis": 2,
+      "oran": 12,
+      "ornekler": [
+        "UZuN → UZUN",
+        "OK → OK"
+      ]
+    },
+    {
+      "id": "KT-D-22",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 3,
+      "oran": 11,
+      "ornekler": [
+        "İLiMiZ → İLİMİZ",
+        "BeGLeRİ → BEĞLERİ",
+        "KiM → KİM"
+      ]
+    },
+    {
+      "id": "KT-D-26",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 3,
+      "oran": 11,
+      "ornekler": [
+        "aŞSıZ → AŞSIZ",
+        "İNiM → İNİM",
+        "KÜSİ → KÜSİ"
+      ]
+    },
+    {
+      "id": "KT-K-7",
+      "kelimeSayisi": 28,
+      "cevirilmemis": 3,
+      "oran": 11,
+      "ornekler": [
+        "aGTıP → AĞTIP",
+        "eZGiNTİ → EZGİNTİ",
+        "KaDıZDA → KADIZDA"
+      ]
+    },
+    {
+      "id": "TY1-B-2",
+      "kelimeSayisi": 18,
+      "cevirilmemis": 2,
+      "oran": 11,
+      "ornekler": [
+        "YaNA → YANA",
+        "İÇiKDİ → İÇİKDİ"
+      ]
+    },
+    {
+      "id": "TY1-B-3",
+      "kelimeSayisi": 18,
+      "cevirilmemis": 2,
+      "oran": 11,
+      "ornekler": [
+        "İÇiKDiŊ → İÇİKDİN",
+        "aLKıNDI → ALKINDI"
+      ]
+    },
+    {
+      "id": "TY2-B-2",
+      "kelimeSayisi": 18,
+      "cevirilmemis": 2,
+      "oran": 11,
+      "ornekler": [
+        "YaNaLıM → YANALIM",
+        "iRTiŞ → İRTİŞ"
+      ]
+    },
+    {
+      "id": "TY2-D-7",
+      "kelimeSayisi": 9,
+      "cevirilmemis": 1,
+      "oran": 11,
+      "ornekler": [
+        "NE → NE"
+      ]
+    },
+    {
+      "id": "TY2-D-8",
+      "kelimeSayisi": 9,
+      "cevirilmemis": 1,
+      "oran": 11,
+      "ornekler": [
+        "BİTİTDiM → BİTİTDİM"
+      ]
+    },
+    {
+      "id": "KT-D-27",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 3,
+      "oran": 10,
+      "ornekler": [
+        "İNiM → İNİM",
+        "KILMaDıM → KILMADIM",
+        "ÖZüM → ÖZÜM"
+      ]
+    },
+    {
+      "id": "KT-D-28",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 3,
+      "oran": 10,
+      "ornekler": [
+        "YaNA → YANA",
+        "TaTaBI → TATABI",
+        "SÜLeDiM → SÜLEDİM"
+      ]
+    },
+    {
+      "id": "BK-D-8",
+      "kelimeSayisi": 39,
+      "cevirilmemis": 4,
+      "oran": 10,
+      "ornekler": [
+        "BÖKLİ → BÖKLİ",
+        "aLI → ALI",
+        "KaMaG → KAMAG",
+        "İLiM → İLİM"
+      ]
+    },
+    {
+      "id": "BK-D-10",
+      "kelimeSayisi": 41,
+      "cevirilmemis": 4,
+      "oran": 10,
+      "ornekler": [
+        "İLBİLGE → İLBİLGE",
+        "TUTuP → TUTUP",
+        "TaŞıKMıŞ → TAŞIKMIŞ",
+        "BaLIKDaKI → BALIKDAKİ"
+      ]
+    },
+    {
+      "id": "BK-D-27",
+      "kelimeSayisi": 41,
+      "cevirilmemis": 4,
+      "oran": 10,
+      "ornekler": [
+        "KÖGMeN → KÖGMEN",
+        "YIŞDA → YIŞDA",
+        "iRTiŞ → İRTİŞ",
+        "SÜSİ → SÜSİ"
+      ]
+    },
+    {
+      "id": "TY1-B-4",
+      "kelimeSayisi": 20,
+      "cevirilmemis": 2,
+      "oran": 10,
+      "ornekler": [
+        "KaLMaDI → KALMADI",
+        "KaLMıŞI → KALMIŞI"
+      ]
+    },
+    {
+      "id": "TY1-D-3",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 3,
+      "oran": 10,
+      "ornekler": [
+        "ÖGLeŞiP → ÖĞLEŞİP",
+        "YIŞ → YIŞ",
+        "ÖGLeŞMiŞ → ÖĞLEŞMİŞ"
+      ]
+    },
+    {
+      "id": "TY2-B-6",
+      "kelimeSayisi": 10,
+      "cevirilmemis": 1,
+      "oran": 10,
+      "ornekler": [
+        "TaRDUŞ → TARDUŞ"
+      ]
+    },
+    {
+      "id": "KT-G-5",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 3,
+      "oran": 9,
+      "ornekler": [
+        "İŞGiTİ → İŞGİTİ",
+        "aRıP → ARIP",
+        "ÖYÜR → ÖYÜR"
+      ]
+    },
+    {
+      "id": "TY2-D-3",
+      "kelimeSayisi": 12,
+      "cevirilmemis": 1,
+      "oran": 8,
+      "ornekler": [
+        "OK → OK"
+      ]
+    },
+    {
+      "id": "TY2-D-4",
+      "kelimeSayisi": 12,
+      "cevirilmemis": 1,
+      "oran": 8,
+      "ornekler": [
+        "YÜGüRTMeDiM → YÜGÜRTMEDİM"
+      ]
+    },
+    {
+      "id": "TY2-K-3",
+      "kelimeSayisi": 13,
+      "cevirilmemis": 1,
+      "oran": 8,
+      "ornekler": [
+        "KaPaGaN → KAPAĞAN"
+      ]
+    },
+    {
+      "id": "KT-G-2",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 2,
+      "oran": 7,
+      "ornekler": [
+        "BeGLeRİ → BEĞLERİ",
+        "BUNÇA → BUNCA"
+      ]
+    },
+    {
+      "id": "KT-D-17",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 2,
+      "oran": 7,
+      "ornekler": [
+        "ÖZüM → ÖZÜM",
+        "TaRDUŞ → TARDUŞ"
+      ]
+    },
+    {
+      "id": "KT-D-36",
+      "kelimeSayisi": 30,
+      "cevirilmemis": 2,
+      "oran": 7,
+      "ornekler": [
+        "BİNiP → BİNİP",
+        "BaYıRKUNuŊ → BAYIRKUNUN"
+      ]
+    },
+    {
+      "id": "KT-D-38",
+      "kelimeSayisi": 29,
+      "cevirilmemis": 2,
+      "oran": 7,
+      "ornekler": [
+        "YaNA → YANA",
+        "TaBaRDA → TABARDA"
+      ]
+    },
+    {
+      "id": "TY1-K-10",
+      "kelimeSayisi": 27,
+      "cevirilmemis": 2,
+      "oran": 7,
+      "ornekler": [
+        "BaSıTMA → BASITMA",
+        "YIDMıŞ → YIDMIŞ"
+      ]
+    },
+    {
+      "id": "TY2-K-1",
+      "kelimeSayisi": 15,
+      "cevirilmemis": 1,
+      "oran": 7,
+      "ornekler": [
+        "ÖZüM → ÖZÜM"
+      ]
+    },
+    {
+      "id": "KT-G-3",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 2,
+      "oran": 6,
+      "ornekler": [
+        "SÜLeDiM → SÜLEDİM",
+        "SÜLeDiM → SÜLEDİM"
+      ]
+    },
+    {
+      "id": "TY2-B-4",
+      "kelimeSayisi": 16,
+      "cevirilmemis": 1,
+      "oran": 6,
+      "ornekler": [
+        "BİZ → BİZ?"
+      ]
+    },
+    {
+      "id": "TY2-G-3",
+      "kelimeSayisi": 16,
+      "cevirilmemis": 1,
+      "oran": 6,
+      "ornekler": [
+        "TİNSİ → TİNSİ"
+      ]
+    },
+    {
+      "id": "TY2-G-6",
+      "kelimeSayisi": 18,
+      "cevirilmemis": 1,
+      "oran": 6,
+      "ornekler": [
+        "BöGİ → BÖGİ"
+      ]
+    },
+    {
+      "id": "BK-K-2",
+      "kelimeSayisi": 42,
+      "cevirilmemis": 2,
+      "oran": 5,
+      "ornekler": [
+        "BUNÇA → BUNCA",
+        "SÜLeDiM → SÜLEDİM"
+      ]
+    },
+    {
+      "id": "TY1-G-10",
+      "kelimeSayisi": 22,
+      "cevirilmemis": 1,
+      "oran": 5,
+      "ornekler": [
+        "ÖZüM → ÖZÜM"
+      ]
+    },
+    {
+      "id": "KT-D-6",
+      "kelimeSayisi": 25,
+      "cevirilmemis": 1,
+      "oran": 4,
+      "ornekler": [
+        "BeGLeRİ → BEĞLERİ"
+      ]
+    },
+    {
+      "id": "KT-B-1",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 1,
+      "oran": 4,
+      "ornekler": [
+        "YaRGaN → YARGAN"
+      ]
+    },
+    {
+      "id": "TY1-B-7",
+      "kelimeSayisi": 24,
+      "cevirilmemis": 1,
+      "oran": 4,
+      "ornekler": [
+        "BiLGeSİ → BİLGESİ"
+      ]
+    },
+    {
+      "id": "TY1-G-2",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 1,
+      "oran": 4,
+      "ornekler": [
+        "KONI → KONI"
+      ]
+    },
+    {
+      "id": "TY1-G-5",
+      "kelimeSayisi": 23,
+      "cevirilmemis": 1,
+      "oran": 4,
+      "ornekler": [
+        "KaGaNıMA → KAĞANIMA"
+      ]
+    },
+    {
+      "id": "KT-D-5",
+      "kelimeSayisi": 33,
+      "cevirilmemis": 1,
+      "oran": 3,
+      "ornekler": [
+        "İNİSİ → İNİSİ"
+      ]
+    },
+    {
+      "id": "BK-D-6",
+      "kelimeSayisi": 39,
+      "cevirilmemis": 1,
+      "oran": 3,
+      "ornekler": [
+        "BeGLeRİ → BEĞLERİ"
+      ]
+    },
+    {
+      "id": "BK-D-15",
+      "kelimeSayisi": 38,
+      "cevirilmemis": 1,
+      "oran": 3,
+      "ornekler": [
+        "TaRDUŞ → TARDUŞ"
+      ]
+    }
+  ]
+}

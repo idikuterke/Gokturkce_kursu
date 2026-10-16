@@ -8,7 +8,15 @@
 //   node engine/ceviri-denetim.mjs liste            — denetlenmemişleri sırala
 //   node engine/ceviri-denetim.mjs goster KT-G-1    — tek dizeyi tam göster
 //   node engine/ceviri-denetim.mjs gecti KT-G-1 "Tekin 2003, s. 20"
+//   node engine/ceviri-denetim.mjs okuma  KT-G-1 "Tekin 2003, s. 20"
 //   node engine/ceviri-denetim.mjs hatali KT-G-1 "çeviri eksik"
+//
+// Üç karar var, ikisi değil:
+//   gecti  — gerçek çeviri, alıştırmada anlam öğretir.
+//   okuma  — GÜNÜMÜZ OKUMASI. Yanlış değil ama çeviri de değil
+//            (SIGUN → SIĞUN). Kabul edilir; alıştırmada bu şekilde
+//            ETİKETLENİR, çeviri gibi sunulmaz.
+//   hatali — kullanılamaz (taş kırığı, eksik/yanlış çeviri).
 //
 // Öncelik sırası: alıştırmaya dönüşebilecek dizeler önce. Uzun ve yıpranmış
 // dizeler tek alıştırmaya sığmadığı için listenin sonunda.
@@ -56,26 +64,29 @@ if (komut === "liste") {
   console.log("\nTRANSKRİPSİYON:\n  " + d.transkripsiyon);
   console.log("\nTÜRKÇE (denetlenecek olan):\n  " + d.turkce);
   console.log("\nkaynakça: " + JSON.stringify(d.kaynakca));
-} else if (komut === "gecti" || komut === "hatali") {
+} else if (komut === "gecti" || komut === "hatali" || komut === "okuma") {
   const d = bul(id);
   if (!d) { console.error(`dize yok: ${id}`); process.exit(1); }
-  if (komut === "gecti" && !aciklama) {
-    console.error("kaynak zorunlu: node engine/ceviri-denetim.mjs gecti <id> \"Tekin 2003, s. 20\"");
+  if ((komut === "gecti" || komut === "okuma") && !aciklama) {
+    console.error(`kaynak zorunlu: node engine/ceviri-denetim.mjs ${komut} <id> "Tekin 2003, s. 20"`);
     process.exit(1);
   }
   d.dogrulama = d.dogrulama || {};
-  d.dogrulama.ceviri = komut === "gecti" ? "gecti" : "hatali";
+  d.dogrulama.ceviri =
+    komut === "gecti" ? "gecti" : komut === "okuma" ? "gunumuz_okumasi" : "hatali";
   d.dogrulama.kaynak = aciklama || null;
   d.dogrulama.tarih = new Date().toISOString().slice(0, 10);
   yaz();
   const gecen = db.dizeler.filter((x) => x.dogrulama?.ceviri === "gecti").length;
+  const okumalar = db.dizeler.filter((x) => x.dogrulama?.ceviri === "gunumuz_okumasi").length;
   console.log(`${id} → ceviri=${d.dogrulama.ceviri}`);
-  console.log(`denetimden geçen toplam: ${gecen}/${db.dizeler.length}`);
+  console.log(`çeviri olarak geçen: ${gecen} | günümüz okuması: ${okumalar} | toplam ${db.dizeler.length}`);
   console.log(`alıştırmaları üretmek için: npm run icerik:uret`);
 } else {
   console.log(`kullanım:
   node engine/ceviri-denetim.mjs liste
   node engine/ceviri-denetim.mjs goster <dize-id>
-  node engine/ceviri-denetim.mjs gecti  <dize-id> "<kaynak>"
-  node engine/ceviri-denetim.mjs hatali <dize-id> "<neden>"`);
+  node engine/ceviri-denetim.mjs gecti  <dize-id> "<kaynak>"   — gerçek çeviri
+  node engine/ceviri-denetim.mjs okuma  <dize-id> "<kaynak>"   — günümüz okuması (etiketlenir)
+  node engine/ceviri-denetim.mjs hatali <dize-id> "<neden>"    — kullanılamaz`);
 }

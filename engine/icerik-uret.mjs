@@ -302,9 +302,18 @@ for (const k of sozlukKayitlari) {
   kelimeCevirisi++;
 }
 
-const ceviriyeHazir = dizeler.filter((d) => d.dogrulama?.ceviri === "gecti");
-// Kısa ve denetimden geçmiş dizeler: bütün dize tek alıştırmaya ancak böyle sığar.
-const dizeCevirisi = ceviriyeHazir.filter((d) => d.kelimeSayisi <= 12 && !d.yipranma);
+// "gecti" gerçek çeviri, "gunumuz_okumasi" ise kabul edilen ama çeviri
+// olmayan karşılık — ikisi de alıştırmaya girer, ikincisi ETİKETLİ girer.
+const ceviriyeHazir = dizeler.filter(
+  (d) => d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi"
+);
+// Kısa ve kırıksız dizeler: bütün dize tek alıştırmaya ancak böyle sığar.
+// Lacuna denetimi Türkçe alanı da kapsıyor — `yipranma` bayrağı yalnızca
+// runik/transkripsiyona bakıyordu ve Türkçesinde `---` olan dize
+// (BK-B-7) kapıdan geçiyordu.
+const dizeCevirisi = ceviriyeHazir.filter(
+  (d) => d.kelimeSayisi <= 12 && !d.yipranma && !/---/.test(d.turkce || "")
+);
 for (const d of dizeCevirisi) {
   alistirmalar.push({
     id: `gen-dizecev-${d.id}`,
@@ -313,6 +322,8 @@ for (const d of dizeCevirisi) {
     runik: d.runik,
     transkripsiyon: d.transkripsiyon,
     dogru: d.turkce,
+    // Çeviri mi, günümüz okuması mı — arayüzde belirtilir.
+    gunumuzOkumasi: d.dogrulama?.ceviri === "gunumuz_okumasi",
     kaynak: d.id
   });
 }
@@ -540,6 +551,8 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
+  /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
+  gunumuzOkumasi?: boolean;
   /** Kaynak kitabe dizesinin kimliği (ör. KT-G-1). */
   kaynak: string;
 }

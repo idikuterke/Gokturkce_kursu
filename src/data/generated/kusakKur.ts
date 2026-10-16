@@ -50,15 +50,21 @@ const alistirmayaCevir = (
 
   if (a.tur === 'dize_ceviri') {
     if (!a.dogru) return null;
+    // Günümüz okuması çeviri değildir; öğrenciye böyle sunulmaz.
+    const etiket = a.gunumuzOkumasi
+      ? 'Bu karşılık bir çeviri değil, günümüz okumasıdır.'
+      : '';
     return {
       id: a.id,
       type: 'choice',
-      prompt: 'Bu kitabe satırı ne anlama geliyor?',
+      prompt: a.gunumuzOkumasi
+        ? 'Bu kitabe satırının günümüz okuması hangisidir?'
+        : 'Bu kitabe satırı ne anlama geliyor?',
       subprompt: a.transkripsiyon,
       runePrompt: a.runik,
       options: [a.dogru],
       correctAnswer: a.dogru,
-      explanation: `${a.kaynak} dizesi.`
+      explanation: `${a.kaynak} dizesi.${etiket ? ' ' + etiket : ''}`
     };
   }
 
