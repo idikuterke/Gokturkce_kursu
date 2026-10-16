@@ -154,7 +154,7 @@ export const TamgalikView: React.FC<TamgalikViewProps> = ({ onOpenFlashcards, on
       {/* Detail Modal */}
       {activeTamga && (
         <div className="fixed inset-0 z-50 bg-[#0B1320]/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="max-w-lg w-full bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl relative animate-in zoom-in-95">
+          <div className="max-w-lg w-full bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl relative animate-zoomIn">
             <button
               onClick={() => setActiveTamga(null)}
               className="absolute top-5 right-5 text-[#9FB0C6] hover:text-white p-2 rounded-xl hover:bg-[#152338]"

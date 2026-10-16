@@ -1,13 +1,10 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, lazy, Suspense } from 'react';
 import confetti from 'canvas-confetti';
 import { Navbar } from './components/Navbar';
 import { LearningPath } from './components/LearningPath';
-import { AlistirmaView } from './components/AlistirmaView';
-import { KesfetView } from './components/KesfetView';
 import { LessonModal } from './components/LessonModal';
 import { DailyQuestsModal } from './components/DailyQuestsModal';
 import { QuestToast } from './components/QuestToast';
-import { IstatistiklerView } from './components/IstatistiklerView';
 import { CelebrationBanner } from './components/CelebrationBanner';
 import { UNITS } from './data/curriculumData';
 import { Lesson, UserProgress, DailyQuest, QuestCategory, TamgaItem } from './types';
@@ -15,6 +12,26 @@ import { Badge } from './data/badgesData';
 import { playSuccessSound, playVictoryFanfare } from './utils/audio';
 import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQuests';
 import { formatDateToKey, getInitialActivityHistory } from './utils/statsUtils';
+
+// Acilista yalnizca "Ogren" sekmesi gorunur. Digerleri ayri parcalara
+// bolunup ilk acildiklarinda yuklenir; boylece recharts gibi agir
+// bagimliliklar ilk yuklemeyi yavaslatmaz.
+const AlistirmaView = lazy(() =>
+  import('./components/AlistirmaView').then(m => ({ default: m.AlistirmaView }))
+);
+const KesfetView = lazy(() =>
+  import('./components/KesfetView').then(m => ({ default: m.KesfetView }))
+);
+const IstatistiklerView = lazy(() =>
+  import('./components/IstatistiklerView').then(m => ({ default: m.IstatistiklerView }))
+);
+
+const TabYukleniyor = () => (
+  <div className="flex items-center justify-center py-24 text-sm text-[#6C7F99]">
+    <span className="w-4 h-4 mr-3 rounded-full border-2 border-[#2BC4C4] border-t-transparent animate-spin" />
+    Yükleniyor...
+  </div>
+);
 
 const STORAGE_KEY = 'gokturkce_progress_v1';
 
@@ -395,6 +412,7 @@ export const App: React.FC = () => {
 
       {/* Main Content Body */}
       <main className="flex-1 pb-16">
+        <Suspense fallback={<TabYukleniyor />}>
         {currentTab === 'ogren' && (
           <LearningPath
             units={UNITS}
@@ -477,6 +495,7 @@ export const App: React.FC = () => {
             onClaimBadge={handleClaimBadge}
           />
         )}
+        </Suspense>
       </main>
 
       {/* Interactive Lesson Modal */}

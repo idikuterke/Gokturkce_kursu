@@ -400,7 +400,7 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
         </div>
       ) : (
         /* Completion screen */
-        <div className="max-w-md mx-auto bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-in zoom-in-95">
+        <div className="max-w-md mx-auto bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
           <div className="w-20 h-20 mx-auto rounded-full bg-[#2BC4C4]/15 border-2 border-[#2BC4C4] flex items-center justify-center text-[#2BC4C4]">
             <Award className="w-10 h-10" />
           </div>

@@ -25,9 +25,9 @@ export const DailyQuestsModal: React.FC<DailyQuestsModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm animate-fadeIn">
       <div 
-        className="w-full max-w-lg bg-[#0B1320] border-2 border-[#2BC4C4] rounded-3xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200"
+        className="w-full max-w-lg bg-[#0B1320] border-2 border-[#2BC4C4] rounded-3xl shadow-2xl overflow-hidden animate-zoomIn"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Top Header */}

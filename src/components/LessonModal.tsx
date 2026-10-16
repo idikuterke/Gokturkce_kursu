@@ -195,7 +195,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   if (progress.hearts <= 0 && !isFinished) {
     return (
       <div className="fixed inset-0 z-50 bg-[#0B1320]/95 backdrop-blur-md flex items-center justify-center p-4">
-        <div className="max-w-md w-full bg-[#101B2C] border-2 border-rose-500/50 rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-in zoom-in-95">
+        <div className="max-w-md w-full bg-[#101B2C] border-2 border-rose-500/50 rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
           <div className="w-20 h-20 mx-auto rounded-full bg-rose-500/10 border-2 border-rose-500 flex items-center justify-center text-rose-500 animate-pulse">
             <Heart className="w-10 h-10 fill-rose-500" />
           </div>
@@ -231,7 +231,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
     const accuracy = Math.round((correctCount / lesson.exercises.length) * 100);
     return (
       <div className="fixed inset-0 z-50 bg-[#0B1320]/95 backdrop-blur-md flex items-center justify-center p-4">
-        <div className="max-w-md w-full bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-in zoom-in-95">
+        <div className="max-w-md w-full bg-[#101B2C] border-2 border-[#2BC4C4] rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
           <div className="flex justify-center">
             <MascotBoru mood="proud" size={130} />
           </div>

@@ -30,7 +30,7 @@ export const QuestToast: React.FC<QuestToastProps> = ({
   if (!toast) return null;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 max-w-sm w-full animate-in slide-in-from-bottom-5 fade-in duration-300">
+    <div className="fixed bottom-6 right-6 z-50 max-w-sm w-full animate-slideInUp">
       <div className="bg-[#101B2C] border-2 border-[#2BC4C4] rounded-2xl p-4 shadow-2xl shadow-black/60 flex items-start justify-between gap-3 text-white">
         <div className="flex items-start gap-3">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#2BC4C4] to-[#1E8A8A] flex items-center justify-center text-[#0B1320] flex-shrink-0 shadow-md">
