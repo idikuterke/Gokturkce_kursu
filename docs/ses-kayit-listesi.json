@@ -1,0 +1,2522 @@
+[
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C00",
+    "glif": "𐰀",
+    "okunus": "a / e",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C03",
+    "glif": "𐰃",
+    "okunus": "ı / i",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C06",
+    "glif": "𐰆",
+    "okunus": "o / u",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C07",
+    "glif": "𐰇",
+    "okunus": "ö / ü",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C09",
+    "glif": "𐰉",
+    "okunus": "b",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C0B",
+    "glif": "𐰋",
+    "okunus": "b",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C0D",
+    "glif": "𐰍",
+    "okunus": "g",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C0F",
+    "glif": "𐰏",
+    "okunus": "g",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C11",
+    "glif": "𐰑",
+    "okunus": "d",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C13",
+    "glif": "𐰓",
+    "okunus": "d",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C14",
+    "glif": "𐰔",
+    "okunus": "z",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C16",
+    "glif": "𐰖",
+    "okunus": "y",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C18",
+    "glif": "𐰘",
+    "okunus": "y",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C1A",
+    "glif": "𐰚",
+    "okunus": "k",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C1C",
+    "glif": "𐰜",
+    "okunus": "ök / ük / kö / kü",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C1E",
+    "glif": "𐰞",
+    "okunus": "l",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C20",
+    "glif": "𐰠",
+    "okunus": "l",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C21",
+    "glif": "𐰡",
+    "okunus": "ld / lt",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C22",
+    "glif": "𐰢",
+    "okunus": "m",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C23",
+    "glif": "𐰣",
+    "okunus": "n",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C24",
+    "glif": "𐰤",
+    "okunus": "n",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C26",
+    "glif": "𐰦",
+    "okunus": "nd / nt",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C28",
+    "glif": "𐰨",
+    "okunus": "nc / nç",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C2A",
+    "glif": "𐰪",
+    "okunus": "ñ / ny",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C2D",
+    "glif": "𐰭",
+    "okunus": "ŋ / ng",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C2F",
+    "glif": "𐰯",
+    "okunus": "p",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C31",
+    "glif": "𐰱",
+    "okunus": "iç / çi",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C32",
+    "glif": "𐰲",
+    "okunus": "ç",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C34",
+    "glif": "𐰴",
+    "okunus": "k / q",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C36",
+    "glif": "𐰶",
+    "okunus": "ık / kı",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C38",
+    "glif": "𐰸",
+    "okunus": "ok / uk / ko / ku",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C3A",
+    "glif": "𐰺",
+    "okunus": "r",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C3C",
+    "glif": "𐰼",
+    "okunus": "r",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C3D",
+    "glif": "𐰽",
+    "okunus": "s",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C3E",
+    "glif": "𐰾",
+    "okunus": "s",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C41",
+    "glif": "𐱁",
+    "okunus": "ş",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C43",
+    "glif": "𐱃",
+    "okunus": "t",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 1,
+    "anahtar": "tamga/10C45",
+    "glif": "𐱅",
+    "okunus": "t",
+    "not": "Tek tamganın hece okunuşu. Harf adı değil, sesi okunmalı.",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/adgir",
+    "glif": "𐰑𐰍𐰃𐰺𐰍",
+    "okunus": "adgır",
+    "not": "aygır, damızlık erkek at",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/agi",
+    "glif": "𐰍𐰃",
+    "okunus": "agı",
+    "not": "ipek kumaş, kıymetli hediye",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/alp",
+    "glif": "𐰞𐰯",
+    "okunus": "alp",
+    "not": "cesur, yiğit, kahraman savaşçı",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/altun",
+    "glif": "𐰞𐱃𐰆𐰣",
+    "okunus": "altun",
+    "not": "altın",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/armakci",
+    "glif": "𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤",
+    "okunus": "armakçı",
+    "not": "hilekâr, aldatıcı",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/ay",
+    "glif": "𐰖",
+    "okunus": "ay",
+    "not": "ay (gök cismi / zaman birimi)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/ay",
+    "glif": "𐰖",
+    "okunus": "ay-",
+    "not": "söylemek, buyurmak",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/balbal",
+    "glif": "𐰉𐰞𐰉𐰞",
+    "okunus": "balbal",
+    "not": "balbal (şahıs heykeli taş)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/balik",
+    "glif": "𐰉𐰞𐰶",
+    "okunus": "balık",
+    "not": "şehir, kale kent",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/barim",
+    "glif": "𐰉𐰺𐰢𐰃𐰤",
+    "okunus": "barım",
+    "not": "taşınır servet, mal mülk",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bark",
+    "glif": "𐰉𐰺𐰴",
+    "okunus": "bark",
+    "not": "anıt, türbe, bark",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bediz",
+    "glif": "𐰋𐰓𐰔",
+    "okunus": "bediz",
+    "not": "süs, resim, heykel, süsleme",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bedizci",
+    "glif": "𐰋𐰓𐰔𐰲𐰃",
+    "okunus": "bedizçi",
+    "not": "sanatçı, ressam, heykelci",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/beg",
+    "glif": "𐰋𐰏",
+    "okunus": "beg",
+    "not": "bey, soylu lider, komutan",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/benggu",
+    "glif": "𐰋𐰭𐰏𐰇",
+    "okunus": "beŋgü",
+    "not": "ebedi, sonsuz, abide",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bilge",
+    "glif": "𐰋𐰃𐰠𐰏𐰀",
+    "okunus": "bilge",
+    "not": "bilge, hakim, bilgili, akil",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bing",
+    "glif": "𐰋𐰃𐰭",
+    "okunus": "biŋ",
+    "not": "bin (1000)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bitig",
+    "glif": "𐰋𐰃𐱅𐰏",
+    "okunus": "bitig",
+    "not": "yazı, kitap, kitabe, el yazması",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bodun",
+    "glif": "𐰉𐰆𐰑𐰣",
+    "okunus": "bodun",
+    "not": "millet, halk, boylar birliği",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/bori",
+    "glif": "𐰋𐰇𐰼𐰃",
+    "okunus": "böri",
+    "not": "kurt",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/buyruk",
+    "glif": "𐰉𐰆𐰖𐰺𐰸",
+    "okunus": "buyruk",
+    "not": "buyruk, vezir, bakan, emredici",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/cabis",
+    "glif": "𐰲𐰉𐰾𐰃",
+    "okunus": "çabış",
+    "not": "çavuş, askeri komutan, unvan",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/eb-ev",
+    "glif": "𐰋",
+    "okunus": "eb / ev",
+    "not": "ev, çadır, otağ",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/eci",
+    "glif": "𐰲𐰃𐰢",
+    "okunus": "eçi",
+    "not": "ağabey, amca",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/elig",
+    "glif": "𐰠𐰏",
+    "okunus": "elig",
+    "not": "elli (50)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/er",
+    "glif": "𐰼",
+    "okunus": "er",
+    "not": "erkek, yiğit, asker, er",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/esid",
+    "glif": "𐰾𐰃𐰓",
+    "okunus": "eşid-",
+    "not": "işitmek, duymak",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/il-el",
+    "glif": "𐰃𐰠",
+    "okunus": "il / el",
+    "not": "devlet, ülke, halk birliği",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/ini",
+    "glif": "𐰃𐰤𐰃",
+    "okunus": "ini",
+    "not": "erkek kardeş (küçük)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/irk",
+    "glif": "𐰃𐰼𐰚𐰤",
+    "okunus": "ırk",
+    "not": "fal, kehanet, işaret",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kagan",
+    "glif": "𐰴𐰍𐰣",
+    "okunus": "kagan",
+    "not": "hakan, kağan, hükümdar",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kang",
+    "glif": "𐰴𐰭𐰢",
+    "okunus": "kaŋ",
+    "not": "baba",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/katun",
+    "glif": "𐰴𐱃𐰆𐰣",
+    "okunus": "katun",
+    "not": "hatun, hakan eşi, kraliçe",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kirk",
+    "glif": "𐰶𐰃𐰺𐰴",
+    "okunus": "kırk",
+    "not": "kırk (40)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kirkiz",
+    "glif": "𐰶𐰃𐰺𐰴𐰔",
+    "okunus": "kırkız",
+    "not": "Kırgız (boy birliği)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kis",
+    "glif": "𐰚𐰃𐰾𐰃",
+    "okunus": "kış",
+    "not": "kış mevsimi",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kiz",
+    "glif": "𐰶𐰃𐰔",
+    "okunus": "kız",
+    "not": "kız evlat, genç kadın",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kok",
+    "glif": "𐰚𐰇𐰚",
+    "okunus": "kök",
+    "not": "mavi, gök rengi, kök",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kol",
+    "glif": "𐰚𐰇𐰠",
+    "okunus": "köl",
+    "not": "göl, deniz nitelikli su",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/korgan",
+    "glif": "𐰴𐰆𐰺𐰍𐰣",
+    "okunus": "korgan",
+    "not": "kale, sığınak, korgan",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/koy",
+    "glif": "𐰸𐰆𐰪",
+    "okunus": "koy",
+    "not": "koyun",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kum",
+    "glif": "𐰚𐰇𐰢𐱁",
+    "okunus": "kum",
+    "not": "çöl, kumluk arazi",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kumis",
+    "glif": "𐰚𐰇𐰢𐱁𐰃𐰤",
+    "okunus": "kümiş",
+    "not": "gümüş",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kun",
+    "glif": "𐰚𐰇𐰤",
+    "okunus": "kün",
+    "not": "güneş, gündüz, gün",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kus",
+    "glif": "𐰚𐰇𐰾𐰃",
+    "okunus": "kuş",
+    "not": "kuş",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/kut",
+    "glif": "𐰸𐰆𐱃𐰢",
+    "okunus": "kut",
+    "not": "kut, saadet, ilahi hükümdarlık gücü",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/od",
+    "glif": "𐰇𐰓",
+    "okunus": "öd",
+    "not": "zaman, vakit, çağ",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/og",
+    "glif": "𐰆𐰍𐰔",
+    "okunus": "ög",
+    "not": "anne",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/ogul",
+    "glif": "𐰆𐰍𐰞",
+    "okunus": "ogul",
+    "not": "oğul, evlat, çocuk",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/oguz",
+    "glif": "𐰆𐰍𐰔",
+    "okunus": "oguz",
+    "not": "Oğuz (boy birliği)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/otuken",
+    "glif": "𐰇𐱅𐰜𐰤",
+    "okunus": "ötüken",
+    "not": "Ötüken (kutsal devlet merkezi)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/otuz",
+    "glif": "𐰆𐱃𐰔",
+    "okunus": "otuz",
+    "not": "otuz (30)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/sab",
+    "glif": "𐰽𐰉",
+    "okunus": "sab",
+    "not": "söz, mesaj, kelam, haber",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/sad",
+    "glif": "𐱁𐰑",
+    "okunus": "şad",
+    "not": "şad (yüksek dereceli veliaht/prens unvanı)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/sanc",
+    "glif": "𐰽𐰨𐰑𐰃",
+    "okunus": "sanç-",
+    "not": "saplamak, mızraklamak, bozguna uğratmak",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/su",
+    "glif": "𐰾𐰇",
+    "okunus": "sü",
+    "not": "ordu, asker, sefer kuvveti",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/sub-suv",
+    "glif": "𐰽𐰆𐰉",
+    "okunus": "sub / suv",
+    "not": "su, nehir, kutsal vatan suyu",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/sule",
+    "glif": "𐰾𐰇𐰠𐰀",
+    "okunus": "süle-",
+    "not": "sefere çıkmak, ordu sevketmek",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/t",
+    "glif": "𐱃",
+    "okunus": "āt",
+    "not": "ad, unvan, şöhret",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tag",
+    "glif": "𐱃𐰍𐰲𐰀",
+    "okunus": "tag",
+    "not": "dağ",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tarkan",
+    "glif": "𐱃𐰺𐰴𐰣",
+    "okunus": "tarkan",
+    "not": "tarkan (soylu unvanı, komutan)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tengri",
+    "glif": "𐱅𐰭𐰼𐰃",
+    "okunus": "teŋri",
+    "not": "gök, tanrı, ilahi düzen",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/ti",
+    "glif": "𐱅𐰃",
+    "okunus": "ti-",
+    "not": "demek, söylemek",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tigin",
+    "glif": "𐱅𐰃𐰏𐰤",
+    "okunus": "tigin",
+    "not": "prens, kağan oğlu",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tingla",
+    "glif": "𐱅𐰃𐰭𐰞𐰀",
+    "okunus": "tıŋla-",
+    "not": "dinlemek, kulak vermek",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/toki",
+    "glif": "𐱃𐰸𐰃𐱃𐰑𐰢",
+    "okunus": "tokı-",
+    "not": "savaşmak, vurmak, dövüşmek",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tonyukuk-tungukuk",
+    "glif": "𐱃𐰆𐰪𐰸𐰸",
+    "okunus": "tonyukuk / tuŋukuk",
+    "not": "Tonyukuk (vekil, vezir, başdanışman)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/toru",
+    "glif": "𐱃𐰆𐰺𐰆",
+    "okunus": "törü",
+    "not": "töre, örfi kanun, devlet düzeni",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tumen",
+    "glif": "𐱅𐰇𐰢𐰤",
+    "okunus": "tümen",
+    "not": "on bin (10000), tümen",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/tun",
+    "glif": "𐱅𐰇𐰤",
+    "okunus": "tün",
+    "not": "gece, karanlık",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/turuk",
+    "glif": "𐱅𐰇𐰼𐰜",
+    "okunus": "türük",
+    "not": "Türk, Göktürk milleti",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yagi",
+    "glif": "𐰖𐰍𐰃",
+    "okunus": "yagı",
+    "not": "düşman, hasım",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yaz",
+    "glif": "𐰖𐰔𐰃𐰴𐰀",
+    "okunus": "yaz",
+    "not": "ilkbahar, yaz mevsimi",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yazi",
+    "glif": "𐰖𐰔𐰃",
+    "okunus": "yazı",
+    "not": "ova, açık arazi",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yegirmi",
+    "glif": "𐰘𐰏𐰼𐰢𐰃",
+    "okunus": "yegirmi",
+    "not": "yirmi (20)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yer-yir",
+    "glif": "𐰘𐰼",
+    "okunus": "yer / yir",
+    "not": "yer, toprak, vatan",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yeti",
+    "glif": "𐰘𐱅𐰃",
+    "okunus": "yeti",
+    "not": "yedi (7)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yetmis",
+    "glif": "𐰘𐱅𐰢𐰾",
+    "okunus": "yetmiş",
+    "not": "yetmiş (70)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yil",
+    "glif": "𐰘𐰃𐰞",
+    "okunus": "yıl",
+    "not": "yıl, sene",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yilki",
+    "glif": "𐰘𐰃𐰞𐰴𐰃𐰾𐰃𐰤",
+    "okunus": "yılkı",
+    "not": "at sürüsü, binek hayvanı",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yis",
+    "glif": "𐰘𐰃𐱁",
+    "okunus": "yış",
+    "not": "ormanlık dağ, orman",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yol",
+    "glif": "𐰖𐰆𐰞𐰃",
+    "okunus": "yol",
+    "not": "yol, usül, kural",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yut",
+    "glif": "𐰖𐰆𐱃",
+    "okunus": "yut",
+    "not": "kıtlık, aşırı kış felaketi",
+    "kayitli": false
+  },
+  {
+    "oncelik": 2,
+    "anahtar": "kelime/yuz",
+    "glif": "𐰘𐰇𐰔",
+    "okunus": "yüz",
+    "not": "yüz (100)",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ali",
+    "glif": "𐰞𐰃",
+    "okunus": "aLI",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/alti",
+    "glif": "𐰞𐱃𐰃",
+    "okunus": "aLTI",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/altim",
+    "glif": "𐰞𐱃𐰢",
+    "okunus": "aLTıM",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/amti",
+    "glif": "𐰢𐱃𐰃",
+    "okunus": "aMTI",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/anca",
+    "glif": "𐰨𐰀",
+    "okunus": "aNÇA",
+    "not": "korpusta 58 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/anda",
+    "glif": "𐰦𐰀",
+    "okunus": "aNDA",
+    "not": "korpusta 61 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ani",
+    "glif": "𐰣𐰃",
+    "okunus": "aNI",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/antag",
+    "glif": "𐰦𐰍",
+    "okunus": "aNTaG",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/artuki",
+    "glif": "𐰺𐱃𐰸𐰃",
+    "okunus": "aRTUKI",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/asa",
+    "glif": "𐱁𐰀",
+    "okunus": "aŞA",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/asra",
+    "glif": "𐰽𐰺𐰀",
+    "okunus": "aSRA",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/at",
+    "glif": "𐱃",
+    "okunus": "aT",
+    "not": "korpusta 13 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ati",
+    "glif": "𐱃𐰃",
+    "okunus": "aTI",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/atig",
+    "glif": "𐱃𐰍",
+    "okunus": "aTıG",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/az",
+    "glif": "𐰔",
+    "okunus": "aZ",
+    "not": "korpusta 19 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bar",
+    "glif": "𐰉𐰺",
+    "okunus": "BaR",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bardi",
+    "glif": "𐰉𐰺𐰑𐰃",
+    "okunus": "BaRDI",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bardig",
+    "glif": "𐰉𐰺𐰑𐰍",
+    "okunus": "BaRDıG",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/barmis",
+    "glif": "𐰉𐰺𐰢𐰾",
+    "okunus": "BaRMıŞ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/baslayu",
+    "glif": "𐰉𐱁𐰞𐰖𐰆",
+    "okunus": "BaŞLaYU",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/basligig",
+    "glif": "𐰉𐱁𐰞𐰍𐰍",
+    "okunus": "BaŞLıGıG",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bay",
+    "glif": "𐰉𐰖",
+    "okunus": "BaY",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/baz",
+    "glif": "𐰉𐰔",
+    "okunus": "BaZ",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/begler",
+    "glif": "𐰋𐰏𐰠𐰼",
+    "okunus": "BeGLeR",
+    "not": "korpusta 24 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/begleri",
+    "glif": "𐰋𐰏𐰠𐰼𐰃",
+    "okunus": "BeGLeRİ",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ben",
+    "glif": "𐰋𐰤",
+    "okunus": "BeN",
+    "not": "korpusta 16 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-lge",
+    "glif": "𐰋𐰃𐰠𐰏𐰀",
+    "okunus": "BİLGE",
+    "not": "korpusta 36 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-ling",
+    "glif": "𐰋𐰃𐰠𐰭",
+    "okunus": "BİLiŊ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-lmez",
+    "glif": "𐰋𐰃𐰠𐰢𐰔",
+    "okunus": "BİLMeZ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-nip",
+    "glif": "𐰋𐰃𐰤𐰯",
+    "okunus": "BİNiP",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-r",
+    "glif": "𐰋𐰃𐰼",
+    "okunus": "BİR",
+    "not": "korpusta 22 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-rigeru",
+    "glif": "𐰋𐰃𐰼𐰏𐰼𐰇",
+    "okunus": "BİRiGeRÜ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-rle",
+    "glif": "𐰋𐰃𐰼𐰠𐰀",
+    "okunus": "BİRLE",
+    "not": "korpusta 22 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-rmis",
+    "glif": "𐰋𐰃𐰼𐰢𐰾",
+    "okunus": "BİRMiŞ",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-rtim",
+    "glif": "𐰋𐰃𐰼𐱅𐰢",
+    "okunus": "BİRTiM",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-rtimiz",
+    "glif": "𐰋𐰃𐰼𐱅𐰢𐰔",
+    "okunus": "BİRTiMiZ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-rur",
+    "glif": "𐰋𐰃𐰼𐰇𐰼",
+    "okunus": "BİRÜR",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bi-z",
+    "glif": "𐰋𐰃𐰔",
+    "okunus": "BİZ",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/boduni",
+    "glif": "𐰉𐰆𐰑𐰣𐰃",
+    "okunus": "BODuNI",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bodunig",
+    "glif": "𐰉𐰆𐰑𐰣𐰍",
+    "okunus": "BODuNıG",
+    "not": "korpusta 24 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bodunka",
+    "glif": "𐰉𐰆𐰑𐰣𐰴𐰀",
+    "okunus": "BODuNKA",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bodunug",
+    "glif": "𐰉𐰆𐰑𐰣𐰍",
+    "okunus": "BODuNuG",
+    "not": "korpusta 31 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bodunum",
+    "glif": "𐰉𐰆𐰑𐰣𐰢",
+    "okunus": "BODuNuM",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/boldi",
+    "glif": "𐰉𐰆𐰡𐰃",
+    "okunus": "BOLDI",
+    "not": "korpusta 28 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bolmazun",
+    "glif": "𐰉𐰆𐰞𐰢𐰔𐰆𐰤",
+    "okunus": "BOLMaZUN",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bolmis",
+    "glif": "𐰉𐰆𐰞𐰢𐰾",
+    "okunus": "BOLMıS",
+    "not": "korpusta 15 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bozdum",
+    "glif": "𐰉𐰆𐰔𐰑𐰢",
+    "okunus": "BOZDuM",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bu",
+    "glif": "𐰉𐰆",
+    "okunus": "BU",
+    "not": "korpusta 19 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bunca",
+    "glif": "𐰉𐰆𐰨𐰀",
+    "okunus": "BUNÇA",
+    "not": "korpusta 16 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/bunda",
+    "glif": "𐰉𐰆𐰦𐰀",
+    "okunus": "BUNDA",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/buyruki",
+    "glif": "𐰉𐰆𐰖𐰺𐰸𐰃",
+    "okunus": "BUYRUKI",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/cigayn",
+    "glif": "𐰲𐰃𐰍𐰪",
+    "okunus": "ÇIGaYN",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/eci-m",
+    "glif": "𐰲𐰃𐰢",
+    "okunus": "eÇİM",
+    "not": "korpusta 13 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/edgu",
+    "glif": "𐰓𐰏𐰇",
+    "okunus": "eDGÜ",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/erig",
+    "glif": "𐰼𐰏",
+    "okunus": "eRiG",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/erin",
+    "glif": "𐰼𐰤",
+    "okunus": "eRiN",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/erinc",
+    "glif": "𐰼𐰨",
+    "okunus": "eRiNÇ",
+    "not": "korpusta 33 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ermis",
+    "glif": "𐰼𐰢𐰾",
+    "okunus": "eRMiŞ",
+    "not": "korpusta 70 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/erser",
+    "glif": "𐰼𐰾𐰼",
+    "okunus": "eRSeR",
+    "not": "korpusta 17 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/erti",
+    "glif": "𐰼𐱅𐰃",
+    "okunus": "eRTİ",
+    "not": "korpusta 45 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ertim",
+    "glif": "𐰼𐱅𐰢",
+    "okunus": "eRTiM",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ertimiz",
+    "glif": "𐰼𐱅𐰢𐰔",
+    "okunus": "eRTiMiZ",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/esidip",
+    "glif": "𐰾𐰓𐰯",
+    "okunus": "eŞiDiP",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-di",
+    "glif": "𐰃𐰓𐰃",
+    "okunus": "İDİ",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-l",
+    "glif": "𐰃𐰠",
+    "okunus": "İL",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-lgeru",
+    "glif": "𐰃𐰠𐰏𐰼𐰇",
+    "okunus": "İLGeRÜ",
+    "not": "korpusta 18 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-li-n",
+    "glif": "𐰃𐰠𐰃𐰤",
+    "okunus": "İLİN",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-lig",
+    "glif": "𐰃𐰠𐰏",
+    "okunus": "İLiG",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-lteris",
+    "glif": "𐰃𐰠𐱅𐰼𐰾",
+    "okunus": "İLTeRiŞ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-ni-si",
+    "glif": "𐰃𐰤𐰃𐰾𐰃",
+    "okunus": "İNİSİ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-nim",
+    "glif": "𐰃𐰤𐰢",
+    "okunus": "İNiM",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-sig",
+    "glif": "𐰃𐰾𐰏",
+    "okunus": "İŞiG",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/i-tip",
+    "glif": "𐰃𐱅𐰯",
+    "okunus": "İTiP",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/idmis",
+    "glif": "𐰃𐰑𐰢𐰾",
+    "okunus": "IDMıŞ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/iduk",
+    "glif": "𐰃𐰑𐰸",
+    "okunus": "IDUK",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/igar",
+    "glif": "𐰃𐰍𐰺",
+    "okunus": "IGaR",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/iki",
+    "glif": "𐰚𐰃",
+    "okunus": "iKİ",
+    "not": "korpusta 19 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/iki-n",
+    "glif": "𐰚𐰃𐰤",
+    "okunus": "iKİN",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kadirkan",
+    "glif": "𐰴𐰑𐰺𐰴𐰣",
+    "okunus": "KaDıRKaN",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kaganda",
+    "glif": "𐰴𐰍𐰦𐰀",
+    "okunus": "KaGaNDA",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kagani",
+    "glif": "𐰴𐰍𐰣𐰃",
+    "okunus": "KaGaNI",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kaganig",
+    "glif": "𐰴𐰍𐰣𐰍",
+    "okunus": "KaGaNıG",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kaganim",
+    "glif": "𐰴𐰍𐰣𐰢",
+    "okunus": "KaGaNıM",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kaganin",
+    "glif": "𐰴𐰍𐰣𐰃𐰤",
+    "okunus": "KaGaNIN",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kaganka",
+    "glif": "𐰴𐰍𐰣𐰴𐰀",
+    "okunus": "KaGaNKA",
+    "not": "korpusta 19 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kangim",
+    "glif": "𐰴𐰭𐰢",
+    "okunus": "KaŊıM",
+    "not": "korpusta 22 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kani",
+    "glif": "𐰴𐰣𐰃",
+    "okunus": "KaNI",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kapigka",
+    "glif": "𐰴𐰯𐰍𐰴𐰀",
+    "okunus": "KaPıGKA",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kara",
+    "glif": "𐰴𐰺𐰀",
+    "okunus": "KaRA",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kazganip",
+    "glif": "𐰴𐰔𐰍𐰣𐰯",
+    "okunus": "KaZGaNıP",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kazganmasar",
+    "glif": "𐰴𐰔𐰍𐰣𐰢𐰽𐰺",
+    "okunus": "KaZGaNMaSaR",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kazganmis",
+    "glif": "𐰴𐰔𐰍𐰣𐰢𐰾",
+    "okunus": "KaZGaNMıŞ",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kece",
+    "glif": "𐰚𐰲𐰀",
+    "okunus": "KeÇE",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kelti",
+    "glif": "𐰚𐰠𐱅𐰃",
+    "okunus": "KeLTİ",
+    "not": "korpusta 33 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/keltimiz",
+    "glif": "𐰚𐰠𐱅𐰢𐰔",
+    "okunus": "KeLTiMiZ",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kelurti",
+    "glif": "𐰚𐰠𐰇𐰼𐱅𐰃",
+    "okunus": "KeLÜRTİ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ki-cig",
+    "glif": "𐰚𐰃𐰲𐰏",
+    "okunus": "KİÇiG",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ki-si",
+    "glif": "𐰚𐰃𐰾𐰃",
+    "okunus": "KİŞİ",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ki-si-g",
+    "glif": "𐰚𐰃𐰾𐰃𐰏",
+    "okunus": "KİŞİG",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ki-sre",
+    "glif": "𐰚𐰃𐰾𐰼𐰀",
+    "okunus": "KİSRE",
+    "not": "korpusta 13 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kildim",
+    "glif": "𐰴𐰃𐰡𐰢",
+    "okunus": "KILDıM",
+    "not": "korpusta 15 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kitayn",
+    "glif": "𐰶𐰃𐱃𐰪",
+    "okunus": "KITaYN",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kolti-gin",
+    "glif": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤",
+    "okunus": "KÖLTİGiN",
+    "not": "korpusta 28 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kop",
+    "glif": "𐰸𐰆𐰯",
+    "okunus": "KOP",
+    "not": "korpusta 18 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/korti",
+    "glif": "𐰚𐰇𐰼𐱅𐰃",
+    "okunus": "KÖRTİ",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kucug",
+    "glif": "𐰚𐰇𐰲𐰏",
+    "okunus": "KÜÇüG",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kul",
+    "glif": "𐰸𐰆𐰞",
+    "okunus": "KUL",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kung",
+    "glif": "𐰚𐰇𐰭",
+    "okunus": "KÜŊ",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kurigaru",
+    "glif": "𐰸𐰆𐰺𐰍𐰺𐰆",
+    "okunus": "KURıGaRU",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/kusi",
+    "glif": "𐰚𐰇𐰾𐰃",
+    "okunus": "KÜSİ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/manga",
+    "glif": "𐰢𐰭𐰀",
+    "okunus": "MaŊA",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/men",
+    "glif": "𐰢𐰤",
+    "okunus": "MeN",
+    "not": "korpusta 16 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ne",
+    "glif": "𐰤𐰀",
+    "okunus": "NE",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/neng",
+    "glif": "𐰤𐰭",
+    "okunus": "NeŊ",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ogli",
+    "glif": "𐰆𐰍𐰞𐰃",
+    "okunus": "OGLI",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ogum",
+    "glif": "𐰇𐰏𐰢",
+    "okunus": "ÖGüM",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/oguzug",
+    "glif": "𐰇𐰏𐰔𐰏",
+    "okunus": "ÖGüZüG",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ok",
+    "glif": "𐰸",
+    "okunus": "OK",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/okus",
+    "glif": "𐰜𐰇𐰾",
+    "okunus": "ÖKÜŞ",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ol",
+    "glif": "𐰆𐰞",
+    "okunus": "OL",
+    "not": "korpusta 49 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/olteci",
+    "glif": "𐰇𐰠𐱅𐰲𐰃",
+    "okunus": "ÖLTeÇİ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/olti",
+    "glif": "𐰇𐰠𐱅𐰃",
+    "okunus": "ÖLTİ",
+    "not": "korpusta 15 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/olu",
+    "glif": "𐰇𐰠𐰇",
+    "okunus": "ÖLÜ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/olurtum",
+    "glif": "𐰆𐰞𐰺𐱃𐰢",
+    "okunus": "OLuRTuM",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/olurup",
+    "glif": "𐰆𐰞𐰺𐰯",
+    "okunus": "OLuRuP",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/olurur",
+    "glif": "𐰆𐰞𐰺𐰆𐰺",
+    "okunus": "OLuRUR",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/on",
+    "glif": "𐰆𐰣",
+    "okunus": "ON",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/oplayu",
+    "glif": "𐰆𐰯𐰞𐰖𐰆",
+    "okunus": "OPLaYU",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ozi",
+    "glif": "𐰇𐰔𐰃",
+    "okunus": "ÖZİ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ozum",
+    "glif": "𐰇𐰔𐰢",
+    "okunus": "ÖZüM",
+    "not": "korpusta 22 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sabi",
+    "glif": "𐰽𐰉𐰃",
+    "okunus": "SaBI",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sabig",
+    "glif": "𐰽𐰉𐰍",
+    "okunus": "SaBıG",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sabimin",
+    "glif": "𐰽𐰉𐰢𐰣",
+    "okunus": "SaBıMıN",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sakindim",
+    "glif": "𐰽𐰴𐰦𐰢",
+    "okunus": "SaKıNDıM",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sancdi",
+    "glif": "𐰽𐰨𐰑𐰃",
+    "okunus": "SaNÇDI",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sancdim",
+    "glif": "𐰽𐰨𐰑𐰢",
+    "okunus": "SaNÇDıM",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sayu",
+    "glif": "𐰽𐰖𐰆",
+    "okunus": "SaYU",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sen",
+    "glif": "𐰾𐰤",
+    "okunus": "SeN",
+    "not": "korpusta 13 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sengun",
+    "glif": "𐰾𐰭𐰇𐰤",
+    "okunus": "SeŊÜN",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/si-r",
+    "glif": "𐰾𐰃𐰼",
+    "okunus": "SİR",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sub",
+    "glif": "𐰽𐰆𐰉",
+    "okunus": "SUB",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/suci-g",
+    "glif": "𐰾𐰇𐰲𐰃𐰏",
+    "okunus": "SÜÇİG",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sug",
+    "glif": "𐰾𐰇𐰏",
+    "okunus": "SÜG",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/suledim",
+    "glif": "𐰾𐰇𐰠𐰓𐰢",
+    "okunus": "SÜLeDiM",
+    "not": "korpusta 24 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/suledimiz",
+    "glif": "𐰾𐰇𐰠𐰓𐰢𐰔",
+    "okunus": "SÜLeDiMiZ",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sungusdum",
+    "glif": "𐰾𐰇𐰭𐱁𐰓𐰢",
+    "okunus": "SÜŊüŞDüM",
+    "not": "korpusta 13 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/sungusdumuz",
+    "glif": "𐰾𐰇𐰭𐱁𐰓𐰢𐰔",
+    "okunus": "SÜŊüŞDüMüZ",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/susi",
+    "glif": "𐰾𐰇𐰾𐰃",
+    "okunus": "SÜSİ",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/susi-n",
+    "glif": "𐰾𐰇𐰾𐰃𐰤",
+    "okunus": "SÜSİN",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tabgac",
+    "glif": "𐱃𐰉𐰍𐰲",
+    "okunus": "TaBGaÇ",
+    "not": "korpusta 38 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tapa",
+    "glif": "𐱃𐰯𐰀",
+    "okunus": "TaPA",
+    "not": "korpusta 21 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tardus",
+    "glif": "𐱃𐰺𐰑𐰆𐱁",
+    "okunus": "TaRDUŞ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tas",
+    "glif": "𐱃𐱁",
+    "okunus": "TaŞ",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tatabi",
+    "glif": "𐱃𐱃𐰉𐰃",
+    "okunus": "TaTaBI",
+    "not": "korpusta 11 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/teg",
+    "glif": "𐱅𐰏",
+    "okunus": "TeG",
+    "not": "korpusta 19 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tegdi",
+    "glif": "𐱅𐰏𐰓𐰃",
+    "okunus": "TeGDİ",
+    "not": "korpusta 12 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tegi",
+    "glif": "𐱅𐰏𐰃",
+    "okunus": "TeGİ",
+    "not": "korpusta 33 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/temirkapigka",
+    "glif": "𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀",
+    "okunus": "TeMiRKaPıGKA",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ti-di",
+    "glif": "𐱅𐰃𐰓𐰃",
+    "okunus": "TİDİ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ti-gin",
+    "glif": "𐱅𐰃𐰏𐰤",
+    "okunus": "TİGiN",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ti-p",
+    "glif": "𐱅𐰃𐰯",
+    "okunus": "TİP",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ti-r",
+    "glif": "𐱅𐰃𐰼",
+    "okunus": "TİR",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ti-yin",
+    "glif": "𐱅𐰃𐰘𐰤",
+    "okunus": "TİYiN",
+    "not": "korpusta 24 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ti-zligig",
+    "glif": "𐱅𐰃𐰔𐰠𐰏𐰏",
+    "okunus": "TİZLiGiG",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tidi",
+    "glif": "𐱅𐰓𐰃",
+    "okunus": "TiDİ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/timis",
+    "glif": "𐱅𐰢𐰾",
+    "okunus": "TiMiŞ",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tiyin",
+    "glif": "𐱅𐰘𐰤",
+    "okunus": "TiYiN",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tokuz",
+    "glif": "𐱃𐰸𐰆𐰔",
+    "okunus": "TOKUZ",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tonyukuk",
+    "glif": "𐱃𐰆𐰪𐰸𐰸",
+    "okunus": "TONYUKUK",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/tort",
+    "glif": "𐱅𐰇𐰼𐱅",
+    "okunus": "TÖRT",
+    "not": "korpusta 13 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/torug",
+    "glif": "𐱅𐰇𐰼𐰇𐰏",
+    "okunus": "TÖRÜG",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/turgis",
+    "glif": "𐱅𐰇𐰼𐰏𐰾",
+    "okunus": "TÜRGiŞ",
+    "not": "korpusta 17 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/turk",
+    "glif": "𐱅𐰇𐰼𐰜",
+    "okunus": "TÜRK",
+    "not": "korpusta 78 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/uc",
+    "glif": "𐰇𐰲",
+    "okunus": "ÜÇ",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/uca",
+    "glif": "𐰆𐰲𐰀",
+    "okunus": "UÇA",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ucun",
+    "glif": "𐰇𐰲𐰇𐰤",
+    "okunus": "ÜÇÜN",
+    "not": "korpusta 37 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ulayu",
+    "glif": "𐰆𐰞𐰖𐰆",
+    "okunus": "ULaYU",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/ulug",
+    "glif": "𐰆𐰞𐰍",
+    "okunus": "ULuG",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/urtum",
+    "glif": "𐰆𐰺𐱃𐰢",
+    "okunus": "URTuM",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/uze",
+    "glif": "𐰇𐰔𐰀",
+    "okunus": "ÜZE",
+    "not": "korpusta 21 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yablak",
+    "glif": "𐰖𐰉𐰞𐰴",
+    "okunus": "YaBLaK",
+    "not": "korpusta 14 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yana",
+    "glif": "𐰖𐰣𐰀",
+    "okunus": "YaNA",
+    "not": "korpusta 8 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yarlikaduk",
+    "glif": "𐰖𐰺𐰞𐰴𐰑𐰸",
+    "okunus": "YaRLıKaDUK",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yasima",
+    "glif": "𐰖𐱁𐰢𐰀",
+    "okunus": "YaŞıMA",
+    "not": "korpusta 10 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yi-r",
+    "glif": "𐰘𐰃𐰼",
+    "okunus": "YİR",
+    "not": "korpusta 17 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yi-ti",
+    "glif": "𐰘𐰃𐱅𐰃",
+    "okunus": "YİTİ",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yigirmi",
+    "glif": "𐰘𐰏𐰼𐰢𐰃",
+    "okunus": "YiGiRMİ",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yime",
+    "glif": "𐰘𐰢𐰀",
+    "okunus": "YiME",
+    "not": "korpusta 30 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yir",
+    "glif": "𐰘𐰼",
+    "okunus": "YiR",
+    "not": "korpusta 6 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yisda",
+    "glif": "𐰘𐰃𐱁𐰑𐰀",
+    "okunus": "YIŞDA",
+    "not": "korpusta 5 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yiti",
+    "glif": "𐰘𐱅𐰃",
+    "okunus": "YiTİ",
+    "not": "korpusta 9 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yok",
+    "glif": "𐰖𐰸",
+    "okunus": "YOK",
+    "not": "korpusta 30 kez",
+    "kayitli": false
+  },
+  {
+    "oncelik": 3,
+    "anahtar": "kelime/yoli",
+    "glif": "𐰖𐰆𐰞𐰃",
+    "okunus": "YOLI",
+    "not": "korpusta 7 kez",
+    "kayitli": false
+  }
+]

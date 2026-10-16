@@ -7,3 +7,8 @@ content/gorsel/ham/
 dist/
 .env
 .env.local
+
+# Ses kayıtları ikili dosya; depoyu şişirmesin diye izlenmiyor.
+# Dağıtımda public/ses/ ayrıca yüklenir (bkz. docs/ses-kayit-rehberi.md).
+public/ses/**/*.webm
+public/ses/**/*.mp3

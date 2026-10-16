@@ -1,6 +1,7 @@
 // Web Speech API Integration for Göktürk tamgas, words, and inscriptions
 
 import { TAMGALAR } from '../data/tamgalarData';
+import { kayitCal } from './sesKayitlari';
 
 // Runic word mappings for accurate pronunciation of ancient terms
 const RUNIC_WORD_MAP: Record<string, string> = {
@@ -82,6 +83,24 @@ const RUNIC_TAMGA_SPOKEN: Record<string, string> = {
 };
 
 /**
+ * Tamga → tek heceli kısa okunuş; TAMGALAR verisinden türetilir.
+ *
+ * RUNIC_TAMGA_SPOKEN açıklama metnidir ("Kalın B, ab veya ba") ve kataloğa
+ * uygundur; ama her telaffuz düğmesinde onu okutmak tek harf için beş kelime
+ * demek. Haritada olmayan çok tamgalı kelimelerde bu açıklamalar birleşince
+ * dört tamgalık bir kelime on beş kelimelik cümleye dönüşüyordu.
+ * Kısa biçim veriden türetildiği için katalogla kendiliğinden tutarlı kalır.
+ */
+const tamgaKisaOkunus = (() => {
+  const harita: Record<string, string> = {};
+  for (const t of TAMGALAR) {
+    const ilk = (t.sound || '').split(',')[0].trim();
+    if (ilk) harita[t.rune] = ilk;
+  }
+  return harita;
+})();
+
+/**
  * Checks whether Web Speech API is supported in current browser
  */
 export function isSpeechAvailable(): boolean {
@@ -91,7 +110,12 @@ export function isSpeechAvailable(): boolean {
 /**
  * Convert a rune, runic word, or transcription into clear spoken Turkish text
  */
-export function getSpokenTextForRuneOrWord(input: string, contextSound?: string): string {
+export function getSpokenTextForRuneOrWord(
+  input: string,
+  contextSound?: string,
+  /** true: kataloğa uygun açıklamalı okunuş ("Kalın B, ab veya ba"). */
+  ayrintili = false
+): string {
   if (!input) return '';
   const trimmed = input.trim();
 
@@ -106,7 +130,10 @@ export function getSpokenTextForRuneOrWord(input: string, contextSound?: string)
     return RUNIC_WORD_MAP[normalized];
   }
 
-  // Check single rune in spoken map
+  // Tek tamga: varsayılan kısa okunuş, istendiğinde açıklamalı.
+  if (!ayrintili && tamgaKisaOkunus[trimmed]) {
+    return tamgaKisaOkunus[trimmed];
+  }
   if (RUNIC_TAMGA_SPOKEN[trimmed]) {
     return RUNIC_TAMGA_SPOKEN[trimmed];
   }
@@ -125,11 +152,19 @@ export function getSpokenTextForRuneOrWord(input: string, contextSound?: string)
     return cleanPhoneticForSpeech(trimmed);
   }
 
-  // If contains runes, try to pronounce character by character
+  // Çok tamgalı ve haritada yok: tamgalar TEK TEK hecelenir, birleştirilmez.
+  //
+  // Birleştirme yanlış kelime üretiyor: 𐰘𐰢𐰀 asıl okunuşu "yime" iken
+  // heceler yan yana konunca "yemaa" çıkıyordu. Göktürkçede ünlülerin bir
+  // kısmı yazılmadığı için okunuş tamgalardan kurulamaz; doğru kaynak
+  // transkripsiyondur ve çağıran onu `contextSound` ile verebilir.
+  // Veremiyorsa uydurma bir kelime okutmaktansa tamgaları hecelemek doğru.
   const parts: string[] = [];
   for (const char of trimmed) {
-    if (RUNIC_TAMGA_SPOKEN[char]) {
+    if (ayrintili && RUNIC_TAMGA_SPOKEN[char]) {
       parts.push(RUNIC_TAMGA_SPOKEN[char]);
+    } else if (tamgaKisaOkunus[char]) {
+      parts.push(tamgaKisaOkunus[char]);
     } else if (char !== ' ' && char !== ':') {
       parts.push(char);
     }
@@ -197,11 +232,20 @@ export function speakText(textToSpeak: string, onEnd?: () => void) {
 /**
  * High-level helper: pronounces any rune, word, or sentence
  */
-export function speakTamgaOrWord(runeOrWord: string, contextSound?: string, onEnd?: () => void) {
-  const speechText = getSpokenTextForRuneOrWord(runeOrWord, contextSound);
-  if (speechText) {
-    speakText(speechText, onEnd);
-  } else if (onEnd) {
-    onEnd();
-  }
+export function speakTamgaOrWord(
+  runeOrWord: string,
+  contextSound?: string,
+  onEnd?: () => void,
+  ayrintili = false
+) {
+  // Önce insan kaydı aranır; yoksa konuşma sentezine düşülür.
+  kayitCal(runeOrWord, onEnd).then((calindi) => {
+    if (calindi) return;
+    const speechText = getSpokenTextForRuneOrWord(runeOrWord, contextSound, ayrintili);
+    if (speechText) {
+      speakText(speechText, onEnd);
+    } else if (onEnd) {
+      onEnd();
+    }
+  });
 }
