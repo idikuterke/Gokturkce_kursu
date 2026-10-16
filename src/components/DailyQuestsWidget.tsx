@@ -43,7 +43,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
     return () => clearInterval(timer);
   }, []);
 
-  const quests = dailyQuests.quests || [];
+  const quests = dailyQuests?.quests || [];
   const completedCount = quests.filter(q => q.completed).length;
   const claimedCount = quests.filter(q => q.claimed).length;
   const allQuestsCompleted = quests.length > 0 && quests.every(q => q.completed);
@@ -245,7 +245,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
 
       {/* Bozkır Kut Sandığı (Super Reward when all 4 are done) */}
       <div className={`p-4 rounded-xl border-2 transition-all relative overflow-hidden ${
-        dailyQuests.allCompletedBonusClaimed
+        dailyQuests?.allCompletedBonusClaimed
           ? 'bg-[#152338]/50 border-[#233754] opacity-80'
           : allQuestsCompleted
           ? 'bg-gradient-to-r from-amber-500/20 via-[#152338] to-amber-500/20 border-amber-400 shadow-xl shadow-amber-400/10 ring-2 ring-amber-400/40'
@@ -254,7 +254,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-3">
             <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-xl shadow-md ${
-              dailyQuests.allCompletedBonusClaimed
+              dailyQuests?.allCompletedBonusClaimed
                 ? 'bg-[#1b2b42] text-amber-400'
                 : allQuestsCompleted
                 ? 'bg-gradient-to-br from-amber-400 to-amber-600 text-slate-950 animate-pulse'
@@ -276,7 +276,7 @@ export const DailyQuestsWidget: React.FC<DailyQuestsWidgetProps> = ({
           </div>
 
           <div className="flex-shrink-0">
-            {dailyQuests.allCompletedBonusClaimed ? (
+            {dailyQuests?.allCompletedBonusClaimed ? (
               <span className="inline-flex items-center gap-1 text-[11px] font-bold text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-lg border border-amber-400/30">
                 <Sparkles className="w-3 h-3" /> Sandık Açıldı
               </span>

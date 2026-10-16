@@ -470,10 +470,10 @@ export const LearningPath: React.FC<LearningPathProps> = ({
 
         {/* Günlük Görevler Widget */}
         <DailyQuestsWidget
-          progress={progress}
+          dailyQuests={progress.dailyQuests}
           onClaimReward={onClaimReward}
           onClaimSuperBonus={onClaimSuperBonus}
-          onOpenModal={onOpenQuestsModal}
+          onNavigateToTab={onNavigateToTab}
         />
       </div>
 
