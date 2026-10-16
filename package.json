@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "lint": "tsc --noEmit",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "icerik:uret": "node engine/icerik-uret.mjs",
+    "icerik:kontrol": "node engine/icerik-uret.mjs && git diff --exit-code --stat src/data/generated"
   },
   "dependencies": {
     "ajv": "^8.20.0",

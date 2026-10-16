@@ -1,0 +1,52 @@
+// ÜRETİLMİŞ DOSYA — elle düzenlemeyin. Üreten: engine/icerik-uret.mjs
+
+export interface KorpusDizesi {
+  id: string;
+  kaynak: string;
+  kaynakAd: string;
+  yuz: string;
+  satir: number;
+  runik: string;
+  transkripsiyon: string;
+  turkce: string;
+  kelimeSayisi: number;
+  yipranma: boolean;
+  dogrulama: {
+    iskelet: string;
+    ceviri: string;
+    okuma: string;
+    denetleyen: string | null;
+    kaynak: string | null;
+    tarih: string | null;
+  };
+}
+
+export interface KorpusKelimesi {
+  runik: string;
+  transkripsiyon: string;
+  /** Korpusta kaç kez geçiyor. */
+  siklik: number;
+  /** En fazla 5 dize kimliği (kaynak gösterimi için). */
+  gectigiDizeler: string[];
+  /** Yazılmamış ünlü sayısı — okuma zorluğunun ana etkeni. */
+  dusenUnlu: number;
+  /** Kaynak dizelerin tamamı iskelet denetiminden geçtiyse true. */
+  guvenilir: boolean;
+  /** 1-5 bandı. */
+  zorluk: number;
+}
+
+export type UretilmisAlistirmaTuru = 'runik_oku' | 'kelime_kur';
+
+export interface UretilmisAlistirma {
+  id: string;
+  tur: UretilmisAlistirmaTuru;
+  zorluk: number;
+  runik: string;
+  /** runik_oku: doğru okunuş. kelime_kur: hedef kelime. */
+  transkripsiyon?: string;
+  dogru?: string;
+  secenekler?: string[];
+  /** Kaynak kitabe dizesinin kimliği (ör. KT-G-1). */
+  kaynak: string;
+}
