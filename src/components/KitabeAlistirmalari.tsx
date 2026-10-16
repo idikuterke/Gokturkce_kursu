@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Loader2, ScrollText, Volume2, RotateCcw, Check, X } from 'lucide-react';
+import { Loader2, ScrollText, Volume2, RotateCcw, Check, X, Hammer } from 'lucide-react';
 import type { UretilmisAlistirma, KorpusDizesi } from '../data/generated/tipler';
 import { alistirmalariYukle, korpusuYukle } from '../data/generated/yukle';
 import { shuffle } from '../utils/shuffle';
@@ -26,6 +26,9 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
   const [sira, setSira] = useState(0);
   const [secim, setSecim] = useState<string | null>(null);
   const [dogruSayisi, setDogruSayisi] = useState(0);
+  // Kelime kurma: tepsiye konan tamgalar ve havuzda kalanlar.
+  const [tepsi, setTepsi] = useState<string[]>([]);
+  const [havuz, setHavuz] = useState<string[]>([]);
 
   // Üretilmiş içerik ~740 kB; yalnızca bu ekran açılınca indirilir.
   useEffect(() => {
@@ -42,10 +45,19 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
     return () => { iptal = true; };
   }, []);
 
-  // Yalnızca çoktan seçmeli okuma alıştırmaları; kelime kurma dersin içinde.
+  // Okuma ve kurma soruları dönüşümlü: aynı kelimeyi önce tanıyıp sonra
+  // yazmak, tek tür soru sormaktan daha iyi pekiştiriyor.
   const liste = useMemo(() => {
     if (!hepsi) return [];
-    return hepsi.filter((a) => a.tur === 'runik_oku' && a.zorluk === zorluk).slice(0, 20);
+    const bandda = hepsi.filter((a) => a.zorluk === zorluk);
+    const okuma = bandda.filter((a) => a.tur === 'runik_oku');
+    const kurma = bandda.filter((a) => a.tur === 'kelime_kur');
+    const karisik: UretilmisAlistirma[] = [];
+    for (let i = 0; i < 10; i++) {
+      if (okuma[i]) karisik.push(okuma[i]);
+      if (kurma[i]) karisik.push(kurma[i]);
+    }
+    return karisik;
   }, [hepsi, zorluk]);
 
   const aktif = liste[sira];
@@ -54,6 +66,14 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
     // Soru değişince yeniden karıştır.
     [aktif?.id]
   );
+  useEffect(() => {
+    if (aktif?.tur === 'kelime_kur') {
+      // Tamgalar kod noktasına göre bölünür; runik tamgalar BMP dışında.
+      setHavuz(shuffle([...aktif.runik]));
+      setTepsi([]);
+    }
+  }, [aktif?.id, aktif?.tur, aktif?.runik]);
+
   const kaynakDize = useMemo(
     () => (aktif && korpus ? korpus.find((d) => d.id === aktif.kaynak) ?? null : null),
     [aktif, korpus]
@@ -64,6 +84,33 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
     setSira(0);
     setSecim(null);
     setDogruSayisi(0);
+  };
+
+  const tamgaKoy = (indeks: number) => {
+    if (secim) return;
+    playChiselSound();
+    setTepsi((t) => [...t, havuz[indeks]]);
+    setHavuz((h) => h.filter((_, i) => i !== indeks));
+  };
+
+  const tamgaGeriAl = (indeks: number) => {
+    if (secim) return;
+    playChiselSound();
+    setHavuz((h) => [...h, tepsi[indeks]]);
+    setTepsi((t) => t.filter((_, i) => i !== indeks));
+  };
+
+  const kurmayiKontrolEt = () => {
+    if (secim) return;
+    const dogru = tepsi.join('') === aktif.runik;
+    setSecim(dogru ? 'dogru' : 'yanlis');
+    if (dogru) {
+      playSuccessSound();
+      setDogruSayisi((n) => n + 1);
+      onEarnXp(5);
+    } else {
+      playErrorSound();
+    }
   };
 
   const cevapla = (s: string) => {
@@ -148,6 +195,84 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
             <span className="font-mono">{dogruSayisi} doğru</span>
           </div>
 
+          {aktif.tur === 'kelime_kur' ? (
+            <div className="space-y-4">
+              <div className="text-center space-y-2">
+                <p className="text-sm text-[#9FB0C6] flex items-center justify-center gap-1.5">
+                  <Hammer className="w-4 h-4 text-[#2DD4BF]" />
+                  Bu kelimeyi tamgalarla <strong className="text-white">sağdan sola</strong> kurun
+                </p>
+                <button
+                  onClick={() => { playChiselSound(); speakTamgaOrWord(aktif.transkripsiyon ?? '', aktif.runik); }}
+                  title="Telaffuzu dinle"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#0B1320] border border-[#233754] hover:border-[#2BC4C4] transition-colors"
+                >
+                  <span className="text-lg font-bold text-white font-serif">{aktif.transkripsiyon}</span>
+                  <Volume2 className="w-4 h-4 text-[#6C7F99]" />
+                </button>
+              </div>
+
+              {/* Tepsi: Göktürk yazısı sağdan sola; ilk konan tamga en sağda durur. */}
+              <div
+                dir="rtl"
+                className={`min-h-20 p-4 rounded-2xl border-2 flex items-center justify-center gap-2 flex-wrap transition-colors ${
+                  secim === 'dogru'
+                    ? 'bg-[#37B36A]/10 border-[#37B36A]'
+                    : secim === 'yanlis'
+                    ? 'bg-rose-500/10 border-rose-500'
+                    : 'bg-[#152338] border-[#233754]'
+                }`}
+              >
+                {tepsi.length === 0 ? (
+                  <span dir="ltr" className="text-xs text-[#6C7F99] italic">
+                    Aşağıdaki tamgalara tıklayarak buraya yerleştirin...
+                  </span>
+                ) : (
+                  tepsi.map((t, i) => (
+                    <button
+                      key={`${t}-${i}`}
+                      onClick={() => tamgaGeriAl(i)}
+                      title="Geri al"
+                      className="min-w-14 h-14 px-3 rounded-xl bg-[#2BC4C4] hover:bg-rose-500 text-[#0B1320] hover:text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-colors"
+                    >
+                      {t}
+                    </button>
+                  ))
+                )}
+              </div>
+
+              {havuz.length > 0 && (
+                <div className="flex items-center justify-center gap-3 flex-wrap">
+                  {havuz.map((t, i) => (
+                    <button
+                      key={`${t}-${i}`}
+                      onClick={() => tamgaKoy(i)}
+                      className="min-w-14 h-14 px-3 rounded-xl bg-[#101B2C] border-2 border-[#233754] hover:border-[#2BC4C4] text-white font-bold runic text-2xl whitespace-nowrap flex items-center justify-center transition-colors active:scale-95"
+                    >
+                      {t}
+                    </button>
+                  ))}
+                </div>
+              )}
+
+              {!secim && (
+                <button
+                  onClick={kurmayiKontrolEt}
+                  disabled={tepsi.length === 0}
+                  className="w-full py-3 rounded-2xl bg-[#2BC4C4] hover:bg-[#25adad] disabled:opacity-40 disabled:cursor-not-allowed text-[#0B1320] font-bold text-sm transition-colors active:scale-95"
+                >
+                  Kontrol Et
+                </button>
+              )}
+
+              {secim === 'yanlis' && (
+                <p className="text-center text-sm text-rose-400">
+                  Doğrusu: <span className="runic text-2xl text-white align-middle">{aktif.runik}</span>
+                </p>
+              )}
+            </div>
+          ) : (
+          <>
           <div className="text-center space-y-3">
             <p className="text-sm text-[#9FB0C6]">Bu kelimenin okunuşu hangisidir?</p>
             <button
@@ -186,6 +311,8 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
               );
             })}
           </div>
+          </>
+          )}
 
           {secim && (
             <div className="space-y-3 pt-1">
