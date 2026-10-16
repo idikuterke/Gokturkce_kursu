@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Flame, Zap, Heart, BookOpen, Compass, Layers, BarChart2, Target, Menu, X, ChevronDown } from 'lucide-react';
+import { Flame, Zap, Heart, BookOpen, Compass, Layers, BarChart2, Target, Menu, X, ChevronDown, UserCircle2, LogOut, CloudOff } from 'lucide-react';
 import { UserProgress } from '../types';
+import { useAuth } from '../context/AuthContext';
 
 interface NavbarProps {
   currentTab: string;
@@ -8,6 +9,7 @@ interface NavbarProps {
   progress: UserProgress;
   onRefillHearts: () => void;
   onOpenQuests?: () => void;
+  onOpenAccount?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -15,9 +17,11 @@ export const Navbar: React.FC<NavbarProps> = ({
   onTabChange,
   progress,
   onRefillHearts,
-  onOpenQuests
+  onOpenQuests,
+  onOpenAccount
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { user, isEnabled, logOut } = useAuth();
 
   // 4 Primary Streamlined Tabs
   const primaryTabs = [
@@ -132,6 +136,38 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-rose-500 rounded-full animate-ping" />
               )}
             </button>
+          )}
+
+          {/* Hesap */}
+          {isEnabled && onOpenAccount && (
+            user ? (
+              <div className="flex items-center gap-1">
+                <span
+                  title={user.email ?? undefined}
+                  className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-[#0B2026] border border-[#1E4D57] text-[#94A3B8] text-xs font-bold max-w-32 truncate"
+                >
+                  <UserCircle2 className="w-4 h-4 text-[#2DD4BF] flex-shrink-0" />
+                  <span className="truncate">{user.displayName || user.email?.split('@')[0]}</span>
+                </span>
+                <button
+                  onClick={() => { void logOut(); }}
+                  title="Çıkış yap"
+                  aria-label="Çıkış yap"
+                  className="p-1.5 rounded-xl bg-[#0B2026] hover:bg-[#122F37] border border-[#1E4D57] text-[#94A3B8] hover:text-white transition-colors"
+                >
+                  <LogOut className="w-4 h-4" />
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={onOpenAccount}
+                title="Giriş yap — ilerlemen buluta kaydedilsin"
+                className="flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-[#0B2026] hover:bg-[#122F37] border border-[#1E4D57] text-[#94A3B8] hover:text-white text-xs font-bold transition-colors"
+              >
+                <CloudOff className="w-4 h-4 text-amber-400" />
+                <span className="hidden sm:inline">Giriş Yap</span>
+              </button>
+            )
           )}
 
           {/* Mobile Hamburger Menu Toggle */}

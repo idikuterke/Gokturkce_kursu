@@ -12,6 +12,8 @@ import { Badge } from './data/badgesData';
 import { playSuccessSound, playVictoryFanfare } from './utils/audio';
 import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQuests';
 import { formatDateToKey, getInitialActivityHistory } from './utils/statsUtils';
+import { useCloudProgress } from './hooks/useCloudProgress';
+import { AuthModal } from './components/AuthModal';
 
 // Acilista yalnizca "Ogren" sekmesi gorunur. Digerleri ayri parcalara
 // bolunup ilk acildiklarinda yuklenir; boylece recharts gibi agir
@@ -60,6 +62,7 @@ export const App: React.FC = () => {
   });
 
   const [selectedDrawingTamga, setSelectedDrawingTamga] = useState<TamgaItem | undefined>(undefined);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
   const handleTabChange = (tab: string) => {
     setCurrentTab(tab);
@@ -108,6 +111,9 @@ export const App: React.FC = () => {
       return prev;
     });
   }, []);
+
+  // Oturum acikken ilerlemeyi buluta da tasi (yerel kayit hizli yol olarak kalir)
+  useCloudProgress(progress, setProgress);
 
   // Persist progress to localStorage
   useEffect(() => {
@@ -408,6 +414,7 @@ export const App: React.FC = () => {
         progress={progress}
         onRefillHearts={handleRefillHearts}
         onOpenQuests={() => setIsQuestsModalOpen(true)}
+        onOpenAccount={() => setIsAuthModalOpen(true)}
       />
 
       {/* Main Content Body */}
@@ -520,6 +527,9 @@ export const App: React.FC = () => {
           onLearnWord={handleLearnWord}
         />
       )}
+
+      {/* Hesap / Giriş Modalı */}
+      <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
 
       {/* Daily Quests Details Modal */}
       {isQuestsModalOpen && progress.dailyQuests && (
