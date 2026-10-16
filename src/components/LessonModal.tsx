@@ -444,7 +444,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       handleSpeak(pair.rune, pair.sound);
                       setSelectedPairRune(pair.rune);
                     }}
-                    className={`w-full min-h-16 py-3 px-5 rounded-2xl border-2 text-center transition-all flex items-center justify-between ${
+                    className={`relative w-full min-h-16 py-3 px-12 rounded-2xl border-2 text-center transition-all flex items-center justify-center ${
                       isMatched
                         ? 'bg-[#37B36A]/20 border-[#37B36A] text-[#37B36A] opacity-60 cursor-default'
                         : isSelected
@@ -452,8 +452,8 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                         : 'bg-[#152338] border-[#233754] text-white hover:border-[#3B82F6]'
                     }`}
                   >
-                    <span className="runic text-3xl font-bold">{pair.rune}</span>
-                    <Volume2 className="w-4 h-4 text-[#6C7F99] opacity-70 group-hover:opacity-100" />
+                    <span className="runic text-3xl font-bold leading-none">{pair.rune}</span>
+                    <Volume2 className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#6C7F99] opacity-70" />
                   </button>
                 );
               })}
@@ -476,7 +476,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       handleSpeak(pair.sound);
                       setSelectedPairSound(pair.sound);
                     }}
-                    className={`w-full min-h-16 py-3 px-5 rounded-2xl border-2 text-center text-sm font-semibold transition-all flex items-center justify-between ${
+                    className={`relative w-full min-h-16 py-3 px-12 rounded-2xl border-2 text-center text-sm font-semibold transition-all flex items-center justify-center ${
                       isMatched
                         ? 'bg-[#37B36A]/20 border-[#37B36A] text-[#37B36A] opacity-60 cursor-default'
                         : isSelected
@@ -485,7 +485,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                     }`}
                   >
                     <span>{pair.sound}</span>
-                    <Volume2 className="w-4 h-4 text-[#6C7F99] opacity-70" />
+                    <Volume2 className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#6C7F99] opacity-70" />
                   </button>
                 );
               })}
