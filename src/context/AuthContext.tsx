@@ -10,6 +10,7 @@ interface AuthContextValue {
   isEnabled: boolean;
   signIn: (email: string, password: string) => Promise<void>;
   signUp: (email: string, password: string, displayName?: string) => Promise<void>;
+  signInWithGoogle: () => Promise<void>;
   resetPassword: (email: string) => Promise<void>;
   logOut: () => Promise<void>;
 }
@@ -82,6 +83,13 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       if (displayName) {
         await updateProfile(credential.user, { displayName });
       }
+    },
+    signInWithGoogle: async () => {
+      const [{ auth }, { GoogleAuthProvider, signInWithPopup }] = await Promise.all([
+        requireBundle(),
+        import('firebase/auth')
+      ]);
+      await signInWithPopup(auth, new GoogleAuthProvider());
     },
     resetPassword: async (email) => {
       const [{ auth }, { sendPasswordResetEmail }] = await Promise.all([
