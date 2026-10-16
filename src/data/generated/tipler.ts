@@ -38,6 +38,28 @@ export interface KorpusKelimesi {
 
 export type UretilmisAlistirmaTuru = 'runik_oku' | 'kelime_kur';
 
+export interface SozlukKelimesi {
+  id: string;
+  /** Korpustan doğrulanmış runik yazım. */
+  runik: string;
+  transkripsiyon: string;
+  anlam: string;
+  /** Süzgeç için sabit küme. */
+  kategori: string;
+  /** Kaynaktaki özgün, daha ayrıntılı etiket. */
+  kategoriEtiketi: string;
+  kaynak: string | null;
+  /** Kaynağı doğrulanmamışsa true — arayüzde işaretlenir. */
+  teyitGerek: boolean;
+  /** Kitabelerde geçen çekimli biçimler, atıflarıyla. */
+  bicimler: Array<{
+    runik: string;
+    transkripsiyon: string;
+    siklik: number;
+    dizeler: string[];
+  }>;
+}
+
 export interface UretilmisAlistirma {
   id: string;
   tur: UretilmisAlistirmaTuru;

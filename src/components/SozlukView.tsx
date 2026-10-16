@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { Search, Shield, Sparkles, BookOpen, Volume2, Check, Target } from 'lucide-react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { Search, Shield, Sparkles, BookOpen, Volume2, Check, Target, AlertTriangle, Quote } from 'lucide-react';
 import { SOZLUK, SozlukWord } from '../data/sozlukData';
+import { sozluguYukle } from '../data/generated/yukle';
 import { playChiselSound, playSuccessSound } from '../utils/audio';
 import { speakTamgaOrWord } from '../utils/speech';
 
@@ -20,6 +21,50 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [localLearned, setLocalLearned] = useState<Record<string, boolean>>({});
+  // Korpustan doğrulanmış sözlük (~84 kelime) ayrı parçada; bu ekran açılınca iner.
+  const [uretilmis, setUretilmis] = useState<SozlukWord[]>([]);
+  // Çekimli biçimler kelime kimliğine göre; kart altında kaynağıyla gösterilir.
+  const [bicimler, setBicimler] = useState<Record<string, Array<{ runik: string; transkripsiyon: string; siklik: number; dizeler: string[] }>>>({});
+  const [teyitGerek, setTeyitGerek] = useState<Record<string, boolean>>({});
+  const [etiketler, setEtiketler] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    let iptal = false;
+    sozluguYukle()
+      .then((liste) => {
+        if (iptal) return;
+        setUretilmis(
+          liste.map((k) => ({
+            id: k.id,
+            runic: k.runik,
+            transcription: k.transkripsiyon,
+            meaning: k.anlam,
+            category: k.kategori as SozlukWord['category'],
+            // Tamga tahlili yalnızca elle yazılmış kayıtlarda var. Buraya
+            // kategori yazmak kutuyu ("Tamga Tahlili") yanlış doldurur.
+            breakdown: '',
+            source: k.kaynak ?? undefined
+          }))
+        );
+        setBicimler(Object.fromEntries(liste.map((k) => [k.id, k.bicimler])));
+        setEtiketler(Object.fromEntries(liste.map((k) => [k.id, k.kategoriEtiketi])));
+        setTeyitGerek(Object.fromEntries(liste.map((k) => [k.id, k.teyitGerek])));
+      })
+      .catch(() => {
+        // Üretilmiş sözlük inmezse elle yazılmış liste tek başına çalışır.
+      });
+    return () => { iptal = true; };
+  }, []);
+
+  // Elle yazılmış kayıtlar öncelikli: tamga tahlilleri onlarda.
+  // Birleştirme `id` üzerinden: ilerleme kaydı da kelimeyi id ile tutuyor,
+  // ayrıca aynı kelimenin iki yazımı ("il" ve "il / el") tek karta düşsün.
+  const tumKelimeler = useMemo(() => {
+    const harita = new Map<string, SozlukWord>();
+    for (const k of uretilmis) harita.set(k.id, k);
+    for (const k of SOZLUK) harita.set(k.id, k);
+    return [...harita.values()].sort((a, b) => a.transcription.localeCompare(b.transcription, 'tr'));
+  }, [uretilmis]);
 
   const isWordLearned = (id: string) => Boolean(learnedWordsRecord[id] || localLearned[id]);
 
@@ -39,7 +84,7 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
     }
   };
 
-  const filteredWords = SOZLUK.filter(item => {
+  const filteredWords = tumKelimeler.filter(item => {
     const matchesCat = selectedCategory === 'all' || item.category === selectedCategory;
     const matchesSearch = 
       item.transcription.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -152,14 +197,44 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
               </div>
             </div>
 
-            <div className="space-y-1 bg-[#152338] p-3 rounded-xl border border-[#233754]">
-              <span className="text-[10px] uppercase font-bold text-[#6C7F99] block tracking-wider">
-                Tamga Tahlili
+            {item.breakdown ? (
+              <div className="space-y-1 bg-[#152338] p-3 rounded-xl border border-[#233754]">
+                <span className="text-[10px] uppercase font-bold text-[#6C7F99] block tracking-wider">
+                  Tamga Tahlili
+                </span>
+                <p className="text-xs text-[#E6EDF5] leading-relaxed">
+                  {item.breakdown}
+                </p>
+              </div>
+            ) : etiketler[item.id] ? (
+              <span className="inline-flex self-start px-2.5 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider bg-[#152338] border border-[#233754] text-[#9FB0C6]">
+                {etiketler[item.id]}
               </span>
-              <p className="text-xs text-[#E6EDF5] leading-relaxed">
-                {item.breakdown}
+            ) : null}
+
+            {bicimler[item.id]?.length > 1 && (
+              <div className="space-y-1.5 bg-[#0B1320] p-3 rounded-xl border border-[#233754]">
+                <span className="text-[10px] uppercase font-bold text-[#6C7F99] block tracking-wider flex items-center gap-1">
+                  <Quote className="w-3 h-3" /> Kitabelerdeki Biçimleri
+                </span>
+                {bicimler[item.id].slice(0, 3).map((b) => (
+                  <div key={b.runik + b.transkripsiyon} className="flex items-center justify-between gap-2 text-[11px]">
+                    <span className="runic text-base text-[#2BC4C4]">{b.runik}</span>
+                    <span className="text-[#9FB0C6] font-mono flex-1 truncate">{b.transkripsiyon}</span>
+                    <span className="text-[#6C7F99] font-mono" title={b.dizeler.join(', ')}>
+                      ×{b.siklik}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {teyitGerek[item.id] && (
+              <p className="text-[10px] text-amber-400/90 flex items-start gap-1.5 leading-snug">
+                <AlertTriangle className="w-3 h-3 mt-0.5 flex-shrink-0" />
+                Anlamın kaynağı doğrulanmadı.
               </p>
-            </div>
+            )}
 
             {/* Bottom Actions & Source */}
             <div className="space-y-2 pt-2 border-t border-[#233754]">

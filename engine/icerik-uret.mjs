@@ -254,6 +254,41 @@ yazJson("korpus.json", dizeler);
 yazJson("kelimeler.json", kelimeler);
 yazJson("alistirmalar.json", alistirmalar);
 
+// ── Sözlük ──────────────────────────────────────────────────────────────────
+// sozluk-anlamlar.json dışarıdan gelen anlamların korpusla birleştirilmiş
+// halidir (engine/sozluk-birlestir.mjs). Burada yalnızca uygulamanın
+// okuyacağı biçime çevrilir; korpusta karşılığı olmayanlar ELENİR —
+// runik yazımları doğrulanamadığı için gösterilmemeli.
+const sozlukYolu = P("05_Kaynak_DB/sozluk-anlamlar.json");
+if (fs.existsSync(sozlukYolu)) {
+  // Serbest metin kategoriler ("toplum / yönetim") süzgeç için sabit
+  // kümeye indirgenir; özgün etiket görüntülemede korunur.
+  const kategoriEsle = (ham) => {
+    const t = String(ham || "").toLowerCase();
+    if (/sayı|sayi/.test(t)) return "sayi";
+    if (/asker|savaş|savas/.test(t)) return "askeri";
+    if (/yönet|yonet|unvan|devlet|hukuk/.test(t)) return "devlet";
+    if (/inanç|inanc|kozmoloji|doğa|doga|coğraf|cograf|hayvan|zaman|renk/.test(t)) return "dogalguc";
+    return "temel";
+  };
+
+  const sozluk = JSON.parse(fs.readFileSync(sozlukYolu, "utf8"))
+    .filter((k) => k.runik && !k.korpustaYok)
+    .map((k) => ({
+      id: k.id,
+      runik: k.runik,
+      transkripsiyon: k.transkripsiyon,
+      anlam: k.anlam,
+      kategori: kategoriEsle(k.kategori),
+      kategoriEtiketi: k.kategori,
+      kaynak: k.kaynak,
+      teyitGerek: k.teyitGerek,
+      bicimler: k.bicimler || []
+    }));
+  yazJson("sozluk.json", sozluk);
+  console.log(`sözlük          : ${sozluk.length} kelime (korpusta doğrulanmış)`);
+}
+
 // Tipler ayrı ve küçük bir dosyada; veri JSON'da kaldığı için bu dosya
 // açılış paketine girse bile maliyeti sıfır.
 fs.writeFileSync(
@@ -297,6 +332,28 @@ export interface KorpusKelimesi {
 }
 
 export type UretilmisAlistirmaTuru = 'runik_oku' | 'kelime_kur';
+
+export interface SozlukKelimesi {
+  id: string;
+  /** Korpustan doğrulanmış runik yazım. */
+  runik: string;
+  transkripsiyon: string;
+  anlam: string;
+  /** Süzgeç için sabit küme. */
+  kategori: string;
+  /** Kaynaktaki özgün, daha ayrıntılı etiket. */
+  kategoriEtiketi: string;
+  kaynak: string | null;
+  /** Kaynağı doğrulanmamışsa true — arayüzde işaretlenir. */
+  teyitGerek: boolean;
+  /** Kitabelerde geçen çekimli biçimler, atıflarıyla. */
+  bicimler: Array<{
+    runik: string;
+    transkripsiyon: string;
+    siklik: number;
+    dizeler: string[];
+  }>;
+}
 
 export interface UretilmisAlistirma {
   id: string;

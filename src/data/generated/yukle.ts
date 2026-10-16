@@ -3,7 +3,7 @@
 // Bu dosyalar toplam ~740 kB. Statik import edilseydi açılış paketine
 // girerdi; dinamik import Vite'ın ayrı parçalara bölmesini sağlar, böylece
 // yalnızca alıştırma/deşifre ekranını açan kullanıcı indirir.
-import type { KorpusDizesi, KorpusKelimesi, UretilmisAlistirma } from './tipler';
+import type { KorpusDizesi, KorpusKelimesi, SozlukKelimesi, UretilmisAlistirma } from './tipler';
 
 let korpusSoz: Promise<KorpusDizesi[]> | null = null;
 let kelimelerSoz: Promise<KorpusKelimesi[]> | null = null;
@@ -22,6 +22,13 @@ export const kelimeleriYukle = (): Promise<KorpusKelimesi[]> => {
 export const alistirmalariYukle = (): Promise<UretilmisAlistirma[]> => {
   alistirmalarSoz ??= import('./alistirmalar.json').then((m) => m.default as UretilmisAlistirma[]);
   return alistirmalarSoz;
+};
+
+let sozlukSoz: Promise<SozlukKelimesi[]> | null = null;
+
+export const sozluguYukle = (): Promise<SozlukKelimesi[]> => {
+  sozlukSoz ??= import('./sozluk.json').then((m) => m.default as SozlukKelimesi[]);
+  return sozlukSoz;
 };
 
 /** Belirli bir zorluk bandındaki alıştırmalar. */
