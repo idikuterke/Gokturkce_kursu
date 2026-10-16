@@ -13,6 +13,11 @@ const DenetimView = denetimModu
   ? lazy(() => import('./denetim/DenetimView'))
   : null;
 
+// Uygulamadaki giris dugmesi de yalnizca gelistirme modunda.
+const DenetimGirisi = import.meta.env.DEV
+  ? lazy(() => import('./denetim/DenetimGirisi'))
+  : null;
+
 // Adres cubugundaki #denetim acilip kapandiginda yeniden yukle.
 window.addEventListener('hashchange', () => {
   const istenen = window.location.hash === '#denetim';
@@ -31,6 +36,11 @@ if (rootElement) {
         ) : (
           <AuthProvider>
             <App />
+            {DenetimGirisi && (
+              <Suspense fallback={null}>
+                <DenetimGirisi />
+              </Suspense>
+            )}
           </AuthProvider>
         )}
       </ErrorBoundary>
