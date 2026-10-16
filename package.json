@@ -5,8 +5,9 @@
   "description": "Göktürkçe Okuma-Yazma Öğreneği — tek içerik kaynağı (content/*.json), tek JS motor (engine/), üç hedef (baski-pdf | slayt-html | slayt-pdf)",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "echo 'No lint errors'"
+    "build": "tsc --noEmit && vite build",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "ajv": "^8.20.0",
@@ -25,6 +26,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
     "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
     "vite": "^8.3.0"
   }
 }

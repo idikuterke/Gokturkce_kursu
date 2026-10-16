@@ -267,9 +267,9 @@ export const App: React.FC = () => {
       } else {
         setActiveCelebration({
           type: 'badge',
-          title: `"${badge.title}" Nişanı Alındı!`,
+          title: `"${badge.name}" Nişanı Alındı!`,
           subtitle: badge.description,
-          runicSymbol: badge.runicSymbol,
+          runicSymbol: badge.runicTitle,
           badge
         });
       }
@@ -505,6 +505,7 @@ export const App: React.FC = () => {
       {/* Daily Quests Details Modal */}
       {isQuestsModalOpen && progress.dailyQuests && (
         <DailyQuestsModal
+          isOpen={isQuestsModalOpen}
           dailyQuests={progress.dailyQuests}
           onClose={() => setIsQuestsModalOpen(false)}
           onClaimReward={handleClaimReward}
@@ -519,11 +520,16 @@ export const App: React.FC = () => {
       {/* Quest Completion Toast Notification */}
       {toastQuest && (
         <QuestToast
-          quest={toastQuest}
+          toast={{
+            id: toastQuest.id,
+            title: toastQuest.title,
+            description: toastQuest.description,
+            type: 'completed'
+          }}
           onClose={() => setToastQuest(null)}
-          onClaim={() => {
-            handleClaimReward(toastQuest.id);
+          onOpenQuests={() => {
             setToastQuest(null);
+            setIsQuestsModalOpen(true);
           }}
         />
       )}

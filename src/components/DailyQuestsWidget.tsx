@@ -19,7 +19,7 @@ import { playSuccessSound, playVictoryFanfare, playChiselSound } from '../utils/
 import confetti from 'canvas-confetti';
 
 interface DailyQuestsWidgetProps {
-  dailyQuests: DailyQuestState;
+  dailyQuests?: DailyQuestState;
   onClaimReward: (questId: string) => void;
   onClaimSuperBonus: () => void;
   onNavigateToTab?: (tab: string) => void;

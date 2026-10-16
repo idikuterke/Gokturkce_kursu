@@ -310,8 +310,7 @@ export const BadgesSection: React.FC<BadgesSectionProps> = ({ progress, onClaimB
 
             {/* Actions: Claim if unlocked & unclaimed, otherwise close */}
             {(() => {
-              const isUnlocked = isBadgeUnlocked(activeBadgeModal, progress);
-              const isClaimed = progress.claimedBadges?.[activeBadgeModal.id];
+              const { isUnlocked, isClaimed } = getBadgeStatus(activeBadgeModal);
               if (isUnlocked && !isClaimed && onClaimBadge) {
                 return (
                   <div className="flex gap-2">
