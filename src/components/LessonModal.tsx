@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { X, Heart, CheckCircle2, AlertCircle, ArrowRight, RotateCcw, Award, Sparkles, Volume2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { Lesson, Exercise, UserProgress } from '../types';
 import { playChiselSound, playSuccessSound, playErrorSound, playVictoryFanfare } from '../utils/audio';
+import { shuffle, shuffleDistinct } from '../utils/shuffle';
 import { speakTamgaOrWord } from '../utils/speech';
 import { MascotBoru } from './MascotBoru';
 
@@ -59,15 +60,23 @@ export const LessonModal: React.FC<LessonModalProps> = ({
     setMatchedPairs({});
 
     if (currentExercise.type === 'word_builder' && currentExercise.targetWord) {
-      const tokens = [...currentExercise.targetWord.tokens].sort(() => Math.random() - 0.5);
+      const tokens = shuffle(currentExercise.targetWord.tokens);
       setAvailableTokens(tokens);
       setArrangedTokens([]);
     } else if (currentExercise.type === 'translation' && currentExercise.translationData) {
-      const tokens = [...currentExercise.translationData.wordPool].sort(() => Math.random() - 0.5);
+      const tokens = shuffle(currentExercise.translationData.wordPool);
       setAvailableTokens(tokens);
       setArrangedTokens([]);
     }
   }, [currentIndex, currentExercise]);
+
+  // Eslestirmede ses sutunu tamga sutunuyla ayni sirada olmamali; aksi
+  // halde dogru cevap hep tam karsiya gelir ve alistirma okumadan cozulur.
+  // Alistirma degismedikce sira sabit kalsin diye useMemo ile tutuluyor.
+  const shuffledSoundPairs = useMemo(
+    () => shuffleDistinct(currentExercise.pairs ?? []),
+    [currentExercise.id, currentExercise.pairs]
+  );
 
   // Pair match selection logic
   useEffect(() => {
@@ -455,7 +464,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
               <span className="text-xs text-[#9FB0C6] font-semibold uppercase tracking-wider block mb-1">
                 Ses Değerleri
               </span>
-              {currentExercise.pairs.map((pair) => {
+              {shuffledSoundPairs.map((pair) => {
                 const isMatched = matchedPairs[pair.rune];
                 const isSelected = selectedPairSound === pair.sound;
                 return (
@@ -510,9 +519,12 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             </div>
 
             {/* Answer Tray (RTL!) */}
-            <div className="min-h-20 p-4 bg-[#152338] border-2 border-[#233754] rounded-2xl flex items-center justify-center gap-2 flex-wrap direction-rtl">
+            <div
+              dir="rtl"
+              className="min-h-20 p-4 bg-[#152338] border-2 border-[#233754] rounded-2xl flex items-center justify-center gap-2 flex-wrap"
+            >
               {arrangedTokens.length === 0 ? (
-                <span className="text-xs text-[#6C7F99] italic">
+                <span dir="ltr" className="text-xs text-[#6C7F99] italic">
                   Aşağıdaki tamgalara tıklayarak buraya yerleştirin (telaffuzları seslendirilecektir)...
                 </span>
               ) : (
