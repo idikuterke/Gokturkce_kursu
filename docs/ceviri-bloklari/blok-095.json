@@ -1,0 +1,207 @@
+{
+  "blok": 95,
+  "blokSayisi": 96,
+  "dosya": "blok-095.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY2-D-6#1",
+      "dizeId": "TY2-D-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 6,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰃𐰠 : 𐰘𐰢𐰀 : 𐰃𐰠 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "İL : YiME : İL : BOLDI",
+      "kelimeKarsiliklari": "İL : YİNE : İL : OLDU",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-D-6#2",
+      "dizeId": "TY2-D-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 6,
+      "kelimeAraligi": [
+        4,
+        7
+      ],
+      "runik": "𐰉𐰆𐰑𐰣 : 𐰘𐰢𐰀 : 𐰉𐰆𐰑𐰣 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "BODuN : YiME : BODuN : BOLDI",
+      "kelimeKarsiliklari": "BOY : YİNE : BOY : OLDU",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-D-6#3",
+      "dizeId": "TY2-D-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 6,
+      "kelimeAraligi": [
+        8,
+        10
+      ],
+      "runik": "𐰇𐰔𐰢 : 𐰴𐰺𐰃 : 𐰉𐰆𐰡𐰢",
+      "transkripsiyon": "ÖZüM : KaRI : BOLDuM",
+      "kelimeKarsiliklari": "ÖZÜM : İHTİYAR : OLDUM",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-D-6#4",
+      "dizeId": "TY2-D-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 6,
+      "kelimeAraligi": [
+        11,
+        16
+      ],
+      "runik": "𐰆𐰞𐰍 : 𐰉𐰆𐰡𐰢 : 𐰤𐰭 : 𐰘𐰼𐰓𐰚𐰃 : 𐰴𐰍𐰣𐰞𐰍 : 𐰉𐰆𐰑𐰣𐰴𐰀",
+      "transkripsiyon": "ULuG : BOLDuM : NeŊ : YiRDeKİ : KaGaNLıG : BODuNKA",
+      "kelimeKarsiliklari": "ULU : OLDUM : NE : YERDEKİ : KAĞANLI : BOYUNA",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-D-7#1",
+      "dizeId": "TY2-D-7",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 7,
+      "kelimeAraligi": [
+        0,
+        8
+      ],
+      "runik": "--- : 𐰋𐰃𐰤𐱅𐰏𐰃 : 𐰉𐰺 : 𐰼𐰾𐰼 : 𐰤𐰀 : 𐰉𐰆𐰭𐰃 : 𐰉𐰺 : 𐰼𐱅𐰲𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "--- : BİNTeGİ : BaR : eRSeR : NE : BUŊI : BaR : eRTeÇİ : eRMiŞ",
+      "kelimeKarsiliklari": "--- : BENDEĞİ : VAR : İSE : NE : BUNGU : VAR : EDECEK : İMİŞ",
+      "kelimeSayisi": 9,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-D-8#1",
+      "dizeId": "TY2-D-8",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 8,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "--- : 𐱅𐰇𐰼𐰝 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐰃𐰠𐰭𐰀 : 𐰋𐰃𐱅𐰃𐱅𐰓𐰢",
+      "transkripsiyon": "--- : TÜRK : BİLGE : KaGaN : İLiŊE : BİTİTDiM",
+      "kelimeKarsiliklari": "--- : TÜRK : BİLGE : KAĞAN : İLİNDE : BİTİTDİM",
+      "kelimeSayisi": 6,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-D-8#2",
+      "dizeId": "TY2-D-8",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 8,
+      "kelimeAraligi": [
+        6,
+        8
+      ],
+      "runik": "𐰋𐰤 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰣𐰪𐰸𐰸",
+      "transkripsiyon": "BeN : BİLGE : TONYUKUK",
+      "kelimeKarsiliklari": "BEN : BİLGE : TONYUKUK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-K-1#1",
+      "dizeId": "TY2-K-1",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 1,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰃𐰠𐱅𐰼𐰃𐰾 : 𐰴𐰍𐰣 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺 : 𐰖𐰸 : 𐰼𐱅𐰃",
+      "transkripsiyon": "İLTeRİŞ : KaGaN : KaZGaNMaSaR : YOK : eRTİ",
+      "kelimeKarsiliklari": "İLTERİŞ : KAĞAN : KAZANMASA : YOK : İDİ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-K-1#2",
+      "dizeId": "TY2-K-1",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 1,
+      "kelimeAraligi": [
+        5,
+        14
+      ],
+      "runik": "𐰼𐰾𐰼 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺 : 𐰋𐰤 : 𐰖𐰸 : 𐰼𐱅𐰢 : 𐰼𐰾𐰼",
+      "transkripsiyon": "eRSeR : BeN : ÖZüM : BİLGE : TONYUKUK : KaZGaNMaSaR : BeN : YOK : eRTiM : eRSeR",
+      "kelimeKarsiliklari": "İSE : BEN : ÖZÜM : BİLGE : TONYUKUK : KAZANMASAM : BEN : YOK : İDİM : İSE",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-K-2#1",
+      "dizeId": "TY2-K-2",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 2,
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰴𐰯𐰍𐰣 : 𐰴𐰍𐰣 : 𐱅𐰇𐰼𐰝 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣 : 𐰘𐰼𐰃𐰤𐱅𐰀 : 𐰉𐰆𐰑 : 𐰘𐰢𐰀 : 𐰉𐰆𐰑𐰣 : 𐰘𐰢𐰀 : 𐰚𐰃𐰾𐰃 : 𐰘𐰢𐰀 : 𐰃𐰓𐰃",
+      "transkripsiyon": "KaPaGaN : KaGaN : TÜRK : SİR : BODuN : YiRİNTE : BOD : YiME : BODuN : YiME : KİŞİ : YiME : İDİ",
+      "kelimeKarsiliklari": "KAPAĞAN : KAĞANIN : TÜRK : SİR : BOYLARININ : YERİNDE : BOY : YİNE : BOYLAR : YİNE : KİŞİ : YİNE : HEP",
+      "kelimeSayisi": 13,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    }
+  ]
+}

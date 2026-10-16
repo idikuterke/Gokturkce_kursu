@@ -1,0 +1,207 @@
+{
+  "blok": 49,
+  "blokSayisi": 96,
+  "dosya": "blok-049.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-D-22#5",
+      "dizeId": "BK-D-22",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 22,
+      "kelimeAraligi": [
+        31,
+        37
+      ],
+      "runik": "𐰢𐰤 : 𐰇𐰔𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰸𐰢𐰀 : 𐰘𐰃𐰼 : 𐰽𐰖𐰆 : 𐰉𐰺𐰢𐱁",
+      "transkripsiyon": "MeN : ÖZüM : KaGaN : OLuRTUKuMA : YİR : SaYU : BaRMıŞ",
+      "kelimeKarsiliklari": "BEN : ÖZÜM : KAĞAN : OTURDUĞUMDA : [HER] YERE : SAYU : VARMIŞ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-22#6",
+      "dizeId": "BK-D-22",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 22,
+      "kelimeAraligi": [
+        38,
+        40
+      ],
+      "runik": "𐰉𐰆𐰑𐰣 : 𐰇𐰠𐰇 : 𐰘𐰃𐱅𐰇",
+      "transkripsiyon": "BODuN : ÖLÜ : YİTÜ",
+      "kelimeKarsiliklari": "BOYLAR : ÖLE : YİTE",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-22#7",
+      "dizeId": "BK-D-22",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 22,
+      "kelimeAraligi": [
+        41,
+        43
+      ],
+      "runik": "𐰖𐰑𐰍𐰣 : 𐰖𐰞𐰭𐰣 : 𐰖𐰣𐰀",
+      "transkripsiyon": "YaDaGıN : YaLıŊıN : YaNA",
+      "kelimeKarsiliklari": "YAYA : YALIN : YANA",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-23#1",
+      "dizeId": "BK-D-23",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 23,
+      "kelimeAraligi": [
+        0,
+        18
+      ],
+      "runik": "𐰚𐰠𐱅𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰃𐰏𐰓𐰘𐰃𐰤 : 𐱅𐰃𐰘𐰤 : 𐰘𐰃𐰺𐰍𐰺𐰆 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰃𐰠𐰏𐰼𐰇 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰋𐰃𐰼𐰏𐰼𐰇 : 𐱃𐰉𐰍𐰲 : 𐱃𐰯𐰀 : 𐰚𐰃 : 𐰘𐰏𐰼𐰢𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : TaPA : İLGeRÜ : KITaYN : TaTaBI : BODuN : TaPA : BİRiGeRÜ : TaBGaÇ : TaPA : iKİ : YiGiRMİ : SÜLeDiM",
+      "kelimeKarsiliklari": "GELDİ : BOYLARI : YEDİREYİM : DİYE : YIRIYA : OĞUZ : BOYLARI : TARAFINA : İLERİ : KITAY : TATABI : BOYLARI : TARAFINA : BERİYE : TABGAÇ : TARAFINA : İKİ : YİRMİ : SÜLEDİM",
+      "kelimeSayisi": 19,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-23#2",
+      "dizeId": "BK-D-23",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 23,
+      "kelimeAraligi": [
+        19,
+        25
+      ],
+      "runik": "𐰾𐰇𐰭𐰾𐰓𐰢 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰤 : 𐰸𐰆𐱃𐰢",
+      "transkripsiyon": "SÜŊüŞDüM : aNDA : KİSRE : TeŊRİ : YaRLıKaDUK : ÜÇÜN : KUTuM",
+      "kelimeKarsiliklari": "SÜNGÜŞDÜM : ONDAN : KİRSE : TANRI : BUYURDUĞU : İÇİN : KUTUM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-23#3",
+      "dizeId": "BK-D-23",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 23,
+      "kelimeAraligi": [
+        26,
+        32
+      ],
+      "runik": "𐰇𐰠𐰇𐰏𐰢 : 𐰉𐰺 : 𐰇𐰲𐰇𐰤 : 𐰇𐰠𐱅𐰲𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐱅𐰃𐰼𐰏𐰼𐰇 : 𐰃𐰏𐱅𐰢",
+      "transkripsiyon": "ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM",
+      "kelimeKarsiliklari": "ÜLÜĞÜM : VAR [OLDUĞU] : İÇİN : ÖLECEK : BOYLARI : TİRGÜRÜP : YEDİRDİM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-23#4",
+      "dizeId": "BK-D-23",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 23,
+      "kelimeAraligi": [
+        33,
+        36
+      ],
+      "runik": "𐰖𐰞𐰭 : 𐰉𐰆𐰑𐰣𐰍 : 𐱃𐰆𐰣𐰞𐰍 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "YaLıŊ : BODuNuG : TONLıG : KILDıM",
+      "kelimeKarsiliklari": "YALIN : BOYLARI : DONLU : KILDIM",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-23#5",
+      "dizeId": "BK-D-23",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 23,
+      "kelimeAraligi": [
+        37,
+        40
+      ],
+      "runik": "𐰲𐰃𐰍𐰪 : 𐰉𐰆𐰑𐰣𐰍 : 𐰉𐰖 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "ÇIGaYN : BODuNuG : BaY : KILDıM",
+      "kelimeKarsiliklari": "YOKSUL : BOYLARI : BAY : KILDIM",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-24#1",
+      "dizeId": "BK-D-24",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰇𐰚𐱁 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "aZ : BODuNuG : ÖKüŞ : KILTıM",
+      "kelimeKarsiliklari": "AZ : BOYLARI : ÇOK : KILDIM",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-24#2",
+      "dizeId": "BK-D-24",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        4,
+        9
+      ],
+      "runik": "𐰃𐰍𐰺 : 𐰠𐰠𐰏𐰓𐰀 : 𐰃𐰍𐰺 : 𐰴𐰍𐰣𐰞𐰍𐰑𐰀 : 𐰘𐰃𐰏 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM",
+      "kelimeKarsiliklari": "IĞAR : İLLİDEN : IĞAR : KAĞANLIDAN : YEĞ : KILDIM",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

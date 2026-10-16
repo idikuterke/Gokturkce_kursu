@@ -1,0 +1,207 @@
+{
+  "blok": 75,
+  "blokSayisi": 96,
+  "dosya": "blok-075.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY1-B-2#3",
+      "dizeId": "TY1-B-2",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 2,
+      "kelimeAraligi": [
+        12,
+        14
+      ],
+      "runik": "𐱅𐰭𐰼𐰃 : 𐰨𐰀 : 𐱅𐰢𐰾",
+      "transkripsiyon": "TeŊRİ : aNÇA : TiMiŞ",
+      "kelimeKarsiliklari": "TANRI : ANCA : DEMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-2#4",
+      "dizeId": "TY1-B-2",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 2,
+      "kelimeAraligi": [
+        15,
+        17
+      ],
+      "runik": "𐰼𐰨 : 𐰴𐰣 : 𐰋𐰼𐱅𐰢",
+      "transkripsiyon": "eRiNÇ : KaN : BiRTiM",
+      "kelimeKarsiliklari": "GERÇEK : KAĞAN : VERDİM",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-3#1",
+      "dizeId": "TY1-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰴𐰣𐰭𐰤 : 𐰸𐰆𐰑𐰯 : 𐰃𐰲𐰚𐰓𐰭",
+      "transkripsiyon": "KaNıŊıN : KODuP : İÇiKDiŊ",
+      "kelimeKarsiliklari": "KAĞANI : KOYUP : İÇİKDİN",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-3#2",
+      "dizeId": "TY1-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        3,
+        6
+      ],
+      "runik": "𐰃𐰲𐰚𐰓𐰭 : 𐰇𐰲𐰤 : 𐱅𐰭𐰼𐰃 : 𐰇𐰠𐱅𐰢𐰾",
+      "transkripsiyon": "İÇiKDÜK : ÜÇüN : TeŊRİ : ÖLüTMüŞ",
+      "kelimeKarsiliklari": "İÇİKDİĞİN : İÇİN : TANRI : ÖLDÜRMÜŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-3#3",
+      "dizeId": "TY1-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        7,
+        10
+      ],
+      "runik": "𐰼𐰨 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "eRiNÇ : TÜRK : BODuN : ÖLTİ",
+      "kelimeKarsiliklari": "GERÇEK : TÜRK : BOYLARI : ÖLDÜ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-3#4",
+      "dizeId": "TY1-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        11,
+        13
+      ],
+      "runik": "𐰞𐰴𐰦𐰃 : 𐰖𐰸 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "aLKıNDI : YOK : BOLDI",
+      "kelimeKarsiliklari": "ALKINDI : YOK : OLDU",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-3#5",
+      "dizeId": "TY1-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        14,
+        17
+      ],
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣 : 𐰘𐰼𐰃𐰤𐱅𐰀",
+      "transkripsiyon": "TÜRK : SİR : BODuN : YiRİNTE",
+      "kelimeKarsiliklari": "TÜRK : SİR : BOYLARININ : YERİNDE",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-4#1",
+      "dizeId": "TY1-B-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 4,
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐰉𐰆𐰑 : 𐰴𐰞𐰢𐰑𐰃 : 𐰃𐰑𐰀 : 𐱃𐱁𐰑𐰀 : 𐰴𐰞𐰢𐰾𐰃 : 𐰸𐰆𐰉𐰺𐰣𐰯 : 𐰘𐱅𐰃",
+      "transkripsiyon": "BOD : KaLMaDI : IDA : TaŞDA : KaLMıŞI : KUBRaNıP : YiTİ",
+      "kelimeKarsiliklari": "BOY : KALMADI : UZAKTA : DIŞDA : KALMIŞI : TOPLANIP : YEDİ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-4#2",
+      "dizeId": "TY1-B-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 4,
+      "kelimeAraligi": [
+        7,
+        12
+      ],
+      "runik": "𐰘𐰇𐰔 : 𐰉𐰆𐰡𐰃 : 𐰚𐰃 : 𐰇𐰠𐰏𐰃 : 𐱃𐰞𐰍 : 𐰼𐱅𐰃",
+      "transkripsiyon": "YÜZ : BOLDI : iKİ : ÜLüGİ : aTLıG : eRTİ",
+      "kelimeKarsiliklari": "YÜZ [KİŞİ] : OLDU : İKİ : [B]ÖLÜĞÜ : ATLI : İDİ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-4#3",
+      "dizeId": "TY1-B-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 4,
+      "kelimeAraligi": [
+        13,
+        16
+      ],
+      "runik": "𐰋𐰃𐰼 : 𐰇𐰠𐰏𐰃 : 𐰖𐰑𐰍 : 𐰼𐱅𐰃",
+      "transkripsiyon": "BİR : ÜLüGİ : YaDaG : eRTİ",
+      "kelimeKarsiliklari": "BİR : [B]ÖLÜĞÜ : YAYA : İDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

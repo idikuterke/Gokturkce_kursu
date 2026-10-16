@@ -1,0 +1,207 @@
+{
+  "blok": 31,
+  "blokSayisi": 96,
+  "dosya": "blok-031.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-K-8#4",
+      "dizeId": "KT-K-8",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 8,
+      "kelimeAraligi": [
+        20,
+        23
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰋𐰏 : 𐰉𐱁𐰞𐰖𐰆 : 𐰴𐰃𐱃𐰢𐰔",
+      "transkripsiyon": "KÖLTİGiN : BeG : BaŞLaYU : KITıMıZ",
+      "kelimeKarsiliklari": "KÜLTİĞİN : BEĞ : [KURGAN] BAŞINA : [BIRAKIP] GİTTİK",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-8#5",
+      "dizeId": "KT-K-8",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 8,
+      "kelimeAraligi": [
+        24,
+        28
+      ],
+      "runik": "𐰆𐰍𐰔 : 𐰖𐰍𐰃 : 𐰆𐰺𐰑𐰆𐰍 : 𐰉𐰽𐰑𐰃 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤",
+      "transkripsiyon": "OGuZ : YaGI : ORDUG : BaSDI : KÖLTİGiN",
+      "kelimeKarsiliklari": "OĞUZ : YAĞI : ORDU[SU] : [KURGANI] BASTI : KÜLTİĞİN",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-9#1",
+      "dizeId": "KT-K-9",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 9,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰇𐰏𐰾𐰔 : 𐰴𐰃𐰤 : 𐰋𐰃𐰤𐰯 : 𐱃𐰸𐰆𐰔 : 𐰼𐰤 : 𐰽𐰨𐰑𐰃",
+      "transkripsiyon": "ÖGSüZ : aKIN : BİNiP : TOKUZ : eRiN : SaNÇDI",
+      "kelimeKarsiliklari": "ÖKSÜZ : AK [AT]A : BİNİP : DOKUZ : ERİNİ : SANÇTI",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-9#2",
+      "dizeId": "KT-K-9",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 9,
+      "kelimeAraligi": [
+        6,
+        20
+      ],
+      "runik": "𐰆𐰺𐰑𐰆𐰍 : 𐰋𐰃𐰼𐰢𐰓𐰃 : 𐰇𐰏𐰢 : 𐰴𐱃𐰆𐰣 : 𐰆𐰞𐰖𐰆 : 𐰇𐰏𐰠𐰼𐰢 : 𐰚𐰠𐰼𐰢 : 𐰚𐰠𐰭𐰇𐰤𐰢 : 𐰸𐰆𐰨𐰖𐰞𐰺𐰢 : 𐰉𐰆𐰨𐰀 : 𐰘𐰢𐰀 : 𐱅𐰃𐰼𐰏𐰃 : 𐰚𐰇𐰭 : 𐰉𐰆𐰡𐰲𐰃 : 𐰼𐱅𐰃",
+      "transkripsiyon": "ORDUG : BİRMeDİ : ÖGüM : KATuN : ULaYU : ÖGLeRiM : eKeLeRiM : KeLiŊÜNüM : KONÇuYLaRıM : BUNÇA : YiME : TİRiGİ : KÜNG : BOLDaÇI : eRTİ",
+      "kelimeKarsiliklari": "ORDUYU : VERMEDİ : ANAM : KADIN : EVVELA : ÖGLERİM : EKELERİM : GELİNLERİM : KONÇUYLARIM : BUNCA : YİNE : DİRİ [SAĞ KALANLAR] : CARİYE : OLACAK : İDİ",
+      "kelimeSayisi": 15,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-9#3",
+      "dizeId": "KT-K-9",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 9,
+      "kelimeAraligi": [
+        21,
+        26
+      ],
+      "runik": "𐰇𐰠𐰏𐰃 : 𐰖𐰆𐰺𐱃𐰑𐰀 : 𐰖𐰆𐰞𐱃𐰀 : 𐰖𐱃𐰆 : 𐰴𐰡𐰲𐰃 : 𐰼𐱅𐰏𐰔",
+      "transkripsiyon": "ÖLüGİ : YURTDA : YOLTA : YaTU : KaLDaÇI : eRTiGiZ",
+      "kelimeKarsiliklari": "ÖLÜ[LERİNİZ] : YURTTA : YOLDA : YATIP : KALACAK : İDİNİZ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-10#1",
+      "dizeId": "KT-K-10",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 10,
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰖𐰸 : 𐰼𐰾𐰼 : 𐰸𐰆𐰯 : 𐰇𐰠𐱅𐰲𐰃 : 𐰼𐱅𐰏𐰔 : 𐰃𐰤𐰢 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰚𐰼𐰏𐰚 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "KÖLTİGiN : YOK : eRSeR : KOP : ÖLTeÇİ : eRTiGiZ : İNiM : KÖLTİGiN : KeRGeK : BOLDI",
+      "kelimeKarsiliklari": "KÜLTİĞİN : YOK : İSE : HEP : ÖLECEK : İDİNİZ : İNİM : KÜLTİĞİN : KERGEK : OLDU",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-10#2",
+      "dizeId": "KT-K-10",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 10,
+      "kelimeAraligi": [
+        10,
+        12
+      ],
+      "runik": "𐰇𐰔𐰢 : 𐰽𐰴𐰦𐰢 : 𐰚𐰇𐰼𐰇𐰼",
+      "transkripsiyon": "ÖZüM : SaKıNDıM : KÖRÜR",
+      "kelimeKarsiliklari": "ÖZÜM : SAKINDIM : GÖRÜR",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-10#3",
+      "dizeId": "KT-K-10",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 10,
+      "kelimeAraligi": [
+        13,
+        20
+      ],
+      "runik": "𐰚𐰇𐰔𐰢 : 𐰚𐰇𐰼𐰢𐰔 : 𐱅𐰏 : 𐰋𐰃𐰠𐰼 : 𐰋𐰃𐰠𐰏𐰢 : 𐰋𐰃𐰠𐰢𐰔 : 𐱅𐰏 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "KÖZüM : KÖRMeZ : TeG : BİLiR : BİLiGiM : BİLMeZ : TeG : BOLDI",
+      "kelimeKarsiliklari": "GÖZÜM : GÖRMEZ : DEK [OLDU] : BİLDİĞİM : BİLGİM : BİLİNMEZ : DEK : OLDU",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-10#4",
+      "dizeId": "KT-K-10",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 10,
+      "kelimeAraligi": [
+        21,
+        30
+      ],
+      "runik": "𐰇𐰔𐰢 : 𐰽𐰴𐰦𐰢 : 𐰇𐰓 : 𐱅𐰭𐰼𐰃 : 𐰖𐰽𐰺 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰸𐰆𐰯 : 𐰇𐰠𐰏𐰠𐰃 : 𐱅𐰇𐰼𐰇𐰢𐰾",
+      "transkripsiyon": "ÖZüM : SaKıNDıM : ÖD : TeŊRİ : YaŞaR : KİŞİ : OGLI : KOP : ÖLGeLİ : TÖRÜMiŞ",
+      "kelimeKarsiliklari": "ÖZÜM : SAKINDIM : ÖD : TANRI : YAŞAR : KİŞİ : OĞLU : HEP : ÖLÜMLÜ : TÜREMİŞ",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-11#1",
+      "dizeId": "KT-K-11",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 11,
+      "kelimeAraligi": [
+        0,
+        10
+      ],
+      "runik": "𐰨𐰀 : 𐰽𐰴𐰦𐰢 : 𐰚𐰇𐰔𐰓𐰀 : 𐰖𐱁 : 𐰚𐰠𐰾𐰼 : 𐱅𐰃𐰑𐰀 : 𐰚𐰇𐰭𐰠𐱅𐰀 : 𐰾𐰃𐰍𐱃 : 𐰚𐰠𐰾𐰼 : 𐰖𐰦𐰺𐰆 : 𐰽𐰴𐰦𐰢",
+      "transkripsiyon": "aNÇA : SaKıNDıM : KÖZDE : YaŞ : KeLSeR : TIDA : KÖŊüLTE : SIGıT : KeLSeR : YaNDuRU : SaKıNDıM",
+      "kelimeKarsiliklari": "ONCA : SAKINDIM : GÖZDEN : YAŞ : GELSE : TIDIP : GÖNÜLDEN : AĞIT : GELSE : YANDURUP : SAKINDIM",
+      "kelimeSayisi": 11,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "blok": 60,
+  "blokSayisi": 96,
+  "dosya": "blok-060.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-D-38#5",
+      "dizeId": "BK-D-38",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 38,
+      "kelimeAraligi": [
+        25,
+        28
+      ],
+      "runik": "𐰚𐰃 : 𐰠𐱅𐰋𐰼𐰠𐰏 : 𐰉𐰆𐰑𐰣 : ---",
+      "transkripsiyon": "iKİ : iLTeBeRLiG : BODuN : ---",
+      "kelimeKarsiliklari": "İKİ : İLTEBERLİ : BOYLAR : ---",
+      "kelimeSayisi": 4,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-39#1",
+      "dizeId": "BK-D-39",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 39,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰑𐰣 : 𐱃𐰉𐰍𐰲 : 𐰴𐰍𐰣𐰴𐰀 : 𐰚𐰇𐰼𐱅𐰃",
+      "transkripsiyon": "TaTaBI : BODuN : TaBGaÇ : KaGaNKA : KÖRTİ",
+      "kelimeKarsiliklari": "TATABI : BOYLARI : TABGAÇ : KAĞANINA : GÖRDÜ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-39#2",
+      "dizeId": "BK-D-39",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 39,
+      "kelimeAraligi": [
+        5,
+        12
+      ],
+      "runik": "𐰖𐰞𐰉𐰲𐰃 : 𐰓𐰏𐰇 : 𐰽𐰉𐰃 : 𐰇𐱅𐰏𐰃 : 𐰚𐰠𐰢𐰔 : 𐱅𐰃𐰘𐰤 : 𐰖𐰖𐰣 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "YaLaBaÇI : eDGÜ : SaBI : ÖTüGİ : KeLMeZ : TİYiN : YaYıN : SÜLeDiM",
+      "kelimeKarsiliklari": "YALABAÇI : İYİ : SÖZÜ : ÖTÜĞÜ : GELMEZ : DİYE : YAZIN : SÜLEDİM",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-39#3",
+      "dizeId": "BK-D-39",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 39,
+      "kelimeAraligi": [
+        13,
+        15
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰍 : 𐰦𐰀 : 𐰉𐰆𐰔𐰑𐰢",
+      "transkripsiyon": "BONuDuG : aNDA : BOZDuM",
+      "kelimeKarsiliklari": "BOYLARINI : [O] ANDA : BOZDUM",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-39#4",
+      "dizeId": "BK-D-39",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 39,
+      "kelimeAraligi": [
+        16,
+        20
+      ],
+      "runik": "𐰘𐰃𐰞𐰴𐰃𐰽𐰃𐰤 : --- : 𐰾𐰇𐰾𐰃 : 𐱅𐰃𐰼𐰠𐰯 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "YILKISIN : --- : SÜSİ : TİRiLiP : KeLTİ",
+      "kelimeKarsiliklari": "YILKISINI : --- : SÜSİ : DİRİLİP : GELDİ",
+      "kelimeSayisi": 5,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-39#5",
+      "dizeId": "BK-D-39",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 39,
+      "kelimeAraligi": [
+        21,
+        23
+      ],
+      "runik": "𐰴𐰑𐰺𐰴𐰣 : 𐰘𐰃𐱁𐰑𐰀 : 𐰸𐰆𐰣 ---",
+      "transkripsiyon": "KaDıRKaN : YIŞDA : KON ---",
+      "kelimeKarsiliklari": "KADIRKAN : YIŞDA : KON ---",
+      "kelimeSayisi": 3,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-40#1",
+      "dizeId": "BK-D-40",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 40,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "--- 𐰍𐰴𐰭𐰀 : 𐰘𐰼𐰭𐰼𐰇 : 𐰽𐰆𐰉𐰃𐰭𐰺𐰆 : 𐰸𐰆𐰦𐰃",
+      "transkripsiyon": "--- GaKıŊA : YiRiŊeRÜ : SUBIŊaRU : KONTI",
+      "kelimeKarsiliklari": "--- GAKINGA : YERİNE : SUYUNA : KONDU",
+      "kelimeSayisi": 4,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-40#2",
+      "dizeId": "BK-D-40",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 40,
+      "kelimeAraligi": [
+        4,
+        12
+      ],
+      "runik": "𐰋𐰃𐰼𐰘𐰀 : 𐰚𐰼𐰠𐰸 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰀 : 𐱅𐰃𐰯 : 𐱃𐰆𐰑𐰣 : 𐰖𐰢𐱃𐰺𐰍 : 𐰃𐱃𐰢",
+      "transkripsiyon": "BİRiYE : KaRLuK : BODuN : TaPA : SÜLE : TİP : TUDuN : YaMTaRıG : ITıM",
+      "kelimeKarsiliklari": "BERİDE : KARLUK : BOYLARI : TARAFINA : SÜLE : DEYİP : TUDUN : YAMTARI : İTTİM",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-40#3",
+      "dizeId": "BK-D-40",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 40,
+      "kelimeAraligi": [
+        13,
+        18
+      ],
+      "runik": "𐰉𐰺𐰑𐰃 : --- : 𐰴𐰺𐰞𐰸 : 𐰠𐱅𐰋𐰼 : 𐰖𐰸 : 𐰉𐰆𐰞𐰢𐱁",
+      "transkripsiyon": "BaRDI : --- : KaRLuK : iLTeBeR : YoK : BOLMıŞ",
+      "kelimeKarsiliklari": "VARDI : --- : KARLUK : İLTEBERİ : YOK : OLMUŞ",
+      "kelimeSayisi": 6,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-40#4",
+      "dizeId": "BK-D-40",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 40,
+      "kelimeAraligi": [
+        19,
+        22
+      ],
+      "runik": "𐰃𐰤𐰾𐰃 : 𐰋𐰃𐰼 : 𐰸𐰆𐰺𐰍𐰣𐰴𐰀 : ---",
+      "transkripsiyon": "İNiSİ : BİR : KORGaNKA : ---",
+      "kelimeKarsiliklari": "İNİSİ : BİR : KURGANA : ---",
+      "kelimeSayisi": 4,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    }
+  ]
+}

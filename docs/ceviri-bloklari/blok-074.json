@@ -1,0 +1,207 @@
+{
+  "blok": 74,
+  "blokSayisi": 96,
+  "dosya": "blok-074.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-B-7#1",
+      "dizeId": "BK-B-7",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Batı",
+      "satir": 7,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐱃𐱁𐰃𐰤 : 𐰇𐰔𐰢 : 𐰴𐰍𐰣",
+      "transkripsiyon": "TaŞIN : ÖZüM : KaGaN",
+      "kelimeKarsiliklari": "TAŞINI : ÖZÜM : KAĞAN ---",
+      "kelimeSayisi": 3,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-B-8#1",
+      "dizeId": "BK-B-8",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Batı",
+      "satir": 8,
+      "kelimeAraligi": [
+        0,
+        0
+      ],
+      "runik": "---",
+      "transkripsiyon": "---",
+      "kelimeKarsiliklari": "---",
+      "kelimeSayisi": 1,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-B-9#1",
+      "dizeId": "BK-B-9",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Batı",
+      "satir": 9,
+      "kelimeAraligi": [
+        0,
+        0
+      ],
+      "runik": "---",
+      "transkripsiyon": "---",
+      "kelimeKarsiliklari": "---",
+      "kelimeSayisi": 1,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-GB-1#1",
+      "dizeId": "BK-GB-1",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güneybatı",
+      "satir": 1,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐰋𐰃𐱅𐰏𐰃𐰤 : 𐰖𐰆𐰞𐰍 : 𐱅𐰃𐰏𐰤 : 𐰋𐰃𐱅𐰓𐰢",
+      "transkripsiyon": "BİLGE : KaGaN : BİTiGİN : YOLuG : TİGiN : BİTiDiM",
+      "kelimeKarsiliklari": "BİLGE : KAĞANIN : BİTİĞİNİ : YOLLUĞ : TİGİN : BİTİDİM",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-GB-1#2",
+      "dizeId": "BK-GB-1",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güneybatı",
+      "satir": 1,
+      "kelimeAraligi": [
+        6,
+        20
+      ],
+      "runik": "𐰉𐰆𐰨𐰀 : 𐰉𐰺𐰴𐰍 : 𐰋𐰓𐰔𐰏 : 𐰆𐰔𐰍 : --- 𐰴𐰍𐰣 : 𐱃𐰃𐰾𐰃 : 𐰖𐰆𐰞𐰍 : 𐱅𐰃𐰏𐰤 : 𐰢𐰤 : 𐰖 : 𐰺𐱃𐰸𐰃 : 𐱅𐰇𐰼𐱅 : 𐰚𐰇𐰤 : 𐰆𐰞𐰺𐰯 : 𐰋𐰃𐱅𐰃𐰓𐰢",
+      "transkripsiyon": "BUNÇA : BaRKıG : BeDiZiG : UZuG : --- KaGaN : aTISI : YOLuG : TİGiN : MeN : aY : aRTUKI : TÖRT : KÜN : OLuRuP : BİTİDiM",
+      "kelimeKarsiliklari": "BUNCA : BARKI : BEZEYİ : UZU : --- KAĞAN[IN] : ATISI : YOLUĞ : TİGİN : BEN : [BİR] AY : ARTI : DÖRT : GÜN : OTURUP : BİTİDİM",
+      "kelimeSayisi": 15,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-GB-1#3",
+      "dizeId": "BK-GB-1",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güneybatı",
+      "satir": 1,
+      "kelimeAraligi": [
+        21,
+        22
+      ],
+      "runik": "𐰋𐰓𐰔𐱅𐰢 : 𐰖𐰍 ---",
+      "transkripsiyon": "BeDiZeTiM : YaG ---",
+      "kelimeKarsiliklari": "BEZEDİM : YAĞ ---",
+      "kelimeSayisi": 2,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-1#1",
+      "dizeId": "TY1-B-1",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 1,
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐱃𐰉𐰍𐰲 : 𐰃𐰠𐰭𐰀 : 𐰶𐰠𐰦𐰢",
+      "transkripsiyon": "BİLGE : TONYUKUK : BeN : ÖZüM : TaBGaÇ : İLiŊE : KILıNDıM",
+      "kelimeKarsiliklari": "BİLGE : TONYUKUK : BEN : ÖZÜM : TABGAÇ : İLİNDE : KILINDIM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-1#2",
+      "dizeId": "TY1-B-1",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 1,
+      "kelimeAraligi": [
+        7,
+        11
+      ],
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐱃𐰉𐰍𐰲𐰴𐰀 : 𐰝𐰇𐰼𐰼 : 𐰼𐱅𐰃",
+      "transkripsiyon": "TÜRK : BODuN : TaBGaÇKA : KÖRüR : eRTİ",
+      "kelimeKarsiliklari": "TÜRK : BOYLARI : TABGAÇA : GÖRÜR : İDİ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-2#1",
+      "dizeId": "TY1-B-2",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 2,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰴𐰣𐰃𐰤 : 𐰉𐰆𐰞𐰢𐰘𐰤 : 𐱃𐰉𐰍𐰲𐰑𐰀 : 𐰑𐰺𐰡𐰃",
+      "transkripsiyon": "TÜRK : BODuN : KaNIN : BULMaYıN : TaBGaÇDA : aDRıLDI",
+      "kelimeKarsiliklari": "TÜRK : BOYLARI : KAĞAN : BULAMAYIP : TABGAÇDAN : AYRILDI",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-2#2",
+      "dizeId": "TY1-B-2",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 2,
+      "kelimeAraligi": [
+        6,
+        11
+      ],
+      "runik": "𐰴𐰣𐰞𐰦𐰃 : 𐰴𐰣𐰃𐰤 : 𐰸𐰆𐰑𐰯 : 𐱃𐰉𐰍𐰲𐰴𐰀 : 𐰖𐰣𐰀 : 𐰃𐰲𐰚𐰓𐰃",
+      "transkripsiyon": "KaNLaNDI : KaNIN : KODuP : TaBGaÇKA : YaNA : İÇiKDİ",
+      "kelimeKarsiliklari": "KAĞANLANDI : KAĞANI : KOYUP : TABGAÇA : YANA : İÇİKDİ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

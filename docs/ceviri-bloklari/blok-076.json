@@ -1,0 +1,207 @@
+{
+  "blok": 76,
+  "blokSayisi": 96,
+  "dosya": "blok-076.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY1-B-4#4",
+      "dizeId": "TY1-B-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 4,
+      "kelimeAraligi": [
+        17,
+        19
+      ],
+      "runik": "𐰘𐱅𐰃 : 𐰘𐰇𐰔 : 𐰚𐰃𐰾𐰃𐰏",
+      "transkripsiyon": "YiTİ : YÜZ : KİŞİG",
+      "kelimeKarsiliklari": "YEDİ : YÜZ : KİŞİYİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-5#1",
+      "dizeId": "TY1-B-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 5,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰆𐰑𐰔𐰍𐰢𐰀 : 𐰆𐰞𐰍𐰃 : 𐱁𐰑𐰼𐱅𐰃",
+      "transkripsiyon": "UDuZuGMA : ULuGI : ŞaDeRTİ",
+      "kelimeKarsiliklari": "UDUZAN : ULU : ŞAD İDİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-5#2",
+      "dizeId": "TY1-B-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 5,
+      "kelimeAraligi": [
+        3,
+        5
+      ],
+      "runik": "𐰖𐰍𐰞 : 𐱅𐰃𐰓𐰃 : 𐰖𐰍𐰢𐰾𐰃𐰋𐰤𐰼𐱅𐰢",
+      "transkripsiyon": "YaGıL : TİDİ : YaGMıŞIBeneRTiM",
+      "kelimeKarsiliklari": "YAĞIL : DEDİ : YAĞMIŞI BEN İDİM",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-5#3",
+      "dizeId": "TY1-B-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 5,
+      "kelimeAraligi": [
+        6,
+        9
+      ],
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰴𐰍𐰣𐰢𐰆𐰶𐰃𐰽𐰖𐰃𐰤 : 𐱅𐰓𐰢",
+      "transkripsiyon": "BİLGE : TONYUKUK : KaGaNMUKISaYiN : TİDiM",
+      "kelimeKarsiliklari": "BİLGE : TONYUKUK : KAĞAN MI KILAYIM : DEDİM",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-5#4",
+      "dizeId": "TY1-B-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 5,
+      "kelimeAraligi": [
+        10,
+        13
+      ],
+      "runik": "𐰽𐰴𐰦𐰢 : 𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃 : 𐰾𐰢𐰔𐰉𐰆𐰸𐰞𐰃 : 𐰃𐰺𐰴𐰑𐰀",
+      "transkripsiyon": "SaKıNDıM : TORuKBUKuLI : SeMiZBUKuLI : IRKDA",
+      "kelimeKarsiliklari": "SAKINDIM : DORUK BOĞA : SEMİZ BOĞA : ARKAYA",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-6#1",
+      "dizeId": "TY1-B-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 6,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰋𐰃𐰠𐰾𐰼 : 𐰾𐰢𐰔𐰉𐰆𐰸𐰀 : 𐱃𐰆𐰺𐰸 : 𐰉𐰆𐰸𐰀 : 𐱅𐰘𐰤 : 𐰋𐰃𐰠𐰢𐰔𐰼𐰢𐰾",
+      "transkripsiyon": "BÖLSeR : SeMiZ BUKA : TORUK : BUKA : TiYiN : BİLMeZeRMiŞ",
+      "kelimeKarsiliklari": "TEPSE : SEMİZ BOĞA [MI] : DORUK : BOĞA [MI TEPTİ] : DİYE : BİL[İN]MEZ İMİŞ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-6#2",
+      "dizeId": "TY1-B-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 6,
+      "kelimeAraligi": [
+        6,
+        8
+      ],
+      "runik": "𐱅𐰘𐰤 : 𐰨𐰀 : 𐰾𐰴𐰦𐰢",
+      "transkripsiyon": "TiYiN : aNÇA : SaKıNDıM",
+      "kelimeKarsiliklari": "DİYE : ANCA : SAKINDIM",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-6#3",
+      "dizeId": "TY1-B-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 6,
+      "kelimeAraligi": [
+        9,
+        18
+      ],
+      "runik": "𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐱅𐰭𐰼𐰃 : 𐰋𐰃𐰠𐰏 : 𐰋𐰼𐱅𐰝 : 𐰇𐰲𐰤 : 𐰇𐰔𐰢 : 𐰝 : 𐰴𐰍𐰣 : 𐰴𐰃𐰽𐰑𐰢",
+      "transkripsiyon": "aNDA : KİSRE : TeŊRİ : BİLiG : BiRTÜK : ÜÇüN : ÖZüM : ÖK : KaGaN : KISDıM",
+      "kelimeKarsiliklari": "ONDAN : SONRA : TANRI : BİLGİ : VERDİĞİ : İÇİN : ÖZÜM : HEP : KAĞAN : KILDIM",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-6#4",
+      "dizeId": "TY1-B-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 6,
+      "kelimeAraligi": [
+        19,
+        23
+      ],
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰉𐰆𐰖𐰞𐰀 : 𐰉𐰍𐰀 : 𐱃𐰺𐰴𐰣",
+      "transkripsiyon": "BİLGE : TONYUKUK : BOYLA : BaGA : TaRKaN",
+      "kelimeKarsiliklari": "BİLGE : TONYUKUK : BOYLA : BAĞA : TARKAN",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-B-7#1",
+      "dizeId": "TY1-B-7",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 7,
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰋𐰃𐰼𐰠𐰀 : 𐰃𐰠𐱅𐰼𐰾 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰖𐰣 : 𐰋𐰼𐰘𐰀 : 𐱃𐰉𐰍𐰲𐰍 : 𐰇𐰭𐰼𐰃 : 𐰴𐰃𐱃𐰪𐰍 : 𐰖𐰃𐰺𐰖𐰀 : 𐰆𐰍𐰔𐰍 : 𐰇𐰚𐰾 : 𐰝 : 𐰇𐰠𐰼𐱅𐰃",
+      "transkripsiyon": "BİRLE : İLTeRiŞ : KaGaN : BOLaYıN : BiRiYE : TaBGaÇıG : ÖŊRE : KITaYNıG : YIRıYA : OGuZuG : ÖKüŞ : ÖK : ÖLüRTİ",
+      "kelimeKarsiliklari": "İLE : İLTERİŞ : KAĞAN : OLUNCA : BERİDE : TABGAÇI : ÖNDE : KITAYI : YIRIDA : OĞUZU : ÇOKÇA : HEP : ÖLDÜRDÜ",
+      "kelimeSayisi": 13,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    }
+  ]
+}

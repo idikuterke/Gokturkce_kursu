@@ -1,0 +1,207 @@
+{
+  "blok": 30,
+  "blokSayisi": 96,
+  "dosya": "blok-030.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-K-6#4",
+      "dizeId": "KT-K-6",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 6,
+      "kelimeAraligi": [
+        13,
+        17
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰔𐰢𐰣𐰴𐰍 : 𐰋𐰃𐰤𐰯 : 𐱅𐰏𐰓𐰃 : 𐰽𐰨𐰑𐰃",
+      "transkripsiyon": "KÖLTİGiN : aZMaNKaG : BİNiP : TeGDİ : SaNÇDI",
+      "kelimeKarsiliklari": "KÜLTİĞİN : AZMAN [AT]A : BİNİP : [YAĞIYA] DEĞDİ : SANÇTI",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-6#5",
+      "dizeId": "KT-K-6",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 6,
+      "kelimeAraligi": [
+        18,
+        21
+      ],
+      "runik": "𐰾𐰇𐰾𐰃𐰤 : 𐰽𐰨𐰑𐰢𐰔 : 𐰃𐰠𐰃𐰤 : 𐰞𐱃𐰢𐰔",
+      "transkripsiyon": "SÜSİN : SaNÇDıMıZ : İLİN : aLTıMıZ",
+      "kelimeKarsiliklari": "SÜSİNİ : SANÇTIK : İLİNİ : ALDIK",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-6#6",
+      "dizeId": "KT-K-6",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 6,
+      "kelimeAraligi": [
+        22,
+        26
+      ],
+      "runik": "𐱅𐰇𐰼𐱅𐰨 : 𐰲𐰆𐱁 : 𐰉𐱁𐰃𐰦𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢𐰔 : 𐱅𐰇𐰼𐰜",
+      "transkripsiyon": "TÖRTüNÇ : ÇUŞ : BaŞINDA : SÜŊüŞDüMüZ : TÜRK",
+      "kelimeKarsiliklari": "DÖRDÜNCÜSÜ : ÇUŞ : BAŞINDA : SÜNGÜŞDÜK : TÜRK",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-7#1",
+      "dizeId": "KT-K-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 7,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰉𐰆𐰑𐰣 : 𐰑𐰴 : 𐰴𐰢𐱁𐱃𐰑𐰃",
+      "transkripsiyon": "BODuN : aDaK : KaMŞaTDI",
+      "kelimeKarsiliklari": "BOYLARI : AYAK : KAMŞATTİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-7#2",
+      "dizeId": "KT-K-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 7,
+      "kelimeAraligi": [
+        3,
+        5
+      ],
+      "runik": "𐰖𐰉𐰞𐰴 : 𐰉𐰆𐰡𐰀𐰲𐰃 : 𐰀𐰼𐱅𐰃",
+      "transkripsiyon": "YaBLaK : BOLDAÇI : ERTİ",
+      "kelimeKarsiliklari": "YAVLAK : OLACAK : İDİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-7#3",
+      "dizeId": "KT-K-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 7,
+      "kelimeAraligi": [
+        6,
+        20
+      ],
+      "runik": "𐰆𐰔𐰀 : 𐰚𐰠𐰢𐰾 : 𐰾𐰇𐰾𐰃𐰤 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰍𐱃𐰯 : 𐱃𐰆𐰭𐰺𐰀 : 𐰋𐰃𐰼 : 𐰆𐰍𐱁 : 𐰞𐰯𐰍𐰆 : 𐰆𐰣 : 𐰼𐰏 : 𐱃𐰆𐰭𐰀𐱅𐰃𐰏𐰤 : 𐰖𐰆𐰍𐰃𐰦𐰀 : 𐰏𐰼𐰯 : 𐰇𐰠𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "OZA : KeLMiŞ : SÜSİN : KÖLTİGiN : aGTıP : TOŊRA : BİR : OGuŞ : aLPagU : ON : eRiG : TOŊATİGiN : YUGINDA : eGiRiP : ÖLüRTüMüZ",
+      "kelimeKarsiliklari": "ÜZE[RİMİZE] : GELMİŞ : SÜSİNİ : KÜLTİĞİN : AĞTIP : TONGRA[DAN] : BİR : OĞUŞU : ALP : ON : ERİ : TONGA TİGİN[İN] : YUĞUNDA : ÇEVİRİP : ÖLDÜRDÜK",
+      "kelimeSayisi": 15,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-7#4",
+      "dizeId": "KT-K-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 7,
+      "kelimeAraligi": [
+        21,
+        27
+      ],
+      "runik": "𐰋𐰃𐰾𐰨 : 𐰔𐰏𐰤𐱅𐰃 : 𐰴𐰑𐰔𐰓𐰀 : 𐰆𐰍𐰔 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢𐰔 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤",
+      "transkripsiyon": "BiŞiNÇ : eZGiNTİ : KaDıZDA : OGuZ : BİRLE : SÜŊüŞDüMüZ : KÖLTİGiN",
+      "kelimeKarsiliklari": "BEŞİNCİSİ : EZGİNTİ : KADIZDA : OĞUZ : İLE : SÜNGÜŞDÜK : KÜLTİĞİN",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-8#1",
+      "dizeId": "KT-K-8",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 8,
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐰔 : 𐰖𐰍𐰔𐰃𐰤 : 𐰋𐰃𐰤𐰯 : 𐱅𐰏𐰓𐰃 : 𐰚𐰃 : 𐰼𐰏 : 𐰽𐰨𐰑𐰃",
+      "transkripsiyon": "aZ : YaGıZIN : BİNiP : TeGDİ : iKİ : eRiG : SaNÇDI",
+      "kelimeKarsiliklari": "AZ : YAĞIZINA : BİNİP : [YAĞIYA] DEĞDİ : İKİ : ERİ : SANÇTI",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-8#2",
+      "dizeId": "KT-K-8",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 8,
+      "kelimeAraligi": [
+        7,
+        12
+      ],
+      "runik": "𐰉𐰞𐰃𐰶𐰀 : 𐰉𐰺𐰢𐰑𐰃 : 𐰆𐰞 : 𐰾𐰇 : 𐰦𐰀 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "BaLIKA : BaRMaDI : OL : SÜ : aNDA : ÖLTİ",
+      "kelimeKarsiliklari": "BALIKA : VARMADI : O : SÜ : [O] ANDA : ÖLDÜ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-K-8#3",
+      "dizeId": "KT-K-8",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 8,
+      "kelimeAraligi": [
+        13,
+        19
+      ],
+      "runik": "𐰢𐰍𐰀 : 𐰴𐰆𐰺𐰍𐰣 : 𐰴𐰃𐱁𐰞𐰯 : 𐰖𐰔𐰃𐰭𐰀 : 𐰆𐰍𐰔𐰍𐰺𐰆 : 𐰾𐰇 : 𐱃𐱁𐰴𐰑𐰢𐰔",
+      "transkripsiyon": "aMGA : KORGaN : KIŞLaP : YaZIŊA : OGuZGaRU : SÜ : TaŞıKDıMıZ",
+      "kelimeKarsiliklari": "AMGA : KURGANDA : KIŞLAYIP : YAZIN[D]A : OĞUZADOĞRU : SÜ : TAŞIKTIK",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

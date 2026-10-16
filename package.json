@@ -11,6 +11,8 @@
     "tema:uygula": "node engine/tema-uygula.mjs",
     "tema:rapor": "node engine/tema-uygula.mjs --rapor",
     "denetim:uygula": "node engine/denetim-uygula.mjs",
+    "ceviri:blok": "node engine/ceviri-blok-uret.mjs",
+    "ceviri:birlestir": "node engine/ceviri-blok-birlestir.mjs",
     "cumlecik:ayir": "node engine/cumlecik-ayir.mjs",
     "ceviri:liste": "node engine/ceviri-istek-listesi.mjs",
     "icerik:uret": "node engine/icerik-uret.mjs",

@@ -1,0 +1,207 @@
+{
+  "blok": 45,
+  "blokSayisi": 96,
+  "dosya": "blok-045.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-D-17#1",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰼𐱅𐰃 : 𐰴𐰍𐰣 : 𐱃𐰍 : 𐰉𐰆𐰦𐰀 : 𐰋𐰃𐰔 : 𐰋𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "eRTİ : KaGaN : aTıG : BUNDA : BİZ : BİRTiMiZ",
+      "kelimeKarsiliklari": "İDİ : KAĞAN : ADINI : BUNDAN : BİZ : VERDİK",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-17#2",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        6,
+        8
+      ],
+      "runik": "𐰾𐰃𐰭𐰠𐰢 : 𐰸𐰆𐰨𐰖𐰆𐰍 : 𐰋𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "SİŊiLiM : KONÇuYUG : BİRTiMiZ",
+      "kelimeKarsiliklari": "SİNGİLİM : KONÇUYU : VERDİK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-17#3",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        9,
+        12
+      ],
+      "runik": "𐰇𐰔𐰃 : 𐰖𐰔𐰦𐰃 : 𐰴𐰍𐰣𐰃 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "ÖZİ : YaZıNDI : KaGaNI : ÖLTİ",
+      "kelimeKarsiliklari": "ÖZÜ : YAZINDI : KAĞANI : ÖLDÜ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-17#4",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        13,
+        16
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰃 : 𐰚𐰇𐰭 : 𐰸𐰆𐰞 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "BODuNI : KÜŊ : KUL : BOLDI",
+      "kelimeKarsiliklari": "BOYLARI : CARİYE : KUL : OLDU",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-17#5",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        17,
+        29
+      ],
+      "runik": "𐰚𐰇𐰏𐰢𐰤 : 𐰘𐰃𐰼 : 𐰽𐰆𐰉 : 𐰃𐰓𐰾𐰔 : 𐰴𐰞𐰢𐰔𐰆𐰣 : 𐱅𐰃𐰘𐰤 : 𐰔 : 𐰴𐰃𐰺𐰴𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰃𐱅𐰯 : 𐰃𐱅𐰯 : 𐰖𐰺𐱃𐰯 : 𐰚𐰠𐱅𐰢𐰔",
+      "transkripsiyon": "KÖGMeN : YİR : SUB : İDSiZ : KaLMaZUN : TİYiN : aZ : KIRKıZ : BODuNıG : İTiP : İTiP : YaRaTıP : KeLTiMiZ",
+      "kelimeKarsiliklari": "KÖGMEN : YERİ : SUYU : ISSIZ : KALMASIN : DİYE : AZ : KIRGIZ : BOYLARINI : [DÜZEN] EDİP : EDİP : YARATIP : GELDİK",
+      "kelimeSayisi": 13,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-17#6",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        30,
+        34
+      ],
+      "runik": "𐰾𐰇𐰭𐱁𐰓𐰢𐰔 : --- : 𐰃𐰠𐰃𐰤 : 𐰖𐰣𐰀 : 𐰋𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "SÜŊüŞDüMüZ : --- : İLİN : YaNA : BİRTiMiZ",
+      "kelimeKarsiliklari": "SÜNGÜŞDÜK : --- : İLİNİ : YİNE : VERDİK",
+      "kelimeSayisi": 5,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-17#7",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        35,
+        41
+      ],
+      "runik": "𐰠𐰏𐰼𐰇 : 𐰴𐰑𐰺𐰴𐰣 : 𐰘𐱁𐰍 : 𐱁𐰀 : 𐰉𐰆𐰑𐰣𐰍 : 𐰨𐰀 : 𐰸𐰆𐰦𐰆𐰺𐱃𐰢𐰔",
+      "transkripsiyon": "iLGeRÜ : KaDıRKaN : YıŞıG : aŞA : BODuNıG : aNÇA : KONDURTuMıZ",
+      "kelimeKarsiliklari": "İLERİ : KADIRKAN : YIŞI : AŞIP : BOYLARI : ANCA : KONDURDUK",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-17#8",
+      "dizeId": "BK-D-17",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 17,
+      "kelimeAraligi": [
+        42,
+        44
+      ],
+      "runik": "𐰨𐰀 : 𐰃𐱅𐰓𐰢𐰔 : 𐰸𐰆𐰺𐰍𐰺𐰆",
+      "transkripsiyon": "aNÇA : İTDiMiZ : KURıGaRU",
+      "kelimeKarsiliklari": "ANCA : EĞİTTİK : GERİDE",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-18#1",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐰚𐰭𐰇 : 𐱃𐰺𐰉𐰣𐰴𐰀 : 𐱅𐰏𐰃 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰍 : 𐰨𐰀 : 𐰸𐰆𐰦𐰺𐱃𐰢𐰔",
+      "transkripsiyon": "KeŊÜ : TaRBaNKA : TeGİ : TÜRK : BODuNıG : aNÇA : KONDuRTuMıZ",
+      "kelimeKarsiliklari": "KENGÜ : TARMANA : DEĞİN : TÜRK : BOYLARINI : ANCA : KONDURDUK",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-18#2",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        7,
+        13
+      ],
+      "runik": "𐰨𐰀 : 𐱅𐰓𐰢𐰔 : 𐰆𐰞 : 𐰇𐰓𐰚𐰀 : 𐰸𐰆𐰞 : 𐰸𐰆𐰞𐰞𐰍 : 𐰚𐰇𐰭",
+      "transkripsiyon": "aNÇA : iTDiMiZ : OL : ÖDKE : KUL : KULLuG : KÜŊ",
+      "kelimeKarsiliklari": "ANCA : [DÜZEN] ETDİK : O : DEVİRDE : KUL : KULLUK : CARİYE",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

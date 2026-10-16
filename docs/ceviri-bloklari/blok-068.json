@@ -1,0 +1,207 @@
+{
+  "blok": 68,
+  "blokSayisi": 96,
+  "dosya": "blok-068.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-K-3#8",
+      "dizeId": "BK-K-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        34,
+        40
+      ],
+      "runik": "𐰉𐰆 : 𐰘𐰃𐰼𐰓𐰃 : 𐰆𐰞𐰺𐰯 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐰋𐰃𐰼𐰠𐰀 : 𐱅𐰇𐰔𐰠𐱅𐰢",
+      "transkripsiyon": "BU : YİRDE : OLuRuP : TaBGaÇ : BODuN : BİRLE : TÜZüLTüM",
+      "kelimeKarsiliklari": "BU : YERDE : OTURUP : TABGAÇ : BOYLARI : İLE : TÜZÜLTTÜM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-3#9",
+      "dizeId": "BK-K-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        41,
+        43
+      ],
+      "runik": "𐰞𐱃𐰆𐰣 : 𐰚𐰇𐰢𐱁 : 𐰃𐰾𐰏𐱅𐰃",
+      "transkripsiyon": "aLTUN : KÜMüŞ : İŞGiTİ",
+      "kelimeKarsiliklari": "ALTINI : GÜMÜŞÜ : İŞGİTİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-4#1",
+      "dizeId": "BK-K-4",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰸𐰆𐱃𐰖 : 𐰉𐰆𐰭𐰽𐰔 : 𐰨𐰀 : 𐰋𐰃𐰼𐰇𐰼",
+      "transkripsiyon": "KUTaY : BUŊSuZ : aNÇA : BİRÜR",
+      "kelimeKarsiliklari": "KUTAYI : BUNGSUZ : ANCA : VERİR",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-4#2",
+      "dizeId": "BK-K-4",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        4,
+        10
+      ],
+      "runik": "𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐰽𐰉𐰃 : 𐰾𐰇𐰲𐰃𐰏 : 𐰍𐰃𐰾𐰃 : 𐰘𐰃𐰢𐱁𐰴 : 𐰼𐰢𐰾",
+      "transkripsiyon": "TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRMiŞ",
+      "kelimeKarsiliklari": "TABGAÇ : BOYLARININ : SÖZÜ : SÜÇİ : AĞISI : YUMUŞAK : İMİŞ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-4#3",
+      "dizeId": "BK-K-4",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        11,
+        20
+      ],
+      "runik": "𐰾𐰇𐰲𐰃𐰏 : 𐰽𐰉𐰣 : 𐰘𐰃𐰢𐱁𐰴 : 𐰍𐰃𐰤 : 𐰺𐰯 : 𐰃𐰺𐰴 : 𐰉𐰑𐰣𐰍 : 𐰨𐰀 : 𐰖𐰍𐰆𐱃𐰃𐰼 : 𐰼𐰢𐰾",
+      "transkripsiyon": "SÜÇİG : SaBıN : YIMŞaK : aGIN : aRıP : IRaK : BoDuNuG : aNÇA : YaGUTIR : eRMiŞ",
+      "kelimeKarsiliklari": "SÜÇİ : SÖZÜ : YUMUŞAK : ÂĞI [İLE] : ARIP : IRAK : BOYLARI : ANCA : YAĞUTUR : İMİŞ",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-4#4",
+      "dizeId": "BK-K-4",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        21,
+        27
+      ],
+      "runik": "𐰖𐰍𐰺𐰆 : 𐰸𐰆𐰦𐰸𐰑𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰪𐰍 : 𐰋𐰃𐰠𐰏𐰤 : 𐰦𐰀 : 𐰇𐰘𐰇𐰼",
+      "transkripsiyon": "YaGuRU : KONDUKDA : KİSRE : aYNıG : BİLiGiN : aNDA : ÖYÜR",
+      "kelimeKarsiliklari": "YAKLAŞIP : KONDUKTAN : SONRA : ANYI : BİLGİLERİNİ : [O] ANDA : ÖYÜR",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-4#5",
+      "dizeId": "BK-K-4",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        28,
+        36
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰓𐰏𐰇 : 𐰋𐰃𐰠𐰏𐰀 : 𐰚𐰃𐰾𐰃𐰏 : 𐰓𐰏𐰇 : 𐰞𐰯 : 𐰚𐰃𐰾𐰃𐰏 : 𐰖𐰆𐰺𐱃𐰢𐰔 : 𐰼𐰢𐰾",
+      "transkripsiyon": "eRMiŞ : eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ",
+      "kelimeKarsiliklari": "İMİŞ : İYİ : BİLGİLİ : KİŞİYİ : İYİ : ALP : KİŞİYİ : YÜRÜTMEZ : İMİŞ",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-4#6",
+      "dizeId": "BK-K-4",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        37,
+        44
+      ],
+      "runik": "𐰋𐰃𐰼 : 𐰚𐰃𐰾𐰃 : 𐰖𐰍𐰞𐰽𐰺 : 𐰆𐰍𐱁𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐰋𐰃𐰾𐰜𐰃𐰭𐰀 : 𐱅𐰏𐰃 : 𐰶𐰃𐰑𐰢𐰔",
+      "transkripsiyon": "BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ : KIDMaZ",
+      "kelimeKarsiliklari": "BİR : KİŞİ : YANILSA : OĞUŞUNA : BOYLARINA : BEŞİĞİNE : DEĞİN : KIYMAZ",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-5#1",
+      "dizeId": "BK-K-5",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 5,
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰾𐰇𐰲𐰃𐰏 : 𐰽𐰉𐰃𐰭𐰀 : 𐰘𐰢𐱁𐰴 : 𐰍𐰃𐰾𐰃𐰍𐰀 : 𐰺𐱃𐰆𐰺𐰯 : 𐰜𐰇𐰾 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐱅𐰏 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐰾𐰚𐰭",
+      "transkripsiyon": "eRMiŞ : SÜÇİG : SaBıŊA : YıMŞaK : aGISIŊA : aRTURuP : ÖKÜŞ : TÜRK : BODuN : ÖLTüG : TÜRK : BODuN : ÖLSiKiŊ",
+      "kelimeKarsiliklari": "İMİŞ : SÜÇİ : SÖZÜNE : YUMUŞAK : AĞISINA : ARTURUP : ÇOK : TÜRK : BOYLARI : ÖLDÜ : TÜRK : BOYLARI : ÖLECEKSİN",
+      "kelimeSayisi": 13,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-K-5#2",
+      "dizeId": "BK-K-5",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 5,
+      "kelimeAraligi": [
+        13,
+        27
+      ],
+      "runik": "𐰋𐰼𐰘𐰀 : 𐰲𐰆𐰍𐰖 : 𐰘𐰃𐱁 : 𐱅𐰇𐰏𐰠𐱅𐰤 : 𐰖𐰔𐰃 : 𐰸𐰆𐰣𐰖𐰃𐰤 : 𐱅𐰃𐰾𐰼 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐰾𐰚𐰏 : 𐰦𐰀 : 𐰪𐰍 : 𐰚𐰃𐰾𐰃 : 𐰨𐰀 : 𐰉𐰆𐱁𐰍𐰆𐰺𐰆𐰺",
+      "transkripsiyon": "BeRiYE : ÇOGaY : YIŞ : TÖGüLTüN : YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aYNıG : KİŞİ : aNÇA : BOŞGURUR",
+      "kelimeKarsiliklari": "BERİDE : ÇOĞAY : YIŞ[INA] : TÖGÜLTÜN : YAZINA : KONAYIM : DESEN : TÜRK : BOYLARI : ÖLECEKSİN : [O] ANDA : ANYI : KİŞİ : ANÇA : BOŞGURUR",
+      "kelimeSayisi": 15,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    }
+  ]
+}

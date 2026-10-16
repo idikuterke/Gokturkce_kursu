@@ -1,0 +1,207 @@
+{
+  "blok": 4,
+  "blokSayisi": 96,
+  "dosya": "blok-004.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-G-7#2",
+      "dizeId": "KT-G-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 7,
+      "kelimeAraligi": [
+        11,
+        16
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰃𐰺𐰴 : 𐰼𐰾𐰼 : 𐰖𐰉𐰞𐰴 : 𐰍𐰃 : 𐰋𐰃𐰼𐰇𐰼",
+      "transkripsiyon": "eRMiŞ : IRaK : eRSeR : YaBLaK : aGI : BİRÜR",
+      "kelimeKarsiliklari": "İMİŞ : IRAK : İSEN : YAVLAK : AĞI : VERİR",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-7#3",
+      "dizeId": "KT-G-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 7,
+      "kelimeAraligi": [
+        17,
+        21
+      ],
+      "runik": "𐰖𐰍𐰸 : 𐰼𐰾𐰼 : 𐰓𐰏𐰇 : 𐰍𐰃 : 𐰋𐰃𐰼𐰇𐰼",
+      "transkripsiyon": "YaGuK : eRSeR : eDGÜ : aGI : BİRÜR",
+      "kelimeKarsiliklari": "YAKIN : İSEN : İYİ : AĞI : VERİR",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-7#4",
+      "dizeId": "KT-G-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 7,
+      "kelimeAraligi": [
+        22,
+        24
+      ],
+      "runik": "𐱅𐰃𐰯 : 𐰨𐰀 : 𐰉𐰆𐱁𐰍𐰆𐰺𐰆𐰺",
+      "transkripsiyon": "TİP : aNÇA : BOŞGURUR",
+      "kelimeKarsiliklari": "DEYİP : ANCA : BOŞGURUR",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-7#5",
+      "dizeId": "KT-G-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 7,
+      "kelimeAraligi": [
+        25,
+        36
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰋𐰃𐰠𐰏 : 𐰋𐰃𐰠𐰢𐰔 : 𐰚𐰃𐰾𐰃 : 𐰆𐰞 : 𐰽𐰉𐰍 : 𐰞𐰯 : 𐰖𐰍𐰺𐰆 : 𐰉𐰺𐰯 : 𐰇𐰚𐱁 : 𐰚𐰃𐱁𐰃 : 𐰇𐰠𐱅𐰏",
+      "transkripsiyon": "eRMiŞ : BİLiG : BİLMeZ : KİŞİ : OL : SaBıG : aLıP : YaGuRU : BaRıP : ÖKüŞ : KİŞİ : ÖLTüG",
+      "kelimeKarsiliklari": "İMİŞ : BİLGİ : BİLMEZ : KİŞİ : O : SÖZÜ : ALIP : YAKINA : VARIP : ÇOK : KİŞİ : ÖLDÜ",
+      "kelimeSayisi": 12,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-8#1",
+      "dizeId": "KT-G-8",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 8,
+      "kelimeAraligi": [
+        0,
+        37
+      ],
+      "runik": "𐰆𐰞 : 𐰘𐰼𐰏𐰼𐰇 : 𐰉𐰺𐰽𐰺 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐱅𐰲𐰃 : 𐰾𐰤 : 𐰇𐱅𐰇𐰚𐰤 : 𐰘𐰃𐰼 : 𐰆𐰞𐰺𐰯 : 𐰺𐰴𐱁 : 𐱅𐰃𐰼𐰚𐱁 : 𐰃𐰽𐰺 : 𐰤𐰭 : 𐰉𐰆𐰭𐰍 : 𐰖𐰸 : 𐰇𐱅𐰜𐰤 : 𐰘𐰃𐱁 : 𐰆𐰞𐰺𐰽𐰺 : 𐰋𐰭𐰏𐰇 : 𐰃𐰠 : 𐱃𐰆𐱃𐰀 : 𐰆𐰞𐰺𐱃𐰲𐰃 : 𐰾𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐱃𐰸𐰺𐰴𐰴 : 𐰾𐰤 : 𐰀𐰲𐰾𐰴 : 𐱃𐰆𐰽𐰴 : 𐰇𐰢𐰔 : 𐰾𐰤 : 𐰋𐰃𐰼 : 𐱃𐰆𐰑𐰽𐰺 : 𐰀𐰲𐰾𐰴 : 𐰇𐰢𐰔 : 𐰾𐰤 : 𐰦𐰍𐰭𐰣",
+      "transkripsiyon": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK : ÖTÜKeN : YIŞ : OLuRSaR : BeŊGÜ : İL : TUTA : OLuRTaÇI : SeN : TÜRK : BODuN : TOKuRKaK : SeN : AÇSıK : TOSıK : ÖMeZ : SeN : BİR : TODSaR : AÇSıK : ÖMeZ : SeN : aNTaGıŊıN",
+      "kelimeKarsiliklari": "O : YERLERE : VARIRSAN : TÜRK : BOYLARI : ÖLECEK : SEN : ÖTÜKEN : YERİNDE : OTURUP : ARKIŞ : TİRGİŞ : [GÖNDERİR] İSEN : NE : BUNGUN : YOK : ÖTÜKEN : YIŞDA : OTURSAN : BENGÜ : İL : TUTUP : OTURACAK : SEN : TÜRK : BOYLARI : TOKSAN : SEN : AÇLIĞI : TOKLUĞU : DÜŞÜNMEZ : SEN : BİR : DOYSAN : AÇLIĞI : DÜŞÜNMEZ : SEN : ÖYLE [OLDUĞUN]",
+      "kelimeSayisi": 38,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-9#1",
+      "dizeId": "KT-G-9",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        0,
+        19
+      ],
+      "runik": "𐰇𐰲𐰇𐰤 : 𐰃𐰏𐰓𐰢𐱁 : 𐰴𐰍𐰣𐰭𐰣 : 𐰽𐰉𐰃𐰤 : 𐰞𐰢𐱃𐰃𐰤 : 𐰘𐰃𐰼 : 𐰽𐰖𐰆 : 𐰉𐰺𐰑𐰍 : 𐰴𐰆𐰯 : 𐰦𐰀 : 𐰞𐰴𐰦𐰍 : 𐰺𐰞𐱃𐰍 : 𐰦𐰀 : 𐰴𐰞𐰢𐱁𐰃 : 𐰘𐰃𐰼 : 𐰽𐰖𐰆 : 𐰸𐰆𐰯 : 𐱃𐰆𐰺𐰆 : 𐰇𐰠𐰇 : 𐰖𐰆𐰺𐰖𐰆𐰺",
+      "transkripsiyon": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : YİR : SaYU : KOP : TORU : ÖLÜ : YORıYUR",
+      "kelimeKarsiliklari": "İÇİN : [SENİ] YEDİRMİŞ : KAĞANININ : SÖZÜNÜ : ALMADAN : YERE : HER : VARDIN : HEP : [O] ANDA : ALKINDIN : ARILDIN : [O] ANDA : KALMIŞI : YERE : HER : HEP : DORUP : ÖLÜP : YÜRÜYOR",
+      "kelimeSayisi": 20,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-9#2",
+      "dizeId": "KT-G-9",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        20,
+        25
+      ],
+      "runik": "𐰼𐱅𐰏 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰇𐰔𐰢 : 𐰸𐰆𐱃𐰢",
+      "transkripsiyon": "eRTiG : TeŊRİ : YaRLıKaDUKIN : ÜÇÜN : ÖZüM : KUTuM",
+      "kelimeKarsiliklari": "İDİ[LER] : TANRI : BUYURDUĞU : İÇİN : ÖZÜM : KUTUM",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-9#3",
+      "dizeId": "KT-G-9",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        26,
+        31
+      ],
+      "runik": "𐰉𐰺 : 𐰇𐰲𐰇𐰤 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰯",
+      "transkripsiyon": "BaR : ÜÇÜN : KaGaN : OLuRTuM : KaGaN : OLuRuP",
+      "kelimeKarsiliklari": "VAR [OLDUĞU] : İÇİN : KAĞAN : OTURDUM : KAĞAN : OTURUP",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-10#1",
+      "dizeId": "KT-G-10",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 10,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰖𐰸 : 𐰲𐰃𐰍𐰪 : 𐰉𐰆𐰑𐰣𐰍 : 𐰸𐰆𐰯 : 𐰸𐰆𐰉𐰺𐱃𐰑𐰢",
+      "transkripsiyon": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM",
+      "kelimeKarsiliklari": "YOK : ÇIĞANY : BOYLARI : HEP : TOPARLADIM",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-G-10#2",
+      "dizeId": "KT-G-10",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Güney",
+      "satir": 10,
+      "kelimeAraligi": [
+        5,
+        8
+      ],
+      "runik": "𐰲𐰃𐰍𐰪 : 𐰉𐰆𐰑𐰣𐰍 : 𐰉𐰖 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "ÇIGaYN : BODuNuG : BaY : KILDıM",
+      "kelimeKarsiliklari": "ÇIĞANY : BOYLARI : BAY : KILDIM",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

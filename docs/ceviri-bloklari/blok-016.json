@@ -1,0 +1,207 @@
+{
+  "blok": 16,
+  "blokSayisi": 96,
+  "dosya": "blok-016.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-D-20#3",
+      "dizeId": "KT-D-20",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 20,
+      "kelimeAraligi": [
+        8,
+        10
+      ],
+      "runik": "𐰾𐰃𐰭𐰠𐰢 : 𐰸𐰆𐰨𐰖𐰆𐰍 : 𐰋𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "SİŊiLiM : KONÇuYUG : BİRTiMiZ",
+      "kelimeKarsiliklari": "SİNGİLİM : KONÇUYU : VERDİK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-20#4",
+      "dizeId": "KT-D-20",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 20,
+      "kelimeAraligi": [
+        11,
+        14
+      ],
+      "runik": "𐰇𐰔𐰃 : 𐰖𐰭𐰡𐰃 : 𐰴𐰍𐰣𐰃 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ",
+      "kelimeKarsiliklari": "ÖZÜ : YANILDI : KAĞANI : ÖLDÜ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-20#5",
+      "dizeId": "KT-D-20",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 20,
+      "kelimeAraligi": [
+        15,
+        18
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰃 : 𐰚𐰇𐰭 : 𐰸𐰆𐰞 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "BODuNI : KÜŊ : KUL : BOLDI",
+      "kelimeKarsiliklari": "BOYLARI : CARİYE : KUL : OLDU",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-20#6",
+      "dizeId": "KT-D-20",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 20,
+      "kelimeAraligi": [
+        19,
+        29
+      ],
+      "runik": "𐰚𐰇𐰏𐰢𐰤 : 𐰘𐰃𐰼 : 𐰽𐰆𐰉 : 𐰃𐰓𐰾𐰔 : 𐰴𐰞𐰢𐰔𐰆𐰣 : 𐱅𐰃𐰘𐰤 : 𐰔 : 𐰴𐰃𐰺𐰴𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰖𐰺𐱃𐰯 : 𐰚𐰠𐱅𐰢𐰔",
+      "transkripsiyon": "KÖGMeN : YİR : SUB : İDSiZ : KaLMaZUN : TİYiN : aZ : KIRKıZ : BODuNıG : YaRaTıP : KeLTiMiZ",
+      "kelimeKarsiliklari": "KÖGMEN : YERİ : SUYU : ISSIZ : KALMASIN : DİYE : AZ : KIRGIZ : BOYLARINI : YARATIP : GELDİK",
+      "kelimeSayisi": 11,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-20#7",
+      "dizeId": "KT-D-20",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 20,
+      "kelimeAraligi": [
+        30,
+        32
+      ],
+      "runik": "𐰾𐰇𐰭𐱁𐰓𐰢𐰔 : --- : 𐰃𐰠𐰃𐰤",
+      "transkripsiyon": "SÜŊüŞDüMüZ : --- : İLİN",
+      "kelimeKarsiliklari": "SÜNGÜŞDÜK : --- : İLİNİ",
+      "kelimeSayisi": 3,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-21#1",
+      "dizeId": "KT-D-21",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 21,
+      "kelimeAraligi": [
+        0,
+        8
+      ],
+      "runik": "𐰖𐰣𐰀 : 𐰋𐰃𐰼𐱅𐰢𐰔 : 𐰠𐰏𐰼𐰇 : 𐰴𐰑𐰺𐰴𐰣 : 𐰘𐱁𐰍 : 𐱁𐰀 : 𐰉𐰆𐰑𐰣𐰍 : 𐰨𐰀 : 𐰸𐰆𐰦𐰆𐰺𐱃𐰢𐰔",
+      "transkripsiyon": "YaNA : BİRTiMiZ : iLGeRÜ : KaDıRKaN : YıŞıG : aŞA : BODuNıG : aNÇA : KONDURTuMıZ",
+      "kelimeKarsiliklari": "YANA : VERDİK : İLERİ : KADIRKAN : YIŞI : AŞIP : BOYLARI : ANCA : KONDURDUK",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-21#2",
+      "dizeId": "KT-D-21",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 21,
+      "kelimeAraligi": [
+        9,
+        18
+      ],
+      "runik": "𐰨𐰀 : 𐰃𐱅𐰓𐰢𐰔 : 𐰸𐰆𐰺𐰍𐰺𐰆 : 𐰚𐰭𐰇 : 𐱃𐰺𐰢𐰣𐰴𐰀 : 𐱅𐰏𐰃 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰍 : 𐰨𐰀 : 𐰸𐰆𐰦𐰺𐱃𐰢𐰔",
+      "transkripsiyon": "aNÇA : İTDiMiZ : KURıGaRU : KeŊÜ : TaRMaNKA : TeGİ : TÜRK : BODuNıG : aNÇA : KONDuRTuMıZ",
+      "kelimeKarsiliklari": "ANCA : [DÜZEN] ETDİK : GERİDE : KENGÜ : TARMANA : DEĞİN : TÜRK : BOYLARINI : ANCA : KONDURDUK",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-21#3",
+      "dizeId": "KT-D-21",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 21,
+      "kelimeAraligi": [
+        19,
+        26
+      ],
+      "runik": "𐰨𐰀 : 𐱅𐰓𐰢𐰔 : 𐰆𐰞 : 𐰇𐰓𐰚𐰀 : 𐰸𐰆𐰞 : 𐰸𐰆𐰞𐰞𐰍 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐱅𐰃",
+      "transkripsiyon": "aNÇA : iTDiMiZ : OL : ÖDKE : KUL : KULLuG : BOLMıS : eRTİ",
+      "kelimeKarsiliklari": "ANCA : [DÜZEN] ETTİK : O : DEVİRDE : KUL : KULLU : OLMUŞ : İDİ",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-21#4",
+      "dizeId": "KT-D-21",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 21,
+      "kelimeAraligi": [
+        27,
+        30
+      ],
+      "runik": "𐰚𐰇𐰭 : 𐰚𐰇𐰭𐰠𐰍 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐱅𐰃",
+      "transkripsiyon": "KÜŊ : KÜŊLiG : BOLMıS : eRTİ",
+      "kelimeKarsiliklari": "CARİYE : CARİYELİK : OLMUŞ : İDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-21#5",
+      "dizeId": "KT-D-21",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 21,
+      "kelimeAraligi": [
+        31,
+        34
+      ],
+      "runik": "𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐰋𐰃𐰠𐰢𐰔 : 𐰼𐱅𐰃",
+      "transkripsiyon": "İNİSİ : eÇİSİN : BİLMeZ : eRTİ",
+      "kelimeKarsiliklari": "İNİSİ : EÇİSİNİ : BİLMEZ : İDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

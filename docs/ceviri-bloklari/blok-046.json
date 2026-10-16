@@ -1,0 +1,207 @@
+{
+  "blok": 46,
+  "blokSayisi": 96,
+  "dosya": "blok-046.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-D-18#3",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        14,
+        16
+      ],
+      "runik": "𐰚𐰇𐰭𐰠𐰍 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐱅𐰃",
+      "transkripsiyon": "KÜŊLiG : BOLMıS : eRTİ",
+      "kelimeKarsiliklari": "CARİYELİK : OLMUŞ : İDİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-18#4",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        17,
+        20
+      ],
+      "runik": "𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐰋𐰃𐰠𐰢𐰔 : 𐰼𐱅𐰃",
+      "transkripsiyon": "İNİSİ : eÇİSİN : BİLMeZ : eRTİ",
+      "kelimeKarsiliklari": "İNİSİ : EÇİSİNİ : BİLMEZ : İDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-18#5",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        21,
+        24
+      ],
+      "runik": "𐰆𐰍𐰞𐰃 : 𐰴𐰭𐰃𐰤 : 𐰋𐰃𐰠𐰢𐰔 : 𐰼𐱅𐰃",
+      "transkripsiyon": "OGLI : KaŊIN : BİLMeZ : eRTİ",
+      "kelimeKarsiliklari": "OĞLU : BABASINI : BİLMEZ : İDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-18#6",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        25,
+        28
+      ],
+      "runik": "𐰨𐰀 : 𐰴𐰔𐰍𐰣𐰢𐰾 : 𐰨𐰀 : 𐰃𐱅𐰢𐰾",
+      "transkripsiyon": "aNÇA : KaZGaNMıŞ : aNÇA : İTMiŞ",
+      "kelimeKarsiliklari": "ANCA : KAZANILMIŞ : ANCA : EDİLMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-18#7",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        29,
+        31
+      ],
+      "runik": "𐰠𐰢𐰔 : 𐱅𐰇𐰼𐰇𐰢𐰔 : 𐰼𐱅𐰃",
+      "transkripsiyon": "İLiMiZ : TÖRÜMiZ : eRTİ",
+      "kelimeKarsiliklari": "İLİMİZ : TÖREMİZ : [VAR] İDİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-18#8",
+      "dizeId": "BK-D-18",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 18,
+      "kelimeAraligi": [
+        32,
+        42
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰆𐰍𐰔 : 𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣 : 𐰾𐰓 : 𐰇𐰔𐰀 : 𐱅𐰭𐰼𐰃 : 𐰉𐰽𐰢𐰽𐰺 : 𐰽𐰺𐰀 : 𐰘𐰃𐰼 : 𐱅𐰠𐰤𐰢𐰾𐰼",
+      "transkripsiyon": "TÜRK : OGuZ : BeGLeRİ : BODuN : eŞiD : ÜZE : TeŊRİ : BaSMaSaR : aSRA : YİR : TeLiNMeSeR",
+      "kelimeKarsiliklari": "TÜRK : OĞUZ : BEĞLERİ : BOYLARI : İŞİT : ÜSTTE : TANRI : BASMASA : ALTTA : YER : DELİNMESE",
+      "kelimeSayisi": 11,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-19#1",
+      "dizeId": "BK-D-19",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 19,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰠𐰭𐰤 : 𐱅𐰇𐰼𐰇𐰭𐰤 : 𐰚𐰢 : 𐰺𐱃𐱃𐰃",
+      "transkripsiyon": "TÜRK : BODuN : iLiŊiN : TÖRÜŊiN : KiM : aRTaTI",
+      "kelimeKarsiliklari": "TÜRK : BOYLARI : İLİNİ : TÖRENİ : KİM : DAĞITIP",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-19#2",
+      "dizeId": "BK-D-19",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 19,
+      "kelimeAraligi": [
+        6,
+        14
+      ],
+      "runik": "𐰆𐰑𐰀𐰲𐰃 : 𐰼𐱅𐰃 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰼𐱅𐰤 : 𐰇𐰚𐰇𐰤 : 𐰚𐰇𐰼𐰏𐰇𐰭𐰤 : 𐰇𐰲𐰇𐰤 : 𐰃𐰏𐰓𐰢𐰾",
+      "transkripsiyon": "UDAÇI : eRTİ : TÜRK : BODuN : eRTiN : ÖKÜN : KÜReGÜŊiN : ÜÇÜN : İGiDMiŞ",
+      "kelimeKarsiliklari": "YIKACAK : İDİ? : TÜRK : BOYLARI : İDİN : ÖKÜN : GÜRLÜĞÜN : İÇİN : YEDİRMİŞ",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-19#3",
+      "dizeId": "BK-D-19",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 19,
+      "kelimeAraligi": [
+        15,
+        17
+      ],
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣𐰭𐰀 : 𐰼𐰢𐰾",
+      "transkripsiyon": "BİLGE : KaGaNıŊA : eRMiŞ",
+      "kelimeKarsiliklari": "BİLGE : KAĞANINA : ERMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-19#4",
+      "dizeId": "BK-D-19",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 19,
+      "kelimeAraligi": [
+        18,
+        21
+      ],
+      "runik": "𐰉𐰺𐰢𐰾 : 𐰓𐰏𐰇 : 𐰠𐰭𐰀 : 𐰚𐰦𐰇",
+      "transkripsiyon": "BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ",
+      "kelimeKarsiliklari": "VARMIŞ : İYİ : İLİNE : KENDİN",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

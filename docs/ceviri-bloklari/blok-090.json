@@ -1,0 +1,207 @@
+{
+  "blok": 90,
+  "blokSayisi": 96,
+  "dosya": "blok-090.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY2-B-3#1",
+      "dizeId": "TY2-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰚𐰲𐰀 : 𐰚𐰠𐱅𐰢𐰔 : 𐰚𐰠𐰢𐰾𐰃 : 𐰞𐰯 : 𐱅𐰃𐰓𐰃",
+      "transkripsiyon": "KeÇE : KeLTiMiZ : KeLMiŞİ : aLP : TİDİ",
+      "kelimeKarsiliklari": "GEÇİP : GELDİK : GELMİŞ[LER]İ : ALP : DEDİ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-3#2",
+      "dizeId": "TY2-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        5,
+        12
+      ],
+      "runik": "𐱃𐰆𐰖𐰢𐰑𐰃 : 𐱅𐰭𐰼𐰃 : 𐰆𐰢𐰖 : 𐰃𐰑𐰸 : 𐰘𐰼 : 𐰾𐰆𐰉 : 𐰉𐰽𐰀 : 𐰋𐰼𐱅𐰃",
+      "transkripsiyon": "TUYMaDI : TeŊRİ : UMaY : IDUK : YiR : SUB : BaSA : BiRTİ",
+      "kelimeKarsiliklari": "DUYMADI : TANRI : UMAY : KUTLU : YER : SU : BASA : VERDİ",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-3#3",
+      "dizeId": "TY2-B-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 3,
+      "kelimeAraligi": [
+        13,
+        16
+      ],
+      "runik": "𐰼𐰨 : 𐰤𐰚𐰀 : 𐱅𐰔𐰼 : 𐰋𐰃𐰔",
+      "transkripsiyon": "eRiNÇ : NeKE : TeZeR : BİZ",
+      "kelimeKarsiliklari": "GERÇEK : NEKİ : TEZER[İZ] : BİZ?",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-4#1",
+      "dizeId": "TY2-B-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 4,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰜𐰇𐰾 : 𐱅𐰘𐰤 : 𐰤𐰚𐰀 : 𐰸𐰆𐰺𐰸𐰆𐰺",
+      "transkripsiyon": "ÖKÜŞ : TiYiN : NeKE : KORKUR",
+      "kelimeKarsiliklari": "[DÜŞMAN] ÖKÜŞ : DİYE : NEKİ : KORKAR[IZ]",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-4#2",
+      "dizeId": "TY2-B-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 4,
+      "kelimeAraligi": [
+        4,
+        10
+      ],
+      "runik": "𐰋𐰃𐰔 : 𐰔 : 𐱅𐰘𐰤 : 𐰤𐰀 : 𐰉𐰽𐰣𐰞𐰢 : 𐱅𐰏𐰠𐰢 : 𐱅𐰃𐰓𐰢",
+      "transkripsiyon": "BİZ : aZ : TiYiN : NE : BaSıNaLıM : TeGeLiM : TİDiM",
+      "kelimeKarsiliklari": "BİZ? : AZ[IZ] : DİYE : NE[DEN] : BASMAYALIM? : DEĞELİM : DEDİM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-4#3",
+      "dizeId": "TY2-B-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 4,
+      "kelimeAraligi": [
+        11,
+        15
+      ],
+      "runik": "𐱅𐰏𐰓𐰢𐰔 : 𐰖𐰖𐰃𐰑𐰢𐰔 : 𐰚𐰃𐰤𐱅𐰃 : 𐰜𐰇𐰾 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "TeGDiMiZ : YaYIDıMıZ : iKİNTİ : ÖKÜŞ : KeLTİ",
+      "kelimeKarsiliklari": "DEĞDİK : YAYDIK : İKİNCİ [GÜN] : ÇOKÇA : GELDİ[LER]",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-5#1",
+      "dizeId": "TY2-B-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 5,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰇𐰼𐱅𐰲𐰀 : 𐰶𐰃𐰔𐰯 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "ÖRTÇE : KIZıP : KeLTİ",
+      "kelimeKarsiliklari": "ÖRTÇE : KIZIP : GELDİ[LER]",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-5#2",
+      "dizeId": "TY2-B-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 5,
+      "kelimeAraligi": [
+        3,
+        9
+      ],
+      "runik": "𐰾𐰇𐰭𐰾𐰓𐰢𐰔 : 𐰋𐰃𐰔𐰤𐱅𐰀 : 𐰚𐰃 : 𐰆𐰲𐰃 : 𐰾𐰃𐰭𐰺𐰲𐰀 : 𐰺𐱃𐰸 : 𐰼𐱅𐰃",
+      "transkripsiyon": "SÜŊüŞDüMüZ : BİZiNTE : iKİ : UÇI : SIŊaRÇA : aRTUK : eRTİ",
+      "kelimeKarsiliklari": "SÜNGÜŞDÜK : BİZDEN : İKİ : ÜÇ : SINGARCA : ARTI : İDİ[LER]",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-5#3",
+      "dizeId": "TY2-B-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 5,
+      "kelimeAraligi": [
+        10,
+        15
+      ],
+      "runik": "𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰤 : 𐰜𐰇𐰾 : 𐱅𐰘𐰤 : 𐰋𐰃𐰔",
+      "transkripsiyon": "TeŊRİ : YaRLıKaDUK : ÜÇüN : ÖKÜŞ : TiYiN : BİZ",
+      "kelimeKarsiliklari": "TANRI : YARLIKADIĞI : İÇİN : ÇOKÇA : DİYE : BİZ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-B-6#1",
+      "dizeId": "TY2-B-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Batı",
+      "satir": 6,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰸𐰆𐰺𐰴𐰢𐰑𐰢𐰔 : 𐰾𐰇𐰭𐰾𐰓𐰢𐰔 : 𐱃𐰺𐰑𐰆𐰾 : 𐰽𐰑𐰺𐰀 : 𐰆𐰑𐰃",
+      "transkripsiyon": "KORKMaDıMıZ : SÜŊüŞDüMüZ : TaRDUŞ : ŞaDRA : UDI",
+      "kelimeKarsiliklari": "KORKMADIK : SÜNGÜŞDÜK : TARDUŞ : ŞADARA [KADAR] : UDUP [KOVUP]",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

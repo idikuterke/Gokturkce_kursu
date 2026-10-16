@@ -1,0 +1,207 @@
+{
+  "blok": 23,
+  "blokSayisi": 96,
+  "dosya": "blok-023.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-D-33#3",
+      "dizeId": "KT-D-33",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 33,
+      "kelimeAraligi": [
+        16,
+        24
+      ],
+      "runik": "𐰚𐰓𐰢𐰠𐰏 : 𐱃𐰆𐰺𐰍 : 𐱃 : 𐰋𐰃𐰤𐰯 : 𐱅𐰏𐰓𐰃 : 𐰆𐰞 : 𐱃 : 𐰦𐰀 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "KiDiMLiG : TORuG : aT : BİNiP : TeGDİ : OL : aT : aNDA : ÖLTİ",
+      "kelimeKarsiliklari": "GİYİMLİ : DORU : ATINA : BİNİP : [YAĞIYA] DEĞDİ : O : AT : [O] ANDA : ÖLDÜ",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-33#4",
+      "dizeId": "KT-D-33",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 33,
+      "kelimeAraligi": [
+        25,
+        30
+      ],
+      "runik": "𐰖𐰺𐰴𐰃𐰦𐰀 : 𐰖𐰞𐰢𐰽𐰃𐰦𐰀 : 𐰘𐰇𐰔 : 𐰺𐱃𐰸 : 𐰸𐰆𐰣 : 𐰆𐰺𐱃𐰃",
+      "transkripsiyon": "YaRıKINDA : YaLMaSINDA : YÜZ : aRTUK : OKUN : URTI",
+      "kelimeKarsiliklari": "KALKANINA : YALMASINA : YÜZ : ARTI : OK : VURDU",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-33#5",
+      "dizeId": "KT-D-33",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 33,
+      "kelimeAraligi": [
+        31,
+        34
+      ],
+      "runik": "𐰘𐰃𐰔𐰭𐰀 : 𐰉𐱁𐰃𐰭𐰀 : 𐰋𐰃𐰼 : 𐱅𐰏𐰼𐰢𐰓𐰃",
+      "transkripsiyon": "YİZiŊE : BaŞIŊA : BİR : TeGiRMedİ",
+      "kelimeKarsiliklari": "YÜZÜNE : BAŞINA : BİR[İNİ] : DEĞİRMEDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-34#1",
+      "dizeId": "KT-D-34",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 34,
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐱅𐰏𐰓𐰜𐰃𐰤 : 𐱅𐰇𐰼𐰜 : 𐰋𐰏𐰠𐰼 : 𐰴𐰆𐰯 : 𐰋𐰃𐰠𐰃𐰼𐰾𐰃𐰔 : 𐰆𐰞 : 𐰾𐰇𐰏 : 𐰦𐰀 : 𐰖𐰸 : 𐰴𐱁𐰑𐰢𐰔",
+      "transkripsiyon": "TeKDÜKİN : TÜRK : BeGLeR : KOP : BİLİRSİZ : OL : SÜG : aNDA : YOK : KıŞDıMıZ",
+      "kelimeKarsiliklari": "DEĞDİK[LERİMİZİ] : TÜRK : BEĞLERİ : HEP : BİLİRSİNİZ : O : SÜYÜ : [O] ANDA : YOK : KILDIK",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-34#2",
+      "dizeId": "KT-D-34",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 34,
+      "kelimeAraligi": [
+        10,
+        17
+      ],
+      "runik": "𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰘𐰼 : 𐰉𐰖𐰺𐰸𐰆 : 𐰆𐰞𐰍 : 𐰃𐰼𐰚𐰤 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "aNDA : KİSRE : YeR : BaYıRKU : ULuG : İRKiN : YaGI : BOLDI",
+      "kelimeKarsiliklari": "ONDAN : SONRA : YER : BAYIRKULU : ULU : İRKİN : YAĞI : OLDU",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-34#3",
+      "dizeId": "KT-D-34",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 34,
+      "kelimeAraligi": [
+        18,
+        23
+      ],
+      "runik": "𐰣𐰃 : 𐰖𐰪𐰯 : 𐱅𐰇𐰼𐰏𐰃 : 𐰖𐰺𐰍𐰆𐰣 : 𐰚𐰇𐰠𐱅𐰀 : 𐰉𐰆𐰔𐰑𐰢𐰔",
+      "transkripsiyon": "aNI : YaYNıP : TÜRGİ : YaRGUN : KÖLTE : BOZDuMuZ",
+      "kelimeKarsiliklari": "ONU : YAYINIP : TÜRGİ : YARGÜN : GÖLÜNDE : BOZDUK",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-34#4",
+      "dizeId": "KT-D-34",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 34,
+      "kelimeAraligi": [
+        24,
+        29
+      ],
+      "runik": "𐰆𐰞𐰍 : 𐰃𐰼𐰚𐰤 : 𐰔𐰶𐰪𐰀 : 𐰼𐰤 : 𐱅𐰔𐰯 : 𐰉𐰺𐰑𐰃",
+      "transkripsiyon": "ULuG : İRKiN : aZKIYNA : eRiN : TeZiP : BaRDI",
+      "kelimeKarsiliklari": "ULU : İRKİN : AZICIK : ERLE : TEZİP : VARDI",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-34#5",
+      "dizeId": "KT-D-34",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 34,
+      "kelimeAraligi": [
+        30,
+        32
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰞𐱃𐰃 : 𐰆𐱃𐰔",
+      "transkripsiyon": "KÖLTİGiN : aLTI : OTuZ",
+      "kelimeKarsiliklari": "KÜLTİĞİN : ALTI : OTUZ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-35#1",
+      "dizeId": "KT-D-35",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 35,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰖𐱁𐰃𐰭𐰀 : 𐰶𐰃𐰺𐰴𐰔 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢𐰔",
+      "transkripsiyon": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ",
+      "kelimeKarsiliklari": "YAŞINDA : KIRGIZ : TARAFINA : SÜLEDİK",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-35#2",
+      "dizeId": "KT-D-35",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 35,
+      "kelimeAraligi": [
+        4,
+        15
+      ],
+      "runik": "𐰾𐰇𐰭𐰇𐰏 : 𐰉𐱃𐰢𐰃 : 𐰴𐰺𐰍 : 𐰾𐰇𐰚𐰯𐰤 : 𐰚𐰇𐰏𐰢𐰤 : 𐰘𐰃𐱁𐰍 : 𐱃𐰆𐰍𐰀 : 𐰖𐰆𐰺𐰃𐰯 : 𐰶𐰃𐰺𐰴𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰆𐰑𐰀 : 𐰉𐰽𐰑𐰢𐰔",
+      "transkripsiyon": "SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG : UDA : BaSDıMıZ",
+      "kelimeKarsiliklari": "SÜNGÜ : BATIMI [DERİNLİKTE] : KARI : SÖKÜP : KÖGMEN : YIŞI : DOĞA : YÜRÜYÜP : KIRGIZ : BOYLARINI : UYKUDA : BASTIK",
+      "kelimeSayisi": 12,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

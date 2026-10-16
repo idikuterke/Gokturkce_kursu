@@ -1,0 +1,207 @@
+{
+  "blok": 35,
+  "blokSayisi": 96,
+  "dosya": "blok-035.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-D-2#2",
+      "dizeId": "BK-D-2",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        3,
+        11
+      ],
+      "runik": "𐰆𐰞𐰺𐱃𐰸𐰢𐰀 : 𐰇𐰠𐱅𐰲𐰃𐰲𐰀 : 𐰽𐰴𐰣𐰍𐰢𐰀 : 𐱅𐰇𐰼𐰜 : 𐰋𐰏𐰠𐰼 : 𐰉𐰆𐰑𐰣 : 𐰏𐰼𐰯 : 𐰾𐰋𐰤𐰯 : 𐱃𐰆𐰭𐱃𐰢𐱁",
+      "transkripsiyon": "OLuRTUKuMA : ÖLTeÇİÇE : SaKıNıGMA : TÜRK : BeGLeR : BODuN : öGüRüP : SeBiNiP : TOŊTaMıŞ",
+      "kelimeKarsiliklari": "OTURDUĞUMDA : ÖLECEĞİNİ : SAKINAN : TÜRK : BEĞLERİ : BOYLARI : ÖĞÜRÜP : SEVİNİP : TONGTAMIŞ",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-2#3",
+      "dizeId": "BK-D-2",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        12,
+        23
+      ],
+      "runik": "𐰚𐰇𐰔𐰃 : 𐰘𐰇𐰏𐰼𐰚𐰇𐰼𐱅𐰃 : 𐰋𐰇𐰓𐰚𐰀 : 𐰇𐰔𐰢 : 𐰆𐰞𐰺𐰯 : 𐰉𐰆𐰨𐰀 : 𐰍𐰺 : 𐱅𐰇𐰼𐰏 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭𐰑𐰴𐰃 : --- : 𐰃𐱅𐰓𐰢",
+      "transkripsiyon": "KÖZİ : YÜGeRiKÖRTİ : BÖDKE : ÖZüM : OLıRıP : BUNÇA : aGıR : TÖRüG : TÖRT : BOLuŊDaKI : --- : İTDiM",
+      "kelimeKarsiliklari": "GÖZÜ : YUKARI GÖRDÜ : [BU] DEVİRDE : ÖZÜM : [KAGAN] OTURUP : BUNCA : AĞIR : TÖREYİ : DÖRT : TARAFDAKI : [BOYLARI] --- : [DÜZEN] ETDİM",
+      "kelimeSayisi": 12,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-2#4",
+      "dizeId": "BK-D-2",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        24,
+        35
+      ],
+      "runik": "𐰇𐰔𐰀 : 𐰚𐰇𐰚 : 𐱅𐰭𐰼𐰃 : 𐰽𐰺𐰀 : 𐰖𐰍𐰔 : 𐰘𐰺 : 𐰴𐰃𐰞𐰦𐰸𐰑𐰀 : 𐰚𐰃𐰤 : 𐰺𐰀 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰴𐰃𐰞𐰣𐰢𐰾",
+      "transkripsiyon": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ",
+      "kelimeKarsiliklari": "ÜSTTE : GÖK : TANRI : ALTTA : YAĞIZ : YER : KILINDIĞINDA : İKİ[Sİ] : ARA[SINDA] : KİŞİ : OĞLU : KILINMIŞ",
+      "kelimeSayisi": 12,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-3#1",
+      "dizeId": "BK-D-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃𐰦𐰀 : 𐰇𐰔𐰀 : 𐰲𐰇𐰢 : 𐰯𐰀𐰢 : 𐰉𐰆𐰢𐰣 : 𐰴𐰍𐰣 : 𐰃𐰾𐱅𐰢𐰃 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐱁",
+      "transkripsiyon": "KİŞİ : OGLINDA : ÜZE : eÇÜM : aPAM : BUMıN : KaGaN : İSTeMİ : KaGaN : OLuRMıŞ",
+      "kelimeKarsiliklari": "KİŞİ : OĞLUN[UN] DA : ÜZE[RİNE] : EÇÜM : APAM : BUMIN : KAĞAN : İSTEMİ : KAĞAN : OTURMUŞ",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-3#2",
+      "dizeId": "BK-D-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        10,
+        12
+      ],
+      "runik": "𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰭",
+      "transkripsiyon": "OLuRıPaN : TÜRK : BODuNıŊ",
+      "kelimeKarsiliklari": "OTURUP : TÜRK : BOYLARININ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-3#3",
+      "dizeId": "BK-D-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        13,
+        16
+      ],
+      "runik": "𐰃𐰠𐰃𐰤 : 𐱅𐰇𐰼𐰇𐰾𐰃𐰤 : 𐱃𐰆𐱃𐰀 : 𐰋𐰃𐰼𐰢𐰾",
+      "transkripsiyon": "İLİN : TÖRÜSÜN : TUTA : BİRMiŞ",
+      "kelimeKarsiliklari": "İLİNİ : TÖRESİNİ : TUTU : VERMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-3#4",
+      "dizeId": "BK-D-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        17,
+        20
+      ],
+      "runik": "𐰃𐱅𐰃 : 𐰋𐰃𐰼𐰢𐰾 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭",
+      "transkripsiyon": "İTİ : BİRMiŞ : TÖRT : BULıŊ",
+      "kelimeKarsiliklari": "[DÜZEN] EDİ : VERMİŞ : DÖRT : TARAF",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-3#5",
+      "dizeId": "BK-D-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        21,
+        23
+      ],
+      "runik": "𐰴𐰆𐰯 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "KOP : YaGI : eRMiŞ",
+      "kelimeKarsiliklari": "HEP : YAĞI : İMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-3#6",
+      "dizeId": "BK-D-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        24,
+        30
+      ],
+      "runik": "𐰾𐰇 : 𐰾𐰇𐰠𐰯𐰤 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭𐰑𐰴𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰴𐰆𐰯 : 𐰞𐰢𐰾",
+      "transkripsiyon": "SÜ : SÜLePeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ",
+      "kelimeKarsiliklari": "SÜ : SÜLEYİP : DÖRT : TARAFDAKİ : BOYLARI : HEP : ALMIŞ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-3#7",
+      "dizeId": "BK-D-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        31,
+        33
+      ],
+      "runik": "𐰚𐰆𐰯 : 𐰉𐰔 : 𐰴𐰃𐰞𐰢𐰾",
+      "transkripsiyon": "KOP : BaZ : KILMıŞ",
+      "kelimeKarsiliklari": "HEP : BAZ : KILMIŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

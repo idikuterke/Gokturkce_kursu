@@ -1,0 +1,207 @@
+{
+  "blok": 7,
+  "blokSayisi": 96,
+  "dosya": "blok-007.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-D-1#3",
+      "dizeId": "KT-D-1",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 1,
+      "kelimeAraligi": [
+        22,
+        24
+      ],
+      "runik": "𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰭",
+      "transkripsiyon": "OLuRıPaN : TÜRK : BODuNıŊ",
+      "kelimeKarsiliklari": "OTURUP : TÜRK : BOYLARININ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-1#4",
+      "dizeId": "KT-D-1",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 1,
+      "kelimeAraligi": [
+        25,
+        30
+      ],
+      "runik": "𐰃𐰠𐰃𐰤 : 𐱅𐰇𐰼𐰇𐰾𐰃𐰤 : 𐱃𐰆𐱃𐰀 : 𐰋𐰃𐰼𐰢𐰾 : 𐰃𐱅𐰃 : 𐰋𐰃𐰼𐰢𐰾",
+      "transkripsiyon": "İLİN : TÖRÜSİN : TUTA : BİRMiŞ : İTİ : BİRMiŞ",
+      "kelimeKarsiliklari": "İLİNİ : TÖRESİNİ : TUTU : VERMİŞ : [DÜZEN] EDİ : VERMİŞ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-2#1",
+      "dizeId": "KT-D-2",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭 : 𐰴𐰆𐰯 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ",
+      "kelimeKarsiliklari": "DÖRT : TARAF : HEP : YAĞI : İMİŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-2#2",
+      "dizeId": "KT-D-2",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        5,
+        11
+      ],
+      "runik": "𐰾𐰇 : 𐰾𐰇𐰠𐰯𐰤 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭𐰑𐰴𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰴𐰆𐰯 : 𐰞𐰢𐰾",
+      "transkripsiyon": "SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ",
+      "kelimeKarsiliklari": "SÜ : SÜLEYİP : DÖRT : TARAFDAKI : BOYLARI : HEP : ALMIŞ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-2#3",
+      "dizeId": "KT-D-2",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        12,
+        14
+      ],
+      "runik": "𐰴𐰆𐰯 : 𐰉𐰔 : 𐰴𐰃𐰞𐰢𐰾",
+      "transkripsiyon": "KOP : BaZ : KILMıŞ",
+      "kelimeKarsiliklari": "HEP : BAZ : KILMIŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-2#4",
+      "dizeId": "KT-D-2",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        15,
+        18
+      ],
+      "runik": "𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰜𐰦𐰼𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾",
+      "transkripsiyon": "BaŞLıGıG : YÜKüNDüRMiŞ : TİZLiGiG : SÖKÜRMiŞ",
+      "kelimeKarsiliklari": "BAŞLIYI : YÜKÜNDÜRMÜŞ : DİZLİYİ : [DİZ] ÇÖKTÜRMÜŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-2#5",
+      "dizeId": "KT-D-2",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 2,
+      "kelimeAraligi": [
+        19,
+        28
+      ],
+      "runik": "𐰃𐰠𐰏𐰼𐰇 : 𐰴𐰑𐰺𐰴𐰣 : 𐰘𐰃𐱁𐰴𐰀 : 𐱅𐰏𐰃 : 𐰚𐰃𐰼𐰇 : 𐱅𐰢𐰺𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰸𐰆𐰦𐰺𐰢𐰾 : 𐰚𐰃𐰤 : 𐰺𐰀 ---",
+      "transkripsiyon": "İLGeRÜ : KaDıRKaN : YİŞKA : TeGİ : KİRÜ : TeMiRKaPıGKA : TeGİ : KONDuRMıŞ : iKİN : aRA ---",
+      "kelimeKarsiliklari": "İLERİ : KADIRKAN : YIŞA : DEĞİN : GERİ[DE] : DEMİRKAPIYA : DEĞİN : KONDURMUŞ : İKİSİ : ARASINA ---",
+      "kelimeSayisi": 10,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-3#1",
+      "dizeId": "KT-D-3",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰃𐰓𐰃 : 𐰆𐰴𐰽𐰔 : 𐰜𐰇𐰚 : 𐱅𐰇𐰼𐰜 : 𐰨𐰀 : 𐰆𐰞𐰺𐰆𐰺",
+      "transkripsiyon": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR",
+      "kelimeKarsiliklari": "İDİ : OKSUZ : GÖK : TÜRK : ANCA : OTURUR",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-3#2",
+      "dizeId": "KT-D-3",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        6,
+        9
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐰼𐰢𐰾",
+      "transkripsiyon": "eRMiŞ : BİLGE : KaGaN : eRMiŞ",
+      "kelimeKarsiliklari": "İMİŞ : BİLGE : KAĞAN : İMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-3#3",
+      "dizeId": "KT-D-3",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        10,
+        12
+      ],
+      "runik": "𐰞𐰯 : 𐰴𐰍𐰣 : 𐰼𐰢𐰾",
+      "transkripsiyon": "aLP : KaGaN : eRMiŞ",
+      "kelimeKarsiliklari": "ALP : KAĞAN : İMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

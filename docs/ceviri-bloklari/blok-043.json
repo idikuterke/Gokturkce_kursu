@@ -1,0 +1,207 @@
+{
+  "blok": 43,
+  "blokSayisi": 96,
+  "dosya": "blok-043.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-D-14#2",
+      "dizeId": "BK-D-14",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 14,
+      "kelimeAraligi": [
+        6,
+        11
+      ],
+      "runik": "𐰆𐰞 : 𐱅𐰇𐰼𐰇𐰓𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃",
+      "transkripsiyon": "OL : TÖRÜDE : ÜZE : eÇİM : KaGaN : OLuRTI",
+      "kelimeKarsiliklari": "O : TÖRE : ÜZE[RİNE] : EÇÜM : KAĞAN : OTURDU",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-14#3",
+      "dizeId": "BK-D-14",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 14,
+      "kelimeAraligi": [
+        12,
+        16
+      ],
+      "runik": "𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰍 : 𐰘𐰃𐰲𐰀 : 𐰃𐱅𐰓𐰃",
+      "transkripsiyon": "OLuRıPaN : TÜRK : BODuNıG : YİÇE : İTDİ",
+      "kelimeKarsiliklari": "OTURUP : TÜRK : BOYLARINI : YİNE : [DÜZEN] ETDİ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-14#4",
+      "dizeId": "BK-D-14",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 14,
+      "kelimeAraligi": [
+        17,
+        20
+      ],
+      "runik": "𐰃𐰏𐱅𐰃 : 𐰲𐰃𐰍𐰪𐰍 : 𐰉𐰖 : 𐰶𐰡𐰃",
+      "transkripsiyon": "İGiTİ : ÇIGaNYıG : BaY : KILDI",
+      "kelimeKarsiliklari": "YEDİRDİ : ÇIĞANYI : BAY : KILDI",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-14#5",
+      "dizeId": "BK-D-14",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 14,
+      "kelimeAraligi": [
+        21,
+        23
+      ],
+      "runik": "𐰔𐰃𐰍 : 𐰜𐰇𐱁 : 𐰶𐰡𐰃",
+      "transkripsiyon": "aZIG : ÖKÜŞ : KILDI",
+      "kelimeKarsiliklari": "AZI : ÇOK : KILDI",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-14#6",
+      "dizeId": "BK-D-14",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 14,
+      "kelimeAraligi": [
+        24,
+        33
+      ],
+      "runik": "𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰸𐰑𐰀 : 𐰇𐰔𐰢 : 𐱅𐰃𐰏𐰤 : 𐰚𐰼 --- : 𐰃𐰘 --- : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰤",
+      "transkripsiyon": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TİGiN : eRK --- : İY --- : TeŊRİ : YaRLıKaDUK : ÜÇÜN",
+      "kelimeKarsiliklari": "EÇÜM : KAĞAN : OTURDUĞUNDA : ÖZÜM : TİGİN : ERK --- : İY --- : TANRI : BUYURDUĞU : İÇİN",
+      "kelimeSayisi": 10,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-15#1",
+      "dizeId": "BK-D-15",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 15,
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐱅𐰇𐰼𐱅𐰘𐰏𐰼𐰢𐰃 : 𐰖𐱁𐰃𐰢𐰴𐰀 : 𐱃𐰺𐰑𐰆𐱁 : 𐰉𐰆𐰑𐰣 : 𐰇𐰔𐰀 : 𐱁𐰑 : 𐰆𐰞𐰺𐱃𐰢",
+      "transkripsiyon": "TÖRTYiGiRMİ : YaŞIMKA : TaRDUŞ : BODuN : ÜZE : ŞaD : OLuRTıM",
+      "kelimeKarsiliklari": "DÖRT-YİRMİ : YAŞIMDA : TARDUŞ : BOYLARI : ÜZE[RİNE] : ŞAD : OTURDUM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-15#2",
+      "dizeId": "BK-D-15",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 15,
+      "kelimeAraligi": [
+        7,
+        13
+      ],
+      "runik": "𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰋𐰃𐰼𐰠𐰀 : 𐰃𐰠𐰏𐰼𐰇 : 𐰖𐱁𐰞 : 𐰇𐰏𐰔 : 𐱁𐰦𐰆𐰭",
+      "transkripsiyon": "eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : ŞaNTUŊ",
+      "kelimeKarsiliklari": "EÇÜM : KAĞAN : İLE : İLERİ : YEŞİL : ÖGÜZ : ŞANTUNG",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-15#3",
+      "dizeId": "BK-D-15",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 15,
+      "kelimeAraligi": [
+        14,
+        16
+      ],
+      "runik": "𐰖𐰔𐰃𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢𐰔",
+      "transkripsiyon": "YaZIKA : TeGİ : SÜLeDiMiZ",
+      "kelimeKarsiliklari": "OVASINA : DEĞİN : SÜLEDİK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-15#4",
+      "dizeId": "BK-D-15",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 15,
+      "kelimeAraligi": [
+        17,
+        21
+      ],
+      "runik": "𐰸𐰆𐰺𐰍𐰺𐰆 : 𐱅𐰢𐰼 : 𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢𐰔",
+      "transkripsiyon": "KURıGaRU : TeMiR : KaPıGKA : TeGİ : SÜLeDiMiZ",
+      "kelimeKarsiliklari": "GERİDE : DEMİR : KAPIYA : DEĞİN : SÜLEDİK",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-15#5",
+      "dizeId": "BK-D-15",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 15,
+      "kelimeAraligi": [
+        22,
+        27
+      ],
+      "runik": "𐰚𐰇𐰏𐰢𐰤 : 𐱁𐰀 : 𐰶𐰃𐰺𐰴𐰔 : 𐰘𐰃𐰼𐰃𐰭𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢𐰔",
+      "transkripsiyon": "KöGMeN : aŞA : KIRKıZ : YİRİŊE : TeGİ : SÜLeDiMiZ",
+      "kelimeKarsiliklari": "KÖGMENİ : AŞIP : KIRGIZ : YERİNE : DEĞİN : SÜLEDİK",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

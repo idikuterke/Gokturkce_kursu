@@ -1,0 +1,971 @@
+{
+  "uretim": "2026-10-16",
+  "blokBoyutu": 10,
+  "blokSayisi": 96,
+  "toplamKayit": 953,
+  "suzgec": "tümü",
+  "bloklar": [
+    {
+      "blok": 1,
+      "dosya": "blok-001.json",
+      "kayit": 10,
+      "ilkId": "KT-G-1#1",
+      "sonId": "KT-G-3#4",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 2,
+      "dosya": "blok-002.json",
+      "kayit": 10,
+      "ilkId": "KT-G-3#5",
+      "sonId": "KT-G-4#6",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 3,
+      "dosya": "blok-003.json",
+      "kayit": 10,
+      "ilkId": "KT-G-5#1",
+      "sonId": "KT-G-7#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 4,
+      "dosya": "blok-004.json",
+      "kayit": 10,
+      "ilkId": "KT-G-7#2",
+      "sonId": "KT-G-10#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 5,
+      "dosya": "blok-005.json",
+      "kayit": 10,
+      "ilkId": "KT-G-10#3",
+      "sonId": "KT-G-12#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 6,
+      "dosya": "blok-006.json",
+      "kayit": 10,
+      "ilkId": "KT-G-12#2",
+      "sonId": "KT-D-1#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 7,
+      "dosya": "blok-007.json",
+      "kayit": 10,
+      "ilkId": "KT-D-1#3",
+      "sonId": "KT-D-3#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 8,
+      "dosya": "blok-008.json",
+      "kayit": 10,
+      "ilkId": "KT-D-3#4",
+      "sonId": "KT-D-5#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 9,
+      "dosya": "blok-009.json",
+      "kayit": 10,
+      "ilkId": "KT-D-5#2",
+      "sonId": "KT-D-7#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 10,
+      "dosya": "blok-010.json",
+      "kayit": 10,
+      "ilkId": "KT-D-7#3",
+      "sonId": "KT-D-9#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 11,
+      "dosya": "blok-011.json",
+      "kayit": 10,
+      "ilkId": "KT-D-9#3",
+      "sonId": "KT-D-12#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 12,
+      "dosya": "blok-012.json",
+      "kayit": 10,
+      "ilkId": "KT-D-12#4",
+      "sonId": "KT-D-14#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 13,
+      "dosya": "blok-013.json",
+      "kayit": 10,
+      "ilkId": "KT-D-14#4",
+      "sonId": "KT-D-16#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 14,
+      "dosya": "blok-014.json",
+      "kayit": 10,
+      "ilkId": "KT-D-16#3",
+      "sonId": "KT-D-18#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 15,
+      "dosya": "blok-015.json",
+      "kayit": 10,
+      "ilkId": "KT-D-18#2",
+      "sonId": "KT-D-20#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 16,
+      "dosya": "blok-016.json",
+      "kayit": 10,
+      "ilkId": "KT-D-20#3",
+      "sonId": "KT-D-21#5",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 17,
+      "dosya": "blok-017.json",
+      "kayit": 10,
+      "ilkId": "KT-D-21#6",
+      "sonId": "KT-D-23#4",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 18,
+      "dosya": "blok-018.json",
+      "kayit": 10,
+      "ilkId": "KT-D-23#5",
+      "sonId": "KT-D-25#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 19,
+      "dosya": "blok-019.json",
+      "kayit": 10,
+      "ilkId": "KT-D-25#3",
+      "sonId": "KT-D-27#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 20,
+      "dosya": "blok-020.json",
+      "kayit": 10,
+      "ilkId": "KT-D-27#2",
+      "sonId": "KT-D-29#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 21,
+      "dosya": "blok-021.json",
+      "kayit": 10,
+      "ilkId": "KT-D-29#4",
+      "sonId": "KT-D-31#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 22,
+      "dosya": "blok-022.json",
+      "kayit": 10,
+      "ilkId": "KT-D-31#3",
+      "sonId": "KT-D-33#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 23,
+      "dosya": "blok-023.json",
+      "kayit": 10,
+      "ilkId": "KT-D-33#3",
+      "sonId": "KT-D-35#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 24,
+      "dosya": "blok-024.json",
+      "kayit": 10,
+      "ilkId": "KT-D-35#3",
+      "sonId": "KT-D-37#2",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 25,
+      "dosya": "blok-025.json",
+      "kayit": 10,
+      "ilkId": "KT-D-37#3",
+      "sonId": "KT-D-39#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 26,
+      "dosya": "blok-026.json",
+      "kayit": 10,
+      "ilkId": "KT-D-39#4",
+      "sonId": "KT-K-1#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 27,
+      "dosya": "blok-027.json",
+      "kayit": 10,
+      "ilkId": "KT-K-1#2",
+      "sonId": "KT-K-2#5",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 28,
+      "dosya": "blok-028.json",
+      "kayit": 10,
+      "ilkId": "KT-K-2#6",
+      "sonId": "KT-K-4#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 29,
+      "dosya": "blok-029.json",
+      "kayit": 10,
+      "ilkId": "KT-K-4#4",
+      "sonId": "KT-K-6#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 30,
+      "dosya": "blok-030.json",
+      "kayit": 10,
+      "ilkId": "KT-K-6#4",
+      "sonId": "KT-K-8#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 31,
+      "dosya": "blok-031.json",
+      "kayit": 10,
+      "ilkId": "KT-K-8#4",
+      "sonId": "KT-K-11#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 32,
+      "dosya": "blok-032.json",
+      "kayit": 10,
+      "ilkId": "KT-K-11#2",
+      "sonId": "KT-K-13#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 33,
+      "dosya": "blok-033.json",
+      "kayit": 10,
+      "ilkId": "KT-KD-1#1",
+      "sonId": "KT-GD-1#3",
+      "yazitlar": [
+        "Kül Tigin Yazıtı"
+      ]
+    },
+    {
+      "blok": 34,
+      "dosya": "blok-034.json",
+      "kayit": 10,
+      "ilkId": "KT-GD-1#4",
+      "sonId": "BK-D-2#1",
+      "yazitlar": [
+        "Kül Tigin Yazıtı",
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 35,
+      "dosya": "blok-035.json",
+      "kayit": 10,
+      "ilkId": "BK-D-2#2",
+      "sonId": "BK-D-3#7",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 36,
+      "dosya": "blok-036.json",
+      "kayit": 10,
+      "ilkId": "BK-D-3#8",
+      "sonId": "BK-D-4#8",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 37,
+      "dosya": "blok-037.json",
+      "kayit": 10,
+      "ilkId": "BK-D-4#9",
+      "sonId": "BK-D-6#1",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 38,
+      "dosya": "blok-038.json",
+      "kayit": 10,
+      "ilkId": "BK-D-6#2",
+      "sonId": "BK-D-7#5",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 39,
+      "dosya": "blok-039.json",
+      "kayit": 10,
+      "ilkId": "BK-D-7#6",
+      "sonId": "BK-D-9#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 40,
+      "dosya": "blok-040.json",
+      "kayit": 10,
+      "ilkId": "BK-D-9#3",
+      "sonId": "BK-D-11#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 41,
+      "dosya": "blok-041.json",
+      "kayit": 10,
+      "ilkId": "BK-D-11#3",
+      "sonId": "BK-D-12#5",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 42,
+      "dosya": "blok-042.json",
+      "kayit": 10,
+      "ilkId": "BK-D-12#6",
+      "sonId": "BK-D-14#1",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 43,
+      "dosya": "blok-043.json",
+      "kayit": 10,
+      "ilkId": "BK-D-14#2",
+      "sonId": "BK-D-15#5",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 44,
+      "dosya": "blok-044.json",
+      "kayit": 10,
+      "ilkId": "BK-D-15#6",
+      "sonId": "BK-D-16#7",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 45,
+      "dosya": "blok-045.json",
+      "kayit": 10,
+      "ilkId": "BK-D-17#1",
+      "sonId": "BK-D-18#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 46,
+      "dosya": "blok-046.json",
+      "kayit": 10,
+      "ilkId": "BK-D-18#3",
+      "sonId": "BK-D-19#4",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 47,
+      "dosya": "blok-047.json",
+      "kayit": 10,
+      "ilkId": "BK-D-19#5",
+      "sonId": "BK-D-20#7",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 48,
+      "dosya": "blok-048.json",
+      "kayit": 10,
+      "ilkId": "BK-D-20#8",
+      "sonId": "BK-D-22#4",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 49,
+      "dosya": "blok-049.json",
+      "kayit": 10,
+      "ilkId": "BK-D-22#5",
+      "sonId": "BK-D-24#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 50,
+      "dosya": "blok-050.json",
+      "kayit": 10,
+      "ilkId": "BK-D-24#3",
+      "sonId": "BK-D-25#4",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 51,
+      "dosya": "blok-051.json",
+      "kayit": 10,
+      "ilkId": "BK-D-25#5",
+      "sonId": "BK-D-26#5",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 52,
+      "dosya": "blok-052.json",
+      "kayit": 10,
+      "ilkId": "BK-D-26#6",
+      "sonId": "BK-D-28#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 53,
+      "dosya": "blok-053.json",
+      "kayit": 10,
+      "ilkId": "BK-D-28#3",
+      "sonId": "BK-D-29#5",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 54,
+      "dosya": "blok-054.json",
+      "kayit": 10,
+      "ilkId": "BK-D-29#6",
+      "sonId": "BK-D-30#7",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 55,
+      "dosya": "blok-055.json",
+      "kayit": 10,
+      "ilkId": "BK-D-30#8",
+      "sonId": "BK-D-32#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 56,
+      "dosya": "blok-056.json",
+      "kayit": 10,
+      "ilkId": "BK-D-32#3",
+      "sonId": "BK-D-33#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 57,
+      "dosya": "blok-057.json",
+      "kayit": 10,
+      "ilkId": "BK-D-33#3",
+      "sonId": "BK-D-35#1",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 58,
+      "dosya": "blok-058.json",
+      "kayit": 10,
+      "ilkId": "BK-D-35#2",
+      "sonId": "BK-D-36#6",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 59,
+      "dosya": "blok-059.json",
+      "kayit": 10,
+      "ilkId": "BK-D-37#1",
+      "sonId": "BK-D-38#4",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 60,
+      "dosya": "blok-060.json",
+      "kayit": 10,
+      "ilkId": "BK-D-38#5",
+      "sonId": "BK-D-40#4",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 61,
+      "dosya": "blok-061.json",
+      "kayit": 10,
+      "ilkId": "BK-D-41#1",
+      "sonId": "BK-G-1#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 62,
+      "dosya": "blok-062.json",
+      "kayit": 10,
+      "ilkId": "BK-G-1#3",
+      "sonId": "BK-G-6#1",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 63,
+      "dosya": "blok-063.json",
+      "kayit": 10,
+      "ilkId": "BK-G-7#1",
+      "sonId": "BK-G-9#3",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 64,
+      "dosya": "blok-064.json",
+      "kayit": 10,
+      "ilkId": "BK-G-9#4",
+      "sonId": "BK-G-11#3",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 65,
+      "dosya": "blok-065.json",
+      "kayit": 10,
+      "ilkId": "BK-G-11#4",
+      "sonId": "BK-G-15#1",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 66,
+      "dosya": "blok-066.json",
+      "kayit": 10,
+      "ilkId": "BK-G-15#2",
+      "sonId": "BK-K-2#3",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 67,
+      "dosya": "blok-067.json",
+      "kayit": 10,
+      "ilkId": "BK-K-2#4",
+      "sonId": "BK-K-3#7",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 68,
+      "dosya": "blok-068.json",
+      "kayit": 10,
+      "ilkId": "BK-K-3#8",
+      "sonId": "BK-K-5#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 69,
+      "dosya": "blok-069.json",
+      "kayit": 10,
+      "ilkId": "BK-K-5#3",
+      "sonId": "BK-K-7#5",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 70,
+      "dosya": "blok-070.json",
+      "kayit": 10,
+      "ilkId": "BK-K-7#6",
+      "sonId": "BK-K-9#3",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 71,
+      "dosya": "blok-071.json",
+      "kayit": 10,
+      "ilkId": "BK-K-9#4",
+      "sonId": "BK-K-12#3",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 72,
+      "dosya": "blok-072.json",
+      "kayit": 10,
+      "ilkId": "BK-K-13#1",
+      "sonId": "BK-K-14#6",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 73,
+      "dosya": "blok-073.json",
+      "kayit": 10,
+      "ilkId": "BK-K-15#1",
+      "sonId": "BK-B-6#1",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı"
+      ]
+    },
+    {
+      "blok": 74,
+      "dosya": "blok-074.json",
+      "kayit": 10,
+      "ilkId": "BK-B-7#1",
+      "sonId": "TY1-B-2#2",
+      "yazitlar": [
+        "Bilge Kağan Yazıtı",
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 75,
+      "dosya": "blok-075.json",
+      "kayit": 10,
+      "ilkId": "TY1-B-2#3",
+      "sonId": "TY1-B-4#3",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 76,
+      "dosya": "blok-076.json",
+      "kayit": 10,
+      "ilkId": "TY1-B-4#4",
+      "sonId": "TY1-B-7#1",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 77,
+      "dosya": "blok-077.json",
+      "kayit": 10,
+      "ilkId": "TY1-B-7#2",
+      "sonId": "TY1-G-2#3",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 78,
+      "dosya": "blok-078.json",
+      "kayit": 10,
+      "ilkId": "TY1-G-2#4",
+      "sonId": "TY1-G-5#4",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 79,
+      "dosya": "blok-079.json",
+      "kayit": 10,
+      "ilkId": "TY1-G-6#1",
+      "sonId": "TY1-G-8#4",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 80,
+      "dosya": "blok-080.json",
+      "kayit": 10,
+      "ilkId": "TY1-G-9#1",
+      "sonId": "TY1-D-1#2",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 81,
+      "dosya": "blok-081.json",
+      "kayit": 10,
+      "ilkId": "TY1-D-1#3",
+      "sonId": "TY1-D-3#2",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 82,
+      "dosya": "blok-082.json",
+      "kayit": 10,
+      "ilkId": "TY1-D-3#3",
+      "sonId": "TY1-D-5#2",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 83,
+      "dosya": "blok-083.json",
+      "kayit": 10,
+      "ilkId": "TY1-D-5#3",
+      "sonId": "TY1-D-7#3",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 84,
+      "dosya": "blok-084.json",
+      "kayit": 10,
+      "ilkId": "TY1-D-7#4",
+      "sonId": "TY1-K-2#4",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 85,
+      "dosya": "blok-085.json",
+      "kayit": 10,
+      "ilkId": "TY1-K-3#1",
+      "sonId": "TY1-K-5#1",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 86,
+      "dosya": "blok-086.json",
+      "kayit": 10,
+      "ilkId": "TY1-K-5#2",
+      "sonId": "TY1-K-7#1",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 87,
+      "dosya": "blok-087.json",
+      "kayit": 10,
+      "ilkId": "TY1-K-7#2",
+      "sonId": "TY1-K-8#5",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 88,
+      "dosya": "blok-088.json",
+      "kayit": 10,
+      "ilkId": "TY1-K-9#1",
+      "sonId": "TY1-K-10#4",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 89,
+      "dosya": "blok-089.json",
+      "kayit": 10,
+      "ilkId": "TY1-K-10#5",
+      "sonId": "TY2-B-2#3",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 90,
+      "dosya": "blok-090.json",
+      "kayit": 10,
+      "ilkId": "TY2-B-3#1",
+      "sonId": "TY2-B-6#1",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 91,
+      "dosya": "blok-091.json",
+      "kayit": 10,
+      "ilkId": "TY2-B-6#2",
+      "sonId": "TY2-G-1#2",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 92,
+      "dosya": "blok-092.json",
+      "kayit": 10,
+      "ilkId": "TY2-G-2#1",
+      "sonId": "TY2-G-5#2",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 93,
+      "dosya": "blok-093.json",
+      "kayit": 10,
+      "ilkId": "TY2-G-5#3",
+      "sonId": "TY2-D-2#2",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 94,
+      "dosya": "blok-094.json",
+      "kayit": 10,
+      "ilkId": "TY2-D-2#3",
+      "sonId": "TY2-D-5#2",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 95,
+      "dosya": "blok-095.json",
+      "kayit": 10,
+      "ilkId": "TY2-D-6#1",
+      "sonId": "TY2-K-2#1",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    },
+    {
+      "blok": 96,
+      "dosya": "blok-096.json",
+      "kayit": 3,
+      "ilkId": "TY2-K-2#2",
+      "sonId": "TY2-K-4#1",
+      "yazitlar": [
+        "Tonyukuk Yazıtı"
+      ]
+    }
+  ]
+}

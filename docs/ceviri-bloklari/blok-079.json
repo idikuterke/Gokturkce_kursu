@@ -1,0 +1,207 @@
+{
+  "blok": 79,
+  "blokSayisi": 96,
+  "dosya": "blok-079.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY1-G-6#1",
+      "dizeId": "TY1-G-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 6,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰴𐰡𐰲𐰃 : 𐰋𐰔 : 𐰇𐰔 : 𐰃𐰲𐰃 : 𐱃𐰽𐰣 : 𐱃𐰆𐱃𐰢𐱁",
+      "transkripsiyon": "KaLTaÇI : BiZ : ÖZ : İÇİ : TaŞıN : TUTMıŞ",
+      "kelimeKarsiliklari": "[YALNIZ] KALACAĞIZ : BİZ : ÖZ[Ü] : İÇİ : DIŞINDAN : TUTULMUŞ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-6#2",
+      "dizeId": "TY1-G-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 6,
+      "kelimeAraligi": [
+        6,
+        12
+      ],
+      "runik": "𐱅𐰏 : 𐰋𐰃𐰔 : 𐰖𐰆𐰖𐰴𐰀 : 𐰼𐰚𐰠𐰏 : 𐱅𐰆𐰯𐰞𐰍𐰞𐰃 : 𐰆𐰲𐰔 : 𐰼𐰢𐰾",
+      "transkripsiyon": "TeG : BİZ : YUYKA : eRKLiG : TUPuLGaLI : UÇuZ : eRMiŞ",
+      "kelimeKarsiliklari": "DEK : BİZ : YUFKA : ERKLİYİ : TUBULMAK : UCUZ : İMİŞ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-6#3",
+      "dizeId": "TY1-G-6",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 6,
+      "kelimeAraligi": [
+        13,
+        23
+      ],
+      "runik": "𐰘𐰨𐰏𐰀 : 𐰼𐰚𐰠𐰏 : 𐰇𐰔𐰏𐰠𐰃 : 𐰆𐰲𐰔 : 𐰖𐰆𐰖𐰴𐰀 : 𐰴𐰞𐰣 : 𐰉𐰆𐰞𐰾𐰺 : 𐱃𐰆𐰯𐰞𐰍𐰆𐰞𐰸 : 𐰞𐰯 : 𐰼𐰢𐰾 : 𐰘𐰨𐰏𐰀",
+      "transkripsiyon": "YiNÇGE : eRKLiG : ÖZGüLİ : UÇuZ : YUYKA : KaLıN : BOLSaR : TUPuLGULUK : aLP : eRMiŞ : YiNÇGE",
+      "kelimeKarsiliklari": "İNCE : ERKLİYİ : ÖZGÜLEMEK : UCUZ : YUFKA : KALIN : OLSA : DELİNMESİ : ALP : İMİŞ : İNCE",
+      "kelimeSayisi": 11,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-7#1",
+      "dizeId": "TY1-G-7",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 7,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰖𐰆𐰍𐰣 : 𐰉𐰆𐰞𐰽𐰺 : 𐰇𐰔𐰏𐰠𐰝 : 𐰞𐰯 : 𐰼𐰢𐰾",
+      "transkripsiyon": "YOGUN : BOLSAR : ÜZGÜLÜK : ALP : ERMİŞ",
+      "kelimeKarsiliklari": "YOĞUN : OLSA : ÖZGÜLEMEK : ALP : İMİŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-7#2",
+      "dizeId": "TY1-G-7",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 7,
+      "kelimeAraligi": [
+        5,
+        15
+      ],
+      "runik": "𐰇𐰭𐰼𐰀 : 𐰶𐰃𐱃𐰪𐰑𐰀 : 𐰉𐰺𐰖𐰀 : 𐱃𐰉𐰍𐰲𐰑𐰀 : 𐰴𐰆𐰺𐰖𐰀 : 𐰴𐰆𐰺𐰑𐰦𐰀 : 𐰖𐰃𐰺𐰖𐰀 : 𐰆𐰍𐰔𐰑𐰀 : 𐰚𐰃 : 𐰇𐰲 : 𐰋𐰃𐰭",
+      "transkripsiyon": "ÖŊRE : KITAYNDA : BİRİYE : TABGAÇDA : KURıYA : KURıDıNTA : YIRıYA : OGuZDA : iKİ : ÜÇ : BİŊ",
+      "kelimeKarsiliklari": "ÖNDE : KITAYDAN : BERİDE : TABGAÇDAN : GERİDE : GERİLİLERDEN : YIRIDA : OĞUZDAN : İKİ : ÜÇ : BİN",
+      "kelimeSayisi": 11,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-7#3",
+      "dizeId": "TY1-G-7",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 7,
+      "kelimeAraligi": [
+        16,
+        22
+      ],
+      "runik": "𐰾𐰇𐰢𐰔 : 𐰚𐰠𐱅𐰲𐰢𐰔 : 𐰉𐰺 : 𐰢𐰆 : 𐰤𐰀 : 𐰨𐰀 : 𐰇𐱅𐰤𐱅𐰢",
+      "transkripsiyon": "SÜMüZ : KeLTeÇiMiZ : BaR : MU : NE : aNÇA : ÖTüNTüM",
+      "kelimeKarsiliklari": "SÜMÜZ : GELECEK : VAR : MI : NE? : ANCA : ÖTÜNDÜM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-8#1",
+      "dizeId": "TY1-G-8",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 8,
+      "kelimeAraligi": [
+        0,
+        7
+      ],
+      "runik": "𐰴𐰍𐰣𐰢 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰇𐱅𐰤𐱅𐰝 : 𐰇𐱅𐰨𐰢𐰤 : 𐰾𐰓𐰇",
+      "transkripsiyon": "KaGaNıM : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüNTÜK : ÖTüNÇüMüN : iŞiDÜ",
+      "kelimeKarsiliklari": "KAĞANIM : BEN : ÖZÜM : BİLGE : TONYUKUK : ÖTÜNDÜK : [KAĞAN] ÖTÜNÇÜMÜ : İŞİTİ",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-8#2",
+      "dizeId": "TY1-G-8",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 8,
+      "kelimeAraligi": [
+        8,
+        11
+      ],
+      "runik": "𐰋𐰼𐱅𐰃 : 𐰚𐰇𐰭𐰠𐰭𐰲𐰀 : 𐰆𐰑𐰔 : 𐱅𐰓𐰃",
+      "transkripsiyon": "BiRTİ : KÖŊLüŊÇE : UDuZ : TiDİ",
+      "kelimeKarsiliklari": "VERDİ : GÖNLÜNCE : [ORDUYU] UDUZ : DEDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-8#3",
+      "dizeId": "TY1-G-8",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 8,
+      "kelimeAraligi": [
+        12,
+        17
+      ],
+      "runik": "𐰚𐰇𐰚 : 𐰇𐰭𐰏 : 𐰖𐰆𐰍𐰺𐰆 : 𐰇𐱅𐰚𐰤 : 𐰘𐰃𐰽𐰍𐰀𐰺𐰆 : 𐰆𐰑𐰔𐱅𐰢",
+      "transkripsiyon": "KÖK : ÖŊüG : YOGuRU : ÖTüKeN : YIŞGARU : UDuZTıM",
+      "kelimeKarsiliklari": "KÖK : ÖNGÜ : YUKARI : ÖTÜKEN : YIŞ [YÖNÜNE] : UDUZDUM",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-8#4",
+      "dizeId": "TY1-G-8",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 8,
+      "kelimeAraligi": [
+        18,
+        22
+      ],
+      "runik": "𐰃𐰤𐰏 : 𐰚𐰝𐰠𐰚𐰤 : 𐱃𐰆𐰍𐰞𐰑𐰀 : 𐰆𐰍𐰔 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "İNiG : KÖKLüKüN : TOGuLDA : OGuZ : KeLTİ",
+      "kelimeKarsiliklari": "İNİG : KÖKLÜKÜN : TOĞULDA : OĞUZ [ORDUSU] : GELDİ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "blok": 85,
+  "blokSayisi": 96,
+  "dosya": "blok-085.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY1-K-3#1",
+      "dizeId": "TY1-K-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰣𐰃 : 𐰽𐰆𐰉𐰍 : 𐰉𐰺𐰞𐰢 : 𐰆𐰞 : 𐰽𐰆𐰉 : 𐰸𐰆𐰑𐰃",
+      "transkripsiyon": "aNI : SUBıG : BaRaLıM : OL : SUB : KODI",
+      "kelimeKarsiliklari": "ANI : SUYUNA : VARALIM : O : SUYUN : KODI",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-3#2",
+      "dizeId": "TY1-K-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        6,
+        8
+      ],
+      "runik": "𐰉𐰺𐰑𐰢𐰔 : 𐰽𐰣𐰍𐰞𐰃 : 𐱅𐰇𐰾𐰇𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "BaRTıMıZ : aŞaNGaLI : TÜŞÜRTüMüZ",
+      "kelimeKarsiliklari": "VARDIK : AŞ [YEMEK-İÇİN] : DÜŞÜRDÜK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-3#3",
+      "dizeId": "TY1-K-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        9,
+        11
+      ],
+      "runik": "𐱃𐰍 : 𐰃𐰴𐰀 : 𐰉𐰖𐰆𐰺",
+      "transkripsiyon": "aTıG : IKA : BaYUR",
+      "kelimeKarsiliklari": "AT[LAR]I : YIKIP : BAYUR",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-3#4",
+      "dizeId": "TY1-K-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        12,
+        18
+      ],
+      "runik": "𐰼𐱅𐰢𐰔 : 𐰝𐰇𐰤 : 𐰘𐰢𐰀 : 𐱅𐰇𐰤 : 𐰘𐰢𐰀 : 𐰘𐰠𐰇 : 𐰉𐰺𐰑𐰢𐰔",
+      "transkripsiyon": "eRTiMiZ : KÜN : YiME : TÜN : YiME : YeLÜ : BaRDıMıZ",
+      "kelimeKarsiliklari": "ETTİK : GÜNDÜZ : YİNE : GECE : YİNE : [AT] KOŞUP : VARDIK",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-3#5",
+      "dizeId": "TY1-K-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        19,
+        21
+      ],
+      "runik": "𐰶𐰃𐰺𐰴𐰔𐰍 : 𐰆𐰴𐰀 : 𐰉𐰽𐰑𐰢𐰔",
+      "transkripsiyon": "KIRKıZıG : UKA : BaSDıMıZ",
+      "kelimeKarsiliklari": "KIRGIZI : UYKUDA : BASTIK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-4#1",
+      "dizeId": "TY1-K-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰾𐰇𐰭𐰏𐰤 : 𐰲𐰑𐰢𐰔 : 𐰴𐰣𐰃 : 𐰾𐰇𐰾𐰃 : 𐱅𐰼𐰠𐰢𐰾",
+      "transkripsiyon": "SÜŊüGüN : aÇDıMıZ : KaNI : SÜSİ : TeRiLMiŞ",
+      "kelimeKarsiliklari": "SÜNGÜYÜ : AÇTIK : KAĞANI : SÜSİ : DİRİLMİŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-4#2",
+      "dizeId": "TY1-K-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        5,
+        8
+      ],
+      "runik": "𐰾𐰇𐰭𐰾𐰓𐰢𐰔 : 𐰽𐰨𐰑𐰢𐰔 : 𐰴𐰣𐰃𐰤 : 𐰇𐰠𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "SÜŊüŞDüMüZ : SaNÇDıMıZ : KaNIN : ÖLüRTüMüZ",
+      "kelimeKarsiliklari": "SÜNGÜŞDÜK : SANÇTIK : KAĞANINI : ÖLDÜRDÜK",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-4#3",
+      "dizeId": "TY1-K-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        9,
+        12
+      ],
+      "runik": "𐰴𐰍𐰣𐰴𐰀 : 𐰶𐰃𐰺𐰴𐰔 : 𐰉𐰆𐰑𐰣𐰃 : 𐰨𐰚𐰓𐰃",
+      "transkripsiyon": "KaGaNKA : KIRKıZ : BODuNI : iÇiKDİ",
+      "kelimeKarsiliklari": "[BİZİM] KAĞANA : KIRGIZ : BOYLARI : İÇİKDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-4#4",
+      "dizeId": "TY1-K-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        13,
+        18
+      ],
+      "runik": "𐰘𐰝𐰤𐱅𐰃 : 𐰖𐰦𐰢𐰔 : 𐰝𐰇𐰏𐰢𐰤 : 𐰖𐰃𐰽𐰍 : 𐰋𐰼𐰇 : 𐰚𐰠𐱅𐰢𐰔",
+      "transkripsiyon": "YÜKüNTİ : YaNTıMıZ : KÖGMeN : YIŞıG : BeRÜ : KeLTiMiZ",
+      "kelimeKarsiliklari": "YÜKÜNDÜ : YANDIK : KÖGMEN : YIŞA : BERİ : GELDİK",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-K-5#1",
+      "dizeId": "TY1-K-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 5,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰶𐰃𐰺𐰴𐰔𐰑𐰀 : 𐰖𐰦𐰢𐰔 : 𐱅𐰇𐰼𐰏𐰾 : 𐰴𐰍𐰦𐰀 : 𐰝𐰇𐰼𐰏 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "KIRKıZDA : YaNDıMıZ : TÜRGiŞ : KaGaNDA : KÖRüG : KeLTİ",
+      "kelimeKarsiliklari": "KIRKIZDAN : YANDIK : TÜRGİŞ : KAĞANINDAN : GÖRÜK : GELDİ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

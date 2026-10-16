@@ -1,0 +1,207 @@
+{
+  "blok": 9,
+  "blokSayisi": 96,
+  "dosya": "blok-009.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-D-5#2",
+      "dizeId": "KT-D-5",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        3,
+        5
+      ],
+      "runik": "𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨",
+      "transkripsiyon": "KaGaN : BOLMıS : eRiNÇ",
+      "kelimeKarsiliklari": "KAĞAN : OLMUŞ : GERÇEK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-5#3",
+      "dizeId": "KT-D-5",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        6,
+        12
+      ],
+      "runik": "𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨",
+      "transkripsiyon": "aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ",
+      "kelimeKarsiliklari": "ONDAN : SONRA : İNİSİ : EÇİSİ : DEK : KILINMADIĞI : GERÇEK",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-5#4",
+      "dizeId": "KT-D-5",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        13,
+        17
+      ],
+      "runik": "𐰆𐰍𐰞𐰃 : 𐰴𐰭𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨",
+      "transkripsiyon": "OGLI : KaŊIN : TeG : KILıNMaDUK : eRiNÇ",
+      "kelimeKarsiliklari": "OĞLU : BABASI : DEK : KILINMADIĞI : GERÇEK",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-5#5",
+      "dizeId": "KT-D-5",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        18,
+        20
+      ],
+      "runik": "𐰋𐰃𐰠𐰏𐰾𐰃𐰔 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾",
+      "transkripsiyon": "BİLiGSİZ : KaGaN : OLuRMıŞ",
+      "kelimeKarsiliklari": "BİLGİSİZ : KAĞAN : OTURMUŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-5#6",
+      "dizeId": "KT-D-5",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        21,
+        24
+      ],
+      "runik": "𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾",
+      "transkripsiyon": "eRiNÇ : YaBLaK : KaGaN : OLuRMıŞ",
+      "kelimeKarsiliklari": "GERÇEK : YAVLAK : KAĞAN : OTURMUŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-5#7",
+      "dizeId": "KT-D-5",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        25,
+        29
+      ],
+      "runik": "𐰼𐰨 : 𐰉𐰆𐰖𐰺𐰸𐰃 : 𐰘𐰢𐰀 : 𐰋𐰃𐰠𐰏𐰾𐰔 : 𐰼𐰨",
+      "transkripsiyon": "eRiNÇ : BUYRUKI : YiME : BİLiGSiZ : eRiNÇ",
+      "kelimeKarsiliklari": "GERÇEK : BUYRUĞU : YİNE : BİLGİSİZ : GERÇEK",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-5#8",
+      "dizeId": "KT-D-5",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        30,
+        32
+      ],
+      "runik": "𐰖𐰉𐰞𐰴 : 𐰼𐰢𐰾 : 𐰼𐰨",
+      "transkripsiyon": "YaBLaK : eRMiŞ : eRiNÇ",
+      "kelimeKarsiliklari": "YAVLAK : İMİŞ : GERÇEK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-6#1",
+      "dizeId": "KT-D-6",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 6,
+      "kelimeAraligi": [
+        0,
+        24
+      ],
+      "runik": "𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐱅𐰇𐰔𐰾𐰔 : 𐰇𐰲𐰇𐰤 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐱅𐰋𐰠𐰏𐰃𐰤 : 𐰚𐰇𐰼𐰠𐰏 : 𐰇𐰲𐰇𐰤 : 𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰃𐰤𐰠𐰃 : 𐰲𐰃𐰠𐰃 : 𐰚𐰃𐰭𐰾𐰇𐰼𐱅𐰜𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰋𐰏𐰠𐰃 : 𐰉𐰆𐰑𐰣𐰞𐰃𐰍 : 𐰖𐰆𐰭𐱁𐰆𐰺𐱃𐰸𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰃𐰠𐰠𐰓𐰜 : 𐰃𐰠𐰃𐰤 : 𐰃𐰲𐰍𐰣𐰆 : 𐰃𐰑𐰢𐰾",
+      "transkripsiyon": "BeGLeRİ : BODuNI : TÜZSüZ : ÜÇÜN : TaBGaÇ : BODuN : TeBLiGİN : KÜRLüG : ÜÇÜN : aRMaKÇISIN : ÜÇÜN : İNiLİ : eÇİLİ : KİŊŞÜRTÜKİN : ÜÇÜN : BeGLİ : BODuNLIG : YOŊŞURTUKIN : ÜÇÜN : TÜRK : BODuN : İLLeDÜK : İLİN : IÇGıNU : IDMıŞ",
+      "kelimeKarsiliklari": "BEĞLERİ : BOYLARI : DÜZSÜZ : [OLDUĞU] İÇİN : TABGAÇ : BOYLARI : TEBLİ : GÜRLÜ : [OLDUĞU] İÇİN : ARMAKÇI : [OLDUĞU] İÇİN : İNİYİ : EÇİYİ : KİNLEŞTİRDİĞİ : İÇİN : BEĞLE : BOYLARI : YONGŞURDUĞU : İÇİN : TÜRK : BOYLARI : İLLEDİĞİ : İLİNİ : İÇGÜN : ETMİŞ",
+      "kelimeSayisi": 25,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-7#1",
+      "dizeId": "KT-D-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 7,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰴𐰍𐰣𐰞𐰑𐰸 : 𐰴𐰍𐰣𐰃𐰣 : 𐰘𐰃𐱅𐰼𐰇 : 𐰃𐰑𐰢𐰾",
+      "transkripsiyon": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ",
+      "kelimeKarsiliklari": "KAĞANLADIĞI : KAĞANINI : YİTİRİ : ETMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-7#2",
+      "dizeId": "KT-D-7",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 7,
+      "kelimeAraligi": [
+        4,
+        10
+      ],
+      "runik": "𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣𐰴𐰀 : 𐰋𐰏𐰠𐰚 : 𐰆𐰺𐰃 : 𐰆𐰍𐰞𐰃𐰤 : 𐰴𐰆𐰞 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI",
+      "kelimeKarsiliklari": "TABGAÇ : BOYLARINA : BEĞLİK : URI : EVLADI : KUL : OLDU",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

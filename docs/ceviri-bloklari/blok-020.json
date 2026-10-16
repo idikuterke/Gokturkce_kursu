@@ -1,0 +1,207 @@
+{
+  "blok": 20,
+  "blokSayisi": 96,
+  "dosya": "blok-020.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-D-27#2",
+      "dizeId": "KT-D-27",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 27,
+      "kelimeAraligi": [
+        6,
+        15
+      ],
+      "runik": "𐰚𐰇𐰤𐱅𐰔 : 𐰆𐰞𐰺𐰢𐰑𐰢 : 𐰃𐰤𐰢 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰋𐰃𐰼𐰠𐰀 : 𐰚𐰃 : 𐱁𐰑 : 𐰋𐰃𐰼𐰠𐰀 : 𐰇𐰠𐰇 : 𐰘𐰃𐱅𐰇",
+      "transkripsiyon": "KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : YİTÜ",
+      "kelimeKarsiliklari": "GÜNDÜZ : OTURMADIM : İNİM : KÜLTİĞİN : İLE : İKİ : ŞAD : İLE : ÖLE : YİTE",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-27#3",
+      "dizeId": "KT-D-27",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 27,
+      "kelimeAraligi": [
+        16,
+        23
+      ],
+      "runik": "𐰴𐰔𐰍𐰦𐰢 : 𐰨𐰀 : 𐰴𐰔𐰍𐰣𐰯 : 𐰋𐰃𐰼𐰚𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰆𐱃 : 𐰽𐰆𐰉 : 𐰴𐰃𐰞𐰢𐰑𐰢",
+      "transkripsiyon": "KaZGaNDıM : aNÇA : KaZGaNıP : BİRiKİ : BODuNuG : OT : SUB : KILMaDıM",
+      "kelimeKarsiliklari": "KAZANDIM : ANCA : KAZANIP : BÜTÜN : BOYLARI : ATEŞ : SU : KILMADIM",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-27#4",
+      "dizeId": "KT-D-27",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 27,
+      "kelimeAraligi": [
+        24,
+        29
+      ],
+      "runik": "𐰢𐰤 : 𐰇𐰔𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰸𐰢𐰀 : 𐰘𐰃𐰼 : 𐰽𐰖𐰆",
+      "transkripsiyon": "MeN : ÖZüM : KaGaN : OLuRTUKuMA : YİR : SaYU",
+      "kelimeKarsiliklari": "BEN : ÖZÜM : KAĞAN : OTURDUĞUMDA : YERE : HER",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-28#1",
+      "dizeId": "KT-D-28",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 28,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰉𐰺𐰢𐱁 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐰇 : 𐰘𐰃𐱅𐰇",
+      "transkripsiyon": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ",
+      "kelimeKarsiliklari": "VARMIŞ : BOYLAR : ÖLE : YİTE",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-28#2",
+      "dizeId": "KT-D-28",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 28,
+      "kelimeAraligi": [
+        4,
+        7
+      ],
+      "runik": "𐰖𐰑𐰍𐰣 : 𐰖𐰞𐰭𐰣 : 𐰖𐰣𐰀 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "YaDaGıN : YaLıŊıN : YaNA : KeLTİ",
+      "kelimeKarsiliklari": "YAYA : YALIN : YANA : GELDİ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-28#3",
+      "dizeId": "KT-D-28",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 28,
+      "kelimeAraligi": [
+        8,
+        27
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰍 : 𐰃𐰏𐰓𐰘𐰃𐰤 : 𐱅𐰃𐰘𐰤 : 𐰘𐰃𐰺𐰍𐰺𐰆 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰃𐰠𐰏𐰼𐰇 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰋𐰃𐰼𐰏𐰼𐰇 : 𐱃𐰉𐰍𐰲 : 𐱃𐰯𐰀 : 𐰆𐰞𐰍 : 𐰾𐰇 : 𐰚𐰃 : 𐰘𐰏𐰼𐰢𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : TaPA : İLGeRÜ : KITaYN : TaTaBI : BODuN : TaPA : BİRiGeRÜ : TaBGaÇ : TaPA : ULuG : SÜ : iKİ : YiGiRMİ : SÜLeDiM",
+      "kelimeKarsiliklari": "BOYLARI : YEDİREYİM : DİYE : YIRIDA : OĞUZ : BOYLARI : TARAFINA : İLERİ : KITAY : TATABI : BOYLARI : TARAFINA : BERİDE : TABGAÇ : TARAFINA : UŁU : SÜ[YÜ] : İKİ : İKİRMİ [KEZ] : SÜLEDİM",
+      "kelimeSayisi": 20,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-28#4",
+      "dizeId": "KT-D-28",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 28,
+      "kelimeAraligi": [
+        28,
+        29
+      ],
+      "runik": "𐰾𐰇𐰭𐰾𐰓𐰢 : 𐰦𐰀",
+      "transkripsiyon": "SÜŊüŞDüM : aNDA",
+      "kelimeKarsiliklari": "SÜNGÜŞDÜM : [O] ANDA",
+      "kelimeSayisi": 2,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-29#1",
+      "dizeId": "KT-D-29",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 29,
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰚𐰃𐰾𐰼𐰀 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰔𐰆 : 𐰸𐰆𐱃𐰢",
+      "transkripsiyon": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM",
+      "kelimeKarsiliklari": "KİSRE : TANRI : BUYURDUĞU : KUTUM",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-29#2",
+      "dizeId": "KT-D-29",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 29,
+      "kelimeAraligi": [
+        4,
+        12
+      ],
+      "runik": "𐰉𐰺 : 𐰇𐰲𐰤 : 𐰇𐰠𐰇𐰏𐰢 : 𐰉𐰺 : 𐰇𐰲𐰇𐰤 : 𐰇𐰠𐱅𐰲𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐱅𐰃𐰼𐰏𐰼𐰇 : 𐰃𐰏𐱅𐰢",
+      "transkripsiyon": "BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM",
+      "kelimeKarsiliklari": "VAR [OLDUĞU] : İÇİN : BÖLÜĞÜM : VAR [OLDUĞU] : İÇİN : ÖLECEK : BOYLARI : DİRİLTİP : YEDİRDİM",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-29#3",
+      "dizeId": "KT-D-29",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 29,
+      "kelimeAraligi": [
+        13,
+        19
+      ],
+      "runik": "𐰖𐰞𐰭 : 𐰉𐰆𐰑𐰣𐰍 : 𐱃𐰆𐰣𐰞𐰍 : 𐰲𐰃𐰍𐰪 : 𐰉𐰆𐰑𐰣𐰍 : 𐰉𐰖 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "YaLıŊ : BODuNuG : TONLıG : ÇIGaYN : BODuNuG : BaY : KILDıM",
+      "kelimeKarsiliklari": "YALIN : BOYLARI : DONLU : ÇIĞANY : BOYLARI : BAY : KILDIM",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

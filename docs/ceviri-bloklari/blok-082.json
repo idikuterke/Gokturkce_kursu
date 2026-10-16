@@ -1,0 +1,207 @@
+{
+  "blok": 82,
+  "blokSayisi": 96,
+  "dosya": "blok-082.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY1-D-3#3",
+      "dizeId": "TY1-D-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        15,
+        21
+      ],
+      "runik": "𐰨𐰀 : 𐰇𐰏𐰠𐰾𐰢𐰾 : 𐰇𐰭𐰼𐰀 : 𐱅𐰇𐰼𐰚 : 𐰴𐰍𐰣𐰍𐰺𐰆 : 𐰾𐰇𐰠𐰠𐰢 : 𐱅𐰢𐰾",
+      "transkripsiyon": "aNÇA : ÖGLeŞMiŞ : ÖŊRE : TÜRK : KaGaNGaRU : SÜLeLiM : TiMiŞ",
+      "kelimeKarsiliklari": "ANCA : ÖĞLEŞMİŞ : ÖNDE : TÜRK : KAĞANINA : SÜLEYELİM : DEMİŞ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-3#4",
+      "dizeId": "TY1-D-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 3,
+      "kelimeAraligi": [
+        22,
+        28
+      ],
+      "runik": "𐰭𐰺𐰆 : 𐰾𐰇𐰠𐰢𐰾𐰼 : 𐰴𐰲 : 𐰤𐰭 : 𐰼𐰾𐰼 : 𐰆𐰞 : 𐰋𐰔𐰤𐰃",
+      "transkripsiyon": "aŊaRU : SÜLeMeSeR : KaÇa : NeŊ : eRSeR : OL : BiZNİ",
+      "kelimeKarsiliklari": "ONADOĞRU : SÜLEMESEK : KAÇAR[SAK] : NE : EDER : O : BİZİ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-4#1",
+      "dizeId": "TY1-D-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 4,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰴𐰍𐰣𐰃 : 𐰞𐰯 : 𐰼𐰢𐰾",
+      "transkripsiyon": "KaGaNI : aLP : eRMiŞ",
+      "kelimeKarsiliklari": "KAĞANI : ALP : İMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-4#2",
+      "dizeId": "TY1-D-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 4,
+      "kelimeAraligi": [
+        3,
+        5
+      ],
+      "runik": "𐰖𐰍𐰆𐰲𐰃𐰾𐰃 : 𐰋𐰃𐰠𐰏𐰀 : 𐰼𐰢𐰾",
+      "transkripsiyon": "aYGUÇISI : BİLGE : eRMiŞ",
+      "kelimeKarsiliklari": "AYGUÇISI : BİLGE : İMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-4#3",
+      "dizeId": "TY1-D-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 4,
+      "kelimeAraligi": [
+        6,
+        13
+      ],
+      "runik": "𐰴𐰲𐰤𐰭 : 𐰼𐰾𐰼 : 𐰇𐰠𐰼𐱅𐰲𐰃 : 𐰝𐰜 : 𐰇𐰲𐰏𐰇𐰤 : 𐰴𐰉𐰽𐰯 : 𐰾𐰇𐰠𐰠𐰢 : 𐰓𐰃",
+      "transkripsiyon": "KaÇaNeŊ : eRSeR : ÖLüRTeÇİ : KÖK : ÜÇüGÜN : KaBıŞıP : SÜLeLiM : eDİ",
+      "kelimeKarsiliklari": "KAÇAR [İSEK] NE : İSE : [BİZİ] ÖLDÜRECEK : HEP : ÜÇÜ : KAVUŞUP : SÜLEYELİM : ONU",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-4#4",
+      "dizeId": "TY1-D-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 4,
+      "kelimeAraligi": [
+        14,
+        16
+      ],
+      "runik": "𐰖𐰸 : 𐰶𐰃𐰽𐰞𐰢 : 𐱅𐰢𐰾",
+      "transkripsiyon": "YOK : KISaLıM : TiMiŞ",
+      "kelimeKarsiliklari": "YOK : KILALIM : DEMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-4#5",
+      "dizeId": "TY1-D-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 4,
+      "kelimeAraligi": [
+        17,
+        20
+      ],
+      "runik": "𐱅𐰇𐰼𐰏𐰾 : 𐰴𐰍𐰣 : 𐰨𐰀 : 𐱅𐰢𐰾",
+      "transkripsiyon": "TÜRGiŞ : KaGaN : aNÇA : TiMiŞ",
+      "kelimeKarsiliklari": "TÜRGİŞ : KAĞANI : ANCA : DEMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-4#6",
+      "dizeId": "TY1-D-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 4,
+      "kelimeAraligi": [
+        21,
+        25
+      ],
+      "runik": "𐰋𐰤𐰭 : 𐰉𐰆𐰑𐰣𐰢 : 𐰦𐰀 : 𐰼𐰇𐰼 : 𐱅𐰢𐰾",
+      "transkripsiyon": "BeNiŊ : BODuNuM : aNDA : eRÜR : TiMiŞ",
+      "kelimeKarsiliklari": "BENİM : BOYLARIM : ORAYA : ER[İŞ]İR : DEMİŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-5#1",
+      "dizeId": "TY1-D-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰘𐰢𐰀 : 𐰉𐰆𐰞𐰍𐰨 : 𐰆𐰞 : 𐱅𐰢𐰾",
+      "transkripsiyon": "TÜRK : BODuN : YiME : BuLGaNÇ : OL : TiMiŞ",
+      "kelimeKarsiliklari": "TÜRK : BOYLARI : YİNE : BULANGAÇ : O : DEMİŞ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-5#2",
+      "dizeId": "TY1-D-5",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 5,
+      "kelimeAraligi": [
+        6,
+        10
+      ],
+      "runik": "𐰆𐰍𐰔𐰃 : 𐰘𐰢𐰀 : 𐱃𐰺𐰴𐰨 : 𐰆𐰞 : 𐱅𐰢𐰾",
+      "transkripsiyon": "OGuZI : YiME : TaRKıNÇ : OL : TiMiŞ",
+      "kelimeKarsiliklari": "OĞUZU : YİNE : DARGIN : O : DEMİŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

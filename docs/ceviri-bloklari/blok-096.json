@@ -1,0 +1,74 @@
+{
+  "blok": 96,
+  "blokSayisi": 96,
+  "dosya": "blok-096.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY2-K-2#2",
+      "dizeId": "TY2-K-2",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 2,
+      "kelimeAraligi": [
+        13,
+        15
+      ],
+      "runik": "𐰖𐰸 : 𐰼𐱅𐰲𐰃 : 𐰼𐱅𐰃",
+      "transkripsiyon": "YOK : eRTeÇİ : eRTİ",
+      "kelimeKarsiliklari": "YOK : EDECEK : İDİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-K-3#1",
+      "dizeId": "TY2-K-3",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 3,
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰃𐰠𐱅𐰼𐰾 : 𐰴𐰍𐰣 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰣𐰪𐰸𐰸 : 𐰴𐰔𐰍𐰦𐰸 : 𐰇𐰲𐰤 : 𐰴𐰯𐰍𐰣 : 𐰴𐰍𐰣 : 𐱅𐰇𐰼𐰝 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣 : 𐰖𐰆𐰺𐰃𐰑𐰸𐰃 : 𐰉𐰆",
+      "transkripsiyon": "İLTeRiŞ : KaGaN : BİLGE : TONYUKUK : KaZGaNDUK : ÜÇüN : KaPaGaN : KaGaN : TÜRK : SİR : BODuN : YORIDUKI : BU",
+      "kelimeKarsiliklari": "İLTERİŞ : KAĞAN : BİLGE : TONYUKUK : KAZANDIĞI : İÇİN : KAPAĞAN : KAĞANIN : TÜRK : SİR : BOYLARININ : YÜRÜDÜĞÜ : BU[NDANDIR]",
+      "kelimeSayisi": 13,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "TY2-K-4#1",
+      "dizeId": "TY2-K-4",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Kuzey",
+      "satir": 4,
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐱅𐰇𐰼𐰝 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐱅𐰇𐰼𐰝 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣𐰍 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰃𐰏𐰓𐰇 : 𐰆𐰞𐰺𐰆𐰺",
+      "transkripsiyon": "TÜRK : BİLGE : KaGaN : TÜRK : SİR : BODuNuG : OGuZ : BODuNuG : İGiDÜ : OLuRUR",
+      "kelimeKarsiliklari": "TÜRK : BİLGE : KAĞANI : TÜRK : SİR : BOYLARINI : OĞUZ : BOYLARINI : YEDİRİP : OTURUR",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

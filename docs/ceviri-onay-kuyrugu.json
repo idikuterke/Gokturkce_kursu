@@ -1,0 +1,12 @@
+{
+  "uretim": "2026-10-16",
+  "esik": 0.7,
+  "aciklama": "Çoklu kitap taramasının çıktısı. Hiçbir kayıt otomatik onaylanmamıştır; denetim ekranında insan kararı bekler. Sıra: ayrışanlar → tek kaynak → uzlaşanlar.",
+  "sayim": {
+    "aday-yok": 953,
+    "tek-kaynak": 0,
+    "uzlasti": 0,
+    "ayristi": 0
+  },
+  "kayitlar": []
+}

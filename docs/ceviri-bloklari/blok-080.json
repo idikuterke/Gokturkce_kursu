@@ -1,0 +1,207 @@
+{
+  "blok": 80,
+  "blokSayisi": 96,
+  "dosya": "blok-080.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "TY1-G-9#1",
+      "dizeId": "TY1-G-9",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰾𐰇𐰾𐰃 : 𐰇𐰲 : 𐰋𐰃𐰭",
+      "transkripsiyon": "SÜSİ : ÜÇ : BİŊ",
+      "kelimeKarsiliklari": "SÜSİ : ÜÇ : BİN",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-9#2",
+      "dizeId": "TY1-G-9",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        3,
+        6
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰋𐰃𐰔 : 𐰚𐰃 : 𐰋𐰃𐰭",
+      "transkripsiyon": "eRMiŞ : BİZ : iKİ : BİŊ",
+      "kelimeKarsiliklari": "İMİŞ : BİZ : İKİ : BİN",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-9#3",
+      "dizeId": "TY1-G-9",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        7,
+        10
+      ],
+      "runik": "𐰼𐱅𐰢𐰔 : 𐰾𐰇𐰭𐰾𐰓𐰢𐰔 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰃",
+      "transkripsiyon": "eRTiMiZ : SÜŊüŞDüMüZ : TeŊRİ : YaRLıKaDI",
+      "kelimeKarsiliklari": "İDİK : SÜNGÜŞDÜK : TANRI : YARLIKADI",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-9#4",
+      "dizeId": "TY1-G-9",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        11,
+        13
+      ],
+      "runik": "𐰖𐰪𐰑𐰢𐰔 : 𐰇𐰏𐰔𐰚𐰀 : 𐱅𐰇𐰾𐰓𐰃",
+      "transkripsiyon": "YaYıNDıMıZ : ÖGüZKE : TÜŞDİ",
+      "kelimeKarsiliklari": "YAYDIK : ÖGÜZE : DÜŞTÜ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-9#5",
+      "dizeId": "TY1-G-9",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        14,
+        17
+      ],
+      "runik": "𐰖𐰪𐰑𐰸 : 𐰖𐰆𐰡𐰀 : 𐰘𐰢𐰀 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "YaYıNDUK : YOLTA : YiME : ÖLTİ",
+      "kelimeKarsiliklari": "YAYDIKLARIMIZ : YOLDA : YİNE : ÖLDÜ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-9#6",
+      "dizeId": "TY1-G-9",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 9,
+      "kelimeAraligi": [
+        18,
+        23
+      ],
+      "runik": "𐰝𐰝 : 𐰦𐰀 : 𐰇𐱅𐰼𐰇 : 𐰆𐰍𐰔 : 𐰸𐰯𐰤 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "KÖK : aNDA : ÖTRÜ : OGuZ : KOPıN : KeLTİ",
+      "kelimeKarsiliklari": "HEP : ONDAN : ÖTÜRÜ : OĞUZUN : HEPSİ : GELDİ [BİZE KATILDI]",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-10#1",
+      "dizeId": "TY1-G-10",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 10,
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰚𐰠𐰇𐰼𐱅𐰢 : 𐰝 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣𐰍 : 𐰇𐱅𐰚𐰤 : 𐰘𐰼𐰚𐰀 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰇𐱅𐰚𐰤 : 𐰘𐰼𐰏 : 𐰸𐰆𐰣𐰢𐰾",
+      "transkripsiyon": "KeLÜRTüM : ÖK : TÜRK : BODuNuG : ÖTüKeN : YiRKE : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüKeN : YiRiG : KONMıŞ",
+      "kelimeKarsiliklari": "GETİRDİM : HEP : TÜRK : BOYLARININI : ÖTÜKEN : YERİNE : BEN : ÖZÜM : BİLGE : TONYUKUK : ÖTÜKEN : YERE : KONMUŞ",
+      "kelimeSayisi": 13,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-G-10#2",
+      "dizeId": "TY1-G-10",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Güney",
+      "satir": 10,
+      "kelimeAraligi": [
+        13,
+        21
+      ],
+      "runik": "𐱅𐰘𐰤 : 𐰾𐰓𐰯 : 𐰋𐰼𐰘𐰚𐰃 : 𐰉𐰆𐰑𐰣 : 𐰸𐰆𐰺𐰖𐰴𐰃 : 𐰘𐰃𐰺𐰖𐰴𐰃 : 𐰇𐰭𐰼𐰚𐰃 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "TiYiN : eŞiDiP : BiRiYeKİ : BODuN : KURıYaKI : YIRıYaKI : ÖŊReKİ : BODuN : KeLTİ",
+      "kelimeKarsiliklari": "DİYE : İŞİTİP : BERİDEKİ : BOYLARI : GERİDEKİ : YIRIDAKI : ÖNDEKİ : BOYLAR : GELDİ [BİZE KATILDI]",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-1#1",
+      "dizeId": "TY1-D-1",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 1,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰚𐰃 : 𐰉𐰃𐰭 : 𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "iKİ : BİŊ : eRTiMiZ",
+      "kelimeKarsiliklari": "[BİZ] İKİ : BİN : İDİK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "TY1-D-1#2",
+      "dizeId": "TY1-D-1",
+      "yazit": "Tonyukuk Yazıtı",
+      "yuz": "Doğu",
+      "satir": 1,
+      "kelimeAraligi": [
+        3,
+        6
+      ],
+      "runik": "𐰋𐰃𐰔 : 𐰚𐰃 : 𐰾𐰇 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "BİZ : iKİ : SÜ : BOLDI",
+      "kelimeKarsiliklari": "BİZ : İKİ : SÜ : OLDU[K]",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "blok": 41,
+  "blokSayisi": 96,
+  "dosya": "blok-041.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-D-11#3",
+      "dizeId": "BK-D-11",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 11,
+      "kelimeAraligi": [
+        15,
+        18
+      ],
+      "runik": "𐰖𐰍𐰃𐰾𐰃 : 𐰸𐰆𐰪 : 𐱅𐰏 : 𐰼𐰢𐰾",
+      "transkripsiyon": "YaGISI : KOYN : TeG : eRMiŞ",
+      "kelimeKarsiliklari": "YAĞISI : KOYUN : DEK : İMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-11#4",
+      "dizeId": "BK-D-11",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 11,
+      "kelimeAraligi": [
+        19,
+        22
+      ],
+      "runik": "𐰃𐰠𐰏𐰼𐰇 : 𐰸𐰆𐰺𐰍𐰺𐰆 : 𐰾𐰇𐰠𐰯 : 𐱅𐰃𐰼𐰢𐱁",
+      "transkripsiyon": "İLGeRÜ : KURıGaRU : SÜLeP : TİRMiŞ",
+      "kelimeKarsiliklari": "İLERİ : GERİ : SÜLEYİP : DERLEMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-11#5",
+      "dizeId": "BK-D-11",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 11,
+      "kelimeAraligi": [
+        23,
+        31
+      ],
+      "runik": "𐰴𐰆𐰉𐰺𐱃𐰢𐱁 : 𐰴𐰢𐰍𐰃 : 𐰘𐱅𐰃𐰘𐰔 : 𐰼 : 𐰉𐰆𐰞𐰢𐰾 : 𐰘𐱅𐰃𐰘𐰔 : 𐰼 : 𐰉𐰆𐰞𐰯 : 𐰠𐰾𐰼𐰢𐰾",
+      "transkripsiyon": "KUBRaTMıŞ : KaMaGI : YeTİYüZ : eR : BOLMıS : YeTİYüZ : eR : BOLıP : iLSiReMiŞ",
+      "kelimeKarsiliklari": "TOPARLAMIŞ : TAMAMI : YEDİYÜZ : ER : OLMUŞ : YEDİYÜZ : ER : OLUP : İLSİREMİŞ",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-11#6",
+      "dizeId": "BK-D-11",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 11,
+      "kelimeAraligi": [
+        32,
+        34
+      ],
+      "runik": "𐰚𐰍𐰣𐰽𐰺𐰢𐰾 : 𐰉𐰆𐰑𐰣𐰍 : 𐰚𐰇𐰭𐰓𐰢𐰾",
+      "transkripsiyon": "KaGaNSıRaMıŞ : BODuNıG : KÜŊeDMiŞ",
+      "kelimeKarsiliklari": "KAĞANSIRAMIŞ : BOYLARI : CARİYE EDİLMİŞ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-11#7",
+      "dizeId": "BK-D-11",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 11,
+      "kelimeAraligi": [
+        35,
+        39
+      ],
+      "runik": "𐰸𐰆𐰞𐰑𐰢𐰾 : 𐰉𐰆𐰑𐰣𐰍 : 𐱅𐰇𐰼𐰜 : 𐱅𐰇𐰼𐰇𐰾𐰇𐰤 : 𐰃𐰲𐰍𐰣𐰢𐰾",
+      "transkripsiyon": "KULaDMıŞ : BODuNıG : TÜRK : TÖRÜSÜN : IÇGıNMıŞ",
+      "kelimeKarsiliklari": "KUL EDİLMİŞ : BOYLARI : TÜRK : TÖRESİNİ : TERK ETMİŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-12#1",
+      "dizeId": "BK-D-12",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 12,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰍 : 𐰲𐰇𐰢 : 𐰯𐰀𐰢 : 𐱅𐰇𐰼𐰇𐰾𐰃𐰨𐰀 : 𐰖𐰺𐱃𐰢𐰾",
+      "transkripsiyon": "BODuNıG : eÇÜM : aPAM : TÖRÜSİNÇE : YaRaTMıŞ",
+      "kelimeKarsiliklari": "BOYLARI : EÇÜM : APAM : TÖRESİNCE : YARATMIŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-12#2",
+      "dizeId": "BK-D-12",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 12,
+      "kelimeAraligi": [
+        5,
+        10
+      ],
+      "runik": "𐰉𐰆𐱁𐰍𐰆𐰺𐰢𐰾 : 𐱅𐰇𐰠𐰃𐰾 : 𐱃𐰺𐰑𐰆𐱁 : 𐰉𐰆𐰑𐰣𐰍 : 𐰦𐰀 : 𐱅𐰢𐰾",
+      "transkripsiyon": "BOŞGURMıŞ : TÖLİS : TaRDUŞ : BODuNıG : aNDA : iTMiŞ",
+      "kelimeKarsiliklari": "BOŞGURMUŞ : TÖLİS : TARDUŞ : BOYLARINI : [O] ANDA : [DÜZEN] ETMİŞ",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-12#3",
+      "dizeId": "BK-D-12",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 12,
+      "kelimeAraligi": [
+        11,
+        14
+      ],
+      "runik": "𐰖𐰉𐰍𐰆𐰍 : 𐱁𐰑𐰍 : 𐰦𐰀 : 𐰋𐰼𐰢𐰾",
+      "transkripsiyon": "YaBGUG : ŞaDıG : aNDA : BiRMiŞ",
+      "kelimeKarsiliklari": "YABGUYU : ŞADI : [O] ANDA : [GÖREV] VERMİŞ",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-12#4",
+      "dizeId": "BK-D-12",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 12,
+      "kelimeAraligi": [
+        15,
+        19
+      ],
+      "runik": "𐰋𐰼𐰘𐰀 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "BiRiyE : TaBGaÇ : BODuN : YaGI : eRMiŞ",
+      "kelimeKarsiliklari": "BERİDE : TABGAÇ : BOYLARI : YAĞI : İMİŞ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-D-12#5",
+      "dizeId": "BK-D-12",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Doğu",
+      "satir": 12,
+      "kelimeAraligi": [
+        20,
+        26
+      ],
+      "runik": "𐰘𐰃𐰺𐰖𐰀 : 𐰉𐰔 : 𐰴𐰍𐰣 : 𐱃𐰸𐰆𐰔𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰆𐰣 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "YIRıYA : BaZ : KaGaN : TOKUZOGuZ : BODUN : YaGI : eRMiŞ",
+      "kelimeKarsiliklari": "YIRIDA : BAZ : KAĞAN : DOKUZ-OĞUZ : BOYLARI : YAĞI : İMİŞ",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

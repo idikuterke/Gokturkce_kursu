@@ -1,0 +1,207 @@
+{
+  "blok": 62,
+  "blokSayisi": 96,
+  "dosya": "blok-062.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "BK-G-1#3",
+      "dizeId": "BK-G-1",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 1,
+      "kelimeAraligi": [
+        13,
+        15
+      ],
+      "runik": "𐰖𐰑𐰍 : 𐰾𐰇𐰾𐰃𐰤 : 𐰚𐰦𐰃",
+      "transkripsiyon": "YaDaG : SÜSİN : iKiNTİ",
+      "kelimeKarsiliklari": "YAYA : SÜSİNİ : İKİNCİ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-1#4",
+      "dizeId": "BK-G-1",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 1,
+      "kelimeAraligi": [
+        16,
+        18
+      ],
+      "runik": "𐰚𐰇𐰤 : 𐰸𐰆𐰯 : 𐰇𐰠𐰼𐱅𐰢",
+      "transkripsiyon": "KÜN : KOP : ÖLüRTüM",
+      "kelimeKarsiliklari": "GÜN : HEP : ÖLDÜRDÜM",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-1#5",
+      "dizeId": "BK-G-1",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 1,
+      "kelimeAraligi": [
+        19,
+        21
+      ],
+      "runik": "𐰋𐰃 --- : 𐰚𐰠𐰯 : 𐰉𐰺𐰑 ---",
+      "transkripsiyon": "Bİ --- : KeLiP : BarD ---",
+      "kelimeKarsiliklari": "Bİ --- : GELİP : VARD ---",
+      "kelimeSayisi": 3,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-2#1",
+      "dizeId": "BK-G-2",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 2,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "--- : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "--- : YOLI : SÜLeDiM",
+      "kelimeKarsiliklari": "--- : YOL : SÜLEDİM",
+      "kelimeSayisi": 3,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-2#2",
+      "dizeId": "BK-G-2",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 2,
+      "kelimeAraligi": [
+        3,
+        10
+      ],
+      "runik": "𐰆𐱃𐰔 : 𐰺𐱃𐰸𐰃 : 𐰾𐰚𐰔 : 𐰖𐱁𐰢𐰀 : 𐰶𐰃𐱁𐰣 : 𐰶𐰃𐱃𐰪 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "OTuZ : aRTUKI : SeKiZ : YaŞıMA : KIŞıN : KITaYN : TaPA : SÜLeDiM",
+      "kelimeKarsiliklari": "OTUZ : ARTI : SEKİZ : YAŞIMDA : KIŞIN : KITAY : TARAFINA : SÜLEDİM",
+      "kelimeSayisi": 8,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-2#3",
+      "dizeId": "BK-G-2",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 2,
+      "kelimeAraligi": [
+        11,
+        19
+      ],
+      "runik": "--- : 𐰆𐱃𐰔 : 𐰺𐱃𐰸𐰃 : 𐱃𐰆𐰴𐰔 : 𐰖𐱁𐰢𐰃 : 𐰖𐰔𐰣 : 𐱃𐱃𐰉𐰃 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "--- : OTuZ : aRTUKI : TOKuZ : YaŞıMA : YaZıN : TaTaBI : TaPA : SÜLeDiM",
+      "kelimeKarsiliklari": "--- : OTUZ : ARTI : DOKUZ : YAŞIMDA : YAZIN : TATABI : TARAFINA : SÜLEDİM",
+      "kelimeSayisi": 9,
+      "yipranma": true,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-3#1",
+      "dizeId": "BK-G-3",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 3,
+      "kelimeAraligi": [
+        0,
+        7
+      ],
+      "runik": "--- 𐰢𐰤 : 𐰇𐰠𐰼𐱅𐰢 : 𐰆𐰍𐰞𐰃𐰣 : 𐰖𐰆𐱃𐰔𐰃𐰤 : 𐰖𐰃𐰞𐰴𐰾𐰃𐰤 : 𐰉𐰺𐰢𐰤 : --- 𐰺𐰀 : 𐰸𐰆 ---",
+      "transkripsiyon": "--- MeN : ÖLüRTüM : OGLIN : YOTuZIN : YILKıSIN : BaRıMıN : --- RA : KO ---",
+      "kelimeKarsiliklari": "--- BEN : ÖLDÜRDÜM : OĞLUNU : YOTUZUNU : YILKISINI : VARINI : --- AR : KO ---",
+      "kelimeSayisi": 8,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-4#1",
+      "dizeId": "BK-G-4",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 4,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰉𐰆𐰑𐰣 : --- : 𐰖𐰆𐱃𐰔𐰃𐰤 : 𐰖𐰸 : 𐰴𐰃𐰡𐰢 : ---",
+      "transkripsiyon": "BODuN --- : --- : YOTuZIN : YOK : KILDıM : ---",
+      "kelimeKarsiliklari": "BOYLARINI : --- : YOTUZUNU : YOK : KILDIM : ---",
+      "kelimeSayisi": 6,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-5#1",
+      "dizeId": "BK-G-5",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 5,
+      "kelimeAraligi": [
+        0,
+        0
+      ],
+      "runik": "𐰖𐰆𐰺 ---",
+      "transkripsiyon": "YOR ---",
+      "kelimeKarsiliklari": "YOR ---",
+      "kelimeSayisi": 1,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    },
+    {
+      "id": "BK-G-6#1",
+      "dizeId": "BK-G-6",
+      "yazit": "Bilge Kağan Yazıtı",
+      "yuz": "Güney",
+      "satir": 6,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰾𐰇𐰭𐱁𐰓𐰢 : --- : --- 𐰇𐰲𐰤 ---",
+      "transkripsiyon": "SÜŊüŞDüM : --- : --- ÜÇiN ---",
+      "kelimeKarsiliklari": "SÜNGÜŞDÜM : --- : --- İÇİN ---",
+      "kelimeSayisi": 3,
+      "yipranma": true,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": false,
+      "adaylar": []
+    }
+  ]
+}

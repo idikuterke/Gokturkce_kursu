@@ -1,0 +1,207 @@
+{
+  "blok": 19,
+  "blokSayisi": 96,
+  "dosya": "blok-019.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-D-25#3",
+      "dizeId": "KT-D-25",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 25,
+      "kelimeAraligi": [
+        8,
+        16
+      ],
+      "runik": "𐰚𐰇𐰾𐰃 : 𐰖𐰸 : 𐰉𐰆𐰞𐰢𐰔𐰆𐰤 : 𐱅𐰃𐰘𐰤 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣𐰍 : 𐰇𐰏𐰢 : 𐰴𐱃𐰆𐰣𐰍 : 𐰚𐰇𐱅𐰼𐰢𐱁",
+      "transkripsiyon": "KÜSİ : YOK : BOLMaZUN : TİYiN : KaŊıM : KaGaNıG : ÖGüM : KaTUNuG : KÖTüRMüŞ",
+      "kelimeKarsiliklari": "KÜSİ : YOK : OLMASIN : DİYE : BABAM : KAĞANI : ÖĞÜM : KADINI : GÖTÜRMÜŞ",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-25#4",
+      "dizeId": "KT-D-25",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 25,
+      "kelimeAraligi": [
+        17,
+        23
+      ],
+      "runik": "𐱅𐰭𐰼𐰃 : 𐰃𐰠 : 𐰋𐰃𐰼𐰏𐰢𐰀 : 𐱅𐰭𐰼𐰃 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐱃𐰃",
+      "transkripsiyon": "TeŊRİ : İL : BİRiGME : TeŊRİ : TÜRK : BODuN : aTI",
+      "kelimeKarsiliklari": "TANRI : İL : VEREN : TANRI : TÜRK : BOYLARININ : ADI",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-25#5",
+      "dizeId": "KT-D-25",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 25,
+      "kelimeAraligi": [
+        24,
+        30
+      ],
+      "runik": "𐰚𐰇𐰾𐰃 : 𐰖𐰸 : 𐰉𐰆𐰞𐰢𐰔𐰆𐰤 : 𐱅𐰃𐰘𐰤 : 𐰇𐰔𐰢𐰤 : 𐰆𐰞 : 𐱅𐰭𐰼𐰃",
+      "transkripsiyon": "KÜSİ : YOK : BOLMaZUN : TİYiN : ÖZüMüN : OL : TeŊRİ",
+      "kelimeKarsiliklari": "KÜSİ : YOK : OLMASIN : DİYE : ÖZÜMÜ : O : TANRI",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-26#1",
+      "dizeId": "KT-D-26",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 26,
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰑𐰃 : 𐰼𐰨",
+      "transkripsiyon": "KaGaN : OLuRTDI : eRiNÇ",
+      "kelimeKarsiliklari": "KAĞAN : OTURTTU : GERÇEK",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-26#2",
+      "dizeId": "KT-D-26",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 26,
+      "kelimeAraligi": [
+        3,
+        6
+      ],
+      "runik": "𐰤𐰭 : 𐰘𐰃𐰞𐰾𐰍 : 𐰉𐰆𐰑𐰣𐰴𐰀 : 𐰆𐰞𐰺𐰢𐰑𐰢",
+      "transkripsiyon": "NeŊ : YILSıG : BODuNKA : OLuRMaDıM",
+      "kelimeKarsiliklari": "NE[CE] : YILSI : BOYLARIN [ÜZERİNE] : OTURMADIM",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-26#3",
+      "dizeId": "KT-D-26",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 26,
+      "kelimeAraligi": [
+        7,
+        15
+      ],
+      "runik": "𐰃𐰲𐰼𐰀 : 𐱁𐰽𐰔 : 𐱃𐱁𐰺𐰀 : 𐱃𐰆𐰣𐰽𐰔 : 𐰖𐰉𐰔 : 𐰖𐰉𐰞𐰴 : 𐰉𐰆𐰑𐰦𐰀 : 𐰇𐰔𐰀 : 𐰆𐰞𐰺𐱃𐰢",
+      "transkripsiyon": "İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA : ÜZE : OLuRTuM",
+      "kelimeKarsiliklari": "İÇİ : AŞSIZ : DIŞI : DONSUZ : YAVUZ : YAVLAK : BOYLARIN : ÜZE[RİNE] : OTURDUM",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-26#4",
+      "dizeId": "KT-D-26",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 26,
+      "kelimeAraligi": [
+        16,
+        19
+      ],
+      "runik": "𐰃𐰤𐰢 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰔𐰠𐱁𐰓𐰢𐰔",
+      "transkripsiyon": "İNiM : KÖLTİGiN : BİRLE : SÖZLeŞDiMiZ",
+      "kelimeKarsiliklari": "İNİM : KÜLTİĞİN : İLE : SÖZLEŞTİK",
+      "kelimeSayisi": 4,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-26#5",
+      "dizeId": "KT-D-26",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 26,
+      "kelimeAraligi": [
+        20,
+        22
+      ],
+      "runik": "𐰴𐰭𐰢𐰔 : 𐰲𐰢𐰔 : 𐰴𐰔𐰍𐰣𐰢𐰾",
+      "transkripsiyon": "KaŊıMıZ : eÇiMiZ : KaZGaNMıŞ",
+      "kelimeKarsiliklari": "BABAMIZIN : EÇÜMÜZÜN : KAZANMIŞ [OLDUĞU]",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-26#6",
+      "dizeId": "KT-D-26",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 26,
+      "kelimeAraligi": [
+        23,
+        27
+      ],
+      "runik": "𐰉𐰆𐰑𐰣 : 𐱃𐰃 : 𐰚𐰇𐰾𐰃 : 𐰖𐰸 : 𐰉𐰆𐰞𐰢𐰔𐰆𐰤",
+      "transkripsiyon": "BODuN : aTI : KÜSİ : YOK : BOLMaZUN",
+      "kelimeKarsiliklari": "BOYLARIN : ADI : KÜSİ : YOK : OLMASIN",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-27#1",
+      "dizeId": "KT-D-27",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 27,
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰃𐰘𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰲𐰇𐰤 : 𐱅𐰇𐰤 : 𐰆𐰑𐰢𐰑𐰢",
+      "transkripsiyon": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM",
+      "kelimeKarsiliklari": "DİYE : TÜRK : BOYLARI : İÇİN : GECE : UYUMADIM",
+      "kelimeSayisi": 6,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}

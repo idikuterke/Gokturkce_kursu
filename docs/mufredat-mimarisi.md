@@ -156,3 +156,43 @@ style. Tokenleştirmek için `TEMA.marka` biçimine elle çevrilmeleri gerekir.
 `npm run tema:rapor` en çok kullanılanları sıralar.
 
 Yeni kod yazarken ham hex yazma — token yoksa `tema.json`'a ekle.
+
+---
+
+## Çoklu Kaynak Çeviri Tarama Hattı
+
+953 cümlecik, 10'arlı **96 blok** hâlinde `docs/ceviri-bloklari/`.
+Her blok bağımsızdır — bir modele/tarayıcıya tek başına verilebilir.
+
+```bash
+npm run ceviri:blok                      # blokları üret (10'arlı)
+node engine/ceviri-blok-uret.mjs --boyut 25 --uygun   # 25'erli, yalnız alıştırmaya uygun
+npm run ceviri:birlestir                 # doldurulmuş blokları topla, uzlaşmayı ölç
+```
+
+### Blok yapısı
+
+Kilitli alanlar — **değiştirilmez**: `id`, `dizeId`, `runik`, `transkripsiyon`, `kelimeAraligi`.
+Bağlam — salt okunur: `kelimeKarsiliklari`, `kelimeSayisi`, `yipranma`, `sonKelimeYuklem`.
+Doldurulacak: `adaylar[]` — her taranan kitaptan bir giriş.
+
+```json
+{ "kitap": "Tekin, Orhon Yazıtları, 2003", "sayfa": "s. 54",
+  "metin": "…", "tur": "ceviri", "guven": 0.9 }
+```
+
+### Uzlaşma ölçümü
+
+`ceviri:birlestir` adaylar arası **Jaccard kelime benzerliği** hesaplar
+(kelime sırası çeviride oynadığı için küme karşılaştırması).
+
+| Durum | Anlamı | Kuyruk sırası |
+|---|---|---|
+| `ayristi` | ≥2 kitap, benzerlik < eşik | **1 — insan kararı şart** |
+| `tek-kaynak` | 1 kitap | 2 — teyitsiz |
+| `uzlasti` | ≥2 kitap, benzerlik ≥ eşik | 3 — hızlı onay |
+
+Varsayılan eşik 0.7, `--esik` ile değişir.
+
+**Hiçbir kayıt otomatik onaylanmaz.** Çıktı `docs/ceviri-onay-kuyrugu.json`;
+denetim ekranında insan kararı bekler. Kitapsız aday sorunlu olarak raporlanır.

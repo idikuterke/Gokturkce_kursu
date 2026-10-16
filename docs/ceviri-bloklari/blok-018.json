@@ -1,0 +1,207 @@
+{
+  "blok": 18,
+  "blokSayisi": 96,
+  "dosya": "blok-018.json",
+  "uretim": "2026-10-16",
+  "kaynak": "05_Kaynak_DB/orhun-db-v1.json → docs/cumlecik-adaylari.json",
+  "talimat": "Her kayıt için `adaylar` dizisine, taradığın her kitaptan bir giriş ekle. id / runik / transkripsiyon / kelimeAraligi DEĞİŞTİRİLEMEZ — korpustan gelir. Eksik metni (---) tamamlama; o kaydı boş bırak.",
+  "adayAlanlari": {
+    "kitap": "Yayın adı. Ör. 'Tekin, Orhon Yazıtları, 2003'",
+    "sayfa": "Sayfa numarası. Ör. 's. 54'",
+    "metin": "O kitaptaki günümüz Türkçesi karşılığı",
+    "tur": "'ceviri' (gerçek çeviri) | 'gunumuz_okumasi' (eski sözcükler korunmuş)",
+    "guven": "0-1 arası. Tarayıcı eşleşme skorun."
+  },
+  "kayitlar": [
+    {
+      "id": "KT-D-23#5",
+      "dizeId": "KT-D-23",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 23,
+      "kelimeAraligi": [
+        19,
+        23
+      ],
+      "runik": "𐰾𐰇𐰭𐰏𐰠𐰏 : 𐰴𐰦𐰣 : 𐰚𐰠𐰯𐰤 : 𐰾𐰇𐰼𐰀 : 𐰠𐱅𐰓𐰃",
+      "transkripsiyon": "SÜŊüGLüG : KaNDıN : KeLiPeN : SÜRE : iLTDİ",
+      "kelimeKarsiliklari": "SÜNGÜLÜ : NEREDEN : GELİP : [SENİ] SÜRÜP : İTDİ",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-23#6",
+      "dizeId": "KT-D-23",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 23,
+      "kelimeAraligi": [
+        24,
+        30
+      ],
+      "runik": "𐰃𐰑𐰸 : 𐰇𐱅𐰜𐰤 : 𐰖𐰃𐱁 : 𐰉𐰆𐰑𐰣 : 𐰉𐰺𐰑𐰍 : 𐰃𐰠𐰏𐰼𐰇 : 𐰉𐰺𐰃𐰍𐰢𐰀",
+      "transkripsiyon": "IDUK : ÖTÜKeN : YIŞ : BODuN : BaRDıG : İLGeRÜ : BaRIGMA",
+      "kelimeKarsiliklari": "KUTLU : ÖTÜKEN : YIŞIN : BOYLARI : VARDI : İLERİ : VARAN",
+      "kelimeSayisi": 7,
+      "yipranma": false,
+      "sonKelimeYuklem": false,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-24#1",
+      "dizeId": "KT-D-24",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        0,
+        8
+      ],
+      "runik": "𐰉𐰺𐰑𐰍 : 𐰸𐰆𐰴𐰃𐰍𐰺𐰆 : 𐰉𐰺𐰃𐰍𐰢𐰀 : 𐰉𐰺𐰑𐰍 : 𐰉𐰺𐰑𐰸 : 𐰘𐰃𐰼𐰓𐰀 : 𐰓𐰏𐰇𐰏 : 𐰆𐰞 : 𐰼𐰨",
+      "transkripsiyon": "BaRDıG : KURIGaRU : BaRIGMA : BaRDıG : BaRDUK : YİRDE : eDGÜG : OL : eRiNÇ",
+      "kelimeKarsiliklari": "VARDI : GERİ : VARAN : VARDI : VARDIĞIN : YERDE : İYİ[CE] : O : GERÇEK",
+      "kelimeSayisi": 9,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-24#2",
+      "dizeId": "KT-D-24",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        9,
+        11
+      ],
+      "runik": "𐰴𐰣𐰍 : 𐰽𐰆𐰉𐰲𐰀 : 𐰘𐰇𐰏𐰼𐱅𐰃",
+      "transkripsiyon": "KaNıN : SUBÇA : YÜGüRTİ",
+      "kelimeKarsiliklari": "KANIN : SUCA : YÜĞÜRDÜ",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-24#3",
+      "dizeId": "KT-D-24",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        12,
+        14
+      ],
+      "runik": "𐰾𐰇𐰭𐰜𐰇𐰭 : 𐱃𐰍𐰲𐰀 : 𐰖𐱃𐰑𐰃",
+      "transkripsiyon": "SÜŊÜKÜŊ : TaGÇA : YaTDI",
+      "kelimeKarsiliklari": "SÜNGÜN : DAĞCA : YATTI",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-24#4",
+      "dizeId": "KT-D-24",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        15,
+        17
+      ],
+      "runik": "𐰋𐰏𐰠𐰚 : 𐰆𐰺𐰃 : 𐰆𐰍𐰞𐰭",
+      "transkripsiyon": "BeGLiK : URI : OGLuŊ",
+      "kelimeKarsiliklari": "BEĞLİK : URI : OĞLUN",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-24#5",
+      "dizeId": "KT-D-24",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        18,
+        22
+      ],
+      "runik": "𐰸𐰆𐰞 : 𐰉𐰆𐰡𐰃 : 𐰾𐰠𐰚 : 𐰴𐰃𐰔 : 𐰆𐰍𐰞𐰭",
+      "transkripsiyon": "KUL : BOLDI : iŞiLiK : KIZ : OGLuŊ",
+      "kelimeKarsiliklari": "KUL : OLDU : İŞİLİK : KIZ : OĞLUN",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-24#6",
+      "dizeId": "KT-D-24",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 24,
+      "kelimeAraligi": [
+        23,
+        32
+      ],
+      "runik": "𐰚𐰇𐰭 : 𐰉𐰆𐰡𐰃 : 𐰋𐰃𐰠𐰢𐰓𐰜 : 𐰇𐰲𐰇𐰤 : 𐰖𐰉𐰞𐰴𐰃𐰭𐰣 : 𐰇𐰲𐰇𐰤 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰲𐰀 : 𐰉𐰺𐰑𐰃",
+      "transkripsiyon": "KÜŊ : BODLI : BİLMeDÜK : ÜÇÜN : YaBLaKIŊıN : ÜÇÜN : eÇİM : KaGaN : UÇA : BaRDI",
+      "kelimeKarsiliklari": "CARİYE : OLDU : BİLMEDİĞİN : İÇİN : YAVLAKLIĞIN : İÇİN : EÇÜM : KAĞAN : UÇA : VARDI",
+      "kelimeSayisi": 10,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-25#1",
+      "dizeId": "KT-D-25",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 25,
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰉𐱁𐰞𐰖𐰆 : 𐰶𐰃𐰺𐰴𐰔 : 𐰴𐰍𐰣𐰍 : 𐰉𐰞𐰉𐰞 : 𐱅𐰃𐰚𐰓𐰢",
+      "transkripsiyon": "BaŞLayU : KIRKıZ : KaGaNıG : BaLBaL : TİKDiM",
+      "kelimeKarsiliklari": "BAŞINA : KIRGIZ : KAĞANINI : BALBAL : DİKTİM",
+      "kelimeSayisi": 5,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    },
+    {
+      "id": "KT-D-25#2",
+      "dizeId": "KT-D-25",
+      "yazit": "Kül Tigin Yazıtı",
+      "yuz": "Doğu",
+      "satir": 25,
+      "kelimeAraligi": [
+        5,
+        7
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰍 : 𐱃𐰃",
+      "transkripsiyon": "TÜRK : BODuNuG : aTI",
+      "kelimeKarsiliklari": "TÜRK : BOYLARININ : ADI",
+      "kelimeSayisi": 3,
+      "yipranma": false,
+      "sonKelimeYuklem": true,
+      "alistirmayaUygun": true,
+      "adaylar": []
+    }
+  ]
+}
