@@ -1,0 +1,4264 @@
+[
+  {
+    "id": "bodun",
+    "transkripsiyon": "bodun",
+    "runik": "𐰉𐰆𐰑𐰣",
+    "anlam": "millet, halk, boylar birliği",
+    "kategori": "toplum / yönetim",
+    "kaynak": "Tekin 2003, s. 304",
+    "bicimler": [
+      {
+        "runik": "𐰉𐰆𐰑𐰣",
+        "transkripsiyon": "BODuN",
+        "siklik": 124,
+        "dizeler": [
+          "KT-G-2",
+          "KT-G-2",
+          "KT-G-5"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰑𐰣𐰍",
+        "transkripsiyon": "BODuNuG",
+        "siklik": 31,
+        "dizeler": [
+          "KT-G-10",
+          "KT-G-10",
+          "KT-G-10"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰑𐰣𐰍",
+        "transkripsiyon": "BODuNıG",
+        "siklik": 24,
+        "dizeler": [
+          "KT-D-2",
+          "KT-D-13",
+          "KT-D-13"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰑𐰣𐰃",
+        "transkripsiyon": "BODuNI",
+        "siklik": 11,
+        "dizeler": [
+          "KT-G-2",
+          "KT-D-3",
+          "KT-D-6"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰑𐰣𐰴𐰀",
+        "transkripsiyon": "BODuNKA",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-7",
+          "KT-D-26",
+          "BK-D-7"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰑𐰣𐰢",
+        "transkripsiyon": "BODuNuM",
+        "siklik": 5,
+        "dizeler": [
+          "KT-G-1",
+          "KT-K-11",
+          "BK-K-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tengri",
+    "transkripsiyon": "teŋri",
+    "runik": "𐱅𐰭𐰼𐰃",
+    "anlam": "gök, tanrı, ilahi düzen",
+    "kategori": "inanç / kozmoloji",
+    "kaynak": "Tekin 2003, s. 321",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰭𐰼𐰃",
+        "transkripsiyon": "TeŊRİ",
+        "siklik": 43,
+        "dizeler": [
+          "KT-G-1",
+          "KT-G-9",
+          "KT-D-1"
+        ]
+      },
+      {
+        "runik": "𐱅𐰭𐰼𐰃𐰓𐰀",
+        "transkripsiyon": "TeŊRİDE",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-1",
+          "BK-K-1"
+        ]
+      },
+      {
+        "runik": "𐱅𐰭𐰼𐰃𐰾𐰃",
+        "transkripsiyon": "TeŊRİSİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-10",
+          "BK-D-10"
+        ]
+      },
+      {
+        "runik": "𐱅𐰭𐰼𐰃",
+        "transkripsiyon": "TEŊRİ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-29"
+        ]
+      },
+      {
+        "runik": "𐱅𐰏𐰼𐰃",
+        "transkripsiyon": "TeŊRİ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-13"
+        ]
+      },
+      {
+        "runik": "𐱅𐰏𐰼𐰃",
+        "transkripsiyon": "TeŊRi",
+        "siklik": 1,
+        "dizeler": [
+          "KT-GD-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kagan",
+    "transkripsiyon": "kagan",
+    "runik": "𐰴𐰍𐰣",
+    "anlam": "hakan, kağan, hükümdar",
+    "kategori": "yönetim",
+    "kaynak": "Tekin 2003, s. 312",
+    "bicimler": [
+      {
+        "runik": "𐰴𐰍𐰣",
+        "transkripsiyon": "KaGaN",
+        "siklik": 98,
+        "dizeler": [
+          "KT-G-1",
+          "KT-G-3",
+          "KT-G-4"
+        ]
+      },
+      {
+        "runik": "𐰴𐰍𐰣𐰴𐰀",
+        "transkripsiyon": "KaGaNKA",
+        "siklik": 19,
+        "dizeler": [
+          "KT-D-7",
+          "KT-D-8",
+          "KT-D-8"
+        ]
+      },
+      {
+        "runik": "𐰴𐰍𐰣𐰃",
+        "transkripsiyon": "KaGaNI",
+        "siklik": 9,
+        "dizeler": [
+          "KT-D-19",
+          "KT-D-20",
+          "BK-D-16"
+        ]
+      },
+      {
+        "runik": "𐰴𐰍𐰣𐰍",
+        "transkripsiyon": "KaGaNıG",
+        "siklik": 8,
+        "dizeler": [
+          "KT-D-11",
+          "KT-D-16",
+          "KT-D-25"
+        ]
+      },
+      {
+        "runik": "𐰴𐰍𐰦𐰀",
+        "transkripsiyon": "KaGaNDA",
+        "siklik": 7,
+        "dizeler": [
+          "KT-G-11",
+          "KT-K-12",
+          "KT-K-12"
+        ]
+      },
+      {
+        "runik": "𐰴𐰍𐰣𐰢",
+        "transkripsiyon": "KaGaNıM",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-9",
+          "BK-D-9",
+          "BK-D-41"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bilge",
+    "transkripsiyon": "bilge",
+    "runik": "𐰋𐰃𐰠𐰏𐰀",
+    "anlam": "bilge, hakim, bilgili, akil",
+    "kategori": "unvan / kişilik",
+    "kaynak": "Tekin 2003, s. 304",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰃𐰠𐰏𐰀",
+        "transkripsiyon": "BİLGE",
+        "siklik": 36,
+        "dizeler": [
+          "KT-G-1",
+          "KT-G-6",
+          "KT-D-3"
+        ]
+      },
+      {
+        "runik": "𐰋𐰃𐰠𐰏𐰀𐰾𐰃",
+        "transkripsiyon": "BİLGESİ",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-4"
+        ]
+      },
+      {
+        "runik": "𐰋𐰠𐰏𐰾𐰃",
+        "transkripsiyon": "BiLGeSİ",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-B-7"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "katun",
+    "transkripsiyon": "katun",
+    "runik": "𐰴𐱃𐰆𐰣",
+    "anlam": "hatun, hakan eşi, kraliçe",
+    "kategori": "yönetim / aile",
+    "kaynak": "Tekin 2003, s. 313",
+    "bicimler": [
+      {
+        "runik": "𐰴𐱃𐰆𐰣",
+        "transkripsiyon": "KATuN",
+        "siklik": 2,
+        "dizeler": [
+          "KT-K-9",
+          "TY1-K-7"
+        ]
+      },
+      {
+        "runik": "𐰴𐱃𐰆𐰣𐰍",
+        "transkripsiyon": "KaTUNıG",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-11",
+          "BK-D-10"
+        ]
+      },
+      {
+        "runik": "𐰴𐱃𐰆𐰣𐰍",
+        "transkripsiyon": "KaTUNuG",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-25",
+          "BK-D-21"
+        ]
+      },
+      {
+        "runik": "𐰴𐱃𐰆𐰣",
+        "transkripsiyon": "KaTUN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-31"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "beg",
+    "transkripsiyon": "beg",
+    "runik": "𐰋𐰏",
+    "anlam": "bey, soylu lider, komutan",
+    "kategori": "yönetim",
+    "kaynak": "Tekin 2003, s. 303",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰏𐰠𐰼",
+        "transkripsiyon": "BeGLeR",
+        "siklik": 24,
+        "dizeler": [
+          "KT-G-1",
+          "KT-G-1",
+          "KT-G-10"
+        ]
+      },
+      {
+        "runik": "𐰋𐰏𐰠𐰼𐰃",
+        "transkripsiyon": "BeGLeRİ",
+        "siklik": 12,
+        "dizeler": [
+          "KT-G-2",
+          "KT-D-3",
+          "KT-D-6"
+        ]
+      },
+      {
+        "runik": "𐰋𐰏𐰠𐰚",
+        "transkripsiyon": "BeGLiK",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-7",
+          "KT-D-24",
+          "BK-D-7"
+        ]
+      },
+      {
+        "runik": "𐰋𐰏",
+        "transkripsiyon": "BeG",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-20",
+          "KT-K-8",
+          "BK-D-16"
+        ]
+      },
+      {
+        "runik": "𐰋𐰏𐰠𐰃",
+        "transkripsiyon": "BeGLİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-6",
+          "BK-D-6"
+        ]
+      },
+      {
+        "runik": "𐰋𐰏𐰠𐰼",
+        "transkripsiyon": "BEGLER",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "il",
+    "transkripsiyon": "il / el",
+    "runik": "𐰃𐰠",
+    "anlam": "devlet, ülke, halk birliği",
+    "kategori": "toplum / yönetim",
+    "kaynak": "Tekin 2003, s. 308",
+    "bicimler": [
+      {
+        "runik": "𐰃𐰠𐰏𐰼𐰇",
+        "transkripsiyon": "İLGeRÜ",
+        "siklik": 18,
+        "dizeler": [
+          "KT-G-2",
+          "KT-G-3",
+          "KT-D-2"
+        ]
+      },
+      {
+        "runik": "𐰃𐰠𐰃𐰤",
+        "transkripsiyon": "İLİN",
+        "siklik": 14,
+        "dizeler": [
+          "KT-D-1",
+          "KT-D-6",
+          "KT-D-8"
+        ]
+      },
+      {
+        "runik": "𐰃𐰠",
+        "transkripsiyon": "İL",
+        "siklik": 12,
+        "dizeler": [
+          "KT-G-4",
+          "KT-G-8",
+          "KT-G-10"
+        ]
+      },
+      {
+        "runik": "𐰃𐰠𐰏",
+        "transkripsiyon": "İLiG",
+        "siklik": 10,
+        "dizeler": [
+          "KT-D-3",
+          "KT-D-3",
+          "KT-D-9"
+        ]
+      },
+      {
+        "runik": "𐰠𐱅𐰓𐰃",
+        "transkripsiyon": "iLTDİ",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-23",
+          "KT-D-23",
+          "BK-D-19"
+        ]
+      },
+      {
+        "runik": "𐰃𐰠𐰤",
+        "transkripsiyon": "İLiN",
+        "siklik": 3,
+        "dizeler": [
+          "BK-D-27",
+          "BK-D-28",
+          "BK-D-34"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "toru",
+    "transkripsiyon": "törü",
+    "runik": "𐱃𐰆𐰺𐰆",
+    "anlam": "töre, örfi kanun, devlet düzeni",
+    "kategori": "yönetim / hukuk",
+    "kaynak": "Tekin 2003, s. 322",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰇𐰼𐰇𐰏",
+        "transkripsiyon": "TÖRÜG",
+        "siklik": 6,
+        "dizeler": [
+          "KT-D-3",
+          "KT-D-16",
+          "KT-D-30"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰼𐰇𐰾𐰃𐰤",
+        "transkripsiyon": "TÖRÜSİN",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-1",
+          "KT-D-8",
+          "KT-D-31"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰼𐰇𐰤",
+        "transkripsiyon": "TÖRÜN",
+        "siklik": 3,
+        "dizeler": [
+          "BK-K-9",
+          "BK-K-10",
+          "BK-K-10"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰺𐰆",
+        "transkripsiyon": "TORU",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-9",
+          "BK-K-7"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰺𐰸",
+        "transkripsiyon": "TORUK",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-39",
+          "TY1-B-6"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰼𐰇𐰾𐰇𐰤",
+        "transkripsiyon": "TÖRÜSÜN",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-13",
+          "BK-D-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "sab",
+    "transkripsiyon": "sab",
+    "runik": "𐰽𐰉",
+    "anlam": "söz, mesaj, kelam, haber",
+    "kategori": "iletişim",
+    "kaynak": "Tekin 2003, s. 318",
+    "bicimler": [
+      {
+        "runik": "𐰽𐰉𐰍",
+        "transkripsiyon": "SaBıG",
+        "siklik": 9,
+        "dizeler": [
+          "KT-G-7",
+          "BK-K-6",
+          "TY1-K-6"
+        ]
+      },
+      {
+        "runik": "𐰽𐰉𐰃",
+        "transkripsiyon": "SaBI",
+        "siklik": 6,
+        "dizeler": [
+          "KT-G-5",
+          "BK-D-39",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰽𐰉𐰢𐰣",
+        "transkripsiyon": "SaBıMıN",
+        "siklik": 5,
+        "dizeler": [
+          "KT-G-1",
+          "KT-G-11",
+          "KT-G-12"
+        ]
+      },
+      {
+        "runik": "𐰽𐰉𐰢",
+        "transkripsiyon": "SaBıM",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-11",
+          "BK-D-1",
+          "BK-G-13"
+        ]
+      },
+      {
+        "runik": "𐰽𐰉",
+        "transkripsiyon": "SaB",
+        "siklik": 2,
+        "dizeler": [
+          "TY1-G-2",
+          "TY1-K-10"
+        ]
+      },
+      {
+        "runik": "𐰽𐰉𐰢𐰤",
+        "transkripsiyon": "SaBıMıN",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-2",
+          "BK-K-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "su",
+    "transkripsiyon": "sü",
+    "runik": "𐰾𐰇",
+    "anlam": "ordu, asker, sefer kuvveti",
+    "kategori": "askeri",
+    "kaynak": "Tekin 2003, s. 319",
+    "bicimler": [
+      {
+        "runik": "𐰾𐰇",
+        "transkripsiyon": "SÜ",
+        "siklik": 24,
+        "dizeler": [
+          "KT-D-2",
+          "KT-D-28",
+          "KT-D-31"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰾𐰃",
+        "transkripsiyon": "SÜSİ",
+        "siklik": 14,
+        "dizeler": [
+          "KT-D-12",
+          "KT-D-37",
+          "BK-D-11"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰾𐰃𐰤",
+        "transkripsiyon": "SÜSİN",
+        "siklik": 11,
+        "dizeler": [
+          "KT-K-6",
+          "KT-K-7",
+          "BK-D-26"
+        ]
+      },
+      {
+        "runik": "𐰽𐰆𐰉",
+        "transkripsiyon": "SUB",
+        "siklik": 8,
+        "dizeler": [
+          "KT-D-19",
+          "KT-D-20",
+          "KT-D-27"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰲𐰃𐰏",
+        "transkripsiyon": "SÜÇİG",
+        "siklik": 6,
+        "dizeler": [
+          "KT-G-5",
+          "KT-G-5",
+          "KT-G-6"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰏",
+        "transkripsiyon": "SÜG",
+        "siklik": 6,
+        "dizeler": [
+          "KT-D-32",
+          "KT-D-34",
+          "BK-D-25"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yagi",
+    "transkripsiyon": "yagı",
+    "runik": "𐰖𐰍𐰃",
+    "anlam": "düşman, hasım",
+    "kategori": "askeri",
+    "kaynak": "Tekin 2003, s. 325",
+    "bicimler": [
+      {
+        "runik": "𐰖𐰍𐰃",
+        "transkripsiyon": "YaGI",
+        "siklik": 21,
+        "dizeler": [
+          "KT-D-2",
+          "KT-D-9",
+          "KT-D-10"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰃𐰍",
+        "transkripsiyon": "YaGIG",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-15",
+          "BK-D-13",
+          "TY2-D-4"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰢𐰔",
+        "transkripsiyon": "YaGıMıZ",
+        "siklik": 3,
+        "dizeler": [
+          "TY1-G-1",
+          "TY1-D-2",
+          "TY1-D-2"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰃𐰾𐰃",
+        "transkripsiyon": "YaGISI",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-12",
+          "BK-D-11"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰔",
+        "transkripsiyon": "YaGıZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-1",
+          "BK-D-2"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰾𐰃𐰔",
+        "transkripsiyon": "YaGıSIZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-30",
+          "BK-D-24"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "at_unvan",
+    "transkripsiyon": "āt",
+    "runik": "𐱃",
+    "anlam": "ad, unvan, şöhret",
+    "kategori": "kimlik",
+    "kaynak": "Tekin 2003, s. 301",
+    "bicimler": [
+      {
+        "runik": "𐱃",
+        "transkripsiyon": "aT",
+        "siklik": 13,
+        "dizeler": [
+          "KT-D-20",
+          "KT-D-31",
+          "KT-D-32"
+        ]
+      },
+      {
+        "runik": "𐱃𐰃",
+        "transkripsiyon": "aTI",
+        "siklik": 8,
+        "dizeler": [
+          "KT-D-25",
+          "KT-D-25",
+          "KT-D-26"
+        ]
+      },
+      {
+        "runik": "𐱃𐰍",
+        "transkripsiyon": "aTıG",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-32",
+          "KT-D-33",
+          "BK-D-17"
+        ]
+      },
+      {
+        "runik": "𐰀𐱃𐰃𐰤",
+        "transkripsiyon": "ATIN",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-7",
+          "KT-D-7",
+          "BK-D-7"
+        ]
+      },
+      {
+        "runik": "𐱃𐰃𐰤",
+        "transkripsiyon": "aTIN",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-40",
+          "KT-K-2",
+          "BK-K-11"
+        ]
+      },
+      {
+        "runik": "𐱃𐰃𐰾𐰃",
+        "transkripsiyon": "aTISI",
+        "siklik": 3,
+        "dizeler": [
+          "KT-G-13",
+          "KT-GD-1",
+          "BK-GB-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "er",
+    "transkripsiyon": "er",
+    "runik": "𐰼",
+    "anlam": "erkek, yiğit, asker, er",
+    "kategori": "insan / askeri",
+    "kaynak": "Tekin 2003, s. 307",
+    "bicimler": [
+      {
+        "runik": "𐰼𐰢𐰾",
+        "transkripsiyon": "eRMiŞ",
+        "siklik": 70,
+        "dizeler": [
+          "KT-G-5",
+          "KT-G-5",
+          "KT-G-5"
+        ]
+      },
+      {
+        "runik": "𐰼𐱅𐰃",
+        "transkripsiyon": "eRTİ",
+        "siklik": 45,
+        "dizeler": [
+          "KT-D-18",
+          "KT-D-20",
+          "KT-D-21"
+        ]
+      },
+      {
+        "runik": "𐰼𐰨",
+        "transkripsiyon": "eRiNÇ",
+        "siklik": 33,
+        "dizeler": [
+          "KT-D-3",
+          "KT-D-3",
+          "KT-D-3"
+        ]
+      },
+      {
+        "runik": "𐰼𐰾𐰼",
+        "transkripsiyon": "eRSeR",
+        "siklik": 17,
+        "dizeler": [
+          "KT-G-7",
+          "KT-G-7",
+          "KT-G-11"
+        ]
+      },
+      {
+        "runik": "𐰼",
+        "transkripsiyon": "eR",
+        "siklik": 11,
+        "dizeler": [
+          "KT-D-12",
+          "KT-D-13",
+          "KT-D-13"
+        ]
+      },
+      {
+        "runik": "𐰼𐰏",
+        "transkripsiyon": "eRiG",
+        "siklik": 11,
+        "dizeler": [
+          "KT-G-13",
+          "KT-D-36",
+          "KT-D-36"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "ogul",
+    "transkripsiyon": "ogul",
+    "runik": "𐰆𐰍𐰞",
+    "anlam": "oğul, evlat, çocuk",
+    "kategori": "aile / toplum",
+    "kaynak": "Tekin 2003, s. 315",
+    "bicimler": [
+      {
+        "runik": "𐰆𐰍𐰞",
+        "transkripsiyon": "OGuL",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-12"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kiz",
+    "transkripsiyon": "kız",
+    "runik": "𐰶𐰃𐰔",
+    "anlam": "kız evlat, genç kadın",
+    "kategori": "aile / toplum",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰶𐰃𐰔𐰞",
+        "transkripsiyon": "KIZıL",
+        "siklik": 3,
+        "dizeler": [
+          "TY2-G-4",
+          "TY2-G-4",
+          "TY2-D-2"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰔",
+        "transkripsiyon": "KIZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-7",
+          "BK-D-7"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰔",
+        "transkripsiyon": "KIZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-24",
+          "BK-D-20"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰔𐰃𐰣",
+        "transkripsiyon": "KIZIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-10"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰔𐰯",
+        "transkripsiyon": "KIZıP",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-5"
+        ]
+      },
+      {
+        "runik": "𐰴𐰔𐰢𐰃𐰣",
+        "transkripsiyon": "KıZıMIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-9"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "alp",
+    "transkripsiyon": "alp",
+    "runik": "𐰞𐰯",
+    "anlam": "cesur, yiğit, kahraman savaşçı",
+    "kategori": "askeri / kişilik",
+    "kaynak": "Tekin 2003, s. 301",
+    "bicimler": [
+      {
+        "runik": "𐰞𐰯",
+        "transkripsiyon": "aLP",
+        "siklik": 18,
+        "dizeler": [
+          "KT-G-6",
+          "KT-D-3",
+          "KT-D-3"
+        ]
+      },
+      {
+        "runik": "𐰞𐰯",
+        "transkripsiyon": "ALP",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-G-7"
+        ]
+      },
+      {
+        "runik": "𐰞𐰯𐰍𐰆",
+        "transkripsiyon": "aLPagU",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-7"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "ay",
+    "transkripsiyon": "ay",
+    "runik": "𐰖",
+    "anlam": "ay (gök cismi / zaman birimi)",
+    "kategori": "zaman / kozmoloji",
+    "kaynak": "Tekin 2003, s. 302",
+    "bicimler": [
+      {
+        "runik": "𐰖",
+        "transkripsiyon": "aY",
+        "siklik": 6,
+        "dizeler": [
+          "KT-KD-1",
+          "KT-KD-1",
+          "BK-G-10"
+        ]
+      },
+      {
+        "runik": "𐰪𐰍",
+        "transkripsiyon": "aYNıG",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-5",
+          "BK-K-2",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰪𐰃𐰍",
+        "transkripsiyon": "aYNIG",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-10"
+        ]
+      },
+      {
+        "runik": "𐰖𐰑𐰃",
+        "transkripsiyon": "aYDI",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-7"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰆𐰲𐰃",
+        "transkripsiyon": "aYGUÇI",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-5"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰃𐰑𐰃",
+        "transkripsiyon": "aYGIDI",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-6"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "od",
+    "transkripsiyon": "öd",
+    "runik": "𐰇𐰓",
+    "anlam": "zaman, vakit, çağ",
+    "kategori": "zaman",
+    "kaynak": "Tekin 2003, s. 316",
+    "bicimler": [
+      {
+        "runik": "𐰇𐰓𐰚𐰀",
+        "transkripsiyon": "ÖDKE",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-1",
+          "KT-D-21",
+          "KT-D-40"
+        ]
+      },
+      {
+        "runik": "𐰇𐰓",
+        "transkripsiyon": "ÖD",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-10"
+        ]
+      },
+      {
+        "runik": "𐰇𐰓𐰃𐰭𐰀",
+        "transkripsiyon": "ÖDİŊE",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-29"
+        ]
+      },
+      {
+        "runik": "𐰇𐰓𐰾𐰏",
+        "transkripsiyon": "ÖDSiG",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-34"
+        ]
+      },
+      {
+        "runik": "𐰇𐰓𐱁𐰚𐰀",
+        "transkripsiyon": "ÖDüŞKE",
+        "siklik": 1,
+        "dizeler": [
+          "BK-GD-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kok",
+    "transkripsiyon": "kök",
+    "runik": "𐰚𐰇𐰚",
+    "anlam": "mavi, gök rengi, kök",
+    "kategori": "renk / kozmoloji",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰇𐰚",
+        "transkripsiyon": "KÖK",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-1",
+          "BK-D-2",
+          "BK-G-12"
+        ]
+      },
+      {
+        "runik": "𐰜𐰇𐰚",
+        "transkripsiyon": "KÖK",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-3",
+          "BK-D-4"
+        ]
+      },
+      {
+        "runik": "𐰝𐰝",
+        "transkripsiyon": "KÖK",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-G-9"
+        ]
+      },
+      {
+        "runik": "𐰝𐰜",
+        "transkripsiyon": "KÖK",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-D-4"
+        ]
+      },
+      {
+        "runik": "𐰚𐰝",
+        "transkripsiyon": "KÖK",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-6"
+        ]
+      },
+      {
+        "runik": "𐰸𐰆𐰴𐰞𐰴",
+        "transkripsiyon": "KOKuLuK",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tigin",
+    "transkripsiyon": "tigin",
+    "runik": "𐱅𐰃𐰏𐰤",
+    "anlam": "prens, kağan oğlu",
+    "kategori": "yönetim / unvan",
+    "kaynak": "Tekin 2003, s. 321",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰃𐰏𐰤",
+        "transkripsiyon": "TİGiN",
+        "siklik": 6,
+        "dizeler": [
+          "KT-GB-1",
+          "KT-GB-1",
+          "BK-D-14"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bengu",
+    "transkripsiyon": "beŋgü",
+    "runik": "𐰋𐰭𐰏𐰇",
+    "anlam": "ebedi, sonsuz, abide",
+    "kategori": "inanç / kültür",
+    "kaynak": "Tekin 2003, s. 303",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰭𐰏𐰇",
+        "transkripsiyon": "BeŊGÜ",
+        "siklik": 8,
+        "dizeler": [
+          "KT-G-8",
+          "KT-G-11",
+          "KT-G-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "otuken",
+    "transkripsiyon": "ötüken",
+    "runik": "𐰇𐱅𐰜𐰤",
+    "anlam": "Ötüken (kutsal devlet merkezi)",
+    "kategori": "coğrafya / kutsal",
+    "kaynak": "Tekin 2003, s. 316",
+    "bicimler": [
+      {
+        "runik": "𐰇𐱅𐰜𐰤",
+        "transkripsiyon": "ÖTÜKeN",
+        "siklik": 10,
+        "dizeler": [
+          "KT-G-3",
+          "KT-G-4",
+          "KT-G-4"
+        ]
+      },
+      {
+        "runik": "𐰇𐱅𐰚𐰤",
+        "transkripsiyon": "ÖTüKeN",
+        "siklik": 3,
+        "dizeler": [
+          "TY1-G-8",
+          "TY1-G-10",
+          "TY1-G-10"
+        ]
+      },
+      {
+        "runik": "𐰇𐱅𐰇𐰚𐰤",
+        "transkripsiyon": "ÖTÜKeN",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-8",
+          "BK-K-6"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yer",
+    "transkripsiyon": "yer / yir",
+    "runik": "𐰘𐰼",
+    "anlam": "yer, toprak, vatan",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰘𐰼",
+        "transkripsiyon": "YeR",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-1",
+          "KT-D-34"
+        ]
+      },
+      {
+        "runik": "𐰘𐰺",
+        "transkripsiyon": "YeR",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-2"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "sub",
+    "transkripsiyon": "sub / suv",
+    "runik": "𐰽𐰆𐰉",
+    "anlam": "su, nehir, kutsal vatan suyu",
+    "kategori": "coğrafya / kutsal",
+    "kaynak": "Tekin 2003, s. 319",
+    "bicimler": [
+      {
+        "runik": "𐰽𐰆𐰉",
+        "transkripsiyon": "SUB",
+        "siklik": 8,
+        "dizeler": [
+          "KT-D-19",
+          "KT-D-20",
+          "KT-D-27"
+        ]
+      },
+      {
+        "runik": "𐰽𐰆𐰉𐰃",
+        "transkripsiyon": "SUBI",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-11",
+          "BK-D-10"
+        ]
+      },
+      {
+        "runik": "𐰾𐰆𐰉",
+        "transkripsiyon": "SUB",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-3"
+        ]
+      },
+      {
+        "runik": "𐰽𐰆𐰉𐰲𐰀",
+        "transkripsiyon": "SUBÇA",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-24"
+        ]
+      },
+      {
+        "runik": "𐰽𐰆𐰉𐰃𐰤",
+        "transkripsiyon": "SUBIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-35"
+        ]
+      },
+      {
+        "runik": "𐰽𐰆𐰉𐰽𐰔",
+        "transkripsiyon": "SUBSuZ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-GD-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tag",
+    "transkripsiyon": "tag",
+    "runik": "𐱃𐰍𐰲𐰀",
+    "anlam": "dağ",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 320",
+    "bicimler": [
+      {
+        "runik": "𐱃𐰍𐰲𐰀",
+        "transkripsiyon": "TaGÇA",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-24",
+          "BK-D-20"
+        ]
+      },
+      {
+        "runik": "𐱃𐰍𐰑𐰀",
+        "transkripsiyon": "TaGDA",
+        "siklik": 2,
+        "dizeler": [
+          "BK-G-8",
+          "BK-B-5"
+        ]
+      },
+      {
+        "runik": "𐱃𐰍𐰑𐰴𐰃",
+        "transkripsiyon": "TaGDakI",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-12",
+          "BK-D-10"
+        ]
+      },
+      {
+        "runik": "𐱃𐰍𐰴𐰀",
+        "transkripsiyon": "TAGKA",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-3"
+        ]
+      },
+      {
+        "runik": "𐱃𐰍𐰴𐰃",
+        "transkripsiyon": "TaGKA",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-7"
+        ]
+      },
+      {
+        "runik": "𐱃𐰍𐰴𐰀",
+        "transkripsiyon": "TaGKA",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "uguz",
+    "transkripsiyon": "ügüz / oguz",
+    "runik": null,
+    "anlam": "ırmak, büyük akarsu",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 324",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "kol",
+    "transkripsiyon": "köl",
+    "runik": "𐰚𐰇𐰠",
+    "anlam": "göl, deniz nitelikli su",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰇𐰠",
+        "transkripsiyon": "KÖL",
+        "siklik": 2,
+        "dizeler": [
+          "BK-G-13",
+          "BK-G-14"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰠𐱅𐰀",
+        "transkripsiyon": "KÖLTE",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-34",
+          "KT-K-2"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yis",
+    "transkripsiyon": "yış",
+    "runik": "𐰘𐰃𐱁",
+    "anlam": "ormanlık dağ, orman",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰘𐰃𐱁",
+        "transkripsiyon": "YIŞ",
+        "siklik": 8,
+        "dizeler": [
+          "KT-G-3",
+          "KT-G-4",
+          "KT-G-6"
+        ]
+      },
+      {
+        "runik": "𐰘𐰃𐱁𐰑𐰀",
+        "transkripsiyon": "YIŞDA",
+        "siklik": 5,
+        "dizeler": [
+          "KT-G-4",
+          "KT-D-35",
+          "BK-D-27"
+        ]
+      },
+      {
+        "runik": "𐰘𐰃𐱁𐰍",
+        "transkripsiyon": "YIŞıG",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-35",
+          "KT-D-36",
+          "BK-D-27"
+        ]
+      },
+      {
+        "runik": "𐰖𐰃𐰽𐰍",
+        "transkripsiyon": "YIŞıG",
+        "siklik": 3,
+        "dizeler": [
+          "TY1-K-4",
+          "TY1-K-11",
+          "TY2-B-2"
+        ]
+      },
+      {
+        "runik": "𐰖𐰃𐱁",
+        "transkripsiyon": "YIŞ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-23",
+          "BK-D-19"
+        ]
+      },
+      {
+        "runik": "𐰘𐱁𐰍",
+        "transkripsiyon": "YıŞıG",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-21",
+          "BK-D-17"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bitig",
+    "transkripsiyon": "bitig",
+    "runik": "𐰋𐰃𐱅𐰏",
+    "anlam": "yazı, kitap, kitabe, el yazması",
+    "kategori": "kültür / yazı",
+    "kaynak": "Tekin 2003, s. 304",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰃𐱅𐰏",
+        "transkripsiyon": "BİTiG",
+        "siklik": 3,
+        "dizeler": [
+          "KT-G-13",
+          "KT-KD-1",
+          "KT-GD-1"
+        ]
+      },
+      {
+        "runik": "𐰋𐰃𐱅𐰏𐰢𐰀",
+        "transkripsiyon": "BİTiGME",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-13",
+          "KT-GD-1"
+        ]
+      },
+      {
+        "runik": "𐰋𐰃𐱅𐰏𐰃𐰤",
+        "transkripsiyon": "BİTiGİN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-GB-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bitigci",
+    "transkripsiyon": "bitigçi",
+    "runik": null,
+    "anlam": "kâtip, yazıcı, nakkaş",
+    "kategori": "meslek / yazı",
+    "kaynak": "Tekin 2003, s. 304",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "bediz",
+    "transkripsiyon": "bediz",
+    "runik": "𐰋𐰓𐰔",
+    "anlam": "süs, resim, heykel, süsleme",
+    "kategori": "sanat / kültür",
+    "kaynak": "Tekin 2003, s. 303",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰓𐰔𐰲𐰃𐰏",
+        "transkripsiyon": "BeDiZÇİG",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-12",
+          "KT-KD-1",
+          "BK-K-14"
+        ]
+      },
+      {
+        "runik": "𐰋𐰓𐰔",
+        "transkripsiyon": "BeDiZ",
+        "siklik": 3,
+        "dizeler": [
+          "KT-G-12",
+          "KT-K-13",
+          "BK-K-14"
+        ]
+      },
+      {
+        "runik": "𐰋𐰓𐰔𐱅𐰢",
+        "transkripsiyon": "BeDiZeTiM",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-11",
+          "BK-GB-1"
+        ]
+      },
+      {
+        "runik": "𐰋𐰓𐰔𐰲𐰃",
+        "transkripsiyon": "BeDiZÇİ",
+        "siklik": 1,
+        "dizeler": [
+          "KT-G-11"
+        ]
+      },
+      {
+        "runik": "𐰋𐰓𐰔𐰃𐰤",
+        "transkripsiyon": "BeDiZİN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-KD-1"
+        ]
+      },
+      {
+        "runik": "𐰋𐰓𐰔𐰏",
+        "transkripsiyon": "BeDiZiG",
+        "siklik": 1,
+        "dizeler": [
+          "BK-GB-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bedizci",
+    "transkripsiyon": "bedizçi",
+    "runik": "𐰋𐰓𐰔𐰲𐰃",
+    "anlam": "sanatçı, ressam, heykelci",
+    "kategori": "meslek / sanat",
+    "kaynak": "Tekin 2003, s. 303",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰓𐰔𐰲𐰃𐰏",
+        "transkripsiyon": "BeDiZÇİG",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-12",
+          "KT-KD-1",
+          "BK-K-14"
+        ]
+      },
+      {
+        "runik": "𐰋𐰓𐰔𐰲𐰃",
+        "transkripsiyon": "BeDiZÇİ",
+        "siklik": 1,
+        "dizeler": [
+          "KT-G-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "balbal",
+    "transkripsiyon": "balbal",
+    "runik": "𐰉𐰞𐰉𐰞",
+    "anlam": "balbal (şahıs heykeli taş)",
+    "kategori": "inanç / askeri",
+    "kaynak": "Tekin 2003, s. 302",
+    "bicimler": [
+      {
+        "runik": "𐰉𐰞𐰉𐰞",
+        "transkripsiyon": "BaLBaL",
+        "siklik": 6,
+        "dizeler": [
+          "KT-D-16",
+          "KT-D-25",
+          "BK-D-13"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "altun",
+    "transkripsiyon": "altun",
+    "runik": "𐰞𐱃𐰆𐰣",
+    "anlam": "altın",
+    "kategori": "maden / servet",
+    "kaynak": "Tekin 2003, s. 301",
+    "bicimler": [
+      {
+        "runik": "𐰞𐱃𐰆𐰣",
+        "transkripsiyon": "aLTUN",
+        "siklik": 12,
+        "dizeler": [
+          "KT-G-5",
+          "KT-D-36",
+          "KT-K-12"
+        ]
+      },
+      {
+        "runik": "𐰞𐱃𐰆𐰣𐰃𐰣",
+        "transkripsiyon": "aLTUNIN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-GB-1"
+        ]
+      },
+      {
+        "runik": "𐰞𐱃𐰆𐰣𐰃𐰤",
+        "transkripsiyon": "aLTUNIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kumis",
+    "transkripsiyon": "kümiş",
+    "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
+    "anlam": "gümüş",
+    "kategori": "maden / servet",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
+        "transkripsiyon": "KÜMiŞİN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-GB-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "agi",
+    "transkripsiyon": "agı",
+    "runik": "𐰍𐰃",
+    "anlam": "ipek kumaş, kıymetli hediye",
+    "kategori": "servet / ticaret",
+    "kaynak": "Tekin 2003, s. 301",
+    "bicimler": [
+      {
+        "runik": "𐰍𐰃",
+        "transkripsiyon": "aGI",
+        "siklik": 5,
+        "dizeler": [
+          "KT-G-7",
+          "KT-G-7",
+          "KT-K-12"
+        ]
+      },
+      {
+        "runik": "𐰍𐰃𐰾𐰃",
+        "transkripsiyon": "aGISI",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-5",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰍𐰃𐰤",
+        "transkripsiyon": "aGIN",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-5",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰍𐰃𐱁𐰃𐰣",
+        "transkripsiyon": "aGIŞIN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-GB-1"
+        ]
+      },
+      {
+        "runik": "𐰍𐰃𐰺",
+        "transkripsiyon": "aGIR",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-15"
+        ]
+      },
+      {
+        "runik": "𐰍𐰺",
+        "transkripsiyon": "aGıR",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-2"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kun",
+    "transkripsiyon": "kün",
+    "runik": "𐰚𐰇𐰤",
+    "anlam": "güneş, gündüz, gün",
+    "kategori": "zaman / kozmoloji",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰇𐰤",
+        "transkripsiyon": "KÜN",
+        "siklik": 12,
+        "dizeler": [
+          "KT-G-2",
+          "KT-G-2",
+          "KT-G-2"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰭",
+        "transkripsiyon": "KÜŊ",
+        "siklik": 8,
+        "dizeler": [
+          "KT-D-7",
+          "KT-D-20",
+          "KT-D-21"
+        ]
+      },
+      {
+        "runik": "𐰜𐰇𐰤",
+        "transkripsiyon": "KÜN",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-4",
+          "KT-D-8",
+          "BK-D-5"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰤𐱅𐰔",
+        "transkripsiyon": "KÜNTüZ",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-27",
+          "BK-D-22",
+          "TY1-G-5"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰭𐰠𐰍",
+        "transkripsiyon": "KÜŊLiG",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-21",
+          "BK-D-18"
+        ]
+      },
+      {
+        "runik": "𐰝𐰇𐰤",
+        "transkripsiyon": "KÜN",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-3"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tun",
+    "transkripsiyon": "tün",
+    "runik": "𐱅𐰇𐰤",
+    "anlam": "gece, karanlık",
+    "kategori": "zaman / kozmoloji",
+    "kaynak": "Tekin 2003, s. 322",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰇𐰤",
+        "transkripsiyon": "TÜN",
+        "siklik": 10,
+        "dizeler": [
+          "KT-G-2",
+          "KT-D-27",
+          "BK-D-22"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰤𐰠𐰃",
+        "transkripsiyon": "TÜNLİ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-GD-1"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰤𐰚𐰀",
+        "transkripsiyon": "TÜNKE",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-2"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yil",
+    "transkripsiyon": "yıl",
+    "runik": "𐰘𐰃𐰞",
+    "anlam": "yıl, sene",
+    "kategori": "zaman",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰘𐰃𐰞",
+        "transkripsiyon": "YIL",
+        "siklik": 6,
+        "dizeler": [
+          "KT-D-8",
+          "BK-D-7",
+          "BK-G-9"
+        ]
+      },
+      {
+        "runik": "𐰘𐰃𐰞𐰴𐰀",
+        "transkripsiyon": "YILKA",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-36",
+          "KT-K-4",
+          "KT-KD-1"
+        ]
+      },
+      {
+        "runik": "𐰘𐰃𐰞𐰾𐰍",
+        "transkripsiyon": "YILSıG",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-26",
+          "BK-D-21"
+        ]
+      },
+      {
+        "runik": "𐰖𐰃𐰞𐰴𐰀",
+        "transkripsiyon": "YILKA",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-30"
+        ]
+      },
+      {
+        "runik": "𐰘𐰞𐰴𐰀",
+        "transkripsiyon": "YıLKA",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-27"
+        ]
+      },
+      {
+        "runik": "𐰘𐰃𐰞𐰴𐰃𐰍",
+        "transkripsiyon": "YILKIG",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-38"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yaz",
+    "transkripsiyon": "yaz",
+    "runik": "𐰖𐰔𐰃𐰴𐰀",
+    "anlam": "ilkbahar, yaz mevsimi",
+    "kategori": "zaman / mevsim",
+    "kaynak": "Tekin 2003, s. 325",
+    "bicimler": [
+      {
+        "runik": "𐰖𐰔𐰃𐰴𐰀",
+        "transkripsiyon": "YaZIKA",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-3",
+          "KT-D-17",
+          "BK-D-15"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃",
+        "transkripsiyon": "YaZI",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-7",
+          "BK-K-5"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃𐰭𐰀",
+        "transkripsiyon": "YaZIŊA",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-8"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰭𐰀",
+        "transkripsiyon": "YaZıŊA",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-31"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃𐰑𐰀",
+        "transkripsiyon": "YaZIDA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-9"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃𐰑𐰀",
+        "transkripsiyon": "YaZıDA",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kis",
+    "transkripsiyon": "kış",
+    "runik": "𐰚𐰃𐰾𐰃",
+    "anlam": "kış mevsimi",
+    "kategori": "zaman / mevsim",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰃𐰾𐰃",
+        "transkripsiyon": "KİŞİ",
+        "siklik": 14,
+        "dizeler": [
+          "KT-G-6",
+          "KT-G-7",
+          "KT-G-7"
+        ]
+      },
+      {
+        "runik": "𐰚𐰃𐰾𐰼𐰀",
+        "transkripsiyon": "KİSRE",
+        "siklik": 13,
+        "dizeler": [
+          "KT-G-5",
+          "KT-D-4",
+          "KT-D-5"
+        ]
+      },
+      {
+        "runik": "𐰚𐰃𐰾𐰃𐰏",
+        "transkripsiyon": "KİŞİG",
+        "siklik": 5,
+        "dizeler": [
+          "KT-G-6",
+          "KT-G-6",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰚𐰃𐱁𐰃",
+        "transkripsiyon": "KİŞİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-7",
+          "BK-K-6"
+        ]
+      },
+      {
+        "runik": "𐰚𐰃𐰾𐰃𐰤",
+        "transkripsiyon": "KİŞİN",
+        "siklik": 2,
+        "dizeler": [
+          "BK-G-12",
+          "BK-K-11"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰽𐰞𐰢",
+        "transkripsiyon": "KISaLıM",
+        "siklik": 2,
+        "dizeler": [
+          "TY1-G-4",
+          "TY1-D-4"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bori",
+    "transkripsiyon": "böri",
+    "runik": "𐰋𐰇𐰼𐰃",
+    "anlam": "kurt",
+    "kategori": "hayvan / kutsal",
+    "kaynak": "Tekin 2003, s. 305",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰇𐰼𐰃",
+        "transkripsiyon": "BÖRİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-12",
+          "BK-D-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "buka",
+    "transkripsiyon": "būka",
+    "runik": null,
+    "anlam": "boğa",
+    "kategori": "hayvan",
+    "kaynak": "Tekin 2003, s. 305",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "adgir",
+    "transkripsiyon": "adgır",
+    "runik": "𐰑𐰍𐰃𐰺𐰍",
+    "anlam": "aygır, damızlık erkek at",
+    "kategori": "hayvan",
+    "kaynak": "Tekin 2003, s. 301",
+    "bicimler": [
+      {
+        "runik": "𐰑𐰍𐰃𐰺𐰍",
+        "transkripsiyon": "aDGIRIG",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-35"
+        ]
+      },
+      {
+        "runik": "𐰑𐰍𐰺𐰍",
+        "transkripsiyon": "aDGıRıG",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-36"
+        ]
+      },
+      {
+        "runik": "𐰑𐰍𐰺𐰃𐰤",
+        "transkripsiyon": "aDGıRIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yilki",
+    "transkripsiyon": "yılkı",
+    "runik": "𐰘𐰃𐰞𐰴𐰃𐰾𐰃𐰤",
+    "anlam": "at sürüsü, binek hayvanı",
+    "kategori": "hayvan / servet",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰘𐰃𐰞𐰴𐰃𐰾𐰃𐰤",
+        "transkripsiyon": "YILKISIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-24"
+        ]
+      },
+      {
+        "runik": "𐰘𐰃𐰞𐰴𐰃𐰽𐰃𐰤",
+        "transkripsiyon": "YILKISIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-39"
+        ]
+      },
+      {
+        "runik": "𐰖𐰃𐰞𐰴𐰾𐰃𐰤",
+        "transkripsiyon": "YILKıSIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-3"
+        ]
+      },
+      {
+        "runik": "𐰘𐰃𐰞𐰴𐰃𐰍",
+        "transkripsiyon": "YILKIG",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-38"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "koy",
+    "transkripsiyon": "koy",
+    "runik": "𐰸𐰆𐰪",
+    "anlam": "koyun",
+    "kategori": "hayvan",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰸𐰆𐰪",
+        "transkripsiyon": "KOYN",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-12",
+          "KT-KD-1",
+          "BK-D-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "otuz",
+    "transkripsiyon": "otuz",
+    "runik": "𐰆𐱃𐰔",
+    "anlam": "otuz (30)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 316",
+    "bicimler": [
+      {
+        "runik": "𐰆𐱃𐰔",
+        "transkripsiyon": "OTuZ",
+        "siklik": 17,
+        "dizeler": [
+          "KT-G-1",
+          "KT-D-32",
+          "KT-D-34"
+        ]
+      },
+      {
+        "runik": "𐰆𐱃𐰔𐰴𐰀",
+        "transkripsiyon": "OTuZKA",
+        "siklik": 4,
+        "dizeler": [
+          "KT-KD-1",
+          "KT-KD-1",
+          "BK-G-10"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yegirmi",
+    "transkripsiyon": "yegirmi",
+    "runik": "𐰘𐰏𐰼𐰢𐰃",
+    "anlam": "yirmi (20)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 325",
+    "bicimler": [
+      {
+        "runik": "𐰘𐰏𐰼𐰢𐰃",
+        "transkripsiyon": "YeGiRMİ",
+        "siklik": 2,
+        "dizeler": [
+          "BK-D-24",
+          "BK-D-24"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yeti",
+    "transkripsiyon": "yeti",
+    "runik": "𐰘𐱅𐰃",
+    "anlam": "yedi (7)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰘𐱅𐰃𐰘𐰔",
+        "transkripsiyon": "YeTİYüZ",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-13",
+          "KT-D-13",
+          "BK-D-11"
+        ]
+      },
+      {
+        "runik": "𐰘𐱅𐰃",
+        "transkripsiyon": "YeTİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-15",
+          "BK-D-13"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yuz",
+    "transkripsiyon": "yüz",
+    "runik": "𐰘𐰇𐰔",
+    "anlam": "yüz (100)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰘𐰇𐰔",
+        "transkripsiyon": "YÜZ",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-33",
+          "BK-G-11",
+          "TY1-B-4"
+        ]
+      },
+      {
+        "runik": "𐰘𐰇𐰔𐰲𐰀",
+        "transkripsiyon": "YÜZÇE",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-37"
+        ]
+      },
+      {
+        "runik": "𐰘𐰇𐰔𐱅𐰃",
+        "transkripsiyon": "YÜZüTİ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-30"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bing",
+    "transkripsiyon": "biŋ",
+    "runik": "𐰋𐰃𐰭",
+    "anlam": "bin (1000)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 304",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰃𐰭",
+        "transkripsiyon": "BİŊ",
+        "siklik": 4,
+        "dizeler": [
+          "BK-G-1",
+          "TY1-G-7",
+          "TY1-G-9"
+        ]
+      },
+      {
+        "runik": "𐰉𐰃𐰭",
+        "transkripsiyon": "BİŊ",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-D-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tumen",
+    "transkripsiyon": "tümen",
+    "runik": "𐱅𐰇𐰢𐰤",
+    "anlam": "on bin (10000), tümen",
+    "kategori": "sayı / askeri",
+    "kaynak": "Tekin 2003, s. 322",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰇𐰢𐰤",
+        "transkripsiyon": "TÜMeN",
+        "siklik": 9,
+        "dizeler": [
+          "KT-D-31",
+          "KT-K-12",
+          "BK-D-25"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "orun",
+    "transkripsiyon": "orun",
+    "runik": null,
+    "anlam": "taht, makam, mevki, yer",
+    "kategori": "yönetim",
+    "kaynak": "Tekin 2003, s. 316",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "orgin",
+    "transkripsiyon": "örgin",
+    "runik": null,
+    "anlam": "hükümdarlık tahtı",
+    "kategori": "yönetim",
+    "kaynak": "Tekin 2003, s. 316",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "sad",
+    "transkripsiyon": "şad",
+    "runik": "𐱁𐰑",
+    "anlam": "şad (yüksek dereceli veliaht/prens unvanı)",
+    "kategori": "yönetim / unvan",
+    "kaynak": "Tekin 2003, s. 319",
+    "bicimler": [
+      {
+        "runik": "𐱁𐰑",
+        "transkripsiyon": "ŞaD",
+        "siklik": 7,
+        "dizeler": [
+          "KT-D-17",
+          "KT-D-27",
+          "KT-K-11"
+        ]
+      },
+      {
+        "runik": "𐱁𐰑𐰯𐰃𐱃",
+        "transkripsiyon": "ŞaDPIT",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-1",
+          "BK-G-13",
+          "BK-G-14"
+        ]
+      },
+      {
+        "runik": "𐱁𐰑𐰍",
+        "transkripsiyon": "ŞaDıG",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-14",
+          "BK-D-12"
+        ]
+      },
+      {
+        "runik": "𐰽𐰑",
+        "transkripsiyon": "ŞaD",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-7"
+        ]
+      },
+      {
+        "runik": "𐰽𐰑𐰃𐰤",
+        "transkripsiyon": "ŞADIN",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-6"
+        ]
+      },
+      {
+        "runik": "𐱁𐰑𐰃𐰤",
+        "transkripsiyon": "ŞaDIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-28"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "cabis",
+    "transkripsiyon": "çabış",
+    "runik": "𐰲𐰉𐰾𐰃",
+    "anlam": "çavuş, askeri komutan, unvan",
+    "kategori": "yönetim / askeri",
+    "kaynak": "Tekin 2003, s. 306",
+    "bicimler": [
+      {
+        "runik": "𐰲𐰉𐰾𐰃",
+        "transkripsiyon": "ÇaBıŞI",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-B-7"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "buyruk",
+    "transkripsiyon": "buyruk",
+    "runik": "𐰉𐰆𐰖𐰺𐰸",
+    "anlam": "buyruk, vezir, bakan, emredici",
+    "kategori": "yönetim",
+    "kaynak": "Tekin 2003, s. 305",
+    "bicimler": [
+      {
+        "runik": "𐰉𐰆𐰖𐰺𐰸𐰃",
+        "transkripsiyon": "BUYRUKI",
+        "siklik": 8,
+        "dizeler": [
+          "KT-D-3",
+          "KT-D-5",
+          "KT-D-19"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰖𐰺𐰸",
+        "transkripsiyon": "BUYRUK",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-1",
+          "BK-G-14",
+          "BK-G-14"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tarkan",
+    "transkripsiyon": "tarkan",
+    "runik": "𐱃𐰺𐰴𐰣",
+    "anlam": "tarkan (soylu unvanı, komutan)",
+    "kategori": "yönetim / unvan",
+    "kaynak": "Tekin 2003, s. 320",
+    "bicimler": [
+      {
+        "runik": "𐱃𐰺𐰴𐰣",
+        "transkripsiyon": "TaRKaN",
+        "siklik": 6,
+        "dizeler": [
+          "KT-K-12",
+          "KT-B-1",
+          "BK-G-13"
+        ]
+      },
+      {
+        "runik": "𐱃𐰺𐰴𐰣𐰍𐰺𐰆",
+        "transkripsiyon": "TaRKaNGaRU",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-10"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kuncur",
+    "transkripsiyon": "kunçuy",
+    "runik": null,
+    "anlam": "prenses, soylu kadın",
+    "kategori": "yönetim / aile",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "kang",
+    "transkripsiyon": "kaŋ",
+    "runik": "𐰴𐰭𐰢",
+    "anlam": "baba",
+    "kategori": "aile",
+    "kaynak": "Tekin 2003, s. 312",
+    "bicimler": [
+      {
+        "runik": "𐰴𐰭𐰢",
+        "transkripsiyon": "KaŊıM",
+        "siklik": 22,
+        "dizeler": [
+          "KT-D-11",
+          "KT-D-11",
+          "KT-D-12"
+        ]
+      },
+      {
+        "runik": "𐰴𐰭𐰃𐰤",
+        "transkripsiyon": "KaŊIN",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-5",
+          "KT-D-21",
+          "BK-D-18"
+        ]
+      },
+      {
+        "runik": "𐰴𐰭𐰢𐰔",
+        "transkripsiyon": "KaŊıMıZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-26",
+          "BK-D-21"
+        ]
+      },
+      {
+        "runik": "𐰴𐰭𐰢",
+        "transkripsiyon": "KaNGıM",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-10"
+        ]
+      },
+      {
+        "runik": "𐰴𐰭𐰃𐰤",
+        "transkripsiyon": "KaNGIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-6"
+        ]
+      },
+      {
+        "runik": "𐰴𐰭𐰃",
+        "transkripsiyon": "KaŊI",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "og",
+    "transkripsiyon": "ög",
+    "runik": "𐰆𐰍𐰔",
+    "anlam": "anne",
+    "kategori": "aile",
+    "kaynak": "Tekin 2003, s. 316",
+    "bicimler": [
+      {
+        "runik": "𐰆𐰍𐰔",
+        "transkripsiyon": "OGuZ",
+        "siklik": 23,
+        "dizeler": [
+          "KT-G-2",
+          "KT-D-22",
+          "KT-D-28"
+        ]
+      },
+      {
+        "runik": "𐰆𐰍𐰞𐰃",
+        "transkripsiyon": "OGLI",
+        "siklik": 11,
+        "dizeler": [
+          "KT-D-1",
+          "KT-D-5",
+          "KT-D-21"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰢",
+        "transkripsiyon": "ÖGüM",
+        "siklik": 6,
+        "dizeler": [
+          "KT-D-11",
+          "KT-D-25",
+          "KT-D-31"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔𐰏",
+        "transkripsiyon": "ÖGüZüG",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-37",
+          "BK-D-27",
+          "BK-D-30"
+        ]
+      },
+      {
+        "runik": "𐰆𐰍𐰞𐰃𐰤",
+        "transkripsiyon": "OGLIN",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-7",
+          "BK-D-7",
+          "BK-D-24"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔𐰚𐰀",
+        "transkripsiyon": "ÖGüZKE",
+        "siklik": 3,
+        "dizeler": [
+          "TY1-G-9",
+          "TY1-D-1",
+          "TY1-D-2"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "ini",
+    "transkripsiyon": "ini",
+    "runik": "𐰃𐰤𐰃",
+    "anlam": "erkek kardeş (küçük)",
+    "kategori": "aile",
+    "kaynak": "Tekin 2003, s. 309",
+    "bicimler": [
+      {
+        "runik": "𐰃𐰤𐰢",
+        "transkripsiyon": "İNiM",
+        "siklik": 10,
+        "dizeler": [
+          "KT-D-26",
+          "KT-D-27",
+          "KT-D-30"
+        ]
+      },
+      {
+        "runik": "𐰃𐰤𐰃𐰾𐰃",
+        "transkripsiyon": "İNİSİ",
+        "siklik": 6,
+        "dizeler": [
+          "KT-D-4",
+          "KT-D-5",
+          "KT-D-21"
+        ]
+      },
+      {
+        "runik": "𐰃𐰤𐰠𐰃",
+        "transkripsiyon": "İNiLİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-6",
+          "BK-D-6"
+        ]
+      },
+      {
+        "runik": "𐰃𐰤𐰃",
+        "transkripsiyon": "İNİ",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-11"
+        ]
+      },
+      {
+        "runik": "𐰃𐰤𐰾𐰃",
+        "transkripsiyon": "İNiSİ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-40"
+        ]
+      },
+      {
+        "runik": "𐰃𐰤𐰏",
+        "transkripsiyon": "İNiG",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-G-8"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "eci",
+    "transkripsiyon": "eçi",
+    "runik": "𐰲𐰃𐰢",
+    "anlam": "ağabey, amca",
+    "kategori": "aile",
+    "kaynak": "Tekin 2003, s. 306",
+    "bicimler": [
+      {
+        "runik": "𐰲𐰃𐰢",
+        "transkripsiyon": "eÇİM",
+        "siklik": 13,
+        "dizeler": [
+          "KT-D-1",
+          "KT-D-16",
+          "KT-D-16"
+        ]
+      },
+      {
+        "runik": "𐰲𐰃𐰾𐰃𐰤",
+        "transkripsiyon": "eÇİSİN",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-5",
+          "KT-D-21",
+          "BK-D-5"
+        ]
+      },
+      {
+        "runik": "𐰲𐰃𐰠𐰃",
+        "transkripsiyon": "eÇİLİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-6",
+          "BK-D-6"
+        ]
+      },
+      {
+        "runik": "𐰲𐰢𐰔",
+        "transkripsiyon": "eÇiMiZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-26",
+          "BK-D-22"
+        ]
+      },
+      {
+        "runik": "𐰲𐰢",
+        "transkripsiyon": "eÇiM",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-9"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kadas",
+    "transkripsiyon": "kadaş",
+    "runik": null,
+    "anlam": "akraba, hısım",
+    "kategori": "aile / toplum",
+    "kaynak": "Tekin 2003, s. 312",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "armakci",
+    "transkripsiyon": "armakçı",
+    "runik": "𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤",
+    "anlam": "hilekâr, aldatıcı",
+    "kategori": "kişilik",
+    "kaynak": "Tekin 2003, s. 301",
+    "bicimler": [
+      {
+        "runik": "𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤",
+        "transkripsiyon": "aRMaKÇISIN",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-6",
+          "BK-D-6"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "songus",
+    "transkripsiyon": "söŋüş / süŋüş",
+    "runik": null,
+    "anlam": "savaş, muharebe",
+    "kategori": "askeri",
+    "kaynak": "Tekin 2003, s. 319",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "sule",
+    "transkripsiyon": "süle-",
+    "runik": "𐰾𐰇𐰠𐰀",
+    "anlam": "sefere çıkmak, ordu sevketmek",
+    "kategori": "askeri",
+    "kaynak": "Tekin 2003, s. 319",
+    "bicimler": [
+      {
+        "runik": "𐰾𐰇𐰠𐰓𐰢",
+        "transkripsiyon": "SÜLeDiM",
+        "siklik": 24,
+        "dizeler": [
+          "KT-G-3",
+          "KT-G-3",
+          "KT-G-4"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰠𐰘𐰇",
+        "transkripsiyon": "SÜLeYÜ",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-8",
+          "KT-D-8",
+          "BK-D-8"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰠𐰠𐰢",
+        "transkripsiyon": "SÜLeLiM",
+        "siklik": 3,
+        "dizeler": [
+          "TY1-D-3",
+          "TY1-D-4",
+          "TY1-D-6"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰠𐰯",
+        "transkripsiyon": "SÜLeP",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-12",
+          "BK-D-11"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰠𐰢𐰾",
+        "transkripsiyon": "SÜLeMiŞ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-15",
+          "BK-D-13"
+        ]
+      },
+      {
+        "runik": "𐰾𐰇𐰠𐰀",
+        "transkripsiyon": "SÜLE",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-40"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "sanc",
+    "transkripsiyon": "sanç-",
+    "runik": "𐰽𐰨𐰑𐰃",
+    "anlam": "saplamak, mızraklamak, bozguna uğratmak",
+    "kategori": "askeri",
+    "kaynak": "Tekin 2003, s. 318",
+    "bicimler": [
+      {
+        "runik": "𐰽𐰨𐰑𐰃",
+        "transkripsiyon": "SaNÇDI",
+        "siklik": 6,
+        "dizeler": [
+          "KT-K-2",
+          "KT-K-5",
+          "KT-K-5"
+        ]
+      },
+      {
+        "runik": "𐰽𐰨𐰑𐰢",
+        "transkripsiyon": "SaNÇDıM",
+        "siklik": 5,
+        "dizeler": [
+          "BK-D-26",
+          "BK-D-30",
+          "BK-D-31"
+        ]
+      },
+      {
+        "runik": "𐰽𐰨𐰓𐰃",
+        "transkripsiyon": "SaNÇDI",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-36"
+        ]
+      },
+      {
+        "runik": "𐰽𐰨𐱃𐰢",
+        "transkripsiyon": "SANÇTIM",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-29"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "toki",
+    "transkripsiyon": "tokı-",
+    "runik": "𐱃𐰸𐰃𐱃𐰑𐰢",
+    "anlam": "savaşmak, vurmak, dövüşmek",
+    "kategori": "askeri",
+    "kaynak": "Tekin 2003, s. 321",
+    "bicimler": [
+      {
+        "runik": "𐱃𐰸𐰃𐱃𐰑𐰢",
+        "transkripsiyon": "TOKITDıM",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-13",
+          "KT-G-13",
+          "BK-K-15"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰴𐰃𐰑𐰢",
+        "transkripsiyon": "TOKIDıM",
+        "siklik": 2,
+        "dizeler": [
+          "BK-D-31",
+          "BK-G-8"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰴𐰃𐱃𐰑𐰢",
+        "transkripsiyon": "TOKITDıM",
+        "siklik": 1,
+        "dizeler": [
+          "KT-G-12"
+        ]
+      },
+      {
+        "runik": "𐱃𐰸𐰃𐰑𐰃",
+        "transkripsiyon": "TOKIDI",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-6"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰶𐰃𐱃𐱃𐰢",
+        "transkripsiyon": "TOKITTıM",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-14"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "korgan",
+    "transkripsiyon": "korgan",
+    "runik": "𐰴𐰆𐰺𐰍𐰣",
+    "anlam": "kale, sığınak, korgan",
+    "kategori": "askeri / mimari",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰴𐰆𐰺𐰍𐰣",
+        "transkripsiyon": "KORGaN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-8"
+        ]
+      },
+      {
+        "runik": "𐰸𐰆𐰺𐰍𐰣𐰴𐰀",
+        "transkripsiyon": "KORGaNKA",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-40"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "cerig",
+    "transkripsiyon": "çerig",
+    "runik": null,
+    "anlam": "asker, hiza, ordu düzeni",
+    "kategori": "askeri",
+    "kaynak": "Tekin 2003, s. 306",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "yazi",
+    "transkripsiyon": "yazı",
+    "runik": "𐰖𐰔𐰃",
+    "anlam": "ova, açık arazi",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 325",
+    "bicimler": [
+      {
+        "runik": "𐰖𐰔𐰃𐰴𐰀",
+        "transkripsiyon": "YaZIKA",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-3",
+          "KT-D-17",
+          "BK-D-15"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃",
+        "transkripsiyon": "YaZI",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-7",
+          "BK-K-5"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃𐰭𐰀",
+        "transkripsiyon": "YaZIŊA",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-8"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰭𐰀",
+        "transkripsiyon": "YaZıŊA",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-31"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃𐰑𐰀",
+        "transkripsiyon": "YaZIDA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-9"
+        ]
+      },
+      {
+        "runik": "𐰖𐰔𐰃𐰑𐰀",
+        "transkripsiyon": "YaZıDA",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kum",
+    "transkripsiyon": "kum",
+    "runik": "𐰚𐰇𐰢𐱁",
+    "anlam": "çöl, kumluk arazi",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰇𐰢𐱁",
+        "transkripsiyon": "KÜMüŞ",
+        "siklik": 3,
+        "dizeler": [
+          "KT-G-5",
+          "KT-K-12",
+          "BK-K-3"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰢𐰾",
+        "transkripsiyon": "KÜMüŞ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-11"
+        ]
+      },
+      {
+        "runik": "𐰝𐰇𐰢𐰾",
+        "transkripsiyon": "KÜMüŞ",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-4"
+        ]
+      },
+      {
+        "runik": "𐰴𐰆𐰢𐰍",
+        "transkripsiyon": "KUMuG",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-B-7"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
+        "transkripsiyon": "KÜMiŞİN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-GB-1"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
+        "transkripsiyon": "KÜMüŞİN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "ozen",
+    "transkripsiyon": "özen",
+    "runik": null,
+    "anlam": "vadi, dere yatağı",
+    "kategori": "coğrafya",
+    "kaynak": "Tekin 2003, s. 316",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "balik",
+    "transkripsiyon": "balık",
+    "runik": "𐰉𐰞𐰶",
+    "anlam": "şehir, kale kent",
+    "kategori": "coğrafya / yerleşim",
+    "kaynak": "Tekin 2003, s. 302",
+    "bicimler": [
+      {
+        "runik": "𐰉𐰞𐰶",
+        "transkripsiyon": "BaLıK",
+        "siklik": 4,
+        "dizeler": [
+          "BK-D-28",
+          "BK-D-28",
+          "BK-D-28"
+        ]
+      },
+      {
+        "runik": "𐰉𐰞𐰶𐰑𐰀",
+        "transkripsiyon": "BaLIKDA",
+        "siklik": 2,
+        "dizeler": [
+          "KT-K-4",
+          "BK-D-30"
+        ]
+      },
+      {
+        "runik": "𐰉𐰞𐰶𐰑𐰴𐰃",
+        "transkripsiyon": "BaLIKDaKI",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-12",
+          "BK-D-10"
+        ]
+      },
+      {
+        "runik": "𐰉𐰞𐰶𐰑𐰀",
+        "transkripsiyon": "BaLıKDA",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-28"
+        ]
+      },
+      {
+        "runik": "𐰉𐰞𐰃𐰶𐰀",
+        "transkripsiyon": "BaLIKA",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-8"
+        ]
+      },
+      {
+        "runik": "𐰉𐰞𐰶𐰀",
+        "transkripsiyon": "BaLIKA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-D-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "eb",
+    "transkripsiyon": "eb / ev",
+    "runik": "𐰋",
+    "anlam": "ev, çadır, otağ",
+    "kategori": "yerleşim / aile",
+    "kaynak": "Tekin 2003, s. 306",
+    "bicimler": [
+      {
+        "runik": "𐰋𐰃𐰤",
+        "transkripsiyon": "eBİN",
+        "siklik": 3,
+        "dizeler": [
+          "KT-K-1",
+          "BK-D-34",
+          "BK-D-37"
+        ]
+      },
+      {
+        "runik": "𐰋",
+        "transkripsiyon": "eB",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-6"
+        ]
+      },
+      {
+        "runik": "𐰋𐰓𐰀",
+        "transkripsiyon": "eBDE",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-32"
+        ]
+      },
+      {
+        "runik": "𐰋𐰏𐰀",
+        "transkripsiyon": "eBGE",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-14"
+        ]
+      },
+      {
+        "runik": "𐰋𐰏",
+        "transkripsiyon": "eBiG",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-32"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "bark",
+    "transkripsiyon": "bark",
+    "runik": "𐰉𐰺𐰴",
+    "anlam": "anıt, türbe, bark",
+    "kategori": "mimari / inanç",
+    "kaynak": "Tekin 2003, s. 302",
+    "bicimler": [
+      {
+        "runik": "𐰉𐰺𐰴𐰃𐰤",
+        "transkripsiyon": "BaRKIN",
+        "siklik": 4,
+        "dizeler": [
+          "KT-KD-1",
+          "BK-D-34",
+          "BK-D-37"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰴",
+        "transkripsiyon": "BaRK",
+        "siklik": 3,
+        "dizeler": [
+          "KT-G-12",
+          "KT-K-13",
+          "BK-K-14"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰴𐰍",
+        "transkripsiyon": "BaRKıG",
+        "siklik": 2,
+        "dizeler": [
+          "BK-D-32",
+          "BK-GB-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "ay_demek",
+    "transkripsiyon": "ay-",
+    "runik": "𐰖",
+    "anlam": "söylemek, buyurmak",
+    "kategori": "iletişim",
+    "kaynak": "Tekin 2003, s. 302",
+    "bicimler": [
+      {
+        "runik": "𐰖",
+        "transkripsiyon": "aY",
+        "siklik": 6,
+        "dizeler": [
+          "KT-KD-1",
+          "KT-KD-1",
+          "BK-G-10"
+        ]
+      },
+      {
+        "runik": "𐰪𐰍",
+        "transkripsiyon": "aYNıG",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-5",
+          "BK-K-2",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰪𐰃𐰍",
+        "transkripsiyon": "aYNIG",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-10"
+        ]
+      },
+      {
+        "runik": "𐰖𐰑𐰃",
+        "transkripsiyon": "aYDI",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-7"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰆𐰲𐰃",
+        "transkripsiyon": "aYGUÇI",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-5"
+        ]
+      },
+      {
+        "runik": "𐰖𐰍𐰃𐰑𐰃",
+        "transkripsiyon": "aYGIDI",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-6"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "ti",
+    "transkripsiyon": "ti-",
+    "runik": "𐱅𐰃",
+    "anlam": "demek, söylemek",
+    "kategori": "iletişim",
+    "kaynak": "Tekin 2003, s. 321",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰃𐰘𐰤",
+        "transkripsiyon": "TİYiN",
+        "siklik": 24,
+        "dizeler": [
+          "KT-D-11",
+          "KT-D-11",
+          "KT-D-12"
+        ]
+      },
+      {
+        "runik": "𐱅𐰃𐰼",
+        "transkripsiyon": "TİR",
+        "siklik": 14,
+        "dizeler": [
+          "KT-D-9",
+          "KT-D-9",
+          "KT-D-10"
+        ]
+      },
+      {
+        "runik": "𐱅𐰢𐰾",
+        "transkripsiyon": "TiMiŞ",
+        "siklik": 14,
+        "dizeler": [
+          "TY1-B-2",
+          "TY1-D-3",
+          "TY1-D-3"
+        ]
+      },
+      {
+        "runik": "𐱅𐰃𐰯",
+        "transkripsiyon": "TİP",
+        "siklik": 9,
+        "dizeler": [
+          "KT-G-7",
+          "KT-D-9",
+          "KT-K-11"
+        ]
+      },
+      {
+        "runik": "𐱅𐰘𐰤",
+        "transkripsiyon": "TiYiN",
+        "siklik": 8,
+        "dizeler": [
+          "TY1-B-6",
+          "TY1-B-6",
+          "TY1-G-10"
+        ]
+      },
+      {
+        "runik": "𐱅𐰃𐰓𐰃",
+        "transkripsiyon": "TİDİ",
+        "siklik": 7,
+        "dizeler": [
+          "TY1-B-5",
+          "TY1-K-6",
+          "TY1-K-6"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tingla",
+    "transkripsiyon": "tıŋla-",
+    "runik": "𐱅𐰃𐰭𐰞𐰀",
+    "anlam": "dinlemek, kulak vermek",
+    "kategori": "iletişim",
+    "kaynak": "Tekin 2003, s. 321",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰃𐰭𐰞𐰀",
+        "transkripsiyon": "TIŊLA",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-2",
+          "BK-K-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "esid",
+    "transkripsiyon": "eşid-",
+    "runik": "𐰾𐰃𐰓",
+    "anlam": "işitmek, duymak",
+    "kategori": "iletişim",
+    "kaynak": "Tekin 2003, s. 307",
+    "bicimler": [
+      {
+        "runik": "𐰾𐰓𐰯",
+        "transkripsiyon": "eŞiDiP",
+        "siklik": 10,
+        "dizeler": [
+          "KT-D-12",
+          "BK-D-10",
+          "TY1-G-5"
+        ]
+      },
+      {
+        "runik": "𐰾𐰃𐰓𐰭",
+        "transkripsiyon": "eŞİDiŊ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-10",
+          "BK-K-8"
+        ]
+      },
+      {
+        "runik": "𐰾𐰃𐰓",
+        "transkripsiyon": "eŞİD",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-1"
+        ]
+      },
+      {
+        "runik": "𐰾𐰓",
+        "transkripsiyon": "eŞiD",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-18"
+        ]
+      },
+      {
+        "runik": "𐰾𐰓𐰯",
+        "transkripsiyon": "EŞİDİP",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-1"
+        ]
+      },
+      {
+        "runik": "𐰾𐰓𐰭",
+        "transkripsiyon": "eŞiDiŊ",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-22"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yeyil",
+    "transkripsiyon": "yeyil",
+    "runik": null,
+    "anlam": "ipekli çadır kumaşı",
+    "kategori": "servet",
+    "kaynak": "Tekin 2003, s. 325",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "barim",
+    "transkripsiyon": "barım",
+    "runik": "𐰉𐰺𐰢𐰃𐰤",
+    "anlam": "taşınır servet, mal mülk",
+    "kategori": "servet",
+    "kaynak": "Tekin 2003, s. 302",
+    "bicimler": [
+      {
+        "runik": "𐰉𐰺𐰢𐰃𐰤",
+        "transkripsiyon": "BaRıMıN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-1"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰢𐰃𐰣",
+        "transkripsiyon": "BaRıMIN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-GB-1"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰢𐰃𐰤",
+        "transkripsiyon": "BaRıMIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-24"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰢𐰤",
+        "transkripsiyon": "BaRıMıN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-3"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yut",
+    "transkripsiyon": "yut",
+    "runik": "𐰖𐰆𐱃",
+    "anlam": "kıtlık, aşırı kış felaketi",
+    "kategori": "doğa felaketi",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰖𐰆𐱃",
+        "transkripsiyon": "YUT",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-31"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kirk",
+    "transkripsiyon": "kırk",
+    "runik": "𐰶𐰃𐰺𐰴",
+    "anlam": "kırk (40)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰶𐰃𐰺𐰴𐰔",
+        "transkripsiyon": "KIRKıZ",
+        "siklik": 17,
+        "dizeler": [
+          "KT-D-4",
+          "KT-D-14",
+          "KT-D-17"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰺𐰴",
+        "transkripsiyon": "KIRK",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-15",
+          "KT-KD-1",
+          "BK-D-12"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰺𐰴𐰔",
+        "transkripsiyon": "KIRKıZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-20",
+          "BK-D-17"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰺𐰴",
+        "transkripsiyon": "KIRK",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-31"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰺𐰴𐰔𐰴𐰀",
+        "transkripsiyon": "KIRKıZKA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-D-6"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰺𐰴𐰔𐰑𐰀",
+        "transkripsiyon": "KIRKıZDA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-5"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "elig",
+    "transkripsiyon": "elig",
+    "runik": "𐰠𐰏",
+    "anlam": "elli (50)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 307",
+    "bicimler": [
+      {
+        "runik": "𐰠𐰏",
+        "transkripsiyon": "eLiG",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-8",
+          "BK-D-7",
+          "BK-G-7"
+        ]
+      },
+      {
+        "runik": "𐰠𐰏𐰤",
+        "transkripsiyon": "eLiGiN",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-32"
+        ]
+      },
+      {
+        "runik": "𐰠𐰏𐰲𐰀",
+        "transkripsiyon": "eLiGÇE",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-B-7"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yetmis",
+    "transkripsiyon": "yetmiş",
+    "runik": "𐰘𐱅𐰢𐰾",
+    "anlam": "yetmiş (70)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰘𐱅𐰢𐰾",
+        "transkripsiyon": "YeTMiŞ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-12",
+          "BK-D-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "sekizon",
+    "transkripsiyon": "sekizon",
+    "runik": null,
+    "anlam": "seksen (80)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 318",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "tokuzon",
+    "transkripsiyon": "tokuzon",
+    "runik": null,
+    "anlam": "doksan (90)",
+    "kategori": "sayı",
+    "kaynak": "Tekin 2003, s. 321",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "tevey",
+    "transkripsiyon": "tevey",
+    "runik": null,
+    "anlam": "deve",
+    "kategori": "hayvan",
+    "kaynak": "Tekin 2003, s. 321",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "kus",
+    "transkripsiyon": "kuş",
+    "runik": "𐰚𐰇𐰾𐰃",
+    "anlam": "kuş",
+    "kategori": "hayvan",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰇𐰾𐰃",
+        "transkripsiyon": "KÜSİ",
+        "siklik": 7,
+        "dizeler": [
+          "KT-D-25",
+          "KT-D-25",
+          "KT-D-26"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "yol",
+    "transkripsiyon": "yol",
+    "runik": "𐰖𐰆𐰞𐰃",
+    "anlam": "yol, usül, kural",
+    "kategori": "kültür",
+    "kaynak": "Tekin 2003, s. 326",
+    "bicimler": [
+      {
+        "runik": "𐰖𐰆𐰞𐰃",
+        "transkripsiyon": "YOLI",
+        "siklik": 7,
+        "dizeler": [
+          "KT-D-15",
+          "KT-K-4",
+          "BK-D-13"
+        ]
+      },
+      {
+        "runik": "𐰖𐰆𐰞𐰍",
+        "transkripsiyon": "YOLuG",
+        "siklik": 2,
+        "dizeler": [
+          "BK-GB-1",
+          "BK-GB-1"
+        ]
+      },
+      {
+        "runik": "𐰖𐰆𐰞𐰣",
+        "transkripsiyon": "YOLuN",
+        "siklik": 2,
+        "dizeler": [
+          "TY1-D-6",
+          "TY1-D-7"
+        ]
+      },
+      {
+        "runik": "𐰖𐰆𐰞𐱃𐰀",
+        "transkripsiyon": "YOLTA",
+        "siklik": 1,
+        "dizeler": [
+          "KT-K-9"
+        ]
+      },
+      {
+        "runik": "𐰖𐰆𐰡𐰀",
+        "transkripsiyon": "YOLTA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-G-9"
+        ]
+      },
+      {
+        "runik": "𐰖𐰆𐰞𐰞𐰍",
+        "transkripsiyon": "YOLLuG",
+        "siklik": 1,
+        "dizeler": [
+          "KT-GB-1"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kut",
+    "transkripsiyon": "kut",
+    "runik": "𐰸𐰆𐱃𐰢",
+    "anlam": "kut, saadet, ilahi hükümdarlık gücü",
+    "kategori": "inanç / kozmoloji",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰸𐰆𐱃𐰢",
+        "transkripsiyon": "KUTuM",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-9",
+          "KT-D-29",
+          "BK-D-23"
+        ]
+      },
+      {
+        "runik": "𐰸𐰆𐱃𐰖",
+        "transkripsiyon": "KUTaY",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-5",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰸𐰆𐱃𐰃",
+        "transkripsiyon": "KUTI",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-35"
+        ]
+      },
+      {
+        "runik": "𐰸𐰆𐱃𐰭𐰀",
+        "transkripsiyon": "KUTıŊA",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-31"
+        ]
+      },
+      {
+        "runik": "𐰸𐰆𐱃𐰖𐰃𐰤",
+        "transkripsiyon": "KUTaYIN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-11"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "turuk",
+    "transkripsiyon": "türük",
+    "runik": "𐱅𐰇𐰼𐰜",
+    "anlam": "Türk, Göktürk milleti",
+    "kategori": "toplum / millet",
+    "kaynak": "Tekin 2003, s. 322",
+    "bicimler": [
+      {
+        "runik": "𐱅𐰇𐰼𐰜",
+        "transkripsiyon": "TÜRÜK",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-1",
+          "BK-K-1"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰼𐰜𐰢𐰀",
+        "transkripsiyon": "TÜRÜKüME",
+        "siklik": 2,
+        "dizeler": [
+          "BK-G-10",
+          "BK-K-12"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰼𐰜𐰢",
+        "transkripsiyon": "TÜRÜKüM",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-16"
+        ]
+      },
+      {
+        "runik": "𐱅𐰇𐰼𐰜𐰢𐰔",
+        "transkripsiyon": "TÜRÜKüMiZ",
+        "siklik": 1,
+        "dizeler": [
+          "KT-D-18"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "oguz_boy",
+    "transkripsiyon": "oguz",
+    "runik": "𐰆𐰍𐰔",
+    "anlam": "Oğuz (boy birliği)",
+    "kategori": "toplum / boy",
+    "kaynak": "Tekin 2003, s. 315",
+    "bicimler": [
+      {
+        "runik": "𐰆𐰍𐰔",
+        "transkripsiyon": "OGuZ",
+        "siklik": 23,
+        "dizeler": [
+          "KT-G-2",
+          "KT-D-22",
+          "KT-D-28"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔𐰏",
+        "transkripsiyon": "ÖGüZüG",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-37",
+          "BK-D-27",
+          "BK-D-30"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔𐰚𐰀",
+        "transkripsiyon": "ÖGüZKE",
+        "siklik": 3,
+        "dizeler": [
+          "TY1-G-9",
+          "TY1-D-1",
+          "TY1-D-2"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔",
+        "transkripsiyon": "ÖGüZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-17",
+          "BK-D-15"
+        ]
+      },
+      {
+        "runik": "𐰆𐰍𐰔𐰍",
+        "transkripsiyon": "OGuZuG",
+        "siklik": 2,
+        "dizeler": [
+          "TY1-B-7",
+          "TY1-G-3"
+        ]
+      },
+      {
+        "runik": "𐰆𐰍𐰔",
+        "transkripsiyon": "OGUZ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-29"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "kirgiz",
+    "transkripsiyon": "kırkız",
+    "runik": "𐰶𐰃𐰺𐰴𐰔",
+    "anlam": "Kırgız (boy birliği)",
+    "kategori": "toplum / boy",
+    "kaynak": "Tekin 2003, s. 314",
+    "bicimler": [
+      {
+        "runik": "𐰶𐰃𐰺𐰴𐰔",
+        "transkripsiyon": "KIRKıZ",
+        "siklik": 17,
+        "dizeler": [
+          "KT-D-4",
+          "KT-D-14",
+          "KT-D-17"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰺𐰴𐰔",
+        "transkripsiyon": "KIRKıZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-20",
+          "BK-D-17"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰺𐰴𐰔𐰴𐰀",
+        "transkripsiyon": "KIRKıZKA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-D-6"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰺𐰴𐰔𐰑𐰀",
+        "transkripsiyon": "KIRKıZDA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-5"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰺𐰴𐰔𐰍",
+        "transkripsiyon": "KIRKıZıG",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-3"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "turuk_sir",
+    "transkripsiyon": "türük sir",
+    "runik": null,
+    "anlam": "Türk Sir halkı / milleti",
+    "kategori": "toplum / millet",
+    "kaynak": "Tekin 2003, s. 322",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "tunyukuk",
+    "transkripsiyon": "tonyukuk / tuŋukuk",
+    "runik": "𐱃𐰆𐰪𐰸𐰸",
+    "anlam": "Tonyukuk (vekil, vezir, başdanışman)",
+    "kategori": "yönetim / kisi",
+    "kaynak": "Tekin 2003, s. 322",
+    "bicimler": [
+      {
+        "runik": "𐱃𐰆𐰪𐰸𐰸",
+        "transkripsiyon": "TONYUKUK",
+        "siklik": 9,
+        "dizeler": [
+          "TY1-B-1",
+          "TY1-B-5",
+          "TY1-B-6"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰣𐰪𐰸𐰸",
+        "transkripsiyon": "TONYUKUK",
+        "siklik": 2,
+        "dizeler": [
+          "TY2-D-8",
+          "TY2-K-3"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰣𐰖𐰸𐰸",
+        "transkripsiyon": "TONYUKUK",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-14"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰪𐰸𐰸𐰀",
+        "transkripsiyon": "TONYUKUKA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-K-7"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  },
+  {
+    "id": "tariyat",
+    "transkripsiyon": "taryat",
+    "runik": null,
+    "anlam": "Taryat (Uygur dönemi yazıt yeri)",
+    "kategori": "coğrafya / epigrafik",
+    "kaynak": "Tekin 2003, s. 320",
+    "bicimler": [],
+    "korpustaYok": true,
+    "teyitGerek": true
+  },
+  {
+    "id": "irk_bitig_fal",
+    "transkripsiyon": "ırk",
+    "runik": "𐰃𐰼𐰚𐰤",
+    "anlam": "fal, kehanet, işaret",
+    "kategori": "kültür / inanç",
+    "kaynak": "Ata 2011, s. 112",
+    "bicimler": [
+      {
+        "runik": "𐰃𐰼𐰚𐰤",
+        "transkripsiyon": "İRKiN",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-34",
+          "KT-D-34",
+          "BK-G-14"
+        ]
+      },
+      {
+        "runik": "𐰃𐰺𐰴𐰑𐰀",
+        "transkripsiyon": "IRKDA",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-B-5"
+        ]
+      }
+    ],
+    "korpustaYok": false,
+    "teyitGerek": false
+  }
+]

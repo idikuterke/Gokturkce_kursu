@@ -23,6 +23,13 @@ const YIPRANMA = "---";
 
 // ── Kaynaklar ───────────────────────────────────────────────────────────────
 const orhun = oku("05_Kaynak_DB/orhun-db-v1.json");
+// Gerekçeli istisnalar: runik ↔ transkripsiyon sapması olan KELİMELER.
+// Güvenilirlik bu listeye göre belirlenir — dizeye göre değil (bkz. aşağıda).
+const istisnaKelimeleri = new Set(
+  (oku("05_Kaynak_DB/orhun-db-istisna.json").istisnalar || []).map(
+    (x) => `${x.id}\u0000${x.sira}`
+  )
+);
 const tamgaSiniflari = oku("05_Kaynak_DB/tamga-siniflari-v1-kilitli.json");
 
 // Görsel olarak karışan tamgalar: tamga → karıştığı tamgalar.
@@ -86,14 +93,19 @@ for (const d of orhun.dizeler) {
         siklik: 0,
         gectigiDizeler: [],
         dusenUnlu: dusen[i] ?? 0,
-        // İskeleti "inceleme"de olan dizeden gelen kelime kesin sayılmaz.
+        // Güvenilirlik KELİME bazında. Daha önce "geçtiği her dize temiz mi"
+        // diye bakılıyordu; uzun dizelerde alakasız tek bir sapma, o dizedeki
+        // bütün kelimeleri güvenilmez yapıyordu. Sonuç: bodun (124×), kagan
+        // (98×), türk (78×), teŋri (43×) gibi çekirdek kelimeler alıştırma
+        // üretiminden tamamen dışlanmıştı.
         guvenilir: true,
       };
       kelimeHarita.set(anahtar, kayit);
     }
     kayit.siklik += 1;
     if (kayit.gectigiDizeler.length < 5) kayit.gectigiDizeler.push(d.id);
-    if (d.dogrulama?.iskelet !== "gecti") kayit.guvenilir = false;
+    // Yalnızca bu kelimenin kendisi istisna kaydındaysa güvenilmez.
+    if (istisnaKelimeleri.has(`${d.id}\u0000${i}`)) kayit.guvenilir = false;
   });
 }
 
