@@ -23,6 +23,26 @@ const YIPRANMA = "---";
 
 // ── Kaynaklar ───────────────────────────────────────────────────────────────
 const orhun = oku("05_Kaynak_DB/orhun-db-v1.json");
+const tamgaSiniflari = oku("05_Kaynak_DB/tamga-siniflari-v1-kilitli.json");
+
+// Görsel olarak karışan tamgalar: tamga → karıştığı tamgalar.
+// Kaynak: gokturk-verify `consensus_38_v1` (confusable_with).
+// Çoğu kalın/ince çifti (𐰉/𐰋, 𐰍/𐰏, 𐰆/𐰇) — Göktürk imlasının çekirdek güçlüğü.
+const karisanlar = (() => {
+  const idToGlyph = new Map();
+  for (const c of tamgaSiniflari.classes) {
+    const g = c.glyph_ref?.core_orhun;
+    if (g) idToGlyph.set(c.id, g);
+  }
+  const harita = new Map();
+  for (const c of tamgaSiniflari.classes) {
+    const g = c.glyph_ref?.core_orhun;
+    if (!g) continue;
+    const esler = (c.confusable_with || []).map((id) => idToGlyph.get(id)).filter(Boolean);
+    if (esler.length) harita.set(g, esler);
+  }
+  return harita;
+})();
 
 // ── Dizeler ─────────────────────────────────────────────────────────────────
 const parcala = (s) => s.split(":").map((w) => w.trim()).filter(Boolean);
@@ -90,20 +110,86 @@ const kelimeler = [...kelimeHarita.values()]
   .sort((a, b) => b.siklik - a.siklik || a.zorluk - b.zorluk);
 
 // ── Alıştırmalar ────────────────────────────────────────────────────────────
-// Çeldirici: aynı zorluk bandından, farklı transkripsiyonlu kelimeler.
-const celdiriciler = (dogru, havuz, adet = 3) => {
-  const aday = havuz.filter(
-    (k) => k.transkripsiyon !== dogru.transkripsiyon && Math.abs(k.zorluk - dogru.zorluk) <= 1
-  );
+// Çeldirici seçimi.
+//
+// Rastgele ya da yalnızca "aynı zorluk bandından" çeldirici, öğrenciye ayırt
+// etmesi gereken şeyi çalıştırmaz: şıklar birbirinden o kadar farklıdır ki
+// tamgalara bakmadan elenirler. Bu yüzden önce YAKIN ÇELDİRİCİ aranır:
+// hedef kelimedeki bir tamgayı karıştığı tamgayla değiştirince ortaya çıkan
+// dizi, korpusta gerçek bir kelime olarak geçiyorsa ideal çeldiricidir —
+// tek tamga farkla okunuşu değiştiren, gerçekten var olan bir kelime.
+// Yeterli yakın çeldirici yoksa zorluk bandından tamamlanır.
+const yakinCeldiriciler = (dogru, runikDizin) => {
+  const tamgalar = [...dogru.runik];
+  const bulunan = [];
+  for (let i = 0; i < tamgalar.length; i++) {
+    for (const yerine of karisanlar.get(tamgalar[i]) || []) {
+      const varyant = [...tamgalar.slice(0, i), yerine, ...tamgalar.slice(i + 1)].join("");
+      const esles = runikDizin.get(varyant);
+      if (esles && esles.transkripsiyon !== dogru.transkripsiyon) bulunan.push(esles);
+    }
+  }
+  return bulunan;
+};
+
+// Runik diziler arası düzenleme uzaklığı (tamga bazında).
+const uzaklik = (a, b) => {
+  const x = [...a], y = [...b];
+  let onceki = Array.from({ length: y.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= x.length; i++) {
+    const satir = [i];
+    for (let j = 1; j <= y.length; j++) {
+      satir[j] = Math.min(
+        onceki[j] + 1,
+        satir[j - 1] + 1,
+        onceki[j - 1] + (x[i - 1] === y[j - 1] ? 0 : 1)
+      );
+    }
+    onceki = satir;
+  }
+  return onceki[y.length];
+};
+
+// Fark karışan tamgalardan mı kaynaklanıyor? Öyleyse çeldirici daha öğretici.
+const karisanFarkMi = (a, b) => {
+  const x = [...a], y = [...b];
+  if (x.length !== y.length) return false;
+  let fark = 0;
+  for (let i = 0; i < x.length; i++) {
+    if (x[i] === y[i]) continue;
+    fark++;
+    if (!(karisanlar.get(x[i]) || []).includes(y[i])) return false;
+  }
+  return fark > 0;
+};
+
+const celdiriciler = (dogru, havuz, runikDizin, adet = 3) => {
   const secilen = [];
   const gorulen = new Set([dogru.transkripsiyon]);
-  for (let i = 0; i < aday.length && secilen.length < adet; i++) {
-    // Deterministik örnekleme: üretim her çalıştırmada aynı çıktıyı versin.
-    const k = aday[(i * 37 + dogru.runik.length * 11) % aday.length];
-    if (gorulen.has(k.transkripsiyon)) continue;
+
+  const ekle = (k) => {
+    if (!k || gorulen.has(k.transkripsiyon) || secilen.length >= adet) return;
     gorulen.add(k.transkripsiyon);
     secilen.push(k);
+  };
+
+  // 1) Tek tamga değişimiyle ortaya çıkan GERÇEK kelime — en iyi çeldirici.
+  yakinCeldiriciler(dogru, runikDizin).forEach(ekle);
+
+  // 2) Runik olarak en yakın gerçek kelimeler. Karışan tamga farkı olanlar
+  //    öne alınır; böylece şıklar bakmadan elenemez.
+  if (secilen.length < adet) {
+    const uzunlukYakin = havuz.filter(
+      (k) =>
+        !gorulen.has(k.transkripsiyon) &&
+        Math.abs([...k.runik].length - [...dogru.runik].length) <= 1
+    );
+    const puanli = uzunlukYakin
+      .map((k) => ({ k, p: uzaklik(dogru.runik, k.runik) - (karisanFarkMi(dogru.runik, k.runik) ? 2 : 0) }))
+      .sort((a, b) => a.p - b.p || a.k.transkripsiyon.localeCompare(b.k.transkripsiyon));
+    puanli.forEach((x) => ekle(x.k));
   }
+
   return secilen;
 };
 
@@ -111,9 +197,13 @@ const alistirmalar = [];
 // Yalnızca güvenilir ve birden fazla geçen kelimeler: tek geçişli biçimler
 // dizgi hatası olmaya daha açık.
 const uygun = kelimeler.filter((k) => k.guvenilir && k.siklik >= 2 && k.dusenUnlu >= 0);
+// Yakın çeldirici araması için runik → kelime dizini (tüm güvenilir kelimeler).
+const runikDizin = new Map(kelimeler.filter((k) => k.guvenilir).map((k) => [k.runik, k]));
+let yakinKullanan = 0;
 
 for (const k of uygun) {
-  const yanlislar = celdiriciler(k, uygun);
+  const yanlislar = celdiriciler(k, uygun, runikDizin);
+  if (yakinCeldiriciler(k, runikDizin).length) yakinKullanan++;
   if (yanlislar.length < 3) continue;
 
   alistirmalar.push({
@@ -215,4 +305,5 @@ export interface UretilmisAlistirma {
 console.log(`dize            : ${dizeler.length}`);
 console.log(`benzersiz kelime: ${kelimeler.length} (güvenilir ${kelimeler.filter((k) => k.guvenilir).length})`);
 console.log(`alıştırma       : ${alistirmalar.length}`);
+console.log(`yakın çeldirici : ${yakinKullanan} kelimede bulundu (tek tamga farkıyla gerçek kelime)`);
 console.log(`çeviriye hazır  : ${ceviriyeHazir.length} dize (insan denetimi bekliyor)`);

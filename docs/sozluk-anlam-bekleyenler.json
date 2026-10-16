@@ -1,0 +1,2602 @@
+[
+  {
+    "runic": "𐰘𐰢𐰀",
+    "transcription": "YiME",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 30,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰍",
+    "transcription": "BODuNıG",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 24,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰔𐰢",
+    "transcription": "ÖZüM",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 22,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰔𐰀",
+    "transcription": "ÜZE",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 21,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆",
+    "transcription": "BU",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 19,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰏",
+    "transcription": "TeG",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 19,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐰾𐰼",
+    "transcription": "eRSeR",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 17,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰨𐰀",
+    "transcription": "BUNÇA",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 16,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰤",
+    "transcription": "BeN",
+    "attestation": "TY1-B-1",
+    "attestation_text": "BİLGE : TONYUKUK : BeN : ÖZüM : TaBGaÇ : İLiŊE : KILıNDıM : TÜRK : BODuN : TaBGaÇKA : KÖRüR : eRTİ :",
+    "frequency": 16,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰃𐰡𐰢",
+    "transcription": "KILDıM",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 15,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰢𐰾",
+    "transcription": "BOLMıS",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 15,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐰃𐰤",
+    "transcription": "İLİN",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐱅",
+    "transcription": "TÖRT",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 13,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠",
+    "transcription": "İL",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰺",
+    "transcription": "BaR",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐰢𐰾",
+    "transcription": "BİRMiŞ",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰏𐰠𐰼𐰃",
+    "transcription": "BeGLeRİ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰍𐰞𐰃",
+    "transcription": "OGLI",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰔",
+    "transcription": "BİZ",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰾𐰃𐰤",
+    "transcription": "SÜSİN",
+    "attestation": "KT-K-6",
+    "attestation_text": "TOKuZ : eRiG : eGiRE : TOKIDI : eDiZ : BODuN : aNDA : ÖLTİ : ÜÇüNÇ : BOLÇUDA : OGuZ : BİRLE : SÜŊüŞDüMüZ : KÖLTİGiN : aZ",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰺𐱃𐰸𐰃",
+    "transcription": "aRTUKI",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰤",
+    "transcription": "TÜN",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸",
+    "transcription": "OK",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰔",
+    "transcription": "BaZ",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐰏",
+    "transcription": "İLiG",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰶𐰃𐱃𐰪",
+    "transcription": "KITaYN",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰤𐰢",
+    "transcription": "İNiM",
+    "attestation": "KT-D-26",
+    "attestation_text": "KaGaN : OLuRTDI : eRiNÇ : NeŊ : YILSıG : BODuNKA : OLuRMaDıM : İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA ",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰢",
+    "transcription": "eRTiM",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰓𐰯",
+    "transcription": "eŞiDiP",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰃𐰯",
+    "transcription": "TİP",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐱅𐰃",
+    "transcription": "YiTİ",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰉𐰍",
+    "transcription": "SaBıG",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐰺𐰍𐰺𐰆",
+    "transcription": "KURıGaRU",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰃",
+    "transcription": "KaGaNI",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰢𐰔",
+    "transcription": "eRTiMiZ",
+    "attestation": "BK-D-32",
+    "attestation_text": "OGuZ : TaPA : SÜLeDiM : İLKİ : SÜ : TaŞIKMıŞ : eRTİ : iKİN : SÜ : eBDE : eRTİ : ÜÇ : OGuZ : SÜSİ : BaSA : KeLTİ : YaDaG ",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰓𐰃",
+    "transcription": "İDİ",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰆𐰉",
+    "transcription": "SUB",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰲",
+    "transcription": "ÜÇ",
+    "attestation": "BK-D-32",
+    "attestation_text": "OGuZ : TaPA : SÜLeDiM : İLKİ : SÜ : TaŞIKMıŞ : eRTİ : iKİN : SÜ : eBDE : eRTİ : ÜÇ : OGuZ : SÜSİ : BaSA : KeLTİ : YaDaG ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰝",
+    "transcription": "TÜRK",
+    "attestation": "TY2-G-2",
+    "attestation_text": "aNDA : YiRÜKİ : aŞA : BaŞaLGaRU : aRDaK : BODuN : KOP : KeLTİ : OL : KÜNTE : TeGTİ : TÜRK : BODuN : TeMiR : KaPıGKA : Tİ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰖𐰺𐰸𐰃",
+    "transcription": "BUYRUKI",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰖𐰆",
+    "transcription": "ULaYU",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰭𐰏𐰇",
+    "transcription": "BeŊGÜ",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰾𐰏",
+    "transcription": "İŞiG",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰣𐰀",
+    "transcription": "YaNA",
+    "attestation": "KT-D-21",
+    "attestation_text": "YaNA : BİRTiMiZ : iLGeRÜ : KaDıRKaN : YıŞıG : aŞA : BODuNıG : aNÇA : KONDURTuMıZ : aNÇA : İTDiMiZ : KURıGaRU : KeŊÜ : Ta",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐱅𐰢",
+    "transcription": "BİRTiM",
+    "attestation": "BK-D-41",
+    "attestation_text": "--- : aRKıŞI : KeLMeDİ : aNI : aYNıTaYıN : TİP : SÜLeDiM : KORıGU : iKİ : ÜÇ : KİŞiLGeN : TeZiP : BaRDI : KaRA : BODuN :",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰯",
+    "transcription": "OLuRuP",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐱃𐰢",
+    "transcription": "OLuRTuM",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐱁𐰞𐰖𐰆",
+    "transcription": "BaŞLaYU",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰴𐰦𐰢",
+    "transcription": "SaKıNDıM",
+    "attestation": "KT-K-10",
+    "attestation_text": "KÖLTİGiN : YOK : eRSeR : KOP : ÖLTeÇİ : eRTiGiZ : İNiM : KÖLTİGiN : KeRGeK : BOLDI : ÖZüM : SaKıNDıM : KÖRÜR : KÖZüM : K",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐰼𐱅𐰢",
+    "transcription": "ÖLüRTüM",
+    "attestation": "BK-D-26",
+    "attestation_text": "TaPA : SÜLeDiM : ÇaÇA : SEŊÜN : SeKiZ : TÜMeN : SÜ : BİRLE : SÜŊüŞDüM : SÜSİN : aNDA : ÖLüRTüM : aLTI : OTuZ : YaŞıMA : ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰘𐰤",
+    "transcription": "TiYiN",
+    "attestation": "TY1-B-6",
+    "attestation_text": "BÖLSeR : SeMiZ BUKA : TORUK : BUKA : TiYiN : BİLMeZeRMiŞ : TiYiN : aNÇA : SaKıNDıM : aNDA : KİSRE : TeŊRİ : BİLiG : BiRT",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰔𐰃",
+    "transcription": "ÖZİ",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰃𐰓𐰃",
+    "transcription": "TİDİ",
+    "attestation": "TY1-B-5",
+    "attestation_text": "UDuZuGMA : ULuGI : ŞaDeRTİ : YaGıL : TİDİ : YaGMıŞIBeneRTiM : BİLGE : TONYUKUK : KaGaNMUKISaYiN : TİDiM : SaKıNDıM : TOR",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰝",
+    "transcription": "ÖK",
+    "attestation": "TY1-B-6",
+    "attestation_text": "BÖLSeR : SeMiZ BUKA : TORUK : BUKA : TiYiN : BİLMeZeRMiŞ : TiYiN : aNÇA : SaKıNDıM : aNDA : KİSRE : TeŊRİ : BİLiG : BiRT",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰑",
+    "transcription": "ŞaD",
+    "attestation": "KT-D-17",
+    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰠𐰢𐰔",
+    "transcription": "BİLMeZ",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐱅𐰲𐰃",
+    "transcription": "ÖLTeÇİ",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰖𐰆",
+    "transcription": "SaYU",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐰏𐰼𐰇",
+    "transcription": "BİRiGeRÜ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐱁𐰞𐰍𐰍",
+    "transcription": "BaŞLıGıG",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰃𐰔𐰠𐰏𐰏",
+    "transcription": "TİZLiGiG",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐱅𐰼𐰾",
+    "transcription": "İLTeRiŞ",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰔𐰍𐰣𐰯",
+    "transcription": "KaZGaNıP",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰞𐱃𐰢",
+    "transcription": "aLTıM",
+    "attestation": "BK-D-24",
+    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐰇",
+    "transcription": "ÖLÜ",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰦𐰀",
+    "transcription": "BUNDA",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰇𐰏",
+    "transcription": "TÖRÜG",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰤𐰃𐰾𐰃",
+    "transcription": "İNİSİ",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰞",
+    "transcription": "YIL",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰤𐰀",
+    "transcription": "NE",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐱅𐰃",
+    "transcription": "YİTİ",
+    "attestation": "KT-D-30",
+    "attestation_text": "KaGaNLıGDA : KOP : BaZ : KILDıM : YaGıSIZ : KILDıM : KOP : MaŊA : KÖRTİ : İŞiG : KÜÇüG : BİRÜR : BUNÇA : TÖRÜG : KaZGaNı",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰖",
+    "transcription": "BaY",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰞𐰃",
+    "transcription": "aLI",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖",
+    "transcription": "aY",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰢𐱃𐰃",
+    "transcription": "aMTI",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰲𐰃𐰍𐰪",
+    "transcription": "ÇIGaYN",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰺𐱃𐰢",
+    "transcription": "URTuM",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰠𐰭",
+    "transcription": "BİLiŊ",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰏𐰢",
+    "transcription": "ÖGüM",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰃𐰏𐰤",
+    "transcription": "TİGiN",
+    "attestation": "KT-GB-1",
+    "attestation_text": "KÖLTİGiNiŊ : aLTUNIN : KÜMiŞİN : aGIŞIN : BaRıMIN : TÜRK : aÇIGıYN : KaRNIN : YaGMA : TOYuG : TaBU : --- BeGiM : TİGiN :",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰓𐰃",
+    "transcription": "TiDİ",
+    "attestation": "TY1-G-8",
+    "attestation_text": "KaGaNıM : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüNTÜK : ÖTüNÇüMüN : iŞiDÜ : BiRTİ : KÖŊLüŊÇE : UDuZ : TiDİ : KÖK : ÖŊüG : YO",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰺𐰞𐰴𐰑𐰸",
+    "transcription": "YaRLıKaDUK",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐱅𐰢𐰔",
+    "transcription": "BİRTiMiZ",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰀",
+    "transcription": "aŞA",
+    "attestation": "KT-D-17",
+    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰢𐰭𐰀",
+    "transcription": "MaŊA",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰃𐰲𐰏",
+    "transcription": "KİÇiG",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰚𐱁",
+    "transcription": "ÖKüŞ",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰺𐰀",
+    "transcription": "aSRA",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰃𐰤",
+    "transcription": "iKİN",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰆𐰺",
+    "transcription": "OLuRUR",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰲𐰏",
+    "transcription": "KÜÇüG",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱅𐰯",
+    "transcription": "İTiP",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰍𐰺",
+    "transcription": "IGaR",
+    "attestation": "KT-D-29",
+    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰴𐰀",
+    "transcription": "BODuNKA",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰍",
+    "transcription": "aTıG",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰢",
+    "transcription": "BODuNuM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰢",
+    "transcription": "KaGaNıM",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰯𐰍𐰴𐰀",
+    "transcription": "KaPıGKA",
+    "attestation": "KT-D-17",
+    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰔𐰍𐰣𐰢𐰾",
+    "transcription": "KaZGaNMıŞ",
+    "attestation": "KT-D-22",
+    "attestation_text": "aNÇA : KaZGaNMıŞ : İTMiŞ : İLiMiZ : TÖRÜMiZ : eRTİ : TÜRK : OGuZ : BeGLeRİ : BODuN : eŞiDiŊ : ÜZE : TeŊRİ : BaSMaSaR : a",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰏𐰔𐰏",
+    "transcription": "ÖGüZüG",
+    "attestation": "KT-D-37",
+    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰃𐰤",
+    "transcription": "KaGaNIN",
+    "attestation": "KT-D-38",
+    "attestation_text": "--- : TUTuZTI : iKİSİN : ÖZİ : aLDıZDI : aNDA : YaNA : KİRiP : TÜRGiŞ : KaGaN : BUYRUKI : aZ : TUTUKUG : eLGiN : TUTDI :",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰨𐰑𐰢",
+    "transcription": "SaNÇDıM",
+    "attestation": "BK-D-26",
+    "attestation_text": "TaPA : SÜLeDiM : ÇaÇA : SEŊÜN : SeKiZ : TÜMeN : SÜ : BİRLE : SÜŊüŞDüM : SÜSİN : aNDA : ÖLüRTüM : aLTI : OTuZ : YaŞıMA : ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰔𐰍𐰣𐰢𐰽𐰺",
+    "transcription": "KaZGaNMaSaR",
+    "attestation": "BK-D-33",
+    "attestation_text": "YaYNıDıM : TeŊRİ : YaRLuKaDUK : ÜÇüN : MeN : KaZGaNDUK : ÜÇüN : TÜRK : BODuN : KaZGaNMıŞ : eRiNÇ : MeN : İNiLiGÜ : BUNÇA",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰓𐰚𐰀",
+    "transcription": "ÖDKE",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰖𐰺𐰸",
+    "transcription": "BUYRUK",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰏",
+    "transcription": "YİG",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐱃𐰀",
+    "transcription": "TUTA",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰜𐰇𐱁",
+    "transcription": "ÖKÜŞ",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰣𐰃",
+    "transcription": "BUNI",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰼𐰇",
+    "transcription": "KÖRÜ",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰇𐰓𐰚𐰀",
+    "transcription": "BÖDKE",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰜𐰇𐰤",
+    "transcription": "KÜN",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰇𐰚𐰠𐰃",
+    "transcription": "BÖKLİ",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰍𐰞𐰃𐰤",
+    "transcription": "OGLIN",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰀𐱃𐰃𐰤",
+    "transcription": "ATIN",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐱅𐰜",
+    "transcription": "BİRTÜK",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱅𐰓𐰃",
+    "transcription": "İTDİ",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰶𐰡𐰃",
+    "transcription": "KILDI",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐱅𐰇",
+    "transcription": "YİTÜ",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰔",
+    "transcription": "BOZ",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰇𐰔",
+    "transcription": "YÜZ",
+    "attestation": "KT-D-33",
+    "attestation_text": "ÖLTİ : iKİNTİ : IŞBaRA : YaMTaR : BOZ : aTıG : BİNiP : TeGDİ : OL : aT : aNDA : ÖLTİ : ÜÇünÇ : YeGeN : SİLiG : BeGiŊ : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰑𐰀",
+    "transcription": "UDA",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰭",
+    "transcription": "BİŊ",
+    "attestation": "BK-G-1",
+    "attestation_text": "--- : TaBGaÇ : aTLıG : SÜSİ : BİR : TÜMeN : aRTUKI : YiTİ : BİŊ : SÜG : İLKİ : KÜN : ÖLüRTüM : YaDaG : SÜSİN : iKiNTİ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰭𐰼𐰀",
+    "transcription": "ÖŊRE",
+    "attestation": "BK-G-13",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİ : YaRaTMıŞ : TÜRK : BİLGE : KaGaN : SaBıM : KaŊıM : TÜRK : BİLGE : KaGaN : OLuRTuKINDA : TÜRK : aMTI",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰼𐰃𐰭𐰀",
+    "transcription": "YİRİŊE",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐱁𐰍𐰆𐰺𐰆𐰺",
+    "transcription": "BOŞGURUR",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰇𐰾𐰃𐰤",
+    "transcription": "TÖRÜSİN",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐰚𐰃",
+    "transcription": "BİRiKİ",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐰘𐰀",
+    "transcription": "BİRiYE",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰑𐰯𐰃𐱃",
+    "transcription": "ŞaDPIT",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰺𐰖𐰀",
+    "transcription": "YIRıYA",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱅𐰓𐰢",
+    "transcription": "İTDiM",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰦𐰆𐰭",
+    "transcription": "ŞaNTUŊ",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰔𐰃𐰴𐰀",
+    "transcription": "YaZIKA",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰠𐰏",
+    "transcription": "BİLiG",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰢𐰔",
+    "transcription": "ÖMeZ",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐱃𐰢",
+    "transcription": "KUTuM",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰯𐰀𐰢",
+    "transcription": "aPAM",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐱃𐰢𐰾",
+    "transcription": "TUTMıŞ",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱅𐰢𐰾",
+    "transcription": "İTMiŞ",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣",
+    "transcription": "KAGaN",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰲𐰃𐰾𐰃𐰤",
+    "transcription": "eÇİSİN",
+    "attestation": "KT-D-5",
+    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰠𐰘𐰇",
+    "transcription": "SÜLeYÜ",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐱁𐰺𐰀",
+    "transcription": "TaŞRA",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰓𐰾𐰔",
+    "transcription": "İDSiZ",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰏𐰢𐰤",
+    "transcription": "KÖGMeN",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐱁𐰍",
+    "transcription": "YIŞıG",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐱃𐰔𐰴𐰀",
+    "transcription": "OTuZKA",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰺𐰴𐰃𐰤",
+    "transcription": "BaRKIN",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐰴𐰔",
+    "transcription": "TOKuZ",
+    "attestation": "BK-D-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİ : YaRaTMıŞ : TÜRK : BİLGE : KaGaN : SaBıM : KaŊıM : TÜRK : BİLGE : --- NDA : aL --- TI : SİR : TOKuZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐰺𐰃𐰍𐰺𐰃",
+    "transcription": "KURIGaRI",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰸𐰃𐱃𐰑𐰢",
+    "transcription": "TOKITDıM",
+    "attestation": "KT-G-13",
+    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐱅𐰃𐰓𐰢",
+    "transcription": "BİTİDiM",
+    "attestation": "KT-GD-1",
+    "attestation_text": "BUNÇA : BİTiG : BİTiGME : KÖLTİGiN : aTISI : YOLuGTİGiN : BİTİDiM : YİGiRMİ : KÜN : OLuRuP : BU : TaŞKA : BU : TaMKA : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰆𐱃𐰔𐰃𐰤",
+    "transcription": "YOTuZIN",
+    "attestation": "BK-D-24",
+    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰺𐱃𐰆𐰾𐰃𐰭𐰺𐰆",
+    "transcription": "ORTUSIŊaRU",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰽𐰺",
+    "transcription": "OLuRSaR",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰏𐰢𐰓𐰢",
+    "transcription": "TeGMeDiM",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐰢𐱁",
+    "transcription": "eRMiŞ",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰉𐰢",
+    "transcription": "SaBıM",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰯𐰣",
+    "transcription": "OLuRıPaN",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰼𐰏𐰚",
+    "transcription": "KeRGeK",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐱃𐰔𐱃𐱃𐰺",
+    "transcription": "OTuZTaTaR",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰃𐰞𐰣𐰢𐰑𐰸",
+    "transcription": "KILıNMaDUK",
+    "attestation": "KT-D-5",
+    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰢𐰾",
+    "transcription": "OLuRMıŞ",
+    "attestation": "KT-D-5",
+    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰢𐰾",
+    "transcription": "iTMiŞ",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰢𐰍𐰃",
+    "transcription": "KaMaGI",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐱅𐰃𐰘𐰔",
+    "transcription": "YeTİYüZ",
+    "attestation": "KT-D-13",
+    "attestation_text": "YeTİYüZ : eR : BOLMıS : YeTİYüZ : eR : BOLıP : iLSiReMiŞ : KaGaNSıRaMıŞ : BODuNıG : KÜŊeDMiŞ : KULaDMıŞ : BODuNıG : TÜRK",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐰠𐰏𐰏",
+    "transcription": "İLLiGiG",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰞𐰍𐰍",
+    "transcription": "KaGaNLıGıG",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰢𐰼",
+    "transcription": "TeMiR",
+    "attestation": "KT-D-17",
+    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰺𐱃𐰯",
+    "transcription": "YaRaTıP",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰢𐰑𐰢",
+    "transcription": "OLuRMaDıM",
+    "attestation": "KT-D-26",
+    "attestation_text": "KaGaN : OLuRTDI : eRiNÇ : NeŊ : YILSıG : BODuNKA : OLuRMaDıM : İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰉𐰔",
+    "transcription": "YaBıZ",
+    "attestation": "KT-D-26",
+    "attestation_text": "KaGaN : OLuRTDI : eRiNÇ : NeŊ : YILSıG : BODuNKA : OLuRMaDıM : İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐱃𐰸𐰢𐰀",
+    "transcription": "OLuRTUKuMA",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰑𐰍𐰣",
+    "transcription": "YaDaGıN",
+    "attestation": "KT-D-28",
+    "attestation_text": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ : YaDaGıN : YaLıŊıN : YaNA : KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰞𐰍𐰑𐰀",
+    "transcription": "KaGaNLıGDA",
+    "attestation": "KT-D-29",
+    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰭𐰑𐰴𐰃",
+    "transcription": "BULuŊDaKI",
+    "attestation": "KT-D-29",
+    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰾",
+    "transcription": "iRTiŞ",
+    "attestation": "KT-D-37",
+    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰞𐰶",
+    "transcription": "BaLıK",
+    "attestation": "BK-D-28",
+    "attestation_text": "BOLÇUDA : SÜŊüŞDüMüZ : KaGaNIN : YaBGUSIN : ŞaDIN : aNDA : ÖLüRTüM : İLiN : aNDA : aLTıM : OTuZ : YaŞıMA : BiŞ : BaLıK :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰉𐰍𐰲𐰴𐰀",
+    "transcription": "TaBGaÇKA",
+    "attestation": "BK-D-38",
+    "attestation_text": "--- Tİ : TÜRK : BODuN : AÇ : eRTİ : OL : YILKIG : aLıP : İGitTiM : OTuZ : aRTUKI : TÖRT : YaŞıMA : OGuZ : TeZiP : TaBGaÇ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐱅𐰤𐱅𐰢",
+    "transcription": "ÖTüNTüM",
+    "attestation": "TY1-G-5",
+    "attestation_text": "TİR : MeN : OL : SaBıG : eŞiDiP : TÜN : UDıSIKıM : KeLMeDİ : KÜNTüZ : OLuRSıKıM : KeLMeDİ : aNDA : ÖTRÜ : KaGaNıMA : ÖTü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰓𐰢",
+    "transcription": "TiDiM",
+    "attestation": "TY1-D-6",
+    "attestation_text": "iLK : KIRKıZKA : SÜLeLiM : YiG : eRMiŞ : TiDiM : KÖGMeN : YOLI : BİR : eRMiŞ : TUMıŞ : TiYiN : eŞiDiP : BU : YOLuN : YOR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰯𐰍𐰣",
+    "transcription": "KaPaGaN",
+    "attestation": "TY2-D-1",
+    "attestation_text": "KaPaGaN : KaGaN : YiTİ : OTuZ : YaŞKA : --- : eRTİ : KaPaGaN : KaGaN : OLuRDuM : TÜN : UDuMaTI :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱅𐰃",
+    "transcription": "İTİ",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰆𐰍𐰲𐰃",
+    "transcription": "YUGÇI",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰭𐰼𐰃",
+    "transcription": "ÖŊRE",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐰪",
+    "transcription": "KOYN",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰶𐰃𐰺𐰴",
+    "transcription": "KIRK",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐱃𐰑𐰃",
+    "transcription": "TUTDI",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰺𐱃𐰃",
+    "transcription": "URTI",
+    "attestation": "KT-D-33",
+    "attestation_text": "ÖLTİ : iKİNTİ : IŞBaRA : YaMTaR : BOZ : aTıG : BİNiP : TeGDİ : OL : aT : aNDA : ÖLTİ : ÜÇünÇ : YeGeN : SİLiG : BeGiŊ : K",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐰍𐰀",
+    "transcription": "TOGA",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐰭𐰺𐰀",
+    "transcription": "TOŊRA",
+    "attestation": "KT-K-7",
+    "attestation_text": "BODuN : aDaK : KaMŞaTDI : YaBLaK : BOLDAÇI : ERTİ : OZA : KeLMiŞ : SÜSİN : KÖLTİGiN : aGTıP : TOŊRA : BİR : OGuŞ : aLPag",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰆𐰍",
+    "transcription": "YUG",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐰚𐰃",
+    "transcription": "İLKİ",
+    "attestation": "BK-D-30",
+    "attestation_text": "KÜNİ : TeGDÜK : ÜÇüN : YaGI : BOLDI : BİR : YILKA : TÖRT : YOLI : SÜŊüŞDüM : eŊ : İLKİ : TOGU : BaLIKDA : SÜŊüŞDüM : TOG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰇𐰤",
+    "transcription": "TÖRÜN",
+    "attestation": "BK-K-9",
+    "attestation_text": "KaGaN : eÇiM : KaGaN : OLuRTUKINDA : TÖRT : BULuŊDaKI : BODuNıG : BUNÇA : İTMiŞ --- : TeŊRİ : YaRLıKaDUK : ÜÇüN : ÖZüM :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰃𐰤𐰾𐰃",
+    "transcription": "TİNSİ",
+    "attestation": "TY2-B-9",
+    "attestation_text": "BİZ : YiME : SÜLeDiMiZ : aNI : eRTiMiZ : YiNÇÜ : öGüZüG : KeÇE : TİNSİ : OGLI : YaTıGMA : BeŊiLiG : eK : TaGaG : eRTÜRTü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰸",
+    "transcription": "YoK",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰺𐰀",
+    "transcription": "aRA",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰏",
+    "transcription": "BeG",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴",
+    "transcription": "aK",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰲𐰆𐰑𐰀",
+    "transcription": "BOLÇUDA",
+    "attestation": "KT-D-37",
+    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰨𐰇",
+    "transcription": "YiNÇÜ",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰀𐰲𐰾𐰴",
+    "transcription": "AÇSıK",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐱁𐰴𐰀",
+    "transcription": "TaŞKA",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰼𐱅𐰀",
+    "transcription": "YiRTE",
+    "attestation": "KT-G-13",
+    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐱅𐰏",
+    "transcription": "BİTiG",
+    "attestation": "KT-G-13",
+    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰃𐰾𐰃",
+    "transcription": "aTISI",
+    "attestation": "KT-G-13",
+    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰭𐰃𐰤",
+    "transcription": "KaŊIN",
+    "attestation": "KT-D-5",
+    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰲𐰇𐰢",
+    "transcription": "eÇÜM",
+    "attestation": "KT-D-13",
+    "attestation_text": "YeTİYüZ : eR : BOLMıS : YeTİYüZ : eR : BOLıP : iLSiReMiŞ : KaGaNSıRaMıŞ : BODuNıG : KÜŊeDMiŞ : KULaDMıŞ : BODuNıG : TÜRK",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰍𐰃𐰍",
+    "transcription": "YaGIG",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐱃𐰃",
+    "transcription": "OLuRTI",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰔𐰭𐰀",
+    "transcription": "BİZiŊE",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰤𐱅𐰔",
+    "transcription": "KÜNTüZ",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰺𐱃𐰸",
+    "transcription": "aRTUK",
+    "attestation": "KT-D-33",
+    "attestation_text": "ÖLTİ : iKİNTİ : IŞBaRA : YaMTaR : BOZ : aTıG : BİNiP : TeGDİ : OL : aT : aNDA : ÖLTİ : ÜÇünÇ : YeGeN : SİLiG : BeGiŊ : K",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐰤",
+    "transcription": "İLiN",
+    "attestation": "BK-D-27",
+    "attestation_text": "KaRıG : SÖKüPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG : UDA : BaSDıM : KaGaNIN : BİRLE : SOŊA : YIŞDA : SÜŊ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱃𐰢",
+    "transcription": "ITıM",
+    "attestation": "BK-D-40",
+    "attestation_text": "--- GaKıŊA : YiRiŊeRÜ : SUBIŊaRU : KONTI : BİRiYE : KaRLuK : BODuN : TaPA : SÜLE : TİP : TUDuN : YaMTaRıG : ITıM : BaRDI",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐰼𐱅𐰃",
+    "transcription": "ÖLüRTİ",
+    "attestation": "BK-G-9",
+    "attestation_text": "ÖLüRTİ : ULuG : OGLuM : aGRıP : YOK : BOLÇA : KUG : SeŊÜNüG : BaLBaL : TİKE : BİRTiM : MeN : TOKuZ : YiGiRMİ : YIL : ŞaD",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰃𐰭𐰇",
+    "transcription": "eRTİŊÜ",
+    "attestation": "BK-K-9",
+    "attestation_text": "KaGaN : eÇiM : KaGaN : OLuRTUKINDA : TÖRT : BULuŊDaKI : BODuNıG : BUNÇA : İTMiŞ --- : TeŊRİ : YaRLıKaDUK : ÜÇüN : ÖZüM :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰏𐰔𐰚𐰀",
+    "transcription": "ÖGüZKE",
+    "attestation": "TY1-G-9",
+    "attestation_text": "SÜSİ : ÜÇ : BİŊ : eRMiŞ : BİZ : iKİ : BİŊ : eRTiMiZ : SÜŊüŞDüMüZ : TeŊRİ : YaRLıKaDI : YaYıNDıMıZ : ÖGüZKE : TÜŞDİ : YaY",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰶𐰃𐰔𐰞",
+    "transcription": "KIZıL",
+    "attestation": "TY2-G-4",
+    "attestation_text": "KIZıL : aLTUN : ÜRüŊ : KÜMüŞ : KIZıL : UDuZ : GeRİT : aSIGI : BUŊSuZ : KeLÜRTİ : İLTeRiŞ : KaGaN : BİLGESİ :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰞𐰯",
+    "transcription": "aLıP",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰚𐰇𐰼𐰢𐰾",
+    "transcription": "SÖKÜRMiŞ",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰃𐰍𐱃𐰲𐰃",
+    "transcription": "SIGıTÇI",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰠𐰏",
+    "transcription": "eLiG",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰢𐰔𐰆𐰣",
+    "transcription": "BOLMaZUN",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰓𐰔",
+    "transcription": "eDiZ",
+    "attestation": "KT-K-5",
+    "attestation_text": "KÖLTİGiN : aZMaNKaG : BİNiP : OPLaYU : TeGDİ : aLTI : eRiG : SaNÇDI : SÜ : TeGİŞİNDE : YİTiNÇ : eRiG : KILıÇLaDI : iKiNT",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰃𐰤",
+    "transcription": "BODuNIN",
+    "attestation": "BK-G-15",
+    "attestation_text": "eRTiŊÜ : Tİ : eMiG : İTDİ : TÜRK : BeGLeRİN : BODuNIN : eRTiŊÜ : Tİ : eMiG : İTDİ : ÖGDİ : --- : KaŊıM : KaGaN : --- ÇA ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰍𐰆𐰲𐰃𐰾𐰃",
+    "transcription": "aYGUÇISI",
+    "attestation": "TY1-G-3",
+    "attestation_text": "YORIYoR : eRMiŞ : KaGaNI : aLP : eRMiŞ : aYGUÇISI : BİLGE : eRMiŞ : OL : iKİ : KİŞİ : BaR : eRSeR : SİNİ : TaBGaÇıG : ÖL",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰭𐰾𐰓𐰃",
+    "transcription": "SÜŊüŞDİ",
+    "attestation": "TY2-G-5",
+    "attestation_text": "İLİN : ÜÇüN : TaBGaÇKA : YiTİ : YiGİRMİ : SÜŊüŞDİ : KITaYNKA : YiTİ : SÜŊüŞDİ : OGuZKA : BeŞ : SÜŊüŞDİ : aNDA : aYGUÇI :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐱃𐰢",
+    "transcription": "OLuRTıM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰏𐰇𐰤𐰢",
+    "transcription": "YeGÜNüM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰍𐰞𐰣𐰢",
+    "transcription": "OGLaNıM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐱃𐰺",
+    "transcription": "TaTaR",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰏𐰓𐰢𐱁",
+    "transcription": "İGiDMiŞ",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰭𐰑𐰴𐰃",
+    "transcription": "BOLuŊDaKI",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰞𐰍",
+    "transcription": "KaGaNLıG",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰞𐰢𐰔𐰆𐰣",
+    "transcription": "KaLMaZUN",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰔𐰍𐰦𐰢",
+    "transcription": "KaZGaNDıM",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰺𐰍𐰺𐰆",
+    "transcription": "YIRıGaRU",
+    "attestation": "KT-D-28",
+    "attestation_text": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ : YaDaGıN : YaLıŊıN : YaNA : KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰺𐰍",
+    "transcription": "KaRıG",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰽𐰑𐰢𐰔",
+    "transcription": "BaSDıMıZ",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰏𐰯",
+    "transcription": "TeGiP",
+    "attestation": "KT-K-5",
+    "attestation_text": "KÖLTİGiN : aZMaNKaG : BİNiP : OPLaYU : TeGDİ : aLTI : eRiG : SaNÇDI : SÜ : TeGİŞİNDE : YİTiNÇ : eRiG : KILıÇLaDI : iKiNT",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰏𐰔",
+    "transcription": "eRTiGiZ",
+    "attestation": "KT-K-9",
+    "attestation_text": "ÖGSüZ : aKIN : BİNiP : TOKUZ : eRiN : SaNÇDI : ORDUG : BİRMeDİ : ÖGüM : KATuN : ULaYU : ÖGLeRiM : eKeLeRiM : KeLiŊÜNüM :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰠𐱅𐰋𐰼",
+    "transcription": "iLTeBeR",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰚𐰔",
+    "transcription": "SeKiZ",
+    "attestation": "BK-D-24",
+    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰑𐰍",
+    "transcription": "YaDaG",
+    "attestation": "BK-D-32",
+    "attestation_text": "OGuZ : TaPA : SÜLeDiM : İLKİ : SÜ : TaŞIKMıŞ : eRTİ : iKİN : SÜ : eBDE : eRTİ : ÜÇ : OGuZ : SÜSİ : BaSA : KeLTİ : YaDaG ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐰢𐰓𐰃",
+    "transcription": "KeLMeDİ",
+    "attestation": "BK-D-41",
+    "attestation_text": "--- : aRKıŞI : KeLMeDİ : aNI : aYNıTaYıN : TİP : SÜLeDiM : KORıGU : iKİ : ÜÇ : KİŞiLGeN : TeZiP : BaRDI : KaRA : BODuN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰞𐰍",
+    "transcription": "aTLıG",
+    "attestation": "BK-G-1",
+    "attestation_text": "--- : TaBGaÇ : aTLıG : SÜSİ : BİR : TÜMeN : aRTUKI : YiTİ : BİŊ : SÜG : İLKİ : KÜN : ÖLüRTüM : YaDaG : SÜSİN : iKiNTİ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰼𐱅𐰢",
+    "transcription": "BiRTiM",
+    "attestation": "BK-G-7",
+    "attestation_text": "BiRTiM : aLP : eRİN : ÖLüRüP : BaLBaL : KILU : BiRTiM : eLiG : YaŞıMA : TaTaBI : BODuN : KITaYNDA : aDKıG --- : --- Ka -",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰇𐰼𐱅𐰢",
+    "transcription": "eRTÜRTüM",
+    "attestation": "BK-G-10",
+    "attestation_text": "TÜRÜKüME : BODuNuMA : YiGiN : aNÇA : KaZGaNU : BİRTiM : BUNÇA : KaZGaNıP : KaNGıM : KaGaN : IT : YIL : ONuNÇ : aY : aLTI",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐰇𐰼𐰯",
+    "transcription": "KeLÜRüP",
+    "attestation": "BK-G-11",
+    "attestation_text": "KaŊI : LİSÜN : TaY : SeŊÜN : BaŞaDU : BİŞ : YÜZ : eReN : KeLTİ : KOKuLuK : Ö --- : aLTUN : KÜMüŞ : KeRGeKSiZ : KeLÜRTİ :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰭𐰇",
+    "transcription": "eRTiŊÜ",
+    "attestation": "BK-G-14",
+    "attestation_text": "BaŞLaYU : ULaYU : ŞaDPIT : BeGLeR : BU --- : TaMaN : TaRKaN : TONYUKUK : BOYLA : BaGA : TaRKaN : ULaYU : BUYRUK : --- IÇ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐰚𐰠𐰏",
+    "transcription": "eRKLiG",
+    "attestation": "BK-K-12",
+    "attestation_text": "KÖK : TeYeŊİN : TÜRÜKüME : BODuNuMA : KaZGaNU : BİRTİM : İTİ : BİRTiM : --- : BUŊSuZ : KILTıM : --- : --- RTİ : eRKLiG :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰍𐰢𐰔",
+    "transcription": "YaGıMıZ",
+    "attestation": "TY1-G-1",
+    "attestation_text": "KiYiK : YİYÜ : TaBıŞGaN : YiYÜ : OLuRUR : eRTiMiZ : BODuN : BOGuZI : ToK : eRTİ : YaGıMıZ : TeGRE : OÇUK : TeG : eRTİ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐰼𐱅𐰲𐰃",
+    "transcription": "ÖLüRTeÇİ",
+    "attestation": "TY1-G-3",
+    "attestation_text": "YORIYoR : eRMiŞ : KaGaNI : aLP : eRMiŞ : aYGUÇISI : BİLGE : eRMiŞ : OL : iKİ : KİŞİ : BaR : eRSeR : SİNİ : TaBGaÇıG : ÖL",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰢𐰀",
+    "transcription": "KaGaNıMA",
+    "attestation": "TY1-G-5",
+    "attestation_text": "TİR : MeN : OL : SaBıG : eŞiDiP : TÜN : UDıSIKıM : KeLMeDİ : KÜNTüZ : OLuRSıKıM : KeLMeDİ : aNDA : ÖTRÜ : KaGaNıMA : ÖTü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐱅𐰚𐰤",
+    "transcription": "ÖTüKeN",
+    "attestation": "TY1-G-8",
+    "attestation_text": "KaGaNıM : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüNTÜK : ÖTüNÇüMüN : iŞiDÜ : BiRTİ : KÖŊLüŊÇE : UDuZ : TiDİ : KÖK : ÖŊüG : YO",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰍𐰺𐰆",
+    "transcription": "KaGaNGaRU",
+    "attestation": "TY1-D-3",
+    "attestation_text": "aRTUK : KIRKıZ : KÜÇLüG : KaGaN : YaGıZıM : BOLDI : OL : ÜÇ : KaGaN : ÖGLeŞiP : aLTUN : YIŞ : ÜZE : KaBıŞaLıM : TiMiŞ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰠𐰠𐰢",
+    "transcription": "SÜLeLiM",
+    "attestation": "TY1-D-3",
+    "attestation_text": "aRTUK : KIRKıZ : KÜÇLüG : KaGaN : YaGıZıM : BOLDI : OL : ÜÇ : KaGaN : ÖGLeŞiP : aLTUN : YIŞ : ÜZE : KaBıŞaLıM : TiMiŞ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰲𐰃",
+    "transcription": "eRTeÇİ",
+    "attestation": "TY2-D-5",
+    "attestation_text": "UDU : BeN : ÖZüM : KaZGaNMaSaR : İL : YiME : BODuN : YiME : YOK : eRTeÇİ : eRTİ : KaZGaNTUKIN : UDU : ÖZüM : KaZGaNTUKıM",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  }
+]
