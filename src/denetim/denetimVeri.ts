@@ -5,7 +5,7 @@
  * Üretim derlemesine girmez; App.tsx içinde koşullu lazy import edilir.
  */
 
-export type KuyrukId = "cumlecik" | "dize" | "sozluk";
+export type KuyrukId = "cumlecik" | "dize" | "sozluk" | "makine";
 export type Karar = "beklemede" | "onay" | "red";
 
 /** Ekranda gösterilen, kuyruktan bağımsız tek kayıt biçimi. */
@@ -21,6 +21,12 @@ export interface DenetimKaydi {
   rozetler: string[];
   /** Dikkat çekilmesi gereken durumlar (yıpranma, lacuna, düşük güven). */
   uyarilar: string[];
+  /**
+   * Makine önerisi. Doluysa form bu değerlerle açılır; insan düzeltir
+   * ya da olduğu gibi onaylar. Onay yine insanındır — ön dolgu bir
+   * iddia değil, yazma yükünü azaltan bir taslaktır.
+   */
+  onDolgu?: { metin?: string; tur?: string; kaynak?: string };
 }
 
 /** Kullanıcının bir kayıt için verdiği karar. localStorage'da tutulur. */
@@ -148,6 +154,59 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
     },
   },
 ];
+
+/**
+ * Makine üretimi karşılıklar.
+ *
+ * `denetim-uygula.mjs --denetleyen makine` ile işlenen kayıtlar
+ * cumlecikler-onayli.json'a yazılır ama içerik üreticisi onları
+ * alıştırmaya ALMAZ. Bu kuyruk onları insan önüne getirir: metin
+ * önceden dolu gelir, insan okur, düzeltir ya da onaylar.
+ *
+ * Onaylananlar `--denetleyen insan` ile yeniden işlenince kapıdan geçer.
+ */
+KUYRUKLAR.push({
+  id: "makine",
+  ad: "Makine önerisi",
+  aciklama:
+    "Makine üretimi karşılıklar — alıştırmaya GİRMİYOR. Metin önceden dolu; " +
+    "oku, gerekiyorsa düzelt, onayla. Onayladıkların --denetleyen insan ile işlenir.",
+  metinEtiketi: "Günümüz Türkçesi",
+  turEtiketi: "Tür",
+  turSecenekleri: ceviriTurleri,
+  yukle: async () => {
+    // Dosya isteğe bağlı: paket işlenmeden önce yok. Bu yüzden statik
+    // import değil fetch — Vite dev sunucusu proje kökünü servis eder.
+    const yanit = await fetch("/05_Kaynak_DB/cumlecikler-onayli.json");
+    if (!yanit.ok) {
+      throw new Error(
+        "05_Kaynak_DB/cumlecikler-onayli.json bulunamadı. Önce makine paketini işle:  " +
+          "node engine/denetim-uygula.mjs <paket.json> --denetleyen makine"
+      );
+    }
+    const veri = (await yanit.json()) as { cumlecikler?: Record<string, unknown>[] };
+    const makineler = (veri.cumlecikler ?? []).filter((c) => c.denetleyen !== "insan");
+    return makineler.map((c) => {
+      const uyarilar = ["Makine üretimi — insan onayı yok, alıştırmaya girmiyor."];
+      if (c.yipranma) uyarilar.push("Yıpranma / lacuna var");
+      return {
+        id: String(c.id),
+        baslik: String(c.id),
+        altBaslik: `${c.dizeId} · kaynak: ${c.kaynak ?? "—"}`,
+        runik: String(c.runik),
+        transkripsiyon: String(c.transkripsiyon),
+        baglam: String(c.kelimeKarsiliklari ?? ""),
+        rozetler: [`${c.kelimeSayisi} kelime`, String(c.denetleyen ?? "makine")],
+        uyarilar,
+        onDolgu: {
+          metin: String(c.turkce ?? ""),
+          tur: String(c.tur ?? ""),
+          kaynak: String(c.kaynak ?? ""),
+        },
+      };
+    });
+  },
+});
 
 export const depoAnahtari = (k: KuyrukId) => `gokturkce_denetim_${k}_v1`;
 

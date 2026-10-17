@@ -220,3 +220,23 @@ Sebep: çeviri doğruluğu iddiası insan onayı olmadan yapılamaz. Makine
 üretimi karşılıklar sayfa atıflı ve tutarlı olabilir, ama "doğrulanmış"
 değildir. Paketi `--denetleyen makine` ile işlemek veriyi saklar, kapıyı
 açmaz — insan onayı gelince aynı kayıtlar `insan` ile yeniden işlenir.
+
+### Denetim ekranı — "Makine önerisi" sekmesi
+
+Makine paketini `--denetleyen makine` ile işledikten sonra kayıtlar
+`05_Kaynak_DB/cumlecikler-onayli.json`'a düşer ama alıştırmaya girmez.
+Denetim ekranının 4. sekmesi onları insan önüne getirir:
+
+- Günümüz Türkçesi, tür ve kaynak **önceden dolu** gelir
+- Sarı uyarı: "Makine üretimi — insan onayı yok, alıştırmaya girmiyor."
+- `A` ile olduğu gibi onayla, ya da düzelt sonra onayla
+
+Ön dolgu localStorage'a yazılmaz; insan bir şeye dokunana kadar karar
+`beklemede` kalır. Böylece "açtım ama bakmadım" ile "okudum, doğru"
+birbirine karışmaz.
+
+Onaylananları işle:
+```bash
+node engine/denetim-uygula.mjs <disa-aktarim.json> --denetleyen insan
+node engine/icerik-uret.mjs
+```
