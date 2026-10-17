@@ -306,3 +306,24 @@ hattın en pahalı ürünü — otomatik bir koşu onu sessizce silemez.
 
 `icerik-uret.mjs` hem dize hem cümlecik yolunda `denetleyen === "insan"`
 arar. Makine çıkarımı DB'de durur, alıştırmaya girmez.
+
+### Denetimi kaydetme
+
+```bash
+# 1. ekranda çalış → "Dışa aktar" (ya da Ctrl+S) → JSON iner
+# 2. önce kuru çalıştır, ne olacağını gör
+node engine/denetim-uygula.mjs ~/Downloads/denetim-makine-2026-10-17.json --kuru --denetleyen insan
+# 3. uygula
+node engine/denetim-uygula.mjs ~/Downloads/denetim-makine-2026-10-17.json --denetleyen insan
+# 4. yeniden üret ve kapıyı koş
+node engine/icerik-uret.mjs && node engine/kapi.mjs
+# 5. işi kalıcı yap
+git add -A && git commit -m "denetim: N cümlecik insan onayı" && git push
+```
+
+Dosya adındaki sekme adı (`makine`) ile içindeki `kuyruk` alanı farklıdır:
+"Makine önerisi" sekmesi cümlecik kaydı gösterdiği için `kuyruk: "cumlecik"`
+olarak aktarılır. `denetim-uygula.mjs` içerideki alana bakar.
+
+**Kararlar tarayıcı deposunda tutulur.** Dışa aktarmadan önbellek
+temizlenirse gider. Her oturumun sonunda dışa aktar.
