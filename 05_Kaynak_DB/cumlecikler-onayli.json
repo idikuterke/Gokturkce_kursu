@@ -513,6 +513,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 113",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.588 · kitap: özüm säkiz yaş+da kaltım",
       "tarih": "2026-10-17"
     },
     {
@@ -529,6 +531,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 55",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: ol töröde üze eçim kagan olortı",
       "tarih": "2026-10-17"
     },
     {
@@ -577,6 +581,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 134",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: azıg üküş kıltı",
       "tarih": "2026-10-17"
     },
     {
@@ -593,6 +599,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.607 · kitap: tört yegirmi yaşımda tarduş bodun üzä şad ärtim",
       "tarih": "2026-10-17"
     },
     {
@@ -817,6 +825,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.556 · kitap: kagan at+ıg bunta biz birtimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -1057,6 +1067,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 59",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.8 · kitap: türük bodun ėliŋin töröŋin kem artatı udaçı erti",
       "tarih": "2026-10-17"
     },
     {
@@ -1233,6 +1245,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kanıŋ ügüz+çä yügürti",
       "tarih": "2026-10-17"
     },
     {
@@ -1265,6 +1279,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 183",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.72 · kitap: bäglik urı ogluŋın kul kıl-tıg eşilik [kız ogluŋın küŋ] kıl-tıg",
       "tarih": "2026-10-17"
     },
     {
@@ -1281,6 +1297,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.846 · kitap: ol bilmädökügin üçün, yablakıŋın üçün eçim kagan uça bardı",
       "tarih": "2026-10-17"
     },
     {
@@ -1633,6 +1651,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 203",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.765 · kitap: ıgar elligdä [ı]gar kaganlıgda yeg",
       "tarih": "2026-10-17"
     },
     {
@@ -1713,6 +1733,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.727 · kitap: ogli+n yutuzi+n yılkısi+n barımi+n anta altım",
       "tarih": "2026-10-17"
     },
     {
@@ -1825,6 +1847,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: arkış ıdmaz tiyin sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -1857,6 +1881,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.571 · kitap: eki otuz yaşıma tabgaç tapa sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -1905,6 +1931,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: altı otuz yaşıma çik bodun kırkız birlä yagı boltı",
       "tarih": "2026-10-17"
     },
     {
@@ -1985,6 +2013,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kaganin birlä soŋa yışda süŋüşdüm",
       "tarih": "2026-10-17"
     },
     {
@@ -2017,6 +2047,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 173",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.63 · kitap: altun yışıg aş-a, [är]tiş ügüzüg käç-ä yorıdım",
       "tarih": "2026-10-17"
     },
     {
@@ -2049,6 +2081,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: türgiş kagan süsi ot+ça bor+ça kälti",
       "tarih": "2026-10-17"
     },
     {
@@ -2097,6 +2131,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 182",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: otuz yaşıma biş balık tapa sülä-dim",
       "tarih": "2026-10-17"
     },
     {
@@ -2113,6 +2149,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: altı yolı süŋüşdüm",
       "tarih": "2026-10-17"
     },
     {
@@ -2129,6 +2167,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.615 · kitap: beş balık anı üçün ozdı",
       "tarih": "2026-10-17"
     },
     {
@@ -2385,6 +2425,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: bir yıl+ka tört yolı süŋüşdüm",
       "tarih": "2026-10-17"
     },
     {
@@ -2401,6 +2443,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: äŋ ilki togu balıkda süŋüşdüm",
       "tarih": "2026-10-17"
     },
     {
@@ -2465,6 +2509,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 192",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.714 · kitap: türük bodun adak kamşat(t)ı yablak bol-taçı är-ti",
       "tarih": "2026-10-17"
     },
     {
@@ -2545,6 +2591,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 205",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: törtünç äzginti kadızda süŋüşdüm",
       "tarih": "2026-10-17"
     },
     {
@@ -2673,6 +2721,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: [sıŋ]ar süsi äb+ig bark+ıg yulgalı bardı",
       "tarih": "2026-10-17"
     },
     {
@@ -2689,6 +2739,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 206",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: sıŋar süsi süŋüşgäli kälti",
       "tarih": "2026-10-17"
     },
     {
@@ -2705,6 +2757,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.556 · kitap: biz az ärtimiz, yabız ärtimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -2721,6 +2775,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.765 · kitap: täŋri yarlıkadok üçün, män kazgandok üçün türük bodun kazg[anmiş äri]nç",
       "tarih": "2026-10-17"
     },
     {
@@ -2737,6 +2793,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 192",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.903 · kitap: män iniligü bunça başlayu kazganm[a-sar] türük bodun öl-täçi är-ti",
       "tarih": "2026-10-17"
     },
     {
@@ -2801,6 +2859,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: oguz bodun tokuz tatar birlä tirilip kälti",
       "tarih": "2026-10-17"
     },
     {
@@ -2865,6 +2925,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.652 · kitap: üzä täŋri ıduk yer sub [eçim k]agan kutı taplamadı ärinç",
       "tarih": "2026-10-17"
     },
     {
@@ -2881,6 +2943,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.719 · kitap: tokuz oguz bodun yerin subin ıd-ıp tabgaçgaru bardı",
       "tarih": "2026-10-17"
     },
     {
@@ -2897,6 +2961,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 214",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.571 · kitap: igidäyin tiyin sakıntım",
       "tarih": "2026-10-17"
     },
     {
@@ -2945,6 +3011,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.889 · kitap: män özüm kagan olortokum üçün türük bodunug... kılmadım",
       "tarih": "2026-10-17"
     },
     {
@@ -2961,6 +3029,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.714 · kitap: [ilig] törög yegdi kazgantım",
       "tarih": "2026-10-17"
     },
     {
@@ -2993,6 +3063,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.833 · kitap: içik-igmä içikdi bodun boltı",
       "tarih": "2026-10-17"
     },
     {
@@ -3041,6 +3113,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.591 · kitap: uygur il[t]äbär yüz+çä ärin ilg[är]ü t[äzip bardı]",
       "tarih": "2026-10-17"
     },
     {
@@ -3057,6 +3131,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.875 · kitap: türük bodun / āç ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -3073,6 +3149,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: ol yılkı+g alıp igi(t)tim",
       "tarih": "2026-10-17"
     },
     {
@@ -3121,6 +3199,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: yalabaçi ädgü sabi ötügi kälmäz tiyin yay+ın sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -3329,6 +3409,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.75 · kitap: yeri+ŋärü subı+ŋaru kontı",
       "tarih": "2026-10-17"
     },
     {
@@ -3345,6 +3427,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 214",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.885 · kitap: biryä karluk bodun tapa sülä tip tudun yamtarıg ı(t)tım",
       "tarih": "2026-10-17"
     },
     {
@@ -3361,6 +3445,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.636 · kitap: anı ayıtayin tip sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -3377,6 +3463,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.688 · kitap: korıgu eki üç kişi+ligü täzip bardı",
       "tarih": "2026-10-17"
     },
     {
@@ -3953,6 +4041,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 111",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: türüküm+ä bodunum+a yeginança kazganu birtim",
       "tarih": "2026-10-17"
     },
     {
@@ -3969,6 +4059,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.613 · kitap: bunça kazganıp [kaŋım kagan ı]t yıl onunç ay altı otuzka uça bardı",
       "tarih": "2026-10-17"
     },
     {
@@ -4049,6 +4141,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.571 · kitap: biş yüz ärän",
       "tarih": "2026-10-17"
     },
     {
@@ -4081,6 +4175,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.966 · kitap: ädgü özlük atin kara kişin kök täyänin sansız kälürüp kop kot(t)ı",
       "tarih": "2026-10-17"
     },
     {
@@ -4129,6 +4225,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 157",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.676 · kitap: kisrä tarduş bäglär, kül çor başlayu, ulayu şadapıt bäglär...",
       "tarih": "2026-10-17"
     },
     {
@@ -4177,6 +4275,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.692 · kitap: [kaŋım kagan t]ürük bäglärin bodunin ärtiŋü ti mag itdi ögd[i]",
       "tarih": "2026-10-17"
     },
     {
@@ -4289,6 +4389,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.9 · kitap: ulug oglum agrı-p yok bolça kug säŋünüg balbal tikä birtim",
       "tarih": "2026-10-17"
     },
     {
@@ -4305,6 +4407,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: män tokuz yegirmi yıl şad olortum",
       "tarih": "2026-10-17"
     },
     {
@@ -4433,6 +4537,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 152",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.565 · kitap: üzä täŋri asra yer yarlıkadok üç[ün]...",
       "tarih": "2026-10-17"
     },
     {
@@ -4529,6 +4635,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 139",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.875 · kitap: içräki bädizçig ı(t)tı",
       "tarih": "2026-10-17"
     },
     {
@@ -4913,6 +5021,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.909 · kitap: ädgü bilgä kişig ädgü alp kişig yorıt-maz är-miş",
       "tarih": "2026-10-17"
     },
     {
@@ -5281,6 +5391,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 149",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.806 · kitap: üzä kök täŋri asra yagız yer kılıntokda ekin ara kişi oglı kılınmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -5297,6 +5409,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 155",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.778 · kitap: kişi oglınta üzä äçüm apam bumın kagan iştämi kagan olormış",
       "tarih": "2026-10-17"
     },
     {
@@ -5377,6 +5491,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.739 · kitap: kaŋım kagan yiti yegirmi är+in taşıkmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -5457,6 +5573,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 137",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.9 · kitap: ilgärü kur(ı)garu süläp ti[r]m[iş] kubrat[miş]",
       "tarih": "2026-10-17"
     },
     {
@@ -5489,6 +5607,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 62",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.7 · kitap: ėlsiremiş kağanşıramış bodunıg küñedmiş kuladmış bodunıg",
       "tarih": "2026-10-17"
     },
     {
@@ -5521,6 +5641,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.727 · kitap: ...bodunug äçüm apam törösin+çä yaratmiş boşgurmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -5569,6 +5691,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: biryä tabgaç bodun yagı ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -5585,6 +5709,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: yırya baz kagan tokuz oguz bodun yagı ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -5649,6 +5775,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 215",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.679 · kitap: täŋri yarlıkadok üçün, illigig ilsirätmiş, kaganlıgıg kagansıratmiş...",
       "tarih": "2026-10-17"
     },
     {
@@ -5729,6 +5857,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kaŋım kaganka başlayu baz kaganıg balbal tikmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -5745,6 +5875,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: ol törödä üzä eçim kagan olortı",
       "tarih": "2026-10-17"
     },
     {
@@ -5809,6 +5941,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: eçim kagan olortokda özüm tarduş bodun üzä şad ärtim",
       "tarih": "2026-10-17"
     },
     {
@@ -5825,6 +5959,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.643 · kitap: eçim kagan birlä ilgärü yaşıl ügüz şantuŋ yazıka tägi sülädimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -5857,6 +5993,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kurıgaru tämir kapıg+ka tägi sülädimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -5889,6 +6027,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 128",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kamagı biş otuz sülädimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -5969,6 +6109,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 157",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: kagani ölti, buyrukı bägläri yämä ölti",
       "tarih": "2026-10-17"
     },
     {
@@ -6001,6 +6143,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: äçümüz apamız tutmiş yir sub",
       "tarih": "2026-10-17"
     },
     {
@@ -6017,6 +6161,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: tört buluŋ kop yagı ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -6033,6 +6179,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.741 · kitap: sü süläpän tört buluŋdakı bodunug kop almiş, kop baz kılmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -6065,6 +6213,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.714 · kitap: başlıg+ıg yüküntürmiş, tizlig+ig sökürmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -6081,6 +6231,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.719 · kitap: ilgärü kadırkan yışka tägi, kirü tämir kapıgka tägi konturmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -6113,6 +6265,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.643 · kitap: kagan at bunta biz birtimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -6129,6 +6283,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: siŋlim kunçuy+ug birtimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -6161,6 +6317,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 211",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.778 · kitap: boduni / küŋ kul boltı",
       "tarih": "2026-10-17"
     },
     {
@@ -6225,6 +6383,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 57",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.684 · kitap: ol üdke kul kullug bolmış erti",
       "tarih": "2026-10-17"
     },
     {
@@ -6401,6 +6561,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.563 · kitap: ermiş barmiş ädgü eliŋä käntü yaŋıltıg",
       "tarih": "2026-10-17"
     },
     {
@@ -6433,6 +6595,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.684 · kitap: süŋüglüg kantan käl-ipän sürä eltdi",
       "tarih": "2026-10-17"
     },
     {
@@ -6561,6 +6725,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: başlayu kırkız kaganıg balbal tikdim",
       "tarih": "2026-10-17"
     },
     {
@@ -6657,6 +6823,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: näŋ yılsıg bodun+ka olormadım",
       "tarih": "2026-10-17"
     },
     {
@@ -6673,6 +6841,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 155",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.786 · kitap: içrä aşsız taşra tonsuz yabız yablak bodunta üzä olortum",
       "tarih": "2026-10-17"
     },
     {
@@ -6737,6 +6907,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 106",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.8 · kitap: türük bodun üçün tün udımadım...",
       "tarih": "2026-10-17"
     },
     {
@@ -6833,6 +7005,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.74 · kitap: yırgaru oguz bodun tapa, ilgärü kıtañ tatabı bodun tapa, birgärü tabgaç tapa ulug sü eki yegirmi sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -6881,6 +7055,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.792 · kitap: kutum bar üçün, ülügüm bar üçün öltäçi bodunug tirgürü igi(t)tim",
       "tarih": "2026-10-17"
     },
     {
@@ -6945,6 +7121,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 57",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.556 · kitap: idi oksuz kök türük (ėti) ança olorur ermiş",
       "tarih": "2026-10-17"
     },
     {
@@ -6993,6 +7171,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 160",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.588 · kitap: buyrukı yämä bilgä ärmiş ärinç alp ärmiş ärinç",
       "tarih": "2026-10-17"
     },
     {
@@ -7025,6 +7205,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.824 · kitap: bägläri yämä boduni yämä tüz ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -7041,6 +7223,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.75 · kitap: anı üçün ilig ança tutmiş ärinç",
       "tarih": "2026-10-17"
     },
     {
@@ -7313,6 +7497,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 205",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.6 · kitap: ekinti ışbara yamtar boz atıg binip...",
       "tarih": "2026-10-17"
     },
     {
@@ -7377,6 +7563,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.615 · kitap: yüz[iŋä] başıŋa bir t[ägmädi]",
       "tarih": "2026-10-17"
     },
     {
@@ -7425,6 +7613,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.842 · kitap: anı yañıp türgi yargun költä buzdumuz",
       "tarih": "2026-10-17"
     },
     {
@@ -7441,6 +7631,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.647 · kitap: ulug irkin azkıńa är+in täzip bardı",
       "tarih": "2026-10-17"
     },
     {
@@ -7505,6 +7697,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kaganin birlä soŋa yışda süŋüşdümüz",
       "tarih": "2026-10-17"
     },
     {
@@ -7601,6 +7795,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 182",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.688 · kitap: kırkız kaganin ölür-tümüz ilin al-tımız",
       "tarih": "2026-10-17"
     },
     {
@@ -7713,6 +7909,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: kara türgiş bodun kop içikdi",
       "tarih": "2026-10-17"
     },
     {
@@ -7745,6 +7943,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: sogdak bodun itäyin tiyin yinçü ügüzüg käçä tämir kapıgka tägi sülädimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -7793,6 +7993,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 106",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: biziŋ sü at-i",
       "tarih": "2026-10-17"
     },
     {
@@ -7809,6 +8011,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 120",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.583 · kitap: biziŋ sü ati toruk azukı yōk ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -7889,6 +8093,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.8 · kitap: alp är biziŋä täg-miş är-ti",
       "tarih": "2026-10-17"
     },
     {
@@ -8017,6 +8223,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.63 · kitap: anta kisrä inisi eçisin täg kılınmadok ärinç oglı kaŋin täg kılınmadok ärinç",
       "tarih": "2026-10-17"
     },
     {
@@ -8065,6 +8273,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.632 · kitap: biligsiz kagan olormiş ärinç yablak kagan olormiş ärinç",
       "tarih": "2026-10-17"
     },
     {
@@ -8113,6 +8323,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 152",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.689 · kitap: bägläri boduni tüzsüz üçün, tabgaç bodun täbligin kürlüg<in> üçün, armakçısin üçün, inili eçili kikşürtökin üçün, bägli bodunlıg yoŋaşurtokin üçün...",
       "tarih": "2026-10-17"
     },
     {
@@ -8161,6 +8373,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 199",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.625 · kitap: eşilik / kız ogul",
       "tarih": "2026-10-17"
     },
     {
@@ -8177,6 +8391,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 206",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.714 · kitap: türük bäglär türük ātin ı(t)tı",
       "tarih": "2026-10-17"
     },
     {
@@ -8193,6 +8409,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.84 · kitap: tabgaçgı bäglär tabgaç ātin tut-upan tabgaç kaganka körmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -8209,6 +8427,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.786 · kitap: älig yıl iş+ig küç+üg birmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -8273,6 +8493,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 127",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: türük kara kamag bodun",
       "tarih": "2026-10-17"
     },
     {
@@ -8353,6 +8575,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.773 · kitap: nä kaganka işig küçüg birür män ti-r är-miş",
       "tarih": "2026-10-17"
     },
     {
@@ -8417,6 +8641,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: sabım+ın tükäti eşidgil",
       "tarih": "2026-10-17"
     },
     {
@@ -8481,6 +8707,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 134",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.636 · kitap: az bodunug üküş kıltım",
       "tarih": "2026-10-17"
     },
     {
@@ -8513,6 +8741,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.652 · kitap: türük bodun térip él tutsıkın bonta urtum",
       "tarih": "2026-10-17"
     },
     {
@@ -8545,6 +8775,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 128",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.762 · kitap: näŋ näŋ sabım ärsär bäŋgü taşka urtum",
       "tarih": "2026-10-17"
     },
     {
@@ -8561,6 +8793,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: aŋar körü biliŋ",
       "tarih": "2026-10-17"
     },
     {
@@ -8593,6 +8827,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.615 · kitap: mäniŋ sabım+ın sımadı",
       "tarih": "2026-10-17"
     },
     {
@@ -8609,6 +8845,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.933 · kitap: tabgaç kagan+ıŋ içerki bädizçig...",
       "tarih": "2026-10-17"
     },
     {
@@ -8673,6 +8911,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 156",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.676 · kitap: y[ag]uk el ärsär, anç(a) takı erig yertä irsär, ança erig yertä bäŋgü taş tokıtdım",
       "tarih": "2026-10-17"
     },
     {
@@ -8689,6 +8929,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.583 · kitap: anı körüp ança biliŋ",
       "tarih": "2026-10-17"
     },
     {
@@ -8705,6 +8947,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.8 · kitap: bu bitig biti-gmä atısi yol(l)ug tigin",
       "tarih": "2026-10-17"
     },
     {
@@ -8801,6 +9045,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.636 · kitap: şantuŋ yazı+ka tägi sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -8833,6 +9079,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: birgärü tokuz ärsinkä tägi sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -8865,6 +9113,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.846 · kitap: tämir kapıg+ka tägi sülädim",
       "tarih": "2026-10-17"
     },
     {
@@ -8881,6 +9131,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.765 · kitap: yırgaru yir bayırku yiriŋä tägi",
       "tarih": "2026-10-17"
     },
     {
@@ -8897,6 +9149,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: bunça yirkä tägi yorıtdım",
       "tarih": "2026-10-17"
     },
     {
@@ -8913,6 +9167,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.583 · kitap: ötükän yış+da yig idi yok ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -8929,6 +9185,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 167",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.765 · kitap: il tut-sık yir ötükän yış ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -8977,6 +9235,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.684 · kitap: altun kümüş işgiti kotay buŋsız ança birür",
       "tarih": "2026-10-17"
     },
     {
@@ -8993,6 +9253,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 213",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: tabgaç bodun sabi süçig, agısi yimşak ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -9009,6 +9271,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: süçig sabın yimşak agın ar-ıp ırak bodunug ança yagutır ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -9041,6 +9305,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 187",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: ädgü bilgä kişig ädgü alp kişig yorıt-maz ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -9057,6 +9323,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 187",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: bir kişi yaŋılsar uguşi boduni bişükiŋä tägi kıd-maz ärmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -9089,6 +9357,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.55 · kitap: biryä çogay yış tögültün yazı konayin tisär...",
       "tarih": "2026-10-17"
     },
     {
@@ -9169,6 +9439,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.893 · kitap: bilig bilmäz kişi ol sabıg al-ıp yagru bar-ıp üküş kişi öltüg",
       "tarih": "2026-10-17"
     },
     {
@@ -9217,6 +9489,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 169",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.556 · kitap: täŋri yarlıkadokin üçün",
       "tarih": "2026-10-17"
     },
     {
@@ -9313,6 +9587,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: ärin kop ölürmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -9329,6 +9605,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: äbin barımın kalısız kop kälürti",
       "tarih": "2026-10-17"
     },
     {
@@ -9345,6 +9623,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.633 · kitap: kül tigin yiti otuz yaşıŋa karluk bodun er-ür bar-ur ärkli yagı boltı",
       "tarih": "2026-10-17"
     },
     {
@@ -9393,6 +9673,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.607 · kitap: kül tigin yok ärsär kop öltäçi ärtigiz",
       "tarih": "2026-10-17"
     },
     {
@@ -9425,6 +9707,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.783 · kitap: körür közüm körmäz täg, bilir biligim bilmäz täg boltı",
       "tarih": "2026-10-17"
     },
     {
@@ -9441,6 +9725,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 177",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.72 · kitap: öd täŋri ay-sar kişi oglı kop ölgäli törümiş",
       "tarih": "2026-10-17"
     },
     {
@@ -9457,6 +9743,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.611 · kitap: köz+dä yaş kälsär tida, köŋül+tä sıgıt kälsär yanturu sakıntım",
       "tarih": "2026-10-17"
     },
     {
@@ -9569,6 +9857,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.619 · kitap: kurya kün batsıkdakı sog(u)d bärçik är bukarak uluş bodunta...",
       "tarih": "2026-10-17"
     },
     {
@@ -9665,6 +9955,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.643 · kitap: karlukug ölürtümüz, altımız",
       "tarih": "2026-10-17"
     },
     {
@@ -9697,6 +9989,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kara köl+tä süŋüşdümüz",
       "tarih": "2026-10-17"
     },
     {
@@ -9713,6 +10007,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.857 · kitap: kül tigin bir kırk yaşayur ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -9777,6 +10073,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.643 · kitap: eçim kagan eli kamşag boltokınta, bodun ilig ikäg[ü] boltokınta",
       "tarih": "2026-10-17"
     },
     {
@@ -9889,6 +10187,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: bir yılka biş yolı süŋüşdümüz",
       "tarih": "2026-10-17"
     },
     {
@@ -9905,6 +10205,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: äŋ ilk togu balıkda süŋüşdümüz",
       "tarih": "2026-10-17"
     },
     {
@@ -9937,6 +10239,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.68 · kitap: altı ärig sanç-dı, sü tägişintä yitinç ärig kılıçla-dı",
       "tarih": "2026-10-17"
     },
     {
@@ -9969,6 +10273,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kül tigin az yagızin binip opla-yu tägip bir ärig sançdı",
       "tarih": "2026-10-17"
     },
     {
@@ -10065,6 +10371,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.571 · kitap: törtünç çuş başınta süŋüşdümüz",
       "tarih": "2026-10-17"
     },
     {
@@ -10177,6 +10485,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: amga korgan kışlap yazıŋa oguz+garu sü taşıkdımız",
       "tarih": "2026-10-17"
     },
     {
@@ -10209,6 +10519,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.615 · kitap: oguz yagı ordug bas-dı",
       "tarih": "2026-10-17"
     },
     {
@@ -10369,6 +10681,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 197",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.64 · kitap: bilgä tuñukuk, bän özüm, tabgaç iliŋä kılıntım",
       "tarih": "2026-10-17"
     },
     {
@@ -10401,6 +10715,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.741 · kitap: türk bodun kanin bulma-yin tabgaçda adrıltı kanlantı",
       "tarih": "2026-10-17"
     },
     {
@@ -10417,6 +10733,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.737 · kitap: kanin kodup tabgaçka yana içikdi",
       "tarih": "2026-10-17"
     },
     {
@@ -10449,6 +10767,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.571 · kitap: kan bertim",
       "tarih": "2026-10-17"
     },
     {
@@ -10465,6 +10785,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: [kanıŋ+in] kodup içikdiŋ",
       "tarih": "2026-10-17"
     },
     {
@@ -10529,6 +10851,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 113",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: türk sir bodun yerin+tä",
       "tarih": "2026-10-17"
     },
     {
@@ -10545,6 +10869,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.591 · kitap: ıda taşda kalmişi kubranıp yeti yüz boltı",
       "tarih": "2026-10-17"
     },
     {
@@ -10609,6 +10935,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: uduzugma uluğı şad erti",
       "tarih": "2026-10-17"
     },
     {
@@ -10625,6 +10953,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 207",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.583 · kitap: ayıgmasi bän ärtim",
       "tarih": "2026-10-17"
     },
     {
@@ -10657,6 +10987,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.571 · kitap: toruk būkalı sämiz būkalı ırakda bilsär...",
       "tarih": "2026-10-17"
     },
     {
@@ -10705,6 +11037,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 124",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.852 · kitap: anta kisrä täŋri bilig bertök üçün özüm ök kagan kışdım",
       "tarih": "2026-10-17"
     },
     {
@@ -10753,6 +11087,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: bilgäsi çabışi bän ök ärtim",
       "tarih": "2026-10-17"
     },
     {
@@ -10769,6 +11105,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 190",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: çogay kuzin kara kumug olor-ur är-timiz",
       "tarih": "2026-10-17"
     },
     {
@@ -10881,6 +11219,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: üç otuz balık sıdı",
       "tarih": "2026-10-17"
     },
     {
@@ -10993,6 +11333,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.682 · kitap: aŋaru sülämäsär kaçan (n)äŋ ärsär ol bizni... ölürtäçi-k-ök",
       "tarih": "2026-10-17"
     },
     {
@@ -11105,6 +11447,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.652 · kitap: [türk boduni yämä] bulganç ol [tem]iş oguzi yämä tarkınç ol",
       "tarih": "2026-10-17"
     },
     {
@@ -11121,6 +11465,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.727 · kitap: oguzi yämä / tarkınç ol",
       "tarih": "2026-10-17"
     },
     {
@@ -11137,6 +11483,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.731 · kitap: ol sabın eşidip tün yämä udısıkım kälmäz ärti < kün yämä> olorsıkım kälmäz ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -11185,6 +11533,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.6 · kitap: kögmän yolı bir ärmiş, tumiş",
       "tarih": "2026-10-17"
     },
     {
@@ -11201,6 +11551,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 56",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.591 · kitap: bo yolun yorısar yaramaçı tėdim",
       "tarih": "2026-10-17"
     },
     {
@@ -11281,6 +11633,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.765 · kitap: keyik yi-yü tabışgan ye-yü olorur ärtimiz",
       "tarih": "2026-10-17"
     },
     {
@@ -11297,6 +11651,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: bodun boguzi / tok ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -11313,6 +11669,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 141",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: yagımız tägrä oçok täg ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -11345,6 +11703,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 178",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.714 · kitap: ança olor-ur ärkli oguzduntan küräg kälti",
       "tarih": "2026-10-17"
     },
     {
@@ -11361,6 +11721,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 197",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.564 · kitap: türk bodunug ötükän yerkä, bän özüm, bilgä tuñukuk, <kälürtüm>",
       "tarih": "2026-10-17"
     },
     {
@@ -11377,6 +11739,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.739 · kitap: biryäki bodun kuryakı yıryakı öŋräki bodun kälti",
       "tarih": "2026-10-17"
     },
     {
@@ -11393,6 +11757,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.619 · kitap: tokuz oguz bodun üzä kagan olortı",
       "tarih": "2026-10-17"
     },
     {
@@ -11409,6 +11775,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.867 · kitap: tabgaçgaru ku+nı säŋün+üg ıdmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -11521,6 +11889,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.583 · kitap: usar idi yok kışalım",
       "tarih": "2026-10-17"
     },
     {
@@ -11537,6 +11907,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 142",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.556 · kitap: ol sabıg äşidip tün udısıkım kälmädi küntüz olorsıkım kälmädi",
       "tarih": "2026-10-17"
     },
     {
@@ -11553,6 +11925,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: küntüz olorsıkım kälmädi",
       "tarih": "2026-10-17"
     },
     {
@@ -11569,6 +11943,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: anta ötrü kaganıma ötüntüm",
       "tarih": "2026-10-17"
     },
     {
@@ -11633,6 +12009,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 60",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.618 · kitap: uçuz yuyka kalın bolsar topulguluk alp ermiş",
       "tarih": "2026-10-17"
     },
     {
@@ -11649,6 +12027,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: yogun bolsar üzgülik alp ermiş",
       "tarih": "2026-10-17"
     },
     {
@@ -11665,6 +12045,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 126",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.587 · kitap: öŋrä kıtańda biryä tabgaçda kurya kurdınta yırya oguzda eki üç biŋ sümüz kältäçimiz bar mu nä",
       "tarih": "2026-10-17"
     },
     {
@@ -11729,6 +12111,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.563 · kitap: ötükän yış+garu uduztum",
       "tarih": "2026-10-17"
     },
     {
@@ -11745,6 +12129,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: ingäk köläk+in toglada oguz kälti",
       "tarih": "2026-10-17"
     },
     {
@@ -11825,6 +12211,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 160",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.75 · kitap: yañdok yolta yämä ölti-k ök",
       "tarih": "2026-10-17"
     },
     {
@@ -11841,6 +12229,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.571 · kitap: anta ötrü oguz kop+ın kälti",
       "tarih": "2026-10-17"
     },
     {
@@ -11905,6 +12295,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: at üzä bintürä karıg sökdüm",
       "tarih": "2026-10-17"
     },
     {
@@ -11921,6 +12313,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.708 · kitap: yok(k)aru at yetä yadagın ıgaç tutunu agturtum",
       "tarih": "2026-10-17"
     },
     {
@@ -11953,6 +12347,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 143",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.75 · kitap: yälmä kargug ädgüti urgıl",
       "tarih": "2026-10-17"
     },
     {
@@ -11985,6 +12381,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: apa tarkan+garu içrä sab ıdmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -12081,6 +12479,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.682 · kitap: on tün+kä yantakı tug äbirü bardımız",
       "tarih": "2026-10-17"
     },
     {
@@ -12097,6 +12497,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.857 · kitap: yerçi yer yaŋılıp boguzlan-tı",
       "tarih": "2026-10-17"
     },
     {
@@ -12145,6 +12547,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 176",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.727 · kitap: asın-galı tüşürtümüz",
       "tarih": "2026-10-17"
     },
     {
@@ -12177,6 +12581,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.75 · kitap: kün yämä tün yämä yälü bardımız",
       "tarih": "2026-10-17"
     },
     {
@@ -12193,6 +12599,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kırkız+ıg uka basdımız",
       "tarih": "2026-10-17"
     },
     {
@@ -12241,6 +12649,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 111",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: kagan+ka kırkız boduni içikdi",
       "tarih": "2026-10-17"
     },
     {
@@ -12289,6 +12699,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.579 · kitap: öŋdün kagangaru sü yorılım",
       "tarih": "2026-10-17"
     },
     {
@@ -12433,6 +12845,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.778 · kitap: katun yok bolmiş ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -12449,6 +12863,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 181",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.556 · kitap: anı yoglat-ayin",
       "tarih": "2026-10-17"
     },
     {
@@ -12481,6 +12897,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 180",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.636 · kitap: sü bar-ıŋ... altun yışda olor-uŋ",
       "tarih": "2026-10-17"
     },
     {
@@ -12497,6 +12915,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 58",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.9 · kitap: sü başi inel kagan tarduş şad barzun tėdi",
       "tarih": "2026-10-17"
     },
     {
@@ -12529,6 +12949,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: bu süg elt tidi",
       "tarih": "2026-10-17"
     },
     {
@@ -12641,6 +13063,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: on ok süsi kalısız taşıkdı",
       "tarih": "2026-10-17"
     },
     {
@@ -12657,6 +13081,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 58",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.857 · kitap: yarış yazıda tėrilelim tėmiş",
       "tarih": "2026-10-17"
     },
     {
@@ -12801,6 +13227,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.667 · kitap: täŋri umay ıduk yer sub basa berti ärinç",
       "tarih": "2026-10-17"
     },
     {
@@ -12817,6 +13245,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 125",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.625 · kitap: näkä täzär biz",
       "tarih": "2026-10-17"
     },
     {
@@ -12833,6 +13263,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 125",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.818 · kitap: üküş teyin näkä korkur biz",
       "tarih": "2026-10-17"
     },
     {
@@ -12945,6 +13377,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.652 · kitap: kagani+n tutdumuz, yabgusi+n şadi+n anta ölürti",
       "tarih": "2026-10-17"
     },
     {
@@ -12961,6 +13395,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 131",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.583 · kitap: äligçä är tutdumuz",
       "tarih": "2026-10-17"
     },
     {
@@ -12977,6 +13413,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.769 · kitap: ol ok tün bodunin sayu ı(t)tımız",
       "tarih": "2026-10-17"
     },
     {
@@ -12993,6 +13431,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.696 · kitap: ol sabıg eşidip on ok bägläri boduni kop käl-ti yükün-ti",
       "tarih": "2026-10-17"
     },
     {
@@ -13073,6 +13513,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 171",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.714 · kitap: kapgan kagan",
       "tarih": "2026-10-17"
     },
     {
@@ -13169,6 +13611,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 195",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.917 · kitap: arkuy kargu-g olgurtdum ok",
       "tarih": "2026-10-17"
     },
     {
@@ -13217,6 +13661,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.556 · kitap: bu türük bodun ara yarıklıg yagıg yältürmädim",
       "tarih": "2026-10-17"
     },
     {
@@ -13249,6 +13695,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 213",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.632 · kitap: ilteriş kagan kazganmasar, udu bän özüm kazganmasar, ...",
       "tarih": "2026-10-17"
     },
     {
@@ -13281,6 +13729,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 156",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.75 · kitap: kazgantokin üçün udu özüm kazgantokum üçün...",
       "tarih": "2026-10-17"
     },
     {
@@ -13345,6 +13795,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.722 · kitap: näŋ yerdäki kaganlıg bodunka...",
       "tarih": "2026-10-17"
     },
     {
@@ -13377,6 +13829,8 @@
       "tur": "ceviri",
       "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 56",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.611 · kitap: temir kapıgka tegi ertimiz anta yanturtumuz",
       "tarih": "2026-10-17"
     },
     {
@@ -13425,6 +13879,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 167",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.692 · kitap: tensi oglı ayt-ıgma tag",
       "tarih": "2026-10-17"
     },
     {
@@ -13649,6 +14105,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.806 · kitap: kapgan kagan türük sir bodun yerintä bod yämä bodun yämä kişi yämä idi yok ärtäçi ärti",
       "tarih": "2026-10-17"
     },
     {
@@ -13681,6 +14139,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 121",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 0.773 · kitap: ilteriş kagan bilgä tuñukuk kazgantok üçün kapgan kagan türük sir bodun yorıdokı bu",
       "tarih": "2026-10-17"
     },
     {
@@ -13697,6 +14157,8 @@
       "tur": "ceviri",
       "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 186",
       "denetleyen": "makine",
+      "katman": "kitap",
+      "not": "otomatik eşleşme 1 · kitap: türük bilgä kagan türük sir bodunug oguz bodunug igidü olor-ur",
       "tarih": "2026-10-17"
     }
   ]

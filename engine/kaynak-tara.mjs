@@ -196,6 +196,7 @@ const siraliBulgular = [...enIyiler.values()].sort((a, b) => b.skor - a.skor);
 
 const paket = {
   kuyruk: "cumlecik",
+  katman: "kitap",
   uretim: new Date().toISOString().slice(0, 10),
   uretici: "engine/kaynak-tara.mjs",
   aciklama:

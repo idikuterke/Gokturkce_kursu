@@ -335,3 +335,39 @@ olarak aktarılır. `denetim-uygula.mjs` içerideki alana bakar.
 
 **Kararlar tarayıcı deposunda tutulur.** Dışa aktarmadan önbellek
 temizlenirse gider. Her oturumun sonunda dışa aktar.
+
+---
+
+## Güvenilirlik katmanı — `insan > kitap > model`
+
+Üstteki alttakinin üzerine yazar, tersi olmaz. **Hangi paketi önce
+uyguladığın artık önemsiz.**
+
+| Katman | Anlamı | İçerik üreticisi |
+|---|---|---|
+| `insan` | Bir insan tek tek gözden geçirdi | **alıştırmaya alır** |
+| `kitap` | Metin yayınından çıkarıldı, sayfa atıflı | almaz |
+| `model` | Otomatik üretim | almaz |
+
+Katman şu sırayla belirlenir: `--katman` → paketin kendi `katman` alanı
+→ `--denetleyen`'den türetme. `kaynak-tara.mjs` ve `tekin1998-tara.mjs`
+ürettikleri pakete `katman: "kitap"` yazar, bu yüzden onları
+uygularken bayrak gerekmez:
+
+```bash
+node engine/denetim-uygula.mjs docs/kaynak-tarama-paketi.json
+# katman: kitap · denetleyen: makine  (otomatik)
+```
+
+Denetim ekranından gelen dışa aktarımda `katman` yoktur; varsayılan
+`insan` olur — elle denetimin doğru karşılığı budur.
+
+Korunan kayıtlar koşu sonunda listelenir:
+
+```
+KORUNDU: 1 kayıt — daha güvenilir katmandan geliyor, üzerine yazılmadı
+  KT-D-16#3 (kitap > model)
+```
+
+Katmanı olmayan eski kayıtlar `model` sayılır; daha güvenilir bir paket
+geldiğinde kendiliğinden yükselirler.

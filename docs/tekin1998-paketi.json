@@ -1,5 +1,6 @@
 {
   "kuyruk": "dize",
+  "katman": "kitap",
   "uretim": "2026-10-17",
   "uretici": "engine/tekin1998-tara.mjs",
   "aciklama": "Tekin 1998 metin yayınından otomatik çıkarılmış dize çevirileri. İNSAN ONAYI YOK — --denetleyen makine ile işlenmelidir.",

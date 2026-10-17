@@ -1,5 +1,6 @@
 {
   "kuyruk": "cumlecik",
+  "katman": "kitap",
   "uretim": "2026-10-17",
   "uretici": "engine/kaynak-tara.mjs",
   "aciklama": "Dijitalleştirilmiş kitaplardan otomatik çıkarılmış karşılıklar. İNSAN ONAYI YOK — --denetleyen makine ile işlenmelidir.",

@@ -159,6 +159,7 @@ writeFileSync(
   JSON.stringify(
     {
       kuyruk: "dize",
+      katman: "kitap",
       uretim: new Date().toISOString().slice(0, 10),
       uretici: "engine/tekin1998-tara.mjs",
       aciklama:

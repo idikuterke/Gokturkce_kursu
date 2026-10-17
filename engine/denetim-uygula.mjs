@@ -31,11 +31,25 @@ const kok = join(dirname(fileURLToPath(import.meta.url)), "..");
 const [, , dosyaArg, ...bayraklar] = process.argv;
 const kuru = bayraklar.includes("--kuru");
 
+/**
+ * Güvenilirlik katmanı. Üstteki alttakinin üzerine yazar, tersi olmaz.
+ *
+ *   insan (3) — bir insan tek tek gözden geçirdi
+ *   kitap (2) — metin yayınından birebir çıkarıldı, sayfa atıflı
+ *   model (1) — otomatik üretim
+ *
+ * Böylece hangi paketi önce uyguladığın önemsizleşir: kitap alıntısı
+ * modelin üzerine yazar, model kitabın üzerine yazamaz, ikisi de
+ * insan onayına dokunamaz.
+ */
+const KATMAN_SIRASI = { model: 1, kitap: 2, insan: 3 };
+const KATMANLAR = Object.keys(KATMAN_SIRASI);
+
 const DENETLEYENLER = ["insan", "makine"];
 const dI = bayraklar.indexOf("--denetleyen");
-const denetleyen = dI === -1 ? "insan" : bayraklar[dI + 1];
-if (!DENETLEYENLER.includes(denetleyen)) {
-  console.error(`--denetleyen yalnız ${DENETLEYENLER.join(" | ")} olabilir, verilen: ${bayraklar[dI + 1]}`);
+const denetleyenArg = dI === -1 ? null : bayraklar[dI + 1];
+if (denetleyenArg && !DENETLEYENLER.includes(denetleyenArg)) {
+  console.error(`--denetleyen yalnız ${DENETLEYENLER.join(" | ")} olabilir, verilen: ${denetleyenArg}`);
   process.exit(1);
 }
 
@@ -67,6 +81,13 @@ function enYeniDisaAktarim() {
   return enIyi?.tam ?? null;
 }
 
+const kI = bayraklar.indexOf("--katman");
+const katmanArg = kI === -1 ? null : bayraklar[kI + 1];
+if (katmanArg && !KATMANLAR.includes(katmanArg)) {
+  console.error(`--katman yalnız ${KATMANLAR.join(" | ")} olabilir, verilen: ${katmanArg}`);
+  process.exit(1);
+}
+
 let dosya;
 if (!dosyaArg || dosyaArg === "--son") {
   dosya = enYeniDisaAktarim();
@@ -87,6 +108,22 @@ if (!dosyaArg || dosyaArg === "--son") {
 }
 
 const paket = JSON.parse(readFileSync(dosya, "utf8"));
+
+// Öncelik: komut satırı > paketin kendi beyanı > denetleyenden türetme.
+const katman =
+  katmanArg ??
+  (KATMANLAR.includes(paket.katman) ? paket.katman : null) ??
+  (denetleyenArg === "makine" ? "model" : "insan");
+
+// denetleyen katmandan türer: yalnız "insan" katmanı insan onayıdır.
+// Böylece kitap paketleri için --denetleyen yazmak gerekmez.
+const denetleyen = denetleyenArg ?? (katman === "insan" ? "insan" : "makine");
+if ((denetleyen === "insan") !== (katman === "insan")) {
+  console.error(`tutarsız: katman "${katman}" ile denetleyen "${denetleyen}" birlikte kullanılamaz.`);
+  console.error(`  insan onayı  → --katman insan (varsayılan)`);
+  console.error(`  kitap/model  → --denetleyen makine`);
+  process.exit(1);
+}
 const kuyruk = paket.kuyruk;
 const kararlar = paket.kararlar ?? [];
 if (!["dize", "cumlecik", "sozluk"].includes(kuyruk)) {
@@ -105,13 +142,15 @@ const runikUyarilari = [];
 const korunan = [];
 
 /**
- * Makine, insanın verdiği kararın üzerine yazamaz.
- * İnsan onayı bu hattın en pahalı ürünü; otomatik bir koşu onu
- * sessizce silerse doğrulama kaydının hiçbir anlamı kalmaz.
+ * Mevcut kayıt daha güvenilir bir katmandan geliyorsa korunur.
+ * Eşit katmanda üzerine yazılır (aynı hattın yeniden koşusu).
  */
-function korunuyorMu(mevcutDenetleyen, id) {
-  if (denetleyen === "makine" && mevcutDenetleyen === "insan") {
-    korunan.push(id);
+function korunuyorMu(mevcut, id) {
+  const mevcutKatman =
+    mevcut?.katman ?? (mevcut?.denetleyen === "insan" ? "insan" : mevcut ? "model" : null);
+  if (!mevcutKatman) return false;
+  if (KATMAN_SIRASI[mevcutKatman] > KATMAN_SIRASI[katman]) {
+    korunan.push(`${id} (${mevcutKatman} > ${katman})`);
     return true;
   }
   return false;
@@ -153,13 +192,14 @@ if (kuyruk === "dize") {
       continue;
     }
     if (!gecerliOnay(k)) continue;
-    if (korunuyorMu(d.dogrulama?.denetleyen, k.id)) continue;
+    if (korunuyorMu(d.dogrulama, k.id)) continue;
     const tur = k.tur === "gunumuz_okumasi" ? "gunumuz_okumasi" : "gecti";
     d.turkce = k.metin.trim();
     d.dogrulama = {
       ...d.dogrulama,
       ceviri: tur,
       denetleyen,
+      katman,
       kaynak: k.kaynak.trim(),
       tarih: bugun,
     };
@@ -186,7 +226,7 @@ if (kuyruk === "cumlecik") {
       continue;
     }
     if (!gecerliOnay(k)) continue;
-    if (korunuyorMu(onayliIndeks.get(k.id)?.denetleyen, k.id)) continue;
+    if (korunuyorMu(onayliIndeks.get(k.id), k.id)) continue;
     onayliIndeks.set(k.id, {
       id: aday.id,
       dizeId: aday.dizeId,
@@ -198,6 +238,8 @@ if (kuyruk === "cumlecik") {
       tur: k.tur === "gunumuz_okumasi" ? "gunumuz_okumasi" : "ceviri",
       kaynak: k.kaynak.trim(),
       denetleyen,
+      katman,
+      not: k.not?.trim() || null,
       tarih: new Date().toISOString().slice(0, 10),
     });
     yazilan++;
@@ -222,8 +264,9 @@ if (kuyruk === "sozluk") {
     }
     if (!gecerliOnay(k)) continue;
     const kayit = indeks.get(k.id) ?? { transcription: k.id };
-    if (korunuyorMu(kayit.denetleyen, k.id)) continue;
+    if (korunuyorMu(kayit, k.id)) continue;
     kayit.denetleyen = denetleyen;
+    kayit.katman = katman;
     kayit.meaning = k.metin.trim();
     kayit.category = k.tur || "diger";
     kayit.source = k.kaynak.trim();
@@ -235,10 +278,11 @@ if (kuyruk === "sozluk") {
 }
 
 console.log(`kuyruk     : ${kuyruk}${kuru ? "  (KURU ÇALIŞMA — hiçbir şey yazılmadı)" : ""}`);
+console.log(`katman     : ${katman}  (insan > kitap > model)`);
 console.log(`denetleyen : ${denetleyen}${denetleyen === "makine" ? "  ← insan onayı YOK, alıştırmaya girmez" : ""}`);
 console.log(`işlenen    : ${yazilan} onay, ${atlanan} red`);
 if (korunan.length) {
-  console.log(`\nKORUNDU: ${korunan.length} kayıt — insan onayı var, makine üzerine yazmadı`);
+  console.log(`\nKORUNDU: ${korunan.length} kayıt — daha güvenilir katmandan geliyor, üzerine yazılmadı`);
   for (const id of korunan.slice(0, 10)) console.log(`  ${id}`);
 }
 if (reddedilen.length) {
