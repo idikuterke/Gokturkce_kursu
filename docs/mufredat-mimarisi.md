@@ -240,3 +240,39 @@ Onaylananları işle:
 node engine/denetim-uygula.mjs <disa-aktarim.json> --denetleyen insan
 node engine/icerik-uret.mjs
 ```
+
+---
+
+## Kaynak Tarama — kitaplardan atıflı çeviri çıkarımı
+
+```bash
+npm run kaynak:tara                      # eşik 0.55
+node engine/kaynak-tara.mjs --esik 0.7   # daha sıkı
+```
+
+Taranan kitaplar (`00_Kaynaklar/kitaplar/`, hepsi PROVENANS başlıklı):
+
+| Kitap | Sayfa |
+|---|---|
+| Tekin, *Orhon Türkçesi Grameri*, 2003 | 276 |
+| Ölmez, *Köktürkçe ve Eski Uygurca Dersleri*, 2017 | 115 (566'nın bir kısmı) |
+
+Kalıp: `*transkripsiyon* "Türkçe çeviri" (ATIF)`. Atıf dize kimliğine
+çevrilir, sonra o dizenin cümlecikleriyle karşılaştırılır.
+
+**Eşleştirme ünsüz iskeleti üzerinden.** Korpus `TeŊRİ : TeG` yazar,
+kitap `teŋri teg`; yazılmayan ünlüler iki yanda farklı olduğu için
+ünlüler atılıp 3-gram Jaccard benzerliği hesaplanır.
+
+**Tonyukuk özel durumu:** kitaplar yüz kodu yazmaz, sürekli satır
+numarası verir (`T 45`). `orhun-db`'deki `sira` alanı (1-62) tam bu
+numaralandırmayla örtüşür — 1. taş 1-35, 2. taş 36-62 — eşleme
+oradan yapılır. Dört tam eşleşmeyle doğrulandı.
+
+Sonuç: **231 / 953 cümlecik** eşleşti. Kalanın büyük kısmı başka
+yazıtlara ait atıflar (Irk Bitig 172, Moyun Çor, Küli Çor, Ongin,
+Yenisey) — bizim 214 dizelik Orhun korpusunda yok.
+
+Paket `--denetleyen makine` ile işlenir, denetim ekranının
+"Makine önerisi" sekmesinde insan önüne gelir. `not` alanında eşleşme
+skoru ve kitaptaki transkripsiyon yazar.

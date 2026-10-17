@@ -1,0 +1,3703 @@
+{
+  "surum": "cumlecik-v1",
+  "aciklama": "İnsan onayından geçmiş cümlecikler. Yalnız bunlar alıştırmaya girer.",
+  "guncelleme": "2026-10-17",
+  "cumlecikler": [
+    {
+      "id": "BK-D-14#1",
+      "dizeId": "BK-D-14",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰴𐰍𐰣 : 𐰆𐰲𐰑𐰸𐰑𐰀 : 𐰇𐰔𐰢 : 𐰾𐰚𐰃𐰔 : 𐰖𐱁𐰑𐰀 : 𐰴𐰞𐱃𐰢",
+      "transkripsiyon": "KaGaN : UÇDUKDA : ÖZüM : SeKİZ : YaŞDA : KaLTıM",
+      "kelimeSayisi": 6,
+      "turkce": "ben sekiz yaş(ım)da kaldım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 113",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-14#2",
+      "dizeId": "BK-D-14",
+      "kelimeAraligi": [
+        6,
+        11
+      ],
+      "runik": "𐰆𐰞 : 𐱅𐰇𐰼𐰇𐰓𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃",
+      "transkripsiyon": "OL : TÖRÜDE : ÜZE : eÇİM : KaGaN : OLuRTI",
+      "kelimeSayisi": 6,
+      "turkce": "Gelenekler üzre amcam hakan tahta çıkmış.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 55",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-14#5",
+      "dizeId": "BK-D-14",
+      "kelimeAraligi": [
+        21,
+        23
+      ],
+      "runik": "𐰔𐰃𐰍 : 𐰜𐰇𐱁 : 𐰶𐰡𐰃",
+      "transkripsiyon": "aZIG : ÖKÜŞ : KILDI",
+      "kelimeSayisi": 3,
+      "turkce": "(Amcam Hakan) azı çok yaptı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 134",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-15#1",
+      "dizeId": "BK-D-15",
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐱅𐰇𐰼𐱅𐰘𐰏𐰼𐰢𐰃 : 𐰖𐱁𐰃𐰢𐰴𐰀 : 𐱃𐰺𐰑𐰆𐱁 : 𐰉𐰆𐰑𐰣 : 𐰇𐰔𐰀 : 𐱁𐰑 : 𐰆𐰞𐰺𐱃𐰢",
+      "transkripsiyon": "TÖRTYiGiRMİ : YaŞIMKA : TaRDUŞ : BODuN : ÜZE : ŞaD : OLuRTıM",
+      "kelimeSayisi": 7,
+      "turkce": "On dört yaşımda Tarduş halkı üzerine Şad idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-17#1",
+      "dizeId": "BK-D-17",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰼𐱅𐰃 : 𐰴𐰍𐰣 : 𐱃𐰍 : 𐰉𐰆𐰦𐰀 : 𐰋𐰃𐰔 : 𐰋𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "eRTİ : KaGaN : aTıG : BUNDA : BİZ : BİRTiMiZ",
+      "kelimeSayisi": 6,
+      "turkce": "Hakan unvanını (ona) burada biz verdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-19#1",
+      "dizeId": "BK-D-19",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰠𐰭𐰤 : 𐱅𐰇𐰼𐰇𐰭𐰤 : 𐰚𐰢 : 𐰺𐱃𐱃𐰃",
+      "transkripsiyon": "TÜRK : BODuN : iLiŊiN : TÖRÜŊiN : KiM : aRTaTI",
+      "kelimeSayisi": 6,
+      "turkce": "Türk halkı, ülkeni ve yasalarını kim bozabilir ki!",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 59",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-20#2",
+      "dizeId": "BK-D-20",
+      "kelimeAraligi": [
+        7,
+        9
+      ],
+      "runik": "𐰴𐰣𐰍 : 𐰇𐰏𐰔𐰲𐰀 : 𐰘𐰇𐰏𐰼𐱅𐰃",
+      "transkripsiyon": "KaNıN : ÖGüZÇE : YÜGüRTİ",
+      "kelimeSayisi": 3,
+      "turkce": "Kanın ırmak gibi aktı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-20#4",
+      "dizeId": "BK-D-20",
+      "kelimeAraligi": [
+        13,
+        21
+      ],
+      "runik": "𐰋𐰏𐰠𐰚 : 𐰆𐰺𐰃 : 𐰆𐰍𐰞𐰭𐰤 : 𐰸𐰆𐰞 : 𐰶𐰃𐰡𐰍 : 𐰾𐰠𐰚 : 𐰴𐰃𐰔 : 𐰆𐰍𐰞𐰭𐰤 : 𐰚𐰇𐰭",
+      "transkripsiyon": "BeGLiK : URI : OGLuŊuN : KUL : KILDIG : iŞiLiK : KIZ : OGLuŊuN : KÜŊ",
+      "kelimeSayisi": 9,
+      "turkce": "Bey olacak erkek evladını köle yaptın, hanım olacak kız evladını (da) cariye yaptın",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 183",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-20#5",
+      "dizeId": "BK-D-20",
+      "kelimeAraligi": [
+        22,
+        31
+      ],
+      "runik": "𐰶𐰃𐰡𐰍 : 𐰆𐰞 : 𐰋𐰃𐰠𐰢𐰓𐰜𐰇𐰏𐰤 : 𐰇𐰲𐰇𐰤 : 𐰖𐰉𐰞𐰴𐰃𐰭𐰣 : 𐰇𐰲𐰇𐰤 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰲𐰀 : 𐰉𐰺𐰑𐰃",
+      "transkripsiyon": "KILDIG : OL : BİLMeDÜKÜGiN : ÜÇÜN : YaBLaKIŊıN : ÜÇÜN : eÇİM : KaGaN : UÇA : BaRDI",
+      "kelimeSayisi": 10,
+      "turkce": "O cehaletiniz yüzünden, kötü davranışlarınız yüzünden amcam hakan uçup gitti (vefat etti)",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-24#2",
+      "dizeId": "BK-D-24",
+      "kelimeAraligi": [
+        4,
+        9
+      ],
+      "runik": "𐰃𐰍𐰺 : 𐰠𐰠𐰏𐰓𐰀 : 𐰃𐰍𐰺 : 𐰴𐰍𐰣𐰞𐰍𐰑𐰀 : 𐰘𐰃𐰏 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM",
+      "kelimeSayisi": 6,
+      "turkce": "güçlü (?) bir devleti, güçlü bir hakanı olanlardan daha iyi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 203",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-24#7",
+      "dizeId": "BK-D-24",
+      "kelimeAraligi": [
+        30,
+        35
+      ],
+      "runik": "𐰆𐰍𐰞𐰃𐰤 : 𐰖𐰆𐱃𐰔𐰃𐰤 : 𐰘𐰃𐰞𐰴𐰃𐰾𐰃𐰤 : 𐰉𐰺𐰢𐰃𐰤 : 𐰦𐰀 : 𐰞𐱃𐰢",
+      "transkripsiyon": "OGLIN : YOTuZIN : YILKISIN : BaRıMIN : aNDA : aLTıM",
+      "kelimeSayisi": 6,
+      "turkce": "Çocuklarını, kadınlarını, at sürülerini ve mallarını orada aldım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-25#6",
+      "dizeId": "BK-D-25",
+      "kelimeAraligi": [
+        27,
+        30
+      ],
+      "runik": "𐰺𐰴𐱁 : 𐰃𐰑𐰢𐰔 : 𐱅𐰃𐰘𐰤 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "aRKıŞ : IDMaZ : TİYiN : SÜLeDiM",
+      "kelimeSayisi": 4,
+      "turkce": "Kervan göndermiyor diye sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-25#9",
+      "dizeId": "BK-D-25",
+      "kelimeAraligi": [
+        37,
+        40
+      ],
+      "runik": "𐰚𐰃 : 𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰢𐰀 : 𐱃𐰉𐰍𐰲",
+      "transkripsiyon": "iKİ : OTuZ : YaŞIMA : TaBGaÇ",
+      "kelimeSayisi": 4,
+      "turkce": "Yirmi iki yaşımda Çin'e doğru sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-26#3",
+      "dizeId": "BK-D-26",
+      "kelimeAraligi": [
+        12,
+        20
+      ],
+      "runik": "𐰞𐱃𐰃 : 𐰆𐱃𐰔 : 𐰖𐱁𐰢𐰀 : 𐰲𐰃𐰚 : 𐰉𐰆𐰑𐰣 : 𐰶𐰃𐰺𐰴𐰔 : 𐰋𐰃𐰼𐰠𐰀 : 𐰖𐰍𐰃 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "aLTI : OTuZ : YaŞıMA : ÇİK : BODuN : KIRKıZ : BİRLE : YaGI : BOLTI",
+      "kelimeSayisi": 9,
+      "turkce": "Yirmi beş yaşımda Çik halkı ve Kırgızlar (bize) düşman oldular",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-27#2",
+      "dizeId": "BK-D-27",
+      "kelimeAraligi": [
+        10,
+        14
+      ],
+      "runik": "𐰴𐰍𐰣𐰃𐰤 : 𐰋𐰃𐰼𐰠𐰀 : 𐰽𐰆𐰭𐰀 : 𐰘𐰃𐱁𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢",
+      "transkripsiyon": "KaGaNIN : BİRLE : SOŊA : YIŞDA : SÜŊüŞDüM",
+      "kelimeSayisi": 5,
+      "turkce": "Hakanları ile Songa dağında savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-27#4",
+      "dizeId": "BK-D-27",
+      "kelimeAraligi": [
+        20,
+        30
+      ],
+      "runik": "𐰆𐰞 : 𐰘𐰞𐰴𐰀 : 𐱅𐰇𐰼𐰏𐰾 : 𐱃𐰯𐰀 : 𐰞𐱃𐰆𐰣 : 𐰘𐰃𐱁𐰍 : 𐱁𐰀 : 𐰼𐱅𐰾 : 𐰇𐰏𐰔𐰏 : 𐰚𐰲𐰀 : 𐰖𐰆𐰺𐰃𐰑𐰢",
+      "transkripsiyon": "LO : YıLKA : TÜRGiŞ : TaPA : aLTUN : YIŞıG : aŞA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıM",
+      "kelimeSayisi": 11,
+      "turkce": "Altay dağlarını aşarak, İrtiş ırmağını geçerek yürüdüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 173",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-27#6",
+      "dizeId": "BK-D-27",
+      "kelimeAraligi": [
+        35,
+        40
+      ],
+      "runik": "𐱅𐰇𐰼𐰏𐰾 : 𐰴𐰍𐰣 : 𐰾𐰇𐰾𐰃 : 𐰆𐱃𐰲𐰀 : 𐰉𐰆𐰺𐰲𐰀 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "TÜRGiŞ : KaGaN : SÜSİ : OTÇA : BORÇA : KeLTİ",
+      "kelimeSayisi": 6,
+      "turkce": "Türgiş hakanının ordusu ateş gibi, fırtına gibi (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-28#3",
+      "dizeId": "BK-D-28",
+      "kelimeAraligi": [
+        10,
+        15
+      ],
+      "runik": "𐰆𐱃𐰔 : 𐰖𐱁𐰢𐰀 : 𐰋𐰾 : 𐰉𐰞𐰶 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "OTuZ : YaŞıMA : BiŞ : BaLıK : TaPA : SÜLeDiM",
+      "kelimeSayisi": 6,
+      "turkce": "Otuz yaşımda Beşbalık (şehrine) doğru sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 182",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-28#4",
+      "dizeId": "BK-D-28",
+      "kelimeAraligi": [
+        16,
+        18
+      ],
+      "runik": "𐰞𐱃𐰃 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰭𐱁𐰓𐰢",
+      "transkripsiyon": "aLTI : YOLI : SÜŊüŞDüM",
+      "kelimeSayisi": 3,
+      "turkce": "Altı kez savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-28#7",
+      "dizeId": "BK-D-28",
+      "kelimeAraligi": [
+        35,
+        41
+      ],
+      "runik": "𐰋𐰾 : 𐰉𐰞𐰶 : 𐰣𐰃 : 𐰇𐰲𐰤 : 𐰆𐰔𐰑𐰃 : 𐰆𐱃𐰔 : 𐰺𐱃𐰸𐰃",
+      "transkripsiyon": "BiŞ : BaLıK : aNI : ÜÇüN : OZDI : OTuZ : aRTUKI",
+      "kelimeSayisi": 7,
+      "turkce": "Beşbalık (şehri) onun için (yıkılmaktan) kurtuldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-30#2",
+      "dizeId": "BK-D-30",
+      "kelimeAraligi": [
+        5,
+        9
+      ],
+      "runik": "𐰋𐰃𐰼 : 𐰖𐰃𐰞𐰴𐰀 : 𐱅𐰇𐰼𐱅 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰭𐱁𐰓𐰢",
+      "transkripsiyon": "BİR : YILKA : TÖRT : YOLI : SÜŊüŞDüM",
+      "kelimeSayisi": 5,
+      "turkce": "Bir yılda dört kez savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-30#3",
+      "dizeId": "BK-D-30",
+      "kelimeAraligi": [
+        10,
+        14
+      ],
+      "runik": "𐰭 : 𐰃𐰠𐰚𐰃 : 𐱃𐰆𐰍𐰆 : 𐰉𐰞𐰶𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢",
+      "transkripsiyon": "eŊ : İLKİ : TOGU : BaLIKDA : SÜŊüŞDüM",
+      "kelimeSayisi": 5,
+      "turkce": "İlk önce Togu Balık'ta savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-30#8",
+      "dizeId": "BK-D-30",
+      "kelimeAraligi": [
+        32,
+        36
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰑𐰴 : 𐰴𐰢𐱁𐱃𐰃 : 𐰖𐰉𐰞𐰴",
+      "transkripsiyon": "TÜRK : BODuN : aDaK : KaMŞatTI : YaBLaK",
+      "kelimeSayisi": 5,
+      "turkce": "Türk halkının ayakları dolaştı, kötü olacak idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 192",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-31#5",
+      "dizeId": "BK-D-31",
+      "kelimeAraligi": [
+        21,
+        24
+      ],
+      "runik": "𐱅𐰇𐰼𐱅𐰨 : 𐰔𐰏𐰦𐰃 : 𐰴𐰑𐰔𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢",
+      "transkripsiyon": "TÖRTüNÇ : eZGiNTİ : KaDıZDA : SÜŊüŞDüM",
+      "kelimeSayisi": 4,
+      "turkce": "Dördüncü olarak Ezginti Kadız'da savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 205",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-32#7",
+      "dizeId": "BK-D-32",
+      "kelimeAraligi": [
+        22,
+        27
+      ],
+      "runik": "𐰾𐰃𐰭𐰺 : 𐰾𐰇𐰾𐰃 : 𐰋𐰏 : 𐰉𐰺𐰴𐰍 : 𐰖𐰆𐰞𐰍𐰞𐰃 : 𐰉𐰺𐰑𐰃",
+      "transkripsiyon": "SIŊaR : SÜSİ : eBiG : BaRKıG : YOLıGaLI : BaRDI",
+      "kelimeSayisi": 6,
+      "turkce": "Yarı ordusu (da bizim) evimizi barkımızı yağmalamak için gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-32#8",
+      "dizeId": "BK-D-32",
+      "kelimeAraligi": [
+        28,
+        31
+      ],
+      "runik": "𐰾𐰃𐰭𐰺 : 𐰾𐰇𐰾𐰃 : 𐰾𐰇𐰭𐱁𐰏𐰠𐰃 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "SIŊaR : SÜSİ : SÜŊüŞGeLİ : KeLTİ",
+      "kelimeSayisi": 4,
+      "turkce": "Yarı ordusu (da) savaşmak için (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 206",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-32#9",
+      "dizeId": "BK-D-32",
+      "kelimeAraligi": [
+        32,
+        34
+      ],
+      "runik": "𐰋𐰃𐰔 : 𐰔 : 𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "BİZ : aZ : eRTiMiZ",
+      "kelimeSayisi": 3,
+      "turkce": "Biz az idik (ve) kötü durumda idik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-33#1",
+      "dizeId": "BK-D-33",
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐰖𐰪𐰑𐰢 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰤 : 𐰢𐰤 : 𐰴𐰔𐰍𐰦𐰸 : 𐰇𐰲𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰴𐰔𐰍𐰣𐰢𐱁",
+      "transkripsiyon": "YaYNıDıM : TeŊRİ : YaRLuKaDUK : ÜÇüN : MeN : KaZGaNDUK : ÜÇüN : TÜRK : BODuN : KaZGaNMıŞ",
+      "kelimeSayisi": 10,
+      "turkce": "Tanrı öyle buyurduğu için, ben (çalışıp) kazandığım için Türk halkı (da öylece) kazanmış oldu, şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-33#2",
+      "dizeId": "BK-D-33",
+      "kelimeAraligi": [
+        10,
+        19
+      ],
+      "runik": "𐰼𐰨 : 𐰢𐰤 : 𐰃𐰤𐰠𐰏𐰇 : 𐰉𐰆𐰨𐰀 : 𐰉𐱁𐰞𐰖𐰆 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐱅𐰲𐰃 : 𐰼𐱅𐰃",
+      "transkripsiyon": "eRiNÇ : MeN : İNiLiGÜ : BUNÇA : BaŞLaYU : KaZGaNMaSaR : TÜRK : BODuN : ÖLTeÇİ : eRTİ",
+      "kelimeSayisi": 10,
+      "turkce": "Ben erkek kardeşimle birlikte (Türk halkının) başına geçip bunca başarılı olmasaydım Türk halkı ölecek idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 192",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-34#2",
+      "dizeId": "BK-D-34",
+      "kelimeAraligi": [
+        3,
+        9
+      ],
+      "runik": "𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐱃𐰸𐰔 : 𐱃𐱃𐰺 : 𐰋𐰃𐰼𐰠𐰀 : 𐱅𐰃𐰼𐰃𐰠𐰯 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "OGuZ : BODuN : TOKuZ : TaTaR : BİRLE : TİRİLiP : KeLTİ",
+      "kelimeSayisi": 7,
+      "turkce": "Oğuz halkı, Dokuz Tatarlar ile birlikte toparlanıp (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-35#2",
+      "dizeId": "BK-D-35",
+      "kelimeAraligi": [
+        4,
+        12
+      ],
+      "runik": "𐰇𐰔𐰀 : 𐱅𐰭𐰼𐰃 : 𐰃𐰑𐰸 : 𐰘𐰼 : 𐰽𐰆𐰉 : --- : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰸𐰆𐱃𐰃",
+      "transkripsiyon": "ÜZE : TeŊRİ : IDUK : YiR : SUB : --- : eÇİM : KaGaN : KUTI",
+      "kelimeSayisi": 9,
+      "turkce": "(Bu hareketi) yukarıda(ki) Tanrı, (aşağıdaki) Yer ve Su (ruhları ile) amcam hakanın ruhu, şüphesiz ki, doğru bulmadılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-35#3",
+      "dizeId": "BK-D-35",
+      "kelimeAraligi": [
+        13,
+        22
+      ],
+      "runik": "𐱃𐰯𐰶𐰞𐰢𐰑𐰃 : 𐰼𐰨 : 𐱃𐰸𐰆𐰔 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐰘𐰼𐰤 : 𐰽𐰆𐰉𐰃𐰤 : 𐰃𐰑𐰯 : 𐱃𐰉𐰍𐰲𐰍𐰺𐰆 : 𐰉𐰺𐰑𐰃",
+      "transkripsiyon": "TaPKILMaDI : eRiNÇ : TOKUZ : OGuZ : BODuN : YiRiN : SUBIN : IDıP : TaBGaÇGaRU : BaRDI",
+      "kelimeSayisi": 10,
+      "turkce": "Dokuz Oğuz halkı yerini yurdunu bırakıp Çin'e doğru gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-35#5",
+      "dizeId": "BK-D-35",
+      "kelimeAraligi": [
+        30,
+        35
+      ],
+      "runik": "𐰃𐰏𐰓𐰘𐰤 : 𐱅𐰃𐰘𐰤 : 𐰽𐰴𐰣𐰯 : --- : 𐰉𐰆𐰑𐰣 : ---",
+      "transkripsiyon": "İGiDeYiN : TİYiN : SaKıNıP : --- : BODuN : ---",
+      "kelimeSayisi": 6,
+      "turkce": "Doyurayım diye düşündüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 214",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-36#4",
+      "dizeId": "BK-D-36",
+      "kelimeAraligi": [
+        11,
+        20
+      ],
+      "runik": "𐰉𐰆𐰡𐰃 : 𐰢𐰤 : 𐰇𐰔𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰸𐰢 : 𐰇𐰲𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰍 : --- 𐰇 --- : 𐰴𐰞𐰢𐰑𐰢",
+      "transkripsiyon": "BOLDI : MeN : ÖZüM : KaGaN : OLuRTUKuM : ÜÇüN : TÜRK : BODuNuG : --- Ü --- : KıLMaDıM",
+      "kelimeSayisi": 10,
+      "turkce": "Ben kendim hakan olarak tahta oturduğum için Türk halkını... yapmadım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-36#5",
+      "dizeId": "BK-D-36",
+      "kelimeAraligi": [
+        21,
+        24
+      ],
+      "runik": "𐰃𐰠𐰏 : 𐱅𐰇𐰼𐰇𐰏 : 𐰘𐰏𐰓𐰃 : 𐰴𐰔𐰍𐰦𐰢",
+      "transkripsiyon": "İLiG : TÖRÜG : YiGDİ : KaZGaNDıM",
+      "kelimeSayisi": 4,
+      "turkce": "Devleti ve töreleri (öbür hakanlardan) daha iyi kazandım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-37#2",
+      "dizeId": "BK-D-37",
+      "kelimeAraligi": [
+        4,
+        7
+      ],
+      "runik": "𐰃𐰲𐰚𐰏𐰢𐰀 : 𐰱𐰚𐰓𐰃 : 𐰉𐰆𐰑𐰣 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "İÇiKiGME : İÇiKDİ : BODuN : BOLDI",
+      "kelimeSayisi": 4,
+      "turkce": "Bağımlı olmak isteyenler bağımlı oldu, halk oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-37#6",
+      "dizeId": "BK-D-37",
+      "kelimeAraligi": [
+        23,
+        29
+      ],
+      "runik": "𐰠𐱅𐰋𐰼 : 𐰘𐰇𐰔𐰲𐰀 : 𐰼𐰏 : 𐰃𐰠𐰏𐰼𐰇 : 𐱅𐰔𐰯 : 𐰉𐰺𐰑𐰃 : ---",
+      "transkripsiyon": "iLTeBeR : YÜZÇE : eRiG : İLGeRÜ : TeZiP : BaRDI : ---",
+      "kelimeSayisi": 7,
+      "turkce": "Uygurların valisi yüz kadar adamla doğuya kaçıp gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-38#1",
+      "dizeId": "BK-D-38",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "--- 𐱅𐰃 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰀𐰲 : 𐰼𐱅𐰃",
+      "transkripsiyon": "--- Tİ : TÜRK : BODuN : AÇ : eRTİ",
+      "kelimeSayisi": 5,
+      "turkce": "Türk halkı aç idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-38#2",
+      "dizeId": "BK-D-38",
+      "kelimeAraligi": [
+        5,
+        8
+      ],
+      "runik": "𐰆𐰞 : 𐰘𐰃𐰞𐰴𐰃𐰍 : 𐰞𐰯 : 𐰃𐰏𐱅𐰢",
+      "transkripsiyon": "OL : YILKIG : aLıP : İGitTiM",
+      "kelimeSayisi": 4,
+      "turkce": "O at sürülerini alıp (Türk halkını) besledim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-39#2",
+      "dizeId": "BK-D-39",
+      "kelimeAraligi": [
+        5,
+        12
+      ],
+      "runik": "𐰖𐰞𐰉𐰲𐰃 : 𐰓𐰏𐰇 : 𐰽𐰉𐰃 : 𐰇𐱅𐰏𐰃 : 𐰚𐰠𐰢𐰔 : 𐱅𐰃𐰘𐰤 : 𐰖𐰖𐰣 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "YaLaBaÇI : eDGÜ : SaBI : ÖTüGİ : KeLMeZ : TİYiN : YaYıN : SÜLeDiM",
+      "kelimeSayisi": 8,
+      "turkce": "Elçisi, iyi haberleri ve ricaları gelmiyor diye yazın sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-40#1",
+      "dizeId": "BK-D-40",
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "--- 𐰍𐰴𐰭𐰀 : 𐰘𐰼𐰭𐰼𐰇 : 𐰽𐰆𐰉𐰃𐰭𐰺𐰆 : 𐰸𐰆𐰦𐰃",
+      "transkripsiyon": "--- GaKıŊA : YiRiŊeRÜ : SUBIŊaRU : KONTI",
+      "kelimeSayisi": 4,
+      "turkce": "Kendi topraklarına ve sularına kondu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-40#2",
+      "dizeId": "BK-D-40",
+      "kelimeAraligi": [
+        4,
+        12
+      ],
+      "runik": "𐰋𐰃𐰼𐰘𐰀 : 𐰚𐰼𐰠𐰸 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰾𐰇𐰠𐰀 : 𐱅𐰃𐰯 : 𐱃𐰆𐰑𐰣 : 𐰖𐰢𐱃𐰺𐰍 : 𐰃𐱃𐰢",
+      "transkripsiyon": "BİRiYE : KaRLuK : BODuN : TaPA : SÜLE : TİP : TUDuN : YaMTaRıG : ITıM",
+      "kelimeSayisi": 9,
+      "turkce": "'Güneyde Karluk halkına doğru sefer et!' deyip Tudun Yamtar'ı gönderdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 214",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-41#2",
+      "dizeId": "BK-D-41",
+      "kelimeAraligi": [
+        3,
+        6
+      ],
+      "runik": "𐰣𐰃 : 𐰪𐱃𐰖𐰤 : 𐱅𐰃𐰯 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "aNI : aYNıTaYıN : TİP : SÜLeDiM",
+      "kelimeSayisi": 4,
+      "turkce": "(Kervanları gelmedi); onu sorayım diye sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-D-41#3",
+      "dizeId": "BK-D-41",
+      "kelimeAraligi": [
+        7,
+        12
+      ],
+      "runik": "𐰸𐰆𐰼𐰍𐰆 : 𐰚𐰃 : 𐰇𐰲 : 𐰚𐰃𐰾𐰠𐰏𐰤 : 𐱅𐰔𐰯 : 𐰉𐰺𐰑𐰃",
+      "transkripsiyon": "KORıGU : iKİ : ÜÇ : KİŞiLGeN : TeZiP : BaRDI",
+      "kelimeSayisi": 6,
+      "turkce": "(Kale) muhafızı iki üç kişi ile birlikte kaçıp gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-10#1",
+      "dizeId": "BK-G-10",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰇𐰼𐰜𐰢𐰀 : 𐰉𐰆𐰑𐰣𐰢𐰀 : 𐰘𐰏𐰤 : 𐰨𐰀 : 𐰴𐰔𐰍𐰣𐰆 : 𐰋𐰃𐰼𐱅𐰢",
+      "transkripsiyon": "TÜRÜKüME : BODuNuMA : YiGiN : aNÇA : KaZGaNU : BİRTiM",
+      "kelimeSayisi": 6,
+      "turkce": "Türklerime (ve) halkıma daha iyi bir şekilde öylece kazanıverdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 111",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-10#2",
+      "dizeId": "BK-G-10",
+      "kelimeAraligi": [
+        6,
+        14
+      ],
+      "runik": "𐰉𐰆𐰨𐰀 : 𐰴𐰔𐰍𐰣𐰯 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣 : 𐰃𐱃 : 𐰘𐰃𐰞 : 𐰆𐰣𐰨 : 𐰖 : 𐰞𐱃𐰃",
+      "transkripsiyon": "BUNÇA : KaZGaNıP : KaNGıM : KaGaN : IT : YIL : ONuNÇ : aY : aLTI",
+      "kelimeSayisi": 9,
+      "turkce": "Bu kadar (çok) kazanıp babam Hakan Köpek yılının onuncu ayının yirmi altısında vefat etti.",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-11#2",
+      "dizeId": "BK-G-11",
+      "kelimeAraligi": [
+        5,
+        8
+      ],
+      "runik": "𐰋𐰃𐰾 : 𐰘𐰇𐰔 : 𐰼𐰤 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "BİŞ : YÜZ : eReN : KeLTİ",
+      "kelimeSayisi": 4,
+      "turkce": "beş yüz adam",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-12#2",
+      "dizeId": "BK-G-12",
+      "kelimeAraligi": [
+        6,
+        16
+      ],
+      "runik": "𐰓𐰏𐰇 : 𐰇𐰔𐰠𐰚 : 𐱃𐰃𐰤 : 𐰴𐰺𐰀 : 𐰚𐰃𐰾𐰃𐰤 : 𐰚𐰇𐰚 : 𐱅𐰘𐰭𐰃𐰤 : 𐰽𐰣𐰽𐰔 : 𐰚𐰠𐰇𐰼𐰯 : 𐰸𐰆𐰯 : 𐰸𐰆𐱃𐰃",
+      "transkripsiyon": "eDGÜ : ÖZLüK : ATIN : KaRA : KİŞİN : KÖK : TeYeŊİN : SaNSıZ : KeLÜRüP : KOP : KOTI",
+      "kelimeSayisi": 11,
+      "turkce": "(Onlar) iyi binek atlarını, kara samurları ve mavi sincapları pek çok sayıda getirip bıraktılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-13#3",
+      "dizeId": "BK-G-13",
+      "kelimeAraligi": [
+        15,
+        29
+      ],
+      "runik": "𐰋𐰏𐰠𐰼 : 𐰚𐰃𐰾𐰼𐰀 : 𐱃𐰺𐰑𐰆𐱁 : 𐰋𐰏𐰠𐰼 : 𐰚𐰇𐰠 : 𐰲𐰆𐰺 : 𐰉𐱁𐰞𐰖𐰆 : 𐰆𐰞𐰖𐰆 : 𐱁𐰑𐰯𐰃𐱃 : 𐰋𐰏𐰠𐰼 : 𐰇𐰭𐰼𐰀 : 𐱅𐰇𐰠𐰾 : 𐰋𐰏𐰠𐰼 : 𐰯𐰀 : 𐱃𐰺𐰴𐰣",
+      "transkripsiyon": "BeGLeR : KİSRE : TaRDUŞ : BeGLeR : KÖL : ÇOR : BaŞLaYU : ULaYU : ŞaDPIT : BeGLeR : ÖŊRE : TÖLiS : BeGLeR : aPA : TaRKaN",
+      "kelimeSayisi": 15,
+      "turkce": "Batıda, Tarduş beyleri, Kül Çor önderliğinde, ve Şadapıt beyler...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 157",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-15#2",
+      "dizeId": "BK-G-15",
+      "kelimeAraligi": [
+        4,
+        10
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰋𐰏𐰠𐰼𐰃𐰤 : 𐰉𐰆𐰑𐰣𐰃𐰤 : 𐰼𐱅𐰭𐰇 : 𐱅𐰃 : 𐰢𐰍 : 𐰃𐱅𐰓𐰃",
+      "transkripsiyon": "TÜRK : BeGLeRİN : BODuNIN : eRTiŊÜ : Tİ : eMiG : İTDİ",
+      "kelimeSayisi": 7,
+      "turkce": "(Babam Hakan), Türk beylerini ve halkını pek çok alkışladı ve övdü",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-9#1",
+      "dizeId": "BK-G-9",
+      "kelimeAraligi": [
+        0,
+        10
+      ],
+      "runik": "𐰇𐰠𐰼𐱅𐰃 : 𐰆𐰞𐰍 : 𐰆𐰍𐰞𐰢 : 𐰍𐰺𐰯 : 𐰖𐰸 : 𐰉𐰆𐰞𐰲𐰀 : 𐰸𐰆𐰍 : 𐰾𐰭𐰇𐰤𐰏 : 𐰉𐰞𐰉𐰞 : 𐱅𐰃𐰚𐰀 : 𐰋𐰃𐰼𐱅𐰢",
+      "transkripsiyon": "ÖLüRTİ : ULuG : OGLuM : aGRıP : YOK : BOLÇA : KUG : SeŊÜNüG : BaLBaL : TİKE : BİRTiM",
+      "kelimeSayisi": 11,
+      "turkce": "Büyük oğlum hastalanıp ölünce General Ku'yu (öldürüp onun kabrine) taş heykelini dikiverdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-G-9#2",
+      "dizeId": "BK-G-9",
+      "kelimeAraligi": [
+        11,
+        16
+      ],
+      "runik": "𐰢𐰤 : 𐱃𐰆𐰴𐰔 : 𐰘𐰏𐰼𐰢𐰃 : 𐰘𐰃𐰞 : 𐱁𐰑 : 𐰆𐰞𐰺𐱃𐰢",
+      "transkripsiyon": "MeN : TOKuZ : YiGiRMİ : YIL : ŞaD : OLuRTuM",
+      "kelimeSayisi": 6,
+      "turkce": "Ben on dokuz yıl Şad (olarak) hüküm sürdüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-K-10#4",
+      "dizeId": "BK-K-10",
+      "kelimeAraligi": [
+        18,
+        25
+      ],
+      "runik": "𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰼𐱅𐰢 : 𐰇𐰔𐰀 : 𐱅𐰭𐰼𐰃 : 𐰽𐰺𐰀 : 𐰘𐰼 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰤",
+      "transkripsiyon": "TİZLiGiG : SÖKüRTüM : ÜZE : TeŊRİ : aSRA : YiR : YaRLıKaDUK : ÜÇüN",
+      "kelimeSayisi": 8,
+      "turkce": "Yukarıda gök ve aşağıda yer (öyle) buyurduğu için...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 152",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-K-14#3",
+      "dizeId": "BK-K-14",
+      "kelimeAraligi": [
+        20,
+        22
+      ],
+      "runik": "𐰃𐰲𐰼𐰚𐰃 : 𐰋𐰓𐰔𐰲𐰃𐰏 : 𐰃𐱃𐰃",
+      "transkripsiyon": "İÇReKİ : BeDiZÇİG : ITI",
+      "kelimeSayisi": 3,
+      "turkce": "(Çin İmparatoru) saray sanatçılarını gönderdi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 139",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "BK-K-4#5",
+      "dizeId": "BK-K-4",
+      "kelimeAraligi": [
+        28,
+        36
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰓𐰏𐰇 : 𐰋𐰃𐰠𐰏𐰀 : 𐰚𐰃𐰾𐰃𐰏 : 𐰓𐰏𐰇 : 𐰞𐰯 : 𐰚𐰃𐰾𐰃𐰏 : 𐰖𐰆𐰺𐱃𐰢𐰔 : 𐰼𐰢𐰾",
+      "transkripsiyon": "eRMiŞ : eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ",
+      "kelimeSayisi": 9,
+      "turkce": "Gerçek akıllı kişileri, gerçek yiğit kişileri ilerletmez imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-1#1",
+      "dizeId": "KT-D-1",
+      "kelimeAraligi": [
+        0,
+        11
+      ],
+      "runik": "𐰇𐰔𐰀 : 𐰚𐰇𐰚 : 𐱅𐰭𐰼𐰃 : 𐰽𐰺𐰀 : 𐰖𐰍𐰔 : 𐰘𐰼 : 𐰴𐰃𐰞𐰦𐰸𐰑𐰀 : 𐰚𐰃𐰤 : 𐰺𐰀 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰴𐰃𐰞𐰣𐰢𐰾",
+      "transkripsiyon": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ",
+      "kelimeSayisi": 12,
+      "turkce": "Yukarıda mavi gök aşağıda kara toprak yaratıldığında ikisinin arasında insanoğlu yaratılmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 149",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-1#2",
+      "dizeId": "KT-D-1",
+      "kelimeAraligi": [
+        12,
+        21
+      ],
+      "runik": "𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃𐰦𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰯𐰀𐰢 : 𐰉𐰆𐰢𐰣 : 𐰴𐰍𐰣 : 𐰃𐰾𐱅𐰢𐰃 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐱁",
+      "transkripsiyon": "KİŞİ : OGLıNDA : ÜZE : eÇİM : aPAM : BUMıN : KaGaN : İSTeMİ : KaGaN : OLuRMıŞ",
+      "kelimeSayisi": 10,
+      "turkce": "İnsanoğlunun üstüne (de) atalarım dedelerim Bumın Hakan, İştemi Hakan (hükümdar olarak) tahta oturmuş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 155",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-11#3",
+      "dizeId": "KT-D-11",
+      "kelimeAraligi": [
+        22,
+        28
+      ],
+      "runik": "𐰼𐰨 : 𐰴𐰭𐰢 : 𐰴𐰍𐰣 : 𐰘𐰃𐱅𐰃𐰘𐰏𐰼𐰢𐰃 : 𐰼𐰤 : 𐱃𐱁𐰚𐰢𐰾 : 𐱃𐱁𐰺𐰀",
+      "transkripsiyon": "eRiNÇ : KaŊıM : KaGaN : YİTİYiGiRMİ : eRiN : TaŞıKMıŞ : TaŞRA",
+      "kelimeSayisi": 7,
+      "turkce": "Babam Hakan on yedi er ile (dağa) çıkmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-12#5",
+      "dizeId": "KT-D-12",
+      "kelimeAraligi": [
+        26,
+        31
+      ],
+      "runik": "𐰃𐰠𐰏𐰼𐰇 : 𐰸𐰆𐰺𐰍𐰺𐰆 : 𐰾𐰇𐰠𐰯 : 𐱅𐰃𐰼𐰢𐱁 : 𐰴𐰆𐰉𐰺𐱃𐰢𐱁 : 𐰴𐰢𐰍𐰃",
+      "transkripsiyon": "İLGeRÜ : KURıGaRU : SÜLeP : TİRMiŞ : KUBRaTMıŞ : KaMaGI",
+      "kelimeSayisi": 6,
+      "turkce": "İleri geri sefer düzenleyip (daha çok savaşçı) derlemiş toplamış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 137",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-13#2",
+      "dizeId": "KT-D-13",
+      "kelimeAraligi": [
+        7,
+        9
+      ],
+      "runik": "𐰚𐰍𐰣𐰽𐰺𐰢𐰾 : 𐰉𐰆𐰑𐰣𐰍 : 𐰚𐰇𐰭𐰓𐰢𐰾",
+      "transkripsiyon": "KaGaNSıRaMıŞ : BODuNıG : KÜŊeDMiŞ",
+      "kelimeSayisi": 3,
+      "turkce": "Ülkesiz ve hakansız kalmış olan halkı, cariye ve köle olmuş halkı",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 62",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-13#4",
+      "dizeId": "KT-D-13",
+      "kelimeAraligi": [
+        15,
+        19
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰍 : 𐰲𐰇𐰢 : 𐰯𐰀𐰢 : 𐱅𐰇𐰼𐰇𐰾𐰃𐰨𐰀 : 𐰖𐰺𐱃𐰢𐰾",
+      "transkripsiyon": "BODuNıG : eÇÜM : aPAM : TÖRÜSİNÇE : YaRaTMıŞ",
+      "kelimeSayisi": 5,
+      "turkce": "...halkı atalarımın dedelerimin töresince (yeniden) yaratmış (ve) eğitmiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-14#2",
+      "dizeId": "KT-D-14",
+      "kelimeAraligi": [
+        4,
+        8
+      ],
+      "runik": "𐰋𐰼𐰘𐰀 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "BiRiyE : TaBGaÇ : BODuN : YaGI : eRMiŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Güneyde Çin halkı (bize) düşman imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-14#3",
+      "dizeId": "KT-D-14",
+      "kelimeAraligi": [
+        9,
+        15
+      ],
+      "runik": "𐰘𐰃𐰺𐰖𐰀 : 𐰉𐰔 : 𐰴𐰍𐰣 : 𐱃𐰸𐰆𐰔𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰆𐰣 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "YIRıYA : BaZ : KaGaN : TOKUZOGuZ : BODUN : YaGI : eRMiŞ",
+      "kelimeSayisi": 7,
+      "turkce": "Kuzeyde (bize) bağımlı Hakan, Dokuz Oğuz halkı düşman imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-15#3",
+      "dizeId": "KT-D-15",
+      "kelimeAraligi": [
+        8,
+        12
+      ],
+      "runik": "𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸 : 𐰇𐰲𐰇𐰤 : 𐰃𐰠𐰠𐰏𐰏 : 𐰠𐰾𐰼𐱅𐰢𐰾",
+      "transkripsiyon": "TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ",
+      "kelimeSayisi": 5,
+      "turkce": "(Babam Hakan), Tanrı (öyle) buyurduğu için devletliyi devletsiz bırakmış, hakanlıyı hakansız bırakmış...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 215",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-16#2",
+      "dizeId": "KT-D-16",
+      "kelimeAraligi": [
+        4,
+        10
+      ],
+      "runik": "𐰴𐰭𐰢 : 𐰴𐰍𐰣𐰴𐰀 : 𐰉𐱁𐰞𐰖𐰆 : 𐰉𐰔 : 𐰴𐰍𐰣𐰍 : 𐰉𐰞𐰉𐰞 : 𐱅𐰃𐰚𐰢𐰾",
+      "transkripsiyon": "KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ",
+      "kelimeSayisi": 7,
+      "turkce": "(Amcam hakan), babam hakan için ilk olarak bağımlı hakanın taş heykelini dikmiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-16#3",
+      "dizeId": "KT-D-16",
+      "kelimeAraligi": [
+        11,
+        16
+      ],
+      "runik": "𐰆𐰞 : 𐱅𐰇𐰼𐰇𐰓𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃",
+      "transkripsiyon": "OL : TÖRÜDE : ÜZE : eÇİM : KaGaN : OLuRTI",
+      "kelimeSayisi": 6,
+      "turkce": "O töre gereğince amcam kağan olarak tahta oturdu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-17#1",
+      "dizeId": "KT-D-17",
+      "kelimeAraligi": [
+        0,
+        8
+      ],
+      "runik": "𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰸𐰑𐰀 : 𐰇𐰔𐰢 : 𐱃𐰺𐰑𐰆𐱁 : 𐰉𐰆𐰑𐰣 : 𐰇𐰔𐰀 : 𐱁𐰑 : 𐰼𐱅𐰢",
+      "transkripsiyon": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM",
+      "kelimeSayisi": 9,
+      "turkce": "Amcam hakan tahta çıktığında ben Tarduş halkı üzerine Şad idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-17#2",
+      "dizeId": "KT-D-17",
+      "kelimeAraligi": [
+        9,
+        15
+      ],
+      "runik": "𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰋𐰃𐰼𐰠𐰀 : 𐰃𐰠𐰏𐰼𐰇 : 𐰖𐱁𐰞 : 𐰇𐰏𐰔 : 𐱁𐰦𐰆𐰭",
+      "transkripsiyon": "eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : ŞaNTUŊ",
+      "kelimeSayisi": 7,
+      "turkce": "Amcam hakan ile doğuda Sarı ırmağa ve Şantung ovasına kadar sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-17#4",
+      "dizeId": "KT-D-17",
+      "kelimeAraligi": [
+        19,
+        23
+      ],
+      "runik": "𐰸𐰆𐰺𐰍𐰺𐰆 : 𐱅𐰢𐰼 : 𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢𐰔",
+      "transkripsiyon": "KURıGaRU : TeMiR : KaPıGKA : TeGİ : SÜLeDiMiZ",
+      "kelimeSayisi": 5,
+      "turkce": "Batıda Demir Kapı'ya kadar sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-18#1",
+      "dizeId": "KT-D-18",
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰴𐰢𐰍𐰃 : 𐰋𐰃𐱁𐰆𐱃𐰔 : 𐰾𐰇𐰠𐰓𐰢𐰔",
+      "transkripsiyon": "KaMaGI : BİŞOTuZ : SÜLeDiMiZ",
+      "kelimeSayisi": 3,
+      "turkce": "Toplam yirmi beş (kez) sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 128",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-19#2",
+      "dizeId": "KT-D-19",
+      "kelimeAraligi": [
+        6,
+        9
+      ],
+      "runik": "𐰉𐰆𐰖𐰺𐰸𐰃 : 𐰋𐰏𐰠𐰼𐰃 : 𐰘𐰢𐰀 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "BUYRUKI : BeGLeRİ : YiME : ÖLTİ",
+      "kelimeSayisi": 4,
+      "turkce": "Hakanları öldü, kumandanları ve beyleri de öldü",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 157",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-19#4",
+      "dizeId": "KT-D-19",
+      "kelimeAraligi": [
+        15,
+        17
+      ],
+      "runik": "𐰲𐰇𐰢𐰔 : 𐰯𐰀𐰢𐰔 : 𐱃𐰆𐱃𐰢𐰾",
+      "transkripsiyon": "eÇÜMiZ : aPAMıZ : TUTMıŞ",
+      "kelimeSayisi": 3,
+      "turkce": "atalarımızın dedelerimizin elde ettiği topraklar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-2#1",
+      "dizeId": "KT-D-2",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭 : 𐰴𐰆𐰯 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾",
+      "transkripsiyon": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Dört taraf hep (bize) düşman imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-2#2",
+      "dizeId": "KT-D-2",
+      "kelimeAraligi": [
+        5,
+        11
+      ],
+      "runik": "𐰾𐰇 : 𐰾𐰇𐰠𐰯𐰤 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭𐰑𐰴𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰴𐰆𐰯 : 𐰞𐰢𐰾",
+      "transkripsiyon": "SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ",
+      "kelimeSayisi": 7,
+      "turkce": "Ordular sevk ederek dört taraftaki (düşman) halkları hep almış, hep bağımlı kılmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-2#4",
+      "dizeId": "KT-D-2",
+      "kelimeAraligi": [
+        15,
+        18
+      ],
+      "runik": "𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰜𐰦𐰼𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾",
+      "transkripsiyon": "BaŞLıGıG : YÜKüNDüRMiŞ : TİZLiGiG : SÖKÜRMiŞ",
+      "kelimeSayisi": 4,
+      "turkce": "Mağrurlara baş eğdirmişler, güçlülere diz çöktürmüşler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-2#5",
+      "dizeId": "KT-D-2",
+      "kelimeAraligi": [
+        19,
+        28
+      ],
+      "runik": "𐰃𐰠𐰏𐰼𐰇 : 𐰴𐰑𐰺𐰴𐰣 : 𐰘𐰃𐱁𐰴𐰀 : 𐱅𐰏𐰃 : 𐰚𐰃𐰼𐰇 : 𐱅𐰢𐰺𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰸𐰆𐰦𐰺𐰢𐰾 : 𐰚𐰃𐰤 : 𐰺𐰀 ---",
+      "transkripsiyon": "İLGeRÜ : KaDıRKaN : YİŞKA : TeGİ : KİRÜ : TeMiRKaPıGKA : TeGİ : KONDuRMıŞ : iKİN : aRA ---",
+      "kelimeSayisi": 10,
+      "turkce": "Doğuda Kingan dağlarına, batıda Demir Kapı'ya kadar kondurmuş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-20#2",
+      "dizeId": "KT-D-20",
+      "kelimeAraligi": [
+        3,
+        7
+      ],
+      "runik": "𐰴𐰍𐰣 : 𐱃 : 𐰉𐰆𐰦𐰀 : 𐰋𐰃𐰔 : 𐰋𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "KaGaN : aT : BUNDA : BİZ : BİRTiMiZ",
+      "kelimeSayisi": 5,
+      "turkce": "(Ona) hakan unvanını buruda biz verdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-20#3",
+      "dizeId": "KT-D-20",
+      "kelimeAraligi": [
+        8,
+        10
+      ],
+      "runik": "𐰾𐰃𐰭𐰠𐰢 : 𐰸𐰆𐰨𐰖𐰆𐰍 : 𐰋𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "SİŊiLiM : KONÇuYUG : BİRTiMiZ",
+      "kelimeSayisi": 3,
+      "turkce": "(Ona) kız kardeşim prensesi verdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-20#5",
+      "dizeId": "KT-D-20",
+      "kelimeAraligi": [
+        15,
+        18
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰃 : 𐰚𐰇𐰭 : 𐰸𐰆𐰞 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "BODuNI : KÜŊ : KUL : BOLDI",
+      "kelimeSayisi": 4,
+      "turkce": "Halkı cariye ve köle oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 211",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-21#3",
+      "dizeId": "KT-D-21",
+      "kelimeAraligi": [
+        19,
+        26
+      ],
+      "runik": "𐰨𐰀 : 𐱅𐰓𐰢𐰔 : 𐰆𐰞 : 𐰇𐰓𐰚𐰀 : 𐰸𐰆𐰞 : 𐰸𐰆𐰞𐰞𐰍 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐱅𐰃",
+      "transkripsiyon": "aNÇA : iTDiMiZ : OL : ÖDKE : KUL : KULLuG : BOLMıS : eRTİ",
+      "kelimeSayisi": 8,
+      "turkce": "O vakitler kölelerin köleleri, cariyelerin (de) cariyeleri olmuştu.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 57",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-23#3",
+      "dizeId": "KT-D-23",
+      "kelimeAraligi": [
+        7,
+        10
+      ],
+      "runik": "𐰉𐰺𐰢𐰾 : 𐰓𐰏𐰇 : 𐰠𐰭𐰀 : 𐰚𐰦𐰇",
+      "transkripsiyon": "BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ",
+      "kelimeSayisi": 4,
+      "turkce": "gelişmiş, ilerlemiş iyi devletine kendin ihanet ettin",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-23#5",
+      "dizeId": "KT-D-23",
+      "kelimeAraligi": [
+        19,
+        23
+      ],
+      "runik": "𐰾𐰇𐰭𐰏𐰠𐰏 : 𐰴𐰦𐰣 : 𐰚𐰠𐰯𐰤 : 𐰾𐰇𐰼𐰀 : 𐰠𐱅𐰓𐰃",
+      "transkripsiyon": "SÜŊüGLüG : KaNDıN : KeLiPeN : SÜRE : iLTDİ",
+      "kelimeSayisi": 5,
+      "turkce": "Mızraklı (düşman) nereden gelip (seni yerinden yurdundan) sürdü?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-25#1",
+      "dizeId": "KT-D-25",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰉𐱁𐰞𐰖𐰆 : 𐰶𐰃𐰺𐰴𐰔 : 𐰴𐰍𐰣𐰍 : 𐰉𐰞𐰉𐰞 : 𐱅𐰃𐰚𐰓𐰢",
+      "transkripsiyon": "BaŞLayU : KIRKıZ : KaGaNıG : BaLBaL : TİKDiM",
+      "kelimeSayisi": 5,
+      "turkce": "İlk olarak Kırgız hakanının taş heykelini diktim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-26#2",
+      "dizeId": "KT-D-26",
+      "kelimeAraligi": [
+        3,
+        6
+      ],
+      "runik": "𐰤𐰭 : 𐰘𐰃𐰞𐰾𐰍 : 𐰉𐰆𐰑𐰣𐰴𐰀 : 𐰆𐰞𐰺𐰢𐰑𐰢",
+      "transkripsiyon": "NeŊ : YILSıG : BODuNKA : OLuRMaDıM",
+      "kelimeSayisi": 4,
+      "turkce": "Hiç de varlıklı ve mutlu bir halk üzerine tahta oturmadım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-26#3",
+      "dizeId": "KT-D-26",
+      "kelimeAraligi": [
+        7,
+        15
+      ],
+      "runik": "𐰃𐰲𐰼𐰀 : 𐱁𐰽𐰔 : 𐱃𐱁𐰺𐰀 : 𐱃𐰆𐰣𐰽𐰔 : 𐰖𐰉𐰔 : 𐰖𐰉𐰞𐰴 : 𐰉𐰆𐰑𐰦𐰀 : 𐰇𐰔𐰀 : 𐰆𐰞𐰺𐱃𐰢",
+      "transkripsiyon": "İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA : ÜZE : OLuRTuM",
+      "kelimeSayisi": 9,
+      "turkce": "Karnı aç, sırtı çıplak, yoksul ve sefil bir halk üzerine hükümdar oldum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 155",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-27#1",
+      "dizeId": "KT-D-27",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰃𐰘𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰲𐰇𐰤 : 𐱅𐰇𐰤 : 𐰆𐰑𐰢𐰑𐰢",
+      "transkripsiyon": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM",
+      "kelimeSayisi": 6,
+      "turkce": "Türk halkı için gece uyumadım...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 106",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-28#3",
+      "dizeId": "KT-D-28",
+      "kelimeAraligi": [
+        8,
+        27
+      ],
+      "runik": "𐰉𐰆𐰑𐰣𐰍 : 𐰃𐰏𐰓𐰘𐰃𐰤 : 𐱅𐰃𐰘𐰤 : 𐰘𐰃𐰺𐰍𐰺𐰆 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰃𐰠𐰏𐰼𐰇 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰑𐰣 : 𐱃𐰯𐰀 : 𐰋𐰃𐰼𐰏𐰼𐰇 : 𐱃𐰉𐰍𐰲 : 𐱃𐰯𐰀 : 𐰆𐰞𐰍 : 𐰾𐰇 : 𐰚𐰃 : 𐰘𐰏𐰼𐰢𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : TaPA : İLGeRÜ : KITaYN : TaTaBI : BODuN : TaPA : BİRiGeRÜ : TaBGaÇ : TaPA : ULuG : SÜ : iKİ : YiGiRMİ : SÜLeDiM",
+      "kelimeSayisi": 20,
+      "turkce": "Kuzeyde Oğuz halkına doğru, doğuda Kıtany ve Tatabı halklarına doğru, günede (de) Çin'e doğru on iki (kez) büyük ordularla sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-29#2",
+      "dizeId": "KT-D-29",
+      "kelimeAraligi": [
+        4,
+        12
+      ],
+      "runik": "𐰉𐰺 : 𐰇𐰲𐰤 : 𐰇𐰠𐰇𐰏𐰢 : 𐰉𐰺 : 𐰇𐰲𐰇𐰤 : 𐰇𐰠𐱅𐰲𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐱅𐰃𐰼𐰏𐰼𐰇 : 𐰃𐰏𐱅𐰢",
+      "transkripsiyon": "BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM",
+      "kelimeSayisi": 9,
+      "turkce": "İlahi lutfum olduğu için, talihim olduğu için, ölecek halkı diriltip doyurdum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-3#1",
+      "dizeId": "KT-D-3",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰃𐰓𐰃 : 𐰆𐰴𐰽𐰔 : 𐰜𐰇𐰚 : 𐱅𐰇𐰼𐰜 : 𐰨𐰀 : 𐰆𐰞𐰺𐰆𐰺",
+      "transkripsiyon": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR",
+      "kelimeSayisi": 6,
+      "turkce": "dağınık halde öylecene yaşıyorlarmış.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 57",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-3#4",
+      "dizeId": "KT-D-3",
+      "kelimeAraligi": [
+        13,
+        16
+      ],
+      "runik": "𐰉𐰆𐰖𐰺𐰸𐰃 : 𐰘𐰢𐰀 : 𐰋𐰃𐰠𐰏𐰀 : 𐰼𐰢𐰾",
+      "transkripsiyon": "BUYRUKI : YiME : BİLGE : eRMiŞ",
+      "kelimeSayisi": 4,
+      "turkce": "Kumandanları da akıllı imişler şüphesiz, yiğit imişler şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 160",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-3#6",
+      "dizeId": "KT-D-3",
+      "kelimeAraligi": [
+        20,
+        26
+      ],
+      "runik": "𐰼𐰨 : 𐰋𐰏𐰠𐰼𐰃 : 𐰘𐰢𐰀 : 𐰉𐰆𐰑𐰣𐰃 : 𐰘𐰢𐰀 : 𐱅𐰇𐰔 : 𐰼𐰢𐰾",
+      "transkripsiyon": "eRiNÇ : BeGLeRİ : YiME : BODuNI : YiME : TÜZ : eRMiŞ",
+      "kelimeSayisi": 7,
+      "turkce": "beyleri de halkı da barışık ve uyum içinde imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-3#7",
+      "dizeId": "KT-D-3",
+      "kelimeAraligi": [
+        27,
+        31
+      ],
+      "runik": "𐰣𐰃 : 𐰇𐰲𐰇𐰤 : 𐰃𐰠𐰏 : 𐰨𐰀 : 𐱃𐰆𐱃𐰢𐰾",
+      "transkripsiyon": "aNI : ÜÇÜN : İLiG : aNÇA : TUTMıŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Onun için devleti öylece yönetmişler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-33#1",
+      "dizeId": "KT-D-33",
+      "kelimeAraligi": [
+        0,
+        11
+      ],
+      "runik": "𐰇𐰠𐱅𐰃 : 𐰚𐰃𐰤𐱅𐰃 : 𐰃𐱁𐰉𐰺𐰀 : 𐰖𐰢𐱃𐰺 : 𐰉𐰆𐰔 : 𐱃𐰍 : 𐰋𐰃𐰤𐰯 : 𐱅𐰏𐰓𐰃 : 𐰆𐰞 : 𐱃 : 𐰦𐰀 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "ÖLTİ : iKİNTİ : IŞBaRA : YaMTaR : BOZ : aTıG : BİNiP : TeGDİ : OL : aT : aNDA : ÖLTİ",
+      "kelimeSayisi": 12,
+      "turkce": "İkinci olarak Işbara Yamtar'ın boz atına binip...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 205",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-33#5",
+      "dizeId": "KT-D-33",
+      "kelimeAraligi": [
+        31,
+        34
+      ],
+      "runik": "𐰘𐰃𐰔𐰭𐰀 : 𐰉𐱁𐰃𐰭𐰀 : 𐰋𐰃𐰼 : 𐱅𐰏𐰼𐰢𐰓𐰃",
+      "transkripsiyon": "YİZiŊE : BaŞIŊA : BİR : TeGiRMedİ",
+      "kelimeSayisi": 4,
+      "turkce": "(Prens Külün) yüzüne ve başına bir (ok bile) d[eğmedi]",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-34#3",
+      "dizeId": "KT-D-34",
+      "kelimeAraligi": [
+        18,
+        23
+      ],
+      "runik": "𐰣𐰃 : 𐰖𐰪𐰯 : 𐱅𐰇𐰼𐰏𐰃 : 𐰖𐰺𐰍𐰆𐰣 : 𐰚𐰇𐰠𐱅𐰀 : 𐰉𐰆𐰔𐰑𐰢𐰔",
+      "transkripsiyon": "aNI : YaYNıP : TÜRGİ : YaRGUN : KÖLTE : BOZDuMuZ",
+      "kelimeSayisi": 6,
+      "turkce": "Onları dağıtıp Türgi Yargun gölde bozguna uğrattık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-34#4",
+      "dizeId": "KT-D-34",
+      "kelimeAraligi": [
+        24,
+        29
+      ],
+      "runik": "𐰆𐰞𐰍 : 𐰃𐰼𐰚𐰤 : 𐰔𐰶𐰪𐰀 : 𐰼𐰤 : 𐱅𐰔𐰯 : 𐰉𐰺𐰑𐰃",
+      "transkripsiyon": "ULuG : İRKiN : aZKIYNA : eRiN : TeZiP : BaRDI",
+      "kelimeSayisi": 6,
+      "turkce": "Uluğ İrkin azıcık adamla kaçıp gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-35#3",
+      "dizeId": "KT-D-35",
+      "kelimeAraligi": [
+        16,
+        20
+      ],
+      "runik": "𐰴𐰍𐰣𐰃𐰤 : 𐰋𐰃𐰼𐰠𐰀 : 𐰽𐰆𐰭𐰀 : 𐰘𐰃𐱁𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢𐰔",
+      "transkripsiyon": "KaGaNıN : BİRLE : SUŊA : YIŞDA : SÜŊüŞDüMüZ",
+      "kelimeSayisi": 5,
+      "turkce": "Hakanları ile Songa dağında savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-36#5",
+      "dizeId": "KT-D-36",
+      "kelimeAraligi": [
+        19,
+        21
+      ],
+      "runik": "𐰶𐰃𐰺𐰴𐰔 : 𐰴𐰍𐰣𐰃𐰤 : 𐰇𐰠𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "KIRKıZ : KaGaNıN : ÖLüRTüMüZ",
+      "kelimeSayisi": 3,
+      "turkce": "Kırgız hakanını öldürdük, devletini zapt ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 182",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-38#4",
+      "dizeId": "KT-D-38",
+      "kelimeAraligi": [
+        18,
+        24
+      ],
+      "runik": "𐰃𐰠𐰃𐰤 : 𐰞𐱃𐰢𐰔 : 𐰴𐰺𐰀 : 𐱅𐰇𐰼𐰏𐰾 : 𐰉𐰆𐰑𐰣 : 𐰸𐰆𐰯 : 𐰃𐰲𐰚𐰓𐰃",
+      "transkripsiyon": "İLİN : aLTıMıZ : KaRA : TÜRGiŞ : BODuN : KOP : İÇiKDİ",
+      "kelimeSayisi": 7,
+      "turkce": "Türgiş avam halkı hep (bize) bağımlı oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-39#1",
+      "dizeId": "KT-D-39",
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐰽𐰆𐰍𐰑𐰴 : 𐰉𐰆𐰑𐰣 : 𐰃𐱅𐰘𐰃𐰤 : 𐱅𐰃𐰘𐰤 : 𐰘𐰃𐰨𐰇 : 𐰇𐰚𐰇𐰔𐰏 : 𐰚𐰲𐰀 : 𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢𐰔",
+      "transkripsiyon": "SOGDaK : BODuN : İTeYİN : TİYiN : YİNÇÜ : ÖGÜZüG : KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiMiZ",
+      "kelimeSayisi": 10,
+      "turkce": "Soğdak halkını örgütlemek amacıyla İnci ırmağını geçerek Demir Kapı'ya kadar sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-39#4",
+      "dizeId": "KT-D-39",
+      "kelimeAraligi": [
+        20,
+        22
+      ],
+      "runik": "𐰋𐰃𐰔𐰭 : 𐰾𐰇 : 𐱃𐰃",
+      "transkripsiyon": "BİZiŊ : SÜ : aTI",
+      "kelimeSayisi": 3,
+      "turkce": "bizim ordu(nun) atları",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 106",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-39#5",
+      "dizeId": "KT-D-39",
+      "kelimeAraligi": [
+        23,
+        26
+      ],
+      "runik": "𐱃𐰆𐰺𐰸 : 𐰔𐰆𐰴𐰃 : 𐰖𐰆𐰸 : 𐰼𐱅𐰃",
+      "transkripsiyon": "TORUK : aZUKI : YOK : eRTİ",
+      "kelimeSayisi": 4,
+      "turkce": "Bizim askerlerimizin atları zayıftı, yiyecekleri de yok idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 120",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-40#1",
+      "dizeId": "KT-D-40",
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰞𐰯 : 𐰼 : 𐰋𐰃𐰔𐰭𐰀 : 𐱅𐰏𐰢𐱁",
+      "transkripsiyon": "aLP : eR : BİZiŊE : TeGMiŞ",
+      "kelimeSayisi": 4,
+      "turkce": "Yiğit askerler bize saldırmıştı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-5#3",
+      "dizeId": "KT-D-5",
+      "kelimeAraligi": [
+        6,
+        12
+      ],
+      "runik": "𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐱅𐰏 : 𐰴𐰃𐰞𐰣𐰢𐰑𐰸 : 𐰼𐰨",
+      "transkripsiyon": "aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ",
+      "kelimeSayisi": 7,
+      "turkce": "Ondan sonra erkek kardeşleri ağabeyleri gibi yaratılmamışlar şüphesiz, oğulları babaları gibi yaratılmamışlar şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-5#6",
+      "dizeId": "KT-D-5",
+      "kelimeAraligi": [
+        21,
+        24
+      ],
+      "runik": "𐰼𐰨 : 𐰖𐰉𐰞𐰴 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐰾",
+      "transkripsiyon": "eRiNÇ : YaBLaK : KaGaN : OLuRMıŞ",
+      "kelimeSayisi": 4,
+      "turkce": "Akılsız hakanlar tahta oturmuş şüphesiz, kötü hakanlar tahta oturmuş şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-6#1",
+      "dizeId": "KT-D-6",
+      "kelimeAraligi": [
+        0,
+        24
+      ],
+      "runik": "𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐱅𐰇𐰔𐰾𐰔 : 𐰇𐰲𐰇𐰤 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐱅𐰋𐰠𐰏𐰃𐰤 : 𐰚𐰇𐰼𐰠𐰏 : 𐰇𐰲𐰇𐰤 : 𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰃𐰤𐰠𐰃 : 𐰲𐰃𐰠𐰃 : 𐰚𐰃𐰭𐰾𐰇𐰼𐱅𐰜𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰋𐰏𐰠𐰃 : 𐰉𐰆𐰑𐰣𐰞𐰃𐰍 : 𐰖𐰆𐰭𐱁𐰆𐰺𐱃𐰸𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰃𐰠𐰠𐰓𐰜 : 𐰃𐰠𐰃𐰤 : 𐰃𐰲𐰍𐰣𐰆 : 𐰃𐰑𐰢𐰾",
+      "transkripsiyon": "BeGLeRİ : BODuNI : TÜZSüZ : ÜÇÜN : TaBGaÇ : BODuN : TeBLiGİN : KÜRLüG : ÜÇÜN : aRMaKÇISIN : ÜÇÜN : İNiLİ : eÇİLİ : KİŊŞÜRTÜKİN : ÜÇÜN : BeGLİ : BODuNLIG : YOŊŞURTUKIN : ÜÇÜN : TÜRK : BODuN : İLLeDÜK : İLİN : IÇGıNU : IDMıŞ",
+      "kelimeSayisi": 25,
+      "turkce": "Beyleri ve halkı barışık olmadığı için, Çin halkı hilekar ve sahtekar olduğu için, aldatıcı olduğu için, kardeşlerle ağabeyleri birbirlerine düşürdüğü için, beylerle halkı karşılıklı kışkırttığı için...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 152",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-7#3",
+      "dizeId": "KT-D-7",
+      "kelimeAraligi": [
+        11,
+        14
+      ],
+      "runik": "𐰾𐰃𐰠𐰚 : 𐰶𐰃𐰔 : 𐰆𐰍𐰞𐰤 : 𐰚𐰇𐰭",
+      "transkripsiyon": "iŞİLiK : KIZ : OGLıN : KÜŊ",
+      "kelimeSayisi": 4,
+      "turkce": "hanım olmaya layık kız evlat",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 199",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-7#4",
+      "dizeId": "KT-D-7",
+      "kelimeAraligi": [
+        15,
+        20
+      ],
+      "runik": "𐰉𐰆𐰡𐰃 : 𐱅𐰇𐰼𐰜 : 𐰋𐰏𐰠𐰼 : 𐱅𐰇𐰼𐰜 : 𐰀𐱃𐰃𐰤 : 𐰃𐱃𐰃",
+      "transkripsiyon": "BOLDI : TÜRK : BeGLeR : TÜRK : ATIN : ITI",
+      "kelimeSayisi": 6,
+      "turkce": "Türk beyleri Türk unvanlarını bıraktılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 206",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-7#5",
+      "dizeId": "KT-D-7",
+      "kelimeAraligi": [
+        21,
+        27
+      ],
+      "runik": "𐱃𐰉𐰍𐰲𐰍𐰃 : 𐰋𐰏𐰠𐰼 : 𐱃𐰉𐰍𐰲 : 𐰀𐱃𐰃𐰤 : 𐱃𐰆𐱃𐰯𐰣 : 𐱃𐰉𐰍𐰲 : 𐰴𐰍𐰣𐰴𐰀",
+      "transkripsiyon": "TaBGaÇGI : BeGLeR : TaBGaÇ : ATIN : TUTuPaN : TaBGaÇ : KaGaNKA",
+      "kelimeSayisi": 7,
+      "turkce": "Çinlilerin (hizmetine giren Türk) beyleri Çin unvanları alarak Çin imparatoruna tabi olmuşlar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-8#1",
+      "dizeId": "KT-D-8",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰚𐰇𐰼𐰢𐰾 : 𐰠𐰏 : 𐰘𐰃𐰞 : 𐰃𐰾𐰏 : 𐰚𐰇𐰲𐰏 : 𐰋𐰃𐰼𐰢𐰾",
+      "transkripsiyon": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ",
+      "kelimeSayisi": 6,
+      "turkce": "Elli yıl hizmet etmiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-8#5",
+      "dizeId": "KT-D-8",
+      "kelimeAraligi": [
+        25,
+        27
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰴𐰺𐰀 : 𐰴𐰢𐰍",
+      "transkripsiyon": "TÜRK : KaRA : KaMaG",
+      "kelimeSayisi": 3,
+      "turkce": "Bütün Türk avam tabakası",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 127",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-D-9#5",
+      "dizeId": "KT-D-9",
+      "kelimeAraligi": [
+        17,
+        25
+      ],
+      "runik": "𐰴𐰍𐰣𐰢 : 𐰴𐰣𐰃 : 𐰤𐰀 : 𐰴𐰍𐰣𐰴𐰀 : 𐰃𐰾𐰏 : 𐰚𐰇𐰲𐰏 : 𐰋𐰃𐰼𐰇𐰼𐰢𐰤 : 𐱅𐰃𐰼 : 𐰼𐰢𐰾",
+      "transkripsiyon": "KaGaNıM : KaNI : NE : KaGaNKA : İŞiG : KÜÇüG : BERÜRMeN : TİR : eRMiŞ",
+      "kelimeSayisi": 9,
+      "turkce": "Hangi hakana hizmet ediyorum ben? diyormuş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-1#3",
+      "dizeId": "KT-G-1",
+      "kelimeAraligi": [
+        10,
+        12
+      ],
+      "runik": "𐰽𐰉𐰢𐰣 : 𐱅𐰇𐰚𐱅𐰃 : 𐰾𐰃𐰓𐰏𐰠",
+      "transkripsiyon": "SaBıMıN : TÜKeTİ : eŞİDGiL",
+      "kelimeSayisi": 3,
+      "turkce": "Sözlerimi tümüyle işitin!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-10#3",
+      "dizeId": "KT-G-10",
+      "kelimeAraligi": [
+        9,
+        12
+      ],
+      "runik": "𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰜𐰇𐱁 : 𐰴𐰃𐰡𐰢",
+      "transkripsiyon": "aZ : BODuNuG : ÖKÜŞ : KILDıM",
+      "kelimeSayisi": 4,
+      "turkce": "Az halkı çoğalttım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 134",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-10#5",
+      "dizeId": "KT-G-10",
+      "kelimeAraligi": [
+        24,
+        30
+      ],
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐱅𐰃𐰼𐰯 : 𐰃𐰠 : 𐱃𐰆𐱃𐰽𐰴𐰭𐰣 : 𐰉𐰆𐰦𐰀 : 𐰆𐰺𐱃𐰢",
+      "transkripsiyon": "TÜRK : BODuN : TİRiP : İL : TUTSıKıŊıN : BUNDA : URTuM",
+      "kelimeSayisi": 7,
+      "turkce": "Türk halkını derleyip ülke kuracağınızı buraya kazıdım",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-11#1",
+      "dizeId": "KT-G-11",
+      "kelimeAraligi": [
+        0,
+        8
+      ],
+      "runik": "𐰉𐰆𐰦𐰀 : 𐰆𐰺𐱃𐰢 : 𐰤𐰭 : 𐰤𐰭 : 𐰽𐰉𐰢 : 𐰼𐰾𐰼 : 𐰋𐰭𐰏𐰇 : 𐱃𐱁𐰴𐰀 : 𐰆𐰺𐱃𐰢",
+      "transkripsiyon": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM",
+      "kelimeSayisi": 9,
+      "turkce": "(Söylenecek) ne kadar sözüm var ise (hepsini bu) ebedi taşa vurdum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 128",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-11#2",
+      "dizeId": "KT-G-11",
+      "kelimeAraligi": [
+        9,
+        11
+      ],
+      "runik": "𐰭𐰺 : 𐰚𐰇𐰼𐰇 : 𐰋𐰃𐰠𐰭",
+      "transkripsiyon": "aŊaR : KÖRÜ : BİLiŊ",
+      "kelimeSayisi": 3,
+      "turkce": "Ona bakın ve öğrenin!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-11#5",
+      "dizeId": "KT-G-11",
+      "kelimeAraligi": [
+        30,
+        33
+      ],
+      "runik": "𐰋𐰓𐰔𐱅𐰢 : 𐰢𐰤𐰭 : 𐰽𐰉𐰢𐰣 : 𐰾𐰃𐰢𐰑𐰃",
+      "transkripsiyon": "BeDiZeTiM : MeNiŊ : SaBıMıN : SIMaDI",
+      "kelimeSayisi": 4,
+      "turkce": "(Çin İmparatoru) benim sözümü kırmadı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-12#1",
+      "dizeId": "KT-G-12",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐱃𐰉𐰍𐰲 : 𐰴𐰍𐰣𐰭 : 𐰃𐰲𐰼𐰚𐰃 : 𐰋𐰓𐰔𐰲𐰃𐰏 : 𐰃𐱃𐰃",
+      "transkripsiyon": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI",
+      "kelimeSayisi": 5,
+      "turkce": "Çin İmparatorunun saray ressam ve heykeltraşlarını...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-13#1",
+      "dizeId": "KT-G-13",
+      "kelimeAraligi": [
+        0,
+        14
+      ],
+      "runik": "𐱃𐰸𐰃𐱃𐰑𐰢 : 𐰉𐰆 --- 𐰃𐰠 : 𐰼𐰾𐰼 : 𐰨𐰀 : --- 𐰢 : 𐱃𐰴𐰃 : 𐰼𐰃𐰏 : 𐰘𐰼𐱅𐰀 : 𐰃𐰼𐰾𐰼 : 𐰨𐰀 : 𐰼𐰏 : 𐰘𐰼𐱅𐰀 : 𐰋𐰭𐰏𐰇 : 𐱃𐱁 : 𐱃𐰸𐰃𐱃𐰑𐰢",
+      "transkripsiyon": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+      "kelimeSayisi": 15,
+      "turkce": "(Burası) yakın bir mevki olduğundan, ve de (kolay) erişilir yer olduğundan, böyle (kolay) erişilir yerde ebedi taş hakkettirdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 156",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-13#2",
+      "dizeId": "KT-G-13",
+      "kelimeAraligi": [
+        15,
+        19
+      ],
+      "runik": "𐰋𐰃𐱅𐰃𐰓𐰢 : 𐰣𐰃 : 𐰚𐰇𐰼𐰯 : 𐰨𐰀 : 𐰋𐰃𐰠𐰭",
+      "transkripsiyon": "BİTiDDiM : aNI : KÖRüP : aNÇA : BİLiŊ",
+      "kelimeSayisi": 5,
+      "turkce": "Onu görün ve öylece öğrenin!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-13#4",
+      "dizeId": "KT-G-13",
+      "kelimeAraligi": [
+        23,
+        27
+      ],
+      "runik": "𐰉𐰆 : 𐰋𐰃𐱅𐰏 : 𐰋𐰃𐱅𐰏𐰢𐰀 : 𐱃𐰃𐰾𐰃 : 𐰖𐰆𐰞𐰍𐱅𐰃𐰏𐰤",
+      "transkripsiyon": "BU : BİTiG : BİTiGME : aTISI : YOLUGTİGiN",
+      "kelimeSayisi": 5,
+      "turkce": "Bu yazıları yazan (Prens Kül'ün) yeğeni Prens Yollug",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-3#4",
+      "dizeId": "KT-G-3",
+      "kelimeAraligi": [
+        16,
+        18
+      ],
+      "runik": "𐰖𐰔𐰃𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "YaZIKA : TeGİ : SÜLeDiM",
+      "kelimeSayisi": 3,
+      "turkce": "Şantung ovasına kadar sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-3#6",
+      "dizeId": "KT-G-3",
+      "kelimeAraligi": [
+        22,
+        26
+      ],
+      "runik": "𐰋𐰃𐰼𐰏𐰼𐰇 : 𐱃𐰸𐰆𐰔 : 𐰼𐰾𐰤𐰚𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "BİRiGeRÜ : TOKUZ : eRSiNKE : TeGİ : SÜLeDiM",
+      "kelimeSayisi": 5,
+      "turkce": "Güneyde Dokuz Ersin'e kadar sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-4#1",
+      "dizeId": "KT-G-4",
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰚𐰲𐰀 : 𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM",
+      "kelimeSayisi": 4,
+      "turkce": "Demir Kapı'ya kadar sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-4#2",
+      "dizeId": "KT-G-4",
+      "kelimeAraligi": [
+        4,
+        9
+      ],
+      "runik": "𐰘𐰃𐰺𐰍𐰺𐰆 : 𐰘𐰼 : 𐰉𐰖𐰺𐰸𐰆 : 𐰘𐰃𐰼𐰃𐰭𐰀 : 𐱅𐰏𐰃 : 𐰾𐰇𐰠𐰓𐰢",
+      "transkripsiyon": "YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM",
+      "kelimeSayisi": 6,
+      "turkce": "kuzeyde Yir Bayırku ülkesine kadar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-4#3",
+      "dizeId": "KT-G-4",
+      "kelimeAraligi": [
+        10,
+        13
+      ],
+      "runik": "𐰉𐰆𐰣𐰨𐰀 : 𐰘𐰃𐰼𐰚𐰀 : 𐱅𐰏𐰃 : 𐰖𐰆𐰺𐱃𐰑𐰢",
+      "transkripsiyon": "BUNÇA : YİRKE : TeGİ : YORuTDıM",
+      "kelimeSayisi": 4,
+      "turkce": "Bunca yere kadar (orduyu) yürüttüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-4#4",
+      "dizeId": "KT-G-4",
+      "kelimeAraligi": [
+        14,
+        17
+      ],
+      "runik": "𐰇𐱅𐰜𐰤 : 𐰘𐰃𐱁𐰑𐰀 : 𐰘𐰃𐰏 : 𐰃𐰓𐰃",
+      "transkripsiyon": "ÖTÜKeN : YIŞDA : YİG : İDİ",
+      "kelimeSayisi": 4,
+      "turkce": "Ötüken dağlarından daha iyi (bir yer) asla yok imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-4#5",
+      "dizeId": "KT-G-4",
+      "kelimeAraligi": [
+        18,
+        25
+      ],
+      "runik": "𐰖𐰸 : 𐰼𐰢𐱁 : 𐰃𐰠 : 𐱃𐰆𐱃𐰽𐰴 : 𐰘𐰃𐰼 : 𐰇𐱅𐰜𐰤 : 𐰘𐰃𐱁 : 𐰼𐰢𐱁",
+      "transkripsiyon": "YOK : eRMiŞ : İL : TUTSıK : YİR : ÖTÜKeN : YIŞ : eRMiŞ",
+      "kelimeSayisi": 8,
+      "turkce": "Devlet kurulacak yer (devlet sahibi olunacak) yer Ötüken dağları imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 167",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-5#2",
+      "dizeId": "KT-G-5",
+      "kelimeAraligi": [
+        3,
+        7
+      ],
+      "runik": "𐰃𐰾𐰏𐱅𐰃 : 𐰸𐰆𐱃𐰖 : 𐰉𐰆𐰭𐰽𐰔 : 𐰨𐰀 : 𐰋𐰃𐰼𐰇𐰼",
+      "transkripsiyon": "İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR",
+      "kelimeSayisi": 5,
+      "turkce": "(Çinliler bize) bol bol altın gümüş ve ipekli kumaşlar veriyor",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-5#3",
+      "dizeId": "KT-G-5",
+      "kelimeAraligi": [
+        8,
+        14
+      ],
+      "runik": "𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐰽𐰉𐰃 : 𐰾𐰇𐰲𐰃𐰏 : 𐰍𐰃𐰾𐰃 : 𐰘𐰃𐰢𐱁𐰴 : 𐰼𐰢𐰾",
+      "transkripsiyon": "TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRMiŞ",
+      "kelimeSayisi": 7,
+      "turkce": "Çin halkının sözleri tatlı, ipekli kumaşları (da) yumuşak imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 213",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-5#4",
+      "dizeId": "KT-G-5",
+      "kelimeAraligi": [
+        15,
+        24
+      ],
+      "runik": "𐰾𐰇𐰲𐰃𐰏 : 𐰽𐰉𐰣 : 𐰘𐰃𐰢𐱁𐰴 : 𐰍𐰃𐰤 : 𐰺𐰯 : 𐰃𐰺𐰴 : 𐰉𐰑𐰣𐰍 : 𐰨𐰀 : 𐰖𐰍𐰆𐱃𐰃𐰼 : 𐰼𐰢𐰾",
+      "transkripsiyon": "SÜÇİG : SaBıN : YIMŞaK : aGIN : aRıP : IRaK : BoDuNuG : aNÇA : YaGUTIR : eRMiŞ",
+      "kelimeSayisi": 10,
+      "turkce": "(Çinliler) uzaklarda oturan halkları tatlı sözlerle ve yumuşak ipekli kumaşlarla aldatıp öylece (Çin'e) yaklaştırır imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-6#1",
+      "dizeId": "KT-G-6",
+      "kelimeAraligi": [
+        0,
+        7
+      ],
+      "runik": "𐰓𐰏𐰇 : 𐰋𐰃𐰠𐰏𐰀 : 𐰚𐰃𐰾𐰃𐰏 : 𐰓𐰏𐰇 : 𐰞𐰯 : 𐰚𐰃𐰾𐰃𐰏 : 𐰖𐰆𐰺𐱃𐰢𐰔 : 𐰼𐰢𐰾",
+      "transkripsiyon": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ",
+      "kelimeSayisi": 8,
+      "turkce": "(Çinliler) iyi ve akıllı kişileri, iyi ve yiğit kişileri ilerletmez imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 187",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-6#2",
+      "dizeId": "KT-G-6",
+      "kelimeAraligi": [
+        8,
+        16
+      ],
+      "runik": "𐰋𐰃𐰼 : 𐰚𐰃𐰾𐰃 : 𐰖𐰍𐰞𐰽𐰺 : 𐰆𐰍𐱁𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐰋𐰃𐰾𐰜𐰃𐰭𐰀 : 𐱅𐰏𐰃 : 𐰶𐰃𐰑𐰢𐰔 : 𐰼𐰢𐰾",
+      "transkripsiyon": "BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ : KIDMaZ : eRMiŞ",
+      "kelimeSayisi": 9,
+      "turkce": "(Öte yandan), bir kişi suç işlese onun soyuna sopuna ve akrabalarına kadar (herkesi) öldürmez imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 187",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-6#4",
+      "dizeId": "KT-G-6",
+      "kelimeAraligi": [
+        29,
+        32
+      ],
+      "runik": "𐰋𐰼𐰘𐰀 : 𐰲𐰆𐰍𐰖 : 𐰘𐰃𐱁 : 𐱅𐰇𐰏𐰠𐱅𐰤",
+      "transkripsiyon": "BeRiYE : ÇOGaY : YIŞ : TÖGüLTüN",
+      "kelimeSayisi": 4,
+      "turkce": "Güneyde Çoğay dağlarına (ve) Tögültün ovasına konayım dersen...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-7#5",
+      "dizeId": "KT-G-7",
+      "kelimeAraligi": [
+        25,
+        36
+      ],
+      "runik": "𐰼𐰢𐰾 : 𐰋𐰃𐰠𐰏 : 𐰋𐰃𐰠𐰢𐰔 : 𐰚𐰃𐰾𐰃 : 𐰆𐰞 : 𐰽𐰉𐰍 : 𐰞𐰯 : 𐰖𐰍𐰺𐰆 : 𐰉𐰺𐰯 : 𐰇𐰚𐱁 : 𐰚𐰃𐱁𐰃 : 𐰇𐰠𐱅𐰏",
+      "transkripsiyon": "eRMiŞ : BİLiG : BİLMeZ : KİŞİ : OL : SaBıG : aLıP : YaGuRU : BaRıP : ÖKüŞ : KİŞİ : ÖLTüG",
+      "kelimeSayisi": 12,
+      "turkce": "Cahil kişiler, (Çinlilerin) bu sözlerine kapılıp (Çin'e) yakın gidip çoğunuz telef oldunuz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-G-9#2",
+      "dizeId": "KT-G-9",
+      "kelimeAraligi": [
+        20,
+        25
+      ],
+      "runik": "𐰼𐱅𐰏 : 𐱅𐰭𐰼𐰃 : 𐰖𐰺𐰞𐰴𐰑𐰸𐰃𐰤 : 𐰇𐰲𐰇𐰤 : 𐰇𐰔𐰢 : 𐰸𐰆𐱃𐰢",
+      "transkripsiyon": "eRTiG : TeŊRİ : YaRLıKaDUKIN : ÜÇÜN : ÖZüM : KUTuM",
+      "kelimeSayisi": 6,
+      "turkce": "Tanrı luftettiği için",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 169",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-1#2",
+      "dizeId": "KT-K-1",
+      "kelimeAraligi": [
+        6,
+        8
+      ],
+      "runik": "𐰼𐰃𐰤 : 𐰴𐰆𐰯 : 𐰇𐰠𐰇𐰼𐰢𐰾",
+      "transkripsiyon": "eRİN : KOP : ÖLÜRMüŞ",
+      "kelimeSayisi": 3,
+      "turkce": "(Onların) adamlarını hep öldürmüş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-1#3",
+      "dizeId": "KT-K-1",
+      "kelimeAraligi": [
+        9,
+        13
+      ],
+      "runik": "𐰋𐰃𐰤 : 𐰉𐰺𐰢𐰃𐰤 : 𐰴𐰞𐰃𐰾𐰔 : 𐰸𐰆𐰯 : 𐰚𐰠𐰇𐰼𐱅𐰃",
+      "transkripsiyon": "eBİN : BaRıMıN : KaLISıZ : KOP : KeLÜRTİ",
+      "kelimeSayisi": 5,
+      "turkce": "Çadırlarını ve mal mülklerini geride hiçbir şey bırakmamasıya getirdiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-1#4",
+      "dizeId": "KT-K-1",
+      "kelimeAraligi": [
+        14,
+        19
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰘𐰃𐱅𐰃𐰆𐱃𐰔 : 𐰖𐱁𐰃𐰭𐰀 : 𐰴𐰺𐰞𐰸 : 𐰉𐰆𐰑𐰣 : 𐰼𐰇𐰼",
+      "transkripsiyon": "KÖLTİGiN : YİTİOTuZ : YaŞIŊA : KaRLUK : BODuN : eRÜR",
+      "kelimeSayisi": 6,
+      "turkce": "Prens Kül yirmi yedi yaşında (iken) Karluk halkı (serbestçe) gelir gider (hareket eder) bir düşman oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-10#1",
+      "dizeId": "KT-K-10",
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰖𐰸 : 𐰼𐰾𐰼 : 𐰸𐰆𐰯 : 𐰇𐰠𐱅𐰲𐰃 : 𐰼𐱅𐰏𐰔 : 𐰃𐰤𐰢 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰚𐰼𐰏𐰚 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "KÖLTİGiN : YOK : eRSeR : KOP : ÖLTeÇİ : eRTiGiZ : İNiM : KÖLTİGiN : KeRGeK : BOLDI",
+      "kelimeSayisi": 10,
+      "turkce": "Prens Kül olmasa(ydı) hep ölecek idiniz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-10#3",
+      "dizeId": "KT-K-10",
+      "kelimeAraligi": [
+        13,
+        20
+      ],
+      "runik": "𐰚𐰇𐰔𐰢 : 𐰚𐰇𐰼𐰢𐰔 : 𐱅𐰏 : 𐰋𐰃𐰠𐰼 : 𐰋𐰃𐰠𐰏𐰢 : 𐰋𐰃𐰠𐰢𐰔 : 𐱅𐰏 : 𐰉𐰆𐰡𐰃",
+      "transkripsiyon": "KÖZüM : KÖRMeZ : TeG : BİLiR : BİLiGiM : BİLMeZ : TeG : BOLDI",
+      "kelimeSayisi": 8,
+      "turkce": "Gören gözlerim görmez gibi, eren aklım ermez gibi oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-10#4",
+      "dizeId": "KT-K-10",
+      "kelimeAraligi": [
+        21,
+        30
+      ],
+      "runik": "𐰇𐰔𐰢 : 𐰽𐰴𐰦𐰢 : 𐰇𐰓 : 𐱅𐰭𐰼𐰃 : 𐰖𐰽𐰺 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰸𐰆𐰯 : 𐰇𐰠𐰏𐰠𐰃 : 𐱅𐰇𐰼𐰇𐰢𐰾",
+      "transkripsiyon": "ÖZüM : SaKıNDıM : ÖD : TeŊRİ : YaŞaR : KİŞİ : OGLI : KOP : ÖLGeLİ : TÖRÜMiŞ",
+      "kelimeSayisi": 10,
+      "turkce": "Zaman tanrısı buyurunca insanoğulları hep ölümlü yaratılmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 177",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-11#1",
+      "dizeId": "KT-K-11",
+      "kelimeAraligi": [
+        0,
+        10
+      ],
+      "runik": "𐰨𐰀 : 𐰽𐰴𐰦𐰢 : 𐰚𐰇𐰔𐰓𐰀 : 𐰖𐱁 : 𐰚𐰠𐰾𐰼 : 𐱅𐰃𐰑𐰀 : 𐰚𐰇𐰭𐰠𐱅𐰀 : 𐰾𐰃𐰍𐱃 : 𐰚𐰠𐰾𐰼 : 𐰖𐰦𐰺𐰆 : 𐰽𐰴𐰦𐰢",
+      "transkripsiyon": "aNÇA : SaKıNDıM : KÖZDE : YaŞ : KeLSeR : TIDA : KÖŊüLTE : SIGıT : KeLSeR : YaNDuRU : SaKıNDıM",
+      "kelimeSayisi": 11,
+      "turkce": "Gözler(im)den yaşlar gelse (onları) tutarak, gönül(üm)den feryat etmek gelse (onları) geri döndürerek yas tuttum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-12#5",
+      "dizeId": "KT-K-12",
+      "kelimeAraligi": [
+        19,
+        32
+      ],
+      "runik": "𐰴𐰆𐰺𐰖𐰀 : 𐰚𐰇𐰤 : 𐰉𐱃𐰽𐰴𐰑𐰴𐰃 : 𐰽𐰆𐰍𐰑 : 𐰋𐰼𐰲𐰚 : 𐰼 : 𐰉𐰆𐰴𐰺𐰴 : 𐰆𐰞𐰾 : 𐰉𐰆𐰑𐰦𐰀 : 𐰤𐰭 : 𐰾𐰭𐰇𐰤 : 𐰆𐰍𐰞 : 𐱃𐰺𐰴𐰣 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "KURıYA : KÜN : BaTSıKDaKI : SOGD : BeRÇiK : eR : BUKaRaK : ULuŞ : BODuNDA : NeŊ : SeŊÜN : OGuL : TaRKaN : KeLTİ",
+      "kelimeSayisi": 14,
+      "turkce": "Geride, gün batısındaki Soğdlar, İranlılar ve Buhara şehri halkından...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-2#3",
+      "dizeId": "KT-K-2",
+      "kelimeAraligi": [
+        16,
+        18
+      ],
+      "runik": "𐰴𐰺𐰞𐰸𐰆𐰍 : 𐰇𐰠𐰼𐱅𐰢𐰔 : 𐰞𐱃𐰢𐰔",
+      "transkripsiyon": "KaRLUKUG : ÖMLüRTüMüZ : aLTıMıZ",
+      "kelimeSayisi": 3,
+      "turkce": "(Biz) Karlukları öldürdük, zapt ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-2#5",
+      "dizeId": "KT-K-2",
+      "kelimeAraligi": [
+        23,
+        25
+      ],
+      "runik": "𐰴𐰺𐰀 : 𐰚𐰇𐰠𐱅𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢𐰔",
+      "transkripsiyon": "KaRA : KÖLTE : SÜŊüŞDüMüZ",
+      "kelimeSayisi": 3,
+      "turkce": "Kara Gölde savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-2#6",
+      "dizeId": "KT-K-2",
+      "kelimeAraligi": [
+        26,
+        28
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰋𐰃𐰼𐰴𐰃𐰺𐰴 : 𐰖𐰀𐱁𐰖𐰆𐰺",
+      "transkripsiyon": "KÖLTİGiN : BİRKIRK : YAŞaYUR",
+      "kelimeSayisi": 3,
+      "turkce": "Prens Kül (o zaman) otuz bir yaşında idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-3#3",
+      "dizeId": "KT-K-3",
+      "kelimeAraligi": [
+        11,
+        19
+      ],
+      "runik": "𐰲𐰃𐰢 : 𐰴𐰍𐰣 : 𐰃𐰠𐰃 : 𐰴𐰢𐱁𐰍 : 𐰉𐰆𐰞𐱃𐰸𐰃𐰦𐰀 : 𐰉𐰆𐰑𐰣 : 𐰃𐰠𐰏 : 𐰃𐰚𐰏𐰃 : 𐰃𐰔𐰏𐰠",
+      "transkripsiyon": "eÇİM : KaGaN : İLİ : KaMŞaG : BOLTUKINDA : BODuN : İLiG : İKiGİ : İZGiL",
+      "kelimeSayisi": 9,
+      "turkce": "Amcam Hakanın devleti sarsıldığında, halk ve hükümdar iki parça olduğunda (İzgil halkı ile savaştık)",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-4#5",
+      "dizeId": "KT-K-4",
+      "kelimeAraligi": [
+        21,
+        25
+      ],
+      "runik": "𐰋𐰃𐰼 : 𐰘𐰃𐰞𐰴𐰀 : 𐰋𐰃𐱁 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰭𐱁𐰓𐰢𐰔",
+      "transkripsiyon": "BİR : YILKA : BİŞ : YOLI : SÜŊüŞDüMüZ",
+      "kelimeSayisi": 5,
+      "turkce": "Bir yılda beş kez savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-4#6",
+      "dizeId": "KT-K-4",
+      "kelimeAraligi": [
+        26,
+        30
+      ],
+      "runik": "𐰭 : 𐰃𐰠𐰚 : 𐱃𐰆𐰍𐰆 : 𐰉𐰞𐰶𐰑𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢𐰔",
+      "transkripsiyon": "eŊ : İLK : TOGU : BaLIKDA : SÜŊüŞDüMüZ",
+      "kelimeSayisi": 5,
+      "turkce": "İlk önce Togu Balık'ta savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-5#2",
+      "dizeId": "KT-K-5",
+      "kelimeAraligi": [
+        6,
+        12
+      ],
+      "runik": "𐰼𐰏 : 𐰽𐰨𐰑𐰃 : 𐰾𐰇 : 𐱅𐰏𐰃𐰾𐰃𐰦𐰀 : 𐰘𐰃𐱅𐰨 : 𐰼𐰏 : 𐰶𐰃𐰞𐰲𐰞𐰑𐰃",
+      "transkripsiyon": "eRiG : SaNÇDI : SÜ : TeGİŞİNDE : YİTiNÇ : eRiG : KILıÇLaDI",
+      "kelimeSayisi": 7,
+      "turkce": "(Prens Kül) altı eri mızrakladı, (ordular) kapıştığında (da) yedinci eri kılıçla öldürdü",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-5#4",
+      "dizeId": "KT-K-5",
+      "kelimeAraligi": [
+        18,
+        26
+      ],
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰔 : 𐰖𐰍𐰔𐰃𐰤 : 𐰋𐰃𐰤𐰯 : 𐰆𐰯𐰞𐰖𐰆 : 𐱅𐰏𐰯 : 𐰋𐰃𐰼 : 𐰼𐰏 : 𐰽𐰨𐰑𐰃",
+      "transkripsiyon": "KÖLTİGiN : aZ : YaGıZIN : BİNiP : OPLaYU : TeGiP : BİR : eRiG : SaNÇDI",
+      "kelimeSayisi": 9,
+      "turkce": "Prens Kül Azların yağız atına binip atılarak saldırdı, bir askeri mızrakladı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-6#6",
+      "dizeId": "KT-K-6",
+      "kelimeAraligi": [
+        22,
+        26
+      ],
+      "runik": "𐱅𐰇𐰼𐱅𐰨 : 𐰲𐰆𐱁 : 𐰉𐱁𐰃𐰦𐰀 : 𐰾𐰇𐰭𐱁𐰓𐰢𐰔 : 𐱅𐰇𐰼𐰜",
+      "transkripsiyon": "TÖRTüNÇ : ÇUŞ : BaŞINDA : SÜŊüŞDüMüZ : TÜRK",
+      "kelimeSayisi": 5,
+      "turkce": "Dördüncü olarak Çuş (ırmağı) başında savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-8#3",
+      "dizeId": "KT-K-8",
+      "kelimeAraligi": [
+        13,
+        19
+      ],
+      "runik": "𐰢𐰍𐰀 : 𐰴𐰆𐰺𐰍𐰣 : 𐰴𐰃𐱁𐰞𐰯 : 𐰖𐰔𐰃𐰭𐰀 : 𐰆𐰍𐰔𐰍𐰺𐰆 : 𐰾𐰇 : 𐱃𐱁𐰴𐰑𐰢𐰔",
+      "transkripsiyon": "aMGA : KORGaN : KIŞLaP : YaZIŊA : OGuZGaRU : SÜ : TaŞıKDıMıZ",
+      "kelimeSayisi": 7,
+      "turkce": "Amga Korgan'da kışlayıp, ilkbaharda Oğuzlara doğru sefere çıktık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "KT-K-8#5",
+      "dizeId": "KT-K-8",
+      "kelimeAraligi": [
+        24,
+        28
+      ],
+      "runik": "𐰆𐰍𐰔 : 𐰖𐰍𐰃 : 𐰆𐰺𐰑𐰆𐰍 : 𐰉𐰽𐰑𐰃 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤",
+      "transkripsiyon": "OGuZ : YaGI : ORDUG : BaSDI : KÖLTİGiN",
+      "kelimeSayisi": 5,
+      "turkce": "Düşman Oğuz karargâhı bastı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-1#1",
+      "dizeId": "TY1-B-1",
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐱃𐰉𐰍𐰲 : 𐰃𐰠𐰭𐰀 : 𐰶𐰠𐰦𐰢",
+      "transkripsiyon": "BİLGE : TONYUKUK : BeN : ÖZüM : TaBGaÇ : İLiŊE : KILıNDıM",
+      "kelimeSayisi": 7,
+      "turkce": "Bilge Tunyukuk, ben kendim, Çin egemenliği döneminde doğdum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 197",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-2#1",
+      "dizeId": "TY1-B-2",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰴𐰣𐰃𐰤 : 𐰉𐰆𐰞𐰢𐰘𐰤 : 𐱃𐰉𐰍𐰲𐰑𐰀 : 𐰑𐰺𐰡𐰃",
+      "transkripsiyon": "TÜRK : BODuN : KaNIN : BULMaYıN : TaBGaÇDA : aDRıLDI",
+      "kelimeSayisi": 6,
+      "turkce": "Türk halkı hanını bulamayarak Çin'den ayrıldı, han sahibi oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-2#2",
+      "dizeId": "TY1-B-2",
+      "kelimeAraligi": [
+        6,
+        11
+      ],
+      "runik": "𐰴𐰣𐰞𐰦𐰃 : 𐰴𐰣𐰃𐰤 : 𐰸𐰆𐰑𐰯 : 𐱃𐰉𐰍𐰲𐰴𐰀 : 𐰖𐰣𐰀 : 𐰃𐰲𐰚𐰓𐰃",
+      "transkripsiyon": "KaNLaNDI : KaNIN : KODuP : TaBGaÇKA : YaNA : İÇiKDİ",
+      "kelimeSayisi": 6,
+      "turkce": "Hanını bırakıp Çin’e yeniden bağımlı oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-2#4",
+      "dizeId": "TY1-B-2",
+      "kelimeAraligi": [
+        15,
+        17
+      ],
+      "runik": "𐰼𐰨 : 𐰴𐰣 : 𐰋𐰼𐱅𐰢",
+      "transkripsiyon": "eRiNÇ : KaN : BiRTiM",
+      "kelimeSayisi": 3,
+      "turkce": "(Ben sana) han verdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-3#1",
+      "dizeId": "TY1-B-3",
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰴𐰣𐰭𐰤 : 𐰸𐰆𐰑𐰯 : 𐰃𐰲𐰚𐰓𐰭",
+      "transkripsiyon": "KaNıŊıN : KODuP : İÇiKDiŊ",
+      "kelimeSayisi": 3,
+      "turkce": "Hanını bırakıp (başkalarına) bağımlı oldun",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-3#5",
+      "dizeId": "TY1-B-3",
+      "kelimeAraligi": [
+        14,
+        17
+      ],
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣 : 𐰘𐰼𐰃𐰤𐱅𐰀",
+      "transkripsiyon": "TÜRK : SİR : BODuN : YiRİNTE",
+      "kelimeSayisi": 4,
+      "turkce": "Türk Sir halkının ülkesinde",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 113",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-4#1",
+      "dizeId": "TY1-B-4",
+      "kelimeAraligi": [
+        0,
+        6
+      ],
+      "runik": "𐰉𐰆𐰑 : 𐰴𐰞𐰢𐰑𐰃 : 𐰃𐰑𐰀 : 𐱃𐱁𐰑𐰀 : 𐰴𐰞𐰢𐰾𐰃 : 𐰸𐰆𐰉𐰺𐰣𐰯 : 𐰘𐱅𐰃",
+      "transkripsiyon": "BOD : KaLMaDI : IDA : TaŞDA : KaLMıŞI : KUBRaNıP : YiTİ",
+      "kelimeSayisi": 7,
+      "turkce": "Dağda bayırda kalmış olanları toplanıp yedi yüz (kişi) oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-5#1",
+      "dizeId": "TY1-B-5",
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰆𐰑𐰔𐰍𐰢𐰀 : 𐰆𐰞𐰍𐰃 : 𐱁𐰑𐰼𐱅𐰃",
+      "transkripsiyon": "UDuZuGMA : ULuGI : ŞaDeRTİ",
+      "kelimeSayisi": 3,
+      "turkce": "kumanda edenlerin başı Şad unvanını taşıyordu.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-5#2",
+      "dizeId": "TY1-B-5",
+      "kelimeAraligi": [
+        3,
+        5
+      ],
+      "runik": "𐰖𐰍𐰞 : 𐱅𐰃𐰓𐰃 : 𐰖𐰍𐰢𐰾𐰃𐰋𐰤𐰼𐱅𐰢",
+      "transkripsiyon": "YaGıL : TİDİ : YaGMıŞIBeneRTiM",
+      "kelimeSayisi": 3,
+      "turkce": "Sözcüsü ben idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 207",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-5#4",
+      "dizeId": "TY1-B-5",
+      "kelimeAraligi": [
+        10,
+        13
+      ],
+      "runik": "𐰽𐰴𐰦𐰢 : 𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃 : 𐰾𐰢𐰔𐰉𐰆𐰸𐰞𐰃 : 𐰃𐰺𐰴𐰑𐰀",
+      "transkripsiyon": "SaKıNDıM : TORuKBUKuLI : SeMiZBUKuLI : IRKDA",
+      "kelimeSayisi": 4,
+      "turkce": "(İnsan) zayıf ve semiz boğaları uzaktan bilmek istese...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-6#3",
+      "dizeId": "TY1-B-6",
+      "kelimeAraligi": [
+        9,
+        18
+      ],
+      "runik": "𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐱅𐰭𐰼𐰃 : 𐰋𐰃𐰠𐰏 : 𐰋𐰼𐱅𐰝 : 𐰇𐰲𐰤 : 𐰇𐰔𐰢 : 𐰝 : 𐰴𐰍𐰣 : 𐰴𐰃𐰽𐰑𐰢",
+      "transkripsiyon": "aNDA : KİSRE : TeŊRİ : BİLiG : BiRTÜK : ÜÇüN : ÖZüM : ÖK : KaGaN : KISDıM",
+      "kelimeSayisi": 10,
+      "turkce": "Ondan sonra, Tanrı (bana) akıl verdiği için (onu) ben kendim hakan yaptım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 124",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-7#2",
+      "dizeId": "TY1-B-7",
+      "kelimeAraligi": [
+        13,
+        17
+      ],
+      "runik": "𐰋𐰠𐰏𐰾𐰃 : 𐰲𐰉𐰾𐰃 : 𐰋𐰤 : 𐰝 : 𐰼𐱅𐰢",
+      "transkripsiyon": "BiLGeSİ : ÇaBıŞI : BeN : ÖK : eRTiM",
+      "kelimeSayisi": 5,
+      "turkce": "Danışmanı ve kumandanı da ben idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-B-7#3",
+      "dizeId": "TY1-B-7",
+      "kelimeAraligi": [
+        18,
+        23
+      ],
+      "runik": "𐰲𐰆𐰍𐰖 : 𐰴𐰆𐰔𐰃𐰤 : 𐰴𐰺𐰀 : 𐰴𐰆𐰢𐰍 : 𐰆𐰞𐰺𐰆𐰺 : 𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "ÇOGaY : KUZIN : KaRA : KUMuG : OLuRUR : eRTiMiZ",
+      "kelimeSayisi": 6,
+      "turkce": "Çogay (dağlarının) kuzeyinde, Kara Kum (denilen) yerde oturuyorduk",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 190",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-D-2#2",
+      "dizeId": "TY1-D-2",
+      "kelimeAraligi": [
+        5,
+        8
+      ],
+      "runik": "𐰇𐰲 : 𐰆𐱃𐰔 : 𐰉𐰞𐰶 : 𐰾𐰃𐰑𐰃",
+      "transkripsiyon": "ÜÇ : OTuZ : BaLıK : SIDI",
+      "kelimeSayisi": 4,
+      "turkce": "(Hakan) yirmi üç şehir tahrip etti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-D-3#4",
+      "dizeId": "TY1-D-3",
+      "kelimeAraligi": [
+        22,
+        28
+      ],
+      "runik": "𐰭𐰺𐰆 : 𐰾𐰇𐰠𐰢𐰾𐰼 : 𐰴𐰲 : 𐰤𐰭 : 𐰼𐰾𐰼 : 𐰆𐰞 : 𐰋𐰔𐰤𐰃",
+      "transkripsiyon": "aŊaRU : SÜLeMeSeR : KaÇa : NeŊ : eRSeR : OL : BiZNİ",
+      "kelimeSayisi": 7,
+      "turkce": "Ona karşı bir sefer düzenlemez isek, ne zaman olsa o bizi... öldürecektir",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-D-5#1",
+      "dizeId": "TY1-D-5",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰘𐰢𐰀 : 𐰉𐰆𐰞𐰍𐰨 : 𐰆𐰞 : 𐱅𐰢𐰾",
+      "transkripsiyon": "TÜRK : BODuN : YiME : BuLGaNÇ : OL : TiMiŞ",
+      "kelimeSayisi": 6,
+      "turkce": "Türk halkı kargaşa içindedir, Oğuzları da huzursuzdur demiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-D-5#2",
+      "dizeId": "TY1-D-5",
+      "kelimeAraligi": [
+        6,
+        10
+      ],
+      "runik": "𐰆𐰍𐰔𐰃 : 𐰘𐰢𐰀 : 𐱃𐰺𐰴𐰨 : 𐰆𐰞 : 𐱅𐰢𐰾",
+      "transkripsiyon": "OGuZI : YiME : TaRKıNÇ : OL : TiMiŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Oğuzları da huzursuzdur",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-D-5#3",
+      "dizeId": "TY1-D-5",
+      "kelimeAraligi": [
+        11,
+        18
+      ],
+      "runik": "𐰆𐰞 : 𐰽𐰉𐰃𐰣 : 𐰾𐰓𐰯 : 𐱅𐰇𐰤 : 𐰘𐰢𐰀 : 𐰆𐰑𐰾𐰶𐰢 : 𐰚𐰠𐰢𐰔 : 𐰼𐱅𐰃",
+      "transkripsiyon": "OL : SaBIN : eŞiDiP : TÜN : YiME : UDSIKıM : KeLMeZ : eRTİ",
+      "kelimeSayisi": 8,
+      "turkce": "O sözleri işittikten (sonra) geceleri uyuyasım gelmiyordu, gündüzleri oturasım gelmiyordu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-D-6#2",
+      "dizeId": "TY1-D-6",
+      "kelimeAraligi": [
+        5,
+        9
+      ],
+      "runik": "𐱅𐰓𐰢 : 𐰝𐰇𐰏𐰢𐰤 : 𐰖𐰆𐰞𐰃 : 𐰋𐰃𐰼 : 𐰼𐰢𐰾",
+      "transkripsiyon": "TiDiM : KÖGMeN : YOLI : BİR : eRMiŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Kögmen yolu bir imiş, (karla) kapanmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-D-6#3",
+      "dizeId": "TY1-D-6",
+      "kelimeAraligi": [
+        10,
+        17
+      ],
+      "runik": "𐱃𐰆𐰢𐰾 : 𐱅𐰘𐰤 : 𐰾𐰓𐰯 : 𐰉𐰆 : 𐰖𐰆𐰞𐰣 : 𐰖𐰆𐰺𐰽𐰺 : 𐰖𐰺𐰢𐰲𐰃 : 𐱅𐰓𐰢",
+      "transkripsiyon": "TUMıŞ : TiYiN : eŞiDiP : BU : YOLuN : YORISaR : YaRaMaÇI : TiDiM",
+      "kelimeSayisi": 8,
+      "turkce": "bu geçitten geçmeye kalkarsak yararı olmayacak dedim.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 56",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-1#1",
+      "dizeId": "TY1-G-1",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰚𐰘𐰚 : 𐰘𐰃𐰘𐰇 : 𐱃𐰉𐰽𐰍𐰣 : 𐰘𐰘𐰇 : 𐰆𐰞𐰺𐰆𐰺",
+      "transkripsiyon": "KiYiK : YİYÜ : TaBıŞGaN : YiYÜ : OLuRUR",
+      "kelimeSayisi": 5,
+      "turkce": "Dağ hayvanları yiyerek, tavşan yiyerek oturuyorduk",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-1#2",
+      "dizeId": "TY1-G-1",
+      "kelimeAraligi": [
+        5,
+        9
+      ],
+      "runik": "𐰼𐱅𐰢𐰔 : 𐰉𐰆𐰑𐰣 : 𐰉𐰆𐰍𐰔𐰃 : 𐱃𐰸 : 𐰼𐱅𐰃",
+      "transkripsiyon": "eRTiMiZ : BODuN : BOGuZI : ToK : eRTİ",
+      "kelimeSayisi": 5,
+      "turkce": "Halkın boğazı tok idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-1#3",
+      "dizeId": "TY1-G-1",
+      "kelimeAraligi": [
+        10,
+        14
+      ],
+      "runik": "𐰖𐰍𐰢𐰔 : 𐱅𐰏𐰼𐰀 : 𐰆𐰲𐰸 : 𐱅𐰏 : 𐰼𐱅𐰃",
+      "transkripsiyon": "YaGıMıZ : TeGRE : OÇUK : TeG : eRTİ",
+      "kelimeSayisi": 5,
+      "turkce": "Düşmanlarımız dört bir yan(ımız)da ocak gibi idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 141",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-1#5",
+      "dizeId": "TY1-G-1",
+      "kelimeAraligi": [
+        18,
+        23
+      ],
+      "runik": "𐰨𐰀 : 𐰆𐰞𐰺𐰺 : 𐰼𐰃𐰚𐰠𐰃 : 𐰆𐰍𐰔𐰑𐰦𐰣 : 𐰚𐰇𐰼𐰏 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "aNÇA : OLuRuR : eRiKLİ : OGuZDıNDıN : KÖRüG : KeLTİ",
+      "kelimeSayisi": 6,
+      "turkce": "Öylece oturur iken Oğuzlardan bir kaçak geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 178",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-10#1",
+      "dizeId": "TY1-G-10",
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰚𐰠𐰇𐰼𐱅𐰢 : 𐰝 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣𐰍 : 𐰇𐱅𐰚𐰤 : 𐰘𐰼𐰚𐰀 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰇𐱅𐰚𐰤 : 𐰘𐰼𐰏 : 𐰸𐰆𐰣𐰢𐰾",
+      "transkripsiyon": "KeLÜRTüM : ÖK : TÜRK : BODuNuG : ÖTüKeN : YiRKE : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüKeN : YiRiG : KONMıŞ",
+      "kelimeSayisi": 13,
+      "turkce": "Türk halkını Ötüken ülkesine ben kendim, Bilge Tunyukuk, <getirdim>",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 197",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-10#2",
+      "dizeId": "TY1-G-10",
+      "kelimeAraligi": [
+        13,
+        21
+      ],
+      "runik": "𐱅𐰘𐰤 : 𐰾𐰓𐰯 : 𐰋𐰼𐰘𐰚𐰃 : 𐰉𐰆𐰑𐰣 : 𐰸𐰆𐰺𐰖𐰴𐰃 : 𐰘𐰃𐰺𐰖𐰴𐰃 : 𐰇𐰭𐰼𐰚𐰃 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "TiYiN : eŞiDiP : BiRiYeKİ : BODuN : KURıYaKI : YIRıYaKI : ÖŊReKİ : BODuN : KeLTİ",
+      "kelimeSayisi": 9,
+      "turkce": "Güneydeki halklar, batıdaki, kuzeydeki ve doğudaki halklar (üzerimize) geldiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-2#1",
+      "dizeId": "TY1-G-2",
+      "kelimeAraligi": [
+        0,
+        8
+      ],
+      "runik": "𐰚𐰇𐰼𐰏 : 𐰽𐰉𐰃 : 𐰦𐰍 : 𐱃𐰆𐰴𐰔 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐰇𐰔𐰀 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃",
+      "transkripsiyon": "KÖRüG : SabI : aNTaG : TOKuZ : OGuZ : BODuN : ÜZE : KaGaN : OLuRTI",
+      "kelimeSayisi": 9,
+      "turkce": "Dokuz Oğuz halkı üzerine bir hakan tahta oturdu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-2#2",
+      "dizeId": "TY1-G-2",
+      "kelimeAraligi": [
+        9,
+        13
+      ],
+      "runik": "𐱅𐰃𐰼 : 𐱃𐰉𐰍𐰲𐰍𐰺𐰆 : 𐰸𐰆𐰣𐰃 : 𐰾𐰭𐰇𐰤𐰏 : 𐰃𐰑𐰢𐰾",
+      "transkripsiyon": "TİR : TaBGaÇGaRU : KONI : SeŊÜNüG : IDMıŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Çin'e General Ku'yu göndermiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-4#2",
+      "dizeId": "TY1-G-4",
+      "kelimeAraligi": [
+        19,
+        23
+      ],
+      "runik": "𐰖𐰆𐰺𐰢𐰔𐰆𐰣 : 𐰆𐰽𐰺 : 𐰃𐰓𐰃 : 𐰖𐰸 : 𐰶𐰃𐰽𐰞𐰢",
+      "transkripsiyon": "YORuMaZUN : USaR : İDİ : YOK : KISaLıM",
+      "kelimeSayisi": 5,
+      "turkce": "Mümkünse, onları tümüyle yok edelim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-5#1",
+      "dizeId": "TY1-G-5",
+      "kelimeAraligi": [
+        0,
+        7
+      ],
+      "runik": "𐱅𐰃𐰼 : 𐰢𐰤 : 𐰆𐰞 : 𐰾𐰉𐰍 : 𐰾𐰓𐰯 : 𐱅𐰇𐰤 : 𐰆𐰑𐰾𐰃𐰴𐰢 : 𐰚𐰠𐰢𐰓𐰃",
+      "transkripsiyon": "TİR : MeN : OL : SaBıG : eŞiDiP : TÜN : UDıSIKıM : KeLMeDİ",
+      "kelimeSayisi": 8,
+      "turkce": "O haberi işitince gece uyuyasım gelmedi, gündüz oturasım gelmedi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 142",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-5#2",
+      "dizeId": "TY1-G-5",
+      "kelimeAraligi": [
+        8,
+        10
+      ],
+      "runik": "𐰚𐰇𐰤𐱅𐰔 : 𐰆𐰞𐰺𐰽𐰴𐰢 : 𐰚𐰠𐰢𐰓𐰃",
+      "transkripsiyon": "KÜNTüZ : OLuRSıKıM : KeLMeDİ",
+      "kelimeSayisi": 3,
+      "turkce": "gündüzleri (de) oturasım (dinlenesim) gelmedi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-5#3",
+      "dizeId": "TY1-G-5",
+      "kelimeAraligi": [
+        11,
+        14
+      ],
+      "runik": "𐰦𐰀 : 𐰇𐱅𐰼𐰇 : 𐰴𐰍𐰣𐰢𐰀 : 𐰇𐱅𐰤𐱅𐰢",
+      "transkripsiyon": "aNDA : ÖTRÜ : KaGaNıMA : ÖTüNTüM",
+      "kelimeSayisi": 4,
+      "turkce": "Ondan sonra hakanıma ricada bulundum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-6#3",
+      "dizeId": "TY1-G-6",
+      "kelimeAraligi": [
+        13,
+        23
+      ],
+      "runik": "𐰘𐰨𐰏𐰀 : 𐰼𐰚𐰠𐰏 : 𐰇𐰔𐰏𐰠𐰃 : 𐰆𐰲𐰔 : 𐰖𐰆𐰖𐰴𐰀 : 𐰴𐰞𐰣 : 𐰉𐰆𐰞𐰾𐰺 : 𐱃𐰆𐰯𐰞𐰍𐰆𐰞𐰸 : 𐰞𐰯 : 𐰼𐰢𐰾 : 𐰘𐰨𐰏𐰀",
+      "transkripsiyon": "YiNÇGE : eRKLiG : ÖZGüLİ : UÇuZ : YUYKA : KaLıN : BOLSaR : TUPuLGULUK : aLP : eRMiŞ : YiNÇGE",
+      "kelimeSayisi": 11,
+      "turkce": "Yufka kalın olsa delmesi zormuş",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 60",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-7#1",
+      "dizeId": "TY1-G-7",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰖𐰆𐰍𐰣 : 𐰉𐰆𐰞𐰽𐰺 : 𐰇𐰔𐰏𐰠𐰝 : 𐰞𐰯 : 𐰼𐰢𐰾",
+      "transkripsiyon": "YOGUN : BOLSAR : ÜZGÜLÜK : ALP : ERMİŞ",
+      "kelimeSayisi": 5,
+      "turkce": "yoğun olsa koparması zormuş",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-7#2",
+      "dizeId": "TY1-G-7",
+      "kelimeAraligi": [
+        5,
+        15
+      ],
+      "runik": "𐰇𐰭𐰼𐰀 : 𐰶𐰃𐱃𐰪𐰑𐰀 : 𐰉𐰺𐰖𐰀 : 𐱃𐰉𐰍𐰲𐰑𐰀 : 𐰴𐰆𐰺𐰖𐰀 : 𐰴𐰆𐰺𐰑𐰦𐰀 : 𐰖𐰃𐰺𐰖𐰀 : 𐰆𐰍𐰔𐰑𐰀 : 𐰚𐰃 : 𐰇𐰲 : 𐰋𐰃𐰭",
+      "transkripsiyon": "ÖŊRE : KITAYNDA : BİRİYE : TABGAÇDA : KURıYA : KURıDıNTA : YIRıYA : OGuZDA : iKİ : ÜÇ : BİŊ",
+      "kelimeSayisi": 11,
+      "turkce": "Doğuda Kıtay'dan, güneyde Çin'den, batıda batıdan, kuzeyde de Oğuzlardan gelebilecek iki üç bin kadar askerimiz var mı ne?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 126",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-8#3",
+      "dizeId": "TY1-G-8",
+      "kelimeAraligi": [
+        12,
+        17
+      ],
+      "runik": "𐰚𐰇𐰚 : 𐰇𐰭𐰏 : 𐰖𐰆𐰍𐰺𐰆 : 𐰇𐱅𐰚𐰤 : 𐰘𐰃𐰽𐰍𐰀𐰺𐰆 : 𐰆𐰑𐰔𐱅𐰢",
+      "transkripsiyon": "KÖK : ÖŊüG : YOGuRU : ÖTüKeN : YIŞGARU : UDuZTıM",
+      "kelimeSayisi": 6,
+      "turkce": "(Orduyu) Ötüken dağlarına doğru sevk ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-8#4",
+      "dizeId": "TY1-G-8",
+      "kelimeAraligi": [
+        18,
+        22
+      ],
+      "runik": "𐰃𐰤𐰏 : 𐰚𐰝𐰠𐰚𐰤 : 𐱃𐰆𐰍𐰞𐰑𐰀 : 𐰆𐰍𐰔 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "İNiG : KÖKLüKüN : TOGuLDA : OGuZ : KeLTİ",
+      "kelimeSayisi": 5,
+      "turkce": "İngek gölcüğü ile Tola ırmağından Oğuzlar (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-9#5",
+      "dizeId": "TY1-G-9",
+      "kelimeAraligi": [
+        14,
+        17
+      ],
+      "runik": "𐰖𐰪𐰑𐰸 : 𐰖𐰆𐰡𐰀 : 𐰘𐰢𐰀 : 𐰇𐰠𐱅𐰃",
+      "transkripsiyon": "YaYıNDUK : YOLTA : YiME : ÖLTİ",
+      "kelimeSayisi": 4,
+      "turkce": "Bozguna uğrayıp dağılanlar da yollarda ölüp kaldılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 160",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-G-9#6",
+      "dizeId": "TY1-G-9",
+      "kelimeAraligi": [
+        18,
+        23
+      ],
+      "runik": "𐰝𐰝 : 𐰦𐰀 : 𐰇𐱅𐰼𐰇 : 𐰆𐰍𐰔 : 𐰸𐰯𐰤 : 𐰚𐰠𐱅𐰃",
+      "transkripsiyon": "KÖK : aNDA : ÖTRÜ : OGuZ : KOPıN : KeLTİ",
+      "kelimeSayisi": 6,
+      "turkce": "Ondan sonra Oğuzlar hep birlikte geldiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-1#4",
+      "dizeId": "TY1-K-1",
+      "kelimeAraligi": [
+        9,
+        13
+      ],
+      "runik": "𐱃 : 𐰇𐰔𐰀 : 𐰋𐰤𐱅𐰼𐰀 : 𐰴𐰺𐰍 : 𐰾𐰝𐰓𐰢",
+      "transkripsiyon": "aT : ÜZE : BiNTiRE : KaRıG : SÖKDüM",
+      "kelimeSayisi": 5,
+      "turkce": "(Askerleri) at üzerine bindirip karları söktüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-1#5",
+      "dizeId": "TY1-K-1",
+      "kelimeAraligi": [
+        14,
+        23
+      ],
+      "runik": "𐰖𐰸𐰺𐰆 : 𐱃 : 𐰘𐱅𐰀 : 𐰖𐰑𐰍𐰣 : --- : 𐰃𐰍𐰲 : 𐱃𐰆𐱃𐰣𐰆 : 𐰍𐱃𐰆𐰺𐱃𐰢 : 𐰇𐰭𐰼𐰀𐰚𐰃 : 𐰼",
+      "transkripsiyon": "YUKaRU : aT : YeTE : YaDaGıN : --- : IGaÇ : TUTuNU : aGTURTuM : ÖŊREKİ : eR",
+      "kelimeSayisi": 10,
+      "turkce": "(Askerleri), atları yederek, yayan ve ağaçlara tutuna tutuna yukarı ağdırdım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-10#2",
+      "dizeId": "TY1-K-10",
+      "kelimeAraligi": [
+        4,
+        7
+      ],
+      "runik": "𐰘𐰠𐰢𐰀 : 𐰴𐰺𐰍𐰆 : 𐰓𐰏𐰇𐱅𐰃 : 𐰆𐰺𐰍𐰞",
+      "transkripsiyon": "YeLME : KaRGU : eDGÜTİ : URGıL",
+      "kelimeSayisi": 4,
+      "turkce": "Atlı muhafızları ve gözetleme kulelerini iyice yerleştir!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 143",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-10#4",
+      "dizeId": "TY1-K-10",
+      "kelimeAraligi": [
+        15,
+        19
+      ],
+      "runik": "𐰯𐰀 : 𐱃𐰺𐰴𐰣𐰍𐰺𐰆 : 𐰨𐰼𐰀 : 𐰽𐰉 : 𐰃𐰑𐰢𐰾",
+      "transkripsiyon": "aPA : TaRKaNGaRU : İÇRE : SaB : IDMıŞ",
+      "kelimeSayisi": 5,
+      "turkce": "(Hakan), Apa Tarkan'a gizli bir mesaj göndermiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-2#2",
+      "dizeId": "TY1-K-2",
+      "kelimeAraligi": [
+        3,
+        10
+      ],
+      "runik": "𐰖𐰆𐰉𐰞𐰆 : 𐰃𐰤𐱅𐰢𐰔 : 𐰆𐰣 : 𐱅𐰇𐰤𐰚𐰀 : 𐰖𐰦𐰴𐰃 : 𐱃𐰆𐰍 : 𐰉𐰃𐰺𐰇 : 𐰉𐰺𐰑𐰢𐰔",
+      "transkripsiyon": "YOBuLU : İNTiMiZ : ON : TÜNKE : YaNTaKI : TUG : BİRÜ : BaRDıMıZ",
+      "kelimeSayisi": 8,
+      "turkce": "yandaki (dağ yamacı) engelini on gecede dolanarak gittik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-2#3",
+      "dizeId": "TY1-K-2",
+      "kelimeAraligi": [
+        11,
+        14
+      ],
+      "runik": "𐰘𐰼𐰲𐰃 : 𐰘𐰼 : 𐰖𐰭𐰞𐰯 : 𐰉𐰆𐰍𐰔𐰞𐰦𐰃",
+      "transkripsiyon": "YiRÇİ : YiR : YaŊıLıP : BOGuZLaNDI",
+      "kelimeSayisi": 4,
+      "turkce": "Kılavuz yanıldı ve boğazlandı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-3#2",
+      "dizeId": "TY1-K-3",
+      "kelimeAraligi": [
+        6,
+        8
+      ],
+      "runik": "𐰉𐰺𐰑𐰢𐰔 : 𐰽𐰣𐰍𐰞𐰃 : 𐱅𐰇𐰾𐰇𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "BaRTıMıZ : aŞaNGaLI : TÜŞÜRTüMüZ",
+      "kelimeSayisi": 3,
+      "turkce": "(Dağa) tırmanmak için (askerleri atlarından) indirdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 176",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-3#4",
+      "dizeId": "TY1-K-3",
+      "kelimeAraligi": [
+        12,
+        18
+      ],
+      "runik": "𐰼𐱅𐰢𐰔 : 𐰝𐰇𐰤 : 𐰘𐰢𐰀 : 𐱅𐰇𐰤 : 𐰘𐰢𐰀 : 𐰘𐰠𐰇 : 𐰉𐰺𐰑𐰢𐰔",
+      "transkripsiyon": "eRTiMiZ : KÜN : YiME : TÜN : YiME : YeLÜ : BaRDıMıZ",
+      "kelimeSayisi": 7,
+      "turkce": "Gece gündüz dört nala gittik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-3#5",
+      "dizeId": "TY1-K-3",
+      "kelimeAraligi": [
+        19,
+        21
+      ],
+      "runik": "𐰶𐰃𐰺𐰴𐰔𐰍 : 𐰆𐰴𐰀 : 𐰉𐰽𐰑𐰢𐰔",
+      "transkripsiyon": "KIRKıZıG : UKA : BaSDıMıZ",
+      "kelimeSayisi": 3,
+      "turkce": "Kırgız'ları uykuda bastırdık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-4#3",
+      "dizeId": "TY1-K-4",
+      "kelimeAraligi": [
+        9,
+        12
+      ],
+      "runik": "𐰴𐰍𐰣𐰴𐰀 : 𐰶𐰃𐰺𐰴𐰔 : 𐰉𐰆𐰑𐰣𐰃 : 𐰨𐰚𐰓𐰃",
+      "transkripsiyon": "KaGaNKA : KIRKıZ : BODuNI : iÇiKDİ",
+      "kelimeSayisi": 4,
+      "turkce": "Kırgız halkı Hakana tabi oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 111",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-5#2",
+      "dizeId": "TY1-K-5",
+      "kelimeAraligi": [
+        6,
+        12
+      ],
+      "runik": "𐰽𐰉𐰃 : 𐰦𐰏 : 𐰇𐰭𐰓𐰤 : 𐰴𐰍𐰣𐰍𐰺𐰆 : 𐰾𐰇 : 𐰘𐰆𐰺𐰃𐰞𐰢 : 𐱅𐰢𐰾",
+      "transkripsiyon": "SaBI : aNTeG : ÖŊDiN : KaGaNGaRU : SÜ : YORILıM : TiMiŞ",
+      "kelimeSayisi": 7,
+      "turkce": "(Biz) doğuya, Hakan'a doğru orduyla yürüyelim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-7#1",
+      "dizeId": "TY1-K-7",
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰴𐱃𐰆𐰣 : 𐰖𐰸 : 𐰉𐰞𐰢𐰾",
+      "transkripsiyon": "KATuN : YOK : BoLMıŞ",
+      "kelimeSayisi": 3,
+      "turkce": "Hatun yok olmuş idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-7#2",
+      "dizeId": "TY1-K-7",
+      "kelimeAraligi": [
+        3,
+        6
+      ],
+      "runik": "𐰼𐱅𐰃 : 𐰣𐰃 : 𐰖𐰆𐰍𐰞𐱃𐰖𐰃𐰤 : 𐱅𐰓𐰃",
+      "transkripsiyon": "eRTİ : aNI : YUGLaTaYIN : TiDİ",
+      "kelimeSayisi": 4,
+      "turkce": "Onun cenaze törenini yaptırayım!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 181",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-7#4",
+      "dizeId": "TY1-K-7",
+      "kelimeAraligi": [
+        10,
+        12
+      ],
+      "runik": "𐰞𐱃𐰆𐰣 : 𐰖𐰃𐰽𐰑𐰀 : 𐰆𐰞𐰺𐰭",
+      "transkripsiyon": "aLTUN : YIŞDA : OLuRuŊ",
+      "kelimeSayisi": 3,
+      "turkce": "(Siz), askerler, gidin... Altay dağlarında oturun!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 180",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-7#5",
+      "dizeId": "TY1-K-7",
+      "kelimeAraligi": [
+        13,
+        21
+      ],
+      "runik": "𐱅𐰓𐰃 : 𐰾𐰇 : 𐰉𐰽𐰃 : 𐰃𐰤𐰠 : 𐰴𐰍𐰣 : 𐱃𐰺𐰑𐰆𐰾 : 𐰽𐰑 : 𐰉𐰺𐰔𐰆𐰤 : 𐱅𐰓𐰃",
+      "transkripsiyon": "TiDİ : SÜ : BaŞI : İNeL : KaGaN : TaRDUŞ : ŞaD : BaRZUN : TiDİ",
+      "kelimeSayisi": 9,
+      "turkce": "Ordunun komutanı (olarak) İnel Kağan (ile) Tarduş Şad gitsin dedi.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 58",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-8#1",
+      "dizeId": "TY1-K-8",
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰉𐰆 : 𐰾𐰇𐰏 : 𐰠𐱅 : 𐱅𐰃𐰓𐰃",
+      "transkripsiyon": "BU : SÜG : iLeT : TİDİ",
+      "kelimeSayisi": 4,
+      "turkce": "Bu orduyu sevk et dedi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-9#3",
+      "dizeId": "TY1-K-9",
+      "kelimeAraligi": [
+        9,
+        13
+      ],
+      "runik": "𐰆𐰣 : 𐰸 : 𐰾𐰇𐰾𐰃 : 𐰴𐰞𐰃𐰾𐰔 : 𐱃𐰽𐰶𐰑𐰃",
+      "transkripsiyon": "ON : OK : SÜSİ : KaLISıZ : TaŞIKDI",
+      "kelimeSayisi": 5,
+      "turkce": "On Ok ordusu geride hiç kimse kalmamasıya sefere çıktı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY1-K-9#4",
+      "dizeId": "TY1-K-9",
+      "kelimeAraligi": [
+        14,
+        18
+      ],
+      "runik": "𐱅𐰃𐰼 : 𐰖𐰺𐰽 : 𐰖𐰔𐰃𐰑𐰀 : 𐱅𐰃𐰼𐰠𐰠𐰢 : 𐱅𐰢𐰾",
+      "transkripsiyon": "TİR : YaRıŞ : YaZIDA : TİRiLeLiM : TiMiŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Yarış Yazı'da toplanalım",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 58",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-B-3#2",
+      "dizeId": "TY2-B-3",
+      "kelimeAraligi": [
+        5,
+        12
+      ],
+      "runik": "𐱃𐰆𐰖𐰢𐰑𐰃 : 𐱅𐰭𐰼𐰃 : 𐰆𐰢𐰖 : 𐰃𐰑𐰸 : 𐰘𐰼 : 𐰾𐰆𐰉 : 𐰉𐰽𐰀 : 𐰋𐰼𐱅𐰃",
+      "transkripsiyon": "TUYMaDI : TeŊRİ : UMaY : IDUK : YiR : SUB : BaSA : BiRTİ",
+      "kelimeSayisi": 8,
+      "turkce": "Tanrı Umay, kutsal Yer ve Su (ruhları bize) yardımcı oluverdiler muhakkak ki",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-B-3#3",
+      "dizeId": "TY2-B-3",
+      "kelimeAraligi": [
+        13,
+        16
+      ],
+      "runik": "𐰼𐰨 : 𐰤𐰚𐰀 : 𐱅𐰔𐰼 : 𐰋𐰃𐰔",
+      "transkripsiyon": "eRiNÇ : NeKE : TeZeR : BİZ",
+      "kelimeSayisi": 4,
+      "turkce": "Niye kaçıyoruz?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 125",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-B-4#1",
+      "dizeId": "TY2-B-4",
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐰜𐰇𐰾 : 𐱅𐰘𐰤 : 𐰤𐰚𐰀 : 𐰸𐰆𐰺𐰸𐰆𐰺",
+      "transkripsiyon": "ÖKÜŞ : TiYiN : NeKE : KORKUR",
+      "kelimeSayisi": 4,
+      "turkce": "(Düşman) çok diye niçin korkuyoruz?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 125",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-B-6#2",
+      "dizeId": "TY2-B-6",
+      "kelimeAraligi": [
+        5,
+        9
+      ],
+      "runik": "𐰖𐰖𐰑𐰢𐰔 : 𐰴𐰍𐰣𐰃𐰤 : 𐱃𐰆𐱃𐰑𐰢𐰔 : 𐰖𐰉𐰍𐰆𐰾𐰃𐰤 : 𐰽𐰑𐰃𐰤",
+      "transkripsiyon": "YaYDıMıZ : KaGaNIN : TUTDUMUZ : YABGUSIN : ŞADIN",
+      "kelimeSayisi": 5,
+      "turkce": "Hakanlarını tuttuk, yabgularını ve şadlarını orada öldürdüler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-B-7#1",
+      "dizeId": "TY2-B-7",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐰦𐰀 : 𐰇𐰠𐰼𐱅𐰃 : 𐰠𐰏𐰲𐰀 : 𐰼 : 𐱃𐰆𐱃𐰑𐰢𐰔",
+      "transkripsiyon": "aNDA : ÖLüRTİ : eLiGÇE : eR : TUTDuMuZ",
+      "kelimeSayisi": 5,
+      "turkce": "Elli kadar adam tuttuk",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 131",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-B-7#2",
+      "dizeId": "TY2-B-7",
+      "kelimeAraligi": [
+        5,
+        10
+      ],
+      "runik": "𐰆𐰞 : 𐰸 : 𐱅𐰇𐰤 : 𐰉𐰆𐰑𐰣𐰃𐰤 : 𐰽𐰖𐰆 : 𐰃𐱃𐰢𐰔",
+      "transkripsiyon": "OL : OK : TÜN : BODuNIN : SaYU : ITıMıZ",
+      "kelimeSayisi": 6,
+      "turkce": "(Elli kadar adam yakaladık), hemen o gece hepsinin halkına onlarla (haber) gönderdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-B-7#3",
+      "dizeId": "TY2-B-7",
+      "kelimeAraligi": [
+        11,
+        18
+      ],
+      "runik": "𐰆𐰞 : 𐰽𐰉𐰍 : 𐰾𐰓𐰯 : 𐰆𐰣 : 𐰸 : 𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐰸𐰆𐰯",
+      "transkripsiyon": "OL : SaBıG : eŞiDiP : ON : OK : BeGLeRİ : BODuNI : KOP",
+      "kelimeSayisi": 8,
+      "turkce": "O haberi işitince On Ok beyleri ve halkı hep geldiler, boyun eğdiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-D-1#1",
+      "dizeId": "TY2-D-1",
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰴𐰯𐰍𐰣 : 𐰴𐰍𐰣 : 𐰘𐱅𐰃",
+      "transkripsiyon": "KaPaGaN : KaGaN : YiTİ",
+      "kelimeSayisi": 3,
+      "turkce": "Kapgan Hakan",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 171",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-D-3#1",
+      "dizeId": "TY2-D-3",
+      "kelimeAraligi": [
+        0,
+        2
+      ],
+      "runik": "𐰺𐰴𐰆𐰖 : 𐰴𐰺𐰍𐰆𐰍 : 𐰆𐰞𐰍𐰺𐱃𐰑𐰢",
+      "transkripsiyon": "aRKUY : KaRGUG : ULGaRTDıM",
+      "kelimeSayisi": 3,
+      "turkce": "İstihkamları ve gözetleme kulelerini yerleştirdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 195",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-D-4#1",
+      "dizeId": "TY2-D-4",
+      "kelimeAraligi": [
+        0,
+        5
+      ],
+      "runik": "𐰉𐰆 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰴𐰀 : 𐰖𐰺𐰴𐰞𐰍 : 𐰖𐰍𐰃𐰍 : 𐰚𐰠𐱅𐰇𐰼𐰢𐰓𐰢",
+      "transkripsiyon": "BU : TÜRK : BODuNKA : YaRaKLıG : YaGIG : KeLTÜRMeDiM",
+      "kelimeSayisi": 6,
+      "turkce": "Bu Türk halkı içinde zırhlı düşmanların akınına (hiç) imkan vermedim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-D-4#3",
+      "dizeId": "TY2-D-4",
+      "kelimeAraligi": [
+        9,
+        11
+      ],
+      "runik": "𐰃𐰠𐱅𐰼𐰾 : 𐰴𐰍𐰣 : 𐰴𐰔𐰍𐰣𐰢𐰽𐰺",
+      "transkripsiyon": "İLTeRiŞ : KaGaN : KaZGaNMaSaR",
+      "kelimeSayisi": 3,
+      "turkce": "İlteriş Hakan başarılı olmasaydı ve (ben) kendim başarılı olmasaydım...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 213",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-D-5#2",
+      "dizeId": "TY2-D-5",
+      "kelimeAraligi": [
+        11,
+        15
+      ],
+      "runik": "𐰴𐰔𐰍𐰦𐰸𐰃𐰣 : 𐰆𐰑𐰆 : 𐰇𐰔𐰢 : 𐰴𐰔𐰍𐰦𐰸𐰢 : 𐰇𐰲𐰤",
+      "transkripsiyon": "KaZGaNTUKIN : UDU : ÖZüM : KaZGaNTUKıM : ÜçüN",
+      "kelimeSayisi": 5,
+      "turkce": "(İlteriş Hakan) kazandığı için ve (ben) kendim kazandığım için...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 156",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-D-6#4",
+      "dizeId": "TY2-D-6",
+      "kelimeAraligi": [
+        11,
+        16
+      ],
+      "runik": "𐰆𐰞𐰍 : 𐰉𐰆𐰡𐰢 : 𐰤𐰭 : 𐰘𐰼𐰓𐰚𐰃 : 𐰴𐰍𐰣𐰞𐰍 : 𐰉𐰆𐰑𐰣𐰴𐰀",
+      "transkripsiyon": "ULuG : BOLDuM : NeŊ : YiRDeKİ : KaGaNLıG : BODuNKA",
+      "kelimeSayisi": 6,
+      "turkce": "Herhangi bir ülkedeki hakanlı bir halka...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-G-1#1",
+      "dizeId": "TY2-G-1",
+      "kelimeAraligi": [
+        0,
+        3
+      ],
+      "runik": "𐱅𐰢𐰼 : 𐰴𐰯𐰍𐰴𐰀 : 𐱅𐰏𐰃 : 𐰃𐰼𐱅𐰢𐰔",
+      "transkripsiyon": "TeMiR : KaPıGKA : TeGİ : İRTiMiZ",
+      "kelimeSayisi": 4,
+      "turkce": "Temir Kapıg'a kadar ulaştık. (Orduyu) oradan geri çevirdik.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 56",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-G-3#1",
+      "dizeId": "TY2-G-3",
+      "kelimeAraligi": [
+        0,
+        4
+      ],
+      "runik": "𐱅𐰃𐰤𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰖𐱃𐰍𐰢𐰀 : 𐱃𐰍𐰴𐰀 : 𐱅𐰏𐰢𐰾",
+      "transkripsiyon": "TİNSİ : OGLI : YaTıGMA : TAGKA : TeGMiŞ",
+      "kelimeSayisi": 5,
+      "turkce": "Tensi oğlu denilen dağ",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 167",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-K-2#1",
+      "dizeId": "TY2-K-2",
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰴𐰯𐰍𐰣 : 𐰴𐰍𐰣 : 𐱅𐰇𐰼𐰝 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣 : 𐰘𐰼𐰃𐰤𐱅𐰀 : 𐰉𐰆𐰑 : 𐰘𐰢𐰀 : 𐰉𐰆𐰑𐰣 : 𐰘𐰢𐰀 : 𐰚𐰃𐰾𐰃 : 𐰘𐰢𐰀 : 𐰃𐰓𐰃",
+      "transkripsiyon": "KaPaGaN : KaGaN : TÜRK : SİR : BODuN : YiRİNTE : BOD : YiME : BODuN : YiME : KİŞİ : YiME : İDİ",
+      "kelimeSayisi": 13,
+      "turkce": "Kapgan Hakanın Türk Sir halkı ülkesinde boy da halk da insan da hiç olmayacak idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-K-3#1",
+      "dizeId": "TY2-K-3",
+      "kelimeAraligi": [
+        0,
+        12
+      ],
+      "runik": "𐰃𐰠𐱅𐰼𐰾 : 𐰴𐰍𐰣 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰣𐰪𐰸𐰸 : 𐰴𐰔𐰍𐰦𐰸 : 𐰇𐰲𐰤 : 𐰴𐰯𐰍𐰣 : 𐰴𐰍𐰣 : 𐱅𐰇𐰼𐰝 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣 : 𐰖𐰆𐰺𐰃𐰑𐰸𐰃 : 𐰉𐰆",
+      "transkripsiyon": "İLTeRiŞ : KaGaN : BİLGE : TONYUKUK : KaZGaNDUK : ÜÇüN : KaPaGaN : KaGaN : TÜRK : SİR : BODuN : YORIDUKI : BU",
+      "kelimeSayisi": 13,
+      "turkce": "İlteriş Kağan ve Bilge Tunyukuk (çalışıp çabalayıp) kazandıkları için Kapgan Kaganın Türk Sir halkının gelişmesi (işte) bu(dur)",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 121",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    },
+    {
+      "id": "TY2-K-4#1",
+      "dizeId": "TY2-K-4",
+      "kelimeAraligi": [
+        0,
+        9
+      ],
+      "runik": "𐱅𐰇𐰼𐰝 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐱅𐰇𐰼𐰝 : 𐰾𐰃𐰼 : 𐰉𐰆𐰑𐰣𐰍 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰃𐰏𐰓𐰇 : 𐰆𐰞𐰺𐰆𐰺",
+      "transkripsiyon": "TÜRK : BİLGE : KaGaN : TÜRK : SİR : BODuNuG : OGuZ : BODuNuG : İGiDÜ : OLuRUR",
+      "kelimeSayisi": 10,
+      "turkce": "Türk Bilge Hakan, Türk Sir halkını, Oğuz halkını doyurarak tahtta oturuyor",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 186",
+      "denetleyen": "makine",
+      "tarih": "2026-10-17"
+    }
+  ]
+}
