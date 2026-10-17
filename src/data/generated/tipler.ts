@@ -96,6 +96,11 @@ export interface UretilmisAlistirma {
   secenekler?: string[];
   /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
   gunumuzOkumasi?: boolean;
+  /**
+   * dize_ceviri: akademik denetimden geçmemiş ama kaynaklı karşılık.
+   * Doluysa arayüz kaynağı ve denetlenmediğini gösterir.
+   */
+  denetlenmemisKaynak?: string | null;
   /** Kaynak kitabe dizesinin kimliği (ör. KT-G-1). */
   kaynak: string;
 }

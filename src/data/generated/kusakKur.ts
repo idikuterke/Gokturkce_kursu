@@ -51,9 +51,16 @@ const alistirmayaCevir = (
   if (a.tur === 'dize_ceviri') {
     if (!a.dogru) return null;
     // Günümüz okuması çeviri değildir; öğrenciye böyle sunulmaz.
-    const etiket = a.gunumuzOkumasi
-      ? 'Bu karşılık bir çeviri değil, günümüz okumasıdır.'
-      : '';
+    const notlar: string[] = [];
+    if (a.gunumuzOkumasi) {
+      notlar.push('Bu karşılık bir çeviri değil, günümüz okumasıdır.');
+    }
+    if (a.denetlenmemisKaynak) {
+      // Kaynaklı ama akademik denetimden geçmemiş karşılık: kaynağı
+      // göster, doğrulanmış gibi sunma.
+      notlar.push(`Kaynak: ${a.denetlenmemisKaynak}. Bu karşılık yayından alınmıştır, ayrıca denetlenmemiştir.`);
+    }
+    const etiket = notlar.join(' ');
     return {
       id: a.id,
       type: 'choice',
@@ -62,7 +69,8 @@ const alistirmayaCevir = (
         : 'Bu kitabe satırı ne anlama geliyor?',
       subprompt: a.transkripsiyon,
       runePrompt: a.runik,
-      options: [a.dogru],
+      // Üretici 3 çeldirici koyar; yoksa tek şıkla göstermeyiz.
+      options: a.secenekler?.length ? a.secenekler : [a.dogru],
       correctAnswer: a.dogru,
       explanation: `${a.kaynak} dizesi.${etiket ? ' ' + etiket : ''}`
     };

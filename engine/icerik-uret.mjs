@@ -308,18 +308,40 @@ for (const k of sozlukKayitlari) {
 
 // "gecti" gerçek çeviri, "gunumuz_okumasi" ise kabul edilen ama çeviri
 // olmayan karşılık — ikisi de alıştırmaya girer, ikincisi ETİKETLİ girer.
-// KAPI: cümleciklerde olduğu gibi burada da insan onayı şart.
-// Makine çıkarımı `ceviri: "gecti"` yazar ama `denetleyen: "makine"`
-// kalır; o kayıtlar DB'de durur, alıştırmaya girmez.
+// KAPI — iki kademe:
+//
+//   katman "insan" → doğrulanmış, olduğu gibi sunulur
+//   katman "kitap" → metin yayınından BİREBİR alıntı, sayfa atıflı.
+//     Burada risk "çeviri yanlış mı" değil (Tekin'in çevirisi ölçüt),
+//     "doğru satıra mı bağladık" riski. Eşleşme skoru >= ESIK ise bu
+//     risk ihmal edilebilir. Alıştırmaya GİRER ama ETİKETLİ girer:
+//     uygulama kaynağı ve denetlenmediğini açıkça yazar.
+//   katman "model" → girmez.
+//
+// Bu, "günümüz okuması kabul edilebilir ama belirtilmeli" ilkesinin
+// aynısı: içeriği gizlemiyoruz, doğrulanmamışı doğrulanmış gibi
+// sunmuyoruz.
+const KITAP_ESIGI = 0.9;
+const skorOku = (metin) => {
+  const m = (metin || "").match(/eşleşme ([\d.]+)/);
+  return m ? Number(m[1]) : null;
+};
+const kitapGecerli = (v) => {
+  if (v?.katman !== "kitap") return false;
+  const s = skorOku(v.not);
+  // Skorsuz kitap kaydı (tekin1998 dize çıkarımı) zaten kendi
+  // doğrulama kapısından geçmiş; şüpheliler dışarıda bırakılmıştı.
+  return s === null || s >= KITAP_ESIGI;
+};
+
+const cevirisiVar = (d) =>
+  d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi";
+
 const ceviriyeHazir = dizeler.filter(
-  (d) =>
-    (d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi") &&
-    d.dogrulama?.denetleyen === "insan"
+  (d) => cevirisiVar(d) && (d.dogrulama?.denetleyen === "insan" || kitapGecerli(d.dogrulama))
 );
 const dizeMakine = dizeler.filter(
-  (d) =>
-    (d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi") &&
-    d.dogrulama?.denetleyen !== "insan"
+  (d) => cevirisiVar(d) && d.dogrulama?.denetleyen !== "insan" && !kitapGecerli(d.dogrulama)
 ).length;
 // Kısa ve kırıksız dizeler: bütün dize tek alıştırmaya ancak böyle sığar.
 // Lacuna denetimi Türkçe alanı da kapsıyor — `yipranma` bayrağı yalnızca
@@ -338,6 +360,8 @@ for (const d of dizeCevirisi) {
     dogru: d.turkce,
     // Çeviri mi, günümüz okuması mı — arayüzde belirtilir.
     gunumuzOkumasi: d.dogrulama?.ceviri === "gunumuz_okumasi",
+    // Akademik denetimden geçmediyse arayüz kaynağı gösterir.
+    denetlenmemisKaynak: d.dogrulama?.denetleyen === "insan" ? null : d.dogrulama?.kaynak ?? null,
     kaynak: d.id
   });
 }
@@ -359,7 +383,13 @@ if (fs.existsSync(CUMLECIK_YOLU)) {
     if (!c.turkce?.trim() || !c.kaynak?.trim()) continue;
     if (/---/.test(c.turkce) || /---/.test(c.transkripsiyon)) continue;
     if (c.kelimeSayisi > 12) continue;
-    if (c.denetleyen !== "insan") {
+    const cKitap =
+      c.katman === "kitap" &&
+      (() => {
+        const m = (c.not || "").match(/eşleşme ([\d.]+)/);
+        return m ? Number(m[1]) >= KITAP_ESIGI : true;
+      })();
+    if (c.denetleyen !== "insan" && !cKitap) {
       cumlecikMakine++;
       continue;
     }
@@ -371,9 +401,39 @@ if (fs.existsSync(CUMLECIK_YOLU)) {
       transkripsiyon: c.transkripsiyon,
       dogru: c.turkce,
       gunumuzOkumasi: c.tur === "gunumuz_okumasi",
+      denetlenmemisKaynak: c.denetleyen === "insan" ? null : c.kaynak ?? null,
       kaynak: c.dizeId
     });
     cumlecikCevirisi++;
+  }
+}
+
+// ── Çeviri alıştırmalarına çeldirici ────────────────────────────────────────
+// dize_ceviri kayıtları yalnız doğru cevapla üretiliyordu; şık olmayınca
+// ekranda kullanılamıyorlardı. Çeldiriciler diğer gerçek çevirilerden
+// seçilir: uydurma cümle üretmiyoruz, havuzdan benzer uzunlukta olanları
+// alıyoruz ki eleme uzunluğa bakarak yapılamasın.
+{
+  const ceviriler = alistirmalar.filter((a) => a.tur === "dize_ceviri");
+  const havuz = ceviriler.map((a) => a.dogru);
+  for (const a of ceviriler) {
+    const hedef = a.dogru.length;
+    const adaylar = havuz
+      .filter((m) => m !== a.dogru)
+      .sort((x, y) => Math.abs(x.length - hedef) - Math.abs(y.length - hedef))
+      // En yakın 12 uzunluk arasından rastgele 3 — hep aynı çeldirici
+      // gelmesin diye karıştırılır.
+      .slice(0, 12);
+    for (let i = adaylar.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [adaylar[i], adaylar[j]] = [adaylar[j], adaylar[i]];
+    }
+    const secenekler = [a.dogru, ...adaylar.slice(0, 3)];
+    for (let i = secenekler.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [secenekler[i], secenekler[j]] = [secenekler[j], secenekler[i]];
+    }
+    a.secenekler = secenekler;
   }
 }
 
@@ -423,16 +483,20 @@ const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
   // Kelime kurma yalnızca anlamı bilinen kelimelerle.
   const kurma = bantAlistirmalari.filter((a) => a.tur === "kelime_kur" && anlamlar.has(a.runik));
   const ceviri = bantAlistirmalari.filter((a) => a.tur === "kelime_ceviri");
+  // Cümle çevirisi dördüncü beceri: tek kelimeyi değil, kurallı bir
+  // dizgeyi anlamak. Ders içinde en sona konur ki önce tanıma ve
+  // yazma pekişsin.
+  const dizeCev = bantAlistirmalari.filter((a) => a.tur === "dize_ceviri");
 
   const dersler = [];
   for (let d = 0; d < DERS_SAYISI; d++) {
     const secilen = [];
     for (let j = 0; j < DERS_BASINA; j++) {
       const sira = d * DERS_BASINA + j;
-      // Üçlü dönüşüm: tanı → yaz → anlamını bil.
+      // Dörtlü dönüşüm: tanı → yaz → kelimeyi bil → cümleyi çöz.
       // Tek beceriyi arka arkaya sormak yerine aynı kelimeyi farklı
       // açılardan yoklamak pekiştirmeyi artırıyor.
-      const siraliKaynaklar = [okuma, kurma, ceviri].filter((x) => x.length);
+      const siraliKaynaklar = [okuma, kurma, ceviri, dizeCev].filter((x) => x.length);
       const kaynak = siraliKaynaklar[j % siraliKaynaklar.length];
       const secim = kaynak[Math.floor(sira / siraliKaynaklar.length) % kaynak.length];
       if (secim && !secilen.includes(secim.id)) secilen.push(secim.id);
@@ -602,6 +666,11 @@ export interface UretilmisAlistirma {
   secenekler?: string[];
   /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
   gunumuzOkumasi?: boolean;
+  /**
+   * dize_ceviri: akademik denetimden geçmemiş ama kaynaklı karşılık.
+   * Doluysa arayüz kaynağı ve denetlenmediğini gösterir.
+   */
+  denetlenmemisKaynak?: string | null;
   /** Kaynak kitabe dizesinin kimliği (ör. KT-G-1). */
   kaynak: string;
 }
@@ -619,7 +688,7 @@ console.log(`  denetim bekleyen dize: ${dizeler.length - ceviriyeHazir.length}`)
 if (dizeMakine) {
   console.log(`  ATLANAN: ${dizeMakine} dize  ← denetleyen "insan" değil, alıştırmaya alınmadı`);
 }
-console.log(`cümlecik çevirisi: ${cumlecikCevirisi}  (insan onaylı)`);
+console.log(`cümlecik çevirisi: ${cumlecikCevirisi}  (insan onaylı + kitap alıntısı)`);
 if (cumlecikMakine) {
   console.log(`  ATLANAN: ${cumlecikMakine} cümlecik  ← denetleyen "insan" değil, alıştırmaya alınmadı`);
 }

@@ -200,6 +200,7 @@ if (kuyruk === "dize") {
       ceviri: tur,
       denetleyen,
       katman,
+      not: k.not?.trim() || null,
       kaynak: k.kaynak.trim(),
       tarih: bugun,
     };

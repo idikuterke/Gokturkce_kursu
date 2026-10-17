@@ -371,3 +371,33 @@ KORUNDU: 1 kayıt — daha güvenilir katmandan geliyor, üzerine yazılmadı
 
 Katmanı olmayan eski kayıtlar `model` sayılır; daha güvenilir bir paket
 geldiğinde kendiliğinden yükselirler.
+
+---
+
+## Çeviri alıştırmaları — iki kademeli kapı
+
+`icerik-uret.mjs` artık iki katmanı alıştırmaya alır:
+
+| Katman | Alıştırmaya girer | Nasıl sunulur |
+|---|---|---|
+| `insan` | evet | olduğu gibi |
+| `kitap`, eşleşme ≥ 0.90 | evet | **etiketli**: kaynak + "denetlenmemiştir" |
+| `kitap`, eşleşme < 0.90 | hayır | denetim kuyruğunda bekler |
+| `model` | hayır | denetim kuyruğunda bekler |
+
+Gerekçe: kitap katmanında metin Tekin'in kendi çevirisi, birebir ve sayfa
+atıflı. Risk "çeviri yanlış mı" değil — o ölçüt sayılır — "doğru satıra mı
+bağladık" riskidir. Ünsüz-iskeleti eşleşmesi ≥ 0.90 iken bu risk ihmal
+edilebilir. Yine de doğrulanmış gibi sunulmaz: cevaptan sonra kaynak ve
+denetlenmediği yazılır. Bu, "günümüz okuması kabul edilebilir ama
+belirtilmeli" ilkesinin aynısıdır.
+
+### Bağlantı eksikleri de kapatıldı
+
+`dize_ceviri` üretiliyordu ama **hiçbir ekrana bağlı değildi**:
+
+- `kusaklar.json` yalnız `runik_oku`, `kelime_kur`, `kelime_ceviri` alıyordu
+  → dörtlü dönüşüme çevrildi (tanı → yaz → kelimeyi bil → cümleyi çöz)
+- `KitabeAlistirmalari` yalnız üç türü çiziyordu → dize_ceviri eklendi
+- Alıştırmaların **şıkkı yoktu** → çeldiriciler diğer gerçek çevirilerden,
+  benzer uzunlukta seçiliyor (uydurma cümle üretilmiyor)

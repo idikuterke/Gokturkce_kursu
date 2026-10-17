@@ -53,11 +53,13 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
     const okuma = bandda.filter((a) => a.tur === 'runik_oku');
     const kurma = bandda.filter((a) => a.tur === 'kelime_kur');
     const ceviri = bandda.filter((a) => a.tur === 'kelime_ceviri');
+    const dizeCeviri = bandda.filter((a) => a.tur === 'dize_ceviri');
     const karisik: UretilmisAlistirma[] = [];
     for (let i = 0; i < 8; i++) {
       if (okuma[i]) karisik.push(okuma[i]);
       if (kurma[i]) karisik.push(kurma[i]);
       if (ceviri[i]) karisik.push(ceviri[i]);
+      if (dizeCeviri[i]) karisik.push(dizeCeviri[i]);
     }
     return karisik;
   }, [hepsi, zorluk]);
@@ -279,7 +281,11 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
             <p className="text-sm text-metin-2">
               {aktif.tur === 'kelime_ceviri'
                 ? `"${aktif.transkripsiyon}" kelimesi ne anlama geliyor?`
-                : 'Bu kelimenin okunuşu hangisidir?'}
+                : aktif.tur === 'dize_ceviri'
+                  ? aktif.gunumuzOkumasi
+                    ? 'Bu kitabe satırının günümüz okuması hangisidir?'
+                    : 'Bu kitabe satırı ne anlama geliyor?'
+                  : 'Bu kelimenin okunuşu hangisidir?'}
             </p>
             <button
               onClick={() => { playChiselSound(); speakTamgaOrWord(aktif.dogru ?? aktif.runik, aktif.runik); }}
@@ -333,6 +339,12 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
                   {kaynakDize.dogrulama.ceviri !== 'gecti' && (
                     <p className="text-[10px] text-amber-400/80">
                       Çeviri akademik denetimden geçmedi.
+                    </p>
+                  )}
+                  {aktif.denetlenmemisKaynak && (
+                    <p className="text-[10px] text-amber-400/80">
+                      {aktif.denetlenmemisKaynak} — yayından alınmıştır, ayrıca
+                      denetlenmemiştir.
                     </p>
                   )}
                 </div>
