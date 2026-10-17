@@ -240,3 +240,98 @@ Onaylananları işle:
 node engine/denetim-uygula.mjs <disa-aktarim.json> --denetleyen insan
 node engine/icerik-uret.mjs
 ```
+
+---
+
+## Kaynak Tarama — kitaplardan atıflı çeviri çıkarımı
+
+```bash
+npm run kaynak:tara                      # eşik 0.55
+node engine/kaynak-tara.mjs --esik 0.7   # daha sıkı
+```
+
+Taranan kitaplar (`00_Kaynaklar/kitaplar/`, hepsi PROVENANS başlıklı):
+
+| Kitap | Sayfa |
+|---|---|
+| Tekin, *Orhon Türkçesi Grameri*, 2003 | 276 |
+| Ölmez, *Köktürkçe ve Eski Uygurca Dersleri*, 2017 | 115 (566'nın bir kısmı) |
+
+Kalıp: `*transkripsiyon* "Türkçe çeviri" (ATIF)`. Atıf dize kimliğine
+çevrilir, sonra o dizenin cümlecikleriyle karşılaştırılır.
+
+**Eşleştirme ünsüz iskeleti üzerinden.** Korpus `TeŊRİ : TeG` yazar,
+kitap `teŋri teg`; yazılmayan ünlüler iki yanda farklı olduğu için
+ünlüler atılıp 3-gram Jaccard benzerliği hesaplanır.
+
+**Tonyukuk özel durumu:** kitaplar yüz kodu yazmaz, sürekli satır
+numarası verir (`T 45`). `orhun-db`'deki `sira` alanı (1-62) tam bu
+numaralandırmayla örtüşür — 1. taş 1-35, 2. taş 36-62 — eşleme
+oradan yapılır. Dört tam eşleşmeyle doğrulandı.
+
+Sonuç: **231 / 953 cümlecik** eşleşti. Kalanın büyük kısmı başka
+yazıtlara ait atıflar (Irk Bitig 172, Moyun Çor, Küli Çor, Ongin,
+Yenisey) — bizim 214 dizelik Orhun korpusunda yok.
+
+Paket `--denetleyen makine` ile işlenir, denetim ekranının
+"Makine önerisi" sekmesinde insan önüne gelir. `not` alanında eşleşme
+skoru ve kitaptaki transkripsiyon yazar.
+
+---
+
+## Tekin 1998 — metin yayını çıkarımı
+
+```bash
+npm run tekin98:tara
+```
+
+Gramer kitaplarından farkı: *Orhon Yazıtları* (1998) her satırı baştan
+sona çevirir. Her yazıt bölümünde önce çevriyazı bloğu, sonra çeviri
+bloğu gelir; ikisi de aynı `(G 1)` işaretçisini taşır.
+
+**Hangisinin çevriyazı olduğu tahmin edilmez.** İki parçanın da korpustaki
+satıra ünsüz-iskeleti benzerliği ölçülür; yüksek olan çevriyazıdır. Bu
+aynı zamanda doğru satırı bulduğumuzun kanıtıdır — eşleşme zayıfsa kayıt
+şüpheli sayılıp dışarıda bırakılır.
+
+Sonuç: **139/214 dize** çevirisi çıkarıldı, 47 şüpheli
+(`docs/tekin1998-raporu.md` listeler). Bildirilen hizalama kaymalarından
+KT-D-12, KT-D-20, BK-D-11, BK-D-17 otomatik yakalandı.
+
+### İnsan onayı koruması
+
+`denetim-uygula.mjs --denetleyen makine`, `denetleyen === "insan"` olan
+bir kaydın **üzerine yazmaz**; korunan kayıtları raporlar. İnsan onayı bu
+hattın en pahalı ürünü — otomatik bir koşu onu sessizce silemez.
+
+`icerik-uret.mjs` hem dize hem cümlecik yolunda `denetleyen === "insan"`
+arar. Makine çıkarımı DB'de durur, alıştırmaya girmez.
+
+### Denetimi kaydetme
+
+Yol yazmana gerek yok — `--son` indirilenler klasöründeki en yeni
+`denetim-*.json` dosyasını seçer ve hangisini seçtiğini yazar.
+
+```bash
+# 1. ekranda çalış → "Dışa aktar" (ya da Ctrl+S) → JSON iner
+# 2. önce kuru çalıştır, ne olacağını gör
+node engine/denetim-uygula.mjs --son --kuru
+# 3. uygula
+node engine/denetim-uygula.mjs --son
+# 4. yeniden üret ve kapıyı koş
+node engine/icerik-uret.mjs && node engine/kapi.mjs
+# 5. işi kalıcı yap
+git add -A && git commit -m "denetim: N cümlecik insan onayı" && git push
+```
+
+`--denetleyen` yazılmazsa `insan` varsayılır; elle denetim için doğrusu budur.
+Dosyayı adıyla vermek istersen yol ya mutlak olmalı ya da bulunduğun
+dizine göreli. `--son` şu sırayla arar: `~/Downloads`, `~/İndirilenler`,
+`docs/`, bulunduğun dizin.
+
+Dosya adındaki sekme adı (`makine`) ile içindeki `kuyruk` alanı farklıdır:
+"Makine önerisi" sekmesi cümlecik kaydı gösterdiği için `kuyruk: "cumlecik"`
+olarak aktarılır. `denetim-uygula.mjs` içerideki alana bakar.
+
+**Kararlar tarayıcı deposunda tutulur.** Dışa aktarmadan önbellek
+temizlenirse gider. Her oturumun sonunda dışa aktar.

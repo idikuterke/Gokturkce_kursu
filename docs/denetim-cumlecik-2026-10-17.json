@@ -1,0 +1,5945 @@
+{
+ "kuyruk": "cumlecik",
+ "uretim": "2026-10-17",
+ "aciklama": "Makine uretimi, sayfa atifli ceviriler. HENUZ INSAN ONAYINDAN GECMEDI — denetim-uygula.mjs bu kayitlari denetleyen=insan olarak isler, o yuzden once gozden gecirilmeli.",
+ "yontem": "Tekin 1998 satir cevirisi + korpus kaniti; dogrulama scripti: scripts/gokturk/cumlecik_uygula.py (R1-R7, 0 ret)",
+ "kararlar": [
+  {
+   "id": "KT-G-1#1",
+   "karar": "onay",
+   "metin": "Tanrı gibi (ve) Tanrı'dan olmuş",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-1#2",
+   "karar": "onay",
+   "metin": "(Ben), Türk Bilge Kağan, bu devirde (tahta) oturdum.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-1#3",
+   "karar": "onay",
+   "metin": "Sözlerimi baştan sona işit.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-1#4",
+   "karar": "onay",
+   "metin": "Önce (siz) erkek kardeşlerim (ve) oğullarım, birleşik boyum (ve) halkım, sağdaki Şadapıt beyler, soldaki Tarkanlar (ve) kumandan beyler, Otuz Tatar",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-2#1",
+   "karar": "onay",
+   "metin": "Dokuz Oğuz beyleri (ve) halkı, bu sözlerimi iyice işitin (ve) sıkıca dinleyin: Doğuda gün doğusuna, güneyde gün ortasına, batıda gün batısına (ve) kuzeyde gece ortasına kadar, bu (sınırlar) içindeki bütün halklar hep bana tabidir.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-2#2",
+   "karar": "onay",
+   "metin": "Bunca halkı",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-3#1",
+   "karar": "onay",
+   "metin": "hep düzene soktum. Onlar şimdi",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-3#2",
+   "karar": "onay",
+   "metin": "(hiç de) kötü (durumda) değiller. Türk(lerin) kağanı Ötüken dağlarında oturur (ve oradan hükmeder) ise ülkede (hiçbir) sıkıntı",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-3#3",
+   "karar": "onay",
+   "metin": "olmaz. Doğuda Şantung",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-3#4",
+   "karar": "onay",
+   "metin": "ovasına kadar ordu sevk ettim.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-3#5",
+   "karar": "onay",
+   "metin": "Denize az kala durdum.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-3#6",
+   "karar": "onay",
+   "metin": "Güneyde Dokuz Ersin'e kadar ordu sevk ettim.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-3#7",
+   "karar": "onay",
+   "metin": "Tibet'e az kala durdum.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-4#1",
+   "karar": "onay",
+   "metin": "(İnci ırmağını) geçerek Demir Kapı'ya kadar ordu sevk ettim.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-4#2",
+   "karar": "onay",
+   "metin": "Kuzeyde Yir Bayırku topraklarına kadar ordu sevk ettim.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-4#3",
+   "karar": "onay",
+   "metin": "Bunca diyara kadar (ordularımı) yürüttüm.",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-4#4",
+   "karar": "onay",
+   "metin": "Ötüken dağlarından daha iyi (bir yer)",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-4#5",
+   "karar": "onay",
+   "metin": "asla yok imiş! (Türk halkının yurt edineceği ve) yönetileceği yer Ötüken dağları imiş!",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-4#6",
+   "karar": "onay",
+   "metin": "Bu yerde oturup Çin kağanı ile",
+   "kaynak": "Tekin 1998, s. 19",
+   "tur": "ceviri",
+   "not": "Tekin'in okuması 'Tabgaç bodun birle' (Çin halkı ile); DB transkripsiyonu 'TaBGaÇ KaGaN BİRLE'."
+  },
+  {
+   "id": "KT-G-5#1",
+   "karar": "onay",
+   "metin": "(İlişkileri) düzelttim. (Çinliler) altını, gümüşü,",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-5#2",
+   "karar": "onay",
+   "metin": "ipeği (ve) ipekli kumaşları güçlük çıkarmaksızın öylece (bize) veriyorlar.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-5#3",
+   "karar": "onay",
+   "metin": "Çin halkının sözleri tatlı, ipekli kumaşları yumuşak imiş.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-5#4",
+   "karar": "onay",
+   "metin": "Tatlı sözlerle, yumuşak ipekli kumaşlarla kandırıp uzak(larda yaşayan) halkları öylece (kendilerine) yaklaştırırlar imiş.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-5#5",
+   "karar": "onay",
+   "metin": "Yaklaşıp yerleştikten sonra kötü niyetlerini o zaman düşünürler imiş.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-6#1",
+   "karar": "onay",
+   "metin": "İyi (ve) akıllı kişileri, iyi (ve) cesur kişileri ilerletmezler imiş.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-6#2",
+   "karar": "onay",
+   "metin": "(Öte yandan) bir kişi suç işlese, onun boyuna, halkına (ve) hısım akrabasına kadar (herkesi) öldürmezler imiş.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-6#3",
+   "karar": "onay",
+   "metin": "(Çin halkının) tatlı sözlerine (ve) yumuşak ipekli kumaşlarına kanıp, (ey) Türk halkı, çok sayıda öldün! (Ey) Türk halkı, öleceksin!",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-6#4",
+   "karar": "onay",
+   "metin": "Güneyde Çuğay dağlarına (ve) Töğültün",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-7#1",
+   "karar": "onay",
+   "metin": "ovasına konayım dersen, (ey) Türk halkı, öleceksin! Orada kötü (niyetli) kimseler şöyle akıl verirler",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-7#2",
+   "karar": "onay",
+   "metin": "imiş: \"(Çinliler, bir halk) uzak(ta yaşıyor) ise kötü hediyeler verir,",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-7#3",
+   "karar": "onay",
+   "metin": "yakın(da yaşıyor) ise iyi hediyeler verir\"",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-7#4",
+   "karar": "onay",
+   "metin": "deyip öyle akıl verirler",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-7#5",
+   "karar": "onay",
+   "metin": "imiş. (Ey) cahil kişiler, bu sözlere kanıp, (Çinlilere) yakın gidip çok sayıda öldünüz.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-8#1",
+   "karar": "onay",
+   "metin": "O yere doğru gidersen, (ey) Türk halkı, öleceksin! Ötüken topraklarında oturup (buradan) kervanlar gönderirsen hiç derdin olmaz. Ötüken dağlarında oturursan sonsuza kadar devlet sahibi olup hükmedeceksin. (Ey) Türk halkı, (sen) tok gözlüsün: açlığı tokluğu düşünmezsin; bir (de) doyarsan açlığı (hiç) düşünmezsin. Böyle olduğun",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-9#1",
+   "karar": "onay",
+   "metin": "için, (seni) besleyip doyurmuş olan kağanlarının sözlerini (dinlemeden ve rızalarını) almadan her yere gittin, oralarda hep mahvoldun (ve) tükendin. Oralarda (sağ) kalmış olanlarınız da her yönde bitkin ve mecalsiz (bir halde) yürüyor",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-9#2",
+   "karar": "onay",
+   "metin": "idiniz. Tanrı lütufkâr olduğu için, benim (de) talihim",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-9#3",
+   "karar": "onay",
+   "metin": "olduğu için kağan (olarak tahta) oturdum. Tahta oturup",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-10#1",
+   "karar": "onay",
+   "metin": "yoksul (ve) fakir halkı hep derleyip topladım.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-10#2",
+   "karar": "onay",
+   "metin": "Fakir halkı zengin yaptım.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-10#3",
+   "karar": "onay",
+   "metin": "Az halkı çok yaptım.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-10#4",
+   "karar": "onay",
+   "metin": "Yoksa, bu sözümde yalan var mı? (Ey) Türk beyleri (ve) halkı, bunu işitin!",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-10#5",
+   "karar": "onay",
+   "metin": "Türk (halkının) dirilip (nasıl) devlet sahibi olacağını buraya (taş üzerine) hâkkettim.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-10#6",
+   "karar": "onay",
+   "metin": "Yanılıp (nasıl) öleceğini de",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-11#1",
+   "karar": "onay",
+   "metin": "buraya hâkkettim. (Söyleyecek) her ne sözüm var ise ebedi taşa hâkkettim.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-11#2",
+   "karar": "onay",
+   "metin": "Ona bakarak (bu sözleri) öğrenin.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-11#4",
+   "karar": "onay",
+   "metin": "Çin kağanından nakışçı (ressam ve heykeltıraş) getirttim.",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-11#5",
+   "karar": "onay",
+   "metin": "(Onlara eserimi) bezettim; benim sözümü kırmadı(lar).",
+   "kaynak": "Tekin 1998, s. 20",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-12#1",
+   "karar": "onay",
+   "metin": "Çin kağanının has sanatçılarını gönderdiler.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-12#2",
+   "karar": "onay",
+   "metin": "Onlara olağanüstü bir türbe yaptırttım.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-12#3",
+   "karar": "onay",
+   "metin": "İçine (ve) dışına olağanüstü resim ve heykeller koydurttum.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-12#4",
+   "karar": "onay",
+   "metin": "Taş hâkkettirdim; gönlümdeki sözlerimi yazdırdım.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-13#2",
+   "karar": "onay",
+   "metin": "Yazdırttım. Onu görüp öylece bilin (ve öğrenin).",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-G-13#4",
+   "karar": "onay",
+   "metin": "Bu yazıyı yazan (Kül Tigin'in) yeğeni Yolluğ Tigin'dir.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-1#1",
+   "karar": "onay",
+   "metin": "Üstte mavi gök (yüzü), altta (da) yağız yer yaratıldığında, ikisinin arasında insan oğulları yaratılmış.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-1#2",
+   "karar": "onay",
+   "metin": "İnsan oğullarının üzerine (de) atalarım dedelerim Bumın Kağan (ve) İstemi Kağan (hükümdar olarak) tahta oturmuş.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-1#3",
+   "karar": "onay",
+   "metin": "Tahta oturarak Türk halkının",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-1#4",
+   "karar": "onay",
+   "metin": "devletini (ve) yasalarını yönetivermiş, düzenleyivermişler.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-2#1",
+   "karar": "onay",
+   "metin": "Dört bucak hep düşman imiş.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-2#2",
+   "karar": "onay",
+   "metin": "Ordular sevk ederek dört bucaktaki halkları hep almışlar.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-2#3",
+   "karar": "onay",
+   "metin": "Hep (kendilerine) bağımlı kılmışlar.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-2#4",
+   "karar": "onay",
+   "metin": "Başlılara baş eğdirmiş, dizlilere diz çöktürmüşler.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#1",
+   "karar": "onay",
+   "metin": "Pek örgütsüz (ve düzensiz yaşayan) Gök Türkleri düzene sokarak öylece hüküm sürerler",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#2",
+   "karar": "onay",
+   "metin": "imiş. (Onlar) akıllı hükümdarlar imiş.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#3",
+   "karar": "onay",
+   "metin": "Cesur hükümdarlar imiş.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#4",
+   "karar": "onay",
+   "metin": "(Emirleri altındaki) kumandanları da akıllı imişler",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#5",
+   "karar": "onay",
+   "metin": "şüphesiz, cesur imişler",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#6",
+   "karar": "onay",
+   "metin": "şüphesiz. Beyleri de halkları da barış ve uyum içinde imişler",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#7",
+   "karar": "onay",
+   "metin": "şüphesiz. Onun için devleti öylece yönetmişler",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-3#8",
+   "karar": "onay",
+   "metin": "şüphesiz. Devleti yönetip yasaları düzenlemişler. (Sonra) kendileri öylece",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-4#1",
+   "karar": "onay",
+   "metin": "vefat etmişler. (Cenaze törenlerine) yasçı (ve) ağlayıcı (olarak) doğuda, gün doğusundan Bükli Çöl halkı,",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-4#2",
+   "karar": "onay",
+   "metin": "Çinliler, Tibetliler, Avarlar, Bizanslılar, Kırgızlar, Üç Kurıkanlar, Otuz Tatarlar, Kıtaylar, Tatabılar — bunca halk gelerek ağlamışlar,",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-4#3",
+   "karar": "onay",
+   "metin": "yas tutmuşlar. (Onlar) onca ünlü kağanlar imiş.",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-4#4",
+   "karar": "onay",
+   "metin": "Ondan sonra erkek kardeşleri kağan",
+   "kaynak": "Tekin 1998, s. 21",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#1",
+   "karar": "onay",
+   "metin": "olmuşlar şüphesiz, oğulları",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#2",
+   "karar": "onay",
+   "metin": "kağan olmuşlar şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#3",
+   "karar": "onay",
+   "metin": "Ondan sonra erkek kardeşleri ağabeyleri gibi yaratılmamış şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#4",
+   "karar": "onay",
+   "metin": "Oğulları babaları gibi yaratılmamış şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#5",
+   "karar": "onay",
+   "metin": "Akılsız kağanlar tahta oturmuş",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#6",
+   "karar": "onay",
+   "metin": "şüphesiz, kötü kağanlar tahta oturmuş",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#7",
+   "karar": "onay",
+   "metin": "şüphesiz. (Onların) kumandanları da akılsız imişler şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-5#8",
+   "karar": "onay",
+   "metin": "Kötü imişler şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-6#1",
+   "karar": "onay",
+   "metin": "Beyleri (ve) halkı itaatkâr olmadığı için, Çin halkı hilekâr (ve) sahtekâr olduğu için, aldatıcı olduğu için, erkek kardeşlerle ağabeyleri birbirlerine düşürdüğü için, beylerle halkı karşılıklı kışkırttığı için, Türk halkı, kurduğu devletini elden çıkarıvermiş.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-7#1",
+   "karar": "onay",
+   "metin": "Tahta oturttuğu kağanını kaybedivermiş.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-7#2",
+   "karar": "onay",
+   "metin": "(Bu yüzden) Çin halkına, bey olmağa lâyık erkek evlâdı kul oldu.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-7#3",
+   "karar": "onay",
+   "metin": "Hanım olmağa lâyık kız evlâdı (da) cariye",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-7#4",
+   "karar": "onay",
+   "metin": "oldu. Türk beyleri Türk ünvanlarını bıraktı.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-7#5",
+   "karar": "onay",
+   "metin": "Çinlilerin hizmetindeki (Türk) beyleri, Çin ünvanları alarak Çin kağanına",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-8#1",
+   "karar": "onay",
+   "metin": "tâbi olmuşlar. Elli yıl hizmet etmişler.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-8#2",
+   "karar": "onay",
+   "metin": "Doğuda, gün doğusunda Bükli kağanına kadar sefer edivermişler.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-8#3",
+   "karar": "onay",
+   "metin": "Batıda Demir Kapı'ya kadar sefer edivermişler.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-8#4",
+   "karar": "onay",
+   "metin": "Çin kağanı için (böylece) fetihler yapmış, ülkeler almışlar.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-8#5",
+   "karar": "onay",
+   "metin": "Türk avam",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-9#1",
+   "karar": "onay",
+   "metin": "tabakası şöyle demiş:",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-9#2",
+   "karar": "onay",
+   "metin": "\"Devlet sahibi (bir) halk idim;",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-9#3",
+   "karar": "onay",
+   "metin": "devletim şimdi nerde? Kimin için ülkeler fethediyorum?\" der imiş.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-9#4",
+   "karar": "onay",
+   "metin": "\"Kağan sahibi (bir) halk idim;",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-9#5",
+   "karar": "onay",
+   "metin": "kağanım nerde? Hangi kağana hizmet ediyorum?\" der imiş.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-9#6",
+   "karar": "onay",
+   "metin": "Böyle deyip Çin kağanına düşman olmuş.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-11#1",
+   "karar": "onay",
+   "metin": "ve su (ruhları) şöyle yapmışlar:",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-11#2",
+   "karar": "onay",
+   "metin": "Türk halkı yok olmasın diye, halk olsun diye, babam İlteriş Kağanı (ve) annem İlbilge Hatunu göğün tepesinden tutup (daha) yükseğe kaldırmışlar",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-11#3",
+   "karar": "onay",
+   "metin": "muhakkak ki. Babam Kağan on yedi adamla baş kaldırmış. (İlteriş) dışarı",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-12#1",
+   "karar": "onay",
+   "metin": "baş kaldırıyor diye haber alıp şehirdekiler dağa çıkmış,",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-12#2",
+   "karar": "onay",
+   "metin": "dağdakiler (şehre) inmiş, derlenip toplanıp yetmiş",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-12#3",
+   "karar": "onay",
+   "metin": "kişi olmuşlar. Tanrı güç vermiş olduğu için, babam kağanın askerleri kurt gibi imiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-12#4",
+   "karar": "onay",
+   "metin": "Düşmanları (da) koyun gibi imiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-12#5",
+   "karar": "onay",
+   "metin": "Doğuya (ve) batıya sefer edip (adam) toplamış (ve) yığmış. (Sonunda) hepsi",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-13#1",
+   "karar": "onay",
+   "metin": "yedi yüz kişi olmuşlar. Yedi yüz kişi olup devletsiz kalmış,",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-13#2",
+   "karar": "onay",
+   "metin": "kağansız kalmış halkı, cariye olmuş,",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-13#3",
+   "karar": "onay",
+   "metin": "kul olmuş halkı, Türk örf ve âdetlerini bırakmış",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-13#4",
+   "karar": "onay",
+   "metin": "halkı atalarımın dedelerimin töresince (yeniden) yaratmış",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-13#5",
+   "karar": "onay",
+   "metin": "(ve) eğitmiş. Tölis (ve) Tarduş halklarını o vakit düzenlemiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-14#1",
+   "karar": "onay",
+   "metin": "Yabgu'yu (ve) Şad'ı o vakit (onlara) vermiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-14#2",
+   "karar": "onay",
+   "metin": "Güneyde Çin halkı düşman imiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-14#3",
+   "karar": "onay",
+   "metin": "Kuzeyde bağımlı Kağan, Dokuz Oğuz halkı düşman imiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-14#4",
+   "karar": "onay",
+   "metin": "Kırgızlar, Kurıkanlar, Otuz Tatarlar, Kıtaylar (ve) Tatabılar hep düşman imiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-15#1",
+   "karar": "onay",
+   "metin": "Kırk yedi",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-15#2",
+   "karar": "onay",
+   "metin": "kez sefer etmiş, yirmi (kez) savaşmış.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-15#3",
+   "karar": "onay",
+   "metin": "Tanrı (öyle) buyurduğu için, devletliyi devletsiz bırakmış.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-15#4",
+   "karar": "onay",
+   "metin": "Kağanlıyı kağansız bırakmış, düşmanları bağımlı kılmış.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-15#5",
+   "karar": "onay",
+   "metin": "Dizlilere diz çöktürmüş, başlılara baş eğdirmiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-15#6",
+   "karar": "onay",
+   "metin": "Babam kağan, öylece devleti",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-16#1",
+   "karar": "onay",
+   "metin": "yasaları koyup vefat etmiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-16#2",
+   "karar": "onay",
+   "metin": "Babam kağan için (amcam kağan) önce bağımlı kağanı balbal (olarak) dikmiş.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-16#3",
+   "karar": "onay",
+   "metin": "Yasa uyarınca amcam kağan tahta oturdu.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-16#4",
+   "karar": "onay",
+   "metin": "Amcam kağan tahta oturup Türk halkını yeniden düzenledi.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-16#5",
+   "karar": "onay",
+   "metin": "(Halkı yeniden) doyurdu; yoksulu zengin etti.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-16#6",
+   "karar": "onay",
+   "metin": "Azı çoğalttı.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-17#1",
+   "karar": "onay",
+   "metin": "Amcam kağan tahta oturduğunda ben Tarduş halkı üzerine Şad idim.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-17#2",
+   "karar": "onay",
+   "metin": "Amcam kağan ile doğuda Sarı ırmağa (ve) Şantung",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-17#3",
+   "karar": "onay",
+   "metin": "ovasına kadar sefer ettik.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-17#4",
+   "karar": "onay",
+   "metin": "Batıda Demir Kapı'ya kadar sefer ettik.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-17#5",
+   "karar": "onay",
+   "metin": "Kögmen (dağlarını) aşıp Kırgız ülkesine kadar sefer ettik.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-18#1",
+   "karar": "onay",
+   "metin": "Toplam yirmi beş (kez) sefer ettik.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-18#2",
+   "karar": "onay",
+   "metin": "On üç (kez) savaştık. Devletliyi devletsiz bıraktık.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-18#3",
+   "karar": "onay",
+   "metin": "Kağanlıyı kağansız bıraktık; dizlilere diz çöktürdük.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-18#4",
+   "karar": "onay",
+   "metin": "Başlılara baş eğdirdik. Türgiş Kağanı (kendi) Türkümüz, (kendi) halkımız idi. Bilgisizliği",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-19#1",
+   "karar": "onay",
+   "metin": "yüzünden, bize karşı hatalı hareket ettiğinden, kağanları öldü.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-19#2",
+   "karar": "onay",
+   "metin": "Kumandanları (ve) beyleri de öldü.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-19#3",
+   "karar": "onay",
+   "metin": "On-Ok halkı ıztırap gördü.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-19#4",
+   "karar": "onay",
+   "metin": "Atalarımızın dedelerimizin zaptettiği",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-20#1",
+   "karar": "onay",
+   "metin": "Bars bey idi.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-20#2",
+   "karar": "onay",
+   "metin": "Kağan ünvanını burada (ona) biz verdik.",
+   "kaynak": "Tekin 1998, s. 23",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-20#3",
+   "karar": "onay",
+   "metin": "(Eş olarak da) kız kardeşim prensesi verdik.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-20#4",
+   "karar": "onay",
+   "metin": "(Buna rağmen) kendisi hata işledi; kağanı öldü.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-20#5",
+   "karar": "onay",
+   "metin": "Halkı (da) kul köle oldu.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-20#6",
+   "karar": "onay",
+   "metin": "Kögmen ülkesi sahipsiz kalmasın diye Az (ve) Kırgız halklarını örgütleyip geldik.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-21#1",
+   "karar": "onay",
+   "metin": "yeniden verdik. Doğuda Kingan dağlarının ötesine (kadar) halklarımızı öylece yerleştirdik.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-21#2",
+   "karar": "onay",
+   "metin": "Öylece örgütledik. Batıda Kengü Tarman'a kadar Türk halkını öylece yerleştirdik.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-21#3",
+   "karar": "onay",
+   "metin": "Öylece örgütledik. O devirde köleler (bile) köleli olmuş idi.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-21#4",
+   "karar": "onay",
+   "metin": "Cariyeler (bile) kadın hizmetkârlı olmuş idi.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-21#5",
+   "karar": "onay",
+   "metin": "Erkek kardeş ağabeyini bilmez idi.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-21#6",
+   "karar": "onay",
+   "metin": "Oğul babasını bilmez idi.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-22#1",
+   "karar": "onay",
+   "metin": "Onca kazanılmış (ve) onca düzenlenmiş",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-22#2",
+   "karar": "onay",
+   "metin": "devletimiz (ve) yasalarımız vardı.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-22#3",
+   "karar": "onay",
+   "metin": "(Ey) Türk, Oğuz beyleri (ve) halkı, işitin!",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-22#4",
+   "karar": "onay",
+   "metin": "Üstte(ki) gök çökmedikçe, altta(ki) yer (de) delinmedikçe, (ey) Türk halkı, (senin) devletini (ve) yasalarını kim yıkıp",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-22#5",
+   "karar": "onay",
+   "metin": "bozabilirdi? (Ey) Türk halkı, (kötü huyundan) vazgeç",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-23#1",
+   "karar": "onay",
+   "metin": "(ve) nâdim ol! İtaatsizliğin yüzünden, (seni) besleyip doyurmuş olan",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-23#2",
+   "karar": "onay",
+   "metin": "akıllı kağanın ile bağımsız",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-23#3",
+   "karar": "onay",
+   "metin": "(ve) müreffeh devletine (karşı) kendin",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-23#4",
+   "karar": "onay",
+   "metin": "hatâ ettin (ve) nifak soktun. Silâhlı (düşman) nereden gelip (seni) bozguna uğrattı (ve) dağıttı?",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-23#5",
+   "karar": "onay",
+   "metin": "Mızraklı (düşman) nereden gelip de (seni yerinden yurdundan) sürüp kaçırttı?",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-23#6",
+   "karar": "onay",
+   "metin": "Kutsal Ötüken dağları halkı, (yerini yurdunu bırakıp) gittin. Doğuya gidenleriniz",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-24#1",
+   "karar": "onay",
+   "metin": "gittiniz, batıya gidenleriniz gittiniz. Gittiğiniz yerlerde kazancınız şu oldu, hiç şüphesiz:",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-24#2",
+   "karar": "onay",
+   "metin": "Kanlarınız ırmaklar gibi aktı.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-24#3",
+   "karar": "onay",
+   "metin": "Kemikleriniz dağlar gibi yığıldı.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-24#4",
+   "karar": "onay",
+   "metin": "Bey olacak erkek evlâdınız",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-24#5",
+   "karar": "onay",
+   "metin": "köle oldu, hanım olacak kız evlâdınız",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-24#6",
+   "karar": "onay",
+   "metin": "cariye oldu. Bilgisizliğiniz yüzünden, kötü (davranışlarınız) yüzünden, amcam kağan vefat etti.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-25#1",
+   "karar": "onay",
+   "metin": "(Amcam kağan için) önce Kırgız kağanını balbal (olarak) diktim.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-25#2",
+   "karar": "onay",
+   "metin": "Türk halkının adı",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-25#3",
+   "karar": "onay",
+   "metin": "sanı yok olmasın diye, babam kağanı (ve) annem hatunu yüceltmiş olan",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-25#4",
+   "karar": "onay",
+   "metin": "Tanrı, devlet veren Tanrı, Türk halkı(nın) adı",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-25#5",
+   "karar": "onay",
+   "metin": "sanı yok olmasın diye, beni o Tanrı",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-26#1",
+   "karar": "onay",
+   "metin": "kağan (olarak tahta) oturttu, hiç şüphesiz.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-26#2",
+   "karar": "onay",
+   "metin": "(Ben) hiç de zengin ve müreffeh (bir) halk üzerine hükümdar olmadım.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-26#3",
+   "karar": "onay",
+   "metin": "(Tam tersine) karnı aç, sırtı çıplak, yoksul ve sefil (bir) halk üzerine hükümdar oldum.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-26#4",
+   "karar": "onay",
+   "metin": "Kardeşim Kül Tigin ile sözleştik.",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-26#5",
+   "karar": "onay",
+   "metin": "Babamızın (ve) amcamızın kazanmış olduğu",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-26#6",
+   "karar": "onay",
+   "metin": "halkın adı sanı yok olmasın",
+   "kaynak": "Tekin 1998, s. 24",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-27#1",
+   "karar": "onay",
+   "metin": "diye, Türk halkı için gece uyumadım.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-27#2",
+   "karar": "onay",
+   "metin": "Gündüz oturmadım. Kardeşim Kül Tigin ile, iki Şad ile (birlikte) ölesiye yitesiye",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-27#3",
+   "karar": "onay",
+   "metin": "çalıştım, çabaladım. Öylece çalışıp çabalayıp birleşik halkı ateş (ile) su (gibi birbirine düşman) etmedim.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-27#4",
+   "karar": "onay",
+   "metin": "Ben kendim kağan olduğumda, her yere",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-28#1",
+   "karar": "onay",
+   "metin": "gitmiş olan halk, öle yite,",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-28#2",
+   "karar": "onay",
+   "metin": "yayan yapıldak dönüp geldi.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-28#3",
+   "karar": "onay",
+   "metin": "Halkı besleyip doyurayım diye kuzeyde Oğuz halkına doğru, doğuda Kıtay (ve) Tatabı halklarına doğru, güneyde (de) Çin'e doğru on iki kez büyük ordu sevk ettim.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-28#4",
+   "karar": "onay",
+   "metin": "Savaştım. Ondan",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-29#1",
+   "karar": "onay",
+   "metin": "sonra, Tanrı esirgesin, ilâhi lütfum",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-29#2",
+   "karar": "onay",
+   "metin": "olduğu için, kısmetim olduğu için, ölecek halkı diriltip doyurdum.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-29#3",
+   "karar": "onay",
+   "metin": "Çıplak halkı giyimli, yoksul halkı zengin kıldım.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-29#4",
+   "karar": "onay",
+   "metin": "Sayıca az olan halkı çoğalttım.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-29#5",
+   "karar": "onay",
+   "metin": "Güçlü devleti olandan, güçlü kağanı olandan daha iyi kıldım. Dört bucaktaki",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-30#1",
+   "karar": "onay",
+   "metin": "halkları hep (kendime) bağımlı kıldım.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-30#2",
+   "karar": "onay",
+   "metin": "(Türk halkını) düşmansız kıldım; (bu halkların) hepsi bana bağımlı oldular.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-30#3",
+   "karar": "onay",
+   "metin": "(Bana) hizmet ediyorlar.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-30#4",
+   "karar": "onay",
+   "metin": "Bunca çalışıp çabalayıp kardeşim Kül Tigin kendisi öylece vefat etti.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-30#5",
+   "karar": "onay",
+   "metin": "Babam kağan vefat ettiğinde kardeşim Kül Tigin yedi",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-31#1",
+   "karar": "onay",
+   "metin": "Umay gibi annem hatunun kutu sayesinde, kardeşim Kül Tigin erkeklik adını elde etti.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-31#2",
+   "karar": "onay",
+   "metin": "On altı yaşında, amcam Kağanın devleti (ve) yasaları için şöyle başarılar kazandı:",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-31#3",
+   "karar": "onay",
+   "metin": "Altı bölgeli Soğdaklara doğru sefer ettik.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-31#4",
+   "karar": "onay",
+   "metin": "(Onları) bozguna uğrattık. (Bu sırada) Çinli vali Ong, elli bin (kişilik bir) ordu (ile üzerimize) geldi; savaştık.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-32#1",
+   "karar": "onay",
+   "metin": "Kül Tigin yaya olarak atılıp hücum etti. Vali Ong'un kayın biraderini, silâhlı (iken), el(i) ile yakaladı.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-32#2",
+   "karar": "onay",
+   "metin": "Silâhlı olarak Kağana takdim etti.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-32#3",
+   "karar": "onay",
+   "metin": "O orduyu orada yok ettik.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-32#4",
+   "karar": "onay",
+   "metin": "(Kül Tigin) yirmi bir yaşında (iken) General Çaça ile savaştık.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-32#5",
+   "karar": "onay",
+   "metin": "(Kül Tigin) ilk önce Tadık Çor'un",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-32#6",
+   "karar": "onay",
+   "metin": "boz atına binip hücum etti. O at orada",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-33#1",
+   "karar": "onay",
+   "metin": "öldü. İkinci olarak Işbara Yamtar'ın boz atına binip hücum etti. O at (da) orada öldü.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-33#2",
+   "karar": "onay",
+   "metin": "Üçüncü olarak Yeğen Siliğ Bey'in",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-33#3",
+   "karar": "onay",
+   "metin": "giyimli doru atına binip hücum etti. O at (da) orada öldü.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-33#4",
+   "karar": "onay",
+   "metin": "Zırhına (ve) kaftanına yüzden fazla ok vurdular.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-33#5",
+   "karar": "onay",
+   "metin": "Yüzüne (ve) başına bir (tanesi bile) değmedi.",
+   "kaynak": "Tekin 1998, s. 25",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-34#1",
+   "karar": "onay",
+   "metin": "hücum ettiğini, (ey) Türk beyleri, hepiniz bilirsiniz. O orduyu orada yok ettik.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-34#2",
+   "karar": "onay",
+   "metin": "Ondan sonra, Yir Bayırkuların Ulu İrkin'i (bize) düşman oldu.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-34#3",
+   "karar": "onay",
+   "metin": "Onu dağıtıp Türgi Yargun gölde bozguna uğrattık.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-34#4",
+   "karar": "onay",
+   "metin": "Ulu İrkin azıcık erle kaçıp gitti.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-34#5",
+   "karar": "onay",
+   "metin": "Kül Tigin yirmi altı",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-35#1",
+   "karar": "onay",
+   "metin": "yaşında (iken) Kırgızlara doğru sefer ettik.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-35#2",
+   "karar": "onay",
+   "metin": "Mızrak batımı karı söküp Kögmen dağlarını aşarak Kırgız halkını uykuda (iken) bastık.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-35#3",
+   "karar": "onay",
+   "metin": "Kağanları ile Songa dağında savaştık.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-35#4",
+   "karar": "onay",
+   "metin": "Kül Tigin Bayırkuların ak aygırına",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-36#1",
+   "karar": "onay",
+   "metin": "binip süratle atılarak hücum etti. Bir eri okla vurdu.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-36#2",
+   "karar": "onay",
+   "metin": "İki eri (de) kovalayıp mızrakladı.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-36#3",
+   "karar": "onay",
+   "metin": "O hücumda, Bayırkuların",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-36#4",
+   "karar": "onay",
+   "metin": "ak aygırını, uyluğunu kırıp vurdular.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-36#5",
+   "karar": "onay",
+   "metin": "Kırgız Kağanını öldürdük.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-36#6",
+   "karar": "onay",
+   "metin": "Ülkesini aldık. O yıl Türgişlere doğru, Altay dağlarını",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-37#1",
+   "karar": "onay",
+   "metin": "aşarak (ve) İrtiş ırmağını geçerek yürüdük.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-37#2",
+   "karar": "onay",
+   "metin": "Türgiş halkını uykuda (iken) bastık.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-37#3",
+   "karar": "onay",
+   "metin": "Türgiş Kağanının ordusu Bolçu'da ateş gibi, kasırga gibi (üzerimize) geldi.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-38#2",
+   "karar": "onay",
+   "metin": "Orada yine (düşman hatları içine) girip Türgiş Kağanının kumandanı Az valisini el(i) ile yakaladı.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-38#3",
+   "karar": "onay",
+   "metin": "(Türgişlerin) kağanını orada öldürdük.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-38#4",
+   "karar": "onay",
+   "metin": "Ülkesini aldık. Türgişlerin avam halkı hep (bize) tâbi oldu.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-38#5",
+   "karar": "onay",
+   "metin": "O halkı Tabar'da yerleştirdik.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-39#1",
+   "karar": "onay",
+   "metin": "Soğdak halkını düzene sokayım diye İnci (Sır Derya) ırmağını geçerek Demir Kapı'ya kadar sefer ettik.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-39#2",
+   "karar": "onay",
+   "metin": "Ondan sonra Türgiş avam halkı (yine) düşman olmuş.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-39#3",
+   "karar": "onay",
+   "metin": "Kengeres'e doğru gittiler.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-39#4",
+   "karar": "onay",
+   "metin": "Bizim askerlerimizin atları",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-39#5",
+   "karar": "onay",
+   "metin": "zayıftı, yiyecekleri (de) yok idi.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-40#1",
+   "karar": "onay",
+   "metin": "cesur erler bize hücum etmişler",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-40#2",
+   "karar": "onay",
+   "metin": "idi. (Kötü şartların bir araya geldiği) böyle bir zamana hayıflanıp Kül Tigin'i az (miktarda) er ile ulaştırıp gönderdik.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-40#3",
+   "karar": "onay",
+   "metin": "Büyük savaş savaşmış.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-40#4",
+   "karar": "onay",
+   "metin": "Alp Şalçı kır atına binip hücum etmiş.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-40#5",
+   "karar": "onay",
+   "metin": "Türgiş avam halkını orada öldürmüş.",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-D-40#6",
+   "karar": "onay",
+   "metin": "(Tutsak) almış. Yine yürüyüp",
+   "kaynak": "Tekin 1998, s. 26",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-1#2",
+   "karar": "onay",
+   "metin": "Adamlarını hep öldürmüş.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-1#3",
+   "karar": "onay",
+   "metin": "Evlerini mallarını eksiksiz hep getirdi.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-1#4",
+   "karar": "onay",
+   "metin": "Kül Tigin yirmi yedi yaşında (iken) Karluk halkı (serbestçe) hareket eden",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-1#5",
+   "karar": "onay",
+   "metin": "(bir) düşman oldu.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-1#6",
+   "karar": "onay",
+   "metin": "(Onlarla) Tamag kutsal tepesinde savaştık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-2#1",
+   "karar": "onay",
+   "metin": "(Kül) Tigin o savaşta otuz yaşını yaşıyor",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-2#2",
+   "karar": "onay",
+   "metin": "idi. Alp Şalçı kır atına binip sabırsızca hücum etti; iki eri kovalayıp mızrakladı.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-2#3",
+   "karar": "onay",
+   "metin": "Karlukları öldürdük, (tutsak) aldık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-2#4",
+   "karar": "onay",
+   "metin": "(O sırada) Az halkı (da) düşman oldu.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-2#5",
+   "karar": "onay",
+   "metin": "(Onlarla) Kara gölde savaştık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-2#6",
+   "karar": "onay",
+   "metin": "Kül Tigin otuz bir yaşını yaşıyor",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-2#7",
+   "karar": "onay",
+   "metin": "idi. Alp Şalçı kır atına",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-3#1",
+   "karar": "onay",
+   "metin": "binip sabırsızca hücum etti. Azların İlteber'ini tuttu.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-3#2",
+   "karar": "onay",
+   "metin": "Az halkı orada yok oldu.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-3#3",
+   "karar": "onay",
+   "metin": "Amcam kağanın devleti sarsıldığında, halk (ve) hükümdar ikiye ayrıldığında, İzgil",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-3#4",
+   "karar": "onay",
+   "metin": "halkı ile savaştık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-3#5",
+   "karar": "onay",
+   "metin": "Kül Tigin Alp Şalçı kır atına binip",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-4#1",
+   "karar": "onay",
+   "metin": "sabırsızca hücum etti. O at orada düştü.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-4#2",
+   "karar": "onay",
+   "metin": "İzgil halkı öldü.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-4#3",
+   "karar": "onay",
+   "metin": "Dokuz Oğuz halkı kendi",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-4#4",
+   "karar": "onay",
+   "metin": "halkım idi. Gök (ile) yer (arasındaki) karışıklık nedeniyle (bize) düşman oldular.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-4#5",
+   "karar": "onay",
+   "metin": "(Onlarla) bir yılda beş kez savaştık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-4#6",
+   "karar": "onay",
+   "metin": "İlk önce Toğu şehrinde savaştık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-5#1",
+   "karar": "onay",
+   "metin": "Kül Tigin Azman kır atına binip sabırsızca hücum etti. Altı",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-5#2",
+   "karar": "onay",
+   "metin": "eri mızrakladı; ordular kapıştığında (da) yedinci eri kılıçladı.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-5#3",
+   "karar": "onay",
+   "metin": "İkinci olarak Koşulgak'ta Edizlerle savaştık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-5#4",
+   "karar": "onay",
+   "metin": "Kül Tigin Az yağızına binip sabırsızca hücum ederek bir eri mızrakladı.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-6#1",
+   "karar": "onay",
+   "metin": "Dokuz eri (de) kuşatarak dövdü.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-6#2",
+   "karar": "onay",
+   "metin": "Ediz halkı orada öldü.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-6#3",
+   "karar": "onay",
+   "metin": "Üçüncü olarak Bolçu'da Oğuzlarla savaştık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-6#4",
+   "karar": "onay",
+   "metin": "Kül Tigin Azman kır atına binip hücum etti, mızrakladı.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-6#5",
+   "karar": "onay",
+   "metin": "Askerlerini mızrakladık, ülkelerini aldık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-6#6",
+   "karar": "onay",
+   "metin": "Dördüncü olarak Çuş başında savaştık. Türk",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-7#1",
+   "karar": "onay",
+   "metin": "halkı(nın) ayağı sendeledi.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-7#2",
+   "karar": "onay",
+   "metin": "Perişan olacak idi.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-7#3",
+   "karar": "onay",
+   "metin": "Süratle gelen (düşman) ordusunu Kül Tigin dağıtıp Tongralardan bir grup yiğit on eri Tonga Tigin'in cenaze töreninde kuşatarak öldürdük.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-7#4",
+   "karar": "onay",
+   "metin": "Beşinci olarak Ezgenti Kadız'da Oğuzlarla savaştık. Kül Tigin",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-8#1",
+   "karar": "onay",
+   "metin": "Az yağız atına binip hücum etti; iki eri mızrakladı.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-8#2",
+   "karar": "onay",
+   "metin": "(Düşman) şehre varamadı; o ordu orada öldü.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-8#3",
+   "karar": "onay",
+   "metin": "Amga koruganında kışlayıp (o yılın) ilk baharında Oğuzlara doğru ordu sevk ettik.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-8#4",
+   "karar": "onay",
+   "metin": "Kül Tigin'i karargâhın başında bıraktık.",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-8#5",
+   "karar": "onay",
+   "metin": "Düşman Oğuzlar karargâhı bastılar. Kül Tigin",
+   "kaynak": "Tekin 1998, s. 27",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-9#1",
+   "karar": "onay",
+   "metin": "öksüz ak atına binip dokuz eri mızrakladı.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-9#2",
+   "karar": "onay",
+   "metin": "Karargâhı (düşmana) vermedi. (Kül Tigin olmasaydı) annem hatun başta olmak üzere (diğer) annelerim, ablalarım, gelinlerim, prenseslerim, bunca hayatta kalanlar cariye olacak idi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-9#3",
+   "karar": "onay",
+   "metin": "Ölenler (de) yazıda yabanda yata kalacak idiniz.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-10#1",
+   "karar": "onay",
+   "metin": "Kül Tigin olmasa (idi) hep ölecek idiniz. Kardeşim Kül Tigin vefat etti.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-10#2",
+   "karar": "onay",
+   "metin": "Kendim yas tuttum. Gören",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-10#3",
+   "karar": "onay",
+   "metin": "gözlerim görmez gibi, eren aklım ermez gibi oldu.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-10#4",
+   "karar": "onay",
+   "metin": "Kendim düşünceye daldım. Zaman Tanrısı (öyle) buyurunca insan oğlu hep ölümlü yaratılmış.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-11#1",
+   "karar": "onay",
+   "metin": "Öyle düşündüm. Gözlerimden yaş gelse engel olarak, gönülden feryat gelse geri çevirerek yas tuttum.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-11#2",
+   "karar": "onay",
+   "metin": "Çok yas tuttum. İki Şad başta olmak üzere kardeşlerimin, oğullarımın, beylerimin (ve) halkımın gözleri kaşları berbat olacak diye kaygılandım.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-11#3",
+   "karar": "onay",
+   "metin": "Yasçı (ve) ağlayıcı (olarak) Kıtay (ve) Tatabı halkları (temsilcilerinin) başında",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-12#1",
+   "karar": "onay",
+   "metin": "General Udar geldi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-12#2",
+   "karar": "onay",
+   "metin": "Çin İmparatorundan (temsilcisi olarak) İşiyi Likeng geldi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-12#3",
+   "karar": "onay",
+   "metin": "Binlerce ipekli kumaş, altın (ve) gümüş (eşyayı)",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-12#4",
+   "karar": "onay",
+   "metin": "gereğinden fazla getirdi. Tibet Kağanından (temsilcisi olarak) Bölön geldi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-12#5",
+   "karar": "onay",
+   "metin": "Geride, gün batısındaki Soğdlar, İranlılar (ve) Buhara şehri halkından General Nek (ve) Oğul Tarkan geldi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-13#1",
+   "karar": "onay",
+   "metin": "On-Ok oğlum Türgiş kağanından mühürdar Makaraç (ve) mühürdar Oğuz Bilge geldi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-13#2",
+   "karar": "onay",
+   "metin": "Kırgız kağanından Tarduş İnançu Çor geldi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-K-13#3",
+   "karar": "onay",
+   "metin": "Türbe yapımcısı, süsleme sanatçısı (ve) mezar taşı ustası (olarak) Çin imparatorunun yeğeni General Çang geldi.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-KD-1#1",
+   "karar": "onay",
+   "metin": "Kül Tigin Koyun yılının on yedi",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-KD-1#2",
+   "karar": "onay",
+   "metin": "(nci günün)de vefat etti. Dokuzuncu ayın yirmi yedi",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-KD-1#3",
+   "karar": "onay",
+   "metin": "sinde yas törenini tamamladık.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-KD-1#4",
+   "karar": "onay",
+   "metin": "Türbesini, resimlerini-heykellerini (ve) kitabe taşını Maymun yılının yedinci ayının yirmi",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-KD-1#5",
+   "karar": "onay",
+   "metin": "yedisinde hep bitirdik.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-KD-1#6",
+   "karar": "onay",
+   "metin": "Kül Tigin kendisi kırk yedi",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-GD-1#1",
+   "karar": "onay",
+   "metin": "Bunca yazıyı yazan: Kül Tigin'in yeğeni Yolluğ Tigin, (ben), yazdım.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-GD-1#2",
+   "karar": "onay",
+   "metin": "Yirmi gün oturup bu taşa, bu duvara hep Yolluğ Tigin, (ben) yazdım.",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-GD-1#3",
+   "karar": "onay",
+   "metin": "(Halkınızı) değerli evladınızdan, tay (gibi) oğullarınızdan daha iyi besliyor",
+   "kaynak": "Tekin 1998, s. 28",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-GB-1#2",
+   "karar": "onay",
+   "metin": "Yolluğ Tigin (yazıcı).",
+   "kaynak": "Tekin 1998, s. 8",
+   "tur": "ceviri"
+  },
+  {
+   "id": "KT-B-1#2",
+   "karar": "onay",
+   "metin": "Kardeşim Kül Tigin ölesiye yitesiye hizmet ettiği için, Türk Bilge Kağan mülküne, kardeşim Kül Tigin'i gözeterek (hükümdar olarak oturdum).",
+   "kaynak": "Tekin 1998, s. 29",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-1#1",
+   "karar": "onay",
+   "metin": "Tanrı gibi, Tanrı('nın) tahta oturttuğu",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-2#1",
+   "karar": "onay",
+   "metin": "üzerine kağan oturdum.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-2#2",
+   "karar": "onay",
+   "metin": "(Tahta) oturduğumda, ölecekmiş gibi düşünceli olan Türk beyleri (ve) halkı kıvanıp sevinip yere eğilmiş",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-2#4",
+   "karar": "onay",
+   "metin": "Üstte mavi gök (yüzü), altta (da) yağız yer yaratıldığında, ikisinin arasında insan oğulları yaratılmış.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#1",
+   "karar": "onay",
+   "metin": "İnsan oğullarının üzerinde (de) atalarım dedelerim Bumın Kağan, İstemi Kağan (hükümdar olarak) tahta oturmuş.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#2",
+   "karar": "onay",
+   "metin": "Tahta oturarak Türk halkının",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#3",
+   "karar": "onay",
+   "metin": "devletini (ve) yasalarını yönetivermiş.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#4",
+   "karar": "onay",
+   "metin": "Düzenleyivermişler. Dört bucak",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#5",
+   "karar": "onay",
+   "metin": "hep düşman imiş.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#6",
+   "karar": "onay",
+   "metin": "Ordular sevk ederek dört bucaktaki halkları hep almış.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#7",
+   "karar": "onay",
+   "metin": "Hep (kendilerine) bağımlı kılmışlar.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#8",
+   "karar": "onay",
+   "metin": "Başlılara baş eğdirmiş, dizlilere diz çöktürmüşler.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-3#9",
+   "karar": "onay",
+   "metin": "Doğuda Kingan dağlarına kadar, batıda",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#1",
+   "karar": "onay",
+   "metin": "Demir Kapı'ya kadar (halklarını) yerleştirmişler.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#2",
+   "karar": "onay",
+   "metin": "(Bu) iki (sınır) arasında, pek",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#3",
+   "karar": "onay",
+   "metin": "örgütsüz (ve düzensiz yaşayan) Gök Türkleri düzene sokarak öylece hükmederler",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#4",
+   "karar": "onay",
+   "metin": "imiş. (Onlar) akıllı kağanlar imiş.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#5",
+   "karar": "onay",
+   "metin": "Yiğit kağanlar imiş.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#6",
+   "karar": "onay",
+   "metin": "(Emirleri altındaki) kumandanları (da) akıllı imişler",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#7",
+   "karar": "onay",
+   "metin": "şüphesiz, yiğit imişler",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#8",
+   "karar": "onay",
+   "metin": "şüphesiz. Beyleri de halkları da barış ve uyum içinde imişler",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#9",
+   "karar": "onay",
+   "metin": "şüphesiz. Onun için devleti öylece yönetmişler",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#10",
+   "karar": "onay",
+   "metin": "şüphesiz. Devleti yönetip yasaları düzenlemişler.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-4#11",
+   "karar": "onay",
+   "metin": "(Sonra) kendileri öylece vefat etmişler.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-5#1",
+   "karar": "onay",
+   "metin": "(Cenaze törenlerine) yasçı (ve) ağlayıcı (olarak) doğuda gün doğusundan Bükli Çöl halkı,",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-5#2",
+   "karar": "onay",
+   "metin": "Çinliler, Tibetliler, Avarlar, Bizanslılar, Kırgızlar, Üç Kurıkanlar, Otuz Tatarlar, Kıtaylar, Tatabılar — bunca halk gelerek ağlamışlar,",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-5#3",
+   "karar": "onay",
+   "metin": "yas tutmuşlar. (Onlar) onca ünlü kağanlar imiş.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-5#4",
+   "karar": "onay",
+   "metin": "Ondan sonra kardeşleri kağan olmuşlar şüphesiz.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-5#5",
+   "karar": "onay",
+   "metin": "Oğulları kağan olmuşlar şüphesiz.",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-5#6",
+   "karar": "onay",
+   "metin": "Ondan sonra kardeşleri ağabeyleri gibi",
+   "kaynak": "Tekin 1998, s. 33",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-6#1",
+   "karar": "onay",
+   "metin": "yaratılmamış şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri",
+   "not": "BK D6, KT D5-6 ile birebir paralel; çeviri Tekin'in KT karşılığından (s. 22) verildi."
+  },
+  {
+   "id": "BK-D-6#2",
+   "karar": "onay",
+   "metin": "Oğulları babaları gibi yaratılmamış şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-6#3",
+   "karar": "onay",
+   "metin": "Akılsız kağanlar tahta oturmuş",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-6#4",
+   "karar": "onay",
+   "metin": "şüphesiz, kötü kağanlar tahta oturmuş",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-6#5",
+   "karar": "onay",
+   "metin": "şüphesiz. Kumandanları da akılsız",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-6#6",
+   "karar": "onay",
+   "metin": "imişler şüphesiz.",
+   "kaynak": "Tekin 1998, s. 22",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-7#1",
+   "karar": "onay",
+   "metin": "karşılıklı kışkırttığı için, Türk halkı kurduğu devletini elden çıkarıvermiş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-7#2",
+   "karar": "onay",
+   "metin": "Tahta oturttuğu kağanını kaybedivermiş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-7#3",
+   "karar": "onay",
+   "metin": "(Türk halkı) Çin halkına bey olmağa lâyık erkek evlâdını kul yaptı.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-7#4",
+   "karar": "onay",
+   "metin": "Hanım olmağa lâyık kız evlâdını (da) cariye",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-7#5",
+   "karar": "onay",
+   "metin": "yaptı. Türk beyleri Türk ünvanlarını bıraktı.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-7#6",
+   "karar": "onay",
+   "metin": "Çinlilerin hizmetindeki Türk beyleri Çin ünvanlarını alarak Çin kağanına tâbi olmuşlar. Elli yıl",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-8#1",
+   "karar": "onay",
+   "metin": "hizmet etmişler.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-8#2",
+   "karar": "onay",
+   "metin": "Doğuda, gün doğusunda, Bükli kağanına kadar sefer edivermişler.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-8#3",
+   "karar": "onay",
+   "metin": "Batıda Demir Kapı'ya kadar sefer edivermişler.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-8#4",
+   "karar": "onay",
+   "metin": "Çin kağanı için (böylece) fetihler yapmış, ülkeler almışlar.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-8#5",
+   "karar": "onay",
+   "metin": "Türk avam halkı şöyle demiş:",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-8#6",
+   "karar": "onay",
+   "metin": "\"Devlet sahibi (bir) halk idim;",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-8#7",
+   "karar": "onay",
+   "metin": "devletim şimdi nerde? Kimin için ülkeler fethediyorum?\" der imiş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-9#1",
+   "karar": "onay",
+   "metin": "\"Kağan sahibi (bir) halk idim;",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-9#2",
+   "karar": "onay",
+   "metin": "kağanım nerde? Hangi kağana hizmet ediyorum?\" der imiş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-9#3",
+   "karar": "onay",
+   "metin": "Böyle deyip Çin kağanına düşman olmuş. Düşman olmuş, (fakat) kendini düzene sokup örgütlenememiş, yine (Çinlilere) bağımlı olmuş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-9#4",
+   "karar": "onay",
+   "metin": "(Çin halkı Türklerin) bunca hizmet ettiğini düşünmeden",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-9#5",
+   "karar": "onay",
+   "metin": "\"Türk halkını öldüreyim, neslini yok edeyim\" der imiş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-9#6",
+   "karar": "onay",
+   "metin": "(Türk halkı) yok olmak üzere imiş. Yukarıdaki",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-10#1",
+   "karar": "onay",
+   "metin": "Türk Tanrısı, Türk kutsal yer (ve) su (ruhları) şöyle yapmışlar şüphesiz:",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-10#2",
+   "karar": "onay",
+   "metin": "Türk halkı yok olmasın diye, halk olsun diye, babam İlteriş Kağanı (ve) annem İlbilge Hatun'u göğün tepesinde tutup (daha) yukarı kaldırdılar.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-10#3",
+   "karar": "onay",
+   "metin": "Şüphesiz. Babam Kağan on yedi erle baş kaldırmış.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-10#4",
+   "karar": "onay",
+   "metin": "\"Dışarı (çıkıp) yürüyor\" diye haber alıp şehirdekiler dağa çıkmış, dağdakiler",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-11#1",
+   "karar": "onay",
+   "metin": "inmiş, derlenip toplanıp yetmiş",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-11#2",
+   "karar": "onay",
+   "metin": "er olmuş. Tanrı güç verdiği için babam kağanın askerleri kurt gibi imiş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-11#3",
+   "karar": "onay",
+   "metin": "Düşmanları (da) koyun gibi imiş.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-11#4",
+   "karar": "onay",
+   "metin": "Doğuya (ve) batıya sefer edip (adam) toplamış.",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-11#5",
+   "karar": "onay",
+   "metin": "Yığmış; hepsi yedi yüz er olmuş. Yedi yüz er olup devletsiz kalmış,",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-11#6",
+   "karar": "onay",
+   "metin": "kağansız kalmış halkı, cariye olmuş,",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-11#7",
+   "karar": "onay",
+   "metin": "kul olmuş halkı, Türk örf ve âdetlerini bırakmış",
+   "kaynak": "Tekin 1998, s. 34",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-12#1",
+   "karar": "onay",
+   "metin": "halkı, atalarımın dedelerimin töresince (yeniden) yaratmış",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-12#2",
+   "karar": "onay",
+   "metin": "(ve) eğitmiş. Tölis (ve) Tarduş halklarını o vakit düzenlemiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-12#3",
+   "karar": "onay",
+   "metin": "Yabgu'yu (ve) Şad'ı o vakit (onlara) vermiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-12#4",
+   "karar": "onay",
+   "metin": "Güneyde Çin halkı düşman imiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-12#5",
+   "karar": "onay",
+   "metin": "Kuzeyde bağımlı kağan, Dokuz Oğuz halkı düşman imiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-12#6",
+   "karar": "onay",
+   "metin": "Kırgızlar, Kurıkanlar, Otuz Tatarlar, Kıtaylar (ve) Tatabılar hep (bize) düşman imiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-13#1",
+   "karar": "onay",
+   "metin": "yedi kez sefer etmiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-13#2",
+   "karar": "onay",
+   "metin": "Yirmi (kez) savaşmış.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-13#3",
+   "karar": "onay",
+   "metin": "Tanrı (öyle) buyurduğu için, devletliyi devletsiz bırakmış.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-13#4",
+   "karar": "onay",
+   "metin": "Kağanlıyı kağansız bırakmış, düşmanları bağımlı kılmış.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-13#5",
+   "karar": "onay",
+   "metin": "Dizlilere diz çöktürmüş, başlılara baş eğdirmiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-13#6",
+   "karar": "onay",
+   "metin": "Babam kağan, öylece devleti (kurup) yasaları koyup vefat etmiş.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-13#7",
+   "karar": "onay",
+   "metin": "Babam kağan için (amcam kağan) önce bağımlı kağanı balbal (olarak) dikmiş. Babam",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-14#1",
+   "karar": "onay",
+   "metin": "kağan vefat ettiğinde ben sekiz yaşımda kaldım.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-14#2",
+   "karar": "onay",
+   "metin": "O (zamanki) töreye göre amcam Kağan (olarak tahta) oturdu.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-14#3",
+   "karar": "onay",
+   "metin": "(Tahta) oturup Türk halkını yeniden düzenledi.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-14#4",
+   "karar": "onay",
+   "metin": "(Halkı) yeniden besleyip doyurdu; yoksulu zengin kıldı.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-14#5",
+   "karar": "onay",
+   "metin": "Azı çok kıldı.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#1",
+   "karar": "onay",
+   "metin": "On dört yaşımda Tarduş halkı üzerine Şad oturdum.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#2",
+   "karar": "onay",
+   "metin": "Amcam kağan ile doğuda Sarı ırmak (ve) Şantung",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#3",
+   "karar": "onay",
+   "metin": "ovasına kadar sefer ettik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#4",
+   "karar": "onay",
+   "metin": "Batıda Demir Kapı'ya kadar sefer ettik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#5",
+   "karar": "onay",
+   "metin": "Kögmen (dağlarını) aşıp Kırgız ülkesine kadar sefer ettik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#6",
+   "karar": "onay",
+   "metin": "Toplam yirmi beş (kez) sefer ettik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#7",
+   "karar": "onay",
+   "metin": "On üç (kez) savaştık; devletliyi devletsiz bıraktık.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-15#8",
+   "karar": "onay",
+   "metin": "Kağanlıyı kağansız bıraktık. Dizlilere",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-16#1",
+   "karar": "onay",
+   "metin": "diz çöktürdük, başlılara baş eğdirdik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-16#2",
+   "karar": "onay",
+   "metin": "Türgiş kağanı (kendi) Türküm, (kendi) halkım idi.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-16#3",
+   "karar": "onay",
+   "metin": "Bilgisizliği yüzünden, bize karşı hatalı hareket ettiğinden, kağanları öldü.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-16#4",
+   "karar": "onay",
+   "metin": "Kumandanları (ve) beyleri de öldü.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-16#5",
+   "karar": "onay",
+   "metin": "On-Ok halkı ıstırap gördü.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-16#6",
+   "karar": "onay",
+   "metin": "Atalarımızın dedelerimizin zaptettiği",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-17#1",
+   "karar": "onay",
+   "metin": "idi. Kağan ünvanını burada (ona) biz verdik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri",
+   "not": "BK D17 Kül Tigin yazıtının KT D20-21 satırlarıyla paralel; çeviri Tekin'in KT karşılığıyla (s. 23-24) doğrulandı."
+  },
+  {
+   "id": "BK-D-17#2",
+   "karar": "onay",
+   "metin": "(Eş olarak da) kız kardeşim prensesi verdik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-17#3",
+   "karar": "onay",
+   "metin": "(Buna rağmen) kendisi hata işledi; kağanı öldü.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-17#4",
+   "karar": "onay",
+   "metin": "Halkı cariye (ve) kul oldu.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-17#5",
+   "karar": "onay",
+   "metin": "Kögmen'in yeri suyu sahipsiz kalmasın diye Az (ve) Kırgız halkını düzene sokup örgütleyerek geldik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-17#7",
+   "karar": "onay",
+   "metin": "Doğuda Kingan dağlarını aşarak halkları öylece yerleştirdik.",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-17#8",
+   "karar": "onay",
+   "metin": "Öylece örgütledik. Batıda",
+   "kaynak": "Tekin 1998, s. 35",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#1",
+   "karar": "onay",
+   "metin": "Kengü Tarban'a kadar Türk halkını öylece yerleştirdik.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#2",
+   "karar": "onay",
+   "metin": "Öylece örgütledik. O devirde köleler (bile) köleli, cariyeler (bile)",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#3",
+   "karar": "onay",
+   "metin": "cariyeli olmuş idi.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#4",
+   "karar": "onay",
+   "metin": "Kardeşler ağabeylerini bilmez idi.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#5",
+   "karar": "onay",
+   "metin": "Oğullar babalarını bilmez idi.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#6",
+   "karar": "onay",
+   "metin": "Onca kazanılmış, onca düzenlenmiş",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#7",
+   "karar": "onay",
+   "metin": "devletimiz (ve) yasalarımız vardı.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-18#8",
+   "karar": "onay",
+   "metin": "(Ey) Türk, Oğuz beyleri (ve) halkı, işitin! Üstte(ki) gök çökmedikçe, altta(ki) yer (de) delinmedikçe,",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-19#1",
+   "karar": "onay",
+   "metin": "(e)y Türk halkı, (senin) devletini (ve) yasalarını kim yıkıp",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-19#2",
+   "karar": "onay",
+   "metin": "bozabilir idi? Türk halkı, (bu huyundan) vazgeç (ve) nadim ol! İtaatsizliğin yüzünden, (seni) besleyip doyurmuş olan",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-19#3",
+   "karar": "onay",
+   "metin": "akıllı kağanına (karşı)",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-19#4",
+   "karar": "onay",
+   "metin": "(ve) bağımsız müreffeh devletine kendin",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-19#5",
+   "karar": "onay",
+   "metin": "ihanet ettin (ve) nifak soktun. Silâhlı (düşman) nereden gelip (seni) bozguna uğrattı (ve) dağıttı?",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-19#6",
+   "karar": "onay",
+   "metin": "Mızraklı (düşman) nereden gelip (de seni yerinden yurdundan) sürüp kaçırttı?",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-19#7",
+   "karar": "onay",
+   "metin": "Kutsal Ötüken dağları halkı, (yerini yurdunu bırakıp) gittin. Doğuya gidenleriniz gittiniz, batıya",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#1",
+   "karar": "onay",
+   "metin": "gidenleriniz gittiniz. Gittiğiniz yerlerde kazancınız hiç şüphesiz şu oldu:",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#2",
+   "karar": "onay",
+   "metin": "Kanınız ırmaklar gibi aktı.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#3",
+   "karar": "onay",
+   "metin": "Kemikleriniz dağlar gibi yığıldı.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#4",
+   "karar": "onay",
+   "metin": "Bey olacak erkek evlâdınızı köle yaptınız, hanım olacak kız evlâdınızı cariye",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#5",
+   "karar": "onay",
+   "metin": "yaptınız. O cehaletiniz yüzünden, kötü tavır ve hareketleriniz yüzünden, amcam kağan vefat etti.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#6",
+   "karar": "onay",
+   "metin": "(Amcam kağan için) önce Kırgız kağanını balbal (olarak) diktim.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#7",
+   "karar": "onay",
+   "metin": "Türk halkının adı",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-20#8",
+   "karar": "onay",
+   "metin": "sanı yok olmasın diye babam kağanı,",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-21#1",
+   "karar": "onay",
+   "metin": "annem hatunu yücelten Tanrı, (onlara) devlet veren Tanrı, Türk halkının adı",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-21#2",
+   "karar": "onay",
+   "metin": "sanı yok olmasın diye, beni o Tanrı kağan (olarak) tahta oturttu.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-21#3",
+   "karar": "onay",
+   "metin": "(Ben) hiç de zengin ve müreffeh (bir) halk üzerine hükümdar olmadım.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-21#4",
+   "karar": "onay",
+   "metin": "(Tam tersine), karnı aç, sırtı çıplak, yoksul (ve) sefil (bir) halk üzerine hükümdar oldum.",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-21#5",
+   "karar": "onay",
+   "metin": "Kardeşim Kül Tigin, iki şad (ve) kardeşim Kül Tigin ile sözleştik: Babamızın",
+   "kaynak": "Tekin 1998, s. 36",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-22#1",
+   "karar": "onay",
+   "metin": "amcamızın kazanmış oldukları halkın adı",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-22#2",
+   "karar": "onay",
+   "metin": "sanı yok olmasın diye Türk halkı için gece uyumadım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-22#3",
+   "karar": "onay",
+   "metin": "Gündüz oturmadım; kardeşim Kül Tigin ile, iki şad ile (birlikte) ölesiye yitesiye",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-22#4",
+   "karar": "onay",
+   "metin": "çalıştım, çabaladım. Öylece çalışıp çabalayıp birleşik halkı ateş (ile) su (gibi birbirine düşman) etmedim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-22#5",
+   "karar": "onay",
+   "metin": "Ben kendim kağan (olarak tahta) oturduğumda, her yere gitmiş olan",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-22#6",
+   "karar": "onay",
+   "metin": "halk, öle yite,",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-22#7",
+   "karar": "onay",
+   "metin": "yayan yapıldak dönüp",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-23#1",
+   "karar": "onay",
+   "metin": "geldi. Halkı besleyip doyurayım diye kuzeyde Oğuz halkına doğru, doğuda Kıtay (ve) Tatabı halklarına doğru, güneyde de Çin'e doğru on iki (kez) sefer ettim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-23#2",
+   "karar": "onay",
+   "metin": "Savaştım. Ondan sonra Tanrı (öyle) buyurduğu için, bahtım",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-23#3",
+   "karar": "onay",
+   "metin": "(ve) talihim olduğu için, ölecek halkı diriltip doyurdum.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-23#4",
+   "karar": "onay",
+   "metin": "Çıplak halkı giyimli kıldım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-23#5",
+   "karar": "onay",
+   "metin": "Fakir halkı zengin kıldım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#1",
+   "karar": "onay",
+   "metin": "Az halkı çok kıldım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#2",
+   "karar": "onay",
+   "metin": "Güçlü devleti olandan, güçlü kağanı olandan daha iyi kıldım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#3",
+   "karar": "onay",
+   "metin": "Dört bucaktaki halkları hep (kendime) tabi kıldım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#4",
+   "karar": "onay",
+   "metin": "(Türk halkını) düşmansız kıldım; (bu halkların) hepsi bana tabi oldular.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#5",
+   "karar": "onay",
+   "metin": "On yedi yaşımda Tangutlara doğru sefer ettim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#6",
+   "karar": "onay",
+   "metin": "Tangut halkını hezimete uğrattım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#7",
+   "karar": "onay",
+   "metin": "Çocuklarını, kadınlarını, at sürülerini (ve tüm) varlıklarını o zaman aldım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-24#8",
+   "karar": "onay",
+   "metin": "On sekiz yaşımda altı bölge Soğdaklara",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#1",
+   "karar": "onay",
+   "metin": "doğru sefer ettim; halkı orada bozguna uğrattım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#2",
+   "karar": "onay",
+   "metin": "Çinli Ong Totok elli bin (kişilik bir) ordu (ile) geldi.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#3",
+   "karar": "onay",
+   "metin": "Iduk Baş'ta savaştım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#4",
+   "karar": "onay",
+   "metin": "O orduyu orada yok ettim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#5",
+   "karar": "onay",
+   "metin": "Yirmi yaşımda, Basmıl Iduk Kut'u akraba kavmim idi.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#6",
+   "karar": "onay",
+   "metin": "\"Kervan göndermiyor\" diye sefer ettim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#8",
+   "karar": "onay",
+   "metin": "Bacını haracını çevirip getirdim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-25#9",
+   "karar": "onay",
+   "metin": "Yirmi iki yaşımda Çin'e",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-26#1",
+   "karar": "onay",
+   "metin": "doğru sefer ettim. (Orada) General Çaça (kumandasında) seksen bin (kişilik bir) ordu ile savaştım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-26#2",
+   "karar": "onay",
+   "metin": "Askerlerini orada öldürdüm.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-26#3",
+   "karar": "onay",
+   "metin": "Yirmi altı yaşımda Çik halkı, Kırgızlarla birlikte (bize) düşman oldu.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-26#4",
+   "karar": "onay",
+   "metin": "Yenisey (nehrini) geçerek Çiklilere doğru sefer ettim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-26#5",
+   "karar": "onay",
+   "metin": "(Onlarla) Örpen'de savaştım; askerlerini mızrakladım.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-26#6",
+   "karar": "onay",
+   "metin": "Az halkını zaptettim.",
+   "kaynak": "Tekin 1998, s. 37",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-27#1",
+   "karar": "onay",
+   "metin": "karı sökerek, Kögmen dağlarını aşıp Kırgız halkını uykuda iken bastım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-27#2",
+   "karar": "onay",
+   "metin": "(Kırgız) kağanı ile Songa dağlarında savaştım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-27#3",
+   "karar": "onay",
+   "metin": "Kağanlarını öldürdüm, devletini orada zaptettim.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-27#4",
+   "karar": "onay",
+   "metin": "O yıl Türgişlere doğru Altay dağlarını aşarak (ve) İrtiş ırmağını geçerek yürüdüm.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-27#5",
+   "karar": "onay",
+   "metin": "Türgiş halkını uykuda bastım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-27#6",
+   "karar": "onay",
+   "metin": "Türgiş kağanının ordusu ateş (ve) bora gibi (üzerimize) geldi.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-28#1",
+   "karar": "onay",
+   "metin": "Bolçu'da savaştık. (Türgişlerin) kağanını, Yabgu'sunu (ve) Şad'ını orada öldürdüm.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-28#2",
+   "karar": "onay",
+   "metin": "Devletini orada zaptettim.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-28#3",
+   "karar": "onay",
+   "metin": "Otuz yaşımda Beşbalık'a doğru sefer ettim.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-28#4",
+   "karar": "onay",
+   "metin": "Altı kez savaştım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-28#7",
+   "karar": "onay",
+   "metin": "Beşbalık onun için kurtuldu. Otuz",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-29#1",
+   "karar": "onay",
+   "metin": "bir yaşımda Karluk halkı bağımsızca hareket eden",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-29#2",
+   "karar": "onay",
+   "metin": "(bir) düşman oldu.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-29#3",
+   "karar": "onay",
+   "metin": "(Onlarla) Tamag Iduk Baş'ta savaştım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-29#4",
+   "karar": "onay",
+   "metin": "Karluk halkını öldürdüm.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-29#7",
+   "karar": "onay",
+   "metin": "Mızrakladım, öldürdüm. Dokuz Oğuzlar benim",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-30#1",
+   "karar": "onay",
+   "metin": "haset girdiği için, (bize) düşman oldular.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-30#2",
+   "karar": "onay",
+   "metin": "Bir yılda dört kez savaştım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-30#3",
+   "karar": "onay",
+   "metin": "İlk önce Toğu Balık'ta savaştım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-30#4",
+   "karar": "onay",
+   "metin": "Tola ırmağını (askerleri) yüzdürerek",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-30#6",
+   "karar": "onay",
+   "metin": "İkinci olarak Antargu'da savaştım; askerlerini mızrakladım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-30#7",
+   "karar": "onay",
+   "metin": "Devletini aldım. Üçüncü olarak Çuş (ırmağı) başında savaştım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-30#8",
+   "karar": "onay",
+   "metin": "Türk halkının ayağı sendeledi, fena",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-31#1",
+   "karar": "onay",
+   "metin": "olacak idi. (Saflarımızı) yarıp dağıtarak gelen ordusunu (geri) püskürttüm.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-31#2",
+   "karar": "onay",
+   "metin": "(Bu sayede) pek çok ölecek (kişi) hayatta kaldı.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-31#3",
+   "karar": "onay",
+   "metin": "Orada Tongra (boyu) alplerinden",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-31#4",
+   "karar": "onay",
+   "metin": "bir grubu Tonga Tigin'in cenaze töreninde çevirip kuşatarak dövdüm.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-31#5",
+   "karar": "onay",
+   "metin": "Dördüncü olarak Ezgenti Kadız'da savaştım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-31#6",
+   "karar": "onay",
+   "metin": "Askerlerini orada mızrakladım.",
+   "kaynak": "Tekin 1998, s. 38",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#1",
+   "karar": "onay",
+   "metin": "Oğuzlara doğru sefer ettim.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#2",
+   "karar": "onay",
+   "metin": "Birinci ordu (sefere) çıkmış",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#3",
+   "karar": "onay",
+   "metin": "idi, ikinci ordu yurtta idi.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#4",
+   "karar": "onay",
+   "metin": "Üç Oğuz ordusu baskın yaptı.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#5",
+   "karar": "onay",
+   "metin": "\"(Türklerin) piyadesi bozuldu\"",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#6",
+   "karar": "onay",
+   "metin": "diyerek (bizi) zaptetmek üzere (üzerimize) geldi.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#7",
+   "karar": "onay",
+   "metin": "Yarı ordusu evimizi barkımızı yağmalamak için gitti.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#8",
+   "karar": "onay",
+   "metin": "Yarı ordusu da savaşmak için geldi.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-32#9",
+   "karar": "onay",
+   "metin": "Biz az idik.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-33#1",
+   "karar": "onay",
+   "metin": "dağıttım. Tanrı buyurduğu için, ben çalışıp kazandığım için Türk halkı (da) öylece kazanmış",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-33#2",
+   "karar": "onay",
+   "metin": "(oldu) şüphesiz. Ben erkek kardeşimle beraber bu kadar önderlik edip kazanmasa idim, Türk halkı ölecek idi.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-33#3",
+   "karar": "onay",
+   "metin": "Yok olacak idi.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-33#4",
+   "karar": "onay",
+   "metin": "Türk beyleri (ve) halkı, şöylece düşünün.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-34#1",
+   "karar": "onay",
+   "metin": "evini barkını bozdum.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-34#2",
+   "karar": "onay",
+   "metin": "Oğuz halkı, Dokuz Tatarlarla birlikte toparlanıp geldi.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-34#3",
+   "karar": "onay",
+   "metin": "Ağu'da iki büyük savaş verdim.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-34#4",
+   "karar": "onay",
+   "metin": "Askerlerini bozdum, ülkelerini orada zaptettim.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-35#1",
+   "karar": "onay",
+   "metin": "besleyip doyurmuş (olan) yiğit kağanına ihanet etti.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-35#3",
+   "karar": "onay",
+   "metin": "(Bu hareketi) tasvip etmedi hiç şüphesiz. Dokuz Oğuz halkı yerini yurdunu bırakıp Çin'e doğru gitti.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-36#2",
+   "karar": "onay",
+   "metin": "sanı yok oldu.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-36#3",
+   "karar": "onay",
+   "metin": "Burada bana kul oldu.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-36#5",
+   "karar": "onay",
+   "metin": "Devleti (ve) yasaları daha iyi kazandım.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-37#1",
+   "karar": "onay",
+   "metin": "Orada savaştım, askerlerini mızrakladım.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-37#2",
+   "karar": "onay",
+   "metin": "Tabi olanlar tabi oldu, halk oldu.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-37#3",
+   "karar": "onay",
+   "metin": "Ölenler öldü. Selenga (nehri boyunca) aşağıya",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-37#4",
+   "karar": "onay",
+   "metin": "yürüyüp Karağan geçidinde, evini barkını orada bozdum.",
+   "kaynak": "Tekin 1998, s. 39",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-38#2",
+   "karar": "onay",
+   "metin": "O at sürüsünü alıp (onları) doyurdum.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-38#3",
+   "karar": "onay",
+   "metin": "Otuz dört yaşımda Oğuzlar kaçıp Çin'e gittiler.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-39#1",
+   "karar": "onay",
+   "metin": "Tatabı halkı Çin imparatoruna tabi oldu.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-39#2",
+   "karar": "onay",
+   "metin": "Elçisi, iyi haberi (ve) ricaları gelmiyor diye yazın sefer ettim.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-39#3",
+   "karar": "onay",
+   "metin": "Halkı orada bozguna uğrattım.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-40#2",
+   "karar": "onay",
+   "metin": "\"Güneyde Karluk halkına doğru sefer et\" diye Tudun Yamtar'ı gönderdim.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-41#2",
+   "karar": "onay",
+   "metin": "Onları korkutayım diye sefer ettim.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-41#3",
+   "karar": "onay",
+   "metin": "(Kale) muhafızı iki üç kişi ile kaçıp gitti.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-D-41#4",
+   "karar": "onay",
+   "metin": "Avam halkı (ise) \"Kağanım geldi\" diye kıvanıp sevindi.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-GD-1#2",
+   "karar": "onay",
+   "metin": "Geceli gündüzlü yedi vakitte susuz (araziyi) geçtim.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-1#2",
+   "karar": "onay",
+   "metin": "bin askeri birinci gün öldürdüm.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-1#3",
+   "karar": "onay",
+   "metin": "Piyade ordularını ikinci",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-1#4",
+   "karar": "onay",
+   "metin": "gün tamamiyle öldürdüm.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-2#2",
+   "karar": "onay",
+   "metin": "Otuz sekiz yaşımda kışın Kıtaylara doğru sefer ettim.",
+   "kaynak": "Tekin 1998, s. 40",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-7#1",
+   "karar": "onay",
+   "metin": "verdim. Yiğit erlerini öldürüp balbal yapıverdim.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-8#1",
+   "karar": "onay",
+   "metin": "General Ku kumandasında",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-8#2",
+   "karar": "onay",
+   "metin": "kırk bin (kişilik bir) ordu geldi.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-8#3",
+   "karar": "onay",
+   "metin": "Töngker dağında hücum edip vuruştum.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-8#4",
+   "karar": "onay",
+   "metin": "Otuz bin askeri öldürdüm.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-9#1",
+   "karar": "onay",
+   "metin": "öldürdü. Büyük oğlum hastalanıp ölünce Ku'yu, Generali, balbal (olarak) dikiverdim.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-9#2",
+   "karar": "onay",
+   "metin": "Ben on dokuz yıl şad (olarak) hüküm sürdüm.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-9#3",
+   "karar": "onay",
+   "metin": "On dokuz yıl (da) kağan (olarak) hüküm sürdüm.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-10#1",
+   "karar": "onay",
+   "metin": "Türklerime (ve) halkıma daha iyi bir şekilde öylece kazanıverdim.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-10#2",
+   "karar": "onay",
+   "metin": "Bu kadar (çok) kazanıp babam kağan Köpek yılının onuncu ayının altı",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-10#3",
+   "karar": "onay",
+   "metin": "yirmisinde (26'sında) vefat etti.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-10#4",
+   "karar": "onay",
+   "metin": "Domuz yılının beşinci ayının yedi",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-10#5",
+   "karar": "onay",
+   "metin": "yirmisinde (27'sinde) cenaze (törenini) tamamladım.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-11#1",
+   "karar": "onay",
+   "metin": "babası Lisün Tay-Sengün kumandasında",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-11#2",
+   "karar": "onay",
+   "metin": "beş yüz kişi geldi.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-11#4",
+   "karar": "onay",
+   "metin": "Gereğinden fazla getirdi; cenaze mumları getirip dikiverdiler.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-12#2",
+   "karar": "onay",
+   "metin": "Cins has atlarını, kara samurlarını, gök sincaplarını sayısız (miktarda) getirip (hediye olarak) hep bıraktılar.",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-13#1",
+   "karar": "onay",
+   "metin": "Tanrı gibi, Tanrı('nın tahta oturttuğu)",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-13#2",
+   "karar": "onay",
+   "metin": "Türk Bilge Kağan, sözüm: Babam Türk Bilge Kağan tahta oturduğunda sadık Türk",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-13#3",
+   "karar": "onay",
+   "metin": "beyleri, batıdaki Tarduş beyleri, Kül Çor başta olmak üzere (bütün) Şadapıt beyler, doğudaki Tölis beyleri, Apa Tarkan",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-14#2",
+   "karar": "onay",
+   "metin": "beyler, babam kağanı pek çok",
+   "kaynak": "Tekin 1998, s. 41",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-15#1",
+   "karar": "onay",
+   "metin": "alkışlayıp övdüler.",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-G-15#2",
+   "karar": "onay",
+   "metin": "(Babam kağan da) Türk beylerini (ve) halkını pek çok alkışladı.",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-1#1",
+   "karar": "onay",
+   "metin": "Tanrı gibi (ve) Tanrı'dan olmuş",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-1#2",
+   "karar": "onay",
+   "metin": "(Ben), Türk Bilge Kağan, bu devirde tahta oturdum.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-1#3",
+   "karar": "onay",
+   "metin": "Sözlerimi baştan sona işit; önce (siz) erkek kardeşlerim (ve) oğullarım, birleşik boyum (ve) halkım, güneydeki Şadapıt beyler, kuzeydeki Tarkanlar (ve) kumandan beyler, Otuz Tatar, Dokuz Oğuz beyleri (ve) halkı, bu sözlerimi iyice işitin (ve) sıkıca dinleyin: Doğuda gün",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-2#1",
+   "karar": "onay",
+   "metin": "doğusuna, güneyde gün ortasına doğru, geride gün batısına, kuzeyde gece ortasına kadar, bu (sınırlar) içindeki (bütün) halklar hep bana tabidir.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-2#2",
+   "karar": "onay",
+   "metin": "Bunca halkı hep düzene soktum.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-2#3",
+   "karar": "onay",
+   "metin": "Onlar şimdi (hiç de) kötü (durumda) değiller. Türk kağanı Ötüken dağlarında oturur (ve oradan hükmeder) ise ülkede (hiçbir) sıkıntı",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-2#4",
+   "karar": "onay",
+   "metin": "olmaz. İleride Şantung",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-2#5",
+   "karar": "onay",
+   "metin": "ovasına kadar sefer ettim.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-2#6",
+   "karar": "onay",
+   "metin": "Denize az kala durdum; güneyde Dokuz",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#1",
+   "karar": "onay",
+   "metin": "Ersin'e kadar sefer ettim.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#2",
+   "karar": "onay",
+   "metin": "Tibet'e az kala durdum.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#4",
+   "karar": "onay",
+   "metin": "Kuzeyde Yir Bayırku ülkesine kadar sefer ettim.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#5",
+   "karar": "onay",
+   "metin": "Bunca diyarlara kadar (ordu) sevk ettim.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#6",
+   "karar": "onay",
+   "metin": "Ötüken dağlarından daha iyi (bir yer)",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#7",
+   "karar": "onay",
+   "metin": "asla yok imiş! Devletin yönetileceği yer Ötüken dağları imiş!",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#8",
+   "karar": "onay",
+   "metin": "Bu yerde oturup Çin halkı ile (ilişkileri) düzelttim.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-3#9",
+   "karar": "onay",
+   "metin": "(Şimdi onlar bize) altını, gümüşü, ipeği,",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-4#1",
+   "karar": "onay",
+   "metin": "ipekli kumaşları bolca veriyorlar.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-4#2",
+   "karar": "onay",
+   "metin": "Çin halkının sözleri tatlı, ipekli kumaşları (da) yumuşak imiş.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-4#3",
+   "karar": "onay",
+   "metin": "Tatlı sözlerle, yumuşak ipekli kumaşlarla kandırıp uzak(larda yaşayan) halkları öylece (kendilerine) yaklaştırırlar imiş.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-4#4",
+   "karar": "onay",
+   "metin": "(Bu halklar) yaklaşıp yerleştikten sonra (da Çinliler) kötü niyetlerini o zaman düşünürler",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-4#5",
+   "karar": "onay",
+   "metin": "imiş: İyi (ve) akıllı kişileri, iyi (ve) cesur kişileri ilerletmezler imiş.",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-4#6",
+   "karar": "onay",
+   "metin": "(Öte yandan) bir kişi yanılıp suç işlese (onun) soyuna sopuna (ve) hısım akrabasına kadar (herkesi) öldürmezler",
+   "kaynak": "Tekin 1998, s. 30",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-5#1",
+   "karar": "onay",
+   "metin": "imiş. (Çinlilerin) tatlı sözlerine (ve) yumuşak ipekli kumaşlarına aldanıp (ey) Türk halkı, çok sayıda öldün! (Ey) Türk halkı, (sen) mutlak öleceksin!",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-5#2",
+   "karar": "onay",
+   "metin": "Güneyde Çuğay dağlarına (ve) Töğültün ovasına yerleşeyim dersen, Türk halkı, mutlak öleceksin! Orada kötü (niyetli) kimseler şöyle akıl verirler",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-5#3",
+   "karar": "onay",
+   "metin": "imiş: \"(Bir halk onlara) uzak ise kötü hediyeler verir,",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-5#4",
+   "karar": "onay",
+   "metin": "yakın ise iyi hediyeler verir\"",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-5#5",
+   "karar": "onay",
+   "metin": "deyip öyle akıl verirler imiş. (Akılsız,)",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-6#1",
+   "karar": "onay",
+   "metin": "cahil kişiler, bu sözleri duyup (Çin'e) yakın gidip çok sayıda öldünüz. O yere doğru gidersen, (ey) Türk halkı, öleceksin! Ötüken ülkesinde oturup (buradan) kervanlar gönderirsen hiçbir derdin olmaz. Ötüken dağlarında oturursan sonsuza kadar devlet sahibi olup hükmedersin. (Ey) Türk halkı, (sen) tok gözlüsün: acıkırsan doyacağını düşünmezsin, bir (de) doyarsan (tekrar) acıkacağını düşünmezsin. Öyle olduğun için (seni) besleyip doyurmuş",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-6#2",
+   "karar": "onay",
+   "metin": "olan kağanlarının",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-7#1",
+   "karar": "onay",
+   "metin": "sözlerini (dinlemeden, rızalarını) almadan her yere gittin, oralarda hep mahvoldun (ve) tükendin. Oralarda (sağ) kalmış olanlarınız (da) her yönde bitkin ve mecalsiz bir halde yürüyor",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-7#2",
+   "karar": "onay",
+   "metin": "idiniz. Tanrı lütufkâr olduğu için, kendimin (de) talihim",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-7#3",
+   "karar": "onay",
+   "metin": "olduğu için (kağan olarak tahta) oturdum.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-7#4",
+   "karar": "onay",
+   "metin": "Tahta oturup yoksul (ve) fakir halkı hep derleyip topladım.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-7#5",
+   "karar": "onay",
+   "metin": "Fakir halkı zengin yaptım.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-7#6",
+   "karar": "onay",
+   "metin": "Az halkı çok yaptım. (Acaba) bu",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-8#1",
+   "karar": "onay",
+   "metin": "sözlerimde yalan var mı? (Ey) Türk beyleri (ve) halkı, bunu işitin!",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-8#2",
+   "karar": "onay",
+   "metin": "Türk halkının dirilip (nasıl) devlet sahibi olacağını buraya hâkkettim.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-8#3",
+   "karar": "onay",
+   "metin": "Yanılıp (nasıl) öleceğini de buraya hâkkettim.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-8#4",
+   "karar": "onay",
+   "metin": "(Söyleyecek) her ne sözüm var ise (bu) ebedi taşa hâkkettim.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-8#5",
+   "karar": "onay",
+   "metin": "Ona bakarak (bu sözleri) öğrenin.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-8#6",
+   "karar": "onay",
+   "metin": "(Ey) sadık Türk halkı (ve) beyleri, bu devirde (bana) tabi olan beyler, (sizler) mi yanılıp hatâ edeceksiniz? Babam",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-9#2",
+   "karar": "onay",
+   "metin": "Tanrı lütfettiği için, tahta oturduğumda (ben de) dört bucaktaki halkları tanzim ettim.",
+   "kaynak": "Tekin 1998, s. 31",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-10#1",
+   "karar": "onay",
+   "metin": "kızını (da) pek büyük (bir) törenle oğluma alıverdim.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-10#4",
+   "karar": "onay",
+   "metin": "Dizlilere diz çöktürdüm. Yukarıda gök, aşağıda da yer lütfettiği için,",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-11#2",
+   "karar": "onay",
+   "metin": "gümüşlerini, kenarlı ipek kumaşlarını, kokulu ipeklilerini, has atlarını, aygırlarını, kara samurlarını",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-12#1",
+   "karar": "onay",
+   "metin": "gök sincaplarını Türklerime ve halkıma kazanıverdim.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-13#1",
+   "karar": "onay",
+   "metin": "Yine (iyi) besleyin; eza (ve) cefa etmeyin.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-14#1",
+   "karar": "onay",
+   "metin": "İyilik göreceksin, evine gireceksin (ve) dertsiz olacaksın. Ondan sonra Çin imparatorundan (pek) çok sanatçı getirttim.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-14#2",
+   "karar": "onay",
+   "metin": "(Çin kağanı) benim sözümü kırmadı.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-14#3",
+   "karar": "onay",
+   "metin": "(Kendi) saray sanatkârlarını gönderdi.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-14#4",
+   "karar": "onay",
+   "metin": "Onlara olağanüstü (bir) tapınak yaptırttım.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-14#5",
+   "karar": "onay",
+   "metin": "İçini (ve) dışını olağanüstü resim ve heykellerle süslettim.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-14#6",
+   "karar": "onay",
+   "metin": "(Ebedi) taş kazdırttım, (üzerine) gönlümdeki sözlerimi hâkkettirdim.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-15#1",
+   "karar": "onay",
+   "metin": "On-Ok oğullarına (ve onlara tabi) yabancılara kadar (hepiniz) bunu görün (ve) öğrenin.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-K-15#2",
+   "karar": "onay",
+   "metin": "Ebedi taş hâkkettirdim.",
+   "kaynak": "Tekin 1998, s. 32",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-B-2#1",
+   "karar": "onay",
+   "metin": "Bilge Kağan vefat etti.",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-B-3#1",
+   "karar": "onay",
+   "metin": "Yaz gelince yukarıda gök",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri",
+   "not": "BK B3-B6 mersiyesinin bütün çevirisi Tekin 2003, s. 177'de de verilidir."
+  },
+  {
+   "id": "BK-B-4#1",
+   "karar": "onay",
+   "metin": "davulu nasıl gümbürderse, öylece;",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-B-5#1",
+   "karar": "onay",
+   "metin": "dağlarda geyikler nasıl böğürürse, öylece",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-B-6#1",
+   "karar": "onay",
+   "metin": "yas tutuyorum. Babam Kağan(ın)",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-B-7#1",
+   "karar": "onay",
+   "metin": "(Mezar) taşını bizzat (ben) kağan",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "BK-GB-1#1",
+   "karar": "onay",
+   "metin": "Bilge Kağan kitabesini (ben) Yolluğ Tigin yazdım.",
+   "kaynak": "Tekin 1998, s. 42",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-1#1",
+   "karar": "onay",
+   "metin": "Bilge Tonyukuk, ben kendim, Çin yönetimi sırasında doğdum.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-1#2",
+   "karar": "onay",
+   "metin": "Türk halkı (o zaman) Çin'e bağımlı idi.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-2#1",
+   "karar": "onay",
+   "metin": "Türk halkı, (kendi) hanını bulmayınca Çin'den ayrıldı.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-2#2",
+   "karar": "onay",
+   "metin": "Han sahibi oldu; (fakat) hanını bırakıp Çin'e yeniden bağımlı oldu.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-2#3",
+   "karar": "onay",
+   "metin": "Tanrı şöyle demiş",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-2#4",
+   "karar": "onay",
+   "metin": "olmalı: \"(Sana) han verdim,",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-3#1",
+   "karar": "onay",
+   "metin": "hanını bırakıp (yine) bağımlı oldun.\"",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-3#2",
+   "karar": "onay",
+   "metin": "(Türk halkı yeniden) bağımlı olduğu için Tanrı \"Öl!\" demiş",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-3#3",
+   "karar": "onay",
+   "metin": "olmalı. Türk halkı öldü.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-3#4",
+   "karar": "onay",
+   "metin": "Mahvoldu, yok oldu.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-3#5",
+   "karar": "onay",
+   "metin": "Türk Sir halkı(nın) ülkesinde",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-4#1",
+   "karar": "onay",
+   "metin": "boy kalmadı. Dağda bayırda kalmış olanlar toplanıp yedi",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-4#2",
+   "karar": "onay",
+   "metin": "yüz (kişi) oldu. (Bunların) iki bölüğü atlı idi.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-4#3",
+   "karar": "onay",
+   "metin": "Bir bölüğü yaya idi.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-4#4",
+   "karar": "onay",
+   "metin": "Yedi yüz kişiyi",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-5#1",
+   "karar": "onay",
+   "metin": "sevk eden üstleri \"Şad\" idi.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-5#2",
+   "karar": "onay",
+   "metin": "\"Sözcüm ol!\" dedi; sözcüsü ben idim,",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-5#3",
+   "karar": "onay",
+   "metin": "Bilge Tonyukuk. \"(Bunu) kağan mı yapayım?\" dedim.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-5#4",
+   "karar": "onay",
+   "metin": "Düşündüm: (İnsan) zayıf boğalarla semiz boğaları uzaktan",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-6#1",
+   "karar": "onay",
+   "metin": "bilmek zorunda kalsa, hangilerinin semiz boğa, hangilerinin zayıf boğa olduğunu bilmez imiş",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-6#2",
+   "karar": "onay",
+   "metin": "diye öylece düşündüm.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-6#3",
+   "karar": "onay",
+   "metin": "Ondan sonra, Tanrı akıl verdiği için, (onu) ben kendim kağan yaptım.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-6#4",
+   "karar": "onay",
+   "metin": "Bilge Tonyukuk Buyla Bağa Tarkan",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-7#1",
+   "karar": "onay",
+   "metin": "sayesinde İlteriş kağan olarak güneyde Çinlileri, doğuda Kıtayları, kuzeyde Oğuzları pek çok öldürdü.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-7#2",
+   "karar": "onay",
+   "metin": "Danışmanı (ve) kumandanı ben idim.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-B-7#3",
+   "karar": "onay",
+   "metin": "Çuğay'ın kuzeyinde, Kara Kumug'da oturur idik.",
+   "kaynak": "Tekin 1998, s. 43",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-1#1",
+   "karar": "onay",
+   "metin": "Yaban hayvanları yiyerek, tavşan yiyerek yaşıyor",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-1#2",
+   "karar": "onay",
+   "metin": "idik. Halkın boğazı tok idi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-1#3",
+   "karar": "onay",
+   "metin": "Düşmanlarımız çepeçevre ocak gibi idi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-1#4",
+   "karar": "onay",
+   "metin": "Biz (ortadaki) aş gibi idik.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-1#5",
+   "karar": "onay",
+   "metin": "Böylece oturur iken Oğuzlardan bir kaçak geldi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-2#1",
+   "karar": "onay",
+   "metin": "Kaçağ(ın) sözleri şöyle (idi): \"Dokuz Oğuz halkı üzerine (bir) kağan tahta çıktı\"",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-2#2",
+   "karar": "onay",
+   "metin": "diyor. \"(Bu kağan) Çin'e General Ku'yu göndermiş.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-2#3",
+   "karar": "onay",
+   "metin": "Kıtaylara Tongra Eşim'i göndermiş.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-2#4",
+   "karar": "onay",
+   "metin": "(Bunlarla) şöyle haber göndermiş: Azıcık Türk halkı",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-3#1",
+   "karar": "onay",
+   "metin": "gelişiyormuş. Kağanları cesur imiş.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-3#2",
+   "karar": "onay",
+   "metin": "Sözcüleri akıllı imiş.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-3#3",
+   "karar": "onay",
+   "metin": "O iki kişi var oldukça, sizi, Çinlileri öldürecektir derim; doğuda Kıtayları öldürecektir derim; bizi, Oğuzları",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-4#1",
+   "karar": "onay",
+   "metin": "öldürecektir derim. Çin güneyden saldırsın, Kıtay doğudan saldırsın, ben de kuzeyden saldırayım. Türk Sir halkı ülkesinde asla",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri",
+   "not": "Bu satırın Tekin çevirisi karşılıklı sayfa düzeni yüzünden çevriyazı olarak çıkmıştı; çeviri çevriyazıdan ve Tekin'in aynı pasajı veren komşu satırlarından verildi."
+  },
+  {
+   "id": "TY1-G-4#2",
+   "karar": "onay",
+   "metin": "yürümesin; mümkünse (Türkleri) tümüyle yok edelim",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-5#1",
+   "karar": "onay",
+   "metin": "derim.\" Bu haberi işitip gece uyuyasım gelmedi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-5#2",
+   "karar": "onay",
+   "metin": "Gündüz oturasım gelmedi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-5#3",
+   "karar": "onay",
+   "metin": "Ondan sonra kağanıma ricada bulundum.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-5#4",
+   "karar": "onay",
+   "metin": "Şöyle ricada bulundum: \"Çinliler, Oğuzlar (ve) Kıtaylar, bu üçü birleşirlerse",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-6#1",
+   "karar": "onay",
+   "metin": "(biz) çaresiz kalırız. Kendi iç (kuvvetler)i (ile) dış (topraklar)ı tutmuş",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-6#2",
+   "karar": "onay",
+   "metin": "gibiyiz. (Bir şey) yufka iken (onu) delmek kolay imiş.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-6#3",
+   "karar": "onay",
+   "metin": "İnce olanı (da) kırmak kolay; yufka, kalın olursa (onu) delmek zor imiş, ince",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-7#1",
+   "karar": "onay",
+   "metin": "yoğun olursa (onu) kırmak zor imiş.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-7#2",
+   "karar": "onay",
+   "metin": "Doğuda Kıtaydan, güneyde Çinden, batıda batıdan, kuzeyde de Oğuzlardan gelecek iki üç bin",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-7#3",
+   "karar": "onay",
+   "metin": "(kadar) askerimiz var mı ne?\" Böylece ricada bulundum.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-8#1",
+   "karar": "onay",
+   "metin": "Kağanım, (benim) kendimin, Bilge Tonyukuk'un arz ettiğim ricamı dinlemek lutfunda",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-8#2",
+   "karar": "onay",
+   "metin": "bulundu. \"(Orduyu) gönlünce sevk et!\" dedi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-8#3",
+   "karar": "onay",
+   "metin": "Kök Öng (ırmağı)nı geçerek (orduyu) Ötüken dağlarına doğru sevk ettim.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-8#4",
+   "karar": "onay",
+   "metin": "İngek gölcüğü ile Tola (ırmağın)dan Oğuzlar (üzerimize) geldi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-9#1",
+   "karar": "onay",
+   "metin": "Ordusu üç bin",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-9#2",
+   "karar": "onay",
+   "metin": "(kişilik) imiş. Biz iki bin",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-9#3",
+   "karar": "onay",
+   "metin": "(kişi) idik. Savaştık. Tanrı buyurdu.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-9#4",
+   "karar": "onay",
+   "metin": "(Oğuzları) bozguna uğrattık; ırmağa düştüler.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-9#5",
+   "karar": "onay",
+   "metin": "Bozguna uğrayanları da yollarda ölüp kaldılar.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-9#6",
+   "karar": "onay",
+   "metin": "Hep (öldüler). Ondan sonra Oğuzların hepsi geldi.",
+   "kaynak": "Tekin 1998, s. 44",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-10#1",
+   "karar": "onay",
+   "metin": "Türk halkını Ötüken toprağına ben kendim, Bilge Tonyukuk, getirdim. (Türk halkı) Ötüken toprağına yerleşmiş",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-G-10#2",
+   "karar": "onay",
+   "metin": "diye haber alıp güneydeki halklar, batıdaki, kuzeydeki ve doğudaki halklar (üzerimize) geldiler.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-1#1",
+   "karar": "onay",
+   "metin": "(Biz) iki bin (kişi) idik.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-1#2",
+   "karar": "onay",
+   "metin": "(İki ordumuz) vardı.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-1#3",
+   "karar": "onay",
+   "metin": "Türk halkı (yaratılalı), Türk kağanı tahta oturalı, Şantung",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-1#4",
+   "karar": "onay",
+   "metin": "şehirlerine, denize vardığı",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-1#5",
+   "karar": "onay",
+   "metin": "yok imiş. Kağanıma arz edip ordu sevk ettim.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-2#1",
+   "karar": "onay",
+   "metin": "(Kağanımı) Şantung şehirlerine, denize kadar götürdüm.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-2#2",
+   "karar": "onay",
+   "metin": "(Kağanım) yirmi üç şehri zapt etti.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-2#3",
+   "karar": "onay",
+   "metin": "(Önceleri) uykusu kaçarak yurtta yata",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-2#4",
+   "karar": "onay",
+   "metin": "kalıyordu. (Çünkü) Çin imparatoru düşmanımız idi.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-2#5",
+   "karar": "onay",
+   "metin": "On-Ok kağanı düşmanımız idi.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-3#1",
+   "karar": "onay",
+   "metin": "Bir de kalabalık Kırgızın güçlü kağanı düşmanımız oldu.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-3#2",
+   "karar": "onay",
+   "metin": "Bu üç kağan birbirine akıl danışıp \"Altay dağları üzerinde buluşalım!\" demişler.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-3#3",
+   "karar": "onay",
+   "metin": "Şöyle akıl danışmışlar: \"Doğu Türk kağanına doğru ordu sevk edelim!\" demişler.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-3#4",
+   "karar": "onay",
+   "metin": "\"Eğer onların üzerine ordu sevk etmezsek, ne zaman olsa, onlar bizi;",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-4#1",
+   "karar": "onay",
+   "metin": "kağanları cesur imiş.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-4#2",
+   "karar": "onay",
+   "metin": "Sözcüleri de akıllı imiş.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-4#3",
+   "karar": "onay",
+   "metin": "Ne zaman olsa, öldüreceklerdir. Üçümüz birleşip ordu sevk edelim, onu",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-4#4",
+   "karar": "onay",
+   "metin": "yok edelim!\" demişler.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-4#5",
+   "karar": "onay",
+   "metin": "Türgiş kağanı şöyle demiş:",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-4#6",
+   "karar": "onay",
+   "metin": "\"Benim halkım orada olacaktır!\" demiş.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-5#1",
+   "karar": "onay",
+   "metin": "\"(Türk halkı) kargaşa içindedir\" demiş.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-5#2",
+   "karar": "onay",
+   "metin": "\"Oğuzları da huzursuzdur\" demiş.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-5#3",
+   "karar": "onay",
+   "metin": "(Türgiş kağanının) bu sözlerini işitince gece uyuyasım gelmiyordu.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-5#4",
+   "karar": "onay",
+   "metin": "Oturasım gelmiyordu. O zaman düşündüm işte:",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-6#1",
+   "karar": "onay",
+   "metin": "\"Önce Kırgızlara sefer etsek iyi olur\"",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-6#2",
+   "karar": "onay",
+   "metin": "dedim. \"Kögmen yolu bir imiş,",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-6#3",
+   "karar": "onay",
+   "metin": "(o da) kapanmış\" diye işitip \"Bu yoldan yürüsek iyi olmayacak\" dedim.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-6#5",
+   "karar": "onay",
+   "metin": "Bozkırdaki (Az) iz erini buldum.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-7#2",
+   "karar": "onay",
+   "metin": "(Ancak) bir atın geçebileceği kadar imiş.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-7#3",
+   "karar": "onay",
+   "metin": "(Kendisi) o yoldan (bir kez) gitmiş. Ona sorup \"Bir atlı gitmiş\"",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-D-7#4",
+   "karar": "onay",
+   "metin": "olduğuna göre \"o yoldan yürüyebiliriz\" dedim. Düşündüm. Kağanıma",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-1#1",
+   "karar": "onay",
+   "metin": "arz ettim. Orduyu yürüttüm.",
+   "kaynak": "Tekin 1998, s. 45",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-1#2",
+   "karar": "onay",
+   "metin": "\"Attan aşağı inin!\" dedim.",
+   "kaynak": "Ergin 1970, s. 39",
+   "tur": "ceviri",
+   "not": "Okuma ayrışması: Ergin 'at alt' (attan aşağı), Tekin 1998 s. 46 'Atlat!' (= askerleri atlara bindirin) okur. DB transkripsiyonu (aT : aLT) Ergin'in okumasına uyduğu için onun çevirisi esas alındı."
+  },
+  {
+   "id": "TY1-K-1#3",
+   "karar": "onay",
+   "metin": "Ak Termel (ırmağını) geçerek zaman kazandım.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-1#4",
+   "karar": "onay",
+   "metin": "(Askerleri) at üzerine bindirip karları söktüm.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-2#2",
+   "karar": "onay",
+   "metin": "Yuvarlanarak indik. On gecede yandaki engeli dolanarak gittik.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-2#3",
+   "karar": "onay",
+   "metin": "Kılavuz yanıldı ve boğazlandı.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-2#4",
+   "karar": "onay",
+   "metin": "Sıkılıp kağan \"Sürün atları!\" demiş.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-3#1",
+   "karar": "onay",
+   "metin": "Anı ırmağına vardık. O ırmak boyunca",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-3#2",
+   "karar": "onay",
+   "metin": "gittik. (Dağa) tırmanmak için (askerleri atlarından) indirdik.",
+   "kaynak": "Tekin 2003, s. 176",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-3#3",
+   "karar": "onay",
+   "metin": "Atları ağaçlara bağlıyor",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-3#4",
+   "karar": "onay",
+   "metin": "idik. Gece gündüz dört nala gittik.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-3#5",
+   "karar": "onay",
+   "metin": "Kırgızları uykuda iken bastık.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-4#1",
+   "karar": "onay",
+   "metin": "(Uykularını) mızraklarımızla açtık. (Bu arada) hanları ve orduları toparlanmış.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-4#2",
+   "karar": "onay",
+   "metin": "Savaştık, mızrakladık. Hanlarını öldürdük.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-4#3",
+   "karar": "onay",
+   "metin": "Kırgız halkı kağana teslim oldu.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-4#4",
+   "karar": "onay",
+   "metin": "Boyun eğdi. Döndük; Kögmen dağlarını dolanıp geldik.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-5#1",
+   "karar": "onay",
+   "metin": "Kırgızlardan döndük. (Bu arada) Türgiş kağanından kaçak geldi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-5#2",
+   "karar": "onay",
+   "metin": "Sözleri şöyle idi: \"Doğu kağanına karşı sefer edelim\" demiş.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-5#3",
+   "karar": "onay",
+   "metin": "\"Sefer etmezsek, bizi — kağanı cesur imiş,",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-5#4",
+   "karar": "onay",
+   "metin": "sözcüsü akıllı imiş —",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-5#5",
+   "karar": "onay",
+   "metin": "ne zaman olsa",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-6#1",
+   "karar": "onay",
+   "metin": "bizi mutlak öldürecektir\" demiş.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-6#2",
+   "karar": "onay",
+   "metin": "(Kaçak er) \"Türgiş kağanı sefere çıkmış\"",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-6#3",
+   "karar": "onay",
+   "metin": "dedi, \"On-Ok halkı",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-6#4",
+   "karar": "onay",
+   "metin": "tümüyle sefere çıkmış diyorlar; (içlerinde) Çin askerleri (de) var imiş.\"",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-6#5",
+   "karar": "onay",
+   "metin": "Bu sözleri işitip kağanım \"Ben karargaha ineyim\" dedi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-7#1",
+   "karar": "onay",
+   "metin": "Hatun yok olmuş",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-7#2",
+   "karar": "onay",
+   "metin": "idi. \"Onun cenaze törenini yaptırayım\" dedi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-7#3",
+   "karar": "onay",
+   "metin": "\"Ordu, (siz) gidin\" dedi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-7#4",
+   "karar": "onay",
+   "metin": "\"Altay dağlarında oturun\"",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-7#5",
+   "karar": "onay",
+   "metin": "dedi. \"Kumandan (olarak) İnel Kağan ile Tarduşların Şadı görev yapsınlar!\" dedi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-7#6",
+   "karar": "onay",
+   "metin": "Bilge Tonyukuk'a, bana dedi (ki):",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-8#1",
+   "karar": "onay",
+   "metin": "\"Bu orduyu sevk et\" dedi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-8#2",
+   "karar": "onay",
+   "metin": "\"(Suç işleyenlerin) cezalarını dilediğin gibi ver. Ben sana (daha) ne diyeyim?\" dedi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-8#3",
+   "karar": "onay",
+   "metin": "\"(Düşman) gelir ise görülüp",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-8#4",
+   "karar": "onay",
+   "metin": "gelir; gelmez ise haberlerini alarak oturun!\"",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-8#5",
+   "karar": "onay",
+   "metin": "dedi. Altay dağlarında oturduk.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-9#1",
+   "karar": "onay",
+   "metin": "Üç kaçak kişi geldi.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-9#2",
+   "karar": "onay",
+   "metin": "Sözleri bir (idi): \"Kağanları orduyla sefere çıktı.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-9#3",
+   "karar": "onay",
+   "metin": "On-Ok ordusu tümüyle sefere çıktı",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-9#4",
+   "karar": "onay",
+   "metin": "diyorlar. Yarış ovasında toplanalım!\" demiş.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-9#5",
+   "karar": "onay",
+   "metin": "Bu sözleri işitip kağana bu haberi gönderdim.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-9#6",
+   "karar": "onay",
+   "metin": "Kağan tarafından yanıtı",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-10#1",
+   "karar": "onay",
+   "metin": "getirdiler: \"Oturun!\" diye demiş.",
+   "kaynak": "Tekin 1998, s. 46",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-10#2",
+   "karar": "onay",
+   "metin": "\"Devriyeleri ve gözetleme kulelerini iyi yerleştir.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-10#3",
+   "karar": "onay",
+   "metin": "Baskına uğratma!\" demiş. Bögü Kağan bana böyle (haber) göndermiş.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-10#4",
+   "karar": "onay",
+   "metin": "Apa Tarkan'a (ise) gizli mesaj göndermiş:",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-10#5",
+   "karar": "onay",
+   "metin": "\"Bilge Tonyukuk aksi mizaçlıdır, öfkelidir; yanılır.",
+   "kaynak": "Ata 2011, s. 117",
+   "tur": "ceviri",
+   "not": "Tekin 1998 s. 47 ile ayni ifade; atif, bu cumlecigin kanitinda yer alan Ata 2011 s. 117 ozel aciklamasina dayanir."
+  },
+  {
+   "id": "TY1-K-11#1",
+   "karar": "onay",
+   "metin": "'Ordu sevk edelim' diyecektir. Kabul etmeyin!\" Bu sözleri işitip orduyu yürüttüm.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-11#2",
+   "karar": "onay",
+   "metin": "Altay dağlarını yolsuz olarak aştık.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-11#3",
+   "karar": "onay",
+   "metin": "İrtiş ırmağını geçitsiz olarak geçtik.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY1-K-11#4",
+   "karar": "onay",
+   "metin": "Gece akın ettik. Bolçu'ya tan ağarırken vardık.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-1#1",
+   "karar": "onay",
+   "metin": "(Bu arada bir) haberci getirdiler. Sözleri şöyle: \"Yarış ovasında yüz bin asker toplandı\"",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-1#2",
+   "karar": "onay",
+   "metin": "diyor. Bu haberi duyunca beyler hep birlikte",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-2#1",
+   "karar": "onay",
+   "metin": "\"Dönelim; temizin utancı",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-2#2",
+   "karar": "onay",
+   "metin": "daha iyidir!\" dediler. Ben de şöyle dedim — ben Bilge Tonyukuk şöyle diyorum. Altay dağlarını aşarak geldik.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-2#3",
+   "karar": "onay",
+   "metin": "İrtiş ırmağını",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-3#1",
+   "karar": "onay",
+   "metin": "geçerek geldik. (Buralara kadar) gelenler \"(Geliş) zordu!\" dediler.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-3#2",
+   "karar": "onay",
+   "metin": "(Ama pek de zorluk) hissetmediler. Galiba Tanrı Umay, kutsal Yer ve Su (ruhları bize) yardımcı oluverdiler.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-3#3",
+   "karar": "onay",
+   "metin": "Niye kaçıyoruz?",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-4#1",
+   "karar": "onay",
+   "metin": "(Düşman) çok diye niye korkuyoruz?",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-4#2",
+   "karar": "onay",
+   "metin": "Azız diye niye yenilelim? Saldıralım!\" dedim.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-4#3",
+   "karar": "onay",
+   "metin": "Saldırdık, talan ettik. İkinci gün (daha da) çok geldiler.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-5#1",
+   "karar": "onay",
+   "metin": "Ateş gibi kızıp (üzerimize) geldiler.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-5#2",
+   "karar": "onay",
+   "metin": "Savaştık. (Onların) iki kanadı bizden yarı yarıya fazla idi.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-5#3",
+   "karar": "onay",
+   "metin": "Tanrı buyurduğu için, (düşman) çok diye biz",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-6#1",
+   "karar": "onay",
+   "metin": "korkmadık. Savaştık. (Düşmanı) Tarduş Şadına doğru kovalayıp",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-6#2",
+   "karar": "onay",
+   "metin": "dağıttık. Kağanını tuttuk. Yabgusunu, Şadını",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-7#1",
+   "karar": "onay",
+   "metin": "orada öldürdük. Elli kadar asker yakaladık.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-7#2",
+   "karar": "onay",
+   "metin": "O gece hepsinin halkına (bunlarla haber) gönderdik.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-7#3",
+   "karar": "onay",
+   "metin": "O haberi alınca On-Ok beyleri ve halkı hep",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-8#1",
+   "karar": "onay",
+   "metin": "geldiler, boyun eğdiler. (Bize) gelen beylerini ve halkını derleyip topladım; bir az halk kaçıp gitmiş",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-8#2",
+   "karar": "onay",
+   "metin": "idi. On-Ok ordusunu sefere çıkarttım.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-9#1",
+   "karar": "onay",
+   "metin": "Biz de sefere çıktık.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-B-9#2",
+   "karar": "onay",
+   "metin": "Onları geçtik. İnci (Sır Derya) ırmağını geçerek \"Tanrı Oğlu\" denilen Bengili Ek dağını aşırdım.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-1#1",
+   "karar": "onay",
+   "metin": "Demir Kapı'ya kadar eriştik.",
+   "kaynak": "Tekin 1998, s. 47",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-2#1",
+   "karar": "onay",
+   "metin": "ve onların berisindeki Aşok başlı Soğdak halkı hep geldiler, boyun eğdiler.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-2#2",
+   "karar": "onay",
+   "metin": "O gün erişti. Türk halkının Demir Kapı'ya, \"Tanrı Oğlu\"",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-3#1",
+   "karar": "onay",
+   "metin": "\"Tanrı Oğlu\" denilen dağlara (kadar) vardığı",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-3#2",
+   "karar": "onay",
+   "metin": "hiç yok imiş.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-4#1",
+   "karar": "onay",
+   "metin": "Kızıl altınları, beyaz",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-4#2",
+   "karar": "onay",
+   "metin": "gümüşleri, kızları kadınları, hörgüçlü develeri ve ipekli kumaşları fazlasıyla (önümüze) getirdiler.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-4#3",
+   "karar": "onay",
+   "metin": "İlteriş Kağan akıllı olduğu için,",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-5#1",
+   "karar": "onay",
+   "metin": "devleti için Çinlilerle yedi",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-5#2",
+   "karar": "onay",
+   "metin": "on yedi (kez) savaştı; Kıtaylarla yedi (kez)",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-5#3",
+   "karar": "onay",
+   "metin": "savaştı; Oğuzlarla (da) beş (kez) savaştı. Bu sırada sözcüsü",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-6#1",
+   "karar": "onay",
+   "metin": "yine ben idim.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-6#2",
+   "karar": "onay",
+   "metin": "Akıl veren (danışmanı) da yine ben idim.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-6#3",
+   "karar": "onay",
+   "metin": "İlteriş Kağan vefat etti.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-G-6#4",
+   "karar": "onay",
+   "metin": "Türk Bögü Kağana, Türk Bilge Kağana",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-1#1",
+   "karar": "onay",
+   "metin": "Kapgan Kağan yedi",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-1#3",
+   "karar": "onay",
+   "metin": "(Onu) Kapgan Kağan (olarak) tahta oturttum. Geceleri uyumadan,",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-2#1",
+   "karar": "onay",
+   "metin": "gündüzleri oturmadan, kızıl kanımı akıtarak,",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-2#2",
+   "karar": "onay",
+   "metin": "kara terimi döktürerek",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-2#3",
+   "karar": "onay",
+   "metin": "hizmet ettim.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-2#4",
+   "karar": "onay",
+   "metin": "Uzak mesafelere keşif devriyeleri gönderdim.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-3#1",
+   "karar": "onay",
+   "metin": "Gözetleme kulelerini (yerli yerince) yerleştirdim.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-3#2",
+   "karar": "onay",
+   "metin": "Baş kaldıran düşmanı (kağanıma) getirir idim.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri",
+   "not": "Okuma ayrışması: DB transkripsiyonu 'BaNGıMA', Tekin 'yanığma' (baş kaldıran) okur; çeviri Tekin'in okumasına dayandırıldı."
+  },
+  {
+   "id": "TY2-D-3#3",
+   "karar": "onay",
+   "metin": "Kağanımla ordu sevk ettik. Tanrı esirgesin,",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-4#1",
+   "karar": "onay",
+   "metin": "Bu Türk halkı içinde zırhlı düşmanların akınına imkân vermedim.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-4#2",
+   "karar": "onay",
+   "metin": "(Kuyruğu) düğümlü (düşman) atlarını koşturtmadım.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-4#3",
+   "karar": "onay",
+   "metin": "İlteriş Kağan kazanmasa (idi),",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-5#1",
+   "karar": "onay",
+   "metin": "ve ben kendim kazanmasa (idim) devlet de halk da olmayacak idi.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-5#2",
+   "karar": "onay",
+   "metin": "(Kağan) kazandığı için ve ben kendim kazandığım için,",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-6#1",
+   "karar": "onay",
+   "metin": "devlet de devlet oldu.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-6#2",
+   "karar": "onay",
+   "metin": "Halk da halk oldu.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-6#3",
+   "karar": "onay",
+   "metin": "(Şimdi) ben kocaldım.",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-6#4",
+   "karar": "onay",
+   "metin": "Yaşlı oldum. Herhangi bir ülkedeki kağanlı (bağımsız) bir halkın",
+   "kaynak": "Tekin 1998, s. 48",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-D-8#2",
+   "karar": "onay",
+   "metin": "Ben Bilge Tonyukuk.",
+   "kaynak": "Tekin 1998, s. 49",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-K-1#1",
+   "karar": "onay",
+   "metin": "İlteriş Kağan kazanmasa (idi), (ya da hiç) olmasa",
+   "kaynak": "Tekin 1998, s. 49",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-K-1#2",
+   "karar": "onay",
+   "metin": "idi, ben kendim Bilge Tonyukuk kazanmasa (idim), (ya da) ben hiç olmasa idim,",
+   "kaynak": "Tekin 1998, s. 49",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-K-2#1",
+   "karar": "onay",
+   "metin": "Kapgan Kağan('ın) Türk Sir halkı ülkesinde boy da, halk da, insan da hiç",
+   "kaynak": "Tekin 1998, s. 49",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-K-2#2",
+   "karar": "onay",
+   "metin": "olmayacak idi.",
+   "kaynak": "Tekin 1998, s. 49",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-K-3#1",
+   "karar": "onay",
+   "metin": "İlteriş Kağan (ve) Bilge Tonyukuk kazandığı için Kapgan Kağan'ın (ve) Türk Sir halkının gelişmesi (işte) budur.",
+   "kaynak": "Tekin 1998, s. 49",
+   "tur": "ceviri"
+  },
+  {
+   "id": "TY2-K-4#1",
+   "karar": "onay",
+   "metin": "Türk Bilge Kağan, Türk Sir halkını, Oğuz halkını besleyerek tahtta oturuyor.",
+   "kaynak": "Tekin 1998, s. 49",
+   "tur": "ceviri"
+  }
+ ]
+}

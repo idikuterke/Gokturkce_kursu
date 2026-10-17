@@ -308,9 +308,19 @@ for (const k of sozlukKayitlari) {
 
 // "gecti" gerçek çeviri, "gunumuz_okumasi" ise kabul edilen ama çeviri
 // olmayan karşılık — ikisi de alıştırmaya girer, ikincisi ETİKETLİ girer.
+// KAPI: cümleciklerde olduğu gibi burada da insan onayı şart.
+// Makine çıkarımı `ceviri: "gecti"` yazar ama `denetleyen: "makine"`
+// kalır; o kayıtlar DB'de durur, alıştırmaya girmez.
 const ceviriyeHazir = dizeler.filter(
-  (d) => d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi"
+  (d) =>
+    (d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi") &&
+    d.dogrulama?.denetleyen === "insan"
 );
+const dizeMakine = dizeler.filter(
+  (d) =>
+    (d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi") &&
+    d.dogrulama?.denetleyen !== "insan"
+).length;
 // Kısa ve kırıksız dizeler: bütün dize tek alıştırmaya ancak böyle sığar.
 // Lacuna denetimi Türkçe alanı da kapsıyor — `yipranma` bayrağı yalnızca
 // runik/transkripsiyona bakıyordu ve Türkçesinde `---` olan dize
@@ -606,6 +616,9 @@ console.log(`yakın çeldirici : ${yakinKullanan} kelimede bulundu (tek tamga fa
 console.log(`kelime çevirisi : ${kelimeCevirisi}`);
 console.log(`dize çevirisi   : ${dizeCevirisi.length}  (denetimden geçen kısa dize)`);
 console.log(`  denetim bekleyen dize: ${dizeler.length - ceviriyeHazir.length}`);
+if (dizeMakine) {
+  console.log(`  ATLANAN: ${dizeMakine} dize  ← denetleyen "insan" değil, alıştırmaya alınmadı`);
+}
 console.log(`cümlecik çevirisi: ${cumlecikCevirisi}  (insan onaylı)`);
 if (cumlecikMakine) {
   console.log(`  ATLANAN: ${cumlecikMakine} cümlecik  ← denetleyen "insan" değil, alıştırmaya alınmadı`);

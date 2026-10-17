@@ -22,8 +22,9 @@
  *   - metinsiz onay reddedilir
  *   - runik düzeltmesi varsa uygulanmaz, ayrı rapora yazılır (insan bakar)
  */
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { homedir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 
 const kok = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -38,14 +39,51 @@ if (!DENETLEYENLER.includes(denetleyen)) {
   process.exit(1);
 }
 
-if (!dosyaArg) {
-  console.error("kullanım: node engine/denetim-uygula.mjs <disa-aktarim.json> [--kuru]");
-  process.exit(1);
+/**
+ * Dosya adı yerine --son verilebilir: indirilenler klasöründeki en yeni
+ * denetim-*.json seçilir. Windows/macOS/Linux'ta ev dizini farklı
+ * olduğu ve kabuklar "~" işaretini aynı genişletmediği için yolu elle
+ * yazmak sık hata kaynağı.
+ */
+function enYeniDisaAktarim() {
+  const ev = homedir();
+  const adaylar = [
+    join(ev, "Downloads"),
+    join(ev, "İndirilenler"),
+    join(ev, "Indirilenler"),
+    join(kok, "docs"),
+    process.cwd(),
+  ];
+  let enIyi = null;
+  for (const dizin of adaylar) {
+    if (!existsSync(dizin)) continue;
+    for (const ad of readdirSync(dizin)) {
+      if (!/^denetim-.*\.json$/i.test(ad)) continue;
+      const tam = join(dizin, ad);
+      const t = statSync(tam).mtimeMs;
+      if (!enIyi || t > enIyi.t) enIyi = { tam, t };
+    }
+  }
+  return enIyi?.tam ?? null;
 }
-const dosya = resolve(process.cwd(), dosyaArg);
-if (!existsSync(dosya)) {
-  console.error(`dosya yok: ${dosya}`);
-  process.exit(1);
+
+let dosya;
+if (!dosyaArg || dosyaArg === "--son") {
+  dosya = enYeniDisaAktarim();
+  if (!dosya) {
+    console.error("kullanım: node engine/denetim-uygula.mjs <disa-aktarim.json> [--kuru] [--denetleyen insan|makine]");
+    console.error("          node engine/denetim-uygula.mjs --son   (indirilenlerdeki en yeni denetim-*.json)");
+    console.error("\nİndirilenler klasöründe denetim-*.json bulunamadı.");
+    process.exit(1);
+  }
+  console.log(`seçilen dosya: ${dosya}\n`);
+} else {
+  dosya = resolve(process.cwd(), dosyaArg);
+  if (!existsSync(dosya)) {
+    console.error(`dosya yok: ${dosya}`);
+    console.error("ipucu: dosya adı yerine --son yazarsan indirilenlerdeki en yeni dışa aktarım seçilir.");
+    process.exit(1);
+  }
 }
 
 const paket = JSON.parse(readFileSync(dosya, "utf8"));
@@ -64,6 +102,20 @@ const yazJson = (p, v) => {
 
 const reddedilen = [];
 const runikUyarilari = [];
+const korunan = [];
+
+/**
+ * Makine, insanın verdiği kararın üzerine yazamaz.
+ * İnsan onayı bu hattın en pahalı ürünü; otomatik bir koşu onu
+ * sessizce silerse doğrulama kaydının hiçbir anlamı kalmaz.
+ */
+function korunuyorMu(mevcutDenetleyen, id) {
+  if (denetleyen === "makine" && mevcutDenetleyen === "insan") {
+    korunan.push(id);
+    return true;
+  }
+  return false;
+}
 
 /** Onay kaydı geçerli mi? */
 function gecerliOnay(k) {
@@ -101,6 +153,7 @@ if (kuyruk === "dize") {
       continue;
     }
     if (!gecerliOnay(k)) continue;
+    if (korunuyorMu(d.dogrulama?.denetleyen, k.id)) continue;
     const tur = k.tur === "gunumuz_okumasi" ? "gunumuz_okumasi" : "gecti";
     d.turkce = k.metin.trim();
     d.dogrulama = {
@@ -133,6 +186,7 @@ if (kuyruk === "cumlecik") {
       continue;
     }
     if (!gecerliOnay(k)) continue;
+    if (korunuyorMu(onayliIndeks.get(k.id)?.denetleyen, k.id)) continue;
     onayliIndeks.set(k.id, {
       id: aday.id,
       dizeId: aday.dizeId,
@@ -168,6 +222,8 @@ if (kuyruk === "sozluk") {
     }
     if (!gecerliOnay(k)) continue;
     const kayit = indeks.get(k.id) ?? { transcription: k.id };
+    if (korunuyorMu(kayit.denetleyen, k.id)) continue;
+    kayit.denetleyen = denetleyen;
     kayit.meaning = k.metin.trim();
     kayit.category = k.tur || "diger";
     kayit.source = k.kaynak.trim();
@@ -181,6 +237,10 @@ if (kuyruk === "sozluk") {
 console.log(`kuyruk     : ${kuyruk}${kuru ? "  (KURU ÇALIŞMA — hiçbir şey yazılmadı)" : ""}`);
 console.log(`denetleyen : ${denetleyen}${denetleyen === "makine" ? "  ← insan onayı YOK, alıştırmaya girmez" : ""}`);
 console.log(`işlenen    : ${yazilan} onay, ${atlanan} red`);
+if (korunan.length) {
+  console.log(`\nKORUNDU: ${korunan.length} kayıt — insan onayı var, makine üzerine yazmadı`);
+  for (const id of korunan.slice(0, 10)) console.log(`  ${id}`);
+}
 if (reddedilen.length) {
   console.log(`\nkabul edilmeyen ${reddedilen.length} kayıt:`);
   for (const r of reddedilen) console.log(`  ${r.id}: ${r.sebep}`);

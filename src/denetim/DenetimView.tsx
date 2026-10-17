@@ -124,7 +124,7 @@ export const DenetimView: React.FC = () => {
 
   const disaAktar = useCallback(() => {
     const govde = {
-      kuyruk: kuyrukId,
+      kuyruk: kuyruk.uygulaKuyrugu ?? kuyrukId,
       uretim: new Date().toISOString(),
       kararlar: Object.entries(kararlar)
         .filter(([, d]) => d.karar !== 'beklemede')
@@ -138,7 +138,7 @@ export const DenetimView: React.FC = () => {
     a.download = `denetim-${kuyrukId}-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
-  }, [kararlar, kuyrukId]);
+  }, [kararlar, kuyruk, kuyrukId]);
 
   useEffect(() => {
     const dinle = (e: KeyboardEvent) => {

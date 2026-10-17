@@ -1,0 +1,2088 @@
+{
+  "kuyruk": "cumlecik",
+  "uretim": "2026-10-17",
+  "uretici": "engine/kaynak-tara.mjs",
+  "aciklama": "Dijitalleştirilmiş kitaplardan otomatik çıkarılmış karşılıklar. İNSAN ONAYI YOK — --denetleyen makine ile işlenmelidir.",
+  "esik": 0.55,
+  "kararlar": [
+    {
+      "id": "KT-D-16#3",
+      "karar": "onay",
+      "metin": "O töre gereğince amcam kağan olarak tahta oturdu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "not": "otomatik eşleşme 1 · kitap: ol törödä üzä eçim kagan olortı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-17#1",
+      "karar": "onay",
+      "metin": "Amcam hakan tahta çıktığında ben Tarduş halkı üzerine Şad idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "not": "otomatik eşleşme 1 · kitap: eçim kagan olortokda özüm tarduş bodun üzä şad ärtim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-D-2#2",
+      "karar": "onay",
+      "metin": "(Hakan) yirmi üç şehir tahrip etti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "not": "otomatik eşleşme 1 · kitap: üç otuz balık sıdı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-39#4",
+      "karar": "onay",
+      "metin": "bizim ordu(nun) atları",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 106",
+      "not": "otomatik eşleşme 1 · kitap: biziŋ sü at-i",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-20#3",
+      "karar": "onay",
+      "metin": "(Ona) kız kardeşim prensesi verdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
+      "not": "otomatik eşleşme 1 · kitap: siŋlim kunçuy+ug birtimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-32#7",
+      "karar": "onay",
+      "metin": "Yarı ordusu (da bizim) evimizi barkımızı yağmalamak için gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "not": "otomatik eşleşme 1 · kitap: [sıŋ]ar süsi äb+ig bark+ıg yulgalı bardı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-38#2",
+      "karar": "onay",
+      "metin": "O at sürülerini alıp (Türk halkını) besledim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "not": "otomatik eşleşme 1 · kitap: ol yılkı+g alıp igi(t)tim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-3#5",
+      "karar": "onay",
+      "metin": "Kırgız'ları uykuda bastırdık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "not": "otomatik eşleşme 1 · kitap: kırkız+ıg uka basdımız",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-1#3",
+      "karar": "onay",
+      "metin": "Sözlerimi tümüyle işitin!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "not": "otomatik eşleşme 1 · kitap: sabım+ın tükäti eşidgil",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-3#1",
+      "karar": "onay",
+      "metin": "Hanını bırakıp (başkalarına) bağımlı oldun",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
+      "not": "otomatik eşleşme 1 · kitap: [kanıŋ+in] kodup içikdiŋ",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-10#1",
+      "karar": "onay",
+      "metin": "Türklerime (ve) halkıma daha iyi bir şekilde öylece kazanıverdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 111",
+      "not": "otomatik eşleşme 1 · kitap: türüküm+ä bodunum+a yeginança kazganu birtim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-4#3",
+      "karar": "onay",
+      "metin": "Kırgız halkı Hakana tabi oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 111",
+      "not": "otomatik eşleşme 1 · kitap: kagan+ka kırkız boduni içikdi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-17#4",
+      "karar": "onay",
+      "metin": "Batıda Demir Kapı'ya kadar sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "not": "otomatik eşleşme 1 · kitap: kurıgaru tämir kapıg+ka tägi sülädimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-26#2",
+      "karar": "onay",
+      "metin": "Hiç de varlıklı ve mutlu bir halk üzerine tahta oturmadım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "not": "otomatik eşleşme 1 · kitap: näŋ yılsıg bodun+ka olormadım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-30#2",
+      "karar": "onay",
+      "metin": "Bir yılda dört kez savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "not": "otomatik eşleşme 1 · kitap: bir yıl+ka tört yolı süŋüşdüm",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-3#5",
+      "karar": "onay",
+      "metin": "Türk Sir halkının ülkesinde",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 113",
+      "not": "otomatik eşleşme 1 · kitap: türk sir bodun yerin+tä",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-2#5",
+      "karar": "onay",
+      "metin": "Kara Gölde savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
+      "not": "otomatik eşleşme 1 · kitap: kara köl+tä süŋüşdümüz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-8#3",
+      "karar": "onay",
+      "metin": "Amga Korgan'da kışlayıp, ilkbaharda Oğuzlara doğru sefere çıktık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "not": "otomatik eşleşme 1 · kitap: amga korgan kışlap yazıŋa oguz+garu sü taşıkdımız",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-10#4",
+      "karar": "onay",
+      "metin": "(Hakan), Apa Tarkan'a gizli bir mesaj göndermiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "not": "otomatik eşleşme 1 · kitap: apa tarkan+garu içrä sab ıdmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-27#6",
+      "karar": "onay",
+      "metin": "Türgiş hakanının ordusu ateş gibi, fırtına gibi (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "not": "otomatik eşleşme 1 · kitap: türgiş kagan süsi ot+ça bor+ça kälti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-20#2",
+      "karar": "onay",
+      "metin": "Kanın ırmak gibi aktı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "not": "otomatik eşleşme 1 · kitap: kanıŋ ügüz+çä yügürti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-8#4",
+      "karar": "onay",
+      "metin": "İngek gölcüğü ile Tola ırmağından Oğuzlar (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
+      "not": "otomatik eşleşme 1 · kitap: ingäk köläk+in toglada oguz kälti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-39#2",
+      "karar": "onay",
+      "metin": "Elçisi, iyi haberleri ve ricaları gelmiyor diye yazın sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
+      "not": "otomatik eşleşme 1 · kitap: yalabaçi ädgü sabi ötügi kälmäz tiyin yay+ın sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-9#2",
+      "karar": "onay",
+      "metin": "Ben on dokuz yıl Şad (olarak) hüküm sürdüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "not": "otomatik eşleşme 1 · kitap: män tokuz yegirmi yıl şad olortum",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-7#2",
+      "karar": "onay",
+      "metin": "Danışmanı ve kumandanı da ben idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "not": "otomatik eşleşme 1 · kitap: bilgäsi çabışi bän ök ärtim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-8#1",
+      "karar": "onay",
+      "metin": "Bu orduyu sevk et dedi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "not": "otomatik eşleşme 1 · kitap: bu süg elt tidi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-11#2",
+      "karar": "onay",
+      "metin": "Ona bakın ve öğrenin!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
+      "not": "otomatik eşleşme 1 · kitap: aŋar körü biliŋ",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-18#1",
+      "karar": "onay",
+      "metin": "Toplam yirmi beş (kez) sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 128",
+      "not": "otomatik eşleşme 1 · kitap: kamagı biş otuz sülädimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-4#6",
+      "karar": "onay",
+      "metin": "İlk önce Togu Balık'ta savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
+      "not": "otomatik eşleşme 1 · kitap: äŋ ilk togu balıkda süŋüşdümüz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-30#3",
+      "karar": "onay",
+      "metin": "İlk önce Togu Balık'ta savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
+      "not": "otomatik eşleşme 1 · kitap: äŋ ilki togu balıkda süŋüşdüm",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-4#5",
+      "karar": "onay",
+      "metin": "Bir yılda beş kez savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
+      "not": "otomatik eşleşme 1 · kitap: bir yılka biş yolı süŋüşdümüz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-28#4",
+      "karar": "onay",
+      "metin": "Altı kez savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
+      "not": "otomatik eşleşme 1 · kitap: altı yolı süŋüşdüm",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-14#2",
+      "karar": "onay",
+      "metin": "Güneyde Çin halkı (bize) düşman imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
+      "not": "otomatik eşleşme 1 · kitap: biryä tabgaç bodun yagı ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-14#3",
+      "karar": "onay",
+      "metin": "Kuzeyde (bize) bağımlı Hakan, Dokuz Oğuz halkı düşman imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "not": "otomatik eşleşme 1 · kitap: yırya baz kagan tokuz oguz bodun yagı ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-3#6",
+      "karar": "onay",
+      "metin": "Güneyde Dokuz Ersin'e kadar sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
+      "not": "otomatik eşleşme 1 · kitap: birgärü tokuz ärsinkä tägi sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-1#3",
+      "karar": "onay",
+      "metin": "Düşmanlarımız dört bir yan(ımız)da ocak gibi idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 141",
+      "not": "otomatik eşleşme 1 · kitap: yagımız tägrä oçok täg ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-2#1",
+      "karar": "onay",
+      "metin": "Dört taraf hep (bize) düşman imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "not": "otomatik eşleşme 1 · kitap: tört buluŋ kop yagı ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-1#2",
+      "karar": "onay",
+      "metin": "(Onların) adamlarını hep öldürmüş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "not": "otomatik eşleşme 1 · kitap: ärin kop ölürmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-9#3",
+      "karar": "onay",
+      "metin": "On Ok ordusu geride hiç kimse kalmamasıya sefere çıktı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "not": "otomatik eşleşme 1 · kitap: on ok süsi kalısız taşıkdı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-1#3",
+      "karar": "onay",
+      "metin": "Çadırlarını ve mal mülklerini geride hiçbir şey bırakmamasıya getirdiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "not": "otomatik eşleşme 1 · kitap: äbin barımın kalısız kop kälürti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-25#1",
+      "karar": "onay",
+      "metin": "İlk olarak Kırgız hakanının taş heykelini diktim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
+      "not": "otomatik eşleşme 1 · kitap: başlayu kırkız kaganıg balbal tikdim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-16#2",
+      "karar": "onay",
+      "metin": "(Amcam hakan), babam hakan için ilk olarak bağımlı hakanın taş heykelini dikmiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
+      "not": "otomatik eşleşme 1 · kitap: kaŋım kaganka başlayu baz kaganıg balbal tikmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-26#3",
+      "karar": "onay",
+      "metin": "Yirmi beş yaşımda Çik halkı ve Kırgızlar (bize) düşman oldular",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "not": "otomatik eşleşme 1 · kitap: altı otuz yaşıma çik bodun kırkız birlä yagı boltı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-34#2",
+      "karar": "onay",
+      "metin": "Oğuz halkı, Dokuz Tatarlar ile birlikte toparlanıp (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "not": "otomatik eşleşme 1 · kitap: oguz bodun tokuz tatar birlä tirilip kälti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-35#3",
+      "karar": "onay",
+      "metin": "Hakanları ile Songa dağında savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "not": "otomatik eşleşme 1 · kitap: kaganin birlä soŋa yışda süŋüşdümüz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-27#2",
+      "karar": "onay",
+      "metin": "Hakanları ile Songa dağında savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "not": "otomatik eşleşme 1 · kitap: kaganin birlä soŋa yışda süŋüşdüm",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-1#4",
+      "karar": "onay",
+      "metin": "(Askerleri) at üzerine bindirip karları söktüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "not": "otomatik eşleşme 1 · kitap: at üzä bintürä karıg sökdüm",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-4#3",
+      "karar": "onay",
+      "metin": "Bunca yere kadar (orduyu) yürüttüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
+      "not": "otomatik eşleşme 1 · kitap: bunça yirkä tägi yorıtdım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-25#6",
+      "karar": "onay",
+      "metin": "Kervan göndermiyor diye sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "not": "otomatik eşleşme 1 · kitap: arkış ıdmaz tiyin sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-39#1",
+      "karar": "onay",
+      "metin": "Soğdak halkını örgütlemek amacıyla İnci ırmağını geçerek Demir Kapı'ya kadar sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "not": "otomatik eşleşme 1 · kitap: sogdak bodun itäyin tiyin yinçü ügüzüg käçä tämir kapıgka tägi sülädimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-5#4",
+      "karar": "onay",
+      "metin": "Prens Kül Azların yağız atına binip atılarak saldırdı, bir askeri mızrakladı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "not": "otomatik eşleşme 1 · kitap: kül tigin az yagızin binip opla-yu tägip bir ärig sançdı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-5#4",
+      "karar": "onay",
+      "metin": "(Çinliler) uzaklarda oturan halkları tatlı sözlerle ve yumuşak ipekli kumaşlarla aldatıp öylece (Çin'e) yaklaştırır imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "not": "otomatik eşleşme 1 · kitap: süçig sabın yimşak agın ar-ıp ırak bodunug ança yagutır ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-28#3",
+      "karar": "onay",
+      "metin": "Otuz yaşımda Beşbalık (şehrine) doğru sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 182",
+      "not": "otomatik eşleşme 1 · kitap: otuz yaşıma biş balık tapa sülä-dim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-K-4#1",
+      "karar": "onay",
+      "metin": "Türk Bilge Hakan, Türk Sir halkını, Oğuz halkını doyurarak tahtta oturuyor",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 186",
+      "not": "otomatik eşleşme 1 · kitap: türük bilgä kagan türük sir bodunug oguz bodunug igidü olor-ur",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-6#1",
+      "karar": "onay",
+      "metin": "(Çinliler) iyi ve akıllı kişileri, iyi ve yiğit kişileri ilerletmez imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 187",
+      "not": "otomatik eşleşme 1 · kitap: ädgü bilgä kişig ädgü alp kişig yorıt-maz ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-6#2",
+      "karar": "onay",
+      "metin": "(Öte yandan), bir kişi suç işlese onun soyuna sopuna ve akrabalarına kadar (herkesi) öldürmez imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 187",
+      "not": "otomatik eşleşme 1 · kitap: bir kişi yaŋılsar uguşi boduni bişükiŋä tägi kıd-maz ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-7#3",
+      "karar": "onay",
+      "metin": "Çogay (dağlarının) kuzeyinde, Kara Kum (denilen) yerde oturuyorduk",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 190",
+      "not": "otomatik eşleşme 1 · kitap: çogay kuzin kara kumug olor-ur är-timiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-31#5",
+      "karar": "onay",
+      "metin": "Dördüncü olarak Ezginti Kadız'da savaştım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 205",
+      "not": "otomatik eşleşme 1 · kitap: törtünç äzginti kadızda süŋüşdüm",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-32#8",
+      "karar": "onay",
+      "metin": "Yarı ordusu (da) savaşmak için (üzerimize) geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 206",
+      "not": "otomatik eşleşme 1 · kitap: sıŋar süsi süŋüşgäli kälti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-5#2",
+      "karar": "onay",
+      "metin": "gündüzleri (de) oturasım (dinlenesim) gelmedi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
+      "not": "otomatik eşleşme 1 · kitap: küntüz olorsıkım kälmädi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-5#3",
+      "karar": "onay",
+      "metin": "Çin halkının sözleri tatlı, ipekli kumaşları (da) yumuşak imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 213",
+      "not": "otomatik eşleşme 1 · kitap: tabgaç bodun sabi süçig, agısi yimşak ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-14#2",
+      "karar": "onay",
+      "metin": "Gelenekler üzre amcam hakan tahta çıkmış.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 55",
+      "not": "otomatik eşleşme 1 · kitap: ol töröde üze eçim kagan olortı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-7#1",
+      "karar": "onay",
+      "metin": "yoğun olsa koparması zormuş",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
+      "not": "otomatik eşleşme 1 · kitap: yogun bolsar üzgülik alp ermiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-5#1",
+      "karar": "onay",
+      "metin": "kumanda edenlerin başı Şad unvanını taşıyordu.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
+      "not": "otomatik eşleşme 1 · kitap: uduzugma uluğı şad erti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-12#2",
+      "karar": "onay",
+      "metin": "(Onlar) iyi binek atlarını, kara samurları ve mavi sincapları pek çok sayıda getirip bıraktılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "not": "otomatik eşleşme 0.966 · kitap: ädgü özlük atin kara kişin kök täyänin sansız kälürüp kop kot(t)ı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-12#1",
+      "karar": "onay",
+      "metin": "Çin İmparatorunun saray ressam ve heykeltraşlarını...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
+      "not": "otomatik eşleşme 0.933 · kitap: tabgaç kagan+ıŋ içerki bädizçig...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-D-3#1",
+      "karar": "onay",
+      "metin": "İstihkamları ve gözetleme kulelerini yerleştirdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 195",
+      "not": "otomatik eşleşme 0.917 · kitap: arkuy kargu-g olgurtdum ok",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-K-4#5",
+      "karar": "onay",
+      "metin": "Gerçek akıllı kişileri, gerçek yiğit kişileri ilerletmez imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
+      "not": "otomatik eşleşme 0.909 · kitap: ädgü bilgä kişig ädgü alp kişig yorıt-maz är-miş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-33#2",
+      "karar": "onay",
+      "metin": "Ben erkek kardeşimle birlikte (Türk halkının) başına geçip bunca başarılı olmasaydım Türk halkı ölecek idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 192",
+      "not": "otomatik eşleşme 0.903 · kitap: män iniligü bunça başlayu kazganm[a-sar] türük bodun öl-täçi är-ti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-12#5",
+      "karar": "onay",
+      "metin": "İleri geri sefer düzenleyip (daha çok savaşçı) derlemiş toplamış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 137",
+      "not": "otomatik eşleşme 0.9 · kitap: ilgärü kur(ı)garu süläp ti[r]m[iş] kubrat[miş]",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-9#1",
+      "karar": "onay",
+      "metin": "Büyük oğlum hastalanıp ölünce General Ku'yu (öldürüp onun kabrine) taş heykelini dikiverdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "not": "otomatik eşleşme 0.9 · kitap: ulug oglum agrı-p yok bolça kug säŋünüg balbal tikä birtim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-7#5",
+      "karar": "onay",
+      "metin": "Ordunun komutanı (olarak) İnel Kağan (ile) Tarduş Şad gitsin dedi.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 58",
+      "not": "otomatik eşleşme 0.9 · kitap: sü başi inel kagan tarduş şad barzun tėdi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-7#5",
+      "karar": "onay",
+      "metin": "Cahil kişiler, (Çinlilerin) bu sözlerine kapılıp (Çin'e) yakın gidip çoğunuz telef oldunuz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "not": "otomatik eşleşme 0.893 · kitap: bilig bilmäz kişi ol sabıg al-ıp yagru bar-ıp üküş kişi öltüg",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-36#4",
+      "karar": "onay",
+      "metin": "Ben kendim hakan olarak tahta oturduğum için Türk halkını... yapmadım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "not": "otomatik eşleşme 0.889 · kitap: män özüm kagan olortokum üçün türük bodunug... kılmadım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-40#2",
+      "karar": "onay",
+      "metin": "'Güneyde Karluk halkına doğru sefer et!' deyip Tudun Yamtar'ı gönderdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 214",
+      "not": "otomatik eşleşme 0.885 · kitap: biryä karluk bodun tapa sülä tip tudun yamtarıg ı(t)tım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-K-14#3",
+      "karar": "onay",
+      "metin": "(Çin İmparatoru) saray sanatçılarını gönderdi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 139",
+      "not": "otomatik eşleşme 0.875 · kitap: içräki bädizçig ı(t)tı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-38#1",
+      "karar": "onay",
+      "metin": "Türk halkı aç idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
+      "not": "otomatik eşleşme 0.875 · kitap: türük bodun / āç ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-2#2",
+      "karar": "onay",
+      "metin": "Çin'e General Ku'yu göndermiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
+      "not": "otomatik eşleşme 0.867 · kitap: tabgaçgaru ku+nı säŋün+üg ıdmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-2#6",
+      "karar": "onay",
+      "metin": "Prens Kül (o zaman) otuz bir yaşında idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "not": "otomatik eşleşme 0.857 · kitap: kül tigin bir kırk yaşayur ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-2#3",
+      "karar": "onay",
+      "metin": "Kılavuz yanıldı ve boğazlandı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "not": "otomatik eşleşme 0.857 · kitap: yerçi yer yaŋılıp boguzlan-tı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-9#4",
+      "karar": "onay",
+      "metin": "Yarış Yazı'da toplanalım",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 58",
+      "not": "otomatik eşleşme 0.857 · kitap: yarış yazıda tėrilelim tėmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-6#3",
+      "karar": "onay",
+      "metin": "Ondan sonra, Tanrı (bana) akıl verdiği için (onu) ben kendim hakan yaptım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 124",
+      "not": "otomatik eşleşme 0.852 · kitap: anta kisrä täŋri bilig bertök üçün özüm ök kagan kışdım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-4#1",
+      "karar": "onay",
+      "metin": "Demir Kapı'ya kadar sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
+      "not": "otomatik eşleşme 0.846 · kitap: tämir kapıg+ka tägi sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-20#5",
+      "karar": "onay",
+      "metin": "O cehaletiniz yüzünden, kötü davranışlarınız yüzünden amcam hakan uçup gitti (vefat etti)",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "not": "otomatik eşleşme 0.846 · kitap: ol bilmädökügin üçün, yablakıŋın üçün eçim kagan uça bardı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-34#3",
+      "karar": "onay",
+      "metin": "Onları dağıtıp Türgi Yargun gölde bozguna uğrattık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
+      "not": "otomatik eşleşme 0.842 · kitap: anı yañıp türgi yargun költä buzdumuz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-7#5",
+      "karar": "onay",
+      "metin": "Çinlilerin (hizmetine giren Türk) beyleri Çin unvanları alarak Çin imparatoruna tabi olmuşlar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
+      "not": "otomatik eşleşme 0.84 · kitap: tabgaçgı bäglär tabgaç ātin tut-upan tabgaç kaganka körmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-37#2",
+      "karar": "onay",
+      "metin": "Bağımlı olmak isteyenler bağımlı oldu, halk oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
+      "not": "otomatik eşleşme 0.833 · kitap: içik-igmä içikdi bodun boltı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-3#6",
+      "karar": "onay",
+      "metin": "beyleri de halkı da barışık ve uyum içinde imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "not": "otomatik eşleşme 0.824 · kitap: bägläri yämä boduni yämä tüz ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-B-4#1",
+      "karar": "onay",
+      "metin": "(Düşman) çok diye niçin korkuyoruz?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 125",
+      "not": "otomatik eşleşme 0.818 · kitap: üküş teyin näkä korkur biz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-K-2#1",
+      "karar": "onay",
+      "metin": "Kapgan Hakanın Türk Sir halkı ülkesinde boy da halk da insan da hiç olmayacak idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
+      "not": "otomatik eşleşme 0.806 · kitap: kapgan kagan türük sir bodun yerintä bod yämä bodun yämä kişi yämä idi yok ärtäçi ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-1#1",
+      "karar": "onay",
+      "metin": "Yukarıda mavi gök aşağıda kara toprak yaratıldığında ikisinin arasında insanoğlu yaratılmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 149",
+      "not": "otomatik eşleşme 0.806 · kitap: üzä kök täŋri asra yagız yer kılıntokda ekin ara kişi oglı kılınmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-27#1",
+      "karar": "onay",
+      "metin": "Türk halkı için gece uyumadım...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 106",
+      "not": "otomatik eşleşme 0.8 · kitap: türük bodun üçün tün udımadım...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-13#4",
+      "karar": "onay",
+      "metin": "Bu yazıları yazan (Prens Kül'ün) yeğeni Prens Yollug",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
+      "not": "otomatik eşleşme 0.8 · kitap: bu bitig biti-gmä atısi yol(l)ug tigin",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-40#1",
+      "karar": "onay",
+      "metin": "Yiğit askerler bize saldırmıştı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
+      "not": "otomatik eşleşme 0.8 · kitap: alp är biziŋä täg-miş är-ti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-19#1",
+      "karar": "onay",
+      "metin": "Türk halkı, ülkeni ve yasalarını kim bozabilir ki!",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 59",
+      "not": "otomatik eşleşme 0.8 · kitap: türük bodun ėliŋin töröŋin kem artatı udaçı erti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-29#2",
+      "karar": "onay",
+      "metin": "İlahi lutfum olduğu için, talihim olduğu için, ölecek halkı diriltip doyurdum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "not": "otomatik eşleşme 0.792 · kitap: kutum bar üçün, ülügüm bar üçün öltäçi bodunug tirgürü igi(t)tim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-8#1",
+      "karar": "onay",
+      "metin": "Elli yıl hizmet etmiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "not": "otomatik eşleşme 0.786 · kitap: älig yıl iş+ig küç+üg birmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-26#3",
+      "karar": "onay",
+      "metin": "Karnı aç, sırtı çıplak, yoksul ve sefil bir halk üzerine hükümdar oldum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 155",
+      "not": "otomatik eşleşme 0.786 · kitap: içrä aşsız taşra tonsuz yabız yablak bodunta üzä olortum",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-10#3",
+      "karar": "onay",
+      "metin": "Gören gözlerim görmez gibi, eren aklım ermez gibi oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
+      "not": "otomatik eşleşme 0.783 · kitap: körür közüm körmäz täg, bilir biligim bilmäz täg boltı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-7#1",
+      "karar": "onay",
+      "metin": "Hatun yok olmuş idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "not": "otomatik eşleşme 0.778 · kitap: katun yok bolmiş ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-1#2",
+      "karar": "onay",
+      "metin": "İnsanoğlunun üstüne (de) atalarım dedelerim Bumın Hakan, İştemi Hakan (hükümdar olarak) tahta oturmuş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 155",
+      "not": "otomatik eşleşme 0.778 · kitap: kişi oglınta üzä äçüm apam bumın kagan iştämi kagan olormış",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-20#5",
+      "karar": "onay",
+      "metin": "Halkı cariye ve köle oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 211",
+      "not": "otomatik eşleşme 0.778 · kitap: boduni / küŋ kul boltı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-9#5",
+      "karar": "onay",
+      "metin": "Hangi hakana hizmet ediyorum ben? diyormuş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 191",
+      "not": "otomatik eşleşme 0.773 · kitap: nä kaganka işig küçüg birür män ti-r är-miş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-K-3#1",
+      "karar": "onay",
+      "metin": "İlteriş Kağan ve Bilge Tunyukuk (çalışıp çabalayıp) kazandıkları için Kapgan Kaganın Türk Sir halkının gelişmesi (işte) bu(dur)",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 121",
+      "not": "otomatik eşleşme 0.773 · kitap: ilteriş kagan bilgä tuñukuk kazgantok üçün kapgan kagan türük sir bodun yorıdokı bu",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-B-7#2",
+      "karar": "onay",
+      "metin": "(Elli kadar adam yakaladık), hemen o gece hepsinin halkına onlarla (haber) gönderdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "not": "otomatik eşleşme 0.769 · kitap: ol ok tün bodunin sayu ı(t)tımız",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-4#2",
+      "karar": "onay",
+      "metin": "kuzeyde Yir Bayırku ülkesine kadar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
+      "not": "otomatik eşleşme 0.765 · kitap: yırgaru yir bayırku yiriŋä tägi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-33#1",
+      "karar": "onay",
+      "metin": "Tanrı öyle buyurduğu için, ben (çalışıp) kazandığım için Türk halkı (da öylece) kazanmış oldu, şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "not": "otomatik eşleşme 0.765 · kitap: täŋri yarlıkadok üçün, män kazgandok üçün türük bodun kazg[anmiş äri]nç",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-4#5",
+      "karar": "onay",
+      "metin": "Devlet kurulacak yer (devlet sahibi olunacak) yer Ötüken dağları imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 167",
+      "not": "otomatik eşleşme 0.765 · kitap: il tut-sık yir ötükän yış ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-1#1",
+      "karar": "onay",
+      "metin": "Dağ hayvanları yiyerek, tavşan yiyerek oturuyorduk",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "not": "otomatik eşleşme 0.765 · kitap: keyik yi-yü tabışgan ye-yü olorur ärtimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-24#2",
+      "karar": "onay",
+      "metin": "güçlü (?) bir devleti, güçlü bir hakanı olanlardan daha iyi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 203",
+      "not": "otomatik eşleşme 0.765 · kitap: ıgar elligdä [ı]gar kaganlıgda yeg",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-11#1",
+      "karar": "onay",
+      "metin": "(Söylenecek) ne kadar sözüm var ise (hepsini bu) ebedi taşa vurdum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 128",
+      "not": "otomatik eşleşme 0.762 · kitap: näŋ näŋ sabım ärsär bäŋgü taşka urtum",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-40#1",
+      "karar": "onay",
+      "metin": "Kendi topraklarına ve sularına kondu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "not": "otomatik eşleşme 0.75 · kitap: yeri+ŋärü subı+ŋaru kontı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-3#7",
+      "karar": "onay",
+      "metin": "Onun için devleti öylece yönetmişler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "not": "otomatik eşleşme 0.75 · kitap: anı üçün ilig ança tutmiş ärinç",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-10#2",
+      "karar": "onay",
+      "metin": "Atlı muhafızları ve gözetleme kulelerini iyice yerleştir!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 143",
+      "not": "otomatik eşleşme 0.75 · kitap: yälmä kargug ädgüti urgıl",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-D-5#2",
+      "karar": "onay",
+      "metin": "(İlteriş Hakan) kazandığı için ve (ben) kendim kazandığım için...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 156",
+      "not": "otomatik eşleşme 0.75 · kitap: kazgantokin üçün udu özüm kazgantokum üçün...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-3#4",
+      "karar": "onay",
+      "metin": "Gece gündüz dört nala gittik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "not": "otomatik eşleşme 0.75 · kitap: kün yämä tün yämä yälü bardımız",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-9#5",
+      "karar": "onay",
+      "metin": "Bozguna uğrayıp dağılanlar da yollarda ölüp kaldılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 160",
+      "not": "otomatik eşleşme 0.75 · kitap: yañdok yolta yämä ölti-k ök",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-2#2",
+      "karar": "onay",
+      "metin": "Ordular sevk ederek dört taraftaki (düşman) halkları hep almış, hep bağımlı kılmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "not": "otomatik eşleşme 0.741 · kitap: sü süläpän tört buluŋdakı bodunug kop almiş, kop baz kılmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-2#1",
+      "karar": "onay",
+      "metin": "Türk halkı hanını bulamayarak Çin'den ayrıldı, han sahibi oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
+      "not": "otomatik eşleşme 0.741 · kitap: türk bodun kanin bulma-yin tabgaçda adrıltı kanlantı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-28#3",
+      "karar": "onay",
+      "metin": "Kuzeyde Oğuz halkına doğru, doğuda Kıtany ve Tatabı halklarına doğru, günede (de) Çin'e doğru on iki (kez) büyük ordularla sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
+      "not": "otomatik eşleşme 0.74 · kitap: yırgaru oguz bodun tapa, ilgärü kıtañ tatabı bodun tapa, birgärü tabgaç tapa ulug sü eki yegirmi sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-11#3",
+      "karar": "onay",
+      "metin": "Babam Hakan on yedi er ile (dağa) çıkmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
+      "not": "otomatik eşleşme 0.739 · kitap: kaŋım kagan yiti yegirmi är+in taşıkmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-10#2",
+      "karar": "onay",
+      "metin": "Güneydeki halklar, batıdaki, kuzeydeki ve doğudaki halklar (üzerimize) geldiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "not": "otomatik eşleşme 0.739 · kitap: biryäki bodun kuryakı yıryakı öŋräki bodun kälti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-2#2",
+      "karar": "onay",
+      "metin": "Hanını bırakıp Çin’e yeniden bağımlı oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 148",
+      "not": "otomatik eşleşme 0.737 · kitap: kanin kodup tabgaçka yana içikdi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-D-5#3",
+      "karar": "onay",
+      "metin": "O sözleri işittikten (sonra) geceleri uyuyasım gelmiyordu, gündüzleri oturasım gelmiyordu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 158",
+      "not": "otomatik eşleşme 0.731 · kitap: ol sabın eşidip tün yämä udısıkım kälmäz ärti < kün yämä> olorsıkım kälmäz ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-24#7",
+      "karar": "onay",
+      "metin": "Çocuklarını, kadınlarını, at sürülerini ve mallarını orada aldım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
+      "not": "otomatik eşleşme 0.727 · kitap: ogli+n yutuzi+n yılkısi+n barımi+n anta altım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-13#4",
+      "karar": "onay",
+      "metin": "...halkı atalarımın dedelerimin töresince (yeniden) yaratmış (ve) eğitmiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "not": "otomatik eşleşme 0.727 · kitap: ...bodunug äçüm apam törösin+çä yaratmiş boşgurmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-3#2",
+      "karar": "onay",
+      "metin": "(Dağa) tırmanmak için (askerleri atlarından) indirdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 176",
+      "not": "otomatik eşleşme 0.727 · kitap: asın-galı tüşürtümüz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-D-5#2",
+      "karar": "onay",
+      "metin": "Oğuzları da huzursuzdur",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
+      "not": "otomatik eşleşme 0.727 · kitap: oguzi yämä / tarkınç ol",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-D-6#4",
+      "karar": "onay",
+      "metin": "Herhangi bir ülkedeki hakanlı bir halka...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
+      "not": "otomatik eşleşme 0.722 · kitap: näŋ yerdäki kaganlıg bodunka...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-10#4",
+      "karar": "onay",
+      "metin": "Zaman tanrısı buyurunca insanoğulları hep ölümlü yaratılmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 177",
+      "not": "otomatik eşleşme 0.72 · kitap: öd täŋri ay-sar kişi oglı kop ölgäli törümiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-20#4",
+      "karar": "onay",
+      "metin": "Bey olacak erkek evladını köle yaptın, hanım olacak kız evladını (da) cariye yaptın",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 183",
+      "not": "otomatik eşleşme 0.72 · kitap: bäglik urı ogluŋın kul kıl-tıg eşilik [kız ogluŋın küŋ] kıl-tıg",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-2#5",
+      "karar": "onay",
+      "metin": "Doğuda Kingan dağlarına, batıda Demir Kapı'ya kadar kondurmuş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
+      "not": "otomatik eşleşme 0.719 · kitap: ilgärü kadırkan yışka tägi, kirü tämir kapıgka tägi konturmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-35#3",
+      "karar": "onay",
+      "metin": "Dokuz Oğuz halkı yerini yurdunu bırakıp Çin'e doğru gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 174",
+      "not": "otomatik eşleşme 0.719 · kitap: tokuz oguz bodun yerin subin ıd-ıp tabgaçgaru bardı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-2#4",
+      "karar": "onay",
+      "metin": "Mağrurlara baş eğdirmişler, güçlülere diz çöktürmüşler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "not": "otomatik eşleşme 0.714 · kitap: başlıg+ıg yüküntürmiş, tizlig+ig sökürmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-36#5",
+      "karar": "onay",
+      "metin": "Devleti ve töreleri (öbür hakanlardan) daha iyi kazandım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "not": "otomatik eşleşme 0.714 · kitap: [ilig] törög yegdi kazgantım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-D-1#1",
+      "karar": "onay",
+      "metin": "Kapgan Hakan",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 171",
+      "not": "otomatik eşleşme 0.714 · kitap: kapgan kagan",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-1#5",
+      "karar": "onay",
+      "metin": "Öylece oturur iken Oğuzlardan bir kaçak geldi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 178",
+      "not": "otomatik eşleşme 0.714 · kitap: ança olor-ur ärkli oguzduntan küräg kälti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-30#8",
+      "karar": "onay",
+      "metin": "Türk halkının ayakları dolaştı, kötü olacak idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 192",
+      "not": "otomatik eşleşme 0.714 · kitap: türük bodun adak kamşat(t)ı yablak bol-taçı är-ti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-7#4",
+      "karar": "onay",
+      "metin": "Türk beyleri Türk unvanlarını bıraktılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 206",
+      "not": "otomatik eşleşme 0.714 · kitap: türük bäglär türük ātin ı(t)tı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-1#5",
+      "karar": "onay",
+      "metin": "(Askerleri), atları yederek, yayan ve ağaçlara tutuna tutuna yukarı ağdırdım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 138",
+      "not": "otomatik eşleşme 0.708 · kitap: yok(k)aru at yetä yadagın ıgaç tutunu agturtum",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-13#2",
+      "karar": "onay",
+      "metin": "Ülkesiz ve hakansız kalmış olan halkı, cariye ve köle olmuş halkı",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 62",
+      "not": "otomatik eşleşme 0.7 · kitap: ėlsiremiş kağanşıramış bodunıg küñedmiş kuladmış bodunıg",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-B-7#3",
+      "karar": "onay",
+      "metin": "O haberi işitince On Ok beyleri ve halkı hep geldiler, boyun eğdiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "not": "otomatik eşleşme 0.696 · kitap: ol sabıg eşidip on ok bägläri boduni kop käl-ti yükün-ti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-15#2",
+      "karar": "onay",
+      "metin": "(Babam Hakan), Türk beylerini ve halkını pek çok alkışladı ve övdü",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 146",
+      "not": "otomatik eşleşme 0.692 · kitap: [kaŋım kagan t]ürük bäglärin bodunin ärtiŋü ti mag itdi ögd[i]",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-G-3#1",
+      "karar": "onay",
+      "metin": "Tensi oğlu denilen dağ",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 167",
+      "not": "otomatik eşleşme 0.692 · kitap: tensi oglı ayt-ıgma tag",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-6#1",
+      "karar": "onay",
+      "metin": "Beyleri ve halkı barışık olmadığı için, Çin halkı hilekar ve sahtekar olduğu için, aldatıcı olduğu için, kardeşlerle ağabeyleri birbirlerine düşürdüğü için, beylerle halkı karşılıklı kışkırttığı için...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 152",
+      "not": "otomatik eşleşme 0.689 · kitap: bägläri boduni tüzsüz üçün, tabgaç bodun täbligin kürlüg<in> üçün, armakçısin üçün, inili eçili kikşürtökin üçün, bägli bodunlıg yoŋaşurtokin üçün...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-41#3",
+      "karar": "onay",
+      "metin": "(Kale) muhafızı iki üç kişi ile birlikte kaçıp gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 118",
+      "not": "otomatik eşleşme 0.688 · kitap: korıgu eki üç kişi+ligü täzip bardı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-36#5",
+      "karar": "onay",
+      "metin": "Kırgız hakanını öldürdük, devletini zapt ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 182",
+      "not": "otomatik eşleşme 0.688 · kitap: kırkız kaganin ölür-tümüz ilin al-tımız",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-5#2",
+      "karar": "onay",
+      "metin": "(Çinliler bize) bol bol altın gümüş ve ipekli kumaşlar veriyor",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
+      "not": "otomatik eşleşme 0.684 · kitap: altun kümüş işgiti kotay buŋsız ança birür",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-23#5",
+      "karar": "onay",
+      "metin": "Mızraklı (düşman) nereden gelip (seni yerinden yurdundan) sürdü?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 175",
+      "not": "otomatik eşleşme 0.684 · kitap: süŋüglüg kantan käl-ipän sürä eltdi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-21#3",
+      "karar": "onay",
+      "metin": "O vakitler kölelerin köleleri, cariyelerin (de) cariyeleri olmuştu.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 57",
+      "not": "otomatik eşleşme 0.684 · kitap: ol üdke kul kullug bolmış erti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-2#2",
+      "karar": "onay",
+      "metin": "yandaki (dağ yamacı) engelini on gecede dolanarak gittik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 112",
+      "not": "otomatik eşleşme 0.682 · kitap: on tün+kä yantakı tug äbirü bardımız",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-D-3#4",
+      "karar": "onay",
+      "metin": "Ona karşı bir sefer düzenlemez isek, ne zaman olsa o bizi... öldürecektir",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 123",
+      "not": "otomatik eşleşme 0.682 · kitap: aŋaru sülämäsär kaçan (n)äŋ ärsär ol bizni... ölürtäçi-k-ök",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-5#2",
+      "karar": "onay",
+      "metin": "(Prens Kül) altı eri mızrakladı, (ordular) kapıştığında (da) yedinci eri kılıçla öldürdü",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "not": "otomatik eşleşme 0.68 · kitap: altı ärig sanç-dı, sü tägişintä yitinç ärig kılıçla-dı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-15#3",
+      "karar": "onay",
+      "metin": "(Babam Hakan), Tanrı (öyle) buyurduğu için devletliyi devletsiz bırakmış, hakanlıyı hakansız bırakmış...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 215",
+      "not": "otomatik eşleşme 0.679 · kitap: täŋri yarlıkadok üçün, illigig ilsirätmiş, kaganlıgıg kagansıratmiş...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-13#1",
+      "karar": "onay",
+      "metin": "(Burası) yakın bir mevki olduğundan, ve de (kolay) erişilir yer olduğundan, böyle (kolay) erişilir yerde ebedi taş hakkettirdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 156",
+      "not": "otomatik eşleşme 0.676 · kitap: y[ag]uk el ärsär, anç(a) takı erig yertä irsär, ança erig yertä bäŋgü taş tokıtdım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-13#3",
+      "karar": "onay",
+      "metin": "Batıda, Tarduş beyleri, Kül Çor önderliğinde, ve Şadapıt beyler...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 157",
+      "not": "otomatik eşleşme 0.676 · kitap: kisrä tarduş bäglär, kül çor başlayu, ulayu şadapıt bäglär...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-8#5",
+      "karar": "onay",
+      "metin": "Bütün Türk avam tabakası",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 127",
+      "not": "otomatik eşleşme 0.667 · kitap: türük kara kamag bodun",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-14#5",
+      "karar": "onay",
+      "metin": "(Amcam Hakan) azı çok yaptı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 134",
+      "not": "otomatik eşleşme 0.667 · kitap: azıg üküş kıltı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-38#4",
+      "karar": "onay",
+      "metin": "Türgiş avam halkı hep (bize) bağımlı oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 144",
+      "not": "otomatik eşleşme 0.667 · kitap: kara türgiş bodun kop içikdi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-5#3",
+      "karar": "onay",
+      "metin": "Ondan sonra hakanıma ricada bulundum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 154",
+      "not": "otomatik eşleşme 0.667 · kitap: anta ötrü kaganıma ötüntüm",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-19#2",
+      "karar": "onay",
+      "metin": "Hakanları öldü, kumandanları ve beyleri de öldü",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 157",
+      "not": "otomatik eşleşme 0.667 · kitap: kagani ölti, buyrukı bägläri yämä ölti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-B-3#2",
+      "karar": "onay",
+      "metin": "Tanrı Umay, kutsal Yer ve Su (ruhları bize) yardımcı oluverdiler muhakkak ki",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
+      "not": "otomatik eşleşme 0.667 · kitap: täŋri umay ıduk yer sub basa berti ärinç",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-19#4",
+      "karar": "onay",
+      "metin": "atalarımızın dedelerimizin elde ettiği topraklar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
+      "not": "otomatik eşleşme 0.667 · kitap: äçümüz apamız tutmiş yir sub",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-1#2",
+      "karar": "onay",
+      "metin": "Halkın boğazı tok idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 204",
+      "not": "otomatik eşleşme 0.667 · kitap: bodun boguzi / tok ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-B-6#2",
+      "karar": "onay",
+      "metin": "Hakanlarını tuttuk, yabgularını ve şadlarını orada öldürdüler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 109",
+      "not": "otomatik eşleşme 0.652 · kitap: kagani+n tutdumuz, yabgusi+n şadi+n anta ölürti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-D-5#1",
+      "karar": "onay",
+      "metin": "Türk halkı kargaşa içindedir, Oğuzları da huzursuzdur demiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "not": "otomatik eşleşme 0.652 · kitap: [türk boduni yämä] bulganç ol [tem]iş oguzi yämä tarkınç ol",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-35#2",
+      "karar": "onay",
+      "metin": "(Bu hareketi) yukarıda(ki) Tanrı, (aşağıdaki) Yer ve Su (ruhları ile) amcam hakanın ruhu, şüphesiz ki, doğru bulmadılar",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
+      "not": "otomatik eşleşme 0.652 · kitap: üzä täŋri ıduk yer sub [eçim k]agan kutı taplamadı ärinç",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-10#5",
+      "karar": "onay",
+      "metin": "Türk halkını derleyip ülke kuracağınızı buraya kazıdım",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 61",
+      "not": "otomatik eşleşme 0.652 · kitap: türük bodun térip él tutsıkın bonta urtum",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-34#4",
+      "karar": "onay",
+      "metin": "Uluğ İrkin azıcık adamla kaçıp gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
+      "not": "otomatik eşleşme 0.647 · kitap: ulug irkin azkıńa är+in täzip bardı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-20#2",
+      "karar": "onay",
+      "metin": "(Ona) hakan unvanını buruda biz verdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "not": "otomatik eşleşme 0.643 · kitap: kagan at bunta biz birtimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-3#3",
+      "karar": "onay",
+      "metin": "Amcam Hakanın devleti sarsıldığında, halk ve hükümdar iki parça olduğunda (İzgil halkı ile savaştık)",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 133",
+      "not": "otomatik eşleşme 0.643 · kitap: eçim kagan eli kamşag boltokınta, bodun ilig ikäg[ü] boltokınta",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-17#2",
+      "karar": "onay",
+      "metin": "Amcam hakan ile doğuda Sarı ırmağa ve Şantung ovasına kadar sefer ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "not": "otomatik eşleşme 0.643 · kitap: eçim kagan birlä ilgärü yaşıl ügüz şantuŋ yazıka tägi sülädimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-2#3",
+      "karar": "onay",
+      "metin": "(Biz) Karlukları öldürdük, zapt ettik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
+      "not": "otomatik eşleşme 0.643 · kitap: karlukug ölürtümüz, altımız",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-1#1",
+      "karar": "onay",
+      "metin": "Bilge Tunyukuk, ben kendim, Çin egemenliği döneminde doğdum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 197",
+      "not": "otomatik eşleşme 0.64 · kitap: bilgä tuñukuk, bän özüm, tabgaç iliŋä kılıntım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-3#4",
+      "karar": "onay",
+      "metin": "Şantung ovasına kadar sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 110",
+      "not": "otomatik eşleşme 0.636 · kitap: şantuŋ yazı+ka tägi sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-7#4",
+      "karar": "onay",
+      "metin": "(Siz), askerler, gidin... Altay dağlarında oturun!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 180",
+      "not": "otomatik eşleşme 0.636 · kitap: sü bar-ıŋ... altun yışda olor-uŋ",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-10#3",
+      "karar": "onay",
+      "metin": "Az halkı çoğalttım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 134",
+      "not": "otomatik eşleşme 0.636 · kitap: az bodunug üküş kıltım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-41#2",
+      "karar": "onay",
+      "metin": "(Kervanları gelmedi); onu sorayım diye sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 159",
+      "not": "otomatik eşleşme 0.636 · kitap: anı ayıtayin tip sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-1#4",
+      "karar": "onay",
+      "metin": "Prens Kül yirmi yedi yaşında (iken) Karluk halkı (serbestçe) gelir gider (hareket eder) bir düşman oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 168",
+      "not": "otomatik eşleşme 0.633 · kitap: kül tigin yiti otuz yaşıŋa karluk bodun er-ür bar-ur ärkli yagı boltı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-5#6",
+      "karar": "onay",
+      "metin": "Akılsız hakanlar tahta oturmuş şüphesiz, kötü hakanlar tahta oturmuş şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
+      "not": "otomatik eşleşme 0.632 · kitap: biligsiz kagan olormiş ärinç yablak kagan olormiş ärinç",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-D-4#3",
+      "karar": "onay",
+      "metin": "İlteriş Hakan başarılı olmasaydı ve (ben) kendim başarılı olmasaydım...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 213",
+      "not": "otomatik eşleşme 0.632 · kitap: ilteriş kagan kazganmasar, udu bän özüm kazganmasar, ...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-5#3",
+      "karar": "onay",
+      "metin": "Ondan sonra erkek kardeşleri ağabeyleri gibi yaratılmamışlar şüphesiz, oğulları babaları gibi yaratılmamışlar şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 161",
+      "not": "otomatik eşleşme 0.63 · kitap: anta kisrä inisi eçisin täg kılınmadok ärinç oglı kaŋin täg kılınmadok ärinç",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-27#4",
+      "karar": "onay",
+      "metin": "Altay dağlarını aşarak, İrtiş ırmağını geçerek yürüdüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 173",
+      "not": "otomatik eşleşme 0.63 · kitap: altun yışıg aş-a, [är]tiş ügüzüg käç-ä yorıdım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-B-3#3",
+      "karar": "onay",
+      "metin": "Niye kaçıyoruz?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 125",
+      "not": "otomatik eşleşme 0.625 · kitap: näkä täzär biz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-7#3",
+      "karar": "onay",
+      "metin": "hanım olmaya layık kız evlat",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 199",
+      "not": "otomatik eşleşme 0.625 · kitap: eşilik / kız ogul",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-12#5",
+      "karar": "onay",
+      "metin": "Geride, gün batısındaki Soğdlar, İranlılar ve Buhara şehri halkından...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "not": "otomatik eşleşme 0.619 · kitap: kurya kün batsıkdakı sog(u)d bärçik är bukarak uluş bodunta...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-2#1",
+      "karar": "onay",
+      "metin": "Dokuz Oğuz halkı üzerine bir hakan tahta oturdu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "not": "otomatik eşleşme 0.619 · kitap: tokuz oguz bodun üzä kagan olortı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-6#3",
+      "karar": "onay",
+      "metin": "Yufka kalın olsa delmesi zormuş",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 60",
+      "not": "otomatik eşleşme 0.618 · kitap: uçuz yuyka kalın bolsar topulguluk alp ermiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-11#5",
+      "karar": "onay",
+      "metin": "(Çin İmparatoru) benim sözümü kırmadı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 108",
+      "not": "otomatik eşleşme 0.615 · kitap: mäniŋ sabım+ın sımadı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-33#5",
+      "karar": "onay",
+      "metin": "(Prens Külün) yüzüne ve başına bir (ok bile) d[eğmedi]",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "not": "otomatik eşleşme 0.615 · kitap: yüz[iŋä] başıŋa bir t[ägmädi]",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-28#7",
+      "karar": "onay",
+      "metin": "Beşbalık (şehri) onun için (yıkılmaktan) kurtuldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "not": "otomatik eşleşme 0.615 · kitap: beş balık anı üçün ozdı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-8#5",
+      "karar": "onay",
+      "metin": "Düşman Oğuz karargâhı bastı",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 184",
+      "not": "otomatik eşleşme 0.615 · kitap: oguz yagı ordug bas-dı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-10#2",
+      "karar": "onay",
+      "metin": "Bu kadar (çok) kazanıp babam Hakan Köpek yılının onuncu ayının yirmi altısında vefat etti.",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
+      "not": "otomatik eşleşme 0.613 · kitap: bunça kazganıp [kaŋım kagan ı]t yıl onunç ay altı otuzka uça bardı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-11#1",
+      "karar": "onay",
+      "metin": "Gözler(im)den yaşlar gelse (onları) tutarak, gönül(üm)den feryat etmek gelse (onları) geri döndürerek yas tuttum",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
+      "not": "otomatik eşleşme 0.611 · kitap: köz+dä yaş kälsär tida, köŋül+tä sıgıt kälsär yanturu sakıntım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-G-1#1",
+      "karar": "onay",
+      "metin": "Temir Kapıg'a kadar ulaştık. (Orduyu) oradan geri çevirdik.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 56",
+      "not": "otomatik eşleşme 0.611 · kitap: temir kapıgka tegi ertimiz anta yanturtumuz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-10#1",
+      "karar": "onay",
+      "metin": "Prens Kül olmasa(ydı) hep ölecek idiniz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 145",
+      "not": "otomatik eşleşme 0.607 · kitap: kül tigin yok ärsär kop öltäçi ärtigiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-15#1",
+      "karar": "onay",
+      "metin": "On dört yaşımda Tarduş halkı üzerine Şad idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 153",
+      "not": "otomatik eşleşme 0.607 · kitap: tört yegirmi yaşımda tarduş bodun üzä şad ärtim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-D-6#2",
+      "karar": "onay",
+      "metin": "Kögmen yolu bir imiş, (karla) kapanmış",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "not": "otomatik eşleşme 0.6 · kitap: kögmän yolı bir ärmiş, tumiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-33#1",
+      "karar": "onay",
+      "metin": "İkinci olarak Işbara Yamtar'ın boz atına binip...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 205",
+      "not": "otomatik eşleşme 0.6 · kitap: ekinti ışbara yamtar boz atıg binip...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-37#6",
+      "karar": "onay",
+      "metin": "Uygurların valisi yüz kadar adamla doğuya kaçıp gitti",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 116",
+      "not": "otomatik eşleşme 0.591 · kitap: uygur il[t]äbär yüz+çä ärin ilg[är]ü t[äzip bardı]",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-4#1",
+      "karar": "onay",
+      "metin": "Dağda bayırda kalmış olanları toplanıp yedi yüz (kişi) oldu",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
+      "not": "otomatik eşleşme 0.591 · kitap: ıda taşda kalmişi kubranıp yeti yüz boltı",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-D-6#3",
+      "karar": "onay",
+      "metin": "bu geçitten geçmeye kalkarsak yararı olmayacak dedim.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 56",
+      "not": "otomatik eşleşme 0.591 · kitap: bo yolun yorısar yaramaçı tėdim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-14#1",
+      "karar": "onay",
+      "metin": "ben sekiz yaş(ım)da kaldım",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 113",
+      "not": "otomatik eşleşme 0.588 · kitap: özüm säkiz yaş+da kaltım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-3#4",
+      "karar": "onay",
+      "metin": "Kumandanları da akıllı imişler şüphesiz, yiğit imişler şüphesiz",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 160",
+      "not": "otomatik eşleşme 0.588 · kitap: buyrukı yämä bilgä ärmiş ärinç alp ärmiş ärinç",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-7#2",
+      "karar": "onay",
+      "metin": "Doğuda Kıtay'dan, güneyde Çin'den, batıda batıdan, kuzeyde de Oğuzlardan gelebilecek iki üç bin kadar askerimiz var mı ne?",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 126",
+      "not": "otomatik eşleşme 0.587 · kitap: öŋrä kıtańda biryä tabgaçda kurya kurdınta yırya oguzda eki üç biŋ sümüz kältäçimiz bar mu nä",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-4#4",
+      "karar": "onay",
+      "metin": "Ötüken dağlarından daha iyi (bir yer) asla yok imiş",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 114",
+      "not": "otomatik eşleşme 0.583 · kitap: ötükän yış+da yig idi yok ärmiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-39#5",
+      "karar": "onay",
+      "metin": "Bizim askerlerimizin atları zayıftı, yiyecekleri de yok idi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 120",
+      "not": "otomatik eşleşme 0.583 · kitap: biziŋ sü ati toruk azukı yōk ärti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-13#2",
+      "karar": "onay",
+      "metin": "Onu görün ve öylece öğrenin!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 122",
+      "not": "otomatik eşleşme 0.583 · kitap: anı körüp ança biliŋ",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-B-7#1",
+      "karar": "onay",
+      "metin": "Elli kadar adam tuttuk",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 131",
+      "not": "otomatik eşleşme 0.583 · kitap: äligçä är tutdumuz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-4#2",
+      "karar": "onay",
+      "metin": "Mümkünse, onları tümüyle yok edelim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 147",
+      "not": "otomatik eşleşme 0.583 · kitap: usar idi yok kışalım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-5#2",
+      "karar": "onay",
+      "metin": "Sözcüsü ben idim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 207",
+      "not": "otomatik eşleşme 0.583 · kitap: ayıgmasi bän ärtim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-5#2",
+      "karar": "onay",
+      "metin": "(Biz) doğuya, Hakan'a doğru orduyla yürüyelim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 136",
+      "not": "otomatik eşleşme 0.579 · kitap: öŋdün kagangaru sü yorılım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-5#4",
+      "karar": "onay",
+      "metin": "(İnsan) zayıf ve semiz boğaları uzaktan bilmek istese...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 105",
+      "not": "otomatik eşleşme 0.571 · kitap: toruk būkalı sämiz būkalı ırakda bilsär...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-9#6",
+      "karar": "onay",
+      "metin": "Ondan sonra Oğuzlar hep birlikte geldiler",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 117",
+      "not": "otomatik eşleşme 0.571 · kitap: anta ötrü oguz kop+ın kälti",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-G-11#2",
+      "karar": "onay",
+      "metin": "beş yüz adam",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 130",
+      "not": "otomatik eşleşme 0.571 · kitap: biş yüz ärän",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-K-6#6",
+      "karar": "onay",
+      "metin": "Dördüncü olarak Çuş (ırmağı) başında savaştık",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 132",
+      "not": "otomatik eşleşme 0.571 · kitap: törtünç çuş başınta süŋüşdümüz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-25#9",
+      "karar": "onay",
+      "metin": "Yirmi iki yaşımda Çin'e doğru sefer ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 151",
+      "not": "otomatik eşleşme 0.571 · kitap: eki otuz yaşıma tabgaç tapa sülädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-B-2#4",
+      "karar": "onay",
+      "metin": "(Ben sana) han verdim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 209",
+      "not": "otomatik eşleşme 0.571 · kitap: kan bertim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-35#5",
+      "karar": "onay",
+      "metin": "Doyurayım diye düşündüm",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 214",
+      "not": "otomatik eşleşme 0.571 · kitap: igidäyin tiyin sakıntım",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-K-10#4",
+      "karar": "onay",
+      "metin": "Yukarıda gök ve aşağıda yer (öyle) buyurduğu için...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 152",
+      "not": "otomatik eşleşme 0.565 · kitap: üzä täŋri asra yer yarlıkadok üç[ün]...",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-10#1",
+      "karar": "onay",
+      "metin": "Türk halkını Ötüken ülkesine ben kendim, Bilge Tunyukuk, <getirdim>",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 197",
+      "not": "otomatik eşleşme 0.564 · kitap: türk bodunug ötükän yerkä, bän özüm, bilgä tuñukuk, <kälürtüm>",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-8#3",
+      "karar": "onay",
+      "metin": "(Orduyu) Ötüken dağlarına doğru sevk ettim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 115",
+      "not": "otomatik eşleşme 0.563 · kitap: ötükän yış+garu uduztum",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-23#3",
+      "karar": "onay",
+      "metin": "gelişmiş, ilerlemiş iyi devletine kendin ihanet ettin",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 170",
+      "not": "otomatik eşleşme 0.563 · kitap: ermiş barmiş ädgü eliŋä käntü yaŋıltıg",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-17#1",
+      "karar": "onay",
+      "metin": "Hakan unvanını (ona) burada biz verdik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 107",
+      "not": "otomatik eşleşme 0.556 · kitap: kagan at+ıg bunta biz birtimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "BK-D-32#9",
+      "karar": "onay",
+      "metin": "Biz az idik (ve) kötü durumda idik",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 119",
+      "not": "otomatik eşleşme 0.556 · kitap: biz az ärtimiz, yabız ärtimiz",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-G-5#1",
+      "karar": "onay",
+      "metin": "O haberi işitince gece uyuyasım gelmedi, gündüz oturasım gelmedi",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 142",
+      "not": "otomatik eşleşme 0.556 · kitap: ol sabıg äşidip tün udısıkım kälmädi küntüz olorsıkım kälmädi",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY2-D-4#1",
+      "karar": "onay",
+      "metin": "Bu Türk halkı içinde zırhlı düşmanların akınına (hiç) imkan vermedim",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 150",
+      "not": "otomatik eşleşme 0.556 · kitap: bu türük bodun ara yarıklıg yagıg yältürmädim",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-9#2",
+      "karar": "onay",
+      "metin": "Tanrı luftettiği için",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 169",
+      "not": "otomatik eşleşme 0.556 · kitap: täŋri yarlıkadokin üçün",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "TY1-K-7#2",
+      "karar": "onay",
+      "metin": "Onun cenaze törenini yaptırayım!",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 181",
+      "not": "otomatik eşleşme 0.556 · kitap: anı yoglat-ayin",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-D-3#1",
+      "karar": "onay",
+      "metin": "dağınık halde öylecene yaşıyorlarmış.",
+      "tur": "ceviri",
+      "kaynak": "Ölmez, Köktürkçe ve Eski Uygurca Dersleri, 2017, s. 57",
+      "not": "otomatik eşleşme 0.556 · kitap: idi oksuz kök türük (ėti) ança olorur ermiş",
+      "runikDuzeltme": ""
+    },
+    {
+      "id": "KT-G-6#4",
+      "karar": "onay",
+      "metin": "Güneyde Çoğay dağlarına (ve) Tögültün ovasına konayım dersen...",
+      "tur": "ceviri",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 135",
+      "not": "otomatik eşleşme 0.55 · kitap: biryä çogay yış tögültün yazı konayin tisär...",
+      "runikDuzeltme": ""
+    }
+  ]
+}

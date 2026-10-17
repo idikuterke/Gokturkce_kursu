@@ -78,6 +78,9 @@ if (komut === "liste") {
   d.dogrulama = d.dogrulama || {};
   d.dogrulama.ceviri =
     komut === "gecti" ? "gecti" : komut === "okuma" ? "gunumuz_okumasi" : "hatali";
+  // Bu betiği bir insan elle çalıştırır; kararı öyle imzala.
+  // icerik-uret.mjs yalnız denetleyen === "insan" kayıtları alıştırmaya alır.
+  d.dogrulama.denetleyen = "insan";
   d.dogrulama.kaynak = aciklama || null;
   d.dogrulama.tarih = new Date().toISOString().slice(0, 10);
   yaz();

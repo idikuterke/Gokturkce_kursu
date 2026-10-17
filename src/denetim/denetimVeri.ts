@@ -55,6 +55,12 @@ export const BOS_KARAR: DenetimKarari = {
 
 export interface KuyrukTanimi {
   id: KuyrukId;
+  /**
+   * Dışa aktarımda yazılacak kuyruk adı — `engine/denetim-uygula.mjs`
+   * yalnız dize | cumlecik | sozluk tanır. "Makine önerisi" sekmesi
+   * cümlecik kayıtları gösterdiği için cumlecik olarak aktarılır.
+   */
+  uygulaKuyrugu?: "dize" | "cumlecik" | "sozluk";
   ad: string;
   aciklama: string;
   metinEtiketi: string;
@@ -167,6 +173,7 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
  */
 KUYRUKLAR.push({
   id: "makine",
+  uygulaKuyrugu: "cumlecik",
   ad: "Makine önerisi",
   aciklama:
     "Makine üretimi karşılıklar — alıştırmaya GİRMİYOR. Metin önceden dolu; " +
