@@ -309,17 +309,25 @@ arar. Makine çıkarımı DB'de durur, alıştırmaya girmez.
 
 ### Denetimi kaydetme
 
+Yol yazmana gerek yok — `--son` indirilenler klasöründeki en yeni
+`denetim-*.json` dosyasını seçer ve hangisini seçtiğini yazar.
+
 ```bash
 # 1. ekranda çalış → "Dışa aktar" (ya da Ctrl+S) → JSON iner
 # 2. önce kuru çalıştır, ne olacağını gör
-node engine/denetim-uygula.mjs ~/Downloads/denetim-makine-2026-10-17.json --kuru --denetleyen insan
+node engine/denetim-uygula.mjs --son --kuru
 # 3. uygula
-node engine/denetim-uygula.mjs ~/Downloads/denetim-makine-2026-10-17.json --denetleyen insan
+node engine/denetim-uygula.mjs --son
 # 4. yeniden üret ve kapıyı koş
 node engine/icerik-uret.mjs && node engine/kapi.mjs
 # 5. işi kalıcı yap
 git add -A && git commit -m "denetim: N cümlecik insan onayı" && git push
 ```
+
+`--denetleyen` yazılmazsa `insan` varsayılır; elle denetim için doğrusu budur.
+Dosyayı adıyla vermek istersen yol ya mutlak olmalı ya da bulunduğun
+dizine göreli. `--son` şu sırayla arar: `~/Downloads`, `~/İndirilenler`,
+`docs/`, bulunduğun dizin.
 
 Dosya adındaki sekme adı (`makine`) ile içindeki `kuyruk` alanı farklıdır:
 "Makine önerisi" sekmesi cümlecik kaydı gösterdiği için `kuyruk: "cumlecik"`
