@@ -64,6 +64,20 @@ const yazJson = (p, v) => {
 
 const reddedilen = [];
 const runikUyarilari = [];
+const korunan = [];
+
+/**
+ * Makine, insanın verdiği kararın üzerine yazamaz.
+ * İnsan onayı bu hattın en pahalı ürünü; otomatik bir koşu onu
+ * sessizce silerse doğrulama kaydının hiçbir anlamı kalmaz.
+ */
+function korunuyorMu(mevcutDenetleyen, id) {
+  if (denetleyen === "makine" && mevcutDenetleyen === "insan") {
+    korunan.push(id);
+    return true;
+  }
+  return false;
+}
 
 /** Onay kaydı geçerli mi? */
 function gecerliOnay(k) {
@@ -101,6 +115,7 @@ if (kuyruk === "dize") {
       continue;
     }
     if (!gecerliOnay(k)) continue;
+    if (korunuyorMu(d.dogrulama?.denetleyen, k.id)) continue;
     const tur = k.tur === "gunumuz_okumasi" ? "gunumuz_okumasi" : "gecti";
     d.turkce = k.metin.trim();
     d.dogrulama = {
@@ -133,6 +148,7 @@ if (kuyruk === "cumlecik") {
       continue;
     }
     if (!gecerliOnay(k)) continue;
+    if (korunuyorMu(onayliIndeks.get(k.id)?.denetleyen, k.id)) continue;
     onayliIndeks.set(k.id, {
       id: aday.id,
       dizeId: aday.dizeId,
@@ -168,6 +184,8 @@ if (kuyruk === "sozluk") {
     }
     if (!gecerliOnay(k)) continue;
     const kayit = indeks.get(k.id) ?? { transcription: k.id };
+    if (korunuyorMu(kayit.denetleyen, k.id)) continue;
+    kayit.denetleyen = denetleyen;
     kayit.meaning = k.metin.trim();
     kayit.category = k.tur || "diger";
     kayit.source = k.kaynak.trim();
@@ -181,6 +199,10 @@ if (kuyruk === "sozluk") {
 console.log(`kuyruk     : ${kuyruk}${kuru ? "  (KURU ÇALIŞMA — hiçbir şey yazılmadı)" : ""}`);
 console.log(`denetleyen : ${denetleyen}${denetleyen === "makine" ? "  ← insan onayı YOK, alıştırmaya girmez" : ""}`);
 console.log(`işlenen    : ${yazilan} onay, ${atlanan} red`);
+if (korunan.length) {
+  console.log(`\nKORUNDU: ${korunan.length} kayıt — insan onayı var, makine üzerine yazmadı`);
+  for (const id of korunan.slice(0, 10)) console.log(`  ${id}`);
+}
 if (reddedilen.length) {
   console.log(`\nkabul edilmeyen ${reddedilen.length} kayıt:`);
   for (const r of reddedilen) console.log(`  ${r.id}: ${r.sebep}`);

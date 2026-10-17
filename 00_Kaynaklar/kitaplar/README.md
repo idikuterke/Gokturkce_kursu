@@ -8,6 +8,8 @@
 | rona_tas_dogu_turk_runik_yazisinin_kokeni.txt | Róna-Tas, çev. Uçar | pdftotext + Đ→İ | TAMAM |
 | rakhimov_the_old_turkic_script.txt, pci2010_old_turkic_script_orkhon_yenisey.txt | İngilizce kısa makaleler | pdftotext | TAMAM |
 | serzhan_turik_bitik_kilavuz_kazakca.txt | Kazakça kılavuz | pdftotext | TAMAM (glifsiz) |
+| tekin_orhon_yazitlari_1998.txt | Talat Tekin, Orhon Yazıtları, 1998 (2. baskı, 423 sf) | kullanıcı sağladı, UTF-8, [s. N] etiketli | TAMAM — METİN YAYINI: her satırın çevirisi var |
+| ergin_orhun_abideleri.txt | Muharrem Ergin, Orhun Abideleri (151 sf) | kullanıcı sağladı, UTF-8 | TAMAM — çeviri blok hâlinde, satır işaretçisi yok; ikinci okuma olarak değerli |
 | olmez_2017/ | Ölmez, Köktürkçe ve Eski Uygurca Dersleri 2017 (566 sf, tarama) | görsel okuma — ikinci ajan, BRIEF_OLMEZ.md | DEVAM |
 | tekin_celiski_raporu.md | Tekin ↔ kurs içeriği karşılaştırması | — | uygulanıyor |
 Kural: tek dosyalar (tekin_otg_2003.md, ileride olmez_2017.md) elle düzenlenmez; sNNN.md'den yeniden üretilir.

@@ -276,3 +276,33 @@ Yenisey) — bizim 214 dizelik Orhun korpusunda yok.
 Paket `--denetleyen makine` ile işlenir, denetim ekranının
 "Makine önerisi" sekmesinde insan önüne gelir. `not` alanında eşleşme
 skoru ve kitaptaki transkripsiyon yazar.
+
+---
+
+## Tekin 1998 — metin yayını çıkarımı
+
+```bash
+npm run tekin98:tara
+```
+
+Gramer kitaplarından farkı: *Orhon Yazıtları* (1998) her satırı baştan
+sona çevirir. Her yazıt bölümünde önce çevriyazı bloğu, sonra çeviri
+bloğu gelir; ikisi de aynı `(G 1)` işaretçisini taşır.
+
+**Hangisinin çevriyazı olduğu tahmin edilmez.** İki parçanın da korpustaki
+satıra ünsüz-iskeleti benzerliği ölçülür; yüksek olan çevriyazıdır. Bu
+aynı zamanda doğru satırı bulduğumuzun kanıtıdır — eşleşme zayıfsa kayıt
+şüpheli sayılıp dışarıda bırakılır.
+
+Sonuç: **139/214 dize** çevirisi çıkarıldı, 47 şüpheli
+(`docs/tekin1998-raporu.md` listeler). Bildirilen hizalama kaymalarından
+KT-D-12, KT-D-20, BK-D-11, BK-D-17 otomatik yakalandı.
+
+### İnsan onayı koruması
+
+`denetim-uygula.mjs --denetleyen makine`, `denetleyen === "insan"` olan
+bir kaydın **üzerine yazmaz**; korunan kayıtları raporlar. İnsan onayı bu
+hattın en pahalı ürünü — otomatik bir koşu onu sessizce silemez.
+
+`icerik-uret.mjs` hem dize hem cümlecik yolunda `denetleyen === "insan"`
+arar. Makine çıkarımı DB'de durur, alıştırmaya girmez.
