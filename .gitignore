@@ -12,3 +12,8 @@ dist/
 # Dağıtımda public/ses/ ayrıca yüklenir (bkz. docs/ses-kayit-rehberi.md).
 public/ses/**/*.webm
 public/ses/**/*.mp3
+
+# Geçici koşu çıktıları
+*.log
+download/
+*.YEREL.json

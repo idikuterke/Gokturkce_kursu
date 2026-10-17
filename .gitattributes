@@ -1,0 +1,12 @@
+# Satır sonlarını depoda LF'te sabitle. Windows'ta çalışma kopyası
+# CRLF olabilir ama commit edilen hep LF — böylece üretilen dosyalar
+# her Windows koşusunda "değişmiş" görünmez.
+* text=auto eol=lf
+
+# İkili dosyalar dokunulmaz.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.ttf binary
+*.webm binary
+*.mp3 binary
