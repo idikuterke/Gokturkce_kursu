@@ -63,7 +63,12 @@ export const DenetimView: React.FC = () => {
   );
 
   const aktif = gorunen[Math.min(indeks, Math.max(0, gorunen.length - 1))];
-  const aktifKarar = aktif ? kararlar[aktif.id] ?? BOS_KARAR : BOS_KARAR;
+  // Kayıtlı karar varsa o kazanır; yoksa makine ön dolgusu forma düşer.
+  // Ön dolgu localStorage'a yazılmaz — insan bir şey değiştirene ya da
+  // onaylayana kadar karar "beklemede" kalır.
+  const aktifKarar: DenetimKarari = aktif
+    ? kararlar[aktif.id] ?? { ...BOS_KARAR, ...(aktif.onDolgu ?? {}) }
+    : BOS_KARAR;
 
   const sayim = useMemo(() => {
     let onay = 0;
@@ -84,6 +89,7 @@ export const DenetimView: React.FC = () => {
           ...onceki,
           [aktif.id]: {
             ...BOS_KARAR,
+            ...(aktif.onDolgu ?? {}),
             ...onceki[aktif.id],
             ...yama,
             tarih: new Date().toISOString(),

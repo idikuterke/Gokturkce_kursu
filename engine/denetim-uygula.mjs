@@ -2,8 +2,15 @@
 /**
  * Denetim ekranından dışa aktarılan JSON'u kaynak veriye işler.
  *
- *   node engine/denetim-uygula.mjs ~/Downloads/denetim-dize-2026-10-16.json
+ *   node engine/denetim-uygula.mjs <dosya>
  *   node engine/denetim-uygula.mjs <dosya> --kuru   (yazmadan rapor)
+ *   node engine/denetim-uygula.mjs <dosya> --denetleyen makine
+ *
+ * --denetleyen: kararları kimin verdiği. Varsayılan "insan".
+ *   "insan"  -> bir insan tek tek gözden geçirdi
+ *   "makine" -> otomatik üretildi, insan onayı YOK
+ *   Değer `dogrulama.denetleyen` / `denetleyen` alanına yazılır ve
+ *   içerik üreticisi buna göre alıştırmaya alır ya da almaz.
  *
  * Kuyruklar:
  *   dize      -> 05_Kaynak_DB/orhun-db-v1.json  (dogrulama.ceviri + turkce)
@@ -22,6 +29,14 @@ import { dirname, join, resolve } from "node:path";
 const kok = join(dirname(fileURLToPath(import.meta.url)), "..");
 const [, , dosyaArg, ...bayraklar] = process.argv;
 const kuru = bayraklar.includes("--kuru");
+
+const DENETLEYENLER = ["insan", "makine"];
+const dI = bayraklar.indexOf("--denetleyen");
+const denetleyen = dI === -1 ? "insan" : bayraklar[dI + 1];
+if (!DENETLEYENLER.includes(denetleyen)) {
+  console.error(`--denetleyen yalnız ${DENETLEYENLER.join(" | ")} olabilir, verilen: ${bayraklar[dI + 1]}`);
+  process.exit(1);
+}
 
 if (!dosyaArg) {
   console.error("kullanım: node engine/denetim-uygula.mjs <disa-aktarim.json> [--kuru]");
@@ -91,7 +106,7 @@ if (kuyruk === "dize") {
     d.dogrulama = {
       ...d.dogrulama,
       ceviri: tur,
-      denetleyen: "insan",
+      denetleyen,
       kaynak: k.kaynak.trim(),
       tarih: bugun,
     };
@@ -128,7 +143,7 @@ if (kuyruk === "cumlecik") {
       turkce: k.metin.trim(),
       tur: k.tur === "gunumuz_okumasi" ? "gunumuz_okumasi" : "ceviri",
       kaynak: k.kaynak.trim(),
-      denetleyen: "insan",
+      denetleyen,
       tarih: new Date().toISOString().slice(0, 10),
     });
     yazilan++;
@@ -164,6 +179,7 @@ if (kuyruk === "sozluk") {
 }
 
 console.log(`kuyruk     : ${kuyruk}${kuru ? "  (KURU ÇALIŞMA — hiçbir şey yazılmadı)" : ""}`);
+console.log(`denetleyen : ${denetleyen}${denetleyen === "makine" ? "  ← insan onayı YOK, alıştırmaya girmez" : ""}`);
 console.log(`işlenen    : ${yazilan} onay, ${atlanan} red`);
 if (reddedilen.length) {
   console.log(`\nkabul edilmeyen ${reddedilen.length} kayıt:`);
