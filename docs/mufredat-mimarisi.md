@@ -196,3 +196,27 @@ Varsayılan eşik 0.7, `--esik` ile değişir.
 
 **Hiçbir kayıt otomatik onaylanmaz.** Çıktı `docs/ceviri-onay-kuyrugu.json`;
 denetim ekranında insan kararı bekler. Kitapsız aday sorunlu olarak raporlanır.
+
+---
+
+## Denetleyen alanı — doğruluk iddiasının kaydı
+
+`denetim-uygula.mjs` artık `--denetleyen` alır:
+
+```bash
+node engine/denetim-uygula.mjs <dosya>                      # varsayılan: insan
+node engine/denetim-uygula.mjs <dosya> --denetleyen makine  # insan onayı YOK
+```
+
+| Değer | Anlamı | İçerik üreticisi |
+|---|---|---|
+| `insan` | Bir insan tek tek gözden geçirdi | **alıştırmaya alır** |
+| `makine` | Otomatik üretildi | dosyada tutar, **alıştırmaya almaz** |
+
+`icerik-uret.mjs` `cumlecikler-onayli.json`'u okur ve `denetleyen !== "insan"`
+olan her kaydı atlar; kaç tanesini atladığını çıktıda yazar.
+
+Sebep: çeviri doğruluğu iddiası insan onayı olmadan yapılamaz. Makine
+üretimi karşılıklar sayfa atıflı ve tutarlı olabilir, ama "doğrulanmış"
+değildir. Paketi `--denetleyen makine` ile işlemek veriyi saklar, kapıyı
+açmaz — insan onayı gelince aynı kayıtlar `insan` ile yeniden işlenir.

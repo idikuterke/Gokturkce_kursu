@@ -11,8 +11,12 @@
 // korpustan toplanır ve `bicimler` altında kaynaklarıyla verilir.
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const KOK = new URL("..", import.meta.url).pathname;
+// Windows'ta URL.pathname "/E:/..." dondurur; path.join ile birlesince
+// "E:\\E:\\..." olur ve betik ENOENT ile oler. fileURLToPath her
+// platformda dogru yerel yolu verir.
+const KOK = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const P = (p) => path.join(KOK, p);
 
 const gelenYol = process.argv[2];

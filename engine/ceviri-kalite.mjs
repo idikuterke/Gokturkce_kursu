@@ -13,8 +13,12 @@
 //    çeviri alıştırmasında anlam öğretmez; bu yüzden ayrı işaretlenir.
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const KOK = new URL("..", import.meta.url).pathname;
+// Windows'ta URL.pathname "/E:/..." dondurur; path.join ile birlesince
+// "E:\\E:\\..." olur ve betik ENOENT ile oler. fileURLToPath her
+// platformda dogru yerel yolu verir.
+const KOK = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DB = path.join(KOK, "05_Kaynak_DB/orhun-db-v1.json");
 const db = JSON.parse(fs.readFileSync(DB, "utf8"));
 

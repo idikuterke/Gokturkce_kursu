@@ -7,8 +7,12 @@
 // kategori ve kaynak. Model uyduramasın diye runik ve atıf hazır verilir.
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const KOK = new URL("..", import.meta.url).pathname;
+// Windows'ta URL.pathname "/E:/..." dondurur; path.join ile birlesince
+// "E:\\E:\\..." olur ve betik ENOENT ile oler. fileURLToPath her
+// platformda dogru yerel yolu verir.
+const KOK = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const P = (p) => path.join(KOK, p);
 
 const kelimeler = JSON.parse(fs.readFileSync(P("src/data/generated/kelimeler.json"), "utf8"));

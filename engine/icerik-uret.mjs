@@ -13,8 +13,12 @@
 //     devreye girerler.
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const KOK = new URL("..", import.meta.url).pathname;
+// Windows'ta URL.pathname "/E:/..." dondurur; path.join ile birlesince
+// "E:\\E:\\..." olur ve betik ENOENT ile oler. fileURLToPath her
+// platformda dogru yerel yolu verir.
+const KOK = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const P = (p) => path.join(KOK, p);
 const CIKTI = P("src/data/generated");
 
@@ -328,6 +332,41 @@ for (const d of dizeCevirisi) {
   });
 }
 
+// ── Cümlecik çevirileri ─────────────────────────────────────────────────────
+// Dizeler ortalama 27 kelime; ≤12 kuralı yüzünden 214 dizenin yalnız 15'i
+// alıştırmaya giriyordu. Cümlecik birimi bu tavanı kaldırır.
+//
+// KAPI: yalnız `denetleyen === "insan"` olan cümlecikler alıştırmaya girer.
+// Makine üretimi karşılıklar dosyada durur ama kullanılmaz — çeviri
+// doğruluğu insan onayı olmadan iddia edilemez.
+const CUMLECIK_YOLU = P("05_Kaynak_DB/cumlecikler-onayli.json");
+let cumlecikCevirisi = 0;
+let cumlecikMakine = 0;
+
+if (fs.existsSync(CUMLECIK_YOLU)) {
+  const paket = JSON.parse(fs.readFileSync(CUMLECIK_YOLU, "utf8"));
+  for (const c of paket.cumlecikler ?? []) {
+    if (!c.turkce?.trim() || !c.kaynak?.trim()) continue;
+    if (/---/.test(c.turkce) || /---/.test(c.transkripsiyon)) continue;
+    if (c.kelimeSayisi > 12) continue;
+    if (c.denetleyen !== "insan") {
+      cumlecikMakine++;
+      continue;
+    }
+    alistirmalar.push({
+      id: `gen-cumcev-${c.id}`,
+      tur: "dize_ceviri",
+      zorluk: Math.min(5, Math.max(1, Math.ceil(c.kelimeSayisi / 3))),
+      runik: c.runik,
+      transkripsiyon: c.transkripsiyon,
+      dogru: c.turkce,
+      gunumuzOkumasi: c.tur === "gunumuz_okumasi",
+      kaynak: c.dizeId
+    });
+    cumlecikCevirisi++;
+  }
+}
+
 // ── Yazım ───────────────────────────────────────────────────────────────────
 // Çıktı JSON: bu veri yalnızca alıştırma/deşifre ekranlarında gerekiyor.
 // .ts olarak statik import edilseydi ~1 MB açılış paketine girerdi; JSON'u
@@ -567,3 +606,7 @@ console.log(`yakın çeldirici : ${yakinKullanan} kelimede bulundu (tek tamga fa
 console.log(`kelime çevirisi : ${kelimeCevirisi}`);
 console.log(`dize çevirisi   : ${dizeCevirisi.length}  (denetimden geçen kısa dize)`);
 console.log(`  denetim bekleyen dize: ${dizeler.length - ceviriyeHazir.length}`);
+console.log(`cümlecik çevirisi: ${cumlecikCevirisi}  (insan onaylı)`);
+if (cumlecikMakine) {
+  console.log(`  ATLANAN: ${cumlecikMakine} cümlecik  ← denetleyen "insan" değil, alıştırmaya alınmadı`);
+}
