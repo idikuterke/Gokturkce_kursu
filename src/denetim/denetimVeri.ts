@@ -142,7 +142,9 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
   {
     id: "sozluk",
     ad: "Sözlük",
-    aciklama: "Korpusta geçen ama anlamı girilmemiş kelimeler. Sıklığa göre sıralı.",
+    aciklama:
+      "Korpusta geçen ama anlamı girilmemiş kelimeler, sıklığa göre sıralı. " +
+      "Bir kısmında Ata (AÖF 2011) kitabından ön dolgu var — oku, düzelt ya da onayla.",
     metinEtiketi: "Anlam",
     turEtiketi: "Kategori",
     turSecenekleri: [
@@ -160,16 +162,36 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
     yukle: async () => {
       const m = await import("../../docs/sozluk-anlam-bekleyenler.json");
       const veri = (m.default ?? m) as Record<string, unknown>[];
-      return veri.map((k) => ({
-        id: String(k.transcription),
-        baslik: String(k.transcription),
-        altBaslik: `Tanık: ${k.attestation}`,
-        runik: String(k.runic),
-        transkripsiyon: String(k.transcription),
-        baglam: String(k.attestation_text ?? ""),
-        rozetler: [`${k.frequency}× geçiyor`],
-        uyarilar: [],
-      }));
+      return veri.map((k) => {
+        // Ata (AÖF 2011) sözcük çözümlemesinden gelen öneri. Doldurulmuş
+        // değil, ÖN DOLGU: katmanı "kitap", insan onaylayınca geçerli olur.
+        const oneri = k.oneri as
+          | { meaning: string; source: string; eslesme: string }
+          | undefined;
+        return {
+          id: String(k.transcription),
+          baslik: String(k.transcription),
+          altBaslik: `Tanık: ${k.attestation}`,
+          runik: String(k.runic),
+          transkripsiyon: String(k.transcription),
+          baglam: String(k.attestation_text ?? ""),
+          rozetler: [
+            `${k.frequency}× geçiyor`,
+            ...(oneri ? [`Ata önerisi · ${oneri.eslesme}`] : []),
+          ],
+          uyarilar: oneri
+            ? [
+                "Anlam Ata'nın kitabından önerildi — denetlenmedi. " +
+                  (oneri.eslesme === "kök"
+                    ? "Kök + çekim eki eşleşmesi: kalıplaşmış sözcükse anlam tutmaz."
+                    : "Sözlük maddesiyle birebir eşleşme."),
+              ]
+            : [],
+          ...(oneri
+            ? { onDolgu: { metin: oneri.meaning, kaynak: oneri.source } }
+            : {}),
+        };
+      });
     },
   },
 ];

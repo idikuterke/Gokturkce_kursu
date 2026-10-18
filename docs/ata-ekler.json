@@ -1,0 +1,1279 @@
+{
+ "kaynak": "Aysu Ata, Orhun Türkçesi, Anadolu Üniversitesi AÖF, 2011",
+ "katman": "kitap",
+ "uretim": "2026-10-18",
+ "ekler": [
+  {
+   "ek": "-a",
+   "islev": "zarf-fiil eki: il tuta “ülke tutarak”",
+   "ornek": "tut- -a",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ak",
+   "islev": "fiilden isim yapım eki",
+   "ornek": "ırak -ak",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ayın",
+   "islev": "1. tekil kişi emir eki",
+   "ornek": "urugsırat- -ayın",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ç",
+   "islev": "fiilden isim yapım eki",
+   "ornek": "ötünç -ç",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-çun",
+   "islev": "3. tekil kişi emir eki",
+   "ornek": "bol- -çun",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-d",
+   "islev": "fiilden fiil yapım eki, pekiştirme eki",
+   "ornek": "ıd- -d",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-dım",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "yorıt- -dım",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-dim",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "it- -dim",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-dimiz",
+   "islev": "1. çoğul kişi belirli geçmiş zaman eki",
+   "ornek": "sözleş- -dimiz",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-duk",
+   "islev": "olumsuz tabanlarda 1. çoğul kişi belirsiz geçmiş zaman eki: itinü yaratunu umaduk “kendini düzene sokup örgütlenememiş”",
+   "ornek": "u-- -duk",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-dukta",
+   "islev": "zarf-fiil eki: -duk+ [sıfat-fiil eki",
+   "ornek": "kılın- -dukta",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-dum",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "buz- -dum",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-dük",
+   "islev": "geçmiş zaman sıfat-fiil eki",
+   "ornek": "ille- -dük",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-düm",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "süŋüş- -düm",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-e",
+   "islev": "zarf-fiil eki",
+   "ornek": "keç- -e",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-eyin",
+   "islev": "1. tekil kişi emir eki",
+   "ornek": "ölür- -eyin",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-g",
+   "islev": "fiilden isim yapım eki- ikinci hecede ünlü daralması ile > kapıg",
+   "ornek": "kapıg -g",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-galı",
+   "islev": "zarf-fiil eki",
+   "ornek": "topul- -galı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ge",
+   "islev": "fiilden isim –sıfat- yapım eki",
+   "ornek": "bilge -ge",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-gıl",
+   "islev": "2. tekil kişi emir eki",
+   "ornek": "ay- -gıl",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-gil",
+   "islev": "2. tekil kişi emir eki",
+   "ornek": "eşid- -gil",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-gu",
+   "islev": "soru eki",
+   "ornek": "bar -gu",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-guçı",
+   "islev": "gelecek zaman sıfat-fiil eki",
+   "ornek": "ay- -guçı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-gür",
+   "islev": "ettirgenlik eki",
+   "ornek": "tirgür- -gür",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ı)gma",
+   "islev": "geniş zaman sıfat-fiil eki",
+   "ornek": "ay- -ı)gma",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ı)l",
+   "islev": "edilgenlik eki",
+   "ornek": "yaŋıl- -ı)l",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ı)n",
+   "islev": "fiilden fiil yapım eki, dönüşlülük eki",
+   "ornek": "alkın- -ı)n",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ı)p",
+   "islev": "zarf-fiil eki",
+   "ornek": "ar- -ı)p",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-i",
+   "islev": "kalıplaşmış zarf-fiil eki",
+   "ornek": "tüketi -i",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-i)g",
+   "islev": "fiilden isim yapım eki",
+   "ornek": "bilig -i)g",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-i)gme",
+   "islev": "sıfat-fiil eki",
+   "ornek": "ber- -i)gme",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-i)l",
+   "islev": "edilgenlik eki",
+   "ornek": "tiril- -i)l",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-i)n",
+   "islev": "dönüşlülük eki",
+   "ornek": "itin- -i)n",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-i)p",
+   "islev": "zarf-fiil eki",
+   "ornek": "tir- -i)p",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-i)pen",
+   "islev": "zarf-fiil eki",
+   "ornek": "kel- -i)pen",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-iŋ",
+   "islev": "2. çoğul kişi emir eki",
+   "ornek": "eşid- -iŋ",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-k",
+   "islev": "fiilden isim yapım eki",
+   "ornek": "tüketi -k",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-kli",
+   "islev": "zarf-fiil eki",
+   "ornek": "er- -kli",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ma",
+   "islev": "olumsuzluk eki",
+   "ornek": "u-- -ma",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-mak",
+   "islev": "fiilden isim yapım eki",
+   "ornek": "armakçı -mak",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-matın",
+   "islev": "olumsuz zarf-fiil eki",
+   "ornek": "al- -matın",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-mayin",
+   "islev": "olumsuz zarf-fiil eki",
+   "ornek": "bul- -mayin",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-me",
+   "islev": "olumsuzluk eki",
+   "ornek": "tegme- -me",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-mış",
+   "islev": "3. tekil kişi belirsiz geçmiş zaman eki",
+   "ornek": "taşık- -mış",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-miş",
+   "islev": "3. tekil kişi belirsiz geçmiş zaman: “imiş”",
+   "ornek": "er- -miş",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-n",
+   "islev": "dönüşlülük eki",
+   "ornek": "kon- -n",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-p",
+   "islev": "zarf-fiil eki",
+   "ornek": "ti- -p",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-pen",
+   "islev": "zarf-fiil eki",
+   "ornek": "süle- -pen",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-r",
+   "islev": "ettirgenlik eki",
+   "ornek": "boşgur- -r",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-sar",
+   "islev": "zarf-fiil eki veya 3. tekil şahıs şart eki",
+   "ornek": "olur- -sar",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ser",
+   "islev": "zarf-fiil eki",
+   "ornek": "ti- -ser",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-sık",
+   "islev": "gelecek zaman sıfat-fiil eki",
+   "ornek": "tug- -sık",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-sik",
+   "islev": "gelecek zaman sıfat-fiil eki",
+   "ornek": "öl- -sik",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-sikig",
+   "islev": "2. tekil kişi gelecek zaman eki, ŋ ~ g nöbetleşmesi ile",
+   "ornek": "öl- -sikig",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ş",
+   "islev": "işteşlik eki",
+   "ornek": "sözleş- -ş",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-t",
+   "islev": "ettirgenlik eki",
+   "ornek": "yorıt- -t",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-teçi",
+   "islev": "gelecek zaman sıfat-fiil eki",
+   "ornek": "öl- -teçi",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tı",
+   "islev": "3. tekil kişi belirli geçmiş zaman",
+   "ornek": "ıt- -tı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tıg",
+   "islev": "2. tekil kişi belirli geçmiş zaman, ŋ ~ g nöbetleşmesi ile",
+   "ornek": "alkın- -tıg",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tım",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "kılın- -tım",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ti",
+   "islev": "3. tekil kişi belirli geçmiş zaman",
+   "ornek": "kel- -ti",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tim",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "igit- -tim",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tuk",
+   "islev": "geçmiş zaman sıfat-fiil eki",
+   "ornek": "kon- -tuk",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tum",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "olur- -tum",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tur",
+   "islev": "ettirgenlik eki",
+   "ornek": "artur- -tur",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tüg",
+   "islev": "2. tekil kişi belirli geçmiş zaman, ŋ ~ g nöbetleşmesi ile",
+   "ornek": "öl- -tüg",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tük",
+   "islev": "sıfat-fiil eki",
+   "ornek": "bir- -tük",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-tüm",
+   "islev": "1. tekil kişi belirli geçmiş zaman",
+   "ornek": "ötün- -tüm",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-u",
+   "islev": "zarf-fiil eki",
+   "ornek": "tor- -u",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-u)gma",
+   "islev": "geniş zaman sıfat-fiil eki",
+   "ornek": "uduz- -u)gma",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-u)p",
+   "islev": "zarf-fiil eki",
+   "ornek": "olur- -u)p",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-u)pan",
+   "islev": "zarf-fiil eki",
+   "ornek": "olur- -u)pan",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-u)yın",
+   "islev": "zarf-fiil eki “olarak”",
+   "ornek": "bol- -u)yın",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 185",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-uk",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "buyruk -uk",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-uz",
+   "islev": "ettirgenlik eki",
+   "ornek": "uduz- -uz",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ü",
+   "islev": "zarf-fiil eki",
+   "ornek": "öl- -ü",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ü)gme",
+   "islev": "sıfat-fiil eki",
+   "ornek": "kötür- -ü)gme",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-ür",
+   "islev": "3. tekil kişi geniş zaman eki",
+   "ornek": "kör- -ür",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-y)in",
+   "islev": "zarf-fiil eki",
+   "ornek": "ti- -y)in",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-y)ur",
+   "islev": "3. tekil kişi geniş zaman eki",
+   "ornek": "yorı- -y)ur",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-yin",
+   "islev": "zarf-fiil eki",
+   "ornek": "ti- -yin",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-z",
+   "islev": "fiilden isim yapım eki",
+   "ornek": "baz -z",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "-zun",
+   "islev": "3. tekil kişi emir eki",
+   "ornek": "bol- -zun",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+a",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "sıgta- +a",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ad",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "yokad- +ad",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ça",
+   "islev": "eşitlik durumu eki",
+   "ornek": "bu +ça",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+çı",
+   "islev": "isimden isim yapım eki",
+   "ornek": "sıgıtçı +çı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+da",
+   "islev": "bulunma-çıkma durumu eki",
+   "ornek": "yış +da",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+dı",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "udı- +dı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+dın",
+   "islev": "isimden isim eki",
+   "ornek": "yır +dın",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+din",
+   "islev": "isimden isim yapım eki",
+   "ornek": "bir +din",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+dun",
+   "islev": "isimden isim yapım eki",
+   "ornek": "oguz +dun",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+e",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "tüketi +e",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ek",
+   "islev": "isimden isim yapım eki",
+   "ornek": "köl +ek",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+g",
+   "islev": "belirtme durumu eki",
+   "ornek": "kişi +g",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+garu",
+   "islev": "yön gösterme eki",
+   "ornek": "kurı +garu",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ger",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "içger- +ger",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 175",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+gerü",
+   "islev": "yön gösterme eki",
+   "ornek": "bir(i) +gerü",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+gı",
+   "islev": "aidiyet eki",
+   "ornek": "tabgaç +gı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+gün",
+   "islev": "çokluk eki",
+   "ornek": "ini(y) +gün",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ı",
+   "islev": "3. tekil kişi iyelik eki",
+   "ornek": "sab +ı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ı)k",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "taşık- +ı)k",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ı)m",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "sab +ı)m",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ı)mız",
+   "islev": "1. çoğul kişi iyelik eki",
+   "ornek": "kaŋ +ı)mız",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ı)n",
+   "islev": "belirtme durumu eki",
+   "ornek": "sab +ı)n",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ı)ŋ",
+   "islev": "2. tekil kişi iyelik eki",
+   "ornek": "kagan +ı)ŋ",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ı)t",
+   "islev": "Moğolca çokluk eki",
+   "ornek": "og(u)l +ı)t",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ım",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "sab +ım",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+i",
+   "islev": "3. tekil kişi iyelik eki",
+   "ornek": "yir +i",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+i)g",
+   "islev": "belirtme durumu eki",
+   "ornek": "iş +i)g",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+i)k",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "içik- +i)k",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+i)m",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "il +i)m",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+i)n",
+   "islev": "belirtme durumu eki",
+   "ornek": "öl- +i)n",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+i)ŋ",
+   "islev": "2. tekil kişi iyelik eki",
+   "ornek": "öl- +i)ŋ",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ik",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "içik- +ik",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ka",
+   "islev": "yönelme durumu eki",
+   "ornek": "tug- +ka",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ke",
+   "islev": "yönelme durumu eki",
+   "ornek": "yir +ke",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+kı",
+   "islev": "aidiyet eki",
+   "ornek": "balık +kı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ki",
+   "islev": "aidiyet eki",
+   "ornek": "iç +ki",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+la",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "kaganla- +la",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+le",
+   "islev": "isimden fiil yapım eki",
+   "ornek": "süle- +le",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ler",
+   "islev": "çokluk eki",
+   "ornek": "beg +ler",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+leri",
+   "islev": "3. çoğul kişi iyelik eki",
+   "ornek": "beg +leri",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+lıg",
+   "islev": "isimden isim –sıfat yapım eki",
+   "ornek": "at +lıg",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+li",
+   "islev": "birliktelik eki: inili eçili “büyük ve küçük kardeşi”",
+   "ornek": "ini +li",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+lig",
+   "islev": "isimden isim yapım eki",
+   "ornek": "tizlig +lig",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+lik",
+   "islev": "isimden isim yapım eki",
+   "ornek": "beglik +lik",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+lug",
+   "islev": "isimden isim -sıfat- yapım eki",
+   "ornek": "ton +lug",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+luk",
+   "islev": "isimden isim yapım eki",
+   "ornek": "topul- +luk",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+lüg",
+   "islev": "isimden isim –sıfat- yapım eki",
+   "ornek": "külüg +lüg",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+m",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "eçü +m",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+miz",
+   "islev": "1. çoğul kişi iyelik eki",
+   "ornek": "eçi +miz",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+müz",
+   "islev": "1. çoğul kişi iyelik eki",
+   "ornek": "sü +müz",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+n",
+   "islev": "araç durumu eki",
+   "ornek": "agı +n",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+nı",
+   "islev": "belirtme durumu eki",
+   "ornek": "ku +nı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ŋa",
+   "islev": "yönelme durumu eki",
+   "ornek": "sab +ŋa",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ŋe",
+   "islev": "yönelme durumu eki",
+   "ornek": "yir +ŋe",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ra",
+   "islev": "yön gösterme eki",
+   "ornek": "taş +ra",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+re",
+   "islev": "yön gösterme eki",
+   "ornek": "iç +re",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+rü",
+   "islev": "yön gösterme eki",
+   "ornek": "kirü +rü",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+sı",
+   "islev": "3. tekil kişi iyelik eki",
+   "ornek": "ortu +sı",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+sız",
+   "islev": "yokluk eki",
+   "ornek": "aşsız +sız",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+si",
+   "islev": "3. tekil kişi iyelik eki",
+   "ornek": "töpü +si",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+sig",
+   "islev": "isimden isim –sıfat- yapım eki. Sözcük kökünün son sesi /t/ ile ek başı /s/ seslerinin kaynaşmasından dolayı hece başı ünsüzü /ç/’dir",
+   "ornek": "süçig +sig",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+siz",
+   "islev": "isimden isim -sıfat- yapım eki, yokluk eki",
+   "ornek": "biligsiz +siz",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+suz",
+   "islev": "isimden isim yapım eki, yokluk eki",
+   "ornek": "buŋsuz +suz",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+süz",
+   "islev": "yokluk eki",
+   "ornek": "tüzsüz +süz",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+t",
+   "islev": "çokluk eki",
+   "ornek": "tarkan +t",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ta",
+   "islev": "bulunma-çıkma durumu eki: “orada, o zaman”",
+   "ornek": "a +ta",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+tan",
+   "islev": "çıkma durumu eki",
+   "ornek": "oguz +tan",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+te",
+   "islev": "bulunma-çıkma durumu eki",
+   "ornek": "il +te",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+u)g",
+   "islev": "belirtme durumu eki",
+   "ornek": "bodun +u)g",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+u)m",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "uguş +u)m",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+um",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "kut +um",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ü)g",
+   "islev": "belirtme durumu eki",
+   "ornek": "küç +ü)g",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+ü)m",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "öz +ü)m",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+üm",
+   "islev": "1. tekil kişi iyelik eki",
+   "ornek": "ini(y) +üm",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+y)a",
+   "islev": "yönelme durumu eki",
+   "ornek": "yır(ı) +y)a",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  },
+  {
+   "ek": "+y)e",
+   "islev": "yönelme durumu eki",
+   "ornek": "bir(i) +y)e",
+   "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+   "katman": "kitap",
+   "denetlendi": false
+  }
+ ]
+}

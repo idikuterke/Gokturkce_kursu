@@ -1,5 +1,213 @@
 [
   {
+    "runic": "𐰴𐰍𐰣",
+    "transcription": "KaGaN",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 98,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kağan",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰜",
+    "transcription": "TÜRK",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 78,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐰢𐰾",
+    "transcription": "eRMiŞ",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 70,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰦𐰀",
+    "transcription": "aNDA",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 61,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰨𐰀",
+    "transcription": "aNÇA",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 58,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞",
+    "transcription": "OL",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 49,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰃",
+    "transcription": "eRTİ",
+    "attestation": "KT-D-18",
+    "attestation_text": "KaMaGI : BİŞOTuZ : SÜLeDiMiZ : ÜÇYiGiRMİ : SÜŊüŞDüMiZ : İLLiGiG : İLSiReTDiMiZ : KaGaNLıGıG : KaGaNSıRaTDıMıZ : TİZLiGiG",
+    "frequency": 45,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰭𐰼𐰃",
+    "transcription": "TeŊRİ",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 43,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "1. gök, gökyüzü; 2. tanrı",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐰉𐰍𐰲",
+    "transcription": "TaBGaÇ",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 38,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "Çin",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰇𐰲𐰇𐰤",
+    "transcription": "ÜÇÜN",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 37,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰠𐰏𐰀",
+    "transcription": "BİLGE",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 36,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bilen, bilgili",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱅𐰏𐰃",
+    "transcription": "TeGİ",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 33,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kadar",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰼𐰨",
+    "transcription": "eRiNÇ",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 33,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐱅𐰃",
+    "transcription": "KeLTİ",
+    "attestation": "KT-D-28",
+    "attestation_text": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ : YaDaGıN : YaLıŊıN : YaNA : KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : ",
+    "frequency": 33,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "gelmek  (kel + ti)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰍",
+    "transcription": "BODuNuG",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 31,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ulus, halk  (bodun + ug)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰖𐰸",
+    "transcription": "YOK",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 30,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yok",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐰘𐰢𐰀",
     "transcription": "YiME",
     "attestation": "KT-G-10",
@@ -8,6 +216,84 @@
     "meaning": null,
     "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰡𐰃",
+    "transcription": "BOLDI",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 28,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤",
+    "transcription": "KÖLTİGiN",
+    "attestation": "KT-D-26",
+    "attestation_text": "KaGaN : OLuRTDI : eRiNÇ : NeŊ : YILSıG : BODuNKA : OLuRMaDıM : İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA ",
+    "frequency": 28,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇",
+    "transcription": "SÜ",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 24,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "asker",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱅𐰃𐰘𐰤",
+    "transcription": "TİYiN",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 24,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰏𐰠𐰼",
+    "transcription": "BeGLeR",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 24,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bey  (beg + ler)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰾𐰇𐰠𐰓𐰢",
+    "transcription": "SÜLeDiM",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 24,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "asker sevk etmek, sefer etmek  (süle + dim)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰉𐰆𐰑𐰣𐰍",
@@ -20,6 +306,32 @@
     "source": null
   },
   {
+    "runic": "𐰆𐰍𐰔",
+    "transcription": "OGuZ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 23,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "Oğuz",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰋𐰃𐰼",
+    "transcription": "BİR",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
+    "frequency": 22,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰇𐰔𐰢",
     "transcription": "ÖZüM",
     "attestation": "KT-G-9",
@@ -27,7 +339,39 @@
     "frequency": 22,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kendim",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 185",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰋𐰃𐰼𐰠𐰀",
+    "transcription": "BİRLE",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 22,
+    "meaning": null,
+    "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰴𐰭𐰢",
+    "transcription": "KaŊıM",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 22,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "baba  (kaŋ + ım)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰇𐰔𐰀",
@@ -37,14 +381,36 @@
     "frequency": 21,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yukarı, yukarıda",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰉𐰆",
-    "transcription": "BU",
-    "attestation": "KT-G-1",
-    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
-    "frequency": 19,
+    "runic": "𐰖𐰍𐰃",
+    "transcription": "YaGI",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 21,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "düşman",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐰯𐰀",
+    "transcription": "TaPA",
+    "attestation": "KT-D-28",
+    "attestation_text": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ : YaDaGıN : YaLıŊıN : YaNA : KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : ",
+    "frequency": 21,
     "meaning": null,
     "category": null,
     "source": null
@@ -57,13 +423,163 @@
     "frequency": 19,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "değmek, ulaşmak",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐰆",
+    "transcription": "BU",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 19,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "işaret zamiri, bu",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰔",
+    "transcription": "aZ",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
+    "frequency": 19,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "az",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰚𐰃",
+    "transcription": "iKİ",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 19,
+    "meaning": null,
+    "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰴𐰀",
+    "transcription": "KaGaNKA",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 19,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kağan  (kagan + ka)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰞𐰯",
+    "transcription": "aLP",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
+    "frequency": 18,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐰯",
+    "transcription": "KOP",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 18,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰲𐰤",
+    "transcription": "ÜÇüN",
+    "attestation": "KT-D-29",
+    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "frequency": 18,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐰏𐰼𐰇",
+    "transcription": "İLGeRÜ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 18,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰆𐰯",
+    "transcription": "KOP",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 17,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰼",
+    "transcription": "YİR",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 17,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yer, memleket",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰼𐰾𐰼",
     "transcription": "eRSeR",
     "attestation": "KT-G-7",
     "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 17,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰶𐰃𐰺𐰴𐰔",
+    "transcription": "KIRKıZ",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 17,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰏𐰾",
+    "transcription": "TÜRGiŞ",
+    "attestation": "KT-D-18",
+    "attestation_text": "KaMaGI : BİŞOTuZ : SÜLeDiMiZ : ÜÇYiGiRMİ : SÜŊüŞDüMiZ : İLLiGiG : İLSiReTDiMiZ : KaGaNLıGıG : KaGaNSıRaTDıMıZ : TİZLiGiG",
     "frequency": 17,
     "meaning": null,
     "category": null,
@@ -100,6 +616,16 @@
     "source": null
   },
   {
+    "runic": "𐰇𐰠𐱅𐰃",
+    "transcription": "ÖLTİ",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 15,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰉𐰆𐰞𐰢𐰾",
     "transcription": "BOLMıS",
     "attestation": "KT-D-4",
@@ -108,6 +634,22 @@
     "meaning": null,
     "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰚𐰃𐰾𐰃",
+    "transcription": "KİŞİ",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kişi, insan",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐰠𐰃𐰤",
@@ -120,6 +662,98 @@
     "source": null
   },
   {
+    "runic": "𐱅𐰃𐰼",
+    "transcription": "TİR",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yaşamak",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰾𐰇𐰾𐰃",
+    "transcription": "SÜSİ",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰤𐰯",
+    "transcription": "BİNiP",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰉𐰞𐰴",
+    "transcription": "YaBLaK",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰢𐰾",
+    "transcription": "TiMiŞ",
+    "attestation": "TY1-B-2",
+    "attestation_text": "TÜRK : BODuN : KaNIN : BULMaYıN : TaBGaÇDA : aDRıLDI : KaNLaNDI : KaNIN : KODuP : TaBGaÇKA : YaNA : İÇiKDİ : TeŊRİ : aNÇ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰭𐱁𐰓𐰢𐰔",
+    "transcription": "SÜŊüŞDüMüZ",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 14,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰤",
+    "transcription": "SeN",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 13,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰲𐰃𐰢",
+    "transcription": "eÇİM",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 13,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ağabey  (eçi + m)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐱅𐰇𐰼𐱅",
     "transcription": "TÖRT",
     "attestation": "KT-D-2",
@@ -130,10 +764,78 @@
     "source": null
   },
   {
+    "runic": "𐱃",
+    "transcription": "aT",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 13,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "at",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰚𐰃𐰾𐰼𐰀",
+    "transcription": "KİSRE",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 13,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰭𐱁𐰓𐰢",
+    "transcription": "SÜŊüŞDüM",
+    "attestation": "BK-D-25",
+    "attestation_text": "TaPA : SÜLeDİM : BODuNuG : aNDA : BOZDuM : TaBGaÇ : OŊ : TUTUK : BiŞ : TÜMeN : SÜ : KeLTİ : IDUK : BaŞDA : SÜŊüŞDüM : OL",
+    "frequency": 13,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "savaşmak  (süŋüş + düm)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰚𐰇𐰤",
+    "transcription": "KÜN",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰃𐰠",
     "transcription": "İL",
     "attestation": "KT-G-4",
     "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "memleket, ülke",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰤𐰭",
+    "transcription": "NeŊ",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
     "frequency": 12,
     "meaning": null,
     "category": null,
@@ -150,6 +852,26 @@
     "source": null
   },
   {
+    "runic": "𐰆𐰣",
+    "transcription": "ON",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰏𐰓𐰃",
+    "transcription": "TeGDİ",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰋𐰃𐰼𐰢𐰾",
     "transcription": "BİRMiŞ",
     "attestation": "KT-D-1",
@@ -157,7 +879,13 @@
     "frequency": 12,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "vermek  (bir + miş)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰏𐰠𐰼𐰃",
@@ -165,6 +893,48 @@
     "attestation": "KT-G-2",
     "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
     "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bey  (beg + leri)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰾𐰇𐰠𐰓𐰢𐰔",
+    "transcription": "SÜLeDiMiZ",
+    "attestation": "KT-D-17",
+    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
+    "frequency": 12,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "asker sevk etmek, sefer etmek  (süle + dimiz)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰼𐰏",
+    "transcription": "eRiG",
+    "attestation": "KT-G-13",
+    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰣𐰃",
+    "transcription": "aNI",
+    "attestation": "KT-G-13",
+    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+    "frequency": 11,
     "meaning": null,
     "category": null,
     "source": null
@@ -177,23 +947,19 @@
     "frequency": 11,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "evlat, çocuk  (ogl + ı)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰋𐰃𐰔",
-    "transcription": "BİZ",
-    "attestation": "KT-D-20",
-    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
-    "frequency": 11,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰾𐰇𐰾𐰃𐰤",
-    "transcription": "SÜSİN",
-    "attestation": "KT-K-6",
-    "attestation_text": "TOKuZ : eRiG : eGiRE : TOKIDI : eDiZ : BODuN : aNDA : ÖLTİ : ÜÇüNÇ : BOLÇUDA : OGuZ : BİRLE : SÜŊüŞDüMüZ : KÖLTİGiN : aZ",
+    "runic": "𐰴𐰺𐰀",
+    "transcription": "KaRA",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
     "frequency": 11,
     "meaning": null,
     "category": null,
@@ -210,6 +976,72 @@
     "source": null
   },
   {
+    "runic": "𐰋𐰃𐰔",
+    "transcription": "BİZ",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰺𐰑𐰃",
+    "transcription": "BaRDI",
+    "attestation": "KT-D-24",
+    "attestation_text": "BaRDıG : KURIGaRU : BaRIGMA : BaRDıG : BaRDUK : YİRDE : eDGÜG : OL : eRiNÇ : KaNıN : SUBÇA : YÜGüRTİ : SÜŊÜKÜŊ : TaGÇA :",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰚",
+    "transcription": "TÜRK",
+    "attestation": "TY1-B-1",
+    "attestation_text": "BİLGE : TONYUKUK : BeN : ÖZüM : TaBGaÇ : İLiŊE : KILıNDıM : TÜRK : BODuN : TaBGaÇKA : KÖRüR : eRTİ :",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰃",
+    "transcription": "BODuNI",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ulus, halk  (bodun + ı)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐱃𐰉𐰃",
+    "transcription": "TaTaBI",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰾𐰃𐰤",
+    "transcription": "SÜSİN",
+    "attestation": "KT-K-6",
+    "attestation_text": "TOKuZ : eRiG : eGiRE : TOKIDI : eDiZ : BODuN : aNDA : ÖLTİ : ÜÇüNÇ : BOLÇUDA : OGuZ : BİRLE : SÜŊüŞDüMüZ : KÖLTİGiN : aZ",
+    "frequency": 11,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐱅𐰇𐰤",
     "transcription": "TÜN",
     "attestation": "KT-G-2",
@@ -220,10 +1052,10 @@
     "source": null
   },
   {
-    "runic": "𐰸",
-    "transcription": "OK",
-    "attestation": "KT-D-19",
-    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "runic": "𐰇𐱅𐰜𐰤",
+    "transcription": "ÖTÜKeN",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
     "frequency": 10,
     "meaning": null,
     "category": null,
@@ -237,7 +1069,13 @@
     "frequency": 10,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "bağımlı, tâbi",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐰠𐰏",
@@ -260,6 +1098,16 @@
     "source": null
   },
   {
+    "runic": "𐰸",
+    "transcription": "OK",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰃𐰤𐰢",
     "transcription": "İNiM",
     "attestation": "KT-D-26",
@@ -267,7 +1115,29 @@
     "frequency": 10,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "erkek kardeş  (ini + m)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰆𐰞𐰍",
+    "transcription": "ULuG",
+    "attestation": "KT-D-28",
+    "attestation_text": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ : YaDaGıN : YaLıŊıN : YaNA : KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : ",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ulu (kişi), önder",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰼𐱅𐰢",
@@ -290,10 +1160,66 @@
     "source": null
   },
   {
+    "runic": "𐰖𐱁𐰢𐰀",
+    "transcription": "YaŞıMA",
+    "attestation": "BK-D-24",
+    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
+    "frequency": 10,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰸𐰆𐰔",
+    "transcription": "TOKUZ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐱅𐰃𐰯",
     "transcription": "TİP",
     "attestation": "KT-G-7",
     "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐱁",
+    "transcription": "TaŞ",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "dış, dışarı",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰃𐰑𐰸",
+    "transcription": "IDUK",
+    "attestation": "KT-D-10",
+    "attestation_text": "YaGI : BOLuP : İTiNÜ : YaRaTUNU : UMaDUK : YaNA : İÇiKMiŞ : BUNÇA : İŞiG : KÜÇüG : BİRTÜKGeRÜ : SaKıNMaTI : TÜRK : BODuN",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰢𐰤",
+    "transcription": "TÜMeN",
+    "attestation": "KT-D-31",
+    "attestation_text": "UMaY : TeG : ÖGüM : KaTUN : KUTıŊA : İNiM : KÖLTİGiN : eR : aT : BOLDI : aLTI : YiGiRMİ : YaŞIŊA : eÇİM : KaGaN : İLİN :",
     "frequency": 9,
     "meaning": null,
     "category": null,
@@ -320,16 +1246,6 @@
     "source": null
   },
   {
-    "runic": "𐰸𐰆𐰺𐰍𐰺𐰆",
-    "transcription": "KURıGaRU",
-    "attestation": "KT-D-8",
-    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
-    "frequency": 9,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
     "runic": "𐰴𐰍𐰣𐰃",
     "transcription": "KaGaNI",
     "attestation": "KT-D-19",
@@ -337,7 +1253,13 @@
     "frequency": 9,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kağan  (kagan + ı)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰼𐱅𐰢𐰔",
@@ -345,6 +1267,74 @@
     "attestation": "BK-D-32",
     "attestation_text": "OGuZ : TaPA : SÜLeDiM : İLKİ : SÜ : TaŞIKMıŞ : eRTİ : iKİN : SÜ : eBDE : eRTİ : ÜÇ : OGuZ : SÜSİ : BaSA : KeLTİ : YaDaG ",
     "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐰪𐰸𐰸",
+    "transcription": "TONYUKUK",
+    "attestation": "TY1-B-1",
+    "attestation_text": "BİLGE : TONYUKUK : BeN : ÖZüM : TaBGaÇ : İLiŊE : KILıNDıM : TÜRK : BODuN : TaBGaÇKA : KÖRüR : eRTİ :",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐰺𐰍𐰺𐰆",
+    "transcription": "KURıGaRU",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 9,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "batı  (kurı + garu)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰆𐰞𐰖𐰆",
+    "transcription": "ULaYU",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ve",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐰃𐱁",
+    "transcription": "YIŞ",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yayla",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰚𐰲𐰀",
+    "transcription": "KeÇE",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 8,
     "meaning": null,
     "category": null,
     "source": null
@@ -360,10 +1350,82 @@
     "source": null
   },
   {
+    "runic": "𐰋𐰭𐰏𐰇",
+    "transcription": "BeŊGÜ",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰭",
+    "transcription": "KÜŊ",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰾𐰏",
+    "transcription": "İŞiG",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰽𐰆𐰉",
     "transcription": "SUB",
     "attestation": "KT-D-19",
     "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "su",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰖𐰣𐰀",
+    "transcription": "YaNA",
+    "attestation": "KT-D-21",
+    "attestation_text": "YaNA : BİRTiMiZ : iLGeRÜ : KaDıRKaN : YıŞıG : aŞA : BODuNıG : aNÇA : KONDURTuMıZ : aNÇA : İTDiMiZ : KURıGaRU : KeŊÜ : Ta",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yine, yeniden, tekrar",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐰃",
+    "transcription": "aTI",
+    "attestation": "KT-D-25",
+    "attestation_text": "BaŞLayU : KIRKıZ : KaGaNıG : BaLBaL : TİKDiM : TÜRK : BODuNuG : aTI : KÜSİ : YOK : BOLMaZUN : TİYiN : KaŊıM : KaGaNıG : ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰞𐱃𐰃",
+    "transcription": "aLTI",
+    "attestation": "KT-D-31",
+    "attestation_text": "UMaY : TeG : ÖGüM : KaTUN : KUTıŊA : İNiM : KÖLTİGiN : eR : aT : BOLDI : aLTI : YiGiRMİ : YaŞIŊA : eÇİM : KaGaN : İLİN :",
     "frequency": 8,
     "meaning": null,
     "category": null,
@@ -390,66 +1452,6 @@
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰖𐰺𐰸𐰃",
-    "transcription": "BUYRUKI",
-    "attestation": "KT-D-3",
-    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
-    "frequency": 8,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐰞𐰖𐰆",
-    "transcription": "ULaYU",
-    "attestation": "KT-G-1",
-    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
-    "frequency": 8,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰋𐰭𐰏𐰇",
-    "transcription": "BeŊGÜ",
-    "attestation": "KT-G-8",
-    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
-    "frequency": 8,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰃𐰾𐰏",
-    "transcription": "İŞiG",
-    "attestation": "KT-D-8",
-    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
-    "frequency": 8,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰖𐰣𐰀",
-    "transcription": "YaNA",
-    "attestation": "KT-D-21",
-    "attestation_text": "YaNA : BİRTiMiZ : iLGeRÜ : KaDıRKaN : YıŞıG : aŞA : BODuNıG : aNÇA : KONDURTuMıZ : aNÇA : İTDiMiZ : KURıGaRU : KeŊÜ : Ta",
-    "frequency": 8,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰋𐰃𐰼𐱅𐰢",
-    "transcription": "BİRTiM",
-    "attestation": "BK-D-41",
-    "attestation_text": "--- : aRKıŞI : KeLMeDİ : aNI : aYNıTaYıN : TİP : SÜLeDiM : KORıGU : iKİ : ÜÇ : KİŞiLGeN : TeZiP : BaRDI : KaRA : BODuN :",
-    "frequency": 8,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
     "runic": "𐰆𐰞𐰺𐰯",
     "transcription": "OLuRuP",
     "attestation": "KT-G-4",
@@ -460,8 +1462,8 @@
     "source": null
   },
   {
-    "runic": "𐰆𐰞𐰺𐱃𐰢",
-    "transcription": "OLuRTuM",
+    "runic": "𐰉𐰺𐰑𐰍",
+    "transcription": "BaRDıG",
     "attestation": "KT-G-9",
     "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
     "frequency": 8,
@@ -470,10 +1472,10 @@
     "source": null
   },
   {
-    "runic": "𐰉𐱁𐰞𐰖𐰆",
-    "transcription": "BaŞLaYU",
-    "attestation": "KT-D-16",
-    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "runic": "𐰴𐰍𐰣𐰍",
+    "transcription": "KaGaNıG",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
     "frequency": 8,
     "meaning": null,
     "category": null,
@@ -487,17 +1489,29 @@
     "frequency": 8,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "düşünmek  (sakın + dım)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰇𐰠𐰼𐱅𐰢",
-    "transcription": "ÖLüRTüM",
-    "attestation": "BK-D-26",
-    "attestation_text": "TaPA : SÜLeDiM : ÇaÇA : SEŊÜN : SeKiZ : TÜMeN : SÜ : BİRLE : SÜŊüŞDüM : SÜSİN : aNDA : ÖLüRTüM : aLTI : OTuZ : YaŞıMA : ",
+    "runic": "𐰋𐰃𐰼𐱅𐰢",
+    "transcription": "BİRTiM",
+    "attestation": "BK-D-41",
+    "attestation_text": "--- : aRKıŞI : KeLMeDİ : aNI : aYNıTaYıN : TİP : SÜLeDiM : KORıGU : iKİ : ÜÇ : KİŞiLGeN : TeZiP : BaRDI : KaRA : BODuN :",
     "frequency": 8,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "vermek  (bir + tim)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱅𐰘𐰤",
@@ -510,10 +1524,134 @@
     "source": null
   },
   {
+    "runic": "𐰆𐰞𐰺𐱃𐰢",
+    "transcription": "OLuRTuM",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "oturmak  (olur + tum)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐰆𐰖𐰺𐰸𐰃",
+    "transcription": "BUYRUKI",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kumandan, vezir  (buyruk + ı)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐱁𐰞𐰖𐰆",
+    "transcription": "BaŞLaYU",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐰼𐱅𐰢",
+    "transcription": "ÖLüRTüM",
+    "attestation": "BK-D-26",
+    "attestation_text": "TaPA : SÜLeDiM : ÇaÇA : SEŊÜN : SeKiZ : TÜMeN : SÜ : BİRLE : SÜŊüŞDüM : SÜSİN : aNDA : ÖLüRTüM : aLTI : OTuZ : YaŞıMA : ",
+    "frequency": 8,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "öldürmek  (ölür + tüm)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰽𐰖𐰆",
+    "transcription": "SaYU",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "her",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐰇𐰔𐰃",
     "transcription": "ÖZİ",
     "attestation": "KT-D-3",
     "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰑𐰢𐰾",
+    "transcription": "IDMıŞ",
+    "attestation": "KT-D-6",
+    "attestation_text": "BeGLeRİ : BODuNI : TÜZSüZ : ÜÇÜN : TaBGaÇ : BODuN : TeBLiGİN : KÜRLüG : ÜÇÜN : aRMaKÇISIN : ÜÇÜN : İNiLİ : eÇİLİ : KİŊŞÜ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰆𐰞𐰃",
+    "transcription": "YOLI",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰲𐰀",
+    "transcription": "UÇA",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰑",
+    "transcription": "ŞaD",
+    "attestation": "KT-D-17",
+    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰾𐰃",
+    "transcription": "KÜSİ",
+    "attestation": "KT-D-25",
+    "attestation_text": "BaŞLayU : KIRKıZ : KaGaNıG : BaLBaL : TİKDiM : TÜRK : BODuNuG : aTI : KÜSİ : YOK : BOLMaZUN : TİYiN : KaŊıM : KaGaNıG : ",
     "frequency": 7,
     "meaning": null,
     "category": null,
@@ -540,14 +1678,20 @@
     "source": null
   },
   {
-    "runic": "𐱁𐰑",
-    "transcription": "ŞaD",
-    "attestation": "KT-D-17",
-    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
+    "runic": "𐰋𐰃𐰼𐰇𐰼",
+    "transcription": "BİRÜR",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
     "frequency": 7,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "vermek  (bir + ür)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰃𐰠𐰢𐰔",
@@ -570,20 +1714,36 @@
     "source": null
   },
   {
-    "runic": "𐰽𐰖𐰆",
-    "transcription": "SaYU",
-    "attestation": "KT-G-9",
-    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "runic": "𐰴𐰍𐰦𐰀",
+    "transcription": "KaGaNDA",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kağan  (kagan + da)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰆𐰯𐰞𐰖𐰆",
+    "transcription": "OPLaYU",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
     "frequency": 7,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰋𐰃𐰼𐰏𐰼𐰇",
-    "transcription": "BİRiGeRÜ",
-    "attestation": "KT-G-2",
-    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "runic": "𐰞𐱃𐰢",
+    "transcription": "aLTıM",
+    "attestation": "BK-D-24",
+    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
     "frequency": 7,
     "meaning": null,
     "category": null,
@@ -592,16 +1752,6 @@
   {
     "runic": "𐰉𐱁𐰞𐰍𐰍",
     "transcription": "BaŞLıGıG",
-    "attestation": "KT-D-2",
-    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
-    "frequency": 7,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱅𐰃𐰔𐰠𐰏𐰏",
-    "transcription": "TİZLiGiG",
     "attestation": "KT-D-2",
     "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
     "frequency": 7,
@@ -620,6 +1770,16 @@
     "source": null
   },
   {
+    "runic": "𐰘𐰏𐰼𐰢𐰃",
+    "transcription": "YiGiRMİ",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰴𐰔𐰍𐰣𐰯",
     "transcription": "KaZGaNıP",
     "attestation": "KT-D-16",
@@ -630,14 +1790,78 @@
     "source": null
   },
   {
-    "runic": "𐰞𐱃𐰢",
-    "transcription": "aLTıM",
-    "attestation": "BK-D-24",
-    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
+    "runic": "𐰋𐰃𐰼𐰏𐰼𐰇",
+    "transcription": "BİRiGeRÜ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
     "frequency": 7,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "güney  (biri + gerü)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱅𐰃𐰔𐰠𐰏𐰏",
+    "transcription": "TİZLiGiG",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "dizli, dizi olan; ayakta durabilen  (tizlig + ig)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰢𐱃𐰃",
+    "transcription": "aMTI",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰘𐰼",
+    "transcription": "YiR",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yer, memleket",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰽𐰉𐰃",
+    "transcription": "SaBI",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "söz  (sab + ı)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰇𐰠𐰇",
@@ -650,60 +1874,10 @@
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰦𐰀",
-    "transcription": "BUNDA",
+    "runic": "𐰲𐰃𐰍𐰪",
+    "transcription": "ÇIGaYN",
     "attestation": "KT-G-10",
     "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱅𐰇𐰼𐰇𐰏",
-    "transcription": "TÖRÜG",
-    "attestation": "KT-D-3",
-    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰃𐰤𐰃𐰾𐰃",
-    "transcription": "İNİSİ",
-    "attestation": "KT-D-4",
-    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰘𐰃𐰞",
-    "transcription": "YIL",
-    "attestation": "KT-D-8",
-    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰤𐰀",
-    "transcription": "NE",
-    "attestation": "KT-D-9",
-    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰘𐰃𐱅𐰃",
-    "transcription": "YİTİ",
-    "attestation": "KT-D-30",
-    "attestation_text": "KaGaNLıGDA : KOP : BaZ : KILDıM : YaGıSIZ : KILDıM : KOP : MaŊA : KÖRTİ : İŞiG : KÜÇüG : BİRÜR : BUNÇA : TÖRÜG : KaZGaNı",
     "frequency": 6,
     "meaning": null,
     "category": null,
@@ -720,38 +1894,8 @@
     "source": null
   },
   {
-    "runic": "𐰞𐰃",
-    "transcription": "aLI",
-    "attestation": "KT-D-8",
-    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰖",
-    "transcription": "aY",
-    "attestation": "KT-KD-1",
-    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰢𐱃𐰃",
-    "transcription": "aMTI",
-    "attestation": "KT-G-3",
-    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
-    "frequency": 6,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰲𐰃𐰍𐰪",
-    "transcription": "ÇIGaYN",
+    "runic": "𐰉𐰆𐰦𐰀",
+    "transcription": "BUNDA",
     "attestation": "KT-G-10",
     "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
     "frequency": 6,
@@ -777,6 +1921,42 @@
     "frequency": 6,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bilmek  (bil + iŋ)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐰃𐰞",
+    "transcription": "YIL",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰞𐰃",
+    "transcription": "aLI",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰤𐰀",
+    "transcription": "NE",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
     "source": null
   },
   {
@@ -790,10 +1970,66 @@
     "source": null
   },
   {
+    "runic": "𐰘𐰃𐱅𐰃",
+    "transcription": "YİTİ",
+    "attestation": "KT-D-30",
+    "attestation_text": "KaGaNLıGDA : KOP : BaZ : KILDıM : YaGıSIZ : KILDıM : KOP : MaŊA : KÖRTİ : İŞiG : KÜÇüG : BİRÜR : BUNÇA : TÖRÜG : KaZGaNı",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰏",
+    "transcription": "SÜG",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰽𐰨𐰑𐰃",
+    "transcription": "SaNÇDI",
+    "attestation": "KT-K-2",
+    "attestation_text": "KÖLTİGiN : OL : SÜŊÜŞDE : OTuZ : YAŞaYUR : eRTİ : aLP : ŞaLÇI : aTIN : BİNiP : OPLaYU : TeGDİ : iKİ : eRiG : UDaŞuRU : S",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖",
+    "transcription": "aY",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "söylemek",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐱅𐰃𐰏𐰤",
     "transcription": "TİGiN",
     "attestation": "KT-GB-1",
     "attestation_text": "KÖLTİGiNiŊ : aLTUNIN : KÜMiŞİN : aGIŞIN : BaRıMIN : TÜRK : aÇIGıYN : KaRNIN : YaGMA : TOYuG : TaBU : --- BeGiM : TİGiN :",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰃𐰼",
+    "transcription": "SİR",
+    "attestation": "BK-D-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİ : YaRaTMıŞ : TÜRK : BİLGE : KaGaN : SaBıM : KaŊıM : TÜRK : BİLGE : --- NDA : aL --- TI : SİR : TOKuZ",
     "frequency": 6,
     "meaning": null,
     "category": null,
@@ -810,6 +2046,136 @@
     "source": null
   },
   {
+    "runic": "𐰾𐰇𐰲𐰃𐰏",
+    "transcription": "SÜÇİG",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "tatlı",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰇𐰏",
+    "transcription": "TÖRÜG",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "töre, yasa  (törü + g)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰃𐰤𐰃𐰾𐰃",
+    "transcription": "İNİSİ",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "erkek kardeş  (ini + si)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐰺𐰑𐰆𐱁",
+    "transcription": "TaRDUŞ",
+    "attestation": "KT-D-13",
+    "attestation_text": "YeTİYüZ : eR : BOLMıS : YeTİYüZ : eR : BOLıP : iLSiReMiŞ : KaGaNSıRaMıŞ : BODuNıG : KÜŊeDMiŞ : KULaDMıŞ : BODuNıG : TÜRK",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰺𐰢𐰾",
+    "transcription": "BaRMıŞ",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "gitmek, varmak  (bar + mış)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐰞𐰉𐰞",
+    "transcription": "BaLBaL",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰺𐰴𐰣",
+    "transcription": "TaRKaN",
+    "attestation": "KT-K-12",
+    "attestation_text": "UDaR : SeŊÜN : KeLTİ : TaBGaÇ : KaGaNDA : İSiyİ : LİKeŊ : KeLTİ : BİR : TÜMeN : aGI : aLTUN : KÜMüŞ : KeRGeSİZ : KeLÜRTİ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yüksek bir unvan",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐰆𐰔𐰑𐰢",
+    "transcription": "BOZDuM",
+    "attestation": "BK-D-24",
+    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰢𐰔𐰆𐰤",
+    "transcription": "BOLMaZUN",
+    "attestation": "KT-D-25",
+    "attestation_text": "BaŞLayU : KIRKıZ : KaGaNıG : BaLBaL : TİKDiM : TÜRK : BODuNuG : aTI : KÜSİ : YOK : BOLMaZUN : TİYiN : KaŊıM : KaGaNıG : ",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐰇𐰼𐱅𐰃",
+    "transcription": "KeLÜRTİ",
+    "attestation": "KT-K-1",
+    "attestation_text": "--- : BİRLE : KOŞU : TUTuK : BİRLE : SÜŊüŞMüŞ : eRİN : KOP : ÖLÜRMüŞ : eBİN : BaRıMıN : KaLISıZ : KOP : KeLÜRTİ : KÖLTİG",
+    "frequency": 6,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰖𐰺𐰞𐰴𐰑𐰸",
     "transcription": "YaRLıKaDUK",
     "attestation": "KT-D-15",
@@ -817,7 +2183,13 @@
     "frequency": 6,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "buyurmak, lutfetmek  (yarlıka + duk)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰃𐰼𐱅𐰢𐰔",
@@ -830,11 +2202,11 @@
     "source": null
   },
   {
-    "runic": "𐱁𐰀",
-    "transcription": "aŞA",
-    "attestation": "KT-D-17",
-    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
-    "frequency": 5,
+    "runic": "𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀",
+    "transcription": "TeMiRKaPıGKA",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 6,
     "meaning": null,
     "category": null,
     "source": null
@@ -860,6 +2232,32 @@
     "source": null
   },
   {
+    "runic": "𐰜𐰇𐰾",
+    "transcription": "ÖKÜŞ",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰍𐰃",
+    "transcription": "aGI",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ipekli kumaş, armağan",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐰇𐰚𐱁",
     "transcription": "ÖKüŞ",
     "attestation": "KT-G-7",
@@ -877,7 +2275,13 @@
     "frequency": 5,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "aşağı, aşağıda",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰚𐰃𐰤",
@@ -890,20 +2294,78 @@
     "source": null
   },
   {
-    "runic": "𐰆𐰞𐰺𐰆𐰺",
-    "transcription": "OLuRUR",
-    "attestation": "KT-D-3",
-    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "runic": "𐰦𐰍",
+    "transcription": "aNTaG",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
     "frequency": 5,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
+    "runic": "𐰴𐰣𐰃",
+    "transcription": "KaNI",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "han, hükümdar  (kan + ı)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐰚𐰇𐰲𐰏",
     "transcription": "KÜÇüG",
     "attestation": "KT-D-9",
     "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "güç, kuvvet  (küç + üg)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰖𐰆𐰸",
+    "transcription": "YOK",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yok",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰼𐰤",
+    "transcription": "eRiN",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰀",
+    "transcription": "aŞA",
+    "attestation": "KT-D-17",
+    "attestation_text": "eÇİM : KaGaN : OLuRTUKDA : ÖZüM : TaRDUŞ : BODuN : ÜZE : ŞaD : eRTiM : eÇİM : KaGaN : BİRLE : İLGeRÜ : YaŞıL : ÖGüZ : Şa",
     "frequency": 5,
     "meaning": null,
     "category": null,
@@ -930,16 +2392,6 @@
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰑𐰣𐰴𐰀",
-    "transcription": "BODuNKA",
-    "attestation": "KT-D-7",
-    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
-    "frequency": 5,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
     "runic": "𐱃𐰍",
     "transcription": "aTıG",
     "attestation": "KT-D-32",
@@ -950,10 +2402,68 @@
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰑𐰣𐰢",
-    "transcription": "BODuNuM",
+    "runic": "𐰾𐰭𐰇𐰤",
+    "transcription": "SeŊÜN",
+    "attestation": "KT-K-12",
+    "attestation_text": "UDaR : SeŊÜN : KeLTİ : TaBGaÇ : KaGaNDA : İSiyİ : LİKeŊ : KeLTİ : BİR : TÜMeN : aGI : aLTUN : KÜMüŞ : KeRGeSİZ : KeLÜRTİ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "<Çin. General",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 187",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰽𐰉𐰢𐰣",
+    "transcription": "SaBıMıN",
     "attestation": "KT-G-1",
     "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐱁𐰑𐰀",
+    "transcription": "YIŞDA",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "yayla  (yış + da)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰚𐰃𐰾𐰃𐰏",
+    "transcription": "KİŞİG",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kişi, insan  (kişi + g)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰆𐰺",
+    "transcription": "OLuRUR",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
     "frequency": 5,
     "meaning": null,
     "category": null,
@@ -967,7 +2477,91 @@
     "frequency": 5,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kağan  (kagan + ım)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰚𐰇𐰼𐱅𐰃",
+    "transcription": "KÖRTİ",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "tâbi olmak, itaat etmek  (kör + ti)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰇𐰏𐰔𐰏",
+    "transcription": "ÖGüZüG",
+    "attestation": "KT-D-37",
+    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰽𐰨𐰑𐰢",
+    "transcription": "SaNÇDıM",
+    "attestation": "BK-D-26",
+    "attestation_text": "TaPA : SÜLeDiM : ÇaÇA : SEŊÜN : SeKiZ : TÜMeN : SÜ : BİRLE : SÜŊüŞDüM : SÜSİN : aNDA : ÖLüRTüM : aLTI : OTuZ : YaŞıMA : ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰢",
+    "transcription": "BODuNuM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ulus, halk  (bodun + um)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰴𐰑𐰺𐰴𐰣",
+    "transcription": "KaDıRKaN",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰴𐰀",
+    "transcription": "BODuNKA",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ulus, halk  (bodun + ka)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰴𐰯𐰍𐰴𐰀",
@@ -977,23 +2571,19 @@
     "frequency": 5,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kapı  (kapıg + ka)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰴𐰔𐰍𐰣𐰢𐰾",
-    "transcription": "KaZGaNMıŞ",
-    "attestation": "KT-D-22",
-    "attestation_text": "aNÇA : KaZGaNMıŞ : İTMiŞ : İLiMiZ : TÖRÜMiZ : eRTİ : TÜRK : OGuZ : BeGLeRİ : BODuN : eŞiDiŊ : ÜZE : TeŊRİ : BaSMaSaR : a",
-    "frequency": 5,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰇𐰏𐰔𐰏",
-    "transcription": "ÖGüZüG",
-    "attestation": "KT-D-37",
-    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
+    "runic": "𐰚𐰠𐱅𐰢𐰔",
+    "transcription": "KeLTiMiZ",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
     "frequency": 5,
     "meaning": null,
     "category": null,
@@ -1007,13 +2597,35 @@
     "frequency": 5,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kağan  (kagan + ın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰽𐰨𐰑𐰢",
-    "transcription": "SaNÇDıM",
-    "attestation": "BK-D-26",
-    "attestation_text": "TaPA : SÜLeDiM : ÇaÇA : SEŊÜN : SeKiZ : TÜMeN : SÜ : BİRLE : SÜŊüŞDüM : SÜSİN : aNDA : ÖLüRTüM : aLTI : OTuZ : YaŞıMA : ",
+    "runic": "𐰴𐰔𐰍𐰣𐰢𐰾",
+    "transcription": "KaZGaNMıŞ",
+    "attestation": "KT-D-22",
+    "attestation_text": "aNÇA : KaZGaNMıŞ : İTMiŞ : İLiMiZ : TÖRÜMiZ : eRTİ : TÜRK : OGuZ : BeGLeRİ : BODuN : eŞiDiŊ : ÜZE : TeŊRİ : BaSMaSaR : a",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kazanmak  (kazgan + mış)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰾𐰇𐰭𐰾𐰓𐰢𐰔",
+    "transcription": "SÜŊüŞDüMüZ",
+    "attestation": "KT-K-1",
+    "attestation_text": "--- : BİRLE : KOŞU : TUTuK : BİRLE : SÜŊüŞMüŞ : eRİN : KOP : ÖLÜRMüŞ : eBİN : BaRıMıN : KaLISıZ : KOP : KeLÜRTİ : KÖLTİG",
     "frequency": 5,
     "meaning": null,
     "category": null,
@@ -1040,10 +2652,20 @@
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰖𐰺𐰸",
-    "transcription": "BUYRUK",
-    "attestation": "KT-G-1",
-    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "runic": "𐰃𐱅𐰓𐰢",
+    "transcription": "İTDiM",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰦𐰆𐰭",
+    "transcription": "ŞaNTUŊ",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1060,6 +2682,58 @@
     "source": null
   },
   {
+    "runic": "𐰃𐰺𐰴",
+    "transcription": "IRaK",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "uzak",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰪𐰍",
+    "transcription": "aYNıG",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐰠𐰏",
+    "transcription": "BİLiG",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bilgi",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰇𐰠𐱅𐰏",
+    "transcription": "ÖLTüG",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐱃𐰆𐱃𐰀",
     "transcription": "TUTA",
     "attestation": "KT-G-8",
@@ -1068,6 +2742,32 @@
     "meaning": null,
     "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰇𐰢𐰔",
+    "transcription": "ÖMeZ",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐱃𐰢",
+    "transcription": "KUTuM",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "baht, mutluluk  (kut + um)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰜𐰇𐱁",
@@ -1090,6 +2790,16 @@
     "source": null
   },
   {
+    "runic": "𐰭𐰺",
+    "transcription": "aŊaR",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰚𐰇𐰼𐰇",
     "transcription": "KÖRÜ",
     "attestation": "KT-G-11",
@@ -1100,10 +2810,56 @@
     "source": null
   },
   {
-    "runic": "𐰋𐰇𐰓𐰚𐰀",
-    "transcription": "BÖDKE",
-    "attestation": "KT-G-11",
-    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "runic": "𐰃𐱃𐰃",
+    "transcription": "ITI",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐱁𐰃𐰤",
+    "transcription": "TaŞIN",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "dış, dışarı  (taş + ın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰆𐰭",
+    "transcription": "OŊ",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰯𐰀𐰢",
+    "transcription": "aPAM",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱅𐰢𐰾",
+    "transcription": "İTMiŞ",
+    "attestation": "KT-D-3",
+    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1120,18 +2876,24 @@
     "source": null
   },
   {
-    "runic": "𐰋𐰇𐰚𐰠𐰃",
-    "transcription": "BÖKLİ",
+    "runic": "𐰴𐰍𐰣",
+    "transcription": "KAGaN",
     "attestation": "KT-D-4",
     "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kağan",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰆𐰍𐰞𐰃𐰤",
-    "transcription": "OGLIN",
+    "runic": "𐰆𐰺𐰃",
+    "transcription": "URI",
     "attestation": "KT-D-7",
     "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
     "frequency": 4,
@@ -1150,14 +2912,20 @@
     "source": null
   },
   {
-    "runic": "𐰋𐰃𐰼𐱅𐰜",
-    "transcription": "BİRTÜK",
-    "attestation": "KT-D-12",
-    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
+    "runic": "𐱃𐱁𐰺𐰀",
+    "transcription": "TaŞRA",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "dış, dışarı  (taş + ra)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐱅𐰓𐰃",
@@ -1174,6 +2942,26 @@
     "transcription": "KILDI",
     "attestation": "KT-D-16",
     "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰓𐰾𐰔",
+    "transcription": "İDSiZ",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰠𐱅𐰓𐰃",
+    "transcription": "iLTDİ",
+    "attestation": "KT-D-23",
+    "attestation_text": "ÖKÜN : KÜReGÜŊiN : ÜÇÜN : İGiDMiŞ : BİLGE : KaGaNıŊA : eRMiŞ : BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ : YaŊıLDıG : YaBLaK : KİGÜR",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1210,10 +2998,50 @@
     "source": null
   },
   {
+    "runic": "𐰘𐰃𐱁𐰍",
+    "transcription": "YIŞıG",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰆𐰑𐰀",
     "transcription": "UDA",
     "attestation": "KT-D-35",
     "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱁𐰞𐰲𐰃",
+    "transcription": "ŞaLÇI",
+    "attestation": "KT-D-40",
+    "attestation_text": "aLP : eR : BİZiŊE : TeGMiŞ : eRTİ : aNTaG : ÖDKE : ÖKüNüP : KÖLTİGiNiG : aZ : eRiN : İRTÜRÜ : ITıMıZ : ULuG : SÜŊüŞ : SÜ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰆𐰴𐰔",
+    "transcription": "TOKuZ",
+    "attestation": "BK-D-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİ : YaRaTMıŞ : TÜRK : BİLGE : KaGaN : SaBıM : KaŊıM : TÜRK : BİLGE : --- NDA : aL --- TI : SİR : TOKuZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰾",
+    "transcription": "BiŞ",
+    "attestation": "BK-D-25",
+    "attestation_text": "TaPA : SÜLeDİM : BODuNuG : aNDA : BOZDuM : TaBGaÇ : OŊ : TUTUK : BiŞ : TÜMeN : SÜ : KeLTİ : IDUK : BaŞDA : SÜŊüŞDüM : OL",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1240,36 +3068,6 @@
     "source": null
   },
   {
-    "runic": "𐰘𐰃𐰼𐰃𐰭𐰀",
-    "transcription": "YİRİŊE",
-    "attestation": "KT-G-4",
-    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰉𐰆𐱁𐰍𐰆𐰺𐰆𐰺",
-    "transcription": "BOŞGURUR",
-    "attestation": "KT-G-7",
-    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱅𐰇𐰼𐰇𐰾𐰃𐰤",
-    "transcription": "TÖRÜSİN",
-    "attestation": "KT-D-1",
-    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
     "runic": "𐰋𐰃𐰼𐰚𐰃",
     "transcription": "BİRiKİ",
     "attestation": "KT-G-1",
@@ -1277,7 +3075,13 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "birleşik",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰃𐰼𐰘𐰀",
@@ -1287,7 +3091,13 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "güney  (biri + ye)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱁𐰑𐰯𐰃𐱃",
@@ -1307,23 +3117,35 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kuzey  (yırı + ya)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰃𐱅𐰓𐰢",
-    "transcription": "İTDiM",
-    "attestation": "KT-G-3",
-    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "runic": "𐰉𐰆𐰖𐰺𐰸",
+    "transcription": "BUYRUK",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kumandan, vezir",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐱁𐰦𐰆𐰭",
-    "transcription": "ŞaNTUŊ",
-    "attestation": "KT-G-3",
-    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "runic": "𐰃𐰲𐰼𐰚𐰃",
+    "transcription": "İÇReKİ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1337,11 +3159,43 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ova  (yazı + ka)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰼𐰢𐱁",
+    "transcription": "eRMiŞ",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
     "source": null
   },
   {
-    "runic": "𐰋𐰃𐰠𐰏",
-    "transcription": "BİLiG",
+    "runic": "𐰉𐰆𐰭𐰽𐰔",
+    "transcription": "BUŊSuZ",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bunsuz, sıkıntısız",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐰃𐰢𐱁𐰴",
+    "transcription": "YIMŞaK",
     "attestation": "KT-G-5",
     "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
     "frequency": 4,
@@ -1350,30 +3204,36 @@
     "source": null
   },
   {
-    "runic": "𐰇𐰢𐰔",
-    "transcription": "ÖMeZ",
-    "attestation": "KT-G-8",
-    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
+    "runic": "𐰖𐰍𐰺𐰆",
+    "transcription": "YaGuRU",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
     "frequency": 4,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰸𐰆𐱃𐰢",
-    "transcription": "KUTuM",
-    "attestation": "KT-G-9",
-    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "runic": "𐰽𐰉𐰢",
+    "transcription": "SaBıM",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "söz  (sab + ım)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰯𐰀𐰢",
-    "transcription": "aPAM",
-    "attestation": "KT-D-1",
-    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "runic": "𐰋𐰇𐰓𐰚𐰀",
+    "transcription": "BÖDKE",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1387,21 +3247,27 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "tutmak, edinmek  (tut + mış)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰃𐱅𐰢𐰾",
-    "transcription": "İTMiŞ",
-    "attestation": "KT-D-3",
-    "attestation_text": "İDİ : OKSuZ : KÖK : TÜRK : aNÇA : OLuRUR : eRMiŞ : BİLGE : KaGaN : eRMiŞ : aLP : KaGaN : eRMiŞ : BUYRUKI : YiME : BİLGE ",
+    "runic": "𐰚𐰼𐰏𐰚",
+    "transcription": "KeRGeK",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
     "frequency": 4,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰴𐰍𐰣",
-    "transcription": "KAGaN",
+    "runic": "𐰋𐰇𐰚𐰠𐰃",
+    "transcription": "BÖKLİ",
     "attestation": "KT-D-4",
     "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
     "frequency": 4,
@@ -1420,220 +3286,42 @@
     "source": null
   },
   {
+    "runic": "𐰋𐰏𐰠𐰚",
+    "transcription": "BeGLiK",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bey olmaya lâyık, bey olacak",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰆𐰍𐰞𐰃𐰤",
+    "transcription": "OGLIN",
+    "attestation": "KT-D-7",
+    "attestation_text": "KaGaNLaDUK : KaGaNIN : YİTüRÜ : IDMıŞ : TaBGaÇ : BODuNKA : BeGLiK : URI : OGLIN : KUL : BOLDI : iŞİLiK : KIZ : OGLıN : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "evlat, çocuk  (ogl + ın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐰾𐰇𐰠𐰘𐰇",
     "transcription": "SÜLeYÜ",
     "attestation": "KT-D-8",
     "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱃𐱁𐰺𐰀",
-    "transcription": "TaŞRA",
-    "attestation": "KT-D-11",
-    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰃𐰓𐰾𐰔",
-    "transcription": "İDSiZ",
-    "attestation": "KT-D-19",
-    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰚𐰇𐰏𐰢𐰤",
-    "transcription": "KÖGMeN",
-    "attestation": "KT-D-20",
-    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰘𐰃𐱁𐰍",
-    "transcription": "YIŞıG",
-    "attestation": "KT-D-35",
-    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐱃𐰔𐰴𐰀",
-    "transcription": "OTuZKA",
-    "attestation": "KT-KD-1",
-    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰉𐰺𐰴𐰃𐰤",
-    "transcription": "BaRKIN",
-    "attestation": "KT-KD-1",
-    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱃𐰆𐰴𐰔",
-    "transcription": "TOKuZ",
-    "attestation": "BK-D-1",
-    "attestation_text": "TeŊRİ : TeG : TeŊRİ : YaRaTMıŞ : TÜRK : BİLGE : KaGaN : SaBıM : KaŊıM : TÜRK : BİLGE : --- NDA : aL --- TI : SİR : TOKuZ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰸𐰆𐰺𐰃𐰍𐰺𐰃",
-    "transcription": "KURIGaRI",
-    "attestation": "KT-G-2",
-    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱃𐰸𐰃𐱃𐰑𐰢",
-    "transcription": "TOKITDıM",
-    "attestation": "KT-G-13",
-    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰋𐰃𐱅𐰃𐰓𐰢",
-    "transcription": "BİTİDiM",
-    "attestation": "KT-GD-1",
-    "attestation_text": "BUNÇA : BİTiG : BİTiGME : KÖLTİGiN : aTISI : YOLuGTİGiN : BİTİDiM : YİGiRMİ : KÜN : OLuRuP : BU : TaŞKA : BU : TaMKA : K",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰖𐰆𐱃𐰔𐰃𐰤",
-    "transcription": "YOTuZIN",
-    "attestation": "BK-D-24",
-    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐰺𐱃𐰆𐰾𐰃𐰭𐰺𐰆",
-    "transcription": "ORTUSIŊaRU",
-    "attestation": "KT-G-2",
-    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐰞𐰺𐰽𐰺",
-    "transcription": "OLuRSaR",
-    "attestation": "KT-G-3",
-    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱅𐰏𐰢𐰓𐰢",
-    "transcription": "TeGMeDiM",
-    "attestation": "KT-G-3",
-    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰼𐰢𐱁",
-    "transcription": "eRMiŞ",
-    "attestation": "KT-G-4",
-    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰽𐰉𐰢",
-    "transcription": "SaBıM",
-    "attestation": "KT-G-11",
-    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐰞𐰺𐰯𐰣",
-    "transcription": "OLuRıPaN",
-    "attestation": "KT-D-1",
-    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰚𐰼𐰏𐰚",
-    "transcription": "KeRGeK",
-    "attestation": "KT-D-4",
-    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐱃𐰔𐱃𐱃𐰺",
-    "transcription": "OTuZTaTaR",
-    "attestation": "KT-D-4",
-    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰴𐰃𐰞𐰣𐰢𐰑𐰸",
-    "transcription": "KILıNMaDUK",
-    "attestation": "KT-D-5",
-    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐰞𐰺𐰢𐰾",
-    "transcription": "OLuRMıŞ",
-    "attestation": "KT-D-5",
-    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1650,8 +3338,8 @@
     "source": null
   },
   {
-    "runic": "𐰴𐰢𐰍𐰃",
-    "transcription": "KaMaGI",
+    "runic": "𐰋𐰃𐰼𐱅𐰜",
+    "transcription": "BİRTÜK",
     "attestation": "KT-D-12",
     "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
     "frequency": 4,
@@ -1660,30 +3348,10 @@
     "source": null
   },
   {
-    "runic": "𐰘𐱅𐰃𐰘𐰔",
-    "transcription": "YeTİYüZ",
-    "attestation": "KT-D-13",
-    "attestation_text": "YeTİYüZ : eR : BOLMıS : YeTİYüZ : eR : BOLıP : iLSiReMiŞ : KaGaNSıRaMıŞ : BODuNıG : KÜŊeDMiŞ : KULaDMıŞ : BODuNıG : TÜRK",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰃𐰠𐰠𐰏𐰏",
-    "transcription": "İLLiGiG",
-    "attestation": "KT-D-15",
-    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰴𐰍𐰣𐰞𐰍𐰍",
-    "transcription": "KaGaNLıGıG",
-    "attestation": "KT-D-15",
-    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "runic": "𐰴𐰢𐰍𐰃",
+    "transcription": "KaMaGI",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1710,14 +3378,30 @@
     "source": null
   },
   {
-    "runic": "𐰆𐰞𐰺𐰢𐰑𐰢",
-    "transcription": "OLuRMaDıM",
-    "attestation": "KT-D-26",
-    "attestation_text": "KaGaN : OLuRTDI : eRiNÇ : NeŊ : YILSıG : BODuNKA : OLuRMaDıM : İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA ",
+    "runic": "𐰚𐰇𐰏𐰢𐰤",
+    "transcription": "KÖGMeN",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
     "frequency": 4,
     "meaning": null,
     "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰴𐰦𐰣",
+    "transcription": "KaNDıN",
+    "attestation": "KT-D-23",
+    "attestation_text": "ÖKÜN : KÜReGÜŊiN : ÜÇÜN : İGiDMiŞ : BİLGE : KaGaNıŊA : eRMiŞ : BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ : YaŊıLDıG : YaBLaK : KİGÜR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "han, hükümdar  (kan + dın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰖𐰉𐰔",
@@ -1727,17 +3411,29 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kötü, fena",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 173",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰆𐰞𐰺𐱃𐰸𐰢𐰀",
-    "transcription": "OLuRTUKuMA",
-    "attestation": "KT-D-27",
-    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "runic": "𐰉𐰆𐰑𐰦𐰀",
+    "transcription": "BODuNDA",
+    "attestation": "KT-D-26",
+    "attestation_text": "KaGaN : OLuRTDI : eRiNÇ : NeŊ : YILSıG : BODuNKA : OLuRMaDıM : İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA ",
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "ulus, halk  (bodun + da)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰖𐰑𐰍𐰣",
@@ -1747,23 +3443,49 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yaya  (yadag + ın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰴𐰍𐰣𐰞𐰍𐰑𐰀",
-    "transcription": "KaGaNLıGDA",
-    "attestation": "KT-D-29",
-    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "runic": "𐰖𐱁𐰃𐰭𐰀",
+    "transcription": "YaŞIŊA",
+    "attestation": "KT-D-31",
+    "attestation_text": "UMaY : TeG : ÖGüM : KaTUN : KUTıŊA : İNiM : KÖLTİGiN : eR : aT : BOLDI : aLTI : YiGiRMİ : YaŞIŊA : eÇİM : KaGaN : İLİN :",
     "frequency": 4,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰞𐰭𐰑𐰴𐰃",
-    "transcription": "BULuŊDaKI",
-    "attestation": "KT-D-29",
-    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "runic": "𐱅𐰔𐰯",
+    "transcription": "TeZiP",
+    "attestation": "KT-D-34",
+    "attestation_text": "TeKDÜKİN : TÜRK : BeGLeR : KOP : BİLİRSİZ : OL : SÜG : aNDA : YOK : KıŞDıMıZ : aNDA : KİSRE : YeR : BaYıRKU : ULuG : İRK",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰞𐱃𐰢𐰔",
+    "transcription": "aLTıMıZ",
+    "attestation": "KT-D-36",
+    "attestation_text": "BİNiP : OPLaYU : TeGDİ : BİR : eRiG : OKuN : URTI : iKİ : eRiG : UDaŞıRU : SaNÇDI : OL : TeGDÜKDE : BaYıRKUNuŊ : aK : aD",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰞𐰴𐰀",
+    "transcription": "YILKA",
+    "attestation": "KT-D-36",
+    "attestation_text": "BİNiP : OPLaYU : TeGDİ : BİR : eRiG : OKuN : URTI : iKİ : eRiG : UDaŞıRU : SaNÇDI : OL : TeGDÜKDE : BaYıRKUNuŊ : aK : aD",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1780,6 +3502,36 @@
     "source": null
   },
   {
+    "runic": "𐰉𐰆𐰡𐰲𐰃",
+    "transcription": "BOLDaÇI",
+    "attestation": "KT-K-9",
+    "attestation_text": "ÖGSüZ : aKIN : BİNiP : TOKUZ : eRiN : SaNÇDI : ORDUG : BİRMeDİ : ÖGüM : KATuN : ULaYU : ÖGLeRiM : eKeLeRiM : KeLiŊÜNüM :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐱃𐰔𐰴𐰀",
+    "transcription": "OTuZKA",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰺𐰴𐰃𐰤",
+    "transcription": "BaRKIN",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰉𐰞𐰶",
     "transcription": "BaLıK",
     "attestation": "BK-D-28",
@@ -1787,23 +3539,19 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "şehir",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐱃𐰉𐰍𐰲𐰴𐰀",
-    "transcription": "TaBGaÇKA",
-    "attestation": "BK-D-38",
-    "attestation_text": "--- Tİ : TÜRK : BODuN : AÇ : eRTİ : OL : YILKIG : aLıP : İGitTiM : OTuZ : aRTUKI : TÖRT : YaŞıMA : OGuZ : TeZiP : TaBGaÇ",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰇𐱅𐰤𐱅𐰢",
-    "transcription": "ÖTüNTüM",
-    "attestation": "TY1-G-5",
-    "attestation_text": "TİR : MeN : OL : SaBıG : eŞiDiP : TÜN : UDıSIKıM : KeLMeDİ : KÜNTüZ : OLuRSıKıM : KeLMeDİ : aNDA : ÖTRÜ : KaGaNıMA : ÖTü",
+    "runic": "𐰚𐰠𐰢𐰔",
+    "transcription": "KeLMeZ",
+    "attestation": "BK-D-39",
+    "attestation_text": "TaTaBI : BODuN : TaBGaÇ : KaGaNKA : KÖRTİ : YaLaBaÇI : eDGÜ : SaBI : ÖTüGİ : KeLMeZ : TİYiN : YaYıN : SÜLeDiM : BONuDuG ",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -1830,130 +3578,360 @@
     "source": null
   },
   {
-    "runic": "𐰃𐱅𐰃",
-    "transcription": "İTİ",
+    "runic": "𐰸𐰆𐰺𐰃𐰍𐰺𐰃",
+    "transcription": "KURIGaRI",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰽𐰺",
+    "transcription": "OLuRSaR",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰏𐰢𐰓𐰢",
+    "transcription": "TeGMeDiM",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ulaşmamak  (tegme + dim)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐰃𐰼𐰃𐰭𐰀",
+    "transcription": "YİRİŊE",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰺𐱃𐰆𐰺𐱃𐰢",
+    "transcription": "URTURTuM",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰸𐰃𐱃𐰑𐰢",
+    "transcription": "TOKITDıM",
+    "attestation": "KT-G-13",
+    "attestation_text": "TOKITDıM : BU --- İL : eRSeR : aNÇA : --- M : TaKI : eRİG : YiRTE : İRSeR : aNÇA : eRiG : YiRTE : BeŊGÜ : TaŞ : TOKITDıM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰯𐰣",
+    "transcription": "OLuRıPaN",
     "attestation": "KT-D-1",
     "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
-    "frequency": 3,
+    "frequency": 4,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰖𐰆𐰍𐰲𐰃",
-    "transcription": "YUGÇI",
-    "attestation": "KT-D-4",
-    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
-    "frequency": 3,
+    "runic": "𐱅𐰇𐰼𐰇𐰾𐰃𐰤",
+    "transcription": "TÖRÜSİN",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 4,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰇𐰭𐰼𐰃",
-    "transcription": "ÖŊRE",
-    "attestation": "KT-D-4",
-    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
-    "frequency": 3,
+    "runic": "𐰆𐰞𐰺𐰢𐰾",
+    "transcription": "OLuRMıŞ",
+    "attestation": "KT-D-5",
+    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "oturmak  (olur + mış)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐱅𐰃𐰘𐰔",
+    "transcription": "YeTİYüZ",
+    "attestation": "KT-D-13",
+    "attestation_text": "YeTİYüZ : eR : BOLMıS : YeTİYüZ : eR : BOLıP : iLSiReMiŞ : KaGaNSıRaMıŞ : BODuNıG : KÜŊeDMiŞ : KULaDMıŞ : BODuNıG : TÜRK",
+    "frequency": 4,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰸𐰆𐰪",
-    "transcription": "KOYN",
-    "attestation": "KT-D-12",
-    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰶𐰃𐰺𐰴",
-    "transcription": "KIRK",
+    "runic": "𐰃𐰠𐰠𐰏𐰏",
+    "transcription": "İLLiGiG",
     "attestation": "KT-D-15",
     "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ili, vatanı olan  (illig + ig)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰖𐰺𐰴𐰞𐰍",
+    "transcription": "YaRaKLıG",
+    "attestation": "KT-D-23",
+    "attestation_text": "ÖKÜN : KÜReGÜŊiN : ÜÇÜN : İGiDMiŞ : BİLGE : KaGaNıŊA : eRMiŞ : BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ : YaŊıLDıG : YaBLaK : KİGÜR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰺𐰃𐰍𐰢𐰀",
+    "transcription": "BaRIGMA",
+    "attestation": "KT-D-23",
+    "attestation_text": "ÖKÜN : KÜReGÜŊiN : ÜÇÜN : İGiDMiŞ : BİLGE : KaGaNıŊA : eRMiŞ : BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ : YaŊıLDıG : YaBLaK : KİGÜR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰃𐱅𐰃𐰓𐰢",
+    "transcription": "BİTİDiM",
+    "attestation": "KT-GD-1",
+    "attestation_text": "BUNÇA : BİTiG : BİTiGME : KÖLTİGiN : aTISI : YOLuGTİGiN : BİTİDiM : YİGiRMİ : KÜN : OLuRuP : BU : TaŞKA : BU : TaMKA : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰆𐱃𐰔𐰃𐰤",
+    "transcription": "YOTuZIN",
+    "attestation": "BK-D-24",
+    "attestation_text": "aZ : BODuNuG : ÖKüŞ : KILTıM : IGaR : iLLiGDE : IGaR : KaGaNLıGDA : YİG : KILDıM : TÖRT : BULuŊDaKI : KaGaNLıGDA : KOP :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐱅𐰤𐱅𐰢",
+    "transcription": "ÖTüNTüM",
+    "attestation": "TY1-G-5",
+    "attestation_text": "TİR : MeN : OL : SaBıG : eŞiDiP : TÜN : UDıSIKıM : KeLMeDİ : KÜNTüZ : OLuRSıKıM : KeLMeDİ : aNDA : ÖTRÜ : KaGaNıMA : ÖTü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "arz etmek  (ötün + tüm)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 188",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰆𐰺𐱃𐰆𐰾𐰃𐰭𐰺𐰆",
+    "transcription": "ORTUSIŊaRU",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐱁𐰍𐰆𐰺𐰆𐰺",
+    "transcription": "BOŞGURUR",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐰇𐰼𐱅𐰢",
+    "transcription": "KeLÜRTüM",
+    "attestation": "KT-G-11",
+    "attestation_text": "BUNDA : URTuM : NeŊ : NeŊ : SaBıM : eRSeR : BeŊGÜ : TaŞKA : URTuM : aŊaR : KÖRÜ : BİLiŊ : TÜRK : aMTI : BODuN : BeGLeR :",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰋𐰓𐰔𐰲𐰃𐰏",
+    "transcription": "BeDiZÇİG",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐱃𐰔𐱃𐱃𐰺",
+    "transcription": "OTuZTaTaR",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰃𐰞𐰣𐰢𐰑𐰸",
+    "transcription": "KILıNMaDUK",
+    "attestation": "KT-D-5",
+    "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰞𐰍𐰍",
+    "transcription": "KaGaNLıGıG",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐰢𐰑𐰢",
+    "transcription": "OLuRMaDıM",
+    "attestation": "KT-D-26",
+    "attestation_text": "KaGaN : OLuRTDI : eRiNÇ : NeŊ : YILSıG : BODuNKA : OLuRMaDıM : İÇRE : aŞSıZ : TaŞRA : TONSuZ : YaBıZ : YaBLaK : BODuNDA ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐱃𐰸𐰢𐰀",
+    "transcription": "OLuRTUKuMA",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰞𐰍𐰑𐰀",
+    "transcription": "KaGaNLıGDA",
+    "attestation": "KT-D-29",
+    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰭𐰑𐰴𐰃",
+    "transcription": "BULuŊDaKI",
+    "attestation": "KT-D-29",
+    "attestation_text": "KİSRE : TeŊRİ : YaRLıKaZU : KUTuM : BaR : ÜÇüN : ÜLÜGüM : BaR : ÜÇÜN : ÖLTeÇİ : BODuNuG : TİRGüRÜ : İGiTiM : YaLıŊ : BOD",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐰼𐱅𐰢𐰔",
+    "transcription": "ÖLüRTüMüZ",
+    "attestation": "KT-D-36",
+    "attestation_text": "BİNiP : OPLaYU : TeGDİ : BİR : eRiG : OKuN : URTI : iKİ : eRiG : UDaŞıRU : SaNÇDI : OL : TeGDÜKDE : BaYıRKUNuŊ : aK : aD",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱃𐰉𐰍𐰲𐰴𐰀",
+    "transcription": "TaBGaÇKA",
+    "attestation": "BK-D-38",
+    "attestation_text": "--- Tİ : TÜRK : BODuN : AÇ : eRTİ : OL : YILKIG : aLıP : İGitTiM : OTuZ : aRTUKI : TÖRT : YaŞıMA : OGuZ : TeZiP : TaBGaÇ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "Çin  (tabgaç + ka)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐰨𐰇",
+    "transcription": "YiNÇÜ",
+    "attestation": "KT-G-3",
+    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐱃𐰆𐱃𐰑𐰃",
-    "transcription": "TUTDI",
-    "attestation": "KT-D-32",
-    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "runic": "𐰚𐰇𐰢𐱁",
+    "transcription": "KÜMüŞ",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰆𐰺𐱃𐰃",
-    "transcription": "URTI",
-    "attestation": "KT-D-33",
-    "attestation_text": "ÖLTİ : iKİNTİ : IŞBaRA : YaMTaR : BOZ : aTıG : BİNiP : TeGDİ : OL : aT : aNDA : ÖLTİ : ÜÇünÇ : YeGeN : SİLiG : BeGiŊ : K",
+    "runic": "𐰲𐰆𐰍𐰖",
+    "transcription": "ÇOGaY",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐱃𐰆𐰍𐰀",
-    "transcription": "TOGA",
-    "attestation": "KT-D-35",
-    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱃𐰆𐰭𐰺𐰀",
-    "transcription": "TOŊRA",
-    "attestation": "KT-K-7",
-    "attestation_text": "BODuN : aDaK : KaMŞaTDI : YaBLaK : BOLDAÇI : ERTİ : OZA : KeLMiŞ : SÜSİN : KÖLTİGiN : aGTıP : TOŊRA : BİR : OGuŞ : aLPag",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰖𐰆𐰍",
-    "transcription": "YUG",
-    "attestation": "KT-KD-1",
-    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰃𐰠𐰚𐰃",
-    "transcription": "İLKİ",
-    "attestation": "BK-D-30",
-    "attestation_text": "KÜNİ : TeGDÜK : ÜÇüN : YaGI : BOLDI : BİR : YILKA : TÖRT : YOLI : SÜŊüŞDüM : eŊ : İLKİ : TOGU : BaLIKDA : SÜŊüŞDüM : TOG",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱅𐰇𐰼𐰇𐰤",
-    "transcription": "TÖRÜN",
-    "attestation": "BK-K-9",
-    "attestation_text": "KaGaN : eÇiM : KaGaN : OLuRTUKINDA : TÖRT : BULuŊDaKI : BODuNıG : BUNÇA : İTMiŞ --- : TeŊRİ : YaRLıKaDUK : ÜÇüN : ÖZüM :",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐱅𐰃𐰤𐰾𐰃",
-    "transcription": "TİNSİ",
-    "attestation": "TY2-B-9",
-    "attestation_text": "BİZ : YiME : SÜLeDiMiZ : aNI : eRTiMiZ : YiNÇÜ : öGüZüG : KeÇE : TİNSİ : OGLI : YaTıGMA : BeŊiLiG : eK : TaGaG : eRTÜRTü",
+    "runic": "𐰞𐰯",
+    "transcription": "aLıP",
+    "attestation": "KT-G-7",
+    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
     "frequency": 3,
     "meaning": null,
     "category": null,
@@ -1967,57 +3945,13 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰺𐰀",
-    "transcription": "aRA",
-    "attestation": "KT-D-1",
-    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰋𐰏",
-    "transcription": "BeG",
-    "attestation": "KT-D-20",
-    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰴",
-    "transcription": "aK",
-    "attestation": "KT-D-35",
-    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰉𐰆𐰞𐰲𐰆𐰑𐰀",
-    "transcription": "BOLÇUDA",
-    "attestation": "KT-D-37",
-    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰘𐰨𐰇",
-    "transcription": "YiNÇÜ",
-    "attestation": "KT-G-3",
-    "attestation_text": "KOP : İTDiM : OL : aMTI : aNYıG : YOK : TÜRK : KaGaN : ÖTÜKeN : YIŞ : OLuRSaR : İLTE : BUŊ : YOK : İLGeRÜ : ŞaNTUŊ : YaZ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yok",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰀𐰲𐰾𐰴",
@@ -2037,6 +3971,22 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "dış, dışarı  (taş + ka)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐰺𐰴",
+    "transcription": "BaRK",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
     "source": null
   },
   {
@@ -2047,7 +3997,13 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yer, memleket  (yir + te)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰃𐱅𐰏",
@@ -2070,10 +4026,66 @@
     "source": null
   },
   {
+    "runic": "𐰺𐰀",
+    "transcription": "aRA",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱅𐰃",
+    "transcription": "İTİ",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰭𐰼𐰃",
+    "transcription": "ÖŊRE",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰴𐰭𐰃𐰤",
     "transcription": "KaŊIN",
     "attestation": "KT-D-5",
     "attestation_text": "BOLMıS : eRiNÇ : OGLITI : KaGaN : BOLMıS : eRiNÇ : aNDA : KİSRE : İNİSİ : eÇİSİN : TeG : KILıNMaDUK : eRiNÇ : OGLI : KaŊ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "baba  (kaŋ + ın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰠𐰏",
+    "transcription": "eLiG",
+    "attestation": "KT-D-8",
+    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰸𐰆𐰪",
+    "transcription": "KOYN",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
     "frequency": 3,
     "meaning": null,
     "category": null,
@@ -2087,6 +4099,22 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ata dede, ced  (eçü + m)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰶𐰃𐰺𐰴",
+    "transcription": "KIRK",
+    "attestation": "KT-D-15",
+    "attestation_text": "KIRK : aRTUKI : YeTİ : YOLI : SÜLeMiŞ : YiGiRMİ : SÜŊüŞ : SÜŊüŞMiŞ : TeŊRİ : YaRLıKaDUK : ÜÇÜN : İLLiGiG : iLSiReTMiŞ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
     "source": null
   },
   {
@@ -2097,33 +4125,45 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "düşman  (yagı + g)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 161",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰆𐰞𐰺𐱃𐰃",
-    "transcription": "OLuRTI",
-    "attestation": "KT-D-16",
-    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "runic": "𐰋𐰏",
+    "transcription": "BeG",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "bey",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐰆𐱃𐰸",
+    "transcription": "TUTUK",
+    "attestation": "KT-D-31",
+    "attestation_text": "UMaY : TeG : ÖGüM : KaTUN : KUTıŊA : İNiM : KÖLTİGiN : eR : aT : BOLDI : aLTI : YiGiRMİ : YaŞIŊA : eÇİM : KaGaN : İLİN :",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰋𐰃𐰔𐰭𐰀",
-    "transcription": "BİZiŊE",
-    "attestation": "KT-D-19",
-    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰚𐰇𐰤𐱅𐰔",
-    "transcription": "KÜNTüZ",
-    "attestation": "KT-D-27",
-    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "runic": "𐰭",
+    "transcription": "eŊ",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
     "frequency": 3,
     "meaning": null,
     "category": null,
@@ -2140,110 +4180,70 @@
     "source": null
   },
   {
-    "runic": "𐰃𐰠𐰤",
-    "transcription": "İLiN",
-    "attestation": "BK-D-27",
-    "attestation_text": "KaRıG : SÖKüPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG : UDA : BaSDıM : KaGaNIN : BİRLE : SOŊA : YIŞDA : SÜŊ",
+    "runic": "𐰆𐰺𐱃𐰃",
+    "transcription": "URTI",
+    "attestation": "KT-D-33",
+    "attestation_text": "ÖLTİ : iKİNTİ : IŞBaRA : YaMTaR : BOZ : aTıG : BİNiP : TeGDİ : OL : aT : aNDA : ÖLTİ : ÜÇünÇ : YeGeN : SİLiG : BeGiŊ : K",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰃𐱃𐰢",
-    "transcription": "ITıM",
-    "attestation": "BK-D-40",
-    "attestation_text": "--- GaKıŊA : YiRiŊeRÜ : SUBIŊaRU : KONTI : BİRiYE : KaRLuK : BODuN : TaPA : SÜLE : TİP : TUDuN : YaMTaRıG : ITıM : BaRDI",
+    "runic": "𐰃𐰼𐰚𐰤",
+    "transcription": "İRKiN",
+    "attestation": "KT-D-34",
+    "attestation_text": "TeKDÜKİN : TÜRK : BeGLeR : KOP : BİLİRSİZ : OL : SÜG : aNDA : YOK : KıŞDıMıZ : aNDA : KİSRE : YeR : BaYıRKU : ULuG : İRK",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰇𐰠𐰼𐱅𐰃",
-    "transcription": "ÖLüRTİ",
-    "attestation": "BK-G-9",
-    "attestation_text": "ÖLüRTİ : ULuG : OGLuM : aGRıP : YOK : BOLÇA : KUG : SeŊÜNüG : BaLBaL : TİKE : BİRTiM : MeN : TOKuZ : YiGiRMİ : YIL : ŞaD",
+    "runic": "𐱃𐰆𐰍𐰀",
+    "transcription": "TOGA",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰼𐱅𐰃𐰭𐰇",
-    "transcription": "eRTİŊÜ",
-    "attestation": "BK-K-9",
-    "attestation_text": "KaGaN : eÇiM : KaGaN : OLuRTUKINDA : TÖRT : BULuŊDaKI : BODuNıG : BUNÇA : İTMiŞ --- : TeŊRİ : YaRLıKaDUK : ÜÇüN : ÖZüM :",
+    "runic": "𐰴",
+    "transcription": "aK",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰇𐰏𐰔𐰚𐰀",
-    "transcription": "ÖGüZKE",
-    "attestation": "TY1-G-9",
-    "attestation_text": "SÜSİ : ÜÇ : BİŊ : eRMiŞ : BİZ : iKİ : BİŊ : eRTiMiZ : SÜŊüŞDüMüZ : TeŊRİ : YaRLıKaDI : YaYıNDıMıZ : ÖGüZKE : TÜŞDİ : YaY",
+    "runic": "𐱃𐰃𐰤",
+    "transcription": "aTIN",
+    "attestation": "KT-D-40",
+    "attestation_text": "aLP : eR : BİZiŊE : TeGMiŞ : eRTİ : aNTaG : ÖDKE : ÖKüNüP : KÖLTİGiNiG : aZ : eRiN : İRTÜRÜ : ITıMıZ : ULuG : SÜŊüŞ : SÜ",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰶𐰃𐰔𐰞",
-    "transcription": "KIZıL",
-    "attestation": "TY2-G-4",
-    "attestation_text": "KIZıL : aLTUN : ÜRüŊ : KÜMüŞ : KIZıL : UDuZ : GeRİT : aSIGI : BUŊSuZ : KeLÜRTİ : İLTeRiŞ : KaGaN : BİLGESİ :",
+    "runic": "𐰋𐰃𐰤",
+    "transcription": "eBİN",
+    "attestation": "KT-K-1",
+    "attestation_text": "--- : BİRLE : KOŞU : TUTuK : BİRLE : SÜŊüŞMüŞ : eRİN : KOP : ÖLÜRMüŞ : eBİN : BaRıMıN : KaLISıZ : KOP : KeLÜRTİ : KÖLTİG",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰞𐰯",
-    "transcription": "aLıP",
-    "attestation": "KT-G-7",
-    "attestation_text": "YaZI : KONaYIN : TİSeR : TÜRK : BODuN : ÖLSiKiG : aNDA : aNYıG : KİŞİ : aNÇA : BOŞGURUR : eRMiŞ : IRaK : eRSeR : YaBLaK ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰾𐰇𐰚𐰇𐰼𐰢𐰾",
-    "transcription": "SÖKÜRMiŞ",
-    "attestation": "KT-D-2",
-    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰾𐰃𐰍𐱃𐰲𐰃",
-    "transcription": "SIGıTÇI",
-    "attestation": "KT-D-4",
-    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰠𐰏",
-    "transcription": "eLiG",
-    "attestation": "KT-D-8",
-    "attestation_text": "KÖRMiŞ : eLiG : YIL : İŞiG : KÜÇiG : BİRMiŞ : İLGeRÜ : KÜN : TOGSuKDA : BÖKLİ : KaGaNKA : TeGİ : SÜLeYÜ : BİRMiŞ : KURıG",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰉𐰆𐰞𐰢𐰔𐰆𐰣",
-    "transcription": "BOLMaZUN",
-    "attestation": "KT-D-11",
-    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "runic": "𐰴𐰃𐰤",
+    "transcription": "aKIN",
+    "attestation": "KT-K-2",
+    "attestation_text": "KÖLTİGiN : OL : SÜŊÜŞDE : OTuZ : YAŞaYUR : eRTİ : aLP : ŞaLÇI : aTIN : BİNiP : OPLaYU : TeGDİ : iKİ : eRiG : UDaŞuRU : S",
     "frequency": 3,
     "meaning": null,
     "category": null,
@@ -2260,38 +4260,120 @@
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰑𐰣𐰃𐰤",
-    "transcription": "BODuNIN",
-    "attestation": "BK-G-15",
-    "attestation_text": "eRTiŊÜ : Tİ : eMiG : İTDİ : TÜRK : BeGLeRİN : BODuNIN : eRTiŊÜ : Tİ : eMiG : İTDİ : ÖGDİ : --- : KaŊıM : KaGaN : --- ÇA ",
+    "runic": "𐰖𐰆𐰍",
+    "transcription": "YUG",
+    "attestation": "KT-KD-1",
+    "attestation_text": "KÖLTİGiN : KOYN : YILKA : YİTİ : YiGiRMiKE : UÇDI : TOKuZuNÇ : aY : YiTİ : OTuZKA : YUG : eRTÜRTüMüZ : BaRKIN : BeDiZİN ",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰖𐰍𐰆𐰲𐰃𐰾𐰃",
-    "transcription": "aYGUÇISI",
-    "attestation": "TY1-G-3",
-    "attestation_text": "YORIYoR : eRMiŞ : KaGaNI : aLP : eRMiŞ : aYGUÇISI : BİLGE : eRMiŞ : OL : iKİ : KİŞİ : BaR : eRSeR : SİNİ : TaBGaÇıG : ÖL",
+    "runic": "𐰯𐰀",
+    "transcription": "aPA",
+    "attestation": "KT-B-1",
+    "attestation_text": "KORuDuNuG --- İNiM : KÖLTİGiN : ÖLTİ --- : İŞiG : KÜÇüG : BİRTÜK : ÜÇüN : TÜRK : BİLGE : KaGaN : aYUKIKA : İNiM : KÖLTİG",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰾𐰇𐰭𐰾𐰓𐰃",
-    "transcription": "SÜŊüŞDİ",
-    "attestation": "TY2-G-5",
-    "attestation_text": "İLİN : ÜÇüN : TaBGaÇKA : YiTİ : YiGİRMİ : SÜŊüŞDİ : KITaYNKA : YiTİ : SÜŊüŞDİ : OGuZKA : BeŞ : SÜŊüŞDİ : aNDA : aYGUÇI :",
+    "runic": "𐰃𐰠𐰤",
+    "transcription": "İLiN",
+    "attestation": "BK-D-27",
+    "attestation_text": "KaRıG : SÖKüPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG : UDA : BaSDıM : KaGaNIN : BİRLE : SOŊA : YIŞDA : SÜŊ",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰆𐰞𐰺𐱃𐰢",
-    "transcription": "OLuRTıM",
+    "runic": "𐰴𐰺𐰞𐰸",
+    "transcription": "KARLUK",
+    "attestation": "BK-D-29",
+    "attestation_text": "BİR : YAŞIMA : KARLUK : BODuN : BUŊSUZ : ERÜR : BARUR : ERKLİ : YAGI : BOLDI : TAMAG : IDUK : BAŞDA : SÜŊÜŞDÜM : KARLUK ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰠𐰚𐰃",
+    "transcription": "İLKİ",
+    "attestation": "BK-D-30",
+    "attestation_text": "KÜNİ : TeGDÜK : ÜÇüN : YaGI : BOLDI : BİR : YILKA : TÖRT : YOLI : SÜŊüŞDüM : eŊ : İLKİ : TOGU : BaLIKDA : SÜŊüŞDüM : TOG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐱃𐰢",
+    "transcription": "ITıM",
+    "attestation": "BK-D-40",
+    "attestation_text": "--- GaKıŊA : YiRiŊeRÜ : SUBIŊaRU : KONTI : BİRiYE : KaRLuK : BODuN : TaPA : SÜLE : TİP : TUDuN : YaMTaRıG : ITıM : BaRDI",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰔",
+    "transcription": "ÖZ",
+    "attestation": "BK-G-11",
+    "attestation_text": "KaŊI : LİSÜN : TaY : SeŊÜN : BaŞaDU : BİŞ : YÜZ : eReN : KeLTİ : KOKuLuK : Ö --- : aLTUN : KÜMüŞ : KeRGeKSiZ : KeLÜRTİ :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kendi",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰴𐰣𐰃𐰤",
+    "transcription": "KaNIN",
+    "attestation": "TY1-B-2",
+    "attestation_text": "TÜRK : BODuN : KaNIN : BULMaYıN : TaBGaÇDA : aDRıLDI : KaNLaNDI : KaNIN : KODuP : TaBGaÇKA : YaNA : İÇiKDİ : TeŊRİ : aNÇ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "han, hükümdar  (kan + ın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 176",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰖𐰃𐰽𐰍",
+    "transcription": "YIŞıG",
+    "attestation": "TY1-K-4",
+    "attestation_text": "SÜŊüGüN : aÇDıMıZ : KaNI : SÜSİ : TeRiLMiŞ : SÜŊüŞDüMüZ : SaNÇDıMıZ : KaNIN : ÖLüRTüMüZ : KaGaNKA : KIRKıZ : BODuNI : iÇ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰶𐰃𐰔𐰞",
+    "transcription": "KIZıL",
+    "attestation": "TY2-G-4",
+    "attestation_text": "KIZıL : aLTUN : ÜRüŊ : KÜMüŞ : KIZıL : UDuZ : GeRİT : aSIGI : BUŊSuZ : KeLÜRTİ : İLTeRiŞ : KaGaN : BİLGESİ :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰢𐱁",
+    "transcription": "BOLMuŞ",
     "attestation": "KT-G-1",
     "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
     "frequency": 3,
@@ -2300,18 +4382,8 @@
     "source": null
   },
   {
-    "runic": "𐰘𐰏𐰇𐰤𐰢",
-    "transcription": "YeGÜNüM",
-    "attestation": "KT-G-1",
-    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐰍𐰞𐰣𐰢",
-    "transcription": "OGLaNıM",
+    "runic": "𐰆𐰍𐱁𐰢",
+    "transcription": "OGuŞuM",
     "attestation": "KT-G-1",
     "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
     "frequency": 3,
@@ -2330,48 +4402,110 @@
     "source": null
   },
   {
-    "runic": "𐰃𐰏𐰓𐰢𐱁",
-    "transcription": "İGiDMiŞ",
-    "attestation": "KT-G-9",
-    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "runic": "𐰓𐰏𐰇𐱅𐰃",
+    "transcription": "eDGÜTİ",
+    "attestation": "KT-G-2",
+    "attestation_text": "TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN : TOGSıKA : BİRiGeRÜ : K",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "iyice",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰺𐰴𐱁",
+    "transcription": "aRKıŞ",
+    "attestation": "KT-G-8",
+    "attestation_text": "OL : YiRGeRÜ : BaRSaR : TÜRK : BODuN : ÖLTeÇİ : SeN : ÖTÜKeN : YİR : OLuRuP : aRKıŞ : TİRKiŞ : ISaR : NeŊ : BUŊuG : YoK ",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰉𐰆𐰞𐰭𐰑𐰴𐰃",
-    "transcription": "BOLuŊDaKI",
-    "attestation": "KT-D-2",
-    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "runic": "𐰖𐰭𐰞𐰯",
+    "transcription": "YaŊıLıP",
+    "attestation": "KT-G-10",
+    "attestation_text": "YOK : ÇIGaYN : BODuNuG : KOP : KUBRaTDıM : ÇIGaYN : BODuNuG : BaY : KILDıM : aZ : BODuNuG : ÖKÜŞ : KILDıM : aZU : BU : S",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰴𐰍𐰣𐰞𐰍",
-    "transcription": "KaGaNLıG",
-    "attestation": "KT-D-9",
-    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "runic": "𐰋𐰓𐰔",
+    "transcription": "BeDiZ",
+    "attestation": "KT-G-12",
+    "attestation_text": "TaBGaÇ : KaGaNıŊ : İÇReKİ : BeDiZÇİG : ITI : aŊaR : aDıNÇIG : BaRK : YaRaTURTuM : İÇİN : TaŞIN : aDıNÇIG : BeDiZ : URTUR",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰴𐰞𐰢𐰔𐰆𐰣",
-    "transcription": "KaLMaZUN",
-    "attestation": "KT-D-20",
-    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "runic": "𐰖𐰆𐰍𐰲𐰃",
+    "transcription": "YUGÇI",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐰴𐰔𐰍𐰦𐰢",
-    "transcription": "KaZGaNDıM",
+    "runic": "𐱅𐰇𐰯𐰇𐱅",
+    "transcription": "TÜPÜT",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐱃𐰃",
+    "transcription": "OLuRTI",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "oturmak  (olur + tı)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰋𐰃𐰔𐰭𐰀",
+    "transcription": "BİZiŊE",
+    "attestation": "KT-D-19",
+    "attestation_text": "ÜÇÜN : BİZiŊE : YaŊıLDUKIN : ÜÇÜN : KaGaNI : ÖLTİ : BUYRUKI : BeGLeRİ : YiME : ÖLTİ : ON : OK : BODuN : eMGeK : KÖRTİ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐰯",
+    "transcription": "KeLiP",
+    "attestation": "KT-D-23",
+    "attestation_text": "ÖKÜN : KÜReGÜŊiN : ÜÇÜN : İGiDMiŞ : BİLGE : KaGaNıŊA : eRMiŞ : BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ : YaŊıLDıG : YaBLaK : KİGÜR",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰇𐰤𐱅𐰔",
+    "transcription": "KÜNTüZ",
     "attestation": "KT-D-27",
     "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
     "frequency": 3,
@@ -2380,10 +4514,10 @@
     "source": null
   },
   {
-    "runic": "𐰘𐰃𐰺𐰍𐰺𐰆",
-    "transcription": "YIRıGaRU",
-    "attestation": "KT-D-28",
-    "attestation_text": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ : YaDaGıN : YaLıŊıN : YaNA : KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : ",
+    "runic": "𐱃𐰆𐱃𐰑𐰃",
+    "transcription": "TUTDI",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
     "frequency": 3,
     "meaning": null,
     "category": null,
@@ -2400,20 +4534,20 @@
     "source": null
   },
   {
-    "runic": "𐰉𐰽𐰑𐰢𐰔",
-    "transcription": "BaSDıMıZ",
-    "attestation": "KT-D-35",
-    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "runic": "𐱅𐰏𐰯",
+    "transcription": "TeGiP",
+    "attestation": "KT-K-5",
+    "attestation_text": "KÖLTİGiN : aZMaNKaG : BİNiP : OPLaYU : TeGDİ : aLTI : eRiG : SaNÇDI : SÜ : TeGİŞİNDE : YİTiNÇ : eRiG : KILıÇLaDI : iKiNT",
     "frequency": 3,
     "meaning": null,
     "category": null,
     "source": null
   },
   {
-    "runic": "𐱅𐰏𐰯",
-    "transcription": "TeGiP",
-    "attestation": "KT-K-5",
-    "attestation_text": "KÖLTİGiN : aZMaNKaG : BİNiP : OPLaYU : TeGDİ : aLTI : eRiG : SaNÇDI : SÜ : TeGİŞİNDE : YİTiNÇ : eRiG : KILıÇLaDI : iKiNT",
+    "runic": "𐱃𐰆𐰭𐰺𐰀",
+    "transcription": "TOŊRA",
+    "attestation": "KT-K-7",
+    "attestation_text": "BODuN : aDaK : KaMŞaTDI : YaBLaK : BOLDAÇI : ERTİ : OZA : KeLMiŞ : SÜSİN : KÖLTİGiN : aGTıP : TOŊRA : BİR : OGuŞ : aLPag",
     "frequency": 3,
     "meaning": null,
     "category": null,
@@ -2457,17 +4591,13 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰚𐰠𐰢𐰓𐰃",
-    "transcription": "KeLMeDİ",
-    "attestation": "BK-D-41",
-    "attestation_text": "--- : aRKıŞI : KeLMeDİ : aNI : aYNıTaYıN : TİP : SÜLeDiM : KORıGU : iKİ : ÜÇ : KİŞiLGeN : TeZiP : BaRDI : KaRA : BODuN :",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yaya",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 174",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱃𐰞𐰍",
@@ -2487,27 +4617,29 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "vermek  (bir + tim)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 156",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
-    "runic": "𐰼𐱅𐰇𐰼𐱅𐰢",
-    "transcription": "eRTÜRTüM",
-    "attestation": "BK-G-10",
-    "attestation_text": "TÜRÜKüME : BODuNuMA : YiGiN : aNÇA : KaZGaNU : BİRTiM : BUNÇA : KaZGaNıP : KaNGıM : KaGaN : IT : YIL : ONuNÇ : aY : aLTI",
+    "runic": "𐰇𐰠𐰼𐱅𐰃",
+    "transcription": "ÖLüRTİ",
+    "attestation": "BK-G-9",
+    "attestation_text": "ÖLüRTİ : ULuG : OGLuM : aGRıP : YOK : BOLÇA : KUG : SeŊÜNüG : BaLBaL : TİKE : BİRTiM : MeN : TOKuZ : YiGiRMİ : YIL : ŞaD",
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰚𐰠𐰇𐰼𐰯",
-    "transcription": "KeLÜRüP",
-    "attestation": "BK-G-11",
-    "attestation_text": "KaŊI : LİSÜN : TaY : SeŊÜN : BaŞaDU : BİŞ : YÜZ : eReN : KeLTİ : KOKuLuK : Ö --- : aLTUN : KÜMüŞ : KeRGeKSiZ : KeLÜRTİ :",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "öldürmek  (ölür + ti)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 160",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰼𐱅𐰭𐰇",
@@ -2518,6 +4650,32 @@
     "meaning": null,
     "category": null,
     "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰃𐰭𐰇",
+    "transcription": "eRTİŊÜ",
+    "attestation": "BK-K-9",
+    "attestation_text": "KaGaN : eÇiM : KaGaN : OLuRTUKINDA : TÖRT : BULuŊDaKI : BODuNıG : BUNÇA : İTMiŞ --- : TeŊRİ : YaRLıKaDUK : ÜÇüN : ÖZüM :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰇𐰼𐰇𐰤",
+    "transcription": "TÖRÜN",
+    "attestation": "BK-K-9",
+    "attestation_text": "KaGaN : eÇiM : KaGaN : OLuRTUKINDA : TÖRT : BULuŊDaKI : BODuNıG : BUNÇA : İTMiŞ --- : TeŊRİ : YaRLıKaDUK : ÜÇüN : ÖZüM :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "töre, yasa  (törü + n)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰼𐰚𐰠𐰏",
@@ -2540,8 +4698,274 @@
     "source": null
   },
   {
-    "runic": "𐰇𐰠𐰼𐱅𐰲𐰃",
-    "transcription": "ÖLüRTeÇİ",
+    "runic": "𐰇𐱅𐰚𐰤",
+    "transcription": "ÖTüKeN",
+    "attestation": "TY1-G-8",
+    "attestation_text": "KaGaNıM : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüNTÜK : ÖTüNÇüMüN : iŞiDÜ : BiRTİ : KÖŊLüŊÇE : UDuZ : TiDİ : KÖK : ÖŊüG : YO",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰏𐰔𐰚𐰀",
+    "transcription": "ÖGüZKE",
+    "attestation": "TY1-G-9",
+    "attestation_text": "SÜSİ : ÜÇ : BİŊ : eRMiŞ : BİZ : iKİ : BİŊ : eRTiMiZ : SÜŊüŞDüMüZ : TeŊRİ : YaRLıKaDI : YaYıNDıMıZ : ÖGüZKE : TÜŞDİ : YaY",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰃𐰤𐰾𐰃",
+    "transcription": "TİNSİ",
+    "attestation": "TY2-B-9",
+    "attestation_text": "BİZ : YiME : SÜLeDiMiZ : aNI : eRTiMiZ : YiNÇÜ : öGüZüG : KeÇE : TİNSİ : OGLI : YaTıGMA : BeŊiLiG : eK : TaGaG : eRTÜRTü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰼𐱅𐰲𐰃",
+    "transcription": "eRTeÇİ",
+    "attestation": "TY2-D-5",
+    "attestation_text": "UDU : BeN : ÖZüM : KaZGaNMaSaR : İL : YiME : BODuN : YiME : YOK : eRTeÇİ : eRTİ : KaZGaNTUKIN : UDU : ÖZüM : KaZGaNTUKıM",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰞𐰺𐱃𐰢",
+    "transcription": "OLuRTıM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "oturmak  (olur + tım)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐰏𐰇𐰤𐰢",
+    "transcription": "YeGÜNüM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰆𐰍𐰞𐰣𐰢",
+    "transcription": "OGLaNıM",
+    "attestation": "KT-G-1",
+    "attestation_text": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰖𐰺𐰸𐰆",
+    "transcription": "BaYıRKU",
+    "attestation": "KT-G-4",
+    "attestation_text": "KeÇE : TeMiRKaPıGKA : TeGİ : SÜLeDiM : YIRıGaRI : YiR : BaYıRKU : YİRİŊE : TeGİ : SÜLeDiM : BUNÇA : YİRKE : TeGİ : YORuT",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰃𐰏𐰓𐰢𐱁",
+    "transcription": "İGiDMiŞ",
+    "attestation": "KT-G-9",
+    "attestation_text": "ÜÇÜN : İGiDMiŞ : KaGaNıŊıN : SaBIN : aLMaTIN : YİR : SaYU : BaRDıG : KOP : aNDA : aLKıNTıG : aRıLTıG : aNDA : KaLMıŞI : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "beslemek, doyurmak  (igid + miş)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰾𐰇𐰚𐰇𐰼𐰢𐰾",
+    "transcription": "SÖKÜRMiŞ",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "diz çöktürmek  (sökür + miş)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰾𐰃𐰍𐱃𐰲𐰃",
+    "transcription": "SIGıTÇI",
+    "attestation": "KT-D-4",
+    "attestation_text": "KeRGeK : BOLMıS : YUGÇI : SIGıTÇI : ÖŊRE : KÜN : TOGSıKDA : BÖKLİ : ÇÖLüGiL : TaBGaÇ : TÜPÜT : aPaR : PURuM : KIRKıZ : Ü",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ağlayıcı",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 170",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰞𐰍",
+    "transcription": "KaGaNLıG",
+    "attestation": "KT-D-9",
+    "attestation_text": "BODuN : aNÇA : TİMiŞ : İLLiG : BODuN : eRTiM : İLiM : ıMTI : KaNI : KiMKE : İLiG : KaZGaNURMeN : TİR : eRMiŞ : KaGaNLıG ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰢𐰔𐰆𐰣",
+    "transcription": "BOLMaZUN",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐱅𐰃𐰼𐰠𐰯",
+    "transcription": "TİRiLiP",
+    "attestation": "KT-D-12",
+    "attestation_text": "YORuYOR : TİYiN : KÜ : eŞiDiP : BaLIKDaKI : TaGIKMıŞ : TaGDakI : İNMiS : TİRiLiP : YeTMiŞ : eR : BOLMıS : TeŊRİ : KÜÇ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰍𐰣𐰭𐰀",
+    "transcription": "KaGaNıŊA",
+    "attestation": "KT-D-23",
+    "attestation_text": "ÖKÜN : KÜReGÜŊiN : ÜÇÜN : İGiDMiŞ : BİLGE : KaGaNıŊA : eRMiŞ : BaRMıŞ : eDGÜ : iLiŊE : KeNTÜ : YaŊıLDıG : YaBLaK : KİGÜR",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰔𐰍𐰦𐰢",
+    "transcription": "KaZGaNDıM",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kazanmak  (kazgan + dım)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 171",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰉𐰽𐰑𐰢𐰔",
+    "transcription": "BaSDıMıZ",
+    "attestation": "KT-D-35",
+    "attestation_text": "YaŞIŊA : KIRKıZ : TaPA : SÜLeDiMiZ : SÜŊÜG : BaTıMI : KaRıG : SÖKiPeN : KÖGMeN : YIŞıG : TOGA : YORIP : KIRKıZ : BODuNuG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰲𐰆𐰑𐰀",
+    "transcription": "BOLÇUDA",
+    "attestation": "KT-D-37",
+    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰞𐰃𐰾𐰔",
+    "transcription": "KaLISıZ",
+    "attestation": "KT-K-1",
+    "attestation_text": "--- : BİRLE : KOŞU : TUTuK : BİRLE : SÜŊüŞMüŞ : eRİN : KOP : ÖLÜRMüŞ : eBİN : BaRıMıN : KaLISıZ : KOP : KeLÜRTİ : KÖLTİG",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐰢𐰓𐰃",
+    "transcription": "KeLMeDİ",
+    "attestation": "BK-D-41",
+    "attestation_text": "--- : aRKıŞI : KeLMeDİ : aNI : aYNıTaYıN : TİP : SÜLeDiM : KORıGU : iKİ : ÜÇ : KİŞiLGeN : TeZiP : BaRDI : KaRA : BODuN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰚𐰠𐰇𐰼𐰯",
+    "transcription": "KeLÜRüP",
+    "attestation": "BK-G-11",
+    "attestation_text": "KaŊI : LİSÜN : TaY : SeŊÜN : BaŞaDU : BİŞ : YÜZ : eReN : KeLTİ : KOKuLuK : Ö --- : aLTUN : KÜMüŞ : KeRGeKSiZ : KeLÜRTİ :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰑𐰣𐰃𐰤",
+    "transcription": "BODuNIN",
+    "attestation": "BK-G-15",
+    "attestation_text": "eRTiŊÜ : Tİ : eMiG : İTDİ : TÜRK : BeGLeRİN : BODuNIN : eRTiŊÜ : Tİ : eMiG : İTDİ : ÖGDİ : --- : KaŊıM : KaGaN : --- ÇA ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ulus, halk  (bodun + ın)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰘𐰼𐰃𐰤𐱅𐰀",
+    "transcription": "YiRİNTE",
+    "attestation": "TY1-B-3",
+    "attestation_text": "KaNıŊıN : KODuP : İÇiKDiŊ : İÇiKDÜK : ÜÇüN : TeŊRİ : ÖLüTMüŞ : eRiNÇ : TÜRK : BODuN : ÖLTİ : aLKıNDI : YOK : BOLDI : TÜR",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰖𐰍𐰆𐰲𐰃𐰾𐰃",
+    "transcription": "aYGUÇISI",
     "attestation": "TY1-G-3",
     "attestation_text": "YORIYoR : eRMiŞ : KaGaNI : aLP : eRMiŞ : aYGUÇISI : BİLGE : eRMiŞ : OL : iKİ : KİŞİ : BaR : eRSeR : SİNİ : TaBGaÇıG : ÖL",
     "frequency": 3,
@@ -2560,10 +4984,76 @@
     "source": null
   },
   {
-    "runic": "𐰇𐱅𐰚𐰤",
-    "transcription": "ÖTüKeN",
-    "attestation": "TY1-G-8",
-    "attestation_text": "KaGaNıM : BeN : ÖZüM : BİLGE : TONYUKUK : ÖTüNTÜK : ÖTüNÇüMüN : iŞiDÜ : BiRTİ : KÖŊLüŊÇE : UDuZ : TiDİ : KÖK : ÖŊüG : YO",
+    "runic": "𐰾𐰇𐰠𐰠𐰢",
+    "transcription": "SÜLeLiM",
+    "attestation": "TY1-D-3",
+    "attestation_text": "aRTUK : KIRKıZ : KÜÇLüG : KaGaN : YaGıZıM : BOLDI : OL : ÜÇ : KaGaN : ÖGLeŞiP : aLTUN : YIŞ : ÜZE : KaBıŞaLıM : TiMiŞ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰾𐰇𐰭𐰾𐰓𐰃",
+    "transcription": "SÜŊüŞDİ",
+    "attestation": "TY2-G-5",
+    "attestation_text": "İLİN : ÜÇüN : TaBGaÇKA : YiTİ : YiGİRMİ : SÜŊüŞDİ : KITaYNKA : YiTİ : SÜŊüŞDİ : OGuZKA : BeŞ : SÜŊüŞDİ : aNDA : aYGUÇI :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰉𐰆𐰞𐰭𐰑𐰴𐰃",
+    "transcription": "BOLuŊDaKI",
+    "attestation": "KT-D-2",
+    "attestation_text": "TÖRT : BOLıŊ : KOP : YaGI : eRMiŞ : SÜ : SÜLiPeN : TÖRT : BOLuŊDaKI : BODuNıG : KOP : aLMıŞ : KOP : BaZ : KILMıŞ : BaŞLı",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰴𐰞𐰢𐰔𐰆𐰣",
+    "transcription": "KaLMaZUN",
+    "attestation": "KT-D-20",
+    "attestation_text": "BaRS : BeG : eRTİ : KaGaN : aT : BUNDA : BİZ : BİRTiMiZ : SİŊiLiM : KONÇuYUG : BİRTiMiZ : ÖZİ : YaŊıLDI : KaGaNI : ÖLTİ ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰘𐰃𐰺𐰍𐰺𐰆",
+    "transcription": "YIRıGaRU",
+    "attestation": "KT-D-28",
+    "attestation_text": "BaRMıŞ : BODuN : ÖLÜ : YİTÜ : YaDaGıN : YaLıŊıN : YaNA : KeLTİ : BODuNıG : İGiDeYİN : TİYiN : YIRıGaRU : OGuZ : BODuN : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kuzey  (yırı + garu)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰼𐱅𐰇𐰼𐱅𐰢",
+    "transcription": "eRTÜRTüM",
+    "attestation": "BK-G-10",
+    "attestation_text": "TÜRÜKüME : BODuNuMA : YiGiN : aNÇA : KaZGaNU : BİRTiM : BUNÇA : KaZGaNıP : KaNGıM : KaGaN : IT : YIL : ONuNÇ : aY : aLTI",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
+    "runic": "𐰇𐰠𐰼𐱅𐰲𐰃",
+    "transcription": "ÖLüRTeÇİ",
+    "attestation": "TY1-G-3",
+    "attestation_text": "YORIYoR : eRMiŞ : KaGaNI : aLP : eRMiŞ : aYGUÇISI : BİLGE : eRMiŞ : OL : iKİ : KİŞİ : BaR : eRSeR : SİNİ : TaBGaÇıG : ÖL",
     "frequency": 3,
     "meaning": null,
     "category": null,
@@ -2577,26 +5067,12 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰾𐰇𐰠𐰠𐰢",
-    "transcription": "SÜLeLiM",
-    "attestation": "TY1-D-3",
-    "attestation_text": "aRTUK : KIRKıZ : KÜÇLüG : KaGaN : YaGıZıM : BOLDI : OL : ÜÇ : KaGaN : ÖGLeŞiP : aLTUN : YIŞ : ÜZE : KaBıŞaLıM : TiMiŞ : ",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰼𐱅𐰲𐰃",
-    "transcription": "eRTeÇİ",
-    "attestation": "TY2-D-5",
-    "attestation_text": "UDU : BeN : ÖZüM : KaZGaNMaSaR : İL : YiME : BODuN : YiME : YOK : eRTeÇİ : eRTİ : KaZGaNTUKIN : UDU : ÖZüM : KaZGaNTUKıM",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kağan  (kagan + garu)",
+      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 157",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   }
 ]
