@@ -260,28 +260,54 @@ if (kuyruk === "cumlecik") {
 }
 
 if (kuyruk === "sozluk") {
+  // ALAN ADLARI. sozluk-anlamlar.json Türkçe alan kullanıyor:
+  //   id · transkripsiyon · runik · anlam · kategori · kaynak
+  // Bu blok eskiden İngilizce alan yazıyordu (meaning, category, source)
+  // ve runik'i hiç yazmıyordu. icerik-uret.mjs ise
+  //   .filter((k) => k.runik && k.anlam)
+  // ile süzdüğü için onaylanan her kelime sessizce eleniyordu: denetim
+  // yapılır, hiçbir alıştırma üretilmezdi.
   const yol = "05_Kaynak_DB/sozluk-anlamlar.json";
   const mevcut = okuJson(yol);
   const liste = Array.isArray(mevcut) ? mevcut : mevcut.kelimeler;
-  const indeks = new Map(liste.map((k) => [k.transcription ?? k.transkripsiyon, k]));
+  // Eşleştirme hem kayıt kimliği hem transkripsiyon üzerinden; kuyruk
+  // korpus biçimini (BODuNuG) id yapıyor, dosyadaki kayıt sözlük
+  // biçimini (bodun) tutuyor.
+  const anahtarla = (x) => String(x ?? "").toLocaleLowerCase("tr");
+  const indeks = new Map();
+  for (const k of liste) {
+    for (const a of [k.id, k.transkripsiyon]) if (a) indeks.set(anahtarla(a), k);
+  }
   for (const k of kararlar) {
     if (k.karar === "red") {
       atlanan++;
       continue;
     }
     if (!gecerliOnay(k)) continue;
-    const kayit = indeks.get(k.id) ?? { transcription: k.id };
+    const anahtar = anahtarla(k.id);
+    let kayit = indeks.get(anahtar);
+    if (!kayit) {
+      kayit = { id: k.id, transkripsiyon: k.id };
+      liste.push(kayit);
+      indeks.set(anahtar, kayit);
+    }
     if (korunuyorMu(kayit, k.id)) continue;
     kayit.denetleyen = denetleyen;
     kayit.katman = katman;
-    kayit.meaning = k.metin.trim();
-    kayit.category = k.tur || "diger";
-    kayit.source = k.kaynak.trim();
-    indeks.set(k.id, kayit);
+    kayit.anlam = k.metin.trim();
+    kayit.kategori = k.tur || "diger";
+    kayit.kaynak = k.kaynak.trim();
+    // Runik yazım denetlenenin ekranda GÖRDÜĞÜ biçimdir; korpustan gelir,
+    // uydurulmaz. Olmadan kayıt içerik üreticisinin süzgecinden geçmez.
+    const runik = (k.gorulenRunik || k.runik || "").trim();
+    if (runik && !kayit.runik) kayit.runik = runik;
+    if (!kayit.runik) {
+      reddedilen.push({ id: k.id, sebep: "runik yazım yok — alıştırmaya giremez" });
+      continue;
+    }
     yazilan++;
   }
-  const yeni = [...indeks.values()];
-  yazJson(yol, Array.isArray(mevcut) ? yeni : { ...mevcut, kelimeler: yeni });
+  yazJson(yol, Array.isArray(mevcut) ? liste : { ...mevcut, kelimeler: liste });
 }
 
 console.log(`kuyruk     : ${kuyruk}${kuru ? "  (KURU ÇALIŞMA — hiçbir şey yazılmadı)" : ""}`);

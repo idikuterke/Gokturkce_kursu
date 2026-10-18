@@ -39,15 +39,40 @@ const normal = (s) => s.toLowerCase().replace(/ŋ/g, "ng").replace(/ñ/g, "ny");
 //   tam  — korpus biçimi sözlük maddesiyle birebir (bodun = bodun)
 //   kök  — korpus biçimi maddeyle başlıyor, kalanı bilinen bir ek
 //          (bodunıg = bodun + ıg).  Ekler yine Ata'dan, uydurma değil.
+// Tekin'in gösterimi uzunluk ve ön/art için ayrı işaretler kullanıyor:
+// ä (ön e), ā ē ī ō ū (uzun), ń ñ (ny). Bunları SİLMEK sözcükleri
+// birbirine karıştırıyordu: "äbir-" → "bir" olup "bir" maddesiyle
+// çakışıyor, "bir" belirsiz sayılıp ön dolgu düşüyordu.
+// Doğrusu silmek değil KATLAMAK.
+const KATLAMA = new Map(Object.entries({
+  "ä": "e", "ā": "a", "ē": "e", "ī": "i", "ō": "o", "ū": "u",
+  "ǖ": "ü", "ȫ": "ö", "ï": "ı", "ń": "n", "ñ": "n", "ŋ": "n", "é": "e",
+  "ḍ": "d", "ẓ": "z", "š": "ş", "č": "ç", "γ": "g",
+}));
 const sadelestir = (x) =>
-  x.toLocaleLowerCase("tr").replace(/[^a-zçğıöşüŋé]/g, "");
+  [...x.toLocaleLowerCase("tr")]
+    .map((c) => KATLAMA.get(c) ?? c)
+    .join("")
+    .replace(/[^a-zçğıöşü]/g, "");
 
 let ataSozluk = [];
 let ataEkler = [];
+let tekinSozluk = [];
 try {
   ataSozluk = JSON.parse(fs.readFileSync(P("docs/ata-sozluk.json"), "utf8")).kelimeler ?? [];
   ataEkler = JSON.parse(fs.readFileSync(P("docs/ata-ekler.json"), "utf8")).ekler ?? [];
 } catch { /* tarama yapılmamışsa ön dolgu olmaz */ }
+try {
+  tekinSozluk = JSON.parse(fs.readFileSync(P("docs/tekin-sozluk.json"), "utf8")).kelimeler ?? [];
+} catch { /* Tekin sözlüğü taranmamışsa yalnız Ata kullanılır */ }
+
+// Kaynak sırası: Tekin 2003 Sözlük (1473 madde, uzmanlık sözlüğü) önce,
+// Ata 2011 metin çözümlemeleri (217 madde) sonra. İkisi de katman "kitap".
+// Ekler yalnız Ata'da var; kök+ek eşleşmesinde o kullanılıyor.
+const SOZLUK_KAYNAKLARI = [
+  ...tekinSozluk.map((k) => ({ ...k, eser: "Tekin 2003" })),
+  ...ataSozluk.map((k) => ({ ...k, eser: "Ata 2011" })),
+];
 
 // Ata'nın kendi gösterimi iki ayrımı taşıyor; ikisini de kullanıyoruz:
 //   kelime sonundaki "-"   → FİİL maddesi   (bir- "vermek")
@@ -75,14 +100,24 @@ function anahtarlar(kelime) {
 // anahtar → maddeler. Birden çok FARKLI anlam varsa ön dolgu yapılmaz:
 // bir (sayı) / bir- (vermek) / bir(i) (güney) ayırt edilemez, tahmin etmeyiz.
 const ataHarita = new Map();
-for (const k of ataSozluk) {
+for (const k of SOZLUK_KAYNAKLARI) {
   const fiilMi = k.kelime.trim().endsWith("-");
   for (const a of anahtarlar(k.kelime)) {
     if (!ataHarita.has(a)) ataHarita.set(a, []);
     ataHarita.get(a).push({ ...k, fiilMi, anahtar: a });
   }
 }
-const tekAnlam = (liste) => new Set(liste.map((x) => x.anlam)).size === 1;
+// İki kaynak aynı sözcüğü farklı kelimelerle açıklayabilir; bu belirsizlik
+// değildir. Belirsizlik, AYNI eserde aynı anahtara birden çok farklı madde
+// düşmesidir (bir / bir- / bir(i) gibi).
+const tekAnlam = (liste) => {
+  const esereGore = new Map();
+  for (const x of liste) {
+    if (!esereGore.has(x.eser)) esereGore.set(x.eser, new Set());
+    esereGore.get(x.eser).add(x.anlam);
+  }
+  return [...esereGore.values()].every((s) => s.size === 1);
+};
 
 const ataKokler = [...ataHarita.keys()].sort((a, b) => b.length - a.length);
 
@@ -133,6 +168,7 @@ const istek = kelimeler
           oneri: {
             meaning: a.eslesme === "kök" ? `${a.anlam}  (${a.kok} + ${a.ek})` : a.anlam,
             source: a.kaynak,
+            eser: a.eser,
             eslesme: a.eslesme,
             katman: "kitap"
           }
@@ -146,7 +182,10 @@ fs.writeFileSync(cikti, JSON.stringify(istek, null, 2) + "\n", "utf8");
 const onerili = istek.filter((x) => x.oneri);
 const tamSayi = onerili.filter((x) => x.oneri.eslesme === "tam").length;
 console.log(`sıklık >= ${esik} | ${istek.length} kelime → docs/sozluk-anlam-bekleyenler.json`);
+const esereGore = {};
+for (const x of onerili) esereGore[x.oneri.eser] = (esereGore[x.oneri.eser] ?? 0) + 1;
 console.log(
-  `Ata ön dolgusu : ${onerili.length} kelimede (${tamSayi} tam, ${onerili.length - tamSayi} kök+ek)` +
-    `  — katman "kitap", denetimden geçmeden kullanılmaz`
+  `ön dolgu       : ${onerili.length} / ${istek.length} kelimede ` +
+    `(${tamSayi} tam, ${onerili.length - tamSayi} kök+ek)  — katman "kitap"`
 );
+console.log(`  kaynağa göre : ${Object.entries(esereGore).map(([e, n]) => `${e} ${n}`).join(" · ")}`);
