@@ -401,3 +401,38 @@ belirtilmeli" ilkesinin aynısıdır.
 - `KitabeAlistirmalari` yalnız üç türü çiziyordu → dize_ceviri eklendi
 - Alıştırmaların **şıkkı yoktu** → çeldiriciler diğer gerçek çevirilerden,
   benzer uzunlukta seçiliyor (uydurma cümle üretilmiyor)
+
+---
+
+## Alıştırma kalite süzgeçleri
+
+Kullanıcı testinde üç hata görüldü; üçü de veri kaynağından geliyordu,
+üçüne de üretim aşamasında süzgeç kondu.
+
+### 1. Gloss'u çeviri diye sormak
+
+Korpusun `turkce` alanı çoğu dizede çeviri değil, iki nokta ile ayrılmış
+kelime kelime karşılıktır: `BİLGE : KAĞAN : UÇA : VARDI :`.
+`ceviri-denetim.mjs` yalnız doğrulama kaydını yazıyor, **metni
+değiştirmiyor** — bu yüzden onaylanmış bir dizenin metni hâlâ gloss
+olabiliyordu. `glossMu()` bunları eler: iki nokta ayracı varsa ve
+sözcüklerin %60'ı tamamen büyük harfse alıştırmaya girmez.
+
+### 2. OCR artığı
+
+Tekin 1998 taramasından `(mezar) taşını bizzat (ben) hakan ...........
+(B ES) bida ERER ELLA. BD) serilen RR ARA *` gibi metinler geçmişti.
+`ocrCopuMu()` yıldız, 4+ nokta ve `(B ES)` biçimli kırık kod parçalarını
+eler — hem çıkarıcıda hem üreticide (iki kat savunma).
+
+### 3. Şık çarpışması
+
+`TÜRK` ile `TÜRÜK` aynı runik dizgenin iki okunuşudur; ikisi birden şık
+olunca kullanıcı doğru okusa da yanlış işaretleniyordu. Çeldiriciler
+artık doğru cevapla **aynı ünsüz iskeletine** sahipse eleniyor.
+
+### 4. Reddedilen kayıt geri dirilmesin
+
+`denetim-uygula.mjs` artık `ceviri === "hatali"` kaydını da korur.
+Bir insanın reddini otomatik koşunun geri getirmesi, onayı ezmesi kadar
+kötüdür. (BK-B-7 böyle dirilmişti, geri alındı.)

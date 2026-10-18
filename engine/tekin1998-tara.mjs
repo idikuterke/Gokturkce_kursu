@@ -136,6 +136,19 @@ for (const [id, liste] of parcalar) {
     supheli.push({ id, sebep: "iki parça birbirine yakın — hangisi çeviri belirsiz", skor: ceviri.skor });
     continue;
   }
+  // OCR artığı: yıldız, uzun nokta dizisi, "(B ES)" gibi kırık kod
+  // parçaları, art arda iki BÜYÜK HARFLİ sözcük. Bunlar çeviri değil,
+  // tarama hatasıdır; alıştırmaya girerse soru anlamsız olur.
+  const ocrCopu =
+    /\*/.test(ceviri.metin) ||
+    /\.{4,}/.test(ceviri.metin) ||
+    /\([A-ZÇĞİÖŞÜ]{1,3}\s+[A-ZÇĞİÖŞÜ]{2,}\)/.test(ceviri.metin) ||
+    /\b[A-ZÇĞİÖŞÜ]{2,}\s+[A-ZÇĞİÖŞÜ]{2,}\b/.test(ceviri.metin);
+  if (ocrCopu) {
+    supheli.push({ id, sebep: "OCR artığı içeriyor — çeviri değil", skor: ceviri.skor });
+    continue;
+  }
+
   if (ceviri.metin.length < 15) {
     supheli.push({ id, sebep: "çeviri parçası çok kısa", skor: ceviri.skor });
     continue;

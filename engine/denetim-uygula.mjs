@@ -146,6 +146,12 @@ const korunan = [];
  * Eşit katmanda üzerine yazılır (aynı hattın yeniden koşusu).
  */
 function korunuyorMu(mevcut, id) {
+  // Bir insanın "hatali" kararı da korunur. Reddedilmiş bir dizeyi
+  // otomatik bir koşunun geri diriltmesi, onayı ezmesi kadar kötüdür.
+  if (mevcut?.ceviri === "hatali" && katman !== "insan") {
+    korunan.push(`${id} (insan reddetmiş)`);
+    return true;
+  }
   const mevcutKatman =
     mevcut?.katman ?? (mevcut?.denetleyen === "insan" ? "insan" : mevcut ? "model" : null);
   if (!mevcutKatman) return false;

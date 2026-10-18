@@ -217,8 +217,24 @@ const uygun = kelimeler.filter((k) => k.guvenilir && k.siklik >= 2 && k.dusenUnl
 const runikDizin = new Map(kelimeler.filter((k) => k.guvenilir).map((k) => [k.runik, k]));
 let yakinKullanan = 0;
 
+/**
+ * Ünsüz iskeleti: yazılmayan kısa ünlüler yüzünden "TÜRK" ile "TÜRÜK"
+ * aynı runik dizgenin iki okunuşudur. İkisini birden şık yapmak soruyu
+ * cevapsız bırakır — kullanıcı doğru okusa da yanlış işaretlenir.
+ */
+const okunusIskeleti = (t) =>
+  (t || "")
+    .toLocaleLowerCase("tr")
+    .replace(/[ŋñ]/g, "n")
+    .replace(/[^a-zçğıöşü]/g, "")
+    .replace(/[aeıioöuü]/g, "");
+
 for (const k of uygun) {
-  const yanlislar = celdiriciler(k, uygun, runikDizin);
+  const dogruIskelet = okunusIskeleti(k.transkripsiyon);
+  // Aynı iskelete sahip çeldirici elenir.
+  const yanlislar = celdiriciler(k, uygun, runikDizin).filter(
+    (y) => okunusIskeleti(y.transkripsiyon) !== dogruIskelet
+  );
   if (yakinCeldiriciler(k, runikDizin).length) yakinKullanan++;
   if (yanlislar.length < 3) continue;
 
@@ -334,6 +350,32 @@ const kitapGecerli = (v) => {
   return s === null || s >= KITAP_ESIGI;
 };
 
+/**
+ * Korpusun `turkce` alanı çoğu dizede çeviri değil, iki nokta ile
+ * ayrılmış kelime kelime karşılıktır ("BİLGE : KAĞAN : UÇA : VARDI :").
+ * ceviri-denetim.mjs yalnız doğrulama kaydını yazıyor, metni
+ * değiştirmiyor; o yüzden onaylanmış bir dizenin metni hâlâ gloss
+ * olabilir. Gloss'u çeviri diye sormak öğretici değil, yanıltıcıdır.
+ */
+const glossMu = (metin) => {
+  const m = (metin || "").trim();
+  if (!m) return true;
+  if (!/\s:\s/.test(m)) return false;
+  // İki nokta ayracı VAR ve sözcüklerin çoğu tamamen büyük harfse gloss.
+  const sozcukler = m.split(/\s*:\s*/).filter(Boolean);
+  if (sozcukler.length < 2) return false;
+  const buyuk = sozcukler.filter((w) => w === w.toLocaleUpperCase("tr") && /\p{L}/u.test(w));
+  return buyuk.length / sozcukler.length >= 0.6;
+};
+
+/** Tarama artığı metin — alıştırmaya hiç girmemeli. */
+const ocrCopuMu = (metin) =>
+  /\*/.test(metin || "") ||
+  /\.{4,}/.test(metin || "") ||
+  /\([A-ZÇĞİÖŞÜ]{1,3}\s+[A-ZÇĞİÖŞÜ]{2,}\)/.test(metin || "");
+
+const kullanilabilirCeviri = (metin) => !glossMu(metin) && !ocrCopuMu(metin);
+
 const cevirisiVar = (d) =>
   d.dogrulama?.ceviri === "gecti" || d.dogrulama?.ceviri === "gunumuz_okumasi";
 
@@ -348,7 +390,11 @@ const dizeMakine = dizeler.filter(
 // runik/transkripsiyona bakıyordu ve Türkçesinde `---` olan dize
 // (BK-B-7) kapıdan geçiyordu.
 const dizeCevirisi = ceviriyeHazir.filter(
-  (d) => d.kelimeSayisi <= 12 && !d.yipranma && !/---/.test(d.turkce || "")
+  (d) =>
+    d.kelimeSayisi <= 12 &&
+    !d.yipranma &&
+    !/---/.test(d.turkce || "") &&
+    kullanilabilirCeviri(d.turkce)
 );
 for (const d of dizeCevirisi) {
   alistirmalar.push({
@@ -382,6 +428,7 @@ if (fs.existsSync(CUMLECIK_YOLU)) {
   for (const c of paket.cumlecikler ?? []) {
     if (!c.turkce?.trim() || !c.kaynak?.trim()) continue;
     if (/---/.test(c.turkce) || /---/.test(c.transkripsiyon)) continue;
+    if (!kullanilabilirCeviri(c.turkce)) continue;
     if (c.kelimeSayisi > 12) continue;
     const cKitap =
       c.katman === "kitap" &&
