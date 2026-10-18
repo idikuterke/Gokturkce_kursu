@@ -64,7 +64,12 @@ for (const c of tamgalar) {
 //
 // Bu yüzden 𐰜 tablodan çıkarıldı: KÜN korpusta 𐰚𐰇𐰤'dir, 𐰜𐰇𐰤 değil.
 const HECE_DAMGALARI = [
-  { glif: "𐰸", unluOnce: ["ok", "uk"], unluSonra: ["ko", "ku"] },
+  // md. 20 — ko/ku ve kı sözcük İÇİNDE damgayla yazılmaz, 𐰴 kullanılır.
+  // md. 19 — sözcük BAŞINDA ko/ku sıklıkla, kı sıklıkla damgalıdır.
+  { glif: "𐰸", unluOnce: ["ok", "uk"], unluSonra: ["ko", "ku"], unluSonraSozBasi: true },
+  // md. 6 ve 21 — ök/ük söz başında ve içinde 𐰜. md. 19: kö/kü damgası
+  // "nâdiren" kullanılır, bu yüzden unluSonra boş bırakıldı.
+  { glif: "𐰜", unluOnce: ["ök", "ük"], unluSonra: [] },
   { glif: "𐰶", unluOnce: ["ık"], unluSonra: ["kı"], unluSonraSozBasi: true },
   { glif: "𐰱", unluOnce: ["iç"], unluSonra: [] }
 ];
@@ -87,7 +92,8 @@ const KALIN_UNLU = new Set(["a", "ı", "o", "u"]);
 const INCE_UNLU = new Set(["e", "i", "ö", "ü"]);
 const UNLU = new Set([...KALIN_UNLU, ...INCE_UNLU]);
 /** Göktürk yazısında bulunmayan sesler — bu kelimeler üretilmez. */
-const YOK_SES = new Set(["f", "h", "j"]);
+// md. 11 — f, c/j, h, v yerine p, ç, k, b kullanılır; "yok ses" kalmadı.
+const YOK_SES = new Set();
 
 /**
  * Bugünkü sesin Eski Türkçedeki karşılığı. Uydurma değil, ses
@@ -96,8 +102,11 @@ const YOK_SES = new Set(["f", "h", "j"]);
  */
 const SES_DENKLIGI = new Map([
   ["ğ", { ses: "g", not: "ğ sesi Eski Türkçede g'dir (dağ < tag)" }],
-  ["v", { ses: "b", not: "v sesi Eski Türkçede b'dir (ev < eb, ver- < ber-)" }],
-  ["c", { ses: "ç", not: "c sesi Eski Türkçede ç'dir (karınca < karınçga)" }]
+  ["v", { ses: "b", not: "v sesi Göktürk yazısında b ile yazılır (md. 11)" }],
+  ["c", { ses: "ç", not: "c sesi Göktürk yazısında ç ile yazılır (md. 11)" }],
+  ["j", { ses: "ç", not: "j sesi Göktürk yazısında ç ile yazılır (md. 11)" }],
+  ["f", { ses: "p", not: "f sesi Göktürk yazısında p ile yazılır (md. 11)" }],
+  ["h", { ses: "k", not: "h sesi Göktürk yazısında k ile yazılır (md. 11)" }]
 ]);
 
 /** Kelimenin genel sırası — yalnız etiket için (ünsüz seçimi heceye bakar). */
@@ -114,23 +123,22 @@ function sira(kelime) {
 /**
  * HER ÜNSÜZÜN BAĞLI OLDUĞU ÜNLÜ — kalın/ince biçimi bu belirler.
  *
- * Eski motor kelimenin tamamına tek bir sıra veriyordu. Karışık ünlülü
- * sözcüklerde (kitap, kiraz, elma, badem) bu yanlış: Göktürk yazısında
- * ünsüz kendi HECESİNİN ünlüsüne uyar, kelimenin çoğunluğuna değil.
+ * Kaynak kuralı (Tuğrul Çavdar, "KökTürük (Orhun) Abacasınıŋ Yazım
+ * Kuralları", md. 3):
+ *   "Bir harfin kalın mı ince mi olduğunu varsa ÖŊÜNDEKİ sesli,
+ *    yoksa ARDINDAKİ sesli belirler."
  *
- * Korpus kanıtı — aynı yazımda iki seri birden:
+ * Dayanağı Tekin'de de var: runik ünsüz işaretleri ünlüyle başlayıp
+ * ünsüzle biten hece değerindedir (ab hecedir, ba değildir) — yani
+ * ünsüz kendinden ÖNCEKİ ünlüye bağlıdır.
+ *
+ * Bir önceki sürüm heceye (onset/coda) bakıyordu. Korpusta iki kural
+ * yalnız 2 konumda çelişiyor (YİŞ-KA, BİR-KIRK — ikisi de bileşik
+ * sınırı), yani ölçüm ayırt edemiyor; kaynak ayırt ediyor.
+ *
+ * Karışık ünlülü yazımda iki seri birlikte görünür:
  *   TeMiRKaPıGKA  𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀   ince T,R  +  kalın K,G,K
  *   YOLuGTİGiN    𐰖𐰆𐰞𐰍𐱅𐰃𐰏𐰤   kalın Y,L,G  +  ince T,G,N
- *   KaÇaNeŊ       𐰴𐰲𐰤𐰭          kalın K  +  ince N
- * Karışık ünlülü kelimelerde ölçüm: hece bölmeli %100, kelime düzeyi %50.
- *
- * Hece bölme (Türkçe): söz başı öbeği sonraki ünlüye, söz sonu öbeği
- * önceki ünlüye bağlanır. İki ünlü arasında tek ünsüz varsa sonraki
- * hecenin başıdır (sağdaki ünlü); öbek varsa ilki önceki hecenin
- * sonudur (soldaki ünlü), kalanı sonraki hecenin başı.
- *   el-ma   → l soldaki "e"ye  → ince 𐰠   (denetim bulgusu)
- *   ki-tap  → k sağdaki "i"ye  → ince 𐰚   (denetim bulgusu)
- *   ba-dem  → d sağdaki "e"ye  → ince 𐰓   (denetim bulgusu)
  */
 function unsuzUnluBagi(harfler) {
   const n = harfler.length;
@@ -141,14 +149,9 @@ function unsuzUnluBagi(harfler) {
 
   for (let i = 0; i < n; i++) {
     if (UNLU.has(harfler[i])) continue;
-    const sag = unluYerleri.find((j) => j > i);
     const sol = [...unluYerleri].reverse().find((j) => j < i);
-    if (sag === undefined) { bag[i] = sol; continue; }  // söz sonu öbeği
-    if (sol === undefined) { bag[i] = sag; continue; }  // söz başı öbeği
-    // Öbeğin ilk ünsüzü müyüz (solumuzda ünlü var mı)?
-    const obeginIlki = UNLU.has(harfler[i - 1]);
-    const tekUnsuz = sag - i === 1;
-    bag[i] = obeginIlki && !tekUnsuz ? sol : sag;
+    const sag = unluYerleri.find((j) => j > i);
+    bag[i] = sol !== undefined ? sol : sag;   // md. 3
   }
   return bag;
 }
@@ -187,6 +190,7 @@ export function gokturkceYaz(kelime) {
 
   const cikti = [];
   let unluSirasi = 0;          // kaçıncı ünlüdeyiz (1 = ilk hece)
+  const ilkUnlu = harfler.find((h) => UNLU.has(h)) ?? null;   // md. 7 ölçütü
   // md. 2 "söz sonu ünlüsü" = kelimenin SON HARFİ ünlüyse. Kelimenin son
   // ünlüsü değil: kitap'ta "a" son ünlüdür ama söz sonunda değildir.
   const sonHarfYeri = harfler.length - 1;
@@ -216,7 +220,13 @@ export function gokturkceYaz(kelime) {
       const unluYeri = i + 1;
       const v = harfler[unluYeri];
       unluSirasi++;
-      if (yazilirMi(v, unluSirasi, unluYeri === sonHarfYeri, adimlar)) {
+      // md. 22 — hece damgasından sonraki ünlü md. 7'nin dışındadır,
+      // a/e değilse yazılır: okun 𐰸𐰆𐰣, tokuz 𐱃𐰸𐰆𐰔.
+      const damgaSonrasi = v !== "a" && v !== "e";
+      if (damgaSonrasi) {
+        adimlar.push(`hece damgasından sonraki "${v}" yazılır (md. 22)`);
+      }
+      if (damgaSonrasi || yazilirMi(v, unluSirasi, unluYeri === sonHarfYeri, ilkUnlu, adimlar)) {
         const g = tamga(v, KALIN_UNLU.has(v) ? "kalin" : "ince");
         if (g) cikti.push(g);
       }
@@ -243,13 +253,30 @@ export function gokturkceYaz(kelime) {
 
     if (UNLU.has(h)) {
       unluSirasi++;
-      if (!yazilirMi(h, unluSirasi, i === sonHarfYeri, adimlar)) continue;
+      if (!yazilirMi(h, unluSirasi, i === sonHarfYeri, ilkUnlu, adimlar)) continue;
       const g = tamga(h, s);
       if (g) cikti.push(g);
       continue;
     }
 
-    const yerelSira = konumSirasi(i);
+    let yerelSira = konumSirasi(i);
+
+    // md. 16 — söz başında "yı/yi", kalın hece olsa bile İNCE y ile.
+    //   korpus: YIŞ 𐰘𐰃𐱁, YIL 𐰘𐰃𐰞, YILKA 𐰘𐰃𐰞𐰴𐰀
+    if (h === "y" && i === 0 && (harfler[1] === "ı" || harfler[1] === "i")) {
+      yerelSira = "ince";
+      adimlar.push('söz başında "yı" — kalın hece olsa da ince y (md. 16)');
+    }
+    // md. 13 — söz sonunda "-ın", kalın hece olsa bile İNCE n ile.
+    //   korpus: OGLIN 𐰆𐰍𐰞𐰃𐰤, YOTuZIN 𐰖𐰆𐱃𐰔𐰃𐰤, KaŊIN 𐰴𐰭𐰃𐰤
+    if (
+      h === "n" && i === harfler.length - 1 &&
+      (harfler[i - 1] === "ı" || harfler[i - 1] === "i")
+    ) {
+      yerelSira = "ince";
+      adimlar.push('söz sonunda "-ın" — kalın hece olsa da ince n (md. 13)');
+    }
+
     const g = tamga(h, yerelSira);
     if (!g) return { runik: null, uyari: `"${h}" için tamga bulunamadı.`, adimlar };
     cikti.push(g);
@@ -258,7 +285,7 @@ export function gokturkceYaz(kelime) {
       const komsu = bag[i] === null ? null : harfler[bag[i]];
       adimlar.push(
         `"${h}" → ${yerelSira === "kalin" ? "kalın" : "ince"} biçim` +
-          (komsu ? ` (hecesindeki "${komsu}" ünlüsüne uyar, md. 6)` : " (md. 6)")
+          (komsu ? ` ("${komsu}" ünlüsüne uyar, md. 3)` : " (md. 3)")
       );
     } else {
       adimlar.push(`"${h}"`);
@@ -271,31 +298,46 @@ export function gokturkceYaz(kelime) {
 }
 
 /**
- * Bu ünlü yazılır mı? Korpus sayımı (yazılan / yazılmayan geçiş):
+ * Bu ünlü yazılır mı? — Çavdar md. 4, 6, 7, 8.
  *
- *   ünlü   1. hece        sonraki heceler
- *   ı      %95            %42
- *   i      %75            %41
- *   u      %99            %40
- *   ü      %100           %43
- *   o/ö    %99            %98
- *   a/e    %21            %20
+ *   md. 4  söz başı ve ortasında a/e yazılmaz; söz sonunda yazılır
+ *   md. 6  söz başındaki ı/i, o/u, ö/ü her zaman yazılır
+ *   md. 8  söz sonundaki bütün ünlüler yazılır
+ *   md. 7  ilk hecedeki ünlüye göre sonraki heceler:
+ *            ilk hecede a/e  → sonraki ı/i YAZILMAZ, yuvarlak YAZILIR
+ *            ilk hecede ı/i  → sonraki ı/i YAZILMAZ
+ *            ilk hecede o/u  → sonraki o/u YAZILMAZ
+ *            ilk hecede ö/ü  → sonraki ö/ü YAZILMAZ
+ *            ilk hecede yuvarlak → sonraki ı/i YAZILIR
+ *            ilk hecede düz      → sonraki yuvarlak YAZILIR
  *
- * Kural: a/e hiç yazılmaz (md. 3-4). o/ö her yerde yazılır. ı/i/u/ü
- * yalnız İLK HECEDE yazılır. Söz sonu ünlüsü her zaman yazılır (md. 2).
+ * Yani md. 7 tek cümleyle: sonraki hecenin ünlüsü, ilk hecenin
+ * ünlüsüyle AYNI ÖBEKTEN ise yazılmaz. Öbekler: düz {a,e,ı,i},
+ * kalın yuvarlak {o,u}, ince yuvarlak {ö,ü}.
  *
- * Eski motor ı/i/u/ü'yü her hecede yazıyordu; sonraki hecelerde korpus
- * bunu %58 oranında çürütüyor. Denetimde iki bulgu da bu kuraldan:
- *   sığır   𐰽𐰃𐰍𐰺   (ikinci ı yazılmaz)
- *   karınca 𐰴𐰺𐰨𐰀   (ikinci hecedeki ı yazılmaz)
+ * md. 22 — hece damgasından (𐰸 𐰜 𐰶 𐰱) sonra gelen ünlü bu kuralın
+ * dışındadır, yazılır. Çağrı yerinde ele alınıyor.
  */
-function yazilirMi(h, unluSirasi, sonMu, adimlar) {
-  if (sonMu) { adimlar.push(`son ünlü "${h}" yazılır (md. 2)`); return true; }
-  if (h === "a" || h === "e") { adimlar.push(`kısa "${h}" yazılmaz (md. ${unluSirasi <= 1 ? 3 : 4})`); return false; }
-  if (h === "o" || h === "ö") { adimlar.push(`yuvarlak "${h}" her hecede yazılır (md. 3)`); return true; }
-  if (unluSirasi <= 1) { adimlar.push(`ilk hecedeki "${h}" yazılır (md. 3)`); return true; }
-  adimlar.push(`ilk heceden sonraki "${h}" yazılmaz (md. 4)`);
-  return false;
+const unluObegi = (h) => {
+  if (h === "o" || h === "u") return "yuvarlak-kalin";
+  if (h === "ö" || h === "ü") return "yuvarlak-ince";
+  return "duz";
+};
+
+function yazilirMi(h, unluSirasi, sonMu, ilkUnlu, adimlar) {
+  if (sonMu) { adimlar.push(`söz sonundaki "${h}" yazılır (md. 8)`); return true; }
+  if (unluSirasi <= 1) {
+    if (h === "a" || h === "e") { adimlar.push(`söz başı/ortası "${h}" yazılmaz (md. 4)`); return false; }
+    adimlar.push(`ilk hecedeki "${h}" yazılır (md. 6)`);
+    return true;
+  }
+  if (h === "a" || h === "e") { adimlar.push(`söz ortası "${h}" yazılmaz (md. 4)`); return false; }
+  if (unluObegi(h) === unluObegi(ilkUnlu)) {
+    adimlar.push(`ilk hecedeki "${ilkUnlu}" ile aynı öbekten — "${h}" yazılmaz (md. 7)`);
+    return false;
+  }
+  adimlar.push(`ilk hecedeki "${ilkUnlu}" ile farklı öbekten — "${h}" yazılır (md. 7)`);
+  return true;
 }
 
 /* ── Kelime listesi ─────────────────────────────────────────────────

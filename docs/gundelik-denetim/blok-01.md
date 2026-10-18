@@ -1,4 +1,4 @@
-# Gündelik Yazım Denetimi — Blok 01 / 4
+# Gündelik Yazım Denetimi — Blok 01 / 3
 
 10 kelime · kural motorundan üretildi, **tanıklı değil**
 
@@ -11,16 +11,17 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 | | |
 |---|---|
-| Yazım | <span lang="otk">𐰖𐰃𐰞𐰑𐰔</span> |
-| Tamga tamga | 𐰖 𐰃 𐰞 𐰑 𐰔 |
+| Yazım | <span lang="otk">𐰘𐰃𐰞𐰑𐰔</span> |
+| Tamga tamga | 𐰘 𐰃 𐰞 𐰑 𐰔 |
 | Sıra | kalın · 5 tamga |
 
 Uygulanan kurallar:
-- "y" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk hecedeki "ı" yazılır (md. 3)
-- "l" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- "d" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "ı" yazılmaz (md. 4)
+- söz başında "yı" — kalın hece olsa da ince y (md. 16)
+- "y" → ince biçim ("ı" ünlüsüne uyar, md. 3)
+- ilk hecedeki "ı" yazılır (md. 6)
+- "l" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+- "d" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+- ilk hecedeki "ı" ile aynı öbekten — "ı" yazılmaz (md. 7)
 - "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
@@ -36,34 +37,17 @@ Uygulanan kurallar:
 | Sıra | ince · 3 tamga |
 
 Uygulanan kurallar:
-- "d" → ince biçim (hecesindeki "e" ünlüsüne uyar, md. 6)
-- kısa "e" yazılmaz (md. 3)
-- "n" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "i" yazılmaz (md. 4)
+- "d" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- söz başı/ortası "e" yazılmaz (md. 4)
+- "n" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- ilk hecedeki "e" ile aynı öbekten — "i" yazılmaz (md. 7)
 - "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 3. gök  _(doğa)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰏𐰇𐰚</span> |
-| Tamga tamga | 𐰏 𐰇 𐰚 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- "g" → ince biçim (hecesindeki "ö" ünlüsüne uyar, md. 6)
-- yuvarlak "ö" her hecede yazılır (md. 3)
-- "k" → ince biçim (hecesindeki "ö" ünlüsüne uyar, md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 4. oğul  _(aile)_
+### 3. oğul  _(aile)_
 
 | | |
 |---|---|
@@ -73,36 +57,16 @@ Uygulanan kurallar:
 
 Uygulanan kurallar:
 - ğ sesi Eski Türkçede g'dir (dağ < tag)
-- yuvarlak "o" her hecede yazılır (md. 3)
-- "g" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "u" yazılmaz (md. 4)
-- "l" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
+- ilk hecedeki "o" yazılır (md. 6)
+- "g" → kalın biçim ("o" ünlüsüne uyar, md. 3)
+- ilk hecedeki "o" ile aynı öbekten — "u" yazılmaz (md. 7)
+- "l" → kalın biçim ("u" ünlüsüne uyar, md. 3)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 5. kardeş  _(aile)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰴𐰺𐰓𐱁</span> |
-| Tamga tamga | 𐰴 𐰺 𐰓 𐱁 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- "k" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "r" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- "d" → ince biçim (hecesindeki "e" ünlüsüne uyar, md. 6)
-- kısa "e" yazılmaz (md. 4)
-- "ş"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 6. dokuz  _(sayı)_
+### 4. dokuz  _(sayı)_
 
 | | |
 |---|---|
@@ -111,16 +75,16 @@ Uygulanan kurallar:
 | Sıra | kalın · 3 tamga |
 
 Uygulanan kurallar:
-- "d" → kalın biçim (hecesindeki "o" ünlüsüne uyar, md. 6)
+- "d" → kalın biçim ("o" ünlüsüne uyar, md. 3)
 - "ok" hece damgası 𐰸 (md. 9)
-- ilk heceden sonraki "u" yazılmaz (md. 4)
+- ilk hecedeki "o" ile aynı öbekten — "u" yazılmaz (md. 7)
 - "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 7. otur  _(fiil)_
+### 5. otur  _(fiil)_
 
 | | |
 |---|---|
@@ -129,16 +93,16 @@ Uygulanan kurallar:
 | Sıra | kalın · 3 tamga |
 
 Uygulanan kurallar:
-- yuvarlak "o" her hecede yazılır (md. 3)
-- "t" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "u" yazılmaz (md. 4)
-- "r" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
+- ilk hecedeki "o" yazılır (md. 6)
+- "t" → kalın biçim ("o" ünlüsüne uyar, md. 3)
+- ilk hecedeki "o" ile aynı öbekten — "u" yazılmaz (md. 7)
+- "r" → kalın biçim ("u" ünlüsüne uyar, md. 3)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 8. koş  _(fiil)_
+### 6. koş  _(fiil)_
 
 | | |
 |---|---|
@@ -148,14 +112,14 @@ Uygulanan kurallar:
 
 Uygulanan kurallar:
 - "ko" hece damgası 𐰸 (md. 9)
-- yuvarlak "o" her hecede yazılır (md. 3)
+- hece damgasından sonraki "o" yazılır (md. 22)
 - "ş"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 9. kuş  _(gündelik)_
+### 7. kuş  _(gündelik)_
 
 | | |
 |---|---|
@@ -165,27 +129,63 @@ Uygulanan kurallar:
 
 Uygulanan kurallar:
 - "ku" hece damgası 𐰸 (md. 9)
-- ilk hecedeki "u" yazılır (md. 3)
+- hece damgasından sonraki "u" yazılır (md. 22)
 - "ş"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 10. kitap  _(gündelik)_
+### 8. kitap  _(gündelik)_
 
 | | |
 |---|---|
-| Yazım | <span lang="otk">𐰚𐰃𐱃𐰯</span> |
-| Tamga tamga | 𐰚 𐰃 𐱃 𐰯 |
+| Yazım | <span lang="otk">𐰚𐰃𐱅𐰯</span> |
+| Tamga tamga | 𐰚 𐰃 𐱅 𐰯 |
 | Sıra | kalın · 4 tamga |
 
 Uygulanan kurallar:
-- "k" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
-- ilk hecedeki "i" yazılır (md. 3)
-- "t" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 4)
+- "k" → ince biçim ("i" ünlüsüne uyar, md. 3)
+- ilk hecedeki "i" yazılır (md. 6)
+- "t" → ince biçim ("i" ünlüsüne uyar, md. 3)
+- söz ortası "a" yazılmaz (md. 4)
 - "p"
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 9. elma  _(meyve)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰠𐰢𐰀</span> |
+| Tamga tamga | 𐰠 𐰢 𐰀 |
+| Sıra | kalın · 3 tamga |
+
+Uygulanan kurallar:
+- söz başı/ortası "e" yazılmaz (md. 4)
+- "l" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- "m"
+- söz sonundaki "a" yazılır (md. 8)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 10. üzüm  _(meyve)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰇𐰔𐰢</span> |
+| Tamga tamga | 𐰇 𐰔 𐰢 |
+| Sıra | ince · 3 tamga |
+
+Uygulanan kurallar:
+- ilk hecedeki "ü" yazılır (md. 6)
+- "z"
+- ilk hecedeki "ü" ile aynı öbekten — "ü" yazılmaz (md. 7)
+- "m"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

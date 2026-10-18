@@ -4,13 +4,13 @@
 
 | | |
 |---|---|
-| Toplam kelime | 134 |
+| Toplam kelime | 135 |
 | Tanıklı (yazıtta geçiyor, denetim gerekmez) | 20 |
-| İnsan onaylı (mühürlü) | 79 |
-| **Denetlenecek (kuraldan üretildi)** | **35** |
-| Blok | 4 × 10 |
+| İnsan onaylı (mühürlü) | 86 |
+| **Denetlenecek (kuraldan üretildi)** | **29** |
+| Blok | 3 × 10 |
 
-Tema dağılımı: doğa 3 · aile 2 · sayı 1 · fiil 2 · gündelik 2 · meyve 9 · sebze 1 · hayvan 9 · doğa terimi 6
+Tema dağılımı: doğa 2 · aile 1 · sayı 1 · fiil 2 · gündelik 2 · meyve 6 · sebze 1 · hayvan 10 · doğa terimi 4
 
 ## Tanıklı kelimeler (denetim dışı)
 

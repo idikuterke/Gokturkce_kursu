@@ -1,107 +1,33 @@
-# Gündelik Yazım Denetimi — Blok 03 / 4
+# Gündelik Yazım Denetimi — Blok 03 / 3
 
-10 kelime · kural motorundan üretildi, **tanıklı değil**
+9 kelime · kural motorundan üretildi, **tanıklı değil**
 
 Her kelimede yazımın doğru olup olmadığını işaretle. Yanlışsa
 doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 21. kurt  _(hayvan)_
+### 21. yılan  _(hayvan)_
 
 | | |
 |---|---|
-| Yazım | <span lang="otk">𐰸𐰆𐰺𐱃</span> |
-| Tamga tamga | 𐰸 𐰆 𐰺 𐱃 |
+| Yazım | <span lang="otk">𐰘𐰃𐰞𐰣</span> |
+| Tamga tamga | 𐰘 𐰃 𐰞 𐰣 |
 | Sıra | kalın · 4 tamga |
 
 Uygulanan kurallar:
-- "ku" hece damgası 𐰸 (md. 9)
-- ilk hecedeki "u" yazılır (md. 3)
-- "r" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
-- "t" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
+- söz başında "yı" — kalın hece olsa da ince y (md. 16)
+- "y" → ince biçim ("ı" ünlüsüne uyar, md. 3)
+- ilk hecedeki "ı" yazılır (md. 6)
+- "l" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+- söz ortası "a" yazılmaz (md. 4)
+- "n" → kalın biçim ("a" ünlüsüne uyar, md. 3)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 22. koyun  _(hayvan)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰸𐰆𐰖𐰣</span> |
-| Tamga tamga | 𐰸 𐰆 𐰖 𐰣 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- "ko" hece damgası 𐰸 (md. 9)
-- yuvarlak "o" her hecede yazılır (md. 3)
-- "y" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "u" yazılmaz (md. 4)
-- "n" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 23. keçi  _(hayvan)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰚𐰲𐰃</span> |
-| Tamga tamga | 𐰚 𐰲 𐰃 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- "k" → ince biçim (hecesindeki "e" ünlüsüne uyar, md. 6)
-- kısa "e" yazılmaz (md. 3)
-- "ç"
-- son ünlü "i" yazılır (md. 2)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 24. sığır  _(hayvan)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰽𐰃𐰍𐰺</span> |
-| Tamga tamga | 𐰽 𐰃 𐰍 𐰺 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- ğ sesi Eski Türkçede g'dir (dağ < tag)
-- "s" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk hecedeki "ı" yazılır (md. 3)
-- "g" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "ı" yazılmaz (md. 4)
-- "r" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 25. geyik  _(hayvan)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰏𐰘𐰚</span> |
-| Tamga tamga | 𐰏 𐰘 𐰚 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- "g" → ince biçim (hecesindeki "e" ünlüsüne uyar, md. 6)
-- kısa "e" yazılmaz (md. 3)
-- "y" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "i" yazılmaz (md. 4)
-- "k" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 26. karınca  _(hayvan)_
+### 22. karınca  _(hayvan)_
 
 | | |
 |---|---|
@@ -110,19 +36,19 @@ Uygulanan kurallar:
 | Sıra | kalın · 4 tamga |
 
 Uygulanan kurallar:
-- c sesi Eski Türkçede ç'dir (karınca < karınçga)
-- "k" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "r" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "ı" yazılmaz (md. 4)
+- c sesi Göktürk yazısında ç ile yazılır (md. 11)
+- "k" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- söz başı/ortası "a" yazılmaz (md. 4)
+- "r" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- ilk hecedeki "a" ile aynı öbekten — "ı" yazılmaz (md. 7)
 - "nç" küme damgası 𐰨 (md. 10)
-- son ünlü "a" yazılır (md. 2)
+- söz sonundaki "a" yazılır (md. 8)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 27. domuz  _(hayvan)_
+### 23. domuz  _(hayvan)_
 
 | | |
 |---|---|
@@ -131,17 +57,17 @@ Uygulanan kurallar:
 | Sıra | kalın · 4 tamga |
 
 Uygulanan kurallar:
-- "d" → kalın biçim (hecesindeki "o" ünlüsüne uyar, md. 6)
-- yuvarlak "o" her hecede yazılır (md. 3)
+- "d" → kalın biçim ("o" ünlüsüne uyar, md. 3)
+- ilk hecedeki "o" yazılır (md. 6)
 - "m"
-- ilk heceden sonraki "u" yazılmaz (md. 4)
+- ilk hecedeki "o" ile aynı öbekten — "u" yazılmaz (md. 7)
 - "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 28. aygır  _(hayvan)_
+### 24. aygır  _(hayvan)_
 
 | | |
 |---|---|
@@ -150,17 +76,17 @@ Uygulanan kurallar:
 | Sıra | kalın · 3 tamga |
 
 Uygulanan kurallar:
-- kısa "a" yazılmaz (md. 3)
-- "y" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- "g" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "ı" yazılmaz (md. 4)
-- "r" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
+- söz başı/ortası "a" yazılmaz (md. 4)
+- "y" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- "g" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- ilk hecedeki "a" ile aynı öbekten — "ı" yazılmaz (md. 7)
+- "r" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 29. kuzu  _(hayvan)_
+### 25. kuzu  _(hayvan)_
 
 | | |
 |---|---|
@@ -170,15 +96,15 @@ Uygulanan kurallar:
 
 Uygulanan kurallar:
 - "ku" hece damgası 𐰸 (md. 9)
-- ilk hecedeki "u" yazılır (md. 3)
+- hece damgasından sonraki "u" yazılır (md. 22)
 - "z"
-- son ünlü "u" yazılır (md. 2)
+- söz sonundaki "u" yazılır (md. 8)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 30. kum  _(doğa terimi)_
+### 26. kum  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -188,8 +114,64 @@ Uygulanan kurallar:
 
 Uygulanan kurallar:
 - "ku" hece damgası 𐰸 (md. 9)
-- ilk hecedeki "u" yazılır (md. 3)
+- hece damgasından sonraki "u" yazılır (md. 22)
 - "m"
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 27. bulut  _(doğa terimi)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰉𐰆𐰞𐱃</span> |
+| Tamga tamga | 𐰉 𐰆 𐰞 𐱃 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "b" → kalın biçim ("u" ünlüsüne uyar, md. 3)
+- ilk hecedeki "u" yazılır (md. 6)
+- "l" → kalın biçim ("u" ünlüsüne uyar, md. 3)
+- ilk hecedeki "u" ile aynı öbekten — "u" yazılmaz (md. 7)
+- "t" → kalın biçim ("u" ünlüsüne uyar, md. 3)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 28. kış  _(doğa terimi)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰶𐰃𐱁</span> |
+| Tamga tamga | 𐰶 𐰃 𐱁 |
+| Sıra | kalın · 3 tamga |
+
+Uygulanan kurallar:
+- "kı" hece damgası 𐰶 (md. 9)
+- hece damgasından sonraki "ı" yazılır (md. 22)
+- "ş"
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 29. bahar  _(doğa terimi)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰉𐰴𐰺</span> |
+| Tamga tamga | 𐰉 𐰴 𐰺 |
+| Sıra | kalın · 3 tamga |
+
+Uygulanan kurallar:
+- h sesi Göktürk yazısında k ile yazılır (md. 11)
+- "b" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- söz başı/ortası "a" yazılmaz (md. 4)
+- "k" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- söz ortası "a" yazılmaz (md. 4)
+- "r" → kalın biçim ("a" ünlüsüne uyar, md. 3)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

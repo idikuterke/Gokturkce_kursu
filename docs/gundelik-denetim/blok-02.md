@@ -1,4 +1,4 @@
-# Gündelik Yazım Denetimi — Blok 02 / 4
+# Gündelik Yazım Denetimi — Blok 02 / 3
 
 10 kelime · kural motorundan üretildi, **tanıklı değil**
 
@@ -7,81 +7,26 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 11. elma  _(meyve)_
+### 11. kiraz  _(meyve)_
 
 | | |
 |---|---|
-| Yazım | <span lang="otk">𐰠𐰢𐰀</span> |
-| Tamga tamga | 𐰠 𐰢 𐰀 |
-| Sıra | kalın · 3 tamga |
-
-Uygulanan kurallar:
-- kısa "e" yazılmaz (md. 3)
-- "l" → ince biçim (hecesindeki "e" ünlüsüne uyar, md. 6)
-- "m"
-- son ünlü "a" yazılır (md. 2)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 12. armut  _(meyve)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰺𐰢𐱃</span> |
-| Tamga tamga | 𐰺 𐰢 𐱃 |
-| Sıra | kalın · 3 tamga |
-
-Uygulanan kurallar:
-- kısa "a" yazılmaz (md. 3)
-- "r" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- "m"
-- ilk heceden sonraki "u" yazılmaz (md. 4)
-- "t" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 13. üzüm  _(meyve)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰇𐰔𐰢</span> |
-| Tamga tamga | 𐰇 𐰔 𐰢 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- ilk hecedeki "ü" yazılır (md. 3)
-- "z"
-- ilk heceden sonraki "ü" yazılmaz (md. 4)
-- "m"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 14. kiraz  _(meyve)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰚𐰃𐰺𐰔</span> |
-| Tamga tamga | 𐰚 𐰃 𐰺 𐰔 |
+| Yazım | <span lang="otk">𐰚𐰃𐰼𐰔</span> |
+| Tamga tamga | 𐰚 𐰃 𐰼 𐰔 |
 | Sıra | kalın · 4 tamga |
 
 Uygulanan kurallar:
-- "k" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
-- ilk hecedeki "i" yazılır (md. 3)
-- "r" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 4)
+- "k" → ince biçim ("i" ünlüsüne uyar, md. 3)
+- ilk hecedeki "i" yazılır (md. 6)
+- "r" → ince biçim ("i" ünlüsüne uyar, md. 3)
+- söz ortası "a" yazılmaz (md. 4)
 - "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 15. ceviz  _(meyve)_
+### 12. ceviz  _(meyve)_
 
 | | |
 |---|---|
@@ -90,38 +35,19 @@ Uygulanan kurallar:
 | Sıra | ince · 3 tamga |
 
 Uygulanan kurallar:
-- c sesi Eski Türkçede ç'dir (karınca < karınçga)
-- v sesi Eski Türkçede b'dir (ev < eb, ver- < ber-)
+- c sesi Göktürk yazısında ç ile yazılır (md. 11)
+- v sesi Göktürk yazısında b ile yazılır (md. 11)
 - "ç"
-- kısa "e" yazılmaz (md. 3)
-- "b" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "i" yazılmaz (md. 4)
+- söz başı/ortası "e" yazılmaz (md. 4)
+- "b" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- ilk hecedeki "e" ile aynı öbekten — "i" yazılmaz (md. 7)
 - "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 16. badem  _(meyve)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰉𐰓𐰢</span> |
-| Tamga tamga | 𐰉 𐰓 𐰢 |
-| Sıra | kalın · 3 tamga |
-
-Uygulanan kurallar:
-- "b" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "d" → ince biçim (hecesindeki "e" ünlüsüne uyar, md. 6)
-- kısa "e" yazılmaz (md. 4)
-- "m"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 17. erik  _(meyve)_
+### 13. erik  _(meyve)_
 
 | | |
 |---|---|
@@ -130,36 +56,16 @@ Uygulanan kurallar:
 | Sıra | ince · 2 tamga |
 
 Uygulanan kurallar:
-- kısa "e" yazılmaz (md. 3)
-- "r" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "i" yazılmaz (md. 4)
-- "k" → ince biçim (hecesindeki "i" ünlüsüne uyar, md. 6)
+- söz başı/ortası "e" yazılmaz (md. 4)
+- "r" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- ilk hecedeki "e" ile aynı öbekten — "i" yazılmaz (md. 7)
+- "k" → ince biçim ("i" ünlüsüne uyar, md. 3)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 18. karpuz  _(meyve)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰴𐰺𐰯𐰔</span> |
-| Tamga tamga | 𐰴 𐰺 𐰯 𐰔 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- "k" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "r" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- "p"
-- ilk heceden sonraki "u" yazılmaz (md. 4)
-- "z"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 19. kayısı  _(meyve)_
+### 14. kayısı  _(meyve)_
 
 | | |
 |---|---|
@@ -168,18 +74,18 @@ Uygulanan kurallar:
 | Sıra | kalın · 4 tamga |
 
 Uygulanan kurallar:
-- "k" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "y" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "ı" yazılmaz (md. 4)
-- "s" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- son ünlü "ı" yazılır (md. 2)
+- "k" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- söz başı/ortası "a" yazılmaz (md. 4)
+- "y" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- ilk hecedeki "a" ile aynı öbekten — "ı" yazılmaz (md. 7)
+- "s" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+- söz sonundaki "ı" yazılır (md. 8)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 20. sarımsak  _(sebze)_
+### 15. sarımsak  _(sebze)_
 
 | | |
 |---|---|
@@ -188,14 +94,108 @@ Uygulanan kurallar:
 | Sıra | kalın · 5 tamga |
 
 Uygulanan kurallar:
-- "s" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "r" → kalın biçim (hecesindeki "ı" ünlüsüne uyar, md. 6)
-- ilk heceden sonraki "ı" yazılmaz (md. 4)
+- "s" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- söz başı/ortası "a" yazılmaz (md. 4)
+- "r" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+- ilk hecedeki "a" ile aynı öbekten — "ı" yazılmaz (md. 7)
 - "m"
-- "s" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
-- kısa "a" yazılmaz (md. 4)
-- "k" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
+- "s" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+- söz ortası "a" yazılmaz (md. 4)
+- "k" → kalın biçim ("a" ünlüsüne uyar, md. 3)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 16. kurt  _(hayvan)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰸𐰆𐰺𐱃</span> |
+| Tamga tamga | 𐰸 𐰆 𐰺 𐱃 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "ku" hece damgası 𐰸 (md. 9)
+- hece damgasından sonraki "u" yazılır (md. 22)
+- "r" → kalın biçim ("u" ünlüsüne uyar, md. 3)
+- "t" → kalın biçim ("u" ünlüsüne uyar, md. 3)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 17. koyun  _(hayvan)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰸𐰆𐰖𐰣</span> |
+| Tamga tamga | 𐰸 𐰆 𐰖 𐰣 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "ko" hece damgası 𐰸 (md. 9)
+- hece damgasından sonraki "o" yazılır (md. 22)
+- "y" → kalın biçim ("o" ünlüsüne uyar, md. 3)
+- ilk hecedeki "o" ile aynı öbekten — "u" yazılmaz (md. 7)
+- "n" → kalın biçim ("u" ünlüsüne uyar, md. 3)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 18. keçi  _(hayvan)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰚𐰲𐰃</span> |
+| Tamga tamga | 𐰚 𐰲 𐰃 |
+| Sıra | ince · 3 tamga |
+
+Uygulanan kurallar:
+- "k" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- söz başı/ortası "e" yazılmaz (md. 4)
+- "ç"
+- söz sonundaki "i" yazılır (md. 8)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 19. sığır  _(hayvan)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰽𐰃𐰍𐰺</span> |
+| Tamga tamga | 𐰽 𐰃 𐰍 𐰺 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- ğ sesi Eski Türkçede g'dir (dağ < tag)
+- "s" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+- ilk hecedeki "ı" yazılır (md. 6)
+- "g" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+- ilk hecedeki "ı" ile aynı öbekten — "ı" yazılmaz (md. 7)
+- "r" → kalın biçim ("ı" ünlüsüne uyar, md. 3)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 20. geyik  _(hayvan)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰏𐰘𐰚</span> |
+| Tamga tamga | 𐰏 𐰘 𐰚 |
+| Sıra | ince · 3 tamga |
+
+Uygulanan kurallar:
+- "g" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- söz başı/ortası "e" yazılmaz (md. 4)
+- "y" → ince biçim ("e" ünlüsüne uyar, md. 3)
+- ilk hecedeki "e" ile aynı öbekten — "i" yazılmaz (md. 7)
+- "k" → ince biçim ("i" ünlüsüne uyar, md. 3)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
