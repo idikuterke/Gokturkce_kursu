@@ -51,12 +51,19 @@ const alistirmayaCevir = (
     };
   }
 
-  if (a.tur === 'dize_ceviri') {
+  if (a.tur === 'dize_oku') {
     if (!a.dogru) return null;
-    // Günümüz okuması çeviri değildir; öğrenciye böyle sunulmaz.
+    // ANLAM SORULMAZ. Satır düzeyinde yalnız okunuş sorulur; kullanıcı
+    // Eski Türkçe gramerini bilmediği için cümle anlamı sormak öğretmiyor,
+    // tahmine zorluyordu. Türkçe karşılık cevaptan SONRA bilgi olarak
+    // gösterilir.
     const notlar: string[] = [];
-    if (a.gunumuzOkumasi) {
-      notlar.push('Bu karşılık bir çeviri değil, günümüz okumasıdır.');
+    if (a.turkceKarsilik) {
+      notlar.push(
+        a.gunumuzOkumasi
+          ? `Günümüz okuması: ${a.turkceKarsilik}`
+          : `Anlamı: ${a.turkceKarsilik}`
+      );
     }
     if (a.gramerNotu) {
       const g = a.gramerNotu;
@@ -65,20 +72,17 @@ const alistirmayaCevir = (
       );
     }
     if (a.denetlenmemisKaynak) {
-      // Kaynaklı ama akademik denetimden geçmemiş karşılık: kaynağı
-      // göster, doğrulanmış gibi sunma.
-      notlar.push(`Kaynak: ${a.denetlenmemisKaynak}. Bu karşılık yayından alınmıştır, ayrıca denetlenmemiştir.`);
+      notlar.push(
+        `Kaynak: ${a.denetlenmemisKaynak}. Bu karşılık yayından alınmıştır, ayrıca denetlenmemiştir.`
+      );
     }
     const etiket = notlar.join(' ');
     return {
       id: a.id,
       type: 'choice',
-      prompt: a.gunumuzOkumasi
-        ? 'Bu kitabe satırının günümüz okuması hangisidir?'
-        : 'Bu kitabe satırı ne anlama geliyor?',
-      subprompt: a.transkripsiyon,
+      prompt: 'Bu kitabe satırının okunuşu hangisidir?',
+      subprompt: undefined,
       runePrompt: a.runik,
-      // Üretici 3 çeldirici koyar; yoksa tek şıkla göstermeyiz.
       options: a.secenekler?.length ? a.secenekler : [a.dogru],
       correctAnswer: a.dogru,
       explanation: `${a.kaynak} dizesi.${etiket ? ' ' + etiket : ''}`

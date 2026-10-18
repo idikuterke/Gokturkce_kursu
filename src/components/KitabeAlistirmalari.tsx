@@ -53,7 +53,7 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
     const okuma = bandda.filter((a) => a.tur === 'runik_oku');
     const kurma = bandda.filter((a) => a.tur === 'kelime_kur');
     const ceviri = bandda.filter((a) => a.tur === 'kelime_ceviri');
-    const dizeCeviri = bandda.filter((a) => a.tur === 'dize_ceviri');
+    const dizeCeviri = bandda.filter((a) => a.tur === 'dize_oku');
     const karisik: UretilmisAlistirma[] = [];
     for (let i = 0; i < 8; i++) {
       if (okuma[i]) karisik.push(okuma[i]);
@@ -281,10 +281,8 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
             <p className="text-sm text-metin-2">
               {aktif.tur === 'kelime_ceviri'
                 ? `"${aktif.transkripsiyon}" kelimesi ne anlama geliyor?`
-                : aktif.tur === 'dize_ceviri'
-                  ? aktif.gunumuzOkumasi
-                    ? 'Bu kitabe satırının günümüz okuması hangisidir?'
-                    : 'Bu kitabe satırı ne anlama geliyor?'
+                : aktif.tur === 'dize_oku'
+                  ? 'Bu kitabe satırının okunuşu hangisidir?'
                   : 'Bu kelimenin okunuşu hangisidir?'}
             </p>
             <button
@@ -328,7 +326,7 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
 
           {secim && (
             <div className="space-y-3 pt-1">
-              {aktif.tur === 'dize_ceviri' && aktif.gramerNotu && (
+              {aktif.tur === 'dize_oku' && aktif.gramerNotu && (
                 <div className="p-3 bg-zemin border border-amber-400/40 rounded-2xl space-y-1">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
                     Gramer · {aktif.gramerNotu.ek}

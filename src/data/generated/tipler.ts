@@ -40,7 +40,7 @@ export type UretilmisAlistirmaTuru =
   | 'runik_oku'
   | 'kelime_kur'
   | 'kelime_ceviri'
-  | 'dize_ceviri';
+  | 'dize_oku';
 
 export interface SozlukKelimesi {
   id: string;
@@ -94,7 +94,7 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
-  /** dize_ceviri: son kelimedeki çekim ekinin kısa açıklaması. */
+  /** dize_oku: son kelimedeki çekim ekinin kısa açıklaması. */
   gramerNotu?: {
     kelime: string;
     ek: string;
@@ -103,11 +103,14 @@ export interface UretilmisAlistirma {
     ornek: string;
     kaynak: string;
   } | null;
-  /** dize_ceviri: cümleciğin içindeki runik kelimeler (kaldıraç için). */
+  /** dize_oku: cümleciğin içindeki runik kelimeler (kaldıraç için). */
   icerdigiKelimeler?: string[];
   /** runik_oku: biliniyorsa günümüz Türkçesi karşılığı. */
   anlam?: string | null;
-  /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
+  /** dize_oku: satırın günümüz Türkçesi — SORUDA KULLANILMAZ, yalnız
+   *  cevaptan sonra bilgi olarak gösterilir. */
+  turkceKarsilik?: string;
+  /** dize_oku: karşılık çeviri değil günümüz okumasıysa true. */
   gunumuzOkumasi?: boolean;
   /**
    * dize_ceviri: akademik denetimden geçmemiş ama kaynaklı karşılık.

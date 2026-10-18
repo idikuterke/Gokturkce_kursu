@@ -517,3 +517,40 @@ Motor korpusla karşılaştırılarak iki kez düzeltildi:
 
 Son durum: 77 kelimenin 23'ü korpusla birebir aynı, 2'si farklı
 (`iki`, `beş` — korpusun kalıplaşmış biçimleri, tanıklı olan kazanır).
+
+---
+
+## Soru tipi kuralı — anlam yalnız kelime düzeyinde
+
+**Cümle ve cümlecik ANLAMI sorulmaz.** Kullanıcı Eski Türkçe gramerini,
+değişime uğramış sözcükleri bilmiyor; satır anlamı sormak öğretmiyor,
+tahmine zorluyor.
+
+| Birim | Sorulan |
+|---|---|
+| Tek kelime | **anlam** (`kelime_ceviri`) ve okunuş (`runik_oku`) |
+| Kitabe satırı / cümlecik | **yalnız okunuş** (`dize_oku`) |
+
+`dize_ceviri` türü `dize_oku` oldu: doğru cevap artık transkripsiyon,
+çeldiriciler de başka satırların transkripsiyonları. Türkçe karşılık
+`turkceKarsilik` alanında duruyor ama **soruda kullanılmıyor** — yalnız
+cevaptan sonra bilgi olarak, gramer notuyla birlikte gösteriliyor.
+
+Doğrulama: kuşaklarda cümle anlamı sorusu **0**, kelime anlamı 30,
+satır okuması 30.
+
+### Runik taşması
+
+`text-7xl` sabitti; 69 tamgalık satır ekrana sığmıyordu. `runikOlcek()`
+tamga sayısına göre punto seçer (6 → 7xl, 48+ → xl), kutu
+`max-h-[42vh] overflow-y-auto`, metin `break-words w-full min-w-0`.
+Ölçüm: 64 tamga, 720 px kutu → 652 px metin, taşma yok.
+
+### Gündelik modül genişledi
+
+77 → **136 kelime**, 11 tema: doğa, aile, sayı, renk, fiil, yiyecek,
+gündelik, **meyve, sebze, hayvan, doğa terimi**.
+
+Ses denkliğine `c → ç` eklendi (karınca < karınçga). Arapça/Farsça
+alıntılar (ceviz, incir, mercimek, lahana, nohut, bahar) listeden
+çıkarıldı — Eski Türkçede karşılıkları yok, üretmek uydurma olur.

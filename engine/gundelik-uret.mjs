@@ -71,7 +71,8 @@ const YOK_SES = new Set(["f", "h", "j"]);
  */
 const SES_DENKLIGI = new Map([
   ["ğ", { ses: "g", not: "ğ sesi Eski Türkçede g'dir (dağ < tag)" }],
-  ["v", { ses: "b", not: "v sesi Eski Türkçede b'dir (ev < eb, ver- < ber-)" }]
+  ["v", { ses: "b", not: "v sesi Eski Türkçede b'dir (ev < eb, ver- < ber-)" }],
+  ["c", { ses: "ç", not: "c sesi Eski Türkçede ç'dir (karınca < karınçga)" }]
 ]);
 
 /** Kelimenin kalın mı ince mi olduğunu son ünlüden değil, çoğunluktan bul. */
@@ -198,7 +199,38 @@ const KELIMELER = [
   { t: "it", tema: "gündelik" }, { t: "kuş", tema: "gündelik" }, { t: "balık", tema: "gündelik" },
   { t: "göz", tema: "gündelik" }, { t: "el", tema: "gündelik" }, { t: "baş", tema: "gündelik" },
   { t: "söz", tema: "gündelik" }, { t: "ok", tema: "gündelik" }, { t: "kitap", tema: "gündelik" },
-  { t: "yaş", tema: "gündelik" }, { t: "iyi", tema: "gündelik" }, { t: "ulu", tema: "gündelik" }
+  { t: "yaş", tema: "gündelik" }, { t: "iyi", tema: "gündelik" }, { t: "ulu", tema: "gündelik" },
+
+  { t: "elma", tema: "meyve" }, { t: "armut", tema: "meyve" }, { t: "üzüm", tema: "meyve" },
+  { t: "kiraz", tema: "meyve" }, { t: "dut", tema: "meyve" }, { t: "ceviz", tema: "meyve" },
+  // Not: ceviz, incir, mercimek, lahana, nohut, bahar listeden
+  // çıkarıldı — Arapça/Farsça alıntı, Eski Türkçede karşılıkları yok.
+  { t: "badem", tema: "meyve" }, { t: "nar", tema: "meyve" }, { t: "erik", tema: "meyve" },
+  { t: "karpuz", tema: "meyve" }, { t: "kayısı", tema: "meyve" },
+
+  { t: "soğan", tema: "sebze" }, { t: "sarımsak", tema: "sebze" }, { t: "turp", tema: "sebze" },
+  { t: "darı", tema: "sebze" }, { t: "buğday", tema: "sebze" }, { t: "arpa", tema: "sebze" },
+  { t: "pırasa", tema: "sebze" },
+
+  { t: "kurt", tema: "hayvan" }, { t: "koyun", tema: "hayvan" }, { t: "keçi", tema: "hayvan" },
+  { t: "sığır", tema: "hayvan" }, { t: "deve", tema: "hayvan" }, { t: "tilki", tema: "hayvan" },
+  { t: "ayı", tema: "hayvan" }, { t: "kaplan", tema: "hayvan" }, { t: "geyik", tema: "hayvan" },
+  { t: "tavşan", tema: "hayvan" }, { t: "kartal", tema: "hayvan" }, { t: "doğan", tema: "hayvan" },
+  { t: "yılan", tema: "hayvan" }, { t: "arı", tema: "hayvan" }, { t: "karınca", tema: "hayvan" },
+  { t: "sıçan", tema: "hayvan" }, { t: "domuz", tema: "hayvan" }, { t: "aygır", tema: "hayvan" },
+  { t: "buzağı", tema: "hayvan" }, { t: "kuzu", tema: "hayvan" },
+
+  { t: "orman", tema: "doğa terimi" }, { t: "ova", tema: "doğa terimi" },
+  { t: "çöl", tema: "doğa terimi" }, { t: "ırmak", tema: "doğa terimi" },
+  { t: "göl", tema: "doğa terimi" }, { t: "pınar", tema: "doğa terimi" },
+  { t: "kaya", tema: "doğa terimi" }, { t: "kum", tema: "doğa terimi" },
+  { t: "çamur", tema: "doğa terimi" }, { t: "duman", tema: "doğa terimi" },
+  { t: "ateş", tema: "doğa terimi" }, { t: "yağmur", tema: "doğa terimi" },
+  { t: "bulut", tema: "doğa terimi" }, { t: "gölge", tema: "doğa terimi" },
+  { t: "ışık", tema: "doğa terimi" }, { t: "karanlık", tema: "doğa terimi" },
+  { t: "yaz", tema: "doğa terimi" }, { t: "kış", tema: "doğa terimi" },
+  { t: "bahar", tema: "doğa terimi" }, { t: "güz", tema: "doğa terimi" },
+  { t: "tan", tema: "doğa terimi" }, { t: "akşam", tema: "doğa terimi" }
 ];
 
 /* ── Üretim ─────────────────────────────────────────────────────── */

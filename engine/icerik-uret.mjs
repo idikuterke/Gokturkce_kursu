@@ -458,12 +458,16 @@ const dizeCevirisi = ceviriyeHazir.filter(
 );
 for (const d of dizeCevirisi) {
   alistirmalar.push({
-    id: `gen-dizecev-${d.id}`,
-    tur: "dize_ceviri",
+    id: `gen-dizeoku-${d.id}`,
+    tur: "dize_oku",
     zorluk: ceviriZorlugu(d.kelimeSayisi),
     runik: d.runik,
     transkripsiyon: d.transkripsiyon,
-    dogru: d.turkce,
+    // ANLAM SORULMAZ. Kullanıcı Eski Türkçe gramerini bilmediği için
+    // cümle anlamı sormak tahmine zorluyor. Satır düzeyinde yalnız
+    // OKUNUŞ sorulur; anlam tek kelimede (kelime_ceviri) öğretilir.
+    dogru: d.transkripsiyon,
+    turkceKarsilik: d.turkce,
     // Çeviri mi, günümüz okuması mı — arayüzde belirtilir.
     gunumuzOkumasi: d.dogrulama?.ceviri === "gunumuz_okumasi",
     icerdigiKelimeler: d.runik.split(/\s*:\s*/).filter(Boolean),
@@ -503,12 +507,13 @@ if (fs.existsSync(CUMLECIK_YOLU)) {
       continue;
     }
     alistirmalar.push({
-      id: `gen-cumcev-${c.id}`,
-      tur: "dize_ceviri",
+      id: `gen-cumoku-${c.id}`,
+      tur: "dize_oku",
       zorluk: ceviriZorlugu(c.kelimeSayisi),
       runik: c.runik,
       transkripsiyon: c.transkripsiyon,
-      dogru: c.turkce,
+      dogru: c.transkripsiyon,
+      turkceKarsilik: c.turkce,
       gunumuzOkumasi: c.tur === "gunumuz_okumasi",
       // Kaldıraç için: bu cümleciğin içindeki runik kelimeler.
       // Kuşak kurucusu, kelimeleri daha önce öğretilmiş cümlecikleri
@@ -523,12 +528,12 @@ if (fs.existsSync(CUMLECIK_YOLU)) {
 }
 
 // ── Çeviri alıştırmalarına çeldirici ────────────────────────────────────────
-// dize_ceviri kayıtları yalnız doğru cevapla üretiliyordu; şık olmayınca
+// dize_oku kayıtları yalnız doğru cevapla üretiliyordu; şık olmayınca
 // ekranda kullanılamıyorlardı. Çeldiriciler diğer gerçek çevirilerden
 // seçilir: uydurma cümle üretmiyoruz, havuzdan benzer uzunlukta olanları
 // alıyoruz ki eleme uzunluğa bakarak yapılamasın.
 {
-  const ceviriler = alistirmalar.filter((a) => a.tur === "dize_ceviri");
+  const ceviriler = alistirmalar.filter((a) => a.tur === "dize_oku");
   const havuz = ceviriler.map((a) => a.dogru);
   for (const a of ceviriler) {
     const hedef = a.dogru.length;
@@ -594,7 +599,7 @@ const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
   // Cümle çevirisi dördüncü beceri: tek kelimeyi değil, kurallı bir
   // dizgeyi anlamak. Ders içinde en sona konur ki önce tanıma ve
   // yazma pekişsin.
-  const dizeCev = bantAlistirmalari.filter((a) => a.tur === "dize_ceviri");
+  const dizeCev = bantAlistirmalari.filter((a) => a.tur === "dize_oku");
 
   // KELİME KALDIRACI
   // Bir cümle çevirisi, kelimeleri daha önce öğretilmişse anlamlıdır.
@@ -737,7 +742,7 @@ export type UretilmisAlistirmaTuru =
   | 'runik_oku'
   | 'kelime_kur'
   | 'kelime_ceviri'
-  | 'dize_ceviri';
+  | 'dize_oku';
 
 export interface SozlukKelimesi {
   id: string;
@@ -791,7 +796,7 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
-  /** dize_ceviri: son kelimedeki çekim ekinin kısa açıklaması. */
+  /** dize_oku: son kelimedeki çekim ekinin kısa açıklaması. */
   gramerNotu?: {
     kelime: string;
     ek: string;
@@ -800,11 +805,14 @@ export interface UretilmisAlistirma {
     ornek: string;
     kaynak: string;
   } | null;
-  /** dize_ceviri: cümleciğin içindeki runik kelimeler (kaldıraç için). */
+  /** dize_oku: cümleciğin içindeki runik kelimeler (kaldıraç için). */
   icerdigiKelimeler?: string[];
   /** runik_oku: biliniyorsa günümüz Türkçesi karşılığı. */
   anlam?: string | null;
-  /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
+  /** dize_oku: satırın günümüz Türkçesi — SORUDA KULLANILMAZ, yalnız
+   *  cevaptan sonra bilgi olarak gösterilir. */
+  turkceKarsilik?: string;
+  /** dize_oku: karşılık çeviri değil günümüz okumasıysa true. */
   gunumuzOkumasi?: boolean;
   /**
    * dize_ceviri: akademik denetimden geçmemiş ama kaynaklı karşılık.
@@ -823,12 +831,12 @@ console.log(`benzersiz kelime: ${kelimeler.length} (güvenilir ${kelimeler.filte
 console.log(`alıştırma       : ${alistirmalar.length}`);
 console.log(`yakın çeldirici : ${yakinKullanan} kelimede bulundu (tek tamga farkıyla gerçek kelime)`);
 console.log(`kelime çevirisi : ${kelimeCevirisi}`);
-console.log(`dize çevirisi   : ${dizeCevirisi.length}  (denetimden geçen kısa dize)`);
+console.log(`dize okuması    : ${dizeCevirisi.length}  (denetimden geçen kısa dize)`);
 console.log(`  denetim bekleyen dize: ${dizeler.length - ceviriyeHazir.length}`);
 if (dizeMakine) {
   console.log(`  ATLANAN: ${dizeMakine} dize  ← denetleyen "insan" değil, alıştırmaya alınmadı`);
 }
-console.log(`cümlecik çevirisi: ${cumlecikCevirisi}  (insan onaylı + kitap alıntısı)`);
+console.log(`cümlecik okuması: ${cumlecikCevirisi}  (insan onaylı + kitap alıntısı)`);
 if (cumlecikMakine) {
   console.log(`  ATLANAN: ${cumlecikMakine} cümlecik  ← denetleyen "insan" değil, alıştırmaya alınmadı`);
 }
