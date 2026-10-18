@@ -12,6 +12,7 @@
     "tema:rapor": "node engine/tema-uygula.mjs --rapor",
     "denetim:uygula": "node engine/denetim-uygula.mjs --son",
     "tekin98:tara": "node engine/tekin1998-tara.mjs",
+    "gundelik:uret": "node engine/gundelik-uret.mjs",
     "kaynak:tara": "node engine/kaynak-tara.mjs",
     "ceviri:blok": "node engine/ceviri-blok-uret.mjs",
     "ceviri:birlestir": "node engine/ceviri-blok-birlestir.mjs",

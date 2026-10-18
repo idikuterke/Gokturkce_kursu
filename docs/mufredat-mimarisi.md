@@ -470,3 +470,50 @@ Rozet madalyonu 48×48 px, `text-xl` sabitti; `𐰋𐰃𐱅𐰃𐰏𐰲𐰃` gib
 başlıklar kutudan taşıyordu. `runikOlcek()` tamga sayısına göre punto
 seçer. **Kod noktasıyla sayar** — Göktürk tamgaları BMP dışında, `.length`
 ikiye katlayıp yanlış ölçek verir.
+
+---
+
+## Gündelik Modül — bugünün Türkçesi, Göktürk harfleriyle
+
+```bash
+npm run gundelik:uret
+```
+Ekran: Keşfet → **Gündelik Yazı**
+
+**Kitabe içeriğinden ayrıdır.** Üretilen yazımların çoğu hiçbir yazıtta
+geçmez; 13 maddelik imla kuralından türetilmiştir. Ekran bunu başta
+sarı uyarı kutusuyla, her soruda rozetle söyler.
+
+### Kural motoru
+
+`engine/gundelik-uret.mjs`, `00_Kaynaklar/imla_kurallari_13_madde.md`
+maddelerini uygular ve hangi kuralı neden uyguladığını adım adım
+kaydeder — kullanıcı "Hangi kurallar uygulandı?" ile görür:
+
+```
+balık → 𐰉𐰞𐰶
+  "b" → kalın biçim (md. 6)
+  kısa "a" yazılmaz (md. 3)
+  "l" → kalın biçim (md. 6)
+  "ık" hece damgası 𐰶 (md. 9)
+```
+
+### Korpus esastır
+
+Kelime yazıtlarda geçiyorsa **tanıklı yazım** kullanılır, üretilen
+değil. 77 kelimenin 20'si tanıklı. Tanıklı kelimelerde kural motorunun
+çıktısı farklıysa ikisi birden gösterilir.
+
+### Doğrulama kural motorunu düzeltti
+
+Motor korpusla karşılaştırılarak iki kez düzeltildi:
+
+| Bulgu | Düzeltme |
+|---|---|
+| `ok` → 𐰆𐰴, korpus 𐰸 | md. 9 hece damgaları eklendi |
+| `balık` → 𐰉𐰞𐰃𐰴, korpus 𐰉𐰞𐰶 | aynı |
+| `altı` → 𐰡𐰃, korpus 𐰞𐱃𐰃 | ünsüz kümesi damgaları (𐰡 𐰦 𐰨) **otomatik uygulanmıyor** — korpusta 20'ye karşı 54 ayrık yazım, yani seçimlik |
+| `dağ`, `ev` üretilemiyor | ses denkliği: ğ→g, v→b (dağ < tag, ev < eb) |
+
+Son durum: 77 kelimenin 23'ü korpusla birebir aynı, 2'si farklı
+(`iki`, `beş` — korpusun kalıplaşmış biçimleri, tanıklı olan kazanır).

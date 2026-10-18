@@ -1,8 +1,13 @@
-import React, { useState } from 'react';
-import { BookOpen, Keyboard, Shield, FileText, Compass, Sparkles } from 'lucide-react';
+import React, { useState, lazy, Suspense } from 'react';
+import { BookOpen, Keyboard, Shield, FileText, Compass, Sparkles, PenLine } from 'lucide-react';
 import { KitabelerReader } from './KitabelerReader';
 import { GokturkKeyboard } from './GokturkKeyboard';
 import { SozlukView } from './SozlukView';
+// Gündelik modül ayrı parça: 77 kelime + kural adımları taşır,
+// Keşfet sekmesi açılırken gereksiz yere yüklenmesin.
+const GundelikView = lazy(() =>
+  import('./GundelikView').then((m) => ({ default: m.GundelikView }))
+);
 import { BelgelerView } from './BelgelerView';
 
 interface KesfetViewProps {
@@ -10,7 +15,7 @@ interface KesfetViewProps {
   onListenPronunciation?: () => void;
   wordsLearnedCount?: number;
   learnedWordsRecord?: Record<string, boolean>;
-  initialSection?: 'kitabeler' | 'klavye' | 'sozluk' | 'belgeler';
+  initialSection?: 'kitabeler' | 'klavye' | 'sozluk' | 'gundelik' | 'belgeler';
 }
 
 export const KesfetView: React.FC<KesfetViewProps> = ({
@@ -20,12 +25,13 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
   learnedWordsRecord,
   initialSection = 'kitabeler'
 }) => {
-  const [activeSection, setActiveSection] = useState<'kitabeler' | 'klavye' | 'sozluk' | 'belgeler'>(initialSection);
+  const [activeSection, setActiveSection] = useState<'kitabeler' | 'klavye' | 'sozluk' | 'gundelik' | 'belgeler'>(initialSection);
 
   const sections = [
     { id: 'kitabeler', label: 'Bengü Taşlar', icon: BookOpen, desc: 'Orhun & Yenisey Yazıtları' },
     { id: 'klavye', label: 'Runik Yazıcı', icon: Keyboard, desc: 'Latin ⇄ Göktürkçe Çevirici' },
     { id: 'sozluk', label: 'Kadim Sözlük', icon: Shield, desc: 'Köktürkçe Söz Varlığı' },
+    { id: 'gundelik', label: 'Gündelik Yazı', icon: PenLine, desc: 'Bugünün Türkçesini Tamgalarla Yaz' },
     { id: 'belgeler', label: 'PDF Kütüphane', icon: FileText, desc: 'Akademik Eserler & Tablolar' },
   ];
 
@@ -95,6 +101,12 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
             learnedWordsRecord={learnedWordsRecord}
           />
         )}
+        {activeSection === 'gundelik' && (
+          <Suspense fallback={<p className="p-8 text-metin-3">Yükleniyor…</p>}>
+            <GundelikView />
+          </Suspense>
+        )}
+
         {activeSection === 'belgeler' && <BelgelerView />}
       </div>
     </div>
