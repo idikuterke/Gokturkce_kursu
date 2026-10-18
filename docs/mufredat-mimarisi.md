@@ -554,3 +554,41 @@ gündelik, **meyve, sebze, hayvan, doğa terimi**.
 Ses denkliğine `c → ç` eklendi (karınca < karınçga). Arapça/Farsça
 alıntılar (ceviz, incir, mercimek, lahana, nohut, bahar) listeden
 çıkarıldı — Eski Türkçede karşılıkları yok, üretmek uydurma olur.
+
+---
+
+## Öğrenme yolu sırası
+
+```
+1-11.  GÜNDELİK      bildiğin kelimelerle harfleri öğren (136 alıştırma, 27 ders)
+12-16. ALFABE        elle yazılmış aşamalar (tamga tanıma, imla)
+17-21. KİTABE        korpustan üretilen kuşaklar (okuma, kurma, satır okuması)
+```
+
+Gündelik üniteler **yolun başına** alındı. Gerekçe: kitabe kelimeleriyle
+başlamak anlamı ve yazımı aynı anda yüklüyordu. Öğrenen önce "elma"yı
+tamgalarla yazmayı öğrenir, sonra "bodun"a geçer.
+
+Ünite numaraları `App.tsx` içinde birleştirmeden sonra **yeniden
+verilir**, böylece yol 1'den başlayarak kesintisiz numaralanır.
+
+Gündelik üniteler `accentColor: 'uyari'` ile kitabe kuşaklarından
+görsel olarak ayrılır; her alıştırmanın açıklaması yazımın tanıklı mı
+kuraldan mı geldiğini söyler.
+
+## Gündelik yazım denetimi
+
+```bash
+npm run gundelik:denetim        # 10'arlı bloklar
+node engine/gundelik-denetim-listesi.mjs --boyut 20
+```
+
+Çıktı: `docs/gundelik-denetim/blok-01.md … blok-12.md` + `ozet.md`
+
+136 kelimenin **20'si tanıklı** (yazıtta geçiyor, denetim gerekmez),
+**116'sı kural motorundan** üretildi. Her blok kelime başına yazımı,
+tamga tamga dökümünü, sırayı ve **uygulanan kuralların listesini**
+gösterir — yanlışı görürsen hangi kuralın hatalı olduğunu da görürsün.
+
+Düzeltme yöntemi: tek tek elle değiştirmek değil, **kuralı düzeltmek**.
+Aynı hata başka kelimelerde tekrarlanmasın.

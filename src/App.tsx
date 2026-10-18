@@ -16,6 +16,7 @@ import { sonucGonder, kuyrukTasi } from './utils/sonucGonder';
 import { useCloudProgress } from './hooks/useCloudProgress';
 import { AuthModal } from './components/AuthModal';
 import { uretilmisKusaklar } from './data/generated/kusakKur';
+import { gundelikKusaklar } from './data/generated/gundelikKusak';
 
 // Acilista yalnizca "Ogren" sekmesi gorunur. Digerleri ayri parcalara
 // bolunup ilk acildiklarinda yuklenir; boylece recharts gibi agir
@@ -69,16 +70,31 @@ export const App: React.FC = () => {
   // Ayrı parçada; öğrenme yolu açılınca iniyor. İnmezse yol elle yazılmış
   // içerikle sorunsuz çalışmaya devam eder.
   const [uretilmisUniteler, setUretilmisUniteler] = useState<typeof UNITS>([]);
+  // Gündelik üniteler yolun BAŞINDA: öğrenen bildiği kelimeyle harfleri
+  // öğrenir, sonra tanımadığı Eski Türkçe sözcüklere geçer.
+  const [gundelikUniteler, setGundelikUniteler] = useState<typeof UNITS>([]);
 
   useEffect(() => {
     let iptal = false;
     uretilmisKusaklar()
       .then((u) => { if (!iptal) setUretilmisUniteler(u); })
       .catch(() => { /* yol elle yazılmış içerikle çalışır */ });
+    gundelikKusaklar()
+      .then((u) => { if (!iptal) setGundelikUniteler(u); })
+      .catch(() => { /* gündelik modül isteğe bağlı */ });
     return () => { iptal = true; };
   }, []);
 
-  const tumUniteler = useMemo(() => [...UNITS, ...uretilmisUniteler], [uretilmisUniteler]);
+  // Sıra: gündelik (bildiğin kelimeler) → elle yazılmış alfabe aşamaları
+  // → kitabe kuşakları. Ünite numaraları sırayla yeniden verilir.
+  const tumUniteler = useMemo(
+    () =>
+      [...gundelikUniteler, ...UNITS, ...uretilmisUniteler].map((u, i) => ({
+        ...u,
+        number: i + 1
+      })),
+    [gundelikUniteler, uretilmisUniteler]
+  );
 
   const handleTabChange = (tab: string) => {
     setCurrentTab(tab);
