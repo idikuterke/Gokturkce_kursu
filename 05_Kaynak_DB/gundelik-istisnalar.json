@@ -104,11 +104,11 @@
       "tarih": "2026-10-18T21:51:51.468Z"
     },
     "kardeş": {
-      "sonuc": "dogru",
-      "gorulenRunik": "𐰴𐰺𐰓𐱁",
+      "sonuc": "duzeltildi",
+      "runik": "𐰴𐰺𐰑𐱁",
       "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
       "denetleyen": "insan",
-      "tarih": "2026-10-18T21:51:58.930Z"
+      "tarih": "2026-10-19T00:00:00.000Z"
     },
     "dede": {
       "sonuc": "dogru",
@@ -475,11 +475,11 @@
       "tarih": "2026-10-18T20:31:03.638Z"
     },
     "kurt": {
-      "sonuc": "yeniden",
-      "gorulenRunik": "𐰸𐰆𐰺𐱃",
+      "sonuc": "duzeltildi",
+      "runik": "𐰸𐰆𐰺𐱃",
       "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
       "denetleyen": "insan",
-      "tarih": "2026-10-18T23:25:27.833Z"
+      "tarih": "2026-10-19T00:00:00.000Z"
     },
     "koyun": {
       "sonuc": "dogru",

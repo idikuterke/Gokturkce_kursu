@@ -277,12 +277,18 @@ export function gokturkceYaz(kelime) {
 
     let yerelSira = konumSirasi(i);
 
-    // md. 16 — söz başında "yı/yi", kalın hece olsa bile İNCE y ile.
-    //   korpus: YIŞ 𐰘𐰃𐱁, YIL 𐰘𐰃𐰞, YILKA 𐰘𐰃𐰞𐰴𐰀
-    if (h === "y" && i === 0 && (harfler[1] === "ı" || harfler[1] === "i")) {
-      yerelSira = "ince";
-      adimlar.push('söz başında "yı" — kalın hece olsa da ince y (md. 16)');
-    }
+    // md. 16 (söz başında "yı" → ince y) UYGULANMIYOR — denetim kararı.
+    //
+    // Kaynaklar bu yazımı tanıklıyor: Tekin2003 §26 (s. 32-33) ön /y/'nin
+    // art ünlülü sözcüklerde söz başı ı ve o/u önünde de kullanıldığını,
+    // "seslik önemi yoktur" diyerek kaydeder; korpusta YIŞ 𐰘𐰃𐱁, YIL 𐰘𐰃𐰞,
+    // YILKA 𐰘𐰃𐰞𐰴𐰀 geçer.
+    //
+    // Ama bu bir EĞİLİM, kural değil: "kitabelerde böyle ama oradaki
+    // kullanım hep öyle kullanıldığı anlamına gelmiyor" (denetim notu).
+    // Gündelik modül bugünün Türkçesini yazıyor; orada kalın sıra kalın y
+    // ister. Çavdar da kalın Y kullanıyor. Kitabe tarafı etkilenmez,
+    // orada korpus yazımı kullanılıyor.
     // md. 13 — söz sonunda "-ın", kalın hece olsa bile İNCE n ile.
     //   korpus: OGLIN 𐰆𐰍𐰞𐰃𐰤, YOTuZIN 𐰖𐰆𐱃𐰔𐰃𐰤, KaŊIN 𐰴𐰭𐰃𐰤
     if (

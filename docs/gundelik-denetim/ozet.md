@@ -6,11 +6,11 @@
 |---|---|
 | Toplam kelime | 135 |
 | Tanıklı (yazıtta geçiyor, denetim gerekmez) | 20 |
-| İnsan onaylı (mühürlü) | 113 |
-| **Denetlenecek (kuraldan üretildi)** | **2** |
+| İnsan onaylı (mühürlü) | 114 |
+| **Denetlenecek (kuraldan üretildi)** | **1** |
 | Blok | 1 × 10 |
 
-Tema dağılımı: aile 1 · hayvan 1
+Tema dağılımı: hayvan 1
 
 ## Tanıklı kelimeler (denetim dışı)
 
