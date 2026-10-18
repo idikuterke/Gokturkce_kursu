@@ -328,6 +328,17 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
 
           {secim && (
             <div className="space-y-3 pt-1">
+              {aktif.tur === 'runik_oku' && aktif.anlam && (
+                <div className="p-3 bg-zemin border border-marka/40 rounded-2xl">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-marka-acik">
+                    Günümüz Türkçesi
+                  </span>
+                  <p className="text-sm text-white mt-0.5">
+                    <span className="font-bold">{aktif.dogru}</span> — {aktif.anlam}
+                  </p>
+                </div>
+              )}
+
               {kaynakDize && (
                 <div className="p-3 bg-zemin border border-zemin-4 rounded-2xl space-y-1">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-marka-acik">

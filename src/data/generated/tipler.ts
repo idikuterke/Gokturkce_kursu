@@ -94,6 +94,8 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
+  /** runik_oku: biliniyorsa günümüz Türkçesi karşılığı. */
+  anlam?: string | null;
   /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
   gunumuzOkumasi?: boolean;
   /**

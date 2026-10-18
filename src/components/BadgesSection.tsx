@@ -18,6 +18,25 @@ interface BadgesSectionProps {
   onClaimBadge?: (badge: Badge) => void;
 }
 
+/**
+ * Rozet runiği kutuya sığsın diye tamga sayısına göre küçülür.
+ * Göktürk tamgaları BMP dışında (U+10C00+), bu yüzden uzunluk
+ * kod noktasıyla sayılır — `.length` ikiye katlar ve yanlış ölçek verir.
+ */
+const runikOlcek = (metin: string, buyuk = false): string => {
+  const n = [...(metin ?? '')].length;
+  if (buyuk) {
+    if (n <= 2) return 'text-4xl';
+    if (n <= 4) return 'text-3xl';
+    if (n <= 6) return 'text-2xl';
+    return 'text-xl';
+  }
+  if (n <= 2) return 'text-xl';
+  if (n <= 4) return 'text-base';
+  if (n <= 6) return 'text-xs';
+  return 'text-[10px]';
+};
+
 export const BadgesSection: React.FC<BadgesSectionProps> = ({ progress, onClaimBadge }) => {
   const [selectedCategory, setSelectedCategory] = useState<'all' | 'streak' | 'words' | 'xp' | 'lessons'>('all');
   const [activeBadgeModal, setActiveBadgeModal] = useState<Badge | null>(null);
@@ -166,14 +185,18 @@ export const BadgesSection: React.FC<BadgesSectionProps> = ({ progress, onClaimB
               <div className="flex items-start gap-3.5">
                 {/* Runic Badge Medallion */}
                 <div
-                  className={`w-12 h-12 rounded-2xl flex items-center justify-center font-serif text-xl border transition-all flex-shrink-0 shadow-md ${
+                  className={`w-12 h-12 rounded-2xl flex items-center justify-center font-serif border transition-all flex-shrink-0 shadow-md overflow-hidden px-1 ${
                     isUnlocked
                       ? 'bg-gradient-to-br from-amber-400/25 to-amber-600/30 text-amber-300 border-amber-400 shadow-amber-400/20 group-hover:scale-105'
                       : 'bg-zemin text-metin-3 border-zemin-4'
                   }`}
                 >
                   {isUnlocked ? (
-                    <span className="runic tracking-tighter drop-shadow">{badge.runicTitle}</span>
+                    <span
+                      className={`runic tracking-tighter drop-shadow leading-none whitespace-nowrap ${runikOlcek(badge.runicTitle)}`}
+                    >
+                      {badge.runicTitle}
+                    </span>
                   ) : (
                     <Lock className="w-5 h-5 text-metin-3" />
                   )}
@@ -262,8 +285,12 @@ export const BadgesSection: React.FC<BadgesSectionProps> = ({ progress, onClaimB
           >
             {/* Modal Header with Big Medallion */}
             <div className="flex flex-col items-center text-center space-y-3">
-              <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-amber-400/20 via-zemin-3 to-zemin border-2 border-amber-400 flex items-center justify-center text-4xl font-serif text-amber-300 shadow-xl shadow-amber-400/20">
-                <span className="runic drop-shadow-md">{activeBadgeModal.runicTitle}</span>
+              <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-amber-400/20 via-zemin-3 to-zemin border-2 border-amber-400 flex items-center justify-center font-serif text-amber-300 shadow-xl shadow-amber-400/20 overflow-hidden px-1.5">
+                <span
+                  className={`runic drop-shadow-md leading-none whitespace-nowrap ${runikOlcek(activeBadgeModal.runicTitle, true)}`}
+                >
+                  {activeBadgeModal.runicTitle}
+                </span>
               </div>
               <div>
                 <span className="text-xs font-bold uppercase tracking-widest text-amber-400">

@@ -436,3 +436,37 @@ artık doğru cevapla **aynı ünsüz iskeletine** sahipse eleniyor.
 `denetim-uygula.mjs` artık `ceviri === "hatali"` kaydını da korur.
 Bir insanın reddini otomatik koşunun geri getirmesi, onayı ezmesi kadar
 kötüdür. (BK-B-7 böyle dirilmişti, geri alındı.)
+
+---
+
+## Zorluk eğrisi ve öğrenilebilirlik
+
+### Çeviri zorluğu kademelendi
+
+Eski formül `ceil(kelimeSayisi / 3)` idi; bantlar 1-3, 4-6, 7-9, 10-12
+olunca 7. aşamadan 8'e geçerken cümle **4 kelimeden 9 kelimeye**
+sıçrıyordu. Yeni bantlar her aşamada 1-2 kelime ekler:
+
+| Aşama | Kelime | Cevap uzunluğu |
+|---|---|---|
+| 6 | 1-2 | 11-22 harf |
+| 7 | 4 | 23-41 |
+| 8 | 5-6 | 30-62 |
+| 9 | 7-9 | 52-85 |
+| 10 | 10-12 | 72-104 |
+
+10. aşama önceden **boştu** (hiç çeviri almıyordu), şimdi doluyor.
+
+### Okunuş sorusunda anlam da gösteriliyor
+
+Okunuşu bilmek anlamı bilmek değil. `runik_oku` alıştırmaları artık
+sözlükte karşılığı varsa `anlam` taşıyor; cevaptan sonra
+"TeŊRİ — gök, tanrı, ilahi düzen" biçiminde gösteriliyor.
+676 okuma alıştırmasının 50'sinde karşılık var (sözlük büyüdükçe artar).
+
+### Rozet runiği taşması
+
+Rozet madalyonu 48×48 px, `text-xl` sabitti; `𐰋𐰃𐱅𐰃𐰏𐰲𐰃` gibi 6 tamgalı
+başlıklar kutudan taşıyordu. `runikOlcek()` tamga sayısına göre punto
+seçer. **Kod noktasıyla sayar** — Göktürk tamgaları BMP dışında, `.length`
+ikiye katlayıp yanlış ölçek verir.

@@ -30,7 +30,10 @@ const alistirmayaCevir = (
       runePrompt: a.runik,
       options: a.secenekler,
       correctAnswer: a.dogru,
-      explanation: `Bu sözcük ${a.kaynak} dizesinde geçiyor.`
+      // Okunuşu bilmek anlamı bilmek değil: karşılığı da göster.
+      explanation: a.anlam
+        ? `${a.dogru} — ${a.anlam}  ·  ${a.kaynak} dizesinde geçiyor.`
+        : `Bu sözcük ${a.kaynak} dizesinde geçiyor.`
     };
   }
 

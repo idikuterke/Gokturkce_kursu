@@ -209,6 +209,16 @@ const celdiriciler = (dogru, havuz, runikDizin, adet = 3) => {
   return secilen;
 };
 
+// Sözlükte anlamı olan kelimeler: kelime kurma alıştırmasında "Anlam" alanı
+// gösterildiği için yalnızca anlamı BİLİNEN kelimeler oraya konur. Anlamı
+// olmayanı boş ya da uydurma anlamla göstermek öğretici olmaz.
+const anlamlar = new Map();
+if (fs.existsSync(P("05_Kaynak_DB/sozluk-anlamlar.json"))) {
+  for (const k of oku("05_Kaynak_DB/sozluk-anlamlar.json")) {
+    if (k.runik && k.anlam && !k.korpustaYok) anlamlar.set(k.runik, k.anlam);
+  }
+}
+
 const alistirmalar = [];
 // Yalnızca güvenilir ve birden fazla geçen kelimeler: tek geçişli biçimler
 // dizgi hatası olmaya daha açık.
@@ -245,6 +255,10 @@ for (const k of uygun) {
     runik: k.runik,
     dogru: k.transkripsiyon,
     secenekler: [k.transkripsiyon, ...yanlislar.map((y) => y.transkripsiyon)],
+    // Okunuşu bilmek anlamı bilmek değil. Cevaptan sonra günümüz
+    // karşılığı da gösterilir ki kullanıcı kelimeyi öğrensin, sadece
+    // harf çevirisi yapmasın.
+    anlam: anlamlar.get(k.runik) ?? null,
     kaynak: k.gectigiDizeler[0],
   });
 
@@ -337,6 +351,21 @@ for (const k of sozlukKayitlari) {
 // Bu, "günümüz okuması kabul edilebilir ama belirtilmeli" ilkesinin
 // aynısı: içeriği gizlemiyoruz, doğrulanmamışı doğrulanmış gibi
 // sunmuyoruz.
+/**
+ * Çeviri zorluğu kelime sayısına göre. Eski formül ceil(n/3) idi;
+ * bantlar 1-3, 4-6, 7-9, 10-12 olunca aşama 7'den 8'e geçerken
+ * cümle 4 kelimeden 9 kelimeye sıçrıyordu — öğrenen duvara tosluyor.
+ * Yeni bantlar her aşamada 1-2 kelime ekler:
+ *   1 → 1-2   2 → 3-4   3 → 5-6   4 → 7-9   5 → 10-12
+ */
+const ceviriZorlugu = (kelimeSayisi) => {
+  if (kelimeSayisi <= 2) return 1;
+  if (kelimeSayisi <= 4) return 2;
+  if (kelimeSayisi <= 6) return 3;
+  if (kelimeSayisi <= 9) return 4;
+  return 5;
+};
+
 const KITAP_ESIGI = 0.9;
 const skorOku = (metin) => {
   const m = (metin || "").match(/eşleşme ([\d.]+)/);
@@ -400,7 +429,7 @@ for (const d of dizeCevirisi) {
   alistirmalar.push({
     id: `gen-dizecev-${d.id}`,
     tur: "dize_ceviri",
-    zorluk: Math.min(5, Math.max(1, Math.ceil(d.kelimeSayisi / 3))),
+    zorluk: ceviriZorlugu(d.kelimeSayisi),
     runik: d.runik,
     transkripsiyon: d.transkripsiyon,
     dogru: d.turkce,
@@ -443,7 +472,7 @@ if (fs.existsSync(CUMLECIK_YOLU)) {
     alistirmalar.push({
       id: `gen-cumcev-${c.id}`,
       tur: "dize_ceviri",
-      zorluk: Math.min(5, Math.max(1, Math.ceil(c.kelimeSayisi / 3))),
+      zorluk: ceviriZorlugu(c.kelimeSayisi),
       runik: c.runik,
       transkripsiyon: c.transkripsiyon,
       dogru: c.turkce,
@@ -513,16 +542,6 @@ const KUSAK_TANIMI = [
 
 const DERS_BASINA = 8;
 const DERS_SAYISI = 3;
-
-// Sözlükte anlamı olan kelimeler: kelime kurma alıştırmasında "Anlam" alanı
-// gösterildiği için yalnızca anlamı BİLİNEN kelimeler oraya konur. Anlamı
-// olmayanı boş ya da uydurma anlamla göstermek öğretici olmaz.
-const anlamlar = new Map();
-if (fs.existsSync(P("05_Kaynak_DB/sozluk-anlamlar.json"))) {
-  for (const k of oku("05_Kaynak_DB/sozluk-anlamlar.json")) {
-    if (k.runik && k.anlam && !k.korpustaYok) anlamlar.set(k.runik, k.anlam);
-  }
-}
 
 const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
   const bantAlistirmalari = alistirmalar.filter((a) => a.zorluk === tanim.bant);
@@ -711,6 +730,8 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
+  /** runik_oku: biliniyorsa günümüz Türkçesi karşılığı. */
+  anlam?: string | null;
   /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
   gunumuzOkumasi?: boolean;
   /**
