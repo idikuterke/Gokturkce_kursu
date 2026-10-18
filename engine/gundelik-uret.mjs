@@ -39,24 +39,49 @@ for (const c of tamgalar) {
 }
 
 /**
- * md. 9 — hece damgaları. Ünlü+ünsüz (ya da ünsüz+ünlü) çifti tek
- * tamgayla yazılır. Korpus doğrulaması bunu zorunlu kıldı: balık
- * 𐰉𐰞𐰶 (ı+k ligatürü), ok 𐰸 (o+k) — ligatürsüz yazım korpustan sapıyor.
+ * md. 9 — hece damgaları. KORPUS SAYIMI (18.10.2026 denetimi):
+ *   𐰸 ok/uk/ko/ku  → 295 geçiş ligatürlü, 57 ayrık (%84)
+ *   söz başında da serbest: KOP 𐰸𐰆𐰯, KUL 𐰸𐰆𐰞, KIZ 𐰶𐰃𐰔, KÜN 𐰜𐰇𐰤
+ *     (𐰸 ile 45, 𐰶 ile 25, 𐰜 ile 9 kelime söz başında)
  *
- * Konum yasağı: söz başında ko/ku/kö/kü/kı tek başına ligatürle
- * yazılamaz (kök = 𐰚𐰜, kıldı = 𐰴𐰃𐰡𐰃).
+ * Eski sürümdeki "söz başında yasak" kaydı korpusa aykırıydı; kaldırıldı.
+ *
+ * YÖN ÖNEMLİ:
+ *   ünsüz+ünlü (ko, ku) → damga YAZILIR, ünlü ayrıca yazılır: KOP 𐰸𐰆𐰯
+ *   ünlü+ünsüz (ok, uk) → damga tek başına yeter: YOK 𐰖𐰸, IDUK 𐰃𐰑𐰸
+ *
+ * 𐰱 yalnız "iç" dizilişindedir. Korpusta iki kelime var, ikisi de
+ * ünlü+ünsüz: İÇiKDİ 𐰱𐰚𐰓𐰃, İÇGeRTiM 𐰱𐰏𐰼𐱅𐰢. "çi" için kullanılamaz —
+ * keçi 𐰚𐰱 yazılırsa "ke-iç" okunur (denetim bulgusu).
  */
+//
+// Her damga aynı ölçüde yaygın DEĞİL. Korpus (geçiş sayısı):
+//
+//   damga   söz başı              iç konum
+//   𐰸       ligatür 106 / 33      ligatür 189 /  24   → her yerde
+//   𐰶       ligatür  61 / 51      ligatür  26 / 108   → yalnız söz başı (kı)
+//   𐰜       ligatür  21 /145      ligatür  42 /  45   → hiç (𐰚 + ünlü yeğlenir)
+//
+// Bu yüzden 𐰜 tablodan çıkarıldı: KÜN korpusta 𐰚𐰇𐰤'dir, 𐰜𐰇𐰤 değil.
 const HECE_DAMGALARI = [
-  { ciftler: ["ok", "uk", "ko", "ku"], glif: "𐰸", sozBasiYasak: ["ko", "ku"] },
-  { ciftler: ["ök", "ük", "kö", "kü"], glif: "𐰜", sozBasiYasak: ["kö", "kü"] },
-  { ciftler: ["ık", "kı"], glif: "𐰶", sozBasiYasak: ["kı"] },
-  { ciftler: ["iç", "çi"], glif: "𐰱", sozBasiYasak: [] }
+  { glif: "𐰸", unluOnce: ["ok", "uk"], unluSonra: ["ko", "ku"] },
+  { glif: "𐰶", unluOnce: ["ık"], unluSonra: ["kı"], unluSonraSozBasi: true },
+  { glif: "𐰱", unluOnce: ["iç"], unluSonra: [] }
 ];
 
-// Ünsüz kümesi damgaları (𐰡 lt/ld, 𐰦 nt/nd, 𐰨 nç) OTOMATİK
-// UYGULANMAZ. Korpus sayımı: 𐰡 ligatürlü 20 kelimeye karşı ayrık
-// l+t yazımı 54 — ligatür azınlıkta, yani seçimlik. Zorunlu saymak
-// korpustan sapan yazım üretiyordu (altı: bizim 𐰡𐰃, korpus 𐰞𐱃𐰃).
+/**
+ * Ünsüz kümesi damgaları. Korpus oranları karar verir:
+ *   𐰨 nç    → 160 geçiş ligatürlü,   1 ayrık  → ZORUNLU
+ *   𐰦 nt/nd → 173 geçiş ligatürlü,  31 ayrık  → ZORUNLU
+ *   𐰡 lt/ld →  71 geçiş ligatürlü, 180 ayrık  → uygulanmaz (azınlık)
+ *
+ * Önceki sürümde üçü birden uygulanmıyordu; gerekçe olarak yazılan
+ * "20 ligatür / 54 ayrık" sayısı yalnız lt/ld için doğruymuş.
+ */
+const KUME_DAMGALARI = [
+  { glif: "𐰨", ciftler: ["nç"] },
+  { glif: "𐰦", ciftler: ["nt", "nd"] }
+];
 
 const KALIN_UNLU = new Set(["a", "ı", "o", "u"]);
 const INCE_UNLU = new Set(["e", "i", "ö", "ü"]);
@@ -75,7 +100,7 @@ const SES_DENKLIGI = new Map([
   ["c", { ses: "ç", not: "c sesi Eski Türkçede ç'dir (karınca < karınçga)" }]
 ]);
 
-/** Kelimenin kalın mı ince mi olduğunu son ünlüden değil, çoğunluktan bul. */
+/** Kelimenin genel sırası — yalnız etiket için (ünsüz seçimi heceye bakar). */
 function sira(kelime) {
   let kalin = 0;
   let ince = 0;
@@ -86,82 +111,191 @@ function sira(kelime) {
   return kalin >= ince ? "kalin" : "ince";
 }
 
+/**
+ * HER ÜNSÜZÜN BAĞLI OLDUĞU ÜNLÜ — kalın/ince biçimi bu belirler.
+ *
+ * Eski motor kelimenin tamamına tek bir sıra veriyordu. Karışık ünlülü
+ * sözcüklerde (kitap, kiraz, elma, badem) bu yanlış: Göktürk yazısında
+ * ünsüz kendi HECESİNİN ünlüsüne uyar, kelimenin çoğunluğuna değil.
+ *
+ * Korpus kanıtı — aynı yazımda iki seri birden:
+ *   TeMiRKaPıGKA  𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀   ince T,R  +  kalın K,G,K
+ *   YOLuGTİGiN    𐰖𐰆𐰞𐰍𐱅𐰃𐰏𐰤   kalın Y,L,G  +  ince T,G,N
+ *   KaÇaNeŊ       𐰴𐰲𐰤𐰭          kalın K  +  ince N
+ * Karışık ünlülü kelimelerde ölçüm: hece bölmeli %100, kelime düzeyi %50.
+ *
+ * Hece bölme (Türkçe): söz başı öbeği sonraki ünlüye, söz sonu öbeği
+ * önceki ünlüye bağlanır. İki ünlü arasında tek ünsüz varsa sonraki
+ * hecenin başıdır (sağdaki ünlü); öbek varsa ilki önceki hecenin
+ * sonudur (soldaki ünlü), kalanı sonraki hecenin başı.
+ *   el-ma   → l soldaki "e"ye  → ince 𐰠   (denetim bulgusu)
+ *   ki-tap  → k sağdaki "i"ye  → ince 𐰚   (denetim bulgusu)
+ *   ba-dem  → d sağdaki "e"ye  → ince 𐰓   (denetim bulgusu)
+ */
+function unsuzUnluBagi(harfler) {
+  const n = harfler.length;
+  const bag = new Array(n).fill(null);
+  const unluYerleri = [];
+  for (let i = 0; i < n; i++) if (UNLU.has(harfler[i])) unluYerleri.push(i);
+  if (!unluYerleri.length) return bag;
+
+  for (let i = 0; i < n; i++) {
+    if (UNLU.has(harfler[i])) continue;
+    const sag = unluYerleri.find((j) => j > i);
+    const sol = [...unluYerleri].reverse().find((j) => j < i);
+    if (sag === undefined) { bag[i] = sol; continue; }  // söz sonu öbeği
+    if (sol === undefined) { bag[i] = sag; continue; }  // söz başı öbeği
+    // Öbeğin ilk ünsüzü müyüz (solumuzda ünlü var mı)?
+    const obeginIlki = UNLU.has(harfler[i - 1]);
+    const tekUnsuz = sag - i === 1;
+    bag[i] = obeginIlki && !tekUnsuz ? sol : sag;
+  }
+  return bag;
+}
+
 /** Bir sesi uygun tamgaya çevir. */
 function tamga(ses, siraAdi) {
   const kova = siraAdi === "kalin" ? harita.kalin : harita.ince;
   return kova.get(ses) ?? harita.notr.get(ses) ?? null;
 }
 
-/**
- * Türkçe sözcüğü Göktürk tamgalarına çevirir.
- * Dönüş: { runik, adimlar, uyari } — adimlar hangi kuralın neden
- * uygulandığını söyler, arayüzde öğretici olarak gösterilir.
- */
 export function gokturkceYaz(kelime) {
-  const k = kelime.toLocaleLowerCase("tr").trim();
-  for (const h of k) if (YOK_SES.has(h)) {
+  const ham = kelime.toLocaleLowerCase("tr").trim();
+  for (const h of ham) if (YOK_SES.has(h)) {
     return { runik: null, uyari: `"${h}" sesi Göktürk yazısında yok.`, adimlar: [] };
   }
 
-  const s = sira(k);
-  const harfler = [...k];
-  const cikti = [];
   const adimlar = [];
 
+  // Ses denklikleri ÖNCE uygulanır: küme damgası (nç) ancak c→ç
+  // dönüşümünden sonra görünür hale geliyor (karınca → karınça).
+  const harfler = [];
+  for (const h of ham) {
+    const denk = SES_DENKLIGI.get(h);
+    if (denk) { adimlar.push(denk.not); harfler.push(denk.ses); }
+    else harfler.push(h);
+  }
+
+  const s = sira(harfler.join(""));
+  const bag = unsuzUnluBagi(harfler);
+  /** Bu konumdaki ünsüz hangi sıradan yazılır? */
+  const konumSirasi = (i) => {
+    const v = bag[i] === null ? null : harfler[bag[i]];
+    if (v === null) return s;
+    return KALIN_UNLU.has(v) ? "kalin" : "ince";
+  };
+
+  const cikti = [];
+  let unluSirasi = 0;          // kaçıncı ünlüdeyiz (1 = ilk hece)
+  // md. 2 "söz sonu ünlüsü" = kelimenin SON HARFİ ünlüyse. Kelimenin son
+  // ünlüsü değil: kitap'ta "a" son ünlüdür ama söz sonunda değildir.
+  const sonHarfYeri = harfler.length - 1;
+
   for (let i = 0; i < harfler.length; i++) {
-    // md. 9 — iki harflik hece damgası var mı?
     const cift = (harfler[i] ?? "") + (harfler[i + 1] ?? "");
-    const damga = HECE_DAMGALARI.find((d) => d.ciftler.includes(cift));
-    if (damga && !(i === 0 && damga.sozBasiYasak.includes(cift))) {
-      cikti.push(damga.glif);
-      adimlar.push(`"${cift}" hece damgası ${damga.glif} (md. 9)`);
-      i++; // çifti tükettik
+
+    // md. 9a — ünlü+ünsüz hece damgası (ok, uk, ık, iç): tek tamga yeter.
+    const onceli = HECE_DAMGALARI.find((d) => d.unluOnce.includes(cift));
+    if (onceli) {
+      unluSirasi++;
+      cikti.push(onceli.glif);
+      adimlar.push(`"${cift}" hece damgası ${onceli.glif} (md. 9)`);
+      i++;
       continue;
     }
 
-    let h = harfler[i];
-    const denk = SES_DENKLIGI.get(h);
-    if (denk) {
-      adimlar.push(denk.not);
-      h = denk.ses;
-      harfler[i] = h;
+    // md. 9b — ünsüz+ünlü hece damgası (ko, ku, kö, kü, kı): damga
+    // yazılır, ünlü AYRICA yazılır. Korpus: KOP 𐰸𐰆𐰯, KUL 𐰸𐰆𐰞.
+    const sonrali = HECE_DAMGALARI.find(
+      (d) => d.unluSonra.includes(cift) && !(d.unluSonraSozBasi && i > 0)
+    );
+    if (sonrali) {
+      cikti.push(sonrali.glif);
+      adimlar.push(`"${cift}" hece damgası ${sonrali.glif} (md. 9)`);
+      // Ünsüz damgaya girdi; ünlü ayrıca, kendi kuralıyla yazılır.
+      const unluYeri = i + 1;
+      const v = harfler[unluYeri];
+      unluSirasi++;
+      if (yazilirMi(v, unluSirasi, unluYeri === sonHarfYeri, adimlar)) {
+        const g = tamga(v, KALIN_UNLU.has(v) ? "kalin" : "ince");
+        if (g) cikti.push(g);
+      }
+      i = unluYeri;              // ikisini de tükettik
+      continue;
     }
-    const sonMu = i === harfler.length - 1;
 
-    // md.8 — ikiz ünsüz tek harf
+    // md. 10 — ünsüz kümesi damgası (nç, nt, nd). Korpusta baskın.
+    const kume = KUME_DAMGALARI.find((d) => d.ciftler.includes(cift));
+    if (kume) {
+      cikti.push(kume.glif);
+      adimlar.push(`"${cift}" küme damgası ${kume.glif} (md. 10)`);
+      i++;
+      continue;
+    }
+
+    const h = harfler[i];
+
+    // md. 8 — ikiz ünsüz tek harf
     if (!UNLU.has(h) && i > 0 && harfler[i - 1] === h) {
       adimlar.push(`${h}${h} ikiz ünsüz → tek tamga (md. 8)`);
       continue;
     }
 
     if (UNLU.has(h)) {
-      // md.2 — söz sonu ünlüsü her zaman yazılır
-      if (sonMu) {
-        const g = tamga(h, s);
-        if (g) { cikti.push(g); adimlar.push(`son ünlü "${h}" yazılır (md. 2)`); }
-        continue;
-      }
-      // md.3 / md.4 — kısa a/e yazılmaz
-      if (h === "a" || h === "e") {
-        adimlar.push(`kısa "${h}" yazılmaz (md. ${i === 0 || i === 1 ? 3 : 4})`);
-        continue;
-      }
-      // ı/i ve yuvarlaklar yazılır
+      unluSirasi++;
+      if (!yazilirMi(h, unluSirasi, i === sonHarfYeri, adimlar)) continue;
       const g = tamga(h, s);
-      if (g) { cikti.push(g); adimlar.push(`"${h}" yazılır (md. 3)`); }
+      if (g) cikti.push(g);
       continue;
     }
 
-    const g = tamga(h, s);
+    const yerelSira = konumSirasi(i);
+    const g = tamga(h, yerelSira);
     if (!g) return { runik: null, uyari: `"${h}" için tamga bulunamadı.`, adimlar };
     cikti.push(g);
     const kutuplu = ["b", "d", "g", "k", "l", "n", "r", "s", "t", "y"].includes(h);
-    adimlar.push(kutuplu ? `"${h}" → ${s === "kalin" ? "kalın" : "ince"} biçim (md. 6)` : `"${h}"`);
+    if (kutuplu) {
+      const komsu = bag[i] === null ? null : harfler[bag[i]];
+      adimlar.push(
+        `"${h}" → ${yerelSira === "kalin" ? "kalın" : "ince"} biçim` +
+          (komsu ? ` (hecesindeki "${komsu}" ünlüsüne uyar, md. 6)` : " (md. 6)")
+      );
+    } else {
+      adimlar.push(`"${h}"`);
+    }
   }
 
   if (!cikti.length) return { runik: null, uyari: "Yazılacak tamga kalmadı.", adimlar };
   // md.1 — sağdan sola yazılır; dizgi soldan sağa tutulur, arayüz dir="rtl" ile çevirir.
   return { runik: cikti.join(""), uyari: null, adimlar, sira: s };
+}
+
+/**
+ * Bu ünlü yazılır mı? Korpus sayımı (yazılan / yazılmayan geçiş):
+ *
+ *   ünlü   1. hece        sonraki heceler
+ *   ı      %95            %42
+ *   i      %75            %41
+ *   u      %99            %40
+ *   ü      %100           %43
+ *   o/ö    %99            %98
+ *   a/e    %21            %20
+ *
+ * Kural: a/e hiç yazılmaz (md. 3-4). o/ö her yerde yazılır. ı/i/u/ü
+ * yalnız İLK HECEDE yazılır. Söz sonu ünlüsü her zaman yazılır (md. 2).
+ *
+ * Eski motor ı/i/u/ü'yü her hecede yazıyordu; sonraki hecelerde korpus
+ * bunu %58 oranında çürütüyor. Denetimde iki bulgu da bu kuraldan:
+ *   sığır   𐰽𐰃𐰍𐰺   (ikinci ı yazılmaz)
+ *   karınca 𐰴𐰺𐰨𐰀   (ikinci hecedeki ı yazılmaz)
+ */
+function yazilirMi(h, unluSirasi, sonMu, adimlar) {
+  if (sonMu) { adimlar.push(`son ünlü "${h}" yazılır (md. 2)`); return true; }
+  if (h === "a" || h === "e") { adimlar.push(`kısa "${h}" yazılmaz (md. ${unluSirasi <= 1 ? 3 : 4})`); return false; }
+  if (h === "o" || h === "ö") { adimlar.push(`yuvarlak "${h}" her hecede yazılır (md. 3)`); return true; }
+  if (unluSirasi <= 1) { adimlar.push(`ilk hecedeki "${h}" yazılır (md. 3)`); return true; }
+  adimlar.push(`ilk heceden sonraki "${h}" yazılmaz (md. 4)`);
+  return false;
 }
 
 /* ── Kelime listesi ─────────────────────────────────────────────────
@@ -270,6 +404,7 @@ const gorulenKelime = new Set();
 let insanOnayli = 0;
 let insanDuzeltti = 0;
 let insanCikardi = 0;
+const muhurDustu = [];
 for (const { t, tema } of KELIMELER) {
   // Aynı sözcük iki temada geçerse id ve React anahtarı çakışır; ilki kalır.
   if (gorulenKelime.has(t)) { atlanan.push({ kelime: t, sebep: `"${t}" listede iki kez var (ikincisi: ${tema}).` }); continue; }
@@ -277,7 +412,18 @@ for (const { t, tema } of KELIMELER) {
   const sonuc = gokturkceYaz(t);
   if (!sonuc.runik) { atlanan.push({ kelime: t, sebep: sonuc.uyari }); continue; }
 
-  const istisna = istisnalar[t];
+  let istisna = istisnalar[t];
+
+  // MÜHÜR GEÇERLİLİĞİ.
+  // İnsan, ekranda belli bir yazımı görüp onayladı. İmla kuralı
+  // sonradan düzeltilince üretilen yazım değişebilir — o onay artık
+  // başka bir yazıma aittir. Eski mührü yeni yazıma taşımak,
+  // denetlenmemiş bir şeyi denetlenmiş göstermek olur.
+  if (istisna?.gorulenRunik && istisna.sonuc === "dogru" && istisna.gorulenRunik !== sonuc.runik) {
+    muhurDustu.push(`${t} (${istisna.gorulenRunik} → ${sonuc.runik})`);
+    istisna = null;
+  }
+
   if (istisna?.sonuc === "cikarilsin") {
     insanCikardi++;
     atlanan.push({ kelime: t, sebep: `insan denetimi çıkardı${istisna.not ? `: ${istisna.not}` : ""}` });
@@ -363,6 +509,13 @@ if (insanOnayli || insanDuzeltti || insanCikardi) {
   );
 } else {
   console.log("  insan denetimi  : yok (denetim ekranı → Gündelik yazım)");
+}
+if (muhurDustu.length) {
+  console.log(
+    `\n  kural değiştiği için mührü düşen ${muhurDustu.length} kelime ` +
+      "— yeniden denetlenecek:"
+  );
+  for (const m of muhurDustu) console.log(`    ${m}`);
 }
 console.log(`tema dağılımı   : ${Object.entries(temalar).map(([t, n]) => `${t} ${n}`).join(" · ")}`);
 if (esYazimSayisi) {

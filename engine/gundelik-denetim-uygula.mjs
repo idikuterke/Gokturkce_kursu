@@ -31,7 +31,16 @@ const ISTISNA = P("05_Kaynak_DB/gundelik-istisnalar.json");
 const argv = process.argv.slice(2);
 const kuru = argv.includes("--kuru");
 const sonMu = argv.includes("--son");
-let yol = argv.find((a) => !a.startsWith("--"));
+// --gorulen <gundelik.json>: denetim sırasında ekranda DURAN yazımlar.
+// Paketin kendisi bunu taşımıyorsa (eski sürüm dışa aktarımı) buradan alınır.
+const gorulenArg = argv[argv.indexOf("--gorulen") + 1];
+const gorulenHarita = new Map();
+if (argv.includes("--gorulen") && gorulenArg) {
+  for (const k of JSON.parse(readFileSync(resolve(gorulenArg), "utf8")).kelimeler ?? []) {
+    gorulenHarita.set(k.kelime, k.runik);
+  }
+}
+let yol = argv.filter((a) => !a.startsWith("--") && a !== gorulenArg)[0];
 
 /** --son: indirilenler ve proje kökünde en yeni denetim-gundelik-*.json. */
 function enYeniPaket() {
@@ -81,8 +90,9 @@ const mevcut = existsSync(ISTISNA)
   ? JSON.parse(readFileSync(ISTISNA, "utf8"))
   : { surum: "gundelik-istisna-v1", kayitlar: {} };
 
-const say = { onay: 0, duzeltme: 0, cikarilan: 0, red: 0, hatali: 0 };
+const say = { onay: 0, duzeltme: 0, cikarilan: 0, red: 0, hatali: 0, yeniden: 0 };
 const hatalar = [];
+const yeniden = [];
 
 for (const k of paket.kararlar ?? []) {
   // id "gundelik-sarı" biçiminde; kelime son parçadır.
@@ -92,27 +102,49 @@ for (const k of paket.kararlar ?? []) {
   const duzeltme = (k.runikDuzeltme ?? "").trim();
   let sonuc;
 
-  if (k.karar === "red") {
-    // Red + düzeltme = düzeltildi. Red ama düzeltme yoksa yazım
-    // yanlış sayılır ve kelime modülden düşer: yanlış bilinen bir
-    // yazımı "belki doğrudur" diye öğretmeyiz.
-    sonuc = duzeltme ? "duzeltildi" : "cikarilsin";
-  } else if (k.tur === "cikarilsin") {
+  if (k.tur === "cikarilsin") {
+    // Kelimeyi modülden düşürmek YALNIZ açık istekle olur.
     sonuc = "cikarilsin";
   } else if (duzeltme) {
     sonuc = "duzeltildi";
+  } else if (k.karar === "red" || k.tur === "duzeltildi") {
+    // "Yanlış" denmiş ama doğrusu Runik düzeltmesi alanına yazılmamış.
+    // İki şey YAPILMAZ: kelimeyi silmek (istenen o değil) ve "doğru"
+    // diye mühürlemek (bulunan hata yutulur). Mührü vermeyiz, kelime
+    // listede kalır ve yeniden denetime girer.
+    sonuc = "yeniden";
   } else {
     sonuc = "dogru";
   }
 
+  // SESSİZ KAYIP KORUMASI.
+  // "Düzeltildi" işaretlenip runik alanı boş bırakılmışsa düzeltme
+  // nereye yazıldı belli değil — genellikle not alanına. Bu kaydı
+  // "doğru" diye mühürlemek insanın bulduğu hatayı yutar. Burada
+  // durur, kelimeyi sayar ve notu ekrana basarız.
+  if (sonuc === "yeniden") {
+    const yazi = (k.metin || k.not || "").trim();
+    yeniden.push(`${kelime}${yazi ? `\n      not: ${yazi}` : ""}`);
+  }
+
   if (sonuc === "duzeltildi" && !duzeltme) {
-    hatalar.push(`${kelime}: düzeltme işaretli ama runik alanı boş`);
+    const yazi = (k.metin || k.not || "").trim();
+    hatalar.push(
+      `${kelime}: "düzeltildi" işaretli ama Runik düzeltmesi alanı boş` +
+        (yazi ? `\n      not: ${yazi}` : "")
+    );
     say.hatali++;
     continue;
   }
 
+  const gorulen = (k.gorulenRunik || gorulenHarita.get(kelime) || "").trim();
+
   mevcut.kayitlar[kelime] = {
     sonuc,
+    // Denetleyenin ekranda GÖRDÜĞÜ yazım. İmla kuralı sonradan
+    // düzeltilirse üretilen yazım bundan ayrılır; o zaman mühür
+    // düşer ve kelime yeniden denetime girer (gundelik-uret.mjs).
+    ...(gorulen ? { gorulenRunik: gorulen } : {}),
     ...(duzeltme ? { runik: duzeltme } : {}),
     ...(k.not?.trim() ? { not: k.not.trim() } : {}),
     kaynak: k.kaynak || "00_Kaynaklar/imla_kurallari_13_madde.md",
@@ -122,6 +154,7 @@ for (const k of paket.kararlar ?? []) {
 
   if (sonuc === "dogru") say.onay++;
   else if (sonuc === "duzeltildi") say.duzeltme++;
+  else if (sonuc === "yeniden") say.yeniden++;
   else say.cikarilan++;
   if (k.karar === "red") say.red++;
 }
@@ -132,6 +165,11 @@ console.log(`karar            : ${(paket.kararlar ?? []).length}`);
 console.log(`  yazım doğru    : ${say.onay}`);
 console.log(`  düzeltildi     : ${say.duzeltme}`);
 console.log(`  çıkarılacak    : ${say.cikarilan}`);
+if (say.yeniden) {
+  console.log(`  YENİDEN denetim: ${say.yeniden}  ← yanlış denmiş, doğrusu yazılmamış`);
+  for (const y of yeniden) console.log(`    ${y}`);
+}
+if (gorulenHarita.size) console.log(`  görülen yazım  : ${gorulenHarita.size} kelimeden alındı (--gorulen)`);
 if (hatalar.length) {
   console.log(`\nişlenemeyen ${hatalar.length}:`);
   for (const h of hatalar) console.log(`  ${h}`);

@@ -1,0 +1,807 @@
+{
+  "surum": "gundelik-istisna-v1",
+  "kayitlar": {
+    "su": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰽𐰆",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:20:41.586Z"
+    },
+    "gün": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰇𐰤",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:21:14.617Z"
+    },
+    "yıldız": {
+      "sonuc": "yeniden",
+      "gorulenRunik": "𐰖𐰃𐰞𐰑𐰃𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:21:43.608Z"
+    },
+    "dağ": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰍",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:21:56.171Z"
+    },
+    "deniz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰓𐰤𐰃𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:00.736Z"
+    },
+    "yol": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰖𐰆𐰞",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:03.641Z"
+    },
+    "ağaç": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰍𐰲",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:09.040Z"
+    },
+    "toprak": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱃𐰆𐰯𐰺𐰴",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:19.140Z"
+    },
+    "gök": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰜",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:22.954Z"
+    },
+    "yel": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰘𐰠",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:25.402Z"
+    },
+    "kar": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:26.969Z"
+    },
+    "buz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐰆𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:47.647Z"
+    },
+    "ana": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰣𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:49.262Z"
+    },
+    "ata": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱃𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:50.060Z"
+    },
+    "oğul": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰆𐰍𐰆𐰞",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:22:57.396Z"
+    },
+    "kardeş": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰺𐰑𐱁",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:23:03.336Z"
+    },
+    "dede": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰓𐰓𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:23:38.577Z"
+    },
+    "ad": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:23:43.088Z"
+    },
+    "dört": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰓𐰇𐰼𐱅",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:23:47.004Z"
+    },
+    "yedi": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰘𐰓𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:23:49.085Z"
+    },
+    "dokuz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰸𐰆𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:23:53.147Z"
+    },
+    "bin": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰋𐰃𐰤",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:01.853Z"
+    },
+    "al": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰞",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:02.852Z"
+    },
+    "sarı": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰽𐰺𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:05.389Z"
+    },
+    "mor": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰢𐰆𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:07.722Z"
+    },
+    "gel": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰠",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:09.479Z"
+    },
+    "git": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰃𐱅",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:11.729Z"
+    },
+    "bak": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐰴",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:14.628Z"
+    },
+    "dur": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰆𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:17.234Z"
+    },
+    "otur": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰆𐱃𐰆𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:20.326Z"
+    },
+    "yaz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰖𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:22.653Z"
+    },
+    "oku": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰸𐰆",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:26.615Z"
+    },
+    "bil": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰋𐰃𐰠",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:29.726Z"
+    },
+    "ver": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰋𐰼",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:32.484Z"
+    },
+    "sor": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰽𐰆𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:34.368Z"
+    },
+    "koş": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰆𐱁",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:38.791Z"
+    },
+    "uyu": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰆𐰖𐰆",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:41.072Z"
+    },
+    "iç": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰱",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:42.234Z"
+    },
+    "ye": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰘𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:43.573Z"
+    },
+    "ekmek": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰚𐰢𐰚",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:47.089Z"
+    },
+    "et": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱅",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:48.749Z"
+    },
+    "süt": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰾𐰇𐱅",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:50.608Z"
+    },
+    "tuz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱃𐰆𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:54.169Z"
+    },
+    "bal": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐰞",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:55.880Z"
+    },
+    "aş": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱁",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:57.571Z"
+    },
+    "ev": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰋",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:24:59.330Z"
+    },
+    "kapı": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰯𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:25:01.173Z"
+    },
+    "it": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰃𐱅",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:25:02.778Z"
+    },
+    "kuş": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰆𐱁",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:25:05.404Z"
+    },
+    "göz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰇𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:25:07.416Z"
+    },
+    "el": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰠",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:25:08.801Z"
+    },
+    "baş": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐱁",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:25:09.819Z"
+    },
+    "söz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰾𐰇𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:25:10.931Z"
+    },
+    "kitap": {
+      "sonuc": "yeniden",
+      "gorulenRunik": "𐰴𐰃𐱃𐰯",
+      "not": "1. \"k\" → kalın biçim (md. 6) · 2. \"i\" yazılır  yanlış baştaki k ince olur ince ünlü ile kullanılıyor",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:26:05.962Z"
+    },
+    "iyi": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰃𐰘𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:26:10.741Z"
+    },
+    "ulu": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰆𐰞𐰆",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:26:12.928Z"
+    },
+    "elma": {
+      "sonuc": "yeniden",
+      "gorulenRunik": "𐰞𐰢𐰀",
+      "not": "1. kısa \"e\" yazılmaz (md. 3) · 2. \"l\" → kalın biçim (md. 6) · ama e yazılmasada incedir l ince olmalı, orijinalde alma şeklinin yazımı bu",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:27:05.387Z"
+    },
+    "armut": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰺𐰢𐰆𐱃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:27:11.582Z"
+    },
+    "üzüm": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰇𐰔𐰇𐰢",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:27:14.471Z"
+    },
+    "kiraz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰃𐰺𐰔",
+      "not": "1. \"k\" → kalın biçim (md. 6) · 2. \"i\" yazılır (md. 3) · 3.",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:27:59.433Z"
+    },
+    "dut": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰆𐱃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:28:04.023Z"
+    },
+    "ceviz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰲𐰋𐰃𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:28:07.178Z"
+    },
+    "badem": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐰑𐰢",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:29:31.346Z"
+    },
+    "nar": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰣𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:29:40.055Z"
+    },
+    "erik": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰼𐰃𐰚",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:29:47.400Z"
+    },
+    "karpuz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰺𐰯𐰆𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:29:58.873Z"
+    },
+    "kayısı": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰖𐰃𐰽𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:30:15.347Z"
+    },
+    "soğan": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰽𐰆𐰍𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:30:21.068Z"
+    },
+    "sarımsak": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰽𐰺𐰃𐰢𐰽𐰴",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:30:29.759Z"
+    },
+    "turp": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱃𐰆𐰺𐰯",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:30:35.848Z"
+    },
+    "darı": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰺𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:30:40.374Z"
+    },
+    "buğday": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐰆𐰍𐰑𐰖",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:30:51.970Z"
+    },
+    "arpa": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰺𐰯𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:30:57.117Z"
+    },
+    "pırasa": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰯𐰃𐰺𐰽𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:31:03.638Z"
+    },
+    "kurt": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰆𐰺𐱃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:31:31.693Z"
+    },
+    "koyun": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰆𐰖𐰆𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:31:43.838Z"
+    },
+    "keçi": {
+      "sonuc": "yeniden",
+      "gorulenRunik": "𐰚𐰱",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:32:17.607Z"
+    },
+    "sığır": {
+      "sonuc": "yeniden",
+      "gorulenRunik": "𐰽𐰃𐰍𐰃𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:32:58.928Z"
+    },
+    "deve": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰓𐰋𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:33:08.027Z"
+    },
+    "tilki": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱅𐰃𐰠𐰚𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:33:14.098Z"
+    },
+    "ayı": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰖𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:33:19.043Z"
+    },
+    "kaplan": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰯𐰞𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:33:25.010Z"
+    },
+    "geyik": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰘𐰃𐰚",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:06.342Z"
+    },
+    "tavşan": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱃𐰉𐱁𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:18.010Z"
+    },
+    "kartal": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰺𐱃𐰞",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:21.246Z"
+    },
+    "doğan": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰆𐰍𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:24.807Z"
+    },
+    "yılan": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰖𐰃𐰞𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:27.365Z"
+    },
+    "arı": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰺𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:28.450Z"
+    },
+    "karınca": {
+      "sonuc": "yeniden",
+      "gorulenRunik": "𐰴𐰺𐰃𐰣𐰲𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:50.507Z"
+    },
+    "sıçan": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰽𐰃𐰲𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:34:59.547Z"
+    },
+    "domuz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰆𐰢𐰆𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:34.974Z"
+    },
+    "aygır": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰖𐰍𐰃𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:42.401Z"
+    },
+    "buzağı": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐰆𐰔𐰍𐰃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:44.544Z"
+    },
+    "kuzu": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰆𐰔𐰆",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:47.318Z"
+    },
+    "orman": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰆𐰺𐰢𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:49.225Z"
+    },
+    "ova": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰆𐰉𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:51.362Z"
+    },
+    "çöl": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰲𐰇𐰠",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:53.876Z"
+    },
+    "ırmak": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰃𐰺𐰢𐰴",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:35:55.129Z"
+    },
+    "göl": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰇𐰠",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:01.621Z"
+    },
+    "pınar": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰯𐰃𐰣𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:03.575Z"
+    },
+    "kaya": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰖𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:05.303Z"
+    },
+    "kum": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰆𐰢",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:06.635Z"
+    },
+    "çamur": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰲𐰢𐰆𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:08.810Z"
+    },
+    "duman": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰑𐰆𐰢𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:13.487Z"
+    },
+    "ateş": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱃𐱁",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:20.277Z"
+    },
+    "yağmur": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰖𐰍𐰢𐰆𐰺",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:27.007Z"
+    },
+    "bulut": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰉𐰆𐰞𐰆𐱃",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:38.715Z"
+    },
+    "gölge": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰇𐰠𐰏𐰀",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:47.329Z"
+    },
+    "ışık": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰃𐱁𐰶",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:36:57.102Z"
+    },
+    "karanlık": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰺𐰣𐰞𐰶",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:37:08.903Z"
+    },
+    "kış": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐰃𐱁",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:37:15.263Z"
+    },
+    "güz": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰏𐰇𐰔",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:37:18.214Z"
+    },
+    "tan": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐱃𐰣",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:37:20.844Z"
+    },
+    "akşam": {
+      "sonuc": "dogru",
+      "gorulenRunik": "𐰴𐱁𐰢",
+      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "denetleyen": "insan",
+      "tarih": "2026-10-18T20:37:23.672Z"
+    }
+  },
+  "guncelleme": "2026-10-18"
+}

@@ -22,6 +22,9 @@ import {
  * Runik ölçeği kod noktasına göre — tek kelime büyük, uzun dize küçük.
  * `.length` kullanılamaz: U+10C00 üstü karakterler iki birim sayılır.
  */
+/** Eski Türk yazısı tamgası (U+10C00–U+10C4F). */
+const TAMGA_DESENI = /[\u{10C00}-\u{10C4F}]/u;
+
 const runikOlcek = (metin: string): string => {
   const n = [...(metin ?? '')].length;
   if (n <= 6) return 'text-6xl';
@@ -141,7 +144,13 @@ export const DenetimView: React.FC = () => {
       uretim: new Date().toISOString(),
       kararlar: Object.entries(kararlar)
         .filter(([, d]) => d.karar !== 'beklemede')
-        .map(([id, d]) => ({ id, ...d })),
+        .map(([id, d]) => ({
+          id,
+          ...d,
+          // Denetleyenin ekranda GÖRDÜĞÜ yazım. Kural sonradan düzelirse
+          // üretilen yazım bundan ayrılır ve mühür düşer.
+          gorulenRunik: kayitlar.find((k) => k.id === id)?.runik ?? '',
+        })),
     };
     const url = URL.createObjectURL(
       new Blob([JSON.stringify(govde, null, 2)], { type: 'application/json' })
@@ -151,7 +160,7 @@ export const DenetimView: React.FC = () => {
     a.download = `denetim-${kuyrukId}-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
-  }, [kararlar, kuyruk, kuyrukId]);
+  }, [kararlar, kayitlar, kuyruk, kuyrukId]);
 
   useEffect(() => {
     const dinle = (e: KeyboardEvent) => {
@@ -353,22 +362,40 @@ export const DenetimView: React.FC = () => {
               />
             </label>
 
-            <details className="rounded-xl bg-[#FFF4D6] px-4 py-3">
-              <summary className="cursor-pointer text-sm font-semibold text-[#7A5A00]">
-                Runik düzeltmesi (korpus esastır — yalnız gerçek hata varsa)
-              </summary>
-              <input
-                dir="rtl"
-                lang="otk"
-                value={aktifKarar.runikDuzeltme}
-                onChange={(e) => guncelle({ runikDuzeltme: e.target.value })}
-                placeholder={aktif.runik}
-                className={`${girdi} mt-3 text-2xl`}
-              />
-              <p className="mt-2 text-xs text-[#7A5A00]">
-                Doldurulursa kayıt ayrıca işaretlenir ve güvenlik kapısı yeniden koşar.
+          {/*
+            Runik düzeltmesi eskiden <details> içinde kapalıydı. Denetimde
+            görüldü ki düzeltmeler oraya değil, açıkta duran not alanına
+            yazılıyor — ve uygulayıcı onları göremiyor. Alan artık açık.
+          */}
+          <label className="block rounded-xl bg-[#FFF4D6] px-4 py-3">
+            <span className="mb-1 block text-sm font-semibold text-[#7A5A00]">
+              Runik düzeltmesi — doğru yazımı BURAYA yaz
+            </span>
+            <input
+              dir="rtl"
+              lang="otk"
+              value={aktifKarar.runikDuzeltme}
+              onChange={(e) => guncelle({ runikDuzeltme: e.target.value })}
+              placeholder={aktif.runik}
+              className={`${girdi} text-3xl`}
+            />
+            <p className="mt-2 text-xs text-[#7A5A00]">
+              Korpus esastır — yalnız gerçek hata varsa doldur. Notu yukarıdaki
+              alana yaz; tamgalar buraya.
+            </p>
+          </label>
+
+          {/*
+            Not alanına tamga yazılmışsa uyar: oraya yazılan düzeltme
+            uygulayıcıya ulaşmaz.
+          */}
+          {TAMGA_DESENI.test(`${aktifKarar.metin} ${aktifKarar.not}`) &&
+            !aktifKarar.runikDuzeltme.trim() && (
+              <p className="rounded-xl bg-[#FDECEC] px-4 py-3 text-sm text-[#9B1C1C]">
+                Not alanına tamga yazmışsın ama “Runik düzeltmesi” boş. Düzeltme
+                yalnız o alandan okunuyor — tamgaları oraya taşı.
               </p>
-            </details>
+            )}
           </div>
 
           <div className="mt-6 flex flex-wrap items-center gap-3">

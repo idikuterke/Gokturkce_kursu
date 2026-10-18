@@ -25,7 +25,12 @@ if (!Number.isInteger(BOYUT) || BOYUT < 1) throw new Error(`--boyut geçersiz: $
 
 const veri = JSON.parse(readFileSync(P("src/data/generated/gundelik.json"), "utf8"));
 // Tanıklı olanlar denetim gerektirmez: yazıttan geliyorlar.
-const denetlenecek = veri.kelimeler.filter((k) => !k.tanikli);
+// Mührü geçerli olan kelime listeye girmez. Mühür, imla kuralı
+// değişip yazım farklılaşınca üreticide düşer; kelime o zaman
+// kendiliğinden geri gelir.
+const muhurlu = (k) => k.insanDenetimi === "dogru" || k.insanDenetimi === "duzeltildi";
+const denetlenecek = veri.kelimeler.filter((k) => !k.tanikli && !muhurlu(k));
+const onayli = veri.kelimeler.filter((k) => !k.tanikli && muhurlu(k));
 const tanikli = veri.kelimeler.filter((k) => k.tanikli);
 
 const dizin = P("docs/gundelik-denetim");
@@ -88,6 +93,7 @@ writeFileSync(
     "|---|---|",
     `| Toplam kelime | ${veri.kelimeler.length} |`,
     `| Tanıklı (yazıtta geçiyor, denetim gerekmez) | ${tanikli.length} |`,
+    `| İnsan onaylı (mühürlü) | ${onayli.length} |`,
     `| **Denetlenecek (kuraldan üretildi)** | **${denetlenecek.length}** |`,
     `| Blok | ${blokSayisi} × ${BOYUT} |`,
     "",
@@ -120,6 +126,7 @@ writeFileSync(
 
 console.log(`toplam kelime  : ${veri.kelimeler.length}`);
 console.log(`tanıklı        : ${tanikli.length}  (denetim gerekmez)`);
+console.log(`insan onaylı   : ${onayli.length}  (mühürlü, tekrar sorulmaz)`);
 console.log(`denetlenecek   : ${denetlenecek.length}`);
 console.log(`blok           : ${blokSayisi} × ${BOYUT}`);
 console.log(`\nyazıldı: docs/gundelik-denetim/`);

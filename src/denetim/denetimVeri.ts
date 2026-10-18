@@ -251,6 +251,10 @@ KUYRUKLAR.push({
     return veri.kelimeler
       // Tanıklı yazım korpustan gelir; denetlenecek olan kuraldan üretilendir.
       .filter((k) => !k.tanikli)
+      // Mührü geçerli olan kelime tekrar sorulmaz. Mühür, kural
+      // değişip yazım farklılaşınca üretici tarafından düşürülür —
+      // o zaman kelime kendiliğinden listeye geri gelir.
+      .filter((k) => k.insanDenetimi !== "dogru" && k.insanDenetimi !== "duzeltildi")
       .map((k) => {
         const uyarilar: string[] = [];
         const esYazim = (k.esYazim as string[]) ?? [];
@@ -268,7 +272,10 @@ KUYRUKLAR.push({
           transkripsiyon: [...String(k.runik)].join(" "),
           // Uygulanan kurallar: yanlışsa hangi kuralın hata verdiği görünsün.
           baglam: (k.adimlar as string[]).map((a, i) => `${i + 1}. ${a}`).join("   ·   "),
-          rozetler: [`${k.tamgaSayisi} tamga`, "kuraldan üretildi"],
+          rozetler: [
+            `${k.tamgaSayisi} tamga`,
+            k.insanDenetimi === "yeniden" ? "yeniden denetim" : "kuraldan üretildi",
+          ],
           uyarilar,
           onDolgu: {
             tur: "dogru",

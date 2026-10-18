@@ -1,176 +1,101 @@
-# Gündelik Yazım Denetimi — Blok 04 / 12
+# Gündelik Yazım Denetimi — Blok 04 / 4
 
-10 kelime · kural motorundan üretildi, **tanıklı değil**
+5 kelime · kural motorundan üretildi, **tanıklı değil**
 
 Her kelimede yazımın doğru olup olmadığını işaretle. Yanlışsa
 doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 31. yaz  _(fiil)_
+### 31. çamur  _(doğa terimi)_
 
 | | |
 |---|---|
-| Yazım | <span lang="otk">𐰖𐰔</span> |
-| Tamga tamga | 𐰖 𐰔 |
-| Sıra | kalın · 2 tamga |
+| Yazım | <span lang="otk">𐰲𐰢𐰺</span> |
+| Tamga tamga | 𐰲 𐰢 𐰺 |
+| Sıra | kalın · 3 tamga |
 
 Uygulanan kurallar:
-- "y" → kalın biçim (md. 6)
+- "ç"
 - kısa "a" yazılmaz (md. 3)
-- "z"
+- "m"
+- ilk heceden sonraki "u" yazılmaz (md. 4)
+- "r" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 32. oku  _(fiil)_
+### 32. ateş  _(doğa terimi)_
 
 | | |
 |---|---|
-| Yazım | <span lang="otk">𐰸𐰆</span> |
-| Tamga tamga | 𐰸 𐰆 |
+| Yazım | <span lang="otk">𐱅𐱁</span> |
+| Tamga tamga | 𐱅 𐱁 |
 | Sıra | kalın · 2 tamga |
 
 Uygulanan kurallar:
-- "ok" hece damgası 𐰸 (md. 9)
-- son ünlü "u" yazılır (md. 2)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 33. bil  _(fiil)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰋𐰃𐰠</span> |
-| Tamga tamga | 𐰋 𐰃 𐰠 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- "b" → ince biçim (md. 6)
-- "i" yazılır (md. 3)
-- "l" → ince biçim (md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 34. ver  _(fiil)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰋𐰼</span> |
-| Tamga tamga | 𐰋 𐰼 |
-| Sıra | ince · 2 tamga |
-
-Uygulanan kurallar:
-- v sesi Eski Türkçede b'dir (ev < eb, ver- < ber-)
-- "b" → ince biçim (md. 6)
-- kısa "e" yazılmaz (md. 3)
-- "r" → ince biçim (md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 35. sor  _(fiil)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰽𐰆𐰺</span> |
-| Tamga tamga | 𐰽 𐰆 𐰺 |
-| Sıra | kalın · 3 tamga |
-
-Uygulanan kurallar:
-- "s" → kalın biçim (md. 6)
-- "o" yazılır (md. 3)
-- "r" → kalın biçim (md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 36. koş  _(fiil)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰴𐰆𐱁</span> |
-| Tamga tamga | 𐰴 𐰆 𐱁 |
-| Sıra | kalın · 3 tamga |
-
-Uygulanan kurallar:
-- "k" → kalın biçim (md. 6)
-- "o" yazılır (md. 3)
+- kısa "a" yazılmaz (md. 3)
+- "t" → ince biçim (hecesindeki "e" ünlüsüne uyar, md. 6)
+- kısa "e" yazılmaz (md. 4)
 - "ş"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
 ---
 
-### 37. uyu  _(fiil)_
+### 33. yağmur  _(doğa terimi)_
 
 | | |
 |---|---|
-| Yazım | <span lang="otk">𐰆𐰖𐰆</span> |
-| Tamga tamga | 𐰆 𐰖 𐰆 |
+| Yazım | <span lang="otk">𐰖𐰍𐰢𐰺</span> |
+| Tamga tamga | 𐰖 𐰍 𐰢 𐰺 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- ğ sesi Eski Türkçede g'dir (dağ < tag)
+- "y" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
+- kısa "a" yazılmaz (md. 3)
+- "g" → kalın biçim (hecesindeki "a" ünlüsüne uyar, md. 6)
+- "m"
+- ilk heceden sonraki "u" yazılmaz (md. 4)
+- "r" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 34. bulut  _(doğa terimi)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰉𐰆𐰞𐱃</span> |
+| Tamga tamga | 𐰉 𐰆 𐰞 𐱃 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "b" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
+- ilk hecedeki "u" yazılır (md. 3)
+- "l" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
+- ilk heceden sonraki "u" yazılmaz (md. 4)
+- "t" → kalın biçim (hecesindeki "u" ünlüsüne uyar, md. 6)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 35. kış  _(doğa terimi)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰶𐰃𐱁</span> |
+| Tamga tamga | 𐰶 𐰃 𐱁 |
 | Sıra | kalın · 3 tamga |
 
 Uygulanan kurallar:
-- "u" yazılır (md. 3)
-- "y" → kalın biçim (md. 6)
-- son ünlü "u" yazılır (md. 2)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 38. iç  _(fiil)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰱</span> |
-| Tamga tamga | 𐰱 |
-| Sıra | ince · 1 tamga |
-
-Uygulanan kurallar:
-- "iç" hece damgası 𐰱 (md. 9)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 39. ye  _(fiil)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰘𐰀</span> |
-| Tamga tamga | 𐰘 𐰀 |
-| Sıra | ince · 2 tamga |
-
-Uygulanan kurallar:
-- "y" → ince biçim (md. 6)
-- son ünlü "e" yazılır (md. 2)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 40. ekmek  _(yiyecek)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰚𐰢𐰚</span> |
-| Tamga tamga | 𐰚 𐰢 𐰚 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- kısa "e" yazılmaz (md. 3)
-- "k" → ince biçim (md. 6)
-- "m"
-- kısa "e" yazılmaz (md. 4)
-- "k" → ince biçim (md. 6)
+- "kı" hece damgası 𐰶 (md. 9)
+- ilk hecedeki "ı" yazılır (md. 3)
+- "ş"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 
