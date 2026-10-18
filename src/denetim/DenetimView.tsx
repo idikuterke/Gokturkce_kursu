@@ -6,6 +6,7 @@ import {
   Karar,
   KUYRUKLAR,
   KuyrukId,
+  bayatlariAyikla,
   kararlariOku,
   kararlariYaz,
 } from './denetimVeri';
@@ -43,6 +44,8 @@ export const DenetimView: React.FC = () => {
   const [hata, setHata] = useState<string | null>(null);
   const [sadeceBekleyen, setSadeceBekleyen] = useState(true);
   const [kotaUyarisi, setKotaUyarisi] = useState(false);
+  /** Kural değiştiği için kararı düşen kayıtlar — kullanıcıya söylenir. */
+  const [bayatlar, setBayatlar] = useState<string[]>([]);
   const metinRef = useRef<HTMLTextAreaElement>(null);
 
   const kuyruk = KUYRUKLAR.find((k) => k.id === kuyrukId)!;
@@ -56,7 +59,12 @@ export const DenetimView: React.FC = () => {
       .then((v) => {
         if (iptal) return;
         setKayitlar(v);
-        setKararlar(kararlariOku(kuyrukId));
+        // İçeriği değişmiş kayıtların eski kararı düşer; yoksa kayıt
+        // "karar verilmiş" görünüp listede hiç çıkmaz.
+        const { kararlar: temiz, dusen } = bayatlariAyikla(kararlariOku(kuyrukId), v);
+        if (dusen.length) kararlariYaz(kuyrukId, temiz);
+        setKararlar(temiz);
+        setBayatlar(dusen);
         setIndeks(0);
       })
       .catch((e: unknown) => {
@@ -108,6 +116,7 @@ export const DenetimView: React.FC = () => {
             ...(aktif.onDolgu ?? {}),
             ...onceki[aktif.id],
             ...yama,
+            surum: aktif.surum,
             tarih: new Date().toISOString(),
           },
         };
@@ -218,6 +227,14 @@ export const DenetimView: React.FC = () => {
       </div>
 
       <p className="mb-4 text-sm text-metin-3">{kuyruk.aciklama}</p>
+
+      {bayatlar.length > 0 && (
+        <p className="mb-4 rounded-xl bg-[#FFF4D6] px-4 py-3 text-sm text-[#7A5A00]">
+          <b>{bayatlar.length} kaydın yazımı</b> imla kuralı düzeltildikten sonra
+          değişti; o kayıtlara verdiğin eski karar düştü ve listeye geri geldiler.
+          Yeni yazımı görüp bir daha karar ver.
+        </p>
+      )}
 
       {kotaUyarisi && (
         <p className="mb-4 rounded-xl bg-[#FFE1E1] px-4 py-3 text-sm text-[#9B1C1C]">
@@ -352,6 +369,9 @@ export const DenetimView: React.FC = () => {
               </label>
             </div>
 
+            {/* İki not kutusu kafa karıştırıyordu: gündelik kuyruğunda
+              açıklama zaten üstteki alandan alınıyor. */}
+          {kuyrukId !== 'gundelik' && (
             <label className="block">
               <span className="mb-1 block text-sm font-semibold text-metin-5">Not</span>
               <input
@@ -361,6 +381,7 @@ export const DenetimView: React.FC = () => {
                 className={girdi}
               />
             </label>
+          )}
 
           {/*
             Runik düzeltmesi eskiden <details> içinde kapalıydı. Denetimde

@@ -22,6 +22,16 @@ export interface DenetimKaydi {
   /** Dikkat çekilmesi gereken durumlar (yıpranma, lacuna, düşük güven). */
   uyarilar: string[];
   /**
+   * Kaydın İÇERİK SÜRÜMÜ. Karar bu sürüme verilir; kayıt sonradan
+   * değişirse (imla kuralı düzelip yazım farklılaşırsa) eski karar
+   * geçersiz sayılır ve kayıt yeniden sorulur.
+   *
+   * Dosyadaki mühür zaten böyle çalışıyordu; tarayıcıdaki karar
+   * çalışmıyordu — kural düzeltmesinden sonra 35 kelime "karar
+   * verilmiş" görünüp listede çıkmadı.
+   */
+  surum?: string;
+  /**
    * Makine önerisi. Doluysa form bu değerlerle açılır; insan düzeltir
    * ya da olduğu gibi onaylar. Onay yine insanındır — ön dolgu bir
    * iddia değil, yazma yükünü azaltan bir taslaktır.
@@ -41,6 +51,8 @@ export interface DenetimKarari {
   /** Runik düzeltmesi. Korpus esastır; doldurulursa ayrıca işaretlenir. */
   runikDuzeltme: string;
   tarih: string;
+  /** Kararın verildiği içerik sürümü — DenetimKaydi.surum ile eşleşmeli. */
+  surum?: string;
 }
 
 export const BOS_KARAR: DenetimKarari = {
@@ -238,7 +250,7 @@ KUYRUKLAR.push({
   aciklama:
     "Kuraldan üretilen gündelik yazımlar — tanıklı olanlar listede yok. " +
     "Yazım doğruysa onayla; yanlışsa reddet ve 'Runik düzeltmesi'ne doğrusunu yaz.",
-  metinEtiketi: "Not (isteğe bağlı — hangi kural hatalı?)",
+  metinEtiketi: "Açıklama — yanlışsa hangi kural hatalı? (isteğe bağlı)",
   turEtiketi: "Sonuç",
   turSecenekleri: [
     { deger: "dogru", etiket: "Yazım doğru" },
@@ -277,6 +289,8 @@ KUYRUKLAR.push({
             k.insanDenetimi === "yeniden" ? "yeniden denetim" : "kuraldan üretildi",
           ],
           uyarilar,
+          // Sürüm = yazımın kendisi. Yazım değişirse eski karar düşer.
+          surum: String(k.runik),
           onDolgu: {
             tur: "dogru",
             kaynak: "00_Kaynaklar/imla_kurallari_13_madde.md",
@@ -295,6 +309,32 @@ export function kararlariOku(k: KuyrukId): Record<string, DenetimKarari> {
   } catch {
     return {};
   }
+}
+
+/**
+ * İçeriği değişmiş kayıtların kararlarını düşürür.
+ *
+ * Sürüm taşımayan kuyruklar (cümlecik, dize, sözlük) etkilenmez:
+ * orada kayıt da karar da sürümsüz, karşılaştırma yapılmaz.
+ * Dönüş: temizlenmiş kararlar + düşen kayıt sayısı.
+ */
+export function bayatlariAyikla(
+  kararlar: Record<string, DenetimKarari>,
+  kayitlar: DenetimKaydi[]
+): { kararlar: Record<string, DenetimKarari>; dusen: string[] } {
+  const surumler = new Map(kayitlar.map((k) => [k.id, k.surum]));
+  const temiz: Record<string, DenetimKarari> = {};
+  const dusen: string[] = [];
+  for (const [id, karar] of Object.entries(kararlar)) {
+    const simdiki = surumler.get(id);
+    // Kayıt artık listede yok → kararı sakla (başka sebeple süzülmüş olabilir).
+    if (!surumler.has(id)) { temiz[id] = karar; continue; }
+    // Kayıt sürümsüz → karşılaştırma yok.
+    if (simdiki === undefined) { temiz[id] = karar; continue; }
+    if (karar.surum === simdiki) { temiz[id] = karar; continue; }
+    dusen.push(id);
+  }
+  return { kararlar: temiz, dusen };
 }
 
 export function kararlariYaz(k: KuyrukId, kararlar: Record<string, DenetimKarari>): boolean {
