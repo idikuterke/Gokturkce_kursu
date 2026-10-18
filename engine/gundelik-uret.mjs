@@ -191,6 +191,8 @@ export function gokturkceYaz(kelime) {
   const cikti = [];
   let unluSirasi = 0;          // kaçıncı ünlüdeyiz (1 = ilk hece)
   const ilkUnlu = harfler.find((h) => UNLU.has(h)) ?? null;   // md. 7 ölçütü
+  // Hece damgası yazıldıysa ONDAN SONRAKİ ünlü md. 7'den muaftır (md. 22).
+  let damgaMuafiyeti = false;
   // md. 2 "söz sonu ünlüsü" = kelimenin SON HARFİ ünlüyse. Kelimenin son
   // ünlüsü değil: kitap'ta "a" son ünlüdür ama söz sonunda değildir.
   const sonHarfYeri = harfler.length - 1;
@@ -204,6 +206,13 @@ export function gokturkceYaz(kelime) {
       unluSirasi++;
       cikti.push(onceli.glif);
       adimlar.push(`"${cift}" hece damgası ${onceli.glif} (md. 9)`);
+      // md. 22 — damgadan SONRAKİ hecenin ünlüsü md. 7'nin dışındadır.
+      // Bu, ünsüz+ünlü damgası kadar ünlü+ünsüz damgası için de geçerli:
+      //   "𐰸'dan sonraki hecede o/u varsa o/u yazılır"  (Çavdar md. 22)
+      // Korpus: TOKUZ 𐱃𐰸𐰆𐰔 — ikinci "u" yazılıyor.
+      // Önceki sürüm bu muafiyeti yalnız ünsüz+ünlü dalında uyguluyordu;
+      // dokuz 𐰑𐰸𐰔 çıkıyordu, 𐰑𐰸𐰆𐰔 olmalıydı (denetim bulgusu).
+      damgaMuafiyeti = true;
       i++;
       continue;
     }
@@ -244,6 +253,7 @@ export function gokturkceYaz(kelime) {
     }
 
     const h = harfler[i];
+    if (!UNLU.has(h)) damgaMuafiyeti = false;   // muafiyet yalnız bitişik ünlüye
 
     // md. 8 — ikiz ünsüz tek harf
     if (!UNLU.has(h) && i > 0 && harfler[i - 1] === h) {
@@ -253,7 +263,13 @@ export function gokturkceYaz(kelime) {
 
     if (UNLU.has(h)) {
       unluSirasi++;
-      if (!yazilirMi(h, unluSirasi, i === sonHarfYeri, ilkUnlu, adimlar)) continue;
+      const muaf = damgaMuafiyeti && h !== "a" && h !== "e";
+      damgaMuafiyeti = false;
+      if (muaf) {
+        adimlar.push(`hece damgasından sonraki "${h}" yazılır (md. 22)`);
+      } else if (!yazilirMi(h, unluSirasi, i === sonHarfYeri, ilkUnlu, adimlar)) {
+        continue;
+      }
       const g = tamga(h, s);
       if (g) cikti.push(g);
       continue;
@@ -461,7 +477,13 @@ for (const { t, tema } of KELIMELER) {
   // sonradan düzeltilince üretilen yazım değişebilir — o onay artık
   // başka bir yazıma aittir. Eski mührü yeni yazıma taşımak,
   // denetlenmemiş bir şeyi denetlenmiş göstermek olur.
-  if (istisna?.gorulenRunik && istisna.sonuc === "dogru" && istisna.gorulenRunik !== sonuc.runik) {
+  // Denetleyen AÇIKÇA bir yazım yazdıysa (runik alanı dolu) o geçerlidir;
+  // motorun ne ürettiğinden bağımsız. Mühür yalnız "yazım doğru" denip
+  // hiçbir şey yazılmamış, ama motor sonradan başka bir şey üretmişse düşer.
+  if (
+    istisna?.gorulenRunik && istisna.sonuc === "dogru" && !istisna.runik &&
+    istisna.gorulenRunik !== sonuc.runik
+  ) {
     muhurDustu.push(`${t} (${istisna.gorulenRunik} → ${sonuc.runik})`);
     istisna = null;
   }
@@ -477,9 +499,10 @@ for (const { t, tema } of KELIMELER) {
 
   // Yazım seçimi: insan düzeltmesi > korpus tanığı > kural çıktısı.
   let runik = korpusta ? korpusta.runik : sonuc.runik;
-  if (istisna?.sonuc === "duzeltildi" && istisna.runik) {
+  if (istisna?.runik) {
+    // İnsanın yazdığı biçim asıldır — "düzeltildi" de olsa "doğru" da olsa.
+    if (istisna.runik !== runik) insanDuzeltti++; else insanOnayli++;
     runik = istisna.runik;
-    insanDuzeltti++;
   } else if (istisna?.sonuc === "dogru") {
     insanOnayli++;
   }
@@ -493,6 +516,9 @@ for (const { t, tema } of KELIMELER) {
     tanikDize: korpusta?.gectigiDizeler?.[0] ?? null,
     // İnsan denetiminden geçti mi — arayüz bunu etikete yazar.
     insanDenetimi: istisna ? istisna.sonuc : null,
+    // Kabul edilen ikinci yazım(lar). Alıştırmada ÇELDİRİCİ OLARAK
+    // KULLANILMAZ: iki şık da doğru olurdu.
+    ...(istisna?.alternatifler?.length ? { alternatifler: istisna.alternatifler } : {}),
     uretilenRunik: sonuc.runik,
     tamgaSayisi: [...runik].length,
     sira: sonuc.sira,

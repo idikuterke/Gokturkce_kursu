@@ -11,6 +11,8 @@ interface GundelikKelime {
   zorluk: number;
   /** Aynı tamga dizisine düşen başka sözcükler (taş/ateş, buz/boz…). */
   esYazim?: string[];
+  /** Denetimde kabul edilen ikinci yazım(lar) — çeldirici olamaz. */
+  alternatifler?: string[];
 }
 
 /**
@@ -61,7 +63,10 @@ function alistirmayaCevir(k: GundelikKelime, havuz: GundelikKelime[]): Exercise 
   // 2) Tamga sayısı. Soru "3 tamga" diyorsa 2 tamgalı çeldirici bedava
   //    elenir. Çeldiriciler önce AYNI tamga sayısından aranır; o kadar
   //    yazım yoksa ±1'e açılır ve sayı ipucu kaldırılır.
-  const digerleri = havuz.filter((x) => x.runik !== k.runik);
+  // Kabul edilen alternatif yazımlar da elenir: "gök" için 𐰏𐰜 doğru
+  // sayıldıysa onu yanlış şık diye koyamayız.
+  const yasakli = new Set([k.runik, ...(k.alternatifler ?? [])]);
+  const digerleri = havuz.filter((x) => !yasakli.has(x.runik));
   const tamEslesen = Array.from(new Set(
     digerleri.filter((x) => x.tamgaSayisi === k.tamgaSayisi).map((x) => x.runik)
   ));
@@ -86,6 +91,9 @@ function alistirmayaCevir(k: GundelikKelime, havuz: GundelikKelime[]): Exercise 
     ? 'Bu yazım yazıtlarda geçiyor (tanıklı).'
     : 'Bu yazım imla kuralından üretildi; yazıtlarda geçmez.';
   // Eş yazım öğretilecek bir şeydir, saklanacak değil.
+  const altNotu = k.alternatifler?.length
+    ? `  —  Şu yazım da kabul edilir: ${k.alternatifler.join(", ")}.`
+    : '';
   const esNotu = k.esYazim?.length
     ? `  —  Aynı yazım "${k.esYazim.join('", "')}" sözcüğünde de çıkar: kısa ünlüler yazılmadığı için ayrımı bağlam yapar.`
     : '';
@@ -97,7 +105,7 @@ function alistirmayaCevir(k: GundelikKelime, havuz: GundelikKelime[]): Exercise 
     ...(sayiIpucu ? { subprompt: `${k.tamgaSayisi} tamga` } : {}),
     options: karistir([k.runik, ...yanlislar]),
     correctAnswer: k.runik,
-    explanation: `${k.adimlar.join(' · ')}  —  ${kaynakNotu}${esNotu}`
+    explanation: `${k.adimlar.join(' · ')}  —  ${kaynakNotu}${altNotu}${esNotu}`
   };
 }
 

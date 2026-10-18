@@ -33,14 +33,19 @@ const kuru = argv.includes("--kuru");
 const sonMu = argv.includes("--son");
 // --gorulen <gundelik.json>: denetim sırasında ekranda DURAN yazımlar.
 // Paketin kendisi bunu taşımıyorsa (eski sürüm dışa aktarımı) buradan alınır.
-const gorulenArg = argv[argv.indexOf("--gorulen") + 1];
+// indexOf -1 dönerse argv[0]'ı yakalar ve dosya yolunu süzerdi; bayrak
+// gerçekten verildiyse okunur.
+const gorulenYeri = argv.indexOf("--gorulen");
+const gorulenArg = gorulenYeri >= 0 ? argv[gorulenYeri + 1] : undefined;
 const gorulenHarita = new Map();
-if (argv.includes("--gorulen") && gorulenArg) {
+if (gorulenArg) {
   for (const k of JSON.parse(readFileSync(resolve(gorulenArg), "utf8")).kelimeler ?? []) {
     gorulenHarita.set(k.kelime, k.runik);
   }
 }
-let yol = argv.filter((a) => !a.startsWith("--") && a !== gorulenArg)[0];
+// gorulenYeri -1 iken "gorulenYeri + 1" 0 olur ve dosya yolunu elerdi.
+const atlanacak = gorulenYeri >= 0 ? gorulenYeri + 1 : -1;
+let yol = argv.filter((a, i) => !a.startsWith("--") && i !== atlanacak)[0];
 
 /** --son: indirilenler ve proje kökünde en yeni denetim-gundelik-*.json. */
 function enYeniPaket() {
@@ -79,6 +84,9 @@ if (!yol) {
   process.exit(1);
 }
 
+const gorulenRunikOku = (k) =>
+  (k.gorulenRunik || k.surum || gorulenHarita.get(String(k.id).replace(/^gundelik-/, "")) || "").trim();
+
 const paket = JSON.parse(readFileSync(resolve(yol), "utf8"));
 if (paket.kuyruk !== "gundelik") {
   console.error(`Bu paket "${paket.kuyruk}" kuyruğuna ait. Gündelik paketi bekleniyordu.`);
@@ -90,7 +98,7 @@ const mevcut = existsSync(ISTISNA)
   ? JSON.parse(readFileSync(ISTISNA, "utf8"))
   : { surum: "gundelik-istisna-v1", kayitlar: {} };
 
-const say = { onay: 0, duzeltme: 0, cikarilan: 0, red: 0, hatali: 0, yeniden: 0 };
+const say = { onay: 0, duzeltme: 0, cikarilan: 0, red: 0, hatali: 0, yeniden: 0, alternatif: 0 };
 const hatalar = [];
 const yeniden = [];
 
@@ -99,12 +107,32 @@ for (const k of paket.kararlar ?? []) {
   const kelime = String(k.id).replace(/^gundelik-/, "");
   if (!kelime) { hatalar.push(`boş id: ${k.id}`); say.hatali++; continue; }
 
-  const duzeltme = (k.runikDuzeltme ?? "").trim();
+  // ── ÇOK BİÇİMLİ DÜZELTME ───────────────────────────────────────────────
+  // Denetleyen bazen birden çok geçerli yazım veriyor:
+  //   "𐰏𐰇𐰚:𐰏𐰜"            açık yazım ve ligatürlü yazım
+  //   "𐰖𐰃𐰡𐰔 veya 𐰖𐰃𐰞𐰑𐰔"   ld ligatürlü ve ayrık
+  // İlki asıl yazım, kalanı KABUL EDİLEN ALTERNATİF olur. Alternatif
+  // alıştırmada çeldirici olarak kullanılmaz — iki şık da doğru olurdu.
+  const RUNIK = /^[\u{10C00}-\u{10C4F}]+$/u;
+  const bicimler = (k.runikDuzeltme ?? "")
+    .split(/\s+veya\s+|\s*[:\/]\s*|\s*,\s*/u)
+    .map((x) => x.trim())
+    .filter((x) => RUNIK.test(x));
+  const duzeltme = bicimler[0] ?? "";
+  const alternatifler = bicimler.slice(1);
+  if ((k.runikDuzeltme ?? "").trim() && !bicimler.length) {
+    hatalar.push(`${kelime}: runik alanı okunamadı → ${JSON.stringify(k.runikDuzeltme)}`);
+    say.hatali++;
+    continue;
+  }
   let sonuc;
 
   if (k.tur === "cikarilsin") {
     // Kelimeyi modülden düşürmek YALNIZ açık istekle olur.
     sonuc = "cikarilsin";
+  } else if (duzeltme && gorulenRunikOku(k) && duzeltme === gorulenRunikOku(k)) {
+    // İlk biçim ekrandakiyle aynı: yazım doğruymuş, yanına alternatif eklenmiş.
+    sonuc = "dogru";
   } else if (duzeltme) {
     sonuc = "duzeltildi";
   } else if (k.karar === "red" || k.tur === "duzeltildi") {
@@ -137,10 +165,11 @@ for (const k of paket.kararlar ?? []) {
     continue;
   }
 
-  const gorulen = (k.gorulenRunik || gorulenHarita.get(kelime) || "").trim();
+  const gorulen = gorulenRunikOku(k);
 
   mevcut.kayitlar[kelime] = {
     sonuc,
+    ...(alternatifler.length ? { alternatifler } : {}),
     // Denetleyenin ekranda GÖRDÜĞÜ yazım. İmla kuralı sonradan
     // düzeltilirse üretilen yazım bundan ayrılır; o zaman mühür
     // düşer ve kelime yeniden denetime girer (gundelik-uret.mjs).
@@ -152,6 +181,7 @@ for (const k of paket.kararlar ?? []) {
     tarih: k.tarih ?? new Date().toISOString(),
   };
 
+  if (alternatifler.length) say.alternatif++;
   if (sonuc === "dogru") say.onay++;
   else if (sonuc === "duzeltildi") say.duzeltme++;
   else if (sonuc === "yeniden") say.yeniden++;
@@ -165,6 +195,7 @@ console.log(`karar            : ${(paket.kararlar ?? []).length}`);
 console.log(`  yazım doğru    : ${say.onay}`);
 console.log(`  düzeltildi     : ${say.duzeltme}`);
 console.log(`  çıkarılacak    : ${say.cikarilan}`);
+if (say.alternatif) console.log(`  alternatif yazım: ${say.alternatif} kelimede ikinci biçim kabul edildi`);
 if (say.yeniden) {
   console.log(`  YENİDEN denetim: ${say.yeniden}  ← yanlış denmiş, doğrusu yazılmamış`);
   for (const y of yeniden) console.log(`    ${y}`);
