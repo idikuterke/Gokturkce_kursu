@@ -94,6 +94,17 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
+  /** dize_ceviri: son kelimedeki çekim ekinin kısa açıklaması. */
+  gramerNotu?: {
+    kelime: string;
+    ek: string;
+    ad: string;
+    aciklama: string;
+    ornek: string;
+    kaynak: string;
+  } | null;
+  /** dize_ceviri: cümleciğin içindeki runik kelimeler (kaldıraç için). */
+  icerdigiKelimeler?: string[];
   /** runik_oku: biliniyorsa günümüz Türkçesi karşılığı. */
   anlam?: string | null;
   /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */

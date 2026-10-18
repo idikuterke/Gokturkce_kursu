@@ -58,6 +58,12 @@ const alistirmayaCevir = (
     if (a.gunumuzOkumasi) {
       notlar.push('Bu karşılık bir çeviri değil, günümüz okumasıdır.');
     }
+    if (a.gramerNotu) {
+      const g = a.gramerNotu;
+      notlar.push(
+        `${g.kelime} → ${g.ek} (${g.ad}): ${g.aciklama} Örnek: ${g.ornek}. [${g.kaynak}]`
+      );
+    }
     if (a.denetlenmemisKaynak) {
       // Kaynaklı ama akademik denetimden geçmemiş karşılık: kaynağı
       // göster, doğrulanmış gibi sunma.

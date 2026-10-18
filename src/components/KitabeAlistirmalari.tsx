@@ -328,6 +328,22 @@ export const KitabeAlistirmalari: React.FC<KitabeAlistirmalariProps> = ({ onEarn
 
           {secim && (
             <div className="space-y-3 pt-1">
+              {aktif.tur === 'dize_ceviri' && aktif.gramerNotu && (
+                <div className="p-3 bg-zemin border border-amber-400/40 rounded-2xl space-y-1">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-amber-300">
+                    Gramer · {aktif.gramerNotu.ek}
+                  </span>
+                  <p className="text-sm text-white">
+                    <span className="font-mono font-bold">{aktif.gramerNotu.kelime}</span>{' '}
+                    — {aktif.gramerNotu.ad}
+                  </p>
+                  <p className="text-xs text-metin-2">{aktif.gramerNotu.aciklama}</p>
+                  <p className="text-xs text-metin-3">
+                    Örnek: {aktif.gramerNotu.ornek} · {aktif.gramerNotu.kaynak}
+                  </p>
+                </div>
+              )}
+
               {aktif.tur === 'runik_oku' && aktif.anlam && (
                 <div className="p-3 bg-zemin border border-marka/40 rounded-2xl">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-marka-acik">

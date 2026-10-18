@@ -1,0 +1,104 @@
+{
+  "surum": "gramer-ekleri-v1",
+  "aciklama": "Cümle çevirisi alıştırmalarında gösterilecek kısa gramer notları. Her madde Tekin, Orhon Türkçesi Grameri (2003) içindeki bölüme dayanır; sayfa numarası repodaki dijital nüshadan doğrulanmıştır.",
+  "kaynak": "Talat Tekin, Orhon Türkçesi Grameri, 2003",
+  "kural": "desen alanı transkripsiyon üzerinde büyük/küçük harf duyarsız eşleşir. En uzun desen kazanır.",
+  "ekler": [
+    {
+      "ek": "-DI / -TI",
+      "desen": "(D|T)[IİıiUÜuü]$",
+      "ad": "görülen geçmiş zaman",
+      "aciklama": "Konuşanın tanık olduğu geçmiş. Bugünkü -dı/-di ile aynı.",
+      "ornek": "uçdı \"uçtu\" · ölti \"öldü\"",
+      "sayfa": "s. 56 (§83)"
+    },
+    {
+      "ek": "-DIm / -TIm",
+      "desen": "(D|T)[IİıiUÜuü]M$",
+      "ad": "görülen geçmiş zaman, 1. tekil kişi",
+      "aciklama": "\"ben yaptım\". Kağan yazıtlarında anlatıcının kendi eylemleri bu ekle gelir.",
+      "ornek": "olurtum \"tahta oturdum\" · süledim \"sefer ettim\"",
+      "sayfa": "s. 56 (§83)"
+    },
+    {
+      "ek": "-DImIz",
+      "desen": "(D|T)[IİıiUÜuü]M[IİıiUÜuü]Z$",
+      "ad": "görülen geçmiş zaman, 1. çoğul kişi",
+      "aciklama": "\"biz yaptık\".",
+      "ornek": "süŋüşdümüz \"savaştık\" · basdımız \"bastırdık\"",
+      "sayfa": "s. 56 (§83)"
+    },
+    {
+      "ek": "-mIş",
+      "desen": "M[IİıiUÜuü]Ş$",
+      "ad": "öğrenilen geçmiş / geçmiş zaman sıfat-fiili",
+      "aciklama": "Konuşanın tanık olmadığı, duyduğu geçmiş. Bugünkü -mış/-miş.",
+      "ornek": "bolmış \"olmuş\" · kılınmış \"yaratılmış\"",
+      "sayfa": "s. 53"
+    },
+    {
+      "ek": "-(X)r / -(X)z",
+      "desen": "[UÜuü]R$",
+      "ad": "geniş zaman",
+      "aciklama": "Süregelen ya da genel eylem. Bugünkü -ır/-ir/-ur/-ür.",
+      "ornek": "körür \"görür, itaat eder\" · olurur \"oturur\"",
+      "sayfa": "s. 185"
+    },
+    {
+      "ek": "-gIl",
+      "desen": "G[IİıiUÜuü]L$",
+      "ad": "pekiştirmeli buyurma (emir)",
+      "aciklama": "Vurgulu emir. \"mutlaka yap\" anlamı katar.",
+      "ornek": "eşidgil \"işit!\" · bilgil \"bil!\"",
+      "sayfa": "s. 56 (§76)"
+    },
+    {
+      "ek": "+lAr / +lAn",
+      "desen": "L[AaEe]R$",
+      "ad": "çokluk eki",
+      "aciklama": "Çoğul. Bugünkü -lar/-ler. Topluluk adlarında çoğu kez yazılmaz.",
+      "ornek": "begler \"beyler\" · tarkat \"tarkanlar\"",
+      "sayfa": "s. 85"
+    },
+    {
+      "ek": "+KA / +GA",
+      "desen": "(K|G)[AaEe]$",
+      "ad": "verme-yönelme durumu",
+      "aciklama": "\"-e, -a\" yönelme. Bugünkü -e/-a.",
+      "ornek": "kaganka \"kağana\" · bodunka \"halka\"",
+      "sayfa": "s. 110"
+    },
+    {
+      "ek": "+DA / +TA",
+      "desen": "(D|T)[AaEe]$",
+      "ad": "bulunma-çıkma durumu",
+      "aciklama": "\"-de, -da\" ve \"-den, -dan\". Orhon Türkçesinde ikisi tek ektir.",
+      "ornek": "teŋride \"gökte / gökten\" · anta \"orada\"",
+      "sayfa": "s. 113"
+    },
+    {
+      "ek": "+(X)g / +(X)n",
+      "desen": "[IİıiUÜuü]G$",
+      "ad": "belirli nesne durumu",
+      "aciklama": "Belirtme hâli, bugünkü -ı/-i/-u/-ü.",
+      "ornek": "bodunug \"halkı\" · ilig \"devleti\"",
+      "sayfa": "s. 107"
+    },
+    {
+      "ek": "+(s)I",
+      "desen": "S[IİıiUÜuü]$",
+      "ad": "3. kişi iyelik",
+      "aciklama": "\"onun -ı/-i\". Bugünkü -sı/-si.",
+      "ornek": "süsi \"ordusu\" · bodunı \"halkı\"",
+      "sayfa": "s. 184"
+    },
+    {
+      "ek": "+(X)m",
+      "desen": "[IİıiUÜuü]M$",
+      "ad": "1. tekil kişi iyelik",
+      "aciklama": "\"benim -ım/-im\".",
+      "ornek": "kaŋım \"babam\" · bodunum \"halkım\"",
+      "sayfa": "s. 184"
+    }
+  ]
+}

@@ -219,6 +219,37 @@ if (fs.existsSync(P("05_Kaynak_DB/sozluk-anlamlar.json"))) {
   }
 }
 
+// ── Gramer notu ─────────────────────────────────────────────────────────────
+// Kullanıcı Göktürkçe gramer bilmiyor: "BaRDI"yı görüp "vardı" diye
+// çözemiyor. Cevaptan sonra cümlenin SON kelimesindeki eki açıklayan
+// kısa bir not gösterilir. Yüklem cümle sonunda olduğu için son kelime
+// genelde çekimli fiildir; ek bulunamazsa not gösterilmez.
+const gramerEkleri = fs.existsSync(P("05_Kaynak_DB/gramer-ekleri.json"))
+  ? oku("05_Kaynak_DB/gramer-ekleri.json").ekler.map((e) => ({
+      ...e,
+      re: new RegExp(e.desen, "i")
+    }))
+  // En uzun desen önce denensin: -DImIz, -DIm'den önce eşleşmeli.
+    .sort((a, b) => b.desen.length - a.desen.length)
+  : [];
+
+const gramerNotuBul = (transkripsiyon) => {
+  const kelimeler = (transkripsiyon || "").split(/\s*:\s*/).filter(Boolean);
+  const son = kelimeler[kelimeler.length - 1];
+  if (!son) return null;
+  const temiz = son.replace(/[^\p{L}]/gu, "");
+  const bulunan = gramerEkleri.find((e) => e.re.test(temiz));
+  if (!bulunan) return null;
+  return {
+    kelime: son,
+    ek: bulunan.ek,
+    ad: bulunan.ad,
+    aciklama: bulunan.aciklama,
+    ornek: bulunan.ornek,
+    kaynak: `Tekin 2003, ${bulunan.sayfa}`
+  };
+};
+
 const alistirmalar = [];
 // Yalnızca güvenilir ve birden fazla geçen kelimeler: tek geçişli biçimler
 // dizgi hatası olmaya daha açık.
@@ -435,6 +466,8 @@ for (const d of dizeCevirisi) {
     dogru: d.turkce,
     // Çeviri mi, günümüz okuması mı — arayüzde belirtilir.
     gunumuzOkumasi: d.dogrulama?.ceviri === "gunumuz_okumasi",
+    icerdigiKelimeler: d.runik.split(/\s*:\s*/).filter(Boolean),
+    gramerNotu: gramerNotuBul(d.transkripsiyon),
     // Akademik denetimden geçmediyse arayüz kaynağı gösterir.
     denetlenmemisKaynak: d.dogrulama?.denetleyen === "insan" ? null : d.dogrulama?.kaynak ?? null,
     kaynak: d.id
@@ -477,6 +510,11 @@ if (fs.existsSync(CUMLECIK_YOLU)) {
       transkripsiyon: c.transkripsiyon,
       dogru: c.turkce,
       gunumuzOkumasi: c.tur === "gunumuz_okumasi",
+      // Kaldıraç için: bu cümleciğin içindeki runik kelimeler.
+      // Kuşak kurucusu, kelimeleri daha önce öğretilmiş cümlecikleri
+      // önce verir — hiç görülmemiş kelimelerle dolu cümle duvar olur.
+      icerdigiKelimeler: c.runik.split(/\s*:\s*/).filter(Boolean),
+      gramerNotu: gramerNotuBul(c.transkripsiyon),
       denetlenmemisKaynak: c.denetleyen === "insan" ? null : c.kaynak ?? null,
       kaynak: c.dizeId
     });
@@ -543,6 +581,10 @@ const KUSAK_TANIMI = [
 const DERS_BASINA = 8;
 const DERS_SAYISI = 3;
 
+// Kuşaklar sırayla kurulur; önceki kuşaklarda öğretilen kelimeler
+// birikir ve sonraki kuşakların cümlecik sıralamasını belirler.
+const ogretilmisKelimeler = new Set();
+
 const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
   const bantAlistirmalari = alistirmalar.filter((a) => a.zorluk === tanim.bant);
   const okuma = bantAlistirmalari.filter((a) => a.tur === "runik_oku");
@@ -554,6 +596,21 @@ const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
   // yazma pekişsin.
   const dizeCev = bantAlistirmalari.filter((a) => a.tur === "dize_ceviri");
 
+  // KELİME KALDIRACI
+  // Bir cümle çevirisi, kelimeleri daha önce öğretilmişse anlamlıdır.
+  // Hiç görülmemiş kelimelerle dolu cümle öğretmez, tahmine zorlar.
+  // Bu yüzden cümlecikler "tanıdık kelime oranına" göre sıralanır:
+  // önce en çok tanıdık kelime içerenler gelir.
+  const ogretilen = new Set(ogretilmisKelimeler);
+  const tanidiklikOrani = (a) => {
+    const kelimeler = a.icerdigiKelimeler ?? [];
+    if (!kelimeler.length) return 0;
+    return kelimeler.filter((w) => ogretilen.has(w)).length / kelimeler.length;
+  };
+  const dizeCevSirali = [...dizeCev].sort(
+    (a, b) => tanidiklikOrani(b) - tanidiklikOrani(a) || a.id.localeCompare(b.id)
+  );
+
   const dersler = [];
   for (let d = 0; d < DERS_SAYISI; d++) {
     const secilen = [];
@@ -562,10 +619,14 @@ const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
       // Dörtlü dönüşüm: tanı → yaz → kelimeyi bil → cümleyi çöz.
       // Tek beceriyi arka arkaya sormak yerine aynı kelimeyi farklı
       // açılardan yoklamak pekiştirmeyi artırıyor.
-      const siraliKaynaklar = [okuma, kurma, ceviri, dizeCev].filter((x) => x.length);
+      const siraliKaynaklar = [okuma, kurma, ceviri, dizeCevSirali].filter((x) => x.length);
       const kaynak = siraliKaynaklar[j % siraliKaynaklar.length];
       const secim = kaynak[Math.floor(sira / siraliKaynaklar.length) % kaynak.length];
       if (secim && !secilen.includes(secim.id)) secilen.push(secim.id);
+      // Bu derste öğretilen kelime, sonraki kuşaklarda tanıdık sayılır.
+      if (secim?.runik && (secim.tur === "runik_oku" || secim.tur === "kelime_kur")) {
+        ogretilmisKelimeler.add(secim.runik);
+      }
     }
     if (secilen.length) {
       dersler.push({
@@ -730,6 +791,17 @@ export interface UretilmisAlistirma {
   transkripsiyon?: string;
   dogru?: string;
   secenekler?: string[];
+  /** dize_ceviri: son kelimedeki çekim ekinin kısa açıklaması. */
+  gramerNotu?: {
+    kelime: string;
+    ek: string;
+    ad: string;
+    aciklama: string;
+    ornek: string;
+    kaynak: string;
+  } | null;
+  /** dize_ceviri: cümleciğin içindeki runik kelimeler (kaldıraç için). */
+  icerdigiKelimeler?: string[];
   /** runik_oku: biliniyorsa günümüz Türkçesi karşılığı. */
   anlam?: string | null;
   /** dize_ceviri: karşılık çeviri değil günümüz okumasıysa true. */
