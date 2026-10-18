@@ -20,7 +20,7 @@
  *   md.6  kutuplu ünsüzler (b d g k l n r s t y) kalın/ince ikişer harf
  *   md.8  ikiz ünsüz tek harf yazılır
  */
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -255,26 +255,85 @@ const kayitlar = [];
 const atlanan = [];
 let tanikli = 0;
 
+// ── İNSAN DENETİMİ ──────────────────────────────────────────────────────────
+// Denetim ekranının "Gündelik yazım" sekmesinden onaylanan / düzeltilen /
+// çıkarılan kelimeler. gundelik-denetim-uygula.mjs yazar.
+// Sıra: insan kararı > korpus tanığı > kural çıktısı.
+// Korpus esastır ilkesi burada da geçerli — ama insan korpusu okuyarak
+// karar verdiği için insan mührü en üsttedir.
+const istisnaYolu = P("05_Kaynak_DB/gundelik-istisnalar.json");
+const istisnalar = existsSync(istisnaYolu)
+  ? JSON.parse(readFileSync(istisnaYolu, "utf8")).kayitlar ?? {}
+  : {};
+
+const gorulenKelime = new Set();
+let insanOnayli = 0;
+let insanDuzeltti = 0;
+let insanCikardi = 0;
 for (const { t, tema } of KELIMELER) {
+  // Aynı sözcük iki temada geçerse id ve React anahtarı çakışır; ilki kalır.
+  if (gorulenKelime.has(t)) { atlanan.push({ kelime: t, sebep: `"${t}" listede iki kez var (ikincisi: ${tema}).` }); continue; }
+  gorulenKelime.add(t);
   const sonuc = gokturkceYaz(t);
   if (!sonuc.runik) { atlanan.push({ kelime: t, sebep: sonuc.uyari }); continue; }
+
+  const istisna = istisnalar[t];
+  if (istisna?.sonuc === "cikarilsin") {
+    insanCikardi++;
+    atlanan.push({ kelime: t, sebep: `insan denetimi çıkardı${istisna.not ? `: ${istisna.not}` : ""}` });
+    continue;
+  }
+
   const korpusta = korpusKelimeleri.get(t);
   if (korpusta) tanikli++;
+
+  // Yazım seçimi: insan düzeltmesi > korpus tanığı > kural çıktısı.
+  let runik = korpusta ? korpusta.runik : sonuc.runik;
+  if (istisna?.sonuc === "duzeltildi" && istisna.runik) {
+    runik = istisna.runik;
+    insanDuzeltti++;
+  } else if (istisna?.sonuc === "dogru") {
+    insanOnayli++;
+  }
+
   kayitlar.push({
     id: `gundelik-${t}`,
     kelime: t,
     tema,
-    // Tanıklı yazım varsa o, yoksa kurallardan üretilen.
-    runik: korpusta ? korpusta.runik : sonuc.runik,
+    runik,
     tanikli: Boolean(korpusta),
     tanikDize: korpusta?.gectigiDizeler?.[0] ?? null,
+    // İnsan denetiminden geçti mi — arayüz bunu etikete yazar.
+    insanDenetimi: istisna ? istisna.sonuc : null,
     uretilenRunik: sonuc.runik,
-    tamgaSayisi: [...(korpusta ? korpusta.runik : sonuc.runik)].length,
+    tamgaSayisi: [...runik].length,
     sira: sonuc.sira,
     adimlar: sonuc.adimlar,
     // Zorluk tamga sayısına göre: 2 tamga kolay, 6+ zor.
-    zorluk: Math.max(1, Math.min(5, [...(korpusta ? korpusta.runik : sonuc.runik)].length - 1))
+    zorluk: Math.max(1, Math.min(5, [...runik].length - 1))
   });
+}
+
+// ── EŞ YAZIM (homograf) ─────────────────────────────────────────────────────
+// Göktürk yazısında kısa a/e yazılmadığı için farklı sözcükler aynı
+// tamga dizisine düşebilir: taş/ateş → 𐱃𐱁, buz/boz → 𐰉𐰆𐰔,
+// göz/güz → 𐰏𐰇𐰔, kuş/koş → 𐰴𐰆𐱁.
+//
+// Bu yazının gerçek bir özelliği, hata değil — ama ALIŞTIRMADA hatadır:
+// "boz nasıl yazılır?" sorusunda çeldirici olarak buz'un yazımı konursa
+// iki şık birebir aynı olur ve doğru şık iki tane olur. Her kayıt
+// eşlerini taşır; alıştırma üreticisi bunları çeldirici olarak kullanmaz
+// ve açıklamada eş yazımı söyler.
+const yazimHaritasi = new Map();
+for (const k of kayitlar) {
+  if (!yazimHaritasi.has(k.runik)) yazimHaritasi.set(k.runik, []);
+  yazimHaritasi.get(k.runik).push(k.kelime);
+}
+let esYazimSayisi = 0;
+for (const k of kayitlar) {
+  const esler = yazimHaritasi.get(k.runik).filter((w) => w !== k.kelime);
+  k.esYazim = esler;
+  if (esler.length) esYazimSayisi++;
 }
 
 const CIKTI = P("src/data/generated");
@@ -298,7 +357,20 @@ for (const k of kayitlar) temalar[k.tema] = (temalar[k.tema] ?? 0) + 1;
 console.log(`üretilen kelime : ${kayitlar.length} / ${KELIMELER.length}`);
 console.log(`  tanıklı (korpus): ${tanikli}  ← yazıtlarda geçiyor, tanıklı yazım kullanıldı`);
 console.log(`  kuraldan üretilen: ${kayitlar.length - tanikli}`);
+if (insanOnayli || insanDuzeltti || insanCikardi) {
+  console.log(
+    `  insan denetimi  : ${insanOnayli} onay · ${insanDuzeltti} düzeltme · ${insanCikardi} çıkarıldı`
+  );
+} else {
+  console.log("  insan denetimi  : yok (denetim ekranı → Gündelik yazım)");
+}
 console.log(`tema dağılımı   : ${Object.entries(temalar).map(([t, n]) => `${t} ${n}`).join(" · ")}`);
+if (esYazimSayisi) {
+  const ciftler = [...yazimHaritasi.entries()].filter(([, w]) => w.length > 1);
+  console.log(`\neş yazım (aynı tamga dizisi) ${ciftler.length} küme:`);
+  for (const [runik, w] of ciftler) console.log(`  ${runik}  ${w.join(" = ")}`);
+  console.log("  → bunlar birbirine çeldirici olarak verilmez.");
+}
 if (atlanan.length) {
   console.log(`\natlanan ${atlanan.length}:`);
   for (const a of atlanan) console.log(`  ${a.kelime}: ${a.sebep}`);

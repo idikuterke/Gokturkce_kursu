@@ -5,7 +5,7 @@
  * Üretim derlemesine girmez; App.tsx içinde koşullu lazy import edilir.
  */
 
-export type KuyrukId = "cumlecik" | "dize" | "sozluk" | "makine";
+export type KuyrukId = "cumlecik" | "dize" | "sozluk" | "makine" | "gundelik";
 export type Karar = "beklemede" | "onay" | "red";
 
 /** Ekranda gösterilen, kuyruktan bağımsız tek kayıt biçimi. */
@@ -59,8 +59,9 @@ export interface KuyrukTanimi {
    * Dışa aktarımda yazılacak kuyruk adı — `engine/denetim-uygula.mjs`
    * yalnız dize | cumlecik | sozluk tanır. "Makine önerisi" sekmesi
    * cümlecik kayıtları gösterdiği için cumlecik olarak aktarılır.
+   * "gundelik" ayrı bir uygulayıcıya gider (gundelik-denetim-uygula.mjs).
    */
-  uygulaKuyrugu?: "dize" | "cumlecik" | "sozluk";
+  uygulaKuyrugu?: "dize" | "cumlecik" | "sozluk" | "gundelik";
   ad: string;
   aciklama: string;
   metinEtiketi: string;
@@ -212,6 +213,69 @@ KUYRUKLAR.push({
         },
       };
     });
+  },
+});
+
+/**
+ * GÜNDELİK YAZIMLAR.
+ *
+ * Gündelik modülün 134 kelimesinden 20'si korpusta tanıklı (yazıtta
+ * geçiyor, denetim gerekmez); kalanı 13 maddelik imla kuralından
+ * ÜRETİLDİ. Motor korpusla sınandı ama her yazım tek tek görülmedi.
+ *
+ * Bu kuyruk onları insan önüne getirir: yazım büyük puntoyla, tamga
+ * tamga dökümüyle ve UYGULANAN KURALLARLA birlikte. Yanlış olan bir
+ * yazımda hangi kuralın hata verdiği de görünür — düzeltme tek tek
+ * kelimede değil KURALDA yapılır, aynı hata başka kelimede tekrarlanmasın.
+ *
+ * Kaynak alanı önceden dolu gelir (imla kuralı dosyası): onay için
+ * tek tek kaynak yazmak gerekmez.
+ */
+KUYRUKLAR.push({
+  id: "gundelik",
+  uygulaKuyrugu: "gundelik",
+  ad: "Gündelik yazım",
+  aciklama:
+    "Kuraldan üretilen gündelik yazımlar — tanıklı olanlar listede yok. " +
+    "Yazım doğruysa onayla; yanlışsa reddet ve 'Runik düzeltmesi'ne doğrusunu yaz.",
+  metinEtiketi: "Not (isteğe bağlı — hangi kural hatalı?)",
+  turEtiketi: "Sonuç",
+  turSecenekleri: [
+    { deger: "dogru", etiket: "Yazım doğru" },
+    { deger: "duzeltildi", etiket: "Düzeltildi (runik alanını doldur)" },
+    { deger: "cikarilsin", etiket: "Bu kelime çıkarılsın" },
+  ],
+  yukle: async () => {
+    const m = await import("../data/generated/gundelik.json");
+    const veri = (m.default ?? m) as unknown as { kelimeler: Record<string, unknown>[] };
+    return veri.kelimeler
+      // Tanıklı yazım korpustan gelir; denetlenecek olan kuraldan üretilendir.
+      .filter((k) => !k.tanikli)
+      .map((k) => {
+        const uyarilar: string[] = [];
+        const esYazim = (k.esYazim as string[]) ?? [];
+        if (esYazim.length) {
+          uyarilar.push(
+            `Eş yazım: "${esYazim.join('", "')}" aynı tamga dizisine düşüyor ` +
+              "(kısa ünlüler yazılmadığı için). Hata değil, yazının özelliği."
+          );
+        }
+        return {
+          id: String(k.id),
+          baslik: String(k.kelime),
+          altBaslik: `${k.tema} · ${k.sira === "kalin" ? "kalın sıra" : "ince sıra"}`,
+          runik: String(k.runik),
+          transkripsiyon: [...String(k.runik)].join(" "),
+          // Uygulanan kurallar: yanlışsa hangi kuralın hata verdiği görünsün.
+          baglam: (k.adimlar as string[]).map((a, i) => `${i + 1}. ${a}`).join("   ·   "),
+          rozetler: [`${k.tamgaSayisi} tamga`, "kuraldan üretildi"],
+          uyarilar,
+          onDolgu: {
+            tur: "dogru",
+            kaynak: "00_Kaynaklar/imla_kurallari_13_madde.md",
+          },
+        };
+      });
   },
 });
 

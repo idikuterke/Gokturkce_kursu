@@ -7,26 +7,7 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 91. sıçan  _(hayvan)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰽𐰃𐰲𐰣</span> |
-| Tamga tamga | 𐰽 𐰃 𐰲 𐰣 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- "s" → kalın biçim (md. 6)
-- "ı" yazılır (md. 3)
-- "ç"
-- kısa "a" yazılmaz (md. 4)
-- "n" → kalın biçim (md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 92. domuz  _(hayvan)_
+### 91. domuz  _(hayvan)_
 
 | | |
 |---|---|
@@ -45,7 +26,7 @@ Uygulanan kurallar:
 
 ---
 
-### 93. aygır  _(hayvan)_
+### 92. aygır  _(hayvan)_
 
 | | |
 |---|---|
@@ -64,7 +45,7 @@ Uygulanan kurallar:
 
 ---
 
-### 94. buzağı  _(hayvan)_
+### 93. buzağı  _(hayvan)_
 
 | | |
 |---|---|
@@ -85,7 +66,7 @@ Uygulanan kurallar:
 
 ---
 
-### 95. kuzu  _(hayvan)_
+### 94. kuzu  _(hayvan)_
 
 | | |
 |---|---|
@@ -103,7 +84,7 @@ Uygulanan kurallar:
 
 ---
 
-### 96. orman  _(doğa terimi)_
+### 95. orman  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -122,7 +103,7 @@ Uygulanan kurallar:
 
 ---
 
-### 97. ova  _(doğa terimi)_
+### 96. ova  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -140,7 +121,7 @@ Uygulanan kurallar:
 
 ---
 
-### 98. çöl  _(doğa terimi)_
+### 97. çöl  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -157,7 +138,7 @@ Uygulanan kurallar:
 
 ---
 
-### 99. ırmak  _(doğa terimi)_
+### 98. ırmak  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -176,7 +157,7 @@ Uygulanan kurallar:
 
 ---
 
-### 100. göl  _(doğa terimi)_
+### 99. göl  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -188,6 +169,25 @@ Uygulanan kurallar:
 - "g" → ince biçim (md. 6)
 - "ö" yazılır (md. 3)
 - "l" → ince biçim (md. 6)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 100. pınar  _(doğa terimi)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰯𐰃𐰣𐰺</span> |
+| Tamga tamga | 𐰯 𐰃 𐰣 𐰺 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "p"
+- "ı" yazılır (md. 3)
+- "n" → kalın biçim (md. 6)
+- kısa "a" yazılmaz (md. 4)
+- "r" → kalın biçim (md. 6)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

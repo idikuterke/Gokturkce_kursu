@@ -1,51 +1,13 @@
 # Gündelik Yazım Denetimi — Blok 12 / 12
 
-6 kelime · kural motorundan üretildi, **tanıklı değil**
+4 kelime · kural motorundan üretildi, **tanıklı değil**
 
 Her kelimede yazımın doğru olup olmadığını işaretle. Yanlışsa
 doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 111. karanlık  _(doğa terimi)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰴𐰺𐰣𐰞𐰶</span> |
-| Tamga tamga | 𐰴 𐰺 𐰣 𐰞 𐰶 |
-| Sıra | kalın · 5 tamga |
-
-Uygulanan kurallar:
-- "k" → kalın biçim (md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "r" → kalın biçim (md. 6)
-- kısa "a" yazılmaz (md. 4)
-- "n" → kalın biçim (md. 6)
-- "l" → kalın biçim (md. 6)
-- "ık" hece damgası 𐰶 (md. 9)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 112. yaz  _(doğa terimi)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰖𐰔</span> |
-| Tamga tamga | 𐰖 𐰔 |
-| Sıra | kalın · 2 tamga |
-
-Uygulanan kurallar:
-- "y" → kalın biçim (md. 6)
-- kısa "a" yazılmaz (md. 3)
-- "z"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 113. kış  _(doğa terimi)_
+### 111. kış  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -62,7 +24,7 @@ Uygulanan kurallar:
 
 ---
 
-### 114. güz  _(doğa terimi)_
+### 112. güz  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -79,7 +41,7 @@ Uygulanan kurallar:
 
 ---
 
-### 115. tan  _(doğa terimi)_
+### 113. tan  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -96,7 +58,7 @@ Uygulanan kurallar:
 
 ---
 
-### 116. akşam  _(doğa terimi)_
+### 114. akşam  _(doğa terimi)_
 
 | | |
 |---|---|

@@ -14,6 +14,7 @@
     "tekin98:tara": "node engine/tekin1998-tara.mjs",
     "gundelik:denetim": "node engine/gundelik-denetim-listesi.mjs",
     "gundelik:uret": "node engine/gundelik-uret.mjs",
+    "gundelik:uygula": "node engine/gundelik-denetim-uygula.mjs --son",
     "kaynak:tara": "node engine/kaynak-tara.mjs",
     "ceviri:blok": "node engine/ceviri-blok-uret.mjs",
     "ceviri:birlestir": "node engine/ceviri-blok-birlestir.mjs",

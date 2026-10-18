@@ -7,26 +7,7 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 81. tilki  _(hayvan)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐱅𐰃𐰠𐰚𐰃</span> |
-| Tamga tamga | 𐱅 𐰃 𐰠 𐰚 𐰃 |
-| Sıra | ince · 5 tamga |
-
-Uygulanan kurallar:
-- "t" → ince biçim (md. 6)
-- "i" yazılır (md. 3)
-- "l" → ince biçim (md. 6)
-- "k" → ince biçim (md. 6)
-- son ünlü "i" yazılır (md. 2)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 82. ayı  _(hayvan)_
+### 81. ayı  _(hayvan)_
 
 | | |
 |---|---|
@@ -43,7 +24,7 @@ Uygulanan kurallar:
 
 ---
 
-### 83. kaplan  _(hayvan)_
+### 82. kaplan  _(hayvan)_
 
 | | |
 |---|---|
@@ -63,7 +44,7 @@ Uygulanan kurallar:
 
 ---
 
-### 84. geyik  _(hayvan)_
+### 83. geyik  _(hayvan)_
 
 | | |
 |---|---|
@@ -82,7 +63,7 @@ Uygulanan kurallar:
 
 ---
 
-### 85. tavşan  _(hayvan)_
+### 84. tavşan  _(hayvan)_
 
 | | |
 |---|---|
@@ -103,7 +84,7 @@ Uygulanan kurallar:
 
 ---
 
-### 86. kartal  _(hayvan)_
+### 85. kartal  _(hayvan)_
 
 | | |
 |---|---|
@@ -123,7 +104,7 @@ Uygulanan kurallar:
 
 ---
 
-### 87. doğan  _(hayvan)_
+### 86. doğan  _(hayvan)_
 
 | | |
 |---|---|
@@ -143,7 +124,7 @@ Uygulanan kurallar:
 
 ---
 
-### 88. yılan  _(hayvan)_
+### 87. yılan  _(hayvan)_
 
 | | |
 |---|---|
@@ -162,7 +143,7 @@ Uygulanan kurallar:
 
 ---
 
-### 89. arı  _(hayvan)_
+### 88. arı  _(hayvan)_
 
 | | |
 |---|---|
@@ -179,7 +160,7 @@ Uygulanan kurallar:
 
 ---
 
-### 90. karınca  _(hayvan)_
+### 89. karınca  _(hayvan)_
 
 | | |
 |---|---|
@@ -196,6 +177,25 @@ Uygulanan kurallar:
 - c sesi Eski Türkçede ç'dir (karınca < karınçga)
 - "ç"
 - son ünlü "a" yazılır (md. 2)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 90. sıçan  _(hayvan)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰽𐰃𐰲𐰣</span> |
+| Tamga tamga | 𐰽 𐰃 𐰲 𐰣 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "s" → kalın biçim (md. 6)
+- "ı" yazılır (md. 3)
+- "ç"
+- kısa "a" yazılmaz (md. 4)
+- "n" → kalın biçim (md. 6)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

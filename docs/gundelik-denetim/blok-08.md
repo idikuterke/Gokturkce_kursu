@@ -7,25 +7,7 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 71. turp  _(sebze)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐱃𐰆𐰺𐰯</span> |
-| Tamga tamga | 𐱃 𐰆 𐰺 𐰯 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- "t" → kalın biçim (md. 6)
-- "u" yazılır (md. 3)
-- "r" → kalın biçim (md. 6)
-- "p"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 72. darı  _(sebze)_
+### 71. darı  _(sebze)_
 
 | | |
 |---|---|
@@ -43,7 +25,7 @@ Uygulanan kurallar:
 
 ---
 
-### 73. buğday  _(sebze)_
+### 72. buğday  _(sebze)_
 
 | | |
 |---|---|
@@ -64,7 +46,7 @@ Uygulanan kurallar:
 
 ---
 
-### 74. arpa  _(sebze)_
+### 73. arpa  _(sebze)_
 
 | | |
 |---|---|
@@ -82,7 +64,7 @@ Uygulanan kurallar:
 
 ---
 
-### 75. pırasa  _(sebze)_
+### 74. pırasa  _(sebze)_
 
 | | |
 |---|---|
@@ -102,7 +84,7 @@ Uygulanan kurallar:
 
 ---
 
-### 76. kurt  _(hayvan)_
+### 75. kurt  _(hayvan)_
 
 | | |
 |---|---|
@@ -120,7 +102,7 @@ Uygulanan kurallar:
 
 ---
 
-### 77. koyun  _(hayvan)_
+### 76. koyun  _(hayvan)_
 
 | | |
 |---|---|
@@ -139,7 +121,7 @@ Uygulanan kurallar:
 
 ---
 
-### 78. keçi  _(hayvan)_
+### 77. keçi  _(hayvan)_
 
 | | |
 |---|---|
@@ -156,7 +138,7 @@ Uygulanan kurallar:
 
 ---
 
-### 79. sığır  _(hayvan)_
+### 78. sığır  _(hayvan)_
 
 | | |
 |---|---|
@@ -176,7 +158,7 @@ Uygulanan kurallar:
 
 ---
 
-### 80. deve  _(hayvan)_
+### 79. deve  _(hayvan)_
 
 | | |
 |---|---|
@@ -190,6 +172,25 @@ Uygulanan kurallar:
 - v sesi Eski Türkçede b'dir (ev < eb, ver- < ber-)
 - "b" → ince biçim (md. 6)
 - son ünlü "e" yazılır (md. 2)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 80. tilki  _(hayvan)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐱅𐰃𐰠𐰚𐰃</span> |
+| Tamga tamga | 𐱅 𐰃 𐰠 𐰚 𐰃 |
+| Sıra | ince · 5 tamga |
+
+Uygulanan kurallar:
+- "t" → ince biçim (md. 6)
+- "i" yazılır (md. 3)
+- "l" → ince biçim (md. 6)
+- "k" → ince biçim (md. 6)
+- son ünlü "i" yazılır (md. 2)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

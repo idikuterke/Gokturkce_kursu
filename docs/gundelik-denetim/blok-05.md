@@ -7,26 +7,7 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 41. ekmek  _(yiyecek)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰚𐰢𐰚</span> |
-| Tamga tamga | 𐰚 𐰢 𐰚 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- kısa "e" yazılmaz (md. 3)
-- "k" → ince biçim (md. 6)
-- "m"
-- kısa "e" yazılmaz (md. 4)
-- "k" → ince biçim (md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 42. et  _(yiyecek)_
+### 41. et  _(yiyecek)_
 
 | | |
 |---|---|
@@ -42,7 +23,7 @@ Uygulanan kurallar:
 
 ---
 
-### 43. süt  _(yiyecek)_
+### 42. süt  _(yiyecek)_
 
 | | |
 |---|---|
@@ -59,7 +40,7 @@ Uygulanan kurallar:
 
 ---
 
-### 44. tuz  _(yiyecek)_
+### 43. tuz  _(yiyecek)_
 
 | | |
 |---|---|
@@ -76,7 +57,7 @@ Uygulanan kurallar:
 
 ---
 
-### 45. bal  _(yiyecek)_
+### 44. bal  _(yiyecek)_
 
 | | |
 |---|---|
@@ -93,7 +74,7 @@ Uygulanan kurallar:
 
 ---
 
-### 46. aş  _(yiyecek)_
+### 45. aş  _(yiyecek)_
 
 | | |
 |---|---|
@@ -109,7 +90,7 @@ Uygulanan kurallar:
 
 ---
 
-### 47. ev  _(gündelik)_
+### 46. ev  _(gündelik)_
 
 | | |
 |---|---|
@@ -126,7 +107,7 @@ Uygulanan kurallar:
 
 ---
 
-### 48. kapı  _(gündelik)_
+### 47. kapı  _(gündelik)_
 
 | | |
 |---|---|
@@ -144,7 +125,7 @@ Uygulanan kurallar:
 
 ---
 
-### 49. it  _(gündelik)_
+### 48. it  _(gündelik)_
 
 | | |
 |---|---|
@@ -160,7 +141,7 @@ Uygulanan kurallar:
 
 ---
 
-### 50. kuş  _(gündelik)_
+### 49. kuş  _(gündelik)_
 
 | | |
 |---|---|
@@ -172,6 +153,23 @@ Uygulanan kurallar:
 - "k" → kalın biçim (md. 6)
 - "u" yazılır (md. 3)
 - "ş"
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 50. göz  _(gündelik)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰏𐰇𐰔</span> |
+| Tamga tamga | 𐰏 𐰇 𐰔 |
+| Sıra | ince · 3 tamga |
+
+Uygulanan kurallar:
+- "g" → ince biçim (md. 6)
+- "ö" yazılır (md. 3)
+- "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

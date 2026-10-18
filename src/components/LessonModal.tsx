@@ -26,6 +26,35 @@ interface LessonModalProps {
  * Tek kelime büyük görünür; kitabe satırı 40 tamgayı bulabildiği için
  * kademeli küçülür ve kutu kaydırılabilir kalır.
  */
+/**
+ * Şık BAŞTAN SONA runik mi (U+10C00–U+10C4F, boşluk ve ayraç dışında)?
+ *
+ * "İçinde tamga var mı" yetmez: "𐰉 (b¹)" gibi karışık şıklarda runic
+ * sınıfı dir:rtl verdiği için Latin parça sağa kayıyor ve dev puntoda
+ * basılıyordu. Yalnız saf runik şıklar büyütülür.
+ */
+const tamamenRunik = (metin: string): boolean => {
+  const harfler = [...(metin ?? '')].filter((c) => !/[\s·:—-]/.test(c));
+  if (!harfler.length) return false;
+  return harfler.every((c) => {
+    const k = c.codePointAt(0) ?? 0;
+    return k >= 0x10c00 && k <= 0x10c4f;
+  });
+};
+
+/**
+ * Şık içindeki runik ölçeği. Şıklar gövde metni boyutunda (text-sm)
+ * kalınca tamgalar okunamıyordu; runik şık ayrı ölçeklenir.
+ */
+const sikRunikOlcek = (metin: string): string => {
+  const n = [...(metin ?? '')].length;
+  if (n <= 4) return 'text-4xl sm:text-5xl';
+  if (n <= 8) return 'text-3xl sm:text-4xl';
+  if (n <= 14) return 'text-2xl sm:text-3xl';
+  if (n <= 24) return 'text-xl sm:text-2xl';
+  return 'text-lg sm:text-xl';
+};
+
 const runikOlcek = (metin: string): string => {
   const n = [...(metin ?? '')].length;
   if (n <= 6) return 'text-7xl sm:text-8xl';
@@ -404,13 +433,21 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                       handleSpeak(option);
                     }
                   }}
-                  className={`relative min-h-16 py-3 pl-12 pr-20 rounded-2xl border-2 text-center transition-all font-medium text-sm flex items-center justify-center cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-marka ${
+                  className={`relative ${tamamenRunik(option) ? 'min-h-24 py-5' : 'min-h-16 py-3'} pl-12 pr-20 rounded-2xl border-2 text-center transition-all font-medium text-sm flex items-center justify-center cursor-pointer select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-marka ${
                     isSelected
                       ? 'bg-marka/15 border-marka text-white shadow-[0_0_15px_rgba(43,196,196,0.2)]'
                       : 'bg-zemin-3 border-zemin-4 text-metin hover:border-bilgi/60 hover:bg-[#1a2c47]'
                   }`}
                 >
-                  <span className="leading-relaxed">{option}</span>
+                  <span
+                    className={
+                      tamamenRunik(option)
+                        ? `runic ${sikRunikOlcek(option)} leading-snug break-words min-w-0`
+                        : 'leading-relaxed'
+                    }
+                  >
+                    {option}
+                  </span>
                   <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-2">
                     <button
                       type="button"

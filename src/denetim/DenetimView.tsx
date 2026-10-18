@@ -18,6 +18,19 @@ import {
  *
  * Kısayollar: A onay · R red · ←/→ gezinme · Ctrl+S dışa aktar
  */
+/**
+ * Runik ölçeği kod noktasına göre — tek kelime büyük, uzun dize küçük.
+ * `.length` kullanılamaz: U+10C00 üstü karakterler iki birim sayılır.
+ */
+const runikOlcek = (metin: string): string => {
+  const n = [...(metin ?? '')].length;
+  if (n <= 6) return 'text-6xl';
+  if (n <= 14) return 'text-4xl';
+  if (n <= 28) return 'text-3xl';
+  if (n <= 48) return 'text-2xl';
+  return 'text-xl';
+};
+
 export const DenetimView: React.FC = () => {
   const [kuyrukId, setKuyrukId] = useState<KuyrukId>('cumlecik');
   const [kayitlar, setKayitlar] = useState<DenetimKaydi[]>([]);
@@ -272,7 +285,9 @@ export const DenetimView: React.FC = () => {
           <p
             dir="rtl"
             lang="otk"
-            className="mb-3 break-words rounded-2xl bg-[#F6F9FC] px-5 py-6 text-center text-3xl leading-relaxed text-[#1F3147]"
+            className={`mb-3 break-words rounded-2xl bg-[#F6F9FC] px-5 py-6 text-center leading-relaxed text-[#1F3147] ${runikOlcek(
+              aktif.runik
+            )}`}
           >
             {aktif.runik}
           </p>

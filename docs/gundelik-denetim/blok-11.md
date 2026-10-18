@@ -7,26 +7,7 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 101. pınar  _(doğa terimi)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰯𐰃𐰣𐰺</span> |
-| Tamga tamga | 𐰯 𐰃 𐰣 𐰺 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- "p"
-- "ı" yazılır (md. 3)
-- "n" → kalın biçim (md. 6)
-- kısa "a" yazılmaz (md. 4)
-- "r" → kalın biçim (md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 102. kaya  _(doğa terimi)_
+### 101. kaya  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -44,7 +25,7 @@ Uygulanan kurallar:
 
 ---
 
-### 103. kum  _(doğa terimi)_
+### 102. kum  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -61,7 +42,7 @@ Uygulanan kurallar:
 
 ---
 
-### 104. çamur  _(doğa terimi)_
+### 103. çamur  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -80,7 +61,7 @@ Uygulanan kurallar:
 
 ---
 
-### 105. duman  _(doğa terimi)_
+### 104. duman  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -99,7 +80,7 @@ Uygulanan kurallar:
 
 ---
 
-### 106. ateş  _(doğa terimi)_
+### 105. ateş  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -117,7 +98,7 @@ Uygulanan kurallar:
 
 ---
 
-### 107. yağmur  _(doğa terimi)_
+### 106. yağmur  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -138,7 +119,7 @@ Uygulanan kurallar:
 
 ---
 
-### 108. bulut  _(doğa terimi)_
+### 107. bulut  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -157,7 +138,7 @@ Uygulanan kurallar:
 
 ---
 
-### 109. gölge  _(doğa terimi)_
+### 108. gölge  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -176,7 +157,7 @@ Uygulanan kurallar:
 
 ---
 
-### 110. ışık  _(doğa terimi)_
+### 109. ışık  _(doğa terimi)_
 
 | | |
 |---|---|
@@ -187,6 +168,27 @@ Uygulanan kurallar:
 Uygulanan kurallar:
 - "ı" yazılır (md. 3)
 - "ş"
+- "ık" hece damgası 𐰶 (md. 9)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 110. karanlık  _(doğa terimi)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰴𐰺𐰣𐰞𐰶</span> |
+| Tamga tamga | 𐰴 𐰺 𐰣 𐰞 𐰶 |
+| Sıra | kalın · 5 tamga |
+
+Uygulanan kurallar:
+- "k" → kalın biçim (md. 6)
+- kısa "a" yazılmaz (md. 3)
+- "r" → kalın biçim (md. 6)
+- kısa "a" yazılmaz (md. 4)
+- "n" → kalın biçim (md. 6)
+- "l" → kalın biçim (md. 6)
 - "ık" hece damgası 𐰶 (md. 9)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`

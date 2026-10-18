@@ -9,6 +9,8 @@ interface GundelikKelime {
   tamgaSayisi: number;
   adimlar: string[];
   zorluk: number;
+  /** Aynı tamga dizisine düşen başka sözcükler (taş/ateş, buz/boz…). */
+  esYazim?: string[];
 }
 
 /**
@@ -48,26 +50,54 @@ const karistir = <T,>(d: T[]): T[] => {
 };
 
 function alistirmayaCevir(k: GundelikKelime, havuz: GundelikKelime[]): Exercise | null {
-  // Çeldiriciler benzer uzunlukta başka yazımlar: eleme uzunluğa
-  // bakarak yapılamasın.
-  const yakin = havuz
-    .filter((x) => x.id !== k.id && Math.abs(x.tamgaSayisi - k.tamgaSayisi) <= 1)
-    .map((x) => x.runik);
-  const yanlislar = karistir(Array.from(new Set(yakin))).slice(0, 3);
-  if (yanlislar.length < 3) return null;
+  // ÇELDİRİCİ KURALI — iki tuzak var:
+  //
+  // 1) Eş yazım. Göktürk yazısında kısa a/e yazılmadığı için farklı
+  //    sözcükler aynı tamga dizisine düşer (taş/ateş → 𐱃𐱁). Çeldirici
+  //    sadece id'ye bakarak seçilirse doğru yazımın birebir aynısı
+  //    "yanlış şık" olarak konabiliyordu: iki doğru şıklı soru.
+  //    Bu yüzden eleme DİZGİ ÜZERİNDEN yapılır, id üzerinden değil.
+  //
+  // 2) Tamga sayısı. Soru "3 tamga" diyorsa 2 tamgalı çeldirici bedava
+  //    elenir. Çeldiriciler önce AYNI tamga sayısından aranır; o kadar
+  //    yazım yoksa ±1'e açılır ve sayı ipucu kaldırılır.
+  const digerleri = havuz.filter((x) => x.runik !== k.runik);
+  const tamEslesen = Array.from(new Set(
+    digerleri.filter((x) => x.tamgaSayisi === k.tamgaSayisi).map((x) => x.runik)
+  ));
+
+  let yanlislar: string[];
+  let sayiIpucu: boolean;
+  if (tamEslesen.length >= 3) {
+    yanlislar = karistir(tamEslesen).slice(0, 3);
+    sayiIpucu = true;
+  } else {
+    const yakin = Array.from(new Set(
+      digerleri
+        .filter((x) => Math.abs(x.tamgaSayisi - k.tamgaSayisi) <= 1)
+        .map((x) => x.runik)
+    ));
+    if (yakin.length < 3) return null;
+    yanlislar = karistir(yakin).slice(0, 3);
+    sayiIpucu = false;
+  }
 
   const kaynakNotu = k.tanikli
     ? 'Bu yazım yazıtlarda geçiyor (tanıklı).'
     : 'Bu yazım imla kuralından üretildi; yazıtlarda geçmez.';
+  // Eş yazım öğretilecek bir şeydir, saklanacak değil.
+  const esNotu = k.esYazim?.length
+    ? `  —  Aynı yazım "${k.esYazim.join('", "')}" sözcüğünde de çıkar: kısa ünlüler yazılmadığı için ayrımı bağlam yapar.`
+    : '';
 
   return {
     id: k.id,
     type: 'choice',
     prompt: `"${k.kelime}" sözcüğü Göktürk harfleriyle nasıl yazılır?`,
-    subprompt: `${k.tamgaSayisi} tamga`,
+    ...(sayiIpucu ? { subprompt: `${k.tamgaSayisi} tamga` } : {}),
     options: karistir([k.runik, ...yanlislar]),
     correctAnswer: k.runik,
-    explanation: `${k.adimlar.join(' · ')}  —  ${kaynakNotu}`
+    explanation: `${k.adimlar.join(' · ')}  —  ${kaynakNotu}${esNotu}`
   };
 }
 

@@ -150,7 +150,7 @@ export const GundelikView: React.FC = () => {
                 }}
                 dir="rtl"
                 lang="otk"
-                className={`relative py-4 px-5 rounded-2xl border-2 text-2xl runic transition-colors ${
+                className={`relative py-6 px-5 rounded-2xl border-2 text-5xl sm:text-6xl leading-snug runic transition-colors ${
                   !secim
                     ? 'bg-zemin border-zemin-4 hover:border-marka text-white'
                     : dogru

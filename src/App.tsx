@@ -70,8 +70,8 @@ export const App: React.FC = () => {
   // Ayrı parçada; öğrenme yolu açılınca iniyor. İnmezse yol elle yazılmış
   // içerikle sorunsuz çalışmaya devam eder.
   const [uretilmisUniteler, setUretilmisUniteler] = useState<typeof UNITS>([]);
-  // Gündelik üniteler yolun BAŞINDA: öğrenen bildiği kelimeyle harfleri
-  // öğrenir, sonra tanımadığı Eski Türkçe sözcüklere geçer.
+  // Gündelik üniteler ALFABEDEN SONRA, kitabeden önce: tamgalar
+  // öğrenildikten sonra bilinen sözcüklerle pekiştirilir.
   const [gundelikUniteler, setGundelikUniteler] = useState<typeof UNITS>([]);
 
   useEffect(() => {
@@ -85,15 +85,36 @@ export const App: React.FC = () => {
     return () => { iptal = true; };
   }, []);
 
-  // Sıra: gündelik (bildiğin kelimeler) → elle yazılmış alfabe aşamaları
-  // → kitabe kuşakları. Ünite numaraları sırayla yeniden verilir.
+  // ÖĞRENME YOLU SIRASI
+  //
+  //   1) ALFABE   — elle yazılmış unit-1..4: bütün tamgalar, kutuplu
+  //                 ünsüzler, hece damgaları, imla kuralları.
+  //   2) GÜNDELİK — öğrenilen tamgalarla bugünün Türkçesi (sayı, renk,
+  //                 hayvan…). Harf biliniyor, sözcük zaten biliniyor:
+  //                 sadece yazım çalışılır.
+  //   3) KİTABE   — unit-5 (gramer + kitabe çözümleme) ve korpustan
+  //                 üretilen kuşaklar.
+  //
+  // Önceki sıra gündelik'i en başa koyuyordu: harfleri görmeden sözcük
+  // yazdırıyordu. Alfabe önce gelmeli.
+  const alfabeUniteleri = useMemo(
+    () => UNITS.filter((u) => u.id !== 'unit-5'),
+    []
+  );
+  const kitabeGirisi = useMemo(
+    () => UNITS.filter((u) => u.id === 'unit-5'),
+    []
+  );
+
   const tumUniteler = useMemo(
     () =>
-      [...gundelikUniteler, ...UNITS, ...uretilmisUniteler].map((u, i) => ({
-        ...u,
-        number: i + 1
-      })),
-    [gundelikUniteler, uretilmisUniteler]
+      [
+        ...alfabeUniteleri,
+        ...gundelikUniteler,
+        ...kitabeGirisi,
+        ...uretilmisUniteler
+      ].map((u, i) => ({ ...u, number: i + 1 })),
+    [alfabeUniteleri, gundelikUniteler, kitabeGirisi, uretilmisUniteler]
   );
 
   const handleTabChange = (tab: string) => {

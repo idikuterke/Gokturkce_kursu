@@ -7,26 +7,7 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 61. kiraz  _(meyve)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰴𐰃𐰺𐰔</span> |
-| Tamga tamga | 𐰴 𐰃 𐰺 𐰔 |
-| Sıra | kalın · 4 tamga |
-
-Uygulanan kurallar:
-- "k" → kalın biçim (md. 6)
-- "i" yazılır (md. 3)
-- "r" → kalın biçim (md. 6)
-- kısa "a" yazılmaz (md. 4)
-- "z"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 62. dut  _(meyve)_
+### 61. dut  _(meyve)_
 
 | | |
 |---|---|
@@ -43,7 +24,7 @@ Uygulanan kurallar:
 
 ---
 
-### 63. ceviz  _(meyve)_
+### 62. ceviz  _(meyve)_
 
 | | |
 |---|---|
@@ -64,7 +45,7 @@ Uygulanan kurallar:
 
 ---
 
-### 64. badem  _(meyve)_
+### 63. badem  _(meyve)_
 
 | | |
 |---|---|
@@ -83,7 +64,7 @@ Uygulanan kurallar:
 
 ---
 
-### 65. nar  _(meyve)_
+### 64. nar  _(meyve)_
 
 | | |
 |---|---|
@@ -100,7 +81,7 @@ Uygulanan kurallar:
 
 ---
 
-### 66. erik  _(meyve)_
+### 65. erik  _(meyve)_
 
 | | |
 |---|---|
@@ -118,7 +99,7 @@ Uygulanan kurallar:
 
 ---
 
-### 67. karpuz  _(meyve)_
+### 66. karpuz  _(meyve)_
 
 | | |
 |---|---|
@@ -138,7 +119,7 @@ Uygulanan kurallar:
 
 ---
 
-### 68. kayısı  _(meyve)_
+### 67. kayısı  _(meyve)_
 
 | | |
 |---|---|
@@ -158,7 +139,7 @@ Uygulanan kurallar:
 
 ---
 
-### 69. soğan  _(sebze)_
+### 68. soğan  _(sebze)_
 
 | | |
 |---|---|
@@ -178,7 +159,7 @@ Uygulanan kurallar:
 
 ---
 
-### 70. sarımsak  _(sebze)_
+### 69. sarımsak  _(sebze)_
 
 | | |
 |---|---|
@@ -195,6 +176,24 @@ Uygulanan kurallar:
 - "s" → kalın biçim (md. 6)
 - kısa "a" yazılmaz (md. 4)
 - "k" → kalın biçim (md. 6)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 70. turp  _(sebze)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐱃𐰆𐰺𐰯</span> |
+| Tamga tamga | 𐱃 𐰆 𐰺 𐰯 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "t" → kalın biçim (md. 6)
+- "u" yazılır (md. 3)
+- "r" → kalın biçim (md. 6)
+- "p"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

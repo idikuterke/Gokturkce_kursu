@@ -4,12 +4,12 @@
 
 | | |
 |---|---|
-| Toplam kelime | 136 |
+| Toplam kelime | 134 |
 | Tanıklı (yazıtta geçiyor, denetim gerekmez) | 20 |
-| **Denetlenecek (kuraldan üretildi)** | **116** |
+| **Denetlenecek (kuraldan üretildi)** | **114** |
 | Blok | 12 × 10 |
 
-Tema dağılımı: doğa 12 · aile 6 · sayı 4 · renk 3 · fiil 15 · yiyecek 6 · gündelik 11 · meyve 11 · sebze 7 · hayvan 20 · doğa terimi 21
+Tema dağılımı: doğa 12 · aile 6 · sayı 4 · renk 3 · fiil 14 · yiyecek 6 · gündelik 11 · meyve 11 · sebze 7 · hayvan 20 · doğa terimi 20
 
 ## Tanıklı kelimeler (denetim dışı)
 
@@ -36,7 +36,18 @@ Tema dağılımı: doğa 12 · aile 6 · sayı 4 · renk 3 · fiil 15 · yiyecek
 
 ## Nasıl denetlenir
 
-Blokları sırayla aç, her kelimede yazımı kontrol et. Yanlış bulduğunu
-not et; bana listeyi verince `05_Kaynak_DB/gundelik-istisnalar.json`'a
-işleyip motoru düzeltirim — tek tek elle değiştirmem, **kuralı** düzeltirim
-ki aynı hata başka kelimelerde tekrarlanmasın.
+**Tercih edilen yol — tarayıcıda.** `npm run dev` → `localhost:3000/#denetim`
+→ **Gündelik yazım** sekmesi. Yazım büyük puntoyla, tamga dökümüyle ve
+uygulanan kurallarla gelir; kaynak alanı önceden dolu. `A` onay, `R` red,
+yanlışsa "Runik düzeltmesi" alanına doğrusunu yaz. Bitince **Dışa aktar**:
+
+```
+npm run gundelik:uygula     # indirilen paketi 05_Kaynak_DB/gundelik-istisnalar.json'a işler
+npm run gundelik:uret       # modülü yeniden üretir
+```
+
+**Kâğıt üstünde.** Bu blokları sırayla aç, yanlışları not et, listeyi bana ver.
+
+Her iki yolda da düzeltmeyi tek tek elle yapmam: **kuralı** düzeltirim ki
+aynı hata başka kelimelerde tekrarlanmasın. İstisna dosyası yalnızca kuralın
+doğru çalışıp da sonucun yanlış olduğu (düzensiz) durumlar içindir.

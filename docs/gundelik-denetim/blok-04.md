@@ -75,23 +75,7 @@ Uygulanan kurallar:
 
 ---
 
-### 35. al  _(fiil)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰞</span> |
-| Tamga tamga | 𐰞 |
-| Sıra | kalın · 1 tamga |
-
-Uygulanan kurallar:
-- kısa "a" yazılmaz (md. 3)
-- "l" → kalın biçim (md. 6)
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 36. sor  _(fiil)_
+### 35. sor  _(fiil)_
 
 | | |
 |---|---|
@@ -108,7 +92,7 @@ Uygulanan kurallar:
 
 ---
 
-### 37. koş  _(fiil)_
+### 36. koş  _(fiil)_
 
 | | |
 |---|---|
@@ -125,7 +109,7 @@ Uygulanan kurallar:
 
 ---
 
-### 38. uyu  _(fiil)_
+### 37. uyu  _(fiil)_
 
 | | |
 |---|---|
@@ -142,7 +126,7 @@ Uygulanan kurallar:
 
 ---
 
-### 39. iç  _(fiil)_
+### 38. iç  _(fiil)_
 
 | | |
 |---|---|
@@ -157,7 +141,7 @@ Uygulanan kurallar:
 
 ---
 
-### 40. ye  _(fiil)_
+### 39. ye  _(fiil)_
 
 | | |
 |---|---|
@@ -168,6 +152,25 @@ Uygulanan kurallar:
 Uygulanan kurallar:
 - "y" → ince biçim (md. 6)
 - son ünlü "e" yazılır (md. 2)
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 40. ekmek  _(yiyecek)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰚𐰢𐰚</span> |
+| Tamga tamga | 𐰚 𐰢 𐰚 |
+| Sıra | ince · 3 tamga |
+
+Uygulanan kurallar:
+- kısa "e" yazılmaz (md. 3)
+- "k" → ince biçim (md. 6)
+- "m"
+- kısa "e" yazılmaz (md. 4)
+- "k" → ince biçim (md. 6)
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

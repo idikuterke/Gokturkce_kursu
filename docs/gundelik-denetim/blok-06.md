@@ -7,24 +7,7 @@ doğrusunu yaz — tamga tamga ya da transkripsiyon olarak, ikisi de olur.
 
 ---
 
-### 51. göz  _(gündelik)_
-
-| | |
-|---|---|
-| Yazım | <span lang="otk">𐰏𐰇𐰔</span> |
-| Tamga tamga | 𐰏 𐰇 𐰔 |
-| Sıra | ince · 3 tamga |
-
-Uygulanan kurallar:
-- "g" → ince biçim (md. 6)
-- "ö" yazılır (md. 3)
-- "z"
-
-**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
-
----
-
-### 52. el  _(gündelik)_
+### 51. el  _(gündelik)_
 
 | | |
 |---|---|
@@ -40,7 +23,7 @@ Uygulanan kurallar:
 
 ---
 
-### 53. baş  _(gündelik)_
+### 52. baş  _(gündelik)_
 
 | | |
 |---|---|
@@ -57,7 +40,7 @@ Uygulanan kurallar:
 
 ---
 
-### 54. söz  _(gündelik)_
+### 53. söz  _(gündelik)_
 
 | | |
 |---|---|
@@ -74,7 +57,7 @@ Uygulanan kurallar:
 
 ---
 
-### 55. kitap  _(gündelik)_
+### 54. kitap  _(gündelik)_
 
 | | |
 |---|---|
@@ -93,7 +76,7 @@ Uygulanan kurallar:
 
 ---
 
-### 56. iyi  _(gündelik)_
+### 55. iyi  _(gündelik)_
 
 | | |
 |---|---|
@@ -110,7 +93,7 @@ Uygulanan kurallar:
 
 ---
 
-### 57. ulu  _(gündelik)_
+### 56. ulu  _(gündelik)_
 
 | | |
 |---|---|
@@ -127,7 +110,7 @@ Uygulanan kurallar:
 
 ---
 
-### 58. elma  _(meyve)_
+### 57. elma  _(meyve)_
 
 | | |
 |---|---|
@@ -145,7 +128,7 @@ Uygulanan kurallar:
 
 ---
 
-### 59. armut  _(meyve)_
+### 58. armut  _(meyve)_
 
 | | |
 |---|---|
@@ -164,7 +147,7 @@ Uygulanan kurallar:
 
 ---
 
-### 60. üzüm  _(meyve)_
+### 59. üzüm  _(meyve)_
 
 | | |
 |---|---|
@@ -177,6 +160,25 @@ Uygulanan kurallar:
 - "z"
 - "ü" yazılır (md. 3)
 - "m"
+
+**Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
+
+---
+
+### 60. kiraz  _(meyve)_
+
+| | |
+|---|---|
+| Yazım | <span lang="otk">𐰴𐰃𐰺𐰔</span> |
+| Tamga tamga | 𐰴 𐰃 𐰺 𐰔 |
+| Sıra | kalın · 4 tamga |
+
+Uygulanan kurallar:
+- "k" → kalın biçim (md. 6)
+- "i" yazılır (md. 3)
+- "r" → kalın biçim (md. 6)
+- kısa "a" yazılmaz (md. 4)
+- "z"
 
 **Karar:** ☐ doğru  ☐ yanlış → doğrusu: `____________`
 

@@ -113,11 +113,20 @@ for (const d of orhun.dizeler) {
   });
 }
 
-// Zorluk: kaç ünlü yazılmamışsa o kadar zor (okurken tamamlanmalı),
-// uzunluk ikincil etken. Bantlar 1-5.
+// Zorluk bantları 1-5.
+//
+// Eski formül (dusenUnlu*2 + tamga/3) ünlü düşmesine ağırlık veriyordu ve
+// bantlar UZUNLUKTA SIRASIZ çıkıyordu: bant 2 ya 1-2 tamgalık ya da 6-8
+// tamgalık sözcüklerden oluşuyor, arası boş kalıyordu (çift tepeli dağılım).
+// Sonuç ekranda görülüyordu: ileri bir aşamada 4 tamgalı KAGAN'ın ardından
+// 8 kelimelik cümlecik.
+//
+// Yeni formül uzunluğu ana eksen yapar, ünlü düşmesini bir basamak ekler.
+// Ortaya çıkan bantlar üst üste binmeden ilerler:
+//   1 → 2-4   2 → 3-5   3 → 5-7   4 → 6-9   5 → 8-11 tamga
 const zorluk = (k) => {
   const tamga = [...k.runik].length;
-  const puan = k.dusenUnlu * 2 + Math.floor(tamga / 3);
+  const puan = Math.round((tamga - 2) / 1.6) + (k.dusenUnlu >= 2 ? 1 : 0);
   return Math.max(1, Math.min(5, puan));
 };
 
@@ -586,16 +595,52 @@ const KUSAK_TANIMI = [
 const DERS_BASINA = 8;
 const DERS_SAYISI = 3;
 
+// ── SÖZCÜK UZUNLUK TABANI ───────────────────────────────────────────────────
+// Bant yalnızca "okuma zorluğundan" (yazılmayan ünlü sayısı) hesaplanıyordu.
+// Sonuç: son kuşakta 4 tamgalı KAGAN'ın hemen ardından 8 kelimelik bir
+// cümlecik gelebiliyordu — aynı ders içinde uçurum.
+//
+// Bant ilerledikçe kelime düzeyi sorular da uzar. Taban altındakiler elenir;
+// eleme havuzu derslerin ihtiyacının altına düşerse taban gevşetilir ve
+// bandın EN UZUN sözcükleri alınır (içerik tükenmesin).
+// Bant yalnızca tabanla sınırlanırsa sıra tersine dönebiliyor: bant 2'nin
+// havuzu uzun sözcüklerle dolu olduğu için bant 3'ten uzun çıkıyordu.
+// Bu yüzden her bandın bir PENCERESİ var — hem en kısa hem en uzun sınır.
+const TAMGA_ARALIGI = { 1: [2, 4], 2: [3, 5], 3: [5, 7], 4: [6, 9], 5: [8, 12] };
+const tamgaSayisi = (a) => [...(a.runik ?? "")].length;
+
+// Taban KESİNDİR: altındaki sözcük o banda girmez. Bir tür tabanı
+// tutturamayacak kadar azsa o türü kısa sorularla doldurmak yerine
+// bandın dönüşümünden ÇIKARIRIZ (boş liste dönüşümde atlanıyor).
+// "İlerledikçe kısalar sorulmasın" kuralı içerik bolluğundan önce gelir.
+const EN_AZ_OGE = 2;
+
+const uzunlukSuz = (liste, [alt, ust]) => {
+  const pencerede = liste.filter((a) => {
+    const n = tamgaSayisi(a);
+    return n >= alt && n <= ust;
+  });
+  if (pencerede.length >= EN_AZ_OGE) return pencerede;
+  // Pencere tutmuyorsa tavanı bırak, tabanı bırakma: kısa soru yasak.
+  const tabanUstu = liste.filter((a) => tamgaSayisi(a) >= alt);
+  return tabanUstu.length >= EN_AZ_OGE ? tabanUstu : [];
+};
+
 // Kuşaklar sırayla kurulur; önceki kuşaklarda öğretilen kelimeler
 // birikir ve sonraki kuşakların cümlecik sıralamasını belirler.
 const ogretilmisKelimeler = new Set();
 
 const kusaklar = KUSAK_TANIMI.map((tanim, i) => {
   const bantAlistirmalari = alistirmalar.filter((a) => a.zorluk === tanim.bant);
-  const okuma = bantAlistirmalari.filter((a) => a.tur === "runik_oku");
-  // Kelime kurma yalnızca anlamı bilinen kelimelerle.
-  const kurma = bantAlistirmalari.filter((a) => a.tur === "kelime_kur" && anlamlar.has(a.runik));
-  const ceviri = bantAlistirmalari.filter((a) => a.tur === "kelime_ceviri");
+  const aralik = TAMGA_ARALIGI[tanim.bant] ?? [2, 99];
+  const okuma = uzunlukSuz(bantAlistirmalari.filter((a) => a.tur === "runik_oku"), aralik);
+  // Kelime kurma, sorusunda ANLAM GÖSTERMEZ: ekranda transkripsiyon var,
+  // öğrenen onu tamgalarla kurar. Eskiden 84 kelimelik sözlükle
+  // sınırlıydı; o sınır bant 2, 4 ve 5'te havuzu kurutuyor, dönüşüm
+  // "oku → cümlecik" ikilisine düşüyordu. Kaynak korpusun kendisi:
+  // kelime zaten yazıtta geçen gerçek bir biçim.
+  const kurma = uzunlukSuz(bantAlistirmalari.filter((a) => a.tur === "kelime_kur"), aralik);
+  const ceviri = uzunlukSuz(bantAlistirmalari.filter((a) => a.tur === "kelime_ceviri"), aralik);
   // Cümle çevirisi dördüncü beceri: tek kelimeyi değil, kurallı bir
   // dizgeyi anlamak. Ders içinde en sona konur ki önce tanıma ve
   // yazma pekişsin.
