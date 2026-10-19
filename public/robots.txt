@@ -1,5 +1,5 @@
-# Kapalı tanıtım sürümü: arama motorlarına kapalı.
-# İçerik tamamlanıp herkese açıldığında bu dosya silinecek
-# ve index.html'deki noindex etiketi kaldırılacak.
+# Göktürkçe Öğrenek — aramalara açık.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://gokturkce-ogrenek.web.app/sitemap.xml

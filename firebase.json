@@ -31,15 +31,6 @@
     ],
     "headers": [
       {
-        "source": "**",
-        "headers": [
-          {
-            "key": "X-Robots-Tag",
-            "value": "noindex, nofollow"
-          }
-        ]
-      },
-      {
         "source": "**/*.@(js|css|woff2)",
         "headers": [
           {

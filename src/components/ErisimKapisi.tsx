@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { Lock, KeyRound } from 'lucide-react';
 
 /**
- * DEMO ERİŞİM KAPISI
+ * İSTEĞE BAĞLI ERİŞİM KAPISI
  *
- * Uygulama henüz herkese açık değil. Kapı, rastgele bir ziyaretçinin
- * yarım içeriği görmesini engeller: doğru erişim kodu girilmeden
- * uygulama render edilmez.
+ * Uygulama herkese açık yayınlanıyor; kapı varsayılan olarak kapalı
+ * (VITE_DEMO_KODU boşken hiç çıkmaz). Yalnızca kapalı bir deneme
+ * sürümü gerektiğinde kod verilerek açılır: doğru erişim kodu
+ * girilmeden uygulama render edilmez.
  *
  * NE DEĞİLDİR — açıkça söylemek gerekir: bu bir GÜVENLİK duvarı değil,
  * bir GÖRÜNÜRLÜK kapısıdır. Uygulama statik bir paket; dersler, sözlük

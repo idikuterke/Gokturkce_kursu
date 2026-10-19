@@ -670,7 +670,7 @@ export const App: React.FC = () => {
       {/* Minimal Footer */}
       <footer className="border-t border-zemin-4 py-6 text-center text-xs text-metin-3 bg-[#080E18]">
         <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>Göktürkçe Öğreneği &copy; {new Date().getFullYear()} — Antik Bozkır Yazıtları ve Dil Eğitimi</span>
+          <span>Göktürkçe Öğrenek &copy; {new Date().getFullYear()} — Antik Bozkır Yazıtları ve Dil Eğitimi</span>
           <span className="runic text-sm text-marka">𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣</span>
         </div>
       </footer>

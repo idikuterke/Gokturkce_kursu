@@ -20,11 +20,15 @@ const DenetimGirisi = denetimKullanilabilir
   ? lazy(() => import('./denetim/DenetimGirisi'))
   : null;
 
-// Adres cubugundaki #denetim acilip kapandiginda yeniden yukle.
-window.addEventListener('hashchange', () => {
-  const istenen = window.location.hash === '#denetim';
-  if (istenen !== denetimModu) window.location.reload();
-});
+// Adres cubugundaki #denetim acilip kapandiginda yeniden yukle. Denetim
+// hic kullanilamiyorsa (herkese acik paket) dinleyici de kurulmaz; yoksa
+// adrese #denetim yazan ziyaretci bos yere bir kez sayfa yeniler.
+if (denetimKullanilabilir) {
+  window.addEventListener('hashchange', () => {
+    const istenen = window.location.hash === '#denetim';
+    if (istenen !== denetimModu) window.location.reload();
+  });
+}
 
 /** Kapi kapaliysa once kodu sorar, gectikten sonra uygulamayi acar. */
 const Kok = () => {
