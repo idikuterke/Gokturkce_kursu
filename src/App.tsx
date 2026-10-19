@@ -17,6 +17,7 @@ import { useCloudProgress } from './hooks/useCloudProgress';
 import { AuthModal } from './components/AuthModal';
 import { uretilmisKusaklar } from './data/generated/kusakKur';
 import { gundelikKusaklar } from './data/generated/gundelikKusak';
+import { sayiKusaklar } from './data/generated/sayiKusak';
 
 // Acilista yalnizca "Ogren" sekmesi gorunur. Digerleri ayri parcalara
 // bolunup ilk acildiklarinda yuklenir; boylece recharts gibi agir
@@ -73,6 +74,9 @@ export const App: React.FC = () => {
   // Gündelik üniteler ALFABEDEN SONRA, kitabeden önce: tamgalar
   // öğrenildikten sonra bilinen sözcüklerle pekiştirilir.
   const [gundelikUniteler, setGundelikUniteler] = useState<typeof UNITS>([]);
+  // Sayı modülü gündelikten SONRA, kitabeden önce: Orhon sayı mantığı
+  // (eki yegirmi = 12) bilinmeden kitabedeki tarihler yanlış okunur.
+  const [sayiUniteleri, setSayiUniteleri] = useState<typeof UNITS>([]);
 
   useEffect(() => {
     let iptal = false;
@@ -82,6 +86,9 @@ export const App: React.FC = () => {
     gundelikKusaklar()
       .then((u) => { if (!iptal) setGundelikUniteler(u); })
       .catch(() => { /* gündelik modül isteğe bağlı */ });
+    sayiKusaklar()
+      .then((u) => { if (!iptal) setSayiUniteleri(u); })
+      .catch(() => { /* sayı modülü isteğe bağlı */ });
     return () => { iptal = true; };
   }, []);
 
@@ -92,7 +99,10 @@ export const App: React.FC = () => {
   //   2) GÜNDELİK — öğrenilen tamgalarla bugünün Türkçesi (sayı, renk,
   //                 hayvan…). Harf biliniyor, sözcük zaten biliniyor:
   //                 sadece yazım çalışılır.
-  //   3) KİTABE   — unit-5 (gramer + kitabe çözümleme) ve korpustan
+  //   3) SAYI     — Orhon sayı sistemi (Tekin §280-290). Bugünkünden
+  //                 farklı: *eki yegirmi* 22 değil 12. Bilinmezse
+  //                 kitabedeki her tarih yanlış okunur.
+  //   4) KİTABE   — unit-5 (gramer + kitabe çözümleme) ve korpustan
   //                 üretilen kuşaklar.
   //
   // Önceki sıra gündelik'i en başa koyuyordu: harfleri görmeden sözcük
@@ -111,10 +121,11 @@ export const App: React.FC = () => {
       [
         ...alfabeUniteleri,
         ...gundelikUniteler,
+        ...sayiUniteleri,
         ...kitabeGirisi,
         ...uretilmisUniteler
       ].map((u, i) => ({ ...u, number: i + 1 })),
-    [alfabeUniteleri, gundelikUniteler, kitabeGirisi, uretilmisUniteler]
+    [alfabeUniteleri, gundelikUniteler, sayiUniteleri, kitabeGirisi, uretilmisUniteler]
   );
 
   const handleTabChange = (tab: string) => {

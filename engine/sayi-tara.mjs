@@ -234,6 +234,38 @@ const cikti = {
 
 writeFileSync(P("docs/sayilar.json"), JSON.stringify(cikti, null, 2) + "\n", "utf8");
 
+// Uygulamaya giden alt küme: yalnız runiği olan, şüphesiz, cümle olmayan
+// öğeler. Cümle ve cümlecik ANLAMI sorulmaz kuralı gereği "örnek" tipi
+// dışarıda; onlar kural metninde kalır.
+const uygulama = {
+  uyari:
+    "Sayı öğeleri Tekin 2003 §280-290'dan; runik katman korpustan eşlendi. " +
+    "Katman \"kitap\" — insan denetiminden geçmedi.",
+  kaynak: cikti.kaynak,
+  katman: "kitap",
+  ogeler: bolumler.flatMap((b) =>
+    b.ogeler
+      .filter((o) => o.runik && !o.supheli && o.tip !== "örnek")
+      .map((o) => ({
+        id: `sayi-${sade(o.okunus).replace(/\s+/g, "-")}-${o.deger ?? sade(o.anlam).slice(0, 8)}`,
+        bolum: b.ad,
+        okunus: o.okunus,
+        ...(o.deger !== undefined ? { deger: o.deger } : {}),
+        anlam: o.anlam,
+        runik: o.runik,
+        runikEslesme: o.runikEslesme,
+        atif: o.atif,
+        sayfa: o.sayfa,
+        madde: o.madde,
+        tip: o.tip,
+      }))
+  ),
+};
+// Aynı id iki kez gelmesin (beş ~ biş gibi değişkeler aynı değere düşer).
+const gorulenId = new Set();
+uygulama.ogeler = uygulama.ogeler.filter((o) => !gorulenId.has(o.id) && gorulenId.add(o.id));
+writeFileSync(P("src/data/generated/sayilar.json"), JSON.stringify(uygulama, null, 2) + "\n", "utf8");
+
 const toplam = bolumler.reduce((n, b) => n + b.ogeler.length, 0);
 const runikli = bolumler.reduce((n, b) => n + b.ogeler.filter((o) => o.runik).length, 0);
 console.log(`${bolumler.length} bölüm · ${toplam} öğe → docs/sayilar.json`);

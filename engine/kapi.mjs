@@ -168,6 +168,31 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     const r = g.belgeDenetle(doc);
     console.log(`${f.padEnd(22)} farklı tamga: ${String(r.farkli).padStart(2)} | kaynaksız: ${r.hurda} | tofu: ${r.tofu}`);
   }
+  // Sayı modülü: her runik dizi korpusta TANIKLI olmalı. Sayı öğeleri
+  // kuraldan üretilmez — kitaptan okunuş, korpustan tamga gelir. Burada
+  // eşleşmeyen bir dizi varsa çıkarıcıda hata var demektir.
+  const sayiYolu = P("src/data/generated/sayilar.json");
+  if (fs.existsSync(sayiYolu)) {
+    const sayilar = JSON.parse(fs.readFileSync(sayiYolu, "utf8")).ogeler ?? [];
+    const korpusRunik = new Set(
+      JSON.parse(fs.readFileSync(P("src/data/generated/kelimeler.json"), "utf8")).map((k) => k.runik)
+    );
+    let tanikli = 0;
+    for (const o of sayilar) {
+      const parcalar = String(o.runik).split(" : ").filter(Boolean);
+      const eksik = parcalar.filter((x) => !korpusRunik.has(x));
+      if (eksik.length) g.hatalar.push(`sayilar.json ${o.id}: korpusta geçmeyen tamga dizisi ${eksik.join(" ")}`);
+      else tanikli++;
+      for (const ch of [...String(o.runik)]) {
+        const kod = ch.codePointAt(0);
+        if (kod < 0x10c00 || kod > 0x10c4f) continue;          // ayraç ve boşluk
+        if (!g.kaynak.has(ch)) g.hatalar.push(`sayilar.json ${o.id}: kaynaksız tamga ${ch}`);
+        if (!g.cmap.has(kod)) g.hatalar.push(`sayilar.json ${o.id}: yazı tipinde yok (tofu) ${ch}`);
+      }
+    }
+    console.log(`sayı modülü           : ${sayilar.length} öğe | korpusta tanıklı: ${tanikli}`);
+  }
+
   for (const f of ["Gokturkce_Kurs_Teklifi_Revize.md", "Gokturkce_Kurs_Teklifi_Revize.html", "brosur-a5.html"])
     if (fs.existsSync(P(f))) { g.tersSiraDenetle(fs.readFileSync(P(f), "utf8"), f); g.ciktiDenetle(fs.readFileSync(P(f), "utf8"), f); }
   console.log(`kaynak tamga kümesi: ${g.kaynak.size} | Noto cmap: ${g.cmap.size} kod noktası | sözlük: ${Object.keys(g.sozluk).length} kelime | orhun-db taraması: ${g.orhunTaramasi.sapma} gerekçeli sapma (kalan istisna)`);
