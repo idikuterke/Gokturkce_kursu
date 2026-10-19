@@ -17,3 +17,4 @@ public/ses/**/*.mp3
 *.log
 download/
 *.YEREL.json
+dist-demo/
