@@ -58,7 +58,12 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "bitişik/ünlü"
+      "hizalama": "bitişik/ünlü",
+      "okuyusFarklari": [
+        {
+          "not": "sözcük sınırı farkı: kitap ile korpus sözcüğü aynı yerde bölmüyor"
+        }
+      ]
     },
     {
       "id": "TY-T-1",
@@ -194,6 +199,31 @@
       "hizalama": "tam"
     },
     {
+      "id": "BK-T-1",
+      "kademe": "tamlama",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-K-1"
+      ],
+      "kelimeSayisi": 4,
+      "runik": "𐱅𐰭𐰼𐰃 : 𐱅𐰏 : 𐱅𐰭𐰼𐰃𐰓𐰀 : 𐰉𐰆𐰞𐰢𐱁",
+      "okunus": "täŋri täg täŋridä bolmış",
+      "ceviri": "Tanrı gibi (ve) Tanrı'dan olmuş",
+      "kaynaklar": [
+        "Tekin 1998, BK K 1, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tüm ünlü",
+      "okuyusFarklari": [
+        {
+          "kitap": "bolmış",
+          "korpus": "bolmuş"
+        }
+      ]
+    },
+    {
       "id": "BK-T-3",
       "kademe": "tamlama",
       "yazit": "Bilge Kağan",
@@ -229,7 +259,13 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "ünlü"
+      "hizalama": "ünlü",
+      "okuyusFarklari": [
+        {
+          "kitap": "ekin",
+          "korpus": "ikin"
+        }
+      ]
     },
     {
       "id": "KT-C-5",
@@ -286,7 +322,13 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "ünlü"
+      "hizalama": "ünlü",
+      "okuyusFarklari": [
+        {
+          "kitap": "ekin",
+          "korpus": "ikin"
+        }
+      ]
     },
     {
       "id": "TY-C-2",
@@ -364,7 +406,17 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "ünlü"
+      "hizalama": "ünlü",
+      "okuyusFarklari": [
+        {
+          "kitap": "keyik",
+          "korpus": "kiyik"
+        },
+        {
+          "kitap": "yeyü",
+          "korpus": "yiyü"
+        }
+      ]
     },
     {
       "id": "TY-C-5",
@@ -421,7 +473,13 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "ünlü+ünsüz"
+      "hizalama": "ünlü+ünsüz",
+      "okuyusFarklari": [
+        {
+          "kitap": "kılıntukda",
+          "korpus": "kılındukda"
+        }
+      ]
     },
     {
       "id": "KT-C-4",
@@ -440,7 +498,13 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "hoşgörülü %86"
+      "hizalama": "tüm ünlü",
+      "okuyusFarklari": [
+        {
+          "kitap": "udımadım",
+          "korpus": "udumadım"
+        }
+      ]
     },
     {
       "id": "TY-C-1",
@@ -460,7 +524,13 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "ünlü+ünsüz"
+      "hizalama": "ünlü+ünsüz",
+      "okuyusFarklari": [
+        {
+          "kitap": "kılıntım",
+          "korpus": "kılındım"
+        }
+      ]
     },
     {
       "id": "BK-C-3",
@@ -502,6 +572,39 @@
       "hizalama": "tam"
     },
     {
+      "id": "BK-C-1",
+      "kademe": "cümlecik",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-K-1"
+      ],
+      "kelimeSayisi": 10,
+      "runik": "𐱅𐰭𐰼𐰃 : 𐱅𐰏 : 𐱅𐰭𐰼𐰃𐰓𐰀 : 𐰉𐰆𐰞𐰢𐱁 : 𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐰋𐰇𐰓𐰚𐰀 : 𐰆𐰞𐰺𐱃𐰢 : 𐰽𐰉𐰢𐰣",
+      "okunus": "täŋri täg täŋridä bolmış türk bilge kagan bödke olurtum sabımın",
+      "ceviri": "(Ben), Tanrı gibi (ve) Tanrı'dan olmuş Türk Bilge Hakan, bu devirde (tahta) oturdum; sözlerimi...",
+      "kaynaklar": [
+        "Tekin 1998, BK K 1, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "ünsüz iskeleti",
+      "okuyusFarklari": [
+        {
+          "kitap": "bolmış",
+          "korpus": "bolmuş"
+        },
+        {
+          "kitap": "türk",
+          "korpus": "türük"
+        },
+        {
+          "kitap": "olurtum",
+          "korpus": "olurtım"
+        }
+      ]
+    },
+    {
       "id": "KT-C-3",
       "kademe": "cümlecik",
       "yazit": "Köl Tigin",
@@ -538,7 +641,13 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "hoşgörülü %95"
+      "hizalama": "tüm ünlü",
+      "okuyusFarklari": [
+        {
+          "kitap": "udımadım",
+          "korpus": "udumadım"
+        }
+      ]
     },
     {
       "id": "TY-P-1",
@@ -560,7 +669,17 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "ünlü+ünsüz"
+      "hizalama": "ünlü+ünsüz",
+      "okuyusFarklari": [
+        {
+          "kitap": "kılıntım",
+          "korpus": "kılındım"
+        },
+        {
+          "kitap": "bertim",
+          "korpus": "birtim"
+        }
+      ]
     },
     {
       "id": "KT-P-1",
@@ -580,7 +699,29 @@
       "katman": "kitap",
       "denetleyen": null,
       "runikDogrulandi": true,
-      "hizalama": "hoşgörülü %94"
+      "hizalama": "tüm ünlü",
+      "okuyusFarklari": [
+        {
+          "kitap": "kılıntukda",
+          "korpus": "kılındukda"
+        },
+        {
+          "kitap": "ekin",
+          "korpus": "ikin"
+        },
+        {
+          "kitap": "olurupan",
+          "korpus": "olurıpan"
+        },
+        {
+          "kitap": "boluŋ",
+          "korpus": "bolıŋ"
+        },
+        {
+          "kitap": "sülüpen",
+          "korpus": "sülipen"
+        }
+      ]
     }
   ]
 }

@@ -107,10 +107,24 @@ const sozcuk = (x) =>
 // yanlış hizalamayı tutar.
 const unluKatla = (x) => x.replace(/[ou]/g, "O").replace(/[öü]/g, "Ö").replace(/[eiı]/g, "E");
 const unsuzKatla = (x) => x.replace(/[dt]/g, "T").replace(/[gk]/g, "K").replace(/[bp]/g, "P");
+// 3. kademe: BÜTÜN ünlüler tek sayılır. Yazıda ünlülerin çoğu zaten
+// yazılmıyor; hangi ünlüyle okunacağı yayımcının kararı. Tekin
+// "bolmış/olurtum/oguşım" okuyor, korpus "BOLMuŞ/OLuRTıM/OGuŞuM".
+// Tamga dizisi ikisinde de aynı. Pencerenin TAMAMI uymak zorunda
+// olduğu için bu kademede bile yanlış pasaja oturma riski yok.
+const tumUnlu = (x) => x.replace(/[aeıioöuü]/g, "V");
+// 4. kademe: ünlüler tamamen atılır, yalnız ünsüz iskeleti kalır.
+// Yazıda ünlü çoğu zaman hiç yazılmıyor: *türk* ile *türük* ikisi de
+// 𐱅𐰇𐰼𐰜. Ünlü SLOTUNU koruyan 3. kademe bile bunları ayırıyordu.
+// İskelet eşleşmesi kısa birimlerde yanlış pasaja oturabilir, bu yüzden
+// yalnız 6+ sözcüklük birimlerde denenir (bk. hizala).
+const unsuzIskeleti = (x) => unsuzKatla(x.replace(/[aeıioöuü]/g, ""));
 const KADEMELER = [
   { ad: "tam", f: (x) => x },
   { ad: "ünlü", f: unluKatla },
   { ad: "ünlü+ünsüz", f: (x) => unsuzKatla(unluKatla(x)) },
+  { ad: "tüm ünlü", f: (x) => unsuzKatla(tumUnlu(x)) },
+  { ad: "ünsüz iskeleti", f: unsuzIskeleti, enAzSozcuk: 6 },
 ];
 
 // yüz anahtarı → sözcük dizisi [{ runik, anahtarlar[], dize }]
@@ -148,7 +162,8 @@ function hizala(okunus, kaynakIpucu) {
     const bi = kaynakIpucu && b.startsWith(kaynakIpucu) ? 0 : 1;
     return ai - bi;
   });
-  for (const [kademe, { ad, f }] of KADEMELER.entries()) {
+  for (const [kademe, { ad, f, enAzSozcuk }] of KADEMELER.entries()) {
+    if (enAzSozcuk && ham.length < enAzSozcuk) continue;
     const aranan = ham.map(f);
     for (const [yuz, liste] of sirali) {
       for (let i = 0; i + aranan.length <= liste.length; i++) {
@@ -163,6 +178,7 @@ function hizala(okunus, kaynakIpucu) {
           kademe: ad,
           dizeler: [...new Set(pencere.map((w) => w.dize))],
           runik: pencere.map((w) => w.runik).join(" : "),
+          korpusSozcukleri: pencere.map((w) => w.anahtarlar[0]),
         };
       }
     }
@@ -182,7 +198,8 @@ function hizala(okunus, kaynakIpucu) {
  * sınırda bitiyorsa kabul edilir, yoksa yarım sözcük alınmış olurdu.
  */
 function hizalaBitisik(ham, sirali) {
-  for (const [kademe, { ad, f }] of KADEMELER.entries()) {
+  for (const [kademe, { ad, f, enAzSozcuk }] of KADEMELER.entries()) {
+    if (enAzSozcuk && ham.length < enAzSozcuk) continue;
     const aranan = ham.map(f).join("");
     for (const [yuz, liste] of sirali) {
       let metin = "";
@@ -205,6 +222,7 @@ function hizalaBitisik(ham, sirali) {
         kademe: kademe === 0 ? "bitişik" : `bitişik/${ad}`,
         dizeler: [...new Set(pencere.map((w) => w.dize))],
         runik: pencere.map((w) => w.runik).join(" : "),
+        korpusSozcukleri: pencere.map((w) => w.anahtarlar[0]),
       };
     }
   }
@@ -228,11 +246,11 @@ function hizalaBitisik(ham, sirali) {
 function hizalaHosgorulu(ham, sirali) {
   // 6 sözcüğün altında hoşgörü yok: tek fark bile pasajı belirsizleştirir.
   if (ham.length < 6) return null;
-  const kat = KADEMELER[2].f;
+  const kat = KADEMELER[KADEMELER.length - 1].f;
   const aranan = ham.map(kat);
   const enIyi = { oran: 0 };
   for (const [yuz, liste] of sirali) {
-    const anahtar = liste.map((w) => w.anahtarlar[2]);
+    const anahtar = liste.map((w) => w.anahtarlar[KADEMELER.length - 1]);
     for (let i = 0; i < anahtar.length; i++) {
       if (anahtar[i] !== aranan[0]) continue;
       for (let uzunluk = ham.length - 3; uzunluk <= ham.length + 3; uzunluk++) {
@@ -260,8 +278,93 @@ function hizalaHosgorulu(ham, sirali) {
     kademe: `hoşgörülü %${Math.round(enIyi.oran * 100)}`,
     dizeler: [...new Set(pencere.map((w) => w.dize))],
     runik: pencere.map((w) => w.runik).join(" : "),
+    korpusSozcukleri: pencere.map((w) => w.anahtarlar[0]),
     uymayan: enIyi.uymayan,
   };
+}
+
+/**
+ * Hizalama tutmadığında NEREDE koptuğunu söyler.
+ *
+ * "bulunamadı" tek başına işe yaramıyordu. Çoğu başarısızlık aslında
+ * aynı sebepten: belge pasajı kısaltmış, aradan sözcük atlamış ama
+ * "..." koymamış. Bunu görmek için en derin kademede sözcük sözcük
+ * ilerlenir, ilk kopma noktası ve korpusta araya giren sözcükler
+ * raporlanır.
+ */
+function kopmaNoktasi(okunus, ipucu) {
+  const kat = KADEMELER[KADEMELER.length - 1].f;
+  const ham = okunus.split(/\s+/).map(sozcuk).filter(Boolean);
+  if (!ham.length) return "okunuş boş";
+  const aranan = ham.map(kat);
+  let enIyi = { uzunluk: -1 };
+  for (const [yuz, liste] of yuzler) {
+    if (ipucu && !yuz.startsWith(ipucu)) continue;
+    const anahtar = liste.map((w) => w.anahtarlar[KADEMELER.length - 1]);
+    for (let i = 0; i < anahtar.length; i++) {
+      if (anahtar[i] !== aranan[0]) continue;
+      let n = 0;
+      while (n < aranan.length && anahtar[i + n] === aranan[n]) n++;
+      if (n > enIyi.uzunluk) enIyi = { uzunluk: n, yuz, i, liste };
+    }
+  }
+  if (enIyi.uzunluk < 2) {
+    const tum = new Set();
+    for (const l of yuzler.values()) for (const w of l) tum.add(w.anahtarlar[KADEMELER.length - 1]);
+    const yok = ham.filter((w) => !tum.has(kat(w)));
+    return yok.length
+      ? `korpusta hiç geçmeyen sözcük(ler): ${yok.join(", ")}`
+      : "okunuş korpusta sözcük dizisi olarak bulunamadı";
+  }
+  const n = enIyi.uzunluk;
+  const kaldigiYer = enIyi.liste[enIyi.i + n];
+  // Birimin bir sonraki sözcüğü korpusta ileride mi geçiyor? Geçiyorsa
+  // belge aradan sözcük atlamış demektir.
+  const sonraki = aranan[n];
+  let atlanan = -1;
+  for (let j = enIyi.i + n; j < Math.min(enIyi.i + n + 80, enIyi.liste.length); j++) {
+    if (enIyi.liste[j].anahtarlar[KADEMELER.length - 1] === sonraki) { atlanan = j - (enIyi.i + n); break; }
+  }
+  if (atlanan > 0) {
+    return (
+      `pasaj ardışık değil: ilk ${n} sözcük ${enIyi.liste[enIyi.i].dize} ile uyuyor, ` +
+      `sonra "${ham[n - 1]}" ile "${ham[n]}" arasında yazıtta ${atlanan} sözcük atlanmış ` +
+      `(${enIyi.liste.slice(enIyi.i + n, enIyi.i + n + Math.min(4, atlanan)).map((w) => w.a ?? w.anahtarlar[0]).join(" ")}…). ` +
+      `Belge pasajı kısaltmış ama "..." koymamış.`
+    );
+  }
+  // Sözcük sınırı farkı (iniyegünüm ~ in yegünüm) hizalamayı erken
+  // durduruyor; asıl kopma daha ileride olabilir. Bitişik iskelette
+  // tarayıp gerçek kopma sözcüğünü buluyoruz.
+  const bitisikKopma = bitisikKopmaSozcugu(ham, enIyi);
+  if (bitisikKopma !== null && bitisikKopma > n) {
+    return (
+      `pasaj ardışık değil: ilk ${bitisikKopma} sözcük ${enIyi.liste[enIyi.i].dize} ile uyuyor, ` +
+      `"${ham[bitisikKopma]}" sözcüğünde yazıttan ayrılıyor — belge araya giren bölümü ` +
+      `atlamış ama "..." koymamış.`
+    );
+  }
+  return (
+    `ilk ${n} sözcük ${enIyi.liste[enIyi.i].dize} ile uyuyor, "${ham[n]}" sözcüğünde ayrılıyor ` +
+    `(korpus: "${kaldigiYer?.anahtarlar?.[0] ?? "—"}")`
+  );
+}
+
+/** Bitişik iskelette kaçıncı sözcüğe kadar uyduğunu verir. */
+function bitisikKopmaSozcugu(ham, enIyi) {
+  if (!enIyi.liste) return null;
+  const kat = KADEMELER[KADEMELER.length - 1].f;
+  const metin = enIyi.liste.map((w) => w.anahtarlar[KADEMELER.length - 1]).join("");
+  const hedef = ham.map(kat).join("");
+  let uzunluk = 0;
+  while (uzunluk < hedef.length && metin.includes(hedef.slice(0, uzunluk + 1))) uzunluk++;
+  let toplam = 0;
+  for (let j = 0; j < ham.length; j++) {
+    const u = kat(ham[j]).length;
+    if (toplam + u > uzunluk) return j;
+    toplam += u;
+  }
+  return null;
 }
 
 const kabul = [];
@@ -287,17 +390,7 @@ for (const birim of birimler) {
 
   const yer = hizala(birim.okunus, ipucu);
   if (!yer) {
-    // Nerede koptuğunu söyle: "bulunamadı" tek başına işe yaramıyor.
-    const ham = birim.okunus.split(/\s+/).map(sozcuk).filter(Boolean);
-    const tumSozcukler = new Set();
-    for (const liste of yuzler.values()) for (const w of liste) tumSozcukler.add(w.anahtarlar[2]);
-    const hicYok = ham.filter((w) => !tumSozcukler.has(KADEMELER[2].f(w)));
-    red.push({
-      ...birim,
-      sebep: hicYok.length
-        ? `korpusta hiç geçmeyen sözcük(ler): ${hicYok.join(", ")}`
-        : "sözcükler korpusta var ama bu sırayla ardışık değil — kitabın okuyuşu korpustan ayrılıyor",
-    });
+    red.push({ ...birim, sebep: kopmaNoktasi(birim.okunus, ipucu) });
     continue;
   }
 
@@ -306,6 +399,23 @@ for (const birim of birimler) {
   const korpustan = tamgalariAyikla(yer.runik);
   const fark = belge !== korpustan;
   if (fark) belgeFarkli++;
+
+  // Kitabın okuyuşu ile korpus transkripsiyonu sözcük sözcük nerede
+  // ayrılıyor: öğrenciye not olarak gösterilecek. Aynı tamgaların iki
+  // yayımda farklı okunması Orhon filolojisinin olağan hâli; bunu
+  // saklamak yerine öğretiyoruz.
+  const kitapSozcukleri = birim.okunus.split(/\s+/).map(sozcuk).filter(Boolean);
+  const korpusSozcukleri = yer.korpusSozcukleri ?? [];
+  const okuyusFarklari = [];
+  if (kitapSozcukleri.length === korpusSozcukleri.length) {
+    for (let j = 0; j < kitapSozcukleri.length; j++) {
+      if (kitapSozcukleri[j] !== korpusSozcukleri[j]) {
+        okuyusFarklari.push({ kitap: kitapSozcukleri[j], korpus: korpusSozcukleri[j] });
+      }
+    }
+  } else if (yer.kademe.startsWith("bitişik") || yer.kademe === "ünsüz iskeleti") {
+    okuyusFarklari.push({ not: "sözcük sınırı farkı: kitap ile korpus sözcüğü aynı yerde bölmüyor" });
+  }
 
   kabul.push({
     id: birim.id,
@@ -322,6 +432,7 @@ for (const birim of birimler) {
     denetleyen: null,
     runikDogrulandi: true,
     hizalama: yer.kademe,
+    ...(okuyusFarklari.length ? { okuyusFarklari } : {}),
     ...(yer.uymayan?.length ? { hizalamadaUymayan: yer.uymayan } : {}),
     ...(fark ? { belgeTamgaFarki: birim.runik } : {}),
   });

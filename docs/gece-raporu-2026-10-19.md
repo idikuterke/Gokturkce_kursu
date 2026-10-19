@@ -1,5 +1,14 @@
 # Gece raporu — 19/20 Ekim 2026
 
+> **DÜZELTME (20 Ekim).** Bu raporda "BK D 1 kaynak çatışması" diye
+> bildirdiğim şey **çatışma değilmiş**. Belge pasajı yanlış satıra
+> bağlamış: metin BK D 1'de değil **BK K 1**'de (Bilge Kağan *Kuzey*
+> yüzü). İki satırın tamgaları farklı (𐰖𐰺𐱃𐰢𐱁 *yaratmış* ≠ 𐰉𐰆𐰞𐰢𐱁
+> *bolmuş*), yani ayrı metinler. Hizalamanın tutmamasının sebebi
+> sıradan transkripsiyon farkıydı (*türk ~ türük*, *bolmış ~ bolmuş*).
+> Eşleştirici düzeltildi; 30 → **32 birim** kursa girdi.
+> Ayrıntı: `docs/kurs-birimleri-dogrulama.md`.
+
 Beş iş de bitti, hepsi `claude/proje-guncelleme-aiwfd3` dalında. Altı commit.
 
 | # | İş | Durum |

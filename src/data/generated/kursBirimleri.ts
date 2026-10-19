@@ -12,6 +12,8 @@ interface KursBirimi {
   kaynaklar: string[];
   katman: string;
   hizalama: string;
+  /** Kitabın okuyuşu ile korpus transkripsiyonunun ayrıldığı sözcükler. */
+  okuyusFarklari?: { kitap?: string; korpus?: string; not?: string }[];
 }
 
 /**
@@ -40,6 +42,37 @@ const karistir = <T,>(d: T[]): T[] => {
 
 const atif = (b: KursBirimi): string =>
   `${b.dizeler.join(", ")} · ${b.kaynaklar[0] ?? "Tekin 1998"}`;
+
+/**
+ * Okuyuş farkı notu.
+ *
+ * Aynı tamga dizisini iki yayım farklı okuyabiliyor: Tekin 1998
+ * *bolmış*, korpus *bolmuş*. Sebep yazının kendisi — ünlülerin çoğu
+ * taşa yazılmıyor, hangi ünlüyle okunacağı yayımcının kararı.
+ * Bunu saklamak yerine öğretiyoruz: öğrenci yazıt okumanın gerçeğini
+ * baştan görsün.
+ */
+function okuyusNotu(b: KursBirimi): string {
+  const f = b.okuyusFarklari ?? [];
+  if (!f.length) return '';
+  const sinirFarki = f.find((x) => x.not);
+  if (sinirFarki) {
+    return (
+      '  —  Okuyuş farkı: kitap ile korpus sözcüğü aynı yerde bölmüyor ' +
+      '(örn. kül tigin ~ költigin). Tamgalar aynı; boşluk taşta yazmıyor.'
+    );
+  }
+  const liste = f
+    .filter((x) => x.kitap && x.korpus)
+    .map((x) => `${x.kitap} ~ ${x.korpus}`)
+    .join(', ');
+  if (!liste) return '';
+  return (
+    `  —  Okuyuş farkı (${liste}): tamgalar aynı, okuyuş farklı. ` +
+    'Ünlülerin çoğu taşa yazılmadığı için aynı satır iki yayımda farklı ' +
+    'okunabiliyor; burada soldaki Tekin 1998, sağdaki korpus okuyuşu.'
+  );
+}
 
 /**
  * Doğru okunuşu bozarak aynı uzunlukta çeldirici üretir.
@@ -104,11 +137,7 @@ function okunusSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null {
     runePrompt: b.runik,
     options: karistir([b.okunus, ...karistir(secenekler).slice(0, 3)]),
     correctAnswer: b.okunus,
-    explanation:
-      `${atif(b)}. Anlamı: ${b.ceviri}` +
-      (b.hizalama !== 'tam'
-        ? `  —  Kitabın okuyuşu ile korpus yazımı arasında ufak fark var (${b.hizalama}); tamgalar korpustan.`
-        : ''),
+    explanation: `${atif(b)}. Anlamı: ${b.ceviri}${okuyusNotu(b)}`,
   };
 }
 
@@ -143,7 +172,7 @@ function eksikSozcukSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null 
     correctAnswer: dogru,
     explanation:
       `${okunuslar[yer]} — ${dogru}. Pasajın tamamı: ${b.okunus}. ` +
-      `Anlamı: ${b.ceviri}  ·  ${atif(b)}`,
+      `Anlamı: ${b.ceviri}  ·  ${atif(b)}${okuyusNotu(b)}`,
   };
 }
 
