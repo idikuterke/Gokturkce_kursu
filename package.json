@@ -17,6 +17,7 @@
     "gundelik:uygula": "node engine/gundelik-denetim-uygula.mjs --son",
     "kaynak:tara": "node engine/kaynak-tara.mjs",
     "sozluk:tekin": "node engine/tekin-sozluk-tara.mjs",
+    "sozluk:sentez": "node engine/sozluk-sentez-tara.mjs",
     "sozluk:ata": "node engine/ata-tara.mjs 00_Kaynaklar/kitaplar/ata_orhun_turkcesi_2011.txt",
     "sozluk:liste": "node engine/sozluk-istek-listesi.mjs",
     "ceviri:blok": "node engine/ceviri-blok-uret.mjs",

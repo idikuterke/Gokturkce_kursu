@@ -66,10 +66,30 @@ try {
   tekinSozluk = JSON.parse(fs.readFileSync(P("docs/tekin-sozluk.json"), "utf8")).kelimeler ?? [];
 } catch { /* Tekin sözlüğü taranmamışsa yalnız Ata kullanılır */ }
 
-// Kaynak sırası: Tekin 2003 Sözlük (1473 madde, uzmanlık sözlüğü) önce,
-// Ata 2011 metin çözümlemeleri (217 madde) sonra. İkisi de katman "kitap".
-// Ekler yalnız Ata'da var; kök+ek eşleşmesinde o kullanılıyor.
-const SOZLUK_KAYNAKLARI = [
+// Sözlük sentezi: Tekin 2003 + Tekin 1998 + Ata 2011 + Tanyeri birleşimi.
+// Çıkarıcı proje/kurs kaynaklı anlamları zaten ayıklıyor (dairesel olurdu).
+let sentez = [];
+try {
+  sentez = JSON.parse(fs.readFileSync(P("docs/sozluk-sentez.json"), "utf8")).kelimeler ?? [];
+} catch { /* sentez taranmamışsa tek tek kaynaklar kullanılır */ }
+
+// KAYNAK SIRASI. Hepsi katman "kitap"; hiçbiri denetimsiz kullanılmaz.
+// Proje kendi üretimini (çekirdek sözlük, content/sozluk.json) kaynak
+// GÖSTERMEZ — dairesel olur. Sentez çıkarıcısı bunları zaten eliyor.
+//
+// Sentez, Tekin 2003 ve Ata 2011'i ZATEN İÇERİR. Üçünü birden yüklemek
+// aynı sözcüğü iki ayrı kayıt yapıyor; anlam metinleri birebir aynı
+// olmadığı için anahtar "belirsiz" sayılıp ön dolgu düşüyordu
+// (241 → 122). Sentez varsa tek kaynak odur.
+const SOZLUK_KAYNAKLARI = sentez.length ? sentez.map((k) => ({
+    kelime: k.kelime,
+    anlam: k.anlamlar[0].anlam,
+    kaynak: k.anlamlar[0].kaynak,
+    eser: k.anlamlar[0].kaynak.split(",")[0].trim(),
+    ...(k.anlamlar.length > 1
+      ? { digerKaynaklar: k.anlamlar.slice(1).map((a) => `${a.anlam} [${a.kaynak}]`) }
+      : {}),
+})) : [
   ...tekinSozluk.map((k) => ({ ...k, eser: "Tekin 2003" })),
   ...ataSozluk.map((k) => ({ ...k, eser: "Ata 2011" })),
 ];
@@ -91,10 +111,15 @@ const FIIL_EKI = new Set(cekimEkleri.filter((e) => e.ek.startsWith("-")).map((e)
 
 /** Bir maddenin arama anahtarları. bir(i) hem "bir" hem "biri" olabilir. */
 function anahtarlar(kelime) {
-  const govde = kelime.replace(/-$/, "");
-  const parantezsiz = sadelestir(govde.replace(/\([^)]*\)/g, ""));
-  const parantezli = sadelestir(govde);
-  return [...new Set([parantezsiz, parantezli])].filter(Boolean);
+  // "yōk, yok" gibi varyantlı başsözcükler ayrı ayrı aranabilmeli.
+  const cikti = [];
+  for (const parca of String(kelime).split(/\s*,\s*/)) {
+    const govde = parca.trim().replace(/-$/, "");
+    if (!govde) continue;
+    cikti.push(sadelestir(govde.replace(/\([^)]*\)/g, "")));
+    cikti.push(sadelestir(govde));
+  }
+  return [...new Set(cikti)].filter(Boolean);
 }
 
 // anahtar → maddeler. Birden çok FARKLI anlam varsa ön dolgu yapılmaz:
@@ -110,6 +135,17 @@ for (const k of SOZLUK_KAYNAKLARI) {
 // İki kaynak aynı sözcüğü farklı kelimelerle açıklayabilir; bu belirsizlik
 // değildir. Belirsizlik, AYNI eserde aynı anahtara birden çok farklı madde
 // düşmesidir (bir / bir- / bir(i) gibi).
+// Birden çok kitap aynı sözcüğü verince en yetkili olan seçilir.
+// Örnek: "yok" maddesi Tekin 1998'de "olmak, azalmak" (kaynakta hatalı
+// görünüyor), Tekin 2003'te "yok". Sıralama olmadan ilk gelen kazanıyordu.
+const ESER_SIRASI = ["Tekin 2003", "Tekin 1998", "Ata 2011", "Tanyeri"];
+const eserAgirligi = (e) => {
+  const i = ESER_SIRASI.findIndex((x) => String(e ?? "").startsWith(x));
+  return i < 0 ? ESER_SIRASI.length : i;
+};
+const enYetkili = (liste) =>
+  [...liste].sort((a, b) => eserAgirligi(a.eser) - eserAgirligi(b.eser))[0];
+
 const tekAnlam = (liste) => {
   const esereGore = new Map();
   for (const x of liste) {
@@ -128,7 +164,7 @@ function ataEslesmesi(transkripsiyon) {
   const tam = ataHarita.get(w);
   if (tam) {
     if (!tekAnlam(tam)) return null;                 // belirsiz → ön dolgu yok
-    return { ...tam[0], eslesme: "tam" };
+    return { ...enYetkili(tam), eslesme: "tam" };
   }
 
   for (const kok of ataKokler) {
@@ -142,7 +178,7 @@ function ataEslesmesi(transkripsiyon) {
     );
     if (!uyan.length) continue;
     if (!tekAnlam(uyan)) continue;                   // belirsiz → atla
-    return { ...uyan[0], eslesme: "kök", kok, ek: kalan };
+    return { ...enYetkili(uyan), eslesme: "kök", kok, ek: kalan };
   }
   return null;
 }
@@ -167,6 +203,7 @@ const istek = kelimeler
         return {
           oneri: {
             meaning: a.eslesme === "kök" ? `${a.anlam}  (${a.kok} + ${a.ek})` : a.anlam,
+            ...(a.digerKaynaklar?.length ? { digerKaynaklar: a.digerKaynaklar } : {}),
             source: a.kaynak,
             eser: a.eser,
             eslesme: a.eslesme,

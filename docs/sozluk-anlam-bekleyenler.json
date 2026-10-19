@@ -9,8 +9,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -27,7 +33,10 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad; bk. Türük",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "digerKaynaklar": [
+        "etnik ad (bk. Türük) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -64,7 +73,10 @@
     "source": null,
     "oneri": {
       "meaning": "öyle, onca, o kadar; şöyle",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "digerKaynaklar": [
+        "öyle, öylece, şöyle, şöylece, böyle, böylece, o kadar, çok, bedava, karşılıksız [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -81,7 +93,7 @@
     "source": null,
     "oneri": {
       "meaning": "o, onlar; -dır",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -107,8 +119,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "gök, sema; tanrı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
+      "meaning": "gök, tanrı, ilahi düzen",
+      "digerKaynaklar": [
+        "gök, sema; tanrı [Tekin 2003, s. 254]"
+      ],
+      "source": "Tekin 2003, s. 254",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -125,7 +140,7 @@
     "source": null,
     "oneri": {
       "meaning": "Çin, Çinli",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -142,7 +157,11 @@
     "source": null,
     "oneri": {
       "meaning": "için, nedeniyle, uğruna",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "digerKaynaklar": [
+        "için, olduğundan [Tekin 1998, Sözlük (s. 97-116)]",
+        "için, dolayı, yüzünden [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -156,7 +175,21 @@
     "frequency": 36,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "bilge, hakim, bilgili, akil",
+      "digerKaynaklar": [
+        "akıllı, hakim; danışman (bk. biligä) [Tekin 2003, s. 240]",
+        "kişi adı, hakanlık adı [Tekin 2003, s. 240]",
+        "Kağan kağan adı/ünvanı [Tekin 1998, Sözlük (s. 97-116)]",
+        "Tunyukuk kişi adı/ ünvanı [Tekin 1998, Sözlük (s. 97-116)]",
+        "akıllı, akıl veren, danışman; ünvan [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 240",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱅𐰏𐰃",
@@ -169,7 +202,7 @@
     "source": null,
     "oneri": {
       "meaning": "-a kadar",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -186,7 +219,11 @@
     "source": null,
     "oneri": {
       "meaning": "şüphesiz, muhakkak ki, gerçekten",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
+      "digerKaynaklar": [
+        "galiba, büyük olasılıkla, şüphesiz, muhakkak ki [Tekin 1998, Sözlük (s. 97-116)]",
+        "olacak, olmalı, tabiî, elbette, -dır / -dir [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 243",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -203,7 +240,10 @@
     "source": null,
     "oneri": {
       "meaning": "gelmek  (kel + ti)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "gelmek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -219,8 +259,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "boylar, kabileler, halk  (bodun + ug)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "millet, halk, boylar birliği  (bodun + ug)",
+      "digerKaynaklar": [
+        "boylar, kabileler, halk [Tekin 2003, s. 241]",
+        "boylar, kabileler, halk [Tekin 1998, Sözlük (s. 97-116)]",
+        "budun, ulus, millet, kavim [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -237,8 +282,8 @@
     "source": null,
     "oneri": {
       "meaning": "yok",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
-      "eser": "Ata 2011",
+      "source": "Tekin 2003, s. 260",
+      "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
     }
@@ -283,8 +328,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ordu, askeri birlikler; savaş",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "meaning": "ordu, asker, sefer kuvveti",
+      "digerKaynaklar": [
+        "ordu, askeri birlikler; savaş [Tekin 2003, s. 252]",
+        "ordu; asker [Tekin 1998, Sözlük (s. 97-116)]",
+        "ordu, asker [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -301,7 +351,10 @@
     "source": null,
     "oneri": {
       "meaning": "diye, diyerek; bk. teyin",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
+      "digerKaynaklar": [
+        "diye, diyerek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 254",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -317,8 +370,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bey, lord  (beg + ler)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "meaning": "bey, soylu lider, komutan  (beg + ler)",
+      "digerKaynaklar": [
+        "bey, lord [Tekin 2003, s. 240]",
+        "bey [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -334,8 +391,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ordu sevk etmek, ordu ile sefere çıkmak  (süle + dim)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "meaning": "sefere çıkmak, ordu sevketmek  (süle + dim)",
+      "digerKaynaklar": [
+        "ordu sevk etmek, ordu ile sefere çıkmak [Tekin 2003, s. 252]",
+        "ordu sevk etmek, sefer etmek, ordu ile sefere çıkmak [Tekin 1998, Sözlük (s. 97-116)]",
+        "ordu sevk etmek, akın düzenlemek, sefere çıkmak [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -361,8 +423,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "etnik ad, Tokuz Oguz, vb.",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "meaning": "Oğuz (boy birliği)",
+      "digerKaynaklar": [
+        "etnik ad, Tokuz Oguz, vb. [Tekin 2003, s. 250]"
+      ],
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -388,9 +453,9 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "kendim",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 185",
-      "eser": "Ata 2011",
+      "meaning": "ben, kendim (Ongin",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
       "eslesme": "tam",
       "katman": "kitap"
     }
@@ -406,7 +471,11 @@
     "source": null,
     "oneri": {
       "meaning": "ile, birlikte",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "ile, birlikte [Tekin 1998, Sözlük (s. 97-116)]",
+        "ile [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -423,7 +492,10 @@
     "source": null,
     "oneri": {
       "meaning": "hani, nerede  (kanı + m)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "hani, nerde [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -440,7 +512,10 @@
     "source": null,
     "oneri": {
       "meaning": "yukarıda, üstte; üzerine",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "digerKaynaklar": [
+        "üzerine, üzerinde; üstte, yukarıda; gereğince [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -456,8 +531,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "düşman",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "meaning": "düşman, hasım",
+      "digerKaynaklar": [
+        "düşman [Tekin 2003, s. 257]",
+        "düşman [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -474,7 +553,7 @@
     "source": null,
     "oneri": {
       "meaning": "-e doğru, yönünde",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -501,7 +580,10 @@
     "source": null,
     "oneri": {
       "meaning": "bu",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "bu [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -528,7 +610,7 @@
     "source": null,
     "oneri": {
       "meaning": "iki; bk. eki, ekin",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -544,8 +626,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator  (kagan + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar  (kagan + ka)",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -561,8 +649,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "zor, güç; cesur, yiğit savaşçı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "meaning": "cesur, yiğit, kahraman savaşçı",
+      "digerKaynaklar": [
+        "zor, güç; cesur, yiğit savaşçı [Tekin 2003, s. 237]",
+        "yiğit, cesur; zor [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -589,7 +681,11 @@
     "source": null,
     "oneri": {
       "meaning": "için, nedeniyle, uğruna",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "digerKaynaklar": [
+        "için, olduğundan [Tekin 1998, Sözlük (s. 97-116)]",
+        "için, dolayı, yüzünden [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -605,8 +701,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ileriye, ileride, doğuda",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "meaning": "ileriye, ileride, doğuda (bk. iligärü)",
+      "digerKaynaklar": [
+        "ileri, ileride, doğuda, [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -630,7 +729,19 @@
     "frequency": 17,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kuzey (Tar. B 5); bk. ir, yırdın, yırya",
+      "digerKaynaklar": [
+        "yer, dünya; toprak, ülke; bk. yer [Tekin 2003, s. 259]",
+        "Bayırku etnik ad [Tekin 1998, Sözlük (s. 97-116)]",
+        "yer) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 259",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰼𐰾𐰼",
@@ -652,8 +763,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "meaning": "Kırgız (boy birliği)",
+      "digerKaynaklar": [
+        "etnik ad (Kırgız'lar) [Tekin 2003, s. 247]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -670,7 +784,10 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "digerKaynaklar": [
+        "etnik ad (Türgiş'ler) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -686,8 +803,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bunca, bu kadar",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "bunca, bu kadar (çok)",
+      "digerKaynaklar": [
+        "bunca, bu kadar (çok) [Tekin 1998, Sözlük (s. 97-116)]",
+        "bunca, bu kadar, böyle [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -703,8 +824,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ben",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "meaning": "ben (bk. män)",
+      "digerKaynaklar": [
+        "ben [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -721,7 +845,10 @@
     "source": null,
     "oneri": {
       "meaning": "kılmak, yapmak, etmek  (kıl + dım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "digerKaynaklar": [
+        "kılmak, yapmak, etmek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -758,7 +885,10 @@
     "source": null,
     "oneri": {
       "meaning": "insan",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 247",
+      "digerKaynaklar": [
+        "eki [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 248",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -774,8 +904,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yakalanmak",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "meaning": "yakalanmak (IB 61)",
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -789,7 +919,14 @@
     "frequency": 14,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "dermek, toplamak; bk. teril-",
+      "source": "Tekin 2003, s. 254",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰾𐰇𐰾𐰃",
@@ -822,7 +959,11 @@
     "source": null,
     "oneri": {
       "meaning": "fena, kötü; kötülük, nifak",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "digerKaynaklar": [
+        "SÖZLÜK nifak [Tekin 1998, Sözlük (s. 97-116)]",
+        "kötü, fena, perişan [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -858,8 +999,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "sen",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "meaning": "sen (yüklem bağlayıcısı olarak)",
+      "digerKaynaklar": [
+        "sen (kişi eki olarak) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -875,8 +1019,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "amca; ağabey  (eçi + m)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
+      "meaning": "ağabey, amca  (eçi + m)",
+      "digerKaynaklar": [
+        "amca; ağabey (bk. içi) [Tekin 2003, s. 243]",
+        "ağabey; amca [Tekin 1998, Sözlük (s. 97-116)]",
+        "amca, ağabey [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 243",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -893,7 +1042,7 @@
     "source": null,
     "oneri": {
       "meaning": "dört",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 254",
+      "source": "Tekin 2003, s. 255",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -920,7 +1069,11 @@
     "source": null,
     "oneri": {
       "meaning": "geri, geride, batıda; sonra",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "digerKaynaklar": [
+        "sonra; geride, batıda [Tekin 1998, Sözlük (s. 97-116)]",
+        "sonra, ondan sonra [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -937,7 +1090,10 @@
     "source": null,
     "oneri": {
       "meaning": "savaşmak  (sünüş + düm)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "digerKaynaklar": [
+        "süngüleşmek, mızraklaşmak, çarpışmak, savaşmak, harp etmek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -963,8 +1119,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "devlet, ülke",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "meaning": "devlet, ülke (bk. el)",
+      "digerKaynaklar": [
+        "ülke, devlet, halk (bk. el) [Tekin 1998, Sözlük (s. 97-116)]",
+        "devlet [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -981,7 +1141,10 @@
     "source": null,
     "oneri": {
       "meaning": "hiç, hiç de; herhangi",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "digerKaynaklar": [
+        "nesne, şey, mal, eşya; h,ç, asla [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1028,7 +1191,10 @@
     "source": null,
     "oneri": {
       "meaning": "vermek; bk. ber-  (bir + miş)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "vermek (bk. ber-) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1044,8 +1210,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bey, lord  (beg + leri)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "meaning": "bey, soylu lider, komutan  (beg + leri)",
+      "digerKaynaklar": [
+        "bey, lord [Tekin 2003, s. 240]",
+        "bey [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1061,8 +1231,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ordu sevk etmek, ordu ile sefere çıkmak  (süle + dimiz)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "meaning": "sefere çıkmak, ordu sevketmek  (süle + dimiz)",
+      "digerKaynaklar": [
+        "ordu sevk etmek, ordu ile sefere çıkmak [Tekin 2003, s. 252]",
+        "ordu sevk etmek, sefer etmek, ordu ile sefere çıkmak [Tekin 1998, Sözlük (s. 97-116)]",
+        "ordu sevk etmek, akın düzenlemek, sefere çıkmak [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1078,8 +1253,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "erişilebilir",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "meaning": "erişilebilir (KT G 13, 13)",
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1093,7 +1268,19 @@
     "frequency": 11,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "/ol/ zamirinin nesne durumu",
+      "digerKaynaklar": [
+        "ırmak adı (T 24, 27) [Tekin 2003, s. 238]",
+        "onu, onları [Tekin 1998, Sözlük (s. 97-116)]",
+        "ırmak adı [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 238",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰆𐰍𐰞𐰃",
@@ -1103,14 +1290,7 @@
     "frequency": 11,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "evlat, çocuk  (ogl + ı)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
-      "eser": "Ata 2011",
-      "eslesme": "kök",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐰴𐰺𐰀",
@@ -1123,7 +1303,12 @@
     "source": null,
     "oneri": {
       "meaning": "kara; sıradan (halk), avam",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "Kum yer adı (Gobi çölü) [Tekin 1998, Sözlük (s. 97-116)]",
+        "Köl yer adı [Tekin 1998, Sözlük (s. 97-116)]",
+        "kara; alelade, avam [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1139,8 +1324,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "fazla, sayıca çok, kalabalık  (artuk + ı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 237",
+      "meaning": "fazla, sayıca çok, kalabalık (KT D 33, T 20, 40, vb.)  (artuk + ı)",
+      "digerKaynaklar": [
+        "fazla, sayıca çok [Tekin 1998, Sözlük (s. 97-116)]",
+        "fazla, ziyade, artık [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1157,7 +1346,7 @@
     "source": null,
     "oneri": {
       "meaning": "biz",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1184,7 +1373,10 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad; bk. Türük",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "digerKaynaklar": [
+        "etnik ad (bk. Türük) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1200,8 +1392,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "boylar, kabileler, halk  (bodun + ı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "millet, halk, boylar birliği  (bodun + ı)",
+      "digerKaynaklar": [
+        "boylar, kabileler, halk [Tekin 2003, s. 241]",
+        "boylar, kabileler, halk [Tekin 1998, Sözlük (s. 97-116)]",
+        "budun, ulus, millet, kavim [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1218,7 +1415,7 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1244,8 +1441,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "gece, geceleyin",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "meaning": "gece, karanlık",
+      "digerKaynaklar": [
+        "gece, geceleyin [Tekin 2003, s. 256]",
+        "gece; geceleyin [Tekin 1998, Sözlük (s. 97-116)]",
+        "gece [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1261,8 +1463,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yer adı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "meaning": "Ötüken (kutsal devlet merkezi)",
+      "digerKaynaklar": [
+        "yer adı (T 17, vb.) [Tekin 2003, s. 251]",
+        "yer adı (Hangay dağlarının doğu etekleri) ötülüğ ? [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1279,7 +1485,10 @@
     "source": null,
     "oneri": {
       "meaning": "bağımlı, tabi",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "digerKaynaklar": [
+        "yabancı, tâbi [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1296,7 +1505,7 @@
     "source": null,
     "oneri": {
       "meaning": "hükümdar",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1323,7 +1532,7 @@
     "source": null,
     "oneri": {
       "meaning": "ok; boy, kabile, kabile örgütü",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1339,8 +1548,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "erkek kardeş  (ini + m)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "erkek kardeş (küçük)  (ini + m)",
+      "digerKaynaklar": [
+        "erkek kardeş [Tekin 2003, s. 245]",
+        "erkek kardeş [Tekin 1998, Sözlük (s. 97-116)]",
+        "küçük kardeş [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1357,7 +1571,7 @@
     "source": null,
     "oneri": {
       "meaning": "ulu, büyük; yaşlı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1404,7 +1618,7 @@
     "source": null,
     "oneri": {
       "meaning": "dokuz",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 254",
+      "source": "Tekin 2003, s. 255",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1428,7 +1642,18 @@
     "frequency": 9,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "dış",
+      "digerKaynaklar": [
+        "taş, kaya; kayalık yer [Tekin 2003, s. 253]",
+        "dış [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 253",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐰑𐰸",
@@ -1441,7 +1666,11 @@
     "source": null,
     "oneri": {
       "meaning": "kutsal, mübarek",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "digerKaynaklar": [
+        "kutsal, mübarek [Tekin 1998, Sözlük (s. 97-116)]",
+        "mukaddes, kutlu, mübarek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1457,8 +1686,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "on bin, pek çok",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "meaning": "on bin (10000), tümen",
+      "digerKaynaklar": [
+        "on bin, pek çok [Tekin 2003, s. 256]",
+        "on bin, pek çok [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1475,7 +1708,10 @@
     "source": null,
     "oneri": {
       "meaning": "yedi; bk. yeti",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 259",
+      "digerKaynaklar": [
+        "yedi (bk. yeti) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 260",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1501,8 +1737,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator  (kagan + ı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar  (kagan + ı)",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1538,10 +1780,10 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "batı  (kurı + garu)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
-      "eser": "Ata 2011",
-      "eslesme": "kök",
+      "meaning": "batıda, batıya doğru (KT G 2, D 24)",
+      "source": "Tekin 2003, s. 249",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
       "katman": "kitap"
     }
   },
@@ -1556,7 +1798,10 @@
     "source": null,
     "oneri": {
       "meaning": "önce, ilk önce; ve",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "digerKaynaklar": [
+        "önce, ilk önce; ve [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1572,8 +1817,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ormanlı dağ; bk. yiş",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 258",
+      "meaning": "ormanlık dağ, orman",
+      "digerKaynaklar": [
+        "ormanlı dağ; bk. yiş [Tekin 2003, s. 259]",
+        "dağ, ormanlı dağ; orman, [Tekin 1998, Sözlük (s. 97-116)]",
+        "orman, ormanlık dağ [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 259",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1590,7 +1840,10 @@
     "source": null,
     "oneri": {
       "meaning": "öte, ötesinde",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "ötesinde (çekim edatı) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1604,7 +1857,19 @@
     "frequency": 8,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "hiç, asla; bk. edi",
+      "digerKaynaklar": [
+        "sahip [Tekin 2003, s. 244]",
+        "(1) sahip [Tekin 1998, Sözlük (s. 97-116)]",
+        "edi) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 244",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰭𐰏𐰇",
@@ -1616,8 +1881,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "sonsuz, ebedi",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "meaning": "ebedi, sonsuz, abide",
+      "digerKaynaklar": [
+        "sonsuz, ebedi (bk. bäŋigü, bäŋkü, bäŋü) [Tekin 2003, s. 240]",
+        "ebedi, ebedi olarak [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1654,7 +1923,11 @@
     "source": null,
     "oneri": {
       "meaning": "su; ırmak",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "digerKaynaklar": [
+        "su, ırmak [Tekin 1998, Sözlük (s. 97-116)]",
+        "su, nehir [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1671,7 +1944,10 @@
     "source": null,
     "oneri": {
       "meaning": "yine, tekrar",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 257",
+      "digerKaynaklar": [
+        "yine, tekrar, yeniden [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 258",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1687,8 +1963,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yeğen, kardeş oğlu",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "meaning": "yeğen, kardeş oğlu (KT G 13, vb.)",
+      "digerKaynaklar": [
+        "yeğ en [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1705,7 +1984,10 @@
     "source": null,
     "oneri": {
       "meaning": "altı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "digerKaynaklar": [
+        "altı [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1722,7 +2004,12 @@
     "source": null,
     "oneri": {
       "meaning": "üç",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "digerKaynaklar": [
+        "Kurıkan etnik ad [Tekin 1998, Sözlük (s. 97-116)]",
+        "Oğuz etnik ad [Tekin 1998, Sözlük (s. 97-116)]",
+        "üç [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1739,7 +2026,10 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad; bk. Türük",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "digerKaynaklar": [
+        "etnik ad (bk. Türük) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1786,7 +2076,11 @@
     "source": null,
     "oneri": {
       "meaning": "düşünmek; yas tutmak  (sakın + dım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "digerKaynaklar": [
+        "düşünmek, kaygılanmak [Tekin 1998, Sözlük (s. 97-116)]",
+        "düşünmek, düşünceye dalmak, endişelenmek, düşünüp taşınmak, yas tutmak [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1803,7 +2097,10 @@
     "source": null,
     "oneri": {
       "meaning": "vermek; bk. ber-  (bir + tim)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "vermek (bk. ber-) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1820,7 +2117,10 @@
     "source": null,
     "oneri": {
       "meaning": "diye, diyerek; bk. teyin",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
+      "digerKaynaklar": [
+        "diye, diyerek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 254",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1836,9 +2136,9 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "oturmak  (olur + tum)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
-      "eser": "Ata 2011",
+      "meaning": "oturmak, tahta oturmak, kağan olmak  (olur + tum)",
+      "source": "Tanyeri, Sözlük",
+      "eser": "Tanyeri",
       "eslesme": "kök",
       "katman": "kitap"
     }
@@ -1853,8 +2153,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yüksek görevli, kumandan  (buyruk + ı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "meaning": "buyruk, vezir, bakan, emredici  (buyruk + ı)",
+      "digerKaynaklar": [
+        "yüksek görevli, kumandan [Tekin 2003, s. 242]",
+        "kumandan, amir [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1871,7 +2175,10 @@
     "source": null,
     "oneri": {
       "meaning": "önce, ilk önce",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "digerKaynaklar": [
+        "önce [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1888,7 +2195,10 @@
     "source": null,
     "oneri": {
       "meaning": "öldürmek  (ölür + tüm)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "digerKaynaklar": [
+        "öldürmek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -1905,7 +2215,10 @@
     "source": null,
     "oneri": {
       "meaning": "her",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "digerKaynaklar": [
+        "her [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1919,7 +2232,14 @@
     "frequency": 7,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kendisi, kendileri",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐰑𐰢𐰾",
@@ -1942,7 +2262,10 @@
     "source": null,
     "oneri": {
       "meaning": "kez, kere, defa",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 259",
+      "digerKaynaklar": [
+        "kez, kere, defa [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 260",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -1968,8 +2291,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yüksek bir unvan",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "meaning": "şad (yüksek dereceli veliaht/prens unvanı)",
+      "digerKaynaklar": [
+        "yüksek bir unvan (bk. Çad) [Tekin 2003, s. 253]",
+        "ünvan, yüksek bir ünvan, Şad [Tekin 1998, Sözlük (s. 97-116)]",
+        "Türk devletinin batı kısmının başkanı, yabgu [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2006,7 +2334,10 @@
     "source": null,
     "oneri": {
       "meaning": "pekiştirme edatı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "digerKaynaklar": [
+        "pekiştirme edatı (bk. ok) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2023,7 +2354,10 @@
     "source": null,
     "oneri": {
       "meaning": "vermek; bk. ber-  (bir + ür)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "vermek (bk. ber-) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2059,8 +2393,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator  (kagan + da)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar  (kagan + da)",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2087,7 +2427,10 @@
     "source": null,
     "oneri": {
       "meaning": "altı  (altı + m)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "digerKaynaklar": [
+        "altı [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2113,9 +2456,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bk. Elteriş",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
-      "eser": "Tekin 2003",
+      "meaning": "Kutluğ'un ünvanı",
+      "digerKaynaklar": [
+        "bk. Elteriş [Tekin 2003, s. 245]"
+      ],
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
       "eslesme": "tam",
       "katman": "kitap"
     }
@@ -2131,7 +2477,7 @@
     "source": null,
     "oneri": {
       "meaning": "yirmi; bk. yegirmi",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 258",
+      "source": "Tekin 2003, s. 259",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2158,7 +2504,7 @@
     "source": null,
     "oneri": {
       "meaning": "(Tar. B 5); bk. birgärü",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2174,8 +2520,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "güçlü, kuvvetli  (tizlig + ig)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
+      "meaning": "güçlü, kuvvetli (harf. \"dizli, dizi olan\")  (tizlig + ig)",
+      "source": "Tekin 2003, s. 254",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2191,8 +2537,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "şimdi",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "meaning": "şimdi (KT G 3, vb.)",
+      "digerKaynaklar": [
+        "şimdi; şimdiki ,) ança öyle(ce), şöyle(ce) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2206,7 +2555,19 @@
     "frequency": 6,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kuzey (Tar. B 5); bk. ir, yırdın, yırya",
+      "digerKaynaklar": [
+        "yer, dünya; toprak, ülke; bk. yer [Tekin 2003, s. 259]",
+        "Bayırku etnik ad [Tekin 1998, Sözlük (s. 97-116)]",
+        "yer) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 259",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰽𐰉𐰃",
@@ -2218,8 +2579,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "söz; haber, mesaj  (sab + ı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "meaning": "söz, mesaj, kelam, haber  (sab + ı)",
+      "digerKaynaklar": [
+        "söz; haber, mesaj [Tekin 2003, s. 251]",
+        "söz, haber [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2256,7 +2621,11 @@
     "source": null,
     "oneri": {
       "meaning": "zengin",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "digerKaynaklar": [
+        "zengin [Tekin 1998, Sözlük (s. 97-116)]",
+        "zengin [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2273,7 +2642,12 @@
     "source": null,
     "oneri": {
       "meaning": "ihtiyaç, yokluk; dert, sıkıntı  (bun + da)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "digerKaynaklar": [
+        "keder, sıkıntı, dert, zahmet, eziyet, minnet [Tanyeri, Sözlük]",
+        "bun, sıkıntı, dert [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "dert, sıkıntı, sıkıntı [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2309,8 +2683,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yıl",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 258",
+      "meaning": "yıl, sene",
+      "digerKaynaklar": [
+        "yıl [Tekin 2003, s. 259]",
+        "yıl [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 259",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2337,7 +2715,7 @@
     "source": null,
     "oneri": {
       "meaning": "ne; niçin",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2364,7 +2742,10 @@
     "source": null,
     "oneri": {
       "meaning": "yedi; bk. yeti",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 259",
+      "digerKaynaklar": [
+        "yedi (bk. yeti) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 260",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2410,8 +2791,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "prens",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
+      "meaning": "prens, kağan oğlu",
+      "digerKaynaklar": [
+        "prens [Tekin 2003, s. 254]",
+        "Kağan'ın oğullarına verilen unvan, prens [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 254",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2427,8 +2812,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "meaning": "etnik ad (BK D 1, vb.)",
+      "digerKaynaklar": [
+        "etnik ad (Altı Sir'ler) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2455,7 +2843,10 @@
     "source": null,
     "oneri": {
       "meaning": "tatlı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "digerKaynaklar": [
+        "tatlı, lezzetli [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2471,9 +2862,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "töre, yasa  (törü + g)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 162",
-      "eser": "Ata 2011",
+      "meaning": "sözlü yasa, töre; tören, * merasim törü-, töri- yaratılmak  (törü + g)",
+      "digerKaynaklar": [
+        "töre, kanun, nizam, örf ve adet, görenek, düzen, devlet nizamı [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
       "eslesme": "kök",
       "katman": "kitap"
     }
@@ -2488,8 +2882,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "erkek kardeş  (ini + si)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "erkek kardeş (küçük)  (ini + si)",
+      "digerKaynaklar": [
+        "erkek kardeş [Tekin 2003, s. 245]",
+        "erkek kardeş [Tekin 1998, Sözlük (s. 97-116)]",
+        "küçük kardeş [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2506,7 +2905,7 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2523,7 +2922,10 @@
     "source": null,
     "oneri": {
       "meaning": "varmak, gitmek  (bar + mış)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "digerKaynaklar": [
+        "varmak, gitmek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2539,8 +2941,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "öldürülen düşmanın taş heykeli; bk. balbar",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "meaning": "balbal (şahıs heykeli taş)",
+      "digerKaynaklar": [
+        "öldürülen düşmanın taş heykeli; bk. balbar (< Mo. *barimal*) [Tekin 2003, s. 239]",
+        "balbal, öldürülen düşman heykeli [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2556,8 +2962,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yüksek bir unvan",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "meaning": "tarkan (soylu unvanı, komutan)",
+      "digerKaynaklar": [
+        "yüksek bir unvan [Tekin 2003, s. 253]"
+      ],
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2581,7 +2990,14 @@
     "frequency": 6,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "olmamak  (bolma + zun)",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰚𐰠𐰇𐰼𐱅𐰃",
@@ -2594,7 +3010,11 @@
     "source": null,
     "oneri": {
       "meaning": "getirmek  (kelür + ti)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "digerKaynaklar": [
+        "getirmek [Tekin 1998, Sözlük (s. 97-116)]",
+        "getirmek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2610,9 +3030,9 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "buyurmak, lutfetmek  (yarlıka + duk)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 158",
-      "eser": "Ata 2011",
+      "meaning": "lutfetmek; (Tanrı) buyurmak  (yarlıka + duk)",
+      "source": "Tekin 2003, s. 258",
+      "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
     }
@@ -2638,7 +3058,7 @@
     "source": null,
     "oneri": {
       "meaning": "yer adı  (temirkapıg + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
+      "source": "Tekin 2003, s. 254",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2654,8 +3074,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bana",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "meaning": "bana (bk. baŋa)",
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2672,7 +3092,7 @@
     "source": null,
     "oneri": {
       "meaning": "az, pek az, hiç; küçük",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2698,8 +3118,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ipekli kumaş",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "meaning": "ipek kumaş, kıymetli hediye",
+      "digerKaynaklar": [
+        "ipekli kumaş (KT G 5, vb.) [Tekin 2003, s. 237]",
+        "ipekli kumaş [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2725,8 +3149,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "aşağıda, altta",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 237",
+      "meaning": "aşağıda, altta (KT D 1, vb.)",
+      "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2743,7 +3167,7 @@
     "source": null,
     "oneri": {
       "meaning": "iki; bk. eki, ekin  (iki + n)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2759,8 +3183,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "öyle, şöyle; o kadar, onca",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 237",
+      "meaning": "öyle, şöyle; o kadar, onca (bk. andag, antäg)",
+      "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2777,7 +3201,10 @@
     "source": null,
     "oneri": {
       "meaning": "hani, nerede",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "hani, nerde [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2794,7 +3221,7 @@
     "source": null,
     "oneri": {
       "meaning": "güç, kuvvet; güçlü  (küç + üg)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 248",
+      "source": "Tekin 2003, s. 249",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2811,8 +3238,8 @@
     "source": null,
     "oneri": {
       "meaning": "yok",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
-      "eser": "Ata 2011",
+      "source": "Tekin 2003, s. 260",
+      "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
     }
@@ -2837,8 +3264,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ötesinde",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 237",
+      "meaning": "ötesinde (KT D 17, BK D 15)",
+      "digerKaynaklar": [
+        "ötesinde [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2865,7 +3295,10 @@
     "source": null,
     "oneri": {
       "meaning": "değerli, sevgili, kıymetli",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "digerKaynaklar": [
+        "ağır, değerli, önemli, hürmetli [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2881,8 +3314,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yeğen, kardeş oğlu  (atı + g)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "meaning": "yeğen, kardeş oğlu (KT G 13, vb.)  (atı + g)",
+      "digerKaynaklar": [
+        "yeğ en [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2899,7 +3335,7 @@
     "source": null,
     "oneri": {
       "meaning": "general (< Çin. *tsiang-kün*); bk. saŋun",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2925,8 +3361,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ormanlı dağ; bk. yiş  (yış + da)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 258",
+      "meaning": "ormanlık dağ, orman  (yış + da)",
+      "digerKaynaklar": [
+        "ormanlı dağ; bk. yiş [Tekin 2003, s. 259]",
+        "dağ, ormanlı dağ; orman, [Tekin 1998, Sözlük (s. 97-116)]",
+        "orman, ormanlık dağ [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 259",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2943,7 +3384,10 @@
     "source": null,
     "oneri": {
       "meaning": "insan  (kişi + g)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 247",
+      "digerKaynaklar": [
+        "eki [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 248",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2969,8 +3413,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator  (kagan + ım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar  (kagan + ım)",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -2987,7 +3437,7 @@
     "source": null,
     "oneri": {
       "meaning": "görmek; tabi olmak  (kör + ti)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 247",
+      "source": "Tekin 2003, s. 248",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3001,7 +3451,14 @@
     "frequency": 5,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "ırmak, nehir, deniz  (ögüz + üg)",
+      "source": "Tanyeri, Sözlük",
+      "eser": "Tanyeri",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰽𐰨𐰑𐰢",
@@ -3013,8 +3470,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "mızraklamak  (sanç + dım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "meaning": "saplamak, mızraklamak, bozguna uğratmak  (sanç + dım)",
+      "digerKaynaklar": [
+        "mızraklamak [Tekin 2003, s. 252]",
+        "mızraklamak [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3030,8 +3491,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "boylar, kabileler, halk  (bodun + um)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "millet, halk, boylar birliği  (bodun + um)",
+      "digerKaynaklar": [
+        "boylar, kabileler, halk [Tekin 2003, s. 241]",
+        "boylar, kabileler, halk [Tekin 1998, Sözlük (s. 97-116)]",
+        "budun, ulus, millet, kavim [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3045,7 +3511,14 @@
     "frequency": 5,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yer adı (Kingan dağları) Kadız, Kadiz yer adı",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰉𐰆𐰑𐰣𐰴𐰀",
@@ -3057,8 +3530,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "boylar, kabileler, halk  (bodun + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "millet, halk, boylar birliği  (bodun + ka)",
+      "digerKaynaklar": [
+        "boylar, kabileler, halk [Tekin 2003, s. 241]",
+        "boylar, kabileler, halk [Tekin 1998, Sözlük (s. 97-116)]",
+        "budun, ulus, millet, kavim [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3074,8 +3552,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "kapı, geçit  (kapıg + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "meaning": "kapı, geçit (Tämir Kapıg yer adında)  (kapıg + ka)",
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3101,8 +3579,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator  (kagan + ın)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar  (kagan + ın)",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3119,7 +3603,11 @@
     "source": null,
     "oneri": {
       "meaning": "kazanmak, elde etmek, başarılı olmak  (kazgan + mış)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "kazanmak, elde etmek, çalışıp başarmak, fethetmek [Tekin 1998, Sözlük (s. 97-116)]",
+        "kazanmak, toplamak, biriktirmek, zapdetmek, ele geçirmek, fethetmek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3175,8 +3663,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yer adı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "meaning": "yer adı (Şantung ovası)",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3193,7 +3681,10 @@
     "source": null,
     "oneri": {
       "meaning": "daha iyi; bk. yeg",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 258",
+      "digerKaynaklar": [
+        "iyi [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 259",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3210,7 +3701,11 @@
     "source": null,
     "oneri": {
       "meaning": "uzak",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "digerKaynaklar": [
+        "irak, uzak [Tekin 1998, Sözlük (s. 97-116)]",
+        "uzak [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3237,7 +3732,10 @@
     "source": null,
     "oneri": {
       "meaning": "bilgi, akıl, zeka",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "digerKaynaklar": [
+        "bilgi, fikir, düşünce, zekâ [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3283,8 +3781,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "kut, talih, tanrının lutfu  (kut + um)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 248",
+      "meaning": "kut, saadet, ilahi hükümdarlık gücü  (kut + um)",
+      "digerKaynaklar": [
+        "kut, talih, tanrının lutfu [Tekin 2003, s. 249]",
+        "devlet, ikbal, saadet, baht, talih [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 249",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3311,7 +3813,10 @@
     "source": null,
     "oneri": {
       "meaning": "bunu",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "digerKaynaklar": [
+        "bunu [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3327,8 +3832,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "/ol/ zamirinin verme durumu",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 237",
+      "meaning": "/ol/ zamirinin verme durumu (KT G 11, vb.)",
+      "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3362,7 +3867,18 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "dış  (taş + ın)",
+      "digerKaynaklar": [
+        "taş, kaya; kayalık yer [Tekin 2003, s. 253]",
+        "dış [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 253",
+      "eser": "Tekin 2003",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰆𐰭",
@@ -3382,7 +3898,14 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "atalarım",
+      "source": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
+      "eser": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐱅𐰢𐰾",
@@ -3414,8 +3937,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3432,7 +3961,10 @@
     "source": null,
     "oneri": {
       "meaning": "erkek (çocuk), oğul; genç",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "digerKaynaklar": [
+        "erkek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3448,10 +3980,10 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yeğen, kardeş oğlu  (atı + n)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
-      "eser": "Tekin 2003",
-      "eslesme": "kök",
+      "meaning": "adını",
+      "source": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
+      "eser": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
+      "eslesme": "tam",
       "katman": "kitap"
     }
   },
@@ -3466,7 +3998,7 @@
     "source": null,
     "oneri": {
       "meaning": "dışarı, dışarıya",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3533,7 +4065,10 @@
     "source": null,
     "oneri": {
       "meaning": "boz",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "boz [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3547,7 +4082,19 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yüz (100)",
+      "digerKaynaklar": [
+        "yüz, sima (KT D 33) [Tekin 2003, s. 260]",
+        "(1) yüz (100) [Tekin 1998, Sözlük (s. 97-116)]",
+        "(11) yüz, çehre [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 260",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰘𐰃𐱁𐰍",
@@ -3579,8 +4126,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "kişi adı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "meaning": "kişi adı (Alp Şalçı)",
+      "digerKaynaklar": [
+        "kişi adı [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3597,7 +4147,7 @@
     "source": null,
     "oneri": {
       "meaning": "dokuz",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 254",
+      "source": "Tekin 2003, s. 255",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3634,7 +4184,7 @@
     "source": null,
     "oneri": {
       "meaning": "önde, doğuda",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3648,14 +4198,7 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "birleşik",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
-      "eser": "Ata 2011",
-      "eslesme": "tam",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐰋𐰃𐰼𐰘𐰀",
@@ -3665,14 +4208,7 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "güney  (biri + ye)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
-      "eser": "Ata 2011",
-      "eslesme": "kök",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐱁𐰑𐰯𐰃𐱃",
@@ -3692,14 +4228,7 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "kuzey  (yırı + ya)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
-      "eser": "Ata 2011",
-      "eslesme": "kök",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐰉𐰆𐰖𐰺𐰸",
@@ -3711,8 +4240,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yüksek görevli, kumandan",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "meaning": "buyruk, vezir, bakan, emredici",
+      "digerKaynaklar": [
+        "yüksek görevli, kumandan [Tekin 2003, s. 242]",
+        "kumandan, amir [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3729,7 +4262,10 @@
     "source": null,
     "oneri": {
       "meaning": "içteki, içindeki; özel, saraya mensup; bk. içiräki",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "digerKaynaklar": [
+        "içindeki; has, saraya mensup [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3745,8 +4281,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ova  (yazı + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 258",
+      "meaning": "ova, açık arazi  (yazı + ka)",
+      "digerKaynaklar": [
+        "ova [Tekin 2003, s. 259]",
+        "ova, step [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 259",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3773,7 +4313,7 @@
     "source": null,
     "oneri": {
       "meaning": "bk. buŋsız",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3787,7 +4327,14 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yumuşak",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰖𐰍𐰺𐰆",
@@ -3809,8 +4356,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "söz; haber, mesaj  (sab + ım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "meaning": "söz, mesaj, kelam, haber  (sab + ım)",
+      "digerKaynaklar": [
+        "söz; haber, mesaj [Tekin 2003, s. 251]",
+        "söz, haber [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3824,7 +4375,14 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "bu zamanda, bu devirde (< bu ödke)",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱃𐰆𐱃𐰢𐰾",
@@ -3837,7 +4395,10 @@
     "source": null,
     "oneri": {
       "meaning": "tutmak, yakalamak; korumak, muhafaza etmek  (tut + mış)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 254",
+      "digerKaynaklar": [
+        "tutmak, yakalamak; korumak, muhafaza etmek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 255",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3854,7 +4415,11 @@
     "source": null,
     "oneri": {
       "meaning": "gerek, yok, namevcut",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "digerKaynaklar": [
+        "gerek, yok, namevcut [Tekin 1998, Sözlük (s. 97-116)]",
+        "gerek, yok, bulunmayan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3891,7 +4456,7 @@
     "source": null,
     "oneri": {
       "meaning": "bey olmaya layık",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -3905,14 +4470,7 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "evlat, çocuk  (ogl + ın)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
-      "eser": "Ata 2011",
-      "eslesme": "kök",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐰾𐰇𐰠𐰘𐰇",
@@ -3955,7 +4513,7 @@
     "source": null,
     "oneri": {
       "meaning": "tüm, bütün, hepsi  (kamag + ı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -3969,7 +4527,14 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "Kapığ)",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰖𐰺𐱃𐰯",
@@ -3989,7 +4554,14 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "Kögmen Dağı, ormanı, Sayan Dağı",
+      "source": "Tanyeri, Sözlük",
+      "eser": "Tanyeri",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰴𐰦𐰣",
@@ -4012,7 +4584,11 @@
     "source": null,
     "oneri": {
       "meaning": "fena, kötü",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "digerKaynaklar": [
+        "kötü, fena [Tekin 1998, Sözlük (s. 97-116)]",
+        "yavuz, fena, kötü, perişan [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4028,8 +4604,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "boylar, kabileler, halk  (bodun + da)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "millet, halk, boylar birliği  (bodun + da)",
+      "digerKaynaklar": [
+        "boylar, kabileler, halk [Tekin 2003, s. 241]",
+        "boylar, kabileler, halk [Tekin 1998, Sözlük (s. 97-116)]",
+        "budun, ulus, millet, kavim [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4046,7 +4627,7 @@
     "source": null,
     "oneri": {
       "meaning": "yaya; piyade  (yadag + ın)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4092,8 +4673,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yıl  (yıl + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 258",
+      "meaning": "yıl, sene  (yıl + ka)",
+      "digerKaynaklar": [
+        "yıl [Tekin 2003, s. 259]",
+        "yıl [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 259",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4129,8 +4714,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "otuz  (otuz + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "meaning": "otuz (30)  (otuz + ka)",
+      "digerKaynaklar": [
+        "otuz [Tekin 2003, s. 250]",
+        "Tatar etnik ad (Otuz Tatar'lar) [Tekin 1998, Sözlük (s. 97-116)]",
+        "otuz [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4146,8 +4736,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ev, konut; anıt-mezar  (bark + ın)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "meaning": "anıt, türbe, bark  (bark + ın)",
+      "digerKaynaklar": [
+        "ev, konut; anıt-mezar [Tekin 2003, s. 239]",
+        "ev, barınak, konut; türbe, anıtkabir [Tekin 1998, Sözlük (s. 97-116)]",
+        "ev, mezar, türbe, abide [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4161,7 +4756,21 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "şehir, kale kent",
+      "digerKaynaklar": [
+        "balçık, çamur (KT K 8) [Tekin 2003, s. 239]",
+        "şehir [Tekin 2003, s. 239]",
+        "(1) şehir [Tekin 1998, Sözlük (s. 97-116)]",
+        "(10) çamur [Tekin 1998, Sözlük (s. 97-116)]",
+        "şehir, çamur, balçık, bataklık [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 239",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰚𐰠𐰢𐰔",
@@ -4221,14 +4830,7 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "ulaşmamak  (tegme + dim)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
-      "eser": "Ata 2011",
-      "eslesme": "kök",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐰘𐰃𐰼𐰃𐰭𐰀",
@@ -4251,7 +4853,10 @@
     "source": null,
     "oneri": {
       "meaning": "taş üzerine yazdırtmak  (urtur + tum)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+      "digerKaynaklar": [
+        "hakkettirmek, nakşettirmek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 256",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4268,7 +4873,7 @@
     "source": null,
     "oneri": {
       "meaning": "yazıt yazdırmak  (tokıt + dım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 254",
+      "source": "Tekin 2003, s. 255",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4304,9 +4909,9 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "oturmak  (olur + mış)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
-      "eser": "Ata 2011",
+      "meaning": "oturmak, tahta oturmak, kağan olmak  (olur + mış)",
+      "source": "Tanyeri, Sözlük",
+      "eser": "Tanyeri",
       "eslesme": "kök",
       "katman": "kitap"
     }
@@ -4332,7 +4937,10 @@
     "source": null,
     "oneri": {
       "meaning": "devleti olan, bağımsız  (illig + ig)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "digerKaynaklar": [
+        "illi, vatanlı, ülkeli, devletli [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4349,7 +4957,7 @@
     "source": null,
     "oneri": {
       "meaning": "silahlı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 257",
+      "source": "Tekin 2003, s. 258",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4376,7 +4984,11 @@
     "source": null,
     "oneri": {
       "meaning": "yazmak  (biti + dim)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "yazmak, hakketmek [Tekin 1998, Sözlük (s. 97-116)]",
+        "yazmak [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4403,7 +5015,11 @@
     "source": null,
     "oneri": {
       "meaning": "arz etmek, rica etmek  (ötün + tüm)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "digerKaynaklar": [
+        "arzetmek, rica etmek [Tekin 1998, Sözlük (s. 97-116)]",
+        "arz etmek, rica etmek, dilek dilemek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4440,7 +5056,11 @@
     "source": null,
     "oneri": {
       "meaning": "getirmek  (kelür + tüm)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "digerKaynaklar": [
+        "getirmek [Tekin 1998, Sözlük (s. 97-116)]",
+        "getirmek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4456,8 +5076,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ressam, heykeltıraş  (bedizçi + g)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "meaning": "sanatçı, ressam, heykelci  (bedizçi + g)",
+      "digerKaynaklar": [
+        "ressam, heykeltıraş [Tekin 2003, s. 240]",
+        "ressam, heykeltraş [Tekin 1998, Sözlük (s. 97-116)]",
+        "ressam, nakkaş [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4474,7 +5099,7 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4488,7 +5113,14 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yaratılmamak  (kılınma + duk)",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰴𐰍𐰣𐰞𐰍𐰍",
@@ -4531,7 +5163,10 @@
     "source": null,
     "oneri": {
       "meaning": "hakanı olan, bağımsız  (kaganlıg + da)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "digerKaynaklar": [
+        "bağımsız, müstakil, kağanı olan [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4568,7 +5203,7 @@
     "source": null,
     "oneri": {
       "meaning": "Çin, Çinli  (tabgaç + ka)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4582,7 +5217,14 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "bk. yençü",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰚𐰇𐰢𐱁",
@@ -4595,7 +5237,7 @@
     "source": null,
     "oneri": {
       "meaning": "gümüş",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 248",
+      "source": "Tekin 2003, s. 249",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4632,8 +5274,8 @@
     "source": null,
     "oneri": {
       "meaning": "yok",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
-      "eser": "Ata 2011",
+      "source": "Tekin 2003, s. 260",
+      "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
     }
@@ -4648,8 +5290,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "acıkacak olma",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "meaning": "acıkacak olma (KT G 8, 8; BK K 6)",
+      "digerKaynaklar": [
+        "acıkma, acıkacak olma [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4663,7 +5308,18 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "dış  (taş + ka)",
+      "digerKaynaklar": [
+        "taş, kaya; kayalık yer [Tekin 2003, s. 253]",
+        "dış [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 253",
+      "eser": "Tekin 2003",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰉𐰺𐰴",
@@ -4675,8 +5331,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ev, konut; anıt-mezar",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "meaning": "anıt, türbe, bark",
+      "digerKaynaklar": [
+        "ev, konut; anıt-mezar [Tekin 2003, s. 239]",
+        "ev, barınak, konut; türbe, anıtkabir [Tekin 1998, Sözlük (s. 97-116)]",
+        "ev, mezar, türbe, abide [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4690,7 +5351,19 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "kuzey (Tar. B 5); bk. ir, yırdın, yırya  (yir + te)",
+      "digerKaynaklar": [
+        "yer, dünya; toprak, ülke; bk. yer [Tekin 2003, s. 259]",
+        "Bayırku etnik ad [Tekin 1998, Sözlük (s. 97-116)]",
+        "yer) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 259",
+      "eser": "Tekin 2003",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰃𐱅𐰏",
@@ -4702,8 +5375,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yazı; yazıt, kitabe; kitap",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "yazı, kitap, kitabe, el yazması",
+      "digerKaynaklar": [
+        "yazı; yazıt, kitabe; kitap [Tekin 2003, s. 241]",
+        "yazı, yazma, kitabe, kitap [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4719,8 +5396,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yeğen, kardeş oğlu  (atı + sı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "meaning": "yeğen, kardeş oğlu (KT G 13, vb.)  (atı + sı)",
+      "digerKaynaklar": [
+        "yeğ en [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4734,7 +5414,18 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "arasında (KT D 1, vb.)",
+      "digerKaynaklar": [
+        "arasında, ortasında (IB 10, 38, 52) [Tekin 2003, s. 238]",
+        "arasına, içine; arasında [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 238",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐱅𐰃",
@@ -4757,7 +5448,7 @@
     "source": null,
     "oneri": {
       "meaning": "önde, doğuda",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4774,7 +5465,10 @@
     "source": null,
     "oneri": {
       "meaning": "hani, nerede  (kanı + n)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "hani, nerde [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4788,7 +5482,18 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "elli (50)",
+      "digerKaynaklar": [
+        "el [Tekin 2003, s. 243]",
+        "elli [Tekin 2003, s. 243]"
+      ],
+      "source": "Tekin 2003, s. 243",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰸𐰆𐰪",
@@ -4811,7 +5516,10 @@
     "source": null,
     "oneri": {
       "meaning": "ata, dede, ecdat  (eçü + m)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "digerKaynaklar": [
+        "ata, ecdat [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4827,8 +5535,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "kırk",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "meaning": "kırk (40)",
+      "digerKaynaklar": [
+        "kırk [Tekin 2003, s. 247]",
+        "kırk [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4844,8 +5556,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "düşman  (yagı + g)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "meaning": "düşman, hasım  (yagı + g)",
+      "digerKaynaklar": [
+        "düşman [Tekin 2003, s. 257]",
+        "düşman [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -4861,8 +5577,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bey, lord",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "meaning": "bey, soylu lider, komutan",
+      "digerKaynaklar": [
+        "bey, lord [Tekin 2003, s. 240]",
+        "bey [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4889,7 +5609,10 @@
     "source": null,
     "oneri": {
       "meaning": "büyük baş av hayvanı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
+      "digerKaynaklar": [
+        "en [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 243",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4905,8 +5628,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "fazla, sayıca çok, kalabalık",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 237",
+      "meaning": "fazla, sayıca çok, kalabalık (KT D 33, T 20, 40, vb.)",
+      "digerKaynaklar": [
+        "fazla, sayıca çok [Tekin 1998, Sözlük (s. 97-116)]",
+        "fazla, ziyade, artık [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4933,7 +5660,10 @@
     "source": null,
     "oneri": {
       "meaning": "yüksek bir unvan; bk. Ulug İrkin, Sir İrkin",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "digerKaynaklar": [
+        "ünvan [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4959,8 +5689,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "ak, kır (at donu)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
+      "meaning": "ak, kır (at donu) (KT D 36, vb.)",
+      "digerKaynaklar": [
+        "Termel ırmak adı [Tekin 1998, Sözlük (s. 97-116)]",
+        "ak, beyaz, kır [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 237",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -4976,10 +5710,10 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yeğen, kardeş oğlu  (atı + n)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
-      "eser": "Tekin 2003",
-      "eslesme": "kök",
+      "meaning": "adını",
+      "source": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
+      "eser": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
+      "eslesme": "tam",
       "katman": "kitap"
     }
   },
@@ -5013,8 +5747,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "meaning": "etnik ad (Eki Ädiz)",
+      "digerKaynaklar": [
+        "etnik ad (Eki Ediz'ler) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5038,7 +5775,20 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "abla (Barık II 4); yuk. bk.",
+      "digerKaynaklar": [
+        "ata, dede, ced; büyük, yüksek, baş (unvanlarda); aş. bk. [Tekin 2003, s. 238]",
+        "Tarkan büyük tarkan, başkumandan [Tekin 1998, Sözlük (s. 97-116)]",
+        "ata, ecdat; büyük (ünvanlarda) [Tekin 1998, Sözlük (s. 97-116)]",
+        "ecdat, büyük baba [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 238",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰃𐰠𐰤",
@@ -5050,8 +5800,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yakalanmak",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "meaning": "yakalanmak (IB 61)",
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5068,7 +5818,10 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "etnik ad (Karluk'lar) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5085,7 +5838,10 @@
     "source": null,
     "oneri": {
       "meaning": "birinci",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "digerKaynaklar": [
+        "birinci, önceki [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5109,7 +5865,19 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "vadi",
+      "digerKaynaklar": [
+        "öz, nefs [Tekin 2003, s. 251]",
+        "kendi [Tekin 1998, Sözlük (s. 97-116)]",
+        "kendi [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 251",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰴𐰣𐰃𐰤",
@@ -5122,7 +5890,10 @@
     "source": null,
     "oneri": {
       "meaning": "hani, nerede  (kanı + n)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "hani, nerde [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5149,7 +5920,10 @@
     "source": null,
     "oneri": {
       "meaning": "kızıl",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+      "digerKaynaklar": [
+        "kızıl [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 247",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5185,8 +5959,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+      "meaning": "etnik ad (Otuz Tatar, Tokuz Tatar)",
+      "source": "Tekin 2003, s. 253",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5203,7 +5977,10 @@
     "source": null,
     "oneri": {
       "meaning": "iyice",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 241",
+      "digerKaynaklar": [
+        "iyice, sıkıca, adamakıllı [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 242",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5217,7 +5994,18 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "alkış, övgü (Tuva I 3)",
+      "digerKaynaklar": [
+        "kervan (KT G 8, vb.) [Tekin 2003, s. 238]",
+        "kervan [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 238",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰖𐰭𐰞𐰯",
@@ -5239,8 +6027,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "süs, resim, heykel",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "meaning": "süs, resim, heykel, süsleme",
+      "digerKaynaklar": [
+        "süs, resim, heykel [Tekin 2003, s. 240]",
+        "süs, resim, heykel [Tekin 1998, Sözlük (s. 97-116)]",
+        "resim, heykel, nakış, şekil, süs [Tanyeri, Sözlük]",
+        "resim, heykel [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5264,7 +6058,14 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yer adı (Tibet)",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰆𐰞𐰺𐱃𐰃",
@@ -5276,9 +6077,9 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "oturmak  (olur + tı)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
-      "eser": "Ata 2011",
+      "meaning": "oturmak, tahta oturmak, kağan olmak  (olur + tı)",
+      "source": "Tanyeri, Sözlük",
+      "eser": "Tanyeri",
       "eslesme": "kök",
       "katman": "kitap"
     }
@@ -5293,8 +6094,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bize",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "bize (KT D 19, 40; BK D 16)",
+      "digerKaynaklar": [
+        "bize [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5321,7 +6125,10 @@
     "source": null,
     "oneri": {
       "meaning": "gündüz",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 248",
+      "digerKaynaklar": [
+        "gündüz [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 249",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5347,8 +6154,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yaşlı, ihtiyar  (karı + g)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "meaning": "yaşlı, ihtiyar (T 56)  (karı + g)",
+      "digerKaynaklar": [
+        "yaşlı, ihtiyar [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5375,7 +6185,7 @@
     "source": null,
     "oneri": {
       "meaning": "üst giyim  (ton + ra)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 254",
+      "source": "Tekin 2003, s. 255",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5401,9 +6211,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "bk. Eltäbär",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
-      "eser": "Tekin 2003",
+      "meaning": "yüksek bir ünvan",
+      "digerKaynaklar": [
+        "bk. Eltäbär [Tekin 2003, s. 245]"
+      ],
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
       "eslesme": "tam",
       "katman": "kitap"
     }
@@ -5419,7 +6232,10 @@
     "source": null,
     "oneri": {
       "meaning": "sekiz",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "digerKaynaklar": [
+        "sekiz [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5436,7 +6252,7 @@
     "source": null,
     "oneri": {
       "meaning": "yaya; piyade",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+      "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5450,7 +6266,17 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "unvanı ya da rütbesi olan (BK D 41)",
+      "digerKaynaklar": [
+        "atlı, süvari (BK G 1, vb.) [Tekin 2003, s. 239]"
+      ],
+      "source": "Tekin 2003, s. 239",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰼𐱅𐰢",
@@ -5463,7 +6289,10 @@
     "source": null,
     "oneri": {
       "meaning": "vermek; bk. ber-  (bir + tim)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "digerKaynaklar": [
+        "vermek (bk. ber-) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5480,7 +6309,10 @@
     "source": null,
     "oneri": {
       "meaning": "öldürmek  (ölür + ti)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "digerKaynaklar": [
+        "öldürmek [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5497,7 +6329,10 @@
     "source": null,
     "oneri": {
       "meaning": "pek, çok, aşırı derecede",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
+      "digerKaynaklar": [
+        "pek, pek çok [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 243",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5514,7 +6349,10 @@
     "source": null,
     "oneri": {
       "meaning": "pek, çok, aşırı derecede",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
+      "digerKaynaklar": [
+        "pek, pek çok [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 243",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5530,8 +6368,8 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "akrabalık adı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 254",
+      "meaning": "akrabalık adı (Ozn. 1)",
+      "source": "Tekin 2003, s. 255",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5545,7 +6383,17 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "güçlü, kuvvetli, muktedir",
+      "digerKaynaklar": [
+        "yeraltı tanrısı (Altınköl I sağ 2) [Tekin 2003, s. 243]"
+      ],
+      "source": "Tekin 2003, s. 243",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰖𐰍𐰢𐰔",
@@ -5567,8 +6415,12 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yer adı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 250",
+      "meaning": "Ötüken (kutsal devlet merkezi)",
+      "digerKaynaklar": [
+        "yer adı (T 17, vb.) [Tekin 2003, s. 251]",
+        "yer adı (Hangay dağlarının doğu etekleri) ötülüğ ? [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 251",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5582,7 +6434,14 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "ırmak, nehir, deniz  (ögüz + ke)",
+      "source": "Tanyeri, Sözlük",
+      "eser": "Tanyeri",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱅𐰃𐰤𐰾𐰃",
@@ -5592,14 +6451,7 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "→ Tensi",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
-      "eser": "Tekin 2003",
-      "eslesme": "tam",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐰼𐱅𐰲𐰃",
@@ -5621,9 +6473,9 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "oturmak  (olur + tım)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. ?",
-      "eser": "Ata 2011",
+      "meaning": "oturmak, tahta oturmak, kağan olmak  (olur + tım)",
+      "source": "Tanyeri, Sözlük",
+      "eser": "Tanyeri",
       "eslesme": "kök",
       "katman": "kitap"
     }
@@ -5649,7 +6501,7 @@
     "source": null,
     "oneri": {
       "meaning": "oğullar  (oglan + ım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+      "source": "Tekin 2003, s. 250",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5666,7 +6518,10 @@
     "source": null,
     "oneri": {
       "meaning": "etnik ad",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+      "digerKaynaklar": [
+        "etnik ad [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5683,7 +6538,7 @@
     "source": null,
     "oneri": {
       "meaning": "beslemek, doyurmak  (igid + miş)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+      "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5700,7 +6555,11 @@
     "source": null,
     "oneri": {
       "meaning": "(diz) çökdürmek, kendine tabi kılmak  (sökür + miş)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "digerKaynaklar": [
+        "çöktürmek, bağımlı kılmak [Tekin 1998, Sözlük (s. 97-116)]",
+        "diz çöktürmek, dize getirmek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5717,7 +6576,7 @@
     "source": null,
     "oneri": {
       "meaning": "yasçı, ağlayıcı",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+      "source": "Tekin 2003, s. 252",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5734,7 +6593,10 @@
     "source": null,
     "oneri": {
       "meaning": "hakanı olan, bağımsız",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "digerKaynaklar": [
+        "bağımsız, müstakil, kağanı olan [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5748,7 +6610,14 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "olmamak  (bolma + zun)",
+      "source": "Tekin 1998, Sözlük (s. 97-116)",
+      "eser": "Tekin 1998",
+      "eslesme": "kök",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱅𐰃𐰼𐰠𐰯",
@@ -5781,7 +6650,11 @@
     "source": null,
     "oneri": {
       "meaning": "kazanmak, elde etmek, başarılı olmak  (kazgan + dım)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+      "digerKaynaklar": [
+        "kazanmak, elde etmek, çalışıp başarmak, fethetmek [Tekin 1998, Sözlük (s. 97-116)]",
+        "kazanmak, toplamak, biriktirmek, zapdetmek, ele geçirmek, fethetmek [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 246",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5807,8 +6680,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "yer adı  (bolçu + da)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "yer adı (T 35)  (bolçu + da)",
+      "digerKaynaklar": [
+        "yer adı [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5825,7 +6701,10 @@
     "source": null,
     "oneri": {
       "meaning": "eksiksiz",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "digerKaynaklar": [
+        "tümüyle, tamamiyle, bakiyesiz, tamam [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -5861,8 +6740,13 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "boylar, kabileler, halk  (bodun + ın)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+      "meaning": "millet, halk, boylar birliği  (bodun + ın)",
+      "digerKaynaklar": [
+        "boylar, kabileler, halk [Tekin 2003, s. 241]",
+        "boylar, kabileler, halk [Tekin 1998, Sözlük (s. 97-116)]",
+        "budun, ulus, millet, kavim [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 241",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5888,8 +6772,11 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan adına emir veren, sözcü  (ayguçı + sı)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 238",
+      "meaning": "hakan adına emir veren, sözcü (T 10, 29, vb)  (ayguçı + sı)",
+      "digerKaynaklar": [
+        "sözcü, kağanın sözcüayığma sözcü [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 239",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5953,14 +6840,7 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null,
-    "oneri": {
-      "meaning": "kuzey  (yırı + garu)",
-      "source": "Ata, Orhun Türkçesi, AÖF 2011, s. 154",
-      "eser": "Ata 2011",
-      "eslesme": "kök",
-      "katman": "kitap"
-    }
+    "source": null
   },
   {
     "runic": "𐰼𐱅𐰇𐰼𐱅𐰢",
@@ -5973,7 +6853,11 @@
     "source": null,
     "oneri": {
       "meaning": "yaptırmak  (ertür + tüm)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
+      "digerKaynaklar": [
+        "yaptırmak [Tekin 1998, Sözlük (s. 97-116)]",
+        "erdirmek, yaptırmak [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 243",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
@@ -5999,8 +6883,14 @@
     "category": null,
     "source": null,
     "oneri": {
-      "meaning": "hakan, imparator  (kagan + garu)",
-      "source": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
+      "meaning": "hakan, kağan, hükümdar  (kagan + garu)",
+      "digerKaynaklar": [
+        "hakan, imparator [Tekin 2003, s. 245]",
+        "hakan, hükümdar, kağan [Tanyeri, Sözlük]",
+        "kağan [Ata 2011 (Söz Yapımı/Çözümlemeler)]",
+        "kağan, hakan [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 245",
       "eser": "Tekin 2003",
       "eslesme": "kök",
       "katman": "kitap"
