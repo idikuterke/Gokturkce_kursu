@@ -1,0 +1,1392 @@
+{
+  "aciklama": "Orhon Türkçesinde sayılar. Okunuş, anlam ve atıflar Talat Tekin, Orhon Türkçesi Grameri (2003) §280-290, s. 128-135'ten alınmıştır. Runik katman proje korpusundan (orhun-db) eşlenmiştir; kitabın metin katmanında tamga yoktur. Kurs içeriği kaynak olarak kullanılmamıştır.",
+  "kaynak": "Tekin 2003, §280-290, s. 128-135",
+  "katman": "kitap",
+  "denetlendi": false,
+  "bolumler": [
+    {
+      "ad": "Asıl sayılar",
+      "maddeler": [
+        280
+      ],
+      "ogeler": [
+        {
+          "okunus": "bir",
+          "deger": 1,
+          "anlam": "1",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰼",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "eki",
+          "deger": 2,
+          "anlam": "2",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰚𐰃",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "üç",
+          "deger": 3,
+          "anlam": "3",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰇𐰲",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tört",
+          "deger": 4,
+          "anlam": "4",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐱅𐰇𐰼𐱅",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "beş",
+          "deger": 5,
+          "anlam": "5",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰋𐰾",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "biş",
+          "deger": 5,
+          "anlam": "5",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰋𐰾",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "altı",
+          "deger": 6,
+          "anlam": "6",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰞𐱃𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yeti",
+          "deger": 7,
+          "anlam": "7",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yiti",
+          "deger": 7,
+          "anlam": "7",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "säkiz",
+          "deger": 8,
+          "anlam": "8",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰾𐰚𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tokuz",
+          "deger": 9,
+          "anlam": "9",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐱃𐰸𐰆𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "on",
+          "deger": 10,
+          "anlam": "10",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰆𐰣",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yegirmi",
+          "deger": 20,
+          "anlam": "20",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yigirmi",
+          "deger": 20,
+          "anlam": "20",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "otuz",
+          "deger": 30,
+          "anlam": "30",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰆𐱃𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "kırk",
+          "deger": 40,
+          "anlam": "40",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰶𐰃𐰺𐰴",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "älig",
+          "deger": 50,
+          "anlam": "50",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰠𐰏",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "altmış",
+          "deger": 60,
+          "anlam": "60",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "altmış"
+          ]
+        },
+        {
+          "okunus": "yetmiş",
+          "deger": 70,
+          "anlam": "70",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰢𐰾",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "säkiz on",
+          "deger": 80,
+          "anlam": "80",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰾𐰚𐰔 : 𐰆𐰣",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tokuz on",
+          "deger": 90,
+          "anlam": "90",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐱃𐰸𐰆𐰔 : 𐰆𐰣",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yüz",
+          "deger": 100,
+          "anlam": "100",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰘𐰇𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bıŋ",
+          "deger": 1000,
+          "anlam": "1000",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰭",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "biŋ",
+          "deger": 1000,
+          "anlam": "1000",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰭",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "miŋ",
+          "deger": 1000,
+          "anlam": "1000",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "miŋ"
+          ]
+        },
+        {
+          "okunus": "bir tümän",
+          "deger": 10000,
+          "anlam": "10000",
+          "atif": "BK G 1",
+          "sayfa": 128,
+          "madde": 280,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰼 : 𐱅𐰇𐰢𐰤",
+          "runikEslesme": "tam"
+        }
+      ]
+    },
+    {
+      "ad": "Onluklararası Sayılar",
+      "maddeler": [
+        281
+      ],
+      "ogeler": [
+        {
+          "okunus": "bir yegirmi",
+          "deger": 11,
+          "anlam": "11",
+          "atif": "MÇ G 8",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰼 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "eki yegir[mi]",
+          "deger": 12,
+          "anlam": "12",
+          "atif": "KT D 28",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰚𐰃 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "üç yegirmi",
+          "deger": 13,
+          "anlam": "13",
+          "atif": "KT D 28",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰇𐰲 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tört yegirmi",
+          "deger": 14,
+          "anlam": "14",
+          "atif": "BK D 15",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐱅𐰇𐰼𐱅 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "biş yigirmi",
+          "deger": 15,
+          "anlam": "15",
+          "atif": "MÇ D 6",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰋𐰾 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "altı yegirmi",
+          "deger": 16,
+          "anlam": "16",
+          "atif": "KT D 31",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰞𐱃𐰃 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yeti yegirmi",
+          "deger": 17,
+          "anlam": "17",
+          "atif": "T 49",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰃 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "säkiz yegirmi",
+          "deger": 18,
+          "anlam": "18",
+          "atif": "KT D 32",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰾𐰚𐰔 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tokuz yegirmi",
+          "deger": 19,
+          "anlam": "19",
+          "atif": "BK G 9",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐱃𐰸𐰆𐰔 : 𐰘𐰏𐰼𐰢𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bir otuz",
+          "deger": 21,
+          "anlam": "21",
+          "atif": "KT D 32",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰼 : 𐰆𐱃𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "eki otuz",
+          "deger": 22,
+          "anlam": "22",
+          "atif": "BK D 25",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰚𐰃 : 𐰆𐱃𐰔",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "üç otuz",
+          "deger": 23,
+          "anlam": "23",
+          "atif": "T 19",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰇𐰲 : 𐰆𐱃𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "biş otuz",
+          "deger": 25,
+          "anlam": "25",
+          "atif": "KT D 18",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰋𐰾 : 𐰆𐱃𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "altı otuz",
+          "deger": 26,
+          "anlam": "26",
+          "atif": "BK D 26",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰞𐱃𐰃 : 𐰆𐱃𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yiti otuz",
+          "deger": 27,
+          "anlam": "27",
+          "atif": "KT K 1",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰃 : 𐰆𐱃𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tokuz otuz",
+          "deger": 29,
+          "anlam": "29",
+          "atif": "Miran A 1",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐱃𐰸𐰆𐰔 : 𐰆𐱃𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bir kırk",
+          "deger": 31,
+          "anlam": "31",
+          "atif": "KT K 2",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰼 : 𐰶𐰃𐰺𐰴",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "eki älig",
+          "deger": 42,
+          "anlam": "42",
+          "atif": "Tuva I 3",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰚𐰃 : 𐰠𐰏",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "üç yetm[iş]",
+          "deger": 63,
+          "anlam": "63",
+          "atif": "Uyuk-Turan b 1",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰇𐰲 : 𐰘𐱅𐰢𐰾",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yeti yetmiş",
+          "deger": 67,
+          "anlam": "67",
+          "atif": "Begre b 27",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰃 : 𐰘𐱅𐰢𐰾",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "säkiz yetmiş",
+          "deger": 68,
+          "anlam": "68",
+          "atif": "Hem.-Çır. 9",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰾𐰚𐰔 : 𐰘𐱅𐰢𐰾",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tokuz säkiz on",
+          "deger": 79,
+          "anlam": "79",
+          "atif": "Elegest I 5",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐱃𐰸𐰆𐰔 : 𐰾𐰚𐰔 : 𐰆𐰣",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "artukı",
+          "anlam": "fazlası, artı",
+          "atif": null,
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sözcük",
+          "runik": "𐰺𐱃𐰸𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "otuz artukı bir",
+          "deger": 31,
+          "anlam": "31",
+          "atif": "BK G 9",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰆𐱃𐰔 : 𐰺𐱃𐰸𐰃 : 𐰋𐰃𐰼",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "otuz artukı säkiz",
+          "deger": 38,
+          "anlam": "38",
+          "atif": "BK G 2",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰆𐱃𐰔 : 𐰺𐱃𐰸𐰃 : 𐰾𐰚𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "kırk artukı yeti",
+          "deger": 47,
+          "anlam": "47",
+          "atif": "KT KD",
+          "sayfa": 129,
+          "madde": 281,
+          "tip": "sayı",
+          "runik": "𐰶𐰃𐰺𐰴 : 𐰺𐱃𐰸𐰃 : 𐰘𐱅𐰃",
+          "runikEslesme": "tam"
+        }
+      ]
+    },
+    {
+      "ad": "Niteleme Yapıları",
+      "maddeler": [
+        282,
+        283
+      ],
+      "ogeler": [
+        {
+          "okunus": "säkiz on",
+          "deger": 80,
+          "anlam": "80",
+          "atif": "KÇ B 3, Elegest I 5",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰾𐰚𐰔 : 𐰆𐰣",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tokuz on",
+          "deger": 90,
+          "anlam": "90",
+          "atif": "IB 29",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐱃𐰸𐰆𐰔 : 𐰆𐰣",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "biş yüz",
+          "deger": 500,
+          "anlam": "500",
+          "atif": "BK G 11",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰋𐰾 : 𐰘𐰇𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yeti yüz",
+          "deger": 700,
+          "anlam": "700",
+          "atif": "T 4",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰃 : 𐰘𐰇𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "eki bıŋ",
+          "deger": 2000,
+          "anlam": "2000",
+          "atif": "T 16, 18",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰚𐰃 : 𐰋𐰃𐰭",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "yeti biŋ",
+          "deger": 7000,
+          "anlam": "7000",
+          "atif": "BK G 1",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰘𐱅𐰃 : 𐰋𐰃𐰭",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bir tümän",
+          "deger": 10000,
+          "anlam": "10,000",
+          "atif": "KT K 1",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰋𐰃𐰼 : 𐱅𐰇𐰢𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "üç tümän",
+          "deger": 30000,
+          "anlam": "30,000",
+          "atif": "BK G 8",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰇𐰲 : 𐱅𐰇𐰢𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tört tümän",
+          "deger": 40000,
+          "anlam": "40,000",
+          "atif": "BK G 8",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐱅𐰇𐰼𐱅 : 𐱅𐰇𐰢𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "beş tümän",
+          "deger": 50000,
+          "anlam": "50,000",
+          "atif": "BK D 25",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰋𐰾 : 𐱅𐰇𐰢𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "säkiz tümän",
+          "deger": 80000,
+          "anlam": "80,000",
+          "atif": "BK D 26",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰾𐰚𐰔 : 𐱅𐰇𐰢𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "on tümän",
+          "deger": 100000,
+          "anlam": "100,000",
+          "atif": "T 36",
+          "sayfa": 129,
+          "madde": 282,
+          "tip": "sayı",
+          "runik": "𐰆𐰣 : 𐱅𐰇𐰢𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bir ärig sançdı",
+          "anlam": "(Prens Kül) bir adamı mızrakladı",
+          "atif": "KT K 5",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": "𐰋𐰃𐰼 : 𐰼𐰏 : 𐰽𐰨𐰑𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bir atlıg barmiş",
+          "anlam": "Bir atlı gitmiş",
+          "atif": "T 24",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": "𐰋𐰃𐰼 : 𐱃𐰞𐰍 : 𐰉𐰺𐰢𐰾",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "eki ulug süŋüş",
+          "anlam": "İki büyük savaş",
+          "atif": "BK D 34",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": "𐰚𐰃 : 𐰆𐰞𐰍 : 𐰾𐰇𐰭𐰾",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "üç otuz balık",
+          "anlam": "yirmi üç şehir",
+          "atif": "T 19",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": "𐰇𐰲 : 𐰆𐱃𐰔 : 𐰉𐰞𐰶",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "tokuz ärän",
+          "anlam": "dokuz adam",
+          "atif": "KT K 9",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "sözcük",
+          "runik": "𐱃𐰸𐰆𐰔 : 𐰼𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yeti ärän",
+          "anlam": "yedi adam",
+          "atif": "O 5",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "sözcük",
+          "runik": "𐰘𐱅𐰃 : 𐰼𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "biş yüz ärän",
+          "anlam": "beş yüz adam",
+          "atif": "BK G 11",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": "𐰋𐰾 : 𐰘𐰇𐰔 : 𐰼𐰤",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "ekisin özi altızdı",
+          "anlam": "İkisini (de) kendisi aldırttı",
+          "atif": "KT D 38",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "altızdı"
+          ]
+        },
+        {
+          "okunus": "yüz[iŋä] başıŋa bir t[ägmädi]",
+          "anlam": "(Prens Külün) yüzüne ve başına bir (ok bile) d[eğmedi]",
+          "atif": "KT D 33",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "yüz[iŋä]",
+            "t[ägmädi]"
+          ]
+        },
+        {
+          "okunus": "biz eki bıŋ ärtimiz",
+          "anlam": "Biz iki bin idik",
+          "atif": "T 16",
+          "sayfa": 130,
+          "madde": 283,
+          "tip": "örnek",
+          "runik": "𐰋𐰃𐰔 : 𐰚𐰃 : 𐰋𐰃𐰭 : 𐰼𐱅𐰢𐰔",
+          "runikEslesme": "e~i/ı~i"
+        }
+      ]
+    },
+    {
+      "ad": "Kesir Sayıları",
+      "maddeler": [
+        284
+      ],
+      "ogeler": [
+        {
+          "okunus": "sıŋar",
+          "anlam": "yarım, yarı, bir çiftin teki",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 284,
+          "tip": "sözcük",
+          "runik": "𐰾𐰃𐰭𐰺",
+          "runikEslesme": "tam"
+        }
+      ]
+    },
+    {
+      "ad": "Yaklaşıklık Sayıları",
+      "maddeler": [
+        285
+      ],
+      "ogeler": [
+        {
+          "okunus": "äligçä är tutdumuz",
+          "anlam": "Elli kadar adam tuttuk",
+          "atif": "T 42",
+          "sayfa": 131,
+          "madde": 285,
+          "tip": "örnek",
+          "runik": "𐰠𐰏𐰲𐰀 : 𐰼 : 𐱃𐰆𐱃𐰑𐰢𐰔",
+          "runikEslesme": "tam"
+        }
+      ]
+    },
+    {
+      "ad": "Sıra Sayıları",
+      "maddeler": [
+        286
+      ],
+      "ogeler": [
+        {
+          "okunus": "ilki",
+          "anlam": "birinci",
+          "atif": "< *il+ki*",
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐰃𐰠𐰚𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "üçünç",
+          "anlam": "üçüncü",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐰇𐰲𐰨",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "törtünç",
+          "anlam": "dördüncü",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐱅𐰇𐰼𐱅𐰨",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bişinç",
+          "anlam": "beşinci",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐰋𐰃𐰾𐰨",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "yetinç",
+          "anlam": "yedinci",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐰘𐰃𐱅𐰨",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "säkizinç",
+          "anlam": "sekizinci",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "säkizinç"
+          ]
+        },
+        {
+          "okunus": "tokuzunç",
+          "anlam": "dokuzuncu",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐱃𐰆𐰴𐰔𐰨",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "onunç",
+          "anlam": "onuncu",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐰆𐰣𐰨",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bir yegirminç",
+          "anlam": "on birinci",
+          "atif": null,
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "yegirminç"
+          ]
+        },
+        {
+          "okunus": "ilki sü",
+          "anlam": "birinci ordu",
+          "atif": "BK D 32",
+          "sayfa": 131,
+          "madde": 286,
+          "tip": "sözcük",
+          "runik": "𐰃𐰠𐰚𐰃 : 𐰾𐰇",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "sü",
+          "anlam": "ikinci ordu",
+          "atif": "BK D 32",
+          "sayfa": 132,
+          "madde": 286,
+          "tip": "sözcük",
+          "supheli": true,
+          "runik": "𐰾𐰇",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bir yegirminç ay yegirmikä",
+          "anlam": "on birinci ayın yirmisinde",
+          "atif": "MÇ G 11",
+          "sayfa": 132,
+          "madde": 286,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "yegirminç"
+          ]
+        },
+        {
+          "okunus": "törtünç çuş başınta süŋüşdümüz",
+          "anlam": "Dördüncü olarak Çuş (ırmağı) başında savaştık",
+          "atif": "KT K 6",
+          "sayfa": 132,
+          "madde": 286,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "başınta"
+          ]
+        }
+      ]
+    },
+    {
+      "ad": "Topluluk Sayıları",
+      "maddeler": [
+        287
+      ],
+      "ogeler": [
+        {
+          "okunus": "ikägü",
+          "anlam": "iki parça",
+          "atif": "< *\\*ekägü*",
+          "sayfa": 132,
+          "madde": 287,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "ikägü"
+          ]
+        },
+        {
+          "okunus": "üçägü",
+          "anlam": "üçü birlikte",
+          "atif": null,
+          "sayfa": 132,
+          "madde": 287,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "üçägü"
+          ]
+        },
+        {
+          "okunus": "üçägün",
+          "anlam": "üçü(müz) birlikte",
+          "atif": null,
+          "sayfa": 132,
+          "madde": 287,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "üçägün"
+          ]
+        },
+        {
+          "okunus": "buçägü",
+          "anlam": "bu üçü birlikte",
+          "atif": "< *bu üçägü*",
+          "sayfa": 132,
+          "madde": 287,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "buçägü"
+          ]
+        },
+        {
+          "okunus": "üçägün kabışıp sülälim",
+          "anlam": "(Biz) üçümüz birleşip ordu sevk edelim",
+          "atif": "T 21",
+          "sayfa": 132,
+          "madde": 287,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "üçägün"
+          ]
+        }
+      ]
+    },
+    {
+      "ad": "Katlama Sayıları",
+      "maddeler": [
+        288
+      ],
+      "ogeler": [
+        {
+          "okunus": "tört yolı",
+          "anlam": "dört kez",
+          "atif": "BK D 30",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "sözcük",
+          "runik": "𐱅𐰇𐰼𐱅 : 𐰖𐰆𐰞𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "biş yolı",
+          "anlam": "beş kez",
+          "atif": "KT K 4",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "sözcük",
+          "runik": "𐰋𐰾 : 𐰖𐰆𐰞𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "üç kata",
+          "anlam": "üç kez",
+          "atif": "Uybat II 4",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "kata"
+          ]
+        },
+        {
+          "okunus": "beş kata",
+          "anlam": "beş kez",
+          "atif": "Elegest III 2",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "kata"
+          ]
+        },
+        {
+          "okunus": "altı yolı süŋüşdüm",
+          "anlam": "Altı kez savaştım",
+          "atif": "BK D 28",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "örnek",
+          "runik": "𐰞𐱃𐰃 : 𐰖𐰆𐰞𐰃 : 𐰾𐰇𐰭𐱁𐰓𐰢",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "elimdä beş kata tägzindim",
+          "anlam": "Ülkemde beş kez dolandım",
+          "atif": "Elegest III 2",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "elimdä",
+            "kata",
+            "tägzindim"
+          ]
+        },
+        {
+          "okunus": "üç kata tägzinti",
+          "anlam": "... üç kez dolandı",
+          "atif": "Uybat II 4",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "kata",
+            "tägzinti"
+          ]
+        },
+        {
+          "okunus": "ikinti kata",
+          "anlam": "ikinci kez",
+          "atif": "Toyok IV 2-3",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "kata"
+          ]
+        },
+        {
+          "okunus": "ilimdä tört tägzindim",
+          "anlam": "Ülkemde dört (kez) dolandım",
+          "atif": "Altınköl II 6",
+          "sayfa": 133,
+          "madde": 288,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "ilimdä",
+            "tägzindim"
+          ]
+        }
+      ]
+    },
+    {
+      "ad": "Belirsizlik Sayıları",
+      "maddeler": [
+        289,
+        290
+      ],
+      "ogeler": [
+        {
+          "okunus": "az",
+          "anlam": "az",
+          "atif": null,
+          "sayfa": 133,
+          "madde": 289,
+          "tip": "sözcük",
+          "runik": "𐰔",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "azça",
+          "anlam": "biraz",
+          "atif": null,
+          "sayfa": 133,
+          "madde": 289,
+          "tip": "sözcük",
+          "runik": "𐰔𐰲𐰀",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "azkıńa",
+          "anlam": "pek az, azıcık",
+          "atif": null,
+          "sayfa": 133,
+          "madde": 289,
+          "tip": "sözcük",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "azkıńa"
+          ]
+        },
+        {
+          "okunus": "üküş",
+          "anlam": "pek çok",
+          "atif": null,
+          "sayfa": 133,
+          "madde": 289,
+          "tip": "sözcük",
+          "runik": "𐰜𐰇𐰾",
+          "runikEslesme": "o~u/ö~ü"
+        },
+        {
+          "okunus": "az bodunug üküş kıltım",
+          "anlam": "Az halkı çoğalttım",
+          "atif": "KT G 10",
+          "sayfa": 134,
+          "madde": 289,
+          "tip": "örnek",
+          "runik": "𐰔 : 𐰉𐰆𐰑𐰣𐰍 : 𐰜𐰇𐰾 : 𐰴𐰃𐰡𐰢",
+          "runikEslesme": "o~u/ö~ü"
+        },
+        {
+          "okunus": "azça bodun täzmiş ärti",
+          "anlam": "Az sayıda halk kaçmış idi",
+          "atif": "T 43",
+          "sayfa": 134,
+          "madde": 289,
+          "tip": "örnek",
+          "runik": "𐰔𐰲𐰀 : 𐰉𐰆𐰑𐰣 : 𐱅𐰔𐰢𐰾 : 𐰼𐱅𐰃",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "üküş öltäçi anta tirilti",
+          "anlam": "Pek çok ölecek kişi orda hayatta kaldı",
+          "atif": "BK D 31",
+          "sayfa": 134,
+          "madde": 289,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "anta"
+          ]
+        },
+        {
+          "okunus": "üküş türük bodun öltüg",
+          "anlam": "(Çinlilerin tatlı sözlerine ve yumuşak ipekli kumaşlarına aldanıp, ey) Türk halkı, çok zayiat verdin",
+          "atif": "KT G 6, BK K 5",
+          "sayfa": 134,
+          "madde": 289,
+          "tip": "örnek",
+          "runik": "𐰜𐰇𐰾 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐱅𐰏",
+          "runikEslesme": "o~u/ö~ü"
+        },
+        {
+          "okunus": "azıg üküş kıltı",
+          "anlam": "(Amcam Hakan) azı çok yaptı",
+          "atif": "BK D 14",
+          "sayfa": 134,
+          "madde": 289,
+          "tip": "örnek",
+          "runik": "𐰔𐰃𐰍 : 𐰜𐰇𐰾 : 𐰚𐰠𐱅𐰃",
+          "runikEslesme": "e~i/ı~i"
+        },
+        {
+          "okunus": "azıg üküşüg körtüg",
+          "anlam": "(Bizim) sayıca az, (düşmanın da) sayıca çok olduğunu (işte) gördünüz",
+          "atif": "O 7",
+          "sayfa": 134,
+          "madde": 289,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "üküşüg",
+            "körtüg"
+          ]
+        },
+        {
+          "okunus": "bunça",
+          "anlam": "bunca, bu kadar",
+          "atif": null,
+          "sayfa": 134,
+          "madde": 290,
+          "tip": "sözcük",
+          "supheli": true,
+          "runik": "𐰉𐰆𐰨𐰀",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bunça bitig bitigmä",
+          "anlam": "Bunca yazılar(ı) yazan...",
+          "atif": "KT GD",
+          "sayfa": 135,
+          "madde": 290,
+          "tip": "örnek",
+          "runik": "𐰉𐰆𐰨𐰀 : 𐰋𐰃𐱅𐰏 : 𐰋𐰃𐱅𐰏𐰢𐰀",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bunça barkıg bädizig uzug...",
+          "anlam": "Bunca binayı, resim ve heykelleri, süslemeleri...",
+          "atif": "BK GB",
+          "sayfa": 135,
+          "madde": 290,
+          "tip": "örnek",
+          "runik": "𐰉𐰆𐰨𐰀 : 𐰉𐰺𐰴𐰍 : 𐰋𐰓𐰔𐰏 : 𐰆𐰔𐰍",
+          "runikEslesme": "tam"
+        },
+        {
+          "okunus": "bunça matı bäglär",
+          "anlam": "... bunca sadık beyler...",
+          "atif": "BK G 14",
+          "sayfa": 135,
+          "madde": 290,
+          "tip": "örnek",
+          "runik": null,
+          "runikEslesme": null,
+          "runikEksik": [
+            "matı"
+          ]
+        }
+      ]
+    }
+  ]
+}

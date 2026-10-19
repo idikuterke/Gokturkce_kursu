@@ -21,7 +21,7 @@ Kütüphanedeki kaynaklardan (Talat Tekin 2003 Orhon Türkçesi Grameri; Talat T
 - **Harf sayısı:** 38 işaret: 30 ünsüz + 4 ünlü + 4 çift sesli (hece işareti)
 - **Yazım yönü:** Sağdan sola (az sayıda Yenisey yazıtında soldan sağa, harfler ters çevrik)
 - **Ünlü işaretleri:** a/ä, ı/i, o/u, ö/ü — her işaret iki ünlüyü gösterir; o~u ve ö~ü yazıda ayırt edilemez
-- **Kural sayısı:** 46 (6 kategori)
+- **Kural sayısı:** 59 (7 kategori — H: Sayılar, Tekin2003 §280-290)
 
 ## A · Temel İlkeler
 
@@ -631,6 +631,140 @@ Kalın sıradan sözcüklerde söz başı /y/ **kalın** (𐰖), söz sonu /n/ *
 - **Kaynak:** Çavdar md. 3 (karar: proje sahibi); karşı tanık: korpus
 - **Güven:** yüksek
 - **Etiketler:** istisna, karar, söz başı, söz sonu
+
+## Sayılar
+
+### H1 — Asıl sayılar
+
+Birlikler, onluklar ve yüzlükler: *bir* 1 · *eki* 2 · *üç* 3 · *tört* 4 · *beş* 5 · *biş* 5 · *altı* 6 · *yeti* 7 · *yiti* 7 · *säkiz* 8 · *tokuz* 9 · *on* 10 · *yegirmi* 20 · *yigirmi* 20 · *otuz* 30 · *kırk* 40 · *älig* 50 · *altmış* 60 · *yetmiş* 70 · *säkiz on* 80 · *tokuz on* 90 · *yüz* 100 · *bıŋ* 1000 · *biŋ* 1000 · *miŋ* 1000 · *bir tümän* 10000.
+
+50, 60 ve 70 (*älig, altmış, yetmiş*) özgün köklerdir; 80 ve 90 niteleme öbeğidir: *säkiz on*, *tokuz on*.
+
+- **Kaynak:** Tekin2003 §280, s. 128
+- **Güven:** yüksek
+- **Etiketler:** sayı, temel
+
+### H2 — Onluklararası sayılar: hedef onluk mantığı
+
+Ara sayılar toplama ile değil, **bir sonraki onluğa atılacak adım** olarak adlandırılır. *eki yegirmi* "12" — yani "yirmiye doğru ikinci". *bir otuz* "21" — "otuza doğru birinci".
+
+Bugünün Türkçesinden farkı: *eki yegirmi* 22 değil **12**'dir.
+
+Örnekler: *bir yegirmi* 11 · *eki yegir[mi]* 12 · *üç yegirmi* 13 · *tört yegirmi* 14 · *biş yigirmi* 15 · *altı yegirmi* 16 · *yeti yegirmi* 17 · *säkiz yegirmi* 18 · *tokuz yegirmi* 19 · *bir otuz* 21 · *eki otuz* 22 · *üç otuz* 23 · *biş otuz* 25 · *altı otuz* 26 · *yiti otuz* 27 · *tokuz otuz* 29 · *bir kırk* 31 · *otuz artukı bir* 31 · *otuz artukı säkiz* 38.
+
+- **Kaynak:** Tekin2003 §281.1, s. 129
+- **Güven:** yüksek
+- **Etiketler:** sayı, ara sayı
+
+### H3 — Yenisey'de ara sayı 80'e kadar aynı yolla kurulur
+
+*eki älig* "42" (Tuva I 3), *üç yetmiş* "63", *yeti yetmiş* "67", *tokuz säkiz on* "79".
+
+- **Kaynak:** Tekin2003 §281.2, s. 129
+- **Güven:** yüksek
+- **Etiketler:** sayı, Yenisey
+
+### H4 — *artukı* katması: 30'dan sonra ikinci yol
+
+Asıl Orhon yazıtlarında 30'dan büyük sayılar çoğunlukla **katmalı** kurulur; birleştirici *artukı* "fazlası, artı"dır: *otuz artukı bir* "31", *otuz artukı säkiz* "38", *kırk artukı yeti* "47".
+
+İki yol da kullanılır: 31 için hem *otuz artukı bir* (BK G 9) hem *bir kırk* (KT K 2) geçer.
+
+Yüzlükler ve binlikler arasında da aynı yapı: *bir tümän artukı yeti biŋ* "17.000".
+
+- **Kaynak:** Tekin2003 §281.3 ve §282, s. 129
+- **Güven:** yüksek
+- **Etiketler:** sayı, artukı, katmalı
+
+### H5 — Niteleme öbekleri: 80, 90, yüzler, binler
+
+*säkiz on* 80 · *tokuz on* 90 · *biş yüz* 500 · *yeti yüz* 700 · *eki bıŋ* 2000 · *yeti biŋ* 7000 · *bir tümän* 10.000 · *on tümän* 100.000.
+
+- **Kaynak:** Tekin2003 §282, s. 129
+- **Güven:** yüksek
+- **Etiketler:** sayı, niteleme
+
+### H6 — Asıl sayıların görevleri
+
+1. Niteleyici: *bir ärig sançdı*, *üç otuz balık* "yirmi üç şehir".
+2. 3. kişi iyelik ekiyle ad: *ekisin özi altızdı* "İkisini kendisi aldırttı".
+3. Zarf tümleci (süre/sıklık): *bir yılka tört yolı süŋüşdüm*, *kül tigin bir kırk yaşayur ärti* "otuz bir yaşında idi".
+4. Yüklem adı: *biz eki bıŋ ärtimiz* "Biz iki bin idik".
+
+- **Kaynak:** Tekin2003 §283, s. 130
+- **Güven:** yüksek
+- **Etiketler:** sayı, sözdizimi
+
+### H7 — Kesir: tek örnek *sıŋar*
+
+Runik metinlerde geçen tek kesir sayısı *sıŋar* "yarım, yarı, bir çiftin teki"dir (BK D 32). Moyun Çor'da 3. kişi iyelik ekiyle: *sıŋarı bodun* "halkın yarısı".
+
+- **Kaynak:** Tekin2003 §284, s. 131
+- **Güven:** yüksek
+- **Etiketler:** sayı, kesir
+
+### H8 — Yaklaşıklık: {+çA} eki ya da ikili öbek
+
+1. Eşitlik durumu ekiyle: *äligçä är* "elli kadar adam", *yüzçä är* "yüz kadar adam".
+2. Sözdizimiyle: *eki üç kişi* "iki üç kişi", *yüz artuk ok* "yüzden fazla ok".
+
+- **Kaynak:** Tekin2003 §285, s. 131
+- **Güven:** yüksek
+- **Etiketler:** sayı, yaklaşıklık
+
+### H9 — Sıra sayıları: {+(X)nç}
+
+*ilki* "birinci" (< il+ki) · *äŋ ilk ~ äŋ ilki* · *ekin ~ ekinti* "ikinci" · *üçünç* · *törtünç* · *bişinç* · *yetinç* · *säkizinç* · *tokuzunç* · *onunç* · *bir yegirminç* "on birinci".
+
+Hem niteleyici (*ilki sü* "birinci ordu") hem zarf tümleci (*äŋ ilk togu balıkda süŋüşdümüz* "ilk önce") olur. Ay adlarında yaygındır: *bişinç ay* "beşinci ay".
+
+"İkinci" için {+(X)nç} değil ayrı biçim (*ekin ~ ekinti*) kullanılır.
+
+- **Kaynak:** Tekin2003 §286, s. 131-132
+- **Güven:** yüksek
+- **Etiketler:** sayı, sıra
+
+### H10 — Topluluk sayıları: {+AgU(n)}
+
+*ikägü* · *üçägü* "üçü birlikte" · *üçägün* "üçü(müz) birlikte" · *buçägü* (< bu üçägü) "bu üçü birlikte".
+
+*ikägü* her zaman "ikisi birlikte" değildir; KT K 3'te "iki parça" anlamındadır.
+
+- **Kaynak:** Tekin2003 §287, s. 132-133
+- **Güven:** yüksek
+- **Etiketler:** sayı, topluluk
+
+### H11 — Katlama sayıları: *yolı* ya da *kata*
+
+Kaç kez yapıldığı ek ile değil **söz öbeğiyle** anlatılır: asıl sayı + *yolı* (< yōl "yol, sefer" + iyelik) ya da asıl sayı + *kata* (< kat- "katmak"): *tört yolı* "dört kez", *biş yolı*, *üç kata*, *beş kata*. Sıra sayısıyla da kurulur: *ikinti kata* "ikinci kez".
+
+Asıl sayı tek başına da katlama bildirir: *tabgaçka yeti yegirmi süŋüşdi* "Çinlilerle on yedi kez savaştı".
+
+- **Kaynak:** Tekin2003 §288, s. 133
+- **Güven:** yüksek
+- **Etiketler:** sayı, katlama
+
+### H12 — Belirsizlik sayıları
+
+*az* "az" · *azça* "biraz" · *azkıńa* "pek az, azıcık" · *üküş* "pek çok". Niteleyici, ad ve zarf olarak kullanılırlar: *az bodunug üküş kıltım* "az halkı çoğalttım".
+
+*bıŋ* ve *tümän* gibi çok yüksek sayılar da belirsizlik bildirir: *bıŋ yıllık tümän künlük* "bin yıllık on bin günlük".
+
+*bunça* "bunca, bu kadar" (bu + {+çA}) da bu görevdedir.
+
+- **Kaynak:** Tekin2003 §289-290, s. 133-135
+- **Güven:** yüksek
+- **Etiketler:** sayı, belirsizlik
+
+### H13 — Sayıların runik yazımı kural değil tanıktır
+
+Sayı öbeklerinin tamga dizileri kitapların metin katmanında yoktur (tamgalar görsel). Bu yüzden runik katman **korpustan** eşlenir. Göktürk yazısı o~u ve ö~ü'yü ayırmadığından Tekin'in *eki* yazdığı sözcük korpusta İKİ olarak geçebilir; eşleme kademesi `docs/sayilar.json` içinde her öğede kayıtlıdır. Korpusta tanığı olmayan öbek runiksiz kalır ve alıştırmaya girmez.
+
+> **Uyarı:** `00_Kaynaklar/göktürkçe sayılar.txt` bir **kurs çalışma yaprağıdır**, kaynak değildir (dairesel olurdu) ve içinde doğrulanabilir bir hata taşır: "z: 𐰯". 𐰯 p'dir; z 𐰔'dir. Sayı bilgisi yalnız Tekin 2003'ten alınmıştır.
+
+- **Kaynak:** Korpus `05_Kaynak_DB/orhun-db-v1.json`; çıkarıcı `engine/sayi-tara.mjs`
+- **Güven:** yüksek
+- **Etiketler:** sayı, runik, yöntem
 
 ## Yaygın Hatalar
 
