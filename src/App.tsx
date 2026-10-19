@@ -19,6 +19,7 @@ import { uretilmisKusaklar } from './data/generated/kusakKur';
 import { gundelikKusaklar } from './data/generated/gundelikKusak';
 import { sayiKusaklar } from './data/generated/sayiKusak';
 import { kursBirimKusaklari } from './data/generated/kursBirimleri';
+import { GIZLILIK_URL, KULLANIM_URL } from './data/yasal';
 
 // Acilista yalnizca "Ogren" sekmesi gorunur. Digerleri ayri parcalara
 // bolunup ilk acildiklarinda yuklenir; boylece recharts gibi agir
@@ -671,6 +672,25 @@ export const App: React.FC = () => {
       <footer className="border-t border-zemin-4 py-6 text-center text-xs text-metin-3 bg-[#080E18]">
         <div className="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>Göktürkçe Öğrenek &copy; {new Date().getFullYear()} — Antik Bozkır Yazıtları ve Dil Eğitimi</span>
+          <nav className="flex items-center gap-3">
+            <a
+              href={GIZLILIK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-marka-acik transition-colors underline-offset-2 hover:underline"
+            >
+              Gizlilik
+            </a>
+            <span aria-hidden="true" className="text-zemin-4">·</span>
+            <a
+              href={KULLANIM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-marka-acik transition-colors underline-offset-2 hover:underline"
+            >
+              Kullanım Koşulları
+            </a>
+          </nav>
           <span className="runic text-sm text-marka">𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣</span>
         </div>
       </footer>

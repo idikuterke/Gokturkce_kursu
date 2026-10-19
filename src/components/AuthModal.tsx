@@ -1,6 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { X, Mail, Lock, User as UserIcon, Loader2, CloudUpload } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { GIZLILIK_URL, KULLANIM_URL } from '../data/yasal';
 
 /** Google'ın marka kılavuzuna uygun çok renkli "G" işareti. */
 const GoogleLogo = () => (
@@ -19,8 +20,35 @@ interface AuthModalProps {
 
 type Mode = 'signIn' | 'signUp' | 'reset';
 
+/** Metinler onozlabs.com'da; uygulama yalnız bağlantı verir. */
+const YasalBaglantilar = () => (
+  <>
+    <a
+      href={KULLANIM_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-marka-acik underline underline-offset-2 hover:text-white"
+    >
+      Kullanım Koşulları
+    </a>
+    {' ve '}
+    <a
+      href={GIZLILIK_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-marka-acik underline underline-offset-2 hover:text-white"
+    >
+      Gizlilik Politikası
+    </a>
+  </>
+);
+
 /** Firebase hata kodlarını kullanıcıya gösterilebilir Türkçe metne çevirir. */
+const ONAY_UYARISI =
+  'Devam etmek için Kullanım Koşulları ve Gizlilik Politikası\'nı onaylaman gerekiyor.';
+
 const readableError = (error: unknown): string => {
+  if ((error as Error)?.message === 'ONAY_YOK') return ONAY_UYARISI;
   const code = (error as { code?: string })?.code ?? '';
   switch (code) {
     case 'auth/invalid-email':
@@ -60,6 +88,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
   const [isBusy, setIsBusy] = useState(false);
+  // Yalnız yeni hesapta sorulur; mevcut kullanıcının girişini engellemez.
+  const [yasalOnay, setYasalOnay] = useState(false);
 
   if (!isOpen) return null;
 
@@ -73,6 +103,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
         await signIn(email.trim(), password);
         onClose();
       } else if (mode === 'signUp') {
+        if (!yasalOnay) throw new Error('ONAY_YOK');
         await signUp(email.trim(), password, displayName.trim() || undefined);
         onClose();
       } else {
@@ -115,6 +146,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
               onClick={async () => {
                 setError(null);
                 setNotice(null);
+                if (mode === 'signUp' && !yasalOnay) {
+                  setError(ONAY_UYARISI);
+                  return;
+                }
                 setIsBusy(true);
                 try {
                   await signInWithGoogle();
@@ -192,6 +227,21 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
             </label>
           )}
 
+          {mode === 'signUp' && (
+            <label className="flex items-start gap-2.5 text-[11px] text-metin-2 leading-snug cursor-pointer">
+              <input
+                type="checkbox"
+                checked={yasalOnay}
+                onChange={(e) => { setYasalOnay(e.target.checked); setError(null); }}
+                className="mt-0.5 w-4 h-4 flex-shrink-0 accent-marka cursor-pointer"
+              />
+              <span>
+                <YasalBaglantilar />
+                {'\u2019nı okudum, kabul ediyorum.'}
+              </span>
+            </label>
+          )}
+
           {error && (
             <p className="text-xs text-rose-400 bg-rose-500/10 border border-rose-500/30 rounded-xl px-3 py-2">
               {error}
@@ -234,6 +284,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
           <CloudUpload className="w-3.5 h-3.5 mt-0.5 flex-shrink-0 text-marka-acik" />
           Bu cihazdaki mevcut ilerlemen giriş yaptığında hesabınla birleştirilir; hiçbir şey kaybolmaz.
         </p>
+
+        {mode !== 'signUp' && (
+          <p className="mt-2 text-[11px] text-metin-3 leading-snug">
+            Hesap açarken topladığımız veriler ve haklarınız: <YasalBaglantilar />.
+          </p>
+        )}
       </div>
     </div>
   );
