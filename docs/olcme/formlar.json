@@ -1,0 +1,403 @@
+{
+  "uretim": "2026-10-19T10:28:40.177Z",
+  "plan": [
+    {
+      "kod": "K1",
+      "kazanim": "Ünlü tamgasını tanıma",
+      "adet": 2,
+      "zorluk": 1
+    },
+    {
+      "kod": "K2",
+      "kazanim": "Kalın/ince ünsüz ayrımı",
+      "adet": 2,
+      "zorluk": 2
+    },
+    {
+      "kod": "K3",
+      "kazanim": "Hece damgasını okuma",
+      "adet": 1,
+      "zorluk": 3
+    },
+    {
+      "kod": "K4",
+      "kazanim": "İmla: sözcüğü tamgalarla yazma",
+      "adet": 2,
+      "zorluk": 3
+    },
+    {
+      "kod": "K5",
+      "kazanim": "Sayı mantığı (hedef onluk)",
+      "adet": 2,
+      "zorluk": 3
+    },
+    {
+      "kod": "K6",
+      "kazanim": "Yazıt sözcüğünü okuma",
+      "adet": 1,
+      "zorluk": 4
+    },
+    {
+      "kod": "K7",
+      "kazanim": "Sözcük anlamı",
+      "adet": 1,
+      "zorluk": 4
+    },
+    {
+      "kod": "K8",
+      "kazanim": "Yazıt pasajını okuma",
+      "adet": 1,
+      "zorluk": 5
+    }
+  ],
+  "formA": [
+    {
+      "no": 1,
+      "kazanim": "K1",
+      "zorluk": 1,
+      "soru": "Bu tamga hangi ses(ler)i gösterir?  𐰆",
+      "siklar": [
+        "o / u",
+        "ı / i",
+        "ö / ü",
+        "a / e"
+      ],
+      "dogru": "o / u",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası)"
+    },
+    {
+      "no": 2,
+      "kazanim": "K1",
+      "zorluk": 1,
+      "soru": "Bu tamga hangi ses(ler)i gösterir?  𐰀",
+      "siklar": [
+        "ö / ü",
+        "a / e",
+        "o / u",
+        "ı / i"
+      ],
+      "dogru": "a / e",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası)"
+    },
+    {
+      "no": 3,
+      "kazanim": "K2",
+      "zorluk": 2,
+      "soru": "kalın (art) sıradan bir sözcükte /t/ sesi için hangi tamga kullanılır?",
+      "siklar": [
+        "𐰠",
+        "𐰑",
+        "𐰖",
+        "𐱃"
+      ],
+      "dogru": "𐱃",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası); kutupluluk kuralı C1",
+      "not": "Eşi: 𐱅 (ince)"
+    },
+    {
+      "no": 4,
+      "kazanim": "K2",
+      "zorluk": 2,
+      "soru": "ince (ön) sıradan bir sözcükte /d/ sesi için hangi tamga kullanılır?",
+      "siklar": [
+        "𐰓",
+        "𐰺",
+        "𐰞",
+        "𐰼"
+      ],
+      "dogru": "𐰓",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası); kutupluluk kuralı C1",
+      "not": "Eşi: 𐰑 (kalın)"
+    },
+    {
+      "no": 5,
+      "kazanim": "K3",
+      "zorluk": 3,
+      "soru": "Bu hece damgası hangi heceleri yazabilir?  𐰸",
+      "siklar": [
+        "iç, çi",
+        "ök, ük, kö, kü",
+        "ok, uk, ko, ku",
+        "ık, kı"
+      ],
+      "dogru": "ok, uk, ko, ku",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası); hece damgaları D1-D4"
+    },
+    {
+      "no": 6,
+      "kazanim": "K4",
+      "zorluk": 3,
+      "soru": "\"koş\" sözcüğü Göktürk harfleriyle nasıl yazılır?",
+      "siklar": [
+        "𐰑𐰆𐱃",
+        "𐰑𐰆𐰢𐰣",
+        "𐰖𐰔",
+        "𐰸𐰆𐱁"
+      ],
+      "dogru": "𐰸𐰆𐱁",
+      "kaynak": "İmla kuralından üretildi, insan denetiminden geçti"
+    },
+    {
+      "no": 7,
+      "kazanim": "K4",
+      "zorluk": 3,
+      "soru": "\"kaplan\" sözcüğü Göktürk harfleriyle nasıl yazılır?",
+      "siklar": [
+        "𐰺𐰯𐰀",
+        "𐰋𐰃𐰼",
+        "𐱃𐰆𐰔",
+        "𐰴𐰯𐰞𐰣"
+      ],
+      "dogru": "𐰴𐰯𐰞𐰣",
+      "kaynak": "İmla kuralından üretildi, insan denetiminden geçti"
+    },
+    {
+      "no": 8,
+      "kazanim": "K5",
+      "zorluk": 3,
+      "soru": "\"yeti yegirmi\" kaç eder?",
+      "siklar": [
+        "7",
+        "17",
+        "27",
+        "20"
+      ],
+      "dogru": "17",
+      "kaynak": "Tekin 2003, §281, s. 129 (T 49)",
+      "not": "Toplama mantığı 27 verirdi; doğrusu 17."
+    },
+    {
+      "no": 9,
+      "kazanim": "K5",
+      "zorluk": 3,
+      "soru": "\"üç yegirmi\" kaç eder?",
+      "siklar": [
+        "23",
+        "13",
+        "3",
+        "20"
+      ],
+      "dogru": "13",
+      "kaynak": "Tekin 2003, §281, s. 129 (KT D 28)",
+      "not": "Toplama mantığı 23 verirdi; doğrusu 13."
+    },
+    {
+      "no": 10,
+      "kazanim": "K6",
+      "zorluk": 4,
+      "soru": "Bu sözcük nasıl okunur?  𐰼𐱅𐰃",
+      "siklar": [
+        "TİYiN",
+        "aNDA",
+        "TaPA",
+        "eRTİ"
+      ],
+      "dogru": "eRTİ",
+      "kaynak": "Türk Dili Dil Bilgisi Çalışmaları (Prof. Dr. Zeynep Korkmaz): Gramer Terimleri Sözlüğü ve Türkiye Türkçesi Grameri çalışmalarında, ad soylu kelimeleri yüklemleştiren veya birleşik zamanlı fiil yapan \"ek-fiil\" (cevher fiil) konusu işlenirken er- yardımcı eyleminin Eski Türkçedeki ana formu olarak erti gösterilir"
+    },
+    {
+      "no": 11,
+      "kazanim": "K7",
+      "zorluk": 4,
+      "soru": "\"TÜRK\" (𐱅𐰇𐰼𐰜) ne anlama gelir?",
+      "siklar": [
+        "orada, o anda, oracıkta",
+        "-a kadar",
+        "bunca, bu kadar",
+        "etnik ad"
+      ],
+      "dogru": "etnik ad",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255"
+    },
+    {
+      "no": 12,
+      "kazanim": "K8",
+      "zorluk": 5,
+      "soru": "Bu pasajın okunuşu hangisidir?  𐰇𐰔𐰀 : 𐰚𐰇𐰚 : 𐱅𐰭𐰼𐰃",
+      "siklar": [
+        "ötüken yış",
+        "üze kök teŋri",
+        "tabgaç ilinge",
+        "türk bilge kagan"
+      ],
+      "dogru": "üze kök teŋri",
+      "kaynak": "KT-D-1 · Tekin 1998, KT D 1, s. 34-55 (bölüm)",
+      "not": "Anlamı: üstte mavi gök"
+    }
+  ],
+  "formB": [
+    {
+      "no": 1,
+      "kazanim": "K1",
+      "zorluk": 1,
+      "soru": "Bu tamga hangi ses(ler)i gösterir?  𐰇",
+      "siklar": [
+        "a / e",
+        "o / u",
+        "ö / ü",
+        "ı / i"
+      ],
+      "dogru": "ö / ü",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası)"
+    },
+    {
+      "no": 2,
+      "kazanim": "K1",
+      "zorluk": 1,
+      "soru": "Bu tamga hangi ses(ler)i gösterir?  𐰃",
+      "siklar": [
+        "o / u",
+        "a / e",
+        "ö / ü",
+        "ı / i"
+      ],
+      "dogru": "ı / i",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası)"
+    },
+    {
+      "no": 3,
+      "kazanim": "K2",
+      "zorluk": 2,
+      "soru": "kalın (art) sıradan bir sözcükte /k/ sesi için hangi tamga kullanılır?",
+      "siklar": [
+        "𐰣",
+        "𐰠",
+        "𐰑",
+        "𐰴"
+      ],
+      "dogru": "𐰴",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası); kutupluluk kuralı C1",
+      "not": "Eşi: 𐰚 (ince)"
+    },
+    {
+      "no": 4,
+      "kazanim": "K2",
+      "zorluk": 2,
+      "soru": "ince (ön) sıradan bir sözcükte /r/ sesi için hangi tamga kullanılır?",
+      "siklar": [
+        "𐰼",
+        "𐰍",
+        "𐰋",
+        "𐰠"
+      ],
+      "dogru": "𐰼",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası); kutupluluk kuralı C1",
+      "not": "Eşi: 𐰺 (kalın)"
+    },
+    {
+      "no": 5,
+      "kazanim": "K3",
+      "zorluk": 3,
+      "soru": "Bu hece damgası hangi heceleri yazabilir?  𐰶",
+      "siklar": [
+        "iç, çi",
+        "ık, kı",
+        "ok, uk, ko, ku",
+        "ök, ük, kö, kü"
+      ],
+      "dogru": "ık, kı",
+      "kaynak": "Tamga sınıfları (kilitli kaynak dosyası); hece damgaları D1-D4"
+    },
+    {
+      "no": 6,
+      "kazanim": "K4",
+      "zorluk": 3,
+      "soru": "\"ulu\" sözcüğü Göktürk harfleriyle nasıl yazılır?",
+      "siklar": [
+        "𐰑𐰆𐰺",
+        "𐰾𐰚𐰔",
+        "𐰺𐰃",
+        "𐰆𐰞𐰆"
+      ],
+      "dogru": "𐰆𐰞𐰆",
+      "kaynak": "İmla kuralından üretildi, insan denetiminden geçti"
+    },
+    {
+      "no": 7,
+      "kazanim": "K4",
+      "zorluk": 3,
+      "soru": "\"otur\" sözcüğü Göktürk harfleriyle nasıl yazılır?",
+      "siklar": [
+        "𐰏𐰇𐰔",
+        "𐰠𐰢𐰀",
+        "𐰆𐱃𐰺",
+        "𐰘𐰀"
+      ],
+      "dogru": "𐰆𐱃𐰺",
+      "kaynak": "İmla kuralından üretildi, insan denetiminden geçti"
+    },
+    {
+      "no": 8,
+      "kazanim": "K5",
+      "zorluk": 3,
+      "soru": "\"bir kırk\" kaç eder?",
+      "siklar": [
+        "41",
+        "31",
+        "40",
+        "1"
+      ],
+      "dogru": "31",
+      "kaynak": "Tekin 2003, §281, s. 129 (KT K 2)",
+      "not": "Toplama mantığı 41 verirdi; doğrusu 31."
+    },
+    {
+      "no": 9,
+      "kazanim": "K5",
+      "zorluk": 3,
+      "soru": "\"eki otuz\" kaç eder?",
+      "siklar": [
+        "2",
+        "22",
+        "30",
+        "32"
+      ],
+      "dogru": "22",
+      "kaynak": "Tekin 2003, §281, s. 129 (BK D 25)",
+      "not": "Toplama mantığı 32 verirdi; doğrusu 22."
+    },
+    {
+      "no": 10,
+      "kazanim": "K6",
+      "zorluk": 4,
+      "soru": "Bu sözcük nasıl okunur?  𐰘𐰃𐰼",
+      "siklar": [
+        "BİR",
+        "TeGİ",
+        "YİR",
+        "aNDA"
+      ],
+      "dogru": "YİR",
+      "kaynak": "[s. 258] # s. 258 — TALAT TEKİN (basılı sayfa numarası 259)  *(Kitap s. 259)*"
+    },
+    {
+      "no": 11,
+      "kazanim": "K7",
+      "zorluk": 4,
+      "soru": "\"TÜRGiŞ\" (𐱅𐰇𐰼𐰏𐰾) ne anlama gelir?",
+      "siklar": [
+        "şüphesiz, muhakkak ki, gerçekten",
+        "bunca, bu kadar",
+        "etnik ad",
+        "yukarıda, üstte; üzerine"
+      ],
+      "dogru": "etnik ad",
+      "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255"
+    },
+    {
+      "no": 12,
+      "kazanim": "K8",
+      "zorluk": 5,
+      "soru": "Bu pasajın okunuşu hangisidir?  𐱃𐰸𐰆𐰔 : 𐰆𐰍𐰔 : 𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃",
+      "siklar": [
+        "üze kök teŋri",
+        "azkınya türk bodun",
+        "tokuz oguz begleri bodunı",
+        "türk bodun tabgaçka körür erti"
+      ],
+      "dogru": "tokuz oguz begleri bodunı",
+      "kaynak": "BK-K-1 · Tekin 1998, BK K 1, s. 56-81 (bölüm)",
+      "not": "Anlamı: Dokuz Oğuz beyleri (ve) halkı"
+    }
+  ]
+}
