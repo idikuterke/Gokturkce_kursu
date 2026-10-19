@@ -103,12 +103,14 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
 
       {/* Görsel Bozkır Rütbe Basamakları (Steppe Rank Ladders) */}
       <div className="bg-derin-3 border border-derin rounded-3xl p-6 shadow-xl space-y-4 text-left">
-        <div className="flex items-center justify-between border-b border-[#1A434C] pb-3">
-          <div className="flex items-center gap-2">
-            <Shield className="w-5 h-5 text-uyari" />
-            <h3 className="text-base font-bold text-white font-serif">Bozkır Rütbe Basamakları</h3>
+        {/* gap-3 + shrink-0: dar ekranda başlık ile rozet birbirine
+            yapışıp "Basamakları1240 XP Toplam" diye okunuyordu. */}
+        <div className="flex items-center justify-between gap-3 border-b border-[#1A434C] pb-3">
+          <div className="flex items-center gap-2 min-w-0">
+            <Shield className="w-5 h-5 text-uyari shrink-0" />
+            <h3 className="text-base font-bold text-white font-serif leading-tight">Bozkır Rütbe Basamakları</h3>
           </div>
-          <span className="text-xs text-marka-acik font-mono">
+          <span className="text-xs text-marka-acik font-mono shrink-0 whitespace-nowrap">
             {progress.xp} XP Toplam
           </span>
         </div>
@@ -142,8 +144,11 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
                   </span>
                 )}
 
-                <div className="text-xl mb-1">{r.icon}</div>
-                <div className="runic text-2xl font-bold my-0.5 text-marka-acik">
+                {/* Emoji ikon geri çekildi: renkli emojiler runik
+                    tamganın önüne geçip kartı dağınık gösteriyordu.
+                    Kartın asıl işareti tamga olmalı. */}
+                <div className="text-sm mb-0.5 opacity-50 grayscale-[0.3]">{r.icon}</div>
+                <div className="runic text-3xl font-bold my-1 text-marka-acik">
                   {r.rune}
                 </div>
                 <h4 className="text-xs font-bold text-white font-serif">{r.title}</h4>

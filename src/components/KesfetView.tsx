@@ -55,7 +55,10 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
         </div>
 
         {/* Ambient Runic Watermark */}
-        <div className="absolute right-6 top-1/2 -translate-y-1/2 text-9xl text-white/5 font-bold pointer-events-none select-none runic">
+        {/* Telefonda gizli: dar ekranda tamgalar başlığın arkasından
+            geçip kart kenarında yarım kalıyor, çizim hatası gibi
+            görünüyordu. Geniş ekranda doku olarak kalır. */}
+        <div className="absolute right-6 top-1/2 -translate-y-1/2 text-9xl text-white/5 font-bold pointer-events-none select-none runic hidden sm:block">
           𐰋𐰃𐰠𐰏𐰀
         </div>
       </div>

@@ -73,7 +73,7 @@ export const TamgalikView: React.FC<TamgalikViewProps> = ({ onOpenFlashcards, on
       </div>
 
       {/* Filter Tabs */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2">
+      <div className="kaydirma-ipucu flex items-center gap-2 overflow-x-auto pb-2">
         {[
           { id: 'all', label: 'Tüm Tamgalar' },
           { id: 'unluler', label: 'Ünlüler (4 Tamga - 8 Ses)' },

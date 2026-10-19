@@ -118,12 +118,14 @@ export const LearningPath: React.FC<LearningPathProps> = ({
   const todayXp = progress.xp;
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div className="max-w-6xl mx-auto px-4 py-5 sm:py-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
       {/* Left 2 Columns: Duolingo Vertical Learning Path */}
-      <div className="lg:col-span-2 space-y-10">
+      <div className="lg:col-span-2 space-y-8 sm:space-y-10">
         
         {/* Banner with Bilge Bozkır Alpi Mascot */}
-        <div className="relative overflow-hidden bg-gradient-to-r from-derin-3 via-[#10343D] to-derin-3 border border-derin rounded-3xl p-6 sm:p-7 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl">
+        {/* Telefonda daha derli toplu: öğrenme yolunun ilk dersi
+            ekranın altında görünsün diye iç boşluk ve aralık kısıldı. */}
+        <div className="relative overflow-hidden bg-gradient-to-r from-derin-3 via-[#10343D] to-derin-3 border border-derin rounded-3xl p-5 sm:p-7 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 shadow-2xl">
           <div className="space-y-2.5 text-center sm:text-left z-10 max-w-md">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-uyari/10 text-uyari border border-uyari/30">
               <Sparkles className="w-3.5 h-3.5" /> Bozkırın Kadim Yolculuğu
@@ -152,16 +154,18 @@ export const LearningPath: React.FC<LearningPathProps> = ({
             </div>
           </div>
 
-          <div className="z-10 flex-shrink-0">
-            <MascotAlp 
-              mood="proud" 
-              speech="Esen olsun alpım! Yolculukta her tamga yeni bir fetihtir." 
-              size={135} 
+          <div className="z-10 flex-shrink-0 scale-75 sm:scale-100 origin-center">
+            <MascotAlp
+              mood="proud"
+              speech="Esen olsun alpım! Yolculukta her tamga yeni bir fetihtir."
+              size={135}
             />
           </div>
 
           {/* Subtle Runic Ambient Background */}
-          <div className="absolute right-2 top-0 bottom-0 pointer-events-none opacity-5 flex items-center justify-center select-none runic text-9xl text-white font-bold">
+          {/* Telefonda gizli: dar ekranda tamgalar düğmelerin arkasından
+              geçip yarım kalmış bir çizim gibi görünüyordu. */}
+          <div className="absolute right-2 top-0 bottom-0 pointer-events-none opacity-5 hidden sm:flex items-center justify-center select-none runic text-9xl text-white font-bold">
             𐱅𐰇𐰼𐰜
           </div>
         </div>
@@ -306,8 +310,11 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                         </button>
 
                         {/* Lesson Title Label Below Node */}
-                        <div className="mt-2 text-center max-w-[140px]">
-                          <p className={`text-xs font-bold leading-tight truncate ${
+                        {/* truncate yerine iki satır: ders adları tek
+                            satıra sığmıyordu ve "I/İ, O/U ve Ö/Ü Tamgal…"
+                            gibi kırpılıp bilgi kaybediyordu. */}
+                        <div className="mt-2 text-center w-[150px]">
+                          <p className={`text-xs font-bold leading-tight line-clamp-2 ${
                             isCurrentActive ? 'text-uyari' : isCompleted ? 'text-white' : 'text-[#64748B]'
                           }`}>
                             {lesson.title}

@@ -47,13 +47,13 @@ export const AlistirmaView: React.FC<AlistirmaViewProps> = ({
         </div>
 
         {/* Ambient Runic Watermark */}
-        <div className="absolute right-4 top-1/2 -translate-y-1/2 text-8xl text-white/5 font-bold pointer-events-none select-none runic">
+        <div className="absolute right-4 top-1/2 -translate-y-1/2 text-8xl text-white/5 font-bold pointer-events-none select-none runic hidden sm:block">
           𐰇𐰏
         </div>
       </div>
 
       {/* Segmented Sub-Tab Switcher */}
-      <div className="flex items-center justify-start sm:justify-center overflow-x-auto gap-2 p-1.5 bg-[#091C21] border border-[#193F48] rounded-2xl">
+      <div className="kaydirma-ipucu flex items-center justify-start sm:justify-center overflow-x-auto gap-2 p-1.5 bg-[#091C21] border border-[#193F48] rounded-2xl">
         <button
           onClick={() => setActiveSubTab('cizim')}
           className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${

@@ -215,8 +215,10 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
       </div>
 
       {/* Atmospheric Speech Bubble */}
+      {/* Telefonda gizli: giriş bölümünü bir ekran boyu uzatıyor ve
+          öğrenme yolu kıvrımın altında kalıyordu. Geniş ekranda kalır. */}
       {speech && (
-        <div className="relative max-w-xs sm:max-w-sm px-4 py-3 rounded-2xl bg-[#0D242B] border border-derin shadow-lg text-left">
+        <div className="relative hidden sm:block max-w-xs sm:max-w-sm px-4 py-3 rounded-2xl bg-[#0D242B] border border-derin shadow-lg text-left">
           {/* Arrow pointing to mascot */}
           <div className="hidden sm:block absolute -left-2 top-1/2 -translate-y-1/2 w-0 h-0 border-t-[7px] border-t-transparent border-r-[8px] border-r-derin border-b-[7px] border-b-transparent" />
           <div className="hidden sm:block absolute -left-1.5 top-1/2 -translate-y-1/2 w-0 h-0 border-t-[6px] border-t-transparent border-r-[7px] border-r-[#0D242B] border-b-[6px] border-b-transparent" />

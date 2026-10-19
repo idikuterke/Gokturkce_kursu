@@ -144,7 +144,7 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
       </div>
 
       {/* Category Filter Chips */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2">
+      <div className="kaydirma-ipucu flex items-center gap-2 overflow-x-auto pb-2">
         {[
           { id: 'all', label: 'Tüm Kelimeler' },
           { id: 'devlet', label: 'Devlet & Töre' },

@@ -245,3 +245,31 @@ body {
   animation: gentlePulse 2.4s ease-in-out infinite;
 }
 
+
+/*
+ * Yatay kaydırma ipucu.
+ *
+ * Sekme şeritleri ekrana sığmayınca son sekme kenardan kesiliyor ve
+ * "bozuk" görünüyordu; kaydırılabildiği anlaşılmıyordu. Sağ kenara
+ * yumuşak bir solma koyunca içeriğin devam ettiği görülüyor.
+ * Kaydırma sona erince solma kalkar (animation-timeline destekliyse);
+ * desteklemeyen tarayıcıda sabit solma kalır, bir şey bozulmaz.
+ */
+.kaydirma-ipucu {
+  -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 2.5rem), transparent 100%);
+  mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 2.5rem), transparent 100%);
+}
+
+/* Şerit zaten tamamen sığıyorsa solmaya gerek yok. */
+@supports (animation-timeline: scroll()) {
+  .kaydirma-ipucu {
+    animation: kaydirmaSolmasi linear;
+    animation-timeline: scroll(self inline);
+  }
+  @keyframes kaydirmaSolmasi {
+    to {
+      -webkit-mask-image: linear-gradient(to right, transparent 0, #000 2.5rem, #000 100%);
+      mask-image: linear-gradient(to right, transparent 0, #000 2.5rem, #000 100%);
+    }
+  }
+}

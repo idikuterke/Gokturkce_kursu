@@ -61,7 +61,7 @@ export const KitabelerReader: React.FC = () => {
       </div>
 
       {/* Monument Tabs */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2">
+      <div className="kaydirma-ipucu flex items-center gap-2 overflow-x-auto pb-2">
         {[
           { id: 'all', label: 'Tüm Yazıtlar' },
           { id: 'KT', label: 'Kül Tigin Yazıtı (732)' },

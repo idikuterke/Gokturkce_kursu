@@ -170,7 +170,7 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
       </div>
 
       {/* Filter Tabs */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-1">
+      <div className="kaydirma-ipucu flex items-center gap-2 overflow-x-auto pb-1">
         {[
           { id: 'all', label: `Tümü (${TAMGALAR.length})` },
           { id: 'unluler', label: 'Ünlüler (4)' },
