@@ -59,7 +59,8 @@ Talat Tekin Gramerine Göre Harf Rehberi:
 * r (ince/ön): 𐰼
 * o / u: 𐰆
 * t (kalın/art): 𐱃 ('otuz' kelimesi kalın ünlülü olduğu için bu karakter seçilir)
-* z: 𐰯
+* z: 𐰔  (DÜZELTME 19.10.2026 — bu satırda önce 𐰯 yazıyordu; 𐰯 p sesidir.
+  z = 𐰔 U+10C14. Dayanak: KT-G-1 "otuz" = 𐰆𐱃𐰔, ayrıca src/data/tamgalarData.ts.)
 
 Görev: "bir otuz" (21) ifadesini aşağıdaki kutucuklara, her kutuya bir harf gelecek şekilde sağdan sola doğru yazınız.
 
@@ -85,7 +86,7 @@ Alıştırma 1 Cevapları:
 Alıştırma 2 Cevapları (Runik Analiz):
 
 * bir: 𐰼𐰃𐰋 (Sağdan sola: b-i-r. Not: 'bir' kelimesi ön ünlülü olduğu için ince 'b' 𐰋 ve ince 'r' 𐰼 kullanılmıştır.)
-* otuz: 𐰯𐱃𐰆 (Sağdan sola: o-t-u-z. Not: Yazıtlarda 'otuz' kelimesindeki ilk /o/ ve /u/ sesleri 𐰆 karakteriyle gösterilir, 't' ise kalın/art karakterli 𐱃 ile yazılır.)
-* bir otuz (21): 𐰯𐱃𐰆 𐰼𐰃𐰋
+* otuz: 𐰔𐱃𐰆 (Sağdan sola: o-t-u-z. Not: Yazıtlarda 'otuz' kelimesindeki ilk /o/ ve /u/ sesleri 𐰆 karakteriyle gösterilir, 't' ise kalın/art karakterli 𐱃 ile yazılır.)
+* bir otuz (21): 𐰔𐱃𐰆 𐰼𐰃𐰋
 
 Yazar Notu: Göktürkçenin sayı sistemindeki bu ileriye dönük mantık, Türklerin o dönemdeki zaman algısını ve matematiksel estetiğini yansıtır. Yazımda "ince/ön" ve "kalın/art" uyumuna dikkat ederek bu zorlu alfabeyi başarıyla uyguladınız. Tebrikler!

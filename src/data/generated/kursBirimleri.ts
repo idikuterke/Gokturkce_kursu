@@ -14,7 +14,23 @@ interface KursBirimi {
   hizalama: string;
   /** Kitabın okuyuşu ile korpus transkripsiyonunun ayrıldığı sözcükler. */
   okuyusFarklari?: { kitap?: string; korpus?: string; not?: string }[];
+  /**
+   * Belgedeki pasaj yazıtta ardışık olmadığı için birim korpustaki
+   * dize(ler)den kuruldu; okunuşu Tekin'in basılı okuyuşu değil, korpus
+   * çevriyazısıdır (ayrı yazım geleneği).
+   */
+  korpustanKuruldu?: { sebep: string; not: string };
 }
+
+/**
+ * Okunuşun hangi yazım geleneğinde olduğu. Tekin'in basılı okuyuşu
+ * ("üze kök teŋri asra") ile korpus çevriyazısı ("TeŊRİ : TeG :") gözle
+ * ayırt ediliyor; ikisi aynı soruda şık olursa öğrenen tamgalara hiç
+ * bakmadan tek farklı olanı eler. Çeldiriciler bu yüzden aynı gelenekten
+ * seçilir.
+ */
+const yazimGelenegi = (b: KursBirimi): string =>
+  b.korpustanKuruldu ? 'korpus' : 'kitap';
 
 /**
  * DERECELİ KURS BİRİMLERİ — öğrenme yolunun SONU.
@@ -87,7 +103,9 @@ function bozarakUret(b: KursBirimi, havuz: KursBirimi[]): string[] {
   const baskaSozcukler = [
     ...new Set(
       havuz
-        .filter((x) => x.id !== b.id)
+        // Yazım geleneği karışmasın: korpus çevriyazısı bir pasaja Tekin
+        // okuyuşundan sözcük sokulursa şık yine gözle ayırt edilir.
+        .filter((x) => x.id !== b.id && yazimGelenegi(x) === yazimGelenegi(b))
         .flatMap((x) => x.okunus.split(/\s+/))
         .filter((w) => w.length > 2 && !kendi.includes(w))
     ),
@@ -117,6 +135,7 @@ function okunusSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null {
         (x) =>
           x.id !== b.id &&
           x.okunus !== b.okunus &&
+          yazimGelenegi(x) === yazimGelenegi(b) &&
           Math.abs(x.kelimeSayisi - b.kelimeSayisi) <= tolerans
       )
       .map((x) => x.okunus);

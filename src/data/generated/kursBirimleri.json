@@ -722,6 +722,75 @@
           "korpus": "sülipen"
         }
       ]
+    },
+    {
+      "id": "BK-P-2",
+      "kademe": "paragraf",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-D-5"
+      ],
+      "kelimeSayisi": 40,
+      "runik": "𐰖𐰆𐰍𐰲𐰃 : 𐰾𐰃𐰍𐱃𐰲𐰃 : 𐰇𐰭𐰼𐰃 : 𐰜𐰇𐰤 : 𐱃𐰆𐰍𐰽𐰴𐰑𐰃 : 𐰋𐰇𐰚𐰠𐰃 : 𐰲𐰇𐰠𐰏𐰠 : 𐱃𐰉𐰍𐰲 : 𐱅𐰇𐰯𐰇𐱅 : 𐰯𐰺 : 𐰯𐰆𐰺𐰢 : 𐰶𐰃𐰺𐰴𐰔 : 𐰇𐰲𐰸𐰆𐰺𐰃𐰴𐰣 : 𐰆𐱃𐰔𐱃𐱃𐰺 : 𐰶𐰃𐱃𐰪 : 𐱃𐱃𐰉𐰃 : 𐰉𐰆𐰨𐰀 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐰯𐰤 : 𐰽𐰃𐰍𐱃𐰀𐰢𐰾 : 𐰖𐰆𐰍𐰞𐰀𐰢𐰾 : 𐰦𐰍 : 𐰚𐰇𐰠𐰏 : 𐰴𐰍𐰣 : 𐰼𐰢𐰾 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰆𐰍𐰞𐰃𐱃𐰃 : 𐰴𐰍𐰣 : 𐰉𐰆𐰞𐰢𐰾 : 𐰼𐰨 : 𐰦𐰀 : 𐰚𐰃𐰾𐰼𐰀 : 𐰃𐰤𐰃𐰾𐰃 : 𐰲𐰃𐰾𐰃𐰤 : 𐱅𐰏 :",
+      "okunus": "YUGÇI SIGıTÇI ÖŊRE KÜN TOGSıKDA BÖKLİ ÇÖLüGiL TaBGaÇ TÜPÜT aPaR PURuM KIRKıZ ÜÇKURIKaN OTuZTaTaR KITaYN TaTaBI BUNÇA BODuN KeLİPeN SIGTAMıŞ YUGLAMıŞ aNTaG KÜLüG KAGaN eRMiŞ aNDA KİSRE İNİSİ KaGaN BOLMıS eRiNÇ OGLITI KaGaN BOLMıS eRiNÇ aNDA KİSRE İNİSİ eÇİSİN TeG",
+      "ceviri": "(Cenaze törenlerine) yasçı (ve) ağlayıcı (olarak) doğuda gün doğusundan Bükli Çöl halkı, Çinliler, Tibetliler, Avarlar, Bizanslılar, Kırgızlar, Üç Kurıkanlar, Otuz Tatarlar, Kıtaylar, Tatabılar.... bunca halklar gelerek ağlamışlar, yas tutmuşlar. (Onlar) onca ünlü hakanlar imiş. Ondan sonra kardeşleri hakan olmuşlar şüphesiz, oğulları hakan olmuşlar şüphesiz. Ondan (sonra kardeşleri ağabeyleri gibi)",
+      "kaynaklar": [
+        "Tekin, Orhon Yazıtları, 1998, s. 33"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "dizeden",
+      "korpustanKuruldu": {
+        "sebep": "okunuşta \"...\" var — ardışık olmayan parçalar birleştirilmiş",
+        "not": "Belgedeki kısaltılmış pasaj kullanılmadı; birim korpustaki ardışık dize(ler)den kuruldu. Okunuş ve çeviri de o dizelerden geliyor."
+      }
+    },
+    {
+      "id": "TY-P-2",
+      "kademe": "paragraf",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-G-2"
+      ],
+      "kelimeSayisi": 23,
+      "runik": "𐰚𐰇𐰼𐰏 : 𐰽𐰉𐰃 : 𐰦𐰍 : 𐱃𐰆𐰴𐰔 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐰇𐰔𐰀 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃 : 𐱅𐰃𐰼 : 𐱃𐰉𐰍𐰲𐰍𐰺𐰆 : 𐰸𐰆𐰣𐰃 : 𐰾𐰭𐰇𐰤𐰏 : 𐰃𐰑𐰢𐰾 : 𐰴𐰃𐱃𐰪𐰍𐰺𐰆 : 𐱃𐰆𐰭𐰺𐰀 : 𐰾𐰢𐰏 : 𐰃𐰑𐰢𐰾 : 𐰽𐰉 : 𐰨𐰀 : 𐰔𐰴𐰪𐰀 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 :",
+      "okunus": "KÖRüG SabI aNTaG TOKuZ OGuZ BODuN ÜZE KaGaN OLuRTI TİR TaBGaÇGaRU KONI SeŊÜNüG IDMıŞ KITaYNGaRU TOŊRA eSiMiG IDMıŞ SaB aNÇA aZKıYNA TÜRK BODuN",
+      "ceviri": "Kaçağ(ın) sözleri şöyle (idi): “Dokuz Oğuz halkı üzerine (bir) kağan tahta çıktı” diyor. “(Bu kağan) Çin'e General Ku'yu göndermiş; Kıtay'lara Tongra Eşim'i göndermiş. (Bunlarla) şöyle haber göndermiş: “Azıcık Türk (halkı?)",
+      "kaynaklar": [
+        "Tekin, Orhon Yazıtları, 1998, s. 44"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "dizeden",
+      "korpustanKuruldu": {
+        "sebep": "okunuşta \"...\" var — ardışık olmayan parçalar birleştirilmiş",
+        "not": "Belgedeki kısaltılmış pasaj kullanılmadı; birim korpustaki ardışık dize(ler)den kuruldu. Okunuş ve çeviri de o dizelerden geliyor."
+      }
+    },
+    {
+      "id": "BK-P-1",
+      "kademe": "paragraf",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-K-1"
+      ],
+      "kelimeSayisi": 40,
+      "runik": "𐱅𐰭𐰼𐰃 : 𐱅𐰏 : 𐱅𐰭𐰼𐰃𐰓𐰀 : 𐰉𐰆𐰞𐰢𐱁 : 𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐰋𐰇𐰓𐰚𐰀 : 𐰆𐰞𐰺𐱃𐰢 : 𐰽𐰉𐰢𐰣 : 𐱅𐰇𐰚𐱅𐰃 : 𐰾𐰃𐰓 : 𐰆𐰞𐰖𐰆 : 𐰃𐰤 : 𐰘𐰏𐰇𐰤𐰢 : 𐰆𐰍𐰞𐰣𐰢 : 𐰋𐰃𐰼𐰚𐰃 : 𐰆𐰍𐱁𐰢 : 𐰉𐰆𐰑𐰣𐰢 : 𐰋𐰃𐰼𐰘𐰀 : 𐱁𐰑𐰯𐰃𐱃 : 𐰋𐰏𐰠𐰼 : 𐰘𐰃𐰺𐰖𐰀 : 𐱃𐰺𐰴𐱃 : 𐰉𐰆𐰖𐰺𐰸 : 𐰋𐰏𐰠𐰼 : 𐰆𐱃𐰔 : 𐱃𐱃𐰺 : 𐱃𐰸𐰆𐰔 : 𐰆𐰍𐰔 : 𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐰉𐰆 : 𐰽𐰉𐰢𐰤 : 𐰓𐰏𐰇𐱅𐰃 : 𐰾𐰃𐰓 : 𐰴𐱃𐰍𐰑𐰃 : 𐱅𐰃𐰭𐰞𐰀 : 𐰃𐰠𐰏𐰼𐰇 : 𐰚𐰇𐰤 :",
+      "okunus": "TeŊRİ TeG TeŊRİDE BOLMuŞ TÜRÜK BİLGE KaGaN BÖDKE OLuRTıM SaBıMıN TÜKeTİ eŞİD ULaYU İN YeGÜNüM OGLaNıM BİRiKİ OGuŞuM BODuNuM BİRiYE ŞaDPIT BeGLeR YIRıYA TaRKaT BUYRUK BeGLeR OTuZ TaTaR TOKUZ OGuZ BeGLeRİ BODuNI BU SaBıMıN eDGÜTİ iŞİD KaTıGDI TIŊLA İLGeRÜ KÜN",
+      "ceviri": "(Ben), Tanrı gibi (ve) Tanrı'dan olmuş Türk Bilge Hakan, bu devirde tahta oturdum. Sözlerimi baştan sona işitin, önce (siz) erkek kardeşlerim (ve) oğullarım, birleşik boyum (ve halkım...)",
+      "kaynaklar": [
+        "Tekin, Orhon Yazıtları, 1998, s. 30"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "dizeden",
+      "korpustanKuruldu": {
+        "sebep": "pasaj ardışık değil: ilk 18 sözcük BK-K-1 ile uyuyor, \"ilgerü\" sözcüğünde yazıttan ayrılıyor — belge araya giren bölümü atlamış ama \"...\" koymamış.",
+        "not": "Belgedeki kısaltılmış pasaj kullanılmadı; birim korpustaki ardışık dize(ler)den kuruldu. Okunuş ve çeviri de o dizelerden geliyor."
+      }
     }
   ]
 }
