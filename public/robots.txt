@@ -1,0 +1,5 @@
+# Kapalı tanıtım sürümü: arama motorlarına kapalı.
+# İçerik tamamlanıp herkese açıldığında bu dosya silinecek
+# ve index.html'deki noindex etiketi kaldırılacak.
+User-agent: *
+Disallow: /

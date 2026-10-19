@@ -25,7 +25,10 @@
     "cumlecik:ayir": "node engine/cumlecik-ayir.mjs",
     "ceviri:liste": "node engine/ceviri-istek-listesi.mjs",
     "icerik:uret": "node engine/icerik-uret.mjs",
-    "icerik:kontrol": "node engine/icerik-uret.mjs && git diff --exit-code --stat src/data/generated"
+    "icerik:kontrol": "node engine/icerik-uret.mjs && git diff --exit-code --stat src/data/generated",
+    "demo:derle": "vite build",
+    "demo:yayinla": "npm run demo:derle && firebase hosting:channel:deploy demo --expires 30d",
+    "demo:canli": "npm run demo:derle && firebase deploy --only hosting"
   },
   "dependencies": {
     "ajv": "^8.20.0",
