@@ -168,6 +168,12 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
         const oneri = k.oneri as
           | { meaning: string; source: string; eslesme: string; eser?: string; yazimFarki?: string }
           | undefined;
+        // engine/sozluk-belirsizlik.mjs: biçim hem başsözcük hem bir başka
+        // sözcüğün çekimli hâli olabiliyorsa öteki okumaları da gösterir.
+        // Karar bağlamdan verilir; betik hangisinin doğru olduğunu söylemez.
+        const belirsizlik = k.belirsizlik as
+          | { digerOkumalar: { cozumleme: string; anlam: string }[] }
+          | undefined;
         return {
           id: String(k.transcription),
           baslik: String(k.transcription),
@@ -179,6 +185,7 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
             `${k.frequency}× geçiyor`,
             ...(oneri ? [`${oneri.eser ?? "Kitap"} önerisi · ${oneri.eslesme}`] : []),
             ...(oneri?.yazimFarki ? [`yazım farkı: ${oneri.yazimFarki}`] : []),
+            ...(belirsizlik ? ["birden çok okuma"] : []),
           ],
           uyarilar: oneri
             ? [
@@ -196,8 +203,24 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
                         `gerçekten bu sözcük olduğunu doğrula.`,
                     ]
                   : []),
+                ...(belirsizlik
+                  ? [
+                      `DİKKAT: bu biçimin başka okuması da var — ` +
+                        belirsizlik.digerOkumalar
+                          .map((o) => `${o.cozumleme} → ${o.anlam}`)
+                          .join(" · ") +
+                        `. Hangisi olduğuna tanık cümlesine bakarak karar ver.`,
+                    ]
+                  : []),
               ]
-            : [],
+            : belirsizlik
+              ? [
+                  `Bu biçimin birden çok okuması var: ` +
+                    belirsizlik.digerOkumalar
+                      .map((o) => `${o.cozumleme} → ${o.anlam}`)
+                      .join(" · "),
+                ]
+              : [],
           ...(oneri
             ? { onDolgu: { metin: oneri.meaning, kaynak: oneri.source } }
             : {}),

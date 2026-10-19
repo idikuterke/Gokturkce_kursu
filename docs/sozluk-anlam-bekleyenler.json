@@ -14,6 +14,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "dermek, toplamak; bk. teril-",
+        "kaynak": "Tekin 2003, s. 254"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ti- + -r",
+          "anlam": "demek, söylemek"
+        }
+      ]
     }
   },
   {
@@ -153,6 +166,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "güneş, gündüz, gün",
+        "kaynak": "Tekin 2003, s. 249"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "kü + -n",
+          "anlam": "haber; ün, şöhret (KT D 12, KÇ 12, vb.)"
+        }
+      ]
     }
   },
   {
@@ -238,6 +264,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "erişilebilir (KT G 13, 13)",
+        "kaynak": "Tekin 2003, s. 244"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "är + -ig",
+          "anlam": "erkek, yiğit, asker, er"
+        }
+      ]
     }
   },
   {
@@ -348,6 +387,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "gece, karanlık",
+        "kaynak": "Tekin 2003, s. 256"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "tü + -n",
+          "anlam": "tüy (IB 3)"
+        }
+      ]
     }
   },
   {
@@ -406,6 +458,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "hükümdar",
+        "kaynak": "Tekin 2003, s. 244"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "il + -ig",
+          "anlam": "devlet, ülke (bk. el)"
+        }
+      ]
     }
   },
   {
@@ -457,6 +522,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "ulu, büyük; yaşlı",
+        "kaynak": "Tekin 2003, s. 256"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ulu + -g",
+          "anlam": "ejderha (< Çin. *lung*) (Tar. B 2); bk. lü"
+        }
+      ]
     }
   },
   {
@@ -589,6 +667,23 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "yedi; bk. yeti",
+        "kaynak": "Tekin 2003, s. 260"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "yit- + -i",
+          "anlam": "kaybolmak"
+        },
+        {
+          "cozumleme": "yi- + -ti",
+          "anlam": "yemek; bk. ye-"
+        }
+      ]
     }
   },
   {
@@ -678,6 +773,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "öte, ötesinde",
+        "kaynak": "Tekin 2003, s. 246"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "käç- + -e",
+          "anlam": "geçmek"
+        }
+      ]
     }
   },
   {
@@ -700,6 +808,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "hiç, asla; bk. edi",
+        "kaynak": "Tekin 2003, s. 244"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "id- + -i",
+          "anlam": "göndermek (O 2); bk. ıd-, yıd-, ıt-"
+        }
+      ]
     }
   },
   {
@@ -783,6 +904,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "yine, tekrar",
+        "kaynak": "Tekin 2003, s. 258"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "yan- + -a",
+          "anlam": "dönmek, geri dönmek"
+        }
+      ]
     }
   },
   {
@@ -803,6 +937,23 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "yeğen, kardeş oğlu (KT G 13, vb.)",
+        "kaynak": "Tekin 2003, s. 239"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "at- + -ı",
+          "anlam": "(ok) atmak; avlanmak (Altınköl I 4)"
+        },
+        {
+          "cozumleme": "āt + -ı",
+          "anlam": "ad, unvan, şöhret"
+        }
+      ]
     }
   },
   {
@@ -823,6 +974,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "altı",
+        "kaynak": "Tekin 2003, s. 237"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "al- + -tı",
+          "anlam": "almak, yakalamak, işgal etmek (BK D 24, vb.)"
+        }
+      ]
     }
   },
   {
@@ -946,6 +1110,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "her",
+        "kaynak": "Tekin 2003, s. 252"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "say + -u",
+          "anlam": "çakıl, çakıl taşı (Hem.-Çır. 5)"
+        }
+      ]
     }
   },
   {
@@ -963,6 +1140,19 @@
       "eser": "Tekin 1998",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "kendisi, kendileri",
+        "kaynak": "Tekin 1998, Sözlük (s. 97-116)"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "öz + -i",
+          "anlam": "vadi"
+        }
+      ]
     }
   },
   {
@@ -983,6 +1173,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "kez, kere, defa",
+        "kaynak": "Tekin 2003, s. 260"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "yol + -ı",
+          "anlam": "yol, usül, kural"
+        }
+      ]
     }
   },
   {
@@ -1001,6 +1204,19 @@
       "eslesme": "tam",
       "yazimFarki": "ö~ü/o~u",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "genç (hayvan) (Altınköl I 4)",
+        "kaynak": "Tekin 2003, s. 250"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "uç- + -a",
+          "anlam": "uçmak; (bu dünyadan) göçüp gitmek, ölmek"
+        }
+      ]
     }
   },
   {
@@ -1328,6 +1544,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "prens, kağan oğlu",
+        "kaynak": "Tekin 2003, s. 254"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ti + -gin",
+          "anlam": "sürekli olarak, uzun süre (BK G 15)"
+        }
+      ]
     }
   },
   {
@@ -1595,6 +1824,23 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "ipek kumaş, kıymetli hediye",
+        "kaynak": "Tekin 2003, s. 237"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ag + -ı",
+          "anlam": "bacak arası (Hem.-Çır. 9)"
+        },
+        {
+          "cozumleme": "ag- + -ı",
+          "anlam": "yükselmek, tırmanmak (BK D 37)"
+        }
+      ]
     }
   },
   {
@@ -1612,6 +1858,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "aşağıda, altta (KT D 1, vb.)",
+        "kaynak": "Tekin 2003, s. 238"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "as + -ra",
+          "anlam": "cariye, kadın köle (Hem.-Çır. 2); yuk. bk."
+        }
+      ]
     }
   },
   {
@@ -1633,6 +1892,19 @@
       "eslesme": "tam",
       "yazimFarki": "ünlü",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "iki; bk. eki, iki",
+        "kaynak": "Tekin 2003, s. 243"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "iki + -n",
+          "anlam": "iki; bk. eki, ekin"
+        }
+      ]
     }
   },
   {
@@ -1650,6 +1922,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "öyle, şöyle; o kadar, onca (bk. andag, antäg)",
+        "kaynak": "Tekin 2003, s. 238"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "anta + -g",
+          "anlam": "orada (/ol/ zamirinin bulunma-çıkma durumu)"
+        }
+      ]
     }
   },
   {
@@ -1670,6 +1955,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "hani, nerede",
+        "kaynak": "Tekin 2003, s. 246"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "kan + -ı",
+          "anlam": "kan"
+        }
+      ]
     }
   },
   {
@@ -1691,6 +1989,23 @@
       "eslesme": "tam",
       "yazimFarki": "ünlü",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "adamlar",
+        "kaynak": "Tekin 2003, s. 243"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "är + -in",
+          "anlam": "erkek, yiğit, asker, er"
+        },
+        {
+          "cozumleme": "är- + -in",
+          "anlam": "ermek, erişmek, varmak"
+        }
+      ]
     }
   },
   {
@@ -1711,6 +2026,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "ötesinde (KT D 17, BK D 15)",
+        "kaynak": "Tekin 2003, s. 238"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "aş- + -a",
+          "anlam": "aşmak (T 26, vb.)"
+        }
+      ]
     }
   },
   {
@@ -1749,6 +2077,23 @@
       "eslesme": "tam",
       "yazimFarki": "ünlü",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "(?) etnik ad (Çin kaynaklarındaki A-tie etnik adı mı?) (O 5, 6, 10)",
+        "kaynak": "Tekin 2003, s. 239"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "atı + -g",
+          "anlam": "yeğen, kardeş oğlu (KT G 13, vb.)"
+        },
+        {
+          "cozumleme": "āt + -ıg",
+          "anlam": "ad, unvan, şöhret"
+        }
+      ]
     }
   },
   {
@@ -1986,6 +2331,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "bilgi, akıl, zeka",
+        "kaynak": "Tekin 2003, s. 240"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "bil + -ig",
+          "anlam": "bel (IB 37); bk. bel"
+        }
+      ]
     }
   },
   {
@@ -2016,6 +2374,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "bunu",
+        "kaynak": "Tekin 2003, s. 242"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "bu + -nı",
+          "anlam": "bu"
+        }
+      ]
     }
   },
   {
@@ -2060,6 +2431,19 @@
       "eser": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "atalarım",
+        "kaynak": "Ata 2011 (Söz Yapımı/Çözümlemeler)"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "apa + -m",
+          "anlam": "abla (Barık II 4); yuk. bk."
+        }
+      ]
     }
   },
   {
@@ -2080,6 +2464,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "erkek (çocuk), oğul; genç",
+        "kaynak": "Tekin 2003, s. 256"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ur- + -ı",
+          "anlam": "vurmak, dövmek; taş üzerine yazmak, hâkketmek; yerleştirmek koymak"
+        }
+      ]
     }
   },
   {
@@ -2097,6 +2494,27 @@
       "eser": "Ata 2011 (Söz Yapımı/Çözümlemeler)",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "adını",
+        "kaynak": "Ata 2011 (Söz Yapımı/Çözümlemeler)"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "atı + -n",
+          "anlam": "yeğen, kardeş oğlu (KT G 13, vb.)"
+        },
+        {
+          "cozumleme": "at- + -ın",
+          "anlam": "(ok) atmak; avlanmak (Altınköl I 4)"
+        },
+        {
+          "cozumleme": "āt + -ın",
+          "anlam": "ad, unvan, şöhret"
+        }
+      ]
     }
   },
   {
@@ -2114,6 +2532,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "dışarı, dışarıya",
+        "kaynak": "Tekin 2003, s. 253"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "taş + -ra",
+          "anlam": "dış"
+        }
+      ]
     }
   },
   {
@@ -2234,6 +2665,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "önde, doğuda",
+        "kaynak": "Tekin 2003, s. 251"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "Öŋ + -re",
+          "anlam": "meskun olmayan, ıssız yer (IB 17)"
+        }
+      ]
     }
   },
   {
@@ -2285,6 +2729,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "içteki, içindeki; özel, saraya mensup; bk. içiräki",
+        "kaynak": "Tekin 2003, s. 244"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "içrä + -ki",
+          "anlam": "içinde"
+        }
+      ]
     }
   },
   {
@@ -2302,6 +2759,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "bk. buŋsız",
+        "kaynak": "Tekin 2003, s. 242"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "buŋ + -suz",
+          "anlam": "ihtiyaç, yokluk; dert, sıkıntı"
+        }
+      ]
     }
   },
   {
@@ -2958,6 +3428,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "acıkacak olma (KT G 8, 8; BK K 6)",
+        "kaynak": "Tekin 2003, s. 237"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "aç- + -sık",
+          "anlam": "acıkmak, aç olmak (BK K 6)"
+        }
+      ]
     }
   },
   {
@@ -2980,6 +3463,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "anıt, türbe, bark",
+        "kaynak": "Tekin 2003, s. 239"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "bar + -k",
+          "anlam": "var, mevcut"
+        }
+      ]
     }
   },
   {
@@ -3022,6 +3518,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "arasında (KT D 1, vb.)",
+        "kaynak": "Tekin 2003, s. 238"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ar- + -a",
+          "anlam": "yorulmak, yorgun düşmek (IB 17)"
+        }
+      ]
     }
   },
   {
@@ -3043,6 +3552,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "elli (50)",
+        "kaynak": "Tekin 2003, s. 243"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "el + -ig",
+          "anlam": "devlet, ülke, halk (bk. il)"
+        }
+      ]
     }
   },
   {
@@ -3123,6 +3645,19 @@
       "eslesme": "tam",
       "yazimFarki": "ö~ü/o~u",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "askeri vali (< Çin. *Tuo-tuok*)",
+        "kaynak": "Tekin 2003, s. 255"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "tu- + -tuk",
+          "anlam": "kapanmak"
+        }
+      ]
     }
   },
   {
@@ -3164,6 +3699,23 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "fazla, sayıca çok, kalabalık (KT D 33, T 20, 40, vb.)",
+        "kaynak": "Tekin 2003, s. 238"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ārt + -uk",
+          "anlam": "ard, arka; son (Hem.-Çır. 10, Altınköl I 7); bk. ārt"
+        },
+        {
+          "cozumleme": "ar- + -tuk",
+          "anlam": "yorulmak, yorgun düşmek (IB 17)"
+        }
+      ]
     }
   },
   {
@@ -3184,6 +3736,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "yüksek bir unvan; bk. Ulug İrkin, Sir İrkin",
+        "kaynak": "Tekin 2003, s. 245"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ir + -kin",
+          "anlam": "kuzey (bk. yır)"
+        }
+      ]
     }
   },
   {
@@ -3309,6 +3874,23 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "birinci",
+        "kaynak": "Tekin 2003, s. 244"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ilk + -i",
+          "anlam": "ilk, önce"
+        },
+        {
+          "cozumleme": "il + -ki",
+          "anlam": "devlet, ülke (bk. el)"
+        }
+      ]
     }
   },
   {
@@ -3351,6 +3933,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "kızıl",
+        "kaynak": "Tekin 2003, s. 247"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "kız- + -ıl",
+          "anlam": "kızmak, öfkelenmek (T 40)"
+        }
+      ]
     }
   },
   {
@@ -3631,6 +4226,23 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "akrabalık adı (Ozn. 1)",
+        "kaynak": "Tekin 2003, s. 255"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "törü + -n",
+          "anlam": "sözlü yasa, töre; tören, * merasim törü-, töri- yaratılmak"
+        },
+        {
+          "cozumleme": "törü- + -n",
+          "anlam": "yaratılmak"
+        }
+      ]
     }
   },
   {
@@ -3651,6 +4263,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "güçlü, kuvvetli, muktedir",
+        "kaynak": "Tekin 2003, s. 243"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "ärkli + -g",
+          "anlam": "olan; iken"
+        }
+      ]
     }
   },
   {
@@ -3738,6 +4363,19 @@
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
+    },
+    "belirsizlik": {
+      "neden": "biçim hem başsözcük hem çekimli hâl olabilir",
+      "secilen": {
+        "anlam": "eksiksiz",
+        "kaynak": "Tekin 2003, s. 245"
+      },
+      "digerOkumalar": [
+        {
+          "cozumleme": "kalı + -sız",
+          "anlam": "kalıntı, artık"
+        }
+      ]
     }
   },
   {
