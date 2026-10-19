@@ -62,7 +62,12 @@ const runikOlcek = (metin: string): string => {
   if (n <= 20) return 'text-4xl sm:text-5xl';
   if (n <= 32) return 'text-3xl sm:text-4xl';
   if (n <= 48) return 'text-2xl sm:text-3xl';
-  return 'text-xl sm:text-2xl';
+  // Yazıt paragrafları 350 tamgaya kadar çıkıyor; tek boyda bırakınca
+  // kutuya sığmayıp kaydırma gerektiriyordu. Tamgalar sade çizgili
+  // olduğu için küçük puntoda da okunur.
+  if (n <= 90) return 'text-xl sm:text-2xl';
+  if (n <= 180) return 'text-lg sm:text-xl';
+  return 'text-base sm:text-lg';
 };
 
 export const LessonModal: React.FC<LessonModalProps> = ({
@@ -389,14 +394,18 @@ export const LessonModal: React.FC<LessonModalProps> = ({
         {currentExercise.runePrompt && (
           <div 
             onClick={() => handleSpeak(currentExercise.runePrompt!)}
-            className="group my-4 p-5 sm:p-8 bg-zemin-2 border-2 border-zemin-4 hover:border-marka rounded-3xl flex flex-col items-center justify-center text-marka shadow-inner cursor-pointer transition-all active:scale-[0.99] max-h-[42vh] overflow-y-auto"
+            className="group my-4 p-5 sm:p-8 bg-zemin-2 border-2 border-zemin-4 hover:border-marka rounded-3xl flex flex-col items-center justify-center text-marka shadow-inner cursor-pointer transition-all active:scale-[0.99]"
             title="Telaffuzu dinlemek için tıkla"
           >
-            <span className={`runic ${runikOlcek(currentExercise.runePrompt)} leading-snug break-words text-center w-full min-w-0 transition-all drop-shadow-[0_4px_12px_rgba(43,196,196,0.3)] ${
-              speakingText === currentExercise.runePrompt ? 'scale-110 text-amber-400 drop-shadow-[0_0_20px_rgba(251,191,36,0.5)]' : 'group-hover:scale-105'
-            }`}>
-              {currentExercise.runePrompt}
-            </span>
+            {/* Kaydırma yalnız tamga alanında: "Telaffuzunu Dinle" uzun
+                paragraflarda görünür kalsın diye kutunun dışında. */}
+            <div className="w-full max-h-[40vh] overflow-y-auto">
+              <span className={`runic ${runikOlcek(currentExercise.runePrompt)} leading-snug break-words text-center block w-full min-w-0 transition-all drop-shadow-[0_4px_12px_rgba(43,196,196,0.3)] ${
+                speakingText === currentExercise.runePrompt ? 'scale-110 text-amber-400 drop-shadow-[0_0_20px_rgba(251,191,36,0.5)]' : 'group-hover:scale-105'
+              }`}>
+                {currentExercise.runePrompt}
+              </span>
+            </div>
             <div className="mt-3 flex items-center gap-1.5 text-xs text-metin-2 group-hover:text-marka bg-zemin-3 px-3 py-1 rounded-full border border-zemin-4 transition-colors">
               <Volume2 className={`w-3.5 h-3.5 ${speakingText === currentExercise.runePrompt ? 'text-amber-400 animate-pulse' : 'text-marka'}`} />
               <span>{speakingText === currentExercise.runePrompt ? 'Okunuyor...' : 'Telaffuzunu Dinle'}</span>

@@ -41,6 +41,39 @@ const karistir = <T,>(d: T[]): T[] => {
 const atif = (b: KursBirimi): string =>
   `${b.dizeler.join(", ")} · ${b.kaynaklar[0] ?? "Tekin 1998"}`;
 
+/**
+ * Doğru okunuşu bozarak aynı uzunlukta çeldirici üretir.
+ *
+ * Uzun pasajlarda havuzda yeterli eş uzunlukta başka pasaj yok. Rastgele
+ * kısa şık koymak soruyu okumadan çözülür hâle getiriyordu; bunun yerine
+ * doğru cevabın iki sözcüğü başka yazıt sözcükleriyle değiştirilir.
+ * Şıklar aynı uzunlukta olur, ayrım ancak okuyarak yapılır.
+ */
+function bozarakUret(b: KursBirimi, havuz: KursBirimi[]): string[] {
+  const kendi = b.okunus.split(/\s+/);
+  const baskaSozcukler = [
+    ...new Set(
+      havuz
+        .filter((x) => x.id !== b.id)
+        .flatMap((x) => x.okunus.split(/\s+/))
+        .filter((w) => w.length > 2 && !kendi.includes(w))
+    ),
+  ];
+  if (baskaSozcukler.length < 2 || kendi.length < 4) return [];
+  const uretilen = new Set<string>();
+  for (let deneme = 0; deneme < 40 && uretilen.size < 3; deneme++) {
+    const kopya = [...kendi];
+    const kacTane = 2;
+    for (let n = 0; n < kacTane; n++) {
+      const yer = Math.floor(Math.random() * kopya.length);
+      kopya[yer] = baskaSozcukler[Math.floor(Math.random() * baskaSozcukler.length)];
+    }
+    const metin = kopya.join(" ");
+    if (metin !== b.okunus) uretilen.add(metin);
+  }
+  return [...uretilen];
+}
+
 /** Okunuş sorusu: tamgalar verilir, doğru okunuş seçilir. */
 function okunusSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null {
   // Çeldiriciler aynı kademeden ve yakın uzunluktan: uzunluğa bakarak
@@ -55,9 +88,13 @@ function okunusSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null {
       )
       .map((x) => x.okunus);
   // Paragraf az sayıda; dar tolerans üç çeldirici bulamıyor ve soru hiç
-  // üretilmiyordu. Dar başla, yetmezse genişlet.
+  // üretilmiyordu. Dar başla, yetmezse biraz genişlet.
   let secenekler = [...new Set(uygun(Math.max(2, b.kelimeSayisi * 0.4)))];
-  if (secenekler.length < 3) secenekler = [...new Set(uygun(b.kelimeSayisi))];
+  // Havuzda eş uzunlukta pasaj yoksa havuzu GENİŞLETME: doğru cevabı
+  // bozarak aynı uzunlukta çeldirici üret. 20 sözcüklük bir pasajın
+  // yanına 4 sözcüklük şık koymak soruyu okumadan çözdürüyordu — uzun
+  // olan hep doğru oluyordu.
+  if (secenekler.length < 3) secenekler = bozarakUret(b, havuz);
   if (secenekler.length < 3) secenekler = [...new Set(uygun(Infinity))];
   if (secenekler.length < 3) return null;
   return {
@@ -84,7 +121,9 @@ function eksikSozcukSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null 
   // Baştaki ve sondaki sözcük çıkarılmaz: bağlam kalsın.
   const yer = 1 + Math.floor(Math.random() * (sozcukler.length - 2));
   const dogru = sozcukler[yer];
-  const bosluklu = sozcukler.map((s, i) => (i === yer ? '␣' : s)).join(' : ');
+  // Boşluk işareti olarak □ : ␣ (U+2423) çoğu yedek yazı tipinde yok,
+  // kutucuk yerine tofu çıkıyordu.
+  const bosluklu = sozcukler.map((s, i) => (i === yer ? '□' : s)).join(' : ');
 
   const digerleri = [
     ...new Set(
