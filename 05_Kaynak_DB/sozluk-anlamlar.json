@@ -75,9 +75,9 @@
     "id": "tengri",
     "transkripsiyon": "teŋri",
     "runik": "𐱅𐰭𐰼𐰃",
-    "anlam": "gök, tanrı, ilahi düzen",
-    "kategori": "inanç / kozmoloji",
-    "kaynak": "Tekin 2003, s. 321",
+    "anlam": "gök, sema; tanrı",
+    "kategori": "ozel",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
     "bicimler": [
       {
         "runik": "𐱅𐰭𐰼𐰃",
@@ -133,15 +133,17 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "kagan",
     "transkripsiyon": "kagan",
     "runik": "𐰴𐰍𐰣",
-    "anlam": "hakan, kağan, hükümdar",
-    "kategori": "yönetim",
-    "kaynak": "Tekin 2003, s. 312",
+    "anlam": "hakan, imparator",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 244",
     "bicimler": [
       {
         "runik": "𐰴𐰍𐰣",
@@ -205,15 +207,17 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "bilge",
     "transkripsiyon": "bilge",
     "runik": "𐰋𐰃𐰠𐰏𐰀",
-    "anlam": "bilge, hakim, bilgili, akil",
-    "kategori": "unvan / kişilik",
-    "kaynak": "Tekin 2003, s. 304",
+    "anlam": "bilge, hakim, bilgili, akil - kişi adı, hakanlık adı",
+    "kategori": "ozel",
+    "kaynak": "# s. 239 — TALAT TEKİN (basılı sayfa numarası 240)",
     "bicimler": [
       {
         "runik": "𐰋𐰃𐰠𐰏𐰀",
@@ -243,7 +247,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "katun",
@@ -576,9 +582,9 @@
     "id": "su",
     "transkripsiyon": "sü",
     "runik": "𐰾𐰇",
-    "anlam": "ordu, asker, sefer kuvveti",
-    "kategori": "askeri",
-    "kaynak": "Tekin 2003, s. 319",
+    "anlam": "ordu, askeri birlikler; savaş",
+    "kategori": "savas",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
     "bicimler": [
       {
         "runik": "𐰾𐰇",
@@ -642,15 +648,17 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "yagi",
     "transkripsiyon": "yagı",
     "runik": "𐰖𐰍𐰃",
-    "anlam": "düşman, hasım",
-    "kategori": "askeri",
-    "kaynak": "Tekin 2003, s. 325",
+    "anlam": "düşman",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
     "bicimler": [
       {
         "runik": "𐰖𐰍𐰃",
@@ -711,7 +719,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "at_unvan",
@@ -945,9 +955,9 @@
     "id": "alp",
     "transkripsiyon": "alp",
     "runik": "𐰞𐰯",
-    "anlam": "cesur, yiğit, kahraman savaşçı",
-    "kategori": "askeri / kişilik",
-    "kaynak": "Tekin 2003, s. 301",
+    "anlam": "zor, güç; cesur, yiğit savaşçı",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 236",
     "bicimler": [
       {
         "runik": "𐰞𐰯",
@@ -977,7 +987,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "ay",
@@ -4043,9 +4055,9 @@
     "id": "oguz_boy",
     "transkripsiyon": "oguz",
     "runik": "𐰆𐰍𐰔",
-    "anlam": "Oğuz (boy birliği)",
-    "kategori": "toplum / boy",
-    "kaynak": "Tekin 2003, s. 315",
+    "anlam": "etnik ad, Tokuz Oguz, vb.",
+    "kategori": "devlet",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
     "bicimler": [
       {
         "runik": "𐰆𐰍𐰔",
@@ -4105,15 +4117,17 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "kirgiz",
     "transkripsiyon": "kırkız",
     "runik": "𐰶𐰃𐰺𐰴𐰔",
-    "anlam": "Kırgız (boy birliği)",
-    "kategori": "toplum / boy",
-    "kaynak": "Tekin 2003, s. 314",
+    "anlam": "etnik ad",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
     "bicimler": [
       {
         "runik": "𐰶𐰃𐰺𐰴𐰔",
@@ -4160,7 +4174,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "denetleyen": "insan",
+    "katman": "insan"
   },
   {
     "id": "turuk_sir",
@@ -4260,5 +4276,405 @@
     ],
     "korpustaYok": false,
     "teyitGerek": false
+  },
+  {
+    "id": "TÜRK",
+    "transkripsiyon": "TÜRK",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "etnik ad; bk. Türük",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+    "runik": "𐱅𐰇𐰼𐰜"
+  },
+  {
+    "id": "eRMiŞ",
+    "transkripsiyon": "eRMiŞ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "\"İmiş, İdi, Öyleymiş\" Anlamında Ek-Fiil (En Yaygın Kullanım)\n\nGöktürkçede er- fiili, bugünkü Türkiye Türkçesindeki \"i-\" (imek) ek-eyleminin (idi, imiş, ise) ilk ve orijinal halidir. Yanına geçmiş zaman eki olan -miş geldiğinde, geçmişte olan veya sonradan fark edilen durumları anlatmak için kullanılır.",
+    "kategori": "fiil",
+    "kaynak": "Ata 2011 [s. 44]",
+    "runik": "𐰼𐰢𐰾"
+  },
+  {
+    "id": "aNDA",
+    "transkripsiyon": "aNDA",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "orada,  o anda, oracıkta",
+    "kategori": "sifat",
+    "kaynak": "1- Ahmet Caferoğlu, \"Eski Uygur Türkçesi Sözlüğü\", Türk Dil Kurumu Yayınları, Sayı: 260, 1968.",
+    "runik": "𐰦𐰀"
+  },
+  {
+    "id": "aNÇA",
+    "transkripsiyon": "aNÇA",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "öyle, onca, o kadar; şöyle",
+    "kategori": "diger",
+    "kaynak": "[s. 236] # s. 236 — TALAT TEKİN (basılı sayfa numarası 237; sözlük başlangıcı)",
+    "runik": "𐰨𐰀"
+  },
+  {
+    "id": "OL",
+    "transkripsiyon": "OL",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "o, onlar; -dır",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
+    "runik": "𐰆𐰞"
+  },
+  {
+    "id": "eRTİ",
+    "transkripsiyon": "eRTİ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "idi",
+    "kategori": "fiil",
+    "kaynak": "Türk Dili Dil Bilgisi Çalışmaları (Prof. Dr. Zeynep Korkmaz): Gramer Terimleri Sözlüğü ve Türkiye Türkçesi Grameri çalışmalarında, ad soylu kelimeleri yüklemleştiren veya birleşik zamanlı fiil yapan \"ek-fiil\" (cevher fiil) konusu işlenirken er- yardımcı eyleminin Eski Türkçedeki ana formu olarak erti gösterilir",
+    "runik": "𐰼𐱅𐰃"
+  },
+  {
+    "id": "TaBGaÇ",
+    "transkripsiyon": "TaBGaÇ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "Çin, Çinli",
+    "kategori": "devlet",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+    "runik": "𐱃𐰉𐰍𐰲"
+  },
+  {
+    "id": "ÜÇÜN",
+    "transkripsiyon": "ÜÇÜN",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "için, nedeniyle, uğruna",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+    "runik": "𐰇𐰲𐰇𐰤"
+  },
+  {
+    "id": "TeGİ",
+    "transkripsiyon": "TeGİ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "-a kadar",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+    "runik": "𐱅𐰏𐰃"
+  },
+  {
+    "id": "eRiNÇ",
+    "transkripsiyon": "eRiNÇ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "şüphesiz, muhakkak ki, gerçekten",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
+    "runik": "𐰼𐰨"
+  },
+  {
+    "id": "KeLTİ",
+    "transkripsiyon": "KeLTİ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "gelmek  (kel + ti)",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
+    "runik": "𐰚𐰠𐱅𐰃"
+  },
+  {
+    "id": "BODuNuG",
+    "transkripsiyon": "BODuNuG",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "boylar, kabileler, halk  (bodun + ug)",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+    "runik": "𐰉𐰆𐰑𐰣𐰍"
+  },
+  {
+    "id": "YOK",
+    "transkripsiyon": "YOK",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "yok",
+    "kategori": "diger",
+    "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
+    "runik": "𐰖𐰸"
+  },
+  {
+    "id": "YiME",
+    "transkripsiyon": "YiME",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "ve, dahi; da/de",
+    "kategori": "sifat",
+    "kaynak": "[s. 258] # s. 258 — TALAT TEKİN (basılı sayfa numarası 259)  *(Kitap s. 259)*",
+    "runik": "𐰘𐰢𐰀"
+  },
+  {
+    "id": "BOLDI",
+    "transkripsiyon": "BOLDI",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "Oldu",
+    "kategori": "fiil",
+    "kaynak": "Tekin 2003",
+    "runik": "𐰉𐰆𐰡𐰃"
+  },
+  {
+    "id": "KÖLTİGiN",
+    "transkripsiyon": "KÖLTİGiN",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "Kültigin",
+    "kategori": "diger",
+    "kaynak": "Tekin 2003",
+    "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤"
+  },
+  {
+    "id": "TİYiN",
+    "transkripsiyon": "TİYiN",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "diye, diyerek; bk. teyin",
+    "kategori": "sifat",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
+    "runik": "𐱅𐰃𐰘𐰤"
+  },
+  {
+    "id": "BeGLeR",
+    "transkripsiyon": "BeGLeR",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "bey, lord  (beg + ler)",
+    "kategori": "devlet",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+    "runik": "𐰋𐰏𐰠𐰼"
+  },
+  {
+    "id": "SÜLeDiM",
+    "transkripsiyon": "SÜLeDiM",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "ordu sevk etmek, ordu ile sefere çıkmak  (süle + dim)",
+    "kategori": "fiil",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
+    "runik": "𐰾𐰇𐰠𐰓𐰢"
+  },
+  {
+    "id": "BİR",
+    "transkripsiyon": "BİR",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "bir; bir kez; aynı, 1",
+    "kategori": "diger",
+    "kaynak": "[s. 240] # s. 240 — ORHON TÜRKÇESİ GRAMERİ (basılı sayfa numarası 241)",
+    "runik": "𐰋𐰃𐰼"
+  },
+  {
+    "id": "ÖZüM",
+    "transkripsiyon": "ÖZüM",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "kendim",
+    "kategori": "diger",
+    "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 185",
+    "runik": "𐰇𐰔𐰢"
+  },
+  {
+    "id": "BİRLE",
+    "transkripsiyon": "BİRLE",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "ile, birlikte",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+    "runik": "𐰋𐰃𐰼𐰠𐰀"
+  },
+  {
+    "id": "ÜZE",
+    "transkripsiyon": "ÜZE",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "yukarıda, üstte; üzerine",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
+    "runik": "𐰇𐰔𐰀"
+  },
+  {
+    "id": "TaPA",
+    "transkripsiyon": "TaPA",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "-e doğru, yönünde",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
+    "runik": "𐱃𐰯𐰀"
+  },
+  {
+    "id": "TeG",
+    "transkripsiyon": "TeG",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "gibi",
+    "kategori": "sifat",
+    "kaynak": "[s. 252] # s. 252 — TALAT TEKİN (basılı sayfa numarası 253)  *(Kitap s. 253)*",
+    "runik": "𐱅𐰏"
+  },
+  {
+    "id": "BU",
+    "transkripsiyon": "BU",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "bu",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+    "runik": "𐰉𐰆"
+  },
+  {
+    "id": "aZ",
+    "transkripsiyon": "aZ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "az , etnik ad (Az'lar)",
+    "kategori": "diger",
+    "kaynak": "Tekin 2003 Ata",
+    "runik": "𐰔"
+  },
+  {
+    "id": "iKİ",
+    "transkripsiyon": "iKİ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "iki; bk. eki, ekin",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+    "runik": "𐰚𐰃"
+  },
+  {
+    "id": "KOP",
+    "transkripsiyon": "KOP",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "hep; tümüyle, tamamiyle",
+    "kategori": "diger",
+    "kaynak": "[s. 247] # s. 247 — TALAT TEKİN (basılı sayfa numarası 248)  *(Kitap s. 248)*",
+    "runik": "𐰸𐰆𐰯"
+  },
+  {
+    "id": "İLGeRÜ",
+    "transkripsiyon": "İLGeRÜ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "ileriye, ileride, doğuda",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+    "runik": "𐰃𐰠𐰏𐰼𐰇"
+  },
+  {
+    "id": "YİR",
+    "transkripsiyon": "YİR",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "yer, dünya; toprak, ülke; bk. **yer**",
+    "kategori": "diger",
+    "kaynak": "[s. 258] # s. 258 — TALAT TEKİN (basılı sayfa numarası 259)  *(Kitap s. 259)*",
+    "runik": "𐰘𐰃𐰼"
+  },
+  {
+    "id": "eRSeR",
+    "transkripsiyon": "eRSeR",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "ise",
+    "kategori": "diger",
+    "kaynak": "TEkin 2003",
+    "runik": "𐰼𐰾𐰼"
+  },
+  {
+    "id": "TÜRGiŞ",
+    "transkripsiyon": "TÜRGiŞ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "etnik ad",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
+    "runik": "𐱅𐰇𐰼𐰏𐰾"
+  },
+  {
+    "id": "BUNÇA",
+    "transkripsiyon": "BUNÇA",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "bunca, bu kadar",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
+    "runik": "𐰉𐰆𐰨𐰀"
+  },
+  {
+    "id": "BeN",
+    "transkripsiyon": "BeN",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "ben",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
+    "runik": "𐰋𐰤"
+  },
+  {
+    "id": "KILDıM",
+    "transkripsiyon": "KILDıM",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "kılmak, yapmak, etmek  (kıl + dım)",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
+    "runik": "𐰴𐰃𐰡𐰢"
+  },
+  {
+    "id": "ÖLTİ",
+    "transkripsiyon": "ÖLTİ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "öldü",
+    "kategori": "diger",
+    "kaynak": "TEkin 2003",
+    "runik": "𐰇𐰠𐱅𐰃"
+  },
+  {
+    "id": "BOLMıS",
+    "transkripsiyon": "BOLMıS",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "olmuş",
+    "kategori": "diger",
+    "kaynak": "Tekin 2003",
+    "runik": "𐰉𐰆𐰞𐰢𐰾"
+  },
+  {
+    "id": "KİŞİ",
+    "transkripsiyon": "KİŞİ",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "insan",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 247",
+    "runik": "𐰚𐰃𐰾𐰃"
+  },
+  {
+    "id": "İLİN",
+    "transkripsiyon": "İLİN",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "anlam": "yakalanmak",
+    "kategori": "diger",
+    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
+    "runik": "𐰃𐰠𐰃𐰤"
   }
 ]

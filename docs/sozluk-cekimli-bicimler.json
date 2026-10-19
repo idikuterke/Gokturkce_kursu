@@ -1,0 +1,1396 @@
+{
+  "aciklama": "Kuyruğa alınmayan biçimler: sözlükte başsözcük değil, bilinen bir kök + bilinen bir eke ayrılıyor. Kökün anlamı yeterli. Yanlış ayrılmış bir biçim görürsen söyle, kuyruğa geri alınır.",
+  "sayi": 139,
+  "bicimler": [
+    {
+      "transcription": "eRMiŞ",
+      "runic": "𐰼𐰢𐰾",
+      "frequency": 70,
+      "cozumleme": "er + miş",
+      "ekTipi": "çekim",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eRTİ",
+      "runic": "𐰼𐱅𐰃",
+      "frequency": 45,
+      "cozumleme": "er + ti",
+      "ekTipi": "çekim",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BODuNuG",
+      "runic": "𐰉𐰆𐰑𐰣𐰍",
+      "frequency": 31,
+      "cozumleme": "bodun + ug",
+      "ekTipi": "çekim",
+      "kokAnlami": "millet, halk, boylar birliği",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BODuNıG",
+      "runic": "𐰉𐰆𐰑𐰣𐰍",
+      "frequency": 24,
+      "cozumleme": "bodun + ıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "millet, halk, boylar birliği",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BeGLeR",
+      "runic": "𐰋𐰏𐰠𐰼",
+      "frequency": 24,
+      "cozumleme": "beg + ler",
+      "ekTipi": "çekim",
+      "kokAnlami": "bey, soylu lider, komutan",
+      "kaynak": "Tekin 2003, s. 240",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SÜLeDiM",
+      "runic": "𐰾𐰇𐰠𐰓𐰢",
+      "frequency": 24,
+      "cozumleme": "süle + dim",
+      "ekTipi": "çekim",
+      "kokAnlami": "sefere çıkmak, ordu sevketmek",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaŊıM",
+      "runic": "𐰴𐰭𐰢",
+      "frequency": 22,
+      "cozumleme": "kaŋ + ım",
+      "ekTipi": "çekim",
+      "kokAnlami": "baba",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNKA",
+      "runic": "𐰴𐰍𐰣𐰴𐰀",
+      "frequency": 19,
+      "cozumleme": "kagan + ka",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eRSeR",
+      "runic": "𐰼𐰾𐰼",
+      "frequency": 17,
+      "cozumleme": "er + ser",
+      "ekTipi": "yapım",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SÜSİ",
+      "runic": "𐰾𐰇𐰾𐰃",
+      "frequency": 14,
+      "cozumleme": "sü + si",
+      "ekTipi": "çekim",
+      "kokAnlami": "ordu, asker, sefer kuvveti",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TiMiŞ",
+      "runic": "𐱅𐰢𐰾",
+      "frequency": 14,
+      "cozumleme": "ti + miş",
+      "ekTipi": "çekim",
+      "kokAnlami": "sürekli olarak, uzun süre (BK G 15)",
+      "kaynak": "Tekin 2003, s. 254",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SÜŊüŞDüM",
+      "runic": "𐰾𐰇𐰭𐱁𐰓𐰢",
+      "frequency": 13,
+      "cozumleme": "süŋüş + düm",
+      "ekTipi": "çekim",
+      "kokAnlami": "savaş",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök \"süŋüş\" için SÜŊüŞDüMüZ soruldu"
+    },
+    {
+      "transcription": "eÇİM",
+      "runic": "𐰲𐰃𐰢",
+      "frequency": 13,
+      "cozumleme": "eçi + m",
+      "ekTipi": "çekim",
+      "kokAnlami": "ağabey, amca",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BeGLeRİ",
+      "runic": "𐰋𐰏𐰠𐰼𐰃",
+      "frequency": 12,
+      "cozumleme": "beg + leri",
+      "ekTipi": "çekim",
+      "kokAnlami": "bey, soylu lider, komutan",
+      "kaynak": "Tekin 2003, s. 240",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SÜLeDiMiZ",
+      "runic": "𐰾𐰇𐰠𐰓𐰢𐰔",
+      "frequency": 12,
+      "cozumleme": "süle + dimiz",
+      "ekTipi": "çekim",
+      "kokAnlami": "sefere çıkmak, ordu sevketmek",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TeGDİ",
+      "runic": "𐱅𐰏𐰓𐰃",
+      "frequency": 12,
+      "cozumleme": "teg + di",
+      "ekTipi": "çekim",
+      "kokAnlami": "gibi",
+      "kaynak": "Tekin 2003, s. 253",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BİRMiŞ",
+      "runic": "𐰋𐰃𐰼𐰢𐰾",
+      "frequency": 12,
+      "cozumleme": "bir + miş",
+      "ekTipi": "çekim",
+      "kokAnlami": "bir; bir kez; aynı",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BODuNI",
+      "runic": "𐰉𐰆𐰑𐰣𐰃",
+      "frequency": 11,
+      "cozumleme": "bodun + ı",
+      "ekTipi": "çekim",
+      "kokAnlami": "millet, halk, boylar birliği",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SÜSİN",
+      "runic": "𐰾𐰇𐰾𐰃𐰤",
+      "frequency": 11,
+      "cozumleme": "sü + si + n",
+      "ekTipi": "çekim",
+      "kokAnlami": "ordu, asker, sefer kuvveti",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "aRTUKI",
+      "runic": "𐰺𐱃𐰸𐰃",
+      "frequency": 11,
+      "cozumleme": "artuk + ı",
+      "ekTipi": "çekim",
+      "kokAnlami": "fazla, sayıca çok, kalabalık (KT D 33, T 20, 40, vb.)",
+      "kaynak": "Tekin 2003, s. 238",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BaRDI",
+      "runic": "𐰉𐰺𐰑𐰃",
+      "frequency": 11,
+      "cozumleme": "bar + dı",
+      "ekTipi": "çekim",
+      "kokAnlami": "var, mevcut",
+      "kaynak": "Tekin 2003, s. 239",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eRTiM",
+      "runic": "𐰼𐱅𐰢",
+      "frequency": 10,
+      "cozumleme": "er + tim",
+      "ekTipi": "çekim",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eŞiDiP",
+      "runic": "𐰾𐰓𐰯",
+      "frequency": 10,
+      "cozumleme": "eşid + ip",
+      "ekTipi": "yapım",
+      "kokAnlami": "işitmek, duymak",
+      "kaynak": "Tekin 2003, s. 244",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eRTiMiZ",
+      "runic": "𐰼𐱅𐰢𐰔",
+      "frequency": 9,
+      "cozumleme": "er + timiz",
+      "ekTipi": "çekim",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNI",
+      "runic": "𐰴𐰍𐰣𐰃",
+      "frequency": 9,
+      "cozumleme": "kagan + ı",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TİP",
+      "runic": "𐱅𐰃𐰯",
+      "frequency": 9,
+      "cozumleme": "ti + p",
+      "ekTipi": "yapım",
+      "kokAnlami": "sürekli olarak, uzun süre (BK G 15)",
+      "kaynak": "Tekin 2003, s. 254",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SaBıG",
+      "runic": "𐰽𐰉𐰍",
+      "frequency": 9,
+      "cozumleme": "sab + ıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "söz, mesaj, kelam, haber",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNıG",
+      "runic": "𐰴𐰍𐰣𐰍",
+      "frequency": 8,
+      "cozumleme": "kagan + ıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BİRTiM",
+      "runic": "𐰋𐰃𐰼𐱅𐰢",
+      "frequency": 8,
+      "cozumleme": "bir + tim",
+      "ekTipi": "çekim",
+      "kokAnlami": "bir; bir kez; aynı",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BaRDıG",
+      "runic": "𐰉𐰺𐰑𐰍",
+      "frequency": 8,
+      "cozumleme": "bar + dıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "var, mevcut",
+      "kaynak": "Tekin 2003, s. 239",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "OLuRTuM",
+      "runic": "𐰆𐰞𐰺𐱃𐰢",
+      "frequency": 8,
+      "cozumleme": "olur + tum",
+      "ekTipi": "çekim",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "BUYRUKI",
+      "runic": "𐰉𐰆𐰖𐰺𐰸𐰃",
+      "frequency": 8,
+      "cozumleme": "buyruk + ı",
+      "ekTipi": "çekim",
+      "kokAnlami": "buyruk, vezir, bakan, emredici",
+      "kaynak": "Tekin 2003, s. 242",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNDA",
+      "runic": "𐰴𐰍𐰦𐰀",
+      "frequency": 7,
+      "cozumleme": "kagan + da",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "ÖLTeÇİ",
+      "runic": "𐰇𐰠𐱅𐰲𐰃",
+      "frequency": 7,
+      "cozumleme": "öl + teçi",
+      "ekTipi": "yapım",
+      "kokAnlami": "ölmek",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök \"öl\" için ÖLTİ soruldu"
+    },
+    {
+      "transcription": "TİDİ",
+      "runic": "𐱅𐰃𐰓𐰃",
+      "frequency": 7,
+      "cozumleme": "ti + di",
+      "ekTipi": "çekim",
+      "kokAnlami": "sürekli olarak, uzun süre (BK G 15)",
+      "kaynak": "Tekin 2003, s. 254",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BİRÜR",
+      "runic": "𐰋𐰃𐰼𐰇𐰼",
+      "frequency": 7,
+      "cozumleme": "bir + ür",
+      "ekTipi": "çekim",
+      "kokAnlami": "bir; bir kez; aynı",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "ÖLÜ",
+      "runic": "𐰇𐰠𐰇",
+      "frequency": 6,
+      "cozumleme": "öl + ü",
+      "ekTipi": "yapım",
+      "kokAnlami": "ölmek",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök \"öl\" için ÖLTİ soruldu"
+    },
+    {
+      "transcription": "SÜG",
+      "runic": "𐰾𐰇𐰏",
+      "frequency": 6,
+      "cozumleme": "sü + g",
+      "ekTipi": "çekim",
+      "kokAnlami": "ordu, asker, sefer kuvveti",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BİRTiMiZ",
+      "runic": "𐰋𐰃𐰼𐱅𐰢𐰔",
+      "frequency": 6,
+      "cozumleme": "bir + timiz",
+      "ekTipi": "çekim",
+      "kokAnlami": "bir; bir kez; aynı",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BaRMıŞ",
+      "runic": "𐰉𐰺𐰢𐰾",
+      "frequency": 6,
+      "cozumleme": "bar + mış",
+      "ekTipi": "çekim",
+      "kokAnlami": "var, mevcut",
+      "kaynak": "Tekin 2003, s. 239",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SaBI",
+      "runic": "𐰽𐰉𐰃",
+      "frequency": 6,
+      "cozumleme": "sab + ı",
+      "ekTipi": "çekim",
+      "kokAnlami": "söz, mesaj, kelam, haber",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "aLI",
+      "runic": "𐰞𐰃",
+      "frequency": 6,
+      "cozumleme": "al + ı",
+      "ekTipi": "yapım",
+      "kokAnlami": "almak, yakalamak, işgal etmek (BK D 24, vb.)",
+      "kaynak": "Tekin 2003, s. 237",
+      "dusmeSebebi": "kök \"al\" için aLTıM soruldu"
+    },
+    {
+      "transcription": "BUNDA",
+      "runic": "𐰉𐰆𐰦𐰀",
+      "frequency": 6,
+      "cozumleme": "bu + n + da",
+      "ekTipi": "çekim",
+      "kokAnlami": "bu",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "ÖGüM",
+      "runic": "𐰇𐰏𐰢",
+      "frequency": 6,
+      "cozumleme": "ög + üm",
+      "ekTipi": "çekim",
+      "kokAnlami": "anne",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SaNÇDI",
+      "runic": "𐰽𐰨𐰑𐰃",
+      "frequency": 6,
+      "cozumleme": "sanç + dı",
+      "ekTipi": "çekim",
+      "kokAnlami": "saplamak, mızraklamak, bozguna uğratmak",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TÖRÜG",
+      "runic": "𐱅𐰇𐰼𐰇𐰏",
+      "frequency": 6,
+      "cozumleme": "törü + g",
+      "ekTipi": "çekim",
+      "kokAnlami": "yaratılmak",
+      "kaynak": "Tekin 2003, s. 255",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "İNİSİ",
+      "runic": "𐰃𐰤𐰃𐰾𐰃",
+      "frequency": 6,
+      "cozumleme": "ini + si",
+      "ekTipi": "çekim",
+      "kokAnlami": "erkek kardeş (küçük)",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BOZDuM",
+      "runic": "𐰉𐰆𐰔𐰑𐰢",
+      "frequency": 6,
+      "cozumleme": "boz + d + um",
+      "ekTipi": "çekim",
+      "kokAnlami": "boz",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eRiN",
+      "runic": "𐰼𐰤",
+      "frequency": 5,
+      "cozumleme": "er + in",
+      "ekTipi": "çekim",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KeLTiMiZ",
+      "runic": "𐰚𐰠𐱅𐰢𐰔",
+      "frequency": 5,
+      "cozumleme": "kel + timiz",
+      "ekTipi": "çekim",
+      "kokAnlami": "gelmek",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök \"kel\" için KeLTİ soruldu"
+    },
+    {
+      "transcription": "BODuNuM",
+      "runic": "𐰉𐰆𐰑𐰣𐰢",
+      "frequency": 5,
+      "cozumleme": "bodun + um",
+      "ekTipi": "çekim",
+      "kokAnlami": "millet, halk, boylar birliği",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BODuNKA",
+      "runic": "𐰉𐰆𐰑𐰣𐰴𐰀",
+      "frequency": 5,
+      "cozumleme": "bodun + ka",
+      "ekTipi": "çekim",
+      "kokAnlami": "millet, halk, boylar birliği",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNıM",
+      "runic": "𐰴𐰍𐰣𐰢",
+      "frequency": 5,
+      "cozumleme": "kagan + ım",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNIN",
+      "runic": "𐰴𐰍𐰣𐰃𐰤",
+      "frequency": 5,
+      "cozumleme": "kagan + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SaBıMıN",
+      "runic": "𐰽𐰉𐰢𐰣",
+      "frequency": 5,
+      "cozumleme": "sab + ım + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "söz, mesaj, kelam, haber",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "OLuRUR",
+      "runic": "𐰆𐰞𐰺𐰆𐰺",
+      "frequency": 5,
+      "cozumleme": "olur + ur",
+      "ekTipi": "çekim",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "KaZGaNMıŞ",
+      "runic": "𐰴𐰔𐰍𐰣𐰢𐰾",
+      "frequency": 5,
+      "cozumleme": "kazgan + mış",
+      "ekTipi": "çekim",
+      "kokAnlami": "kazanmak, elde etmek, başarılı olmak",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök \"kazgan\" için KaZGaNıP soruldu"
+    },
+    {
+      "transcription": "SaNÇDıM",
+      "runic": "𐰽𐰨𐰑𐰢",
+      "frequency": 5,
+      "cozumleme": "sanç + dım",
+      "ekTipi": "çekim",
+      "kokAnlami": "saplamak, mızraklamak, bozguna uğratmak",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "ÖKÜŞ",
+      "runic": "𐰜𐰇𐰾",
+      "frequency": 5,
+      "cozumleme": "ök + ü + ş",
+      "ekTipi": "çekim",
+      "kokAnlami": "pekiştirme edatı",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "iKİN",
+      "runic": "𐰚𐰃𐰤",
+      "frequency": 5,
+      "cozumleme": "iki + n",
+      "ekTipi": "çekim",
+      "kokAnlami": "iki; bk. eki, ekin",
+      "kaynak": "Tekin 2003, s. 244",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "aTıG",
+      "runic": "𐱃𐰍",
+      "frequency": 5,
+      "cozumleme": "at + ıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "(ok) atmak; avlanmak (Altınköl I 4)",
+      "kaynak": "Tekin 2003, s. 238",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YIŞDA",
+      "runic": "𐰘𐰃𐱁𐰑𐰀",
+      "frequency": 5,
+      "cozumleme": "yış + da",
+      "ekTipi": "çekim",
+      "kokAnlami": "ormanlık dağ, orman",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KeLMeZ",
+      "runic": "𐰚𐰠𐰢𐰔",
+      "frequency": 4,
+      "cozumleme": "kel + me + z",
+      "ekTipi": "çekim",
+      "kokAnlami": "gelmek",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök \"kel\" için KeLTİ soruldu"
+    },
+    {
+      "transcription": "BODuNDA",
+      "runic": "𐰉𐰆𐰑𐰦𐰀",
+      "frequency": 4,
+      "cozumleme": "bodun + da",
+      "ekTipi": "çekim",
+      "kokAnlami": "millet, halk, boylar birliği",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YİTÜ",
+      "runic": "𐰘𐰃𐱅𐰇",
+      "frequency": 4,
+      "cozumleme": "yi + tü",
+      "ekTipi": "çekim",
+      "kokAnlami": "yemek; bk. ye-",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök \"yi\" için YiME soruldu"
+    },
+    {
+      "transcription": "BOLDaÇI",
+      "runic": "𐰉𐰆𐰡𐰲𐰃",
+      "frequency": 4,
+      "cozumleme": "bol + daçı",
+      "ekTipi": "yapım",
+      "kokAnlami": "olmak",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök \"bol\" için BOLDI soruldu"
+    },
+    {
+      "transcription": "KILDI",
+      "runic": "𐰶𐰡𐰃",
+      "frequency": 4,
+      "cozumleme": "kıl + dı",
+      "ekTipi": "çekim",
+      "kokAnlami": "kılmak, yapmak, etmek",
+      "kaynak": "Tekin 2003, s. 247",
+      "dusmeSebebi": "kök \"kıl\" için KILDıM soruldu"
+    },
+    {
+      "transcription": "ÖLTüG",
+      "runic": "𐰇𐰠𐱅𐰏",
+      "frequency": 4,
+      "cozumleme": "öl + tüg",
+      "ekTipi": "çekim",
+      "kokAnlami": "ölmek",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök \"öl\" için ÖLTİ soruldu"
+    },
+    {
+      "transcription": "TiDiM",
+      "runic": "𐱅𐰓𐰢",
+      "frequency": 4,
+      "cozumleme": "ti + dim",
+      "ekTipi": "çekim",
+      "kokAnlami": "sürekli olarak, uzun süre (BK G 15)",
+      "kaynak": "Tekin 2003, s. 254",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eÇİSİN",
+      "runic": "𐰲𐰃𐰾𐰃𐰤",
+      "frequency": 4,
+      "cozumleme": "eçi + si + n",
+      "ekTipi": "çekim",
+      "kokAnlami": "ağabey, amca",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TeGMeDiM",
+      "runic": "𐱅𐰏𐰢𐰓𐰢",
+      "frequency": 4,
+      "cozumleme": "teg + me + dim",
+      "ekTipi": "çekim",
+      "kokAnlami": "gibi",
+      "kaynak": "Tekin 2003, s. 253",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BİRTÜK",
+      "runic": "𐰋𐰃𐰼𐱅𐰜",
+      "frequency": 4,
+      "cozumleme": "bir + tük",
+      "ekTipi": "çekim",
+      "kokAnlami": "bir; bir kez; aynı",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BaRKIN",
+      "runic": "𐰉𐰺𐰴𐰃𐰤",
+      "frequency": 4,
+      "cozumleme": "bar + kın",
+      "ekTipi": "çekim",
+      "kokAnlami": "var, mevcut",
+      "kaynak": "Tekin 2003, s. 239",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BaRIGMA",
+      "runic": "𐰉𐰺𐰃𐰍𐰢𐰀",
+      "frequency": 4,
+      "cozumleme": "bar + ıgma",
+      "ekTipi": "yapım",
+      "kokAnlami": "var, mevcut",
+      "kaynak": "Tekin 2003, s. 239",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YaŞIŊA",
+      "runic": "𐰖𐱁𐰃𐰭𐰀",
+      "frequency": 4,
+      "cozumleme": "yaş + ı + ŋa",
+      "ekTipi": "çekim",
+      "kokAnlami": "yaş (ömür yaşı)",
+      "kaynak": "Tekin 2003, s. 258",
+      "dusmeSebebi": "kök \"yaş\" için YaŞıMA soruldu"
+    },
+    {
+      "transcription": "SaBıM",
+      "runic": "𐰽𐰉𐰢",
+      "frequency": 4,
+      "cozumleme": "sab + ım",
+      "ekTipi": "çekim",
+      "kokAnlami": "söz, mesaj, kelam, haber",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "OLuRSaR",
+      "runic": "𐰆𐰞𐰺𐰽𐰺",
+      "frequency": 4,
+      "cozumleme": "olur + sar",
+      "ekTipi": "yapım",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "OLuRıPaN",
+      "runic": "𐰆𐰞𐰺𐰯𐰣",
+      "frequency": 4,
+      "cozumleme": "olur + ıpan",
+      "ekTipi": "yapım",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "OLuRMıŞ",
+      "runic": "𐰆𐰞𐰺𐰢𐰾",
+      "frequency": 4,
+      "cozumleme": "olur + mış",
+      "ekTipi": "çekim",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "OLuRMaDıM",
+      "runic": "𐰆𐰞𐰺𐰢𐰑𐰢",
+      "frequency": 4,
+      "cozumleme": "olur + ma + dım",
+      "ekTipi": "çekim",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "OLuRTUKuMA",
+      "runic": "𐰆𐰞𐰺𐱃𐰸𐰢𐰀",
+      "frequency": 4,
+      "cozumleme": "olur + tu + ku + ma",
+      "ekTipi": "çekim",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "ÖLüRTüMüZ",
+      "runic": "𐰇𐰠𐰼𐱅𐰢𐰔",
+      "frequency": 4,
+      "cozumleme": "ölür + tümüz",
+      "ekTipi": "çekim",
+      "kokAnlami": "öldürmek",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök \"ölür\" için ÖLüRTüM soruldu"
+    },
+    {
+      "transcription": "aLTıMıZ",
+      "runic": "𐰞𐱃𐰢𐰔",
+      "frequency": 4,
+      "cozumleme": "al + tımız",
+      "ekTipi": "çekim",
+      "kokAnlami": "almak, yakalamak, işgal etmek (BK D 24, vb.)",
+      "kaynak": "Tekin 2003, s. 237",
+      "dusmeSebebi": "kök \"al\" için aLTıM soruldu"
+    },
+    {
+      "transcription": "TÖRÜSİN",
+      "runic": "𐱅𐰇𐰼𐰇𐰾𐰃𐰤",
+      "frequency": 4,
+      "cozumleme": "törü + si + n",
+      "ekTipi": "çekim",
+      "kokAnlami": "yaratılmak",
+      "kaynak": "Tekin 2003, s. 255",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KeLÜRTüM",
+      "runic": "𐰚𐰠𐰇𐰼𐱅𐰢",
+      "frequency": 4,
+      "cozumleme": "kelür + tüm",
+      "ekTipi": "çekim",
+      "kokAnlami": "getirmek",
+      "kaynak": "Tekin 2003, s. 247",
+      "dusmeSebebi": "kök \"kelür\" için KeLÜRTİ soruldu"
+    },
+    {
+      "transcription": "İTDiM",
+      "runic": "𐰃𐱅𐰓𐰢",
+      "frequency": 4,
+      "cozumleme": "it + dim",
+      "ekTipi": "çekim",
+      "kokAnlami": "düzenlemek, tanzim etmek (bk. et-)",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök \"it\" için İTiP soruldu"
+    },
+    {
+      "transcription": "İTMiŞ",
+      "runic": "𐰃𐱅𐰢𐰾",
+      "frequency": 4,
+      "cozumleme": "it + miş",
+      "ekTipi": "çekim",
+      "kokAnlami": "düzenlemek, tanzim etmek (bk. et-)",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök \"it\" için İTiP soruldu"
+    },
+    {
+      "transcription": "İTDİ",
+      "runic": "𐰃𐱅𐰓𐰃",
+      "frequency": 4,
+      "cozumleme": "it + di",
+      "ekTipi": "çekim",
+      "kokAnlami": "düzenlemek, tanzim etmek (bk. et-)",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök \"it\" için İTiP soruldu"
+    },
+    {
+      "transcription": "YIŞıG",
+      "runic": "𐰘𐰃𐱁𐰍",
+      "frequency": 4,
+      "cozumleme": "yış + ıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "ormanlık dağ, orman",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KÖRÜ",
+      "runic": "𐰚𐰇𐰼𐰇",
+      "frequency": 4,
+      "cozumleme": "kör + ü",
+      "ekTipi": "yapım",
+      "kokAnlami": "görmek; tabi olmak",
+      "kaynak": "Tekin 2003, s. 248",
+      "dusmeSebebi": "kök \"kör\" için KÖRTİ soruldu"
+    },
+    {
+      "transcription": "ÖDKE",
+      "runic": "𐰇𐰓𐰚𐰀",
+      "frequency": 4,
+      "cozumleme": "öd + ke",
+      "ekTipi": "çekim",
+      "kokAnlami": "zaman, vakit, çağ",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "aYNıG",
+      "runic": "𐰪𐰍",
+      "frequency": 4,
+      "cozumleme": "ay + n + ıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "ay (gök cismi / zaman birimi)",
+      "kaynak": "Tekin 2003, s. 239",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TUTMıŞ",
+      "runic": "𐱃𐰆𐱃𐰢𐰾",
+      "frequency": 4,
+      "cozumleme": "tut + mış",
+      "ekTipi": "çekim",
+      "kokAnlami": "tutmak, yakalamak; korumak, muhafaza etmek",
+      "kaynak": "Tekin 2003, s. 255",
+      "dusmeSebebi": "kök \"tut\" için TUTA soruldu"
+    },
+    {
+      "transcription": "KUTuM",
+      "runic": "𐰸𐰆𐱃𐰢",
+      "frequency": 4,
+      "cozumleme": "kut + um",
+      "ekTipi": "çekim",
+      "kokAnlami": "kut, saadet, ilahi hükümdarlık gücü",
+      "kaynak": "Tekin 2003, s. 249",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TaŞIN",
+      "runic": "𐱃𐱁𐰃𐰤",
+      "frequency": 4,
+      "cozumleme": "taş + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "dış",
+      "kaynak": "Tekin 2003, s. 253",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BİRiYE",
+      "runic": "𐰋𐰃𐰼𐰘𐰀",
+      "frequency": 4,
+      "cozumleme": "bi + ri + ye",
+      "ekTipi": "çekim",
+      "kokAnlami": "kısrak (IB 5)",
+      "kaynak": "Tekin 2003, s. 240",
+      "dusmeSebebi": "kök \"bi\" için BİRiKİ soruldu"
+    },
+    {
+      "transcription": "YaZIKA",
+      "runic": "𐰖𐰔𐰃𐰴𐰀",
+      "frequency": 4,
+      "cozumleme": "yazı + ka",
+      "ekTipi": "çekim",
+      "kokAnlami": "ova, açık arazi",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YaDaGıN",
+      "runic": "𐰖𐰑𐰍𐰣",
+      "frequency": 4,
+      "cozumleme": "yadag + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "yaya; piyade",
+      "kaynak": "Tekin 2003, s. 257",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YILKA",
+      "runic": "𐰘𐰃𐰞𐰴𐰀",
+      "frequency": 4,
+      "cozumleme": "yıl + ka",
+      "ekTipi": "çekim",
+      "kokAnlami": "yıl, sene",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "OTuZKA",
+      "runic": "𐰆𐱃𐰔𐰴𐰀",
+      "frequency": 4,
+      "cozumleme": "otuz + ka",
+      "ekTipi": "çekim",
+      "kokAnlami": "otuz (30)",
+      "kaynak": "Tekin 2003, s. 250",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YİRİŊE",
+      "runic": "𐰘𐰃𐰼𐰃𐰭𐰀",
+      "frequency": 4,
+      "cozumleme": "yir + i + ŋe",
+      "ekTipi": "çekim",
+      "kokAnlami": "kuzey (Tar. B 5); bk. ir, yırdın, yırya",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BeDiZÇİG",
+      "runic": "𐰋𐰓𐰔𐰲𐰃𐰏",
+      "frequency": 4,
+      "cozumleme": "bedizçi + g",
+      "ekTipi": "çekim",
+      "kokAnlami": "sanatçı, ressam, heykelci",
+      "kaynak": "Tekin 2003, s. 240",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNLıGıG",
+      "runic": "𐰴𐰍𐰣𐰞𐰍𐰍",
+      "frequency": 4,
+      "cozumleme": "kaganlıg + ıg",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakanı olan, bağımsız",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNLıGDA",
+      "runic": "𐰴𐰍𐰣𐰞𐰍𐰑𐰀",
+      "frequency": 4,
+      "cozumleme": "kaganlıg + da",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakanı olan, bağımsız",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "TaBGaÇKA",
+      "runic": "𐱃𐰉𐰍𐰲𐰴𐰀",
+      "frequency": 4,
+      "cozumleme": "tabgaç + ka",
+      "ekTipi": "çekim",
+      "kokAnlami": "Çin, Çinli",
+      "kaynak": "Tekin 2003, s. 253",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eRTiGiZ",
+      "runic": "𐰼𐱅𐰏𐰔",
+      "frequency": 3,
+      "cozumleme": "er + tig + iz",
+      "ekTipi": "çekim",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "eRTeÇİ",
+      "runic": "𐰼𐱅𐰲𐰃",
+      "frequency": 3,
+      "cozumleme": "er + teçi",
+      "ekTipi": "yapım",
+      "kokAnlami": "erkek, yiğit, asker, er",
+      "kaynak": "Tekin 2003, s. 243",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KeLiP",
+      "runic": "𐰚𐰠𐰯",
+      "frequency": 3,
+      "cozumleme": "kel + ip",
+      "ekTipi": "yapım",
+      "kokAnlami": "gelmek",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök \"kel\" için KeLTİ soruldu"
+    },
+    {
+      "transcription": "KeLMeDİ",
+      "runic": "𐰚𐰠𐰢𐰓𐰃",
+      "frequency": 3,
+      "cozumleme": "kel + me + di",
+      "ekTipi": "çekim",
+      "kokAnlami": "gelmek",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök \"kel\" için KeLTİ soruldu"
+    },
+    {
+      "transcription": "BODuNIN",
+      "runic": "𐰉𐰆𐰑𐰣𐰃𐰤",
+      "frequency": 3,
+      "cozumleme": "bodun + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "millet, halk, boylar birliği",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "BOLMuŞ",
+      "runic": "𐰉𐰆𐰞𐰢𐱁",
+      "frequency": 3,
+      "cozumleme": "bol + muş",
+      "ekTipi": "çekim",
+      "kokAnlami": "olmak",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök \"bol\" için BOLDI soruldu"
+    },
+    {
+      "transcription": "BOLuŊDaKI",
+      "runic": "𐰉𐰆𐰞𐰭𐰑𐰴𐰃",
+      "frequency": 3,
+      "cozumleme": "bol + uŋ + da + kı",
+      "ekTipi": "çekim",
+      "kokAnlami": "olmak",
+      "kaynak": "Tekin 2003, s. 241",
+      "dusmeSebebi": "kök \"bol\" için BOLDI soruldu"
+    },
+    {
+      "transcription": "KaŊIN",
+      "runic": "𐰴𐰭𐰃𐰤",
+      "frequency": 3,
+      "cozumleme": "kaŋ + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "baba",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNıŊA",
+      "runic": "𐰴𐰍𐰣𐰭𐰀",
+      "frequency": 3,
+      "cozumleme": "kagan + ı + ŋa",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNıMA",
+      "runic": "𐰴𐰍𐰣𐰢𐰀",
+      "frequency": 3,
+      "cozumleme": "kagan + ı + ma",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "KaGaNGaRU",
+      "runic": "𐰴𐰍𐰣𐰍𐰺𐰆",
+      "frequency": 3,
+      "cozumleme": "kagan + garu",
+      "ekTipi": "çekim",
+      "kokAnlami": "hakan, kağan, hükümdar",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "SÜŊüŞDİ",
+      "runic": "𐰾𐰇𐰭𐰾𐰓𐰃",
+      "frequency": 3,
+      "cozumleme": "süŋüş + di",
+      "ekTipi": "çekim",
+      "kokAnlami": "savaş",
+      "kaynak": "Tekin 2003, s. 252",
+      "dusmeSebebi": "kök \"süŋüş\" için SÜŊüŞDüMüZ soruldu"
+    },
+    {
+      "transcription": "TeGiP",
+      "runic": "𐱅𐰏𐰯",
+      "frequency": 3,
+      "cozumleme": "teg + ip",
+      "ekTipi": "yapım",
+      "kokAnlami": "gibi",
+      "kaynak": "Tekin 2003, s. 253",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "OLuRTI",
+      "runic": "𐰆𐰞𐰺𐱃𐰃",
+      "frequency": 3,
+      "cozumleme": "olur + tı",
+      "ekTipi": "çekim",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "OLuRTıM",
+      "runic": "𐰆𐰞𐰺𐱃𐰢",
+      "frequency": 3,
+      "cozumleme": "olur + tım",
+      "ekTipi": "çekim",
+      "kokAnlami": "oturmak, tahta oturmak, kağan olmak",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"olur\" için OLuRuP soruldu"
+    },
+    {
+      "transcription": "ÖLüRTİ",
+      "runic": "𐰇𐰠𐰼𐱅𐰃",
+      "frequency": 3,
+      "cozumleme": "ölür + ti",
+      "ekTipi": "çekim",
+      "kokAnlami": "öldürmek",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök \"ölür\" için ÖLüRTüM soruldu"
+    },
+    {
+      "transcription": "ÖLüRTeÇİ",
+      "runic": "𐰇𐰠𐰼𐱅𐰲𐰃",
+      "frequency": 3,
+      "cozumleme": "ölür + teçi",
+      "ekTipi": "yapım",
+      "kokAnlami": "öldürmek",
+      "kaynak": "Tekin 2003, s. 251",
+      "dusmeSebebi": "kök \"ölür\" için ÖLüRTüM soruldu"
+    },
+    {
+      "transcription": "aLıP",
+      "runic": "𐰞𐰯",
+      "frequency": 3,
+      "cozumleme": "al + ıp",
+      "ekTipi": "yapım",
+      "kokAnlami": "almak, yakalamak, işgal etmek (BK D 24, vb.)",
+      "kaynak": "Tekin 2003, s. 237",
+      "dusmeSebebi": "kök \"al\" için aLTıM soruldu"
+    },
+    {
+      "transcription": "KaZGaNDıM",
+      "runic": "𐰴𐰔𐰍𐰦𐰢",
+      "frequency": 3,
+      "cozumleme": "kazgan + dım",
+      "ekTipi": "çekim",
+      "kokAnlami": "kazanmak, elde etmek, başarılı olmak",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök \"kazgan\" için KaZGaNıP soruldu"
+    },
+    {
+      "transcription": "URTI",
+      "runic": "𐰆𐰺𐱃𐰃",
+      "frequency": 3,
+      "cozumleme": "ur + tı",
+      "ekTipi": "çekim",
+      "kokAnlami": "vurmak, dövmek; taş üzerine yazmak, hâkketmek; yerleştirmek koymak",
+      "kaynak": "Tekin 2003, s. 256",
+      "dusmeSebebi": "kök \"ur\" için URTuM soruldu"
+    },
+    {
+      "transcription": "KeLÜRüP",
+      "runic": "𐰚𐰠𐰇𐰼𐰯",
+      "frequency": 3,
+      "cozumleme": "kelür + üp",
+      "ekTipi": "yapım",
+      "kokAnlami": "getirmek",
+      "kaynak": "Tekin 2003, s. 247",
+      "dusmeSebebi": "kök \"kelür\" için KeLÜRTİ soruldu"
+    },
+    {
+      "transcription": "İTİ",
+      "runic": "𐰃𐱅𐰃",
+      "frequency": 3,
+      "cozumleme": "it + i",
+      "ekTipi": "yapım",
+      "kokAnlami": "düzenlemek, tanzim etmek (bk. et-)",
+      "kaynak": "Tekin 2003, s. 245",
+      "dusmeSebebi": "kök \"it\" için İTiP soruldu"
+    },
+    {
+      "transcription": "ÖGüZKE",
+      "runic": "𐰇𐰏𐰔𐰚𐰀",
+      "frequency": 3,
+      "cozumleme": "ögüz + ke",
+      "ekTipi": "çekim",
+      "kokAnlami": "ırmak, nehir, deniz",
+      "kaynak": "Tanyeri, Sözlük",
+      "dusmeSebebi": "kök \"ögüz\" için ÖGüZüG soruldu"
+    },
+    {
+      "transcription": "TUTDI",
+      "runic": "𐱃𐰆𐱃𐰑𐰃",
+      "frequency": 3,
+      "cozumleme": "tut + dı",
+      "ekTipi": "çekim",
+      "kokAnlami": "tutmak, yakalamak; korumak, muhafaza etmek",
+      "kaynak": "Tekin 2003, s. 255",
+      "dusmeSebebi": "kök \"tut\" için TUTA soruldu"
+    },
+    {
+      "transcription": "ITıM",
+      "runic": "𐰃𐱃𐰢",
+      "frequency": 3,
+      "cozumleme": "ıt + ım",
+      "ekTipi": "çekim",
+      "kokAnlami": "köpek (yıl adı) (BK G 10, Tar. G 3)",
+      "kaynak": "Tekin 2003, s. 244",
+      "dusmeSebebi": "kök \"ıt\" için ITI soruldu"
+    },
+    {
+      "transcription": "TaŞKA",
+      "runic": "𐱃𐱁𐰴𐰀",
+      "frequency": 3,
+      "cozumleme": "taş + ka",
+      "ekTipi": "çekim",
+      "kokAnlami": "dış",
+      "kaynak": "Tekin 2003, s. 253",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YIRıGaRU",
+      "runic": "𐰘𐰃𐰺𐰍𐰺𐰆",
+      "frequency": 3,
+      "cozumleme": "yır + ı + garu",
+      "ekTipi": "çekim",
+      "kokAnlami": "kuzey; bk. ir",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök \"yır\" için YIRıYA soruldu"
+    },
+    {
+      "transcription": "YaGIG",
+      "runic": "𐰖𐰍𐰃𐰍",
+      "frequency": 3,
+      "cozumleme": "yag + ıg",
+      "ekTipi": "yapım",
+      "kokAnlami": "yağmak (IB 53, 53)",
+      "kaynak": "Tekin 2003, s. 257",
+      "dusmeSebebi": "kök \"yag\" için YaGuRU soruldu"
+    },
+    {
+      "transcription": "KaNIN",
+      "runic": "𐰴𐰣𐰃𐰤",
+      "frequency": 3,
+      "cozumleme": "kan + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "kan",
+      "kaynak": "Tekin 2003, s. 246",
+      "dusmeSebebi": "kök \"kan\" için KaNDıN soruldu"
+    },
+    {
+      "transcription": "YiRTE",
+      "runic": "𐰘𐰼𐱅𐰀",
+      "frequency": 3,
+      "cozumleme": "yir + te",
+      "ekTipi": "çekim",
+      "kokAnlami": "kuzey (Tar. B 5); bk. ir, yırdın, yırya",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YiRİNTE",
+      "runic": "𐰘𐰼𐰃𐰤𐱅𐰀",
+      "frequency": 3,
+      "cozumleme": "yir + in + te",
+      "ekTipi": "çekim",
+      "kokAnlami": "kuzey (Tar. B 5); bk. ir, yırdın, yırya",
+      "kaynak": "Tekin 2003, s. 259",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "aTISI",
+      "runic": "𐱃𐰃𐰾𐰃",
+      "frequency": 3,
+      "cozumleme": "atı + sı",
+      "ekTipi": "çekim",
+      "kokAnlami": "yeğen, kardeş oğlu (KT G 13, vb.)",
+      "kaynak": "Tekin 2003, s. 239",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "aKIN",
+      "runic": "𐰴𐰃𐰤",
+      "frequency": 3,
+      "cozumleme": "ak + ın",
+      "ekTipi": "çekim",
+      "kokAnlami": "ak, kır (at donu) (KT D 36, vb.)",
+      "kaynak": "Tekin 2003, s. 237",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    },
+    {
+      "transcription": "YaGıMıZ",
+      "runic": "𐰖𐰍𐰢𐰔",
+      "frequency": 3,
+      "cozumleme": "yagı + mız",
+      "ekTipi": "çekim",
+      "kokAnlami": "düşman, hasım",
+      "kaynak": "Tekin 2003, s. 257",
+      "dusmeSebebi": "kök zaten kayıtlı"
+    }
+  ]
+}

@@ -44,16 +44,22 @@ const normal = (s) => s.toLowerCase().replace(/ŋ/g, "ng").replace(/ñ/g, "ny");
 // birbirine karıştırıyordu: "äbir-" → "bir" olup "bir" maddesiyle
 // çakışıyor, "bir" belirsiz sayılıp ön dolgu düşüyordu.
 // Doğrusu silmek değil KATLAMAK.
+//
+// ŋ'yi n'ye katlamak HATALIYDI. Orhun Türkçesinde ŋ ayrı bir sestir ve
+// ayrı sözcükler kurar: kaŋ "baba" / kan "kan, han", küŋ "cariye" /
+// kün "gün", oŋ / on. Katlayınca "kaŋım" sözlükteki "kanı" + m ile
+// eşleşiyor, "babam" yerine "hani, nerede" önerisi çıkıyordu.
+// Doğrusu ń/ñ/ŋ üçlüsünü tek bir ŋ'de toplamak, n'ye karıştırmamak.
 const KATLAMA = new Map(Object.entries({
   "ä": "e", "ā": "a", "ē": "e", "ī": "i", "ō": "o", "ū": "u",
-  "ǖ": "ü", "ȫ": "ö", "ï": "ı", "ń": "n", "ñ": "n", "ŋ": "n", "é": "e",
+  "ǖ": "ü", "ȫ": "ö", "ï": "ı", "ń": "ŋ", "ñ": "ŋ", "é": "e",
   "ḍ": "d", "ẓ": "z", "š": "ş", "č": "ç", "γ": "g",
 }));
 const sadelestir = (x) =>
   [...x.toLocaleLowerCase("tr")]
     .map((c) => KATLAMA.get(c) ?? c)
     .join("")
-    .replace(/[^a-zçğıöşü]/g, "");
+    .replace(/[^a-zçğıöşüŋ]/g, "");
 
 let ataSozluk = [];
 let ataEkler = [];
@@ -105,9 +111,40 @@ const SOZLUK_KAYNAKLARI = sentez.length ? sentez.map((k) => ({
 //   bir(i) "güney" + le →  birle "ile"          (kökün anlamı değil)
 // Bu yüzden ön dolgu yalnız ÇEKİM ekiyle kurulur.
 const yapimMi = (islev) => /yapım eki|zarf-fiil|sıfat-fiil|kalıplaş/i.test(islev);
-const cekimEkleri = ataEkler.filter((e) => !yapimMi(e.islev));
-const ISIM_EKI = new Set(cekimEkleri.filter((e) => e.ek.startsWith("+")).map((e) => sadelestir(e.ek)));
-const FIIL_EKI = new Set(cekimEkleri.filter((e) => e.ek.startsWith("-")).map((e) => sadelestir(e.ek)));
+
+// Ata'nın listesi eki yalnız kitaptaki ÖRNEK biçimiyle veriyor: "-dım"
+// var, "-dum" yok; "+u)g" var, "+ı)g" yok. Oysa bunlar aynı ekin ünlü
+// uyumu ve ünsüz uyumu değişkeleri. Eksik değişke yüzünden "bodunıg"
+// çözümlenemiyor, "bodunug" çözümleniyordu.
+// Bu yüzden her eki kapalı iki dönüşümle genişletiyoruz:
+//   ünlü uyumu   a~e · ı~i~u~ü
+//   ünsüz uyumu  ek başındaki d~t, g~k, b~p
+// Uydurma değil: aynı biçimbirimin dildeki düzenli değişkeleri.
+const UYUM = [["a", "e"], ["ı", "i", "u", "ü"]];
+const BAS_UYUM = { d: "t", t: "d", g: "k", k: "g", b: "p", p: "b" };
+function degiskeler(ek) {
+  let kume = [""];
+  for (const harf of ek) {
+    const oymak = UYUM.find((u) => u.includes(harf));
+    const seçenek = oymak ?? [harf];
+    kume = kume.flatMap((on) => seçenek.map((h) => on + h));
+  }
+  const esi = BAS_UYUM[ek[0]];
+  return esi ? [...kume, ...kume.map((x) => esi + x.slice(1))] : kume;
+}
+const ekKumesi = (suz) => {
+  const k = new Set();
+  for (const e of ataEkler.filter(suz)) for (const d of degiskeler(sadelestir(e.ek))) if (d) k.add(d);
+  return k;
+};
+const isimEki = (e) => e.ek.startsWith("+");
+const fiilEki = (e) => e.ek.startsWith("-");
+const ISIM_EKI = ekKumesi((e) => isimEki(e) && !yapimMi(e.islev));
+const FIIL_EKI = ekKumesi((e) => fiilEki(e) && !yapimMi(e.islev));
+// Yapım ve çekim eklerinin tamamı: "bu biçim bir kök + ek mi" sorusu
+// için kullanılır (ön dolgu için değil).
+const ISIM_EKI_TUM = ekKumesi(isimEki);
+const FIIL_EKI_TUM = ekKumesi(fiilEki);
 
 /** Bir maddenin arama anahtarları. bir(i) hem "bir" hem "biri" olabilir. */
 function anahtarlar(kelime) {
@@ -183,8 +220,142 @@ function ataEslesmesi(transkripsiyon) {
   return null;
 }
 
-const istek = kelimeler
-  .filter((k) => k.guvenilir && k.siklik >= esik && !mevcut.has(normal(k.transkripsiyon)))
+
+// ── Ekli biçimler: kuyruğa GİRMEZ ───────────────────────────────────────────
+// Kullanıcının saptaması: "sözlüklerde var olmayanların neredeyse tamamı ek
+// almış sözcükler". Doğru: 432 maddenin yarısı bodun+ıg, kagan+ka, kel+ti
+// türünden çekimli biçim. Kökün anlamı sorulduktan sonra bunları tek tek
+// sormak zaman kaybı; üstelik aynı anlam alıştırmada tekrara düşüyor.
+//
+// Ölçüt sözlüğün kendisi: bir biçim sözlükte BAŞSÖZCÜK ise sözlükbirimdir,
+// yapım ekiyle kurulmuş olsa bile kalır (bilig, birle, tapa böyle korunur).
+// Başsözcük değilse ve bilinen bir kök + bilinen bir eke ayrılıyorsa
+// dilbilgisel biçimdir, kuyruktan çıkar.
+//
+// Çıkanlar silinmez: docs/sozluk-cekimli-bicimler.json'a çözümlemesiyle
+// yazılır. Yanlış ayrılan bir biçim orada görülüp geri alınabilir.
+// Tek ek yetmiyor: kagan+ı+ŋa, sü+si+n, olur+ma+dım gibi iki üç ekli
+// biçimler korpusta bol. Bu yüzden ekler sondan soyularak, en uzun kök
+// (en az ek) önce denenerek çözümleniyor. Kök sözlükte başsözcük olmak
+// zorunda; uydurma kök kabul edilmez.
+const TUM_EKLER = [...new Set([...ISIM_EKI_TUM, ...FIIL_EKI_TUM])].sort((a, b) => b.length - a.length);
+const EN_COK_EK = 3;
+
+function cozumle(transkripsiyon) {
+  const w = sadelestir(transkripsiyon);
+  if (!w || ataHarita.has(w)) return null;      // başsözcük → sözlükbirim
+
+  // adim = kaç ek soyulacak. Az ekli çözüm her zaman tercih edilir.
+  for (let adim = 1; adim <= EN_COK_EK; adim++) {
+    const bulunan = soy(w, adim);
+    if (bulunan) return bulunan;
+  }
+  return null;
+}
+
+/** w'yi tam `adim` ek soyarak bir başsözcüğe indirmeye çalışır. */
+function soy(w, adim, sonrakiEkler = []) {
+  for (const ek of TUM_EKLER) {
+    if (!w.endsWith(ek) || w.length - ek.length < 2) continue;
+    const govde = w.slice(0, w.length - ek.length);
+    const ekler = [ek, ...sonrakiEkler];
+    if (adim === 1) {
+      const adaylar = ataHarita.get(govde);
+      if (!adaylar) continue;
+      // Köke BİTİŞİK ek, kökün türüne uymalı: isim köküne fiil çekimi gelmez.
+      const uyan = adaylar.some((a) => (a.fiilMi ? FIIL_EKI_TUM : ISIM_EKI_TUM).has(ek));
+      if (!uyan) continue;
+      const cekim = adaylar.some((a) => (a.fiilMi ? FIIL_EKI : ISIM_EKI).has(ek));
+      // Çok ekli çözümlemede köke bitişik ek ÇEKİM olmalı. Yapım ekiyle
+      // başlayan uzun zincirler sözcüğü parçalıyordu: öküş "çok" →
+      // ök+ü+ş, yaguru "yakın" → yag+u+ru, Toŋra → toŋ+r+a. Oysa
+      // dilbilgisel biçim zinciri (kagan+ı+ŋa, olur+ma+dım) hep
+      // çekimle başlar.
+      if (ekler.length > 1 && !cekim) continue;
+      return { kok: govde, ek: ekler.join(" + "), tip: cekim ? "çekim" : "yapım" };
+    }
+    const alt = soy(govde, adim - 1, ekler);
+    if (alt) return alt;
+  }
+  return null;
+}
+
+// Aynı sözcüğün yazım değişkeleri (TÜRK/TÜRK, ÖKÜŞ/ÖKüŞ, aTIN/ATIN) ayrı
+// kayıt olarak geliyordu: 432 kaydın 29'u yinelemeydi, denetleyen aynı
+// soruyu iki kez görüyordu. Anahtar büyük/küçük harf farkını yok sayar
+// ama ŋ ile n'yi AYIRIR (küŋ "cariye" ≠ kün "gün").
+const yinelemesiz = new Map();
+for (const k of kelimeler.filter(
+  (k) => k.guvenilir && k.siklik >= esik && !mevcut.has(normal(k.transkripsiyon))
+)) {
+  const anahtar = sadelestir(k.transkripsiyon);
+  const onceki = yinelemesiz.get(anahtar);
+  if (!onceki || k.siklik > onceki.siklik) yinelemesiz.set(anahtar, k);
+}
+
+// Hangi kökler projede ZATEN kayıtlı: uygulamanın sözlüğü + denetimden
+// geçip kaynak veriye yazılanlar.
+//
+// Denetlenmiş sözcük kuyrukta DURMAMALI. src/data/sozlukData.ts elle
+// yazılmış çekirdek sözlüktü; denetimden geçenler oraya değil
+// 05_Kaynak_DB/sozluk-anlamlar.json'a yazılıyor. O dosya okunmadığı için
+// onaylanan 48 sözcük kuyrukta kalıyor, tarayıcı geçmişi silinince
+// yeniden soruluyordu.
+const kayitliKokler = new Set([...mevcut].map(sadelestir));
+const denetlenmis = new Set();
+try {
+  const kaynak = JSON.parse(fs.readFileSync(P("05_Kaynak_DB/sozluk-anlamlar.json"), "utf8"));
+  const liste = Array.isArray(kaynak) ? kaynak : kaynak.kelimeler ?? [];
+  for (const k of liste) {
+    if (!k.anlam) continue;
+    kayitliKokler.add(sadelestir(k.transkripsiyon || k.id));
+    if (k.denetleyen === "insan") denetlenmis.add(sadelestir(k.transkripsiyon || k.id));
+  }
+} catch { /* henüz denetim uygulanmamış */ }
+
+// Ekli biçimleri köke göre öbekle.
+const obekler = new Map();
+const yalin = [];
+for (const k of yinelemesiz.values()) {
+  const c = cozumle(k.transkripsiyon);
+  if (!c) { yalin.push(k); continue; }
+  if (!obekler.has(c.kok)) obekler.set(c.kok, []);
+  obekler.get(c.kok).push({ kelime: k, coz: c });
+}
+
+// Kök kayıtlıysa ekli biçimlerin tamamı düşer — "bodun yeterli".
+// Kök HİÇBİR YERDE yoksa biçimlerin hepsini atmak sözcüğü tümden
+// kaybettirir: korpus "kel-" fiilini yalın hâlde hiç geçirmiyor, yalnız
+// kelti / kelip / kelmedi diye geçiyor. O yüzden öbekten EN SIK biçim
+// temsilci olarak kuyrukta kalır, gerisi düşer: 10 soru yerine 1.
+// Kök korpusta yalın hâlde de geçiyorsa (bodun, kagan) zaten kuyrukta:
+// ekli biçimine ayrıca gerek yok.
+const yalinKokler = new Set(yalin.map((k) => sadelestir(k.transkripsiyon)));
+
+const cekimliler = [];
+const temsilciler = new Set();
+for (const [kok, uyeler] of obekler) {
+  uyeler.sort((a, b) => b.kelime.siklik - a.kelime.siklik);
+  const kokVar = kayitliKokler.has(kok) || yalinKokler.has(kok);
+  for (const [sira, u] of uyeler.entries()) {
+    if (!kokVar && sira === 0) { temsilciler.add(u.kelime); continue; }
+    const kokAnlami = enYetkili(ataHarita.get(kok));
+    cekimliler.push({
+      transcription: u.kelime.transkripsiyon,
+      runic: u.kelime.runik,
+      frequency: u.kelime.siklik,
+      cozumleme: `${kok} + ${u.coz.ek}`,
+      ekTipi: u.coz.tip,
+      kokAnlami: kokAnlami?.anlam ?? null,
+      kaynak: kokAnlami?.kaynak ?? null,
+      dusmeSebebi: kokVar ? "kök zaten kayıtlı" : `kök "${kok}" için ${uyeler[0].kelime.transkripsiyon} soruldu`,
+    });
+  }
+}
+const istek = [...yalin, ...temsilciler]
+  .filter((k) => !denetlenmis.has(sadelestir(k.transkripsiyon)))
+  .sort((a, b) => b.siklik - a.siklik);
+const kuyruk = istek
   .map((k) => {
     const d = dizeler.get(k.gectigiDizeler[0]);
     return {
@@ -214,15 +385,37 @@ const istek = kelimeler
     };
   });
 
-const cikti = P("docs/sozluk-anlam-bekleyenler.json");
-fs.writeFileSync(cikti, JSON.stringify(istek, null, 2) + "\n", "utf8");
-const onerili = istek.filter((x) => x.oneri);
+fs.writeFileSync(P("docs/sozluk-anlam-bekleyenler.json"), JSON.stringify(kuyruk, null, 2) + "\n", "utf8");
+cekimliler.sort((a, b) => b.frequency - a.frequency);
+fs.writeFileSync(
+  P("docs/sozluk-cekimli-bicimler.json"),
+  JSON.stringify(
+    {
+      aciklama:
+        "Kuyruğa alınmayan biçimler: sözlükte başsözcük değil, bilinen bir " +
+        "kök + bilinen bir eke ayrılıyor. Kökün anlamı yeterli. " +
+        "Yanlış ayrılmış bir biçim görürsen söyle, kuyruğa geri alınır.",
+      sayi: cekimliler.length,
+      bicimler: cekimliler,
+    },
+    null,
+    2
+  ) + "\n",
+  "utf8"
+);
+
+const onerili = kuyruk.filter((x) => x.oneri);
 const tamSayi = onerili.filter((x) => x.oneri.eslesme === "tam").length;
-console.log(`sıklık >= ${esik} | ${istek.length} kelime → docs/sozluk-anlam-bekleyenler.json`);
+const cekimSayi = cekimliler.filter((x) => x.ekTipi === "çekim").length;
+console.log(`sıklık >= ${esik} | ${kuyruk.length} kelime → docs/sozluk-anlam-bekleyenler.json`);
+console.log(
+  `ekli biçim     : ${cekimliler.length} kayıt kuyruk dışı ` +
+    `(${cekimSayi} çekim, ${cekimliler.length - cekimSayi} yapım) → docs/sozluk-cekimli-bicimler.json`
+);
 const esereGore = {};
 for (const x of onerili) esereGore[x.oneri.eser] = (esereGore[x.oneri.eser] ?? 0) + 1;
 console.log(
-  `ön dolgu       : ${onerili.length} / ${istek.length} kelimede ` +
+  `ön dolgu       : ${onerili.length} / ${kuyruk.length} kelimede ` +
     `(${tamSayi} tam, ${onerili.length - tamSayi} kök+ek)  — katman "kitap"`
 );
 console.log(`  kaynağa göre : ${Object.entries(esereGore).map(([e, n]) => `${e} ${n}`).join(" · ")}`);
