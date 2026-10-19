@@ -553,10 +553,11 @@
     },
     "yılan": {
       "sonuc": "dogru",
-      "gorulenRunik": "𐰘𐰃𐰞𐰣",
-      "kaynak": "00_Kaynaklar/imla_kurallari_13_madde.md",
+      "gorulenRunik": "𐰖𐰃𐰞𐰣",
+      "kaynak": "Çavdar, KökTürük Abacasınıŋ Yazım Kuralları, md. 3",
+      "not": "md.16 (söz başı yı → ince y) kaldırıldıktan sonraki kalın-y biçimi onaylandı. Önceki mühür: 𐰘𐰃𐰞𐰣",
       "denetleyen": "insan",
-      "tarih": "2026-10-18T23:25:56.294Z"
+      "tarih": "2026-10-19T01:16:36.452Z"
     },
     "arı": {
       "sonuc": "dogru",
@@ -738,5 +739,5 @@
       "tarih": "2026-10-18T23:26:35.912Z"
     }
   },
-  "guncelleme": "2026-10-18"
+  "guncelleme": "2026-10-19T01:16:36.452Z"
 }

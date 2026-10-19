@@ -1,6 +1,14 @@
 # Kaynak çatışması: ş sesinin tamgası
 
-**Durum:** açık karar bekliyor. Motor şu an Çavdar'ı izliyor.
+**Durum: KARARA BAĞLANDI — seçenek B (Çavdar).** 19.10.2026, proje sahibi.
+
+> *"Kelime başında bazı kalın y olması gereken yerde ince y olması ve kelime
+> sonunda kalın n olması gerekirken ince n kullanılması gibi istisnalardan.
+> Çavdar'a göre kalsın."*
+
+Yani korpustaki ince ş, **kural değil yazıt istisnasıdır** — tıpkı söz başı
+ince y (md. 16 bu yüzden kaldırıldı) ve söz sonu ince n gibi. Üretim kuralı
+Çavdar md. 10'dur: ş her yerde 𐱁.
 
 ## Çatışma
 
@@ -40,7 +48,21 @@ ayırt edilemez hâle gelir (eş yazım çatışması).
   yazımı kullanılıyor, üretilen yazım değil, yani çakışma yok.
 - **C — İkisini de doğru say.** Alıştırmada her iki yazım kabul edilir.
 
-**Öneri: B.** Gündelik modül bugünün Türkçesini yazmak için; orada tek ve
+**Seçilen: B.** Gündelik modül bugünün Türkçesini yazmak için; orada tek ve
 tutarlı bir kural gerekir. Kitabe tarafı zaten korpus yazımını kullanıyor,
 üretim yapmıyor — yani iki taraf birbirine karışmıyor. C ise "doğru cevap"
-kavramını bulanıklaştırır.
+kavramını bulanıklaştırırdı.
+
+## Uygulamada ne oluyor
+
+Motor zaten B'yi izliyordu; karar bunu kalıcı kıldı. Gündelik modülde ş'li
+13 sözcüğün 12'si kuraldan üretiliyor ve hepsi 𐱁 alıyor.
+
+Tek çakışma **beş**: yazıtlarda tanıklı ve orada 𐰋**𐰾** geçiyor, kuraldan
+𐰋**𐱁** çıkıyor. Burada *korpus esastır* kuralı işliyor — ekranda tanıklı
+biçim gösteriliyor, altında da şu not çıkıyor:
+
+> Kurallardan 𐰋𐱁 çıkıyor, ama yazıtta 𐰋𐰾 geçiyor — tanıklı biçim esastır.
+
+Yani öğrenci iki tamgayı da görüyor ama hangisinin kural hangisinin yazıt
+tanığı olduğunu biliyor. Ek bir iş gerekmiyor.

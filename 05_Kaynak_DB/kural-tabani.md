@@ -609,6 +609,29 @@ Söz başında bulunmayan ünsüzlerin istisnaları: gü/gu (soru edatı), lagz�
 - **Güven:** yüksek
 - **Etiketler:** istisna, söz başı
 
+### F8 — ş tamgası tek biçimdir (üretim kuralı)
+
+/ş/ için kalın-ince ayrımı **yoktur**: her sözcükte 𐱁 yazılır. Yazıtlarda ince sözcüklerde 𐰾 ile de yazıldığı görülür (korpusta 320 geçiş); bu bir kural değil, yazıt yazımındaki düzensizliktir — söz başı ince y ve söz sonu ince n gibi.
+
+| | kural (üretim) | yazıt (okuma) |
+|---|---|---|
+| taş | 𐱃𐱁 | 𐱃𐱁 |
+| beş | 𐰋𐱁 | 𐰋𐰾 |
+
+Tanıklı sözcüklerde ekranda yazıt biçimi gösterilir ve farkı belirten not basılır; üretim her zaman 𐱁 verir. Ayrıntı: `docs/kaynak-catismasi-s-sh.md`.
+
+- **Kaynak:** Çavdar md. 10 (karar: proje sahibi, 19.10.2026); karşı tanık: korpus `05_Kaynak_DB/orhun-db-v1.json`
+- **Güven:** yüksek (kaynak çatışması açıkça karara bağlandı)
+- **Etiketler:** istisna, karar, ş
+
+### F9 — Söz başı y ve söz sonu n: kalın biçim esastır (üretim kuralı)
+
+Kalın sıradan sözcüklerde söz başı /y/ **kalın** (𐰖), söz sonu /n/ **kalın** (𐰣) yazılır. Yazıtlarda bu konumlarda ince biçim (𐰘 / 𐰤) geçtiği yerler vardır; bunlar kural değil istisnadır. Bu yüzden md. 16 (söz başı yı → ince y) üretimden kaldırıldı: *yılan* 𐰖𐰃𐰞𐰣.
+
+- **Kaynak:** Çavdar md. 3 (karar: proje sahibi); karşı tanık: korpus
+- **Güven:** yüksek
+- **Etiketler:** istisna, karar, söz başı, söz sonu
+
 ## Yaygın Hatalar
 
 | ID | Hatalı | Doğrusu | Kaynak |
