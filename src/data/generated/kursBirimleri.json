@@ -1,0 +1,586 @@
+{
+  "uyari": "Tekin 1998'den seçilmiş dereceli kurs birimleri. Okunuş ve çeviri kitaptan (katman \"kitap\", sayfa atıflı); tamga katmanı korpusta doğrulandı — dizenin içinde birebir geçmeyen birim alınmadı. Kurs belgeleri kaynak olarak kullanılmamıştır.",
+  "kaynak": "Tekin 1998, Orhon Yazıtları (KT s. 34-55, BK s. 56-81, TY s. 82-96)",
+  "katman": "kitap",
+  "birimler": [
+    {
+      "id": "BK-T-4",
+      "kademe": "tamlama",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-D-19"
+      ],
+      "kelimeSayisi": 2,
+      "runik": "𐰇𐱅𐰜𐰤 : 𐰖𐰃𐱁",
+      "okunus": "ötüken yış",
+      "ceviri": "Ötüken dağları",
+      "kaynaklar": [
+        "Tekin 1998, BK K 3, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-T-4",
+      "kademe": "tamlama",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-G-6"
+      ],
+      "kelimeSayisi": 2,
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣",
+      "okunus": "türk bodun",
+      "ceviri": "Türk halkı",
+      "kaynaklar": [
+        "Tekin 1998, KT D 27, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-T-5",
+      "kademe": "tamlama",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-26"
+      ],
+      "kelimeSayisi": 2,
+      "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤",
+      "okunus": "kül tigin",
+      "ceviri": "Kül Tigin",
+      "kaynaklar": [
+        "Tekin 1998, KT D 26, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "bitişik/ünlü"
+    },
+    {
+      "id": "TY-T-1",
+      "kademe": "tamlama",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-B-1"
+      ],
+      "kelimeSayisi": 2,
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸",
+      "okunus": "bilge tonyukuk",
+      "ceviri": "Bilge Tonyukuk",
+      "kaynaklar": [
+        "Tekin 1998, TY B 1, s. 82-96 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "TY-T-2",
+      "kademe": "tamlama",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-B-1"
+      ],
+      "kelimeSayisi": 2,
+      "runik": "𐱃𐰉𐰍𐰲 : 𐰃𐰠𐰭𐰀",
+      "okunus": "tabgaç ilinge",
+      "ceviri": "Çin ilinde",
+      "kaynaklar": [
+        "Tekin 1998, TY B 1, s. 82-96 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "TY-T-4",
+      "kademe": "tamlama",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-G-2"
+      ],
+      "kelimeSayisi": 2,
+      "runik": "𐱃𐰆𐰴𐰔 : 𐰆𐰍𐰔",
+      "okunus": "tokuz oguz",
+      "ceviri": "Dokuz Oğuz",
+      "kaynaklar": [
+        "Tekin 1998, TY G 2, s. 82-96 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "BK-T-2",
+      "kademe": "tamlama",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-D-1"
+      ],
+      "kelimeSayisi": 3,
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣",
+      "okunus": "türk bilge kagan",
+      "ceviri": "Türk Bilge Hakan",
+      "kaynaklar": [
+        "Tekin 1998, BK K 1, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-T-1",
+      "kademe": "tamlama",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-1"
+      ],
+      "kelimeSayisi": 3,
+      "runik": "𐰇𐰔𐰀 : 𐰚𐰇𐰚 : 𐱅𐰭𐰼𐰃",
+      "okunus": "üze kök teŋri",
+      "ceviri": "üstte mavi gök",
+      "kaynaklar": [
+        "Tekin 1998, KT D 1, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-T-2",
+      "kademe": "tamlama",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-1"
+      ],
+      "kelimeSayisi": 3,
+      "runik": "𐰽𐰺𐰀 : 𐰖𐰍𐰔 : 𐰘𐰼",
+      "okunus": "asra yağız yer",
+      "ceviri": "altta yağız yer",
+      "kaynaklar": [
+        "Tekin 1998, KT D 1, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "TY-T-3",
+      "kademe": "tamlama",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-G-2"
+      ],
+      "kelimeSayisi": 3,
+      "runik": "𐰔𐰴𐰪𐰀 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣",
+      "okunus": "azkınya türk bodun",
+      "ceviri": "azıcık Türk halkı",
+      "kaynaklar": [
+        "Tekin 1998, TY G 2, s. 82-96 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "BK-T-3",
+      "kademe": "tamlama",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-K-1"
+      ],
+      "kelimeSayisi": 4,
+      "runik": "𐱃𐰸𐰆𐰔 : 𐰆𐰍𐰔 : 𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃",
+      "okunus": "tokuz oguz begleri bodunı",
+      "ceviri": "Dokuz Oğuz beyleri (ve) halkı",
+      "kaynaklar": [
+        "Tekin 1998, BK K 1, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-T-3",
+      "kademe": "tamlama",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-1"
+      ],
+      "kelimeSayisi": 4,
+      "runik": "𐰚𐰃𐰤 : 𐰺𐰀 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃",
+      "okunus": "ekin ara kişi oğlı",
+      "ceviri": "ikisinin arasında insanoğulları",
+      "kaynaklar": [
+        "Tekin 1998, KT D 1, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "ünlü"
+    },
+    {
+      "id": "KT-C-5",
+      "kademe": "cümlecik",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-26"
+      ],
+      "kelimeSayisi": 4,
+      "runik": "𐰃𐰤𐰢 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰔𐰠𐱁𐰓𐰢𐰔",
+      "okunus": "inim költigin birle sözleşdimiz",
+      "ceviri": "Kardeşim Kül Tigin ile konuşup anlaştık",
+      "kaynaklar": [
+        "Tekin 1998, KT D 26, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "BK-C-4",
+      "kademe": "cümlecik",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-D-5"
+      ],
+      "kelimeSayisi": 5,
+      "runik": "𐰉𐰆𐰨𐰀 : 𐰉𐰆𐰑𐰣 : 𐰚𐰠𐰯𐰤 : 𐰽𐰃𐰍𐱃𐰀𐰢𐰾 : 𐰖𐰆𐰍𐰞𐰀𐰢𐰾",
+      "okunus": "bunça bodun kelipen sıgtamış yuglamış",
+      "ceviri": "bunca halklar gelerek ağlamışlar, yas tutmuşlar",
+      "kaynaklar": [
+        "Tekin 1998, BK D 5, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-C-2",
+      "kademe": "cümlecik",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-1"
+      ],
+      "kelimeSayisi": 5,
+      "runik": "𐰚𐰃𐰤 : 𐰺𐰀 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰴𐰃𐰞𐰣𐰢𐰾",
+      "okunus": "ekin ara kişi oğlı kılınmış",
+      "ceviri": "ikisinin arasında insanoğulları yaratılmış",
+      "kaynaklar": [
+        "Tekin 1998, KT D 1, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "ünlü"
+    },
+    {
+      "id": "TY-C-2",
+      "kademe": "cümlecik",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-B-1"
+      ],
+      "kelimeSayisi": 5,
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐱃𐰉𐰍𐰲𐰴𐰀 : 𐰝𐰇𐰼𐰼 : 𐰼𐱅𐰃",
+      "okunus": "türk bodun tabgaçka körür erti",
+      "ceviri": "Türk halkı (o zaman) Çin'e bağımlı idi",
+      "kaynaklar": [
+        "Tekin 1998, TY B 1, s. 82-96 (bölüm)",
+        "Ata 2011, TY B 1-7, s. 174-177"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "BK-C-2",
+      "kademe": "cümlecik",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-K-2"
+      ],
+      "kelimeSayisi": 6,
+      "runik": "𐰦𐰀 : 𐰃𐰲𐰼𐰚𐰃 : 𐰉𐰆𐰑𐰣 : 𐰴𐰆𐰯 : 𐰢𐰭𐰀 : 𐰚𐰇𐰼𐰼",
+      "okunus": "anda içreki bodun kop maŋa körür",
+      "ceviri": "bu sınırlar içindeki (bütün) halklar hep bana tabidir",
+      "kaynaklar": [
+        "Tekin 1998, BK K 2, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "TY-C-3",
+      "kademe": "cümlecik",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-B-2"
+      ],
+      "kelimeSayisi": 6,
+      "runik": "𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰴𐰣𐰃𐰤 : 𐰉𐰆𐰞𐰢𐰘𐰤 : 𐱃𐰉𐰍𐰲𐰑𐰀 : 𐰑𐰺𐰡𐰃",
+      "okunus": "türk bodun kanın bulmayın tabgaçda adrıldı",
+      "ceviri": "Türk halkı, (kendi) hanını bulmayınca, Çin'den ayrıldı",
+      "kaynaklar": [
+        "Tekin 1998, TY B 2, s. 82-96 (bölüm)",
+        "Ata 2011, TY B 1-7, s. 174-177"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "TY-C-4",
+      "kademe": "cümlecik",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-G-1"
+      ],
+      "kelimeSayisi": 6,
+      "runik": "𐰚𐰘𐰚 : 𐰘𐰃𐰘𐰇 : 𐱃𐰉𐰽𐰍𐰣 : 𐰘𐰘𐰇 : 𐰆𐰞𐰺𐰆𐰺 : 𐰼𐱅𐰢𐰔",
+      "okunus": "keyik yiyü tabışgan yeyü olurur ertimiz",
+      "ceviri": "Yaban hayvanları yiyerek, tavşan yiyerek yaşıyorduk",
+      "kaynaklar": [
+        "Tekin 1998, TY G 1, s. 82-96 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "ünlü"
+    },
+    {
+      "id": "TY-C-5",
+      "kademe": "cümlecik",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-G-2"
+      ],
+      "kelimeSayisi": 6,
+      "runik": "𐱃𐰆𐰴𐰔 : 𐰆𐰍𐰔 : 𐰉𐰆𐰑𐰣 : 𐰇𐰔𐰀 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐱃𐰃",
+      "okunus": "tokuz oguz bodun üze kagan olurtı",
+      "ceviri": "Dokuz Oğuz halkı üzerine (bir) kağan tahta çıktı",
+      "kaynaklar": [
+        "Tekin 1998, TY G 2, s. 82-96 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "TY-C-6",
+      "kademe": "cümlecik",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY2-D-2"
+      ],
+      "kelimeSayisi": 6,
+      "runik": "𐰶𐰃𐰔𐰞 : 𐰴𐰣𐰢 : 𐱅𐰝𐱅𐰃 : 𐰴𐰺𐰀 : 𐱅𐰼𐰢 : 𐰘𐰇𐰏𐰼𐱅𐰃",
+      "okunus": "kızıl kanım tökti kara terim yögrti",
+      "ceviri": "Kızıl kanımı akıttım, kara terimi döktüm",
+      "kaynaklar": [
+        "Tekin 1998, TY2 D 2, s. 82-96 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-C-1",
+      "kademe": "cümlecik",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-1"
+      ],
+      "kelimeSayisi": 7,
+      "runik": "𐰇𐰔𐰀 : 𐰚𐰇𐰚 : 𐱅𐰭𐰼𐰃 : 𐰽𐰺𐰀 : 𐰖𐰍𐰔 : 𐰘𐰼 : 𐰴𐰃𐰞𐰦𐰸𐰑𐰀",
+      "okunus": "üze kök teŋri asra yağız yer kılıntukda",
+      "ceviri": "Üstte mavi gök, altta yağız yer yaratıldığında",
+      "kaynaklar": [
+        "Tekin 1998, KT D 1, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "ünlü+ünsüz"
+    },
+    {
+      "id": "KT-C-4",
+      "kademe": "cümlecik",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-27"
+      ],
+      "kelimeSayisi": 7,
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰲𐰇𐰤 : 𐱅𐰇𐰤 : 𐰆𐰑𐰢𐰑𐰢 : 𐰚𐰇𐰤𐱅𐰔 : 𐰆𐰞𐰺𐰢𐰑𐰢",
+      "okunus": "türk bodun üçün tün udımadım küntüz olurmadım",
+      "ceviri": "Türk halkı için gece uyumadım, gündüz oturmadım",
+      "kaynaklar": [
+        "Tekin 1998, KT D 27, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "hoşgörülü %86"
+    },
+    {
+      "id": "TY-C-1",
+      "kademe": "cümlecik",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-B-1"
+      ],
+      "kelimeSayisi": 7,
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐱃𐰉𐰍𐰲 : 𐰃𐰠𐰭𐰀 : 𐰶𐰠𐰦𐰢",
+      "okunus": "bilge tonyukuk ben özüm tabgaç ilinge kılıntım",
+      "ceviri": "Bilge Tonyukuk, ben kendim, Çin yönetimi sırasında doğdum",
+      "kaynaklar": [
+        "Tekin 1998, TY B 1, s. 82-96 (bölüm)",
+        "Ata 2011, TY B 1-7, s. 174-177"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "ünlü+ünsüz"
+    },
+    {
+      "id": "BK-C-3",
+      "kademe": "cümlecik",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-K-2"
+      ],
+      "kelimeSayisi": 8,
+      "runik": "𐱅𐰇𐰼𐰜 : 𐰴𐰍𐰣 : 𐰇𐱅𐰜𐰤 : 𐰘𐰃𐱁 : 𐰆𐰞𐰺𐰽𐰺 : 𐰃𐰠𐱅𐰀 : 𐰉𐰆𐰭 : 𐰖𐰸",
+      "okunus": "türk kagan ötüken yış olursar ilte buŋ yok",
+      "ceviri": "Türk hakanı Ötüken dağlarında oturursa ülkede sıkıntı olmaz",
+      "kaynaklar": [
+        "Tekin 1998, BK K 2, s. 56-81 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "BK-C-5",
+      "kademe": "cümlecik",
+      "yazit": "Bilge Kağan",
+      "dizeler": [
+        "BK-D-6"
+      ],
+      "kelimeSayisi": 9,
+      "runik": "𐰋𐰏𐰠𐰼𐰃 : 𐰉𐰆𐰑𐰣𐰃 : 𐱅𐰇𐰔𐰾𐰔 : 𐰇𐰲𐰇𐰤 : 𐱃𐰉𐰍𐰲 : 𐰉𐰆𐰑𐰣 : 𐱅𐰋𐰠𐰏𐰃𐰤 : 𐰚𐰇𐰼𐰠𐰏 : 𐰇𐰲𐰇𐰤",
+      "okunus": "begleri bodunı tüzsüz üçün tabgaç bodun tebligin kürlüg üçün",
+      "ceviri": "Beyleri (ve) halkı itaatkâr olmadığı için, Çin halkı hilekâr (ve) sahtekâr olduğu için",
+      "kaynaklar": [
+        "Tekin 1998, BK D 6, s. 56-81 (bölüm)",
+        "Ata 2011, BK D 2-9, s. 159-162"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-C-3",
+      "kademe": "cümlecik",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-1"
+      ],
+      "kelimeSayisi": 10,
+      "runik": "𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃𐰦𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰯𐰀𐰢 : 𐰉𐰆𐰢𐰣 : 𐰴𐰍𐰣 : 𐰃𐰾𐱅𐰢𐰃 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐱁",
+      "okunus": "kişi oğlında üze eçim apam bumın kagan istemi kagan olurmış",
+      "ceviri": "İnsanoğullarının üzerine (de) atalarım dedelerim Bumın Hakan (ve) İştemi Hakan (hükümdar olarak) tahta oturmuş",
+      "kaynaklar": [
+        "Tekin 1998, KT D 1, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "tam"
+    },
+    {
+      "id": "KT-P-2",
+      "kademe": "paragraf",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-26",
+        "KT-D-27"
+      ],
+      "kelimeSayisi": 20,
+      "runik": "𐰃𐰤𐰢 : 𐰚𐰇𐰠𐱅𐰃𐰏𐰤 : 𐰋𐰃𐰼𐰠𐰀 : 𐰾𐰇𐰔𐰠𐱁𐰓𐰢𐰔 : 𐰴𐰭𐰢𐰔 : 𐰲𐰢𐰔 : 𐰴𐰔𐰍𐰣𐰢𐰾 : 𐰉𐰆𐰑𐰣 : 𐱃𐰃 : 𐰚𐰇𐰾𐰃 : 𐰖𐰸 : 𐰉𐰆𐰞𐰢𐰔𐰆𐰤 : 𐱅𐰃𐰘𐰤 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣 : 𐰇𐰲𐰇𐰤 : 𐱅𐰇𐰤 : 𐰆𐰑𐰢𐰑𐰢 : 𐰚𐰇𐰤𐱅𐰔 : 𐰆𐰞𐰺𐰢𐰑𐰢",
+      "okunus": "inim költigin birle sözleşdimiz: kaŋımız eçimiz kazganmış bodun atı küsi yok bolmazun tiyin, türk bodun üçün tün udımadım, küntüz olurmadım",
+      "ceviri": "Kardeşim Kül Tigin ile konuşup anlaştık: Babamızın (ve) amcamızın kazanmış oldukları halkın adı sanı yok olmasın diye Türk halkı için gece uyumadım, gündüz oturmadım.",
+      "kaynaklar": [
+        "Tekin 1998, KT D 26-27, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "hoşgörülü %95"
+    },
+    {
+      "id": "TY-P-1",
+      "kademe": "paragraf",
+      "yazit": "Tonyukuk",
+      "dizeler": [
+        "TY1-B-1",
+        "TY1-B-2",
+        "TY1-B-3"
+      ],
+      "kelimeSayisi": 44,
+      "runik": "𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰋𐰤 : 𐰇𐰔𐰢 : 𐱃𐰉𐰍𐰲 : 𐰃𐰠𐰭𐰀 : 𐰶𐰠𐰦𐰢 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐱃𐰉𐰍𐰲𐰴𐰀 : 𐰝𐰇𐰼𐰼 : 𐰼𐱅𐰃 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰴𐰣𐰃𐰤 : 𐰉𐰆𐰞𐰢𐰘𐰤 : 𐱃𐰉𐰍𐰲𐰑𐰀 : 𐰑𐰺𐰡𐰃 : 𐰴𐰣𐰞𐰦𐰃 : 𐰴𐰣𐰃𐰤 : 𐰸𐰆𐰑𐰯 : 𐱃𐰉𐰍𐰲𐰴𐰀 : 𐰖𐰣𐰀 : 𐰃𐰲𐰚𐰓𐰃 : 𐱅𐰭𐰼𐰃 : 𐰨𐰀 : 𐱅𐰢𐰾 : 𐰼𐰨 : 𐰴𐰣 : 𐰋𐰼𐱅𐰢 : 𐰴𐰣𐰭𐰤 : 𐰸𐰆𐰑𐰯 : 𐰃𐰲𐰚𐰓𐰭 : 𐰃𐰲𐰚𐰓𐰭 : 𐰇𐰲𐰤 : 𐱅𐰭𐰼𐰃 : 𐰇𐰠𐱅𐰢𐰾 : 𐰼𐰨 : 𐱅𐰇𐰼𐰚 : 𐰉𐰆𐰑𐰣 : 𐰇𐰠𐱅𐰃 : 𐰞𐰴𐰦𐰃 : 𐰖𐰸 : 𐰉𐰆𐰡𐰃",
+      "okunus": "bilge tonyukuk ben özüm tabgaç ilinge kılıntım; türk bodun tabgaçka körür erti. türk bodun kanın bulmayın tabgaçda adrıldı, kanlandı; kanın kodup tabgaçka yana içikdi. teŋri ança timiş erinç: kan bertim; kanıŋın kodup içikdiŋ. içikdük üçün teŋri ölütmüş erinç; türk bodun ölti, alkındı, yok boldı.",
+      "ceviri": "Bilge Tonyukuk, ben kendim, Çin yönetimi sırasında doğdum. Türk halkı (o zaman) Çin'e bağımlı idi. Türk halkı, (kendi) hanını bulmayınca, Çin'den ayrıldı; han sahibi oldu; (fakat) hanını bırakıp Çin'e yeniden bağımlı oldu. Tanrı şöyle demiş olmalı: '(Sana) han verdim, hanını bırakıp (yine) bağımlı oldun.' (Türk halkı yeniden) bağımlı olduğu için Tanrı 'Öl!' demiş olmalı. Türk halkı öldü, mahvoldu, yok oldu.",
+      "kaynaklar": [
+        "Tekin 1998, TY B 1-3, s. 82-96 (bölüm)",
+        "Ata 2011, TY B 1-7, s. 174-177"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "ünlü+ünsüz"
+    },
+    {
+      "id": "KT-P-1",
+      "kademe": "paragraf",
+      "yazit": "Köl Tigin",
+      "dizeler": [
+        "KT-D-1",
+        "KT-D-2"
+      ],
+      "kelimeSayisi": 50,
+      "runik": "𐰇𐰔𐰀 : 𐰚𐰇𐰚 : 𐱅𐰭𐰼𐰃 : 𐰽𐰺𐰀 : 𐰖𐰍𐰔 : 𐰘𐰼 : 𐰴𐰃𐰞𐰦𐰸𐰑𐰀 : 𐰚𐰃𐰤 : 𐰺𐰀 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃 : 𐰴𐰃𐰞𐰣𐰢𐰾 : 𐰚𐰃𐰾𐰃 : 𐰆𐰍𐰞𐰃𐰦𐰀 : 𐰇𐰔𐰀 : 𐰲𐰃𐰢 : 𐰯𐰀𐰢 : 𐰉𐰆𐰢𐰣 : 𐰴𐰍𐰣 : 𐰃𐰾𐱅𐰢𐰃 : 𐰴𐰍𐰣 : 𐰆𐰞𐰺𐰢𐱁 : 𐰆𐰞𐰺𐰯𐰣 : 𐱅𐰇𐰼𐰜 : 𐰉𐰆𐰑𐰣𐰭 : 𐰃𐰠𐰃𐰤 : 𐱅𐰇𐰼𐰇𐰾𐰃𐰤 : 𐱃𐰆𐱃𐰀 : 𐰋𐰃𐰼𐰢𐰾 : 𐰃𐱅𐰃 : 𐰋𐰃𐰼𐰢𐰾 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭 : 𐰴𐰆𐰯 : 𐰖𐰍𐰃 : 𐰼𐰢𐰾 : 𐰾𐰇 : 𐰾𐰇𐰠𐰯𐰤 : 𐱅𐰇𐰼𐱅 : 𐰉𐰆𐰞𐰭𐰑𐰴𐰃 : 𐰉𐰆𐰑𐰣𐰍 : 𐰴𐰆𐰯 : 𐰞𐰢𐰾 : 𐰴𐰆𐰯 : 𐰉𐰔 : 𐰴𐰃𐰞𐰢𐰾 : 𐰉𐱁𐰞𐰍𐰍 : 𐰘𐰜𐰦𐰼𐰢𐰾 : 𐱅𐰃𐰔𐰠𐰏𐰏 : 𐰾𐰇𐰚𐰇𐰼𐰢𐰾",
+      "okunus": "üze kök teŋri asra yağız yer kılıntukda, ekin ara kişi oğlı kılınmış. kişi oğlında üze eçim apam bumın kagan istemi kagan olurmış, olurupan türk bodunıŋ ilin törüsin tuta birmiş, iti birmiş. tört boluŋ kop yağı ermiş, sü sülüpen tört boluŋdakı bodunıg kop almış, kop baz kılmış, başlıgıg yükündürmiş, tizligig sökürmiş.",
+      "ceviri": "Üstte mavi gök, altta yağız yer yaratıldığında, ikisinin arasında insanoğulları yaratılmış. İnsanoğullarının üzerine (de) atalarım dedelerim Bumın Hakan (ve) İştemi Hakan (hükümdar olarak) tahta oturmuş. Tahta oturarak Türk halkının devletini (ve) yasalarını yönetivermiş, düzenleyivermiş. Dört bucak hep düşman imiş. Ordular sevk ederek dört bucaktaki halkları hep almış, (kendilerine) bağımlı kılmışlar. Başlılara baş eğdirmiş, dizlilere diz çöktürmüşler.",
+      "kaynaklar": [
+        "Tekin 1998, KT D 1-3, s. 34-55 (bölüm)"
+      ],
+      "katman": "kitap",
+      "denetleyen": null,
+      "runikDogrulandi": true,
+      "hizalama": "hoşgörülü %94"
+    }
+  ]
+}

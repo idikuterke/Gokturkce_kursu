@@ -18,6 +18,7 @@ import { AuthModal } from './components/AuthModal';
 import { uretilmisKusaklar } from './data/generated/kusakKur';
 import { gundelikKusaklar } from './data/generated/gundelikKusak';
 import { sayiKusaklar } from './data/generated/sayiKusak';
+import { kursBirimKusaklari } from './data/generated/kursBirimleri';
 
 // Acilista yalnizca "Ogren" sekmesi gorunur. Digerleri ayri parcalara
 // bolunup ilk acildiklarinda yuklenir; boylece recharts gibi agir
@@ -77,6 +78,9 @@ export const App: React.FC = () => {
   // Sayı modülü gündelikten SONRA, kitabeden önce: Orhon sayı mantığı
   // (eki yegirmi = 12) bilinmeden kitabedeki tarihler yanlış okunur.
   const [sayiUniteleri, setSayiUniteleri] = useState<typeof UNITS>([]);
+  // Dereceli yazıt birimleri yolun EN SONUNDA: tamlama → cümlecik →
+  // paragraf. Tek sözcük okumayı bitiren buradan gerçek pasajlara geçer.
+  const [kursBirimleri, setKursBirimleri] = useState<typeof UNITS>([]);
 
   useEffect(() => {
     let iptal = false;
@@ -89,6 +93,9 @@ export const App: React.FC = () => {
     sayiKusaklar()
       .then((u) => { if (!iptal) setSayiUniteleri(u); })
       .catch(() => { /* sayı modülü isteğe bağlı */ });
+    kursBirimKusaklari()
+      .then((u) => { if (!iptal) setKursBirimleri(u); })
+      .catch(() => { /* dereceli birimler isteğe bağlı */ });
     return () => { iptal = true; };
   }, []);
 
@@ -104,6 +111,8 @@ export const App: React.FC = () => {
   //                 kitabedeki her tarih yanlış okunur.
   //   4) KİTABE   — unit-5 (gramer + kitabe çözümleme) ve korpustan
   //                 üretilen kuşaklar.
+  //   5) BİRİMLER — Tekin 1998'den dereceli gerçek pasajlar:
+  //                 tamlama → cümlecik → paragraf.
   //
   // Önceki sıra gündelik'i en başa koyuyordu: harfleri görmeden sözcük
   // yazdırıyordu. Alfabe önce gelmeli.
@@ -123,9 +132,10 @@ export const App: React.FC = () => {
         ...gundelikUniteler,
         ...sayiUniteleri,
         ...kitabeGirisi,
-        ...uretilmisUniteler
+        ...uretilmisUniteler,
+        ...kursBirimleri
       ].map((u, i) => ({ ...u, number: i + 1 })),
-    [alfabeUniteleri, gundelikUniteler, sayiUniteleri, kitabeGirisi, uretilmisUniteler]
+    [alfabeUniteleri, gundelikUniteler, sayiUniteleri, kitabeGirisi, uretilmisUniteler, kursBirimleri]
   );
 
   const handleTabChange = (tab: string) => {
