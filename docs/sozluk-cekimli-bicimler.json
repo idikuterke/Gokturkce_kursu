@@ -1,6 +1,6 @@
 {
   "aciklama": "Kuyruğa alınmayan biçimler: sözlükte başsözcük değil, bilinen bir kök + bilinen bir eke ayrılıyor. Kökün anlamı yeterli. Yanlış ayrılmış bir biçim görürsen söyle, kuyruğa geri alınır.",
-  "sayi": 139,
+  "sayi": 132,
   "bicimler": [
     {
       "transcription": "eRMiŞ",
@@ -483,16 +483,6 @@
       "dusmeSebebi": "kök zaten kayıtlı"
     },
     {
-      "transcription": "eRiN",
-      "runic": "𐰼𐰤",
-      "frequency": 5,
-      "cozumleme": "er + in",
-      "ekTipi": "çekim",
-      "kokAnlami": "erkek, yiğit, asker, er",
-      "kaynak": "Tekin 2003, s. 243",
-      "dusmeSebebi": "kök zaten kayıtlı"
-    },
-    {
       "transcription": "KeLTiMiZ",
       "runic": "𐰚𐰠𐱅𐰢𐰔",
       "frequency": 5,
@@ -583,36 +573,6 @@
       "dusmeSebebi": "kök zaten kayıtlı"
     },
     {
-      "transcription": "ÖKÜŞ",
-      "runic": "𐰜𐰇𐰾",
-      "frequency": 5,
-      "cozumleme": "ök + ü + ş",
-      "ekTipi": "çekim",
-      "kokAnlami": "pekiştirme edatı",
-      "kaynak": "Tekin 2003, s. 251",
-      "dusmeSebebi": "kök zaten kayıtlı"
-    },
-    {
-      "transcription": "iKİN",
-      "runic": "𐰚𐰃𐰤",
-      "frequency": 5,
-      "cozumleme": "iki + n",
-      "ekTipi": "çekim",
-      "kokAnlami": "iki; bk. eki, ekin",
-      "kaynak": "Tekin 2003, s. 244",
-      "dusmeSebebi": "kök zaten kayıtlı"
-    },
-    {
-      "transcription": "aTıG",
-      "runic": "𐱃𐰍",
-      "frequency": 5,
-      "cozumleme": "at + ıg",
-      "ekTipi": "çekim",
-      "kokAnlami": "(ok) atmak; avlanmak (Altınköl I 4)",
-      "kaynak": "Tekin 2003, s. 238",
-      "dusmeSebebi": "kök zaten kayıtlı"
-    },
-    {
       "transcription": "YIŞDA",
       "runic": "𐰘𐰃𐱁𐰑𐰀",
       "frequency": 5,
@@ -641,16 +601,6 @@
       "kokAnlami": "millet, halk, boylar birliği",
       "kaynak": "Tekin 2003, s. 241",
       "dusmeSebebi": "kök zaten kayıtlı"
-    },
-    {
-      "transcription": "YİTÜ",
-      "runic": "𐰘𐰃𐱅𐰇",
-      "frequency": 4,
-      "cozumleme": "yi + tü",
-      "ekTipi": "çekim",
-      "kokAnlami": "yemek; bk. ye-",
-      "kaynak": "Tekin 2003, s. 259",
-      "dusmeSebebi": "kök \"yi\" için YiME soruldu"
     },
     {
       "transcription": "BOLDaÇI",
@@ -913,16 +863,6 @@
       "dusmeSebebi": "kök zaten kayıtlı"
     },
     {
-      "transcription": "aYNıG",
-      "runic": "𐰪𐰍",
-      "frequency": 4,
-      "cozumleme": "ay + n + ıg",
-      "ekTipi": "çekim",
-      "kokAnlami": "ay (gök cismi / zaman birimi)",
-      "kaynak": "Tekin 2003, s. 239",
-      "dusmeSebebi": "kök zaten kayıtlı"
-    },
-    {
       "transcription": "TUTMıŞ",
       "runic": "𐱃𐰆𐱃𐰢𐰾",
       "frequency": 4,
@@ -1147,16 +1087,6 @@
       "runic": "𐰴𐰍𐰣𐰢𐰀",
       "frequency": 3,
       "cozumleme": "kagan + ı + ma",
-      "ekTipi": "çekim",
-      "kokAnlami": "hakan, kağan, hükümdar",
-      "kaynak": "Tekin 2003, s. 245",
-      "dusmeSebebi": "kök zaten kayıtlı"
-    },
-    {
-      "transcription": "KaGaNGaRU",
-      "runic": "𐰴𐰍𐰣𐰍𐰺𐰆",
-      "frequency": 3,
-      "cozumleme": "kagan + garu",
       "ekTipi": "çekim",
       "kokAnlami": "hakan, kağan, hükümdar",
       "kaynak": "Tekin 2003, s. 245",

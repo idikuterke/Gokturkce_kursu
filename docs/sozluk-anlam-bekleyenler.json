@@ -416,7 +416,14 @@
     "frequency": 10,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "etnik ad (Hıtay'lar)",
+      "source": "Tekin 2003, s. 247",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰸",
@@ -979,6 +986,24 @@
     }
   },
   {
+    "runic": "𐰆𐰲𐰀",
+    "transcription": "UÇA",
+    "attestation": "KT-D-16",
+    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
+    "frequency": 7,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "genç (hayvan) (Altınköl I 4)",
+      "source": "Tekin 2003, s. 250",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ö~ü/o~u",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐱁𐰑",
     "transcription": "ŞaD",
     "attestation": "KT-D-17",
@@ -1089,16 +1114,6 @@
     "transcription": "IDMıŞ",
     "attestation": "KT-D-6",
     "attestation_text": "BeGLeRİ : BODuNI : TÜZSüZ : ÜÇÜN : TaBGaÇ : BODuN : TeBLiGİN : KÜRLüG : ÜÇÜN : aRMaKÇISIN : ÜÇÜN : İNiLİ : eÇİLİ : KİŊŞÜ",
-    "frequency": 7,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰆𐰲𐰀",
-    "transcription": "UÇA",
-    "attestation": "KT-D-16",
-    "attestation_text": "TÖRÜG : KaZGaNıP : UÇA : BaRMıŞ : KaŊıM : KaGaNKA : BaŞLaYU : BaZ : KaGaNıG : BaLBaL : TİKMiŞ : OL : TÖRÜDE : ÜZE : eÇİM",
     "frequency": 7,
     "meaning": null,
     "category": null,
@@ -1216,7 +1231,14 @@
     "frequency": 6,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yoksul, fakir",
+      "source": "Tekin 2003, s. 242",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰉𐰖",
@@ -1533,6 +1555,28 @@
     }
   },
   {
+    "runic": "𐰜𐰇𐰾",
+    "transcription": "ÖKÜŞ",
+    "attestation": "KT-G-6",
+    "attestation_text": "eDGÜ : BİLGE : KİŞİG : eDGÜ : aLP : KİŞİG : YORITMAZ : eRMiŞ : BİR : KİŞİ : YaŊıLSaR : OGuŞI : BODUNI : BİŞÜKİŊE : TeGİ ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "çok, sayısız",
+      "digerKaynaklar": [
+        "çok [Tekin 1998, Sözlük (s. 97-116)]",
+        "çok, fazla [Tanyeri, Sözlük]"
+      ],
+      "source": "Tekin 2003, s. 257",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ö~ü/o~u",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐰍𐰃",
     "transcription": "aGI",
     "attestation": "KT-G-7",
@@ -1567,6 +1611,27 @@
       "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰚𐰃𐰤",
+    "transcription": "iKİN",
+    "attestation": "KT-D-1",
+    "attestation_text": "ÜZE : KÖK : TeŊRİ : aSRA : YaGıZ : YeR : KILıNDUKDA : iKİN : aRA : KİŞİ : OGLI : KILıNMıŞ : KİŞİ : OGLıNDA : ÜZE : eÇİM ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "iki; bk. eki, iki",
+      "digerKaynaklar": [
+        "ikinci (ekinti yerine) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 243",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ünlü",
       "katman": "kitap"
     }
   },
@@ -1608,6 +1673,27 @@
     }
   },
   {
+    "runic": "𐰼𐰤",
+    "transcription": "eRiN",
+    "attestation": "KT-D-11",
+    "attestation_text": "SUBI : aNÇA : iTMiŞ : TÜRK : BODuN : YOK : BOLMaZUN : TİYiN : BODuN : BOLÇUN : TİYiN : KaŊıM : İLTeRiŞ : KaGaNıG : ÖGüM ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "adamlar",
+      "digerKaynaklar": [
+        "adamlar, erler [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 243",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ünlü",
+      "katman": "kitap"
+    }
+  },
+  {
     "runic": "𐱁𐰀",
     "transcription": "aŞA",
     "attestation": "KT-D-17",
@@ -1644,6 +1730,24 @@
       "source": "Tekin 2003, s. 244",
       "eser": "Tekin 2003",
       "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐰍",
+    "transcription": "aTıG",
+    "attestation": "KT-D-32",
+    "attestation_text": "KÖLTİGiN : YaDaGıN : OPLaYU : TeGDİ : OŊ : TUTuK : YURÇİN : YaRaKLıG : eLiGiN : TUTDI : YaRaKLıGDI : KaGaNKA : aNÇULaDI ",
+    "frequency": 5,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "(?) etnik ad (Çin kaynaklarındaki A-tie etnik adı mı?) (O 5, 6, 10)",
+      "source": "Tekin 2003, s. 239",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ünlü",
       "katman": "kitap"
     }
   },
@@ -1842,6 +1946,23 @@
         "uzak [Tanyeri, Sözlük]"
       ],
       "source": "Tekin 2003, s. 244",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰪𐰍",
+    "transcription": "aYNıG",
+    "attestation": "KT-G-5",
+    "attestation_text": "TÜZüLTüM : aLTUN : KÜMüŞ : İŞGiTİ : KUTaY : BUŊSuZ : aNÇA : BİRÜR : TaBGaÇ : BODuN : SaBI : SÜÇİG : aGISI : YIMŞaK : eRM",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "kötü, fena; çok, pek (KT G 3, vb.; IB 5, vb.)",
+      "source": "Tekin 2003, s. 238",
       "eser": "Tekin 2003",
       "eslesme": "tam",
       "katman": "kitap"
@@ -2246,7 +2367,18 @@
     "frequency": 4,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "yer adı, ülke adı (Mançurya ovası?)",
+      "digerKaynaklar": [
+        "yer adı [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 242",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ö~ü/o~u",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰋𐰏𐰠𐰚",
@@ -2337,6 +2469,27 @@
       "source": "Tekin 2003, s. 257",
       "eser": "Tekin 2003",
       "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐰼𐱅𐰾",
+    "transcription": "iRTiŞ",
+    "attestation": "KT-D-37",
+    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "ırmak adı (İrtiş ırmağı)",
+      "digerKaynaklar": [
+        "ırmak adı (İrtiş) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 243",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ünlü",
       "katman": "kitap"
     }
   },
@@ -2469,6 +2622,16 @@
     }
   },
   {
+    "runic": "𐰘𐰃𐱅𐰇",
+    "transcription": "YİTÜ",
+    "attestation": "KT-D-27",
+    "attestation_text": "TİYiN : TÜRK : BODuN : ÜÇÜN : TÜN : UDuMaDıM : KÜNTüZ : OLuRMaDıM : İNiM : KÖLTİGiN : BİRLE : iKİ : ŞaD : BİRLE : ÖLÜ : ",
+    "frequency": 4,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰆𐰑𐰀",
     "transcription": "UDA",
     "attestation": "KT-D-35",
@@ -2562,16 +2725,6 @@
     "transcription": "TeZiP",
     "attestation": "KT-D-34",
     "attestation_text": "TeKDÜKİN : TÜRK : BeGLeR : KOP : BİLİRSİZ : OL : SÜG : aNDA : YOK : KıŞDıMıZ : aNDA : KİSRE : YeR : BaYıRKU : ULuG : İRK",
-    "frequency": 4,
-    "meaning": null,
-    "category": null,
-    "source": null
-  },
-  {
-    "runic": "𐰼𐱅𐰾",
-    "transcription": "iRTiŞ",
-    "attestation": "KT-D-37",
-    "attestation_text": "TOGA : iRTiŞ : ÖGüZüG : KeÇE : YORIDıMıZ : TÜRGiŞ : BODuNuG : UDA : BaSDıMıZ : TÜRGiŞ : KaGaN : SÜSİ : BOLÇUDA : OTÇA : ",
     "frequency": 4,
     "meaning": null,
     "category": null,
@@ -2900,7 +3053,14 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "koyun",
+      "source": "Tekin 2003, s. 248",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰶𐰃𐰺𐰴",
@@ -2941,6 +3101,27 @@
       "source": "Tekin 2003, s. 240",
       "eser": "Tekin 2003",
       "eslesme": "tam",
+      "katman": "kitap"
+    }
+  },
+  {
+    "runic": "𐱃𐰆𐱃𐰸",
+    "transcription": "TUTUK",
+    "attestation": "KT-D-31",
+    "attestation_text": "UMaY : TeG : ÖGüM : KaTUN : KUTıŊA : İNiM : KÖLTİGiN : eR : aT : BOLDI : aLTI : YiGiRMİ : YaŞIŊA : eÇİM : KaGaN : İLİN :",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null,
+    "oneri": {
+      "meaning": "askeri vali (< Çin. *Tuo-tuok*)",
+      "digerKaynaklar": [
+        "askeri vali (< Çin.) [Tekin 1998, Sözlük (s. 97-116)]"
+      ],
+      "source": "Tekin 2003, s. 255",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ö~ü/o~u",
       "katman": "kitap"
     }
   },
@@ -3054,7 +3235,18 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "cenaze töreni",
+      "digerKaynaklar": [
+        "cenaze töreni [Ata 2011 (Söz Yapımı/Çözümlemeler)]"
+      ],
+      "source": "Tekin 2003, s. 260",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ö~ü/o~u",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐰯𐰀",
@@ -3260,7 +3452,15 @@
     "frequency": 3,
     "meaning": null,
     "category": null,
-    "source": null
+    "source": null,
+    "oneri": {
+      "meaning": "cenaze törenine katılan",
+      "source": "Tekin 2003, s. 260",
+      "eser": "Tekin 2003",
+      "eslesme": "tam",
+      "yazimFarki": "ö~ü/o~u",
+      "katman": "kitap"
+    }
   },
   {
     "runic": "𐱅𐰇𐰯𐰇𐱅",
@@ -3551,6 +3751,16 @@
     "source": null
   },
   {
+    "runic": "𐰴𐰍𐰣𐰍𐰺𐰆",
+    "transcription": "KaGaNGaRU",
+    "attestation": "TY1-D-3",
+    "attestation_text": "aRTUK : KIRKıZ : KÜÇLüG : KaGaN : YaGıZıM : BOLDI : OL : ÜÇ : KaGaN : ÖGLeŞiP : aLTUN : YIŞ : ÜZE : KaBıŞaLıM : TiMiŞ : ",
+    "frequency": 3,
+    "meaning": null,
+    "category": null,
+    "source": null
+  },
+  {
     "runic": "𐰲𐰇𐰢",
     "transcription": "eÇÜM",
     "attestation": "KT-D-13",
@@ -3569,16 +3779,6 @@
       "eslesme": "kök",
       "katman": "kitap"
     }
-  },
-  {
-    "runic": "𐱃𐰆𐱃𐰸",
-    "transcription": "TUTUK",
-    "attestation": "KT-D-31",
-    "attestation_text": "UMaY : TeG : ÖGüM : KaTUN : KUTıŊA : İNiM : KÖLTİGiN : eR : aT : BOLDI : aLTI : YiGiRMİ : YaŞIŊA : eÇİM : KaGaN : İLİN :",
-    "frequency": 3,
-    "meaning": null,
-    "category": null,
-    "source": null
   },
   {
     "runic": "𐱃𐰆𐰍𐰀",

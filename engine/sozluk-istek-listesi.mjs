@@ -59,6 +59,7 @@ const sadelestir = (x) =>
   [...x.toLocaleLowerCase("tr")]
     .map((c) => KATLAMA.get(c) ?? c)
     .join("")
+    .replace(/n[yg]|yn/g, "ŋ")   // 𐰪 transkripsiyonda ny ya da yn
     .replace(/[^a-zçğıöşüŋ]/g, "");
 
 let ataSozluk = [];
@@ -192,16 +193,52 @@ const tekAnlam = (liste) => {
   return [...esereGore.values()].every((s) => s.size === 1);
 };
 
+// Sözlüğün başsözcüğü ile korpusun transkripsiyonu aynı sözcüğü farklı
+// yazıyor; farkların çoğu yazının kendisinden geliyor:
+//   ÖKÜŞ ~ üküş       ö ile ü aynı tamga (𐰇)
+//   aYNıG ~ añıg      𐰪 hem "ny" hem "ñ" diye yazılıyor
+//   iRTiŞ ~ Ärtiş     ä ~ i, yazılmayan ünlünün okunuşu
+// Birebir arama bunları kaçırıp sözcüğü "kök + ek" sanıyordu:
+// öküş → ök + ü + ş gibi. Bu yüzden arama kademeli; hangi kademede
+// bulunduğu kayda yazılır, birebir olmayan eşleşme göz ister.
+const KADEMELER = [
+  { ad: "tam", f: (x) => x },
+  { ad: "ö~ü/o~u", f: (x) => x.replace(/[ou]/g, "O").replace(/[öü]/g, "Ö") },
+  { ad: "ünlü", f: (x) => x.replace(/[ou]/g, "O").replace(/[öü]/g, "Ö").replace(/[eiı]/g, "E") },
+];
+const kademeHaritalari = KADEMELER.map(() => new Map());
+for (const [anahtar, maddeler] of ataHarita) {
+  for (const [i, { f }] of KADEMELER.entries()) {
+    const k = f(anahtar);
+    const harita = kademeHaritalari[i];
+    if (!harita.has(k)) harita.set(k, []);
+    harita.get(k).push(...maddeler);
+  }
+}
+
+/** Sözlükte ara; bulursa { maddeler, kademe } verir. */
+function sozlukte(w) {
+  for (const [i, { ad }] of KADEMELER.entries()) {
+    const maddeler = kademeHaritalari[i].get(KADEMELER[i].f(w));
+    if (maddeler?.length) return { maddeler, kademe: ad };
+  }
+  return null;
+}
+
 const ataKokler = [...ataHarita.keys()].sort((a, b) => b.length - a.length);
 
 function ataEslesmesi(transkripsiyon) {
   const w = sadelestir(transkripsiyon);
   if (!w) return null;
 
-  const tam = ataHarita.get(w);
-  if (tam) {
-    if (!tekAnlam(tam)) return null;                 // belirsiz → ön dolgu yok
-    return { ...enYetkili(tam), eslesme: "tam" };
+  const bulunan = sozlukte(w);
+  if (bulunan) {
+    if (!tekAnlam(bulunan.maddeler)) return null;    // belirsiz → ön dolgu yok
+    return {
+      ...enYetkili(bulunan.maddeler),
+      eslesme: "tam",
+      ...(bulunan.kademe !== "tam" ? { yazimFarki: bulunan.kademe } : {}),
+    };
   }
 
   for (const kok of ataKokler) {
@@ -243,7 +280,7 @@ const EN_COK_EK = 3;
 
 function cozumle(transkripsiyon) {
   const w = sadelestir(transkripsiyon);
-  if (!w || ataHarita.has(w)) return null;      // başsözcük → sözlükbirim
+  if (!w || sozlukte(w)) return null;           // başsözcük → sözlükbirim
 
   // adim = kaç ek soyulacak. Az ekli çözüm her zaman tercih edilir.
   for (let adim = 1; adim <= EN_COK_EK; adim++) {
@@ -378,6 +415,10 @@ const kuyruk = istek
             source: a.kaynak,
             eser: a.eser,
             eslesme: a.eslesme,
+            // Sözlük başsözcüğü korpus transkripsiyonundan farklı
+            // yazılmışsa (ÖKÜŞ ~ üküş) hangi katlamayla eşleştiği
+            // söylenir: denetleyen buna bakarak kabul eder ya da etmez.
+            ...(a.yazimFarki ? { yazimFarki: a.yazimFarki } : {}),
             katman: "kitap"
           }
         };

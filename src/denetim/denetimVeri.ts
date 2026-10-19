@@ -166,7 +166,7 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
         // Ata (AÖF 2011) sözcük çözümlemesinden gelen öneri. Doldurulmuş
         // değil, ÖN DOLGU: katmanı "kitap", insan onaylayınca geçerli olur.
         const oneri = k.oneri as
-          | { meaning: string; source: string; eslesme: string }
+          | { meaning: string; source: string; eslesme: string; eser?: string; yazimFarki?: string }
           | undefined;
         return {
           id: String(k.transcription),
@@ -177,14 +177,25 @@ export const KUYRUKLAR: KuyrukTanimi[] = [
           baglam: String(k.attestation_text ?? ""),
           rozetler: [
             `${k.frequency}× geçiyor`,
-            ...(oneri ? [`Ata önerisi · ${oneri.eslesme}`] : []),
+            ...(oneri ? [`${oneri.eser ?? "Kitap"} önerisi · ${oneri.eslesme}`] : []),
+            ...(oneri?.yazimFarki ? [`yazım farkı: ${oneri.yazimFarki}`] : []),
           ],
           uyarilar: oneri
             ? [
-                "Anlam Ata'nın kitabından önerildi — denetlenmedi. " +
+                `Anlam ${oneri.eser ?? "kitaptan"} önerildi — denetlenmedi. ` +
                   (oneri.eslesme === "kök"
                     ? "Kök + çekim eki eşleşmesi: kalıplaşmış sözcükse anlam tutmaz."
-                    : "Sözlük maddesiyle birebir eşleşme."),
+                    : "Sözlük maddesiyle eşleşme."),
+                // Başsözcük korpus yazımıyla birebir değilse söylenmeli:
+                // ÖKÜŞ ~ üküş gibi eşleşmeler yazıda ayrılmayan ünlülerden
+                // geliyor ve çoğu doğru, ama hepsi değil.
+                ...(oneri.yazimFarki
+                  ? [
+                      `DİKKAT: sözlük maddesi korpus yazımıyla birebir değil ` +
+                        `(${oneri.yazimFarki} katlamasıyla eşleşti). Maddenin ` +
+                        `gerçekten bu sözcük olduğunu doğrula.`,
+                    ]
+                  : []),
               ]
             : [],
           ...(oneri
