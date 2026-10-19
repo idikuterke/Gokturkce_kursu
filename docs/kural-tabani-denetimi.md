@@ -1,5 +1,13 @@
 # Kural tabanı denetimi — döngüsel kaynaklar ve korpus sınaması
 
+> **Durum: UYGULANDI (19.10.2026).** Aşağıdaki bulguların tamamı
+> `05_Kaynak_DB/kural-tabani.md` üzerinde işlendi:
+> D6 işaret başına bölündü · D7'nin kurs atfı kaldırıldı ·
+> G1/G2/G3 "hata" olmaktan çıkarılıp varyant sayıldı ·
+> G5 C1'e bağlandı · G6'nın kapsamı kitabe okumasıyla sınırlandı ·
+> C1'e Çavdar çatışması not düşüldü · A6'nın kurs atfı kaldırıldı.
+> Kural tabanında artık kurs içeriğine atıf yapan **hiçbir madde yok**.
+
 Kaynak: `05_Kaynak_DB/kural-tabani.md` (46 kural, 6 kategori)
 Tarih: 2026-10-19
 

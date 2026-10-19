@@ -87,7 +87,7 @@ Sözcükleri/söz öbeklerini ayırmak için üst üste konmuş iki nokta (:) ku
 
 Runik yazıda büyük/küçük harf ayrımı yoktur; özel adlar da küçük harf mantığıyla yazılır.
 
-- **Kaynak:** Genel (ders içeriğiyle uyumlu)
+- **Kaynak:** Genel — yazıt yazısında büyük/küçük harf ayrımı yoktur; ayrıca atıf gerekmez
 - **Güven:** yüksek
 - **Etiketler:** genel
 
@@ -249,15 +249,22 @@ Aslî uzunluklar korunur; ancak yazıda uzunluğu gösteren kesin bir kural yokt
 
 ## C · Ünsüzler ve Kutupluluk
 
-### C1 — Art/ön işaret seçimi ilk heceye göre
+### C1 — Art/ön işaret seçimi: iki ölçüt çatışıyor
 
-Kutuplu ünsüzlerde işaret seçimi, sözcüğün ilk hecesindeki ünlünün kalın (art) ya da ince (ön) oluşuna göre yapılır.
+Kutuplu ünsüzlerde işaret seçimi ünlünün kalın (art) ya da ince (ön) oluşuna göre yapılır. **Hangi ünlüye bakılacağı kaynaklara göre değişir:**
 
-*Sonraki hecelerin ünlüleri değişse bile işaret seçimi ilk heceye bağlıdır.*
+| Kaynak | Ölçüt |
+|---|---|
+| Tekin2003 §24, s. 31; Tanyeri s. 8 | Sözcüğün **ilk hecesindeki** ünlü. Sonraki heceler değişse bile işaret değişmez. |
+| Çavdar md. 3 (+ runik ünsüz = VC hecesi mantığı) | Her ünsüz **kendi önündeki** ünlüye uyar; önünde ünlü yoksa ardındakine. |
 
-- **Kaynak:** Tekin2003 §24, s. 31; Tanyeri s. 8
-- **Güven:** yüksek
-- **Etiketler:** ünsüz, ünlü uyumu
+Çoğu sözcükte ikisi aynı sonucu verir — Orhon Türkçesi ünlü uyumlu olduğu için ilk hece zaten bütün sözcüğü belirler. Ayrıldıkları yer **birleşik sözcükler ve alıntılar**: korpusta ayırt edici yalnızca 2 konum bulundu, ikisi de birleşik sınırında.
+
+**Motor Çavdar'ı izliyor** (md. 3). Gerekçe: gündelik modülde bugünün Türkçesi yazılıyor ve orada ünlü uyumu bozuk sözcükler çok (*kardeş, badem, kitap*); "ilk hece" ölçütü bunlarda kaba sonuç veriyor. Kitabe tarafı zaten korpus yazımını kullandığı için kural üretmiyor.
+
+- **Kaynak:** Tekin2003 §24, s. 31; Tanyeri s. 8; Çavdar md. 3
+- **Güven:** yüksek (kural), orta (hangi ölçüt — kaynak çatışması açık)
+- **Etiketler:** ünsüz, ünlü uyumu, kaynak-çatışması
 
 ### C2 — Kutuplu ünsüzlerde görülen yazım sapmaları
 
@@ -430,21 +437,37 @@ LT, NT ve NÇ çift ünsüz işaretleri tek işaretle yazılır.
 - **Güven:** yüksek
 - **Etiketler:** ligatür, çift ünsüz
 
-### D6 — Kelime başında ligatür yasağı (eğilimi)
+### D6 — Kelime başında ligatür: işaret başına ayrı davranış
 
-Hece işaretleri (ok/uk, ök/ük, ık/kı, iç/çi gibi) kelime başında, ünsüzle başlayan heceleri yazmak için genellikle tek başına kullanılmaz; önce düz ünsüz harf gelir.
+Hece işaretlerinin söz başında kullanımı **işarete göre değişir**; toptan bir yasak yoktur. Korpus sayımı (214 dize, hizalı sözcükler):
 
-*Örnek: kök → 𐰚𐰜 (düz ince k + ÖK işareti). Ters sıra 𐰜𐰚 hatalıdır. Tekin'de seyrek istisnalar vardır (kılıp, kopın, körtg).*
+| İşaret | Hece | Söz başı ligatür | Söz başı düz harf | Sonuç |
+|---|---|---|---|---|
+| 𐰸 | ko / ku | **96** | 32 | ligatür baskın (%75) — serbest |
+| 𐰜 | kö / kü | 12 | **145** | düz baskın (%92) — ligatür nâdir |
+| 𐰶 | kı | **61** | 46 | ligatür önde (%57) — serbest |
+| 𐰱 | çi | 0 | 2 | örnek yetersiz — kullanılmaz |
+
+Örnek: KURIGaRI 𐰸𐰆𐰺𐰃𐰍𐰺𐰃 · KUTaY 𐰸𐰆𐱃𐰖 · KIRKıZ 𐰶𐰃𐰺𐰴𐰔 · KÖK 𐰜𐰇𐰚
+
+**Önceki hâli geçersiz.** Kural eskiden "söz başında ligatür kullanılmaz" diyordu; bunu destekleyen tek atıf kurs içeriğiydi — yani kendi ürettiğimiz malzeme (dairesel). Korpus yalnız **kö/kü** için doğruluyor. D9 da zaten tersini söylüyordu ve ikisi aynı Tekin paragrafına (§16) dayanıyordu; çelişki böyle çözüldü.
+
+Tekin 1997 (*Tarih Boyunca Türkçenin Yazımı*) açıkça yazıyor:
+> "Bu işaretler kelime başında, sırasıyla, ko/ku, kö/kü, kı ve çi hecelerini yazmak için **de kullanılabilir**."
+
+Motor bu sayımlara göre işaret başına davranıyor (md. 19-22).
 
 | Örnek | Not |
 |---|---|
-| kök 𐰚𐰜 | kurs standardı (ince k + ÖK ligatürü) |
-| kök (taş yazımı) 𐰚𐰇𐰚 | KT D 1 — ünlü açık yazılmış |
-| kök (varyant) 𐰜𐰇𐰚 | KT D 3 / BK D 4 — ÖK işaretiyle |
+| kök 𐰚𐰜 | düz ince k + ÖK ligatürü |
+| kök 𐰚𐰇𐰚 | KT D 1 — ünlü açık yazılmış |
+| kök 𐰜𐰇𐰚 | KT D 3 / BK D 4 — ÖK işareti söz başında |
 
-- **Kaynak:** Tekin2003 §16-17, s. 29; Kurs içeriği (yedigun-2, kitapcik); Korpus: KT D 1/3
+Üç yazım da yazıtlarda geçiyor; hiçbiri "hatalı" değil (bk. G1).
+
+- **Kaynak:** Tekin2003 §16-17, s. 29; Tekin1997; Korpus sayımı `docs/kural-tabani-denetimi.md`
 - **Güven:** yüksek
-- **Etiketler:** ligatür, konum
+- **Etiketler:** ligatür, konum, korpus-ölçümü
 
 ### D7 — Kelime sonunda ligatür serbest
 
@@ -455,7 +478,7 @@ Kelime sonundaki ünlü+k heceleri ligatürle yazılabilir; kural gereği serbes
 | türük 𐱅𐰇𐰼𐰜 | KT G 1 — sonda ÖK/ÜK ligatürü |
 | bayırku 𐰉𐰖𐰺𐰸𐰆 | KT G 4 — sondaki u yazılır |
 
-- **Kaynak:** Tekin2003 s. 34-35; Kurs içeriği (yedigun-2)
+- **Kaynak:** Tekin2003 s. 34-35
 - **Güven:** yüksek
 - **Etiketler:** ligatür, konum, sözsonu
 
@@ -768,14 +791,23 @@ Sayı öbeklerinin tamga dizileri kitapların metin katmanında yoktur (tamgalar
 
 ## Yaygın Hatalar
 
+Bu tablo **korpusla sınandı** (`docs/kural-tabani-denetimi.md`). Üç madde "hata" değil **varyant** çıktı: yazıtlarda ikisi de geçiyor. Bir madde kapsamı daraltılarak korundu. Düzeltilmiş hâli:
+
 | ID | Hatalı | Doğrusu | Kaynak |
 |---|---|---|---|
-| G1 | kök kelimesini 𐰜𐰚 (ÖK + ince k) biçiminde yazmak | 𐰚𐰜 (ince k + ÖK) | Kurs içeriği: yedigun-2, kitapcik, degerlendirme |
-| G2 | kıldı kelimesini 𐰶𐰡𐰃 (IK/KI ligatürü + LD) biçiminde yazmak | 𐰴𐰃𐰡𐰃 (kalın k + I + LD + I) | Kurs içeriği: yapraklar, kitapcik |
-| G3 | Ligatürü kelime başında kullanmak (kök → 𐰜𐰚 gibi) | Önce düz ünsüz harf gelir (𐰚), sonra ligatür (𐰜) | Tekin2003 §16-17/§29; Kurs: yedigun-2 konum kısıtı |
 | G4 | Söz sonu ünlüsünü yazmamak | Bütün sözsonu ünlüleri yazılır (ara, kişi, ulayu) | Tekin2003 §22, s. 30 |
-| G5 | Kalın/ince ünsüz işaretini karıştırmak (k¹ yerine k² veya tersi) | İlk hece ünlüsüne göre art/ön işaret seçilir | Tekin2003 §24, s. 31; Kurs: yedigun-4 quiz |
-| G6 | gök kelimesini 𐰏 (g) ile yazmaya çalışmak | Kelime kök'tür; k ile yazılır: 𐰚𐰜 (kurs) / 𐰚𐰇𐰚 (taş yazımı) | Korpus: KT D 1, KT D 3; Kurs sözlüğü |
+| G5 | Kalın/ince ünsüz işaretini karıştırmak | Kutuplu ünsüz, ünlüsüne göre art/ön seçilir (ölçüt için bk. C1) | Tekin2003 §24, s. 31 |
+| G6 | Kitabe okurken *gök* sözcüğünü aramak | Yazıtlarda sözcük **kök**'tür, k ile yazılır: 𐰚𐰇𐰚 (KT D 1) / 𐰜𐰇𐰚 (KT D 3). **Gündelik modülü kapsamaz:** orada bugünün Türkçesi yazılır, gök = 𐰏𐰇𐰚. | Korpus: KT D 1, KT D 3 |
+
+### Hata sayılmaktan çıkarılanlar
+
+| ID | Eski iddia | Korpus ne diyor |
+|---|---|---|
+| G1 | *kök*'ü 𐰜𐰚 yazmak hatalı | **Varyant.** KT D 3'te 𐰜𐰇𐰚 geçiyor — 𐰜 söz başında. Tek atfı kurs içeriğiydi. |
+| G2 | *kıldı*'yı 𐰶𐰡𐰃 yazmak hatalı | **Varyant.** Korpusta KILDıM 𐰴𐰃𐰡𐰢 (düz) da var, KIRKıZ 𐰶𐰃𐰺𐰴𐰔 (ligatür) de. "Hatalı" demek fazla kesin. |
+| G3 | Ligatürü söz başında kullanmak hata | **Yanlış.** Söz başı ligatür ko/ku'da %75, kı'da %57 baskın (bk. D6). Yalnız kö/kü için doğru. |
+
+Bu üçü de yalnız kurs içeriğine dayanıyordu — kendi ürettiğimiz malzemeyi kural kaynağı saymak dairesel olur.
 
 ## Örnek Bankası
 
