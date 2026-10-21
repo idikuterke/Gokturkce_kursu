@@ -5,7 +5,8 @@ import { Lesson, Exercise, UserProgress } from '../types';
 import { playChiselSound, playSuccessSound, playErrorSound, playVictoryFanfare } from '../utils/audio';
 import { shuffle, shuffleDistinct } from '../utils/shuffle';
 import { speakTamgaOrWord } from '../utils/speech';
-import { MascotAlp } from './MascotAlp';
+import { BilgeAlp } from './BilgeAlp';
+import { bilgeSozu } from '../data/bilgeSozleri';
 
 interface LessonModalProps {
   lesson: Lesson;
@@ -270,6 +271,10 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             <Heart className="w-10 h-10 fill-rose-500" />
           </div>
 
+          <div className="flex justify-center">
+            <BilgeAlp baglam="canBitti" size={110} />
+          </div>
+
           <div className="space-y-2">
             <h3 className="text-2xl font-bold text-white font-serif">Canların Tükendi!</h3>
             <p className="text-sm text-metin-2">
@@ -303,7 +308,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
       <div className="fixed inset-0 z-50 bg-zemin/95 backdrop-blur-md flex items-center justify-center p-4">
         <div className="max-w-md w-full bg-zemin-2 border-2 border-marka rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
           <div className="flex justify-center">
-            <MascotAlp mood="proud" size={130} />
+            <BilgeAlp baglam="kusakBitti" size={130} />
           </div>
 
           <div className="space-y-2">
@@ -757,6 +762,15 @@ export const LessonModal: React.FC<LessonModalProps> = ({
                 {!isCorrect && currentExercise.correctAnswer && (
                   <p className="text-xs text-rose-300 font-semibold mt-1">
                     Doğru Cevap: {currentExercise.correctAnswer}
+                  </p>
+                )}
+                {/* Yanlışta rehberin kısa bir yönlendirmesi. Soru numarasına
+                    bağlı seçiliyor: aynı derste her yanlışta aynı cümleyi
+                    okumak öğütten çok ceza gibi geliyor. */}
+                {!isCorrect && (
+                  <p className="text-[11px] text-metin-2 italic mt-1.5">
+                    <span className="not-italic font-semibold text-uyari">Bilge Alp:</span>{' '}
+                    {bilgeSozu('yanlis', currentIndex).metin}
                   </p>
                 )}
               </div>

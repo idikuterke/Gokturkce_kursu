@@ -1,11 +1,21 @@
 import React from 'react';
 
+/** Konuşmada geçen Eski Türkçe sözcüğün onaylı sözlükten künyesi. */
+export interface SozcukKunyesi {
+  runik: string;
+  transkripsiyon: string;
+  anlam: string;
+  kaynak: string;
+}
+
 interface MascotAlpProps {
-  mood?: 'idle' | 'happy' | 'thinking' | 'proud' | 'cheer';
+  mood?: 'idle' | 'happy' | 'thinking' | 'proud' | 'cheer' | 'uyari';
   speech?: string;
   size?: number;
   customMediaUrl?: string; // ComfyUI animation / video / image integration slot
   customMediaType?: 'video' | 'image';
+  /** Varsa konuşmanın altında sözcüğün anlamı ve kaynağı gösterilir. */
+  sozcuk?: SozcukKunyesi;
 }
 
 export const MascotAlp: React.FC<MascotAlpProps> = ({ 
@@ -13,7 +23,8 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
   speech, 
   size = 140,
   customMediaUrl,
-  customMediaType = 'video'
+  customMediaType = 'video',
+  sozcuk
 }) => {
   return (
     <div className="flex flex-col sm:flex-row items-center gap-3 select-none">
@@ -114,6 +125,14 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
                 {/* Steppe warrior blush */}
                 <circle cx="68" cy="88" r="4" fill="#F43F5E" opacity="0.3" />
                 <circle cx="112" cy="88" r="4" fill="#F43F5E" opacity="0.3" />
+              </>
+            ) : mood === 'uyari' ? (
+              <>
+                {/* Çatık kaş, kısık göz: azarlamaz, uyarır. */}
+                <path d="M 71 72 Q 78 76 85 73" fill="none" stroke="#271C19" strokeWidth="2.4" strokeLinecap="round" />
+                <path d="M 95 73 Q 102 76 109 72" fill="none" stroke="#271C19" strokeWidth="2.4" strokeLinecap="round" />
+                <path d="M 73 80 Q 79 78 85 80" fill="none" stroke="#271C19" strokeWidth="2.6" strokeLinecap="round" />
+                <path d="M 95 80 Q 101 78 107 80" fill="none" stroke="#271C19" strokeWidth="2.6" strokeLinecap="round" />
               </>
             ) : mood === 'thinking' ? (
               <>
@@ -230,6 +249,17 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
           <p className="text-xs sm:text-sm text-metin-acik leading-snug font-medium">
             "{speech}"
           </p>
+
+          {/* Sözcük künyesi: anlam ve kaynak onaylı sözlükten okunur,
+              burada elle yazılmaz. Maskot süs değil, öğretim yüzeyi. */}
+          {sozcuk && (
+            <div className="mt-2 pt-2 border-t border-derin/70 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+              <span className="runic text-sm text-marka-acik">{sozcuk.runik}</span>
+              <span className="text-[11px] font-semibold text-metin">{sozcuk.transkripsiyon}</span>
+              <span className="text-[11px] text-metin-2">— {sozcuk.anlam}</span>
+              <span className="text-[10px] text-metin-3 font-mono w-full">{sozcuk.kaynak}</span>
+            </div>
+          )}
         </div>
       )}
     </div>

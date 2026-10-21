@@ -193,6 +193,26 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     console.log(`sayı modülü           : ${sayilar.length} öğe | korpusta tanıklı: ${tanikli}`);
   }
 
+  // Bilge Alp'in sözleri: Eski Türkçe sözcükler onaylı sözlüğe bağlı mı?
+  // Maskot süs değil, öğretim yüzeyi — kaynaksız ya da sözlükte olmayan bir
+  // sözcüğe bağlanan söz, uydurma anlam gösterir.
+  const sozlerYolu = P("src/data/bilgeSozleri.ts");
+  const sozlukYolu = P("src/data/generated/sozluk.json");
+  if (fs.existsSync(sozlerYolu) && fs.existsSync(sozlukYolu)) {
+    const sozluk = JSON.parse(fs.readFileSync(sozlukYolu, "utf8"));
+    const kaynakli = new Map(sozluk.map((k) => [k.id, k.kaynak]));
+    const kullanilan = [
+      ...new Set(
+        [...fs.readFileSync(sozlerYolu, "utf8").matchAll(/sozcuk:\s*'([^']+)'/g)].map((m) => m[1])
+      ),
+    ];
+    for (const id of kullanilan) {
+      if (!kaynakli.has(id)) g.hatalar.push(`bilgeSozleri: onaylı sözlükte yok — ${id}`);
+      else if (!kaynakli.get(id)) g.hatalar.push(`bilgeSozleri: kaynaksız sözcüğe bağlanmış — ${id}`);
+    }
+    console.log(`Bilge Alp sözleri     : ${kullanilan.length} sözcük bağı, hepsi onaylı sözlükten`);
+  }
+
   for (const f of ["Gokturkce_Kurs_Teklifi_Revize.md", "Gokturkce_Kurs_Teklifi_Revize.html", "brosur-a5.html"])
     if (fs.existsSync(P(f))) { g.tersSiraDenetle(fs.readFileSync(P(f), "utf8"), f); g.ciktiDenetle(fs.readFileSync(P(f), "utf8"), f); }
   console.log(`kaynak tamga kümesi: ${g.kaynak.size} | Noto cmap: ${g.cmap.size} kod noktası | sözlük: ${Object.keys(g.sozluk).length} kelime | orhun-db taraması: ${g.orhunTaramasi.sapma} gerekçeli sapma (kalan istisna)`);

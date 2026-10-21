@@ -3,6 +3,7 @@ import { BookOpen, Sparkles, Volume2, Compass, Layers, Info } from 'lucide-react
 import { ORHUN_LINES } from '../data/orhunData';
 import { playChiselSound } from '../utils/audio';
 import { Sahne } from './Sahne';
+import { BilgeAlp } from './BilgeAlp';
 
 /**
  * Her yazıt için bir sahne görseli. Irk Bitig bir kâğıt defter, ötekiler
@@ -123,6 +124,12 @@ export const KitabelerReader: React.FC = () => {
           </span>
         </div>
       </Sahne>
+
+      {/* Gerçek yazıt metnine girmeden önce bir uyarı: bu satırlar
+          uydurma değil, ve yavaş okunmalı. */}
+      <div className="hidden sm:flex justify-start">
+        <BilgeAlp baglam="kitabe" size={96} />
+      </div>
 
       {/* Main Content Layout */}
       {viewMode === 'stele' ? (

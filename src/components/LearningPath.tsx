@@ -5,7 +5,7 @@ import {
   ChevronRight, Volume2, PenTool, CheckCircle2
 } from 'lucide-react';
 import { Unit, Lesson, UserProgress, TamgaItem } from '../types';
-import { MascotAlp } from './MascotAlp';
+import { BilgeAlp } from './BilgeAlp';
 import { TAMGALAR } from '../data/tamgalarData';
 import { playChiselSound, playSuccessSound, playVictoryFanfare } from '../utils/audio';
 import { DailyQuestsWidget } from './DailyQuestsWidget';
@@ -155,11 +155,9 @@ export const LearningPath: React.FC<LearningPathProps> = ({
           </div>
 
           <div className="z-10 flex-shrink-0 scale-75 sm:scale-100 origin-center">
-            <MascotAlp
-              mood="proud"
-              speech="Esen olsun alpım! Yolculukta her tamga yeni bir fetihtir."
-              size={135}
-            />
+            {/* Daha önce tek sabit replik vardı. Artık bağlama göre
+                konuşuyor: hiç ilerleme yoksa karşılama, varsa dönüş. */}
+            <BilgeAlp baglam={todayCompletedCount > 0 ? 'donus' : 'karsilama'} size={135} />
           </div>
 
           {/* Subtle Runic Ambient Background */}
