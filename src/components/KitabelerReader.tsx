@@ -2,6 +2,19 @@ import React, { useState } from 'react';
 import { BookOpen, Sparkles, Volume2, Compass, Layers, Info } from 'lucide-react';
 import { ORHUN_LINES } from '../data/orhunData';
 import { playChiselSound } from '../utils/audio';
+import { Sahne } from './Sahne';
+
+/**
+ * Her yazıt için bir sahne görseli. Irk Bitig bir kâğıt defter, ötekiler
+ * taş anıt — ikisi aynı görselle temsil edilemez.
+ */
+const YAZIT_GORSELI: Record<string, string> = {
+  all: 'orhun-bengu-tas',
+  KT: 'orhun-bengu-tas',
+  BK: 'orhun-bengu-tas',
+  TY: 'orhun-bengu-tas',
+  IRK: 'irk-bitig-sayfa',
+};
 
 export const KitabelerReader: React.FC = () => {
   const [selectedMonument, setSelectedMonument] = useState<string>('all');
@@ -85,6 +98,31 @@ export const KitabelerReader: React.FC = () => {
           </button>
         ))}
       </div>
+
+      {/* Seçili yazıtın sahnesi. Fotoğraf değil canlandırma; rozeti Sahne
+          bileşeni kendi basıyor, metin onun üstünde duruyor. */}
+      <Sahne
+        gorsel={YAZIT_GORSELI[selectedMonument] ?? 'orhun-bengu-tas'}
+        yukseklik="h-36 sm:h-52"
+        etiket={false}
+      >
+        <div className="w-full flex flex-wrap items-end justify-between gap-2">
+          <div>
+            <p className="text-xs uppercase tracking-widest text-marka-acik font-bold">
+              {selectedMonument === 'IRK' ? 'El yazması' : 'Bengü taş'}
+            </p>
+            <p className="text-lg sm:text-xl font-serif text-white drop-shadow">
+              {filteredLines.length} dize okunmayı bekliyor
+            </p>
+          </div>
+          <span
+            title="Flux1-dev ile üretilmiş metinsiz sahne"
+            className="text-[10px] px-2 py-1 rounded-full bg-black/55 text-metin-2 border border-white/10 backdrop-blur-sm"
+          >
+            Canlandırma — anıtın fotoğrafı değil
+          </span>
+        </div>
+      </Sahne>
 
       {/* Main Content Layout */}
       {viewMode === 'stele' ? (

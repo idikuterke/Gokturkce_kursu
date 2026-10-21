@@ -19,3 +19,14 @@ Ham PNG'ler `ham/` altında (git dışı). Yeniden üretim: `node engine/gorsel/
 | tas-bir-otuz.jpg | tas-doku + kazi.py | 𐰋𐰃𐰼 : 𐰆𐱃𐰔 | maske (birleşik): 7 glif doğru okundu (b-ı-r · : · o-t-z); ASCII ":" ayırıcı glif sanılıp kelimeler birleşti → ayrı maskeler: bir ✓, otuz o-t-z ✓ (EDPT dizininde "otuz" yok — kaynak: KT-G-1 OTuZ) |
 
 Not: `göktürkçe sayılar.txt` kaynağında z için 𐰯 (p) yazılmıştı — hata; z = 𐰔. Yazımda KT-G-1'deki 𐰆𐱃𐰔 esas alınmıştı. Kaynak dosya 19.10.2026'da düzeltildi (düzeltme notu dosyanın içinde duruyor).
+
+## Web sürümleri (21.10.2026)
+
+Kaynak JPEG'ler 1344x768. Uygulama `public/gorsel/web/<ad>-{672,1344}.webp`
+dosyalarını `<picture>`/`srcset` ile sunar; telefonda 672'lik sürüm iner
+(14-42 KB, jpg'de 100-240 KB idi). Üretim: `npm run gorsel:web`
+(engine/gorsel/web-surum.py). JPEG'ler yedek olarak duruyor.
+
+Görsellerin arayüzdeki kaydı `src/data/gorseller.ts`'te; `Sahne` bileşeni
+her görselin kökenini ekranda yazar — "sahne" olanlar canlandırma diye
+etiketlenir, "kazıma" olanlarda yazının hangi kaynaktan geldiği gösterilir.

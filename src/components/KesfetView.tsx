@@ -9,6 +9,7 @@ const GundelikView = lazy(() =>
   import('./GundelikView').then((m) => ({ default: m.GundelikView }))
 );
 import { BelgelerView } from './BelgelerView';
+import { Sahne } from './Sahne';
 
 interface KesfetViewProps {
   onLearnWord?: (wordId: string) => void;
@@ -39,6 +40,19 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
       {/* Steppe Exploration Header */}
       <div className="relative overflow-hidden bg-gradient-to-r from-derin-3 via-[#10323B] to-derin-3 border border-[#1D4853] rounded-3xl p-6 sm:p-8 text-left shadow-2xl">
+        {/* Arka plan dokusu: taşa keski, kâğıda fırça. Düşük opaklıkta
+            durur, metnin okunurluğunu bozmaz; kökeni aşağıda yazılı. */}
+        <div
+          className="absolute inset-0 opacity-[0.13] pointer-events-none"
+          style={{
+            // Metnin durduğu sol taraf temiz kalsın: doku sağa doğru açılır.
+            maskImage: 'linear-gradient(to right, transparent 0%, transparent 28%, black 70%)',
+            WebkitMaskImage:
+              'linear-gradient(to right, transparent 0%, transparent 28%, black 70%)',
+          }}
+        >
+          <Sahne gorsel="keski-firca" etiket={false} yukseklik="h-full" className="rounded-none h-full" />
+        </div>
         <div className="max-w-2xl space-y-2 z-10 relative">
           <div className="flex items-center gap-2">
             <span className="text-xs font-bold px-3 py-1 rounded-full bg-marka-acik/10 text-marka-acik border border-marka-acik/30 flex items-center gap-1.5">
@@ -51,6 +65,9 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
           </h2>
           <p className="text-xs sm:text-sm text-metin-4 leading-relaxed">
             Kül Tigin, Bilge Kağan ve Tonyukuk anıtlarının satırlarını orijinal runik metinleriyle incele, canlı klavye ile yaz ve kaynak eserleri keşfet.
+          </p>
+          <p className="text-[10px] text-metin-4/70 pt-1">
+            Arka plan: yapay zekâ ile üretilmiş canlandırma.
           </p>
         </div>
 

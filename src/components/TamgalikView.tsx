@@ -4,6 +4,7 @@ import { TAMGALAR } from '../data/tamgalarData';
 import { TamgaItem } from '../types';
 import { playChiselSound, playSuccessSound } from '../utils/audio';
 import { speakTamgaOrWord } from '../utils/speech';
+import { Sahne } from './Sahne';
 
 interface TamgalikViewProps {
   onOpenFlashcards?: () => void;
@@ -34,6 +35,10 @@ export const TamgalikView: React.FC<TamgalikViewProps> = ({ onOpenFlashcards, on
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-8">
+      {/* Tamga gerçekte neye benziyor: dokusu üretilmiş bir taşa, korpustan
+          kazınmış teŋri. Rozet yazının nereden geldiğini söylüyor. */}
+      <Sahne gorsel="tengri-tas" yukseklik="h-36 sm:h-48" oncelikli />
+
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zemin-4 pb-6">
         <div>
