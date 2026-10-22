@@ -122,7 +122,32 @@ const turevler = (okunus) => {
     .sort((a, b) => b.siklik - a.siklik);
 };
 
+/**
+ * ELLE KARARA BAĞLANANLAR
+ *
+ * Makine türetimi iki maddede yanlış tanığa dayanmıştı; ikisi de bağımsız
+ * kaynakla (turkbitig.com, Kültigin anıtı metni) denetlendi:
+ *
+ *  yaz — YaZIKA'dan türetilmişti, ama o biçim "yazı (ova)" sözcüğünün:
+ *        KT-D-17 "Şantung yazığa değin süledik". Mevsim anlamının gerçek
+ *        tanığı BK-G-2 "otuz artukı tokuz yaşıma YAZIN Tatabı tapa süledim".
+ *  kuş — KUŞaLGuKDA'dan türetilmişti; o bir yer adı + bulunma hâli:
+ *        KT-K-5 "ikinti Kuşalgukda Ediz birle süŋüşdümüz". Korpusta kuş
+ *        sözcüğünün kendisi hiç geçmiyor.
+ */
+const ELLE = {
+  yaz: {
+    runik: "𐰖𐰔",
+    not:
+      "kök yazımı YaZıN 𐰖𐰔𐰣 biçiminden son 1 tamga düşürülerek kuruldu " +
+      "(tanık BK-G-2, insan onaylı). Dikkat: YaZIKA/YaZI/YaZIDA biçimleri " +
+      "bu maddenin değil, 'yazı (ova)' maddesinindir — runikte 𐰖𐰔𐰃 ile ayrılır.",
+  },
+  kus: { runik: null, not: "korpusta yalnız KUŞaLGuKDA (yer adı) geçiyor; sözcüğün kendisi tanıklı değil" },
+};
+
 const raporlar = [];
+const bicimTemizligi = [];
 const yollar = ["05_Kaynak_DB/sozluk-anlamlar.json", "src/data/generated/sozluk.json"];
 const kararlar = new Map();
 
@@ -133,14 +158,25 @@ for (const yol of yollar) {
     const hedef = sadece(okunus);
     if (!hedef) continue;
 
+    // Elle karara bağlananlar bütün kısa devrelerin ÖNÜNDE: onlarda sorun
+    // yazımın okunuşa oturmaması değil, dayanağın yanlış sözcük olması.
+    // Hiçbir mekanik denetim bunu göremez.
+    const elleKarar = ELLE[madde.id];
+
     // Yalın biçim korpusta tanıklıysa dokunma: başlık zaten doğru.
-    if (kelimeler.some((w) => sadece(w.transkripsiyon) === hedef)) continue;
-    // Bu oturumda elle onaylanmış maddeler korunur.
-    if (madde.runikNotu) continue;
+    if (!elleKarar && kelimeler.some((w) => sadece(w.transkripsiyon) === hedef)) continue;
+    // Elle karara bağlananlar önceki notu da ezer.
+    if (madde.runikNotu && !elleKarar) continue;
     // Şu anki yazım zaten okunuşa oturuyorsa dokunma.
-    if (madde.runik && okunurMu([...madde.runik], okunus)) continue;
+    if (!elleKarar && madde.runik && okunurMu([...madde.runik], okunus)) continue;
 
     let karar = kararlar.get(madde.id);
+    if (!karar && elleKarar) {
+      karar = { id: madde.id, okunus, eski: madde.runik, elle: true, ...elleKarar };
+      karar.yeni = elleKarar.runik;
+      kararlar.set(madde.id, karar);
+      raporlar.push(karar);
+    }
     if (!karar) {
       karar = { id: madde.id, okunus, eski: madde.runik, yeni: null, not: null };
       for (const t of turevler(okunus)) {
@@ -165,20 +201,52 @@ for (const yol of yollar) {
       madde.runikEski = madde.runik;
       madde.runik = karar.yeni;
       madde.runikNotu = karar.not;
+      if (karar.elle) { madde.teyitGerek = false; }
       // Makine türetimi insan onayı değildir. Kaynak biçimin kökü bazen
       // başka bir sözcük olabiliyor (yaz ← YaZIKA, kuş ← KUŞaLGuKDA);
       // tamga-ses eşlemesi yazımın okunuşa oturduğunu söyler, o biçimin
       // bu maddenin çekimi olduğunu söylemez. Karar insanın.
-      madde.teyitGerek = true;
+      else { madde.teyitGerek = true; }
     } else {
       madde.runikEski = madde.runik;
       madde.runik = null;
       madde.korpustaYok = true;
       madde.runikNotu =
+        karar.not ??
         "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de " +
-        "güvenle kök çıkarılamadı — yazım gösterilmiyor";
+          "güvenle kök çıkarılamadı — yazım gösterilmiyor";
     }
   }
+  /*
+   * BİÇİM LİSTESİ TEMİZLİĞİ
+   *
+   * Biçimler çevriyazı ön ekiyle toplanıyordu: "yaz" maddesine "yazı"nın
+   * çekimleri (YaZIKA, YaZIDA) giriyordu — ekranda "yaz (ilkbahar)"
+   * maddesinin altında "Şantung ovasına" örnekleri duruyordu.
+   *
+   * Runik bu ikisini zaten ayırıyor: yaz 𐰖𐰔, yazı 𐰖𐰔𐰃. Bir biçim ancak
+   * maddenin runik yazımıyla BAŞLIYORSA o maddenin çekimidir. Çevriyazı
+   * ön eki yanıltıcı, runik ön eki değil.
+   */
+  // YALNIZ RAPOR — süzgeç UYGULANMIYOR.
+  //
+  // "Biçimin runiği maddenin runiğiyle başlamalı" kuralı denendi ve
+  // bırakıldı: gerçek çekimlerin çoğunu siliyor. Çekimde kökün son ünlüsü
+  // çoğu zaman yazılmıyor (süle- 𐰾𐰇𐰠𐰀 → SÜLeDiM 𐰾𐰇𐰠𐰓𐰢), tamga varyantı
+  // da oluyor (teŋri 𐱅𐰭𐰼𐰃 ~ 𐱅𐰏𐰼𐰃). Kural ancak kış/kişi gibi apaçık
+  // ayrı sözcüklerde doğru çalışıyor; o birkaç kazanç için onlarca doğru
+  // biçimi silmek veriyi bozar. Liste insana sunulur, karar insanındır.
+  for (const madde of d) {
+    if (!Array.isArray(madde.bicimler) || !madde.runik) continue;
+    const yabanci = madde.bicimler.filter((b) => !String(b.runik).startsWith(madde.runik));
+    if (yabanci.length) {
+      bicimTemizligi.push(
+        `${madde.transkripsiyon} ${madde.runik}: ${yabanci.length}/${madde.bicimler.length} biçimin runiği ` +
+          `başlıkla başlamıyor → ${yabanci.map((b) => b.transkripsiyon + " " + b.runik).join(", ")}`
+      );
+    }
+  }
+
   if (!kuru) {
     fs.writeFileSync(P(yol), JSON.stringify(d, null, 2) + "\n", "utf8");
   }
@@ -192,4 +260,9 @@ for (const r of kuruldu) {
   console.log(`       ${r.not}`);
 }
 for (const r of bos) console.log(`  ∅ ${r.okunus.padEnd(10)} ${String(r.eski).padEnd(14)} → (boş)`);
+if (bicimTemizligi.length) {
+  const benzersiz = [...new Set(bicimTemizligi)];
+  console.log(`\nbiçim listesi — ${benzersiz.length} maddede runiği başlıkla başlamayan biçim var (RAPOR, silinmedi):`);
+  for (const b of benzersiz) console.log("  · " + b);
+}
 if (!kuru) console.log("\n→ " + yollar.join(" · "));

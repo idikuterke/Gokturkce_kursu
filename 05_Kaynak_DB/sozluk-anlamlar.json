@@ -2055,9 +2055,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": true,
-    "runikEski": "𐰖𐰔𐰃𐰴𐰀",
-    "runikNotu": "kök yazımı YaZIKA 𐰖𐰔𐰃𐰴𐰀 biçiminden son 3 tamga düşürülerek kuruldu (tanık KT-G-3, tamga-ses eşlemesiyle doğrulandı)"
+    "teyitGerek": false,
+    "runikEski": "𐰖𐰔",
+    "runikNotu": "kök yazımı YaZıN 𐰖𐰔𐰣 biçiminden son 1 tamga düşürülerek kuruldu (tanık BK-G-2, insan onaylı). Dikkat: YaZIKA/YaZI/YaZIDA biçimleri bu maddenin değil, 'yazı (ova)' maddesinindir — runikte 𐰖𐰔𐰃 ile ayrılır."
   },
   {
     "id": "kis",
@@ -3927,7 +3927,7 @@
   {
     "id": "kus",
     "transkripsiyon": "kuş",
-    "runik": "𐰴𐰆𐱁",
+    "runik": null,
     "anlam": "kuş",
     "kategori": "hayvan",
     "kaynak": "Tekin 2003, s. 314",
@@ -3943,10 +3943,10 @@
         ]
       }
     ],
-    "korpustaYok": false,
+    "korpustaYok": true,
     "teyitGerek": true,
-    "runikEski": "𐰚𐰇𐰾𐰃",
-    "runikNotu": "kök yazımı KUŞaLGuKDA 𐰴𐰆𐱁𐰞𐰍𐰴𐰑𐰀 biçiminden son 5 tamga düşürülerek kuruldu (tanık KT-K-5, tamga-ses eşlemesiyle doğrulandı)"
+    "runikEski": null,
+    "runikNotu": "korpusta yalnız KUŞaLGuKDA (yer adı) geçiyor; sözcüğün kendisi tanıklı değil"
   },
   {
     "id": "yol",
