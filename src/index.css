@@ -273,3 +273,65 @@ body {
     }
   }
 }
+
+/*
+ * BİLGE ALP — maskot canlandırması
+ *
+ * Hepsi SVG grupları üzerinde CSS dönüşümü; ek dosya inmez, her boyutta
+ * keskin kalır. Ölçü küçük tutuldu (40-140 px arasında gösteriliyor):
+ * büyük hareket bu ölçekte titreme gibi görünüyor.
+ *
+ * transform-box: fill-box — SVG'de dönüşüm başlangıcı varsayılan olarak
+ * tuvalin köşesi; fill-box ile öğenin kendi kutusuna alınır, yoksa
+ * "merkezden ölçekle" dediğin şey köşeden kayarak döner.
+ */
+@keyframes alpNefes {
+  0%, 100% { transform: translateY(0) scaleY(1); }
+  50%      { transform: translateY(-1.2px) scaleY(1.012); }
+}
+@keyframes alpGozKirp {
+  /* Kırpma anlık olmalı: döngünün %96'sı açık, kalanı kapalı. */
+  0%, 94%, 100% { transform: scaleY(0); }
+  96%, 98%      { transform: scaleY(1); }
+}
+@keyframes alpTuy {
+  0%, 100% { transform: rotate(-3deg); }
+  50%      { transform: rotate(3deg); }
+}
+@keyframes alpHale {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.alp-nefes {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: alpNefes 4.2s ease-in-out infinite;
+}
+.alp-goz-kapak {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  animation: alpGozKirp 6.5s steps(1, end) infinite;
+}
+/* İkinci göz birazcık gecikir; ikisi matematiksel aynı anda kapanınca
+   göz kırpma değil, ışık sönmesi gibi duruyor. */
+.alp-goz-kapak-sag { animation-delay: 0.04s; }
+.alp-tuy {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: alpTuy 5.5s ease-in-out infinite;
+}
+.alp-hale {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation: alpHale 48s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .alp-nefes,
+  .alp-goz-kapak,
+  .alp-tuy,
+  .alp-hale {
+    animation: none;
+  }
+}

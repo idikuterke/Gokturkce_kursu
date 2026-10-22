@@ -442,7 +442,7 @@
   {
     "id": "toru",
     "transkripsiyon": "törü",
-    "runik": "𐱃𐰆𐰺𐰆",
+    "runik": "𐱅𐰇𐰼𐰇",
     "anlam": "töre, örfi kanun, devlet düzeni",
     "kategori": "yönetim / hukuk",
     "kaynak": "Tekin 2003, s. 322",
@@ -506,7 +506,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "runikEski": "𐱃𐰆𐰺𐰆",
+    "runikNotu": "kök yazımı TÖRÜG 𐱅𐰇𐰼𐰇𐰏 biçiminden +(X)g eki çıkarılarak kuruldu (22.10.2026)"
   },
   {
     "id": "sab",
@@ -2672,7 +2674,7 @@
   {
     "id": "og",
     "transkripsiyon": "ög",
-    "runik": "𐰆𐰍𐰔",
+    "runik": "𐰇𐰏",
     "anlam": "anne",
     "kategori": "aile",
     "kaynak": "Tekin 2003, s. 316",
@@ -2739,7 +2741,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "runikEski": "𐰆𐰍𐰔",
+    "runikNotu": "kök yazımı ÖGüM 𐰇𐰏𐰢 biçiminden +(ü)m eki çıkarılarak kuruldu (22.10.2026)"
   },
   {
     "id": "ini",

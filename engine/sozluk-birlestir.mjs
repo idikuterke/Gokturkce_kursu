@@ -30,32 +30,51 @@ const kelimeler = JSON.parse(fs.readFileSync(P("src/data/generated/kelimeler.jso
 const korpus = JSON.parse(fs.readFileSync(P("src/data/generated/korpus.json"), "utf8"));
 const dizeler = new Map(korpus.map((d) => [d.id, d]));
 
-// Türkçe katlama: ı/i, ş/s, ç/c, ö/o, ü/u ayrımı transkripsiyonda oynak.
-const katla = (s) => {
+// Türkçe katlama: ı/i, ş/s, ç/c ayrımı transkripsiyonda oynak.
+//
+// ö/o ve ü/u İKİ AYRI katlamada ele alınır. Gevşek katlama ikisini
+// birleştirir (eski davranış); SIKI katlama ayırır. Ayrım gerekli:
+// runikte ö/ü = 𐰇, o/u = 𐰆 — ayrı tamgalar. Gevşek katlamayla "ög" ile
+// "oguz" aynı anahtara düşüyor, sıklığa göre ilk sıradaki OGuZ seçiliyor
+// ve sözlükte "ög (anne) = 𐰆𐰍𐰔" gibi bambaşka bir sözcüğün yazımı
+// görünüyordu. Aynı tuzak kış/kişi, kum/kümüş, kuş/küsi'de de vardı.
+const katlaGenel = (s, siki) => {
   let t = String(s || "").toLowerCase().split("/")[0].trim().replace(/-+$/, "");
-  for (const [a, b] of [["ŋ", "ng"], ["ñ", "ny"], ["ı", "i"], ["ş", "s"], ["ç", "c"], ["ö", "o"], ["ü", "u"], ["ğ", "g"], ["â", "a"], ["ā", "a"]]) {
-    t = t.split(a).join(b);
-  }
+  const ciftler = [["ŋ", "ng"], ["ñ", "ny"], ["ı", "i"], ["ş", "s"], ["ç", "c"], ["ğ", "g"], ["â", "a"], ["ā", "a"]];
+  if (!siki) ciftler.push(["ö", "o"], ["ü", "u"]);
+  for (const [a, b] of ciftler) t = t.split(a).join(b);
   return [...t].filter((c) => /\p{L}/u.test(c)).join("");
 };
+const katla = (s) => katlaGenel(s, false);
+const katlaSiki = (s) => katlaGenel(s, true);
 
 // Sözlük biçimi → korpustaki bütün çekimli biçimler.
 const dizin = new Map();
+const dizinSiki = new Map();
 for (const k of kelimeler) {
   if (!k.guvenilir) continue;
-  const anahtar = katla(k.transkripsiyon);
-  if (!anahtar) continue;
-  if (!dizin.has(anahtar)) dizin.set(anahtar, []);
-  dizin.get(anahtar).push(k);
+  for (const [harita, anahtar] of [
+    [dizin, katla(k.transkripsiyon)],
+    [dizinSiki, katlaSiki(k.transkripsiyon)],
+  ]) {
+    if (!anahtar) continue;
+    if (!harita.has(anahtar)) harita.set(anahtar, []);
+    harita.get(anahtar).push(k);
+  }
 }
 
+/**
+ * Sözlük biçimi → korpustaki çekimli biçimler. SIKI anahtarla aranır:
+ * ö/ü ile o/u farkı korunur, yoksa başka bir sözcüğün biçimleri bu
+ * maddeye yazılır.
+ */
 const bicimleriBul = (lemma) => {
-  const a = katla(lemma);
+  const a = katlaSiki(lemma);
   if (!a) return [];
-  const tam = dizin.get(a) || [];
+  const tam = dizinSiki.get(a) || [];
   // Çekimli biçimler: aynı kökle başlayanlar (oglan, sabımın gibi).
   const turev = [];
-  for (const [anahtar, liste] of dizin) {
+  for (const [anahtar, liste] of dizinSiki) {
     if (anahtar !== a && anahtar.startsWith(a) && anahtar.length <= a.length + 4) {
       turev.push(...liste);
     }
@@ -70,8 +89,14 @@ let korpusDisi = 0;
 for (const g of gelen) {
   if (!g.meaning) continue;
   const bicimler = bicimleriBul(g.transcription);
-  const tamEslesme = bicimler.find((b) => katla(b.transkripsiyon) === katla(g.transcription));
-  const temel = tamEslesme || bicimler[0] || null;
+  // Başlık runiği YALNIZ tam eşleşmeden alınır. Eskiden tam eşleşme yoksa
+  // en sık geçen çekimli biçime düşülüyordu; bu yüzden "kut" maddesinde
+  // KUTuM'un, "ög" maddesinde OGuZ'un yazımı başlık olmuştu. Tam eşleşme
+  // yoksa runik boş bırakılır ve korpustaYok işaretlenir — uydurulmaz.
+  const tamEslesme = bicimler.find(
+    (b) => katlaSiki(b.transkripsiyon) === katlaSiki(g.transcription)
+  );
+  const temel = tamEslesme || null;
 
   if (temel) korpustan++;
   else korpusDisi++;

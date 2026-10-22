@@ -71,6 +71,21 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
                 <stop offset="100%" stopColor="#B45309" />
               </linearGradient>
 
+              {/* Yüz hacmi: düz dolgu yerine hafif radyal gölge. Küçük
+                  boyutta fark edilmez ama 130 px'te yüzü yassı olmaktan
+                  çıkarıyor. */}
+              <radialGradient id="yuzGrad" cx="42%" cy="34%" r="72%">
+                <stop offset="0%" stopColor="#F3C9A3" />
+                <stop offset="62%" stopColor="#EAB68E" />
+                <stop offset="100%" stopColor="#CE9468" />
+              </radialGradient>
+
+              {/* Börkün alnına düşürdüğü gölge */}
+              <linearGradient id="borkGolge" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stopColor="#000000" stopOpacity="0.32" />
+                <stop offset="100%" stopColor="#000000" stopOpacity="0" />
+              </linearGradient>
+
               {/* Turquoise kaftan gradient */}
               <linearGradient id="kaftanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#0F766E" />
@@ -80,7 +95,11 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
 
             {/* Ambient Background Aura */}
             <circle cx="90" cy="90" r="82" fill="#0E282E" stroke="#1D4B54" strokeWidth="2.5" />
-            <circle cx="90" cy="90" r="76" fill="none" stroke="#F59E0B" strokeWidth="1" strokeDasharray="3 4" opacity="0.4" />
+            <circle className="alp-hale" cx="90" cy="90" r="76" fill="none" stroke="#F59E0B" strokeWidth="1" strokeDasharray="3 4" opacity="0.4" />
+
+            {/* Nefes grubu: gövdeden başa kadar her şey. Ayaklar yok,
+                dönüşüm başlangıcı altta — yukarı doğru hafif şişiyor. */}
+            <g className="alp-nefes">
 
             {/* Bilge Alp Body & Kaftan */}
             <path 
@@ -102,7 +121,9 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
             <rect x="82" y="98" width="16" height="22" rx="3" fill="#E2A77A" />
 
             {/* Alp Head */}
-            <ellipse cx="90" cy="85" rx="27" ry="29" fill="#EAB68E" stroke="#9A3412" strokeWidth="1.2" />
+            <ellipse cx="90" cy="85" rx="27" ry="29" fill="url(#yuzGrad)" stroke="#9A3412" strokeWidth="1.2" />
+            {/* Börkün alna düşürdüğü gölge — yüz elipsiyle aynı eğride */}
+            <path d="M 64 80 A 27 29 0 0 1 116 80 L 116 70 L 64 70 Z" fill="url(#borkGolge)" />
 
             {/* Ears */}
             <circle cx="63" cy="85" r="5" fill="#E2A77A" />
@@ -113,6 +134,10 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
               d="M 78 95 Q 90 102 102 95 Q 106 100 100 104 Q 90 112 80 104 Q 74 100 78 95 Z" 
               fill="#271C19" 
             />
+            {/* Bıyık üstünde ince parlama: tek renk koyu leke olmaktan
+                çıkarır, kıl yönünü sezdirir. */}
+            <path d="M 80 96 Q 90 101 100 96" fill="none" stroke="#4A3A33" strokeWidth="1.1" strokeLinecap="round" opacity="0.8" />
+
             {/* Beard Tip */}
             <polygon points="86,104 94,104 90,113" fill="#271C19" />
 
@@ -120,58 +145,58 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
             {mood === 'happy' || mood === 'cheer' || mood === 'proud' ? (
               <>
                 {/* Cheerful curved eyes ^_^ */}
-                <path d="M 72 79 Q 79 71 85 79" fill="none" stroke="#271C19" strokeWidth="2.8" strokeLinecap="round" />
-                <path d="M 95 79 Q 101 71 108 79" fill="none" stroke="#271C19" strokeWidth="2.8" strokeLinecap="round" />
+                <path d="M 72 85 Q 79 77 85 85" fill="none" stroke="#271C19" strokeWidth="2.8" strokeLinecap="round" />
+                <path d="M 95 85 Q 101 77 108 85" fill="none" stroke="#271C19" strokeWidth="2.8" strokeLinecap="round" />
                 {/* Steppe warrior blush */}
-                <circle cx="68" cy="88" r="4" fill="#F43F5E" opacity="0.3" />
-                <circle cx="112" cy="88" r="4" fill="#F43F5E" opacity="0.3" />
+                <circle cx="68" cy="92" r="4" fill="#F43F5E" opacity="0.3" />
+                <circle cx="112" cy="92" r="4" fill="#F43F5E" opacity="0.3" />
               </>
             ) : mood === 'uyari' ? (
               <>
                 {/* Çatık kaş, kısık göz: azarlamaz, uyarır. */}
-                <path d="M 71 72 Q 78 76 85 73" fill="none" stroke="#271C19" strokeWidth="2.4" strokeLinecap="round" />
-                <path d="M 95 73 Q 102 76 109 72" fill="none" stroke="#271C19" strokeWidth="2.4" strokeLinecap="round" />
-                <path d="M 73 80 Q 79 78 85 80" fill="none" stroke="#271C19" strokeWidth="2.6" strokeLinecap="round" />
-                <path d="M 95 80 Q 101 78 107 80" fill="none" stroke="#271C19" strokeWidth="2.6" strokeLinecap="round" />
+                <path d="M 71 78 Q 78 82 85 79" fill="none" stroke="#271C19" strokeWidth="2.4" strokeLinecap="round" />
+                <path d="M 95 79 Q 102 82 109 78" fill="none" stroke="#271C19" strokeWidth="2.4" strokeLinecap="round" />
+                <path d="M 73 86 Q 79 84 85 86" fill="none" stroke="#271C19" strokeWidth="2.6" strokeLinecap="round" />
+                <path d="M 95 86 Q 101 84 107 86" fill="none" stroke="#271C19" strokeWidth="2.6" strokeLinecap="round" />
               </>
             ) : mood === 'thinking' ? (
               <>
                 {/* One arched eyebrow, thoughtful gaze */}
-                <path d="M 72 74 Q 78 69 85 75" fill="none" stroke="#271C19" strokeWidth="2" strokeLinecap="round" />
-                <path d="M 95 76 Q 102 73 108 73" fill="none" stroke="#271C19" strokeWidth="2.2" strokeLinecap="round" />
-                <circle cx="78" cy="79" r="2.8" fill="#271C19" />
-                <circle cx="102" cy="78" r="2.8" fill="#271C19" />
+                <path d="M 72 80 Q 78 75 85 81" fill="none" stroke="#271C19" strokeWidth="2" strokeLinecap="round" />
+                <path d="M 95 82 Q 102 79 108 79" fill="none" stroke="#271C19" strokeWidth="2.2" strokeLinecap="round" />
+                <circle cx="78" cy="85" r="2.8" fill="#271C19" />
+                <circle cx="102" cy="84" r="2.8" fill="#271C19" />
               </>
             ) : (
               <>
                 {/* Calm, noble, confident eyes */}
-                <path d="M 72 74 Q 78 72 85 74" fill="none" stroke="#271C19" strokeWidth="2.2" strokeLinecap="round" />
-                <path d="M 95 74 Q 102 72 108 74" fill="none" stroke="#271C19" strokeWidth="2.2" strokeLinecap="round" />
-                <circle cx="78" cy="80" r="2.8" fill="#271C19" />
-                <circle cx="102" cy="80" r="2.8" fill="#271C19" />
+                <path d="M 72 80 Q 78 78 85 80" fill="none" stroke="#271C19" strokeWidth="2.2" strokeLinecap="round" />
+                <path d="M 95 80 Q 102 78 108 80" fill="none" stroke="#271C19" strokeWidth="2.2" strokeLinecap="round" />
+                <circle cx="78" cy="86" r="2.8" fill="#271C19" />
+                <circle cx="102" cy="86" r="2.8" fill="#271C19" />
                 {/* Eye reflections */}
-                <circle cx="79" cy="79" r="0.9" fill="#FFFFFF" />
-                <circle cx="103" cy="79" r="0.9" fill="#FFFFFF" />
+                <circle cx="79" cy="85" r="0.9" fill="#FFFFFF" />
+                <circle cx="103" cy="85" r="0.9" fill="#FFFFFF" />
               </>
             )}
 
             {/* Nose */}
-            <path d="M 88 77 L 88 88 L 92 88" fill="none" stroke="#C27845" strokeWidth="2" strokeLinecap="round" />
+            <path d="M 88 86 L 87.5 93 L 92 93" fill="none" stroke="#C27845" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 
             {/* Traditional Steppe Leather Börk (Hat) */}
             <path 
-              d="M 60 74 C 60 48, 80 32, 90 28 C 100 32, 120 48, 120 74 Z" 
+              d="M 60 70 C 60 45, 80 30, 90 26 C 100 30, 120 45, 120 70 Z" 
               fill="#78350F" 
               stroke="#451A03" 
               strokeWidth="2" 
             />
             {/* Fur Trim at the base of the börk */}
-            <ellipse cx="90" cy="73" rx="33" ry="8" fill="#D97706" stroke="#92400E" strokeWidth="1.5" />
-            <ellipse cx="90" cy="73" rx="31" ry="6" fill="#F59E0B" opacity="0.6" />
+            <ellipse cx="90" cy="69" rx="33" ry="6" fill="#D97706" stroke="#92400E" strokeWidth="1.5" />
+            <ellipse cx="90" cy="69" rx="31" ry="4.5" fill="#F59E0B" opacity="0.6" />
 
             {/* Gold Crest / Plume ornament on börk */}
-            <circle cx="90" cy="50" r="4.5" fill="url(#goldGrad)" stroke="#78350F" strokeWidth="1" />
-            <path d="M 90 45 Q 98 32 94 22 Q 88 28 89 45" fill="#E2E8F0" opacity="0.9" />
+            <circle cx="90" cy="47" r="4.5" fill="url(#goldGrad)" stroke="#78350F" strokeWidth="1" />
+            <path className="alp-tuy" d="M 90 42 Q 98 29 94 19 Q 88 25 89 42" fill="#E2E8F0" opacity="0.9" />
 
             {/* Runik Bengü Stone held by the Alp */}
             <g transform="translate(112, 108) rotate(10)">
@@ -229,6 +254,18 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
             {/* Alp's Hand Holding the Stone */}
             <circle cx="118" cy="138" r="7" fill="#E2A77A" stroke="#9A3412" strokeWidth="1.2" />
             <circle cx="62" cy="142" r="7" fill="#E2A77A" stroke="#9A3412" strokeWidth="1.2" />
+
+            {/* Göz kapakları: en üstte, göz çiziminin üzerini örter.
+                Ten renginde, yüzün gölgesiyle aynı tonda. Düşündüğü ya da
+                uyardığı anda kırpmaz — o yüzlerde göz zaten kısık. */}
+            {mood !== 'thinking' && mood !== 'uyari' && (
+              <>
+                <rect className="alp-goz-kapak" x="70" y="78" width="17" height="12" rx="3" fill="#E8B88E" />
+                <rect className="alp-goz-kapak alp-goz-kapak-sag" x="93" y="78" width="17" height="12" rx="3" fill="#E8B88E" />
+              </>
+            )}
+
+            </g>
           </svg>
         )}
       </div>
