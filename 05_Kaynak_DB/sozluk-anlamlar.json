@@ -1354,7 +1354,7 @@
   {
     "id": "tag",
     "transkripsiyon": "tag",
-    "runik": "𐱃𐰍𐰲𐰀",
+    "runik": "𐱃𐰍",
     "anlam": "dağ",
     "kategori": "coğrafya",
     "kaynak": "Tekin 2003, s. 320",
@@ -1412,7 +1412,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐱃𐰍𐰲𐰀",
+    "runikNotu": "kök yazımı TaGÇA 𐱃𐰍𐰲𐰀 biçiminden son 2 tamga düşürülerek kuruldu (tanık KT-D-24, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "uguz",
@@ -1423,7 +1425,9 @@
     "kaynak": "Tekin 2003, s. 324",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "kol",
@@ -1573,7 +1577,9 @@
     "kaynak": "Tekin 2003, s. 304",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "bediz",
@@ -1733,7 +1739,7 @@
   {
     "id": "kumis",
     "transkripsiyon": "kümiş",
-    "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
+    "runik": "𐰚𐰇𐰢𐱁",
     "anlam": "gümüş",
     "kategori": "maden / servet",
     "kaynak": "Tekin 2003, s. 314",
@@ -1748,7 +1754,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰚𐰇𐰢𐱁𐰃𐰤",
+    "runikNotu": "kök yazımı KÜMiŞİN 𐰚𐰇𐰢𐱁𐰃𐰤 biçiminden son 2 tamga düşürülerek kuruldu (tanık KT-GB-1, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "agi",
@@ -1989,7 +1997,7 @@
   {
     "id": "yaz",
     "transkripsiyon": "yaz",
-    "runik": "𐰖𐰔𐰃𐰴𐰀",
+    "runik": "𐰖𐰔",
     "anlam": "ilkbahar, yaz mevsimi",
     "kategori": "zaman / mevsim",
     "kaynak": "Tekin 2003, s. 325",
@@ -2047,12 +2055,14 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰖𐰔𐰃𐰴𐰀",
+    "runikNotu": "kök yazımı YaZIKA 𐰖𐰔𐰃𐰴𐰀 biçiminden son 3 tamga düşürülerek kuruldu (tanık KT-G-3, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "kis",
     "transkripsiyon": "kış",
-    "runik": "𐰚𐰃𐰾𐰃",
+    "runik": "𐰶𐰃𐱁",
     "anlam": "kış mevsimi",
     "kategori": "zaman / mevsim",
     "kaynak": "Tekin 2003, s. 314",
@@ -2116,7 +2126,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰚𐰃𐰾𐰃",
+    "runikNotu": "kök yazımı KIŞıN 𐰶𐰃𐱁𐰣 biçiminden son 1 tamga düşürülerek kuruldu (tanık BK-G-2, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "bori",
@@ -2153,7 +2165,7 @@
   {
     "id": "adgir",
     "transkripsiyon": "adgır",
-    "runik": "𐰑𐰍𐰃𐰺𐰍",
+    "runik": "𐰑𐰍𐰃𐰺",
     "anlam": "aygır, damızlık erkek at",
     "kategori": "hayvan",
     "kaynak": "Tekin 2003, s. 301",
@@ -2184,12 +2196,14 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰑𐰍𐰃𐰺𐰍",
+    "runikNotu": "kök yazımı aDGIRIG 𐰑𐰍𐰃𐰺𐰍 biçiminden son 1 tamga düşürülerek kuruldu (tanık KT-D-35, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "yilki",
     "transkripsiyon": "yılkı",
-    "runik": "𐰘𐰃𐰞𐰴𐰃𐰾𐰃𐰤",
+    "runik": "𐰘𐰃𐰞𐰴𐰃",
     "anlam": "at sürüsü, binek hayvanı",
     "kategori": "hayvan / servet",
     "kaynak": "Tekin 2003, s. 326",
@@ -2228,12 +2242,14 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰘𐰃𐰞𐰴𐰃𐰾𐰃𐰤",
+    "runikNotu": "kök yazımı YILKIG 𐰘𐰃𐰞𐰴𐰃𐰍 biçiminden son 1 tamga düşürülerek kuruldu (tanık BK-D-38, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "koy",
     "transkripsiyon": "koy",
-    "runik": "𐰸𐰆𐰪",
+    "runik": null,
     "anlam": "koyun",
     "kategori": "hayvan",
     "kaynak": "Tekin 2003, s. 314",
@@ -2249,8 +2265,10 @@
         ]
       }
     ],
-    "korpustaYok": false,
-    "teyitGerek": false
+    "korpustaYok": true,
+    "teyitGerek": false,
+    "runikEski": "𐰸𐰆𐰪",
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "otuz",
@@ -2435,7 +2453,9 @@
     "kaynak": "Tekin 2003, s. 316",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "orgin",
@@ -2446,7 +2466,9 @@
     "kaynak": "Tekin 2003, s. 316",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "sad",
@@ -2516,7 +2538,7 @@
   {
     "id": "cabis",
     "transkripsiyon": "çabış",
-    "runik": "𐰲𐰉𐰾𐰃",
+    "runik": null,
     "anlam": "çavuş, askeri komutan, unvan",
     "kategori": "yönetim / askeri",
     "kaynak": "Tekin 2003, s. 306",
@@ -2530,8 +2552,10 @@
         ]
       }
     ],
-    "korpustaYok": false,
-    "teyitGerek": false
+    "korpustaYok": true,
+    "teyitGerek": false,
+    "runikEski": "𐰲𐰉𐰾𐰃",
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "buyruk",
@@ -2604,12 +2628,14 @@
     "kaynak": "Tekin 2003, s. 314",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "kang",
     "transkripsiyon": "kaŋ",
-    "runik": "𐰴𐰭𐰢",
+    "runik": "𐰴𐰭",
     "anlam": "baba",
     "kategori": "aile",
     "kaynak": "Tekin 2003, s. 312",
@@ -2669,7 +2695,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰴𐰭𐰢",
+    "runikNotu": "kök yazımı KaŊıM 𐰴𐰭𐰢 biçiminden son 1 tamga düşürülerek kuruldu (tanık KT-D-11, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "og",
@@ -2813,7 +2841,7 @@
   {
     "id": "eci",
     "transkripsiyon": "eçi",
-    "runik": "𐰲𐰃𐰢",
+    "runik": "𐰲𐰃",
     "anlam": "ağabey, amca",
     "kategori": "aile",
     "kaynak": "Tekin 2003, s. 306",
@@ -2866,7 +2894,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰲𐰃𐰢",
+    "runikNotu": "kök yazımı eÇİM 𐰲𐰃𐰢 biçiminden son 1 tamga düşürülerek kuruldu (tanık KT-D-1, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "kadas",
@@ -2877,12 +2907,14 @@
     "kaynak": "Tekin 2003, s. 312",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "armakci",
     "transkripsiyon": "armakçı",
-    "runik": "𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤",
+    "runik": "𐰺𐰢𐰴𐰲𐰃",
     "anlam": "hilekâr, aldatıcı",
     "kategori": "kişilik",
     "kaynak": "Tekin 2003, s. 301",
@@ -2898,7 +2930,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤",
+    "runikNotu": "kök yazımı aRMaKÇISIN 𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤 biçiminden son 3 tamga düşürülerek kuruldu (tanık KT-D-6, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "songus",
@@ -2909,7 +2943,9 @@
     "kaynak": "Tekin 2003, s. 319",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "sule",
@@ -2982,7 +3018,7 @@
   {
     "id": "sanc",
     "transkripsiyon": "sanç-",
-    "runik": "𐰽𐰨𐰑𐰃",
+    "runik": "𐰽𐰨",
     "anlam": "saplamak, mızraklamak, bozguna uğratmak",
     "kategori": "askeri",
     "kaynak": "Tekin 2003, s. 318",
@@ -3025,12 +3061,14 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰽𐰨𐰑𐰃",
+    "runikNotu": "kök yazımı SaNÇDI 𐰽𐰨𐰑𐰃 biçiminden son 2 tamga düşürülerek kuruldu (tanık KT-K-2, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "toki",
     "transkripsiyon": "tokı-",
-    "runik": "𐱃𐰸𐰃𐱃𐰑𐰢",
+    "runik": "𐱃𐰸𐰃",
     "anlam": "savaşmak, vurmak, dövüşmek",
     "kategori": "askeri",
     "kaynak": "Tekin 2003, s. 321",
@@ -3080,7 +3118,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐱃𐰸𐰃𐱃𐰑𐰢",
+    "runikNotu": "kök yazımı TOKITDıM 𐱃𐰸𐰃𐱃𐰑𐰢 biçiminden son 3 tamga düşürülerek kuruldu (tanık KT-G-13, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "korgan",
@@ -3119,7 +3159,9 @@
     "kaynak": "Tekin 2003, s. 306",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "yazi",
@@ -3187,7 +3229,7 @@
   {
     "id": "kum",
     "transkripsiyon": "kum",
-    "runik": "𐰚𐰇𐰢𐱁",
+    "runik": "𐰴𐰆𐰢",
     "anlam": "çöl, kumluk arazi",
     "kategori": "coğrafya",
     "kaynak": "Tekin 2003, s. 314",
@@ -3244,7 +3286,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰚𐰇𐰢𐱁",
+    "runikNotu": "kök yazımı KUMuG 𐰴𐰆𐰢𐰍 biçiminden son 1 tamga düşürülerek kuruldu (tanık TY1-B-7, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "ozen",
@@ -3255,7 +3299,9 @@
     "kaynak": "Tekin 2003, s. 316",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "balik",
@@ -3645,12 +3691,14 @@
     "kaynak": "Tekin 2003, s. 325",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "barim",
     "transkripsiyon": "barım",
-    "runik": "𐰉𐰺𐰢𐰃𐰤",
+    "runik": "𐰉𐰺𐰢",
     "anlam": "taşınır servet, mal mülk",
     "kategori": "servet",
     "kaynak": "Tekin 2003, s. 302",
@@ -3689,7 +3737,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰉𐰺𐰢𐰃𐰤",
+    "runikNotu": "kök yazımı BaRıMıN 𐰉𐰺𐰢𐰤 biçiminden son 1 tamga düşürülerek kuruldu (tanık BK-G-3, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "yut",
@@ -3844,7 +3894,9 @@
     "kaynak": "Tekin 2003, s. 318",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "tokuzon",
@@ -3855,7 +3907,9 @@
     "kaynak": "Tekin 2003, s. 321",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "tevey",
@@ -3866,12 +3920,14 @@
     "kaynak": "Tekin 2003, s. 321",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "kus",
     "transkripsiyon": "kuş",
-    "runik": "𐰚𐰇𐰾𐰃",
+    "runik": "𐰴𐰆𐱁",
     "anlam": "kuş",
     "kategori": "hayvan",
     "kaynak": "Tekin 2003, s. 314",
@@ -3888,12 +3944,14 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰚𐰇𐰾𐰃",
+    "runikNotu": "kök yazımı KUŞaLGuKDA 𐰴𐰆𐱁𐰞𐰍𐰴𐰑𐰀 biçiminden son 5 tamga düşürülerek kuruldu (tanık KT-K-5, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "yol",
     "transkripsiyon": "yol",
-    "runik": "𐰖𐰆𐰞𐰃",
+    "runik": "𐰖𐰆𐰞",
     "anlam": "yol, usül, kural",
     "kategori": "kültür",
     "kaynak": "Tekin 2003, s. 326",
@@ -3952,12 +4010,14 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰖𐰆𐰞𐰃",
+    "runikNotu": "kök yazımı YOLI 𐰖𐰆𐰞𐰃 biçiminden son 1 tamga düşürülerek kuruldu (tanık KT-D-15, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "kut",
     "transkripsiyon": "kut",
-    "runik": "𐰸𐰆𐱃𐰢",
+    "runik": "𐰸𐰆𐱃",
     "anlam": "kut, saadet, ilahi hükümdarlık gücü",
     "kategori": "inanç / kozmoloji",
     "kaynak": "Tekin 2003, s. 314",
@@ -4007,7 +4067,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰸𐰆𐱃𐰢",
+    "runikNotu": "kök yazımı KUTuM 𐰸𐰆𐱃𐰢 biçiminden son 1 tamga düşürülerek kuruldu (tanık KT-G-9, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "turuk",
@@ -4191,7 +4253,9 @@
     "kaynak": "Tekin 2003, s. 322",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "tunyukuk",
@@ -4249,12 +4313,14 @@
     "kaynak": "Tekin 2003, s. 320",
     "bicimler": [],
     "korpustaYok": true,
-    "teyitGerek": true
+    "teyitGerek": true,
+    "runikEski": null,
+    "runikNotu": "yalın biçim korpusta tanıklı değil; çekimli biçimlerden de güvenle kök çıkarılamadı — yazım gösterilmiyor"
   },
   {
     "id": "irk_bitig_fal",
     "transkripsiyon": "ırk",
-    "runik": "𐰃𐰼𐰚𐰤",
+    "runik": "𐰃𐰺𐰴",
     "anlam": "fal, kehanet, işaret",
     "kategori": "kültür / inanç",
     "kaynak": "Ata 2011, s. 112",
@@ -4279,7 +4345,9 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": true,
+    "runikEski": "𐰃𐰼𐰚𐰤",
+    "runikNotu": "kök yazımı IRKDA 𐰃𐰺𐰴𐰑𐰀 biçiminden son 2 tamga düşürülerek kuruldu (tanık TY1-B-5, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
     "id": "TÜRK",

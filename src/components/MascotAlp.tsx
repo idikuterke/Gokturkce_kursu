@@ -129,17 +129,44 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
             <circle cx="63" cy="85" r="5" fill="#E2A77A" />
             <circle cx="117" cy="85" r="5" fill="#E2A77A" />
 
-            {/* Alp Traditional Mustache & Beard */}
-            <path 
-              d="M 78 95 Q 90 102 102 95 Q 106 100 100 104 Q 90 112 80 104 Q 74 100 78 95 Z" 
-              fill="#271C19" 
-            />
-            {/* Bıyık üstünde ince parlama: tek renk koyu leke olmaktan
-                çıkarır, kıl yönünü sezdirir. */}
-            <path d="M 80 96 Q 90 101 100 96" fill="none" stroke="#4A3A33" strokeWidth="1.1" strokeLinecap="round" opacity="0.8" />
+            {/* AĞIZ BÖLGESİ — bıyık, ağız ve sakal ayrı parçalar.
+                Önce üçü tek kapalı path'ti ve #271C19 ile doluydu: yüzün
+                ortasında açık duran simsiyah bir delik gibi görünüyordu.
+                Artık bıyığın ortasında boşluk var, ağız o boşlukta duruyor
+                ve ruh hâline göre değişiyor; sakal ayrı, daha açık tonda. */}
 
-            {/* Beard Tip */}
-            <polygon points="86,104 94,104 90,113" fill="#271C19" />
+            {/* Sakal — çene çizgisine oturur. Yüz elipsi cx=90 cy=85 rx=27
+                ry=29, yani çene x=80..100 arasında y≈112-114'ten geçiyor.
+                Önceki çizim y=120'ye iniyordu: çenenin altında, yüze
+                değmeden duran ayrı bir kütle gibi görünüyordu. */}
+            <path
+              d="M 81 104 C 82 111, 86 115, 90 115 C 94 115, 98 111, 99 104 C 95 107, 85 107, 81 104 Z"
+              fill="#3A2A23"
+            />
+
+            {/* Ağız: bıyığın altındaki boşlukta. Kapalı bir çizgi, delik değil. */}
+            <path
+              d={
+                mood === 'happy' || mood === 'cheer' || mood === 'proud'
+                  ? 'M 84 102 Q 90 107 96 102'   // gülümseme
+                  : mood === 'uyari'
+                    ? 'M 84 104 Q 90 101 96 104' // hafif aşağı
+                    : mood === 'thinking'
+                      ? 'M 85 103 L 95 102'      // düz, hafif yana kaçık
+                      : 'M 85 103 Q 90 105 95 103' // sakin
+              }
+              fill="none"
+              stroke="#5A3F33"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+            />
+
+            {/* Bıyık: iki yarım, ortada boşluk. Burnun altından dışa süzülür. */}
+            <path d="M 89 95 C 84 93.5, 78 94.5, 74.5 99 C 79 101.5, 85 100, 89 97.8 Z" fill="#2E211C" />
+            <path d="M 91 95 C 96 93.5, 102 94.5, 105.5 99 C 101 101.5, 95 100, 91 97.8 Z" fill="#2E211C" />
+            {/* Kıl yönünü sezdiren ince parlama */}
+            <path d="M 87 96 C 83 95, 79 95.6, 76.5 98.3" fill="none" stroke="#6B5147" strokeWidth="0.9" strokeLinecap="round" opacity="0.75" />
+            <path d="M 93 96 C 97 95, 101 95.6, 103.5 98.3" fill="none" stroke="#6B5147" strokeWidth="0.9" strokeLinecap="round" opacity="0.75" />
 
             {/* Eyes & Eyebrows based on mood */}
             {mood === 'happy' || mood === 'cheer' || mood === 'proud' ? (
@@ -204,55 +231,38 @@ export const MascotAlp: React.FC<MascotAlpProps> = ({
               <rect 
                 x="0" 
                 y="0" 
-                width="34" 
-                height="50" 
+                width="36" 
+                height="54" 
                 rx="4" 
                 fill="url(#stoneGrad)" 
                 stroke="#F59E0B" 
                 strokeWidth="1.8" 
                 className="drop-shadow-[0_0_10px_rgba(245,158,11,0.5)]"
               />
-              {/* Steppe Turquoise Rune Carvings (𐱅𐰇𐰼𐰜) */}
-              <text 
-                x="17" 
-                y="18" 
-                fill="#2DD4BF" 
-                fontSize="13" 
-                fontWeight="bold" 
-                textAnchor="middle" 
-                fontFamily="sans-serif"
-                className="runic"
-              >
-                𐱅
-              </text>
-              <text 
-                x="17" 
-                y="32" 
-                fill="#FBBF24" 
-                fontSize="12" 
-                fontWeight="bold" 
-                textAnchor="middle" 
-                fontFamily="sans-serif"
-                className="runic"
-              >
-                𐰇𐰼
-              </text>
-              <text 
-                x="17" 
-                y="45" 
-                fill="#2DD4BF" 
-                fontSize="11" 
-                fontWeight="bold" 
-                textAnchor="middle" 
-                fontFamily="sans-serif"
-                className="runic"
-              >
-                𐰜
-              </text>
+              {/* Taştaki yazı: 𐰋𐰃𐰠𐰏𐰀 "bilge" — rehberin adı.
+                  Önce 𐱅 / 𐰇𐰼 / 𐰜 üç satıra bölünmüş TÜRÜK vardı; bölünme
+                  sözcüğü üç parça gibi gösteriyordu. Artık tek sütun,
+                  yukarıdan aşağı — Eski Türkçenin dikey yazım düzeni.
+                  Kaynak: Tekin 2003, korpusta KT-G-1 ve KT-G-6'da geçiyor. */}
+              <title>𐰋𐰃𐰠𐰏𐰀 — bilge</title>
+              {[...'𐰋𐰃𐰠𐰏𐰀'].map((glif, i) => (
+                <text
+                  key={i}
+                  x="17"
+                  y={11 + i * 9}
+                  fill={i % 2 === 0 ? '#2DD4BF' : '#FBBF24'}
+                  fontSize="8.5"
+                  fontWeight="bold"
+                  textAnchor="middle"
+                  className="runic"
+                >
+                  {glif}
+                </text>
+              ))}
             </g>
 
             {/* Alp's Hand Holding the Stone */}
-            <circle cx="118" cy="138" r="7" fill="#E2A77A" stroke="#9A3412" strokeWidth="1.2" />
+            <circle cx="109" cy="152" r="6.5" fill="#E2A77A" stroke="#9A3412" strokeWidth="1.2" />
             <circle cx="62" cy="142" r="7" fill="#E2A77A" stroke="#9A3412" strokeWidth="1.2" />
 
             {/* Göz kapakları: en üstte, göz çiziminin üzerini örter.
