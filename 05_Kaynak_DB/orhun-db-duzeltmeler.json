@@ -192,6 +192,14 @@
    "eski": "TaMGaÇI",
    "yeni": "TaRDUŞ",
    "gerekce": "Runik 𐱃𐰺𐰑𐰆𐱁 = TaRDUŞ; çeviri de TARDUŞ; transkripsiyonda yanlışlıkla TaMGaÇI tekrarlanmış"
+  },
+  {
+   "id": "TY2-B-1",
+   "sira": 15,
+   "alan": "transkripsiyon",
+   "eski": "KOPUN",
+   "yeni": "KOP",
+   "gerekce": "Runikte 𐰸𐰆𐰯 (k-o-p) var, sonda n yok; çevriyazıda fazladan n. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 15-16: kop(ı)n değil koop (T 36-37)"
   }
  ]
 }

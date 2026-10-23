@@ -43,33 +43,60 @@ Kısılta» yer adı, kısıl "dar geçit" + bulunma eki. Biçim listesinden
 sözcük ("toruk buukalı", Alyılmaz s. 12). toruk'un biçim listesinden
 çıkarıldı; korpus belirteci olduğu gibi duruyor.
 
-## Uygulanmayan üç korpus düzeltmesi
+## Korpus düzeltmeleri
 
-Bunlar `05_Kaynak_DB/orhun-db-v1.json`'a dokunmayı gerektiriyor;
-dokunulmadı (nedeni aşağıda).
-
-| Dize | Bizdeki | Olması gereken | Not |
+| Dize | Bizdeki | Olması gereken | Durum |
 |---|---|---|---|
-| TY2-B-1 | `KOPUN` | **KOP** / koop | Runikte 𐰸𐰆𐰯 var, sonda n yok; çevriyazıda fazladan n |
-| TY1-K-2 | `TUG` | **tuug** | Alyılmaz ilk tamganın 𐱃'nin ayrı bir biçimi olduğunu söylüyor |
-| TY1-B-5 | `TORuKBUKuLI`, `SeMiZBUKuLI`, `KaGaNMUKISaYiN` | ayrı sözcükler | Taşta ayırıcı var mı bilmiyoruz; bölmek epigrafik karar |
+| TY2-B-1 | `KOPUN` | **KOP** / koop | ✅ uygulandı |
+| TY1-K-2 | `TUG` | **tuug** | ⏳ alfabeye yeni tamga eklemeyi gerektiriyor |
+| TY1-B-5 | `TORuKBUKuLI`, `SeMiZBUKuLI`, `KaGaNMUKISaYiN` | ayrı sözcükler | ⏳ epigrafik karar: taşta ayırıcı var mı? |
 
-## Neden korpusa dokunulmadı: yıkıcı bir betik
+**KOPUN → KOP.** Runikte 𐰸𐰆𐰯 (k-o-p) var, sonda n yok; çevriyazıda
+fazladan bir n duruyordu. `orhun-db-istisna.json`'da zaten "inceleme"
+damgasıyla bekliyordu ("runik 𐰸𐰆𐰯 sonda n yok; transkripsiyon kopun").
+Alyılmaz s. 15-16 çözüyor. Yama `orhun-db-duzeltmeler.json`'a eklendi,
+bayatlayan istisna kaldırıldı (24 → 23). `kop` 𐰸𐰆𐰯 sıklığı 18 → 19.
 
-`engine/orhun_db_uret.mjs` düzeltme yamalarını uygulayıp korpusu ham
-HTML'den yeniden üretiyor. İki sorun ölçüldü:
+Kalan ikisi veri değil **karar** istiyor: biri alfabeye tamga eklemek,
+öbürü taştaki sözcük ayırıcısı hakkında epigrafik hüküm vermek.
 
-1. **Sabit sürücü yolu.** `const ROOT = "E:/Gokturkce_kursu"` — betik
-   yalnız tek bir makinede çalışıyordu. Depo kökünden hesaplanacak
-   şekilde düzeltildi.
-2. **Elle düzeltilmiş çevirileri eziyor.** Çalıştırıldığında 214
-   dizenin **138'i** değişti: akıcı Türkçe çeviriler ("Tanrı gibi ve
-   Tanrı'dan olmuş Türk Bilge Hakan, bu devirde tahta oturdum…") ham
-   sözcük hizalı dizelerle ("TANRI : DEK : TANRIDAN : OLMUŞ…") yer
-   değiştirdi; `TÜRÜK` de `TÜRK` oldu. Korpus geri yüklendi, birebir
-   doğrulandı.
+## Yeniden üretim artık çevirileri koruyor
 
-Betik artık varsayılan olarak **yalnızca sağlama** yapıyor; yazmak için
-`--yaz` gerekiyor ve başlığında ne ezdiği yazılı. Yukarıdaki üç
-düzeltme uygulanacaksa ya JSON'a cerrahi müdahale ile ya da önce
-çevirileri koruyacak bir birleştirme yazılarak yapılmalı.
+Yukarıdaki yamanın uygulanabilmesi için `orhun_db_uret.mjs`'in yıkıcı
+olmaktan çıkması gerekiyordu. Üç katmanlı hale getirildi:
+
+1. **Ham üretim** — turkbitig HTML'inden dizeler kurulur.
+2. **Düzeltme yamaları** — `orhun-db-duzeltmeler.json`, kelime bazında.
+3. **Elle katman** — `orhun-db-elle.json`, alan bazında, üretimden sonra
+   bindirilir. İçinde 139 düzenleme var: 136 akıcı Türkçe çeviri, 2
+   çevriyazı (TÜRÜK, TÜRK değil), 1 elle yazılmış dize notu.
+
+`dogrulama` ve `etiketler` düzeltme değil, başka betiklerin yazdığı dize
+durumu; onlar elle dosyasına girmez, mevcut veri tabanından **taşınır**
+(428 alan). Üst düzey elle yazılmış notlar da korunur.
+
+**Çatışma denetimi.** Her elle düzenleme, çıkarıldığı andaki *üretilen*
+değeri de saklıyor. Ham sayfa ya da bir yama o alanı değiştirirse
+üretilen değer tutmaz; betik çatışma verir, **dosyayı yazmaz** ve 1 ile
+çıkar. Sınandı: KT-G-1'in çevriyazısına dokunan sahte bir yama eklendi,
+betik yazmayı reddetti. Böylece ne çeviri sessizce kaybolur ne de yeni
+bir düzeltme sessizce yutulur. Çatışmayı bilerek geçmek için
+`--catismaya-ragmen` var.
+
+**Yuvarlak sağlama.** Elle katman çıkarıldıktan sonra yeniden üretim
+mevcut veri tabanını birebir veriyor; fark yalnızca üretim tarihi, iki
+yeni üretilen not ve bir hata düzeltmesi: KT-K-13'ün `dusen_unlu`
+dizisinde 13. değer 2'ydi, oysa sözcük `TaRDUŞ` ve tek küçük harfi var.
+Eski değer, çevriyazı elle düzeltildiğinde yeniden hesaplanmadığı için
+bayat kalmış. Türetilmiş alanlar artık bindirmeden **sonra** hesaplanıyor.
+
+İki yardımcı düzeltme: alan sırası ve girinti mevcut dosyayla eşitlendi
+(yoksa yeniden üretim 13 bin satırlık sahte fark veriyordu), çeviri
+kelime sayısı uyarısı akıcı çeviriler için susturuldu (":" ile
+bölünmedikleri için her dizede uyarı veriyordu).
+
+### Betikler
+
+    node engine/orhun-db-elle-cikar.mjs   # mevcut DB'den elle katmanı çıkar
+    node engine/orhun_db_uret.mjs         # sağlama (yazmaz)
+    node engine/orhun_db_uret.mjs --yaz   # çatışma yoksa yaz

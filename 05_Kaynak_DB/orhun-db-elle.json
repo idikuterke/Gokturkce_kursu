@@ -1,0 +1,839 @@
+{
+ "aciklama": "orhun-db-v1.json'daki elle düzenlemeler. orhun_db_uret.mjs bunları ham HTML üretiminin ÜSTÜNE bindirir. 'uretilen', düzenleme çıkarıldığı andaki üretilen değerdir; üretim onunla uyuşmazsa üretici çatışma verir.",
+ "cikarildi": "2026-10-23",
+ "duzenlemeler": [
+  {
+   "id": "KT-G-1",
+   "alan": "transkripsiyon",
+   "deger": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN : YeGÜNüM : OGLaNıM : BİRiKİ : OGuŞuM : BODuNuM : BİRiYE : ŞaDPIT : BeGLeR : YIRıYA : TaRKaT : BUYRUK : BeGLeR : OTuZ : TaTaR :",
+   "uretilen": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRK : BİLGE : KaGaN : BU : ÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİDGiL : ULaYU : İN : YeGÜNüM : OGLaNıM : BİRiKİ : OGuŞuM : BODuNuM : BİRiYE : ŞaDPIT : BeGLeR : YIRıYA : TaRKaT : BUYRUK : BeGLeR : OTuZ : TaTaR :"
+  },
+  {
+   "id": "KT-G-1",
+   "alan": "turkce",
+   "deger": "(Ben), Tanrı gibi (ve) Tanrı'dan olmuş Türk Bilge Hakan, bu devirde (tahta) oturdum. Sözlerimi baştan sona işitin, önce (siz) erkek kardeşlerim, (ve) oğullarım, birleşik boyum (ve) halkım, sağdaki Şadapıt beyler, soldaki Tarkan'lar (ve) kumandan beyler, Otuz (Tatar.......-.. 20502 )",
+   "uretilen": "TANRI : DEK : TANRIDAN : OLMUŞ : TÜRK : BİLGE : KAĞAN : BU : ÖDE : OTURDUM : SAVIMI : TÜKETE[NE-DEK] : İŞİT[İN] : EVVELA : KARDEŞ : YEĞENİM : OĞLUM : BERİKİ : OĞUŞUM : BOYLARIM : BERİDE : ŞADPIT : BEĞLERİ : YIRIDA : TARKAT : BUYRUK : BEĞLERİ : OTUZ : TATAR :"
+  },
+  {
+   "id": "KT-G-2",
+   "alan": "turkce",
+   "deger": "Dokuz Oğuz beyleri (ve) halkı, bu sözlerimi iyice işitin (ve) sıkıca dinleyin: İlerilde), gün doğusuna, güneyde gün ortasına kadar, geride gün batısına (ve) kuzeyde gece ortasına kadar, bu (sınırlar) içindeki (bütün) halklar hep bana tabidir. Bunca halkı",
+   "uretilen": "DOKUZ : OĞUZ : BEĞLERİ : BOYLARI : BU : SAVIMI : İYİCE : İŞİT : KATICA : DİNLE : İLERİ : GÜN : DOĞUSUNA : BERİDE : GÜN : ORTASINA : GERİDE : GÜN : BATISINA : YIRIDA : GECE : ORTASINA : [O] ANDA : İÇİNDEKİ : BOYLAR : HEP : BANA : GÖRÜR : BUNCA : BOYLARI :"
+  },
+  {
+   "id": "KT-G-3",
+   "alan": "turkce",
+   "deger": "hep düzene soktum. Onlar şimdi (hiç de) kötü (durumda) değiller. Türk(lerin) hakanı Ötüken dağlarında oturur (ve oradan hükmeder) ise ülkede (hiçbir) sıkıntı olmaz. Doğuda Şantung ovasına kadar ordu sevk ettim, denize az kala durdum; güneyde Dokuz Ersin'e kadar ordu sevk ettim, Tibet'e az kala durdum; batıda İnci (Sır Derya) ırmağı(nı)",
+   "uretilen": "HEP : [DÜZEN] ETDİM : O[NLARIN] : ŞİMDİ : ANYI : YOK : TÜRK : KAĞANI : ÖTÜKEN : YIŞDA : OTURSA : İLDE : BUNG : YOK : İLERİ : ŞANTUNG : OVASINA : DEĞİN : SÜLEDİM : TALUYA : GEÇİP : DEĞMEDİM : BERİDE : DOKUZ : ERSİNE : DEĞİN : SÜLEDİM : TİBETE : GEÇİP : DEĞMEDİM : GERİDE : İNCİ : ÖGÜZ[Ü] --- :"
+  },
+  {
+   "id": "KT-G-4",
+   "alan": "turkce",
+   "deger": "geçerek Demir Kapı 'ya kadar ordu sevk ettim; kuzeyde Yir Bayırku topraklarına kadar ordu sevk ettim; bunca diyara kadar (ordularımı) yürüttüm (ve anladım ki) Ötüken dağlarından daha iyi bir yer asla yok imiş! (Türk halkının yurt edineceği ve) yönetileceği yer Ötüken dağları imiş! Bu yerde oturup Çin halkı ile",
+   "uretilen": "GEÇİP : DEMİRKAPIYA : DEĞİN : SÜLEDİM : YIRIDA : YİR : BAYIRKU : YERİNE : DEĞİN : SÜLEDİM : BUNCA : YER[LER]E : DEĞİN : [ORDU] YÜRÜTTÜM : ÖTÜKEN : YIŞDAN : YEĞ : İDİ : YOK : İMİŞ : İL : TUTULASI : YER : ÖTÜKEN : YIŞ : İMİŞ : BU : YERDE : OTURUP : TABGAÇ : KAĞANI : İLE :"
+  },
+  {
+   "id": "KT-G-5",
+   "alan": "turkce",
+   "deger": "(ilişkileri) düzelttim. (Çinliler) altın(1), gümüşlü), ipeğ(i) (ve) ipekli kumaşları güçlük çıkarmaksızın öylece (bize) veriyorlar. Çin halkının sözleri tatlı, 36 KÜLTİGİN YAZITI süçiğ, ağısı yımşak ermiş. Süçiğ sabın yımşak ağın arıp ırak bodunuğ ança yağutır ermiş. Yağru kontukda kisre aniyığ biliğ anta öyür ermiş.",
+   "uretilen": "TÜZÜLTTÜM : ALTINI : GÜMÜŞÜ : İŞGİTİ : KUMAŞI : BUNGSUZ : ANCA : VERİR : TABGAÇ : BOYLARININ : SAVI : SÜÇİ : İPEĞİ : YUMUŞAK : İMİŞ : SÜÇİ : SAVINI : YUMUŞAK : İPEĞİNİ : ARIP : UZAK : BOYLARI : ANCA : YAKLAŞTIRIR : İMİŞ : YAKLAŞIP : KONDUKTAN : SONRA : ANYI : BİLGİ[Yİ] : [O] ANDA : ÖYÜR : İMİŞ :"
+  },
+  {
+   "id": "KT-G-6",
+   "alan": "turkce",
+   "deger": "İyi (ve) akıllı kişileri, iyi (ve) cesur kişileri ilerletmezler imiş; (öte yandan) bir kişi suç işlese, onun boyu(na), halkı(na) (ve) hısım akrabasına kadar (herkesi) öldürmezler imiş. (Çin halkının) tatlı sözlerine (ve) yumuşak ipekli kumaşlarına kanıp, (ey) Türk halkı, çok sayıda öldün! (Ey) Türk halkı, öleceksin! Güneyde Çuğay dağlarına (ve) Töğültün",
+   "uretilen": "İYİ : BİLGE : KİŞİYİ : İYİ : ALP : KİŞİYİ : YÜRÜTMEZ : İMİŞ : BİR : KİŞİ : YANILSA : OĞUŞUNA : BOYLARINA : BEŞİĞİNE : DEĞİN : KIYMAZ : İMİŞ : SÜÇİ : SÖZÜNE : YUMUŞAK : AĞISINA : ARTURUP : ÇOK : TÜRK : BOYLARI : ÖLDÜ : TÜRK : BOYLARI : ÖLECEKSİN : BERİDE : ÇOĞAY : YIŞA : TÖGÜLTÜN :"
+  },
+  {
+   "id": "KT-G-7",
+   "alan": "turkce",
+   "deger": "ovasına konayım dersen, (ey) Türk halkı, öleceksin! Orada kötü (niyetli) kimseler şöyle akıl verirler imiş: “(Çinliler, bir halk) uzak(ta yaşıyor) ise, kötü hediyeler verir, yakın(da yaşıyor) ise iyi hediyeler verir” deyip öyle akıl verirler imiş. (Ey) cahil kişiler, bu sözlere kanıp, (Çinlilere) yakın gidip, çok sayıda öldünüz.",
+   "uretilen": "YAZINA : KONAYIM : DESEN : TÜRK : BOYLARI : ÖLECEK[SİN] : [O] ANDA : ANYI : KİŞİ : ANCA : BOŞGURUR : İMİŞ : IRAK : İSEN : YAVLAK : AĞI : VERİR : YAKIN : İSEN : İYİ : AĞI : VERİR : DEYİP : ANCA : BOŞGURUR : İMİŞ : BİLGİ : BİLMEZ : KİŞİ : O : SÖZÜ : ALIP : YAKINA : VARIP : ÇOK : KİŞİ : ÖLDÜ :"
+  },
+  {
+   "id": "KT-G-8",
+   "alan": "turkce",
+   "deger": "O yere doğru gidersen, (ey) Türk halkı, öleceksin! Ötüken topraklarında oturup (buradan Çin'e ve diğer ülkelere) kervanlar gönderirsen, hiç derdin olmaz. Ötüken dağlarında oturursan sonsuza kadar devlet sahibi olup hükmedeceksin. (Ey) Türk halkı, (sen) tok gözlüsün: Açlığı tokluğu düşünmezsin; bir (de) doyarsan açlığı (hiç) düşünmezsin. Böyle olduğun",
+   "uretilen": "O : YERLERE : VARIRSAN : TÜRK : BOYLARI : ÖLECEK : SEN : ÖTÜKEN : YERİNDE : OTURUP : ARKIŞ : TİRGİŞ : [GÖNDERİR] İSEN : NE : BUNGUN : YOK : ÖTÜKEN : YIŞDA : OTURSAN : BENGÜ : İL : TUTUP : OTURACAK : SEN : TÜRK : BOYLARI : TOKSAN : SEN : AÇLIĞI : TOKLUĞU : DÜŞÜNMEZ : SEN : BİR : DOYSAN : AÇLIĞI : DÜŞÜNMEZ : SEN : ÖYLE [OLDUĞUN] :"
+  },
+  {
+   "id": "KT-G-9",
+   "alan": "turkce",
+   "deger": "için, (seni) besleyip doyurmuş olan hakanlarının sözlerini (dinlemeden ve rızalarını) almadan her yere gittin, oralarda hep mahvoldun (ve) tükendin. Oralarda (nasılsa sağ) kalmış olanları(nız da hemen) her yönde bitkin ve mecalsiz (bir halde) yürüyor idiniz. Tanrı lütufkâr olduğu için, benim (de) talihim olduğu için, hakan (olarak tahta) oturdum. Tahta oturup",
+   "uretilen": "İÇİN : [SENİ] YEDİRMİŞ : KAĞANININ : SÖZÜNÜ : ALMADAN : YERE : HER : VARDIN : HEP : [O] ANDA : ALKINDIN : ARILDIN : [O] ANDA : KALMIŞI : YERE : HER : HEP : DORUP : ÖLÜP : YÜRÜYOR : İDİ[LER] : TANRI : BUYURDUĞU : İÇİN : ÖZÜM : KUTUM : VAR [OLDUĞU] : İÇİN : KAĞAN : OTURDUM : KAĞAN : OTURUP :"
+  },
+  {
+   "id": "KT-G-10",
+   "alan": "turkce",
+   "deger": "yoksul (ve) fakir halkı hep derleyip topladım: Fakir halkı zengin yaptım, az halkı çok yaptım. Yoksa, bu sözümde yalan var mı? j (Ey) Türk beyleri (ve) halkı, bunu işitin! Türk (halkı), dirilip (nasıl) devlet sahibi olacağını buraya (taş üzerine) hâkkettim; yanılıp (nasıl) öleceğini de",
+   "uretilen": "YOK : ÇIĞANY : BOYLARI : HEP : TOPARLADIM : ÇIĞANY : BOYLARI : BAY : KILDIM : AZ : BOYLARI : ÇOK : KILDIM : AZU : BU : SÖZÜMDE : İGİD : VAR : MI? : TÜRK : BEĞLERİ : BOYLARI : BUNU : İŞİTİN : TÜRK : BOYLARININ : DİRİLİP : İL : TUTACAĞINI : BUNDA(TAŞA) : VURDUM : YANILIP : ÖLECEĞİNİ : YİNE :"
+  },
+  {
+   "id": "KT-G-12",
+   "alan": "turkce",
+   "deger": "Çin hakanının has sanatçılarını gönderdiler. Onlara olağanüstü bir türbe yaptırttım; içine (ve) dışına olağanüstü resim ve heykeller koydurttum. Gönlümdeki sözlerimi yazdırdım.. On-Ok oğullarına (ve) yabancılarına kadar (hepiniz) bunları görüp öğrenin. Ebedi taş",
+   "uretilen": "TABGAÇ : KAĞANI : İÇİNDEKİ : BEZECİ : İTDİ : ONA : ADINÇI : BARK : YARATTIRDIM : İÇİNE : DIŞINA : ADINÇI : BEZE : VURDURDUM : TAŞ : DOKUTTUM : GÖNÜLDEKİ : SAVIMI : [TAŞA] VURDURDUM : OL --- : ON : ONG : OĞLUNA : TATINA : DEĞİN : BUNU : GÖRÜP : BİLİN : BENGÜ : TAŞ :"
+  },
+  {
+   "id": "KT-G-13",
+   "alan": "turkce",
+   "deger": "hâkkettirdim. (Burası) yakın (bir) mevki olduğundan, ayrıca kolay erişilir (bir) yer olduğundan, böyle kolay erişilir (bir) yerde ebedi taş hâkkettirdim, yazdırttım. Onu görüp öylece bilin (ve öğrenin). O taşılı... hâkkettirdim). * Bu yazıyı yazan (Kül Tigin'in) yeğeni Yolluğ (Tigin'dir).",
+   "uretilen": "DOKUTTUM : BU --- İL : İSE : ANCA : --- M : TAKİ : ERİŞİLİR : YERDE : İSE : ANCA : ERİŞİLİR : YERDE : BENGÜ : TAŞ : DOKUTTUM : YAZDIRDIM : ONU : GÖRÜP : ANCA : BİLİN : O : TAŞ : --- DIM : BU : YAZIYI : YAZAN : ATISI : YOLUĞTİGİN :"
+  },
+  {
+   "id": "KT-D-1",
+   "alan": "turkce",
+   "deger": "Üstte mavi gök (yüzü) altta (da) yağız yer yaratıldığında, ikisinin arasında insan oğulları yaratılmış. İnsan oğullarının üzerine (de) atalarım dedelerim Bumın Hakan (ve) İştemi Hakan (hükümdar olarak) tahta oturmuş. Tahta oturarak, Türk halkının devletini (ve) yasalarını yönetivermiş, düzenleyivermişler.",
+   "uretilen": "ÜSTTE : GÖK : TANRI : ALTTA : YAĞIZ : YER : KILINDIĞINDA : İKİSİ : ARASINDA : KİŞİ : OĞLU : KILINMIŞ : KİŞİ : OĞLUNUNDA : ÜZE[RİNE] : EÇÜM : APAM : BUMIN : KAĞAN : İSTEMİ : KAĞAN : OTURMUŞ : OTURUP : TÜRK : BOYLARININ : İLİNİ : TÖRESİNİ : TUTU : VERMİŞ : [DÜZEN] EDİ : VERMİŞ :"
+  },
+  {
+   "id": "KT-D-2",
+   "alan": "turkce",
+   "deger": "Dört bucak hep düşman imiş. Ordular sevkederek, dört bucaktaki halkları hep almış, hep (kendilerine) bağımlı kılmışlar. Başlılara baş eğdirmiş, dizlilere diz çöktürmüşler. Doğuda Kingan dağlarına kadar, batıda Demir Kapı'ya kadar (halklarını) yerleştirmişler. (Bu) iki (sınır) arasında",
+   "uretilen": "DÖRT : TARAF : HEP : YAĞI : İMİŞ : SÜ : SÜLEYİP : DÖRT : TARAFDAKI : BOYLARI : HEP : ALMIŞ : HEP : BAZ : KILMIŞ : BAŞLIYI : YÜKÜNDÜRMÜŞ : DİZLİYİ : [DİZ] ÇÖKTÜRMÜŞ : İLERİ : KADIRKAN : YIŞA : DEĞİN : GERİ[DE] : DEMİRKAPIYA : DEĞİN : KONDURMUŞ : İKİSİ : ARASINA --- :"
+  },
+  {
+   "id": "KT-D-3",
+   "alan": "turkce",
+   "deger": "pek örgütsüz (ve düzensiz yaşayan) Gök Türkleri düzene sokarak öylece hüküm sürerler imiş. (Onlar) akıllı hükümdarlar imiş, cesur hükümdarlar imiş; (emirleri altındaki) kumandanları da akıllı imişler şüphesiz, cesur imişler şüphesiz. Beyleri de halkları da barış ve uyum içinde imişler şüphesiz. Onun için devleti öylece yönetmişler şüphesiz; devleti yönetip yasaları düzenlemişler. (Sonra) kendileri öylece",
+   "uretilen": "İDİ : OKSUZ : GÖK : TÜRK : ANCA : OTURUR : İMİŞ : BİLGE : KAĞAN : İMİŞ : ALP : KAĞAN : İMİŞ : BUYRUĞU : YİNE : BİLGE : İMİŞ : GERÇEK : ALP : İMİŞ : GERÇEK : BEĞLERİ : YİNE : BOYLARI : YİNE : DÜZ : İMİŞ : ONUN : İÇİN : İLİ : ANCA : TUTMUŞ : GERÇEK : İLİ : TUTUP : TÖRE : [DÜZEN] ETMİŞ : ÖZÜ : ANCA :"
+  },
+  {
+   "id": "KT-D-4",
+   "alan": "turkce",
+   "deger": "vefat etmişler. (Cenaze törenlerine) yasçı (ve) ağlayıcı (olarak) doğuda, gün doğusundan Bükli Çöl halkı, Çinliler, Tibetliler, Avarlar, Bizanslılar, Kırgızlar, Üç Kurıkanlar, Otuz Tatarlar, Kıtaylar, Tatabılar... bunca halklar gelerek ağlamışlar, yas tutmuşlar. (Onlar) onca ünlü hükümdarlar imiş. 40 KÜLTİGĞİN YAZITI Anta kisre, inisi kağan",
+   "uretilen": "KERGEK : OLMUŞ : YUĞCU : SIĞITÇI : ÖNDE : GÜN : DOĞUSUNDA : BÖKLÜ : ÇÜLLÜİL : TABGAÇ : TİBET : APAR : RUM : KIRGIZ : ÜÇKURIKAN : OTUZ-TATAR : KITAY : TATABI : BUNCA : BOYLAR : GELİP : SIĞTAMIŞ : YUĞLAMIŞ : ÖYLE : ÜNLÜ : KAĞAN : İMİŞ : ANDAN : SONRA : İNİSİ : KAĞAN :"
+  },
+  {
+   "id": "KT-D-5",
+   "alan": "turkce",
+   "deger": "olmuşlar şüphesiz, oğulları hükümdar olmuşlar şüphesiz. Ondan sonra erkek kardeşleri ağabeyleri gibi yaratılmamış şüphesiz, oğulları babaları gibi yaratılmamış şüphesiz. Akılsız hakanlar tahta oturmuş şüphesiz, kötü hakanlar tahta oturmuş şüphesiz.(Onların) kumandanları da akılsız imişler şüphesiz, kötü imişler şüphesiz.",
+   "uretilen": "OLMUŞ : GERÇEK : OĞULLARI : KAĞAN : OLMUŞ : GERÇEK : ONDAN : SONRA : İNİSİ : EÇİSİ : DEK : KILINMADIĞI : GERÇEK : OĞLU : BABASI : DEK : KILINMADIĞI : GERÇEK : BİLGİSİZ : KAĞAN : OTURMUŞ : GERÇEK : YAVLAK : KAĞAN : OTURMUŞ : GERÇEK : BUYRUĞU : YİNE : BİLGİSİZ : GERÇEK : YAVLAK : İMİŞ : GERÇEK :"
+  },
+  {
+   "id": "KT-D-6",
+   "alan": "turkce",
+   "deger": "Beyleri (ve) halkı itaatkâr olmadığı için, Çin halkı hilekâr (ve) sahtekâr olduğu için, aldatıcı olduğu için, erkek kardeşlerle ağabeyleri birbirlerine düşürdüğü için, beylerle halkı karşılıklı kışkırttığı için, Türk halkı, kurduğu devletini elden çıkarıvermiş.",
+   "uretilen": "BEĞLERİ : BOYLARI : DÜZSÜZ : [OLDUĞU] İÇİN : TABGAÇ : BOYLARI : TEBLİ : GÜRLÜ : [OLDUĞU] İÇİN : ARMAKÇI : [OLDUĞU] İÇİN : İNİYİ : EÇİYİ : KİNLEŞTİRDİĞİ : İÇİN : BEĞLE : BOYLARI : YONGŞURDUĞU : İÇİN : TÜRK : BOYLARI : İLLEDİĞİ : İLİNİ : İÇGÜN : ETMİŞ :"
+  },
+  {
+   "id": "KT-D-7",
+   "alan": "turkce",
+   "deger": "tahta oturttuğu hakanını kaybedivermiş. (Bu yüzden) Çin halkına, bey olmağa lâyık erkek evlâdı kul oldu, hanım olmağa lâyık kız evlâdı (da) cariye oldu. Türk beyleri Türk ünvanlarını bıraktı; Çinlilerin hizmetindeki (Türk) beyleri, Çin ünvanları alarak Çin hakanına",
+   "uretilen": "KAĞANLADIĞI : KAĞANINI : YİTİRİ : ETMİŞ : TABGAÇ : BOYLARINA : BEĞLİK : URI : EVLADI : KUL : OLDU : İŞİLİK : KIZ : EVLADI : CARİYE : OLDU : TÜRK : BEĞLERİ : TÜRK : ADINI : ATTI : TABGAÇ : BEĞLERİ [GİBİ] : TABGAÇ : ADINI : TUTUP : TABGAÇ : KAĞANINA :"
+  },
+  {
+   "id": "KT-D-8",
+   "alan": "turkce",
+   "deger": "tâbi olmuşlar. Elli yıl hizmet etmişler. Doğuda, gün doğusunda Bükli hakanına kadar sefer edivermişler, batıda Demir Kapı'ya kadar sefer edivermişler; Çin hakanı için (böylece) fetihler yapmış, ülkeler almışlar. Türk avam",
+   "uretilen": "GÖRMÜŞ : ELLİ : YIL : İŞİ : GÜCÜ : [TABGAÇA] VERMİŞ : İLERİ : GÜN : DOĞUSUNDA : BÖKLİ : KAĞANA : DEĞİN : SÜLEYİ : VERMİŞ : GERİDE : DEMİRKAPIYA : DEĞİN : SÜLEYİ : VERMİŞ : TABGAÇ : KAĞANINA : İLİNİ : TÖRESİNİ : ALI : VERMİŞ : TÜRK : KARA : KAMAG :"
+  },
+  {
+   "id": "KT-D-9",
+   "alan": "turkce",
+   "deger": "tabakası şöyle demiş: “Devlet sahibi (bir) halk idim; devletim şimdi nerde? Kimin için ülkeler fethediyorum?” der imiş. “Hakan sahibi (bir) halk idim; hakanım nerde? Hangi hakana hizmet ediyorum?” der imiş. Böyle deyip Çin hakanına düşman olmuş.",
+   "uretilen": "BOYLARI : ANCA : DEMİŞ : İLLİ : BOYLAR : İDİM : İLİM : ŞİMDİ : HANİ? : KİME : İLİ : KAZANIRIMBEN : DER : İMİŞ : KAĞANLI : BOYLAR : İDİM : KAĞANIM : HANİ? : NE : KAĞANA : İŞİ : GÜCÜ : VERİR[İM] BEN : DER : İMİŞ : ANCA : DEYİP : TABGAÇ : KAĞANINA : YAĞI : OLMUŞ :"
+  },
+  {
+   "id": "KT-D-11",
+   "alan": "turkce",
+   "deger": "ve su (ruhları) şöyle yapmışlar: Türk halkı yok olmasın diye, halk olsun diye, babam İlteriş Hakanı (ve) annem İlbilge Hatunu göğün tepesinden tutup (daha) yükseğe kaldırmışlar muhakkak ki. Babam Hakan on yedi adamla baş kaldırmış. (İlteriş) baş",
+   "uretilen": "SUYU[NU] : ANCA : [DÜZEN] ETMİŞ : TÜRK : BOYLARI : YOK : OLMASIN : DİYE : BOYLAR : OLSUN : DİYE : BABAM : İLTERİŞ : KAĞANI : ÖĞÜM : İLBİLGE : KADINI : TANRI : TEPESİNDE : TUTUP : YUKARI : GÖTÜRMÜŞ : GERÇEK : BABAM : KAĞAN : YEDİ-YİRMİ : ERLE : TAŞIKMIŞ : DIŞARI :"
+  },
+  {
+   "id": "KT-D-16",
+   "alan": "turkce",
+   "deger": "yasaları koyup vefat etmiş. Babam hakan için (amcam hakan) önce bağımlı hakanı balbal (olarak) dikmiş. (Babam hakan öldükten sonra) yasa uyarınca amcam hakan tahta oturdu. Amcam hakan tahta oturup Türk halkını yeniden düzenledi (ve yeniden) doyurdu. Yoksulu zengin etti, azı çoğalttı.",
+   "uretilen": "TÖREYİ : KAZANIP : UÇA : VARMIŞ : BABAM : KAĞANIN : BAŞINA : BAZ : KAĞANI : BALBAL : DİKMİŞ : O : TÖRE : ÜZE[RİNE] : EÇÜM : KAĞAN : OTURDU : EÇÜM : KAĞAN : OTURUP : TÜRK : BOYLARINI : YİNE : [DÜZEN] ETDİ : YEDİRDİ : ÇIĞANYI : BAY : KILDI : AZI : ÇOK : KILDI :"
+  },
+  {
+   "id": "KT-D-17",
+   "alan": "turkce",
+   "deger": "Amcam hakan tahta oturduğunda ben Tarduş halkı üzerine Şad idim. Amcam hakan ile doğuda Sarı ırmağl(a ve) Şantung ovasına kadar sefer ettik, batıda Demir Kapı'ya kadar sefer ettik; Kögmen (dağlarının) ötesinde Kırgız ülkesine kadar sefer ettik.",
+   "uretilen": "EÇÜM : KAĞAN : OTURDUĞUNDA : ÖZÜM : TARDUŞ : BOYLARI : ÜZE[RİNE] : ŞAD : İDİM : EÇÜM : KAĞAN : İLE : İLERİ : YEŞİL : ÖGÜZ[E] : ŞANTUNG : YAZIĞA : DEĞİN : SÜLEDİK : GERİDE : DEMİR : KAPIYA : DEĞİN : SÜLEDİK : KÖGMENİ : AŞIP : KIRGIZ : YERİNE : DEĞİN : SÜLEDİK :"
+  },
+  {
+   "id": "KT-D-18",
+   "alan": "turkce",
+   "deger": "Toplam yirmi beş (kez) sefer ettik, on üç (kez) savaştık. Devletliyi devletsiz bıraktık, hakanlıyı hakansız bıraktık; dizlilere diz çöktürdük, başlılara baş eğdirdik. Türgiş Hakanı (kendi) Türk'ümüz, (kendi) halkımız idi. Bilgisizliği",
+   "uretilen": "KAMUĞU : BEŞ-OTUZ : [KEZ] SÜLEDİK : ÜÇ-YİRMİ [KEZ] : SÜNGÜŞDÜK : İLLİYİ : İLSİRETTİK : KAĞANLIYI : KAĞANSIRATTIK : DİZLİYİ : ÇÖKERTTİK : BAŞLIYI : YÜKÜNDÜRDÜK : TÜRGİŞ : KAĞANI : TÜRKÜMÜZ : BOYLARIMIZ : İDİ : BİLEMEDİĞİ :"
+  },
+  {
+   "id": "KT-D-22",
+   "alan": "turkce",
+   "deger": "Onca zengin (ve) onca gelişmiş devletimiz vardı. (Ey) Türk, Oğuz beyleri (ve) halkı, işitin! Üstte(ki) gök çökmedikçe, altta(ki) yer (de) delinmedikçe, (ey) Türk halkı, (senin) devletini (ve) yasalarını kim yıkıp bozabilirdi? (Ey) Türk halkı, (kötü huyundan) vazgeç",
+   "uretilen": "ANCA : KAZANILMIŞ : [DÜZEN] EDİLMİŞ : İLİMİZ : TÖREMİZ : [VAR] İDİ : TÜRK : OĞUZ : BEĞLERİ : BOYLARI : İŞİTİN : ÜSTTE : TANRI : BASMASA : ALTTA : YER : DELİNMESE : TÜRK : BOYLARI : [SENİN] İLİNİ : TÖRENİ : KİM : DAĞITIP : YIKACAK : İDİ? : TÜRK : BOYLARI : İDİN :"
+  },
+  {
+   "id": "KT-D-23",
+   "alan": "turkce",
+   "deger": "(ve) nâdim ol! İtaatsizliğin yüzünden, (seni) besleyip doyurmuş olan akıllı hakanın ile bağımsız (ve) müreffeh devletine (karşı) kendin hatâ ettin (ve) nifak soktun. Silâhlı (düşman) nereden gelip (seni) bozguna uğrattı (ve) dağıttı? Mızraklı (düşman) nereden gelip de (seni yerinden yurdundan) sürüp kaçırttı? Kutsal Ötüken dağları halkı, (yerini yurdunu bırakıp) gittin. Doğuya giderniier(iniz) (D 24) gittiniz, batıya gidenler(iniz) gittiniz. Gittiğiniz yerlerde kazancınız şu oldu, hiç şüphesiz: Korlarınız ırmaklar gibi aktı, kemikleriniz dağlar gibi yığıldı; bey olacak erkek evlâdınız köle oldu, hanım olacak kız evlâdınız cariye oldu. Bilgisizliğiniz yüzünden, kötü (davranışlarınız) yüzünden, amcam hakan vefat etti.",
+   "uretilen": "ÖKÜN : GÜRLÜĞÜN : İÇİN : YEDİRMİŞ : BİLGİLİ : KAĞANINA : ERMİŞ : VARMIŞ : İYİ : İLİNE : KENDİN : YANILDIN : YAVLAK : KÖTÜLÜK [ETTİN] : KILIÇLI [DÜŞMAN] : NEREDEN : GELİP : [SENİ] YAYIP : İTDİ : SÜNGÜLÜ : NEREDEN : GELİP : [SENİ] SÜRÜP : İTDİ : KUTLU : ÖTÜKEN : YIŞIN : BOYLARI : VARDI : İLERİ : VARAN :"
+  },
+  {
+   "id": "KT-D-25",
+   "alan": "turkce",
+   "deger": "(Amcam hakan için) önce Kırgız hakanını balbal (olarak) diktim. Türk halkının adı sanı yok olmasın diye, babam hakanı (ve) annem hatunu yüceltmiş olan Tanrı, devlet veren Tanrı, Türk halkı(nın) adı sanı yok olmasın diye, beni o Tanrı",
+   "uretilen": "BAŞINA : KIRGIZ : KAĞANINI : BALBAL : DİKTİM : TÜRK : BOYLARININ : ADI : KÜSİ : YOK : OLMASIN : DİYE : BABAM : KAĞANI : ÖĞÜM : KADINI : GÖTÜRMÜŞ : TANRI : İL : VEREN : TANRI : TÜRK : BOYLARININ : ADI : KÜSİ : YOK : OLMASIN : DİYE : ÖZÜMÜ : O : TANRI :"
+  },
+  {
+   "id": "KT-D-27",
+   "alan": "turkce",
+   "deger": "diye, Türk halkı için gece uyumadım, gündüz oturmadım. Kardeşim Kül Tigin ile, iki Şad ile (birlikte) ölesiye yitesiye çalıştım, çabaladım. Öylece çalışıp çabalayıp birleşik halkı ateş (ile) su (gibi birbirlerine düşman) etmedim. Ben kendim hükümdar olduğumda, her yere",
+   "uretilen": "DİYE : TÜRK : BOYLARI : İÇİN : GECE : UYUMADIM : GÜNDÜZ : OTURMADIM : İNİM : KÜLTİĞİN : İLE : İKİ : ŞAD : İLE : ÖLE : YİTE : KAZANDIM : ANCA : KAZANIP : BÜTÜN : BOYLARI : ATEŞ : SU : KILMADIM : BEN : ÖZÜM : KAĞAN : OTURDUĞUMDA : YERE : HER :"
+  },
+  {
+   "id": "KT-D-28",
+   "alan": "turkce",
+   "deger": "gitmiş olan halk, öle yite, yayan yapıldak dönüp geldi. Halkı besleyip doyurayım diye kuzeyde Oğuz halkına doğru, doğuda Kıtay (ve) Tatabı halklarına doğru, güneyde (de) Çin'e doğru on iki kez büyük ordu sevk ettim... savaştım. Ondan",
+   "uretilen": "VARMIŞ : BOYLAR : ÖLE : YİTE : YAYA : YALIN : YANA : GELDİ : BOYLARI : YEDİREYİM : DİYE : YIRIDA : OĞUZ : BOYLARI : TARAFINA : İLERİ : KITAY : TATABI : BOYLARI : TARAFINA : BERİDE : TABGAÇ : TARAFINA : UŁU : SÜ[YÜ] : İKİ : İKİRMİ [KEZ] : SÜLEDİM : SÜNGÜŞDÜM : [O] ANDA :"
+  },
+  {
+   "id": "KT-D-29",
+   "alan": "turkce",
+   "deger": "sonra, Tanrı esirgesin, ilâhi lütfum olduğu için, kısmetim olduğu için, ölecek halkı diriltip doyurdum. Çıplak halkı giyimli, yoksul halkı zengin kıldım. Sayıca az olan halkı çoğalttım; güçlü devleti olandan, güçlü hakanı olandan daha iyi kıldım. Dört bucaktaki",
+   "uretilen": "KİSRE : TANRI : BUYURDUĞU : KUTUM : VAR [OLDUĞU] : İÇİN : BÖLÜĞÜM : VAR [OLDUĞU] : İÇİN : ÖLECEK : BOYLARI : DİRİLTİP : YEDİRDİM : YALIN : BOYLARI : DONLU : ÇIĞANY : BOYLARI : BAY : KILDIM : AZ : BOYLARI : ÇOK : KILDIM : DEĞERLİ : İLLİDEN : DEĞERLİ : KAĞANLIDAN : YEĞ : KILDIM : DÖRT : TARAFDAKI :"
+  },
+  {
+   "id": "KT-D-30",
+   "alan": "turkce",
+   "deger": "halkları hep (kendime) bağımlı kıldım, (Türk halkını) düşmansız kıldım. (Bu halkların) hepsi bana bağımlı oldular, (bana) hizmet ediyorlar. Bunca çalışıp çabalayıp kardeşim Kül Tigin kendisi öylece vefat etti. Babam hakan vefat ettiğinde kardeşim Kül Tigin yedi yaşında kaldı.",
+   "uretilen": "KAĞANLIĞIDA : HEP : BAZ : KILDIM : [TÜRKÜ] YAĞISIZ : KILDIM : HEP : BANA : GÖRDÜ : İŞİ : GÜCÜ : VERİR [OLDULAR] : BUNCA : TÖREYİ : KAZANIP : İNİM : KÜLTİĞİNİN : ÖZÜ : ANCA : KERGEK : OLDU : BABAM : KAĞAN : UÇTUĞUNDA : İNİM : KÜLTİĞİN : YEDİ : YAŞINDA : KALDI : --- :"
+  },
+  {
+   "id": "KT-D-31",
+   "alan": "turkce",
+   "deger": "Umay gibi annem hatunun kutu sayesinde, kardeşim Kül Tigin erkeklik adını elde etti. On altı yaşında, amcam Hakanın devleti için şöyle başarılar kazandı: Altı bölgeli Soğdak'lara doğru sefer ettik (ve onları) bozguna uğrattık. (Bu sırada) Çinli vali Ong, elli bin (kişilik bir) ordu (ile üzerimize) geldi; savaştık.",
+   "uretilen": "UMAY : GİBİ : ÖĞÜM : KADIN : KUTUNDA : İNİM : KÜLTİĞİN : ER : ADI : OLDU : ALTI : YİRMİ : YAŞINDA : EÇÜM : KAĞANIN : İLİNİ : TÖRESİNİ : ANCA : KAZANDI : ALTI : ÇUB : SOĞDAK : TARAFINA : SÜLEDİK : BOZDUK : TABGAÇ : ONG : TUTUK : BEŞ : TÜMEN : SÜ [İLE] : GELDİ : SÜNGÜŞDÜK :"
+  },
+  {
+   "id": "KT-D-32",
+   "alan": "turkce",
+   "deger": "Kül Tigin yaya olarak atılıp hücum etti. Vali Ong'un kayın biraderini, silâhlı (iken), el(i) ile yakaladı (ve) silâhlı olarak Hakana takdim etti. O orduyu orada yok ettik. (Kül Tigin) yirmi bir yaşında (iken) General Çaça ile savaştık. (Kül Tigin) ilk önce Tadık Çor'un boz atına binip hücum etti. O at orada",
+   "uretilen": "KÜLTİĞİN : YAYAN : [H]OPLAYIP : [YAĞIYA] DEĞDİ : ONG : TUTUK : YURÇİNİN : KILIÇLI : ELİNİ : TUTTU : KILICI : KAĞANA : SAPLADI : O : SÜ[YÜ] : [O] ANDA : YOK : KILDIK : BİR : OTUZ : YAŞINDA : ÇAÇA : SENGÜ [İLE] : SÜNGÜŞDÜK : EN : İLKİ : TADIKIN : ÇORUN : BOZ : ATINA : BİNİP [YAĞIYA] : DEĞDİ : O : AT : [O] ANDA :"
+  },
+  {
+   "id": "KT-D-34",
+   "alan": "turkce",
+   "deger": "hücum ettiğini, (ey) Türk beyleri, hepiniz bilirsiniz. O orduyu orada yok ettik. Ondan sonra, Yir Bayırku'ların Ulu İrkin'i (bize) düşman oldu. Onu dağıtıp Türgi Yargun gölde bozguna uğrattık. Ulu İrkin azıcık erle kaçıp gitti. Kül Tigin yirmi altı",
+   "uretilen": "DEĞDİK[LERİMİZİ] : TÜRK : BEĞLERİ : HEP : BİLİRSİNİZ : O : SÜYÜ : [O] ANDA : YOK : KILDIK : ONDAN : SONRA : YER : BAYIRKULU : ULU : İRKİN : YAĞI : OLDU : ONU : YAYINIP : TÜRGİ : YARGÜN : GÖLÜNDE : BOZDUK : ULU : İRKİN : AZICIK : ERLE : TEZİP : VARDI : KÜLTİĞİN : ALTI : OTUZ :"
+  },
+  {
+   "id": "KT-D-35",
+   "alan": "turkce",
+   "deger": "yaşında (iken) Kırgız'lara doğru sefer ettik. Mızrak batımı karı söküp Köğmen dağlarını aşarak Kırgız halkını uykuda (iken) bastık. Hakanları ile Songa dağında savaştık. Kül Tigin Bayırku'ların ak aygırına",
+   "uretilen": "YAŞINDA : KIRGIZ : TARAFINA : SÜLEDİK : SÜNGÜ : BATIMI [DERİNLİKTE] : KARI : SÖKÜP : KÖGMEN : YIŞI : DOĞA : YÜRÜYÜP : KIRGIZ : BOYLARINI : UYKUDA : BASTIK : KAĞANI : İLE : SUNGA : YIŞDA : SÜNGÜŞDÜK : KÜLTİĞİN : BAYIRKUNUN : AK : AYGIRINA :"
+  },
+  {
+   "id": "KT-D-36",
+   "alan": "turkce",
+   "deger": "binip süratle atılarak hücum etti. Bir eri okla vurdu, iki eri (de) kovalayip mızrakladı. O hücumda, Bayırkuların ak aygırını, uyluğunu kırıp vurdular. Kırgız Hakanını öldürdük, ülkesini aldık. O yıl Türgiş'lere doğru, Altay dağlarını",
+   "uretilen": "BİNİP : [H]OPLAYIP : [YAĞIYA] DEĞDİ : BİR : ERİ : OKU [İLE] : VURDU : İKİ : ERİ : KOVALAYIP : SANÇTI : O : DEĞDİĞİNDE : BAYIRKUNUN : AK : AYGIRI : UYLUĞUNU : KIRI : VERDİ : KIRGIZ : KAĞANINI : ÖLDÜRDÜK : İLİNİ : ALDIK : O : YILDA : TÜRGİŞ : TARAFINA : ALTIN : YIŞI :"
+  },
+  {
+   "id": "KT-D-37",
+   "alan": "turkce",
+   "deger": "aşarak (ve) İrtiş ırmağını geçerek yürüdük. Türgiş halkını uykuda (iken) bastık. Türgiş Hakanının ordusu Bolçu'da ateş gibi, kasırga gibi, (üzerimize) geldi. Savaştık. Kül Tigin alnı akıtmalı boz ata binip hücum etti. Alnı akıtmalı boz (at .... 0.000 )(D 38) yakalattı, ikisini (de) kendisi (tutsak) aldı. Orada yine (düşman hatları içine) girip Türgiş Hakanının kumandanı Az valisini el(i) ile yakaladı. (Türgiş'lerin) hakanını orada öldürdük, ülkesini aldık. Türgişlerin avam halkı hep (bize) tâbi oldu. O halkı Tabar'da yerleştirdik.....",
+   "uretilen": "DOĞA : İRTİŞ : ÖZÜĞÜ : GEÇİP : YÜRÜDÜK : TÜRGİŞ : BOYLARINI : UYKUDA : BASTIK : TÜRGİŞ : KAĞANININ : SÜSİ : BOLÇUDA : ATEŞCE : BORACA : GELDİ : SÜNGÜŞDÜK : KÜLTİĞİN : BAŞI : BOZ : ATA : BİNİP : [YAĞIYA] DEĞDİ : BAŞI : BOZ : KE --- :"
+  },
+  {
+   "id": "KT-D-39",
+   "alan": "turkce",
+   "deger": "Soğdak halkını düzene sokayım diye İnci (Sır Derya) ırmağını geçerek Demir Kapı'ya kadar sefer ettik. Ondan sonra Türgiş avam halkı (yine) düşman olmuş, Kengeres'e doğru gittiler. Bizim askerlerimizin atları zayıf(tı), yiyecekleri (de) yok idi. Kötü kişiler ....................",
+   "uretilen": "SOĞDAK : BOYLARINI : [DÜZEN] EDEYİM : DİYE : İNCİ : ÖZÜĞÜ : GEÇİP : DEMİRKAPIYA : DEĞİN : SÜLEDİK : ONDAN : SONRA : KARA : TÜRGİŞ : BOYLARI : YAĞI : OLMUŞ : KENGERİS : TARAFINA : VARDI[LAR] : BİZİM : SÜ : ATI : TORUK : AZIĞI : YOK : İDİ : YAVLAK : KİŞİ : ER --- :"
+  },
+  {
+   "id": "KT-D-40",
+   "alan": "turkce",
+   "deger": "cesur erler bize hücum etmişler idi. (Kötü şartların hep bir araya geldiği) böyle bir zamana hayıflanıp Kül Tigin'i az (miktarda) er ile ulaştırıp gönderdik. Büyük savaş savaşmış. Alp Şalçı kır atına binip hücum etmiş. Türgiş avam halkını orada öldürmüş, (tutsak) almış. Yine yürüyüp ...........e (KI) Viristerer ane rü sercan | ile, Koşu Totok ile savaşmış. Adamlarını hep öldürmüş, evlerini mallarını eksiksiz hep getirdi. 50 KÜLTİGİN YAZITI Kül Tigin yiti otuz yaşınğa Karluk bodun erür barur erkli yağı boltı. Tamağ ıduk başda süünğüşdümiz.",
+   "uretilen": "ALP : ER : BİZE : DEĞMİŞ : İDİ : ANTAG : DEVİRDE : ÖKÜNÜP : KÜLTİĞİNİ : AZ : ERLE : ÜZE[RİNE] : İTDİK : ULU : SÜNGÜŞ : SÜNGÜŞMÜŞ : ALP : ŞALÇI : AK : ATINA : BİNİP : [YAĞIYA] DEĞMİŞ : KARA : TÜRGİŞ : BOYLARINI : [O] ANDA : ÖLDÜRMÜŞ : ALMIŞ : YANA : YÜRÜYÜP :"
+  },
+  {
+   "id": "KT-K-2",
+   "alan": "turkce",
+   "deger": "(Kül) Tigin o savaşta otuz yaşında idi. Alp Şalçı kır (atjına binip sabırsızca hücum etti. İki eri kovalayıp mızrakladı. Karluk'ları öldürdük, (tutsak) aldık. (O sırada) Az halkı (da) düşman oldu. (Onlarla) Kara göl'de savaştık. Kül Tigin otuz bir yaşında idi. Alp Şalçı kır (atına (K 3) binip sabırsızca hücum etti. Az'ların İlteber'ini tuttu. Az halkı orada yok oldu. Amcam hakanın devleti sarsıldığında, halk (ve) hükümdar ikiye ayrıldığında, İzgil halkı ile savaştık. Kül Tigin Alp Şalçı kır (atjına binip",
+   "uretilen": "KÜLTİĞİN : O : SÜNGÜŞTE : OTUZ [YAŞINI] : YAŞIYOR : İDİ : ALP : ŞALÇININ : ATINA : BİNİP : OPLAYP : [YAĞIYA] DEĞDİ : İKİ : ERİ : AŞIRIP : SANÇTI : KARLUKU : ÖLDÜRDÜK : ALDIK : AZ : BOYLARI : YAĞI : OLDU : KARA : GÖLDE : SÜNGÜŞDÜK : KÜLTİĞİN : BİRKIRK : YAŞIYOR : İDİ : ALP : ŞALÇININ : AKINA :"
+  },
+  {
+   "id": "KT-K-4",
+   "alan": "turkce",
+   "deger": "sabırsızca hücum etti. O at orada düştü. İzgil halkı öldü. Dokuz Oğuz halkı kendi halkım idi. Gök (ile) yer (arasındaki) karışıklık nedeniyle (bize) düşman oldular. (Onlarla) bir yılda beş kez savaştık. İlk önce Toğu şehrinde savaştık.",
+   "uretilen": "OPLAYIP : [YAĞIYA] DEĞDİ : O : AT : [O] ANDA : DÜŞTÜ : İZGİL : BOYLARI : ÖLDÜ : DOKUZ : OĞUZ : BOYLARI : İKİNCİ : BOYLARIM : İDİ : TANRI : YER : BULANDIĞI : İÇİN : YAĞI : OLDU : BİR : YILDA : BEŞ : YOL : SÜNGÜŞDÜK : EN : İLKİ : TOGU : BALIKDA : SÜNGÜŞDÜK :"
+  },
+  {
+   "id": "KT-K-5",
+   "alan": "turkce",
+   "deger": "Kül Tigin Azman kır (at)ına binip sabırsızca hücum etti. Altı eri mızrakladı. Ordular kapıştığında (da) yedinci eri kılıçladı. İkinci olarak Koşulgak'ta Ediz'lerle savaştık. Kül Tigin Az yağızına binip sabırsızca hücum ederek bir eri mızrakladı,",
+   "uretilen": "KÜLTİĞİN : AZMAN [ATA]A : BİNİP : [H]OPLAYIP : [YAĞIYA] DEĞDİ : ALTI : ERİ : SANÇTI : SÜ : DEĞİŞİNDE : YEDİNCİ : ERİ : KILIÇLADI : İKİNCİ[Sİ] : KUŞALGUKDA : EDİZ : İLE : SÜNGÜŞDÜK : KÜLTİĞİN : AZ : YAĞIZ [AT]INA : BİNİP : [H]OPLAYIP : [YAĞIYA] DEĞİP : BİR : ERİ : SANÇTI :"
+  },
+  {
+   "id": "KT-K-6",
+   "alan": "turkce",
+   "deger": "dokuz eri (de) kuşatarak dövdü. Ediz halkı orada öldü. Üçüncü olarak Bolçu'da Oğuz'larla savaştık. Kül Tigin Azman kır (at)ına binip hücum etti, mızrakladı. Askerlerini mızrakladık, ülkelerini aldık. Dördüncü olarak Çuş başında savaştık. Türk",
+   "uretilen": "DOKUZ : ERİ : EĞİRİP : DOKUNDU : EDİZ : BOYLARI : [O] ANDA : ÖLDÜ : ÜÇÜNCÜ[SÜ] : BOLÇUDA : OĞUZ : İLE : SÜNGÜŞDÜK : KÜLTİĞİN : AZMAN [AT]A : BİNİP : [YAĞIYA] DEĞDİ : SANÇTI : SÜSİNİ : SANÇTIK : İLİNİ : ALDIK : DÖRDÜNCÜSÜ : ÇUŞ : BAŞINDA : SÜNGÜŞDÜK : TÜRK :"
+  },
+  {
+   "id": "KT-K-7",
+   "alan": "turkce",
+   "deger": "halkı(nın) ayağı sendeledi. Perişan olacak idi. Süratle gelen (düşman) ordusunu Kül Tigin dağıtıp Tongra(lardan) bir grup yiğit on eri Tonga Tigin'in cenaze töreninde kuşatarak öldürdük. Beşinci olarak Ezgenti Kadız'da Oğuz'larla savaştık. Kül Tigin",
+   "uretilen": "BOYLARI : AYAK : KAMŞATTİ : YAVLAK : OLACAK : İDİ : ÜZE[RİMİZE] : GELMİŞ : SÜSİNİ : KÜLTİĞİN : AĞTIP : TONGRA[DAN] : BİR : OĞUŞU : ALP : ON : ERİ : TONGA TİGİN[İN] : YUĞUNDA : ÇEVİRİP : ÖLDÜRDÜK : BEŞİNCİSİ : EZGİNTİ : KADIZDA : OĞUZ : İLE : SÜNGÜŞDÜK : KÜLTİĞİN :"
+  },
+  {
+   "id": "KT-K-8",
+   "alan": "turkce",
+   "deger": "Az yağız (at)ına binip hücum etti. İki eri mızrakladı, çamura garketti. O ordu orada öldü. Amga koruganında kışlayıp (o yılın) ilk baharında Oğuz'lara doğru ordu sevk ettik. Kül Tigin'i karargâhın başında bıraktık. Düşman Oğuz'lar karargâhı bastılar. Kül Tigin",
+   "uretilen": "AZ : YAĞIZINA : BİNİP : [YAĞIYA] DEĞDİ : İKİ : ERİ : SANÇTI : BALIKA : VARMADI : O : SÜ : [O] ANDA : ÖLDÜ : AMGA : KURGANDA : KIŞLAYIP : YAZIN[D]A : OĞUZADOĞRU : SÜ : TAŞIKTIK : KÜLTİĞİN : BEĞ : [KURGAN] BAŞINA : [BIRAKIP] GİTTİK : OĞUZ : YAĞI : ORDU[SU] : [KURGANI] BASTI : KÜLTİĞİN :"
+  },
+  {
+   "id": "KT-K-9",
+   "alan": "turkce",
+   "deger": "öğsüz akın binip tokuz eren sançdı, orduğ birmedi. ORHON YAZITLARI 51 Kül Tigin yirmi yedi yaşında (iken) Karluk halkı (serbestçe) hareket eden (bir) düşman oldu. (Onlarla) Tamag kutsal tepesinde savaştık.",
+   "uretilen": "ÖKSÜZ : AK [AT]A : BİNİP : DOKUZ : ERİNİ : SANÇTI : ORDUYU : VERMEDİ : ANAM : KADIN : EVVELA : ÖGLERİM : EKELERİM : GELİNLERİM : KONÇUYLARIM : BUNCA : YİNE : DİRİ [SAĞ KALANLAR] : CARİYE : OLACAK : İDİ : ÖLÜ[LERİNİZ] : YURTTA : YOLDA : YATIP : KALACAK : İDİNİZ :"
+  },
+  {
+   "id": "KT-K-10",
+   "alan": "turkce",
+   "deger": "Kül Tigin olmasa (idi) hep ölecek idiniz. Kardeşim Kül Tigin vefat etti. Kendim yas tuttum. Gören gözlerim görmez gibi, eren aklım ermez gibi oldu. Kendim düşünceye daldım. Zaman Tanrısı (öyle) buyurunca insan oğlu hep ölümlü yaratılmış.",
+   "uretilen": "KÜLTİĞİN : YOK : İSE : HEP : ÖLECEK : İDİNİZ : İNİM : KÜLTİĞİN : KERGEK : OLDU : ÖZÜM : SAKINDIM : GÖRÜR : GÖZÜM : GÖRMEZ : DEK [OLDU] : BİLDİĞİM : BİLGİM : BİLİNMEZ : DEK : OLDU : ÖZÜM : SAKINDIM : ÖD : TANRI : YAŞAR : KİŞİ : OĞLU : HEP : ÖLÜMLÜ : TÜREMİŞ :"
+  },
+  {
+   "id": "KT-K-11",
+   "alan": "turkce",
+   "deger": "Öyle düşündüm. Gözlerimden yaş gelse engel olarak, gönülden feryat gelse geri çevirerek yas tuttum. Çok yas tuttum. İki Şad başta olmak üzere kardeşlerimin, oğullarımın, beylerimin (ve) halkımın gözleri kaşları berbat olacak diye kaygılandım. Yasçı (ve) ağlayıcı (olarak) Kıtay (ve) Tatabı halkları (temsilcilerinin) başında",
+   "uretilen": "ONCA : SAKINDIM : GÖZDEN : YAŞ : GELSE : TIDIP : GÖNÜLDEN : AĞIT : GELSE : YANDURUP : SAKINDIM : KATICA : SAKINDIM : İKİ : ŞAD : EVVELA : KARDEŞ : YEĞENİMİN : OĞLUMUN : BEĞLERİMİN : BOYLARIMIN : GÖZÜ : KAŞI : YAVLAK : OLACAK : DEYİP : SAKINDIM : YUĞCU : SIĞITÇI : KITAY : TATABI : BOYLARI[NDAN] : BAŞTA :"
+  },
+  {
+   "id": "KT-K-12",
+   "alan": "turkce",
+   "deger": "General Udar geldi. Çin İmparatorundan (onun temsilcisi olarak) İşiyi Likeng geldi; binlerce ipekli kumaş, altın (ve) gümüş (eşyayı) gereğinden fazla getirdi. Tibet Hakanından (onun temsilcisi olarak) Bölön geldi. Geride, gün batısındaki Soğdlar, İranlılar (ve) Buhara şehri halkından General Nek (ve) Oğul Tarkan geldi.",
+   "uretilen": "UDAR : SENGÜN : GELDİ : TABGAÇ : KAĞANINDAN : İSİYİ : Lİ-KENG : GELDİ : BİR : TÜMENİ : AĞI : ALTIN : GÜMÜŞ : GEREKSİZ : GETİRDİ : TİBET : KAĞANINDAN : BÖLÜN : GELDİ : GERİ : GÜN : BATISINDAKİ : SOĞD : BERÇİK : ER : BUHARA : ULUSU : BODUNDAN : NENG : SENGÜN [İLE] : OĞUL : TARKAN : GELDİ :"
+  },
+  {
+   "id": "BK-D-1",
+   "alan": "turkce",
+   "deger": "Tanrı gibi, Tanrı tahta oturtmuş Türk Bilge Hakan, sözüm: Babam Türk Bilge (Hakan ........ Al)tı Sir, Dokuz Oğuz, İki Ediz çadırlı beyleri (ve) halkı .............. (Türk) Tanrı ÜRRRRR SERE",
+   "uretilen": "TANRI : DEK : TANRI : YARATMIŞ : TÜRK : BİLGE : KAĞAN[I]; : SAVIM : BABAM : TÜRK : BİLGE : --- NDA : AL --- TI : SİR : DOKUZ : OĞUZ : EYİ : EDİZ : ÇADIRLI : BEĞLERİ : BOYLARI : --- : TÜRK : TANRI[SI] --- :"
+  },
+  {
+   "id": "BK-D-2",
+   "alan": "turkce",
+   "deger": "üzerine hakan oturdum. (Tahta) oturduğumda, ölecekmiş gibi düşünceli olan Türk beyleri (ve) halkı kıvanıp sevinip yere eğilmiş gözleri yukarıya baktı. Bu devirde kendim (tahta) oturup bunca değerli yasayı dört bucaktaki........ Üstte mavi gök(yüzü) altta (da) yağız yer yaratıldığında, ikisinin arasında insan oğulları yaratılmış.",
+   "uretilen": "ÜZE[RİNE] : KAĞAN : OTURDUM : OTURDUĞUMDA : ÖLECEĞİNİ : SAKINAN : TÜRK : BEĞLERİ : BOYLARI : ÖĞÜRÜP : SEVİNİP : TONGTAMIŞ : GÖZÜ : YUKARI GÖRDÜ : [BU] DEVİRDE : ÖZÜM : [KAGAN] OTURUP : BUNCA : AĞIR : TÖREYİ : DÖRT : TARAFDAKI : [BOYLARI] --- : [DÜZEN] ETDİM : ÜSTTE : GÖK : TANRI : ALTTA : YAĞIZ : YER : KILINDIĞINDA : İKİ[Sİ] : ARA[SINDA] : KİŞİ : OĞLU : KILINMIŞ :"
+  },
+  {
+   "id": "BK-D-3",
+   "alan": "turkce",
+   "deger": "İnsan oğullarının üzerinde (de) atalarım dedelerim Bumın Hakan, İştemi Hakan (hükümdar olarak) tahta oturmuş. Tahta oturarak, Türk halkının devletini (ve) yasalarını yönetivermiş (ve) düzenleyivermişler. Dört bucak hep düşman imiş. Ordular sevk ederek, dört bucaktaki halkları (hep almış, hep kendilerine bağımlı kılmışlar). Başlılara baş eğdirmiş, dizlilere diz çöktürmüşler. Doğuda Kingan dağlarına kadar, batıda",
+   "uretilen": "KİŞİ : OĞLUN[UN] DA : ÜZE[RİNE] : EÇÜM : APAM : BUMIN : KAĞAN : İSTEMİ : KAĞAN : OTURMUŞ : OTURUP : TÜRK : BOYLARININ : İLİNİ : TÖRESİNİ : TUTU : VERMİŞ : [DÜZEN] EDİ : VERMİŞ : DÖRT : TARAF : HEP : YAĞI : İMİŞ : SÜ : SÜLEYİP : DÖRT : TARAFDAKİ : BOYLARI : HEP : ALMIŞ : HEP : BAZ : KILMIŞ : BAŞLIYI : YÜKÜNDÜRMÜŞ : DİZLİYİ : ÇÖKTÜRMÜŞ : İLERİ : KADIRKAN : YIŞA : DEĞİN : GERİ :"
+  },
+  {
+   "id": "BK-D-4",
+   "alan": "turkce",
+   "deger": "Demir Kapı'ya kadar (halklarını) yerleştirmişler. (Bu) iki (sınır) arasında, pek örgütsüz (ve düzensiz yaşayan) Gök Türkleri düzene sokarak öylece hükmederler imiş. (Onlar) akıllı hakanlar imiş, yiğit hakanlar imiş; (emirleri altındaki) kumandanları (da) akıllı imişler şüphesiz, yiğit imişler şüphesiz. Beyleri de (halkları da barış ve uyum içinde imişler. Onun) için devleti öylece yönetmişler şüphesiz; devleti yönetip yasaları düzenlemişler. (Sonra) kendileri öylece vefat etmişler.",
+   "uretilen": "DEMİRKAPIYA : DEĞİN : [BOYLARI] KONDURMUŞ : İKİSİ : ARASINDA : İDİ : OKSUZ : GÖK : TÜRK : ANCA : OTURUR : İMİŞ : BİLGE : KAĞAN : İMİŞ : ALP : KAĞAN : İMİŞ : BUYRUĞU : YİNE : BİLGE : İMİŞ : GERÇEK : ALP : İMİŞ : GERÇEK : BEĞLERİ : YİNE : BOYLARI : YİNE : DÜZ : İMİŞ : ONU[N] : İÇİN : İLİ : ANCA : TUTMUŞ : GERÇEK : İLİ : TUTUP : TÖRE : [DÜZEN] ETMİŞ : ÖZÜ : ANCA : KERGEK : OLMUŞ :"
+  },
+  {
+   "id": "BK-D-5",
+   "alan": "turkce",
+   "deger": "(Cenaze törenlerine) yasçı (ve) ağlayıcı (olarak) doğuda gün doğusundan Bükli Çöl halkı, Çinliler, Tibetliler, Avarlar, Bizanslılar, Kırgızlar, Üç Kurıkanlar, Otuz Tatarlar, Kıtaylar, Tatabılar.... bunca halklar gelerek ağlamışlar, yas tutmuşlar. (Onlar) onca ünlü hakanlar imiş. Ondan sonra kardeşleri hakan olmuşlar şüphesiz, oğulları hakan olmuşlar şüphesiz. Ondan (sonra kardeşleri ağabeyleri gibi)",
+   "uretilen": "YUĞCU : SIĞITÇI : ÖNDE : GÜN : DOĞUSUNDA : BÖKLÜ : ÇÖLLÜİL : TABGAÇ : TİBET : APAR : RUM : KIRGIZ : ÜÇ-KURIKAN : OTUZ-TATAR : KITAY : TATABI : BUNCA : BOYLARI : GELİP : SIGTAMIŞ : YUĞLAMIŞ : ÖYLE : ÜNLÜ : KAĞAN : İMİŞ : ONDAN : SONRA : İNİSİ : KAĞAN : OLMUŞ : GERÇEK : OĞULLARI : KAĞAN : OLMUŞ : GERÇEK : ONDAN : SONRA : İNİSİ : EÇİSİ : DEK :"
+  },
+  {
+   "id": "BK-D-6",
+   "alan": "turkce",
+   "deger": "yaratılmamış şüphesiz, oğulları babaları gibi yaratılmamış şüphesiz. Akılsız hakanlar (tahta) oturmuş şüphesiz, kötü hakanlar (tahta) oturmuş şüphesiz. (Onların) kumandanları da akılsız",
+   "uretilen": "KILINMADI : GERÇEK : OĞLU : BABASI : DEK : KILINMADI : GERÇEK : BİLGİSİZ : KAĞAN : OTURMUŞ : GERÇEK : YAVLAK : KAĞAN : OTURMUŞ : GERÇEK : BUYRUĞU : YİNE : BİLGİSİZ [İMİŞ] : GERÇEK : YAVLAK : İMİŞ : GERÇEK : BEĞLERİ : BOYLARI : DÜZSÜZ [OLDUĞU] : İÇİN : TABGAÇ : BOYLARI : TEBLİ : GÜR : [OLDUĞU] İÇİN : ARMAKÇI : [OLDUĞU] İÇİN : İNİYİ : EÇİYİ : KİNLEŞTİRDİĞİ : İÇİN : BEĞLE : BOYLARI :"
+  },
+  {
+   "id": "BK-D-7",
+   "alan": "turkce",
+   "deger": "karşılıklı kışkırttığı için, Türk halkı kurduğu devletini elden çıkarıvermiş, tahta oturttuğu hakanını kaybedivermiş. (Bu yüzden, Türk halkı) Çin halkına bey olmağa lâyık erkek evlâdını kul yaptı, hanım olmağa lâyık kız evlâdını (da) cariye yaptı. Türk beyleri Türk ünvanlarını bıraktı; Çinlilerin hizmetindeki Türk beyleri Çin (ünvanlarını alarak Çin imparatoruna tâbi olmuşlar. Elli yıl)",
+   "uretilen": "YONGŞURDUĞU : İÇİN : TÜRK : BOYLARI : İLLEDİĞİ : İLİNİ : TERK : ETMİŞ : KAĞANLADIĞI : KAĞANINI : YİTİRİ : ETMİŞ : TABGAÇ : BOYLARINA : BEĞLİK : ERKEK : EVLADI : KUL : OLDU : İŞİLİK : KIZ : EVLADI : CARİYE : OLDU : TÜRK : BEĞLERİ : TÜRK : ADINI : ATTI : TABGAÇ : BEĞLERİ [GİBİ] : TABGAÇ : ADINI : TUTUP : TABGAÇ : KAĞANINA : GÖRMÜŞ : ELLİ : YIL :"
+  },
+  {
+   "id": "BK-D-9",
+   "alan": "turkce",
+   "deger": "“Hakan sahibi (bir) halk idim; hakanım nerde? Hangi hakana hizmet ediyorum?” der imiş. Böyle deyip Çin imparatoruna düşman olmuş. Düşman olmuş, (fakat) kendini düzene sokup (iyi) örgütlenememiş, yine (Çinlilere) bağımlı olmuş. (Çin halkı) bunca hizmet ettiğini düşünmeden “Türk halkını öldürleyim, neslini yok edeyim)” der imiş. (Türk halkı) yok olmak üzere imiş. Yukarıda(ki)",
+   "uretilen": "KAĞANLI : BOYLAR : İDİM : KAĞANIM : HANİ? : NE : KAĞANA : İŞİ : GÜÇÜ : VERİR[İM] BEN : DER : İMİŞ : ANCA : DEYİP : TABGAÇ : KAĞANINA : YAĞI : OLMUŞ : YAĞI : OLUP : EDİNE : YARATINA : MADIĞ[INDAN] : YANA : İÇİKMİŞ : [TABGAÇ] BUNCA : İŞİ : GÜÇÜ : VERDİĞİNİ : SAKINMADAN : TÜRK : BOYLARINI : ÖLDÜREYİM : URUGSIRATAYIM : DER : İMİŞ : [TÜRKLER] YOK OLMAYA : VARIR : İMİŞ : ÜSTTE :"
+  },
+  {
+   "id": "BK-D-10",
+   "alan": "turkce",
+   "deger": "Türk Tanrısı, Türk kutsal yer (ve) su (ruhları) şöyle yapmışlar şüphesiz: Türk halkı yok olmasın diye, halk olsun diye, babam İlteriş Hakanı (ve) annem İlbilge Hatun'u göğün tepesinde tutup (daha) yukarı kaldırdılar şüphesiz. Babam Hakan on yedi erle baş kaldırmış. “(İlteriş) baş kaldırıyor” diye haber alıp şehirdekiler dağa çıkmış, dağdakiler",
+   "uretilen": "TÜRK : TANRISI : TÜRK : KUTLU : YERİ : SUYU : ANCA : [DÜZEN] ETMİŞ : TÜRK : BOYLARI : YOK : OLMASIN : DİYE : BOYLAR : OLSUN : DİYE : BABAM : İLTERİŞ : KAĞANI : ANAM : İLBİLGE : KADINI : TANRI [GÖĞÜN] : TEPESİNDE : TUTUP : YUKARI : GÖTÜRMÜŞ : GERÇEK : BABAM : KAĞAN : YEDİ-YİRMİ : ERİNİ : TAŞIKMIŞ : DIŞARI : YÜRÜYOR : DİYE : SÖZ : İŞİTİP : BALIKDAKİ : TAKINMIŞ : DAĞDAKİ :"
+  },
+  {
+   "id": "BK-D-12",
+   "alan": "turkce",
+   "deger": "halkı, atalarımın dedelerimin töresince (yeniden) yaratmış (ve) eğitmiş. Tölis (ve) Tarduş halklarını o vakit düzenlemiş. Yabgu'yu (ve) Şad'ı o vakit (onlara) vermiş. Güneyde Çin halkı düşman imiş, kuzeyde bağımlı hakan, Dokuz Oğuz halkı düşman imiş. Kırgızlar, Kurıkanlar, Otuz Tatarlar, Kıtaylar (ve) Tatabılar hep (bize) düşman imiş. (Babam hakan bunca ....... halki :... kırk)",
+   "uretilen": "BOYLARI : EÇÜM : APAM : TÖRESİNCE : YARATMIŞ : BOŞGURMUŞ : TÖLİS : TARDUŞ : BOYLARINI : [O] ANDA : [DÜZEN] ETMİŞ : YABGUYU : ŞADI : [O] ANDA : [GÖREV] VERMİŞ : BERİDE : TABGAÇ : BOYLARI : YAĞI : İMİŞ : YIRIDA : BAZ : KAĞAN : DOKUZ-OĞUZ : BOYLARI : YAĞI : İMİŞ : KIRGIZ : KURIKAN : OTUZ-TATAR : KITAY : TATABI : HEP : YAĞI : İMİŞ : BABAM : KAĞAN : BUNCA --- : KIRK : ARTI :"
+  },
+  {
+   "id": "BK-D-13",
+   "alan": "turkce",
+   "deger": "yedi kez sefer etmiş, yirmi (kez) savaşmış. Tanrı (öyle) buyurduğu için, devletliyi devletsiz bırakmış, hakanlıyı hakansız bırakmış, düşmanları bağımlı kılmış, dizlilere diz çöktürmüş, başlılara baş eğdirmiş. Babam hakan, öylece devleti (kurup) yasaları koyup vefat etmiş. Babam hakan için (amcam hakan) önce bağımlı hakanı balbal (olarak) dikmiş. Babam",
+   "uretilen": "YEDİ : YOLU : SÜLEMİŞ : YİRMİ : SÜNGÜŞ : SÜNGÜŞMÜŞ : TANRI : BUYURDUĞU : İÇİN : İLLİYİ : İLSİRETMİŞ : KAĞANLIYI : KAĞANSIRATMIŞ : YAĞIYI : BAZ : KILMIŞ : DİZLİYİ : ÇÖKTÜRMÜŞ : BAŞLIYI : YÜKÜNDÜRMÜŞ : BABAM : KAĞAN : ANCAK : İLİ : TÖREYİ : KAZANIP : UÇA : VARMIŞ : BABAM : KAĞANIN : BAŞINA : BAZ : KAĞANI : BALBAL : DİKMİŞ : BABAM :"
+  },
+  {
+   "id": "BK-D-14",
+   "alan": "turkce",
+   "deger": "hakan vefat ettiğinde ben sekiz yaş(ım)da kaldım. O (zamanki) töreye göre amcam Hakan (olarak tahta) oturdu. (Tahta) oturup Türk halkını yeniden düzenledi (ve) yeniden besleyip doyurdu. Yoksulu zengin kıldı, azı çok kıldı. Amcam hakan (tahta) oturduğunda ben prens güc(ünde idim? b MSA ) Tanrı (öyle) buyurduğu için",
+   "uretilen": "KAĞAN : UÇTUĞUNDA : ÖZÜM : SEKİZ : YAŞINDA : KALDIM : O : TÖRE : ÜZE[RİNE] : EÇÜM : KAĞAN : OTURDU : OTURUP : TÜRK : BOYLARINI : YİNE : [DÜZEN] ETDİ : YEDİRDİ : ÇIĞANYI : BAY : KILDI : AZI : ÇOK : KILDI : EÇÜM : KAĞAN : OTURDUĞUNDA : ÖZÜM : TİGİN : ERK --- : İY --- : TANRI : BUYURDUĞU : İÇİN :"
+  },
+  {
+   "id": "BK-D-15",
+   "alan": "turkce",
+   "deger": "on dört yaşımda Tarduş halkı üzerine Şad oturdum. Amcam hakan ile doğuda Sarı ırmak (ve) Şantung ovasına kadar sefer ettik, batıda Demir Kapı'ya kadar sefer ettik, Köğmen (dağlarının) ötesinde Kırgız ülkesine kadar sefer ettik. Toplam yirmi beş (kez) sefer ettik, on üç (kez) savaştık. Devletliyi devletsiz bıraktık, hakanlıyı hakansız bıraktık. Dizlilere",
+   "uretilen": "DÖRT-YİRMİ : YAŞIMDA : TARDUŞ : BOYLARI : ÜZE[RİNE] : ŞAD : OTURDUM : EÇÜM : KAĞAN : İLE : İLERİ : YEŞİL : ÖGÜZ : ŞANTUNG : OVASINA : DEĞİN : SÜLEDİK : GERİDE : DEMİR : KAPIYA : DEĞİN : SÜLEDİK : KÖGMENİ : AŞIP : KIRGIZ : YERİNE : DEĞİN : SÜLEDİK : TAMAMI : BEŞ-OTUZ [KEZ] : SÜLEDİK : ÜÇ-YİRMİ [KEZ] : SÜNGÜŞDÜK : İLLİYİ : İLSİRETTİK : KAĞANLIYI : KAĞANSIRATTIK : DİZLİYİ :"
+  },
+  {
+   "id": "BK-D-16",
+   "alan": "turkce",
+   "deger": "diz çöktürdük, başlılara baş eğdirdik. Türgiş hakanı (kendi) Türk'üm, (kendi) halkım idi. Bilgisizliği yüzünden, bize karşı hatalı hareket ettiğinden, hakanları öldü, kumandanları (ve) beyleri de öldü, On-Ok halkı ıstırap gördü. Atalarımızın dedelerimizin zaptettiği topraklar ve sular sahipsiz kalmasın diye (Az halkını düzene sokup örgütleyerek ........ Bars, bey)",
+   "uretilen": "ÇÖKTÜRDÜK : BAŞLIYI : YÜKÜNDÜRDÜK : TÜRGİŞ : KAĞANI : TÜRKÜM : BOYLARIM : İDİ : BİLEMEDİĞİ : İÇİN : BİZE : YANILDIĞI : YAZINDIĞI : İÇİN : KAĞANI : ÖLDÜ : BUYRUĞU : BEĞLERİ : YİNE : ÖLDÜ : ON : OK : BOYLARI : EMEK : GÖRDÜ : EÇÜMÜZÜN : APAMIZIN : TUTMUŞ [OLDUĞU] : YER : SU : ISSIZ : KALMASIN : DİYE : AZ : BOYLARINI : [DÜZEN] EDİP : YARATIP : --- : BARS : BEĞ :"
+  },
+  {
+   "id": "BK-D-18",
+   "alan": "turkce",
+   "deger": "Kengü Tarban'a kadar Türk halkını öylece yerleştirdik, öylece örgütledik. O devirde köleler (bile) köleli olmuş idi, cariyeler (bile) cariyeli olmuş idi. Kardeşler ağabeylerini bilmez idi, oğullar babalarını bilmez idi. Onca zengin, onca gelişmiş devletimiz vardı. (Ey) Türk, Oğuz beyleri (ve) halkı, işitin! Üstte(ki) gök çökmedikçe, altta(ki) yer (de) delinmedikçe,",
+   "uretilen": "KENGÜ : TARMANA : DEĞİN : TÜRK : BOYLARINI : ANCA : KONDURDUK : ANCA : [DÜZEN] ETDİK : O : DEVİRDE : KUL : KULLUK : CARİYE : CARİYELİK : OLMUŞ : İDİ : İNİSİ : EÇİSİNİ : BİLMEZ : İDİ : OĞLU : BABASINI : BİLMEZ : İDİ : ANCA : KAZANILMIŞ : ANCA : EDİLMİŞ : İLİMİZ : TÖREMİZ : [VAR] İDİ : TÜRK : OĞUZ : BEĞLERİ : BOYLARI : İŞİT : ÜSTTE : TANRI : BASMASA : ALTTA : YER : DELİNMESE :"
+  },
+  {
+   "id": "BK-D-19",
+   "alan": "turkce",
+   "deger": "(e)y Türk halkı, (senin) devletini (ve) yasalarını kim yıkıp bozabilir idi? Türk halkı, (bu huyundan) vazgeç (ve) nadim ol! İtaatsizliğin yüzünden, (seni) besleyip doyurmuş olan akıllı hakanına (ve) bağımsız müreffeh devletine kendin ihanet ettin (ve) nifak soktun. Silâhlı (düşman) nereden gelip (seni) bozguna uğrattı (ve) dağıttı? Mızraklı (düşman) nereden gelip (de seni yerinden yurdundan) sürüp kaçırttı? Kutsal Ötüken dağları halkı, (sen kendin yerini yurdunu bırakıp) gittin. Doğuya gidenler(iniz) gittiniz, batıya",
+   "uretilen": "TÜRK : BOYLARI : İLİNİ : TÖRENİ : KİM : DAĞITIP : YIKACAK : İDİ? : TÜRK : BOYLARI : İDİN : ÖKÜN : GÜRLÜĞÜN : İÇİN : YEDİRMİŞ : BİLGE : KAĞANINA : ERMİŞ : VARMIŞ : İYİ : İLİNE : KENDİN : YANILDIN : YAVLAK : KÖTÜLÜK [ETTİN] : KILIÇLI [DÜŞMANLAR] : NEREDEN : GELİP : YANYA : İTDİ? : SÜNGÜLÜ : NEREDEN : GELİP : [SİZİ] SÜRGÜN : ETTİ? : KUTLU : ÖTÜKEN : YIŞIN : BOYLARI : VARDI : İLERİ : VARAN : VARDI : GERİ :"
+  },
+  {
+   "id": "BK-D-20",
+   "alan": "turkce",
+   "deger": "gidenler(iniz) gittiniz. Gittiğiniz yerlerde kazancınız hiç şüphesiz şu oldu: Kanınız ırmaklar gibi aktı, kemikleriniz dağlar gibi yığıldı; bey olacak erkek evlâdınızı köle yaptınız, hanım olacak kız evlâdınızı cariye yaptınız. O cehaletiniz yüzünden, kötü tavır ve hareketleriniz yüzünden, amcam hakan vefat etti. (Amcam hakan için) önce Kırgız hakanını balbal (olarak) diktim. Türk halkının adı sanı yok olmasın diye babam hakanı,",
+   "uretilen": "VARAN : VARDI : VARDIĞIN : YERDE : İYİCE : O : GERÇEK : KANIN : ÖZÜGÇE : YÜĞÜRDÜ : SÜNGÜN : DAĞCA : YATDI : BEĞLİK : URI : OĞLUNU : KUL : KILDI[LAR] : İŞİLİK : KIZ : EVLADINI : CARİYE : KILDI[LAR] : O : BİLMEDİĞİN : İÇİN : YAVLAKLIĞIN : İÇİN : EÇÜM : KAĞAN : UÇA : VARDI : BAŞINA : KIRKIZ : KAĞANINI : BALBAL : DİKTİM : TÜRK : BOYLARININ : ADI : SANI : YOK : OLMASIN : DİYE : BABAM : KAĞANI :"
+  },
+  {
+   "id": "BK-D-22",
+   "alan": "turkce",
+   "deger": "amcamızın kazanmış oldukları halkın adı sanı yok olmasın diye Türk halkı için gece uyumadım, gündüz oturmadım; kardeşim Kül Tigin ile, iki şad ile (birlikte) ölesiye yitesiye çalıştım, çabaladım. Öylece çalışıp çabalayıp birleşik halkı ateş (ile) su (gibi birbirlerine düşman) etmedim. Ben kendim hakan (olarak) tahta oturduğumda, her yere gitmiş olan halk (yayan yapıldak) ve öle yite dönüp",
+   "uretilen": "EÇÜMÜZÜN : KAZANDIĞI : BOYLARIN : ADI : KÜSİ : YOK : OLMASIN : DİYE : TÜRK : BOYLARI : İÇİN : GECE : UYUMADIM : GÜNDÜZ : OTURMADIM : İNİM : KÜLTİĞİN : İLE : İKİ : ŞAD : İLE : ÖLE : YİTE : KAZANDIM : ANCA : KAZANIP : BÜTÜN : BOYLARI : ATEŞ : SU [GİBİ ZIT] : KILMADIM : BEN : ÖZÜM : KAĞAN : OTURDUĞUMDA : [HER] YERE : SAYU : VARMIŞ : BOYLAR : ÖLE : YİTE : YAYA : YALIN : YANA :"
+  },
+  {
+   "id": "BK-D-23",
+   "alan": "turkce",
+   "deger": "geldi. Halkı besleyip doyurayım diye kuzeyde Oğuz halkına doğru, doğuda Kıtay (ve) Tatabı halklarına doğru, güneyde de Çin'e doğru on iki (kez) sefer ettim, ser... savaştım. Ondan sonra Tanrı (öyle) buyurduğu için, bahtım (ve) talihim olduğu için, ölecek halkı diriltip doyurdum. Çıplak halkı giyimli kıldım, fakir halkı zengin kıldım.",
+   "uretilen": "GELDİ : BOYLARI : YEDİREYİM : DİYE : YIRIYA : OĞUZ : BOYLARI : TARAFINA : İLERİ : KITAY : TATABI : BOYLARI : TARAFINA : BERİYE : TABGAÇ : TARAFINA : İKİ : YİRMİ : SÜLEDİM : SÜNGÜŞDÜM : ONDAN : KİRSE : TANRI : BUYURDUĞU : İÇİN : KUTUM : ÜLÜĞÜM : VAR [OLDUĞU] : İÇİN : ÖLECEK : BOYLARI : TİRGÜRÜP : YEDİRDİM : YALIN : BOYLARI : DONLU : KILDIM : YOKSUL : BOYLARI : BAY : KILDIM :"
+  },
+  {
+   "id": "BK-D-24",
+   "alan": "turkce",
+   "deger": "Az halkı çok kıldım, güçlü devleti olandan, güçlü hakanı olandan daha iyi kıldım. Dört bucaktaki halkları hep (kendime) tabi kıldım, (Türk halkını) düşmansız kıldım. (Bu halkların) hepsi bana tabi oldular. On yedi yaşımda Tangut'lara doğru sefer ettim. Tangut halkını hezimete uğrattım. Çocuklarını, kadınlarını, at sürülerini (ve tüm) varlıklarını o zaman aldım. On sekiz yaşımda altı bölge (Soğdak'lara)",
+   "uretilen": "AZ : BOYLARI : ÇOK : KILDIM : IĞAR : İLLİDEN : IĞAR : KAĞANLIDAN : YEĞ : KILDIM : DÖRT : TARAFDAKI : KAĞANLIKLARIDA : HEP : BAZ : KILDIM : YAĞISIZ : KILDIM : HEP : BANA : GÖRDÜ[LER] : YEDİ : YİRMİ : YAŞIMDA : TANGUT : TARAFINA : SÜLEDİM : TANGUT : BOYLARINI : BOZDUM : OĞLUNU : YUTUZUNU : YILKISINI : VARINI : [O] ANDA : ALDIM : SEKİZ : YİRMİ : YAŞIMDA : ALTI : ÇUB : SOĞDAK :"
+  },
+  {
+   "id": "BK-D-25",
+   "alan": "turkce",
+   "deger": "doğru sefer ettim. Halkı orada bozguna uğrattım. Çinli Ong Totok elli bin (kişilik bir) ordu (ile) geldi. Iduk Baş'ta savaştım, o orduyu orada yok ettim. Yirmi yaşımda, Basmıl Iduk Kut'u akraba kavmim idi, “Kervan göndermiyor” diye sefer ettim............. 0. bağımlı kıldım, bacını haracını ............... çevirip getirdim. Yirmi iki yaşımda Çin'e",
+   "uretilen": "TARAFINA : SÜLEDİM : BOYLARINI : [O] ANDA : BOZDUM : TABGAÇ : ONG : PAŞA : BEŞ : TÜMEN : SÜ : [İLE] GELDİ : IDUK : BAŞDA : SÜNGÜŞDÜM : O : SÜYÜ : [O] ANDA : YOK : KILDIM : YİRMİ : YAŞIMDA : BASMIL : IDIKUT : OĞUŞUM : BOYUM : İDİ : ARKIŞ : İDMEZ : DİYE : SÜLEDİM : K --- : --- T : İÇGERTTİM : KALINGINI : BERİ : GETİRDİM : İKİ : OTUZ : YAŞIMDA : TABGAÇ :"
+  },
+  {
+   "id": "BK-D-26",
+   "alan": "turkce",
+   "deger": "doğru sefer ettim. (Orada) General Çaça (kumandasında) seksen bin (kişilik bir) ordu ile savaştım, askerlerini orada öldürdüm. Yirmi altı yaşımda Çik halkı, Kırgız'larla birlikte (bize) düşman oldu. Yenisey (nehrini) geçerek Çiklilere doğru sefer ettim. (Onlarla) Örpen'de savaştım. Askerlerini mızrakladım, Az halkını zaptettim............ bağımlı kıldım.",
+   "uretilen": "TARAFINA : SÜLEDİM : ÇAÇA : SENGÜN : SEKİZ : TÜMEN : SÜ : İLE : SÜNGÜŞDÜM : SÜSÜNÜ : [O] ANDA : ÖLDÜRDÜM : ALTI : OTUZ : YAŞIMDA : ÇİK : BOYLARI : KIRGIZ : İLE [BİRLEŞİP] : [BİZE] YAĞI : OLDU : KEM [IRMAĞINI] : GEÇİP : ÇİK : TARAFINA : SÜLEDİM : ÖRPENDE : SÜNGÜŞDÜM : SÜSÜNÜ : SANÇTIM : AZ : BOYLARINI : ALDIM : --- İLGERTDİM : YEDİ : OTUZ : YAŞIMDA : KIRGIZ : TARAFINA : SÜLEDİM : SÜNGÜ : BATIMI [DERİNLİKTE] :"
+  },
+  {
+   "id": "BK-D-29",
+   "alan": "turkce",
+   "deger": "bir yaşımda Karluk halkı bağımsızca hareket eder (bir) düşman oldu. (Onlarla) Tamag Iduk Baş'ta savaştık. Karluk halkını öldürdüm, orada zaptettim........... Basmıl avam SEA Karluk halkı toparlanıp geldi ............ öldürdüm. Dokuz Oğuz'lar benim halkım idi. Gök (ile) yer (arasındaki) kargaşa nedeniyle; ödlerine",
+   "uretilen": "BİR : YAŞIMDA : KARLUK : BOYLARI : BUNGSUZ : ERİR : VARIR : ERKLİ : YAĞI : OLDU : TAMAG : IDUK : BAŞDA : SÜNGÜŞDÜM : KARLUK : BOYLARINI : ÖLDÜRDÜM : [O] ANDA : ALDIM : --- DIM : BASMIL : KARA : --- DÜD --- : KARLUK : BOYLARI : DİRİLİP : GELDİ : SANÇTIM : ÖLDÜRDÜM : DOKUZ : OĞUZ : BENİM : BOYLARIM : İDİ : TANRI : YER : BULANDIĞI : İÇİN : ÖDÜNE : --- :"
+  },
+  {
+   "id": "BK-D-30",
+   "alan": "turkce",
+   "deger": "haset girdiği için, (bize) düşman oldular. Bir yılda dört kez savaştım. İlk önce Toğu Balık'ta savaştım. Tola ırmağını (askerleri) yüzdürerek geçip OLGUSU, sez e İkinci olarak Antargu'da savaştım. Askerlerini mızrakladım Üçüncü olarak Çuş (ırmağı) başında savaştım. Türk halkının ayağı sendeledi, fena",
+   "uretilen": "KİN : DEĞDİĞİ : İÇİN : YAĞI : OLDU : BİR : YILDA : DÖRT : YOL : SÜNGÜŞDÜM : EN : İLKİ : DOĞU : BALIKTA : SÜNGÜŞDÜM : TOĞLA : ÖĞÜZÜNÜ : YÜZÜP : GEÇİP : SÜSİ : --- : İKİNCİ : ANDIRGUDA : SÜNGÜŞDÜM : SÜSİNİ : SANÇTIM : İLİNİ : ALDIM : ÜÇÜNCÜ : ÇUŞ : BAŞINDA : SÜNGÜŞDÜM : TÜRK : BOYLARI : AYAK : KAMŞATTI : YAVLAK :"
+  },
+  {
+   "id": "BK-D-31",
+   "alan": "turkce",
+   "deger": "olacak idi. (Saflarımızı) yarıp dağıtarak gelen ordusunu (geri) püskürttüm. (Bu sayede) pek çok ölecek (kişi) hayatta kaldı. Orada Tongra (boyu) alplerinden bir grubu Tonga Tigin'in cenaze töreninde çevirip kuşatarak dövdüm. Dördüncü olarak Ezgenti Kadız'da savaştım. Askerlerini orada mızrakladım, hezimete uğrattım .............0ıı Otuz iki yaşımda Amgı kalesinde kışladığımızda kıtlık oldu.",
+   "uretilen": "OLACAK : İDİ : UZANIP : YAYILIP : GELEN : ERİNİ : AĞITTIM : ÇOK : [KİŞİ] ÖLECEKTİ : [O] ANDA : DİRİLDİ : [O] ANDA : TONGRA : YİĞİTİ : BİR : OĞUŞU : TONGA : TİGİN : YUĞUNDA : EĞİRİP : DOKUNDUM : DÖRDÜNCÜ : EZGİNTİ : KADIZDA : SÜNGÜŞDÜM : SÜSİNİ : [O] ANDA : SANÇTIM : YIPRATTIM : --- BARIM --- : --- : KIRK : YAŞIMDA : AMGI : KURGANDA : KIŞLADIĞIMIZDA : YUT : OLDU : YAZINA :"
+  },
+  {
+   "id": "BK-D-32",
+   "alan": "turkce",
+   "deger": "Oğuz'lara doğru sefer ettim. Birinci ordu (sefere) çıkmış idi, ikinci ordu yurtta idi. Üç Oğuz ordusu baskın yaptı. “(Türklerin) piyadesi bozuldu” diyerek (bizi) zaptetmek üzere (üzerimize) geldi. Yarı ordusu evimizi barkımızı yağmalamak için gitti, yarı ordusu da savaşmak için geldi. Biz az idik, kötü (durumda) idik. Oğuz ............... düşman ...............n Tanrı güç verdiği için orada mızrakladım,",
+   "uretilen": "OĞUZ : TARAFINA : SÜLEDİM : İLK : SÜ : TAŞIKMIŞ : İDİ : İKİNCİ : SÜ : EVDE : İDİ : ÜÇÜNCÜ : OĞUZ : SÜSİ : BASIP : GELDİ : YAYA : YAVUZ : OLDU : DEYİP : ALGALI : GELDİ : SINGAR : SÜSİ : EVİ : BARKI : YAĞMALAMAYA : VARDI : SINGAR : SÜSİ : SÜNGÜŞMEYE : GELDİ : BİZ : AZ : İDİK : YAVUZ : İDİK : OĞUZ : --- T : YAĞI : --- : TANRI : GÜÇ : VERDİĞİ : İÇİN : [O] ANDA : SANÇTIM :"
+  },
+  {
+   "id": "BK-D-33",
+   "alan": "turkce",
+   "deger": "dağıttım. Tanrı buyurduğu için, ben çalışıp kazandığım için Türk halkı (da) öylece kazanmış (oldu) şüphesiz. Ben erkek kardeşimle beraber bu kadar önderlik edip çalışmasa ve muvaffak olmasa idim, Türk halkı ölecek idi, yok olacak idi. Türk beyleri (ve) halkı şöylece düşünün (ve) şöylece bilin: Oğuz. halki se. rer senn göndermiyeyim diye sefer ettim, (D 34) evini barkını bozdum. Oğuz halkı, Dokuz Tatar'larla birlikte toparlanıp geldi. Ağu'da iki büyük savaş verdim. Askerlerini bozdum, ülkelerini orada zaptettim. Öylece kazanıp ..........ıu (Tanrı) buyurduğu için, ben Otuz ÜÇ YAŞIMCA serisine ARAR YOK İdi ss kişi",
+   "uretilen": "YAYDIM : TANRI : BUYURDUĞU : İÇİN : BEN : KAZANDIĞIM : İÇİN : TÜRK : BOYLARI : KAZANMIŞ : GERÇEK : BEN : İNİMLE : BUNCA : BAŞLAYIP : KAZANMASAM : TÜRK : BOYLARI : ÖLECEK : İDİ : YOK : OLACAK : İDİ : TÜRK : BEĞLERİ : BOYLARI : ANCA : SAKININ : ANCA : BİLİN : --- : OĞUZ : BOYLARI : --- D --- : --- : İDMESİN : DİYE : SÜLEDİM :"
+  },
+  {
+   "id": "BK-D-35",
+   "alan": "turkce",
+   "deger": "besleyip doyurmuş yiğit hakanına ihanet etti. (Bu hareketi) yukarıdaki Tanrı, (aşağıdaki) kutsal Yer (ve) Su (ruhları ile) amcam Hakanın ruhu tasvip etmedi hiç şüphesiz. Dokuz Oğuz halkı yerini yurdunu bırakıp Çin'e doğru gitti. Çin DAG Er TL ln KARAN buraya geldi. “Besleyip doyurayım” diye düŞÜNdÜM vc şana LL SE",
+   "uretilen": "YEDİRMİŞ [OLAN] : ALP : KAĞANINA : YANILDI : ÜSTTE : TANRI : KUTLU : YER : SU : --- : EÇÜM : KAĞANIN : KUTUNU : TAPILMADI : GERÇEK : DOKUZ : OĞUZ : BOYLARI : YERİNİ : SUYUNU : KOYUP : TABGAÇA : VARDI : TABGAÇ : --- : BOYLARI : --- : BU : YERDE : GELDİ : İĞİDEYİM : DİYE : SAKINIP : --- : BOYLARI : --- :"
+  },
+  {
+   "id": "BK-D-36",
+   "alan": "turkce",
+   "deger": "günah YO ŞAĞRARUĞ güneyde Çin'de adı sanı yok oldu. Burada bana kul oldu. Ben kendim hakan (olarak) tahta oturduğum için Türk halkını KRGEKERTR RÜN kılmadım. Devleti (ve) yasaları daha iyi kazandım, elde «ettim: Kutsal s0 toplanıp vezerı..04",
+   "uretilen": "YAZLIKLAT --- : GÜNEYDE : TABGAÇDA : ADI : SANI : YOK : OLDU : BU : YERDE : BANA : KUR : OLDU : BEN : ÖZÜM : KAĞAN : OTURDUĞUM : İÇİN : TÜRK : BOYLARINI : --- Ü --- : KILMADIM : İLİ : TÖREYİ : İYİCE : KAZANDIM : --- : DİRİLİP : Yİ --- :"
+  },
+  {
+   "id": "BK-D-40",
+   "alan": "turkce",
+   "deger": "secssusaz Vatanıma; yerine yurduna yerleşti. “Güneyde Karluk halkına doğru sefer” et diye Tudun Yamtar'ı gönderdim, gitti ...........nr Karluk Elteberi yok olmuş. Kardeşi bir kaleye kaçıp gitmiş........... (Di AV) sere nş kervanı gelmedi. Onları korkutayım diye sefer ettim. (Kale) muhafızı iki üç kişi ile kaçıp gitti. Avam halkı (ise) “Hakanım geldi” diye kıvanıp sevindi (.............. ünvansıza) ünvan verdim. Küçük üÜünvanlıyı terfi ettirdim... (G-D) ............... Gök Öng (ırmağını) geçerek ordu (ile) yürüyüp geceli gündüzlü yedi vakitte susuz (araziyi) geçtim. Çorak (arazi)ye varıp öncü askerleri ............r e Keçen'e kadar sin. eereresreene eş © göl MA Çin süvari ordusu(ndan) on yedi bin askeri birinci gün öldürdüm. Piyade ordularını ikinci gün tamamiyle öldürdüm ........ 2... GÜLE Henri Era",
+   "uretilen": "--- GAKINGA : YERİNE : SUYUNA : KONDU : BERİDE : KARLUK : BOYLARI : TARAFINA : SÜLE : DEYİP : TUDUN : YAMTARI : İTTİM : VARDI : --- : KARLUK : İLTEBERİ : YOK : OLMUŞ : İNİSİ : BİR : KURGANA : --- :"
+  },
+  {
+   "id": "BK-G-7",
+   "alan": "turkce",
+   "deger": "verdim. Yiğit erlerini öldürüp balbal yapıverdim. Elli yaşımda Tatabı halkı Kıtay'lardan ayrıldı ....... Töügğker. dağında ..........ele",
+   "uretilen": "VERDİM : ALP : ERİNİ : ÖLDÜRÜP : BALBAL : KILI : VERDİM : ELLİ : YAŞIMDA : TATABI : BOYLARI : KITAYDAN : AYRILDI --- : --- KA --- : TÖNGÜKER : DAĞINA :"
+  },
+  {
+   "id": "BK-G-9",
+   "alan": "turkce",
+   "deger": "öldürdü. Büyük oğlum hastalanıp ölünce Ku'yu, Generali, balbal (olarak) dikiverdim. - Ben on dokuz yıl şad (olarak) hüküm sürdüm, on dokuz yıl (da) hakan (olarak) hüküm sürdüm, devlet yönettim. Otuz: bir yaşımda! saz",
+   "uretilen": "ÖLDÜRDÜ : ULU : OĞLUM : AĞRILANIP : YOK : OLUNCA : KUĞ : SENGÜNÜ : BALBAL : DİKİ : VERDİM : BEN : DOKUZ : YİRMİ : YIL : ŞAD : OTURDUM : DOKUZ : YİRMİ : YIL : KAĞAN : OTURDUM : İL : TUTTUM : OTUZ : ARTI : BİR --- :"
+  },
+  {
+   "id": "BK-G-10",
+   "alan": "turkce",
+   "deger": "Türklerime (ve) halkıma daha iyi bir şekilde öylece kazanıverdim. Tengri Kağan Yazıtı* Bu kadar (çok) kazanıp babam hakan Köpek yılının onuncu ayının yirmi altısında vefat etti. Domuz yılının beşinci ayının yirmi yedisinde cenaze (törenini) tamamladım. Bukug Totok ŞER",
+   "uretilen": "TÜRKÜME : BOYLARIMA : YEĞİNİ : ANCA : KAZANI : VERDİM : BUNCA : KAZANIP : BABAM : KAĞAN : İT : YILININ : ONUNCU : AYININ : ALTI : OTUZDA : UÇA : VARDI : LAĞZIN : YILININ : BEŞİNCİ : AYININ : YEDİ : OTUZUNDA : YÜ : ERDİRDİM : BUKAĞ : TUTUK : --- :"
+  },
+  {
+   "id": "BK-G-11",
+   "alan": "turkce",
+   "deger": "babası (?) Lisün Tay-Sengün kumandasında beş yüz kişi geldi. Kokuluk ............. altın (ve) gümüş bol miktarda getirdi. Cenaze mumları getirip dikiverdiler. Sandal ağacı GELİNİ secere",
+   "uretilen": "BABASI : LİSÜN : TAY : SENGÜ : BAŞTA : BEŞ : YÜZ : ERİYLE : GELDİ : KOKULUK : Ö --- : ALTIN : GÜMÜŞ : GEREĞİNDEN : GETİRDİ : YUĞ : YIPARI : GETİRİP : DİKİ : VERDİ : ÇINDAN : AĞACI : GETİRİP : ÖZ : YARAŞ --- :"
+  },
+  {
+   "id": "BK-G-12",
+   "alan": "turkce",
+   "deger": "Bunca halk (cenaze töreninde) saçlarını kulaklarını kesti. Cins has atlarını, kara samurlarını, gök sincaplarını sayısız (miktarda) getirip (hediye olarak) hep bıraktılar.",
+   "uretilen": "BUNCA : BOYLAR : SAÇINI : KULAĞINI : YA[NAĞINI] : BİÇTİ : İYİ : ÖZLÜK : ATINI : KARA : KİŞİNİ : GÖK : TEYENGİNİ : SANSIZ : GETİRİP : HEP : KOYDU :"
+  },
+  {
+   "id": "BK-G-13",
+   "alan": "turkce",
+   "deger": "Tanrı gibi, Tanrı (tahta oturtmuş) Türk Bilge Hakan sözüm: Babam Türk Bilge Hakan tahta oturduğunda sadık Türk beyleri, batıdaki Tarduş beyleri, Kül Çor başta olmak üzere (bütün) Şadapıt beyler, doğudaki Tölis beyleri, Apa Tarkan (G 14) başta olmak üzere (bütün) Şadapıt beyler, .............. * Bundan sonra Tefiğri Kağan konuşuyor.",
+   "uretilen": "TANRI : DEK : TANRI : YARATMIŞ : TÜRK : BİLGE : KAĞAN : SABIM : BABAM : TÜRK : BİLGE : KAĞAN : OTURDUĞUNDA : TÜRKÜN : ŞİMDİ[Kİ] : BEĞLERİ[NDEN] : SONRA : TARDUŞ : BEĞLERİ : KÖL : ÇOR : BAŞTA : EVVELA : ŞADPIT : BEĞLERİ : ÖNDE : TÖLİS : BEĞLERİ : APA : TARKAN :"
+  },
+  {
+   "id": "BK-K-1",
+   "alan": "transkripsiyon",
+   "deger": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRÜK : BİLGE : KaGaN : BÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİD : ULaYU : İN : YeGÜNüM : OGLaNıM : BİRiKİ : OGuŞuM : BODuNuM : BİRiYE : ŞaDPIT : BeGLeR : YIRıYA : TaRKaT : BUYRUK : BeGLeR : OTuZ : TaTaR : TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN :",
+   "uretilen": "TeŊRİ : TeG : TeŊRİDE : BOLMuŞ : TÜRK : BİLGE : KaGaN : BÖDKE : OLuRTıM : SaBıMıN : TÜKeTİ : eŞİD : ULaYU : İN : YeGÜNüM : OGLaNıM : BİRiKİ : OGuŞuM : BODuNuM : BİRiYE : ŞaDPIT : BeGLeR : YIRıYA : TaRKaT : BUYRUK : BeGLeR : OTuZ : TaTaR : TOKUZ : OGuZ : BeGLeRİ : BODuNI : BU : SaBıMıN : eDGÜTİ : iŞİD : KaTıGDI : TIŊLA : İLGeRÜ : KÜN :"
+  },
+  {
+   "id": "BK-K-1",
+   "alan": "turkce",
+   "deger": "(Ben), Tanrı gibi (ve) Tanrı'dan olmuş Türk Bilge Hakan, bu devirde tahta oturdum. Sözlerimi baştan sona işitin, önce (siz) erkek kardeşlerim (ve) oğullarım, birleşik boyum (ve halkım...)",
+   "uretilen": "TANRI : DEK : TANRIDAN : OLMUŞ : TÜRK : BİLGE : KAĞAN : BÖDGE : [KAĞAN] OTURDUM : SÖZÜMÜ : TÜKETENE [DEK] : İŞİT : ULAYI : EN [ÇOK] : YEĞENİM : OĞLUM : BÜTÜN : SOYUM : BOYLARIM : BERİDE : ŞADPIT : BEĞLERİ : YIRIDA : TARKAT : BUYRUK : BEĞLERİ : OTUZ : TATAR : DOKUZ : OĞUZ : BEĞLERİ : BOYLARI : BU : SÖZÜMÜ : İYİCE : İŞİT : KATICA : DİNLE : İLERİ : GÜN :"
+  },
+  {
+   "id": "BK-K-2",
+   "alan": "turkce",
+   "deger": "doğuda gün doğusuna, güneyde gün ortasına doğru, geride gün batısına, kuzeyde gece ortasına kadar... bu sınırlar içindeki (bütün) halklar hep bana tabidir. (Bunca halkı hep düzene soktum). Onlar şimdi (hiç de) kötü (durumda) değiller. Türk hakanı Ötüken dağlarında oturur (ve oradan hükmeder) ise ülkede (hiçbir) sıkıntı olmaz. İleride Şantung ovasına kadar sefer ettim, denize az kala durdum; güneyde Dokuz",
+   "uretilen": "DOĞUSUNA : BERİDE : GÜN : ORTASINA : GERİDE : GÜN : BATISINA : YIRIDA : GECE : ORTASINA : ONLARINDA : İÇİNDEKİ : BOYLAR : HEP : BANA : GÖRÜR : BUNCA : BOYLARI : HEP : [DÜZEN] ETTİM : O[NUN] : ŞİMDİ : AYNISI : YOK : TÜRK : KAĞANI : ÖTÜKEN : YIŞDA : OTURURSA : İLDE : BUNG : YOK : İLERİ : ŞANTUNG : OVASINA : DEĞİN : SÜLEDİM : TALUYA : GEÇİP : DEĞMEDİM : BERİDE : DOKUZ :"
+  },
+  {
+   "id": "BK-K-3",
+   "alan": "turkce",
+   "deger": "Ersin'e kadar sefer ettim, Tibet'e az kala durdum; geride Sır Derya ırmağını geçerek Demir Kapı'ya kadar sefer ettim, kuzeyde Yir Bayırku ülkesine kadar sefer ettim, bunca diyarlara kadar (ordu) sevk ettim (ve anladım ki) Ötüken dağlarından daha iyi (bir yer) asla yok imiş! Devletin yönetileceği yer Ötüken dağları imiş! Bu yerde oturup Çin halkı ile (ilişkileri) düzelttim. (Şimdi on lar bize) altını, gümüşü, ipeği,",
+   "uretilen": "ERSİNE : DEĞİN : SÜLEDİM : TİBETE : GEÇİP : DEĞMEDİM : GERİDE : İNCİ : ÖGÜZÜ... : GEÇİP : DEMİRKAPIYA : DEĞİN : SÜLEDİM : YIRIDA : YİR : BAYIRKU : YERİNE : DEĞİN : SÜLEDİM : BUNCA : YERE : DEĞİN : [ORDU] YÜRÜTTÜM : ÖTÜKEN : YIŞ : YEĞ : İDİ : İMİŞ : İL : TUTULASI : YER : ÖTÜKEN : YIŞ : İMİŞ : BU : YERDE : OTURUP : TABGAÇ : BOYLARI : İLE : TÜZÜLTTÜM : ALTINI : GÜMÜŞÜ : İŞGİTİ :"
+  },
+  {
+   "id": "BK-K-4",
+   "alan": "turkce",
+   "deger": "ipekli kumaşları bolca veriyorlar. Çin halkının sözleri tatlı, ipekli kumaşları (da) yumuşak imiş. Tatlı sözlerle, yumuşak ipekli kumaşlarla kandırıp uzak(larda yaşayan) halkları öylece (kendilerine) yaklaştırırlar imiş. (Bu halklar) yaklaşıp yerleştikten sonra (da Çinliler) kötü niyetlerini o zaman düşünürler imiş: İyi (ve) akıllı kişileri, iyi (ve) cesur kişileri ilerletmezler imiş; (öte yandan) bir kişi yanılip suç işlese (onun) soyuna sopuna (ve) hısım akrabasına",
+   "uretilen": "KUTAYI : BUNGSUZ : ANCA : VERİR : TABGAÇ : BOYLARININ : SÖZÜ : SÜÇİ : AĞISI : YUMUŞAK : İMİŞ : SÜÇİ : SÖZÜ : YUMUŞAK : ÂĞI [İLE] : ARIP : IRAK : BOYLARI : ANCA : YAĞUTUR : İMİŞ : YAKLAŞIP : KONDUKTAN : SONRA : ANYI : BİLGİLERİNİ : [O] ANDA : ÖYÜR : İMİŞ : İYİ : BİLGİLİ : KİŞİYİ : İYİ : ALP : KİŞİYİ : YÜRÜTMEZ : İMİŞ : BİR : KİŞİ : YANILSA : OĞUŞUNA : BOYLARINA : BEŞİĞİNE : DEĞİN : KIYMAZ :"
+  },
+  {
+   "id": "BK-K-5",
+   "alan": "turkce",
+   "deger": "imiş. (Çinlilerin) tatlı sözlerine (ve) yumuşak ipekli kumaşlarına aldanıp (ey) Türk halkı, çok sayıda öldün! (Ey) Türk halkı, (sen) mutlak öleceksin! Güneyde Çuğay dağlarına (ve) Töğültün ovasına yerleşeyim dersen, Türk halkı, mutlak öleceksin! Orada kötü niyetli) kimseler şöyle akıl verirler imiş: (Çinliler, bir halk onlara) uzak ise kötü hediyeler verir; yakın ise iyi hediyeler verir” deyip öyle akıl verirler imiş. (Akılsız)",
+   "uretilen": "İMİŞ : SÜÇİ : SÖZÜNE : YUMUŞAK : AĞISINA : ARTURUP : ÇOK : TÜRK : BOYLARI : ÖLDÜ : TÜRK : BOYLARI : ÖLECEKSİN : BERİDE : ÇOĞAY : YIŞ[INA] : TÖGÜLTÜN : YAZINA : KONAYIM : DESEN : TÜRK : BOYLARI : ÖLECEKSİN : [O] ANDA : ANYI : KİŞİ : ANÇA : BOŞGURUR : İMİŞ : IRAK : İSEN : YAVLAK : AĞI : VERİR : YAKIN : İSEN : İYİ : AĞI : VERİR : DEYİP : ANCA : ÖĞRETİR : İMİŞ : BİLGİ :"
+  },
+  {
+   "id": "BK-K-6",
+   "alan": "turkce",
+   "deger": "cahil kişiler, bu sözleri duyup, (Çin'e) yakın gidip çok sayıda öldünüz. O yere doğru gidersen, (ey) Türk halkı, öleceksin! Ötüken ülkesinde oturup (buradan) kervanlar gönderirsen, hiçbir derdin olmaz. Ötüken dağlarında oturursan sonsuza kadar devlet sahibi olup hükmedersin. (Ey) Türk halkı! (Sen) tok gözlüsün: Acıkırsan doyacağını düşünmezsin, bir (de) doyarsan (tekrar) acıkacağını düşünmezsin. Öyle olduğun için (seni) besleyip (doyurmuş olan hakanlarının",
+   "uretilen": "BİLMEZ : KİŞİ : O : SÖZÜ : ALIP : YAKINA : VARIP : ÇOK : KİŞİ : ÖLDÜ : O : YERLERE : VARSAN : TÜRK : BOYLARI : ÖLECEK : SEN : ÖTÜKEN : YERİNDE : OTURUP : ARKIŞ : TİRKİŞ : [GÖNDERİR] İSEN : NE : BUNG : YOK : ÖTÜKEN : YIŞDA : OTURSAN : BENGÜ : İL : TUTUP : OTURACAK : SEN : TÜRK : BOYLARI : TOK [İSEN] : SEN : AÇLIĞI : TOKLUĞU : DÜŞÜNMEZ : SEN : BİR : DOYSAN : AÇLIĞI : DÜŞÜNMEZ : SEN : ÖYLE [OLDUĞUN] : İÇİN : YEDİRMİŞ : KAĞANININ :"
+  },
+  {
+   "id": "BK-K-7",
+   "alan": "turkce",
+   "deger": "sözlerini (dinlemeden, rızalarını) almadan her yere gittin, oralarda hep mahvoldun (ve) tükendin. Oralarda (nasılsa sağ) kalmış olanlarınız (da) her yönde bitkin ve mecalsiz bir halde yürüyor idiniz. Tanrı lütufkâr olduğu için, kendimin (de) talihim olduğu için (hakan olarak) tahta oturdum. Tahta oturup yoksul (ve) fakir halkı hep derleyip topladım. Fakir halkı zengin yaptım, az halkı çok yaptım. (Acaba bu)",
+   "uretilen": "SÖZÜNÜ : ALMADIN : YERE : HER : VARDIN : HEP : [O] ANDA : ALKINDIN : ARILDIN : [O] ANDA : KALMIŞI : YERE : HER : HEP : TORUP : ÖLÜP : YÜRÜYOR : İDİ[LER] : TANRI : BUYURDUĞU : İÇİN : ÖZÜM : KUTUM : VAR : İÇİN : KAĞAN : OTURDUM : KAĞAN : OTURUP : YOK : ÇIĞANY : BOYLARI : HEP : TOPARLADIM : ÇIGANY : BOYLARI : BAY : KILDIM : AZ : BOYLARI : ÇOK : KILDIM : AZU : BU :"
+  },
+  {
+   "id": "BK-K-8",
+   "alan": "turkce",
+   "deger": "sözlerimde yalan var mı! (Ey) Türk beyleri (ve) halkı, bunu işitin! Türk halkı (senin) dirilip (nasıl) devlet sahibi olacağını buraya hâkkettim; yanılıp (nasıl) öleceğini de buraya hâkkettim. (Söyleyecek) her ne sözüm (var) ise (bu) ebedi taşa hâkkettim. Ona bakarak (bu sözleri) öğrenin. (Ey) sadık Türk halkı (ve) beyleri, bu devirde (bana) tabi olan beyler, (sizler) mi yanılacak, hatâ edeceksiniz? (Babam)",
+   "uretilen": "SÖZÜMDE : İGİT : VAR : MI? : TÜRK : BEĞLERİ : BOYLARI : BUNU : İŞİTİN : TÜRK : BOYLARINI : DERİP : İL : TUTACAĞINI : BUNDA : [TAŞA] VURDUM : YANILIP : ÖLECEĞİNİ : YİNE : BUNDA : [TAŞA] VURDUM : NE[CE] : NE[CE] : SÖZÜM : [VAR] İSE : BENGÜ : TAŞA : VURDUM : ONU : GÖRÜP : BİLİN : TÜRKÜN : ŞİMDİ[Kİ] : BOYLARI : BEĞLERİ : BÖYLE : GÖRÜĞÜMDEKİ : BEĞLER [OLARAK] : MI : YANILACAKSINIZ : SİZ? : BABAM :"
+  },
+  {
+   "id": "BK-K-10",
+   "alan": "turkce",
+   "deger": "kızını (da) pek büyük (bir) törenle oğluma alıverdim .........00 000 pek büyük (bir) törenle alıverdim ..............eeii erdirdim. Dört bucaktaki halkları (tabi) kıldım. Başlılara baş eğdirdim, dizlilere diz çöktürdüm. Yukarıda gök aşağıda da yer lütfettiği için,",
+   "uretilen": "KIZINI : YÜCE : ULU : TÖRENLE : OĞLUMA : ALI : VERDİM : --- : YÜCE : ULU : TÖRENLE : ALI : VERDİM : YA --- T : ERDİRDİM : --- : BAŞLIYI : YÜKÜNDÜRDÜM : DİZLİYİ : ÇÖKTÜRDÜM : ÜSTTE : TANRI : ALTTA : YER : BUYURDUĞU : İÇİN :"
+  },
+  {
+   "id": "BK-K-11",
+   "alan": "turkce",
+   "deger": "gözle görülmedik, kulakla işitilmedik (kadar çok) halkımı ileride gün doğusuna, güneyde gün ortasına, geride gün batısına, kuzeyde de gece ortasına kadar (uzanan geniş topraklarım üzerinde) yerleştirdim. Sarı altınlarını, beyaz gümüşlerini, kenarlı ipek kumaşlarını, kokulu ipeklilerini, has atlarını, aygırlarını, kara samurlarını (ve) ........",
+   "uretilen": "GÖZÜN : GÖRMEDİĞİ : KULAĞIN : İŞİTMEDİĞİ : BOYLARIMI : İLERİ : GÜN : DOĞUSUNA : BERİDE : --- KA : GERİDE : --- : SARI : ALTININI : ÜRÜNG : GÜMÜŞÜNÜ : KIRGALI : KUTAYINI : KİNLİ : İŞGİTİSİNİ : ÖZLÜK : ATINI : AYGIRINI : KARA : KİŞİNİ :"
+  },
+  {
+   "id": "BK-K-14",
+   "alan": "turkce",
+   "deger": "ÜRÜN iyilik göreceksin, evine gireceksin (ve) dertsiz olacaksın. ........eeeee eee Ondan sonra Çin imparatorundan (pek) çok sanatçı getirttim. (Çin hakanı) benim sözümü kırmadı, (kendi) saray sanatkârlarını gönderdi. Onlara olağanüstü (bir) tapınak yaptırttım. İçini (ve) dışını olağanüstü resim ve heykellerle süslettim. (Ebedi) taş kazdırttım, (üzerine) gönlümdeki sözlerimi hâkkettirdim BEDER",
+   "uretilen": "ÖZÜNDE : İYİ[LİK] : GÖRECEK : SEN : EVE : GİRECEK : SEN : BUNGSUZ : OLACAK : SEN : ONDAN : SONRA : TABGAÇ : KAĞANINDAN : BEZECİ : HEP : GETİRTTİM : BENİM : SÖZÜMÜ : SIMADI : IÇERDEKİ : BEZECİSİNİ : İDİ : ONA : ADINÇIĞ : BARK : YAPTIRTTIM : İÇİNE : DIŞINA : ADINÇIĞ : BEZE : VURDURTTUM : TAŞ : DOKUTTUM : GÖNÜLDEKİ : SÖZÜMÜ : [TAŞA] VURDURTTUM :"
+  },
+  {
+   "id": "BK-B-6",
+   "alan": "turkce",
+   "deger": "yas tutuyorum. Babam (hakanın?)",
+   "uretilen": "SAKINIRIM : BEN : BABAM : KAĞAN[I] :"
+  },
+  {
+   "id": "BK-B-7",
+   "alan": "turkce",
+   "deger": "(mezar) taşını bizzat (ben) hakan ........... (B ES) bida ERER ELLA. BD) serilen RR ARA * “pek çok” yani ertinğü metnin aslında iki kez yazılmış.",
+   "uretilen": "TAŞINI : ÖZÜM : KAĞAN --- :"
+  },
+  {
+   "id": "TY1-B-1",
+   "alan": "turkce",
+   "deger": "Bilge Tunyukuk, ben kendim, Çin yönetimi sırasında doğdum. Türk halkı (o zaman) Çin'e bağımlı idi.",
+   "uretilen": "BİLGE : TONYUKUK : BEN : ÖZÜM : TABGAÇ : İLİNDE : KILINDIM : TÜRK : BOYLARI : TABGAÇA : GÖRÜR : İDİ :"
+  },
+  {
+   "id": "TY1-B-2",
+   "alan": "turkce",
+   "deger": "Türk halkı, (kendi) hanını bulmayınca, Çin'den ayrıldı; han sahibi oldu; (fakat) hanını bırakıp Çin'e yeniden bağımlı oldu. Tanrı şöyle demiş olmalı: “(Sana) han verdim,",
+   "uretilen": "TÜRK : BOYLARI : KAĞAN : BULAMAYIP : TABGAÇDAN : AYRILDI : KAĞANLANDI : KAĞANI : KOYUP : TABGAÇA : YANA : İÇİKDİ : TANRI : ANCA : DEMİŞ : GERÇEK : KAĞAN : VERDİM :"
+  },
+  {
+   "id": "TY1-B-3",
+   "alan": "turkce",
+   "deger": "hanını bırakıp (yine) bağımlı oldun.” (Türk halkı yeniden) bağımlı olduğu için Tanrı “Öl!” demiş olmalı. Türk halkı öldü, mahvoldu, yok oldu. Türk Sir halkı(nın) ülkesinde",
+   "uretilen": "KAĞANI : KOYUP : İÇİKDİN : İÇİKDİĞİN : İÇİN : TANRI : ÖLDÜRMÜŞ : GERÇEK : TÜRK : BOYLARI : ÖLDÜ : ALKINDI : YOK : OLDU : TÜRK : SİR : BOYLARININ : YERİNDE :"
+  },
+  {
+   "id": "TY1-B-4",
+   "alan": "turkce",
+   "deger": "boy kalmadı. Dağda bayırda kalmış olan'ları toplanıp yedi yüz (kişi) oldu. (Bu yedi yüz kişilik kuvvetin) iki bölüğü atlı idi, bir bölüğü yaya idi. Yedi yüz kişiyi",
+   "uretilen": "BOY : KALMADI : UZAKTA : DIŞDA : KALMIŞI : TOPLANIP : YEDİ : YÜZ [KİŞİ] : OLDU : İKİ : [B]ÖLÜĞÜ : ATLI : İDİ : BİR : [B]ÖLÜĞÜ : YAYA : İDİ : YEDİ : YÜZ : KİŞİYİ :"
+  },
+  {
+   "id": "TY1-B-5",
+   "alan": "turkce",
+   "deger": "sevk eden üstleri “Şad” idi. “Sözcüm ol!” dedi; sözcüsü ben idim, Bilge Tunyukuk. “(Bunu) kağan mı yapayım?” dedim, düşündüm: (İnsan) zayıf boğalarla semiz boğaları uzaktan",
+   "uretilen": "UDUZAN : ULU : ŞAD İDİ : YAĞIL : DEDİ : YAĞMIŞI BEN İDİM : BİLGE : TONYUKUK : KAĞAN MI KILAYIM : DEDİM : SAKINDIM : DORUK BOĞA : SEMİZ BOĞA : ARKAYA :"
+  },
+  {
+   "id": "TY1-B-6",
+   "alan": "turkce",
+   "deger": "bilmek zorunda kalsa, hangilerinin semiz boğa, hangilerinin zayıf boğa olduğunu bilmez imiş diye öylece düşündüm. Ondan sonra, Tanrı akıl verdiği için, (onu) ben kendim kağan yaptım. Bilge Tunyukuk Buyla Bağa Tarkan",
+   "uretilen": "TEPSE : SEMİZ BOĞA [MI] : DORUK : BOĞA [MI TEPTİ] : DİYE : BİL[İN]MEZ İMİŞ : DİYE : ANCA : SAKINDIM : ONDAN : SONRA : TANRI : BİLGİ : VERDİĞİ : İÇİN : ÖZÜM : HEP : KAĞAN : KILDIM : BİLGE : TONYUKUK : BOYLA : BAĞA : TARKAN :"
+  },
+  {
+   "id": "TY1-B-7",
+   "alan": "turkce",
+   "deger": "sayesinde İlteriş kağan olarak güneyde Çinlileri, doğuda Kıtay'ları, kuzeyde Oğuz'ları pek çok öldürdü. Danışmanı (ve) kumandanı ben idim.",
+   "uretilen": "İLE : İLTERİŞ : KAĞAN : OLUNCA : BERİDE : TABGAÇI : ÖNDE : KITAYI : YIRIDA : OĞUZU : ÇOKÇA : HEP : ÖLDÜRDÜ : BİLGESİ : ÇAVUŞU : BEN : HEP : İDİM : ÇOĞAYIN : KUZEYİNDE : KARA : KUMUG[DA] : OTURUR : İDİK :"
+  },
+  {
+   "id": "TY1-G-2",
+   "alan": "turkce",
+   "deger": "Kaçağ(ın) sözleri şöyle (idi): “Dokuz Oğuz halkı üzerine (bir) kağan tahta çıktı” diyor. “(Bu kağan) Çin'e General Ku'yu göndermiş; Kıtay'lara Tongra Eşim'i göndermiş. (Bunlarla) şöyle haber göndermiş: “Azıcık Türk (halkı?)",
+   "uretilen": "GÖRÜĞÜN : SAVI/SÖZÜ : ŞÖYLE : DOKUZ : OĞUZ : BOYLARI : ÜZE[RİNE] : KAĞAN : OTURDU : DER : TABGAÇA : KONI : SENGÜNÜ : İTMİŞ : KITAYA : TONGRA : ESİMİ : İTMİŞ : SÖZ : ANCA : AZICIK : TÜRK : BOYLARI :"
+  },
+  {
+   "id": "TY1-G-3",
+   "alan": "turkce",
+   "deger": "gelişiyormuş. Kağanları cesur imiş, sözcüleri akıllı imiş. O iki kişi var oldukça, sizi, Çinlileri öldürecektir derim; doğuda Kıtay'ları öldürecektir derim; bizi, Oğuz'ları",
+   "uretilen": "YÜRÜYOR : İMİŞ : KAĞANI : ALP : İMİŞ : AYGUÇISI : BİLGE : İMİŞ : O : İKİ : KİŞİ : VAR : İSE : SENİ [DE] : TABGAÇI [DA] : ÖLDÜRECEK : DER[İM] : BEN : ÖNDE : KITAYI : ÖLDÜRECEK : DER[İM] : BEN : BENİ : OĞUZU :"
+  },
+  {
+   "id": "TY1-G-4",
+   "alan": "turkce",
+   "deger": "öldürecektir şüphesiz, derim. (Siz) Çinliler güney tarafından saldırın, (siz) Kıtay'lar doğu tarafından saldırın, biz (de) kuzey tarafından saldıralım. Türk Sir halkı, ülkesinde, asla gelişmesin. Mümkünse, tümüyle yok edelim,",
+   "uretilen": "ÖLDÜRECEK : DER[İM] : BEN : TABGAÇ : BERİDEN : YANA : DEĞSİN : KITAY : ÖNDEN : YANA : DEĞSİN : BEN : YIRIDAN YANA : DEĞEYİM : TÜRK : SİR : BOYLARI : YERİNDE : HİÇ : YÜRÜMESİN : [TÜRKÜ] : HEP : YOK : KILALIM :"
+  },
+  {
+   "id": "TY1-G-5",
+   "alan": "turkce",
+   "deger": "derim.” Bu haberi işitip gece uyuyasım gelmedi, gündüz oturasım gelmedi. Ondan sonra kağanıma ricada bulundum. Şöyle ricada bulundum: “Çinliler, Oğuz'lar (ve) Kıtay'lar, bu üçü birleşirlerse",
+   "uretilen": "DER[İM] : BEN : O : SÖZÜ : İŞİTİP : GECE : UYUYASIM : GELMEDİ : GÜNDÜZ : OTURASIM : GELMEDİ : ONDAN : ÖTÜRÜ : KAĞANIMA : ÖTÜNDÜM : ANCA : ÖTÜNDÜM : TABGAÇ : OĞUZ : KITAY : BU : ÜÇÜ : KAVUŞSA :"
+  },
+  {
+   "id": "TY1-G-6",
+   "alan": "turkce",
+   "deger": "(biz) çaresiz kalırız. Kendi iç (kuvvetler)i (ile) dış (topraklar)ı tutmuş gibiyiz. (Bir şey) yufka iken (onu) delmek kolay imiş, ince olanı (da) kırmak kolay; yufka, kalın olursa (onu) delmek zor imiş, ince",
+   "uretilen": "[YALNIZ] KALACAĞIZ : BİZ : ÖZ[Ü] : İÇİ : DIŞINDAN : TUTULMUŞ : DEK : BİZ : YUFKA : ERKLİYİ : TUBULMAK : UCUZ : İMİŞ : İNCE : ERKLİYİ : ÖZGÜLEMEK : UCUZ : YUFKA : KALIN : OLSA : DELİNMESİ : ALP : İMİŞ : İNCE :"
+  },
+  {
+   "id": "TY1-G-8",
+   "alan": "turkce",
+   "deger": "Kağanım, (benim) kendimin, Bilge Tunyukuk'un arz ettiğim ricamı dinlemek lutfunda bulundu. “(Orduyu) gönlünce sevk et!” dedi. Kök Öng (ırmağı)nı geçerek (orduyu) Ötüken dağlarına doğru sevk ettim. İngek gölcüğü ile Tola (ırmağın)dan Oğuz'lar (üzerimize) geldi.",
+   "uretilen": "KAĞANIM : BEN : ÖZÜM : BİLGE : TONYUKUK : ÖTÜNDÜK : [KAĞAN] ÖTÜNÇÜMÜ : İŞİTİ : VERDİ : GÖNLÜNCE : [ORDUYU] UDUZ : DEDİ : KÖK : ÖNGÜ : YUKARI : ÖTÜKEN : YIŞ [YÖNÜNE] : UDUZDUM : İNİG : KÖKLÜKÜN : TOĞULDA : OĞUZ [ORDUSU] : GELDİ :"
+  },
+  {
+   "id": "TY1-G-10",
+   "alan": "turkce",
+   "deger": "(Türk hakanını), Türk halkını Ötüken toprağına ben kendim, Bilge Tunyukuk, (getirdim). (Türk halkı) Ötüken toprağına yerleşmiş diye haber alıp güneydeki halklar, batıdaki, kuzeydeki ve doğudaki halklar (üzerimize) geldiler.",
+   "uretilen": "GETİRDİM : HEP : TÜRK : BOYLARININI : ÖTÜKEN : YERİNE : BEN : ÖZÜM : BİLGE : TONYUKUK : ÖTÜKEN : YERE : KONMUŞ : DİYE : İŞİTİP : BERİDEKİ : BOYLARI : GERİDEKİ : YIRIDAKI : ÖNDEKİ : BOYLAR : GELDİ [BİZE KATILDI] :"
+  },
+  {
+   "id": "TY1-D-1",
+   "alan": "turkce",
+   "deger": "(Biz) iki bin (kişi) idik. (İki ordumuz) vardı. Türk halkı (yaratılalı), Türk kağanı tahta oturalı, Şantung şehirlerine, denize vardığı yok imiş. Kağanıma arz edip ordu sevk ettim.",
+   "uretilen": "[BİZ] İKİ : BİN : İDİK : BİZ : İKİ : SÜ : OLDU[K] : TÜRK : BOYLARI : OTURALI : TÜRK : KAĞANI : OTURALI : ŞANTUNG : BALIĞA : TALUYA : ÖGÜZE : DEĞMİŞ[LİĞİ] : YOK : İMİŞ : KAĞANIMA : ÖTÜNÜP : SÜ : İLETTİM :"
+  },
+  {
+   "id": "TY1-D-2",
+   "alan": "turkce",
+   "deger": "(Kağanımı) Şantung şehirlerine, denize kadar götürdüm. (Kağanım) yirmi üç şehri zapt etti. (Önceleri) uykusu kaçarak yurtta yata kalıyordu. (Çünkü), Çin imparatoru düşmanımız idi, On-Ok kağanı düşmanımız idi, (D 3) (kalabalık Kırgız), güç(lü kağan düşmanımız) oldu. Bu üç kağan birbirine akıl danışıp “Altay dağları üzerinde buluşalım!” demişler. Şöyle akıl danışmışlar: “Doğu Türk kağanına doğru ordu sevk edelim!” demişler, “Eğer onların üzerine ordu sevk etmezsek, ne zaman olsa, onlar bizi,",
+   "uretilen": "ŞANTUNG : BALIĞA : TALUYA : ÖGÜZE : DEĞDİRDİM : ÜÇ : OTUZ : BALIK : KIRILDI : USU : BUNADI : YURTTA : YATIP : KALIR : İDİ : TABGAÇ : KAĞANI : YAĞIMIZ : İDİ : ON : OK : KAĞANI : YAĞIMIZ : İDİ :"
+  },
+  {
+   "id": "TY1-D-3",
+   "alan": "turkce",
+   "deger": "gözetleme kulelerini (yerli yerince) koydurtum. Dönen düşmanı (geri) getirirdim. Kağanımla seferlere çıktık. Tanrı esirgesin,",
+   "uretilen": "ARTISI : KIRKIZIN : GÜÇLÜ : KAĞANI : YAĞIMIZ : OLDU : O : ÜÇ : KAĞAN : ÖĞLEŞİP : ALTIN : YIŞ : ÜZE[RİNDE] : KAVUŞALIM : DEMİŞ : ANCA : ÖĞLEŞMİŞ : ÖNDE : TÜRK : KAĞANINA : SÜLEYELİM : DEMİŞ : ONADOĞRU : SÜLEMESEK : KAÇAR[SAK] : NE : EDER : O : BİZİ :"
+  },
+  {
+   "id": "TY1-D-4",
+   "alan": "turkce",
+   "deger": "kağanları cesur imiş, sözcüleri de akıllı imiş, ne zaman olsa, öldüreceklerdir. Üçümüz birleşip ordu sevk edelim, (onları) tümüyle yok edelim!” demişler. Türgiş kağanı şöyle demiş: “Benim halkım orada olacaktır!” demiş.",
+   "uretilen": "KAĞANI : ALP : İMİŞ : AYGUÇISI : BİLGE : İMİŞ : KAÇAR [İSEK] NE : İSE : [BİZİ] ÖLDÜRECEK : HEP : ÜÇÜ : KAVUŞUP : SÜLEYELİM : ONU : YOK : KILALIM : DEMİŞ : TÜRGİŞ : KAĞANI : ANCA : DEMİŞ : BENİM : BOYLARIM : ORAYA : ER[İŞ]İR : DEMİŞ :"
+  },
+  {
+   "id": "TY1-D-5",
+   "alan": "turkce",
+   "deger": "udu ben özüm kazganmasar, il yeme bodun yeme yok erteçi erti. Kazgantukın üçün udu özüm kazgantukum üçün,",
+   "uretilen": "TÜRK : BOYLARI : YİNE : BULANGAÇ : O : DEMİŞ : OĞUZU : YİNE : DARGIN : O : DEMİŞ : O : SÖZÜ : İŞİTİP : GECE : YİNE : UYUYASIM : GELMEZ : İDİ : OTURASIM : GELMEZ : İDİ : [O] ANDA : SAKINDIM :"
+  },
+  {
+   "id": "TY1-D-6",
+   "alan": "turkce",
+   "deger": "“(Önce Kırgız'lara sefer etsek iyi olur)” dedim. “Köğmen yolu bir imiş, (o da) kapanmış” diye işitip “Bu yoldan yürüsek iyi olmayacak” dedim. Kılavuz istedim. Bozkırdaki Az'lardan bir adam buldum. (D 7) (Ondan şöyle) işittim: Az ülkesi (yolu) Anı (ırmağı boyunca) imiş. (Ancak) bir atın geçebileceği kadar imiş. (Kendisi?) o yoldan (bir kez) gitmiş. Ona sorup “Bir atlı gitmiş olduğuna göre o yoldan yürüyebiliriz” dedim. Düşündüm. Kağanıma",
+   "uretilen": "İLK : KIRGIZA : SÜLE[YE]LİM : YEĞ : İMİŞ : DEDİM : KÖGMENİN : YOLU : BİR : İMİŞ : TU[TUK]MUŞ : DİYE : İŞİTİP : BU : YOLU : YÜRÜSE[K] : YARAMIYACAK : DEDİM : --- : YERCİ : DİLEDİM : ÇÖLGİ : İZ : ERİ : BULDUM :"
+  },
+  {
+   "id": "TY1-D-7",
+   "alan": "turkce",
+   "deger": "bünteği bar erser, ne bungı bar erteçi ermiş? ORHON YAZITLARI 93 İnel Kağan'a, öylece Mançud'lar, Saka'lar), Tacik'ler, Tohar'lar ...",
+   "uretilen": "ÖZÜM : AZ : YERİM : ONU : BESLERİM : --- : İMİŞ : BİR : AT : ORUĞU : [VAR]İMİŞ : ONUN [İLE] : VARMIŞ [GİTMİŞ] : ONA : AYTIP : BİR : ATLI : VARMIŞ : DİYE : O : YOLU : YORSAK : İYİDİR : DEDİM : SAKINDIM : KAĞANIMA :"
+  },
+  {
+   "id": "TY1-K-1",
+   "alan": "turkce",
+   "deger": "arz ettim. Orduyu yürüttüm. (Beylere) “Askerleri atlara bindirin!” dedim. Ak Termel (ırmağını böylece) geçerek zaman kazandım.",
+   "uretilen": "ÖTÜNDÜM : SÜ : YÜRÜTTÜM : AT[TAN] : ALT [İNİN] : DEDİM : AKTERMİLİ : GEÇİP : DURAKLATTIM : AT : ÜZE[RİNE] : BİNDİRİP : KARI : SÖKTÜM : YUKARIYA : AT[LARI] : YETİP : YAYAN : --- : AĞAÇ[LARA] : TUTUNUP : AĞDIRDIM : ÖNDEKİ : ER :"
+  },
+  {
+   "id": "TY1-K-2",
+   "alan": "turkce",
+   "deger": "(karları) yoğururcasına yürütüp ormanla kaplı doruğu aştık. (Ondan sonra) yuvarlanarak indik. On gecede yandaki engeli dolanarak gittik. Kılavuz yanıldı ve boğazlandı. Sıkılıp kağan “Sürün atları!” demiş.",
+   "uretilen": "GEÇİNCE --- : IBRIKI : AŞTIK : YOBULU : İNDİK : ON : DÜNDE : YANDAKİ : TUĞUN : BERİSİNE : VARDIK : YERCİ : YERİ : YANILIP : BOĞAZLANDI : BUNALAN : KAĞAN : YELÜ : GÖR [HIZLANIN] : DEMİŞ :"
+  },
+  {
+   "id": "TY1-K-2",
+   "alan": "uyari",
+   "deger": "U+10C48 (ORKHON BASH) tek geçiş; kaynak site kodlaması şüpheli, kitaptan doğrulanmalı"
+  },
+  {
+   "id": "TY1-K-3",
+   "alan": "turkce",
+   "deger": "İlteriş Kağan ve Bilge Tunyukuk kazandığı için Kapgan Kağan'ın Türk Sir halkının gelişmesi (işte) bu(dur).",
+   "uretilen": "ANI : SUYUNA : VARALIM : O : SUYUN : KODI : VARDIK : AŞ [YEMEK-İÇİN] : DÜŞÜRDÜK : AT[LAR]I : YIKIP : BAYUR : ETTİK : GÜNDÜZ : YİNE : GECE : YİNE : [AT] KOŞUP : VARDIK : KIRGIZI : UYKUDA : BASTIK :"
+  },
+  {
+   "id": "TY1-K-4",
+   "alan": "turkce",
+   "deger": "(Uykuları)nı mızraklarımızla açtık. (Bu arada) hanları ve orduları toparlanmış. Savaştık, mızrakladık. Hanlarını öldürdük. Kırgız halkı kağana teslim oldu, boyun eğdi. Döndük. Köğmen dağlarını dolanıp geldik.",
+   "uretilen": "SÜNGÜYÜ : AÇTIK : KAĞANI : SÜSİ : DİRİLMİŞ : SÜNGÜŞDÜK : SANÇTIK : KAĞANINI : ÖLDÜRDÜK : [BİZİM] KAĞANA : KIRGIZ : BOYLARI : İÇİKDİ : YÜKÜNDÜ : YANDIK : KÖGMEN : YIŞA : BERİ : GELDİK :"
+  },
+  {
+   "id": "TY1-K-5",
+   "alan": "turkce",
+   "deger": "Kırgız'lardan döndük. (Bu arada) Türgiş kağanından kaçak geldi. Sözleri şöyle idi: “Doğu kağanına karşı sefer edelim” demiş, “Sefer etmezsek, bizi, kağanı cesur imiş, sözcüsü akıllı imiş, ne zaman olsa",
+   "uretilen": "KIRKIZDAN : YANDIK : TÜRGİŞ : KAĞANINDAN : GÖRÜK : GELDİ : SÖZÜ : ANTAG : ÖNDEN : KAĞANADOĞRU : SÜ : YÖRÜTELİM : DEMİŞ : YÜRÜTMEZSEK : [O] BİZİ : KAĞANI : ALP : İMİŞ : AYGUÇISI : BİLGE : İMİŞ : KAÇAR [İSEK] : NE [REDE] : İSE[K] :"
+  },
+  {
+   "id": "TY1-K-6",
+   "alan": "turkce",
+   "deger": "bizi mutlak öldürecektir” demiş. (Kaçak er) “Türgiş kağanı sefere çıkmış” dedi, “On-Ok halkı tümüyle sefere çıkmış diyorlar; (içlerinde) Çin askerleri (de) var imiş.” Bu sözleri işitip kağanım “Ben karargaha ineyim” dedi.",
+   "uretilen": "BİZİ : ÖLDÜRÜR : HEP : DEMİŞ : TÜRGİŞ : KAĞANI : TAŞIKMIŞ : DEDİ : ON : OK : BOYLARI : KALISIZ : TAŞIKMIŞ : DER : TABGAÇ : SÜSİ[DE] : VAR : İMİŞ : O : SÖZÜ : İŞİTİP : KAĞANIM : BEN : EVE : GERİ : DÜŞEYİM : DEDİ :"
+  },
+  {
+   "id": "TY1-K-7",
+   "alan": "turkce",
+   "deger": "Hatun yok olmuş idi. “Onun cenaze törenini yaptırayım” dedi. “Ordu, (siz) gidin,” dedi, “Altay dağlarında oturun,” dedi. “Kumandan (olarak) İnel Kağan ile Tarduş'ların Şadı görev yapsınlar!” dedi. Bilge Tunyukuk'a, bana dedi (ki):",
+   "uretilen": "HATUN : YOK : OLMUŞ : İDİ : ONU : YUĞLATAYIM : DEDİ : SÜ[LEYİP] : VARIN : DEDİ : ALTIN : YIŞDA : OTURUN : DEDİ : SÜ : BAŞI : İNEL : KAĞAN : TARDUŞ : ŞAD : VARSIN : DEDİ : BİLGE : TONYUKUKA : BANA : AYDI :"
+  },
+  {
+   "id": "TY1-K-8",
+   "alan": "turkce",
+   "deger": "“Bu orduyu sevk et,” dedi, “(suç işleyenlerin) cezalarını dilediğin gibi ver. Ben sana (daha) ne diyeyim?” dedi, “(Düşman) gelir ise görülüp gelir; gelmez ise haberlerini alarak oturun!” dedi. Altay dağlarında oturduk.",
+   "uretilen": "BU : SÜYÜ : İLET : DEDİ : KIYINI : GÖNLÜNCE : AY : BEN : SANA : NE : AYAYIM : DEDİ : [DÜŞMAN] GELİR : İSE : GÜR[CE] : ÖKÜLÜR : GELMEZ : İSE : DİLİ : SÖZÜ : ALIP : OTUR : DEDİ : ALTIN : YIŞDA : OTURDUK :"
+  },
+  {
+   "id": "TY1-K-9",
+   "alan": "turkce",
+   "deger": "Üç kaçak kişi geldi. Sözleri bir (idi): “Kağanları orduyla sefere çıktı. On-Ok ordusu tümüyle sefere çıktı diyorlar. Yarış ovasında toplanalım!” demiş. Bu sözleri işitip kağana bu haberi gönderdim. Kağan tarafından yanıtı (şöyle)",
+   "uretilen": "ÜÇ : GÖZCÜ : YİYİ : GELDİ : SÖZLERİ : BİR : KAĞAN : ORDU : TAŞIKDI : ON : OK : ORDUSU : KALISIZ : TAŞIKDI : DER : YARIŞ : YAZINDA : DİRİLELİM : DEMİŞ : O : SÖZÜ : İŞİTİP : KAĞANA : O : SÖZÜ : İTTİM : KAĞANDAN : SÖZE : YANIT :"
+  },
+  {
+   "id": "TY2-B-1",
+   "alan": "turkce",
+   "deger": "(Bu arada bir) haberci getirdiler. Sözleri şöyle: “Yarış ovasında yüz bin asker toplandı” diyor. Bu haberi duyunca beyler hep birlikte",
+   "uretilen": "TILI : GELDİ : SÖZÜ : ANTAG : YARIŞ : YAZINDA : ON : TÜMEN : SÜ : DİRİLDİ : DER : O : SÖZÜ : İŞİTİP : BEĞLERİN : HEP[S]İ :"
+  },
+  {
+   "id": "TY2-B-2",
+   "alan": "turkce",
+   "deger": "“Dönelim; temizin (yani “savaşıp yenilmemişin”) utancı (savaşıp yenileninkinden) daha iyidir!” dediler. (Ben de şöyle dedim:) “Ben şöyle diyorum, ben Bilge Tunyukuk: Altay dağlarını aşarak geldik, İrtiş ırmağını",
+   "uretilen": "YANALIM : ARI : UBUTLU [OLMAK] : YEĞ : DEDİ[LER] : BEN : ANCA : DER[İM] : BEN : BEN : BİLGE : TONYUKUK : ALTIN : YIŞI : AŞIP : GELDİK : İRTİŞ : ÖGÜZÜ :"
+  },
+  {
+   "id": "TY2-B-3",
+   "alan": "turkce",
+   "deger": "geçerek geldik. (Buralara kadar) gelenler “(Geliş) zor(du)!” dediler, (ama pek de zorluk) hissetmediler. Galiba, Tanrı Umay, kutsal Yer ve Su (ruhları bize) yardımcı oluverdiler. Niye kaçıyoruz?",
+   "uretilen": "GEÇİP : GELDİK : GELMİŞ[LER]İ : ALP : DEDİ : DUYMADI : TANRI : UMAY : KUTLU : YER : SU : BASA : VERDİ : GERÇEK : NEKİ : TEZER[İZ] : BİZ? :"
+  },
+  {
+   "id": "TY2-B-4",
+   "alan": "turkce",
+   "deger": "(Düşman) çok diye niye korkuyoruz? Azız diye niye yenilelim? Saldıralım!” dedim. Saldırdık, talan ettik. İkinci gün",
+   "uretilen": "[DÜŞMAN] ÖKÜŞ : DİYE : NEKİ : KORKAR[IZ] : BİZ? : AZ[IZ] : DİYE : NE[DEN] : BASMAYALIM? : DEĞELİM : DEDİM : DEĞDİK : YAYDIK : İKİNCİ [GÜN] : ÇOKÇA : GELDİ[LER] :"
+  },
+  {
+   "id": "TY2-B-5",
+   "alan": "turkce",
+   "deger": "ateş gibi kızıp (üzerimize) geldiler. Savaştık. (Onların) iki kanadı bizden yarı yarıya fazla idi. Tanrı buyurduğu için, (düşman) çok diye",
+   "uretilen": "ÖRTÇE : KIZIP : GELDİ[LER] : SÜNGÜŞDÜK : BİZDEN : İKİ : ÜÇ : SINGARCA : ARTI : İDİ[LER] : TANRI : YARLIKADIĞI : İÇİN : ÇOKÇA : DİYE : BİZ :"
+  },
+  {
+   "id": "TY2-B-7",
+   "alan": "turkce",
+   "deger": "orada öldürdülk). Elli kadar asker yakaladık. O gece hepsinin halkına (bunlarla haber) gönderdik. O haberi alınca On-Ok beyleri ve halkı hep (B 8) geldiler, boyun eğdiler. (Bize) gelen beylerini ve halkını derleyip toplayıp, bir az halk kaçıp gitmiş idi, On-Ok ordusunu sefere çıkarttım.",
+   "uretilen": "ANDA : ÖLDÜRDÜK : ELLİCE : ER : TUTTUK : O : OK : GECE : BOYLARINA : SAYI : İTTİK : O : SÖZÜ : İŞİTİP : ON : OK : BEĞLERİ : BOYLARI : HEP :"
+  },
+  {
+   "id": "TY2-B-9",
+   "alan": "turkce",
+   "deger": "Biz de sefere çıktık. Onları geçtik. İnci ırmağını geçerek, “Tanrı oğlu” denilen (dorukları ak) benekli (yani “karla kaplı”) Ek dağını aşarak",
+   "uretilen": "BİZ[DE] : YİNE : SÜLEDİK : ON[LAR]A : ERDİK : YİNÇÜ : ÖGÜZÜ : GEÇİP : TİNSİ : OĞLU : [DENİLEN] : BENGİLİ : EK : DAĞINA : ERDİRDİM :"
+  }
+ ]
+}

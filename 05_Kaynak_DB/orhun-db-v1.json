@@ -1,7 +1,7 @@
 {
   "surum": "orhun-db-v1",
   "aciklama": "Orhun (Köktürk) yazıtları dize veri tabanı. Runik metin turkbitig.com'dan aynen alınmıştır; transkripsiyon sitenin gösterimidir (küçük harf = taşta yazılmayan ünlü).",
-  "uretim": "2026-09-10",
+  "uretim": "2026-10-23",
   "yazitlar": [
     {
       "kod": "KT",
@@ -4303,7 +4303,7 @@
         1,
         1,
         2,
-        2,
+        1,
         1,
         0,
         1,
@@ -11903,7 +11903,7 @@
       "satir": 1,
       "sira": 36,
       "gokturkce": "𐱃𐰞𐰍 : 𐰚𐰠𐰇𐰼𐱅𐰃 : 𐰽𐰉𐰃 : 𐰦𐰍 : 𐰖𐰺𐰽 : 𐰖𐰔𐰃𐰑𐰀 : 𐰆𐰣 : 𐱅𐰇𐰢𐰤 : 𐰾𐰇 : 𐱅𐰼𐰠𐱅𐰃 : 𐱅𐰃𐰼 : 𐰆𐰞 : 𐰽𐰉𐰍 : 𐰾𐰓𐰯 : 𐰋𐰏𐰠𐰼 : 𐰸𐰆𐰯 :",
-      "transkripsiyon": "TıLıG : KeLÜRTİ : SaBI : aNTaG : YaRıŞ : YaZıDA : ON : TÜMeN : SÜ : TiRiLTİ : TİR : OL : SABIG : EŞİDİP : BEGLER : KOPUN :",
+      "transkripsiyon": "TıLıG : KeLÜRTİ : SaBI : aNTaG : YaRıŞ : YaZıDA : ON : TÜMeN : SÜ : TiRiLTİ : TİR : OL : SABIG : EŞİDİP : BEGLER : KOP :",
       "turkce": "(Bu arada bir) haberci getirdiler. Sözleri şöyle: “Yarış ovasında yüz bin asker toplandı” diyor. Bu haberi duyunca beyler hep birlikte",
       "kelime_sayisi": 16,
       "tamga_sayisi": 53,
@@ -11932,6 +11932,15 @@
         "url": "https://www.turkbitig.com/orhun-yazitlari/tonyukuk.html",
         "erisim": "2026-09-10"
       },
+      "duzeltmeler": [
+        {
+          "sira": 15,
+          "alan": "transkripsiyon",
+          "eski": "KOPUN",
+          "yeni": "KOP",
+          "gerekce": "Runikte 𐰸𐰆𐰯 (k-o-p) var, sonda n yok; çevriyazıda fazladan n. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 15-16: kop(ı)n değil koop (T 36-37)"
+        }
+      ],
       "dogrulama": {
         "iskelet": "inceleme",
         "ceviri": "gecti",
@@ -13174,7 +13183,9 @@
   "notlar": [
     "Tonyukuk yazıtında ÖK/ÜK için U+10C1D (YENISEI OEK) kullanılmıştır; Orhun standardı U+10C1C. Otantik varyant, değiştirilmedi.",
     "U+10C48 (ORKHON BASH) yalnız TY1-K-2 dizesinde; doğrulanmadı.",
-    "DÜZELTME: 24 kelimelik dizgi düzeltmesi 05_Kaynak_DB/orhun-db-duzeltmeler.json'da; dize başına 'duzeltmeler' alanı.",
-    "dogrulandi (tek boolean) kaldırıldı; yerine alan bazlı dogrulama kaydı: iskelet (makine, orhun-tara.mjs), ceviri ve okuma (insan denetimi bekliyor)."
+    "dogrulandi (tek boolean) kaldırıldı; yerine alan bazlı dogrulama kaydı: iskelet (makine, orhun-tara.mjs), ceviri ve okuma (insan denetimi bekliyor).",
+    "DÜZELTME: 25 kelimelik dizgi düzeltmesi 05_Kaynak_DB/orhun-db-duzeltmeler.json'da; dize başına 'duzeltmeler' alanı.",
+    "ELLE: 139 alan 05_Kaynak_DB/orhun-db-elle.json'dan bindirildi (akıcı Türkçe çeviri, elle düzeltilmiş çevriyazı).",
+    "TAŞINAN: 428 alan önceki veri tabanından korundu (denetim kayıtları, etiketler)."
   ]
 }
