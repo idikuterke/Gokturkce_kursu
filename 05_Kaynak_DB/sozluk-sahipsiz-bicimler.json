@@ -1,0 +1,107 @@
+[
+  {
+    "bicim": "KİSRE",
+    "runik": "𐰚𐰃𐰾𐰼𐰀",
+    "siklik": 13,
+    "alindigiMadde": "kış 𐰶𐰃𐱁",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  },
+  {
+    "bicim": "KÜŊ",
+    "runik": "𐰚𐰇𐰭",
+    "siklik": 8,
+    "alindigiMadde": "kün 𐰚𐰇𐰤",
+    "gerekce": "küŋ 'cariye' maddesi sözlükte yok; kün 𐰚𐰇𐰤 'gün' ile aynı sözcük değil"
+  },
+  {
+    "bicim": "ÖGüZüG",
+    "runik": "𐰇𐰏𐰔𐰏",
+    "siklik": 5,
+    "alindigiMadde": "ög 𐰇𐰏",
+    "gerekce": "ögüz 'ırmak' maddesi sözlükte yok; ög 𐰇𐰏 ile aynı sözcük değil"
+  },
+  {
+    "bicim": "ÖGüZüG",
+    "runik": "𐰇𐰏𐰔𐰏",
+    "siklik": 5,
+    "alindigiMadde": "oguz 𐰆𐰍𐰔",
+    "gerekce": "ögüz 'ırmak' maddesi sözlükte yok; ög 𐰇𐰏 ile aynı sözcük değil"
+  },
+  {
+    "bicim": "ÖGüZKE",
+    "runik": "𐰇𐰏𐰔𐰚𐰀",
+    "siklik": 3,
+    "alindigiMadde": "ög 𐰇𐰏",
+    "gerekce": "ögüz 'ırmak' maddesi sözlükte yok; ög 𐰇𐰏 ile aynı sözcük değil"
+  },
+  {
+    "bicim": "ÖGüZKE",
+    "runik": "𐰇𐰏𐰔𐰚𐰀",
+    "siklik": 3,
+    "alindigiMadde": "oguz 𐰆𐰍𐰔",
+    "gerekce": "ögüz 'ırmak' maddesi sözlükte yok; ög 𐰇𐰏 ile aynı sözcük değil"
+  },
+  {
+    "bicim": "İRKiN",
+    "runik": "𐰃𐰼𐰚𐰤",
+    "siklik": 3,
+    "alindigiMadde": "ırk 𐰃𐰺𐰴",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  },
+  {
+    "bicim": "TORU",
+    "runik": "𐱃𐰆𐰺𐰆",
+    "siklik": 2,
+    "alindigiMadde": "törü 𐱅𐰇𐰼𐰇",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  },
+  {
+    "bicim": "TORUK",
+    "runik": "𐱃𐰆𐰺𐰸",
+    "siklik": 2,
+    "alindigiMadde": "törü 𐱅𐰇𐰼𐰇",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  },
+  {
+    "bicim": "KÜŊLiG",
+    "runik": "𐰚𐰇𐰭𐰠𐰍",
+    "siklik": 2,
+    "alindigiMadde": "kün 𐰚𐰇𐰤",
+    "gerekce": "küŋ 'cariye' maddesi sözlükte yok; kün 𐰚𐰇𐰤 'gün' ile aynı sözcük değil"
+  },
+  {
+    "bicim": "KISaLıM",
+    "runik": "𐰶𐰃𐰽𐰞𐰢",
+    "siklik": 2,
+    "alindigiMadde": "kış 𐰶𐰃𐱁",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  },
+  {
+    "bicim": "ÖGüZ",
+    "runik": "𐰇𐰏𐰔",
+    "siklik": 2,
+    "alindigiMadde": "oguz 𐰆𐰍𐰔",
+    "gerekce": "ögüz 'ırmak' maddesi sözlükte yok; ög 𐰇𐰏 ile aynı sözcük değil"
+  },
+  {
+    "bicim": "KOKuLuK",
+    "runik": "𐰸𐰆𐰴𐰞𐰴",
+    "siklik": 1,
+    "alindigiMadde": "kök 𐰚𐰇𐰚",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  },
+  {
+    "bicim": "KÜMüŞ",
+    "runik": "𐰚𐰇𐰢𐰾",
+    "siklik": 1,
+    "alindigiMadde": "kum 𐰴𐰆𐰢",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  },
+  {
+    "bicim": "KÜMüŞ",
+    "runik": "𐰝𐰇𐰢𐰾",
+    "siklik": 1,
+    "alindigiMadde": "kum 𐰴𐰆𐰢",
+    "gerekce": "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor"
+  }
+]

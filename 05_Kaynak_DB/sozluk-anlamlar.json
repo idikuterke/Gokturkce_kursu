@@ -28,16 +28,6 @@
         ]
       },
       {
-        "runik": "𐰉𐰆𐰑𐰣𐰍",
-        "transkripsiyon": "BODuNıG",
-        "siklik": 24,
-        "dizeler": [
-          "KT-D-2",
-          "KT-D-13",
-          "KT-D-13"
-        ]
-      },
-      {
         "runik": "𐰉𐰆𐰑𐰣𐰃",
         "transkripsiyon": "BODuNI",
         "siklik": 11,
@@ -354,14 +344,6 @@
           "KT-D-6",
           "BK-D-6"
         ]
-      },
-      {
-        "runik": "𐰋𐰏𐰠𐰼",
-        "transkripsiyon": "BEGLER",
-        "siklik": 1,
-        "dizeler": [
-          "TY2-B-1"
-        ]
       }
     ],
     "korpustaYok": false,
@@ -475,24 +457,6 @@
           "BK-K-9",
           "BK-K-10",
           "BK-K-10"
-        ]
-      },
-      {
-        "runik": "𐱃𐰆𐰺𐰆",
-        "transkripsiyon": "TORU",
-        "siklik": 2,
-        "dizeler": [
-          "KT-G-9",
-          "BK-K-7"
-        ]
-      },
-      {
-        "runik": "𐱃𐰆𐰺𐰸",
-        "transkripsiyon": "TORUK",
-        "siklik": 2,
-        "dizeler": [
-          "KT-D-39",
-          "TY1-B-6"
         ]
       },
       {
@@ -616,16 +580,6 @@
           "KT-K-6",
           "KT-K-7",
           "BK-D-26"
-        ]
-      },
-      {
-        "runik": "𐰽𐰆𐰉",
-        "transkripsiyon": "SUB",
-        "siklik": 8,
-        "dizeler": [
-          "KT-D-19",
-          "KT-D-20",
-          "KT-D-27"
         ]
       },
       {
@@ -877,6 +831,26 @@
     "kategori": "aile / toplum",
     "kaynak": "Tekin 2003, s. 315",
     "bicimler": [
+      {
+        "runik": "𐰆𐰍𐰞𐰃",
+        "transkripsiyon": "OGLI",
+        "siklik": 11,
+        "dizeler": [
+          "KT-D-1",
+          "KT-D-5",
+          "KT-D-21"
+        ]
+      },
+      {
+        "runik": "𐰆𐰍𐰞𐰃𐰤",
+        "transkripsiyon": "OGLIN",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-7",
+          "BK-D-7",
+          "BK-D-24"
+        ]
+      },
       {
         "runik": "𐰆𐰍𐰞",
         "transkripsiyon": "OGuL",
@@ -1160,14 +1134,6 @@
         "siklik": 1,
         "dizeler": [
           "TY1-K-6"
-        ]
-      },
-      {
-        "runik": "𐰸𐰆𐰴𐰞𐰴",
-        "transkripsiyon": "KOKuLuK",
-        "siklik": 1,
-        "dizeler": [
-          "BK-G-11"
         ]
       }
     ],
@@ -1758,11 +1724,29 @@
     "kaynak": "Tekin 2003, s. 314",
     "bicimler": [
       {
+        "runik": "𐰚𐰇𐰢𐱁",
+        "transkripsiyon": "KÜMüŞ",
+        "siklik": 3,
+        "dizeler": [
+          "KT-G-5",
+          "KT-K-12",
+          "BK-K-3"
+        ]
+      },
+      {
         "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
         "transkripsiyon": "KÜMiŞİN",
         "siklik": 1,
         "dizeler": [
           "KT-GB-1"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
+        "transkripsiyon": "KÜMüŞİN",
+        "siklik": 1,
+        "dizeler": [
+          "BK-K-11"
         ]
       }
     ],
@@ -1854,16 +1838,6 @@
         ]
       },
       {
-        "runik": "𐰚𐰇𐰭",
-        "transkripsiyon": "KÜŊ",
-        "siklik": 8,
-        "dizeler": [
-          "KT-D-7",
-          "KT-D-20",
-          "KT-D-21"
-        ]
-      },
-      {
         "runik": "𐰜𐰇𐰤",
         "transkripsiyon": "KÜN",
         "siklik": 4,
@@ -1881,15 +1855,6 @@
           "KT-D-27",
           "BK-D-22",
           "TY1-G-5"
-        ]
-      },
-      {
-        "runik": "𐰚𐰇𐰭𐰠𐰍",
-        "transkripsiyon": "KÜŊLiG",
-        "siklik": 2,
-        "dizeler": [
-          "KT-D-21",
-          "BK-D-18"
         ]
       },
       {
@@ -2079,65 +2044,7 @@
     "anlam": "kış mevsimi",
     "kategori": "zaman / mevsim",
     "kaynak": "Tekin 2003, s. 314",
-    "bicimler": [
-      {
-        "runik": "𐰚𐰃𐰾𐰃",
-        "transkripsiyon": "KİŞİ",
-        "siklik": 14,
-        "dizeler": [
-          "KT-G-6",
-          "KT-G-7",
-          "KT-G-7"
-        ]
-      },
-      {
-        "runik": "𐰚𐰃𐰾𐰼𐰀",
-        "transkripsiyon": "KİSRE",
-        "siklik": 13,
-        "dizeler": [
-          "KT-G-5",
-          "KT-D-4",
-          "KT-D-5"
-        ]
-      },
-      {
-        "runik": "𐰚𐰃𐰾𐰃𐰏",
-        "transkripsiyon": "KİŞİG",
-        "siklik": 5,
-        "dizeler": [
-          "KT-G-6",
-          "KT-G-6",
-          "BK-K-4"
-        ]
-      },
-      {
-        "runik": "𐰚𐰃𐱁𐰃",
-        "transkripsiyon": "KİŞİ",
-        "siklik": 2,
-        "dizeler": [
-          "KT-G-7",
-          "BK-K-6"
-        ]
-      },
-      {
-        "runik": "𐰚𐰃𐰾𐰃𐰤",
-        "transkripsiyon": "KİŞİN",
-        "siklik": 2,
-        "dizeler": [
-          "BK-G-12",
-          "BK-K-11"
-        ]
-      },
-      {
-        "runik": "𐰶𐰃𐰽𐰞𐰢",
-        "transkripsiyon": "KISaLıM",
-        "siklik": 2,
-        "dizeler": [
-          "TY1-G-4",
-          "TY1-D-4"
-        ]
-      }
-    ],
+    "bicimler": [],
     "korpustaYok": false,
     "teyitGerek": true,
     "runikEski": "𐰚𐰃𐰾𐰃",
@@ -2721,26 +2628,6 @@
     "kaynak": "Tekin 2003, s. 316",
     "bicimler": [
       {
-        "runik": "𐰆𐰍𐰔",
-        "transkripsiyon": "OGuZ",
-        "siklik": 23,
-        "dizeler": [
-          "KT-G-2",
-          "KT-D-22",
-          "KT-D-28"
-        ]
-      },
-      {
-        "runik": "𐰆𐰍𐰞𐰃",
-        "transkripsiyon": "OGLI",
-        "siklik": 11,
-        "dizeler": [
-          "KT-D-1",
-          "KT-D-5",
-          "KT-D-21"
-        ]
-      },
-      {
         "runik": "𐰇𐰏𐰢",
         "transkripsiyon": "ÖGüM",
         "siklik": 6,
@@ -2748,36 +2635,6 @@
           "KT-D-11",
           "KT-D-25",
           "KT-D-31"
-        ]
-      },
-      {
-        "runik": "𐰇𐰏𐰔𐰏",
-        "transkripsiyon": "ÖGüZüG",
-        "siklik": 5,
-        "dizeler": [
-          "KT-D-37",
-          "BK-D-27",
-          "BK-D-30"
-        ]
-      },
-      {
-        "runik": "𐰆𐰍𐰞𐰃𐰤",
-        "transkripsiyon": "OGLIN",
-        "siklik": 4,
-        "dizeler": [
-          "KT-D-7",
-          "BK-D-7",
-          "BK-D-24"
-        ]
-      },
-      {
-        "runik": "𐰇𐰏𐰔𐰚𐰀",
-        "transkripsiyon": "ÖGüZKE",
-        "siklik": 3,
-        "dizeler": [
-          "TY1-G-9",
-          "TY1-D-1",
-          "TY1-D-2"
         ]
       }
     ],
@@ -3248,53 +3105,11 @@
     "kaynak": "Tekin 2003, s. 314",
     "bicimler": [
       {
-        "runik": "𐰚𐰇𐰢𐱁",
-        "transkripsiyon": "KÜMüŞ",
-        "siklik": 3,
-        "dizeler": [
-          "KT-G-5",
-          "KT-K-12",
-          "BK-K-3"
-        ]
-      },
-      {
-        "runik": "𐰚𐰇𐰢𐰾",
-        "transkripsiyon": "KÜMüŞ",
-        "siklik": 1,
-        "dizeler": [
-          "BK-G-11"
-        ]
-      },
-      {
-        "runik": "𐰝𐰇𐰢𐰾",
-        "transkripsiyon": "KÜMüŞ",
-        "siklik": 1,
-        "dizeler": [
-          "TY2-G-4"
-        ]
-      },
-      {
         "runik": "𐰴𐰆𐰢𐰍",
         "transkripsiyon": "KUMuG",
         "siklik": 1,
         "dizeler": [
           "TY1-B-7"
-        ]
-      },
-      {
-        "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
-        "transkripsiyon": "KÜMiŞİN",
-        "siklik": 1,
-        "dizeler": [
-          "KT-GB-1"
-        ]
-      },
-      {
-        "runik": "𐰚𐰇𐰢𐱁𐰃𐰤",
-        "transkripsiyon": "KÜMüŞİN",
-        "siklik": 1,
-        "dizeler": [
-          "BK-K-11"
         ]
       }
     ],
@@ -4152,35 +3967,6 @@
         ]
       },
       {
-        "runik": "𐰇𐰏𐰔𐰏",
-        "transkripsiyon": "ÖGüZüG",
-        "siklik": 5,
-        "dizeler": [
-          "KT-D-37",
-          "BK-D-27",
-          "BK-D-30"
-        ]
-      },
-      {
-        "runik": "𐰇𐰏𐰔𐰚𐰀",
-        "transkripsiyon": "ÖGüZKE",
-        "siklik": 3,
-        "dizeler": [
-          "TY1-G-9",
-          "TY1-D-1",
-          "TY1-D-2"
-        ]
-      },
-      {
-        "runik": "𐰇𐰏𐰔",
-        "transkripsiyon": "ÖGüZ",
-        "siklik": 2,
-        "dizeler": [
-          "KT-D-17",
-          "BK-D-15"
-        ]
-      },
-      {
         "runik": "𐰆𐰍𐰔𐰍",
         "transkripsiyon": "OGuZuG",
         "siklik": 2,
@@ -4342,16 +4128,6 @@
     "kaynak": "Ata 2011, s. 112",
     "bicimler": [
       {
-        "runik": "𐰃𐰼𐰚𐰤",
-        "transkripsiyon": "İRKiN",
-        "siklik": 3,
-        "dizeler": [
-          "KT-D-34",
-          "KT-D-34",
-          "BK-G-14"
-        ]
-      },
-      {
         "runik": "𐰃𐰺𐰴𐰑𐰀",
         "transkripsiyon": "IRKDA",
         "siklik": 1,
@@ -4456,26 +4232,6 @@
     "runik": "𐰼𐰨"
   },
   {
-    "id": "KeLTİ",
-    "transkripsiyon": "KeLTİ",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "gelmek  (kel + ti)",
-    "kategori": "diger",
-    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 245",
-    "runik": "𐰚𐰠𐱅𐰃"
-  },
-  {
-    "id": "BODuNuG",
-    "transkripsiyon": "BODuNuG",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "boylar, kabileler, halk  (bodun + ug)",
-    "kategori": "diger",
-    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
-    "runik": "𐰉𐰆𐰑𐰣𐰍"
-  },
-  {
     "id": "YOK",
     "transkripsiyon": "YOK",
     "denetleyen": "insan",
@@ -4494,16 +4250,6 @@
     "kategori": "gramer / bağlaç",
     "kaynak": "[s. 258] # s. 258 — TALAT TEKİN (basılı sayfa numarası 259)  *(Kitap s. 259)*",
     "runik": "𐰘𐰢𐰀"
-  },
-  {
-    "id": "BOLDI",
-    "transkripsiyon": "BOLDI",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "Oldu",
-    "kategori": "fiil",
-    "kaynak": "Tekin 2003",
-    "runik": "𐰉𐰆𐰡𐰃"
   },
   {
     "id": "KÖLTİGiN",
@@ -4526,26 +4272,6 @@
     "runik": "𐱅𐰃𐰘𐰤"
   },
   {
-    "id": "BeGLeR",
-    "transkripsiyon": "BeGLeR",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "bey, lord  (beg + ler)",
-    "kategori": "devlet",
-    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
-    "runik": "𐰋𐰏𐰠𐰼"
-  },
-  {
-    "id": "SÜLeDiM",
-    "transkripsiyon": "SÜLeDiM",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "ordu sevk etmek, ordu ile sefere çıkmak  (süle + dim)",
-    "kategori": "fiil",
-    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 251",
-    "runik": "𐰾𐰇𐰠𐰓𐰢"
-  },
-  {
     "id": "BİR",
     "transkripsiyon": "BİR",
     "denetleyen": "insan",
@@ -4554,16 +4280,6 @@
     "kategori": "sayı",
     "kaynak": "[s. 240] # s. 240 — ORHON TÜRKÇESİ GRAMERİ (basılı sayfa numarası 241)",
     "runik": "𐰋𐰃𐰼"
-  },
-  {
-    "id": "ÖZüM",
-    "transkripsiyon": "ÖZüM",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "kendim",
-    "kategori": "gramer / zamir",
-    "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 185",
-    "runik": "𐰇𐰔𐰢"
   },
   {
     "id": "BİRLE",
@@ -4696,36 +4412,6 @@
     "runik": "𐰋𐰤"
   },
   {
-    "id": "KILDıM",
-    "transkripsiyon": "KILDıM",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "kılmak, yapmak, etmek  (kıl + dım)",
-    "kategori": "diger",
-    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 246",
-    "runik": "𐰴𐰃𐰡𐰢"
-  },
-  {
-    "id": "ÖLTİ",
-    "transkripsiyon": "ÖLTİ",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "öldü",
-    "kategori": "diger",
-    "kaynak": "TEkin 2003",
-    "runik": "𐰇𐰠𐱅𐰃"
-  },
-  {
-    "id": "BOLMıS",
-    "transkripsiyon": "BOLMıS",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "olmuş",
-    "kategori": "diger",
-    "kaynak": "Tekin 2003",
-    "runik": "𐰉𐰆𐰞𐰢𐰾"
-  },
-  {
     "id": "KİŞİ",
     "transkripsiyon": "KİŞİ",
     "denetleyen": "insan",
@@ -4733,7 +4419,47 @@
     "anlam": "insan",
     "kategori": "insan",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 247",
-    "runik": "𐰚𐰃𐰾𐰃"
+    "runik": "𐰚𐰃𐰾𐰃",
+    "bicimler": [
+      {
+        "runik": "𐰚𐰃𐰾𐰃",
+        "transkripsiyon": "KİŞİ",
+        "siklik": 14,
+        "dizeler": [
+          "KT-G-6",
+          "KT-G-7",
+          "KT-G-7"
+        ]
+      },
+      {
+        "runik": "𐰚𐰃𐰾𐰃𐰏",
+        "transkripsiyon": "KİŞİG",
+        "siklik": 5,
+        "dizeler": [
+          "KT-G-6",
+          "KT-G-6",
+          "BK-K-4"
+        ]
+      },
+      {
+        "runik": "𐰚𐰃𐱁𐰃",
+        "transkripsiyon": "KİŞİ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-7",
+          "BK-K-6"
+        ]
+      },
+      {
+        "runik": "𐰚𐰃𐰾𐰃𐰤",
+        "transkripsiyon": "KİŞİN",
+        "siklik": 2,
+        "dizeler": [
+          "BK-G-12",
+          "BK-K-11"
+        ]
+      }
+    ]
   },
   {
     "id": "İLİN",
@@ -4744,5 +4470,445 @@
     "kategori": "diger",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
     "runik": "𐰃𐰠𐰃𐰤"
+  },
+  {
+    "id": "kel",
+    "transkripsiyon": "kel-",
+    "runik": "𐰚𐰠",
+    "anlam": "gelmek; yönelmek",
+    "kategori": "fiil",
+    "kaynak": "Tekin 1968, s. 349; Clauson 1972, s. 715",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "korpustaYok": false,
+    "teyitGerek": false,
+    "bicimler": [
+      {
+        "runik": "𐰚𐰠𐱅𐰃",
+        "transkripsiyon": "KeLTİ",
+        "siklik": 33,
+        "dizeler": [
+          "KT-D-28",
+          "KT-D-31",
+          "KT-D-37"
+        ]
+      },
+      {
+        "runik": "𐰚𐰠𐰇𐰼𐱅𐰃",
+        "transkripsiyon": "KeLÜRTİ",
+        "siklik": 6,
+        "dizeler": [
+          "KT-K-1",
+          "KT-K-12",
+          "KT-KD-1"
+        ]
+      },
+      {
+        "runik": "𐰚𐰠𐱅𐰢𐰔",
+        "transkripsiyon": "KeLTiMiZ",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-20",
+          "BK-D-17",
+          "TY1-K-4"
+        ]
+      },
+      {
+        "runik": "𐰚𐰠𐰢𐰔",
+        "transkripsiyon": "KeLMeZ",
+        "siklik": 4,
+        "dizeler": [
+          "BK-D-39",
+          "TY1-D-5",
+          "TY1-D-5"
+        ]
+      },
+      {
+        "runik": "𐰚𐰠𐰇𐰼𐱅𐰢",
+        "transkripsiyon": "KeLÜRTüM",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-11",
+          "BK-D-25",
+          "BK-K-14"
+        ]
+      },
+      {
+        "runik": "𐰚𐰠𐰯",
+        "transkripsiyon": "KeLiP",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-23",
+          "BK-D-19",
+          "BK-G-1"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: KeLTİ 𐰚𐰠𐱅𐰃 ×33"
+  },
+  {
+    "id": "kil",
+    "transkripsiyon": "kıl-",
+    "runik": "𐰴𐰃𐰞",
+    "anlam": "yapmak, etmek, kılmak; yaratmak",
+    "kategori": "fiil",
+    "kaynak": "Clauson 1972, s. 616 (aynı kaynak için s. 718 de verildi — çelişki)",
+    "teyitGerek": true,
+    "denetleyen": "insan",
+    "katman": "insan",
+    "korpustaYok": false,
+    "bicimler": [
+      {
+        "runik": "𐰴𐰃𐰡𐰢",
+        "transkripsiyon": "KILDıM",
+        "siklik": 15,
+        "dizeler": [
+          "KT-G-10",
+          "KT-G-10",
+          "KT-D-29"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰞𐰣𐰢𐰑𐰸",
+        "transkripsiyon": "KILıNMaDUK",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-5",
+          "KT-D-5",
+          "BK-D-6"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰞𐰢𐰾",
+        "transkripsiyon": "KILMıŞ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-2",
+          "BK-D-3"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰞𐰦𐰸𐰑𐰀",
+        "transkripsiyon": "KILıNDUKDA",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-1",
+          "BK-D-2"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰞𐰣𐰢𐰾",
+        "transkripsiyon": "KILıNMıŞ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-1",
+          "BK-D-2"
+        ]
+      },
+      {
+        "runik": "𐰴𐰃𐰞𐰢𐰑𐰢",
+        "transkripsiyon": "KILMaDıM",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-27",
+          "BK-D-22"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: KILMıŞ 𐰴𐰃𐰞𐰢𐰾 ×2"
+  },
+  {
+    "id": "bol",
+    "transkripsiyon": "bol-",
+    "runik": "𐰉𐰆𐰞",
+    "anlam": "olmak, haline gelmek",
+    "kategori": "fiil",
+    "kaynak": "Tekin, s. 318; Clauson 1972, s. 331",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "korpustaYok": false,
+    "teyitGerek": false,
+    "bicimler": [
+      {
+        "runik": "𐰉𐰆𐰡𐰃",
+        "transkripsiyon": "BOLDI",
+        "siklik": 28,
+        "dizeler": [
+          "KT-D-7",
+          "KT-D-7",
+          "KT-D-20"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰞𐰢𐰾",
+        "transkripsiyon": "BOLMıS",
+        "siklik": 15,
+        "dizeler": [
+          "KT-D-4",
+          "KT-D-5",
+          "KT-D-5"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰞𐰢𐰔𐰆𐰤",
+        "transkripsiyon": "BOLMaZUN",
+        "siklik": 6,
+        "dizeler": [
+          "KT-D-25",
+          "KT-D-25",
+          "KT-D-26"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰞𐰢𐱁",
+        "transkripsiyon": "BOLMuŞ",
+        "siklik": 3,
+        "dizeler": [
+          "KT-G-1",
+          "KT-D-39",
+          "BK-K-1"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰞𐰢𐰔𐰆𐰣",
+        "transkripsiyon": "BOLMaZUN",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-11",
+          "KT-D-19",
+          "BK-D-10"
+        ]
+      },
+      {
+        "runik": "𐰉𐰆𐰞𐰲𐰆𐰑𐰀",
+        "transkripsiyon": "BOLÇUDA",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-37",
+          "KT-K-6",
+          "BK-D-28"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: BOLMıS 𐰉𐰆𐰞𐰢𐰾 ×15"
+  },
+  {
+    "id": "ol_fiil",
+    "transkripsiyon": "öl-",
+    "runik": "𐰇𐰠",
+    "anlam": "ölmek",
+    "kategori": "fiil",
+    "kaynak": "Tekin, s. 363; Clauson 1972, s. 125",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "korpustaYok": false,
+    "teyitGerek": false,
+    "bicimler": [
+      {
+        "runik": "𐰇𐰠𐱅𐰃",
+        "transkripsiyon": "ÖLTİ",
+        "siklik": 15,
+        "dizeler": [
+          "KT-D-19",
+          "KT-D-19",
+          "KT-D-20"
+        ]
+      },
+      {
+        "runik": "𐰇𐰠𐰼𐱅𐰢",
+        "transkripsiyon": "ÖLüRTüM",
+        "siklik": 8,
+        "dizeler": [
+          "BK-D-26",
+          "BK-D-27",
+          "BK-D-28"
+        ]
+      },
+      {
+        "runik": "𐰇𐰠𐱅𐰲𐰃",
+        "transkripsiyon": "ÖLTeÇİ",
+        "siklik": 7,
+        "dizeler": [
+          "KT-G-8",
+          "KT-D-29",
+          "KT-K-10"
+        ]
+      },
+      {
+        "runik": "𐰇𐰠𐰇",
+        "transkripsiyon": "ÖLÜ",
+        "siklik": 6,
+        "dizeler": [
+          "KT-G-9",
+          "KT-D-27",
+          "KT-D-28"
+        ]
+      },
+      {
+        "runik": "𐰇𐰠𐱅𐰏",
+        "transkripsiyon": "ÖLTüG",
+        "siklik": 4,
+        "dizeler": [
+          "KT-G-6",
+          "KT-G-7",
+          "BK-K-5"
+        ]
+      },
+      {
+        "runik": "𐰇𐰠𐰼𐱅𐰢𐰔",
+        "transkripsiyon": "ÖLüRTüMüZ",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-36",
+          "KT-D-38",
+          "KT-K-7"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: ÖLTİ 𐰇𐰠𐱅𐰃 ×15"
+  },
+  {
+    "id": "oz",
+    "transkripsiyon": "öz",
+    "runik": "𐰇𐰔",
+    "anlam": "öz, kendi, iç; can, benlik",
+    "kategori": "insan",
+    "kaynak": "Clauson 1972, s. 278a",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "korpustaYok": false,
+    "teyitGerek": false,
+    "bicimler": [
+      {
+        "runik": "𐰇𐰔𐰢",
+        "transkripsiyon": "ÖZüM",
+        "siklik": 22,
+        "dizeler": [
+          "KT-G-9",
+          "KT-D-17",
+          "KT-D-27"
+        ]
+      },
+      {
+        "runik": "𐰇𐰔𐰃",
+        "transkripsiyon": "ÖZİ",
+        "siklik": 7,
+        "dizeler": [
+          "KT-D-3",
+          "KT-D-20",
+          "KT-D-30"
+        ]
+      },
+      {
+        "runik": "𐰇𐰔",
+        "transkripsiyon": "ÖZ",
+        "siklik": 3,
+        "dizeler": [
+          "BK-G-11",
+          "TY1-G-6",
+          "TY1-K-10"
+        ]
+      },
+      {
+        "runik": "𐰇𐰔𐰠𐰚",
+        "transkripsiyon": "ÖZLüK",
+        "siklik": 2,
+        "dizeler": [
+          "BK-G-12",
+          "BK-K-11"
+        ]
+      },
+      {
+        "runik": "𐰇𐰔𐰢𐰤",
+        "transkripsiyon": "ÖZüMüN",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-25",
+          "BK-D-21"
+        ]
+      },
+      {
+        "runik": "𐰇𐰔𐰢𐰀",
+        "transkripsiyon": "ÖZüME",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-15"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: ÖZ 𐰇𐰔 ×3 (yalın) · yazım 𐰇𐰔 (Orhon z); verilen 𐰇𐰕 Yenisey ez varyantıdır"
+  },
+  {
+    "id": "bar_fiil",
+    "transkripsiyon": "bar-",
+    "runik": "𐰉𐰺",
+    "anlam": "varmak, gitmek",
+    "kategori": "fiil",
+    "kaynak": "Clauson 1972, s. 354",
+    "denetleyen": "insan",
+    "katman": "insan",
+    "korpustaYok": false,
+    "teyitGerek": false,
+    "bicimler": [
+      {
+        "runik": "𐰉𐰺",
+        "transkripsiyon": "BaR",
+        "siklik": 12,
+        "dizeler": [
+          "KT-G-9",
+          "KT-G-10",
+          "KT-D-29"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰑𐰃",
+        "transkripsiyon": "BaRDI",
+        "siklik": 11,
+        "dizeler": [
+          "KT-D-24",
+          "KT-D-34",
+          "KT-D-39"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰑𐰍",
+        "transkripsiyon": "BaRDıG",
+        "siklik": 8,
+        "dizeler": [
+          "KT-G-9",
+          "KT-D-23",
+          "KT-D-24"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰃𐰍𐰢𐰀",
+        "transkripsiyon": "BaRIGMA",
+        "siklik": 4,
+        "dizeler": [
+          "KT-D-23",
+          "KT-D-24",
+          "BK-D-19"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰃𐰺",
+        "transkripsiyon": "BaRIR",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-10",
+          "BK-D-9"
+        ]
+      },
+      {
+        "runik": "𐰉𐰺𐰑𐰸",
+        "transkripsiyon": "BaRDUK",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-24",
+          "BK-D-20"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: BaR 𐰉𐰺 ×12 (yalın)"
   }
 ]
