@@ -717,6 +717,10 @@ if (fs.existsSync(sozlukYolu)) {
   // kümeye indirgenir; özgün etiket görüntülemede korunur.
   const kategoriEsle = (ham) => {
     const t = String(ham || "").toLowerCase();
+    // Gramer ögeleri (zamir, edat, bağlaç, zarf, ek-fiil) önce ayrılır:
+    // "diger"de kalınca isim-fiil dağarcığıyla karışıyor, çeldirici
+    // üreticisi de onları aynı havuzdan çekiyordu.
+    if (/gramer|edat|zamir|bağlaç|baglac|zarf|yüklem|yuklem|ek-fiil/.test(t)) return "gramer";
     if (/sayı|sayi/.test(t)) return "sayi";
     if (/asker|savaş|savas/.test(t)) return "askeri";
     if (/yönet|yonet|unvan|devlet|hukuk/.test(t)) return "devlet";

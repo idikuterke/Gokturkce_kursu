@@ -1268,6 +1268,16 @@
     "kaynak": "Tekin 2003, s. 326",
     "bicimler": [
       {
+        "runik": "𐰘𐰃𐰼",
+        "transkripsiyon": "YİR",
+        "siklik": 17,
+        "dizeler": [
+          "KT-G-4",
+          "KT-G-8",
+          "KT-G-9"
+        ]
+      },
+      {
         "runik": "𐰘𐰼",
         "transkripsiyon": "YeR",
         "siklik": 2,
@@ -1286,7 +1296,10 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "ekKaynaklar": [
+      "[s. 258] # s. 258 — TALAT TEKİN (basılı sayfa numarası 259)  *(Kitap s. 259)*"
+    ]
   },
   {
     "id": "sub",
@@ -4115,7 +4128,10 @@
       }
     ],
     "korpustaYok": false,
-    "teyitGerek": false
+    "teyitGerek": false,
+    "ekKaynaklar": [
+      "Tekin, Orhon Türkçesi Grameri, 2003, s. 255"
+    ]
   },
   {
     "id": "oguz_boy",
@@ -4350,16 +4366,6 @@
     "runikNotu": "kök yazımı IRKDA 𐰃𐰺𐰴𐰑𐰀 biçiminden son 2 tamga düşürülerek kuruldu (tanık TY1-B-5, tamga-ses eşlemesiyle doğrulandı)"
   },
   {
-    "id": "TÜRK",
-    "transkripsiyon": "TÜRK",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "etnik ad; bk. Türük",
-    "kategori": "diger",
-    "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
-    "runik": "𐱅𐰇𐰼𐰜"
-  },
-  {
     "id": "eRMiŞ",
     "transkripsiyon": "eRMiŞ",
     "denetleyen": "insan",
@@ -4375,7 +4381,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "orada,  o anda, oracıkta",
-    "kategori": "sifat",
+    "kategori": "gramer / zarf",
     "kaynak": "1- Ahmet Caferoğlu, \"Eski Uygur Türkçesi Sözlüğü\", Türk Dil Kurumu Yayınları, Sayı: 260, 1968.",
     "runik": "𐰦𐰀"
   },
@@ -4385,7 +4391,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "öyle, onca, o kadar; şöyle",
-    "kategori": "diger",
+    "kategori": "gramer / zarf",
     "kaynak": "[s. 236] # s. 236 — TALAT TEKİN (basılı sayfa numarası 237; sözlük başlangıcı)",
     "runik": "𐰨𐰀"
   },
@@ -4395,7 +4401,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "o, onlar; -dır",
-    "kategori": "diger",
+    "kategori": "gramer / zamir",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 249",
     "runik": "𐰆𐰞"
   },
@@ -4415,7 +4421,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "Çin, Çinli",
-    "kategori": "devlet",
+    "kategori": "toplum / millet",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
     "runik": "𐱃𐰉𐰍𐰲"
   },
@@ -4425,7 +4431,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "için, nedeniyle, uğruna",
-    "kategori": "diger",
+    "kategori": "gramer / edat",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
     "runik": "𐰇𐰲𐰇𐰤"
   },
@@ -4435,7 +4441,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "-a kadar",
-    "kategori": "diger",
+    "kategori": "gramer / edat",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
     "runik": "𐱅𐰏𐰃"
   },
@@ -4445,7 +4451,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "şüphesiz, muhakkak ki, gerçekten",
-    "kategori": "diger",
+    "kategori": "gramer / zarf",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 242",
     "runik": "𐰼𐰨"
   },
@@ -4475,7 +4481,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "yok",
-    "kategori": "diger",
+    "kategori": "gramer / yüklem",
     "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 155",
     "runik": "𐰖𐰸"
   },
@@ -4485,7 +4491,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "ve, dahi; da/de",
-    "kategori": "sifat",
+    "kategori": "gramer / bağlaç",
     "kaynak": "[s. 258] # s. 258 — TALAT TEKİN (basılı sayfa numarası 259)  *(Kitap s. 259)*",
     "runik": "𐰘𐰢𐰀"
   },
@@ -4505,7 +4511,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "Kültigin",
-    "kategori": "diger",
+    "kategori": "ozel",
     "kaynak": "Tekin 2003",
     "runik": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤"
   },
@@ -4515,7 +4521,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "diye, diyerek; bk. teyin",
-    "kategori": "sifat",
+    "kategori": "gramer / bağlaç",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 253",
     "runik": "𐱅𐰃𐰘𐰤"
   },
@@ -4545,7 +4551,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "bir; bir kez; aynı, 1",
-    "kategori": "diger",
+    "kategori": "sayı",
     "kaynak": "[s. 240] # s. 240 — ORHON TÜRKÇESİ GRAMERİ (basılı sayfa numarası 241)",
     "runik": "𐰋𐰃𐰼"
   },
@@ -4555,7 +4561,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "kendim",
-    "kategori": "diger",
+    "kategori": "gramer / zamir",
     "kaynak": "Ata, Orhun Türkçesi, AÖF 2011, s. 185",
     "runik": "𐰇𐰔𐰢"
   },
@@ -4565,7 +4571,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "ile, birlikte",
-    "kategori": "diger",
+    "kategori": "gramer / edat",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
     "runik": "𐰋𐰃𐰼𐰠𐰀"
   },
@@ -4575,7 +4581,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "yukarıda, üstte; üzerine",
-    "kategori": "diger",
+    "kategori": "gramer / edat",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 256",
     "runik": "𐰇𐰔𐰀"
   },
@@ -4585,7 +4591,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "-e doğru, yönünde",
-    "kategori": "diger",
+    "kategori": "gramer / edat",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 252",
     "runik": "𐱃𐰯𐰀"
   },
@@ -4595,7 +4601,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "gibi",
-    "kategori": "sifat",
+    "kategori": "gramer / edat",
     "kaynak": "[s. 252] # s. 252 — TALAT TEKİN (basılı sayfa numarası 253)  *(Kitap s. 253)*",
     "runik": "𐱅𐰏"
   },
@@ -4605,7 +4611,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "bu",
-    "kategori": "diger",
+    "kategori": "gramer / zamir",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
     "runik": "𐰉𐰆"
   },
@@ -4615,7 +4621,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "az , etnik ad (Az'lar)",
-    "kategori": "diger",
+    "kategori": "toplum / millet",
     "kaynak": "Tekin 2003 Ata",
     "runik": "𐰔"
   },
@@ -4624,8 +4630,8 @@
     "transkripsiyon": "iKİ",
     "denetleyen": "insan",
     "katman": "insan",
-    "anlam": "iki; bk. eki, ekin",
-    "kategori": "diger",
+    "anlam": "iki (2)",
+    "kategori": "sayı",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
     "runik": "𐰚𐰃"
   },
@@ -4635,7 +4641,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "hep; tümüyle, tamamiyle",
-    "kategori": "diger",
+    "kategori": "gramer / zarf",
     "kaynak": "[s. 247] # s. 247 — TALAT TEKİN (basılı sayfa numarası 248)  *(Kitap s. 248)*",
     "runik": "𐰸𐰆𐰯"
   },
@@ -4645,19 +4651,9 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "ileriye, ileride, doğuda",
-    "kategori": "diger",
+    "kategori": "gramer / edat",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 243",
     "runik": "𐰃𐰠𐰏𐰼𐰇"
-  },
-  {
-    "id": "YİR",
-    "transkripsiyon": "YİR",
-    "denetleyen": "insan",
-    "katman": "insan",
-    "anlam": "yer, dünya; toprak, ülke; bk. **yer**",
-    "kategori": "diger",
-    "kaynak": "[s. 258] # s. 258 — TALAT TEKİN (basılı sayfa numarası 259)  *(Kitap s. 259)*",
-    "runik": "𐰘𐰃𐰼"
   },
   {
     "id": "eRSeR",
@@ -4665,7 +4661,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "ise",
-    "kategori": "diger",
+    "kategori": "gramer / bağlaç",
     "kaynak": "TEkin 2003",
     "runik": "𐰼𐰾𐰼"
   },
@@ -4675,7 +4671,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "etnik ad",
-    "kategori": "diger",
+    "kategori": "toplum / millet",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 255",
     "runik": "𐱅𐰇𐰼𐰏𐰾"
   },
@@ -4685,7 +4681,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "bunca, bu kadar",
-    "kategori": "diger",
+    "kategori": "gramer / zarf",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 240",
     "runik": "𐰉𐰆𐰨𐰀"
   },
@@ -4695,7 +4691,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "ben",
-    "kategori": "diger",
+    "kategori": "gramer / zamir",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 239",
     "runik": "𐰋𐰤"
   },
@@ -4735,7 +4731,7 @@
     "denetleyen": "insan",
     "katman": "insan",
     "anlam": "insan",
-    "kategori": "diger",
+    "kategori": "insan",
     "kaynak": "Tekin, Orhon Türkçesi Grameri, 2003, s. 247",
     "runik": "𐰚𐰃𐰾𐰃"
   },

@@ -3,7 +3,7 @@ export interface SozlukWord {
   runic: string;
   transcription: string;
   meaning: string;
-  category: 'temel' | 'devlet' | 'dogalguc' | 'askeri' | 'sayi';
+  category: 'temel' | 'devlet' | 'dogalguc' | 'askeri' | 'sayi' | 'gramer';
   breakdown: string;
   source?: string;
 }

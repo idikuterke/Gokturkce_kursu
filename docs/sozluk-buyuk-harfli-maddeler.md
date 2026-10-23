@@ -3,9 +3,11 @@
 `05_Kaynak_DB/sozluk-anlamlar.json` içinde id'si büyük harfli 40 madde var;
 ayrı bir partide eklenmiş görünüyorlar. Üçe ayrıldılar. Hiçbiri değiştirilmedi.
 
-Karar verirken sütun: **kalsın** / **çıksın** / **taşınsın**.
+**Durum (23.10.2026):** 2. ve 3. grup uygulandı
+(`node engine/sozluk-kategori-duzen.mjs`). 1. grup bekliyor — önce eksik
+kök maddeleri eklenmeli.
 
-## 1 · Çekimli biçim — sözlük maddesi değil (12)
+## 1 · Çekimli biçim — sözlük maddesi değil (12) — ⏳ BEKLİYOR
 
 Bunlar kök değil, çekim. Yerleri kendi köklerinin `bicimler` listesi.
 
@@ -24,7 +26,7 @@ Bunlar kök değil, çekim. Yerleri kendi köklerinin `bicimler` listesi.
 | eRMiŞ | 𐰼𐰢𐰾 | "İmiş, İdi, Öyleymiş" Anlamında Ek-Fiil  | er- "olmak" | DİKKAT: sözlükteki «er» ismi (asker) BAŞKA sözcük |
 | İLİN | 𐰃𐰠𐰃𐰤 | yakalanmak | il- "yakalanmak" | DİKKAT: sözlükteki «il» (devlet) BAŞKA sözcük |
 
-## 2 · Gramer ögesi (19)
+## 2 · Gramer ögesi (19) — ✅ UYGULANDI
 
 Zamir, edat, bağlaç, ek-fiil. **Önerim: kalsın.** Öğrenen bunları bilmeden
 kitabe okuyamaz; sözlükten çıkarmak ürüne zarar verir. Yalnız kategorileri
@@ -52,7 +54,7 @@ kitabe okuyamaz; sözlükten çıkarmak ürüne zarar verir. Yalnız kategoriler
 | BUNÇA | 𐰉𐰆𐰨𐰀 | bunca, bu kadar |
 | YOK | 𐰖𐰸 | yok |
 
-## 3 · Gerçek sözcük (9)
+## 3 · Gerçek sözcük (9) — ✅ UYGULANDI
 
 | Madde | Yazım | Anlam | Not |
 |---|---|---|---|
@@ -73,3 +75,36 @@ kitabe okuyamaz; sözlükten çıkarmak ürüne zarar verir. Yalnız kategoriler
 | 1 · Çekimli biçim | 12 | **Çıksın**, kökün biçim listesine taşınsın. Altısının kökü sözlükte yok, önce o eklenmeli. |
 | 2 · Gramer ögesi | 19 | **Kalsın**, kategorisi `gramer` yapılsın. |
 | 3 · Gerçek sözcük | 9 | **Kalsın.** Yalnız TÜRK, `türük` ile birleştirilsin (aynı yazım). |
+
+---
+
+## Uygulananlar (23.10.2026)
+
+**Gramer (19)** — hepsi kaldı, kategorileri ayrıldı: `gramer / zamir`
+(OL, BU, BeN, ÖZüM), `gramer / edat` (ÜZE, BİRLE, TeG, TeGİ, TaPA, ÜÇÜN,
+İLGeRÜ), `gramer / bağlaç` (YiME, TİYiN, eRSeR), `gramer / zarf` (aNDA,
+aNÇA, KOP, BUNÇA, eRiNÇ), `gramer / yüklem` (YOK).
+
+Sözlük ekranına **"Edat & Zamir"** süzgeci eklendi; `icerik-uret.mjs`'teki
+kategori eşlemesi bu etiketleri `gramer`e indirgiyor. Ayrışmanın ikinci
+faydası: çeldirici üreticisi aynı kategoriden şık seçiyor, artık bir isim
+sorusuna edat şıkkı gelmiyor.
+
+**TÜRK → türük** — "bk. Türük" diyen yönlendirme maddesiydi, yazımı
+türük ile birebir aynı (𐱅𐰇𐰼𐰜), hiç biçimi yoktu. Kaldırıldı, kaynağı
+türük'e ikinci atıf olarak geçti.
+
+**YİR → yer / yir** — madde kaldırıldı ama **yazım korundu**: 𐰘𐰃𐰼
+korpusta 17× geçiyor, `yer`in kendi yazımı 𐰘𐰼 ise 9×. Yani daha sık
+olanı siliyor olurduk. Yazım, tanığıyla birlikte `yer`in biçim listesine
+en üst sıraya eklendi.
+
+**Sayılar** — BİR ve iKİ `diger` kategorisindeydi, sayı süzgecinde
+çıkmıyorlardı; `sayı` yapıldı. iKİ'nin anlamındaki "bk. eki, ekin"
+yönlendirmesi silindi: sözlükte eki/ekin maddesi yok, ölü bağlantıydı.
+
+**Etnik ve özel adlar** — KİŞİ `insan`, TaBGaÇ/TÜRGiŞ/aZ `toplum / millet`,
+KÖLTİGiN `ozel` oldu.
+
+Madde sayısı 140 → 138 (iki yönlendirme maddesi birleşti);
+uygulamaya giden sözlük 121 → 119.

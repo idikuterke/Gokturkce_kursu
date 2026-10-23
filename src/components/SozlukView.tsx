@@ -152,6 +152,7 @@ export const SozlukView: React.FC<SozlukViewProps> = ({
           { id: 'askeri', label: 'Alplık & Savaş' },
           { id: 'temel', label: 'Günlük Yaşam' },
           { id: 'sayi', label: 'Sayılar' },
+          { id: 'gramer', label: 'Edat & Zamir' },
         ].map(cat => (
           <button
             key={cat.id}
