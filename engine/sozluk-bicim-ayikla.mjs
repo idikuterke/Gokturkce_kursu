@@ -24,7 +24,9 @@
  * eb 𐰋) kendilerinden sonra gelen HER şeyin ön eki oluyor, "yagımız"
  * biçimi yagı'dan alınıp ay'a veriliyordu.
  *
- * ELLE: kuralın göremediği, insan kararıyla çözülmüş durumlar.
+ * Sahipsiz çıkanların maddeleri sonradan sozluk-sahipsiz-madde-ekle.mjs
+ * ile eklendi; ögüz 𐰇𐰏𐰔 ve küŋ 𐰚𐰇𐰭 artık gerçek madde, biçimleri
+ * kendi maddelerinde 1. kuralla korunuyor.
  *
  *   node engine/sozluk-bicim-ayikla.mjs [--kuru]
  */
@@ -39,14 +41,15 @@ const yol = "05_Kaynak_DB/sozluk-anlamlar.json";
 const sahipsizYol = "05_Kaynak_DB/sozluk-sahipsiz-bicimler.json";
 const d = JSON.parse(fs.readFileSync(P(yol), "utf8"));
 
+
 /**
- * Sözlükte maddesi olmayan, bu yüzden hiçbir maddeye bağlanmaması
- * gereken runik diziler. ögüz 𐰇𐰏𐰔 "ırmak" ög 𐰇𐰏 ile başladığı için
- * kural onu ög'ün çekimi sanıyor; ayrı sözcük.
+ * Çevriyazısı da runik yazımı da maddesinin ön eki olmayan, ama
+ * kitabe çevirisi maddesini doğrulayan biçimler. Elle bağlandılar
+ * (sozluk-sahipsiz-madde-ekle.mjs); burada sökülmesinler.
  */
-const ELLE_SAHİPSİZ = new Map([
-  ["𐰇𐰏𐰔", "ögüz 'ırmak' maddesi sözlükte yok; ög 𐰇𐰏 ile aynı sözcük değil"],
-  ["𐰚𐰇𐰭", "küŋ 'cariye' maddesi sözlükte yok; kün 𐰚𐰇𐰤 'gün' ile aynı sözcük değil"],
+const ELLE_KALSIN = new Map([
+  ["𐰚𐰇𐰢𐰾", "kümiş"], // BK-G-11 çevirisi «GÜMÜŞ» — 𐰾 ile yazılmış varyant
+  ["𐰝𐰇𐰢𐰾", "kümiş"], // Tonyukuk çevirisi «GÜMÜŞÜ» — 𐰝 ve 𐰾 ile varyant
 ]);
 
 const maddeler = d.filter((k) => k.runik);
@@ -84,11 +87,19 @@ for (const madde of d) {
   if (!madde.runik || !Array.isArray(madde.bicimler)) continue;
   const kalan = [];
   for (const b of madde.bicimler) {
-    const elle = [...ELLE_SAHİPSİZ.keys()].find((r) => String(b.runik).startsWith(r));
     const bicimAnahtar = anahtarlar(b.transkripsiyon);
 
-    // Biçim bu maddenin okunuşuyla başlıyorsa onun çekimidir.
-    if (!elle && baslarMi(bicimAnahtar, anahtarlar(madde.transkripsiyon))) {
+    // Biçim bu maddenin okunuşuyla başlıyorsa onun çekimidir. Runik
+    // yazımıyla başlıyorsa da öyle: OGLI 𐰆𐰍𐰞𐰃'nın okunuşu "ogul" ile
+    // başlamaz ama yazımı 𐰆𐰍𐰞 ile başlar. Üç tamga alt sınırı, tek ve
+    // iki tamgalı maddelerin her şeyi sahiplenmesini engelliyor.
+    const kendiRunigi =
+      [...madde.runik].length >= 3 && String(b.runik).startsWith(madde.runik);
+    if (
+      ELLE_KALSIN.get(String(b.runik)) === madde.transkripsiyon ||
+      kendiRunigi ||
+      baslarMi(bicimAnahtar, anahtarlar(madde.transkripsiyon))
+    ) {
       kalan.push(b);
       continue;
     }
@@ -97,14 +108,12 @@ for (const madde of d) {
     // En uzun eşleşme kazanır (bar ile bark, kişi ile ki-).
     let sahip = null;
     let enUzun = 0;
-    if (!elle) {
-      for (const x of maddeler) {
-        if (x === madde) continue;
-        for (const a of anahtarlar(x.transkripsiyon)) {
-          if (a.length > enUzun && bicimAnahtar.some((bo) => bo.startsWith(a))) {
-            sahip = x;
-            enUzun = a.length;
-          }
+    for (const x of maddeler) {
+      if (x === madde) continue;
+      for (const a of anahtarlar(x.transkripsiyon)) {
+        if (a.length > enUzun && bicimAnahtar.some((bo) => bo.startsWith(a))) {
+          sahip = x;
+          enUzun = a.length;
         }
       }
     }
@@ -112,7 +121,7 @@ for (const madde of d) {
     // Son çare: çevriyazı tutmuyor ama runik birebir bir maddenin
     // yazımı (KÜMüŞ 𐰚𐰇𐰢𐱁 = kümiş 𐰚𐰇𐰢𐱁) ya da onun çekimi. Tek ve iki
     // tamgalı maddeler dışarıda: onlar her şeyin ön eki oluyor.
-    if (!sahip && !elle) {
+    if (!sahip) {
       for (const x of maddeler) {
         if (x === madde) continue;
         const n = [...x.runik].length;
@@ -127,9 +136,7 @@ for (const madde of d) {
         runik: b.runik,
         siklik: b.siklik,
         alindigiMadde: `${madde.transkripsiyon} ${madde.runik}`,
-        gerekce: elle
-          ? ELLE_SAHİPSİZ.get(elle)
-          : "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor",
+        gerekce: "okunuşu da runik yazımı da hiçbir maddeyle başlamıyor",
       });
       continue;
     }
@@ -160,7 +167,16 @@ for (const s of sahipsiz) {
 
 if (!kuru) {
   fs.writeFileSync(P(yol), JSON.stringify(d, null, 2) + "\n", "utf8");
-  sahipsiz.sort((a, b) => b.siklik - a.siklik);
-  fs.writeFileSync(P(sahipsizYol), JSON.stringify(sahipsiz, null, 2) + "\n", "utf8");
+  // Üzerine yazılmaz, birleşir: önceki koşuda ayrılıp hâlâ karar bekleyen
+  // biçim maddede olmadığı için bu koşuda yeniden üretilmez.
+  const onceki = fs.existsSync(P(sahipsizYol))
+    ? JSON.parse(fs.readFileSync(P(sahipsizYol), "utf8"))
+    : [];
+  const anahtar = (x) => `${x.runik}|${x.bicim}|${x.alindigiMadde}`;
+  const gorulen = new Set(sahipsiz.map(anahtar));
+  const birlesik = [...sahipsiz, ...onceki.filter((x) => !gorulen.has(anahtar(x)))].sort(
+    (a, b) => b.siklik - a.siklik
+  );
+  fs.writeFileSync(P(sahipsizYol), JSON.stringify(birlesik, null, 2) + "\n", "utf8");
   console.log(`\n→ ${yol}\n→ ${sahipsizYol}`);
 }

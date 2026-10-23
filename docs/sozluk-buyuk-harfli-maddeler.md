@@ -164,3 +164,57 @@ irkin, toruk. Madde eklenince biçimleri kendiliğinden yerine oturur.
 ölçüldüğünde "yagımız" biçimini yagı'dan alıp ay'a veriyordu.
 Uygulanmadı. Runik yalnızca **son çare** olarak, üç ve daha çok tamgalı
 maddeler için kullanılıyor — KÜMüŞ 𐰚𐰇𐰢𐱁'i kümiş 𐰚𐰇𐰢𐱁'e o bağladı.
+
+## Sahipsiz biçimlerin maddeleri eklendi (23.10.2026)
+
+`node engine/sozluk-sahipsiz-madde-ekle.mjs` — 15 sahipsiz biçimin 14'ü
+çözüldü, sözlük 135 → 142 madde (uygulamaya giden: 116 → 123).
+
+**Anlamın kaynağı neden turkbitig.** `05_Kaynak_DB/ham/turkbitig/*.html`
+her dizeyi üç hizalı satır olarak veriyor: runik, çevriyazı, Türkçe
+çeviri; üçü de `:` ile sözcük sözcük ayrılmış. Anlamlar oradan, sözcüğün
+kendi dizelerinden **okundu** — tahminle konmadı. Kaynak basılı bir
+dilbilgisi olmadığı için **yedi maddenin hepsi `teyitGerek`** ile girdi;
+ekranda "Anlamın kaynağı doğrulanmadı" uyarısı çıkıyor.
+
+| Madde | Yazım | Anlam | Çeviri ne diyor |
+|---|---|---|---|
+| kisre | 𐰚𐰃𐰾𐰼𐰀 | sonra, ondan sonra | 13 dizede «SONRA» — doğrudan |
+| küŋ | 𐰚𐰇𐰭 | cariye, kadın köle | 8 dizede «CARİYE» — doğrudan |
+| ögüz | 𐰇𐰏𐰔 | ırmak, nehir | çevirmiyor; «İrtiş ögüzüg keçe» bağlamından |
+| irkin | 𐰃𐰼𐰚𐰤 | boy beyi unvanı | çevirmiyor; hep boy adıyla geçmesinden |
+| toruk | 𐱃𐰆𐰺𐰸 | arık, zayıf | çevirmiyor; «semiz buka ~ toruk buka» karşıtlığından |
+| toru- | 𐱃𐰆𐰺𐰆 | arıklamak, zayıflamak | çevirmiyor; toruk ile kök bağından |
+| kısa- | 𐰶𐰃𐰽 | yok etmek | çeviri «KILALIM» diyor, çevriyazı KISaLıM — okuma tartışmalı |
+
+Son üçünün anlamı bağlamdan çıkarıldı; her birinin `kaynak` alanı bunu
+açıkça yazıyor. **kısa-** ayrıca korpusta yalın geçmiyor: yazımı
+KISaLıM 𐰶𐰃𐰽𐰞𐰢'dan -lım eki düşürülerek kuruldu.
+
+**Yazım varyantları elle bağlandı.** KÜMüŞ 𐰚𐰇𐰢𐰾 ve 𐰝𐰇𐰢𐰾 ne çevriyazı
+ne runik ön ekiyle kümiş'e bağlanıyor, ama çeviri ikisine de «GÜMÜŞ»
+diyor. `ELLE_SAHİP` ile bağlandılar; `sozluk-bicim-ayikla.mjs`'teki
+`ELLE_KALSIN` sökülmelerini engelliyor.
+
+**Kalan tek sahipsiz: KOKuLuK 𐰸𐰆𐰴𐰞𐰴 ×1** (BK-G-11). Dize yıpranmış
+(«eren kelti kokuluk ö --- altun kümüş»), çeviri de sözcüğü
+çevirmiyor. Dayanak yok; madde uydurulmadı,
+`05_Kaynak_DB/sozluk-sahipsiz-bicimler.json`'da bekliyor.
+
+### İki betik düzeltmesi
+
+**`sozluk-bicim-ayikla.mjs` artık yeniden çalıştırılabilir.** Eskiden
+ikinci koşu, elle bağlanmış biçimleri (OGLI → ogul, KÜMüŞ varyantları)
+geri söküyordu: 1. kural yalnız çevriyazı ön ekine bakıyordu. Artık
+maddenin **runik** ön eki de (üç tamga alt sınırıyla) biçimi yerinde
+tutuyor, `ELLE_KALSIN` de öyle. İki ardışık kuru koşu aynı sonucu
+veriyor: 0 taşıma, 0 sahipsiz.
+
+**Denenip bırakılan ikinci kural.** "Biçim, en iyi eşleşen maddeye gider"
+kuralı yazıldı ve ölçüldü: `ay-` fiilinin çekimlerini (aYDI, aYGUÇI)
+`ay` maddesine veriyor, `ogul` kendi OGLI'sını kaybediyor, 28 biçim
+yer değiştiriyordu. Uygulanmadı.
+
+**Betik sırası önemli.** Sıfırdan kurulumda `sozluk-bicim-ayikla.mjs`
+önce, `sozluk-sahipsiz-madde-ekle.mjs` sonra çalışmalı: ikincisi
+birincinin ayırdığı listeyi okuyor.

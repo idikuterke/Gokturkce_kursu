@@ -1748,6 +1748,22 @@
         "dizeler": [
           "BK-K-11"
         ]
+      },
+      {
+        "runik": "𐰚𐰇𐰢𐰾",
+        "transkripsiyon": "KÜMüŞ",
+        "siklik": 1,
+        "dizeler": [
+          "BK-G-11"
+        ]
+      },
+      {
+        "runik": "𐰝𐰇𐰢𐰾",
+        "transkripsiyon": "KÜMüŞ",
+        "siklik": 1,
+        "dizeler": [
+          "TY2-G-4"
+        ]
       }
     ],
     "korpustaYok": false,
@@ -4910,5 +4926,216 @@
       }
     ],
     "runikNotu": "yazım korpusta tanıklı: BaR 𐰉𐰺 ×12 (yalın)"
+  },
+  {
+    "id": "kisre",
+    "transkripsiyon": "kisre",
+    "runik": "𐰚𐰃𐰾𐰼𐰀",
+    "anlam": "sonra, ondan sonra",
+    "kategori": "gramer / edat",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi: 13 dizede «SONRA» (KT-G-5, KT-D-4, KT-D-5)",
+    "korpustaYok": false,
+    "teyitGerek": true,
+    "bicimler": [
+      {
+        "runik": "𐰚𐰃𐰾𐰼𐰀",
+        "transkripsiyon": "KİSRE",
+        "siklik": 13,
+        "dizeler": [
+          "KT-G-5",
+          "KT-D-4",
+          "KT-D-5"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: KİSRE 𐰚𐰃𐰾𐰼𐰀 ×13 (yalın)"
+  },
+  {
+    "id": "kung",
+    "transkripsiyon": "küŋ",
+    "runik": "𐰚𐰇𐰭",
+    "anlam": "cariye, kadın köle",
+    "kategori": "toplum / yönetim",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi: 8 dizede «CARİYE» (KT-D-7 «kız oglın küŋ boldı» → «kız evladı cariye oldu»)",
+    "korpustaYok": false,
+    "teyitGerek": true,
+    "bicimler": [
+      {
+        "runik": "𐰚𐰇𐰭",
+        "transkripsiyon": "KÜŊ",
+        "siklik": 8,
+        "dizeler": [
+          "KT-D-7",
+          "KT-D-20",
+          "KT-D-21"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰭𐰠𐰍",
+        "transkripsiyon": "KÜŊLiG",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-21",
+          "BK-D-18"
+        ]
+      },
+      {
+        "runik": "𐰚𐰇𐰭𐰓𐰢𐰾",
+        "transkripsiyon": "KÜŊeDMiŞ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-13",
+          "BK-D-11"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: KÜŊ 𐰚𐰇𐰭 ×8 (yalın) · kün 𐰚𐰇𐰤 'gün' ile karıştırılmamalı: son tamga 𐰭 (ŋ), 𐰤 (n) değil"
+  },
+  {
+    "id": "oguz_irmak",
+    "transkripsiyon": "ögüz",
+    "runik": "𐰇𐰏𐰔",
+    "anlam": "ırmak, nehir",
+    "kategori": "coğrafya",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi sözcüğü çevirmeden bırakıyor (KT-D-37 «İrtiş ögüzüg keçe» → «İrtiş özüğü geçip»); «ırmak» anlamı bağlamdan çıkarıldı, basılı kaynakla teyit edilmeli",
+    "korpustaYok": false,
+    "teyitGerek": true,
+    "bicimler": [
+      {
+        "runik": "𐰇𐰏𐰔𐰏",
+        "transkripsiyon": "ÖGüZüG",
+        "siklik": 5,
+        "dizeler": [
+          "KT-D-37",
+          "BK-D-27",
+          "BK-D-30"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔𐰚𐰀",
+        "transkripsiyon": "ÖGüZKE",
+        "siklik": 3,
+        "dizeler": [
+          "TY1-G-9",
+          "TY1-D-1",
+          "TY1-D-2"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔",
+        "transkripsiyon": "ÖGüZ",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-17",
+          "BK-D-15"
+        ]
+      },
+      {
+        "runik": "𐰇𐰏𐰔𐰲𐰀",
+        "transkripsiyon": "ÖGüZÇE",
+        "siklik": 1,
+        "dizeler": [
+          "BK-D-20"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: ÖGüZ 𐰇𐰏𐰔 ×2 (yalın) · ög 𐰇𐰏 'anne' ile aynı tamgalarla başlar, ayrı sözcüktür"
+  },
+  {
+    "id": "irkin",
+    "transkripsiyon": "irkin",
+    "runik": "𐰃𐰼𐰚𐰤",
+    "anlam": "bir boy beyi unvanı (Ulug İrkin, Köl İrkin)",
+    "kategori": "yönetim / unvan",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi sözcüğü çevirmeden bırakıyor (KT-D-34 «Bayırku ulug İrkin yagı boldı»); unvan olduğu hep bir boy adıyla birlikte geçmesinden çıkarıldı, teyit edilmeli",
+    "korpustaYok": false,
+    "teyitGerek": true,
+    "bicimler": [
+      {
+        "runik": "𐰃𐰼𐰚𐰤",
+        "transkripsiyon": "İRKiN",
+        "siklik": 3,
+        "dizeler": [
+          "KT-D-34",
+          "KT-D-34",
+          "BK-G-14"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: İRKiN 𐰃𐰼𐰚𐰤 ×3 (yalın)"
+  },
+  {
+    "id": "toruk",
+    "transkripsiyon": "toruk",
+    "runik": "𐱃𐰆𐰺𐰸",
+    "anlam": "arık, zayıf (semiz karşıtı)",
+    "kategori": "hayvan",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi sözcüğü çevirmeden bırakıyor (Tonyukuk «semiz buka toruk buka tiyin»); anlam «semiz» karşıtlığından çıkarıldı, teyit edilmeli",
+    "korpustaYok": false,
+    "teyitGerek": true,
+    "bicimler": [
+      {
+        "runik": "𐱃𐰆𐰺𐰸",
+        "transkripsiyon": "TORUK",
+        "siklik": 2,
+        "dizeler": [
+          "KT-D-39",
+          "TY1-B-6"
+        ]
+      },
+      {
+        "runik": "𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃",
+        "transkripsiyon": "TORuKBUKuLI",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-B-5"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: TORUK 𐱃𐰆𐰺𐰸 ×2 (yalın)"
+  },
+  {
+    "id": "toru_fiil",
+    "transkripsiyon": "toru-",
+    "runik": "𐱃𐰆𐰺𐰆",
+    "anlam": "arıklamak, zayıflamak",
+    "kategori": "fiil",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi sözcüğü çevirmeden bırakıyor (KT-G-9 «sayu kop toru ölü yorıyur»); anlam aynı kökten toruk «arık» ile bağlantıdan çıkarıldı, teyit edilmeli",
+    "korpustaYok": false,
+    "teyitGerek": true,
+    "bicimler": [
+      {
+        "runik": "𐱃𐰆𐰺𐰆",
+        "transkripsiyon": "TORU",
+        "siklik": 2,
+        "dizeler": [
+          "KT-G-9",
+          "BK-K-7"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: TORU 𐱃𐰆𐰺𐰆 ×2 (yalın) · törü 𐱅𐰇𐰼𐰇 'töre' ile karıştırılmamalı: ilk tamga 𐱃 (art damak t), 𐱅 değil"
+  },
+  {
+    "id": "kisa_fiil",
+    "transkripsiyon": "kısa-",
+    "runik": "𐰶𐰃𐰽",
+    "anlam": "yok etmek, ortadan kaldırmak",
+    "kategori": "fiil",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi «KILALIM» diyor, oysa çevriyazı KISaLıM — okuma tartışmalı; anlam «idi yok kısalım» bağlamından çıkarıldı, basılı kaynakla teyit edilmeli",
+    "korpustaYok": false,
+    "teyitGerek": true,
+    "bicimler": [
+      {
+        "runik": "𐰶𐰃𐰽𐰞𐰢",
+        "transkripsiyon": "KISaLıM",
+        "siklik": 2,
+        "dizeler": [
+          "TY1-G-4",
+          "TY1-D-4"
+        ]
+      }
+    ],
+    "runikNotu": "yazım korpusta tanıklı: KISaLıM 𐰶𐰃𐰽𐰞𐰢 ×2 · kök yazımı KISaLıM 𐰶𐰃𐰽𐰞𐰢'dan -lım eki (𐰞𐰢) düşürülerek kuruldu; yalın biçim korpusta tanıklı değil"
   }
 ]
