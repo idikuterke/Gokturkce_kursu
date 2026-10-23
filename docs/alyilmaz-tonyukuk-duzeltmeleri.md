@@ -48,8 +48,8 @@ sözcük ("toruk buukalı", Alyılmaz s. 12). toruk'un biçim listesinden
 | Dize | Bizdeki | Olması gereken | Durum |
 |---|---|---|---|
 | TY2-B-1 | `KOPUN` | **KOP** / koop | ✅ uygulandı |
-| TY1-K-2 | `TUG` | **tuug** | ⏳ alfabeye yeni tamga eklemeyi gerektiriyor |
-| TY1-B-5 | `TORuKBUKuLI`, `SeMiZBUKuLI`, `KaGaNMUKISaYiN` | ayrı sözcükler | ⏳ epigrafik karar: taşta ayırıcı var mı? |
+| TY1-K-2 | `TUG` | **tuug** | ❌ Unicode'da karşılığı yok — aşağıda |
+| TY1-B-5 | bitişik belirteçler | ayrı sözcükler | ✅ bölündü (eğitmen kararı: taşta ayırıcı yok) |
 
 **KOPUN → KOP.** Runikte 𐰸𐰆𐰯 (k-o-p) var, sonda n yok; çevriyazıda
 fazladan bir n duruyordu. `orhun-db-istisna.json`'da zaten "inceleme"
@@ -57,8 +57,49 @@ damgasıyla bekliyordu ("runik 𐰸𐰆𐰯 sonda n yok; transkripsiyon kopun").
 Alyılmaz s. 15-16 çözüyor. Yama `orhun-db-duzeltmeler.json`'a eklendi,
 bayatlayan istisna kaldırıldı (24 → 23). `kop` 𐰸𐰆𐰯 sıklığı 18 → 19.
 
-Kalan ikisi veri değil **karar** istiyor: biri alfabeye tamga eklemek,
-öbürü taştaki sözcük ayırıcısı hakkında epigrafik hüküm vermek.
+**TY1-B-5 bitişik belirteçleri bölündü.** Taşta sözcük ayırıcı yok ama
+sözcükler ayrı (eğitmen kararı). Dize 14 belirteçten 20'ye çıktı:
+
+| Eski belirteç | Bölündü | Dayanak |
+|---|---|---|
+| `YaGMıŞIBeneRTiM` 𐰖𐰍𐰢𐰾𐰃𐰋𐰤𐰼𐱅𐰢 | YaGMıŞI · BeN · eRTiM | dizenin çevirisi «… ben idim» |
+| `KaGaNMUKISaYiN` 𐰴𐰍𐰣𐰢𐰆𐰶𐰃𐰽𐰖𐰃𐰤 | KaGaN · MU · KISaYiN | «(Bunu) kağan mı yapayım?» |
+| `TORuKBUKuLI` 𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃 | TORUK · BUKuLI | Alyılmaz s. 12 «toruk buukalı» |
+| `SeMiZBUKuLI` 𐰾𐰢𐰔𐰉𐰆𐰸𐰞𐰃 | SeMiZ · BUKuLI | Alyılmaz s. 12 «semiz buukalı» |
+
+Yamalar sondan başa sıralı: bölme kendinden sonraki belirteç
+indekslerini kaydırıyor. Tamgalar bölünürken korundu, toplam sayı aynı;
+kapı yeni sapma görmedi.
+
+İki madde doğrudan kazandı: **toruk** TORUK ×2 → **×3** (bitişik belirteç
+artık ayrı sayılıyor), **kıs-** KISaYiN 𐰶𐰃𐰽𐰖𐰃𐰤 ×1 biçimini kazandı —
+maddenin "kılmak, yapmak" anlamının asıl tanığı, çünkü dizenin çevirisi
+«kağan **mı yapayım**».
+
+## TY1-K-2 «tuug» — neden uygulanamıyor
+
+Alyılmaz'ın 3. düzeltmesi: TY1-K-2'nin 2. cümlesinin 4. sözcüğü
+(bizde `TUG` 𐱃𐰆𐰍), herkesin 𐱃 yazdığı ilk harfi taşta **başka bir
+şekilde** geçiyor; bu şeklin de Köktürk alfabesine eklenmesi gerekiyor.
+
+Üç engel var, ilki kesin:
+
+1. **Unicode'da kod noktası yok.** Old Turkic bloğu (U+10C00–U+10C4F)
+   böyle bir t varyantı taşımıyor. Yazacak karakter yok.
+2. **Yazarsak tofu olur.** Özel kullanım alanına bir kod noktası
+   uydursak Noto Sans Old Turkic onu çizmez; `kapi.mjs` tofu denetimi
+   zaten reddeder, `tamga-siniflari-v1-kilitli.json` de kilitli.
+3. **Yazarın kendisi emin değil.** Makalede "«𐱃»nin farklı bir şekli
+   **(t) (?)** veya birleşik bir harf **(tu) (?)**" diyor.
+
+Yani bu bir veri düzeltmesi değil, **Unicode'a karakter ekleme önerisi**.
+Projenin tamgaları korpustan birebir alma kuralını bozmadan uygulanamaz.
+
+**Yan not — karıştırmayalım.** TY1-K-2'de zaten bir kodlama şüphesi
+kayıtlı: `uyari` alanı "U+10C48 (ORKHON BASH) tek geçiş; kaynak site
+kodlaması şüpheli". Ama o uyarı `TUG`'a değil, aynı dizedeki
+**`IBRıK` 𐰾𐰉𐰺𐱈** belirtecine ait (son tamga U+10C48). `TUG`'un ilk
+tamgası U+10C43, olağan art damak t'si. İki ayrı sorun.
 
 ## Yeniden üretim artık çevirileri koruyor
 

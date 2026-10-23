@@ -5077,9 +5077,10 @@
       {
         "runik": "𐱃𐰆𐰺𐰸",
         "transkripsiyon": "TORUK",
-        "siklik": 2,
+        "siklik": 3,
         "dizeler": [
           "KT-D-39",
+          "TY1-B-5",
           "TY1-B-6"
         ]
       }
@@ -5126,6 +5127,14 @@
         "dizeler": [
           "TY1-G-4",
           "TY1-D-4"
+        ]
+      },
+      {
+        "runik": "𐰶𐰃𐰽𐰖𐰃𐰤",
+        "transkripsiyon": "KISaYiN",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-B-5"
         ]
       },
       {

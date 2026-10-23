@@ -10097,10 +10097,10 @@
       "yuz_kod": "B",
       "satir": 5,
       "sira": 5,
-      "gokturkce": "𐰆𐰑𐰔𐰍𐰢𐰀 : 𐰆𐰞𐰍𐰃 : 𐱁𐰑𐰼𐱅𐰃 : 𐰖𐰍𐰞 : 𐱅𐰃𐰓𐰃 : 𐰖𐰍𐰢𐰾𐰃𐰋𐰤𐰼𐱅𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰴𐰍𐰣𐰢𐰆𐰶𐰃𐰽𐰖𐰃𐰤 : 𐱅𐰓𐰢 : 𐰽𐰴𐰦𐰢 : 𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃 : 𐰾𐰢𐰔𐰉𐰆𐰸𐰞𐰃 : 𐰃𐰺𐰴𐰑𐰀 :",
-      "transkripsiyon": "UDuZuGMA : ULuGI : ŞaDeRTİ : YaGıL : TİDİ : YaGMıŞIBeneRTiM : BİLGE : TONYUKUK : KaGaNMUKISaYiN : TİDiM : SaKıNDıM : TORuKBUKuLI : SeMiZBUKuLI : IRKDA :",
+      "gokturkce": "𐰆𐰑𐰔𐰍𐰢𐰀 : 𐰆𐰞𐰍𐰃 : 𐱁𐰑𐰼𐱅𐰃 : 𐰖𐰍𐰞 : 𐱅𐰃𐰓𐰃 : 𐰖𐰍𐰢𐰾𐰃 : 𐰋𐰤 : 𐰼𐱅𐰢 : 𐰋𐰃𐰠𐰏𐰀 : 𐱃𐰆𐰪𐰸𐰸 : 𐰴𐰍𐰣 : 𐰢𐰆 : 𐰶𐰃𐰽𐰖𐰃𐰤 : 𐱅𐰓𐰢 : 𐰽𐰴𐰦𐰢 : 𐱃𐰆𐰺𐰸 : 𐰉𐰆𐰸𐰞𐰃 : 𐰾𐰢𐰔 : 𐰉𐰆𐰸𐰞𐰃 : 𐰃𐰺𐰴𐰑𐰀 :",
+      "transkripsiyon": "UDuZuGMA : ULuGI : ŞaDeRTİ : YaGıL : TİDİ : YaGMıŞI : BeN : eRTiM : BİLGE : TONYUKUK : KaGaN : MU : KISaYiN : TİDiM : SaKıNDıM : TORUK : BUKuLI : SeMiZ : BUKuLI : IRKDA :",
       "turkce": "sevk eden üstleri “Şad” idi. “Sözcüm ol!” dedi; sözcüsü ben idim, Bilge Tunyukuk. “(Bunu) kağan mı yapayım?” dedim, düşündüm: (İnsan) zayıf boğalarla semiz boğaları uzaktan",
-      "kelime_sayisi": 14,
+      "kelime_sayisi": 20,
       "tamga_sayisi": 82,
       "dusen_unlu": [
         2,
@@ -10108,14 +10108,20 @@
         2,
         2,
         0,
-        6,
+        2,
+        1,
+        2,
         0,
         0,
-        4,
+        2,
+        0,
+        2,
         1,
         3,
+        0,
+        1,
         2,
-        3,
+        1,
         0
       ],
       "yipranma": false,
@@ -10125,6 +10131,64 @@
         "url": "https://www.turkbitig.com/orhun-yazitlari/tonyukuk.html",
         "erisim": "2026-09-10"
       },
+      "duzeltmeler": [
+        {
+          "sira": 12,
+          "alan": "gokturkce",
+          "eski": "𐰾𐰢𐰔𐰉𐰆𐰸𐰞𐰃",
+          "yeni": "𐰾𐰢𐰔 : 𐰉𐰆𐰸𐰞𐰃",
+          "gerekce": "SeMiZ + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+        },
+        {
+          "sira": 12,
+          "alan": "transkripsiyon",
+          "eski": "SeMiZBUKuLI",
+          "yeni": "SeMiZ : BUKuLI",
+          "gerekce": "SeMiZ + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+        },
+        {
+          "sira": 11,
+          "alan": "gokturkce",
+          "eski": "𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃",
+          "yeni": "𐱃𐰆𐰺𐰸 : 𐰉𐰆𐰸𐰞𐰃",
+          "gerekce": "TORUK + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+        },
+        {
+          "sira": 11,
+          "alan": "transkripsiyon",
+          "eski": "TORuKBUKuLI",
+          "yeni": "TORUK : BUKuLI",
+          "gerekce": "TORUK + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+        },
+        {
+          "sira": 8,
+          "alan": "gokturkce",
+          "eski": "𐰴𐰍𐰣𐰢𐰆𐰶𐰃𐰽𐰖𐰃𐰤",
+          "yeni": "𐰴𐰍𐰣 : 𐰢𐰆 : 𐰶𐰃𐰽𐰖𐰃𐰤",
+          "gerekce": "KaGaN + MU + KISaYiN; dizenin çevirisi «(Bunu) kağan mı yapayım?». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
+        },
+        {
+          "sira": 8,
+          "alan": "transkripsiyon",
+          "eski": "KaGaNMUKISaYiN",
+          "yeni": "KaGaN : MU : KISaYiN",
+          "gerekce": "KaGaN + MU + KISaYiN; dizenin çevirisi «(Bunu) kağan mı yapayım?». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
+        },
+        {
+          "sira": 5,
+          "alan": "gokturkce",
+          "eski": "𐰖𐰍𐰢𐰾𐰃𐰋𐰤𐰼𐱅𐰢",
+          "yeni": "𐰖𐰍𐰢𐰾𐰃 : 𐰋𐰤 : 𐰼𐱅𐰢",
+          "gerekce": "YaGMıŞI + BeN + eRTiM; dizenin çevirisi «… ben idim». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
+        },
+        {
+          "sira": 5,
+          "alan": "transkripsiyon",
+          "eski": "YaGMıŞIBeneRTiM",
+          "yeni": "YaGMıŞI : BeN : eRTiM",
+          "gerekce": "YaGMıŞI + BeN + eRTiM; dizenin çevirisi «… ben idim». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
+        }
+      ],
       "dogrulama": {
         "iskelet": "gecti",
         "ceviri": "gecti",
@@ -13184,7 +13248,7 @@
     "Tonyukuk yazıtında ÖK/ÜK için U+10C1D (YENISEI OEK) kullanılmıştır; Orhun standardı U+10C1C. Otantik varyant, değiştirilmedi.",
     "U+10C48 (ORKHON BASH) yalnız TY1-K-2 dizesinde; doğrulanmadı.",
     "dogrulandi (tek boolean) kaldırıldı; yerine alan bazlı dogrulama kaydı: iskelet (makine, orhun-tara.mjs), ceviri ve okuma (insan denetimi bekliyor).",
-    "DÜZELTME: 25 kelimelik dizgi düzeltmesi 05_Kaynak_DB/orhun-db-duzeltmeler.json'da; dize başına 'duzeltmeler' alanı.",
+    "DÜZELTME: 33 kelimelik dizgi düzeltmesi 05_Kaynak_DB/orhun-db-duzeltmeler.json'da; dize başına 'duzeltmeler' alanı.",
     "ELLE: 139 alan 05_Kaynak_DB/orhun-db-elle.json'dan bindirildi (akıcı Türkçe çeviri, elle düzeltilmiş çevriyazı).",
     "TAŞINAN: 428 alan önceki veri tabanından korundu (denetim kayıtları, etiketler)."
   ]

@@ -200,6 +200,70 @@
    "eski": "KOPUN",
    "yeni": "KOP",
    "gerekce": "Runikte 𐰸𐰆𐰯 (k-o-p) var, sonda n yok; çevriyazıda fazladan n. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 15-16: kop(ı)n değil koop (T 36-37)"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 12,
+   "alan": "gokturkce",
+   "eski": "𐰾𐰢𐰔𐰉𐰆𐰸𐰞𐰃",
+   "yeni": "𐰾𐰢𐰔 : 𐰉𐰆𐰸𐰞𐰃",
+   "gerekce": "SeMiZ + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 12,
+   "alan": "transkripsiyon",
+   "eski": "SeMiZBUKuLI",
+   "yeni": "SeMiZ : BUKuLI",
+   "gerekce": "SeMiZ + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 11,
+   "alan": "gokturkce",
+   "eski": "𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃",
+   "yeni": "𐱃𐰆𐰺𐰸 : 𐰉𐰆𐰸𐰞𐰃",
+   "gerekce": "TORUK + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 11,
+   "alan": "transkripsiyon",
+   "eski": "TORuKBUKuLI",
+   "yeni": "TORUK : BUKuLI",
+   "gerekce": "TORUK + BUKuLI. Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12: «toruk buukalı semiz buukalı»"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 8,
+   "alan": "gokturkce",
+   "eski": "𐰴𐰍𐰣𐰢𐰆𐰶𐰃𐰽𐰖𐰃𐰤",
+   "yeni": "𐰴𐰍𐰣 : 𐰢𐰆 : 𐰶𐰃𐰽𐰖𐰃𐰤",
+   "gerekce": "KaGaN + MU + KISaYiN; dizenin çevirisi «(Bunu) kağan mı yapayım?». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 8,
+   "alan": "transkripsiyon",
+   "eski": "KaGaNMUKISaYiN",
+   "yeni": "KaGaN : MU : KISaYiN",
+   "gerekce": "KaGaN + MU + KISaYiN; dizenin çevirisi «(Bunu) kağan mı yapayım?». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 5,
+   "alan": "gokturkce",
+   "eski": "𐰖𐰍𐰢𐰾𐰃𐰋𐰤𐰼𐱅𐰢",
+   "yeni": "𐰖𐰍𐰢𐰾𐰃 : 𐰋𐰤 : 𐰼𐱅𐰢",
+   "gerekce": "YaGMıŞI + BeN + eRTiM; dizenin çevirisi «… ben idim». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
+  },
+  {
+   "id": "TY1-B-5",
+   "sira": 5,
+   "alan": "transkripsiyon",
+   "eski": "YaGMıŞIBeneRTiM",
+   "yeni": "YaGMıŞI : BeN : eRTiM",
+   "gerekce": "YaGMıŞI + BeN + eRTiM; dizenin çevirisi «… ben idim». Taşta sözcük ayırıcı yok, ama iki ayrı sözcük (eğitmen kararı, 23.10.2026)"
   }
  ]
 }
