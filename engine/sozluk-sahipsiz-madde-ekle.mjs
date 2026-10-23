@@ -38,6 +38,24 @@ const sadece = (s) =>
   [...String(s).toLocaleLowerCase("tr")].filter((c) => /\p{L}/u.test(c)).join("");
 
 const KAYNAK = "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi";
+/** Cengiz Alyılmaz'ın düzeltme makalesi; dergi adı elimizdeki
+ *  sayfalarda yok, sayfa numaraları 11-18. */
+const ALYILMAZ =
+  "Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme»";
+
+/** Eski kimlikler: madde yeniden adlandırıldıysa kalıntısı silinir. */
+const ESKI_ID = ["kisa_fiil"];
+
+/**
+ * Yazımı maddeyle başlayan ama o maddenin çekimi OLMAYAN belirteçler.
+ * Biçim listesine alınmaz.
+ */
+const BİÇİM_ATLA = new Map([
+  ["𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃",
+   `iki sözcük: "toruk buukalı" (${ALYILMAZ}, s. 12); korpusta bitişik belirteç`],
+  ["𐰶𐰃𐰽𐰞𐱃𐰀",
+   'BK-D-37 "Kargan Kısılta" yer adı: kısıl "dar geçit" + bulunma eki, kıs- fiilinin çekimi değil'],
+]);
 
 const YENI = [
   {
@@ -69,22 +87,24 @@ const YENI = [
   {
     id: "toruk", transkripsiyon: "toruk", runik: "𐱃𐰆𐰺𐰸",
     anlam: "arık, zayıf (semiz karşıtı)", kategori: "hayvan",
-    kaynak: `${KAYNAK} sözcüğü çevirmeden bırakıyor (Tonyukuk «semiz buka toruk buka tiyin»); anlam «semiz» karşıtlığından çıkarıldı, teyit edilmeli`,
+    // Basılı kaynak anlamı doğrudan veriyor; teyit gerekmiyor.
+    kaynak: `${ALYILMAZ}, s. 12-13: «toruk buukalı semiz buukalı» → «zayıf boğalarla semiz boğaları», «toruk buka» → «zayıf boğa» (T 5-6)`,
+    teyitGerek: false,
     tanik: "TORUK 𐱃𐰆𐰺𐰸 ×2 (yalın)",
   },
   {
     id: "toru_fiil", transkripsiyon: "toru-", runik: "𐱃𐰆𐰺𐰆",
     anlam: "arıklamak, zayıflamak", kategori: "fiil",
-    kaynak: `${KAYNAK} sözcüğü çevirmeden bırakıyor (KT-G-9 «sayu kop toru ölü yorıyur»); anlam aynı kökten toruk «arık» ile bağlantıdan çıkarıldı, teyit edilmeli`,
+    kaynak: `${KAYNAK} sözcüğü çevirmeden bırakıyor (KT-G-9 «sayu kop toru ölü yorıyur»); anlam, basılı kaynakta «zayıf» karşılığı verilen toruk ile kök bağından çıkarıldı (${ALYILMAZ}, s. 12-13), teyit edilmeli`,
     tanik: "TORU 𐱃𐰆𐰺𐰆 ×2 (yalın)",
     not: "törü 𐱅𐰇𐰼𐰇 'töre' ile karıştırılmamalı: ilk tamga 𐱃 (art damak t), 𐱅 değil",
   },
   {
-    id: "kisa_fiil", transkripsiyon: "kısa-", runik: "𐰶𐰃𐰽",
-    anlam: "yok etmek, ortadan kaldırmak", kategori: "fiil",
-    kaynak: `${KAYNAK} «KILALIM» diyor, oysa çevriyazı KISaLıM — okuma tartışmalı; anlam «idi yok kısalım» bağlamından çıkarıldı, basılı kaynakla teyit edilmeli`,
-    tanik: "KISaLıM 𐰶𐰃𐰽𐰞𐰢 ×2",
-    not: "kök yazımı KISaLıM 𐰶𐰃𐰽𐰞𐰢'dan -lım eki (𐰞𐰢) düşürülerek kuruldu; yalın biçim korpusta tanıklı değil",
+    id: "kis_fiil", transkripsiyon: "kıs-", runik: "𐰶𐰃𐰽",
+    anlam: "kılmak, yapmak, etmek (yok kıs- «yok etmek»)", kategori: "fiil",
+    kaynak: `${ALYILMAZ}, s. 13: «edi yok kışalım» → «tümüyle yok edelim» (T 20-21); korpus TY1-B-6 «özüm ök kagan kısdım» → «ben kendim kağan yaptım». Okuma tartışmalı: Alyılmaz kışalım, çevriyazımız KISaLıM`,
+    tanik: "KISDıM 𐰴𐰃𐰽𐰑𐰢 ×1, KISaLıM 𐰶𐰃𐰽𐰞𐰢 ×2",
+    not: "kök yazımı KISaLıM 𐰶𐰃𐰽𐰞𐰢'dan -alım eki düşürülerek kuruldu, yalın biçim korpusta tanıklı değil; KISDıM'da ilk tamga 𐰴 varyantı · «yok etmek» öbeğin anlamı, fiilin değil",
   },
 ];
 
@@ -93,6 +113,8 @@ const YENI = [
  * ön ekiyle maddesine bağlanabilen biçimler.
  */
 const ELLE_SAHİP = [
+  { runik: "𐰴𐰃𐰽𐰑𐰢", transkripsiyon: "KISDıM", madde: "kıs-",
+    gerekce: 'TY1-B-6 çevirisi "ben kendim kağan yaptım"; ilk tamga 𐰴 varyantı' },
   { runik: "𐰚𐰇𐰢𐰾", transkripsiyon: "KÜMüŞ", madde: "kümiş",
     gerekce: "BK-G-11 çevirisi «GÜMÜŞ»; 𐰾 (s) ile yazılmış varyant" },
   { runik: "𐰝𐰇𐰢𐰾", transkripsiyon: "KÜMüŞ", madde: "kümiş",
@@ -102,13 +124,19 @@ const ELLE_SAHİP = [
 const kayit = [];
 const bul = (t) => d.find((k) => k.transkripsiyon === t);
 
+// 0 · yeniden adlandırılan maddelerin eski kaydını kaldır
+for (const eski of ESKI_ID) {
+  const i = d.findIndex((k) => k.id === eski);
+  if (i >= 0) { d.splice(i, 1); kayit.push(`silindi   eski kimlik ${eski}`); }
+}
+
 // 1 · maddeleri ekle
 for (const k of YENI) {
   const { tanik, not, ...madde } = k;
   const alanlar = {
     ...madde,
     korpustaYok: false,
-    teyitGerek: true,
+    teyitGerek: madde.teyitGerek ?? true,
     runikNotu: `yazım korpusta tanıklı: ${tanik}${not ? ` · ${not}` : ""}`,
   };
   // Yeniden çalıştırılabilir olsun: madde varsa alanları tazelenir,
@@ -136,7 +164,7 @@ for (const k of YENI) {
   const baskasinin = (runik) => digerKokler.some((r) => runik.startsWith(r));
 
   const ek = kelimeler
-    .filter((w) => w.runik.startsWith(k.runik) &&
+    .filter((w) => w.runik.startsWith(k.runik) && !BİÇİM_ATLA.has(w.runik) &&
                    sadece(w.transkripsiyon).startsWith(govde) && !baskasinin(w.runik))
     .sort((a, b) => b.siklik - a.siklik)
     .slice(0, 6)

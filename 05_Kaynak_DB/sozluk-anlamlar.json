@@ -5070,9 +5070,9 @@
     "runik": "𐱃𐰆𐰺𐰸",
     "anlam": "arık, zayıf (semiz karşıtı)",
     "kategori": "hayvan",
-    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi sözcüğü çevirmeden bırakıyor (Tonyukuk «semiz buka toruk buka tiyin»); anlam «semiz» karşıtlığından çıkarıldı, teyit edilmeli",
+    "kaynak": "Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12-13: «toruk buukalı semiz buukalı» → «zayıf boğalarla semiz boğaları», «toruk buka» → «zayıf boğa» (T 5-6)",
     "korpustaYok": false,
-    "teyitGerek": true,
+    "teyitGerek": false,
     "bicimler": [
       {
         "runik": "𐱃𐰆𐰺𐰸",
@@ -5081,14 +5081,6 @@
         "dizeler": [
           "KT-D-39",
           "TY1-B-6"
-        ]
-      },
-      {
-        "runik": "𐱃𐰆𐰺𐰸𐰉𐰆𐰸𐰞𐰃",
-        "transkripsiyon": "TORuKBUKuLI",
-        "siklik": 1,
-        "dizeler": [
-          "TY1-B-5"
         ]
       }
     ],
@@ -5100,7 +5092,7 @@
     "runik": "𐱃𐰆𐰺𐰆",
     "anlam": "arıklamak, zayıflamak",
     "kategori": "fiil",
-    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi sözcüğü çevirmeden bırakıyor (KT-G-9 «sayu kop toru ölü yorıyur»); anlam aynı kökten toruk «arık» ile bağlantıdan çıkarıldı, teyit edilmeli",
+    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi sözcüğü çevirmeden bırakıyor (KT-G-9 «sayu kop toru ölü yorıyur»); anlam, basılı kaynakta «zayıf» karşılığı verilen toruk ile kök bağından çıkarıldı (Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 12-13), teyit edilmeli",
     "korpustaYok": false,
     "teyitGerek": true,
     "bicimler": [
@@ -5117,14 +5109,15 @@
     "runikNotu": "yazım korpusta tanıklı: TORU 𐱃𐰆𐰺𐰆 ×2 (yalın) · törü 𐱅𐰇𐰼𐰇 'töre' ile karıştırılmamalı: ilk tamga 𐱃 (art damak t), 𐱅 değil"
   },
   {
-    "id": "kisa_fiil",
-    "transkripsiyon": "kısa-",
+    "id": "kis_fiil",
+    "transkripsiyon": "kıs-",
     "runik": "𐰶𐰃𐰽",
-    "anlam": "yok etmek, ortadan kaldırmak",
+    "anlam": "kılmak, yapmak, etmek (yok kıs- «yok etmek»)",
     "kategori": "fiil",
-    "kaynak": "turkbitig.com, Orhun Yazıtları sözcük hizalı çevirisi «KILALIM» diyor, oysa çevriyazı KISaLıM — okuma tartışmalı; anlam «idi yok kısalım» bağlamından çıkarıldı, basılı kaynakla teyit edilmeli",
+    "kaynak": "Cengiz Alyılmaz, «Bilge Tonyukuk Yazıtları Üzerine Birkaç Düzeltme», s. 13: «edi yok kışalım» → «tümüyle yok edelim» (T 20-21); korpus TY1-B-6 «özüm ök kagan kısdım» → «ben kendim kağan yaptım». Okuma tartışmalı: Alyılmaz kışalım, çevriyazımız KISaLıM",
     "korpustaYok": false,
     "teyitGerek": true,
+    "runikNotu": "yazım korpusta tanıklı: KISDıM 𐰴𐰃𐰽𐰑𐰢 ×1, KISaLıM 𐰶𐰃𐰽𐰞𐰢 ×2 · kök yazımı KISaLıM 𐰶𐰃𐰽𐰞𐰢'dan -alım eki düşürülerek kuruldu, yalın biçim korpusta tanıklı değil; KISDıM'da ilk tamga 𐰴 varyantı · «yok etmek» öbeğin anlamı, fiilin değil",
     "bicimler": [
       {
         "runik": "𐰶𐰃𐰽𐰞𐰢",
@@ -5134,8 +5127,15 @@
           "TY1-G-4",
           "TY1-D-4"
         ]
+      },
+      {
+        "runik": "𐰴𐰃𐰽𐰑𐰢",
+        "transkripsiyon": "KISDıM",
+        "siklik": 1,
+        "dizeler": [
+          "TY1-B-6"
+        ]
       }
-    ],
-    "runikNotu": "yazım korpusta tanıklı: KISaLıM 𐰶𐰃𐰽𐰞𐰢 ×2 · kök yazımı KISaLıM 𐰶𐰃𐰽𐰞𐰢'dan -lım eki (𐰞𐰢) düşürülerek kuruldu; yalın biçim korpusta tanıklı değil"
+    ]
   }
 ]

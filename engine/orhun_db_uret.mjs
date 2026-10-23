@@ -1,11 +1,22 @@
 // Orhun yazıtları veri tabanı üretici.
 // Kaynak: turkbitig.com ham HTML (05_Kaynak_DB/ham/turkbitig/*.html) — runik metin Unicode olarak sitede mevcut.
 // Runik diziler kaynaktan AYNEN alınır; hiçbir tamga üretilmez veya değiştirilmez.
+//
+// DİKKAT — YIKICI. orhun-db-v1.json'daki Türkçe çeviriler o günden bu yana
+// elle düzeltildi (akıcı çeviri, Tekin yazımı). Bu betik onları ham sözcük
+// hizalı dizelerle EZER: 23.10.2026'da ölçüldüğünde 214 dizenin 138'i
+// değişiyordu ("Tanrı gibi ve Tanrı'dan olmuş Türk Bilge Hakan…" yerine
+// "TANRI : DEK : TANRIDAN : OLMUŞ…"), TÜRÜK de TÜRK oluyordu.
+// Bu yüzden varsayılan olarak yalnızca sağlama yapar; dosyayı yazmak için
+// --yaz gerekiyor ve yazmadan önce çevirilerin korunduğu doğrulanmalı.
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { yamaUygula, yamalariOku } from "./orhun-tara.mjs";
 
-const ROOT = "E:/Gokturkce_kursu";
+// Depo kökü betiğin konumundan bulunur; sabit sürücü yolu taşınmıyordu.
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const YAZ = process.argv.includes("--yaz");
 const HAM = path.join(ROOT, "05_Kaynak_DB/ham/turkbitig");
 const OUT = path.join(ROOT, "05_Kaynak_DB/orhun-db-v1.json");
 
@@ -97,5 +108,15 @@ const db = {
   notlar: [`DÜZELTME: ${yamalar.length} kelimelik dizgi düzeltmesi 05_Kaynak_DB/orhun-db-duzeltmeler.json'da; dize başına 'duzeltmeler' alanı.`],
   dizeler: kayitlar,
 };
-fs.writeFileSync(OUT, JSON.stringify(db, null, 1), "utf8");
-console.log(`Yazıldı: ${OUT} | ${kayitlar.length} dize | ${tamgalar.size} farklı tamga | uyuşmazlık: ${uyari}`);
+const ozet = `${kayitlar.length} dize | ${tamgalar.size} farklı tamga | uyuşmazlık: ${uyari}`;
+if (!YAZ) {
+  console.log(`SAĞLAMA (dosya yazılmadı): ${ozet}`);
+  console.log(
+    "Yazmak için --yaz. Uyarı: bu, orhun-db-v1.json'daki elle düzeltilmiş\n" +
+      "Türkçe çevirileri ham sözcük hizalı dizelerle ezer. Yazdıktan sonra\n" +
+      "git diff ile çevirilerin korunduğunu doğrula."
+  );
+} else {
+  fs.writeFileSync(OUT, JSON.stringify(db, null, 1), "utf8");
+  console.log(`Yazıldı: ${OUT} | ${ozet}`);
+}
