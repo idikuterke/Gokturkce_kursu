@@ -213,6 +213,36 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     console.log(`Bilge Alp sözleri     : ${kullanilan.length} sözcük bağı, hepsi onaylı sözlükten`);
   }
 
+  // PDF kütüphanesi: her bağlantının dosyası var mı, eğitmen belgeleri
+  // öğrenciye kapalı mı? Dokuz bağlantının sekizi sessizce 404 veriyordu;
+  // cevap anahtarı ile eğitmen kılavuzu da öğrenci menüsünde duruyordu.
+  const belgelerYolu = P("src/components/BelgelerView.tsx");
+  const pdfDizin = P("public/pdf");
+  if (fs.existsSync(belgelerYolu) && fs.existsSync(pdfDizin)) {
+    const kaynak = fs.readFileSync(belgelerYolu, "utf8");
+    const diskte = new Set(fs.readdirSync(pdfDizin));
+    // Her madde kendi bloğunda: filename ve (varsa) egitmen bayrağı birlikte.
+    const kayitlar = kaynak
+      .split(/\n\s*\{\s*\n/)
+      .map((blok) => {
+        const ad = blok.match(/filename:\s*'([^']+\.pdf)'/);
+        return ad ? { ad: ad[1], egitmen: /egitmen:\s*true/.test(blok) } : null;
+      })
+      .filter(Boolean);
+    if (!kayitlar.length) g.hatalar.push("BelgelerView: PDF kaydı okunamadı — denetim boşa çalışıyor");
+    for (const k of kayitlar)
+      if (!diskte.has(k.ad)) g.hatalar.push(`BelgelerView: public/pdf/${k.ad} yok — bağlantı 404`);
+    // Adında bunlar geçen dosya öğrenciye gösterilmemeli.
+    const kapali = /Egitmen_Kilavuzu|Cevap_Anahtari/i;
+    for (const k of kayitlar)
+      if (kapali.test(k.ad) && !k.egitmen)
+        g.hatalar.push(`BelgelerView: ${k.ad} eğitmen belgesi ama egitmen bayrağı yok — öğrenciye görünür`);
+    if (!/documents\.filter\(\(doc\) => !doc\.egitmen\)/.test(kaynak))
+      g.hatalar.push("BelgelerView: egitmen süzgeci kaldırılmış — eğitmen belgeleri listeleniyor");
+    const gizli = kayitlar.filter((k) => k.egitmen).length;
+    console.log(`PDF kütüphanesi       : ${kayitlar.length} belge, hepsi diskte | ${gizli} eğitmen belgesi öğrenciye kapalı`);
+  }
+
   for (const f of ["Gokturkce_Kurs_Teklifi_Revize.md", "Gokturkce_Kurs_Teklifi_Revize.html", "brosur-a5.html"])
     if (fs.existsSync(P(f))) { g.tersSiraDenetle(fs.readFileSync(P(f), "utf8"), f); g.ciktiDenetle(fs.readFileSync(P(f), "utf8"), f); }
   console.log(`kaynak tamga kümesi: ${g.kaynak.size} | Noto cmap: ${g.cmap.size} kod noktası | sözlük: ${Object.keys(g.sozluk).length} kelime | orhun-db taraması: ${g.orhunTaramasi.sapma} gerekçeli sapma (kalan istisna)`);

@@ -11,7 +11,7 @@ import { Lesson, UserProgress, DailyQuest, QuestCategory, TamgaItem } from './ty
 import { Badge } from './data/badgesData';
 import { playSuccessSound, playVictoryFanfare } from './utils/audio';
 import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQuests';
-import { formatDateToKey, getInitialActivityHistory } from './utils/statsUtils';
+import { formatDateToKey, getInitialActivityHistory, yeniSeri } from './utils/statsUtils';
 import { sonucGonder, kuyrukTasi } from './utils/sonucGonder';
 import { useCloudProgress } from './hooks/useCloudProgress';
 import { AuthModal } from './components/AuthModal';
@@ -52,8 +52,23 @@ const INITIAL_PROGRESS: UserProgress = {
   completedLessons: {},
   rank: 'Er',
   dailyQuests: ensureDailyQuests(),
-  learnedWords: { tengri: true, turuk: true, kagan: true },
-  activityHistory: getInitialActivityHistory(1)
+  // Hiçbir sözcük önceden "öğrenilmiş" sayılmaz; grafik de boş başlar.
+  // Eskiden üç sözcük işaretli, grafik örnek veriyle doluydu.
+  learnedWords: {},
+  activityHistory: getInitialActivityHistory()
+};
+
+/**
+ * Eski sürüm, yeni kullanıcıya örnek etkinlik geçmişi ve üç "öğrenilmiş"
+ * sözcük yazıyordu. O veri tarayıcılarda duruyor. Hiç ders bitirmemiş ve
+ * hiç XP kazanmamış bir profilde geçmişte ne varsa uydurmadır: temizlenir.
+ * Gerçek ilerlemesi olan kullanıcıya dokunulmaz.
+ */
+const temizlenmisBaslangic = (parsed: Partial<UserProgress>): Partial<UserProgress> => {
+  const dokunulmamis =
+    !parsed.xp && Object.keys(parsed.completedLessons ?? {}).length === 0;
+  if (!dokunulmamis) return {};
+  return { activityHistory: getInitialActivityHistory(), learnedWords: {}, streak: 1 };
 };
 
 export const App: React.FC = () => {
@@ -167,6 +182,7 @@ export const App: React.FC = () => {
         const parsed = JSON.parse(saved);
         return {
           ...parsed,
+          ...temizlenmisBaslangic(parsed),
           dailyQuests: ensureDailyQuests(parsed.dailyQuests)
         };
       }
@@ -221,7 +237,7 @@ export const App: React.FC = () => {
     const dayName = dayNames[new Date().getDay()];
 
     setProgress(prev => {
-      const history = prev.activityHistory ? { ...prev.activityHistory } : getInitialActivityHistory(prev.streak);
+      const history = prev.activityHistory ? { ...prev.activityHistory } : getInitialActivityHistory();
       const currentDay = history[todayKey] || {
         date: todayKey,
         dayName,
@@ -237,9 +253,13 @@ export const App: React.FC = () => {
         wordsLearned: currentDay.wordsLearned + wordsGained
       };
 
+      // Seri ve son etkinlik tarihi burada güncelleniyor: etkinlik
+      // kaydedilen tek yer burası.
       return {
         ...prev,
-        activityHistory: history
+        activityHistory: history,
+        streak: yeniSeri(prev.streak, prev.lastActiveDate),
+        lastActiveDate: new Date().toISOString(),
       };
     });
   };

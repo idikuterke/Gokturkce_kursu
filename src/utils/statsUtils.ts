@@ -25,43 +25,43 @@ export const getPastDaysList = (daysCount = 7): { date: string; dayName: string;
   return result;
 };
 
-// Generates an initial realistic history if user has zero history yet (e.g. initial streak)
-export const getInitialActivityHistory = (currentStreak = 1): Record<string, DayActivity> => {
-  const pastDays = getPastDaysList(14);
+/**
+ * Son 14 günün BOŞ çerçevesi. Eskiden buraya örnek veri yazılıyordu
+ * (35 XP, 2 kelime, 1 ders…); yeni kullanıcı hiç çalışmadan grafiğinde
+ * çalışmış görünüyordu. Ölçme geçerliliğini doğrudan bozuyordu:
+ * ön test / son test karşılaştırmasında başlangıç değeri sahteydi.
+ * Artık gerçekten sıfırdan başlıyor.
+ */
+export const getInitialActivityHistory = (): Record<string, DayActivity> => {
   const history: Record<string, DayActivity> = {};
-
-  // Fill default empty for all past 14 days
-  pastDays.forEach(day => {
+  for (const day of getPastDaysList(14)) {
     history[day.date] = {
       date: day.date,
       dayName: day.dayName,
       xp: 0,
       lessonsCompleted: 0,
-      wordsLearned: 0
+      wordsLearned: 0,
     };
-  });
-
-  // For the active streak days ending today, add some realistic learning history
-  const activeStreakLen = Math.min(pastDays.length, Math.max(1, currentStreak));
-  const sampleXp = [35, 50, 40, 65, 80, 55, 70];
-  const sampleWords = [2, 4, 3, 5, 6, 3, 4];
-  const sampleLessons = [1, 2, 1, 2, 3, 1, 2];
-
-  for (let i = 0; i < activeStreakLen; i++) {
-    const dayIndex = pastDays.length - 1 - i;
-    const day = pastDays[dayIndex];
-    if (day) {
-      history[day.date] = {
-        date: day.date,
-        dayName: day.dayName,
-        xp: sampleXp[i % sampleXp.length],
-        lessonsCompleted: sampleLessons[i % sampleLessons.length],
-        wordsLearned: sampleWords[i % sampleWords.length]
-      };
-    }
   }
-
   return history;
+};
+
+/**
+ * Seri (streak) hesabı. Eskiden hiçbir yerde artmıyordu, hep 1'de
+ * kalıyordu: ekranda gösterilen sayı ölçüm değil süstü.
+ *
+ * Aynı gün içindeki ikinci çalışma seriyi artırmaz; dün çalışılmışsa
+ * bir artar; arada boş gün varsa 1'e döner.
+ */
+export const yeniSeri = (oncekiSeri: number, sonEtkinlik?: string, simdi = new Date()): number => {
+  if (!sonEtkinlik) return 1;
+  const onceki = new Date(sonEtkinlik);
+  if (Number.isNaN(onceki.getTime())) return 1;
+  const gun = (d: Date) => Date.UTC(d.getFullYear(), d.getMonth(), d.getDate());
+  const fark = Math.round((gun(simdi) - gun(onceki)) / 86400000);
+  if (fark <= 0) return Math.max(1, oncekiSeri);
+  if (fark === 1) return Math.max(1, oncekiSeri) + 1;
+  return 1;
 };
 
 export const getWeeklyChartData = (

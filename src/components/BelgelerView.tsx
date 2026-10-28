@@ -1,12 +1,32 @@
 import React from 'react';
 import { FileText, Download, ExternalLink, BookOpen, CheckCircle, Sparkles } from 'lucide-react';
 
+/**
+ * Kurs arşivi. filename, public/pdf/ içindeki dosya adıyla BİREBİR
+ * aynı olmalı — eşleşmeyen ad sessizce 404 veriyordu; engine/kapi.mjs
+ * artık bunu denetliyor.
+ *
+ * egitmen: true olan belgeler öğrenciye GÖSTERİLMEZ (README: "Eğitmen
+ * kılavuzu ve cevap anahtarı pakete girmez"). Kayıt listede kalıyor ki
+ * dosyanın varlığı ve neden gizlendiği görünür olsun.
+ */
+type Belge = {
+  id: string;
+  title: string;
+  filename: string;
+  size: string;
+  desc: string;
+  category: string;
+  egitmen?: boolean;
+};
+
 export const BelgelerView: React.FC = () => {
-  const documents = [
+  const documents: Belge[] = [
     {
       id: '01',
-      title: 'Ders Kitapçığı',
-      filename: '01_Ders_Kitapcigi.pdf',
+      title: 'Kurs Kitapçığı — Eğitmen Kılavuzu',
+      filename: '01_Kurs_Kitapcigi_Egitmen_Kilavuzu.pdf',
+      egitmen: true,
       size: 'A4 Baskı Formatı',
       desc: 'Tarihçe, 38 ana tamga, kutupluluk kuralları ve adım adım okuma-yazma rehberi.',
       category: 'Temel Kaynak'
@@ -22,7 +42,7 @@ export const BelgelerView: React.FC = () => {
     {
       id: '03',
       title: 'Tamga Albümü',
-      filename: '03_Tamga_Albumu.pdf',
+      filename: '03_Tamga_Albumu_Harf_Kartlari.pdf',
       size: 'Görsel Katalog',
       desc: 'Tüm Göktürk tamgalarının yüksek çözünürlüklü vektörel formları ve fonetik değerleri.',
       category: 'Katalog'
@@ -30,7 +50,7 @@ export const BelgelerView: React.FC = () => {
     {
       id: '04',
       title: 'Irk Bitig İnceleme Föyü',
-      filename: '04_Irk_Bitig_Foyu.pdf',
+      filename: '04_Irk_Bitig_Okuma_Foyu.pdf',
       size: 'El Yazması Tahlili',
       desc: '9. yüzyıl Uygur dönemi kağıt el yazması fal metinlerinin transkripsiyonu ve sözlüğü.',
       category: 'İleri Seviye'
@@ -38,7 +58,7 @@ export const BelgelerView: React.FC = () => {
     {
       id: '05',
       title: 'Ek Üniteler',
-      filename: '05_Ek_Uniteler.pdf',
+      filename: '05_Ek_Uniteler_Foyu.pdf',
       size: 'Metin İncelemeleri',
       desc: 'Tonyukuk ve Bilge Kağan yazıtlarının kapsamlı dilbilgisel ve tarihsel çözümlemeleri.',
       category: 'Gramer'
@@ -46,7 +66,7 @@ export const BelgelerView: React.FC = () => {
     {
       id: '06',
       title: 'Kazanım ve Değerlendirme',
-      filename: '06_Degerlendirme.pdf',
+      filename: '06_Degerlendirme_Seti.pdf',
       size: 'Ölçme & Değerlendirme',
       desc: 'Her ünite sonu için hazırlanan çoktan seçmeli ve eşleştirmeli kazanım testleri.',
       category: 'Sınav'
@@ -54,7 +74,7 @@ export const BelgelerView: React.FC = () => {
     {
       id: '07',
       title: 'Sertifika Bitirme Sınavı',
-      filename: '07_Sinav.pdf',
+      filename: '07_Bitirme_Sinavi.pdf',
       size: 'Resmi Sınav',
       desc: 'Kurs bitiminde uygulanan 25 soruluk kapsamlı Göktürkçe yeterlilik sınavı.',
       category: 'Sınav'
@@ -62,7 +82,8 @@ export const BelgelerView: React.FC = () => {
     {
       id: '08',
       title: 'Sınav Cevap Anahtarı',
-      filename: '08_Sinav_Cevap_Anahtari.pdf',
+      filename: '07b_Bitirme_Sinavi_Cevap_Anahtari.pdf',
+      egitmen: true,
       size: 'Eğitmen Notu',
       desc: 'Sertifika sınavı sorularının ayrıntılı çözümleri ve puanlama yönergesi.',
       category: 'Eğitmen'
@@ -70,7 +91,7 @@ export const BelgelerView: React.FC = () => {
     {
       id: '09',
       title: 'Cüzdan ve Masa Kartı',
-      filename: '09_Cuzdan_Karti.pdf',
+      filename: '08_Cuzdan_Karti_A6.pdf',
       size: 'Hızlı Başvuru Kartı',
       desc: 'Cepte veya masada taşınabilir minik Göktürk alfabe tablosu ve imla özeti.',
       category: 'Pratik'
@@ -94,7 +115,7 @@ export const BelgelerView: React.FC = () => {
 
       {/* Grid of PDF cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {documents.map((doc) => (
+        {documents.filter((doc) => !doc.egitmen).map((doc) => (
           <div
             key={doc.id}
             className="bg-zemin-2 border border-zemin-4 hover:border-marka rounded-2xl p-6 flex flex-col justify-between transition-all duration-200 hover:-translate-y-1 shadow-xl shadow-black/20"
