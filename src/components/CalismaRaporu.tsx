@@ -3,6 +3,7 @@ import { Download, FileText, ShieldCheck } from 'lucide-react';
 import { Unit, UserProgress, OgrenciProfili } from '../types';
 import { LeitnerDurumu } from '../utils/leitner';
 import { raporKur, raporCsv, raporDosyaAdi } from '../utils/rapor';
+import { yansimalariOku } from '../utils/yansima';
 
 /**
  * ÇALIŞMA RAPORU PANELİ — eğitmen görünürlüğü (ISO 29993 §13)
@@ -44,6 +45,7 @@ export const CalismaRaporu: React.FC<CalismaRaporuProps> = ({
     }
   });
   const [sonIndirme, setSonIndirme] = useState<string | null>(null);
+  const yansimaSayisi = yansimalariOku().length;
 
   const kodSakla = (yeni: string) => {
     setKod(yeni);
@@ -55,7 +57,16 @@ export const CalismaRaporu: React.FC<CalismaRaporuProps> = ({
   };
 
   const indir = (bicim: 'json' | 'csv') => {
-    const rapor = raporKur(kod, progress, profil ?? null, uniteler, leitner);
+    let gorevler: Record<string, string> = {};
+    try {
+      gorevler = JSON.parse(localStorage.getItem('gokturkce_gorevler_v1') ?? '{}');
+    } catch {
+      gorevler = {};
+    }
+    const rapor = raporKur(kod, progress, profil ?? null, uniteler, leitner, {
+      yansimalar: yansimalariOku(),
+      gorevler,
+    });
     const icerik =
       bicim === 'json' ? JSON.stringify(rapor, null, 2) : raporCsv(rapor);
     const tur = bicim === 'json' ? 'application/json' : 'text/csv';
@@ -137,6 +148,13 @@ export const CalismaRaporu: React.FC<CalismaRaporuProps> = ({
           Dosyada <strong className="text-metin-2">ad, e-posta, cihaz ya da IP yok</strong>;
           yalnız yazdığın katılımcı kodu var. Veri kendiliğinden hiçbir yere
           gönderilmiyor — gönderip göndermemeye sen karar veriyorsun.
+          {yansimaSayisi > 0 && (
+            <>
+              {' '}Ders sonlarında yazdığın <strong className="text-metin-2">{yansimaSayisi} not</strong>{' '}
+              da rapora giriyor; serbest metin olduğu için içlerinde ad geçiyorsa
+              o da dosyaya girer.
+            </>
+          )}
         </span>
       </p>
     </section>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flame, Zap, Heart, BookOpen, Compass, Layers, BarChart2, Target, Menu, X, ChevronDown, UserCircle2, LogOut, CloudOff } from 'lucide-react';
+import { Flame, Zap, Heart, BookOpen, Compass, Layers, BarChart2, Target, Menu, X, ChevronDown, UserCircle2, LogOut, CloudOff, Hammer } from 'lucide-react';
 import { UserProgress } from '../types';
 import { useAuth } from '../context/AuthContext';
 
@@ -28,6 +28,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'ogren', label: 'Öğren', icon: Compass },
     { id: 'alistirma', label: 'Alıştırma', icon: Layers },
     { id: 'kesfet', label: 'Keşfet', icon: BookOpen },
+    { id: 'gorevler', label: 'Görevler', icon: Hammer },
     { id: 'istatistik', label: 'Profil', icon: BarChart2 },
   ];
 

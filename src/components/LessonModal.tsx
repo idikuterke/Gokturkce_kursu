@@ -6,6 +6,7 @@ import { playChiselSound, playSuccessSound, playErrorSound, playVictoryFanfare }
 import { shuffle, shuffleDistinct } from '../utils/shuffle';
 import { speakTamgaOrWord } from '../utils/speech';
 import { BilgeAlp } from './BilgeAlp';
+import { yansimaEkle, EN_UZUN } from '../utils/yansima';
 import { bilgeSozu } from '../data/bilgeSozleri';
 
 interface LessonModalProps {
@@ -114,6 +115,9 @@ export const LessonModal: React.FC<LessonModalProps> = ({
    * hatasını düzeltmekten alıkoymak öğretmez, yalnız cezalandırır.
    */
   const [onarimTuru, setOnarimTuru] = useState(false);
+  /** Ders sonu yansıtma notu; isteğe bağlı. */
+  const [yansima, setYansima] = useState('');
+  const [yansimaKaydedildi, setYansimaKaydedildi] = useState(false);
 
   const currentExercise: Exercise = queue[currentIndex];
   const progressPercent = Math.round((currentIndex / queue.length) * 100);
@@ -373,6 +377,40 @@ export const LessonModal: React.FC<LessonModalProps> = ({
               {onarimTuru ? ' — onarım turuyla bitirdin' : ''}
             </p>
           )}
+
+          {/* Yansıtma notu: tek soru, isteğe bağlı. Zorunlu tutmak dersin
+              önüne bir engel daha koymak olurdu. */}
+          <div className="text-left space-y-2 pt-2 border-t border-zemin-4">
+            <label htmlFor="yansima-notu" className="block text-xs font-bold text-metin-2">
+              Bugün en çok ne zorladı?
+            </label>
+            <textarea
+              id="yansima-notu"
+              value={yansima}
+              onChange={(e) => { setYansima(e.target.value); setYansimaKaydedildi(false); }}
+              maxLength={EN_UZUN}
+              rows={2}
+              placeholder="İstersen bir cümle yaz, istersen geç."
+              aria-describedby="yansima-aciklama"
+              className="w-full px-3 py-2.5 rounded-xl bg-zemin-3 border border-zemin-4 text-white text-sm placeholder:text-metin-4 focus:border-marka focus:outline-none transition-colors resize-none"
+            />
+            <div className="flex items-center justify-between gap-3">
+              <p id="yansima-aciklama" className="text-[11px] text-metin-3">
+                Notların yalnız sende; çalışma raporuna giriyor.
+              </p>
+              <button
+                type="button"
+                disabled={!yansima.trim() || yansimaKaydedildi}
+                onClick={() => {
+                  yansimaEkle({ dersId: lesson.id, dersAdi: lesson.title, tarih: new Date().toISOString(), metin: yansima });
+                  setYansimaKaydedildi(true);
+                }}
+                className="shrink-0 py-2 px-3 rounded-xl bg-zemin-3 border border-zemin-4 text-metin-2 hover:text-white disabled:opacity-40 disabled:cursor-not-allowed text-xs font-bold transition-colors"
+              >
+                {yansimaKaydedildi ? 'Kaydedildi' : 'Kaydet'}
+              </button>
+            </div>
+          </div>
 
           <button
             onClick={onClose}

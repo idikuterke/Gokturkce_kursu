@@ -16,6 +16,7 @@ import { sonucGonder, kuyrukTasi } from './utils/sonucGonder';
 import { useCloudProgress } from './hooks/useCloudProgress';
 import { AuthModal } from './components/AuthModal';
 import { GirisKapisi } from './components/GirisKapisi';
+import { GorevlerView } from './components/GorevlerView';
 import { uretilmisKusaklar } from './data/generated/kusakKur';
 import { gundelikKusaklar } from './data/generated/gundelikKusak';
 import { sayiKusaklar } from './data/generated/sayiKusak';
@@ -644,6 +645,10 @@ export const App: React.FC = () => {
             wordsLearnedCount={wordsLearnedCount}
             learnedWordsRecord={progress.learnedWords}
           />
+        )}
+
+        {currentTab === 'gorevler' && (
+          <GorevlerView profil={profil} onAracaGit={(sekme) => handleTabChange(sekme)} />
         )}
 
         {currentTab === 'istatistik' && (

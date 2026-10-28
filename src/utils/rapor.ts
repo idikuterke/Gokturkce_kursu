@@ -1,6 +1,7 @@
 import { Unit, UserProgress, OgrenciProfili, KazanimKodu } from '../types';
 import { LeitnerDurumu, kutuDagilimi, KUTU_SAYISI } from './leitner';
 import { dersKazanimlari } from '../data/kazanimlar';
+import { YansimaNotu } from './yansima';
 import { TAMGALAR } from '../data/tamgalarData';
 
 /**
@@ -53,6 +54,15 @@ export interface CalismaRaporu {
   tamgaKutulari: number[];
   /** Gün gün etkinlik; boş günler de duruyor ki devamsızlık görünsün. */
   gunluk: { tarih: string; xp: number; ders: number; sozcuk: number }[];
+  /**
+   * Ders sonu yansıtma notları. SERBEST METİN: öğrenci kendi adını ya da
+   * başka bir kimlik bilgisini yazmış olabilir. Biz ayıklamıyoruz —
+   * sessizce kırpılan not, öğrencinin yazdığını sandığı not olmaz.
+   * Arayüz bunu indirmeden önce söylüyor.
+   */
+  yansimalar: { tarih: string; ders: string; metin: string }[];
+  /** Öğrencinin "yaptım" dediği üretim görevleri. Beyan, ölçüm değil. */
+  gorevler: { id: string; tarih: string }[];
 }
 
 /** Rapor nesnesini kurar. Hiçbir kimlik alanı eklenmez. */
@@ -62,8 +72,12 @@ export const raporKur = (
   profil: OgrenciProfili | null,
   uniteler: Unit[],
   leitner: LeitnerDurumu,
-  simdi = new Date()
+  // Kuyrukta dört konumsal parametre birikmişti ve çağrı yerleri
+  // sessizce kaymaya başladı: tarih, yansıma listesinin yerine geçti.
+  // İsimli seçenek bu sınıf hatayı tipte yakalıyor.
+  ek: { yansimalar?: YansimaNotu[]; gorevler?: Record<string, string>; simdi?: Date } = {}
 ): CalismaRaporu => {
+  const { yansimalar = [], gorevler = {}, simdi = new Date() } = ek;
   const dersler = uniteler.flatMap((u) => u.lessons);
   const tamam = (id: string) => !!progress.completedLessons?.[id];
 
@@ -105,6 +119,8 @@ export const raporKur = (
     gunluk: Object.values(progress.activityHistory ?? {})
       .map((g) => ({ tarih: g.date, xp: g.xp, ders: g.lessonsCompleted, sozcuk: g.wordsLearned }))
       .sort((a, b) => a.tarih.localeCompare(b.tarih)),
+    yansimalar: yansimalar.map((y) => ({ tarih: y.tarih, ders: y.dersAdi, metin: y.metin })),
+    gorevler: Object.entries(gorevler).map(([id, tarih]) => ({ id, tarih })).sort((a, b) => a.id.localeCompare(b.id)),
   };
 };
 
@@ -140,6 +156,8 @@ export const raporCsv = (r: CalismaRaporu): string => {
   for (const k of r.kazanimlar) ekle('kazanim', k.kod, `${k.tamamlanan}/${k.ders}`);
   r.tamgaKutulari.forEach((n, i) => ekle('tamgaKutusu', `${i + 1}. kutu`, n));
   for (const g of r.gunluk) ekle('gunluk', g.tarih, `xp=${g.xp};ders=${g.ders};sozcuk=${g.sozcuk}`);
+  for (const y of r.yansimalar) ekle('yansima', `${y.tarih.slice(0, 10)} · ${y.ders}`, y.metin);
+  for (const g of r.gorevler) ekle('gorev', g.id, g.tarih.slice(0, 10));
 
   return '﻿' + satir.join('\r\n');
 };

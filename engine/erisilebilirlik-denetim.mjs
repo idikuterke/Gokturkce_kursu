@@ -26,7 +26,7 @@ import { fileURLToPath } from "node:url";
 
 const KOK = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PORT = Number(process.env.ERISIM_PORT ?? 4199);
-const EKRANLAR = ["Öğren", "Alıştırma", "Keşfet", "Profil"];
+const EKRANLAR = ["Öğren", "Alıştırma", "Keşfet", "Görevler", "Profil"];
 
 const { chromium } = await import("/opt/node-tools/node_modules/playwright/index.mjs").catch(
   () => import("playwright")
