@@ -101,6 +101,8 @@ function alistirmayaCevir(k: GundelikKelime, havuz: GundelikKelime[]): Exercise 
   return {
     id: k.id,
     type: 'choice',
+    // İmla: sözcüğü tamgalarla yazma.
+    kazanim: ['K4'],
     prompt: `"${k.kelime}" sözcüğü Göktürk harfleriyle nasıl yazılır?`,
     ...(sayiIpucu ? { subprompt: `${k.tamgaSayisi} tamga` } : {}),
     options: karistir([k.runik, ...yanlislar]),

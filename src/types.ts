@@ -6,9 +6,18 @@ export type ExerciseType =
   | 'translation' 
   | 'identify_rule';
 
+/**
+ * Ölçme planındaki kazanım kodları (docs/olcme/olcme-plani.md).
+ * Ön test / son test formları da bu kodlara göre kuruluyor; ders kartı
+ * ile ölçüm aynı tabloyu kullanırsa ikisi ayrışmaz.
+ */
+export type KazanimKodu = 'K1' | 'K2' | 'K3' | 'K4' | 'K5' | 'K6' | 'K7' | 'K8';
+
 export interface Exercise {
   id: string;
   type: ExerciseType;
+  /** Bu alıştırmanın ölçtüğü kazanım(lar). Üretim noktasında yazılır. */
+  kazanim?: KazanimKodu[];
   prompt: string;
   subprompt?: string;
   runePrompt?: string;

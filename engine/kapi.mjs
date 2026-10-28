@@ -213,6 +213,40 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     console.log(`Bilge Alp sözleri     : ${kullanilan.length} sözcük bağı, hepsi onaylı sözlükten`);
   }
 
+  // Kazanım tablosu ölçme planıyla aynı mı? Ders kartı ile ön/son test
+  // aynı sekiz kazanımı kullanıyor; ikisi ayrışırsa "derste öğrendiğim"
+  // ile "testte ölçülen" birbirini tutmaz.
+  const kazanimYolu = P("src/data/kazanimlar.ts");
+  const planYolu = P("docs/olcme/olcme-plani.md");
+  if (fs.existsSync(kazanimYolu) && fs.existsSync(planYolu)) {
+    const kod = fs.readFileSync(kazanimYolu, "utf8");
+    const plan = fs.readFileSync(planYolu, "utf8");
+    // Plandaki satırlar: | K1 | Ünlü tamgasını tanıma | 2 | 1/5 |
+    const planTablo = new Map(
+      [...plan.matchAll(/^\|\s*(K\d)\s*\|\s*([^|]+?)\s*\|[^|]*\|\s*(\d)\/5\s*\|/gm)].map(
+        (m) => [m[1], { tanim: m[2], zorluk: Number(m[3]) }]
+      )
+    );
+    const kodTablo = new Map(
+      [...kod.matchAll(/kod: '(K\d)',\s*\n\s*tanim: '([^']+)',[\s\S]*?zorluk: (\d),/g)].map(
+        (m) => [m[1], { tanim: m[2], zorluk: Number(m[3]) }]
+      )
+    );
+    if (!planTablo.size) g.hatalar.push("kazanım: ölçme planındaki tablo okunamadı — denetim boşa çalışıyor");
+    if (!kodTablo.size) g.hatalar.push("kazanım: kazanimlar.ts okunamadı — denetim boşa çalışıyor");
+    for (const [k, p1] of planTablo) {
+      const p2 = kodTablo.get(k);
+      if (!p2) { g.hatalar.push(`kazanım ${k}: ölçme planında var, kazanimlar.ts'te yok`); continue; }
+      if (p2.tanim !== p1.tanim)
+        g.hatalar.push(`kazanım ${k}: tanım ayrışmış — plan "${p1.tanim}", kod "${p2.tanim}"`);
+      if (p2.zorluk !== p1.zorluk)
+        g.hatalar.push(`kazanım ${k}: zorluk ayrışmış — plan ${p1.zorluk}, kod ${p2.zorluk}`);
+    }
+    for (const k of kodTablo.keys())
+      if (!planTablo.has(k)) g.hatalar.push(`kazanım ${k}: kazanimlar.ts'te var, ölçme planında yok`);
+    console.log(`kazanım tablosu       : ${planTablo.size} kazanım, ölçme planıyla birebir`);
+  }
+
   // PDF kütüphanesi: her bağlantının dosyası var mı, eğitmen belgeleri
   // öğrenciye kapalı mı? Dokuz bağlantının sekizi sessizce 404 veriyordu;
   // cevap anahtarı ile eğitmen kılavuzu da öğrenci menüsünde duruyordu.

@@ -25,6 +25,8 @@ const alistirmayaCevir = (
     return {
       id: a.id,
       type: 'choice',
+      // Yazıt sözcüğünü okuma.
+      kazanim: ['K6'],
       prompt: 'Bu kelimenin okunuşu hangisidir?',
       subprompt: `Kaynak: ${a.kaynak}`,
       runePrompt: a.runik,
@@ -42,6 +44,8 @@ const alistirmayaCevir = (
     return {
       id: a.id,
       type: 'choice',
+      // Sözcük anlamı.
+      kazanim: ['K7'],
       prompt: `"${a.transkripsiyon}" kelimesi ne anlama geliyor?`,
       subprompt: a.kaynak !== '—' ? `Kaynak: ${a.kaynak}` : undefined,
       runePrompt: a.runik,
@@ -80,6 +84,8 @@ const alistirmayaCevir = (
     return {
       id: a.id,
       type: 'choice',
+      // Yazıt pasajını okuma.
+      kazanim: ['K8'],
       prompt: 'Bu kitabe satırının okunuşu hangisidir?',
       subprompt: undefined,
       runePrompt: a.runik,
@@ -96,6 +102,8 @@ const alistirmayaCevir = (
   return {
     id: a.id,
     type: 'word_builder',
+    // İmla: sözcüğü tamgalarla yazma.
+    kazanim: ['K4'],
     prompt: `Tamgaları SAĞDAN SOLA dizerek "${a.transkripsiyon}" kelimesini oluşturun`,
     subprompt: `Kaynak: ${a.kaynak}`,
     targetWord: {

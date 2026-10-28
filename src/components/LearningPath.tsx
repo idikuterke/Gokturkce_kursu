@@ -7,6 +7,7 @@ import {
 import { Unit, Lesson, UserProgress, TamgaItem } from '../types';
 import { BilgeAlp } from './BilgeAlp';
 import { TAMGALAR } from '../data/tamgalarData';
+import { dersKazanimlari } from '../data/kazanimlar';
 import { playChiselSound, playSuccessSound, playVictoryFanfare } from '../utils/audio';
 import { DailyQuestsWidget } from './DailyQuestsWidget';
 import { GununTamgasiModal } from './GununTamgasiModal';
@@ -502,6 +503,43 @@ export const LearningPath: React.FC<LearningPathProps> = ({
               <h3 className="text-xl font-bold text-white font-serif">{selectedLesson.title}</h3>
               <p className="text-xs text-metin-4">{selectedLesson.subtitle}</p>
             </div>
+
+            {/* Bu derste neler yapabileceksin — ölçme planındaki kazanımlar
+                (docs/olcme/olcme-plani.md). Kazanımı olmayan derste kart
+                çıkmaz: boş kartı uydurma cümleyle doldurmuyoruz. */}
+            {(() => {
+              const kazanimlar = dersKazanimlari(selectedLesson);
+              if (!kazanimlar.length) return null;
+              return (
+                <section
+                  aria-labelledby="ders-kazanim-baslik"
+                  className="p-3.5 rounded-2xl bg-[#07171B] border border-[#163840] space-y-2"
+                >
+                  <h4
+                    id="ders-kazanim-baslik"
+                    className="text-[10px] font-bold uppercase tracking-widest text-marka-acik"
+                  >
+                    Bu derste neler yapabileceksin
+                  </h4>
+                  <ul className="space-y-1.5">
+                    {kazanimlar.map((k) => (
+                      <li key={k.kod} className="flex items-start gap-2 text-xs text-[#CBD5E1]">
+                        <CheckCircle2
+                          className="w-3.5 h-3.5 text-marka shrink-0 mt-px"
+                          aria-hidden="true"
+                        />
+                        <span>
+                          {k.fiil}
+                          <span className="text-metin-4 font-mono ml-1.5" title={k.tanim}>
+                            {k.kod}
+                          </span>
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              );
+            })()}
 
             <div className="p-3.5 rounded-2xl bg-[#07171B] border border-[#163840] flex items-center justify-between text-xs text-[#CBD5E1]">
               <span>Toplam Soru:</span>

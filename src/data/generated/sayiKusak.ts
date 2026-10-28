@@ -101,6 +101,7 @@ function degerSorusu(o: SayiOgesi, hepsi: SayiOgesi[]): Exercise | null {
   return {
     id: `${o.id}-deger`,
     type: 'choice',
+    kazanim: ['K5'],
     prompt: `“${duzMetin(o.okunus)}” kaç eder?`,
     options: karistir([o.deger, ...yanlislar].map(String)),
     correctAnswer: String(o.deger),
@@ -125,6 +126,8 @@ function yazimSorusu(o: SayiOgesi, hepsi: SayiOgesi[]): Exercise | null {
   return {
     id: `${o.id}-yazim`,
     type: 'choice',
+    // Hem sayı mantığı hem imla.
+    kazanim: ['K4', 'K5'],
     prompt: `“${baslik}” Göktürk harfleriyle nasıl yazılır?`,
     options: karistir([o.runik, ...karistir(havuz).slice(0, 3)]),
     correctAnswer: o.runik,
@@ -153,6 +156,7 @@ function soyleyisSorusu(o: SayiOgesi, hepsi: SayiOgesi[]): Exercise | null {
   return {
     id: `${o.id}-soyleyis`,
     type: 'choice',
+    kazanim: ['K5'],
     prompt: `${o.deger} sayısı Orhon Türkçesinde nasıl söylenir?`,
     options: karistir([duzMetin(o.okunus), ...karistir(havuz).map(duzMetin).slice(0, 3)]),
     correctAnswer: duzMetin(o.okunus),
@@ -169,6 +173,7 @@ function anlamSorusu(o: SayiOgesi, hepsi: SayiOgesi[]): Exercise | null {
   return {
     id: `${o.id}-anlam`,
     type: 'choice',
+    kazanim: ['K5', 'K7'],
     prompt: `“${duzMetin(o.okunus)}” ne demek?`,
     options: karistir([o.anlam, ...karistir(havuz).slice(0, 3)]),
     correctAnswer: o.anlam,

@@ -152,6 +152,8 @@ function okunusSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null {
   return {
     id: `${b.id}-okunus`,
     type: 'choice',
+    // Yazıt pasajını okuma.
+    kazanim: ['K8'],
     prompt: 'Bu pasajın okunuşu hangisidir?',
     runePrompt: b.runik,
     options: karistir([b.okunus, ...karistir(secenekler).slice(0, 3)]),
@@ -185,6 +187,8 @@ function eksikSozcukSorusu(b: KursBirimi, havuz: KursBirimi[]): Exercise | null 
   return {
     id: `${b.id}-eksik`,
     type: 'choice',
+    // Pasaj içinde sözcük tanıma.
+    kazanim: ['K6', 'K8'],
     prompt: `Boşluğa hangi sözcük gelir? (okunuşu: ${okunuslar[yer]})`,
     runePrompt: bosluklu,
     options: karistir([dogru, ...karistir(digerleri).slice(0, 3)]),
