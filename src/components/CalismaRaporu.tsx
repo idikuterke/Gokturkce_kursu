@@ -75,10 +75,10 @@ export const CalismaRaporu: React.FC<CalismaRaporuProps> = ({
       className="rounded-2xl border border-zemin-4 bg-zemin-2 p-5 space-y-4"
     >
       <div>
-        <h3 id="rapor-baslik" className="text-sm font-bold text-white flex items-center gap-2">
+        <h2 id="rapor-baslik" className="text-sm font-bold text-white flex items-center gap-2">
           <FileText className="w-4 h-4 text-marka" aria-hidden="true" />
           Çalışma raporu
-        </h3>
+        </h2>
         <p className="text-xs text-metin-2 mt-1 leading-relaxed">
           İlerlemeni tek dosyaya çıkarır: ihtiyaç analizi yanıtların,
           tamamladığın dersler, kazanım başına ilerleme, tamga kutuların ve

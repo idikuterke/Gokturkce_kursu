@@ -558,6 +558,7 @@ export const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-[#071518] text-metin-acik selection:bg-marka-acik selection:text-derin-5">
       {/* Top Navbar */}
+      <a href="#icerik" className="atla-baglantisi">İçeriğe atla</a>
       <Navbar
         currentTab={currentTab}
         onTabChange={handleTabChange}
@@ -568,7 +569,7 @@ export const App: React.FC = () => {
       />
 
       {/* Main Content Body */}
-      <main className="flex-1 pb-16">
+      <main id="icerik" className="flex-1 pb-16">
         <Suspense fallback={<TabYukleniyor />}>
         {currentTab === 'ogren' && (
           <LearningPath

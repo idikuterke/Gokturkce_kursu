@@ -60,9 +60,9 @@ export const KesfetView: React.FC<KesfetViewProps> = ({
             </span>
             <span className="text-xs text-uyari font-mono">Keşfet & Oku</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-white font-serif">
+          <h1 className="text-2xl sm:text-3xl font-bold text-white font-serif">
             Bengü Taşlar, Kadim Sözler ve Yazıtlar
-          </h2>
+          </h1>
           <p className="text-xs sm:text-sm text-metin-4 leading-relaxed">
             Kül Tigin, Bilge Kağan ve Tonyukuk anıtlarının satırlarını orijinal runik metinleriyle incele, canlı klavye ile yaz ve kaynak eserleri keşfet.
           </p>

@@ -30,6 +30,7 @@ import { TAMGALAR } from '../data/tamgalarData';
 import { GIRIS_SORULARI, ASAMA_ADI, amacCumlesi } from '../data/girisSorulari';
 import { BadgesSection } from './BadgesSection';
 import { CalismaRaporu } from './CalismaRaporu';
+import { YaziBoyutu } from './YaziBoyutu';
 import { LeitnerDurumu } from '../utils/leitner';
 import { Badge } from '../data/badgesData';
 
@@ -84,45 +85,6 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 space-y-8">
-      {uniteler.length > 0 && (
-        <CalismaRaporu progress={progress} profil={profil} uniteler={uniteler} leitner={leitner} />
-      )}
-
-      {/* İhtiyaç analizi: öğrencinin kendi beyanı, ölçüm değil. */}
-      {profil && (
-        <section
-          aria-labelledby="hedef-baslik"
-          className="rounded-2xl border border-zemin-4 bg-zemin-2 p-5"
-        >
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <h3 id="hedef-baslik" className="text-sm font-bold text-white">
-                Neden öğreniyorsun
-              </h3>
-              <p className="text-xs text-metin-2 mt-1">
-                {profil.atlandi
-                  ? 'Giriş sorularını atlamıştın. Yanıtlarsan yol sana göre açılır.'
-                  : amacCumlesi(profil.amaclar)}
-              </p>
-              {!profil.atlandi && (
-                <p className="text-xs text-metin-3 mt-2">
-                  Başlangıç: {ASAMA_ADI[profil.baslangic]}
-                  {sureEtiketi ? ` · Haftalık ${sureEtiketi}` : ''}
-                </p>
-              )}
-            </div>
-            {onProfilDuzenle && (
-              <button
-                type="button"
-                onClick={onProfilDuzenle}
-                className="shrink-0 py-2 px-3 rounded-xl bg-zemin-3 border border-zemin-4 text-metin-2 hover:text-white text-xs font-bold transition-colors"
-              >
-                {profil.atlandi ? 'Yanıtla' : 'Değiştir'}
-              </button>
-            )}
-          </div>
-        </section>
-      )}
       {/* Page Title & Profile Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-derin">
         <div>
@@ -162,6 +124,48 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
           </div>
         </div>
       </div>
+
+      <YaziBoyutu />
+
+      {uniteler.length > 0 && (
+        <CalismaRaporu progress={progress} profil={profil} uniteler={uniteler} leitner={leitner} />
+      )}
+
+      {/* İhtiyaç analizi: öğrencinin kendi beyanı, ölçüm değil. */}
+      {profil && (
+        <section
+          aria-labelledby="hedef-baslik"
+          className="rounded-2xl border border-zemin-4 bg-zemin-2 p-5"
+        >
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h2 id="hedef-baslik" className="text-sm font-bold text-white">
+                Neden öğreniyorsun
+              </h2>
+              <p className="text-xs text-metin-2 mt-1">
+                {profil.atlandi
+                  ? 'Giriş sorularını atlamıştın. Yanıtlarsan yol sana göre açılır.'
+                  : amacCumlesi(profil.amaclar)}
+              </p>
+              {!profil.atlandi && (
+                <p className="text-xs text-metin-3 mt-2">
+                  Başlangıç: {ASAMA_ADI[profil.baslangic]}
+                  {sureEtiketi ? ` · Haftalık ${sureEtiketi}` : ''}
+                </p>
+              )}
+            </div>
+            {onProfilDuzenle && (
+              <button
+                type="button"
+                onClick={onProfilDuzenle}
+                className="shrink-0 py-2 px-3 rounded-xl bg-zemin-3 border border-zemin-4 text-metin-2 hover:text-white text-xs font-bold transition-colors"
+              >
+                {profil.atlandi ? 'Yanıtla' : 'Değiştir'}
+              </button>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Görsel Bozkır Rütbe Basamakları (Steppe Rank Ladders) */}
       <div className="bg-derin-3 border border-derin rounded-3xl p-6 shadow-xl space-y-4 text-left">

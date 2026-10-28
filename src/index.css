@@ -335,3 +335,34 @@ body {
     animation: none;
   }
 }
+
+/* ——— ERİŞİLEBİLİRLİK ———
+   Hedef kitlede yaşlı yetişkinler de var: yazı boyutu kullanıcıda.
+   Kök yazı boyutu değişince rem tabanlı tüm ölçüler birlikte büyür. */
+html[data-yazi='buyuk'] { font-size: 18px; }
+html[data-yazi='daha-buyuk'] { font-size: 20px; }
+
+/* Klavyeyle gezinen için görünür odak halkası. Yalnız :focus-visible:
+   fareyle tıklayanda halka çıkmaz. */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid var(--renk-marka, #2DD4BF);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* İçeriğe atlama bağlantısı: yalnız odaklanınca görünür. Klavyeyle
+   gelen kişi 100'den fazla gezinti düğmesini teker teker geçmesin. */
+.atla-baglantisi {
+  position: absolute;
+  left: 0.5rem;
+  top: -4rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: #2DD4BF;
+  color: #042023;
+  font-weight: 700;
+  font-size: 0.875rem;
+  transition: top 0.15s ease;
+}
+.atla-baglantisi:focus { top: 0.5rem; }

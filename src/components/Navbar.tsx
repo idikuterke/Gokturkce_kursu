@@ -57,9 +57,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="runic text-2xl leading-none">𐱅</span>
           </div>
           <div>
-            <h1 className="text-base sm:text-lg font-bold text-white tracking-tight flex items-center gap-1.5 font-serif">
+            {/* Marka adı sayfa başlığı değil: her ekranda aynı. h1 olarak
+                kalınca her sayfada iki h1 oluyordu, başlık düzeni bozuktu. */}
+            <div className="text-base sm:text-lg font-bold text-white tracking-tight flex items-center gap-1.5 font-serif">
               Göktürkçe <span className="text-marka-acik font-sans font-semibold text-[10px] px-1.5 py-0.2 rounded-full bg-marka-acik/10 border border-marka-acik/30">ÖĞRENEK</span>
-            </h1>
+            </div>
             <p className="text-[10px] text-metin-4 -mt-0.5 hidden sm:block">Kadim Bozkır Dili & Yazıtları</p>
           </div>
         </div>
@@ -173,16 +175,19 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Mobile Hamburger Menu Toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? 'Menüyü kapat' : 'Menüyü aç'}
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobil-menu"
             className="md:hidden p-1.5 rounded-xl bg-derin-4 border border-[#173D46] text-metin-4 hover:text-white"
           >
-            {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {mobileMenuOpen ? <X className="w-5 h-5" aria-hidden="true" /> : <Menu className="w-5 h-5" aria-hidden="true" />}
           </button>
         </div>
       </div>
 
       {/* Mobile Drawer Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#091C21] border-b border-[#1A3E47] p-3 space-y-1">
+        <div id="mobil-menu" className="md:hidden bg-[#091C21] border-b border-[#1A3E47] p-3 space-y-1">
           {primaryTabs.map((tab) => {
             const Icon = tab.icon;
             const isActive = isCurrentTabActive(tab.id);

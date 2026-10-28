@@ -5,10 +5,14 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 import { AuthProvider } from './context/AuthContext';
 import { ErisimKapisi, kapiAcikMi } from './components/ErisimKapisi';
 import './index.css';
+import { yaziBoyutunuYukle } from './components/YaziBoyutu';
 
 // Denetim ekrani: gelistirmede her zaman, uretimde yalnizca VITE_DENETIM
 // acikken pakete girer. Boylece kapali tanitim surumunde admin ekrani
 // kullanilabilir, herkese acik surumde paketin icinde hic bulunmaz.
+// Saklanan yazı boyutu ilk boyamadan önce uygulanır, yoksa sayfa zıplar.
+yaziBoyutunuYukle();
+
 const denetimKullanilabilir = import.meta.env.DEV || import.meta.env.VITE_DENETIM === 'acik';
 const denetimModu = denetimKullanilabilir && window.location.hash === '#denetim';
 const DenetimView = denetimModu

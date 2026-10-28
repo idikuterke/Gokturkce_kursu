@@ -32,7 +32,8 @@
     "sozluk:belirsizlik": "node engine/sozluk-belirsizlik.mjs",
     "sozluk:rapor": "node engine/sozluk-belirsizlik.mjs && node engine/sozluk-kuyruk-raporu.mjs",
     "kurs:birimler": "node engine/kurs-birimleri-tara.mjs && node engine/kurs-birimleri-tamir.mjs",
-    "gorsel:web": "python3 engine/gorsel/web-surum.py"
+    "gorsel:web": "python3 engine/gorsel/web-surum.py",
+    "erisim:denetim": "node engine/erisilebilirlik-denetim.mjs"
   },
   "dependencies": {
     "ajv": "^8.20.0",

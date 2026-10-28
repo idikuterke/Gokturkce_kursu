@@ -38,9 +38,9 @@ export const AlistirmaView: React.FC<AlistirmaViewProps> = ({
             </span>
             <span className="text-xs text-marka-acik font-mono">Alıştırma & Yazım</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-white font-serif">
+          <h1 className="text-2xl sm:text-3xl font-bold text-white font-serif">
             Tamgaları Zihnine ve Taşlara Nakşet
-          </h2>
+          </h1>
           <p className="text-xs sm:text-sm text-metin-4 leading-relaxed">
             İster parmağınla taşı kazıyarak yazma pratiği yap, ister kartlarla hafızanı tazele veya hızlı can antrenmanıyla gücünü topla.
           </p>

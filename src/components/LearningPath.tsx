@@ -136,9 +136,9 @@ export const LearningPath: React.FC<LearningPathProps> = ({
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-uyari/10 text-uyari border border-uyari/30">
               <Sparkles className="w-3.5 h-3.5" /> Bozkırın Kadim Yolculuğu
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white font-serif tracking-tight">
+            <h1 className="text-2xl sm:text-3xl font-bold text-white font-serif tracking-tight">
               Taşlara Kazınan Tarih Seni Bekliyor
-            </h2>
+            </h1>
             <p className="text-xs sm:text-sm text-metin-4 leading-relaxed">
               Her gün birkaç dakika ayırarak Orhun bengü taşlarını orijinal runik tamgalarıyla okumayı öğren.
             </p>
@@ -286,6 +286,11 @@ export const LearningPath: React.FC<LearningPathProps> = ({
                             }
                           }}
                           disabled={!isUnlocked}
+                          // Düğüm yalnız simge gösteriyor; ekran okuyucu
+                          // için ders adı ve durumu sese dökülüyor.
+                          aria-label={`${lesson.title} — ${
+                            isCompleted ? 'tamamlandı' : isUnlocked ? 'başlamaya hazır' : 'kilitli'
+                          }, ${lesson.xp} XP`}
                           className={`relative w-18 h-18 sm:w-20 sm:h-20 rounded-full flex flex-col items-center justify-center transition-all cursor-pointer ${
                             isCompleted
                               ? 'bg-marka-derin border-b-4 border-[#0F766E] shadow-lg shadow-marka-derin/30 hover:scale-105 active:translate-y-1 text-white'
