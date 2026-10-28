@@ -652,6 +652,7 @@ export const App: React.FC = () => {
             onClaimBadge={handleClaimBadge}
             profil={profil}
             onProfilDuzenle={() => setGirisAcik(true)}
+            uniteler={tumUniteler}
           />
         )}
         </Suspense>

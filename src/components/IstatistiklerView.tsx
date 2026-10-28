@@ -23,12 +23,14 @@ import {
   Sparkles,
   ArrowRight
 } from 'lucide-react';
-import { UserProgress, OgrenciProfili } from '../types';
+import { UserProgress, OgrenciProfili, Unit } from '../types';
 import { getWeeklyChartData, getStreakCalendarDays } from '../utils/statsUtils';
 import { SOZLUK } from '../data/sozlukData';
 import { TAMGALAR } from '../data/tamgalarData';
 import { GIRIS_SORULARI, ASAMA_ADI, amacCumlesi } from '../data/girisSorulari';
 import { BadgesSection } from './BadgesSection';
+import { CalismaRaporu } from './CalismaRaporu';
+import { LeitnerDurumu } from '../utils/leitner';
 import { Badge } from '../data/badgesData';
 
 interface IstatistiklerViewProps {
@@ -39,6 +41,8 @@ interface IstatistiklerViewProps {
   profil?: OgrenciProfili | null;
   /** Yanıtları yeniden sorar. */
   onProfilDuzenle?: () => void;
+  /** Çalışma raporu için tüm üniteler. */
+  uniteler?: Unit[];
 }
 
 export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
@@ -46,8 +50,17 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
   onNavigateToTab,
   onClaimBadge,
   profil,
-  onProfilDuzenle
+  onProfilDuzenle,
+  uniteler = []
 }) => {
+  // Leitner kutuları kartlar ekranında yazılıyor; rapor için okunuyor.
+  const leitner: LeitnerDurumu = (() => {
+    try {
+      return JSON.parse(localStorage.getItem('gokturkce_leitner_v1') ?? '{}');
+    } catch {
+      return {};
+    }
+  })();
   const [metricMode, setMetricMode] = useState<'xp' | 'kelime'>('xp');
 
   // Stats derivations
@@ -71,6 +84,10 @@ export const IstatistiklerView: React.FC<IstatistiklerViewProps> = ({
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 space-y-8">
+      {uniteler.length > 0 && (
+        <CalismaRaporu progress={progress} profil={profil} uniteler={uniteler} leitner={leitner} />
+      )}
+
       {/* İhtiyaç analizi: öğrencinin kendi beyanı, ölçüm değil. */}
       {profil && (
         <section
