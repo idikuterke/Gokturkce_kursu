@@ -90,6 +90,25 @@ export interface DayActivity {
   wordsLearned: number;
 }
 
+/**
+ * Giriş ekranında toplanan ihtiyaç analizi yanıtları. İlerleme kaydından
+ * AYRI tutuluyor (gokturkce_profil_v1): beyan ilerleme değildir, karışmasın.
+ */
+export interface OgrenciProfili {
+  /** Seçenek kimlikleri; birden çok olabilir. */
+  amaclar: string[];
+  /** Tek seçenek kimliği. */
+  onBilgi: string;
+  /** Beyandan türeyen başlangıç aşaması. */
+  baslangic: 'alfabe' | 'gundelik' | 'sayi' | 'kitabe';
+  /** Haftalık ayırabileceğini söylediği dakika. */
+  haftalikDakika: number;
+  /** ISO 8601. */
+  tarih: string;
+  /** Soruları yanıtlamadan geçtiyse true; analiz eksik sayılır. */
+  atlandi?: boolean;
+}
+
 export interface UserProgress {
   xp: number;
   hearts: number;

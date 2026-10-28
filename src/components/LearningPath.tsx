@@ -59,6 +59,11 @@ export const LearningPath: React.FC<LearningPathProps> = ({
   // Helper to determine if a lesson is unlocked
   const isLessonUnlocked = (unit: Unit, lessonIndex: number): boolean => {
     if (unit.number === 1 && lessonIndex === 0) return true;
+
+    // Giriş kapısındaki beyanla açılan üniteler: "alfabeyi okuyabiliyorum"
+    // diyen kişiyi alfabenin ilk dersinde tutmuyoruz. Açmak tamamlamak
+    // değil — bu dersler hâlâ çalışılmamış görünür.
+    if (progress.unlockedUnits?.[unit.id]) return true;
     
     if (lessonIndex > 0) {
       const prevLesson = unit.lessons[lessonIndex - 1];

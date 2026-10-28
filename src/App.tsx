@@ -7,7 +7,7 @@ import { DailyQuestsModal } from './components/DailyQuestsModal';
 import { QuestToast } from './components/QuestToast';
 import { CelebrationBanner } from './components/CelebrationBanner';
 import { UNITS } from './data/curriculumData';
-import { Lesson, UserProgress, DailyQuest, QuestCategory, TamgaItem } from './types';
+import { Lesson, UserProgress, DailyQuest, QuestCategory, TamgaItem, OgrenciProfili } from './types';
 import { Badge } from './data/badgesData';
 import { playSuccessSound, playVictoryFanfare } from './utils/audio';
 import { ensureDailyQuests, updateQuestProgressInState } from './utils/dailyQuests';
@@ -15,6 +15,7 @@ import { formatDateToKey, getInitialActivityHistory, yeniSeri } from './utils/st
 import { sonucGonder, kuyrukTasi } from './utils/sonucGonder';
 import { useCloudProgress } from './hooks/useCloudProgress';
 import { AuthModal } from './components/AuthModal';
+import { GirisKapisi } from './components/GirisKapisi';
 import { uretilmisKusaklar } from './data/generated/kusakKur';
 import { gundelikKusaklar } from './data/generated/gundelikKusak';
 import { sayiKusaklar } from './data/generated/sayiKusak';
@@ -42,6 +43,8 @@ const TabYukleniyor = () => (
 );
 
 const STORAGE_KEY = 'gokturkce_progress_v1';
+// İhtiyaç analizi yanıtları ilerlemeden AYRI dosyada: beyan ilerleme değil.
+const PROFIL_KEY = 'gokturkce_profil_v1';
 
 const INITIAL_PROGRESS: UserProgress = {
   xp: 0,
@@ -84,6 +87,16 @@ export const App: React.FC = () => {
 
   const [selectedDrawingTamga, setSelectedDrawingTamga] = useState<TamgaItem | undefined>(undefined);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  // İhtiyaç analizi: yoksa giriş kapısı açılır, varsa yol ona göre kurulur.
+  const [profil, setProfil] = useState<OgrenciProfili | null>(() => {
+    try {
+      const kayit = localStorage.getItem(PROFIL_KEY);
+      return kayit ? (JSON.parse(kayit) as OgrenciProfili) : null;
+    } catch {
+      return null;
+    }
+  });
+  const [girisAcik, setGirisAcik] = useState(false);
   // Elle yazılmış 5 aşamanın ardına eklenen, korpustan üretilmiş kuşaklar.
   // Ayrı parçada; öğrenme yolu açılınca iniyor. İnmezse yol elle yazılmış
   // içerikle sorunsuz çalışmaya devam eder.
@@ -153,6 +166,30 @@ export const App: React.FC = () => {
       ].map((u, i) => ({ ...u, number: i + 1 })),
     [alfabeUniteleri, gundelikUniteler, sayiUniteleri, kitabeGirisi, uretilmisUniteler, kursBirimleri]
   );
+
+  /**
+   * Beyan edilen aşamaya kadarki ünitelerin kimlikleri. Ders sırası
+   * konumla (number) değil aşamayla belirleniyor: üretilmiş kuşaklar
+   * sonradan indiği için numaralar kayıyor, aşama kaymıyor.
+   *
+   * Açmak tamamlamak değildir: bu üniteler kilitsiz görünür ama hiçbiri
+   * "bitti" sayılmaz, XP getirmez.
+   */
+  const beyanlaAcilan = useMemo(() => {
+    if (!profil || profil.baslangic === 'alfabe') return {} as Record<string, boolean>;
+    const asamalar: { ad: OgrenciProfili['baslangic']; uniteler: typeof UNITS }[] = [
+      { ad: 'alfabe', uniteler: alfabeUniteleri },
+      { ad: 'gundelik', uniteler: gundelikUniteler },
+      { ad: 'sayi', uniteler: sayiUniteleri },
+      { ad: 'kitabe', uniteler: kitabeGirisi },
+    ];
+    const sinir = asamalar.findIndex((a) => a.ad === profil.baslangic);
+    const acik: Record<string, boolean> = {};
+    // Beyan edilen aşama DAHİL açılır; öğrenci oradan başlar.
+    for (const a of asamalar.slice(0, sinir + 1))
+      for (const u of a.uniteler) acik[u.id] = true;
+    return acik;
+  }, [profil, alfabeUniteleri, gundelikUniteler, sayiUniteleri, kitabeGirisi]);
 
   const handleTabChange = (tab: string) => {
     setCurrentTab(tab);
@@ -536,7 +573,7 @@ export const App: React.FC = () => {
         {currentTab === 'ogren' && (
           <LearningPath
             units={tumUniteler}
-            progress={progress}
+            progress={{ ...progress, unlockedUnits: { ...beyanlaAcilan, ...progress.unlockedUnits } }}
             onStartLesson={(lesson) => setActiveLesson(lesson)}
             onOpenTamgalik={() => {
               setSelectedDrawingTamga(undefined);
@@ -613,6 +650,8 @@ export const App: React.FC = () => {
             progress={progress}
             onNavigateToTab={(tab) => handleTabChange(tab)}
             onClaimBadge={handleClaimBadge}
+            profil={profil}
+            onProfilDuzenle={() => setGirisAcik(true)}
           />
         )}
         </Suspense>
@@ -643,6 +682,22 @@ export const App: React.FC = () => {
 
       {/* Hesap / Giriş Modalı */}
       <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
+
+      {/* İhtiyaç analizi: ilk açılışta, sonra yalnız istenirse. */}
+      {(!profil || girisAcik) && (
+        <GirisKapisi
+          mevcut={profil ?? undefined}
+          onTamamla={(yeni) => {
+            setProfil(yeni);
+            setGirisAcik(false);
+            try {
+              localStorage.setItem(PROFIL_KEY, JSON.stringify(yeni));
+            } catch {
+              // saklanamadıysa oturum boyunca geçerli
+            }
+          }}
+        />
+      )}
 
       {/* Daily Quests Details Modal */}
       {isQuestsModalOpen && progress.dailyQuests && (
