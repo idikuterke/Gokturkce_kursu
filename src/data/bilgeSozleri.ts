@@ -54,9 +54,11 @@ export const BILGE_SOZLERI: Record<Baglam, BilgeSozu[]> = {
     { metin: 'Öğrendiğin sözcükler artık senin. Kimse geri alamaz.', ruh: 'cheer' },
     { metin: 'Kutlu olsun.', ruh: 'proud', sozcuk: 'kut' },
   ],
+  // Can bitince ders artık engellenmiyor, onarım turu açılıyor. Sözler
+  // de ona göre: "dinlen, yarın gel" demek akışla çelişiyordu.
   canBitti: [
-    { metin: 'Canın tükendi. Bu bir yenilgi değil, mola.', ruh: 'uyari' },
-    { metin: 'Dinlen. Yarın göz daha keskin olur.', ruh: 'idle' },
+    { metin: 'Canın tükendi. Bu bir yenilgi değil, dönüş.', ruh: 'uyari' },
+    { metin: 'Yanlışını düzelten, taşı söker.', ruh: 'idle' },
   ],
   kitabe: [
     { metin: 'Bu satırlar gerçek bir taştan. Kimse uydurmadı.', ruh: 'proud', sozcuk: 'bengu' },

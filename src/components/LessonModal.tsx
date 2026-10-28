@@ -107,6 +107,13 @@ export const LessonModal: React.FC<LessonModalProps> = ({
   // Ilk denemede yanlis yanitlanan alistirmalarin kimlikleri. Hem isabet
   // oranini durust tutar hem de "Tekrar" rozetini tetikler.
   const [missedIds, setMissedIds] = useState<Set<string>>(new Set());
+  /**
+   * ONARIM TURU. Can bitince ders engellenmiyor; kalan kuyruk yanlış
+   * yanıtlananlar öne alınacak şekilde yeniden diziliyor ve can düşmeyi
+   * bırakıyor. Yetişkin için hata öğrenme malzemesidir: kişiyi kendi
+   * hatasını düzeltmekten alıkoymak öğretmez, yalnız cezalandırır.
+   */
+  const [onarimTuru, setOnarimTuru] = useState(false);
 
   const currentExercise: Exercise = queue[currentIndex];
   const progressPercent = Math.round((currentIndex / queue.length) * 100);
@@ -226,7 +233,8 @@ export const LessonModal: React.FC<LessonModalProps> = ({
       }
     } else {
       playErrorSound();
-      onHeartLoss();
+      // Onarım turunda ikinci kez ceza yok.
+      if (!onarimTuru) onHeartLoss();
       // Dogru yanitlanana kadar kuyrugun sonunda yeniden sorulsun.
       setMissedIds(prev => new Set(prev).add(currentExercise.id));
       setQueue(prev => [...prev, currentExercise]);
@@ -262,13 +270,31 @@ export const LessonModal: React.FC<LessonModalProps> = ({
     setAvailableTokens(prev => [...prev, token]);
   };
 
-  // Game over state if hearts reach 0
-  if (progress.hearts <= 0 && !isFinished) {
+  /** Kuyruğun kalanında kaç tanesi daha önce yanlış yanıtlandı. */
+  const onarilacak = queue.slice(currentIndex).filter((e) => missedIds.has(e.id)).length;
+
+  /** Onarım turuna geç: yanlışlar öne alınır, sıra bozulmaz. */
+  const onarimaGec = () => {
+    setQueue((prev) => {
+      const gecmis = prev.slice(0, currentIndex);
+      const kalan = prev.slice(currentIndex);
+      const yanlislar = kalan.filter((e) => missedIds.has(e.id));
+      const digerleri = kalan.filter((e) => !missedIds.has(e.id));
+      return [...gecmis, ...yanlislar, ...digerleri];
+    });
+    setOnarimTuru(true);
+  };
+
+  // Can bitti: engelleme yok, onarım turu teklif ediliyor.
+  if (progress.hearts <= 0 && !isFinished && !onarimTuru) {
     return (
       <div className="fixed inset-0 z-50 bg-zemin/95 backdrop-blur-md flex items-center justify-center p-4">
-        <div className="max-w-md w-full bg-zemin-2 border-2 border-rose-500/50 rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
-          <div className="w-20 h-20 mx-auto rounded-full bg-rose-500/10 border-2 border-rose-500 flex items-center justify-center text-rose-500 animate-pulse">
-            <Heart className="w-10 h-10 fill-rose-500" />
+        {/* Ceza değil geçiş: kırmızı çerçeve ve kalp yerine onarım işareti.
+            Metin "ders bitmedi" derken görselin "kaybettin" demesi
+            çelişkiydi. */}
+        <div className="max-w-md w-full bg-zemin-2 border-2 border-marka/50 rounded-3xl p-8 text-center space-y-6 shadow-2xl animate-zoomIn">
+          <div className="w-20 h-20 mx-auto rounded-full bg-marka/10 border-2 border-marka flex items-center justify-center text-marka">
+            <RotateCcw className="w-10 h-10" aria-hidden="true" />
           </div>
 
           <div className="flex justify-center">
@@ -276,22 +302,30 @@ export const LessonModal: React.FC<LessonModalProps> = ({
           </div>
 
           <div className="space-y-2">
-            <h3 className="text-2xl font-bold text-white font-serif">Canların Tükendi!</h3>
+            <h3 className="text-2xl font-bold text-white font-serif">Onarım Turu</h3>
             <p className="text-sm text-metin-2">
-              Bengü taşları sökmek sabır ister alpım. Hemen canını tazeleyebilir veya serbest antrenmanla devam edebilirsin.
+              {onarilacak > 0
+                ? `Canların bitti ama ders bitmedi. Yanlış yanıtladığın ${onarilacak} alıştırma öne alınacak; bu turda can düşmez. Taşı söken, yanlışını düzeltendir.`
+                : 'Canların bitti ama ders bitmedi. Kalan alıştırmaları can harcamadan tamamlayabilirsin.'}
             </p>
           </div>
 
           <div className="space-y-3 pt-2">
             <button
+              onClick={onarimaGec}
+              className="w-full py-3 rounded-2xl bg-marka hover:bg-marka-koyu text-zemin font-bold text-sm shadow-lg shadow-marka/30 transition-colors"
+            >
+              {onarilacak > 0 ? 'Hatalarımı tekrar et' : 'Derse devam et'}
+            </button>
+            <button
               onClick={onRefillHearts}
-              className="w-full py-3 rounded-2xl bg-rose-500 hover:bg-rose-600 text-white font-bold text-sm shadow-lg shadow-rose-500/30 transition-colors"
+              className="w-full py-3 rounded-2xl bg-zemin-3 hover:bg-[#1b2d47] text-metin-2 font-medium text-sm transition-colors border border-zemin-4"
             >
               Canları Tazele (+5 Can)
             </button>
             <button
               onClick={onClose}
-              className="w-full py-3 rounded-2xl bg-zemin-3 hover:bg-[#1b2d47] text-metin-2 font-medium text-sm transition-colors border border-zemin-4"
+              className="w-full py-3 rounded-2xl bg-transparent hover:bg-zemin-3 text-metin-3 hover:text-metin-2 font-medium text-xs transition-colors"
             >
               Öğrenme Yoluna Dön
             </button>
@@ -336,6 +370,7 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             <p className="text-xs text-amber-400/90 flex items-center justify-center gap-1.5">
               <RotateCcw className="w-3.5 h-3.5" />
               {missedIds.size} alıştırmayı tekrar ederek pekiştirdin
+              {onarimTuru ? ' — onarım turuyla bitirdin' : ''}
             </p>
           )}
 
@@ -371,11 +406,21 @@ export const LessonModal: React.FC<LessonModalProps> = ({
           />
         </div>
 
-        {/* Hearts */}
-        <div className="flex items-center gap-1.5 text-rose-500 font-bold text-sm bg-zemin-3 border border-zemin-4 px-3 py-1.5 rounded-full">
-          <Heart className="w-4 h-4 fill-rose-500" />
-          <span>{progress.hearts}</span>
-        </div>
+        {/* Can — onarım turunda sayaç yerine tur rozeti */}
+        {onarimTuru ? (
+          <div className="flex items-center gap-1.5 text-marka font-bold text-xs bg-zemin-3 border border-marka/40 px-3 py-1.5 rounded-full">
+            <RotateCcw className="w-3.5 h-3.5" aria-hidden="true" />
+            <span>Onarım</span>
+          </div>
+        ) : (
+          <div
+            className="flex items-center gap-1.5 text-rose-500 font-bold text-sm bg-zemin-3 border border-zemin-4 px-3 py-1.5 rounded-full"
+            aria-label={`Kalan can: ${progress.hearts}`}
+          >
+            <Heart className="w-4 h-4 fill-rose-500" aria-hidden="true" />
+            <span>{progress.hearts}</span>
+          </div>
+        )}
       </div>
 
       {/* Main Exercise View Container */}
