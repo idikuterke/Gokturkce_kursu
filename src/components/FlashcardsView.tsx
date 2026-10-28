@@ -1,4 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
+import {
+  LeitnerDurumu,
+  calismaDestesi,
+  kutuDagilimi,
+  sonrakiVade,
+  yeniDurum,
+  KUTU_SAYISI,
+  ARALIK,
+} from '../utils/leitner';
 import { 
   RotateCw, 
   CheckCircle2, 
@@ -24,12 +33,27 @@ interface FlashcardsViewProps {
   onListenPronunciation?: () => void;
 }
 
+const LEITNER_KEY = 'gokturkce_leitner_v1';
+
 export const FlashcardsView: React.FC<FlashcardsViewProps> = ({ 
   onEarnXp,
   onCompleteSeries,
   onListenPronunciation
 }) => {
   const [filter, setFilter] = useState<string>('all');
+  /**
+   * Leitner kutuları tamga başına saklanıyor. Deste rastgele
+   * karıştırılmıyor: vadesi gelen kartlar zayıf kutudan güçlüye diziliyor.
+   */
+  const [leitner, setLeitner] = useState<LeitnerDurumu>(() => {
+    try {
+      return JSON.parse(localStorage.getItem(LEITNER_KEY) ?? '{}') as LeitnerDurumu;
+    } catch {
+      return {};
+    }
+  });
+  /** Vadesi gelmemiş kartları da çalışmak isteyenler için. */
+  const [hepsiniCalis, setHepsiniCalis] = useState(false);
   const [deck, setDeck] = useState<TamgaItem[]>(TAMGALAR);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -37,25 +61,27 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
   const [reviewCount, setReviewCount] = useState(0);
   const [isCompleted, setIsCompleted] = useState(false);
 
-  // Filter deck
+  /** Seçili süzgece giren tamgalar (vade bakılmadan). */
+  const suzulmus = useMemo(
+    () => (filter === 'all' ? TAMGALAR : TAMGALAR.filter((t) => t.category === filter)),
+    [filter]
+  );
+  const dagilim = useMemo(() => kutuDagilimi(suzulmus, leitner), [suzulmus, leitner]);
+  const vadeli = useMemo(() => calismaDestesi(suzulmus, leitner), [suzulmus, leitner]);
+  const sonraki = useMemo(() => sonrakiVade(suzulmus, leitner), [suzulmus, leitner]);
+
+  // Süzgeç ya da çalışma kipi değişince desteyi yeniden kur.
+  // Leitner durumu DEĞİŞİNCE kurulmaz: her yanıtta deste altımızdan
+  // kayar, kart atlanırdı.
   useEffect(() => {
-    let list = TAMGALAR;
-    if (filter === 'unluler') {
-      list = TAMGALAR.filter(t => t.category === 'unluler');
-    } else if (filter === 'kutuplu') {
-      list = TAMGALAR.filter(t => t.category === 'kutuplu');
-    } else if (filter === 'kutupsuz') {
-      list = TAMGALAR.filter(t => t.category === 'kutupsuz');
-    } else if (filter === 'ligatur') {
-      list = TAMGALAR.filter(t => t.category === 'ligatur');
-    }
-    setDeck(list);
+    setDeck(hepsiniCalis ? suzulmus : vadeli);
     setCurrentIndex(0);
     setIsFlipped(false);
     setKnownCount(0);
     setReviewCount(0);
     setIsCompleted(false);
-  }, [filter]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filter, hepsiniCalis]);
 
   // Keyboard shortcut listener (Space = flip, ArrowRight = next, ArrowLeft = prev)
   useEffect(() => {
@@ -98,8 +124,23 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
     }
   };
 
+  /** Kartın kutusunu günceller ve saklar. */
+  const kutuyuIsle = (biliyor: boolean) => {
+    if (!currentCard) return;
+    setLeitner((onceki) => {
+      const guncel = { ...onceki, [currentCard.rune]: yeniDurum(onceki[currentCard.rune], biliyor) };
+      try {
+        localStorage.setItem(LEITNER_KEY, JSON.stringify(guncel));
+      } catch {
+        // saklanamadıysa oturum boyunca geçerli
+      }
+      return guncel;
+    });
+  };
+
   const handleMarkKnown = () => {
     playSuccessSound();
+    kutuyuIsle(true);
     setKnownCount(prev => prev + 1);
     if (onEarnXp) {
       onEarnXp(5);
@@ -109,6 +150,7 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
 
   const handleMarkReview = () => {
     playChiselSound();
+    kutuyuIsle(false);
     setReviewCount(prev => prev + 1);
     handleNext();
   };
@@ -195,11 +237,53 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
         ))}
       </div>
 
+      {/* Leitner kutuları: hangi tamga hangi kutuda, bugün kaçı vadeli */}
+      <section aria-labelledby="kutu-baslik" className="rounded-2xl border border-zemin-4 bg-zemin-2 p-4 space-y-3">
+        <div className="flex items-baseline justify-between gap-3 flex-wrap">
+          <h3 id="kutu-baslik" className="text-xs font-bold uppercase tracking-widest text-marka">
+            Tekrar kutuları
+          </h3>
+          <span className="text-xs text-metin-2">
+            {vadeli.length > 0
+              ? `Bugün ${vadeli.length} kart vadeli`
+              : sonraki
+              ? `Bugün vadesi gelen kart yok · sıradaki ${sonraki}`
+              : 'Bugün vadesi gelen kart yok'}
+          </span>
+        </div>
+        <div className="flex gap-1.5">
+          {dagilim.map((n, i) => (
+            <div key={i} className="flex-1 text-center">
+              <div
+                className={`h-1.5 rounded-full ${n > 0 ? 'bg-marka' : 'bg-zemin-4'}`}
+                style={{ opacity: n > 0 ? 0.35 + (i / (KUTU_SAYISI - 1)) * 0.65 : 1 }}
+              />
+              <span className="block text-[10px] text-metin-3 mt-1 font-mono" title={`${ARALIK[i + 1]} gün sonra tekrar`}>
+                {i + 1}. · {n}
+              </span>
+            </div>
+          ))}
+        </div>
+        <p className="text-[11px] text-metin-3 leading-relaxed">
+          Bildiğin kart bir üst kutuya çıkar ve daha geç sorulur; bilemediğin
+          birinci kutuya düşer. Çalışma süresi zayıf tamgalara kayar.
+        </p>
+      </section>
+
       {/* Progress & Counter */}
       <div className="space-y-2">
         <div className="flex items-center justify-between text-xs font-semibold">
           <span className="text-metin-2">
             Kart: <span className="text-white">{currentIndex + 1}</span> / {deck.length}
+            {hepsiniCalis && (
+              <button
+                type="button"
+                onClick={() => setHepsiniCalis(false)}
+                className="ml-2 underline underline-offset-2 text-metin-3 hover:text-white"
+              >
+                yalnız vadelilere dön
+              </button>
+            )}
           </span>
           <div className="flex items-center gap-4">
             <span className="text-basari flex items-center gap-1">
@@ -219,7 +303,29 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
       </div>
 
       {/* Flashcard Area */}
-      {!isCompleted ? (
+      {deck.length === 0 ? (
+        <div className="rounded-3xl border border-zemin-4 bg-zemin-2 p-8 text-center space-y-4">
+          <CheckCircle2 className="w-12 h-12 mx-auto text-basari" aria-hidden="true" />
+          <div className="space-y-1">
+            <h3 className="text-xl font-bold text-white font-serif">Bugünlük tekrar bitti</h3>
+            <p className="text-sm text-metin-2">
+              {sonraki
+                ? `Bu gruptaki kartların hepsi ileri bir tarihe ertelendi. Sıradaki tekrar ${sonraki}.`
+                : 'Bu grupta çalışılacak kart kalmadı.'}
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setHepsiniCalis(true)}
+            className="py-3 px-5 rounded-xl bg-zemin-3 border border-zemin-4 text-metin-2 hover:text-white text-sm font-bold transition-colors"
+          >
+            Yine de hepsini çalış
+          </button>
+          <p className="text-[11px] text-metin-3">
+            İleri çalışmak kutuları bozmaz; doğru yanıt kartı yine bir üst kutuya taşır.
+          </p>
+        </div>
+      ) : !isCompleted ? (
         <div className="flex flex-col items-center space-y-6">
           {/* Flip Card Container */}
           <div
@@ -413,7 +519,7 @@ export const FlashcardsView: React.FC<FlashcardsViewProps> = ({
               Kart Turunu Tamamladın
             </h3>
             <p className="text-sm text-metin-2">
-              Seçilen gruptaki tüm tamgaları gözden geçirdin. Hafızanı taze tutmak için dilediğin zaman kartları karıştırıp yeniden başlayabilirsin.
+              Bugün vadesi gelen kartları bitirdin. Bildiklerin üst kutulara çıktı, bilemediklerin birinci kutuda kaldı ve yarın yine sorulacak.
             </p>
           </div>
 
